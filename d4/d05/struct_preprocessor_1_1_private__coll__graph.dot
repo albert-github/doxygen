@@ -1,0 +1,34 @@
+digraph "Preprocessor::Private"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="Preprocessor::Private",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" state" ];
+  Node2 [label="preYY_state",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d3/d29/structpre_y_y__state.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" blockName\ndefArgsStr\ndefExtraSpacing\ndefLitText\ndefName\ndefText\ndelimiter\nfileName\nguardExpr\nguardName\n..." ];
+  Node3 [label="QCString",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d9/d45/class_q_c_string.html",tooltip="This is an alternative implementation of QCString."];
+  Node4 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" inputFileDef\nyyFileDef" ];
+  Node4 [label="FileDef",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$de/db0/class_file_def.html",tooltip="A model of a file symbol."];
+  Node5 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node5 [label="DefinitionMutable",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d0/d46/class_definition_mutable.html",tooltip=" "];
+  Node6 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node6 [label="Definition",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d5/dcc/class_definition.html",tooltip="The common base class of all entity definitions found in the sources."];
+  Node7 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" inputBuf\noutputBuf" ];
+  Node7 [label="BufStr",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d5/d64/class_buf_str.html",tooltip="Buffer used to store strings."];
+  Node8 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" constExpParser" ];
+  Node8 [label="ConstExpressionParser",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$db/d82/class_const_expression_parser.html",tooltip=" "];
+  Node9 -> Node8 [dir="back",color="darkorchid3",style="dashed",label=" p" ];
+  Node9 [label="ConstExpressionParser\l::Private",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d7/dc3/struct_const_expression_parser_1_1_private.html",tooltip=" "];
+  Node10 -> Node9 [dir="back",color="darkorchid3",style="dashed",label=" constexpYY_extra" ];
+  Node10 [label="constexpYY_state",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d3/d1e/structconstexp_y_y__state.html",tooltip=" "];
+  Node11 -> Node10 [dir="back",color="darkorchid3",style="dashed",label=" resultValue" ];
+  Node11 [label="CPPValue",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d2/d75/class_c_p_p_value.html",tooltip="A class representing a C-preprocessor value."];
+  Node12 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" includeRelations" ];
+  Node12 [label="LinkedMap\< PreIncludeInfo \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d0/d2c/class_linked_map.html",tooltip=" "];
+  Node13 -> Node12 [dir="back",color="orange",style="dashed",label=" \< PreIncludeInfo \>" ];
+  Node13 [label="LinkedMap\< T, Hash,\l KeyEqual, Map \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d0/d2c/class_linked_map.html",tooltip="Container class representing a vector of objects with keys."];
+}
