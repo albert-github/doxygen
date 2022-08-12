@@ -202,8 +202,11 @@ digraph "src/filedef.h"
   Node93 [label="vhdlparser/VhdlParserError\lHandler.hpp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/dc3/_vhdl_parser_error_handler_8hpp.html",tooltip=" "];
   Node93 -> Node90 [dir="back",color="steelblue1",style="solid"];
   Node92 -> Node94 [dir="back",color="steelblue1",style="solid"];
-  Node94 [label="vhdlparser/vhdlstring.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$d9/d48/vhdlstring_8h.html",tooltip=" "];
+  Node94 [label="vhdlparser/vhdlstring.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d48/vhdlstring_8h.html",tooltip=" "];
   Node94 -> Node93 [dir="back",color="steelblue1",style="solid"];
+  Node94 -> Node95 [dir="back",color="steelblue1",style="solid"];
+  Node95 [label="vhdlparser/VhdlParserToken\lManager.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/dad/_vhdl_parser_token_manager_8h.html",tooltip=" "];
+  Node95 -> Node90 [dir="back",color="steelblue1",style="solid"];
   Node9 -> Node96 [dir="back",color="steelblue1",style="solid"];
   Node96 [label="src/xmlcode.l",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/dc1/xmlcode_8l.html",tooltip=" "];
   Node9 -> Node97 [dir="back",color="steelblue1",style="solid"];

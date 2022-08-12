@@ -212,11 +212,17 @@ digraph "src/regex.h"
   Node95 -> Node93 [dir="back",color="steelblue1",style="solid"];
   Node95 -> Node94 [dir="back",color="steelblue1",style="solid"];
   Node95 -> Node96 [dir="back",color="steelblue1",style="solid"];
-  Node96 [label="vhdlparser/VhdlParser.h",height=0.2,width=0.4,color="red", fillcolor="#FFF0F0", style="filled",URL="$d5/df9/_vhdl_parser_8h.html",tooltip=" "];
+  Node96 [label="vhdlparser/VhdlParser.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/df9/_vhdl_parser_8h.html",tooltip=" "];
   Node96 -> Node93 [dir="back",color="steelblue1",style="solid"];
   Node96 -> Node97 [dir="back",color="steelblue1",style="solid"];
   Node97 [label="vhdlparser/VhdlParserError\lHandler.hpp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/dc3/_vhdl_parser_error_handler_8hpp.html",tooltip=" "];
   Node97 -> Node94 [dir="back",color="steelblue1",style="solid"];
+  Node96 -> Node98 [dir="back",color="steelblue1",style="solid"];
+  Node98 [label="vhdlparser/vhdlstring.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d48/vhdlstring_8h.html",tooltip=" "];
+  Node98 -> Node97 [dir="back",color="steelblue1",style="solid"];
+  Node98 -> Node99 [dir="back",color="steelblue1",style="solid"];
+  Node99 [label="vhdlparser/VhdlParserToken\lManager.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/dad/_vhdl_parser_token_manager_8h.html",tooltip=" "];
+  Node99 -> Node94 [dir="back",color="steelblue1",style="solid"];
   Node19 -> Node100 [dir="back",color="steelblue1",style="solid"];
   Node100 [label="src/xmlcode.l",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/dc1/xmlcode_8l.html",tooltip=" "];
   Node19 -> Node101 [dir="back",color="steelblue1",style="solid"];
