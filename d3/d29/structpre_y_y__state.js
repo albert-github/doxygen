@@ -39,6 +39,7 @@ var structpre_y_y__state =
     [ "insideCS", "d3/d29/structpre_y_y__state.html#a897c7ce0f23d4a479a77bc51f077eb64", null ],
     [ "insideFtn", "d3/d29/structpre_y_y__state.html#a373a4700fee1dc989d53006f39d61fdc", null ],
     [ "insideIDL", "d3/d29/structpre_y_y__state.html#af78008d0d14cad295ce67e8eab6a2ac4", null ],
+    [ "isFixedFormFtn", "d3/d29/structpre_y_y__state.html#a24e0c90bc95e55c4f76d70eace07072d", null ],
     [ "isImported", "d3/d29/structpre_y_y__state.html#aa53cd4264786b72ae82c9d875055271b", null ],
     [ "isSource", "d3/d29/structpre_y_y__state.html#a4b206a08d998707a7863ca9d92bb779b", null ],
     [ "isSpecialComment", "d3/d29/structpre_y_y__state.html#a91cae6cadb7a4e89f9ee9bf13e12ac8c", null ],

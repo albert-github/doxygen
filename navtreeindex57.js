@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"d7/dd6/class_inherited_member_info_context.html#a84f8223edce9d3c5018ae858e8b6ba29":[4,0,330,6],
 "d7/dd6/class_inherited_member_info_context.html#ac57bb227880acb64035b5bc0cb1b7265":[4,0,330,3],
 "d7/ddd/symbolmap_8h.html":[5,0,1,228],
 "d7/ddd/symbolmap_8h_source.html":[5,0,1,228],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "d8/d31/class_template_node_tree.html#aaf1686db480ef63a2c79ed63e27d9e25":[4,0,525,5],
 "d8/d32/class_dot_node_deque.html":[4,0,205],
 "d8/d33/class_grow_buf.html":[4,0,302],
-"d8/d33/class_grow_buf.html#a0b374b413fef36107db3131180486a90":[4,0,302,10],
-"d8/d33/class_grow_buf.html#a1a0ecc7a79837ed02005befe12d49994":[4,0,302,15]
+"d8/d33/class_grow_buf.html#a0b374b413fef36107db3131180486a90":[4,0,302,10]
 };

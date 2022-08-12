@@ -1,5 +1,6 @@
 var NAVTREEINDEX38 =
 {
+"d5/d43/class_translator_persian.html#aa526db6e935668d1daa7c0a9c4ceb8b8":[4,0,590,10],
 "d5/d43/class_translator_persian.html#aa5f5695ba4b17723663c4e27c981d6ed":[4,0,590,140],
 "d5/d43/class_translator_persian.html#aa6727c823cb56954d8f6e775cb59a12d":[4,0,590,60],
 "d5/d43/class_translator_persian.html#aa6bdf30a3fc86ef8e6fd9f8e0f762496":[4,0,590,63],
@@ -248,6 +249,5 @@ var NAVTREEINDEX38 =
 "d5/d5c/class_translator_swedish.html#a09e2b12c718f8a27254d2add77bf0509":[4,0,600,37],
 "d5/d5c/class_translator_swedish.html#a0a33dc654bb806ff20eb6c822672b8ce":[4,0,600,90],
 "d5/d5c/class_translator_swedish.html#a0bd5904b71e1ca86e98c782a65ec825c":[4,0,600,58],
-"d5/d5c/class_translator_swedish.html#a0c0eaa4856f1b7432d00307b5e93b119":[4,0,600,127],
-"d5/d5c/class_translator_swedish.html#a0e767241a888086ebd9e09927479cf94":[4,0,600,42]
+"d5/d5c/class_translator_swedish.html#a0c0eaa4856f1b7432d00307b5e93b119":[4,0,600,127]
 };

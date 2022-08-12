@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"d9/dd3/struct_doc_node_list.html#a30311044775646ed646865f8423402fd":[4,0,160,0],
 "d9/dd3/struct_doc_node_list.html#a6bb13c84c8ad84d77584f6a3ec24a2a9":[4,0,160,2],
 "d9/dd3/struct_doc_node_list.html#ae3a5d9b77d64e18e642163cceac5fa2e":[4,0,160,1],
 "d9/dd5/class_dir_entry.html":[4,0,109],
@@ -248,6 +249,5 @@ var NAVTREEINDEX70 =
 "d9/de3/configimpl_8l.html#a6c24725da6b5b59e4c8867995e84648f":[5,0,1,27,18],
 "d9/de3/configimpl_8l.html#a6d73b052225d65c218ae7d286d8c633a":[5,0,1,27,43],
 "d9/de3/configimpl_8l.html#a73e0a7c37c8a540748c113811329f998":[5,0,1,27,37],
-"d9/de3/configimpl_8l.html#a7b04c2a27074eeeccf2fadb03b80fc42":[5,0,1,27,20],
-"d9/de3/configimpl_8l.html#a80001906a82b0d116f334f0bb065c7a9":[5,0,1,27,35]
+"d9/de3/configimpl_8l.html#a7b04c2a27074eeeccf2fadb03b80fc42":[5,0,1,27,20]
 };

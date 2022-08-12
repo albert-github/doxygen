@@ -1,5 +1,6 @@
 var NAVTREEINDEX35 =
 {
+"d4/dfb/structscanner_y_y__state.html#a26dc37eab1fb972c0861c5b188566200":[4,0,453,119],
 "d4/dfb/structscanner_y_y__state.html#a2704d5b9d159c582cf710d3cb1ffe912":[4,0,453,71],
 "d4/dfb/structscanner_y_y__state.html#a2930f75f28609a4d9e5ae44c79d6eba1":[4,0,453,17],
 "d4/dfb/structscanner_y_y__state.html#a2a84e3765786e24ceb02e5874a98ceb8":[4,0,453,62],
@@ -248,6 +249,5 @@ var NAVTREEINDEX35 =
 "d5/d0a/class_translator_serbian.html#aaa8b9fb056a16cfed8aa7ac08ccd1536":[4,0,595,145],
 "d5/d0a/class_translator_serbian.html#aacc7c3b3d457598eb983e27adb2dcd2e":[4,0,595,159],
 "d5/d0a/class_translator_serbian.html#aacfb33777ad8b676f1301b7504a4ca9c":[4,0,595,182],
-"d5/d0a/class_translator_serbian.html#aafb2072e6363c89863e60d55b3ab13fb":[4,0,595,197],
-"d5/d0a/class_translator_serbian.html#aafd98ed940f0263346635bb228ea4de0":[4,0,595,128]
+"d5/d0a/class_translator_serbian.html#aafb2072e6363c89863e60d55b3ab13fb":[4,0,595,197]
 };

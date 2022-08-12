@@ -1,5 +1,6 @@
 var NAVTREEINDEX98 =
 {
+"dd/d7d/class_symbol_list_context.html#a8ddd816a219c7304fa798f9ff700cec1":[4,0,479,6],
 "dd/d7d/class_symbol_list_context.html#a9c42dbf48f84c13994e2d2b167daa97b":[4,0,479,3],
 "dd/d7d/class_symbol_list_context.html#abe06d0c0828022272f120d8a2c13aece":[4,0,479,7],
 "dd/d7d/class_symbol_list_context.html#acfcce0c1025cf294455dfb394331a2c4":[4,0,479,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX98 =
 "dd/d80/class_translator_turkish.html#ad39723d98618b6290087ca4a2f9fac6d":[4,0,601,81],
 "dd/d80/class_translator_turkish.html#ad85a8fe1fa1203b404182a18c442422a":[4,0,601,77],
 "dd/d80/class_translator_turkish.html#ad8916cde9c32b0f90c169b442fde254a":[4,0,601,15],
-"dd/d80/class_translator_turkish.html#ad93f9eedecf5615f4877a6b1f1bc039a":[4,0,601,45],
-"dd/d80/class_translator_turkish.html#ad99b0146db57add916f62b7133fae143":[4,0,601,132]
+"dd/d80/class_translator_turkish.html#ad93f9eedecf5615f4877a6b1f1bc039a":[4,0,601,45]
 };
