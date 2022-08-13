@@ -92,6 +92,7 @@ var class_html_generator =
     [ "endTypewriter", "d7/d41/class_html_generator.html#a574b29296b93ffa4c3b119cbee70269c", null ],
     [ "exceptionEntry", "d7/d41/class_html_generator.html#a5a77da371131543fbce69c7227edca2a", null ],
     [ "getMathJaxMacros", "d7/d41/class_html_generator.html#af3ae2deb6a25b4b0307edd25ad66896f", null ],
+    [ "getNavTreeCss", "d7/d41/class_html_generator.html#a3874b75d86f996ce7d7ca32bea785c56", null ],
     [ "init", "d7/d41/class_html_generator.html#a0c4c6cd48e43f74bf258851f8b109faf", null ],
     [ "insertMemberAlign", "d7/d41/class_html_generator.html#a9342c375b88fae1c32c8aa9620142ee1", null ],
     [ "insertMemberAlignLeft", "d7/d41/class_html_generator.html#a2162c8cab2978da211b0ec1662863f5d", null ],

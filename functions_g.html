@@ -232,6 +232,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>getNamespace()&#160;:&#160;<a class="el" href="dd/d99/class_member_context_1_1_private.html#a1d8bf34141bd0d79c420a2d479bfea6a">MemberContext::Private</a>, <a class="el" href="d1/d4b/class_nesting_node_context_1_1_private.html#a3fe8d9098abe907ac1b7455dc7d0fe7d">NestingNodeContext::Private</a></li>
 <li>getNamespaceDef()&#160;:&#160;<a class="el" href="d6/d8d/class_concept_def.html#a9c3f2f2547ecee0747b50d7fc06e04ef">ConceptDef</a>, <a class="el" href="dd/df3/class_concept_def_alias_impl.html#a9f006c2c603ff17081761ed7be293ae4">ConceptDefAliasImpl</a>, <a class="el" href="d8/d72/class_concept_def_impl.html#a450176a4e50354ab5e2e1dd2a30e7031">ConceptDefImpl</a>, <a class="el" href="da/d09/class_member_def.html#a900cace4959b6cad9e6aa58e8283195f">MemberDef</a>, <a class="el" href="d7/d70/class_member_def_alias_impl.html#a0f897a37d1b8ac7f1597297ed4652617">MemberDefAliasImpl</a>, <a class="el" href="d7/d7e/class_member_def_impl.html#a2fd5cc82b163bff11cdacd030aa76d82">MemberDefImpl</a></li>
 <li>getNamespaces()&#160;:&#160;<a class="el" href="de/db0/class_file_def.html#a049235b5e182aa2c71db539c6d0896d3">FileDef</a>, <a class="el" href="d5/d14/class_file_def_impl.html#a976a2008d55a3b168a4023d8d056ca59">FileDefImpl</a>, <a class="el" href="d8/d09/class_group_def.html#a9ac892052b696a7c561f7dfa7be68f72">GroupDef</a>, <a class="el" href="db/d22/class_group_def_impl.html#aab5bdf92548bd45530de3885ba200a18">GroupDefImpl</a>, <a class="el" href="d0/d07/class_namespace_def.html#a948889b7a35fb82ebcdf2598a63e1d8d">NamespaceDef</a>, <a class="el" href="d2/d9c/class_namespace_def_alias_impl.html#a2055a47c7c662906f65492ca85c76b76">NamespaceDefAliasImpl</a>, <a class="el" href="d5/dfa/class_namespace_def_impl.html#a4417a792b091f1df0374141e2d93bba5">NamespaceDefImpl</a></li>
+<li>getNavTreeCss()&#160;:&#160;<a class="el" href="d7/d41/class_html_generator.html#a3874b75d86f996ce7d7ca32bea785c56">HtmlGenerator</a></li>
 <li>getNextIfLink()&#160;:&#160;<a class="el" href="db/d1e/class_flow_chart.html#a948abd6948d3e24f3e9dec7eff2c3a18">FlowChart</a></li>
 <li>getNextNode()&#160;:&#160;<a class="el" href="db/d1e/class_flow_chart.html#a660d99edcee9c4dd556b42b8aa1dd4da">FlowChart</a></li>
 <li>getNextNodeNumber()&#160;:&#160;<a class="el" href="d0/d32/class_dot_graph.html#ab7a96017fa2549a34f15ad4705480952">DotGraph</a></li>
@@ -335,8 +336,8 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>GROUPDOC_SEC&#160;:&#160;<a class="el" href="d4/dd7/class_entry.html#a1e615d53eb7db6d16c19fcb5788fbd9eac436870a3523aa8c5466e9cf63ec0c75">Entry</a></li>
 <li>GROUPDOC_WEAK&#160;:&#160;<a class="el" href="d4/dd7/class_entry.html#a470b655d0d6179559a11a81e6617d509a4231a193e86f3b43e9b1b6fe12f64ed0">Entry</a></li>
 <li>groupDocCmd()&#160;:&#160;<a class="el" href="d4/dd7/class_entry.html#a31d0ff4d3bd0f73c3058cca85ec0e704">Entry</a></li>
-<li>GroupDocType&#160;:&#160;<a class="el" href="d4/dd7/class_entry.html#a470b655d0d6179559a11a81e6617d509">Entry</a></li>
 <li>groupDocType&#160;:&#160;<a class="el" href="d4/dd7/class_entry.html#a158710fdea38498193fe93713a280717">Entry</a></li>
+<li>GroupDocType&#160;:&#160;<a class="el" href="d4/dd7/class_entry.html#a470b655d0d6179559a11a81e6617d509">Entry</a></li>
 <li>groupFileName&#160;:&#160;<a class="el" href="d0/da8/class_member_def_impl_1_1_i_m_p_l.html#aee48df95749aec62cf3f15aed675f98f">MemberDefImpl::IMPL</a></li>
 <li>GroupFiles&#160;:&#160;<a class="el" href="d9/dba/struct_layout_doc_entry.html#a89dcbe762ed7e7f7790d8c034cf8ea01addb5ada32040cfafcc4614de770437a8">LayoutDocEntry</a></li>
 <li>GroupGraph&#160;:&#160;<a class="el" href="d9/dba/struct_layout_doc_entry.html#a89dcbe762ed7e7f7790d8c034cf8ea01aef05d6101aa292988cdcb23470729fa0">LayoutDocEntry</a></li>
@@ -382,7 +383,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Aug 12 2022 17:06:04 for Doxygen by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Sat Aug 13 2022 08:06:31 for Doxygen by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

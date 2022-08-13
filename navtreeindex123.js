@@ -1,5 +1,9 @@
 var NAVTREEINDEX123 =
 {
+"df/d75/class_translator_greek.html#a5df9b859596cb0b5836cbaf9c04d6572":[4,0,577,94],
+"df/d75/class_translator_greek.html#a5eef51c517972bf9585fb4b6cbd6998f":[4,0,577,104],
+"df/d75/class_translator_greek.html#a60dfbe2aabeaade3e43bf976f95e7ae4":[4,0,577,270],
+"df/d75/class_translator_greek.html#a611d1d0086a980649a363a30f223c8d6":[4,0,577,136],
 "df/d75/class_translator_greek.html#a617664ec46372e2557437c484b0c9585":[4,0,577,174],
 "df/d75/class_translator_greek.html#a61f354a3621da4c121345eae8b2846e4":[4,0,577,235],
 "df/d75/class_translator_greek.html#a638872784be97651695123fba852387e":[4,0,577,237],
@@ -245,9 +249,5 @@ var NAVTREEINDEX123 =
 "df/da8/class_doc_html_list_item.html":[4,0,142],
 "df/da8/class_doc_html_list_item.html#a23518da8150cb798b83f89e6e0187ec6":[4,0,142,4],
 "df/da8/class_doc_html_list_item.html#a2b0955b1608a308f5393a9fe73826367":[4,0,142,6],
-"df/da8/class_doc_html_list_item.html#a2c0badd651aa4cebd3711ee5a0aaa7a7":[4,0,142,1],
-"df/da8/class_doc_html_list_item.html#a3daeb12d628efbd84f1780b3a72ea3f7":[4,0,142,5],
-"df/da8/class_doc_html_list_item.html#a77ed4fb99b1f5f1eb0099cb15bbcabec":[4,0,142,2],
-"df/da8/class_doc_html_list_item.html#ab4da01791f25919e67fad3be01978bd3":[4,0,142,0],
-"df/da8/class_doc_html_list_item.html#ab60d4e561c0174168b5b7d040e5ff7f9":[4,0,142,3]
+"df/da8/class_doc_html_list_item.html#a2c0badd651aa4cebd3711ee5a0aaa7a7":[4,0,142,1]
 };

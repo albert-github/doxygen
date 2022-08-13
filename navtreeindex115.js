@@ -1,5 +1,9 @@
 var NAVTREEINDEX115 =
 {
+"de/d82/class_translator_polish.html#a26b2a7d25ba8fed3f33fc1d5fb676081":[4,0,591,202],
+"de/d82/class_translator_polish.html#a2a432d8fddb8ae68fe3f85d78bb06943":[4,0,591,95],
+"de/d82/class_translator_polish.html#a2afd1448fafe6413751b7edc5086e24d":[4,0,591,185],
+"de/d82/class_translator_polish.html#a2c7d3e5e9a01d718082af1390eaa2e90":[4,0,591,147],
 "de/d82/class_translator_polish.html#a2cd2082e04d120d38eef506d576e930a":[4,0,591,74],
 "de/d82/class_translator_polish.html#a2d0e5f23e20962482c7750b64af25e52":[4,0,591,47],
 "de/d82/class_translator_polish.html#a2d92c886d795fc270e91223ac0bc6984":[4,0,591,140],
@@ -245,9 +249,5 @@ var NAVTREEINDEX115 =
 "de/d99/struct_template_node_tree_1_1_tree_context.html#a695f724c09696c175add24eceee42a18":[4,0,525,0,3],
 "de/d99/struct_template_node_tree_1_1_tree_context.html#a8dafe559d3897c8b0af8f328437fcf34":[4,0,525,0,1],
 "de/d99/struct_template_node_tree_1_1_tree_context.html#ab6547daae4a5a91c62c3c22fe687011b":[4,0,525,0,2],
-"de/d9a/commentcnv_8h.html":[5,0,1,17],
-"de/d9a/commentcnv_8h.html#a04d92f4281c65ebe972f5bf92bcb4a09":[5,0,1,17,0],
-"de/d9a/commentcnv_8h_source.html":[5,0,1,17],
-"de/d9a/rtfdocvisitor_8cpp.html":[5,0,1,208],
-"de/d9a/rtfdocvisitor_8cpp.html#a1c683042be29f8f10d539f4a01a03237":[5,0,1,208,1]
+"de/d9a/commentcnv_8h.html":[5,0,1,17]
 };

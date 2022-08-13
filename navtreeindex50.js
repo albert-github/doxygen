@@ -1,6 +1,5 @@
 var NAVTREEINDEX50 =
 {
-"d6/df4/struct_token_info.html#a133bc92e279cd9709b8f9b018498d938":[4,0,544,12],
 "d6/df4/struct_token_info.html#a2c5574dee34a4ba209ca1b976a1b51d0":[4,0,544,1],
 "d6/df4/struct_token_info.html#a3fec10a272a450f7dd40948b5d6e33b4":[4,0,544,17],
 "d6/df4/struct_token_info.html#a402c7432dcd346501c8e07b8f8fb5df9":[4,0,544,10],
@@ -249,5 +248,6 @@ var NAVTREEINDEX50 =
 "d7/d21/class_translator_danish.html#a8eea9b76bc53e93ee50aa683c22e11d8":[4,0,570,174],
 "d7/d21/class_translator_danish.html#a8f50fbc917681f6cb4ffa18bafc23c5c":[4,0,570,195],
 "d7/d21/class_translator_danish.html#a8fb5364c3f0c25f881cc5e17804cecf2":[4,0,570,218],
-"d7/d21/class_translator_danish.html#a9112914f46dc2688ba460797d08c9793":[4,0,570,83]
+"d7/d21/class_translator_danish.html#a9112914f46dc2688ba460797d08c9793":[4,0,570,83],
+"d7/d21/class_translator_danish.html#a91a3f0362c99e788b5ddea3fbecdcab1":[4,0,570,171]
 };
