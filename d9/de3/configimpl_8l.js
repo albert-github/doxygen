@@ -9,6 +9,7 @@ var configimpl_8l =
     [ "YY_NO_INPUT", "d9/de3/configimpl_8l.html#a85523a0c7d95c059d251b4e9829947aa", null ],
     [ "YY_NO_UNISTD_H", "d9/de3/configimpl_8l.html#ae78ac56cd1f29572e967ed7636952d15", null ],
     [ "adjustBoolSetting", "d9/de3/configimpl_8l.html#ad8f84f9572072b97ac930fb0f1a7ba9f", null ],
+    [ "adjustColorStyleSetting", "d9/de3/configimpl_8l.html#a16c4b1e165f06becc4b5debd88592a49", null ],
     [ "adjustStringSetting", "d9/de3/configimpl_8l.html#a0fba7b39cbe6dd4fe499dcd29ae2af0c", null ],
     [ "checkEncoding", "d9/de3/configimpl_8l.html#a38bfc7b0b040cc8ceefae240aad38b94", null ],
     [ "checkFileName", "d9/de3/configimpl_8l.html#ac191ad1786e980d514c4535505cf99d6", null ],

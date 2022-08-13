@@ -1,5 +1,6 @@
 var NAVTREEINDEX83 =
 {
+"db/d5f/class_translator_hungarian.html#a0c694ab275f638c2218514a4eef22582":[4,0,579,169],
 "db/d5f/class_translator_hungarian.html#a0e1da5bab5c81381130c769e68e0a396":[4,0,579,87],
 "db/d5f/class_translator_hungarian.html#a0eea5af017da7375b1b71b4086daf989":[4,0,579,114],
 "db/d5f/class_translator_hungarian.html#a1016eee29baa71400a332e85ba2a25e5":[4,0,579,110],
@@ -232,14 +233,14 @@ var NAVTREEINDEX83 =
 "db/d5f/class_translator_hungarian.html#afe5e0c1c0d7a8caa1f92e0a949faeb60":[4,0,579,98],
 "db/d62/scanner_8h.html":[5,0,1,214],
 "db/d62/scanner_8h_source.html":[5,0,1,214],
-"db/d68/classreg_1_1_sub_match.html":[4,0,3,4],
 "db/d68/classreg_1_1_sub_match.html":[3,0,6,4],
-"db/d68/classreg_1_1_sub_match.html#a1e137e41b04ac89a5c66929c0a549725":[4,0,3,4,1],
+"db/d68/classreg_1_1_sub_match.html":[4,0,3,4],
 "db/d68/classreg_1_1_sub_match.html#a1e137e41b04ac89a5c66929c0a549725":[3,0,6,4,1],
-"db/d68/classreg_1_1_sub_match.html#a316eb00c39899a5699732e350aae2d2b":[4,0,3,4,3],
+"db/d68/classreg_1_1_sub_match.html#a1e137e41b04ac89a5c66929c0a549725":[4,0,3,4,1],
 "db/d68/classreg_1_1_sub_match.html#a316eb00c39899a5699732e350aae2d2b":[3,0,6,4,3],
-"db/d68/classreg_1_1_sub_match.html#a3523ab0d0de8fcbbcd6e13cc9e246d1d":[4,0,3,4,5],
+"db/d68/classreg_1_1_sub_match.html#a316eb00c39899a5699732e350aae2d2b":[4,0,3,4,3],
 "db/d68/classreg_1_1_sub_match.html#a3523ab0d0de8fcbbcd6e13cc9e246d1d":[3,0,6,4,5],
+"db/d68/classreg_1_1_sub_match.html#a3523ab0d0de8fcbbcd6e13cc9e246d1d":[4,0,3,4,5],
 "db/d68/classreg_1_1_sub_match.html#a5a9307c50ec4361b8f81eccc1953d10a":[4,0,3,4,4],
 "db/d68/classreg_1_1_sub_match.html#a5a9307c50ec4361b8f81eccc1953d10a":[3,0,6,4,4],
 "db/d68/classreg_1_1_sub_match.html#a69b439fc63c5b605bbe8a3bfa26bb33d":[4,0,3,4,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX83 =
 "db/d68/classreg_1_1_sub_match.html#a7098227bec86f649c193d17418249ed4":[3,0,6,4,9],
 "db/d68/classreg_1_1_sub_match.html#a80bbc92cafa9d727e9c5e125a2d21585":[3,0,6,4,7],
 "db/d68/classreg_1_1_sub_match.html#a80bbc92cafa9d727e9c5e125a2d21585":[4,0,3,4,7],
-"db/d68/classreg_1_1_sub_match.html#a91ea81097db36aa16469f33146f4c6ea":[3,0,6,4,10],
-"db/d68/classreg_1_1_sub_match.html#a91ea81097db36aa16469f33146f4c6ea":[4,0,3,4,10]
+"db/d68/classreg_1_1_sub_match.html#a91ea81097db36aa16469f33146f4c6ea":[3,0,6,4,10]
 };

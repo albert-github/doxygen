@@ -1,5 +1,6 @@
 var NAVTREEINDEX115 =
 {
+"de/d82/class_translator_polish.html#a22f0cbb2c8f950280eab1a0d3a244752":[4,0,591,79],
 "de/d82/class_translator_polish.html#a26b2a7d25ba8fed3f33fc1d5fb676081":[4,0,591,202],
 "de/d82/class_translator_polish.html#a2a432d8fddb8ae68fe3f85d78bb06943":[4,0,591,95],
 "de/d82/class_translator_polish.html#a2afd1448fafe6413751b7edc5086e24d":[4,0,591,185],
@@ -248,6 +249,5 @@ var NAVTREEINDEX115 =
 "de/d99/struct_template_node_tree_1_1_tree_context.html#a367bad26a18577642f8a0c838d9063fb":[4,0,525,0,0],
 "de/d99/struct_template_node_tree_1_1_tree_context.html#a695f724c09696c175add24eceee42a18":[4,0,525,0,3],
 "de/d99/struct_template_node_tree_1_1_tree_context.html#a8dafe559d3897c8b0af8f328437fcf34":[4,0,525,0,1],
-"de/d99/struct_template_node_tree_1_1_tree_context.html#ab6547daae4a5a91c62c3c22fe687011b":[4,0,525,0,2],
-"de/d9a/commentcnv_8h.html":[5,0,1,17]
+"de/d99/struct_template_node_tree_1_1_tree_context.html#ab6547daae4a5a91c62c3c22fe687011b":[4,0,525,0,2]
 };
