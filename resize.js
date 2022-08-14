@@ -47,7 +47,7 @@ function initResizable()
         }
       }
     }
-    return 0;
+    return 250;
   }
 
   function writeSetting(cookie, val)
