@@ -11828,19 +11828,19 @@ $(document).ready(function(){initNavTree('dc/d98/doxygen_8cpp_source.html','../.
 <div class="line"><a id="l11752" name="l11752"></a><span class="lineno">11752</span>            {</div>
 <div class="line"><a id="l11753" name="l11753"></a><span class="lineno">11753</span>              <span class="keywordflow">return</span>  <a class="code hl_function" href="../../d5/d3e/qcstring_8cpp.html#a773d5813108052583cde43cc8517893d">qstricmp</a>(f1-&gt;fullName(),f2-&gt;fullName())&lt;0;</div>
 <div class="line"><a id="l11754" name="l11754"></a><span class="lineno">11754</span>            });</div>
-<div class="line"><a id="l11755" name="l11755"></a><span class="lineno">11755</span>  <span class="keywordflow">if</span> (!(*<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a31a5a5856417ba3f05eccaf1f85e9958">Doxygen::inputNameLinkedMap</a>).size())</div>
+<div class="line"><a id="l11755" name="l11755"></a><span class="lineno">11755</span>  <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;fileName : *<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a31a5a5856417ba3f05eccaf1f85e9958">Doxygen::inputNameLinkedMap</a>)</div>
 <div class="line"><a id="l11756" name="l11756"></a><span class="lineno">11756</span>  {</div>
-<div class="line"><a id="l11757" name="l11757"></a><span class="lineno">11757</span>    <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#a1fd98c6976d3826490804976e17eb83f">warn_uncond</a>(<span class="stringliteral">&quot;No files to be processed, please check your settings&quot;</span>);</div>
-<div class="line"><a id="l11758" name="l11758"></a><span class="lineno">11758</span>  }</div>
-<div class="line"><a id="l11759" name="l11759"></a><span class="lineno">11759</span>  <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;fileName : *<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a31a5a5856417ba3f05eccaf1f85e9958">Doxygen::inputNameLinkedMap</a>)</div>
-<div class="line"><a id="l11760" name="l11760"></a><span class="lineno">11760</span>  {</div>
-<div class="line"><a id="l11761" name="l11761"></a><span class="lineno">11761</span>    <span class="keywordflow">if</span> (fileName-&gt;<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac084f55ab51f8b277cf01bb6e04f16ed">size</a>()&gt;1)</div>
-<div class="line"><a id="l11762" name="l11762"></a><span class="lineno">11762</span>    {</div>
-<div class="line"><a id="l11763" name="l11763"></a><span class="lineno">11763</span>      std::sort(fileName-&gt;begin(),fileName-&gt;end(),[](<span class="keyword">const</span> <span class="keyword">auto</span> &amp;f1,<span class="keyword">const</span> <span class="keyword">auto</span> &amp;f2)</div>
-<div class="line"><a id="l11764" name="l11764"></a><span class="lineno">11764</span>        {</div>
-<div class="line"><a id="l11765" name="l11765"></a><span class="lineno">11765</span>          return qstricmp(f1-&gt;absFilePath(),f2-&gt;absFilePath())&lt;0;</div>
-<div class="line"><a id="l11766" name="l11766"></a><span class="lineno">11766</span>        });</div>
-<div class="line"><a id="l11767" name="l11767"></a><span class="lineno">11767</span>    }</div>
+<div class="line"><a id="l11757" name="l11757"></a><span class="lineno">11757</span>    <span class="keywordflow">if</span> (fileName-&gt;<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac084f55ab51f8b277cf01bb6e04f16ed">size</a>()&gt;1)</div>
+<div class="line"><a id="l11758" name="l11758"></a><span class="lineno">11758</span>    {</div>
+<div class="line"><a id="l11759" name="l11759"></a><span class="lineno">11759</span>      std::sort(fileName-&gt;begin(),fileName-&gt;end(),[](<span class="keyword">const</span> <span class="keyword">auto</span> &amp;f1,<span class="keyword">const</span> <span class="keyword">auto</span> &amp;f2)</div>
+<div class="line"><a id="l11760" name="l11760"></a><span class="lineno">11760</span>        {</div>
+<div class="line"><a id="l11761" name="l11761"></a><span class="lineno">11761</span>          return qstricmp(f1-&gt;absFilePath(),f2-&gt;absFilePath())&lt;0;</div>
+<div class="line"><a id="l11762" name="l11762"></a><span class="lineno">11762</span>        });</div>
+<div class="line"><a id="l11763" name="l11763"></a><span class="lineno">11763</span>    }</div>
+<div class="line"><a id="l11764" name="l11764"></a><span class="lineno">11764</span>  }</div>
+<div class="line"><a id="l11765" name="l11765"></a><span class="lineno">11765</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a31a5a5856417ba3f05eccaf1f85e9958">Doxygen::inputNameLinkedMap</a>-&gt;empty())</div>
+<div class="line"><a id="l11766" name="l11766"></a><span class="lineno">11766</span>  {</div>
+<div class="line"><a id="l11767" name="l11767"></a><span class="lineno">11767</span>    <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#a1fd98c6976d3826490804976e17eb83f">warn_uncond</a>(<span class="stringliteral">&quot;No files to be processed, please check your settings, in particular INPUT, FILE_PATTERNS, and RECURSIVE&quot;</span>);</div>
 <div class="line"><a id="l11768" name="l11768"></a><span class="lineno">11768</span>  }</div>
 <div class="line"><a id="l11769" name="l11769"></a><span class="lineno">11769</span>  <a class="code hl_variable" href="../../dc/d98/doxygen_8cpp.html#a188b1d1bbead4549a91cbf57fa60e652">g_s</a>.<a class="code hl_function" href="../../d8/da8/class_statistics.html#aa3c0ae123d9f74e170ba1bab16dd8575">end</a>();</div>
 <div class="line"><a id="l11770" name="l11770"></a><span class="lineno">11770</span>}</div>
@@ -14093,7 +14093,7 @@ $(document).ready(function(){initNavTree('dc/d98/doxygen_8cpp_source.html','../.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dc/d98/doxygen_8cpp.html">doxygen.cpp</a></li>
-    <li class="footer">Generated on Mon Aug 15 2022 10:28:21 for Doxygen by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Aug 15 2022 11:24:25 for Doxygen by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>
