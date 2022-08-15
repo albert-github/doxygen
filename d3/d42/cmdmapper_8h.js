@@ -122,8 +122,7 @@ var cmdmapper_8h =
       [ "CMD_ILINE", "d3/d42/cmdmapper_8h.html#a21e038f5b8958e203d28bc4f18472352a0058e0bc9a5a12e5a3348b219f733089", null ],
       [ "CMD_ILITERAL", "d3/d42/cmdmapper_8h.html#a21e038f5b8958e203d28bc4f18472352ad52bd29faccae5a183a728c88f7bf01e", null ],
       [ "CMD_ENDILITERAL", "d3/d42/cmdmapper_8h.html#a21e038f5b8958e203d28bc4f18472352a5a82462fdd0084b34882b25a41df82d4", null ],
-      [ "CMD_IFILE", "d3/d42/cmdmapper_8h.html#a21e038f5b8958e203d28bc4f18472352a0fa33bbad859298a81882e066625743c", null ],
-      [ "CMD_SHOWDATE", "d3/d42/cmdmapper_8h.html#a21e038f5b8958e203d28bc4f18472352a6ecc05d85eaabb24a1149f15ec28f6f7", null ]
+      [ "CMD_IFILE", "d3/d42/cmdmapper_8h.html#a21e038f5b8958e203d28bc4f18472352a0fa33bbad859298a81882e066625743c", null ]
     ] ],
     [ "HtmlTagType", "d3/d42/cmdmapper_8h.html#a91be16b8342aa3130a4374d78cf42273", [
       [ "HTML_UNKNOWN", "d3/d42/cmdmapper_8h.html#a91be16b8342aa3130a4374d78cf42273ac1934c403fc4e8aec69c8057dbf5eba8", null ],
