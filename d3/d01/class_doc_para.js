@@ -18,6 +18,7 @@ var class_doc_para =
     [ "handleParamSection", "d3/d01/class_doc_para.html#a91a5a07e4037857bbee086721c201d8f", null ],
     [ "handleRef", "d3/d01/class_doc_para.html#ac31d379af6da6c825472fd3ec810ed39", null ],
     [ "handleSection", "d3/d01/class_doc_para.html#a5809e8f544b31b004a4e804918ff316c", null ],
+    [ "handleShowDate", "d3/d01/class_doc_para.html#af3d3734deacca7fec73d6c617b65d4b7", null ],
     [ "handleSimpleSection", "d3/d01/class_doc_para.html#ae6136178b80505220af89633674a64cd", null ],
     [ "handleStartCode", "d3/d01/class_doc_para.html#ac36fcb763246e5087bb10c57ffc779f0", null ],
     [ "handleVhdlFlow", "d3/d01/class_doc_para.html#a15e3b784d5ab286906ad4c9fcc4f69e4", null ],
