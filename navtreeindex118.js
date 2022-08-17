@@ -1,5 +1,11 @@
 var NAVTREEINDEX118 =
 {
+"de/dd8/class_emoji_entity_mapper.html#aa0e24fab34771f5263da10a2fc3c593e":[4,0,218,0],
+"de/dd8/class_emoji_entity_mapper.html#aa3a564160bf157ebe6a13531392bb48b":[4,0,218,7],
+"de/dd8/class_emoji_entity_mapper.html#aa9ef574821b28aefb585a4a135e41dd7":[4,0,218,1],
+"de/dd8/class_emoji_entity_mapper.html#ab9aab069bfc06478322bf60994778a64":[4,0,218,2],
+"de/dd8/class_emoji_entity_mapper.html#aefd0bd31e345895d4f8fd2d864e3d3d5":[4,0,218,9],
+"de/dd8/class_emoji_entity_mapper.html#afbf245f030b4c8bd5b6e4b5fa460804f":[4,0,218,3],
 "de/ddb/class_scoped_type_variant.html":[4,0,455],
 "de/ddb/class_scoped_type_variant.html#a14dd70ab5488d2218ba9f88c5dd4c594":[4,0,455,11],
 "de/ddb/class_scoped_type_variant.html#a16d20ebc5e4c2147d11c0fb0b6f295d4":[4,0,455,15],
@@ -243,11 +249,5 @@ var NAVTREEINDEX118 =
 "de/df7/class_translator_finnish.html#a8f7020bd8272f6f10266f3803b4f85cd":[4,0,574,83],
 "de/df7/class_translator_finnish.html#a8fc82bb93187d3acb17bf5cf38c0d413":[4,0,574,181],
 "de/df7/class_translator_finnish.html#a90721ca80c1038754d4e3d986310f7fb":[4,0,574,199],
-"de/df7/class_translator_finnish.html#a91883d9580dc1762c293cd18e3b49d12":[4,0,574,27],
-"de/df7/class_translator_finnish.html#a91cc50b9356cd63a2d2e30cf9e1367de":[4,0,574,61],
-"de/df7/class_translator_finnish.html#a93d2ec3af6d922013852869ebda85c55":[4,0,574,77],
-"de/df7/class_translator_finnish.html#a97c0ffc938be627b8d63a5f56e566a05":[4,0,574,47],
-"de/df7/class_translator_finnish.html#a9905a8778af8b60802848330d7b7f4c9":[4,0,574,45],
-"de/df7/class_translator_finnish.html#a997abe54caa21d10e79c1474bd78eaf2":[4,0,574,156],
-"de/df7/class_translator_finnish.html#a99c1a3e1daccdabf94c8f9a83439051a":[4,0,574,187]
+"de/df7/class_translator_finnish.html#a91883d9580dc1762c293cd18e3b49d12":[4,0,574,27]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX18 =
 {
+"d2/d4c/class_translator_brazilian.html#ad318718c90400f59196e7b46e8ceaa7c":[4,0,563,60],
+"d2/d4c/class_translator_brazilian.html#ad3ef2ecbe70ed69bcef49107733892d1":[4,0,563,119],
 "d2/d4c/class_translator_brazilian.html#ad4423965a94ae22f28334648f1119dc6":[4,0,563,142],
 "d2/d4c/class_translator_brazilian.html#ad44d750aa928ac203ac1b3615b02aa95":[4,0,563,193],
 "d2/d4c/class_translator_brazilian.html#ad517a77c3039e299995b00dfb5ba8629":[4,0,563,169],
@@ -247,7 +249,5 @@ var NAVTREEINDEX18 =
 "d2/d53/class_translator_slovak.html#ab9885f912111a94e1246b4c4b4f53542":[4,0,597,121],
 "d2/d53/class_translator_slovak.html#aba3a8f204ad57b1baac2bdc6af7b4201":[4,0,597,118],
 "d2/d53/class_translator_slovak.html#abba750aabba322c3ebc95eb2f9820f2f":[4,0,597,166],
-"d2/d53/class_translator_slovak.html#abbfd240d209576152e425ea2c74460fd":[4,0,597,108],
-"d2/d53/class_translator_slovak.html#abd3f486285cbb1f20d1f7d93b91ba896":[4,0,597,23],
-"d2/d53/class_translator_slovak.html#abd7adffcc54ebb947319551023797ea4":[4,0,597,82]
+"d2/d53/class_translator_slovak.html#abbfd240d209576152e425ea2c74460fd":[4,0,597,108]
 };
