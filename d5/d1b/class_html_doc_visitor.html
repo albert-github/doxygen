@@ -620,7 +620,7 @@ template&lt;class Node &gt; </div>
 <div class="line"><span class="lineno"> 2339</span>      }</div>
 <div class="line"><span class="lineno"> 2340</span>    }</div>
 <div class="line"><span class="lineno"> 2341</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>) <span class="keywordflow">return</span>; <span class="comment">// first visible node in paragraph</span></div>
-<div class="line"><span class="lineno"> 2342</span>    <span class="keyword">const</span> <a class="code hl_typedef" href="../../de/d2b/docnode_8h.html#a71d13812772ab1350f41e71fc5ca5a89">DocNodeVariant</a> &amp;v = *it;</div>
+<div class="line"><span class="lineno"> 2342</span>    <span class="keyword">const</span> <a class="code hl_typedef" href="../../de/d2b/docnode_8h.html#a50a8832c21dd4d026a4ca85c1efb57ec">DocNodeVariant</a> &amp;v = *it;</div>
 <div class="line"><span class="lineno"> 2343</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#a86acf8b4839daaae86b0a90ca98767b8">mustBeOutsideParagraph</a>(v)) <span class="keywordflow">return</span>; <span class="comment">// previous node already outside paragraph context</span></div>
 <div class="line"><span class="lineno"> 2344</span>    <span class="keywordtype">bool</span> styleOutsideParagraph=<span class="keyword">false</span>;</div>
 <div class="line"><span class="lineno"> 2345</span>    <span class="keywordflow">if</span> (it!=std::begin(children))</div>
@@ -641,7 +641,7 @@ template&lt;class Node &gt; </div>
 <div class="line"><span class="lineno"> 2360</span>}</div>
 <div class="ttc" id="aclass_doc_compound_node_html_aca6bc953ffff9a8773c2b4b0a866442c"><div class="ttname"><a href="../../da/dfc/class_doc_compound_node.html#aca6bc953ffff9a8773c2b4b0a866442c">DocCompoundNode::children</a></div><div class="ttdeci">DocNodeList &amp; children()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l00136">docnode.h:136</a></div></div>
 <div class="ttc" id="aclass_doc_para_html"><div class="ttname"><a href="../../d3/d01/class_doc_para.html">DocPara</a></div><div class="ttdoc">Node representing a paragraph in the documentation tree.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l01016">docnode.h:1017</a></div></div>
-<div class="ttc" id="adocnode_8h_html_a71d13812772ab1350f41e71fc5ca5a89"><div class="ttname"><a href="../../de/d2b/docnode_8h.html#a71d13812772ab1350f41e71fc5ca5a89">DocNodeVariant</a></div><div class="ttdeci">std::variant&lt; #define DN(x) #define DN_SEP DOC_NODES &gt; DocNodeVariant</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l00059">docnode.h:65</a></div></div>
+<div class="ttc" id="adocnode_8h_html_a50a8832c21dd4d026a4ca85c1efb57ec"><div class="ttname"><a href="../../de/d2b/docnode_8h.html#a50a8832c21dd4d026a4ca85c1efb57ec">DocNodeVariant</a></div><div class="ttdeci">std::variant&lt; DOC_NODES &gt; DocNodeVariant</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l00061">docnode.h:63</a></div></div>
 <div class="ttc" id="ahtmldocvisitor_8cpp_html_a021de5017c6965ebf393d509ded08502"><div class="ttname"><a href="../../da/db0/htmldocvisitor_8cpp.html#a021de5017c6965ebf393d509ded08502">isInvisibleNode</a></div><div class="ttdeci">static bool isInvisibleNode(const DocNodeVariant &amp;node)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/db0/htmldocvisitor_8cpp_source.html#l00195">htmldocvisitor.cpp:195</a></div></div>
 <div class="ttc" id="ahtmldocvisitor_8cpp_html_a1ec89e612c2f0850896635aeba5f49bf"><div class="ttname"><a href="../../da/db0/htmldocvisitor_8cpp.html#a1ec89e612c2f0850896635aeba5f49bf">getParagraphContext</a></div><div class="ttdeci">static int getParagraphContext(const DocPara &amp;p, bool &amp;isFirst, bool &amp;isLast)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/db0/htmldocvisitor_8cpp_source.html#l01130">htmldocvisitor.cpp:1130</a></div></div>
 <div class="ttc" id="ahtmldocvisitor_8cpp_html_a86acf8b4839daaae86b0a90ca98767b8"><div class="ttname"><a href="../../da/db0/htmldocvisitor_8cpp.html#a86acf8b4839daaae86b0a90ca98767b8">mustBeOutsideParagraph</a></div><div class="ttdeci">static bool mustBeOutsideParagraph(const DocNodeVariant &amp;n)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/db0/htmldocvisitor_8cpp_source.html#l00109">htmldocvisitor.cpp:109</a></div></div>
@@ -729,7 +729,7 @@ template&lt;class Node &gt; </div>
 <div class="line"><span class="lineno"> 2388</span>    }</div>
 <div class="line"><span class="lineno"> 2389</span>    <span class="keywordflow">if</span> (it!=std::end(children))</div>
 <div class="line"><span class="lineno"> 2390</span>    {</div>
-<div class="line"><span class="lineno"> 2391</span>      <span class="keyword">const</span> <a class="code hl_typedef" href="../../de/d2b/docnode_8h.html#a71d13812772ab1350f41e71fc5ca5a89">DocNodeVariant</a> &amp;v = *it;</div>
+<div class="line"><span class="lineno"> 2391</span>      <span class="keyword">const</span> <a class="code hl_typedef" href="../../de/d2b/docnode_8h.html#a50a8832c21dd4d026a4ca85c1efb57ec">DocNodeVariant</a> &amp;v = *it;</div>
 <div class="line"><span class="lineno"> 2392</span>      <span class="keywordflow">if</span> (<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#a86acf8b4839daaae86b0a90ca98767b8">mustBeOutsideParagraph</a>(v)) <span class="keywordflow">return</span>; <span class="comment">// next element also outside paragraph</span></div>
 <div class="line"><span class="lineno"> 2393</span>    }</div>
 <div class="line"><span class="lineno"> 2394</span>    <span class="keywordflow">else</span></div>
@@ -2393,7 +2393,7 @@ template&lt;class Node &gt; </div>
 <div class="line"><span class="lineno"> 1309</span>                           [](<span class="keyword">const</span> <span class="keyword">auto</span> &amp;node) { return !isInvisibleNode(node); });</div>
 <div class="line"><span class="lineno"> 1310</span>    <span class="keywordflow">if</span> (it!=std::end(p.<a class="code hl_function" href="../../da/dfc/class_doc_compound_node.html#aca6bc953ffff9a8773c2b4b0a866442c">children</a>()))</div>
 <div class="line"><span class="lineno"> 1311</span>    {</div>
-<div class="line"><span class="lineno"> 1312</span>      <span class="keyword">const</span> <a class="code hl_typedef" href="../../de/d2b/docnode_8h.html#a71d13812772ab1350f41e71fc5ca5a89">DocNodeVariant</a> &amp;n = *it;</div>
+<div class="line"><span class="lineno"> 1312</span>      <span class="keyword">const</span> <a class="code hl_typedef" href="../../de/d2b/docnode_8h.html#a50a8832c21dd4d026a4ca85c1efb57ec">DocNodeVariant</a> &amp;n = *it;</div>
 <div class="line"><span class="lineno"> 1313</span>      <span class="keywordflow">if</span> (<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#a86acf8b4839daaae86b0a90ca98767b8">mustBeOutsideParagraph</a>(n))</div>
 <div class="line"><span class="lineno"> 1314</span>      {</div>
 <div class="line"><span class="lineno"> 1315</span>        needsTagBefore = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
@@ -2431,7 +2431,7 @@ template&lt;class Node &gt; </div>
 <div class="line"><span class="lineno"> 1347</span>    <span class="keyword">auto</span> it = std::prev(std::end(p.<a class="code hl_function" href="../../da/dfc/class_doc_compound_node.html#aca6bc953ffff9a8773c2b4b0a866442c">children</a>()));</div>
 <div class="line"><span class="lineno"> 1348</span>    <span class="keywordflow">for</span> (;;)</div>
 <div class="line"><span class="lineno"> 1349</span>    {</div>
-<div class="line"><span class="lineno"> 1350</span>      <span class="keyword">const</span> <a class="code hl_typedef" href="../../de/d2b/docnode_8h.html#a71d13812772ab1350f41e71fc5ca5a89">DocNodeVariant</a> &amp;n = *it;</div>
+<div class="line"><span class="lineno"> 1350</span>      <span class="keyword">const</span> <a class="code hl_typedef" href="../../de/d2b/docnode_8h.html#a50a8832c21dd4d026a4ca85c1efb57ec">DocNodeVariant</a> &amp;n = *it;</div>
 <div class="line"><span class="lineno"> 1351</span>      <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#a021de5017c6965ebf393d509ded08502">isInvisibleNode</a>(n))</div>
 <div class="line"><span class="lineno"> 1352</span>      {</div>
 <div class="line"><span class="lineno"> 1353</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#a86acf8b4839daaae86b0a90ca98767b8">mustBeOutsideParagraph</a>(n))</div>
