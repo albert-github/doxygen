@@ -50,6 +50,7 @@ var configimpl_8l =
     [ "g_yyFileName", "d9/de3/configimpl_8l.html#afec8ce807dc9bf79f073fa691fafe1f8", null ],
     [ "g_yyLineNr", "d9/de3/configimpl_8l.html#ada427227e611310f718c3d614f32d032", null ],
     [ "reEnvVar", "d9/de3/configimpl_8l.html#a93417da3de847772a0db1c1067124b57", null ],
+    [ "reEnvVarCMake", "d9/de3/configimpl_8l.html#a58cd1f6efd21e9b0d91d4ddf3631e3d9", null ],
     [ "reEnvVarExt", "d9/de3/configimpl_8l.html#a8ef2cd114dfa4c36bb86f42ec41c74ea", null ],
     [ "warning_str", "d9/de3/configimpl_8l.html#a4b306c7d6514a51d731a5b581ce6c2a4", null ]
 ];

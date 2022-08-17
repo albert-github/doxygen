@@ -1,5 +1,6 @@
 var NAVTREEINDEX126 =
 {
+"df/dc8/class_translator_indonesian.html#a7effa5cc2d84e36b662667d1ab0300cf":[4,0,580,12],
 "df/dc8/class_translator_indonesian.html#a7f1c7067df20ca5319e34f388c4a0487":[4,0,580,138],
 "df/dc8/class_translator_indonesian.html#a7f7c441b30c7836e3809812ebfea786d":[4,0,580,72],
 "df/dc8/class_translator_indonesian.html#a7fe8b62fd5171fc48bd92af2766a74ee":[4,0,580,182],
@@ -113,12 +114,12 @@ var NAVTREEINDEX126 =
 "df/dcd/classreg_1_1_ex_1_1_private.html":[3,0,6,0,0],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a26bba20b316615c53a77eb522602df8a":[3,0,6,0,0,2],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a26bba20b316615c53a77eb522602df8a":[4,0,3,0,0,2],
-"df/dcd/classreg_1_1_ex_1_1_private.html#a3d43ef3d3304bc786d75340eac860780":[4,0,3,0,0,4],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a3d43ef3d3304bc786d75340eac860780":[3,0,6,0,0,4],
+"df/dcd/classreg_1_1_ex_1_1_private.html#a3d43ef3d3304bc786d75340eac860780":[4,0,3,0,0,4],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a51e12007f0f7866ad4117c489e90cb8e":[3,0,6,0,0,0],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a51e12007f0f7866ad4117c489e90cb8e":[4,0,3,0,0,0],
-"df/dcd/classreg_1_1_ex_1_1_private.html#a5ae763e5ab5231eae1133e68093c49be":[3,0,6,0,0,1],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a5ae763e5ab5231eae1133e68093c49be":[4,0,3,0,0,1],
+"df/dcd/classreg_1_1_ex_1_1_private.html#a5ae763e5ab5231eae1133e68093c49be":[3,0,6,0,0,1],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a68af93bd4fbea3f82ee8e36af3a6e68b":[4,0,3,0,0,5],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a68af93bd4fbea3f82ee8e36af3a6e68b":[3,0,6,0,0,5],
 "df/dcd/classreg_1_1_ex_1_1_private.html#afd98016e2bda56b81308bdc907569ead":[4,0,3,0,0,3],
@@ -245,9 +246,8 @@ var NAVTREEINDEX126 =
 "dir_534aeb5b2351b2c83787cc7391511c04.html":[5,0,2],
 "dir_68267d1309a1af8e8297ef4c3efbcdba.html":[5,0,1],
 "files.html":[5,0],
-"functions.html":[4,3,0,0],
 "functions.html":[4,3,0],
+"functions.html":[4,3,0,0],
 "functions_a.html":[4,3,0,1],
-"functions_b.html":[4,3,0,2],
-"functions_c.html":[4,3,0,3]
+"functions_b.html":[4,3,0,2]
 };
