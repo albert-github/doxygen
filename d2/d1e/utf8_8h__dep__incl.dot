@@ -399,6 +399,7 @@ digraph "src/utf8.h"
   Node107 [label="src/emoji.cpp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d38/emoji_8cpp.html",tooltip=" "];
   Node101 -> Node73 [dir="back",color="steelblue1",style="solid"];
   Node101 -> Node11 [dir="back",color="steelblue1",style="solid"];
+  Node101 -> Node3 [dir="back",color="steelblue1",style="solid"];
   Node101 -> Node74 [dir="back",color="steelblue1",style="solid"];
   Node101 -> Node36 [dir="back",color="steelblue1",style="solid"];
   Node101 -> Node75 [dir="back",color="steelblue1",style="solid"];

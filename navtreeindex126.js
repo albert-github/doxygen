@@ -1,10 +1,5 @@
 var NAVTREEINDEX126 =
 {
-"df/dc8/class_translator_indonesian.html#a791ee49084a54d1e34961e3a2eb196e2":[4,0,580,71],
-"df/dc8/class_translator_indonesian.html#a79da7f3bbd6359ae6d63a8c015f9bd64":[4,0,580,200],
-"df/dc8/class_translator_indonesian.html#a7a475c758aef9631afc3f8701a330d4c":[4,0,580,145],
-"df/dc8/class_translator_indonesian.html#a7c31360beb4ea927cdd5f053a65245e7":[4,0,580,176],
-"df/dc8/class_translator_indonesian.html#a7ca79aaaac3b58234649202c5c92bb97":[4,0,580,111],
 "df/dc8/class_translator_indonesian.html#a7ce5f320693eb175d7ad73e65e4eb878":[4,0,580,215],
 "df/dc8/class_translator_indonesian.html#a7d9ba2fd57d117ea9566d5ab240e6777":[4,0,580,59],
 "df/dc8/class_translator_indonesian.html#a7effa5cc2d84e36b662667d1ab0300cf":[4,0,580,12],
@@ -117,8 +112,8 @@ var NAVTREEINDEX126 =
 "df/dc9/docparser__p_8h.html#af5482286b814ee04eea804a9a3261cf4":[5,0,1,68,7],
 "df/dc9/docparser__p_8h.html#af8c289300738a7353cb8e47d343e7998":[5,0,1,68,9],
 "df/dc9/docparser__p_8h_source.html":[5,0,1,68],
-"df/dcd/classreg_1_1_ex_1_1_private.html":[4,0,3,0,0],
 "df/dcd/classreg_1_1_ex_1_1_private.html":[3,0,6,0,0],
+"df/dcd/classreg_1_1_ex_1_1_private.html":[4,0,3,0,0],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a26bba20b316615c53a77eb522602df8a":[3,0,6,0,0,2],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a26bba20b316615c53a77eb522602df8a":[4,0,3,0,0,2],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a3d43ef3d3304bc786d75340eac860780":[3,0,6,0,0,4],
@@ -127,8 +122,8 @@ var NAVTREEINDEX126 =
 "df/dcd/classreg_1_1_ex_1_1_private.html#a51e12007f0f7866ad4117c489e90cb8e":[4,0,3,0,0,0],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a5ae763e5ab5231eae1133e68093c49be":[4,0,3,0,0,1],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a5ae763e5ab5231eae1133e68093c49be":[3,0,6,0,0,1],
-"df/dcd/classreg_1_1_ex_1_1_private.html#a68af93bd4fbea3f82ee8e36af3a6e68b":[4,0,3,0,0,5],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a68af93bd4fbea3f82ee8e36af3a6e68b":[3,0,6,0,0,5],
+"df/dcd/classreg_1_1_ex_1_1_private.html#a68af93bd4fbea3f82ee8e36af3a6e68b":[4,0,3,0,0,5],
 "df/dcd/classreg_1_1_ex_1_1_private.html#afd98016e2bda56b81308bdc907569ead":[4,0,3,0,0,3],
 "df/dcd/classreg_1_1_ex_1_1_private.html#afd98016e2bda56b81308bdc907569ead":[3,0,6,0,0,3],
 "df/dda/class_member_list_context.html":[4,0,382],
@@ -249,5 +244,10 @@ var NAVTREEINDEX126 =
 "df/df5/class_section_manager.html#afcf31c2b2bad467541c924342b08773d":[4,0,463,4],
 "df/dfd/translator__pt_8h.html":[5,0,1,274],
 "df/dfd/translator__pt_8h_source.html":[5,0,1,274],
-"dir_22a14ce9b939c27d3887fa5d85db7abb.html":[5,0,0]
+"dir_22a14ce9b939c27d3887fa5d85db7abb.html":[5,0,0],
+"dir_534aeb5b2351b2c83787cc7391511c04.html":[5,0,2],
+"dir_68267d1309a1af8e8297ef4c3efbcdba.html":[5,0,1],
+"files.html":[5,0],
+"functions.html":[4,3,0,0],
+"functions.html":[4,3,0]
 };

@@ -248,13 +248,10 @@ digraph "src/tagreader.cpp"
   Node66 -> Node3 [color="steelblue1",style="solid"];
   Node66 -> Node16 [color="steelblue1",style="solid"];
   Node66 -> Node29 [color="steelblue1",style="solid"];
-  Node66 -> Node67 [color="steelblue1",style="solid"];
-  Node67 [label="config.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d16/config_8h.html",tooltip=" "];
-  Node67 -> Node68 [color="steelblue1",style="solid"];
-  Node68 [label="configvalues.h",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
   Node66 -> Node26 [color="steelblue1",style="solid"];
+  Node66 -> Node52 [color="steelblue1",style="solid"];
   Node1 -> Node59 [color="steelblue1",style="solid"];
   Node1 -> Node35 [color="steelblue1",style="solid"];
-  Node1 -> Node69 [color="steelblue1",style="solid"];
-  Node69 [label="debug.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d16/debug_8h.html",tooltip=" "];
+  Node1 -> Node67 [color="steelblue1",style="solid"];
+  Node67 [label="debug.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d16/debug_8h.html",tooltip=" "];
 }

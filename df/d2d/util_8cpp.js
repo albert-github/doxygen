@@ -69,6 +69,7 @@ var util_8cpp =
     [ "generateMarker", "df/d2d/util_8cpp.html#a5530a73bd518581ac62e4eee5bc2f6db", null ],
     [ "getCanonicalTemplateSpec", "df/d2d/util_8cpp.html#acfc81350dc516af20831bcb14d6788c2", null ],
     [ "getCanonicalTypeForIdentifier", "df/d2d/util_8cpp.html#ab2ea86daea5714c6e35d4ddc62777790", null ],
+    [ "getCaseSenseNames", "df/d2d/util_8cpp.html#aaefdc17b5414c3b2329297ff8c4e90a6", null ],
     [ "getCurrentDateTime", "df/d2d/util_8cpp.html#aad46a931d39d3d99fc5d2ad2ecd5e0bf", null ],
     [ "getDay", "df/d2d/util_8cpp.html#aa65129cafd62eaf764db0753f160642a", null ],
     [ "getDayOfWeek", "df/d2d/util_8cpp.html#ac6be8553fad25ec44bae677984603869", null ],

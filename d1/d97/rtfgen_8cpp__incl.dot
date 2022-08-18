@@ -378,8 +378,8 @@ digraph "src/rtfgen.cpp"
   Node98 -> Node9 [color="steelblue1",style="solid"];
   Node98 -> Node28 [color="steelblue1",style="solid"];
   Node98 -> Node27 [color="steelblue1",style="solid"];
-  Node98 -> Node6 [color="steelblue1",style="solid"];
   Node98 -> Node23 [color="steelblue1",style="solid"];
+  Node98 -> Node59 [color="steelblue1",style="solid"];
   Node1 -> Node99 [color="steelblue1",style="solid"];
   Node99 [label="namespacedef.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d97/namespacedef_8h.html",tooltip=" "];
   Node99 -> Node40 [color="steelblue1",style="solid"];

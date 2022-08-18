@@ -11,7 +11,7 @@ var namespaces_dup =
       [ "compareDoxyfile", "d0/d31/namespace_config.html#a6cc61dde8935f986295262513d2feb2d", null ],
       [ "deinit", "d0/d31/namespace_config.html#a7b3346b2e70cc73d231d540df5d67e57", null ],
       [ "init", "d0/d31/namespace_config.html#a91bcb187ed95ec673137e413a4d77203", null ],
-      [ "parse", "d0/d31/namespace_config.html#a88ed583dc36b1439108163403cc4224f", null ],
+      [ "parse", "d0/d31/namespace_config.html#a455ee38b43cec2501b11fd3696ab0ebd", null ],
       [ "postProcess", "d0/d31/namespace_config.html#a04731f96560c04835ce340aa776251cb", null ],
       [ "updateObsolete", "d0/d31/namespace_config.html#ad27e22c157d0c2d33414923d0a41c200", null ],
       [ "writeTemplate", "d0/d31/namespace_config.html#a98dcadaa623b84d8929dc38239f31cb2", null ],

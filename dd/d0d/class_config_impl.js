@@ -11,7 +11,6 @@ var class_config_impl =
     [ "addObsolete", "dd/d0d/class_config_impl.html#adf9c8d995aff187d5be5489e62c0f738", null ],
     [ "addString", "dd/d0d/class_config_impl.html#a9f6352eef16a95f0af17e28d8cc472a8", null ],
     [ "appendStartComment", "dd/d0d/class_config_impl.html#a7a016d2f1ef3643494fb1b1e3201e928", null ],
-    [ "appendStoreRepl", "dd/d0d/class_config_impl.html#a7724c925f3325a62e970a76bd69d4078", null ],
     [ "appendUserComment", "dd/d0d/class_config_impl.html#a33e3594e6a4848cd7803990e15b452de", null ],
     [ "compareDoxyfile", "dd/d0d/class_config_impl.html#a24a3e5ba9f648d261101861a8dd22f83", null ],
     [ "convertStrToVal", "dd/d0d/class_config_impl.html#a2a79d804dac59ea90af094a58e52ad1f", null ],
@@ -31,7 +30,6 @@ var class_config_impl =
     [ "setHeader", "dd/d0d/class_config_impl.html#a5a85a09dc81100da9de0dcb148e63c65", null ],
     [ "substituteEnvironmentVars", "dd/d0d/class_config_impl.html#a56797aabb7ab52c9bd60f32634e41a5b", null ],
     [ "takeStartComment", "dd/d0d/class_config_impl.html#a6e909c1b38e02a4536e16a33790ddca0", null ],
-    [ "takeStoreRepl", "dd/d0d/class_config_impl.html#a081f10e7e8dd317e08b1596950abdb17", null ],
     [ "takeUserComment", "dd/d0d/class_config_impl.html#a998060bb7c8a5948956b7ccf192d62da", null ],
     [ "writeTemplate", "dd/d0d/class_config_impl.html#aa7948af854eb611524c208def210db01", null ],
     [ "writeXMLDoxyfile", "dd/d0d/class_config_impl.html#a87163252416c500d2000ad78353400a2", null ],
@@ -43,6 +41,5 @@ var class_config_impl =
     [ "m_obsolete", "dd/d0d/class_config_impl.html#a1fae542e0daf98695b00b6a577804e14", null ],
     [ "m_options", "dd/d0d/class_config_impl.html#a0a2a4ac7bd14b923fd7e3434af27eedf", null ],
     [ "m_startComment", "dd/d0d/class_config_impl.html#ab6cfed000bafe37aec0a101b4eb058a1", null ],
-    [ "m_storeRepl", "dd/d0d/class_config_impl.html#a13c917c3c9fc2c541b686edf371f4cff", null ],
     [ "m_userComment", "dd/d0d/class_config_impl.html#ad9846040bbd2475c0d797d479f5bcdd2", null ]
 ];
