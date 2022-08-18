@@ -3,6 +3,7 @@ var class_define =
     [ "args", "dc/d64/class_define.html#a1ab8e5663a0acb5c7634087fb32c67b8", null ],
     [ "columnNr", "dc/d64/class_define.html#aa3baaeb7d662ad6190da946f3a65a773", null ],
     [ "definition", "dc/d64/class_define.html#ac76e113d9f4c5b64553022777f686093", null ],
+    [ "expandAsDefined", "dc/d64/class_define.html#ad611bbbe5c08fd5da2724916ebdec09f", null ],
     [ "fileDef", "dc/d64/class_define.html#a3f350ee951cde6b1955612af5be6a6d5", null ],
     [ "fileName", "dc/d64/class_define.html#a2403c7fc667a4a5fd74c8a78560030cc", null ],
     [ "isPredefined", "dc/d64/class_define.html#a856ae02f323f7e3f95fee4101da3904b", null ],

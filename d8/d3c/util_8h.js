@@ -54,7 +54,6 @@ var util_8h =
     [ "generateFileRef", "d8/d3c/util_8h.html#a6d233fda4b28cca1389cf9a662d34c95", null ],
     [ "generateLink", "d8/d3c/util_8h.html#a15af517f7e4ec3916072a3034028ae56", null ],
     [ "generateMarker", "d8/d3c/util_8h.html#a5530a73bd518581ac62e4eee5bc2f6db", null ],
-    [ "getCaseSenseNames", "d8/d3c/util_8h.html#aaefdc17b5414c3b2329297ff8c4e90a6", null ],
     [ "getCurrentDateTime", "d8/d3c/util_8h.html#aad46a931d39d3d99fc5d2ad2ecd5e0bf", null ],
     [ "getDay", "d8/d3c/util_8h.html#aa65129cafd62eaf764db0753f160642a", null ],
     [ "getDayOfWeek", "d8/d3c/util_8h.html#ac6be8553fad25ec44bae677984603869", null ],
