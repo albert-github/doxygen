@@ -1,5 +1,6 @@
 var NAVTREEINDEX118 =
 {
+"de/dd8/class_emoji_entity_mapper.html#a8f20a25544d61a753eaf73d2618c9c88":[4,0,218,5],
 "de/dd8/class_emoji_entity_mapper.html#aa0e24fab34771f5263da10a2fc3c593e":[4,0,218,0],
 "de/dd8/class_emoji_entity_mapper.html#aa3a564160bf157ebe6a13531392bb48b":[4,0,218,7],
 "de/dd8/class_emoji_entity_mapper.html#aa9ef574821b28aefb585a4a135e41dd7":[4,0,218,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX118 =
 "de/df7/class_translator_finnish.html#a8af353fd8560f00c2791d24c5f0536be":[4,0,574,169],
 "de/df7/class_translator_finnish.html#a8f7020bd8272f6f10266f3803b4f85cd":[4,0,574,83],
 "de/df7/class_translator_finnish.html#a8fc82bb93187d3acb17bf5cf38c0d413":[4,0,574,181],
-"de/df7/class_translator_finnish.html#a90721ca80c1038754d4e3d986310f7fb":[4,0,574,199],
-"de/df7/class_translator_finnish.html#a91883d9580dc1762c293cd18e3b49d12":[4,0,574,27]
+"de/df7/class_translator_finnish.html#a90721ca80c1038754d4e3d986310f7fb":[4,0,574,199]
 };

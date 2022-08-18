@@ -1,11 +1,5 @@
 var NAVTREEINDEX50 =
 {
-"d6/dcc/cppvalue_8h_source.html":[5,0,1,36],
-"d6/dd3/emoji_8h.html":[5,0,1,106],
-"d6/dd3/emoji_8h_source.html":[5,0,1,106],
-"d6/dd6/class_filter_tex_label.html":[4,0,277],
-"d6/dd6/class_filter_tex_label.html#ad511c74d02bfbf22023ed2a42751fd16":[4,0,277,0],
-"d6/dd8/constexp_8h.html":[5,0,1,29],
 "d6/dd8/constexp_8h_source.html":[5,0,1,29],
 "d6/dd8/struct_dot_runner_1_1_dot_job.html":[4,0,207,0],
 "d6/dd8/struct_dot_runner_1_1_dot_job.html#a284bc72ec45301a1c71be91703b14804":[4,0,207,0,1],
@@ -249,5 +243,11 @@ var NAVTREEINDEX50 =
 "d7/d21/class_translator_danish.html#a5bb8f0a475b985f1c7efc4a1ccaf012f":[4,0,570,36],
 "d7/d21/class_translator_danish.html#a5c1808e13d44b5bae8dd1d7102b87a5e":[4,0,570,44],
 "d7/d21/class_translator_danish.html#a5dfbb408f0d3aea6af3b16dbc16974a3":[4,0,570,11],
-"d7/d21/class_translator_danish.html#a5f1c69bebc7008f533790134dc9a93ea":[4,0,570,13]
+"d7/d21/class_translator_danish.html#a5f1c69bebc7008f533790134dc9a93ea":[4,0,570,13],
+"d7/d21/class_translator_danish.html#a60f4695411b83cb469b4ea92f69f136d":[4,0,570,124],
+"d7/d21/class_translator_danish.html#a61066d9146eebf28cc0e9a3cdd3e63fe":[4,0,570,182],
+"d7/d21/class_translator_danish.html#a610a64a8aaec8ff73acaf6c42c98433b":[4,0,570,142],
+"d7/d21/class_translator_danish.html#a635196ff77e23ea8cf1d79fecf80bf24":[4,0,570,33],
+"d7/d21/class_translator_danish.html#a63e6342e8ff2a623aa012ddc01489d12":[4,0,570,164],
+"d7/d21/class_translator_danish.html#a6418fe1f9a358c61cbe7dc6333d81823":[4,0,570,99]
 };

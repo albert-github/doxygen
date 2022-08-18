@@ -1,7 +1,5 @@
 var NAVTREEINDEX18 =
 {
-"d2/d4c/class_translator_brazilian.html#ad318718c90400f59196e7b46e8ceaa7c":[4,0,563,60],
-"d2/d4c/class_translator_brazilian.html#ad3ef2ecbe70ed69bcef49107733892d1":[4,0,563,119],
 "d2/d4c/class_translator_brazilian.html#ad4423965a94ae22f28334648f1119dc6":[4,0,563,142],
 "d2/d4c/class_translator_brazilian.html#ad44d750aa928ac203ac1b3615b02aa95":[4,0,563,193],
 "d2/d4c/class_translator_brazilian.html#ad517a77c3039e299995b00dfb5ba8629":[4,0,563,169],
@@ -60,10 +58,10 @@ var NAVTREEINDEX18 =
 "d2/d4c/class_translator_brazilian.html#afd4e628abefc4376423d3faeb66e78e8":[4,0,563,229],
 "d2/d4c/class_translator_brazilian.html#afdc810dfc452029722c7b3307a9e683f":[4,0,563,126],
 "d2/d4c/class_translator_brazilian.html#afe7e05ce6fac9cd006e48c9919557147":[4,0,563,278],
-"d2/d4d/struct_search_index_methods_1_1add_word.html":[3,0,7,0],
 "d2/d4d/struct_search_index_methods_1_1add_word.html":[4,0,4,0],
-"d2/d4d/struct_search_index_methods_1_1add_word.html#ae2cc802c4b0ac5beeba2c2a1d4e52114":[3,0,7,0,0],
+"d2/d4d/struct_search_index_methods_1_1add_word.html":[3,0,7,0],
 "d2/d4d/struct_search_index_methods_1_1add_word.html#ae2cc802c4b0ac5beeba2c2a1d4e52114":[4,0,4,0,0],
+"d2/d4d/struct_search_index_methods_1_1add_word.html#ae2cc802c4b0ac5beeba2c2a1d4e52114":[3,0,7,0,0],
 "d2/d4d/translator__sk_8h.html":[5,0,1,279],
 "d2/d4d/translator__sk_8h_source.html":[5,0,1,279],
 "d2/d53/class_translator_slovak.html":[4,0,597],
@@ -249,5 +247,7 @@ var NAVTREEINDEX18 =
 "d2/d53/class_translator_slovak.html#ab9885f912111a94e1246b4c4b4f53542":[4,0,597,121],
 "d2/d53/class_translator_slovak.html#aba3a8f204ad57b1baac2bdc6af7b4201":[4,0,597,118],
 "d2/d53/class_translator_slovak.html#abba750aabba322c3ebc95eb2f9820f2f":[4,0,597,166],
-"d2/d53/class_translator_slovak.html#abbfd240d209576152e425ea2c74460fd":[4,0,597,108]
+"d2/d53/class_translator_slovak.html#abbfd240d209576152e425ea2c74460fd":[4,0,597,108],
+"d2/d53/class_translator_slovak.html#abd3f486285cbb1f20d1f7d93b91ba896":[4,0,597,23],
+"d2/d53/class_translator_slovak.html#abd7adffcc54ebb947319551023797ea4":[4,0,597,82]
 };

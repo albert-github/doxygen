@@ -1,7 +1,5 @@
 var NAVTREEINDEX73 =
 {
-"da/d17/docparser_8cpp.html#ae818631ff5b78ea72bf803ddaf39e987":[5,0,1,66,0],
-"da/d17/docparser_8cpp_source.html":[5,0,1,66],
 "da/d18/class_lex_code_parser.html":[4,0,350],
 "da/d18/class_lex_code_parser.html#a5368aa527b20abbfee0d01fc5480fa63":[4,0,350,5],
 "da/d18/class_lex_code_parser.html#a7c78b61edadb5a478a484e0bd0c53be3":[4,0,350,4],
@@ -249,5 +247,7 @@ var NAVTREEINDEX73 =
 "da/d1a/class_translator_french.html#adbf5a2487b72bdf84150e36cabb30f0c":[4,0,575,221],
 "da/d1a/class_translator_french.html#adc8dccbbaf6684512ae5fdf2d25e9408":[4,0,575,100],
 "da/d1a/class_translator_french.html#adc9da29567759c2566db503399fbe5a8":[4,0,575,134],
-"da/d1a/class_translator_french.html#adce3437bd93005bb129bc612dc7035b5":[4,0,575,208]
+"da/d1a/class_translator_french.html#adce3437bd93005bb129bc612dc7035b5":[4,0,575,208],
+"da/d1a/class_translator_french.html#adcf727a9353edaab63f0d93c59eb4973":[4,0,575,179],
+"da/d1a/class_translator_french.html#add9b058a9127c7f3a380302dc8c5011d":[4,0,575,112]
 };

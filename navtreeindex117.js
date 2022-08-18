@@ -1,5 +1,6 @@
 var NAVTREEINDEX117 =
 {
+"de/da5/class_man_generator.html#aa332e5108c180e3961b7346eb8219242":[4,0,360,56],
 "de/da5/class_man_generator.html#aa4b1273e8ae5e49d5e3bfeb7b0b02d9c":[4,0,360,6],
 "de/da5/class_man_generator.html#aa4f870d246564655e89f9d50647e5df0":[4,0,360,58],
 "de/da5/class_man_generator.html#aa970c1e592b333a7840b0a893cac82bf":[4,0,360,120],
@@ -248,6 +249,5 @@ var NAVTREEINDEX117 =
 "de/dd8/class_emoji_entity_mapper.html":[4,0,218],
 "de/dd8/class_emoji_entity_mapper.html#a1b6d7e3d1f82adf44c46fdd82d11b2f8":[4,0,218,6],
 "de/dd8/class_emoji_entity_mapper.html#a33137ef11c5d63f6f7d7a27c01db943e":[4,0,218,4],
-"de/dd8/class_emoji_entity_mapper.html#a5238f2051fdd36ef89e3b009f407f7c7":[4,0,218,8],
-"de/dd8/class_emoji_entity_mapper.html#a8f20a25544d61a753eaf73d2618c9c88":[4,0,218,5]
+"de/dd8/class_emoji_entity_mapper.html#a5238f2051fdd36ef89e3b009f407f7c7":[4,0,218,8]
 };

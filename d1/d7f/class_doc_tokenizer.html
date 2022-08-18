@@ -126,8 +126,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0b6da566ad128beaf9ccb68aa8d1c705"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34431cb2cd05302e5f119e040a769f37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7f/class_doc_tokenizer.html#a34431cb2cd05302e5f119e040a769f37">setStateCode</a> ()</td></tr>
 <tr class="separator:a34431cb2cd05302e5f119e040a769f37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acfcff1fd7726a10245844d66db38958c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7f/class_doc_tokenizer.html#acfcff1fd7726a10245844d66db38958c">setStateICode</a> ()</td></tr>
-<tr class="separator:acfcff1fd7726a10245844d66db38958c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8885a45a72652256b2889ada34466ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7f/class_doc_tokenizer.html#ab8885a45a72652256b2889ada34466ef">setStateXmlCode</a> ()</td></tr>
 <tr class="separator:ab8885a45a72652256b2889ada34466ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac363da2884c9fac4485a41f4c62f30ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7f/class_doc_tokenizer.html#ac363da2884c9fac4485a41f4c62f30ec">setStateHtmlOnly</a> ()</td></tr>
@@ -144,8 +142,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a663752c3113ff8c63348c9efb7dc48ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a746075b39ec5494c78a415f58d9a31a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7f/class_doc_tokenizer.html#a746075b39ec5494c78a415f58d9a31a2">setStateVerbatim</a> ()</td></tr>
 <tr class="separator:a746075b39ec5494c78a415f58d9a31a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb2eaeb1ff17b18714dba1df124638e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7f/class_doc_tokenizer.html#aeb2eaeb1ff17b18714dba1df124638e0">setStateIVerbatim</a> ()</td></tr>
-<tr class="separator:aeb2eaeb1ff17b18714dba1df124638e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a176080102d22a57cf6b954cd0fd800ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7f/class_doc_tokenizer.html#a176080102d22a57cf6b954cd0fd800ed">setStateILiteral</a> ()</td></tr>
 <tr class="separator:a176080102d22a57cf6b954cd0fd800ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a146a51289b61c4a07eae63f20a70c47c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7f/class_doc_tokenizer.html#a146a51289b61c4a07eae63f20a70c47c">setStateILiteralOpt</a> ()</td></tr>
@@ -236,18 +232,18 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01714">1714</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1714</span>                           : <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>(std::make_unique&lt;Private&gt;())</div>
-<div class="line"><span class="lineno"> 1715</span>{</div>
-<div class="line"><span class="lineno"> 1716</span>  <span class="comment">//printf(&quot;%p:DocTokenizer::DocTokenizer()\n&quot;,(void*)this);</span></div>
-<div class="line"><span class="lineno"> 1717</span>  doctokenizerYYlex_init_extra(&amp;<a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;extra,&amp;<a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner);</div>
-<div class="line"><span class="lineno"> 1718</span><span class="preprocessor">#ifdef FLEX_DEBUG</span></div>
-<div class="line"><span class="lineno"> 1719</span>  doctokenizerYYset_debug(1,<a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner);</div>
-<div class="line"><span class="lineno"> 1720</span><span class="preprocessor">#endif</span></div>
-<div class="line"><span class="lineno"> 1721</span>}</div>
-<div class="ttc" id="aclass_doc_tokenizer_html_aede113d286596811d42ad1fab08996e4"><div class="ttname"><a href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">DocTokenizer::p</a></div><div class="ttdeci">std::unique_ptr&lt; Private &gt; p</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d0c/doctokenizer_8h_source.html#l00192">doctokenizer.h:192</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01683">1683</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1683</span>                           : <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>(std::make_unique&lt;Private&gt;())</div>
+<div class="line"><span class="lineno"> 1684</span>{</div>
+<div class="line"><span class="lineno"> 1685</span>  <span class="comment">//printf(&quot;%p:DocTokenizer::DocTokenizer()\n&quot;,(void*)this);</span></div>
+<div class="line"><span class="lineno"> 1686</span>  doctokenizerYYlex_init_extra(&amp;<a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;extra,&amp;<a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner);</div>
+<div class="line"><span class="lineno"> 1687</span><span class="preprocessor">#ifdef FLEX_DEBUG</span></div>
+<div class="line"><span class="lineno"> 1688</span>  doctokenizerYYset_debug(1,<a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner);</div>
+<div class="line"><span class="lineno"> 1689</span><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="lineno"> 1690</span>}</div>
+<div class="ttc" id="aclass_doc_tokenizer_html_aede113d286596811d42ad1fab08996e4"><div class="ttname"><a href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">DocTokenizer::p</a></div><div class="ttdeci">std::unique_ptr&lt; Private &gt; p</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d0c/doctokenizer_8h_source.html#l00190">doctokenizer.h:190</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 </div>
 </div>
@@ -266,13 +262,13 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01723">1723</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1724</span>{</div>
-<div class="line"><span class="lineno"> 1725</span>  <span class="comment">//printf(&quot;%p:DocTokenizer::~DocTokenizer()\n&quot;,(void*)this);</span></div>
-<div class="line"><span class="lineno"> 1726</span>  doctokenizerYYlex_destroy(<a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner);</div>
-<div class="line"><span class="lineno"> 1727</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01692">1692</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1693</span>{</div>
+<div class="line"><span class="lineno"> 1694</span>  <span class="comment">//printf(&quot;%p:DocTokenizer::~DocTokenizer()\n&quot;,(void*)this);</span></div>
+<div class="line"><span class="lineno"> 1695</span>  doctokenizerYYlex_destroy(<a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner);</div>
+<div class="line"><span class="lineno"> 1696</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 </div>
 </div>
@@ -292,15 +288,15 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02088">2088</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2089</span>{</div>
-<div class="line"><span class="lineno"> 2090</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 2091</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 2092</span>  yy_delete_buffer( YY_CURRENT_BUFFER, yyscanner );</div>
-<div class="line"><span class="lineno"> 2093</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02040">2040</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 2041</span>{</div>
+<div class="line"><span class="lineno"> 2042</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 2043</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 2044</span>  yy_delete_buffer( YY_CURRENT_BUFFER, yyscanner );</div>
+<div class="line"><span class="lineno"> 2045</span>}</div>
 <div class="ttc" id="acode_8l_html_a9484188abbc459dafcbd4c96425fa70b"><div class="ttname"><a href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a></div><div class="ttdeci">yyguts_t * yyscan_t</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d1f/code_8l_source.html#l00024">code.l:24</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 </div>
 </div>
@@ -319,14 +315,14 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02123">2123</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2124</span>{</div>
-<div class="line"><span class="lineno"> 2125</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 2126</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 2127</span>  yyextra-&gt;autoListLevel--;</div>
-<div class="line"><span class="lineno"> 2128</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02075">2075</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 2076</span>{</div>
+<div class="line"><span class="lineno"> 2077</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 2078</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 2079</span>  yyextra-&gt;autoListLevel--;</div>
+<div class="line"><span class="lineno"> 2080</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02658">DocAutoList::parse()</a>.</p>
 
@@ -364,23 +360,23 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01741">1741</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1743</span>{</div>
-<div class="line"><span class="lineno"> 1744</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 1745</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1746</span> </div>
-<div class="line"><span class="lineno"> 1747</span>  <span class="keywordflow">if</span> (input.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>()) <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno"> 1748</span>  <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#afeaf3cf484d932b2198498b3209f7e03">printlex</a>(yy_flex_debug, <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>, __FILE__, <a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(fileName));</div>
-<div class="line"><span class="lineno"> 1749</span>  yyextra-&gt;inputString = input.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>();</div>
-<div class="line"><span class="lineno"> 1750</span>  <span class="comment">//printf(&quot;parsing ---&gt;&#39;%s&#39;&lt;---\n&quot;,input);</span></div>
-<div class="line"><span class="lineno"> 1751</span>  yyextra-&gt;inputPos    = 0;</div>
-<div class="line"><span class="lineno"> 1752</span>  yyextra-&gt;definition  = d;</div>
-<div class="line"><span class="lineno"> 1753</span>  yyextra-&gt;fileName    = fileName;</div>
-<div class="line"><span class="lineno"> 1754</span>  BEGIN(St_Sections);</div>
-<div class="line"><span class="lineno"> 1755</span>  yyextra-&gt;yyLineNr = 1;</div>
-<div class="line"><span class="lineno"> 1756</span>  doctokenizerYYlex(yyscanner);</div>
-<div class="line"><span class="lineno"> 1757</span>  <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#afeaf3cf484d932b2198498b3209f7e03">printlex</a>(yy_flex_debug, <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>, __FILE__, <a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(fileName));</div>
-<div class="line"><span class="lineno"> 1758</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01710">1710</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1712</span>{</div>
+<div class="line"><span class="lineno"> 1713</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1714</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1715</span> </div>
+<div class="line"><span class="lineno"> 1716</span>  <span class="keywordflow">if</span> (input.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>()) <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1717</span>  <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#afeaf3cf484d932b2198498b3209f7e03">printlex</a>(yy_flex_debug, <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>, __FILE__, <a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(fileName));</div>
+<div class="line"><span class="lineno"> 1718</span>  yyextra-&gt;inputString = input.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>();</div>
+<div class="line"><span class="lineno"> 1719</span>  <span class="comment">//printf(&quot;parsing ---&gt;&#39;%s&#39;&lt;---\n&quot;,input);</span></div>
+<div class="line"><span class="lineno"> 1720</span>  yyextra-&gt;inputPos    = 0;</div>
+<div class="line"><span class="lineno"> 1721</span>  yyextra-&gt;definition  = d;</div>
+<div class="line"><span class="lineno"> 1722</span>  yyextra-&gt;fileName    = fileName;</div>
+<div class="line"><span class="lineno"> 1723</span>  BEGIN(St_Sections);</div>
+<div class="line"><span class="lineno"> 1724</span>  yyextra-&gt;yyLineNr = 1;</div>
+<div class="line"><span class="lineno"> 1725</span>  doctokenizerYYlex(yyscanner);</div>
+<div class="line"><span class="lineno"> 1726</span>  <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#afeaf3cf484d932b2198498b3209f7e03">printlex</a>(yy_flex_debug, <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>, __FILE__, <a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(fileName));</div>
+<div class="line"><span class="lineno"> 1727</span>}</div>
 <div class="ttc" id="aclass_q_c_string_html_a621c4090d69ad7d05ef8e5234376c3d8"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">QCString::isEmpty</a></div><div class="ttdeci">bool isEmpty() const</div><div class="ttdoc">Returns TRUE iff the string is empty.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00144">qcstring.h:144</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_ac3aa3ac1a1c36d3305eba22a2eb0d098"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">QCString::data</a></div><div class="ttdeci">const char * data() const</div><div class="ttdoc">Returns a pointer to the contents of the string in the form of a 0-terminated C string.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00153">qcstring.h:153</a></div></div>
 <div class="ttc" id="amessage_8cpp_html_afeaf3cf484d932b2198498b3209f7e03"><div class="ttname"><a href="../../d8/d6a/message_8cpp.html#afeaf3cf484d932b2198498b3209f7e03">printlex</a></div><div class="ttdeci">void printlex(int dbg, bool enter, const char *lexName, const char *fileName)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6a/message_8cpp_source.html#l00273">message.cpp:273</a></div></div>
@@ -388,9 +384,9 @@ Private Attributes</h2></td></tr>
 <div class="ttc" id="aqcstring_8h_html_aa8cecfc5c5c054d2875c03e77b7be15d"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a></div><div class="ttdeci">#define TRUE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00036">qcstring.h:36</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_aa93f0eb578d23995850d61f7d61c55c1"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></div><div class="ttdeci">#define FALSE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00033">qcstring.h:33</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00153">QCString::data()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00273">printlex()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00615">qPrint()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00153">QCString::data()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00273">printlex()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00615">qPrint()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/d17/docparser_8cpp_source.html#l02072">docFindSections()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d17/docparser_8cpp_source.html#l02070">docFindSections()</a>.</p>
 
 </div>
 </div>
@@ -410,16 +406,16 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02145">2145</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2146</span>{</div>
-<div class="line"><span class="lineno"> 2147</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 2148</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 2149</span>  <span class="keywordflow">return</span> yyextra-&gt;yyLineNr;</div>
-<div class="line"><span class="lineno"> 2150</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02097">2097</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 2098</span>{</div>
+<div class="line"><span class="lineno"> 2099</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 2100</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 2101</span>  <span class="keywordflow">return</span> yyextra-&gt;yyLineNr;</div>
+<div class="line"><span class="lineno"> 2102</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00952">DocParser::defaultHandleTitleAndSize()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01145">DocParser::defaultHandleToken()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00203">DocAnchor::DocAnchor()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00844">DocCite::DocCite()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00154">DocEmoji::DocEmoji()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00499">DocFormula::DocFormula()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l01515">DocHtmlCaption::DocHtmlCaption()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00882">DocLink::DocLink()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00695">DocRef::DocRef()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00536">DocParser::errorHandleDefaultToken()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00107">DocParser::findAndCopyImage()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00704">DocParser::handleAHref()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00915">DocParser::handleAnchor()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03468">DocPara::handleFile()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01026">DocParser::handleImage()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01551">DocParser::handleImg()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00892">DocParser::handleInternalRef()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00761">DocParser::handleLinkedWord()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00564">DocParser::handleStyleArgument()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00627">DocParser::handleStyleLeave()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00748">DocParser::handleUnclosedStyleCommands()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01786">DocParser::processCopyDoc()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00072">DocParser::pushContext()</a>, and <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01623">DocParser::readTextFileByName()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00952">DocParser::defaultHandleTitleAndSize()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01145">DocParser::defaultHandleToken()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00203">DocAnchor::DocAnchor()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00844">DocCite::DocCite()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00154">DocEmoji::DocEmoji()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00499">DocFormula::DocFormula()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l01515">DocHtmlCaption::DocHtmlCaption()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00882">DocLink::DocLink()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00695">DocRef::DocRef()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00536">DocParser::errorHandleDefaultToken()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00107">DocParser::findAndCopyImage()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00704">DocParser::handleAHref()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00915">DocParser::handleAnchor()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03468">DocPara::handleFile()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01026">DocParser::handleImage()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01551">DocParser::handleImg()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00892">DocParser::handleInternalRef()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00761">DocParser::handleLinkedWord()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00564">DocParser::handleStyleArgument()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00627">DocParser::handleStyleLeave()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00748">DocParser::handleUnclosedStyleCommands()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01784">DocParser::processCopyDoc()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00072">DocParser::pushContext()</a>, and <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01623">DocParser::readTextFileByName()</a>.</p>
 
 </div>
 </div>
@@ -455,22 +451,22 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01760">1760</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1761</span>{</div>
-<div class="line"><span class="lineno"> 1762</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 1763</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1764</span>  yyextra-&gt;autoListLevel = 0;</div>
-<div class="line"><span class="lineno"> 1765</span>  yyextra-&gt;inputString = input;</div>
-<div class="line"><span class="lineno"> 1766</span>  yyextra-&gt;inputPos    = 0;</div>
-<div class="line"><span class="lineno"> 1767</span>  yyextra-&gt;fileName    = fileName;</div>
-<div class="line"><span class="lineno"> 1768</span>  yyextra-&gt;insidePre   = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="line"><span class="lineno"> 1769</span>  yyextra-&gt;markdownSupport = markdownSupport;</div>
-<div class="line"><span class="lineno"> 1770</span>  BEGIN(St_Para);</div>
-<div class="line"><span class="lineno"> 1771</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01729">1729</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1730</span>{</div>
+<div class="line"><span class="lineno"> 1731</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1732</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1733</span>  yyextra-&gt;autoListLevel = 0;</div>
+<div class="line"><span class="lineno"> 1734</span>  yyextra-&gt;inputString = input;</div>
+<div class="line"><span class="lineno"> 1735</span>  yyextra-&gt;inputPos    = 0;</div>
+<div class="line"><span class="lineno"> 1736</span>  yyextra-&gt;fileName    = fileName;</div>
+<div class="line"><span class="lineno"> 1737</span>  yyextra-&gt;insidePre   = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
+<div class="line"><span class="lineno"> 1738</span>  yyextra-&gt;markdownSupport = markdownSupport;</div>
+<div class="line"><span class="lineno"> 1739</span>  BEGIN(St_Para);</div>
+<div class="line"><span class="lineno"> 1740</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, and <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, and <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01581">DocParser::internalValidatingParseDoc()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01883">validatingParseDoc()</a>, and <a class="el" href="../../da/d17/docparser_8cpp_source.html#l02008">validatingParseText()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01581">DocParser::internalValidatingParseDoc()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01881">validatingParseDoc()</a>, and <a class="el" href="../../da/d17/docparser_8cpp_source.html#l02006">validatingParseText()</a>.</p>
 
 </div>
 </div>
@@ -489,12 +485,12 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01729">1729</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1730</span>{</div>
-<div class="line"><span class="lineno"> 1731</span>  <span class="keywordflow">return</span> doctokenizerYYlex(<a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner);</div>
-<div class="line"><span class="lineno"> 1732</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01698">1698</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1699</span>{</div>
+<div class="line"><span class="lineno"> 1700</span>  <span class="keywordflow">return</span> doctokenizerYYlex(<a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner);</div>
+<div class="line"><span class="lineno"> 1701</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00952">DocParser::defaultHandleTitleAndSize()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01145">DocParser::defaultHandleToken()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00915">DocParser::handleAnchor()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03122">DocPara::handleCite()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03818">DocPara::handleCommand()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03153">DocPara::handleEmoji()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03468">DocPara::handleFile()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03389">DocPara::handleIFile()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03376">DocPara::handleILine()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01026">DocParser::handleImage()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03573">DocPara::handleInclude()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03412">DocPara::handleIncludeOperator()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00892">DocParser::handleInternalRef()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03505">DocPara::handleLink()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03545">DocPara::handleRef()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03703">DocPara::handleSection()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03203">DocPara::handleShowDate()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03750">DocPara::handleStartCode()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00564">DocParser::handleStyleArgument()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03183">DocPara::handleXRefItem()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l01422">DocIndexEntry::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l01132">DocVhdlFlow::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02085">DocHtmlDescTitle::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02261">DocHtmlDescList::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00597">DocSecRefList::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02388">DocHtmlList::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l01758">DocHtmlRow::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l01905">DocHtmlTable::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02867">DocParamList::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02463">DocHtmlList::parseXml()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l01973">DocHtmlTable::parseXml()</a>, and <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l01824">DocHtmlRow::parseXml()</a>.</p>
 
@@ -515,17 +511,17 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01773">1773</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1774</span>{</div>
-<div class="line"><span class="lineno"> 1775</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 1776</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1777</span>  <span class="keywordflow">return</span> yyextra-&gt;token = <span class="keyword">new</span> <a class="code hl_struct" href="../../d6/df4/struct_token_info.html">TokenInfo</a>;</div>
-<div class="line"><span class="lineno"> 1778</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01742">1742</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1743</span>{</div>
+<div class="line"><span class="lineno"> 1744</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1745</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1746</span>  <span class="keywordflow">return</span> yyextra-&gt;token = <span class="keyword">new</span> <a class="code hl_struct" href="../../d6/df4/struct_token_info.html">TokenInfo</a>;</div>
+<div class="line"><span class="lineno"> 1747</span>}</div>
 <div class="ttc" id="astruct_token_info_html"><div class="ttname"><a href="../../d6/df4/struct_token_info.html">TokenInfo</a></div><div class="ttdoc">Data associated with a token used by the comment block parser.</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d0c/doctokenizer_8h_source.html#l00073">doctokenizer.h:74</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00072">DocParser::pushContext()</a>, and <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01780">replaceToken()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00072">DocParser::pushContext()</a>, and <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01749">replaceToken()</a>.</p>
 
 </div>
 </div>
@@ -544,26 +540,26 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01694">1694</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1695</span>{</div>
-<div class="line"><span class="lineno"> 1696</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 1697</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1698</span>  <span class="comment">//printf(&quot;DocTokenizer::popContext() stack=%zu\n&quot;,yyextra-&gt;lexerStack.size());</span></div>
-<div class="line"><span class="lineno"> 1699</span>  <span class="keywordflow">if</span> (yyextra-&gt;lexerStack.empty()) <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="line"><span class="lineno"> 1700</span>  <span class="keyword">const</span> <span class="keyword">auto</span> &amp;ctx = yyextra-&gt;lexerStack.top();</div>
-<div class="line"><span class="lineno"> 1701</span>  yyextra-&gt;autoListLevel = ctx-&gt;autoListLevel;</div>
-<div class="line"><span class="lineno"> 1702</span>  yyextra-&gt;inputPos      = ctx-&gt;inputPos;</div>
-<div class="line"><span class="lineno"> 1703</span>  yyextra-&gt;inputString   = ctx-&gt;inputString;</div>
-<div class="line"><span class="lineno"> 1704</span> </div>
-<div class="line"><span class="lineno"> 1705</span>  yy_delete_buffer(YY_CURRENT_BUFFER, yyscanner);</div>
-<div class="line"><span class="lineno"> 1706</span>  yy_switch_to_buffer(ctx-&gt;state, yyscanner);</div>
-<div class="line"><span class="lineno"> 1707</span> </div>
-<div class="line"><span class="lineno"> 1708</span>  BEGIN(ctx-&gt;rule);</div>
-<div class="line"><span class="lineno"> 1709</span>  yyextra-&gt;lexerStack.pop();</div>
-<div class="line"><span class="lineno"> 1710</span>  <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno"> 1711</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01663">1663</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1664</span>{</div>
+<div class="line"><span class="lineno"> 1665</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1666</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1667</span>  <span class="comment">//printf(&quot;DocTokenizer::popContext() stack=%zu\n&quot;,yyextra-&gt;lexerStack.size());</span></div>
+<div class="line"><span class="lineno"> 1668</span>  <span class="keywordflow">if</span> (yyextra-&gt;lexerStack.empty()) <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
+<div class="line"><span class="lineno"> 1669</span>  <span class="keyword">const</span> <span class="keyword">auto</span> &amp;ctx = yyextra-&gt;lexerStack.top();</div>
+<div class="line"><span class="lineno"> 1670</span>  yyextra-&gt;autoListLevel = ctx-&gt;autoListLevel;</div>
+<div class="line"><span class="lineno"> 1671</span>  yyextra-&gt;inputPos      = ctx-&gt;inputPos;</div>
+<div class="line"><span class="lineno"> 1672</span>  yyextra-&gt;inputString   = ctx-&gt;inputString;</div>
+<div class="line"><span class="lineno"> 1673</span> </div>
+<div class="line"><span class="lineno"> 1674</span>  yy_delete_buffer(YY_CURRENT_BUFFER, yyscanner);</div>
+<div class="line"><span class="lineno"> 1675</span>  yy_switch_to_buffer(ctx-&gt;state, yyscanner);</div>
+<div class="line"><span class="lineno"> 1676</span> </div>
+<div class="line"><span class="lineno"> 1677</span>  BEGIN(ctx-&gt;rule);</div>
+<div class="line"><span class="lineno"> 1678</span>  yyextra-&gt;lexerStack.pop();</div>
+<div class="line"><span class="lineno"> 1679</span>  <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno"> 1680</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00086">DocParser::popContext()</a>.</p>
 
@@ -585,23 +581,23 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02102">2102</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2103</span>{</div>
-<div class="line"><span class="lineno"> 2104</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 2105</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 2106</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> tagName = tag;</div>
-<div class="line"><span class="lineno"> 2107</span>  <span class="keywordtype">int</span> i,l = tagName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">length</a>();</div>
-<div class="line"><span class="lineno"> 2108</span>  unput(<span class="charliteral">&#39;&gt;&#39;</span>);</div>
-<div class="line"><span class="lineno"> 2109</span>  <span class="keywordflow">for</span> (i=l-1;i&gt;=0;i--)</div>
-<div class="line"><span class="lineno"> 2110</span>  {</div>
-<div class="line"><span class="lineno"> 2111</span>    unput(tag[i]);</div>
-<div class="line"><span class="lineno"> 2112</span>  }</div>
-<div class="line"><span class="lineno"> 2113</span>  unput(<span class="charliteral">&#39;&lt;&#39;</span>);</div>
-<div class="line"><span class="lineno"> 2114</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02054">2054</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 2055</span>{</div>
+<div class="line"><span class="lineno"> 2056</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 2057</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 2058</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> tagName = tag;</div>
+<div class="line"><span class="lineno"> 2059</span>  <span class="keywordtype">int</span> i,l = tagName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">length</a>();</div>
+<div class="line"><span class="lineno"> 2060</span>  unput(<span class="charliteral">&#39;&gt;&#39;</span>);</div>
+<div class="line"><span class="lineno"> 2061</span>  <span class="keywordflow">for</span> (i=l-1;i&gt;=0;i--)</div>
+<div class="line"><span class="lineno"> 2062</span>  {</div>
+<div class="line"><span class="lineno"> 2063</span>    unput(tag[i]);</div>
+<div class="line"><span class="lineno"> 2064</span>  }</div>
+<div class="line"><span class="lineno"> 2065</span>  unput(<span class="charliteral">&#39;&lt;&#39;</span>);</div>
+<div class="line"><span class="lineno"> 2066</span>}</div>
 <div class="ttc" id="aclass_q_c_string_html"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html">QCString</a></div><div class="ttdoc">This is an alternative implementation of QCString.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00108">qcstring.h:109</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_ac52596733e9110b778019946d73fb268"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">QCString::length</a></div><div class="ttdeci">uint length() const</div><div class="ttdoc">Returns the length of the string, not counting the 0-terminator.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00147">qcstring.h:147</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::length()</a>, and <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::length()</a>, and <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02261">DocHtmlDescList::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02388">DocHtmlList::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l01758">DocHtmlRow::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02463">DocHtmlList::parseXml()</a>, and <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l01824">DocHtmlRow::parseXml()</a>.</p>
 
@@ -622,22 +618,22 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01679">1679</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1680</span>{</div>
-<div class="line"><span class="lineno"> 1681</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 1682</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1683</span>  <span class="comment">//printf(&quot;DocTokenizer::pushContext() stack=%zu\n&quot;,yyextra-&gt;lexerStack.size());</span></div>
-<div class="line"><span class="lineno"> 1684</span>  yyextra-&gt;lexerStack.push(</div>
-<div class="line"><span class="lineno"> 1685</span>      std::make_unique&lt;DocLexerContext&gt;(</div>
-<div class="line"><span class="lineno"> 1686</span>        yyextra-&gt;token,YY_START,</div>
-<div class="line"><span class="lineno"> 1687</span>        yyextra-&gt;autoListLevel,</div>
-<div class="line"><span class="lineno"> 1688</span>        yyextra-&gt;inputPos,</div>
-<div class="line"><span class="lineno"> 1689</span>        yyextra-&gt;inputString,</div>
-<div class="line"><span class="lineno"> 1690</span>        YY_CURRENT_BUFFER));</div>
-<div class="line"><span class="lineno"> 1691</span>  yy_switch_to_buffer(yy_create_buffer(0, YY_BUF_SIZE, yyscanner), yyscanner);</div>
-<div class="line"><span class="lineno"> 1692</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01648">1648</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1649</span>{</div>
+<div class="line"><span class="lineno"> 1650</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1651</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1652</span>  <span class="comment">//printf(&quot;DocTokenizer::pushContext() stack=%zu\n&quot;,yyextra-&gt;lexerStack.size());</span></div>
+<div class="line"><span class="lineno"> 1653</span>  yyextra-&gt;lexerStack.push(</div>
+<div class="line"><span class="lineno"> 1654</span>      std::make_unique&lt;DocLexerContext&gt;(</div>
+<div class="line"><span class="lineno"> 1655</span>        yyextra-&gt;token,YY_START,</div>
+<div class="line"><span class="lineno"> 1656</span>        yyextra-&gt;autoListLevel,</div>
+<div class="line"><span class="lineno"> 1657</span>        yyextra-&gt;inputPos,</div>
+<div class="line"><span class="lineno"> 1658</span>        yyextra-&gt;inputString,</div>
+<div class="line"><span class="lineno"> 1659</span>        YY_CURRENT_BUFFER));</div>
+<div class="line"><span class="lineno"> 1660</span>  yy_switch_to_buffer(yy_create_buffer(0, YY_BUF_SIZE, yyscanner), yyscanner);</div>
+<div class="line"><span class="lineno"> 1661</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00072">DocParser::pushContext()</a>.</p>
 
@@ -659,16 +655,16 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01780">1780</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1781</span>{</div>
-<div class="line"><span class="lineno"> 1782</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 1783</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1784</span>  <span class="keyword">delete</span> yyextra-&gt;token;</div>
-<div class="line"><span class="lineno"> 1785</span>  yyextra-&gt;token = <a class="code hl_function" href="../../d1/d7f/class_doc_tokenizer.html#a159392684d28427405729197970bbe6f">newToken</a>;</div>
-<div class="line"><span class="lineno"> 1786</span>}</div>
-<div class="ttc" id="aclass_doc_tokenizer_html_a159392684d28427405729197970bbe6f"><div class="ttname"><a href="../../d1/d7f/class_doc_tokenizer.html#a159392684d28427405729197970bbe6f">DocTokenizer::newToken</a></div><div class="ttdeci">TokenInfo * newToken()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d39/doctokenizer_8l_source.html#l01773">doctokenizer.l:1773</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01749">1749</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1750</span>{</div>
+<div class="line"><span class="lineno"> 1751</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1752</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1753</span>  <span class="keyword">delete</span> yyextra-&gt;token;</div>
+<div class="line"><span class="lineno"> 1754</span>  yyextra-&gt;token = <a class="code hl_function" href="../../d1/d7f/class_doc_tokenizer.html#a159392684d28427405729197970bbe6f">newToken</a>;</div>
+<div class="line"><span class="lineno"> 1755</span>}</div>
+<div class="ttc" id="aclass_doc_tokenizer_html_a159392684d28427405729197970bbe6f"><div class="ttname"><a href="../../d1/d7f/class_doc_tokenizer.html#a159392684d28427405729197970bbe6f">DocTokenizer::newToken</a></div><div class="ttdeci">TokenInfo * newToken()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d39/doctokenizer_8l_source.html#l01742">doctokenizer.l:1742</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01773">newToken()</a>, and <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01742">newToken()</a>, and <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00086">DocParser::popContext()</a>.</p>
 
@@ -744,7 +740,7 @@ Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00053">RetVal_DescData</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00054">RetVal_DescTitle</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00055">RetVal_EndDesc</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00051">RetVal_EndList</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00052">RetVal_EndPre</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00059">RetVal_EndTable</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00060">RetVal_Internal</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00045">RetVal_ListItem</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00043">RetVal_OK</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00049">RetVal_Paragraph</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00046">RetVal_Section</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00044">RetVal_SimpleSec</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00050">RetVal_SubParagraph</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00047">RetVal_Subsection</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00048">RetVal_Subsubsection</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00057">RetVal_TableCell</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00058">RetVal_TableHCell</a>, and <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00056">RetVal_TableRow</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03818">DocPara::handleCommand()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l01422">DocIndexEntry::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l01288">DocHtmlDetails::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l05427">DocSection::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02553">DocParBlock::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02388">DocHtmlList::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l05127">DocPara::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02331">DocHtmlListItem::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02528">DocHtmlBlockQuote::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l01361">DocInternal::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02463">DocHtmlList::parseXml()</a>, and <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02354">DocHtmlListItem::parseXml()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03818">DocPara::handleCommand()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l01422">DocIndexEntry::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l01288">DocHtmlDetails::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l05411">DocSection::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02553">DocParBlock::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02388">DocHtmlList::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l05111">DocPara::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02331">DocHtmlListItem::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02528">DocHtmlBlockQuote::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l01361">DocInternal::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02463">DocHtmlList::parseXml()</a>, and <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02354">DocHtmlListItem::parseXml()</a>.</p>
 
 </div>
 </div>
@@ -764,16 +760,16 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02095">2095</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2096</span>{</div>
-<div class="line"><span class="lineno"> 2097</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 2098</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 2099</span>  yyextra-&gt;insidePre = b;</div>
-<div class="line"><span class="lineno"> 2100</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02047">2047</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 2048</span>{</div>
+<div class="line"><span class="lineno"> 2049</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 2050</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 2051</span>  yyextra-&gt;insidePre = b;</div>
+<div class="line"><span class="lineno"> 2052</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l04927">DocPara::handleHtmlEndTag()</a>, and <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l04495">DocPara::handleHtmlStartTag()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l04911">DocPara::handleHtmlEndTag()</a>, and <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l04479">DocPara::handleHtmlStartTag()</a>.</p>
 
 </div>
 </div>
@@ -793,16 +789,16 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02138">2138</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2139</span>{</div>
-<div class="line"><span class="lineno"> 2140</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 2141</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 2142</span>  yyextra-&gt;yyLineNr = lineno;</div>
-<div class="line"><span class="lineno"> 2143</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02090">2090</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 2091</span>{</div>
+<div class="line"><span class="lineno"> 2092</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 2093</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 2094</span>  yyextra-&gt;yyLineNr = lineno;</div>
+<div class="line"><span class="lineno"> 2095</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03573">DocPara::handleInclude()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00086">DocParser::popContext()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01883">validatingParseDoc()</a>, and <a class="el" href="../../da/d17/docparser_8cpp_source.html#l02008">validatingParseText()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03573">DocPara::handleInclude()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00086">DocParser::popContext()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01881">validatingParseDoc()</a>, and <a class="el" href="../../da/d17/docparser_8cpp_source.html#l02006">validatingParseText()</a>.</p>
 
 </div>
 </div>
@@ -821,14 +817,14 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02021">2021</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2022</span>{</div>
-<div class="line"><span class="lineno"> 2023</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 2024</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 2025</span>  BEGIN(St_Anchor);</div>
-<div class="line"><span class="lineno"> 2026</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01973">1973</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1974</span>{</div>
+<div class="line"><span class="lineno"> 1975</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1976</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1977</span>  BEGIN(St_Anchor);</div>
+<div class="line"><span class="lineno"> 1978</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00915">DocParser::handleAnchor()</a>.</p>
 
@@ -849,15 +845,15 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02051">2051</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2052</span>{</div>
-<div class="line"><span class="lineno"> 2053</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 2054</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 2055</span>  yyextra-&gt;token-&gt;name=<span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2056</span>  BEGIN(St_Block);</div>
-<div class="line"><span class="lineno"> 2057</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02003">2003</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 2004</span>{</div>
+<div class="line"><span class="lineno"> 2005</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 2006</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 2007</span>  yyextra-&gt;token-&gt;name=<span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2008</span>  BEGIN(St_Block);</div>
+<div class="line"><span class="lineno"> 2009</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03573">DocPara::handleInclude()</a>.</p>
 
@@ -878,14 +874,14 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01986">1986</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1987</span>{</div>
-<div class="line"><span class="lineno"> 1988</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 1989</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1990</span>  BEGIN(St_Cite);</div>
-<div class="line"><span class="lineno"> 1991</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01938">1938</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1939</span>{</div>
+<div class="line"><span class="lineno"> 1940</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1941</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1942</span>  BEGIN(St_Cite);</div>
+<div class="line"><span class="lineno"> 1943</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03122">DocPara::handleCite()</a>.</p>
 
@@ -906,16 +902,16 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01809">1809</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1810</span>{</div>
-<div class="line"><span class="lineno"> 1811</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 1812</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1813</span>  yyextra-&gt;token-&gt;verb=<span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1814</span>  yyextra-&gt;token-&gt;name=<span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1815</span>  BEGIN(St_CodeOpt);</div>
-<div class="line"><span class="lineno"> 1816</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01778">1778</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1779</span>{</div>
+<div class="line"><span class="lineno"> 1780</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1781</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1782</span>  yyextra-&gt;token-&gt;verb=<span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1783</span>  yyextra-&gt;token-&gt;name=<span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1784</span>  BEGIN(St_CodeOpt);</div>
+<div class="line"><span class="lineno"> 1785</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03818">DocPara::handleCommand()</a>.</p>
 
@@ -936,15 +932,15 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01869">1869</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1870</span>{</div>
-<div class="line"><span class="lineno"> 1871</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 1872</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1873</span>  yyextra-&gt;token-&gt;verb=<span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1874</span>  BEGIN(St_DbOnly);</div>
-<div class="line"><span class="lineno"> 1875</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01829">1829</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1830</span>{</div>
+<div class="line"><span class="lineno"> 1831</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1832</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1833</span>  yyextra-&gt;token-&gt;verb=<span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1834</span>  BEGIN(St_DbOnly);</div>
+<div class="line"><span class="lineno"> 1835</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01145">DocParser::defaultHandleToken()</a>, and <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03818">DocPara::handleCommand()</a>.</p>
 
@@ -965,15 +961,15 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01917">1917</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1918</span>{</div>
-<div class="line"><span class="lineno"> 1919</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 1920</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1921</span>  yyextra-&gt;token-&gt;verb=<span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1922</span>  BEGIN(St_Dot);</div>
-<div class="line"><span class="lineno"> 1923</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01869">1869</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1870</span>{</div>
+<div class="line"><span class="lineno"> 1871</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1872</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1873</span>  yyextra-&gt;token-&gt;verb=<span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1874</span>  BEGIN(St_Dot);</div>
+<div class="line"><span class="lineno"> 1875</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03818">DocPara::handleCommand()</a>.</p>
 
@@ -994,15 +990,15 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02059">2059</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2060</span>{</div>
-<div class="line"><span class="lineno"> 2061</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 2062</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 2063</span>  yyextra-&gt;token-&gt;name=<span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2064</span>  BEGIN(St_Emoji);</div>
-<div class="line"><span class="lineno"> 2065</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02011">2011</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 2012</span>{</div>
+<div class="line"><span class="lineno"> 2013</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 2014</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 2015</span>  yyextra-&gt;token-&gt;name=<span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2016</span>  BEGIN(St_Emoji);</div>
+<div class="line"><span class="lineno"> 2017</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03153">DocPara::handleEmoji()</a>.</p>
 
@@ -1023,14 +1019,14 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01964">1964</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1965</span>{</div>
-<div class="line"><span class="lineno"> 1966</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 1967</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1968</span>  BEGIN(St_File);</div>
-<div class="line"><span class="lineno"> 1969</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01916">1916</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1917</span>{</div>
+<div class="line"><span class="lineno"> 1918</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1919</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1920</span>  BEGIN(St_File);</div>
+<div class="line"><span class="lineno"> 1921</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03468">DocPara::handleFile()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03389">DocPara::handleIFile()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01026">DocParser::handleImage()</a>, and <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03573">DocPara::handleInclude()</a>.</p>
 
@@ -1051,48 +1047,18 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01836">1836</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1837</span>{</div>
-<div class="line"><span class="lineno"> 1838</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 1839</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1840</span>  yyextra-&gt;token-&gt;verb=<span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1841</span>  yyextra-&gt;token-&gt;name=<span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1842</span>  BEGIN(St_HtmlOnlyOption);</div>
-<div class="line"><span class="lineno"> 1843</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01796">1796</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1797</span>{</div>
+<div class="line"><span class="lineno"> 1798</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1799</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1800</span>  yyextra-&gt;token-&gt;verb=<span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1801</span>  yyextra-&gt;token-&gt;name=<span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1802</span>  BEGIN(St_HtmlOnlyOption);</div>
+<div class="line"><span class="lineno"> 1803</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01145">DocParser::defaultHandleToken()</a>, and <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03818">DocPara::handleCommand()</a>.</p>
-
-</div>
-</div>
-<a id="acfcff1fd7726a10245844d66db38958c" name="acfcff1fd7726a10245844d66db38958c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acfcff1fd7726a10245844d66db38958c">&#9670;&#160;</a></span>setStateICode()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DocTokenizer::setStateICode </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01818">1818</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1819</span>{</div>
-<div class="line"><span class="lineno"> 1820</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 1821</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1822</span>  yyextra-&gt;token-&gt;verb=<span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1823</span>  yyextra-&gt;token-&gt;name=<span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1824</span>  BEGIN(St_iCodeOpt);</div>
-<div class="line"><span class="lineno"> 1825</span>}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03818">DocPara::handleCommand()</a>.</p>
 
 </div>
 </div>
@@ -1111,14 +1077,14 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02067">2067</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2068</span>{</div>
-<div class="line"><span class="lineno"> 2069</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 2070</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 2071</span>  BEGIN(St_ILine);</div>
-<div class="line"><span class="lineno"> 2072</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02019">2019</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 2020</span>{</div>
+<div class="line"><span class="lineno"> 2021</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 2022</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 2023</span>  BEGIN(St_ILine);</div>
+<div class="line"><span class="lineno"> 2024</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03376">DocPara::handleILine()</a>.</p>
 
@@ -1139,15 +1105,15 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01885">1885</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1886</span>{</div>
-<div class="line"><span class="lineno"> 1887</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 1888</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1889</span>  yyextra-&gt;token-&gt;verb=<span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1890</span>  BEGIN(St_ILiteral);</div>
-<div class="line"><span class="lineno"> 1891</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01845">1845</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1846</span>{</div>
+<div class="line"><span class="lineno"> 1847</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1848</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1849</span>  yyextra-&gt;token-&gt;verb=<span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1850</span>  BEGIN(St_ILiteral);</div>
+<div class="line"><span class="lineno"> 1851</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03818">DocPara::handleCommand()</a>.</p>
 
@@ -1168,15 +1134,15 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01893">1893</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1894</span>{</div>
-<div class="line"><span class="lineno"> 1895</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 1896</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1897</span>  yyextra-&gt;token-&gt;verb=<span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1898</span>  BEGIN(St_ILiteralOpt);</div>
-<div class="line"><span class="lineno"> 1899</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01853">1853</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1854</span>{</div>
+<div class="line"><span class="lineno"> 1855</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1856</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1857</span>  yyextra-&gt;token-&gt;verb=<span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1858</span>  BEGIN(St_ILiteralOpt);</div>
+<div class="line"><span class="lineno"> 1859</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03818">DocPara::handleCommand()</a>.</p>
 
@@ -1197,45 +1163,16 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02000">2000</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2001</span>{</div>
-<div class="line"><span class="lineno"> 2002</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 2003</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 2004</span>  BEGIN(St_IntRef);</div>
-<div class="line"><span class="lineno"> 2005</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01952">1952</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1953</span>{</div>
+<div class="line"><span class="lineno"> 1954</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1955</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1956</span>  BEGIN(St_IntRef);</div>
+<div class="line"><span class="lineno"> 1957</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00892">DocParser::handleInternalRef()</a>.</p>
-
-</div>
-</div>
-<a id="aeb2eaeb1ff17b18714dba1df124638e0" name="aeb2eaeb1ff17b18714dba1df124638e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb2eaeb1ff17b18714dba1df124638e0">&#9670;&#160;</a></span>setStateIVerbatim()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DocTokenizer::setStateIVerbatim </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01909">1909</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1910</span>{</div>
-<div class="line"><span class="lineno"> 1911</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 1912</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1913</span>  yyextra-&gt;token-&gt;verb=<span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1914</span>  BEGIN(St_iVerbatim);</div>
-<div class="line"><span class="lineno"> 1915</span>}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03818">DocPara::handleCommand()</a>.</p>
 
 </div>
 </div>
@@ -1254,15 +1191,15 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01877">1877</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1878</span>{</div>
-<div class="line"><span class="lineno"> 1879</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 1880</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1881</span>  yyextra-&gt;token-&gt;verb=<span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1882</span>  BEGIN(St_LatexOnly);</div>
-<div class="line"><span class="lineno"> 1883</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01837">1837</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1838</span>{</div>
+<div class="line"><span class="lineno"> 1839</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1840</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1841</span>  yyextra-&gt;token-&gt;verb=<span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1842</span>  BEGIN(St_LatexOnly);</div>
+<div class="line"><span class="lineno"> 1843</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01145">DocParser::defaultHandleToken()</a>, and <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03818">DocPara::handleCommand()</a>.</p>
 
@@ -1283,14 +1220,14 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01979">1979</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1980</span>{</div>
-<div class="line"><span class="lineno"> 1981</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 1982</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1983</span>  BEGIN(St_Link);</div>
-<div class="line"><span class="lineno"> 1984</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01931">1931</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1932</span>{</div>
+<div class="line"><span class="lineno"> 1933</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1934</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1935</span>  BEGIN(St_Link);</div>
+<div class="line"><span class="lineno"> 1936</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03505">DocPara::handleLink()</a>, and <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02085">DocHtmlDescTitle::parse()</a>.</p>
 
@@ -1311,15 +1248,15 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01845">1845</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1846</span>{</div>
-<div class="line"><span class="lineno"> 1847</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 1848</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1849</span>  yyextra-&gt;token-&gt;verb=<span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1850</span>  BEGIN(St_ManOnly);</div>
-<div class="line"><span class="lineno"> 1851</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01805">1805</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1806</span>{</div>
+<div class="line"><span class="lineno"> 1807</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1808</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1809</span>  yyextra-&gt;token-&gt;verb=<span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1810</span>  BEGIN(St_ManOnly);</div>
+<div class="line"><span class="lineno"> 1811</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01145">DocParser::defaultHandleToken()</a>, and <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03818">DocPara::handleCommand()</a>.</p>
 
@@ -1340,15 +1277,15 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01925">1925</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1926</span>{</div>
-<div class="line"><span class="lineno"> 1927</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 1928</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1929</span>  yyextra-&gt;token-&gt;verb=<span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1930</span>  BEGIN(St_Msc);</div>
-<div class="line"><span class="lineno"> 1931</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01877">1877</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1878</span>{</div>
+<div class="line"><span class="lineno"> 1879</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1880</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1881</span>  yyextra-&gt;token-&gt;verb=<span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1882</span>  BEGIN(St_Msc);</div>
+<div class="line"><span class="lineno"> 1883</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03818">DocPara::handleCommand()</a>.</p>
 
@@ -1369,15 +1306,15 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02043">2043</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2044</span>{</div>
-<div class="line"><span class="lineno"> 2045</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 2046</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 2047</span>  yyextra-&gt;token-&gt;name=<span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2048</span>  BEGIN(St_Options);</div>
-<div class="line"><span class="lineno"> 2049</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01995">1995</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1996</span>{</div>
+<div class="line"><span class="lineno"> 1997</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1998</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1999</span>  yyextra-&gt;token-&gt;name=<span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2000</span>  BEGIN(St_Options);</div>
+<div class="line"><span class="lineno"> 2001</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01026">DocParser::handleImage()</a>, and <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03573">DocPara::handleInclude()</a>.</p>
 
@@ -1398,16 +1335,16 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01788">1788</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1789</span>{</div>
-<div class="line"><span class="lineno"> 1790</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 1791</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1792</span>  BEGIN(St_Para);</div>
-<div class="line"><span class="lineno"> 1793</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01757">1757</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1758</span>{</div>
+<div class="line"><span class="lineno"> 1759</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1760</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1761</span>  BEGIN(St_Para);</div>
+<div class="line"><span class="lineno"> 1762</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00952">DocParser::defaultHandleTitleAndSize()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01145">DocParser::defaultHandleToken()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00915">DocParser::handleAnchor()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03122">DocPara::handleCite()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03818">DocPara::handleCommand()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03153">DocPara::handleEmoji()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03468">DocPara::handleFile()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l04495">DocPara::handleHtmlStartTag()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03389">DocPara::handleIFile()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03376">DocPara::handleILine()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01026">DocParser::handleImage()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03573">DocPara::handleInclude()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03412">DocPara::handleIncludeOperator()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03505">DocPara::handleLink()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03545">DocPara::handleRef()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03703">DocPara::handleSection()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03203">DocPara::handleShowDate()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03750">DocPara::handleStartCode()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03183">DocPara::handleXRefItem()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l01422">DocIndexEntry::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02692">DocTitle::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l01132">DocVhdlFlow::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02085">DocHtmlDescTitle::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00523">DocSecRefItem::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l05659">DocRoot::parse()</a>, and <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02867">DocParamList::parse()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00952">DocParser::defaultHandleTitleAndSize()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01145">DocParser::defaultHandleToken()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00915">DocParser::handleAnchor()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03122">DocPara::handleCite()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03818">DocPara::handleCommand()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03153">DocPara::handleEmoji()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03468">DocPara::handleFile()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l04479">DocPara::handleHtmlStartTag()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03389">DocPara::handleIFile()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03376">DocPara::handleILine()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01026">DocParser::handleImage()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03573">DocPara::handleInclude()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03412">DocPara::handleIncludeOperator()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03505">DocPara::handleLink()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03545">DocPara::handleRef()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03703">DocPara::handleSection()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03203">DocPara::handleShowDate()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03750">DocPara::handleStartCode()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03183">DocPara::handleXRefItem()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l01422">DocIndexEntry::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02692">DocTitle::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l01132">DocVhdlFlow::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02085">DocHtmlDescTitle::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00523">DocSecRefItem::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l05643">DocRoot::parse()</a>, and <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02867">DocParamList::parse()</a>.</p>
 
 </div>
 </div>
@@ -1426,14 +1363,14 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01950">1950</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1951</span>{</div>
-<div class="line"><span class="lineno"> 1952</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 1953</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1954</span>  BEGIN(St_Param);</div>
-<div class="line"><span class="lineno"> 1955</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01902">1902</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1903</span>{</div>
+<div class="line"><span class="lineno"> 1904</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1905</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1906</span>  BEGIN(St_Param);</div>
+<div class="line"><span class="lineno"> 1907</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02867">DocParamList::parse()</a>.</p>
 
@@ -1454,15 +1391,15 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01971">1971</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1972</span>{</div>
-<div class="line"><span class="lineno"> 1973</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 1974</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1975</span>  yyextra-&gt;token-&gt;name = <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1976</span>  BEGIN(St_Pattern);</div>
-<div class="line"><span class="lineno"> 1977</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01923">1923</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1924</span>{</div>
+<div class="line"><span class="lineno"> 1925</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1926</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1927</span>  yyextra-&gt;token-&gt;name = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1928</span>  BEGIN(St_Pattern);</div>
+<div class="line"><span class="lineno"> 1929</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03412">DocPara::handleIncludeOperator()</a>.</p>
 
@@ -1483,15 +1420,15 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01942">1942</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1943</span>{</div>
-<div class="line"><span class="lineno"> 1944</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 1945</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1946</span>  yyextra-&gt;token-&gt;verb=<span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1947</span>  BEGIN(St_PlantUML);</div>
-<div class="line"><span class="lineno"> 1948</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01894">1894</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1895</span>{</div>
+<div class="line"><span class="lineno"> 1896</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1897</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1898</span>  yyextra-&gt;token-&gt;verb=<span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1899</span>  BEGIN(St_PlantUML);</div>
+<div class="line"><span class="lineno"> 1900</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03818">DocPara::handleCommand()</a>.</p>
 
@@ -1512,16 +1449,16 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01933">1933</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1934</span>{</div>
-<div class="line"><span class="lineno"> 1935</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 1936</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1937</span>  yyextra-&gt;token-&gt;verb=<span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1938</span>  yyextra-&gt;token-&gt;sectionId=<span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1939</span>  BEGIN(St_PlantUMLOpt);</div>
-<div class="line"><span class="lineno"> 1940</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01885">1885</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1886</span>{</div>
+<div class="line"><span class="lineno"> 1887</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1888</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1889</span>  yyextra-&gt;token-&gt;verb=<span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1890</span>  yyextra-&gt;token-&gt;sectionId=<span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1891</span>  BEGIN(St_PlantUMLOpt);</div>
+<div class="line"><span class="lineno"> 1892</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03818">DocPara::handleCommand()</a>.</p>
 
@@ -1542,14 +1479,14 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02074">2074</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2075</span>{</div>
-<div class="line"><span class="lineno"> 2076</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 2077</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 2078</span>  BEGIN(St_QuotedString);</div>
-<div class="line"><span class="lineno"> 2079</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02026">2026</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 2027</span>{</div>
+<div class="line"><span class="lineno"> 2028</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 2029</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 2030</span>  BEGIN(St_QuotedString);</div>
+<div class="line"><span class="lineno"> 2031</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03203">DocPara::handleShowDate()</a>.</p>
 
@@ -1570,14 +1507,14 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01993">1993</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1994</span>{</div>
-<div class="line"><span class="lineno"> 1995</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 1996</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1997</span>  BEGIN(St_Ref);</div>
-<div class="line"><span class="lineno"> 1998</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01945">1945</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1946</span>{</div>
+<div class="line"><span class="lineno"> 1947</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1948</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1949</span>  BEGIN(St_Ref);</div>
+<div class="line"><span class="lineno"> 1950</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03545">DocPara::handleRef()</a>, and <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02085">DocHtmlDescTitle::parse()</a>.</p>
 
@@ -1598,15 +1535,15 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01853">1853</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1854</span>{</div>
-<div class="line"><span class="lineno"> 1855</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 1856</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1857</span>  yyextra-&gt;token-&gt;verb=<span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1858</span>  BEGIN(St_RtfOnly);</div>
-<div class="line"><span class="lineno"> 1859</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01813">1813</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1814</span>{</div>
+<div class="line"><span class="lineno"> 1815</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1816</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1817</span>  yyextra-&gt;token-&gt;verb=<span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1818</span>  BEGIN(St_RtfOnly);</div>
+<div class="line"><span class="lineno"> 1819</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01145">DocParser::defaultHandleToken()</a>, and <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03818">DocPara::handleCommand()</a>.</p>
 
@@ -1627,14 +1564,14 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02036">2036</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2037</span>{</div>
-<div class="line"><span class="lineno"> 2038</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 2039</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 2040</span>  BEGIN(St_SetScope);</div>
-<div class="line"><span class="lineno"> 2041</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01988">1988</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1989</span>{</div>
+<div class="line"><span class="lineno"> 1990</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1991</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1992</span>  BEGIN(St_SetScope);</div>
+<div class="line"><span class="lineno"> 1993</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01145">DocParser::defaultHandleToken()</a>.</p>
 
@@ -1655,14 +1592,14 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02081">2081</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2082</span>{</div>
-<div class="line"><span class="lineno"> 2083</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 2084</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 2085</span>  BEGIN(St_ShowDate);</div>
-<div class="line"><span class="lineno"> 2086</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02033">2033</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 2034</span>{</div>
+<div class="line"><span class="lineno"> 2035</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 2036</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 2037</span>  BEGIN(St_ShowDate);</div>
+<div class="line"><span class="lineno"> 2038</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03203">DocPara::handleShowDate()</a>.</p>
 
@@ -1683,14 +1620,14 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02014">2014</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2015</span>{</div>
-<div class="line"><span class="lineno"> 2016</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 2017</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 2018</span>  BEGIN(St_SkipTitle);</div>
-<div class="line"><span class="lineno"> 2019</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01966">1966</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1967</span>{</div>
+<div class="line"><span class="lineno"> 1968</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1969</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1970</span>  BEGIN(St_SkipTitle);</div>
+<div class="line"><span class="lineno"> 1971</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03703">DocPara::handleSection()</a>.</p>
 
@@ -1711,15 +1648,15 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02028">2028</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2029</span>{</div>
-<div class="line"><span class="lineno"> 2030</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 2031</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 2032</span>  yyextra-&gt;token-&gt;name=<span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2033</span>  BEGIN(St_Snippet);</div>
-<div class="line"><span class="lineno"> 2034</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01980">1980</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1981</span>{</div>
+<div class="line"><span class="lineno"> 1982</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1983</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1984</span>  yyextra-&gt;token-&gt;name=<span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1985</span>  BEGIN(St_Snippet);</div>
+<div class="line"><span class="lineno"> 1986</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03573">DocPara::handleInclude()</a>.</p>
 
@@ -1740,16 +1677,16 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02007">2007</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2008</span>{</div>
-<div class="line"><span class="lineno"> 2009</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 2010</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 2011</span>  BEGIN(St_Text);</div>
-<div class="line"><span class="lineno"> 2012</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01959">1959</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1960</span>{</div>
+<div class="line"><span class="lineno"> 1961</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1962</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1963</span>  BEGIN(St_Text);</div>
+<div class="line"><span class="lineno"> 1964</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l05551">DocText::parse()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l05535">DocText::parse()</a>.</p>
 
 </div>
 </div>
@@ -1768,14 +1705,14 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01795">1795</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1796</span>{</div>
-<div class="line"><span class="lineno"> 1797</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 1798</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1799</span>  BEGIN(St_Title);</div>
-<div class="line"><span class="lineno"> 1800</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01764">1764</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1765</span>{</div>
+<div class="line"><span class="lineno"> 1766</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1767</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1768</span>  BEGIN(St_Title);</div>
+<div class="line"><span class="lineno"> 1769</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00952">DocParser::defaultHandleTitleAndSize()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l01422">DocIndexEntry::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02692">DocTitle::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l01132">DocVhdlFlow::parse()</a>, and <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00523">DocSecRefItem::parse()</a>.</p>
 
@@ -1796,14 +1733,14 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01802">1802</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1803</span>{</div>
-<div class="line"><span class="lineno"> 1804</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 1805</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1806</span>  BEGIN(St_TitleV);</div>
-<div class="line"><span class="lineno"> 1807</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01771">1771</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1772</span>{</div>
+<div class="line"><span class="lineno"> 1773</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1774</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1775</span>  BEGIN(St_TitleV);</div>
+<div class="line"><span class="lineno"> 1776</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00952">DocParser::defaultHandleTitleAndSize()</a>.</p>
 
@@ -1824,15 +1761,15 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01901">1901</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1902</span>{</div>
-<div class="line"><span class="lineno"> 1903</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 1904</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1905</span>  yyextra-&gt;token-&gt;verb=<span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1906</span>  BEGIN(St_Verbatim);</div>
-<div class="line"><span class="lineno"> 1907</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01861">1861</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1862</span>{</div>
+<div class="line"><span class="lineno"> 1863</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1864</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1865</span>  yyextra-&gt;token-&gt;verb=<span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1866</span>  BEGIN(St_Verbatim);</div>
+<div class="line"><span class="lineno"> 1867</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03818">DocPara::handleCommand()</a>.</p>
 
@@ -1853,18 +1790,18 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01827">1827</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1828</span>{</div>
-<div class="line"><span class="lineno"> 1829</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 1830</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1831</span>  yyextra-&gt;token-&gt;verb=<span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1832</span>  yyextra-&gt;token-&gt;name=<span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1833</span>  BEGIN(St_XmlCode);</div>
-<div class="line"><span class="lineno"> 1834</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01787">1787</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1788</span>{</div>
+<div class="line"><span class="lineno"> 1789</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1790</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1791</span>  yyextra-&gt;token-&gt;verb=<span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1792</span>  yyextra-&gt;token-&gt;name=<span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1793</span>  BEGIN(St_XmlCode);</div>
+<div class="line"><span class="lineno"> 1794</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l04495">DocPara::handleHtmlStartTag()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l04479">DocPara::handleHtmlStartTag()</a>.</p>
 
 </div>
 </div>
@@ -1883,15 +1820,15 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01861">1861</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1862</span>{</div>
-<div class="line"><span class="lineno"> 1863</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 1864</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1865</span>  yyextra-&gt;token-&gt;verb=<span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1866</span>  BEGIN(St_XmlOnly);</div>
-<div class="line"><span class="lineno"> 1867</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01821">1821</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1822</span>{</div>
+<div class="line"><span class="lineno"> 1823</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1824</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1825</span>  yyextra-&gt;token-&gt;verb=<span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1826</span>  BEGIN(St_XmlOnly);</div>
+<div class="line"><span class="lineno"> 1827</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01145">DocParser::defaultHandleToken()</a>, and <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03818">DocPara::handleCommand()</a>.</p>
 
@@ -1912,14 +1849,14 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01957">1957</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1958</span>{</div>
-<div class="line"><span class="lineno"> 1959</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 1960</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1961</span>  BEGIN(St_XRefItem);</div>
-<div class="line"><span class="lineno"> 1962</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01909">1909</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1910</span>{</div>
+<div class="line"><span class="lineno"> 1911</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1912</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1913</span>  BEGIN(St_XRefItem);</div>
+<div class="line"><span class="lineno"> 1914</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03183">DocPara::handleXRefItem()</a>.</p>
 
@@ -1940,14 +1877,14 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02116">2116</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2117</span>{</div>
-<div class="line"><span class="lineno"> 2118</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 2119</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 2120</span>  yyextra-&gt;autoListLevel++;</div>
-<div class="line"><span class="lineno"> 2121</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02068">2068</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 2069</span>{</div>
+<div class="line"><span class="lineno"> 2070</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 2071</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 2072</span>  yyextra-&gt;autoListLevel++;</div>
+<div class="line"><span class="lineno"> 2073</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02658">DocAutoList::parse()</a>.</p>
 
@@ -2032,7 +1969,7 @@ Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00035">TK_COMMAND_AT</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00041">TK_COMMAND_BS</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00034">TK_ENDLIST</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00036">TK_HTMLTAG</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00033">TK_LISTITEM</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00031">TK_LNKWORD</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00038">TK_NEWPARA</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00039">TK_RCSTAG</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00037">TK_SYMBOL</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00040">TK_URL</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00032">TK_WHITESPACE</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00030">TK_WORD</a>, and <a class="el" href="../../d1/d7f/class_doc_tokenizer.html#a060403865cc48ca7f55af46d8272282c">token()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01145">DocParser::defaultHandleToken()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00536">DocParser::errorHandleDefaultToken()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00915">DocParser::handleAnchor()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03122">DocPara::handleCite()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03153">DocPara::handleEmoji()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03468">DocPara::handleFile()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03389">DocPara::handleIFile()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01026">DocParser::handleImage()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03573">DocPara::handleInclude()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03412">DocPara::handleIncludeOperator()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00892">DocParser::handleInternalRef()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03505">DocPara::handleLink()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03545">DocPara::handleRef()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03703">DocPara::handleSection()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00564">DocParser::handleStyleArgument()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l01422">DocIndexEntry::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02085">DocHtmlDescTitle::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02261">DocHtmlDescList::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00597">DocSecRefList::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02388">DocHtmlList::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l05127">DocPara::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l01758">DocHtmlRow::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l01905">DocHtmlTable::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l05551">DocText::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00916">DocLink::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02867">DocParamList::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02463">DocHtmlList::parseXml()</a>, and <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l01824">DocHtmlRow::parseXml()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01145">DocParser::defaultHandleToken()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00536">DocParser::errorHandleDefaultToken()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00915">DocParser::handleAnchor()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03122">DocPara::handleCite()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03153">DocPara::handleEmoji()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03468">DocPara::handleFile()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03389">DocPara::handleIFile()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01026">DocParser::handleImage()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03573">DocPara::handleInclude()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03412">DocPara::handleIncludeOperator()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00892">DocParser::handleInternalRef()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03505">DocPara::handleLink()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03545">DocPara::handleRef()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03703">DocPara::handleSection()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00564">DocParser::handleStyleArgument()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l01422">DocIndexEntry::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02085">DocHtmlDescTitle::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02261">DocHtmlDescList::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00597">DocSecRefList::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02388">DocHtmlList::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l05111">DocPara::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l01758">DocHtmlRow::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l01905">DocHtmlTable::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l05535">DocText::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00916">DocLink::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02867">DocParamList::parse()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l02463">DocHtmlList::parseXml()</a>, and <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l01824">DocHtmlRow::parseXml()</a>.</p>
 
 </div>
 </div>
@@ -2052,15 +1989,15 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01734">1734</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1735</span>{</div>
-<div class="line"><span class="lineno"> 1736</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno"> 1737</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1738</span>  <a class="code hl_define" href="../../d7/d5f/commentscan_8l.html#a86da2f5e3360caa90276fc24433d9512">unput_string</a>(tag.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>(),tag.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">length</a>());</div>
-<div class="line"><span class="lineno"> 1739</span>}</div>
-<div class="ttc" id="acommentscan_8l_html_a86da2f5e3360caa90276fc24433d9512"><div class="ttname"><a href="../../d7/d5f/commentscan_8l.html#a86da2f5e3360caa90276fc24433d9512">unput_string</a></div><div class="ttdeci">#define unput_string(yytext, yyleng)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5f/commentscan_8l_source.html#l00462">commentscan.l:462</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01703">1703</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1704</span>{</div>
+<div class="line"><span class="lineno"> 1705</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner = <a class="code hl_variable" href="../../d1/d7f/class_doc_tokenizer.html#aede113d286596811d42ad1fab08996e4">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno"> 1706</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1707</span>  <a class="code hl_define" href="../../d7/d5f/commentscan_8l.html#a86da2f5e3360caa90276fc24433d9512">unput_string</a>(tag.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>(),tag.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">length</a>());</div>
+<div class="line"><span class="lineno"> 1708</span>}</div>
+<div class="ttc" id="acommentscan_8l_html_a86da2f5e3360caa90276fc24433d9512"><div class="ttname"><a href="../../d7/d5f/commentscan_8l.html#a86da2f5e3360caa90276fc24433d9512">unput_string</a></div><div class="ttdeci">#define unput_string(yytext, yyleng)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5f/commentscan_8l_source.html#l00460">commentscan.l:460</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00153">QCString::data()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::length()</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">p</a>, and <a class="el" href="../../d7/d5f/commentscan_8l_source.html#l00462">unput_string</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00153">QCString::data()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::length()</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">p</a>, and <a class="el" href="../../d7/d5f/commentscan_8l_source.html#l00460">unput_string</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00952">DocParser::defaultHandleTitleAndSize()</a>.</p>
 
@@ -2087,9 +2024,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00192">192</a> of file <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html">doctokenizer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00190">190</a> of file <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html">doctokenizer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02088">cleanup()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01714">DocTokenizer()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02123">endAutoList()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01741">findSections()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02145">getLineNr()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01760">init()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01729">lex()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01773">newToken()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01694">popContext()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02102">pushBackHtmlTag()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01679">pushContext()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01780">replaceToken()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02095">setInsidePre()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02138">setLineNr()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02021">setStateAnchor()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02051">setStateBlock()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01986">setStateCite()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01809">setStateCode()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01869">setStateDbOnly()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01917">setStateDot()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02059">setStateEmoji()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01964">setStateFile()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01836">setStateHtmlOnly()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01818">setStateICode()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02067">setStateILine()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01885">setStateILiteral()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01893">setStateILiteralOpt()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02000">setStateInternalRef()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01909">setStateIVerbatim()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01877">setStateLatexOnly()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01979">setStateLink()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01845">setStateManOnly()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01925">setStateMsc()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02043">setStateOptions()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01788">setStatePara()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01950">setStateParam()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01971">setStatePattern()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01942">setStatePlantUML()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01933">setStatePlantUMLOpt()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02074">setStateQuotedString()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01993">setStateRef()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01853">setStateRtfOnly()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02036">setStateSetScope()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02081">setStateShowDate()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02014">setStateSkipTitle()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02028">setStateSnippet()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02007">setStateText()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01795">setStateTitle()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01802">setStateTitleAttrValue()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01901">setStateVerbatim()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01827">setStateXmlCode()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01861">setStateXmlOnly()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01957">setStateXRefItem()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02116">startAutoList()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01734">unputString()</a>, and <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01723">~DocTokenizer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02040">cleanup()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01683">DocTokenizer()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02075">endAutoList()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01710">findSections()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02097">getLineNr()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01729">init()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01698">lex()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01742">newToken()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01663">popContext()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02054">pushBackHtmlTag()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01648">pushContext()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01749">replaceToken()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02047">setInsidePre()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02090">setLineNr()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01973">setStateAnchor()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02003">setStateBlock()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01938">setStateCite()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01778">setStateCode()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01829">setStateDbOnly()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01869">setStateDot()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02011">setStateEmoji()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01916">setStateFile()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01796">setStateHtmlOnly()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02019">setStateILine()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01845">setStateILiteral()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01853">setStateILiteralOpt()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01952">setStateInternalRef()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01837">setStateLatexOnly()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01931">setStateLink()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01805">setStateManOnly()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01877">setStateMsc()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01995">setStateOptions()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01757">setStatePara()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01902">setStateParam()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01923">setStatePattern()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01894">setStatePlantUML()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01885">setStatePlantUMLOpt()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02026">setStateQuotedString()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01945">setStateRef()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01813">setStateRtfOnly()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01988">setStateSetScope()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02033">setStateShowDate()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01966">setStateSkipTitle()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01980">setStateSnippet()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01959">setStateText()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01764">setStateTitle()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01771">setStateTitleAttrValue()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01861">setStateVerbatim()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01787">setStateXmlCode()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01821">setStateXmlOnly()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01909">setStateXRefItem()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l02068">startAutoList()</a>, <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01703">unputString()</a>, and <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l01692">~DocTokenizer()</a>.</p>
 
 </div>
 </div>
