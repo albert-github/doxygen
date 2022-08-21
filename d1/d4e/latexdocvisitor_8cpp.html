@@ -124,11 +124,11 @@ Functions</h2></td></tr>
 <tr class="separator:abe535965a6e52ac2b1328232b014c0d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa069e7d7edbf62f915d7635c7ab5f66e"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d4e/latexdocvisitor_8cpp.html#aa069e7d7edbf62f915d7635c7ab5f66e">listIsNested</a> (const <a class="el" href="../../df/d6f/class_doc_html_desc_list.html">DocHtmlDescList</a> &amp;dl)</td></tr>
 <tr class="separator:aa069e7d7edbf62f915d7635c7ab5f66e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7483e4d318a25aa19df6e101e1df1235"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d4e/latexdocvisitor_8cpp.html#a7483e4d318a25aa19df6e101e1df1235">tableIsNested</a> (const <a class="el" href="../../de/d2b/docnode_8h.html#a50a8832c21dd4d026a4ca85c1efb57ec">DocNodeVariant</a> *n)</td></tr>
+<tr class="memitem:a7483e4d318a25aa19df6e101e1df1235"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d4e/latexdocvisitor_8cpp.html#a7483e4d318a25aa19df6e101e1df1235">tableIsNested</a> (const <a class="el" href="../../de/d2b/docnode_8h.html#aec3475a3e7a8e38210b0620535be357e">DocNodeVariant</a> *n)</td></tr>
 <tr class="separator:a7483e4d318a25aa19df6e101e1df1235"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a018513228e584ddcf9d0028972c5a847"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d4e/latexdocvisitor_8cpp.html#a018513228e584ddcf9d0028972c5a847">writeStartTableCommand</a> (<a class="el" href="../../d3/d30/class_text_stream.html">TextStream</a> &amp;t, const <a class="el" href="../../de/d2b/docnode_8h.html#a50a8832c21dd4d026a4ca85c1efb57ec">DocNodeVariant</a> *n, size_t cols)</td></tr>
+<tr class="memitem:a018513228e584ddcf9d0028972c5a847"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d4e/latexdocvisitor_8cpp.html#a018513228e584ddcf9d0028972c5a847">writeStartTableCommand</a> (<a class="el" href="../../d3/d30/class_text_stream.html">TextStream</a> &amp;t, const <a class="el" href="../../de/d2b/docnode_8h.html#aec3475a3e7a8e38210b0620535be357e">DocNodeVariant</a> *n, size_t cols)</td></tr>
 <tr class="separator:a018513228e584ddcf9d0028972c5a847"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb91a40144133e2095d3367ce901818f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d4e/latexdocvisitor_8cpp.html#adb91a40144133e2095d3367ce901818f">writeEndTableCommand</a> (<a class="el" href="../../d3/d30/class_text_stream.html">TextStream</a> &amp;t, const <a class="el" href="../../de/d2b/docnode_8h.html#a50a8832c21dd4d026a4ca85c1efb57ec">DocNodeVariant</a> *n)</td></tr>
+<tr class="memitem:adb91a40144133e2095d3367ce901818f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d4e/latexdocvisitor_8cpp.html#adb91a40144133e2095d3367ce901818f">writeEndTableCommand</a> (<a class="el" href="../../d3/d30/class_text_stream.html">TextStream</a> &amp;t, const <a class="el" href="../../de/d2b/docnode_8h.html#aec3475a3e7a8e38210b0620535be357e">DocNodeVariant</a> *n)</td></tr>
 <tr class="separator:adb91a40144133e2095d3367ce901818f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
@@ -323,7 +323,7 @@ Variables</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01052">1052</a> of file <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html">latexdocvisitor.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 1053</span>{</div>
 <div class="line"><span class="lineno"> 1054</span>  <span class="keywordtype">bool</span> isNested=<span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno"> 1055</span>  <span class="keyword">const</span> <a class="code hl_typedef" href="../../de/d2b/docnode_8h.html#a50a8832c21dd4d026a4ca85c1efb57ec">DocNodeVariant</a> *n = dl.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>();</div>
+<div class="line"><span class="lineno"> 1055</span>  <span class="keyword">const</span> <a class="code hl_typedef" href="../../de/d2b/docnode_8h.html#aec3475a3e7a8e38210b0620535be357e">DocNodeVariant</a> *n = dl.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>();</div>
 <div class="line"><span class="lineno"> 1056</span>  <span class="keywordflow">while</span> (n &amp;&amp; !isNested)</div>
 <div class="line"><span class="lineno"> 1057</span>  {</div>
 <div class="line"><span class="lineno"> 1058</span>    <span class="keywordflow">if</span> (std::get_if&lt;DocHtmlDescList&gt;(n))</div>
@@ -335,8 +335,8 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno"> 1064</span>  <span class="keywordflow">return</span> isNested;</div>
 <div class="line"><span class="lineno"> 1065</span>}</div>
 <div class="ttc" id="aclass_doc_node_html_a9217c40d6d74f2b78928b3d8131dd7f0"><div class="ttname"><a href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">DocNode::parent</a></div><div class="ttdeci">DocNodeVariant * parent()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l00089">docnode.h:89</a></div></div>
-<div class="ttc" id="adocnode_8h_html_a50a8832c21dd4d026a4ca85c1efb57ec"><div class="ttname"><a href="../../de/d2b/docnode_8h.html#a50a8832c21dd4d026a4ca85c1efb57ec">DocNodeVariant</a></div><div class="ttdeci">std::variant&lt; DOC_NODES &gt; DocNodeVariant</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l00061">docnode.h:63</a></div></div>
 <div class="ttc" id="adocnode_8h_html_ab4feec38265e781de0502142e696763a"><div class="ttname"><a href="../../de/d2b/docnode_8h.html#ab4feec38265e781de0502142e696763a">parent</a></div><div class="ttdeci">constexpr const DocNodeVariant * parent(const DocNodeVariant *n)</div><div class="ttdoc">returns the parent node of a given node n or 0 if the node has no parent.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l01269">docnode.h:1269</a></div></div>
+<div class="ttc" id="adocnode_8h_html_aec3475a3e7a8e38210b0620535be357e"><div class="ttname"><a href="../../de/d2b/docnode_8h.html#aec3475a3e7a8e38210b0620535be357e">DocNodeVariant</a></div><div class="ttdeci">std::variant&lt; DocWord, DocLinkedWord, DocURL, DocLineBreak, DocHorRuler, DocAnchor, DocCite, DocStyleChange, DocSymbol, DocEmoji, DocWhiteSpace, DocSeparator, DocVerbatim, DocInclude, DocIncOperator, DocFormula, DocIndexEntry, DocAutoList, DocAutoListItem, DocTitle, DocXRefItem, DocImage, DocDotFile, DocMscFile, DocDiaFile, DocVhdlFlow, DocLink, DocRef, DocInternalRef, DocHRef, DocHtmlHeader, DocHtmlDescTitle, DocHtmlDescList, DocSection, DocSecRefItem, DocSecRefList, DocInternal, DocParBlock, DocSimpleList, DocHtmlList, DocSimpleSect, DocSimpleSectSep, DocParamSect, DocPara, DocParamList, DocSimpleListItem, DocHtmlListItem, DocHtmlDescData, DocHtmlCell, DocHtmlCaption, DocHtmlRow, DocHtmlTable, DocHtmlBlockQuote, DocText, DocRoot, DocHtmlDetails &gt; DocNodeVariant</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l00061">docnode.h:63</a></div></div>
 <div class="ttc" id="alatexdocvisitor_8cpp_html_abe535965a6e52ac2b1328232b014c0d7"><div class="ttname"><a href="../../d1/d4e/latexdocvisitor_8cpp.html#abe535965a6e52ac2b1328232b014c0d7">classEqualsReflist</a></div><div class="ttdeci">static bool classEqualsReflist(const DocHtmlDescList &amp;dl)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01043">latexdocvisitor.cpp:1043</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01043">classEqualsReflist()</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00089">DocNode::parent()</a>, and <a class="el" href="../../de/d2b/docnode_8h_source.html#l01269">parent()</a>.</p>
@@ -357,7 +357,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">static bool tableIsNested </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../de/d2b/docnode_8h.html#a50a8832c21dd4d026a4ca85c1efb57ec">DocNodeVariant</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../de/d2b/docnode_8h.html#aec3475a3e7a8e38210b0620535be357e">DocNodeVariant</a> *&#160;</td>
           <td class="paramname"><em>n</em></td><td>)</td>
           <td></td>
         </tr>
@@ -605,7 +605,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../de/d2b/docnode_8h.html#a50a8832c21dd4d026a4ca85c1efb57ec">DocNodeVariant</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../de/d2b/docnode_8h.html#aec3475a3e7a8e38210b0620535be357e">DocNodeVariant</a> *&#160;</td>
           <td class="paramname"><em>n</em>&#160;</td>
         </tr>
         <tr>
@@ -659,7 +659,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../de/d2b/docnode_8h.html#a50a8832c21dd4d026a4ca85c1efb57ec">DocNodeVariant</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../de/d2b/docnode_8h.html#aec3475a3e7a8e38210b0620535be357e">DocNodeVariant</a> *&#160;</td>
           <td class="paramname"><em>n</em>, </td>
         </tr>
         <tr>
