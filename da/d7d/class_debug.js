@@ -9,7 +9,6 @@ var class_debug =
       [ "Classes", "da/d7d/class_debug.html#a9e0b892a8030a4f64076850777991c96ae45530210daeb78c35e1b4c078277c8f", null ],
       [ "CommentCnv", "da/d7d/class_debug.html#a9e0b892a8030a4f64076850777991c96af158610d0a0e6dd08ec7cab215168fa5", null ],
       [ "CommentScan", "da/d7d/class_debug.html#a9e0b892a8030a4f64076850777991c96afeb3ede15e44e56c363351c25efd2504", null ],
-      [ "Validate", "da/d7d/class_debug.html#a9e0b892a8030a4f64076850777991c96ab57325adbf79149e4bd7a010d6e83499", null ],
       [ "PrintTree", "da/d7d/class_debug.html#a9e0b892a8030a4f64076850777991c96a92b8cea26e6d5e2a5d3d04b63686bb2b", null ],
       [ "Time", "da/d7d/class_debug.html#a9e0b892a8030a4f64076850777991c96a9cbd5d3516ffd3fe86238779edb2f7c5", null ],
       [ "ExtCmd", "da/d7d/class_debug.html#a9e0b892a8030a4f64076850777991c96a8dbe64e9ab683833c1ea7252649058a3", null ],

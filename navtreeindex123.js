@@ -1,6 +1,5 @@
 var NAVTREEINDEX123 =
 {
-"df/d54/template_8cpp.html#abb7e084ccfa28f0ddb6672221abb92f5":[5,0,1,233,106],
 "df/d54/template_8cpp.html#ac1e5261ec60de5f2f8ef8d6ff02b28d4":[5,0,1,233,132],
 "df/d54/template_8cpp.html#ac6b7c967dd6968cd5e7b9a5e9ff3077e":[5,0,1,233,117],
 "df/d54/template_8cpp.html#ad1da4f3e4701f166dc185ae07ed57c25":[5,0,1,233,115],
@@ -249,5 +248,6 @@ var NAVTREEINDEX123 =
 "df/d75/class_translator_greek.html#aa76fcea9156eb62e7f8bc9f5017ab458":[4,0,578,63],
 "df/d75/class_translator_greek.html#aa7c0675f32b388b79c0a87fdfad0509b":[4,0,578,136],
 "df/d75/class_translator_greek.html#aaa60df56a2b291bbff3ec287cf04f953":[4,0,578,200],
-"df/d75/class_translator_greek.html#aaa6ef2ace977a5b61b084b7022497793":[4,0,578,230]
+"df/d75/class_translator_greek.html#aaa6ef2ace977a5b61b084b7022497793":[4,0,578,230],
+"df/d75/class_translator_greek.html#aaab4cb6e0b7b1583e58dc010569eb3e3":[4,0,578,54]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX85 =
 {
-"db/dc8/class_doc_image.html#aaa49d1dad195745ff9d470c5335be93eaf742255bd9dc963b18e768c2b7fb7d70":[4,0,145,1,2],
 "db/dc8/class_doc_image.html#ab8aa1be42e280840a20fd870f86da379":[4,0,145,9],
 "db/dc8/class_doc_image.html#ac6667b30be9bbd1e5428a743b4f850ec":[4,0,145,14],
 "db/dc8/class_doc_image.html#ae52199cbb5da4e10ccb3a9b53c4978ac":[4,0,145,6],
@@ -249,5 +248,6 @@ var NAVTREEINDEX85 =
 "db/dcc/class_translator_korean.html#aeafcc708f12d07b65fce3ade40a4d81b":[4,0,585,186],
 "db/dcc/class_translator_korean.html#aebdfc5077da35af0f2c97e3af5b5ad68":[4,0,585,10],
 "db/dcc/class_translator_korean.html#aed04ca3a039ac6abf08497c6dbb53030":[4,0,585,240],
-"db/dcc/class_translator_korean.html#aed1f9bd363efefee64aba4fcac1e76ff":[4,0,585,230]
+"db/dcc/class_translator_korean.html#aed1f9bd363efefee64aba4fcac1e76ff":[4,0,585,230],
+"db/dcc/class_translator_korean.html#aedacbfa496ebf67af407c473633a9b93":[4,0,585,209]
 };

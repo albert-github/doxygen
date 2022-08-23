@@ -1,6 +1,5 @@
 var NAVTREEINDEX77 =
 {
-"da/d7e/class_member_name.html#ad29b8b25d2a76b5bcab3ebd6a6653de0":[4,0,386,3],
 "da/d7e/class_member_name.html#ad47e17450a0c958521210bfcf27e05d2":[4,0,386,15],
 "da/d7e/class_member_name.html#ada97200941011de3b6714f39df5fc29c":[4,0,386,9],
 "da/d7e/class_member_name.html#adf057b627c63dee1d77f645aa86a3d19":[4,0,386,5],
@@ -14,8 +13,8 @@ var NAVTREEINDEX77 =
 "da/d8d/class_class_list_context.html#ac646f62fa86d99e57d51e45d058c045a":[4,0,44,3],
 "da/d8d/class_class_list_context.html#adec67b614e3d6b2335104fa7351f72c7":[4,0,44,4],
 "da/d8d/class_class_list_context.html#aed24eda5059f8ef408bc3053c84a3cd8":[4,0,44,6],
-"da/d98/structdetail_1_1_dispatcher.html":[3,0,2,0],
 "da/d98/structdetail_1_1_dispatcher.html":[4,0,0,0],
+"da/d98/structdetail_1_1_dispatcher.html":[3,0,2,0],
 "da/d9c/class_preprocessor.html":[4,0,433],
 "da/d9c/class_preprocessor.html#a3c16724bc9e18b12a45f5a7fe2752b1b":[4,0,433,2],
 "da/d9c/class_preprocessor.html#ada966c8b83e7c3bcd8759549c3cdf688":[4,0,433,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX77 =
 "da/db8/class_translator_armenian.html#a95ffcfd5fed9dd19e1f3294985d30642":[4,0,563,30],
 "da/db8/class_translator_armenian.html#a967ff470e15c72dac2b79cc42f7487c8":[4,0,563,199],
 "da/db8/class_translator_armenian.html#a97f47188715dd990060fd63c25baaf94":[4,0,563,98],
-"da/db8/class_translator_armenian.html#a98b2c53503c1e45dfd8219c9782bfb40":[4,0,563,73]
+"da/db8/class_translator_armenian.html#a98b2c53503c1e45dfd8219c9782bfb40":[4,0,563,73],
+"da/db8/class_translator_armenian.html#a9a17a435fb2d3a062c9378d8974324a9":[4,0,563,165]
 };
