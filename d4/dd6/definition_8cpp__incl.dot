@@ -369,4 +369,7 @@ digraph "src/definition.cpp"
   Node93 [label="qhp.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d20/qhp_8h.html",tooltip=" "];
   Node93 -> Node12 [color="steelblue1",style="solid"];
   Node93 -> Node19 [color="steelblue1",style="solid"];
+  Node1 -> Node94 [color="steelblue1",style="solid"];
+  Node94 [label="fileinfo.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d45/fileinfo_8h.html",tooltip=" "];
+  Node94 -> Node5 [color="steelblue1",style="solid"];
 }

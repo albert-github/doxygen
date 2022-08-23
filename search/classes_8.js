@@ -22,7 +22,8 @@ var searchData=
   ['inheritedmemberinfocontext_19',['InheritedMemberInfoContext',['../d7/dd6/class_inherited_member_info_context.html',1,'']]],
   ['inheritedmemberinfolistcontext_20',['InheritedMemberInfoListContext',['../d3/d67/class_inherited_member_info_list_context.html',1,'']]],
   ['initialize_21',['initialize',['../d9/d0e/struct_index_intf_1_1initialize.html',1,'IndexIntf']]],
-  ['iterablestack_22',['IterableStack',['../d9/d82/class_iterable_stack.html',1,'']]],
-  ['iterablestack_3c_20const_20docnodevariant_20_2a_20_3e_23',['IterableStack&lt; const DocNodeVariant * &gt;',['../d9/d82/class_iterable_stack.html',1,'']]],
-  ['iterator_24',['Iterator',['../d5/dca/class_grow_vector_1_1_iterator.html',1,'GrowVector&lt; T &gt;::Iterator&lt; C, I &gt;'],['../d4/d72/classreg_1_1_iterator.html',1,'reg::Iterator']]]
+  ['inputfileencoding_22',['InputFileEncoding',['../db/d30/struct_input_file_encoding.html',1,'']]],
+  ['iterablestack_23',['IterableStack',['../d9/d82/class_iterable_stack.html',1,'']]],
+  ['iterablestack_3c_20const_20docnodevariant_20_2a_20_3e_24',['IterableStack&lt; const DocNodeVariant * &gt;',['../d9/d82/class_iterable_stack.html',1,'']]],
+  ['iterator_25',['Iterator',['../d5/dca/class_grow_vector_1_1_iterator.html',1,'GrowVector&lt; T &gt;::Iterator&lt; C, I &gt;'],['../d4/d72/classreg_1_1_iterator.html',1,'reg::Iterator']]]
 ];

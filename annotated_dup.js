@@ -375,6 +375,7 @@ var annotated_dup =
     [ "InheritanceNodeContext", "d6/d29/class_inheritance_node_context.html", "d6/d29/class_inheritance_node_context" ],
     [ "InheritedMemberInfoContext", "d7/dd6/class_inherited_member_info_context.html", "d7/dd6/class_inherited_member_info_context" ],
     [ "InheritedMemberInfoListContext", "d3/d67/class_inherited_member_info_list_context.html", "d3/d67/class_inherited_member_info_list_context" ],
+    [ "InputFileEncoding", "db/d30/struct_input_file_encoding.html", "db/d30/struct_input_file_encoding" ],
     [ "IterableStack", "d9/d82/class_iterable_stack.html", "d9/d82/class_iterable_stack" ],
     [ "JJEnter", "d2/d49/struct_j_j_enter.html", "d2/d49/struct_j_j_enter" ],
     [ "JJExit", "d5/d16/struct_j_j_exit.html", "d5/d16/struct_j_j_exit" ],

@@ -710,6 +710,7 @@ var hierarchy =
     [ "IndexList", "d9/d57/class_index_list.html", null ],
     [ "SearchIndex::IndexWord", "d4/d17/class_search_index_1_1_index_word.html", null ],
     [ "IndexIntf::initialize< T >", "d9/d0e/struct_index_intf_1_1initialize.html", null ],
+    [ "InputFileEncoding", "db/d30/struct_input_file_encoding.html", null ],
     [ "GrowVector< T >::Iterator< C, I >", "d5/dca/class_grow_vector_1_1_iterator.html", null ],
     [ "reg::Iterator", "d4/d72/classreg_1_1_iterator.html", null ],
     [ "vhdl::parser::JJCalls", "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html", null ],

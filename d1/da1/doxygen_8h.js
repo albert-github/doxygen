@@ -1,12 +1,14 @@
 var doxygen_8h =
 [
     [ "LookupInfo", "d7/d19/struct_lookup_info.html", "d7/d19/struct_lookup_info" ],
+    [ "InputFileEncoding", "db/d30/struct_input_file_encoding.html", "db/d30/struct_input_file_encoding" ],
     [ "Doxygen", "de/d6a/class_doxygen.html", "de/d6a/class_doxygen" ],
     [ "NonTerminatingDeleter< T >", "d5/da9/struct_non_terminating_deleter.html", "d5/da9/struct_non_terminating_deleter" ],
     [ "AtomicBool", "d1/da1/doxygen_8h.html#a8d0d97e2cc6ee445366e8d8cbf0badc9", null ],
     [ "AtomicInt", "d1/da1/doxygen_8h.html#a5169be8a2e53cfcdfe027b9e06a63281", null ],
     [ "THREAD_LOCAL", "d1/da1/doxygen_8h.html#af8556c37f3acfa45992b8697930c501b", null ],
     [ "ClangUsrMap", "d1/da1/doxygen_8h.html#a868ddbc1b921f1e5662b4bda25550ec0", null ],
+    [ "InputFileEncodingList", "d1/da1/doxygen_8h.html#a35237b70f5d31871df71269a2c1a8fad", null ],
     [ "adjustConfiguration", "d1/da1/doxygen_8h.html#a10458b8a16238a4eae5fb5019df747e8", null ],
     [ "checkConfiguration", "d1/da1/doxygen_8h.html#a2426bb829c785229969c3052f3e37fb1", null ],
     [ "cleanUpDoxygen", "d1/da1/doxygen_8h.html#ae12e94f5218f3afc8df4086a2121cd4d", null ],

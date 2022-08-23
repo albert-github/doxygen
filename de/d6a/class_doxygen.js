@@ -22,6 +22,7 @@ var class_doxygen =
     [ "imageNameLinkedMap", "de/d6a/class_doxygen.html#a7062fae1e1507b5c093fe5b71a866371", null ],
     [ "includeNameLinkedMap", "de/d6a/class_doxygen.html#adf89ce3e8f07b60c5344d0b24f6fe28d", null ],
     [ "indexList", "de/d6a/class_doxygen.html#a91aa9805ef52783816d9da5e457b8cfb", null ],
+    [ "inputFileEncodingList", "de/d6a/class_doxygen.html#a48f2ce804fbd0912635356ec64649b1b", null ],
     [ "inputNameLinkedMap", "de/d6a/class_doxygen.html#a31a5a5856417ba3f05eccaf1f85e9958", null ],
     [ "inputPaths", "de/d6a/class_doxygen.html#ad68ff89dc43bc20044466f747b85548b", null ],
     [ "insideMainPage", "de/d6a/class_doxygen.html#a419b27a523ea0261e58103f998c68a12", null ],
