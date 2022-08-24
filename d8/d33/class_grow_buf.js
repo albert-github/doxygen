@@ -6,6 +6,7 @@ var class_grow_buf =
     [ "GrowBuf", "d8/d33/class_grow_buf.html#ab7adf8adf049747895150afb7c539d71", null ],
     [ "GrowBuf", "d8/d33/class_grow_buf.html#a471132290014798c89965dd36b51e5bc", null ],
     [ "addChar", "d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda", null ],
+    [ "addInt", "d8/d33/class_grow_buf.html#a3c84320a57fe98375add64ad01e9bf3b", null ],
     [ "addStr", "d8/d33/class_grow_buf.html#ac2a971c747abdd4cb7cb038a3e27197b", null ],
     [ "addStr", "d8/d33/class_grow_buf.html#adba54aa237c8f30b40a9f7fe28226f58", null ],
     [ "addStr", "d8/d33/class_grow_buf.html#a5e0ff6d9f7a7139725d77a9d669340f3", null ],

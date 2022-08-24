@@ -133,6 +133,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac2a971c747abdd4cb7cb038a3e27197b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adba54aa237c8f30b40a9f7fe28226f58"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d33/class_grow_buf.html#adba54aa237c8f30b40a9f7fe28226f58">addStr</a> (const char *s, size_t n)</td></tr>
 <tr class="separator:adba54aa237c8f30b40a9f7fe28226f58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c84320a57fe98375add64ad01e9bf3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d33/class_grow_buf.html#a3c84320a57fe98375add64ad01e9bf3b">addInt</a> (const char *fmt, int value)</td></tr>
+<tr class="separator:a3c84320a57fe98375add64ad01e9bf3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88d6408723b8c1a58187f24da81dfd5e"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d33/class_grow_buf.html#a88d6408723b8c1a58187f24da81dfd5e">get</a> ()</td></tr>
 <tr class="separator:a88d6408723b8c1a58187f24da81dfd5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8291335fec63f39c9a021f40dcc15e93"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d33/class_grow_buf.html#a8291335fec63f39c9a021f40dcc15e93">get</a> () const</td></tr>
@@ -185,9 +187,9 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00030">30</a> of file <a class="el" href="../../dd/d72/growbuf_8h_source.html">growbuf.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   30</span>: <a class="code hl_variable" href="../../d8/d33/class_grow_buf.html#a94df360b36d76642c8ae017fa6d7e431">m_str</a>(0), <a class="code hl_variable" href="../../d8/d33/class_grow_buf.html#a2c1af45fdd1c692684b38dd54fcf1a6b">m_pos</a>(0), <a class="code hl_variable" href="../../d8/d33/class_grow_buf.html#ad5ec59f43c28c517b3f11dea3e2adab6">m_len</a>(0) {}</div>
-<div class="ttc" id="aclass_grow_buf_html_a2c1af45fdd1c692684b38dd54fcf1a6b"><div class="ttname"><a href="../../d8/d33/class_grow_buf.html#a2c1af45fdd1c692684b38dd54fcf1a6b">GrowBuf::m_pos</a></div><div class="ttdeci">size_t m_pos</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d72/growbuf_8h_source.html#l00117">growbuf.h:117</a></div></div>
-<div class="ttc" id="aclass_grow_buf_html_a94df360b36d76642c8ae017fa6d7e431"><div class="ttname"><a href="../../d8/d33/class_grow_buf.html#a94df360b36d76642c8ae017fa6d7e431">GrowBuf::m_str</a></div><div class="ttdeci">char * m_str</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d72/growbuf_8h_source.html#l00116">growbuf.h:116</a></div></div>
-<div class="ttc" id="aclass_grow_buf_html_ad5ec59f43c28c517b3f11dea3e2adab6"><div class="ttname"><a href="../../d8/d33/class_grow_buf.html#ad5ec59f43c28c517b3f11dea3e2adab6">GrowBuf::m_len</a></div><div class="ttdeci">size_t m_len</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d72/growbuf_8h_source.html#l00118">growbuf.h:118</a></div></div>
+<div class="ttc" id="aclass_grow_buf_html_a2c1af45fdd1c692684b38dd54fcf1a6b"><div class="ttname"><a href="../../d8/d33/class_grow_buf.html#a2c1af45fdd1c692684b38dd54fcf1a6b">GrowBuf::m_pos</a></div><div class="ttdeci">size_t m_pos</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d72/growbuf_8h_source.html#l00122">growbuf.h:122</a></div></div>
+<div class="ttc" id="aclass_grow_buf_html_a94df360b36d76642c8ae017fa6d7e431"><div class="ttname"><a href="../../d8/d33/class_grow_buf.html#a94df360b36d76642c8ae017fa6d7e431">GrowBuf::m_str</a></div><div class="ttdeci">char * m_str</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d72/growbuf_8h_source.html#l00121">growbuf.h:121</a></div></div>
+<div class="ttc" id="aclass_grow_buf_html_ad5ec59f43c28c517b3f11dea3e2adab6"><div class="ttname"><a href="../../d8/d33/class_grow_buf.html#ad5ec59f43c28c517b3f11dea3e2adab6">GrowBuf::m_len</a></div><div class="ttdeci">size_t m_len</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d72/growbuf_8h_source.html#l00123">growbuf.h:123</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -218,7 +220,7 @@ Private Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00031">31</a> of file <a class="el" href="../../dd/d72/growbuf_8h_source.html">growbuf.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   31</span>: <a class="code hl_variable" href="../../d8/d33/class_grow_buf.html#a2c1af45fdd1c692684b38dd54fcf1a6b">m_pos</a>(0), <a class="code hl_variable" href="../../d8/d33/class_grow_buf.html#ad5ec59f43c28c517b3f11dea3e2adab6">m_len</a>(initialSize) { <a class="code hl_variable" href="../../d8/d33/class_grow_buf.html#a94df360b36d76642c8ae017fa6d7e431">m_str</a>=<span class="keyword">static_cast&lt;</span><span class="keywordtype">char</span>*<span class="keyword">&gt;</span>(malloc(<a class="code hl_variable" href="../../d8/d33/class_grow_buf.html#ad5ec59f43c28c517b3f11dea3e2adab6">m_len</a>)); }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00118">m_len</a>, and <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00116">m_str</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00123">m_len</a>, and <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00121">m_str</a>.</p>
 
 </div>
 </div>
@@ -248,7 +250,7 @@ Private Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00032">32</a> of file <a class="el" href="../../dd/d72/growbuf_8h_source.html">growbuf.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   32</span>{ free(<a class="code hl_variable" href="../../d8/d33/class_grow_buf.html#a94df360b36d76642c8ae017fa6d7e431">m_str</a>); }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00116">m_str</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00121">m_str</a>.</p>
 
 </div>
 </div>
@@ -284,7 +286,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">   38</span>      memcpy(<a class="code hl_variable" href="../../d8/d33/class_grow_buf.html#a94df360b36d76642c8ae017fa6d7e431">m_str</a>,other.<a class="code hl_variable" href="../../d8/d33/class_grow_buf.html#a94df360b36d76642c8ae017fa6d7e431">m_str</a>,<a class="code hl_variable" href="../../d8/d33/class_grow_buf.html#ad5ec59f43c28c517b3f11dea3e2adab6">m_len</a>);</div>
 <div class="line"><span class="lineno">   39</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00118">m_len</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00117">m_pos</a>, and <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00116">m_str</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00123">m_len</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00122">m_pos</a>, and <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00121">m_str</a>.</p>
 
 </div>
 </div>
@@ -352,9 +354,57 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">   71</span>                      }</div>
 <div class="ttc" id="agrowbuf_8h_html_a8b0dc2f8685a41830347ff1e73629fb3"><div class="ttname"><a href="../../dd/d72/growbuf_8h.html#a8b0dc2f8685a41830347ff1e73629fb3">GROW_AMOUNT</a></div><div class="ttdeci">#define GROW_AMOUNT</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d72/growbuf_8h_source.html#l00024">growbuf.h:24</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00024">GROW_AMOUNT</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00118">m_len</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00117">m_pos</a>, and <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00116">m_str</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00024">GROW_AMOUNT</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00123">m_len</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00122">m_pos</a>, and <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00121">m_str</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00491">SearchIndexExternal::addWord()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04341">convertCharEntitiesToUTF8()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04169">convertToDocBook()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04234">convertToHtml()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04078">convertToId()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04294">convertToJSString()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04313">convertToPSString()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04118">convertToXML()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03345">Markdown::detab()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l03606">escapeCharsInString()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00260">escapeDoubleQuotes()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00281">escapeSpecialChars()</a>, <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00861">filter2008VhdlComment()</a>, <a class="el" href="../../dc/d05/docbookvisitor_8cpp_source.html#l00051">filterId()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02092">HtmlDocVisitor::filterQuotedCdataAttr()</a>, <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l00142">getConvertLatexMacro()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03203">DocPara::handleShowDate()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03415">Markdown::process()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03045">Markdown::processBlocks()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01784">DocParser::processCopyDoc()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02913">Markdown::processQuotations()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01696">Markdown::processSpecialCommand()</a>, <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l00630">replaceVariables()</a>, <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00500">SearchIndexExternal::write()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02892">Markdown::writeFencedCodeBlock()</a>, and <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02646">Markdown::writeOneLineHeaderOrRuler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00491">SearchIndexExternal::addWord()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04260">convertCharEntitiesToUTF8()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04088">convertToDocBook()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04153">convertToHtml()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l03997">convertToId()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04213">convertToJSString()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04232">convertToPSString()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04037">convertToXML()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03345">Markdown::detab()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l03525">escapeCharsInString()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00260">escapeDoubleQuotes()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00281">escapeSpecialChars()</a>, <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00861">filter2008VhdlComment()</a>, <a class="el" href="../../dc/d05/docbookvisitor_8cpp_source.html#l00051">filterId()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02092">HtmlDocVisitor::filterQuotedCdataAttr()</a>, <a class="el" href="../../d7/d14/datetime_8cpp_source.html#l00175">formatDateTime()</a>, <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l00142">getConvertLatexMacro()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03415">Markdown::process()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03045">Markdown::processBlocks()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01784">DocParser::processCopyDoc()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02913">Markdown::processQuotations()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01696">Markdown::processSpecialCommand()</a>, <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l00630">replaceVariables()</a>, <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00500">SearchIndexExternal::write()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02892">Markdown::writeFencedCodeBlock()</a>, and <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02646">Markdown::writeOneLineHeaderOrRuler()</a>.</p>
+
+</div>
+</div>
+<a id="a3c84320a57fe98375add64ad01e9bf3b" name="a3c84320a57fe98375add64ad01e9bf3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c84320a57fe98375add64ad01e9bf3b">&#9670;&#160;</a></span>addInt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GrowBuf::addInt </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>fmt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00109">109</a> of file <a class="el" href="../../dd/d72/growbuf_8h_source.html">growbuf.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  109</span>                                           {</div>
+<div class="line"><span class="lineno">  110</span>                      <span class="keywordtype">char</span> tmp[50];</div>
+<div class="line"><span class="lineno">  111</span>                      snprintf(tmp,50,fmt,value);</div>
+<div class="line"><span class="lineno">  112</span>                      <a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a5e0ff6d9f7a7139725d77a9d669340f3">addStr</a>(tmp);</div>
+<div class="line"><span class="lineno">  113</span>    }</div>
+<div class="ttc" id="aclass_grow_buf_html_a5e0ff6d9f7a7139725d77a9d669340f3"><div class="ttname"><a href="../../d8/d33/class_grow_buf.html#a5e0ff6d9f7a7139725d77a9d669340f3">GrowBuf::addStr</a></div><div class="ttdeci">void addStr(const QCString &amp;s)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d72/growbuf_8h_source.html#l00072">growbuf.h:72</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00072">addStr()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/d14/datetime_8cpp_source.html#l00175">formatDateTime()</a>.</p>
 
 </div>
 </div>
@@ -393,7 +443,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">   97</span>                        }</div>
 <div class="line"><span class="lineno">   98</span>                      }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00024">GROW_AMOUNT</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00118">m_len</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00117">m_pos</a>, and <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00116">m_str</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00024">GROW_AMOUNT</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00123">m_len</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00122">m_pos</a>, and <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00121">m_str</a>.</p>
 
 </div>
 </div>
@@ -443,7 +493,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  107</span>                        }</div>
 <div class="line"><span class="lineno">  108</span>                      }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00024">GROW_AMOUNT</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00118">m_len</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00117">m_pos</a>, and <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00116">m_str</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00024">GROW_AMOUNT</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00123">m_len</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00122">m_pos</a>, and <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00121">m_str</a>.</p>
 
 </div>
 </div>
@@ -485,9 +535,9 @@ Private Attributes</h2></td></tr>
 <div class="ttc" id="aclass_q_c_string_html_ac3aa3ac1a1c36d3305eba22a2eb0d098"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">QCString::data</a></div><div class="ttdeci">const char * data() const</div><div class="ttdoc">Returns a pointer to the contents of the string in the form of a 0-terminated C string.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00153">qcstring.h:153</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_ac52596733e9110b778019946d73fb268"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">QCString::length</a></div><div class="ttdeci">uint length() const</div><div class="ttdoc">Returns the length of the string, not counting the 0-terminator.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00147">qcstring.h:147</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00153">QCString::data()</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00024">GROW_AMOUNT</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::length()</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00118">m_len</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00117">m_pos</a>, and <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00116">m_str</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00153">QCString::data()</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00024">GROW_AMOUNT</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::length()</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00123">m_len</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00122">m_pos</a>, and <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00121">m_str</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01683">Markdown::addStrEscapeUtf8Nbsp()</a>, <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00491">SearchIndexExternal::addWord()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04341">convertCharEntitiesToUTF8()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04169">convertToDocBook()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04234">convertToHtml()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04078">convertToId()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04294">convertToJSString()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04313">convertToPSString()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04118">convertToXML()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03345">Markdown::detab()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l03606">escapeCharsInString()</a>, <a class="el" href="../../dc/d05/docbookvisitor_8cpp_source.html#l00051">filterId()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02092">HtmlDocVisitor::filterQuotedCdataAttr()</a>, <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l00142">getConvertLatexMacro()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03203">DocPara::handleShowDate()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03045">Markdown::processBlocks()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01605">Markdown::processCodeSpan()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01784">DocParser::processCopyDoc()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00783">Markdown::processEmphasis1()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00817">Markdown::processEmphasis2()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00852">Markdown::processEmphasis3()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00981">Markdown::processHtmlTagWrite()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01753">Markdown::processInline()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01166">Markdown::processLink()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00917">Markdown::processNmdash()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02913">Markdown::processQuotations()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00957">Markdown::processQuoted()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01696">Markdown::processSpecialCommand()</a>, <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l00630">replaceVariables()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02703">Markdown::writeBlockQuote()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02764">Markdown::writeCodeBlock()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02892">Markdown::writeFencedCodeBlock()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01126">Markdown::writeMarkdownImage()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02646">Markdown::writeOneLineHeaderOrRuler()</a>, and <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02426">Markdown::writeTableBlock()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00109">addInt()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01683">Markdown::addStrEscapeUtf8Nbsp()</a>, <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00491">SearchIndexExternal::addWord()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04260">convertCharEntitiesToUTF8()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04088">convertToDocBook()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04153">convertToHtml()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l03997">convertToId()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04213">convertToJSString()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04232">convertToPSString()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04037">convertToXML()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03345">Markdown::detab()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l03525">escapeCharsInString()</a>, <a class="el" href="../../dc/d05/docbookvisitor_8cpp_source.html#l00051">filterId()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02092">HtmlDocVisitor::filterQuotedCdataAttr()</a>, <a class="el" href="../../d7/d14/datetime_8cpp_source.html#l00175">formatDateTime()</a>, <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l00142">getConvertLatexMacro()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03045">Markdown::processBlocks()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01605">Markdown::processCodeSpan()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01784">DocParser::processCopyDoc()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00783">Markdown::processEmphasis1()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00817">Markdown::processEmphasis2()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00852">Markdown::processEmphasis3()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00981">Markdown::processHtmlTagWrite()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01753">Markdown::processInline()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01166">Markdown::processLink()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00917">Markdown::processNmdash()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02913">Markdown::processQuotations()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00957">Markdown::processQuoted()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01696">Markdown::processSpecialCommand()</a>, <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l00630">replaceVariables()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02703">Markdown::writeBlockQuote()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02764">Markdown::writeCodeBlock()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02892">Markdown::writeFencedCodeBlock()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01126">Markdown::writeMarkdownImage()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02646">Markdown::writeOneLineHeaderOrRuler()</a>, and <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02426">Markdown::writeTableBlock()</a>.</p>
 
 </div>
 </div>
@@ -526,7 +576,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">   88</span>                        }</div>
 <div class="line"><span class="lineno">   89</span>                      }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00024">GROW_AMOUNT</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00118">m_len</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00117">m_pos</a>, and <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00116">m_str</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00024">GROW_AMOUNT</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00123">m_len</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00122">m_pos</a>, and <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00121">m_str</a>.</p>
 
 </div>
 </div>
@@ -554,10 +604,10 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00113">113</a> of file <a class="el" href="../../dd/d72/growbuf_8h_source.html">growbuf.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  113</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/d33/class_grow_buf.html#a94df360b36d76642c8ae017fa6d7e431">m_str</a>[i]; }</div>
+<p class="definition">Definition at line <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00118">118</a> of file <a class="el" href="../../dd/d72/growbuf_8h_source.html">growbuf.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  118</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/d33/class_grow_buf.html#a94df360b36d76642c8ae017fa6d7e431">m_str</a>[i]; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00116">m_str</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00121">m_str</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00861">filter2008VhdlComment()</a>.</p>
 
@@ -589,7 +639,7 @@ Private Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00068">68</a> of file <a class="el" href="../../dd/d72/growbuf_8h_source.html">growbuf.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   68</span>{ <a class="code hl_variable" href="../../d8/d33/class_grow_buf.html#a2c1af45fdd1c692684b38dd54fcf1a6b">m_pos</a>=0; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00117">m_pos</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00122">m_pos</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03345">Markdown::detab()</a>, <a class="el" href="../../dc/d05/docbookvisitor_8cpp_source.html#l00051">filterId()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03415">Markdown::process()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03045">Markdown::processBlocks()</a>, and <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02913">Markdown::processQuotations()</a>.</p>
 
@@ -618,10 +668,10 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00114">114</a> of file <a class="el" href="../../dd/d72/growbuf_8h_source.html">growbuf.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  114</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/d33/class_grow_buf.html#a2c1af45fdd1c692684b38dd54fcf1a6b">m_pos</a>==0; }</div>
+<p class="definition">Definition at line <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00119">119</a> of file <a class="el" href="../../dd/d72/growbuf_8h_source.html">growbuf.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  119</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/d33/class_grow_buf.html#a2c1af45fdd1c692684b38dd54fcf1a6b">m_pos</a>==0; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00117">m_pos</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00122">m_pos</a>.</p>
 
 </div>
 </div>
@@ -648,12 +698,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00109">109</a> of file <a class="el" href="../../dd/d72/growbuf_8h_source.html">growbuf.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  109</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/d33/class_grow_buf.html#a94df360b36d76642c8ae017fa6d7e431">m_str</a>; }</div>
+<p class="definition">Definition at line <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00114">114</a> of file <a class="el" href="../../dd/d72/growbuf_8h_source.html">growbuf.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  114</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/d33/class_grow_buf.html#a94df360b36d76642c8ae017fa6d7e431">m_str</a>; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00116">m_str</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00121">m_str</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d2d/util_8cpp_source.html#l04341">convertCharEntitiesToUTF8()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04169">convertToDocBook()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04234">convertToHtml()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04078">convertToId()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04294">convertToJSString()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04313">convertToPSString()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04118">convertToXML()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03345">Markdown::detab()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l03606">escapeCharsInString()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00260">escapeDoubleQuotes()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00281">escapeSpecialChars()</a>, <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00861">filter2008VhdlComment()</a>, <a class="el" href="../../dc/d05/docbookvisitor_8cpp_source.html#l00051">filterId()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02092">HtmlDocVisitor::filterQuotedCdataAttr()</a>, <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l00142">getConvertLatexMacro()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03203">DocPara::handleShowDate()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03415">Markdown::process()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03045">Markdown::processBlocks()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01784">DocParser::processCopyDoc()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02913">Markdown::processQuotations()</a>, <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l00630">replaceVariables()</a>, and <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00500">SearchIndexExternal::write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d2d/util_8cpp_source.html#l04260">convertCharEntitiesToUTF8()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04088">convertToDocBook()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04153">convertToHtml()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l03997">convertToId()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04213">convertToJSString()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04232">convertToPSString()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04037">convertToXML()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03345">Markdown::detab()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l03525">escapeCharsInString()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00260">escapeDoubleQuotes()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00281">escapeSpecialChars()</a>, <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00861">filter2008VhdlComment()</a>, <a class="el" href="../../dc/d05/docbookvisitor_8cpp_source.html#l00051">filterId()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02092">HtmlDocVisitor::filterQuotedCdataAttr()</a>, <a class="el" href="../../d7/d14/datetime_8cpp_source.html#l00175">formatDateTime()</a>, <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l00142">getConvertLatexMacro()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03415">Markdown::process()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03045">Markdown::processBlocks()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01784">DocParser::processCopyDoc()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02913">Markdown::processQuotations()</a>, <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l00630">replaceVariables()</a>, and <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00500">SearchIndexExternal::write()</a>.</p>
 
 </div>
 </div>
@@ -680,10 +730,10 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00110">110</a> of file <a class="el" href="../../dd/d72/growbuf_8h_source.html">growbuf.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  110</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/d33/class_grow_buf.html#a94df360b36d76642c8ae017fa6d7e431">m_str</a>; }</div>
+<p class="definition">Definition at line <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00115">115</a> of file <a class="el" href="../../dd/d72/growbuf_8h_source.html">growbuf.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  115</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/d33/class_grow_buf.html#a94df360b36d76642c8ae017fa6d7e431">m_str</a>; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00116">m_str</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00121">m_str</a>.</p>
 
 </div>
 </div>
@@ -710,10 +760,10 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00111">111</a> of file <a class="el" href="../../dd/d72/growbuf_8h_source.html">growbuf.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  111</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/d33/class_grow_buf.html#a2c1af45fdd1c692684b38dd54fcf1a6b">m_pos</a>; }</div>
+<p class="definition">Definition at line <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00116">116</a> of file <a class="el" href="../../dd/d72/growbuf_8h_source.html">growbuf.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  116</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/d33/class_grow_buf.html#a2c1af45fdd1c692684b38dd54fcf1a6b">m_pos</a>; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00117">m_pos</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00122">m_pos</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00491">SearchIndexExternal::addWord()</a>, <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00861">filter2008VhdlComment()</a>, and <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01784">DocParser::processCopyDoc()</a>.</p>
 
@@ -756,7 +806,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">   50</span>      <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
 <div class="line"><span class="lineno">   51</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00118">m_len</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00117">m_pos</a>, and <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00116">m_str</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00123">m_len</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00122">m_pos</a>, and <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00121">m_str</a>.</p>
 
 </div>
 </div>
@@ -794,7 +844,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">   65</span>      <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
 <div class="line"><span class="lineno">   66</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00118">m_len</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00117">m_pos</a>, and <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00116">m_str</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00123">m_len</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00122">m_pos</a>, and <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00121">m_str</a>.</p>
 
 </div>
 </div>
@@ -825,7 +875,7 @@ Private Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00067">67</a> of file <a class="el" href="../../dd/d72/growbuf_8h_source.html">growbuf.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   67</span>{ <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/d33/class_grow_buf.html#ad5ec59f43c28c517b3f11dea3e2adab6">m_len</a>&lt;size) { <a class="code hl_variable" href="../../d8/d33/class_grow_buf.html#ad5ec59f43c28c517b3f11dea3e2adab6">m_len</a> = size; <a class="code hl_variable" href="../../d8/d33/class_grow_buf.html#a94df360b36d76642c8ae017fa6d7e431">m_str</a> = <span class="keyword">static_cast&lt;</span><span class="keywordtype">char</span>*<span class="keyword">&gt;</span>(realloc(<a class="code hl_variable" href="../../d8/d33/class_grow_buf.html#a94df360b36d76642c8ae017fa6d7e431">m_str</a>,<a class="code hl_variable" href="../../d8/d33/class_grow_buf.html#ad5ec59f43c28c517b3f11dea3e2adab6">m_len</a>)); } }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00118">m_len</a>, and <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00116">m_str</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00123">m_len</a>, and <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00121">m_str</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03345">Markdown::detab()</a>.</p>
 
@@ -855,10 +905,10 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00112">112</a> of file <a class="el" href="../../dd/d72/growbuf_8h_source.html">growbuf.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  112</span>{ <a class="code hl_variable" href="../../d8/d33/class_grow_buf.html#a2c1af45fdd1c692684b38dd54fcf1a6b">m_pos</a> = newPos; }</div>
+<p class="definition">Definition at line <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00117">117</a> of file <a class="el" href="../../dd/d72/growbuf_8h_source.html">growbuf.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  117</span>{ <a class="code hl_variable" href="../../d8/d33/class_grow_buf.html#a2c1af45fdd1c692684b38dd54fcf1a6b">m_pos</a> = newPos; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00117">m_pos</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00122">m_pos</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00861">filter2008VhdlComment()</a>.</p>
 
@@ -885,7 +935,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00118">118</a> of file <a class="el" href="../../dd/d72/growbuf_8h_source.html">growbuf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00123">123</a> of file <a class="el" href="../../dd/d72/growbuf_8h_source.html">growbuf.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00069">addChar()</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00072">addStr()</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00031">GrowBuf()</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00040">operator=()</a>, and <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00067">reserve()</a>.</p>
 
@@ -911,9 +961,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00117">117</a> of file <a class="el" href="../../dd/d72/growbuf_8h_source.html">growbuf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00122">122</a> of file <a class="el" href="../../dd/d72/growbuf_8h_source.html">growbuf.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00069">addChar()</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00072">addStr()</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00068">clear()</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00114">empty()</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00111">getPos()</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00033">GrowBuf()</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00040">operator=()</a>, and <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00112">setPos()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00069">addChar()</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00072">addStr()</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00068">clear()</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00119">empty()</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00116">getPos()</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00033">GrowBuf()</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00040">operator=()</a>, and <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00117">setPos()</a>.</p>
 
 </div>
 </div>
@@ -937,9 +987,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00116">116</a> of file <a class="el" href="../../dd/d72/growbuf_8h_source.html">growbuf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00121">121</a> of file <a class="el" href="../../dd/d72/growbuf_8h_source.html">growbuf.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00069">addChar()</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00072">addStr()</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00113">at()</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00109">get()</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00031">GrowBuf()</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00040">operator=()</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00067">reserve()</a>, and <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00032">~GrowBuf()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00069">addChar()</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00072">addStr()</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00118">at()</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00114">get()</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00031">GrowBuf()</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00040">operator=()</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00067">reserve()</a>, and <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00032">~GrowBuf()</a>.</p>
 
 </div>
 </div>

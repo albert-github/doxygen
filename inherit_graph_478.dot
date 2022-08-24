@@ -6,7 +6,7 @@ digraph "Graphical Class Hierarchy"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [label="IDocParser",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dad/class_i_doc_parser.html",tooltip="opaque parser interface"];
+  Node0 [label="IDocNodeAST",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/de4/class_i_doc_node_a_s_t.html",tooltip="opaque representation of the abstract syntax tree (AST)"];
   Node0 -> Node1 [dir="back",color="steelblue1",style="solid"];
-  Node1 [label="DocParser",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d02/class_doc_parser.html",tooltip=" "];
+  Node1 [label="DocNodeAST",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d98/class_doc_node_a_s_t.html",tooltip="Class representing the abstract syntax tree of a documentation block."];
 }
