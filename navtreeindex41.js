@@ -1,9 +1,8 @@
 var NAVTREEINDEX41 =
 {
 "d5/d8a/struct_index_intf_1_1add_image_file.html":[4,0,2,1],
-"d5/d8a/struct_index_intf_1_1add_image_file.html":[3,0,4,1],
-"d5/d8a/struct_index_intf_1_1add_image_file.html#abbd33355a6ea88881853fea59ff5e5de":[3,0,4,1,0],
 "d5/d8a/struct_index_intf_1_1add_image_file.html#abbd33355a6ea88881853fea59ff5e5de":[4,0,2,1,0],
+"d5/d8a/struct_index_intf_1_1add_image_file.html#abbd33355a6ea88881853fea59ff5e5de":[3,0,4,1,0],
 "d5/d98/struct_files_in_dir.html":[4,0,248],
 "d5/d98/struct_files_in_dir.html#a105385a4cdc40557a90e49e98e094373":[4,0,248,2],
 "d5/d98/struct_files_in_dir.html#a28ea18f846e5a1531d3951892337684f":[4,0,248,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX41 =
 "d5/dcc/class_definition.html#adbe53b15923a143881154dd7c0f04f9b":[4,0,96,19],
 "d5/dcc/class_definition.html#adedbc8425512085879cca32d6351b0fc":[4,0,96,3],
 "d5/dcc/class_definition.html#adf0e1ff0eec62741a8ee5d768589ab01":[4,0,96,18],
-"d5/dcc/class_definition.html#ae1c69242fea84675cf9a07b0ba22f52f":[4,0,96,50]
+"d5/dcc/class_definition.html#ae1c69242fea84675cf9a07b0ba22f52f":[4,0,96,50],
+"d5/dcc/class_definition.html#aefebfe15d1a91517ef51ed95dd3f48b0":[4,0,96,64]
 };

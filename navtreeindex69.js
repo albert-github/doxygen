@@ -1,6 +1,5 @@
 var NAVTREEINDEX69 =
 {
-"d9/dba/struct_layout_doc_entry.html#a89dcbe762ed7e7f7790d8c034cf8ea01aef05d6101aa292988cdcb23470729fa0":[4,0,344,0,45],
 "d9/dba/struct_layout_doc_entry.html#a89dcbe762ed7e7f7790d8c034cf8ea01af7ab6a0e1b8e4a713b0c072627d236e8":[4,0,344,0,19],
 "d9/dba/struct_layout_doc_entry.html#a89dcbe762ed7e7f7790d8c034cf8ea01af9234baa6bf74434335bac1587060f42":[4,0,344,0,4],
 "d9/dba/struct_layout_doc_entry.html#a89dcbe762ed7e7f7790d8c034cf8ea01afc9d8ac1ff8091c91414b286fdf5fcb5":[4,0,344,0,25],
@@ -249,5 +248,6 @@ var NAVTREEINDEX69 =
 "d9/dc5/struct_symbol_resolver_1_1_private.html#aa553c3d55ea82c85ce0f8a65861f32f7":[4,0,485,0,13],
 "d9/dc5/struct_symbol_resolver_1_1_private.html#ab01c8bb71a27205b862142b2c049f9a6":[4,0,485,0,12],
 "d9/dc5/struct_symbol_resolver_1_1_private.html#ab82f55d87ac3417ae78a0ddf4806b263":[4,0,485,0,5],
-"d9/dc5/struct_symbol_resolver_1_1_private.html#ac446c39cc6dcbdda4dd7532c0e8e695d":[4,0,485,0,18]
+"d9/dc5/struct_symbol_resolver_1_1_private.html#ac446c39cc6dcbdda4dd7532c0e8e695d":[4,0,485,0,18],
+"d9/dc5/struct_symbol_resolver_1_1_private.html#aca027cea1b9e08a1cc8740f5f0d4ffbe":[4,0,485,0,3]
 };

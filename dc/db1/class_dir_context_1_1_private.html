@@ -239,7 +239,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../da/d4e/struct_citation_manager_1_1_private.html">DirContext::Private::Private</a> </td>
+          <td class="memname">DirContext::Private::Private </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../d4/dd4/class_dir_def.html">DirDef</a> *&#160;</td>
           <td class="paramname"><em>dd</em></td><td>)</td>
@@ -358,15 +358,16 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 3197</span>      list.reserve(<a class="code hl_variable" href="../../dc/db1/class_dir_context_1_1_private.html#a68ec3e092518dc409a915627c6df9a08">m_dirDef</a>-&gt;<a class="code hl_function" href="../../d4/dd4/class_dir_def.html#abc75cce4fc67690a3ebbd158e3d63938">subDirs</a>().size());</div>
 <div class="line"><span class="lineno"> 3198</span>      <span class="keywordflow">for</span>(<span class="keyword">const</span> <span class="keyword">auto</span> dd : <a class="code hl_variable" href="../../dc/db1/class_dir_context_1_1_private.html#a68ec3e092518dc409a915627c6df9a08">m_dirDef</a>-&gt;<a class="code hl_function" href="../../d4/dd4/class_dir_def.html#abc75cce4fc67690a3ebbd158e3d63938">subDirs</a>())</div>
 <div class="line"><span class="lineno"> 3199</span>      {</div>
-<div class="line"><span class="lineno"> 3200</span>        list.push_back(<a class="code hl_function" href="../../d6/dcb/class_generic_node_list_context.html#a3ad634a9486b225aa2a9b5162a957354">DirContext::alloc</a>(dd));</div>
+<div class="line"><span class="lineno"> 3200</span>        list.push_back(<a class="code hl_function" href="../../d5/dca/class_dir_context.html#a64f8438477e791b7ef247198b5e0d2fa">DirContext::alloc</a>(dd));</div>
 <div class="line"><span class="lineno"> 3201</span>      }</div>
-<div class="line"><span class="lineno"> 3202</span>      <span class="keywordflow">return</span> <a class="code hl_function" href="../../d6/dcb/class_generic_node_list_context.html#a3ad634a9486b225aa2a9b5162a957354">TemplateImmutableList::alloc</a>(list);</div>
+<div class="line"><span class="lineno"> 3202</span>      <span class="keywordflow">return</span> <a class="code hl_function" href="../../d1/dbe/class_template_immutable_list.html#a2f68c69e4d50cfea5fc122159585f17e">TemplateImmutableList::alloc</a>(list);</div>
 <div class="line"><span class="lineno"> 3203</span>    }</div>
+<div class="ttc" id="aclass_dir_context_html_a64f8438477e791b7ef247198b5e0d2fa"><div class="ttname"><a href="../../d5/dca/class_dir_context.html#a64f8438477e791b7ef247198b5e0d2fa">DirContext::alloc</a></div><div class="ttdeci">static TemplateStructIntfPtr alloc(const DirDef *dd)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d1e/context_8h_source.html#l00279">context.h:279</a></div></div>
 <div class="ttc" id="aclass_dir_def_html_abc75cce4fc67690a3ebbd158e3d63938"><div class="ttname"><a href="../../d4/dd4/class_dir_def.html#abc75cce4fc67690a3ebbd158e3d63938">DirDef::subDirs</a></div><div class="ttdeci">virtual const DirList &amp; subDirs() const =0</div></div>
-<div class="ttc" id="aclass_generic_node_list_context_html_a3ad634a9486b225aa2a9b5162a957354"><div class="ttname"><a href="../../d6/dcb/class_generic_node_list_context.html#a3ad634a9486b225aa2a9b5162a957354">GenericNodeListContext::alloc</a></div><div class="ttdeci">static TemplateListIntfPtr alloc()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l00195">context.cpp:195</a></div></div>
+<div class="ttc" id="aclass_template_immutable_list_html_a2f68c69e4d50cfea5fc122159585f17e"><div class="ttname"><a href="../../d1/dbe/class_template_immutable_list.html#a2f68c69e4d50cfea5fc122159585f17e">TemplateImmutableList::alloc</a></div><div class="ttdeci">static TemplateListIntfPtr alloc(std::initializer_list&lt; TemplateVariant &gt; elements)</div><div class="ttdoc">Creates an instance and returns a shared pointer to it.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l00542">template.cpp:542</a></div></div>
 <div class="ttc" id="agroup__template__api_html_ga721a09a9636793ccb7ae9db5aeef5751"><div class="ttname"><a href="../../d0/db8/group__template__api.html#ga721a09a9636793ccb7ae9db5aeef5751">TemplateVariantList</a></div><div class="ttdeci">std::vector&lt; TemplateVariant &gt; TemplateVariantList</div><div class="ttdef"><b>Definition:</b> <a href="../../de/db8/template_8h_source.html#l00273">template.h:273</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d12/context_8cpp_source.html#l00195">GenericNodeListContext::alloc()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l03218">m_dirDef</a>, and <a class="el" href="../../d4/dd4/class_dir_def.html#abc75cce4fc67690a3ebbd158e3d63938">DirDef::subDirs()</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d1e/context_8h_source.html#l00279">DirContext::alloc()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l00542">TemplateImmutableList::alloc()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l03218">m_dirDef</a>, and <a class="el" href="../../d4/dd4/class_dir_def.html#abc75cce4fc67690a3ebbd158e3d63938">DirDef::subDirs()</a>.</p>
 
 </div>
 </div>
@@ -399,13 +400,14 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 3207</span>      list.reserve(<a class="code hl_variable" href="../../dc/db1/class_dir_context_1_1_private.html#a68ec3e092518dc409a915627c6df9a08">m_dirDef</a>-&gt;<a class="code hl_function" href="../../d4/dd4/class_dir_def.html#af40b99e4906aef816aa768682712df74">getFiles</a>().size());</div>
 <div class="line"><span class="lineno"> 3208</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;fd : <a class="code hl_variable" href="../../dc/db1/class_dir_context_1_1_private.html#a68ec3e092518dc409a915627c6df9a08">m_dirDef</a>-&gt;<a class="code hl_function" href="../../d4/dd4/class_dir_def.html#af40b99e4906aef816aa768682712df74">getFiles</a>())</div>
 <div class="line"><span class="lineno"> 3209</span>      {</div>
-<div class="line"><span class="lineno"> 3210</span>        list.push_back(<a class="code hl_function" href="../../d6/dcb/class_generic_node_list_context.html#a3ad634a9486b225aa2a9b5162a957354">FileContext::alloc</a>(fd));</div>
+<div class="line"><span class="lineno"> 3210</span>        list.push_back(<a class="code hl_function" href="../../d3/db7/class_file_context.html#aba2fe05cd43c591a894840482ed32e79">FileContext::alloc</a>(fd));</div>
 <div class="line"><span class="lineno"> 3211</span>      }</div>
-<div class="line"><span class="lineno"> 3212</span>      <span class="keywordflow">return</span> <a class="code hl_function" href="../../d6/dcb/class_generic_node_list_context.html#a3ad634a9486b225aa2a9b5162a957354">TemplateImmutableList::alloc</a>(list);</div>
+<div class="line"><span class="lineno"> 3212</span>      <span class="keywordflow">return</span> <a class="code hl_function" href="../../d1/dbe/class_template_immutable_list.html#a2f68c69e4d50cfea5fc122159585f17e">TemplateImmutableList::alloc</a>(list);</div>
 <div class="line"><span class="lineno"> 3213</span>    }</div>
 <div class="ttc" id="aclass_dir_def_html_af40b99e4906aef816aa768682712df74"><div class="ttname"><a href="../../d4/dd4/class_dir_def.html#af40b99e4906aef816aa768682712df74">DirDef::getFiles</a></div><div class="ttdeci">virtual const FileList &amp; getFiles() const =0</div></div>
+<div class="ttc" id="aclass_file_context_html_aba2fe05cd43c591a894840482ed32e79"><div class="ttname"><a href="../../d3/db7/class_file_context.html#aba2fe05cd43c591a894840482ed32e79">FileContext::alloc</a></div><div class="ttdeci">static TemplateStructIntfPtr alloc(const FileDef *fd)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d1e/context_8h_source.html#l00260">context.h:260</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d12/context_8cpp_source.html#l00195">GenericNodeListContext::alloc()</a>, <a class="el" href="../../d4/dd4/class_dir_def.html#af40b99e4906aef816aa768682712df74">DirDef::getFiles()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l03218">m_dirDef</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d1e/context_8h_source.html#l00260">FileContext::alloc()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l00542">TemplateImmutableList::alloc()</a>, <a class="el" href="../../d4/dd4/class_dir_def.html#af40b99e4906aef816aa768682712df74">DirDef::getFiles()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l03218">m_dirDef</a>.</p>
 
 </div>
 </div>

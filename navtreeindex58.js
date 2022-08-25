@@ -1,6 +1,5 @@
 var NAVTREEINDEX58 =
 {
-"d8/d1d/class_argument_context_1_1_private.html#a02d96363c2f9ce074173086a208e0b0b":[4,0,12,0,18],
 "d8/d1d/class_argument_context_1_1_private.html#a03699ff1aca248e87c2b9c073ea951f3":[4,0,12,0,11],
 "d8/d1d/class_argument_context_1_1_private.html#a1730b1138475cd8ac6f2bdb1a9e44e0c":[4,0,12,0,3],
 "d8/d1d/class_argument_context_1_1_private.html#a189ba4d4917c53a7a91d65b184812b23":[4,0,12,0,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX58 =
 "d8/d48/struct_dot_group_collaboration_1_1_edge.html":[4,0,201,0],
 "d8/d48/struct_dot_group_collaboration_1_1_edge.html#a05c8193b7ab3fa66b1cfe1c7bd87e1d2":[4,0,201,0,5],
 "d8/d48/struct_dot_group_collaboration_1_1_edge.html#a1f4c832d9b0e56ecdf8f164784623354":[4,0,201,0,1],
-"d8/d48/struct_dot_group_collaboration_1_1_edge.html#a72ac56ac966b6ab1f983c728e99f9608":[4,0,201,0,0]
+"d8/d48/struct_dot_group_collaboration_1_1_edge.html#a72ac56ac966b6ab1f983c728e99f9608":[4,0,201,0,0],
+"d8/d48/struct_dot_group_collaboration_1_1_edge.html#a76a2ba25cd605e65eece591f41706626":[4,0,201,0,2]
 };

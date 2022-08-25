@@ -93,7 +93,6 @@ $(document).ready(function(){initNavTree('d2/d99/symbolresolver_8cpp.html','../.
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">symbolresolver.cpp File Reference</div></div>
 </div><!--header-->
@@ -134,11 +133,6 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a589f084c907127f8eb7da515347f2bc4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d99/symbolresolver_8cpp.html#a589f084c907127f8eb7da515347f2bc4">VisitedNamespaces</a> = std::unordered_map&lt; std::string, const <a class="el" href="../../d5/dcc/class_definition.html">Definition</a> * &gt;</td></tr>
 <tr class="separator:a589f084c907127f8eb7da515347f2bc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a032314a19fe835a0e3b5de5b0fcf86ba"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d99/symbolresolver_8cpp.html#a032314a19fe835a0e3b5de5b0fcf86ba">isParentScope</a> (const <a class="el" href="../../d5/dcc/class_definition.html">Definition</a> *<a class="el" href="../../de/d2b/docnode_8h.html#ab4feec38265e781de0502142e696763a">parent</a>, const <a class="el" href="../../d5/dcc/class_definition.html">Definition</a> *item)</td></tr>
-<tr class="separator:a032314a19fe835a0e3b5de5b0fcf86ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:abf10ed4dca35ec7b624c1aa7cd018327"><td class="memItemLeft" align="right" valign="top">static std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d99/symbolresolver_8cpp.html#abf10ed4dca35ec7b624c1aa7cd018327">g_cacheMutex</a></td></tr>
@@ -160,57 +154,6 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html#l00083">83</a> of file <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html">symbolresolver.cpp</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a032314a19fe835a0e3b5de5b0fcf86ba" name="a032314a19fe835a0e3b5de5b0fcf86ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a032314a19fe835a0e3b5de5b0fcf86ba">&#9670;&#160;</a></span>isParentScope()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static bool isParentScope </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d5/dcc/class_definition.html">Definition</a> *&#160;</td>
-          <td class="paramname"><em>parent</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d5/dcc/class_definition.html">Definition</a> *&#160;</td>
-          <td class="paramname"><em>item</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html#l00929">929</a> of file <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html">symbolresolver.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  930</span>{</div>
-<div class="line"><span class="lineno">  931</span>  <span class="keywordflow">if</span> (<a class="code hl_function" href="../../de/d2b/docnode_8h.html#ab4feec38265e781de0502142e696763a">parent</a>==item || item==0 || item==<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a70414f815dfe6f9b6605380312f0dbc2">Doxygen::globalScope</a>) <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  932</span>  <span class="keywordflow">if</span> (<a class="code hl_function" href="../../de/d2b/docnode_8h.html#ab4feec38265e781de0502142e696763a">parent</a>==0 || <a class="code hl_function" href="../../de/d2b/docnode_8h.html#ab4feec38265e781de0502142e696763a">parent</a>==<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a70414f815dfe6f9b6605380312f0dbc2">Doxygen::globalScope</a>)             <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  933</span>  <span class="keywordflow">return</span> <a class="code hl_function" href="../../d2/d99/symbolresolver_8cpp.html#a032314a19fe835a0e3b5de5b0fcf86ba">isParentScope</a>(<a class="code hl_function" href="../../de/d2b/docnode_8h.html#ab4feec38265e781de0502142e696763a">parent</a>-&gt;getOuterScope(),item);</div>
-<div class="line"><span class="lineno">  934</span>}</div>
-<div class="ttc" id="aclass_doxygen_html_a70414f815dfe6f9b6605380312f0dbc2"><div class="ttname"><a href="../../de/d6a/class_doxygen.html#a70414f815dfe6f9b6605380312f0dbc2">Doxygen::globalScope</a></div><div class="ttdeci">static NamespaceDefMutable * globalScope</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da1/doxygen_8h_source.html#l00112">doxygen.h:112</a></div></div>
-<div class="ttc" id="adocnode_8h_html_ab4feec38265e781de0502142e696763a"><div class="ttname"><a href="../../de/d2b/docnode_8h.html#ab4feec38265e781de0502142e696763a">parent</a></div><div class="ttdeci">constexpr const DocNodeVariant * parent(const DocNodeVariant *n)</div><div class="ttdoc">returns the parent node of a given node n or 0 if the node has no parent.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l01269">docnode.h:1269</a></div></div>
-<div class="ttc" id="asymbolresolver_8cpp_html_a032314a19fe835a0e3b5de5b0fcf86ba"><div class="ttname"><a href="../../d2/d99/symbolresolver_8cpp.html#a032314a19fe835a0e3b5de5b0fcf86ba">isParentScope</a></div><div class="ttdeci">static bool isParentScope(const Definition *parent, const Definition *item)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d99/symbolresolver_8cpp_source.html#l00929">symbolresolver.cpp:929</a></div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00112">Doxygen::globalScope</a>, <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html#l00929">isParentScope()</a>, and <a class="el" href="../../de/d2b/docnode_8h_source.html#l01269">parent()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html#l00936">SymbolResolver::Private::isAccessibleFromWithExpScope()</a>, and <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html#l00929">isParentScope()</a>.</p>
 
 </div>
 </div>
@@ -263,7 +206,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html#l00028">28</a> of file <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html">symbolresolver.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html#l00791">SymbolResolver::Private::newResolveTypedef()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html#l00792">SymbolResolver::Private::newResolveTypedef()</a>.</p>
 
 </div>
 </div>

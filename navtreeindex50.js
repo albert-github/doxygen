@@ -1,6 +1,5 @@
 var NAVTREEINDEX50 =
 {
-"d6/dcc/cppvalue_8h_source.html":[5,0,1,36],
 "d6/dd3/emoji_8h.html":[5,0,1,108],
 "d6/dd3/emoji_8h_source.html":[5,0,1,108],
 "d6/dd6/class_filter_tex_label.html":[4,0,278],
@@ -249,5 +248,6 @@ var NAVTREEINDEX50 =
 "d7/d21/class_translator_danish.html#a4783025520356d386bfd1f4413fa35c6":[4,0,573,185],
 "d7/d21/class_translator_danish.html#a485989c469752296a1aa78db10db3603":[4,0,573,21],
 "d7/d21/class_translator_danish.html#a4a1ef99f14b08d51e9841f3957dd03bd":[4,0,573,1],
-"d7/d21/class_translator_danish.html#a4b132405346efb11acbf1268b1f6cc34":[4,0,573,187]
+"d7/d21/class_translator_danish.html#a4b132405346efb11acbf1268b1f6cc34":[4,0,573,187],
+"d7/d21/class_translator_danish.html#a4b64eda641679cb576ebbd9d84028c95":[4,0,573,57]
 };

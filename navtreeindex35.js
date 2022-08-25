@@ -1,6 +1,5 @@
 var NAVTREEINDEX35 =
 {
-"d4/df3/rtfstyle_8h.html#ae5cb613ade78225b9d6487115d840fd7":[5,0,1,215,8],
 "d4/df3/rtfstyle_8h_source.html":[5,0,1,215],
 "d4/df9/_token_manager_8h.html":[5,0,2,5],
 "d4/df9/_token_manager_8h_source.html":[5,0,2,5],
@@ -249,5 +248,6 @@ var NAVTREEINDEX35 =
 "d5/d0a/class_translator_serbian.html#a8ecd3c5dc710bc06af57bbeb51eb4dd6":[4,0,598,18],
 "d5/d0a/class_translator_serbian.html#a8fe68f00e076364d5936330765388301":[4,0,598,169],
 "d5/d0a/class_translator_serbian.html#a907fe16b14122de47884441163bf4ef9":[4,0,598,94],
-"d5/d0a/class_translator_serbian.html#a948a1f8f8ae42c07fe5abc040fbccc4e":[4,0,598,82]
+"d5/d0a/class_translator_serbian.html#a948a1f8f8ae42c07fe5abc040fbccc4e":[4,0,598,82],
+"d5/d0a/class_translator_serbian.html#a94ecdac3e5a4843b58450e3701bb7912":[4,0,598,15]
 };

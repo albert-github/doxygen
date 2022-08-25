@@ -1,6 +1,5 @@
 var NAVTREEINDEX55 =
 {
-"d7/d7e/class_member_def_impl.html#a2a4003399a280bd29746c55f0fc2022b":[4,0,372,130],
 "d7/d7e/class_member_def_impl.html#a2a93b6f6058454ff12b8b58b85410510":[4,0,372,275],
 "d7/d7e/class_member_def_impl.html#a2d0e96009f321aad5927f16225a11727":[4,0,372,63],
 "d7/d7e/class_member_def_impl.html#a2d719c93969db26f5b96740950b98c31":[4,0,372,115],
@@ -249,5 +248,6 @@ var NAVTREEINDEX55 =
 "d7/d80/class_docbook_code_generator.html#a018ddd66c24ec1a42421b3d29de16401":[4,0,120,9],
 "d7/d80/class_docbook_code_generator.html#a0301dd115c9759c83ffacdda4d51d624":[4,0,120,12],
 "d7/d80/class_docbook_code_generator.html#a06537ef3f7d9c2cb4b9b0293f43d9151":[4,0,120,4],
-"d7/d80/class_docbook_code_generator.html#a0ac00ed89685c510a7a0c97366ba1c40":[4,0,120,18]
+"d7/d80/class_docbook_code_generator.html#a0ac00ed89685c510a7a0c97366ba1c40":[4,0,120,18],
+"d7/d80/class_docbook_code_generator.html#a2d73f4271b0e56365a2517631f9ec766":[4,0,120,11]
 };

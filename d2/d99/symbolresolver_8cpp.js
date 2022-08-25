@@ -4,7 +4,6 @@ var symbolresolver_8cpp =
     [ "AccessStack::AccessElem", "d3/d6a/struct_access_stack_1_1_access_elem.html", "d3/d6a/struct_access_stack_1_1_access_elem" ],
     [ "SymbolResolver::Private", "d9/dc5/struct_symbol_resolver_1_1_private.html", "d9/dc5/struct_symbol_resolver_1_1_private" ],
     [ "VisitedNamespaces", "d2/d99/symbolresolver_8cpp.html#a589f084c907127f8eb7da515347f2bc4", null ],
-    [ "isParentScope", "d2/d99/symbolresolver_8cpp.html#a032314a19fe835a0e3b5de5b0fcf86ba", null ],
     [ "g_cacheMutex", "d2/d99/symbolresolver_8cpp.html#abf10ed4dca35ec7b624c1aa7cd018327", null ],
     [ "g_cacheTypedefMutex", "d2/d99/symbolresolver_8cpp.html#a1a8971085fc5238a1829570b5ca71aab", null ]
 ];

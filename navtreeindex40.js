@@ -1,6 +1,5 @@
 var NAVTREEINDEX40 =
 {
-"d5/d5c/class_translator_swedish.html#ad41398662cd7409861e50c589fb3061d":[4,0,603,148],
 "d5/d5c/class_translator_swedish.html#ad4375c59e7444984877149df3bd6dd05":[4,0,603,181],
 "d5/d5c/class_translator_swedish.html#ad4c9c5fa99d650ea7331528814dc5421":[4,0,603,170],
 "d5/d5c/class_translator_swedish.html#ad6132738b6b5c699ef57165ddd905688":[4,0,603,227],
@@ -249,5 +248,6 @@ var NAVTREEINDEX40 =
 "d5/d87/struct_context_globals.html":[4,0,87],
 "d5/d87/struct_context_globals.html#a258997491223c384351384e24c73a63e":[4,0,87,1],
 "d5/d87/struct_context_globals.html#aa8f55e29c7473839278831567228fed2":[4,0,87,0],
-"d5/d87/struct_context_globals.html#ac63f8ff2b05d14db4764c0ba481f81ce":[4,0,87,2]
+"d5/d87/struct_context_globals.html#ac63f8ff2b05d14db4764c0ba481f81ce":[4,0,87,2],
+"d5/d8a/struct_index_intf_1_1add_image_file.html":[3,0,4,1]
 };

@@ -168,7 +168,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../da/d4e/struct_citation_manager_1_1_private.html">ModuleTreeContext::Private::Private</a> </td>
+          <td class="memname">ModuleTreeContext::Private::Private </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -183,18 +183,18 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06843">6843</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 6844</span>    {</div>
-<div class="line"><span class="lineno"> 6845</span>      <a class="code hl_variable" href="../../da/d56/class_module_tree_context_1_1_private.html#aa3c2728c8a226719b628711cd185b2fb">m_moduleTree</a> = <a class="code hl_function" href="../../d6/dcb/class_generic_node_list_context.html#a3ad634a9486b225aa2a9b5162a957354">NestingContext::alloc</a>(0,ContextTreeType::Module,0);</div>
+<div class="line"><span class="lineno"> 6845</span>      <a class="code hl_variable" href="../../da/d56/class_module_tree_context_1_1_private.html#aa3c2728c8a226719b628711cd185b2fb">m_moduleTree</a> = <a class="code hl_function" href="../../db/d7e/class_nesting_context.html#a034e06d9ea3df71185b59c193ea87d9f">NestingContext::alloc</a>(0,ContextTreeType::Module,0);</div>
 <div class="line"><span class="lineno"> 6846</span>      <span class="keyword">auto</span> ctx = std::dynamic_pointer_cast&lt;NestingContext&gt;(<a class="code hl_variable" href="../../da/d56/class_module_tree_context_1_1_private.html#aa3c2728c8a226719b628711cd185b2fb">m_moduleTree</a>);</div>
 <div class="line"><span class="lineno"> 6847</span>      <a class="code hl_typedef" href="../../d1/da6/classdef_8h.html#a6a57c19877e781003273aacd8c7b18fe">ClassDefSet</a> visitedClasses;</div>
 <div class="line"><span class="lineno"> 6848</span>      <span class="comment">// Add modules</span></div>
 <div class="line"><span class="lineno"> 6849</span>      ctx-&gt;addModules(*<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#afd89d49084b42d085e9d40fc2636da9c">Doxygen::groupLinkedMap</a>,visitedClasses);</div>
 <div class="line"><span class="lineno"> 6850</span>    }</div>
 <div class="ttc" id="aclass_doxygen_html_afd89d49084b42d085e9d40fc2636da9c"><div class="ttname"><a href="../../de/d6a/class_doxygen.html#afd89d49084b42d085e9d40fc2636da9c">Doxygen::groupLinkedMap</a></div><div class="ttdeci">static GroupLinkedMap * groupLinkedMap</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da1/doxygen_8h_source.html#l00106">doxygen.h:106</a></div></div>
-<div class="ttc" id="aclass_generic_node_list_context_html_a3ad634a9486b225aa2a9b5162a957354"><div class="ttname"><a href="../../d6/dcb/class_generic_node_list_context.html#a3ad634a9486b225aa2a9b5162a957354">GenericNodeListContext::alloc</a></div><div class="ttdeci">static TemplateListIntfPtr alloc()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l00195">context.cpp:195</a></div></div>
 <div class="ttc" id="aclass_module_tree_context_1_1_private_html_aa3c2728c8a226719b628711cd185b2fb"><div class="ttname"><a href="../../da/d56/class_module_tree_context_1_1_private.html#aa3c2728c8a226719b628711cd185b2fb">ModuleTreeContext::Private::m_moduleTree</a></div><div class="ttdeci">TemplateListIntfPtr m_moduleTree</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l06875">context.cpp:6875</a></div></div>
+<div class="ttc" id="aclass_nesting_context_html_a034e06d9ea3df71185b59c193ea87d9f"><div class="ttname"><a href="../../db/d7e/class_nesting_context.html#a034e06d9ea3df71185b59c193ea87d9f">NestingContext::alloc</a></div><div class="ttdeci">static TemplateListIntfPtr alloc(const NestingNodeContext *parent, ContextTreeType type, int level)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d1e/context_8h_source.html#l00530">context.h:530</a></div></div>
 <div class="ttc" id="aclassdef_8h_html_a6a57c19877e781003273aacd8c7b18fe"><div class="ttname"><a href="../../d1/da6/classdef_8h.html#a6a57c19877e781003273aacd8c7b18fe">ClassDefSet</a></div><div class="ttdeci">std::set&lt; const ClassDef * &gt; ClassDefSet</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da6/classdef_8h_source.html#l00095">classdef.h:95</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d12/context_8cpp_source.html#l00195">GenericNodeListContext::alloc()</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00106">Doxygen::groupLinkedMap</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l06875">m_moduleTree</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d1e/context_8h_source.html#l00530">NestingContext::alloc()</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00106">Doxygen::groupLinkedMap</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l06875">m_moduleTree</a>.</p>
 
 </div>
 </div>
