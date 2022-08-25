@@ -27,6 +27,7 @@ var class_translator_norwegian =
     [ "trConstructorDocumentation", "dd/d38/class_translator_norwegian.html#a69a708b9c415de38064383a2f190b305", null ],
     [ "trDate", "dd/d38/class_translator_norwegian.html#a5d293c6ae2efe0cfe082d73ebb4806f4", null ],
     [ "trDayOfWeek", "dd/d38/class_translator_norwegian.html#a55a49bbf64098e5e4d0962a1f90ba2e4", null ],
+    [ "trDayPeriod", "dd/d38/class_translator_norwegian.html#a80dcf4f95b116ff616431a3bbed81b17", null ],
     [ "trDefinedAtLineInSourceFile", "dd/d38/class_translator_norwegian.html#ac0f0e9c46cd36a15dfe3748e5d590a45", null ],
     [ "trDefinedIn", "dd/d38/class_translator_norwegian.html#aad63bbbec277c04ed4d2e6f96e48ab3c", null ],
     [ "trDefinedInSourceFile", "dd/d38/class_translator_norwegian.html#a54f951546cac0efff958fe6b16457e49", null ],

@@ -36,6 +36,7 @@ var class_translator_serbian_cyrillic =
     [ "trDataTypes", "dc/d03/class_translator_serbian_cyrillic.html#ae57dfdf8293e9c8d8f880a4517e25066", null ],
     [ "trDate", "dc/d03/class_translator_serbian_cyrillic.html#a5951566c2f2e5897d69fdf5681ce1b62", null ],
     [ "trDayOfWeek", "dc/d03/class_translator_serbian_cyrillic.html#aa46f73300743ba0d408338c15b0801c6", null ],
+    [ "trDayPeriod", "dc/d03/class_translator_serbian_cyrillic.html#a9ae4ad78615e59daf47a006a382a63d2", null ],
     [ "trDefinedAtLineInSourceFile", "dc/d03/class_translator_serbian_cyrillic.html#a5c558340815527239dfc883fd4731fed", null ],
     [ "trDefinedIn", "dc/d03/class_translator_serbian_cyrillic.html#ad3e4fa04c5b2c93c5198f8edf3f90631", null ],
     [ "trDefinedInSourceFile", "dc/d03/class_translator_serbian_cyrillic.html#a756f6eff8bb5841f2723a80a013a2e83", null ],

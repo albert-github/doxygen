@@ -41,6 +41,7 @@ var class_translator_ukrainian =
     [ "trDate", "d1/d56/class_translator_ukrainian.html#a8bae133f680a379eba7c2e6fd7901055", null ],
     [ "trDateTime", "d1/d56/class_translator_ukrainian.html#ac2d3cc1b86b956c0e90f6f22216f046e", null ],
     [ "trDayOfWeek", "d1/d56/class_translator_ukrainian.html#a1a08c26a641379ad2aab4b83d4814022", null ],
+    [ "trDayPeriod", "d1/d56/class_translator_ukrainian.html#a3a0bd8f1acdbed69f62d02c285cafe28", null ],
     [ "trDefinedAtLineInSourceFile", "d1/d56/class_translator_ukrainian.html#adc3d25d9bbf866fe338e84b0fc224ef8", null ],
     [ "trDefinedIn", "d1/d56/class_translator_ukrainian.html#a2d5c19e5191fd469e076fcc52340220e", null ],
     [ "trDefinedInSourceFile", "d1/d56/class_translator_ukrainian.html#a97a1204c270f0540bea7dff619a1f455", null ],

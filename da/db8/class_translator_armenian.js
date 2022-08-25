@@ -38,6 +38,7 @@ var class_translator_armenian =
     [ "trDate", "da/db8/class_translator_armenian.html#a28bfca9184c3792d63a13002ba41ce70", null ],
     [ "trDateTime", "da/db8/class_translator_armenian.html#a6281ed0a3cf72b694c837c8153136baa", null ],
     [ "trDayOfWeek", "da/db8/class_translator_armenian.html#ace697acf29e10bb6e1157da7237d509c", null ],
+    [ "trDayPeriod", "da/db8/class_translator_armenian.html#aa87a5db8efddc3ab5c5fa1fbafa9169a", null ],
     [ "trDefinedAtLineInSourceFile", "da/db8/class_translator_armenian.html#aff0bfdeb81d975433a7909c3fc3eef53", null ],
     [ "trDefinedIn", "da/db8/class_translator_armenian.html#a063662d0b2ac4917ef1cbbd582c67a31", null ],
     [ "trDefinedInSourceFile", "da/db8/class_translator_armenian.html#a76b76c8b72bee0e6741ae5adaf72050a", null ],

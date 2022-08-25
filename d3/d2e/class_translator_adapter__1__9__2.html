@@ -595,6 +595,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae19027cb2caa29054d8b2d16a0dc3d97 inherit pub_methods_class_translator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4631a1a38f26583712190185e2f2852a inherit pub_methods_class_translator"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfb/class_translator.html#a4631a1a38f26583712190185e2f2852a">trMonth</a> (int month, bool first_capital, bool full)=0</td></tr>
 <tr class="separator:a4631a1a38f26583712190185e2f2852a inherit pub_methods_class_translator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95a9e751f5469d05c7b9576a514e284d inherit pub_methods_class_translator"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfb/class_translator.html#a95a9e751f5469d05c7b9576a514e284d">trDayPeriod</a> (int period)=0</td></tr>
+<tr class="separator:a95a9e751f5469d05c7b9576a514e284d inherit pub_methods_class_translator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a5e754a2583632dfe5d49a1f7dd5b74 inherit pub_methods_class_translator"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfb/class_translator.html#a3a5e754a2583632dfe5d49a1f7dd5b74">trCiteReferences</a> ()=0</td></tr>
 <tr class="separator:a3a5e754a2583632dfe5d49a1f7dd5b74 inherit pub_methods_class_translator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bef11a773c5cf0878f4d833b78df577 inherit pub_methods_class_translator"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfb/class_translator.html#a9bef11a773c5cf0878f4d833b78df577">trCopyright</a> ()=0</td></tr>
@@ -790,9 +792,9 @@ Additional Inherited Members</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00059">59</a> of file <a class="el" href="../../da/de6/translator__adapter_8h_source.html">translator_adapter.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   60</span>    { <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d6c/class_translator_adapter_base.html#a75fd1d1116debf9adacfef772a04a7b1">english</a>.<a class="code hl_function" href="../../d6/d78/class_translator_english.html#a51ad4a8d432587ca59adb52937ecaba9">trConcept</a>(first_capital,singular); }</div>
 <div class="ttc" id="aclass_translator_adapter_base_html_a75fd1d1116debf9adacfef772a04a7b1"><div class="ttname"><a href="../../db/d6c/class_translator_adapter_base.html#a75fd1d1116debf9adacfef772a04a7b1">TranslatorAdapterBase::english</a></div><div class="ttdeci">TranslatorEnglish english</div><div class="ttdef"><b>Definition:</b> <a href="../../da/de6/translator__adapter_8h_source.html#l00016">translator_adapter.h:16</a></div></div>
-<div class="ttc" id="aclass_translator_english_html_a51ad4a8d432587ca59adb52937ecaba9"><div class="ttname"><a href="../../d6/d78/class_translator_english.html#a51ad4a8d432587ca59adb52937ecaba9">TranslatorEnglish::trConcept</a></div><div class="ttdeci">virtual QCString trConcept(bool first_capital, bool singular)</div><div class="ttdoc">C++20 concept.</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d46/translator__en_8h_source.html#l02270">translator_en.h:2270</a></div></div>
+<div class="ttc" id="aclass_translator_english_html_a51ad4a8d432587ca59adb52937ecaba9"><div class="ttname"><a href="../../d6/d78/class_translator_english.html#a51ad4a8d432587ca59adb52937ecaba9">TranslatorEnglish::trConcept</a></div><div class="ttdeci">virtual QCString trConcept(bool first_capital, bool singular)</div><div class="ttdoc">C++20 concept.</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d46/translator__en_8h_source.html#l02273">translator_en.h:2273</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00016">TranslatorAdapterBase::english</a>, and <a class="el" href="../../da/d46/translator__en_8h_source.html#l02270">TranslatorEnglish::trConcept()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00016">TranslatorAdapterBase::english</a>, and <a class="el" href="../../da/d46/translator__en_8h_source.html#l02273">TranslatorEnglish::trConcept()</a>.</p>
 
 </div>
 </div>
@@ -823,9 +825,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00077">77</a> of file <a class="el" href="../../da/de6/translator__adapter_8h_source.html">translator_adapter.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   78</span>    { <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d6c/class_translator_adapter_base.html#a75fd1d1116debf9adacfef772a04a7b1">english</a>.<a class="code hl_function" href="../../d6/d78/class_translator_english.html#abeb41a5d6f8e274e24c541e1b568d95f">trConceptDefinition</a>(); }</div>
-<div class="ttc" id="aclass_translator_english_html_abeb41a5d6f8e274e24c541e1b568d95f"><div class="ttname"><a href="../../d6/d78/class_translator_english.html#abeb41a5d6f8e274e24c541e1b568d95f">TranslatorEnglish::trConceptDefinition</a></div><div class="ttdeci">virtual QCString trConceptDefinition()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d46/translator__en_8h_source.html#l02306">translator_en.h:2306</a></div></div>
+<div class="ttc" id="aclass_translator_english_html_abeb41a5d6f8e274e24c541e1b568d95f"><div class="ttname"><a href="../../d6/d78/class_translator_english.html#abeb41a5d6f8e274e24c541e1b568d95f">TranslatorEnglish::trConceptDefinition</a></div><div class="ttdeci">virtual QCString trConceptDefinition()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d46/translator__en_8h_source.html#l02309">translator_en.h:2309</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00016">TranslatorAdapterBase::english</a>, and <a class="el" href="../../da/d46/translator__en_8h_source.html#l02306">TranslatorEnglish::trConceptDefinition()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00016">TranslatorAdapterBase::english</a>, and <a class="el" href="../../da/d46/translator__en_8h_source.html#l02309">TranslatorEnglish::trConceptDefinition()</a>.</p>
 
 </div>
 </div>
@@ -856,9 +858,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00071">71</a> of file <a class="el" href="../../da/de6/translator__adapter_8h_source.html">translator_adapter.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   72</span>    { <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d6c/class_translator_adapter_base.html#a75fd1d1116debf9adacfef772a04a7b1">english</a>.<a class="code hl_function" href="../../d6/d78/class_translator_english.html#a2db4220d1c3dc1500feb5be5b7ddd8d1">trConceptDocumentation</a>(); }</div>
-<div class="ttc" id="aclass_translator_english_html_a2db4220d1c3dc1500feb5be5b7ddd8d1"><div class="ttname"><a href="../../d6/d78/class_translator_english.html#a2db4220d1c3dc1500feb5be5b7ddd8d1">TranslatorEnglish::trConceptDocumentation</a></div><div class="ttdeci">virtual QCString trConceptDocumentation()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d46/translator__en_8h_source.html#l02293">translator_en.h:2293</a></div></div>
+<div class="ttc" id="aclass_translator_english_html_a2db4220d1c3dc1500feb5be5b7ddd8d1"><div class="ttname"><a href="../../d6/d78/class_translator_english.html#a2db4220d1c3dc1500feb5be5b7ddd8d1">TranslatorEnglish::trConceptDocumentation</a></div><div class="ttdeci">virtual QCString trConceptDocumentation()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d46/translator__en_8h_source.html#l02296">translator_en.h:2296</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00016">TranslatorAdapterBase::english</a>, and <a class="el" href="../../da/d46/translator__en_8h_source.html#l02293">TranslatorEnglish::trConceptDocumentation()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00016">TranslatorAdapterBase::english</a>, and <a class="el" href="../../da/d46/translator__en_8h_source.html#l02296">TranslatorEnglish::trConceptDocumentation()</a>.</p>
 
 </div>
 </div>
@@ -889,9 +891,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00068">68</a> of file <a class="el" href="../../da/de6/translator__adapter_8h_source.html">translator_adapter.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   69</span>    { <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d6c/class_translator_adapter_base.html#a75fd1d1116debf9adacfef772a04a7b1">english</a>.<a class="code hl_function" href="../../d6/d78/class_translator_english.html#ab9b5b4e3afa99316733c90b4ad5b9ab9">trConceptIndex</a>(); }</div>
-<div class="ttc" id="aclass_translator_english_html_ab9b5b4e3afa99316733c90b4ad5b9ab9"><div class="ttname"><a href="../../d6/d78/class_translator_english.html#ab9b5b4e3afa99316733c90b4ad5b9ab9">TranslatorEnglish::trConceptIndex</a></div><div class="ttdeci">virtual QCString trConceptIndex()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d46/translator__en_8h_source.html#l02289">translator_en.h:2289</a></div></div>
+<div class="ttc" id="aclass_translator_english_html_ab9b5b4e3afa99316733c90b4ad5b9ab9"><div class="ttname"><a href="../../d6/d78/class_translator_english.html#ab9b5b4e3afa99316733c90b4ad5b9ab9">TranslatorEnglish::trConceptIndex</a></div><div class="ttdeci">virtual QCString trConceptIndex()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d46/translator__en_8h_source.html#l02292">translator_en.h:2292</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00016">TranslatorAdapterBase::english</a>, and <a class="el" href="../../da/d46/translator__en_8h_source.html#l02289">TranslatorEnglish::trConceptIndex()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00016">TranslatorAdapterBase::english</a>, and <a class="el" href="../../da/d46/translator__en_8h_source.html#l02292">TranslatorEnglish::trConceptIndex()</a>.</p>
 
 </div>
 </div>
@@ -922,9 +924,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00065">65</a> of file <a class="el" href="../../da/de6/translator__adapter_8h_source.html">translator_adapter.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   66</span>    { <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d6c/class_translator_adapter_base.html#a75fd1d1116debf9adacfef772a04a7b1">english</a>.<a class="code hl_function" href="../../d6/d78/class_translator_english.html#a93b7f4d023c6e5cdd34de21581bfe917">trConceptList</a>(); }</div>
-<div class="ttc" id="aclass_translator_english_html_a93b7f4d023c6e5cdd34de21581bfe917"><div class="ttname"><a href="../../d6/d78/class_translator_english.html#a93b7f4d023c6e5cdd34de21581bfe917">TranslatorEnglish::trConceptList</a></div><div class="ttdeci">virtual QCString trConceptList()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d46/translator__en_8h_source.html#l02285">translator_en.h:2285</a></div></div>
+<div class="ttc" id="aclass_translator_english_html_a93b7f4d023c6e5cdd34de21581bfe917"><div class="ttname"><a href="../../d6/d78/class_translator_english.html#a93b7f4d023c6e5cdd34de21581bfe917">TranslatorEnglish::trConceptList</a></div><div class="ttdeci">virtual QCString trConceptList()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d46/translator__en_8h_source.html#l02288">translator_en.h:2288</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00016">TranslatorAdapterBase::english</a>, and <a class="el" href="../../da/d46/translator__en_8h_source.html#l02285">TranslatorEnglish::trConceptList()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00016">TranslatorAdapterBase::english</a>, and <a class="el" href="../../da/d46/translator__en_8h_source.html#l02288">TranslatorEnglish::trConceptList()</a>.</p>
 
 </div>
 </div>
@@ -956,9 +958,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00074">74</a> of file <a class="el" href="../../da/de6/translator__adapter_8h_source.html">translator_adapter.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   75</span>    { <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d6c/class_translator_adapter_base.html#a75fd1d1116debf9adacfef772a04a7b1">english</a>.<a class="code hl_function" href="../../d6/d78/class_translator_english.html#a850af616ee6e36b2a9af441f6c0e73fb">trConceptListDescription</a>(extractAll); }</div>
-<div class="ttc" id="aclass_translator_english_html_a850af616ee6e36b2a9af441f6c0e73fb"><div class="ttname"><a href="../../d6/d78/class_translator_english.html#a850af616ee6e36b2a9af441f6c0e73fb">TranslatorEnglish::trConceptListDescription</a></div><div class="ttdeci">virtual QCString trConceptListDescription(bool extractAll)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d46/translator__en_8h_source.html#l02297">translator_en.h:2297</a></div></div>
+<div class="ttc" id="aclass_translator_english_html_a850af616ee6e36b2a9af441f6c0e73fb"><div class="ttname"><a href="../../d6/d78/class_translator_english.html#a850af616ee6e36b2a9af441f6c0e73fb">TranslatorEnglish::trConceptListDescription</a></div><div class="ttdeci">virtual QCString trConceptListDescription(bool extractAll)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d46/translator__en_8h_source.html#l02300">translator_en.h:2300</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00016">TranslatorAdapterBase::english</a>, and <a class="el" href="../../da/d46/translator__en_8h_source.html#l02297">TranslatorEnglish::trConceptListDescription()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00016">TranslatorAdapterBase::english</a>, and <a class="el" href="../../da/d46/translator__en_8h_source.html#l02300">TranslatorEnglish::trConceptListDescription()</a>.</p>
 
 </div>
 </div>
@@ -990,9 +992,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00062">62</a> of file <a class="el" href="../../da/de6/translator__adapter_8h_source.html">translator_adapter.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   63</span>    { <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d6c/class_translator_adapter_base.html#a75fd1d1116debf9adacfef772a04a7b1">english</a>.<a class="code hl_function" href="../../d6/d78/class_translator_english.html#a3a3c68ef77bd4ce62f1cce9777e58a45">trConceptReference</a>(conceptName); }</div>
-<div class="ttc" id="aclass_translator_english_html_a3a3c68ef77bd4ce62f1cce9777e58a45"><div class="ttname"><a href="../../d6/d78/class_translator_english.html#a3a3c68ef77bd4ce62f1cce9777e58a45">TranslatorEnglish::trConceptReference</a></div><div class="ttdeci">virtual QCString trConceptReference(const QCString &amp;conceptName)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d46/translator__en_8h_source.html#l02277">translator_en.h:2277</a></div></div>
+<div class="ttc" id="aclass_translator_english_html_a3a3c68ef77bd4ce62f1cce9777e58a45"><div class="ttname"><a href="../../d6/d78/class_translator_english.html#a3a3c68ef77bd4ce62f1cce9777e58a45">TranslatorEnglish::trConceptReference</a></div><div class="ttdeci">virtual QCString trConceptReference(const QCString &amp;conceptName)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d46/translator__en_8h_source.html#l02280">translator_en.h:2280</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00016">TranslatorAdapterBase::english</a>, and <a class="el" href="../../da/d46/translator__en_8h_source.html#l02277">TranslatorEnglish::trConceptReference()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00016">TranslatorAdapterBase::english</a>, and <a class="el" href="../../da/d46/translator__en_8h_source.html#l02280">TranslatorEnglish::trConceptReference()</a>.</p>
 
 </div>
 </div>

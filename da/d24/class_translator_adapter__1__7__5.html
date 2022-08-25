@@ -134,6 +134,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a720b5bb4503ae5f7823e25ef0c8529b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42ea0394d32fcbf86de482c8ab3af04e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d24/class_translator_adapter__1__7__5.html#a42ea0394d32fcbf86de482c8ab3af04e">trDateTime</a> (int year, int month, int day, int dayOfWeek, int hour, int minutes, int seconds, bool includeTime)</td></tr>
 <tr class="separator:a42ea0394d32fcbf86de482c8ab3af04e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad98aa4de1a8f1631b23ae5569cce8362"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d24/class_translator_adapter__1__7__5.html#ad98aa4de1a8f1631b23ae5569cce8362">trDayPeriod</a> (int period)</td></tr>
+<tr class="separator:ad98aa4de1a8f1631b23ae5569cce8362"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_translator_adapter__1__8__0"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_translator_adapter__1__8__0')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../de/d49/class_translator_adapter__1__8__0.html">TranslatorAdapter_1_8_0</a></td></tr>
 <tr class="memitem:a47cedb130d9a178d9c632584d4f2abec inherit pub_methods_class_translator_adapter__1__8__0"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d49/class_translator_adapter__1__8__0.html#a47cedb130d9a178d9c632584d4f2abec">updateNeededMessage</a> ()</td></tr>
 <tr class="separator:a47cedb130d9a178d9c632584d4f2abec inherit pub_methods_class_translator_adapter__1__8__0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -748,6 +750,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae19027cb2caa29054d8b2d16a0dc3d97 inherit pub_methods_class_translator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4631a1a38f26583712190185e2f2852a inherit pub_methods_class_translator"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfb/class_translator.html#a4631a1a38f26583712190185e2f2852a">trMonth</a> (int month, bool first_capital, bool full)=0</td></tr>
 <tr class="separator:a4631a1a38f26583712190185e2f2852a inherit pub_methods_class_translator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95a9e751f5469d05c7b9576a514e284d inherit pub_methods_class_translator"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfb/class_translator.html#a95a9e751f5469d05c7b9576a514e284d">trDayPeriod</a> (int period)=0</td></tr>
+<tr class="separator:a95a9e751f5469d05c7b9576a514e284d inherit pub_methods_class_translator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a5e754a2583632dfe5d49a1f7dd5b74 inherit pub_methods_class_translator"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfb/class_translator.html#a3a5e754a2583632dfe5d49a1f7dd5b74">trCiteReferences</a> ()=0</td></tr>
 <tr class="separator:a3a5e754a2583632dfe5d49a1f7dd5b74 inherit pub_methods_class_translator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bef11a773c5cf0878f4d833b78df577 inherit pub_methods_class_translator"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfb/class_translator.html#a9bef11a773c5cf0878f4d833b78df577">trCopyright</a> ()=0</td></tr>
@@ -933,9 +937,9 @@ Additional Inherited Members</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00310">310</a> of file <a class="el" href="../../da/de6/translator__adapter_8h_source.html">translator_adapter.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  311</span>    { <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d6c/class_translator_adapter_base.html#a75fd1d1116debf9adacfef772a04a7b1">english</a>.<a class="code hl_function" href="../../d6/d78/class_translator_english.html#a8d1b66e7cc2978c63cf6f4d97cbd9f9c">trCiteReferences</a>(); }</div>
 <div class="ttc" id="aclass_translator_adapter_base_html_a75fd1d1116debf9adacfef772a04a7b1"><div class="ttname"><a href="../../db/d6c/class_translator_adapter_base.html#a75fd1d1116debf9adacfef772a04a7b1">TranslatorAdapterBase::english</a></div><div class="ttdeci">TranslatorEnglish english</div><div class="ttdef"><b>Definition:</b> <a href="../../da/de6/translator__adapter_8h_source.html#l00016">translator_adapter.h:16</a></div></div>
-<div class="ttc" id="aclass_translator_english_html_a8d1b66e7cc2978c63cf6f4d97cbd9f9c"><div class="ttname"><a href="../../d6/d78/class_translator_english.html#a8d1b66e7cc2978c63cf6f4d97cbd9f9c">TranslatorEnglish::trCiteReferences</a></div><div class="ttdeci">virtual QCString trCiteReferences()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d46/translator__en_8h_source.html#l01848">translator_en.h:1848</a></div></div>
+<div class="ttc" id="aclass_translator_english_html_a8d1b66e7cc2978c63cf6f4d97cbd9f9c"><div class="ttname"><a href="../../d6/d78/class_translator_english.html#a8d1b66e7cc2978c63cf6f4d97cbd9f9c">TranslatorEnglish::trCiteReferences</a></div><div class="ttdeci">virtual QCString trCiteReferences()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d46/translator__en_8h_source.html#l01851">translator_en.h:1851</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00016">TranslatorAdapterBase::english</a>, and <a class="el" href="../../da/d46/translator__en_8h_source.html#l01848">TranslatorEnglish::trCiteReferences()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00016">TranslatorAdapterBase::english</a>, and <a class="el" href="../../da/d46/translator__en_8h_source.html#l01851">TranslatorEnglish::trCiteReferences()</a>.</p>
 
 </div>
 </div>
@@ -966,9 +970,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00313">313</a> of file <a class="el" href="../../da/de6/translator__adapter_8h_source.html">translator_adapter.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  314</span>    { <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d6c/class_translator_adapter_base.html#a75fd1d1116debf9adacfef772a04a7b1">english</a>.<a class="code hl_function" href="../../d6/d78/class_translator_english.html#a434238bdb474c8f28dfc64a5bef5a909">trCopyright</a>(); }</div>
-<div class="ttc" id="aclass_translator_english_html_a434238bdb474c8f28dfc64a5bef5a909"><div class="ttname"><a href="../../d6/d78/class_translator_english.html#a434238bdb474c8f28dfc64a5bef5a909">TranslatorEnglish::trCopyright</a></div><div class="ttdeci">virtual QCString trCopyright()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d46/translator__en_8h_source.html#l01852">translator_en.h:1852</a></div></div>
+<div class="ttc" id="aclass_translator_english_html_a434238bdb474c8f28dfc64a5bef5a909"><div class="ttname"><a href="../../d6/d78/class_translator_english.html#a434238bdb474c8f28dfc64a5bef5a909">TranslatorEnglish::trCopyright</a></div><div class="ttdeci">virtual QCString trCopyright()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d46/translator__en_8h_source.html#l01855">translator_en.h:1855</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00016">TranslatorAdapterBase::english</a>, and <a class="el" href="../../da/d46/translator__en_8h_source.html#l01852">TranslatorEnglish::trCopyright()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00016">TranslatorAdapterBase::english</a>, and <a class="el" href="../../da/d46/translator__en_8h_source.html#l01855">TranslatorEnglish::trCopyright()</a>.</p>
 
 </div>
 </div>
@@ -1054,6 +1058,42 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="ad98aa4de1a8f1631b23ae5569cce8362" name="ad98aa4de1a8f1631b23ae5569cce8362"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad98aa4de1a8f1631b23ae5569cce8362">&#9670;&#160;</a></span>trDayPeriod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> TranslatorAdapter_1_7_5::trDayPeriod </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>period</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a95a9e751f5469d05c7b9576a514e284d">Translator</a>.</p>
+
+<p>Reimplemented in <a class="el" href="../../d3/de9/class_translator_arabic.html#ab58cfe396beb7cf0c51c1e0b94dbd5ea">TranslatorArabic</a>, <a class="el" href="../../d5/d43/class_translator_persian.html#abe3793d1fc327f68f5ddd191938868d2">TranslatorPersian</a>, <a class="el" href="../../de/df7/class_translator_finnish.html#afc1d1e146bf37eec76c1e9349362c6fc">TranslatorFinnish</a>, <a class="el" href="../../dc/d53/class_translator_lithuanian.html#acd93c361f67f86598962841eb49f7166">TranslatorLithuanian</a>, <a class="el" href="../../d9/ddf/class_translator_macedonian.html#a0458b4cc86fc0c78724e5a5be3fa3677">TranslatorMacedonian</a>, <a class="el" href="../../dd/d38/class_translator_norwegian.html#a80dcf4f95b116ff616431a3bbed81b17">TranslatorNorwegian</a>, <a class="el" href="../../dc/d03/class_translator_serbian_cyrillic.html#a9ae4ad78615e59daf47a006a382a63d2">TranslatorSerbianCyrillic</a>, <a class="el" href="../../dd/d0b/class_translator_slovene.html#a9c77d8d7e7381eb665b581b09d5d7af5">TranslatorSlovene</a>, <a class="el" href="../../d5/d0a/class_translator_serbian.html#af781e99d1ed423fea3dbde3ecfd51cb7">TranslatorSerbian</a>, <a class="el" href="../../dd/d80/class_translator_turkish.html#a66d39ddf7c7ae3f521ee7f90293043c1">TranslatorTurkish</a>, <a class="el" href="../../df/d20/class_translator_vietnamese.html#a1e8d0df480e0ef805f7d8b3ef8b174fe">TranslatorVietnamese</a>, and <a class="el" href="../../d3/d65/class_translator_afrikaans.html#a8a9862a274956c9abe6341ab081039b6">TranslatorAfrikaans</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00327">327</a> of file <a class="el" href="../../da/de6/translator__adapter_8h_source.html">translator_adapter.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  328</span>    { <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d6c/class_translator_adapter_base.html#a75fd1d1116debf9adacfef772a04a7b1">english</a>.<a class="code hl_function" href="../../d6/d78/class_translator_english.html#a26b26d59f53ac4bf333d838c9b107e33">trDayPeriod</a>(period); }</div>
+<div class="ttc" id="aclass_translator_english_html_a26b26d59f53ac4bf333d838c9b107e33"><div class="ttname"><a href="../../d6/d78/class_translator_english.html#a26b26d59f53ac4bf333d838c9b107e33">TranslatorEnglish::trDayPeriod</a></div><div class="ttdeci">virtual QCString trDayPeriod(int period)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d46/translator__en_8h_source.html#l01840">translator_en.h:1840</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00016">TranslatorAdapterBase::english</a>, and <a class="el" href="../../da/d46/translator__en_8h_source.html#l01840">TranslatorEnglish::trDayPeriod()</a>.</p>
+
+</div>
+</div>
 <a id="a97ea8c9c93b4c5f06eacb4acbd863b61" name="a97ea8c9c93b4c5f06eacb4acbd863b61"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a97ea8c9c93b4c5f06eacb4acbd863b61">&#9670;&#160;</a></span>trDirDepGraph()</h2>
 
@@ -1082,9 +1122,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00316">316</a> of file <a class="el" href="../../da/de6/translator__adapter_8h_source.html">translator_adapter.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  317</span>    { <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d6c/class_translator_adapter_base.html#a75fd1d1116debf9adacfef772a04a7b1">english</a>.<a class="code hl_function" href="../../d6/d78/class_translator_english.html#a3e10e9a858ba5ad3780d3e433a37f1a5">trDirDepGraph</a>(name); }</div>
-<div class="ttc" id="aclass_translator_english_html_a3e10e9a858ba5ad3780d3e433a37f1a5"><div class="ttname"><a href="../../d6/d78/class_translator_english.html#a3e10e9a858ba5ad3780d3e433a37f1a5">TranslatorEnglish::trDirDepGraph</a></div><div class="ttdeci">virtual QCString trDirDepGraph(const QCString &amp;name)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d46/translator__en_8h_source.html#l01856">translator_en.h:1856</a></div></div>
+<div class="ttc" id="aclass_translator_english_html_a3e10e9a858ba5ad3780d3e433a37f1a5"><div class="ttname"><a href="../../d6/d78/class_translator_english.html#a3e10e9a858ba5ad3780d3e433a37f1a5">TranslatorEnglish::trDirDepGraph</a></div><div class="ttdeci">virtual QCString trDirDepGraph(const QCString &amp;name)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d46/translator__en_8h_source.html#l01859">translator_en.h:1859</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00016">TranslatorAdapterBase::english</a>, and <a class="el" href="../../da/d46/translator__en_8h_source.html#l01856">TranslatorEnglish::trDirDepGraph()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00016">TranslatorAdapterBase::english</a>, and <a class="el" href="../../da/d46/translator__en_8h_source.html#l01859">TranslatorEnglish::trDirDepGraph()</a>.</p>
 
 </div>
 </div>

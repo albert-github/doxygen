@@ -45,6 +45,7 @@ var class_translator_korean =
     [ "trDate", "db/dcc/class_translator_korean.html#ac3617be636d998b8ce4abc44d69c2f71", null ],
     [ "trDateTime", "db/dcc/class_translator_korean.html#abf39ae7ff1f7844473f9091eed4f5888", null ],
     [ "trDayOfWeek", "db/dcc/class_translator_korean.html#a5a5ff6dd61b4f8e14d17fc18d4c31e54", null ],
+    [ "trDayPeriod", "db/dcc/class_translator_korean.html#a3b11bea21e9dd9c81da36b43d1dacdc3", null ],
     [ "trDefinedAtLineInSourceFile", "db/dcc/class_translator_korean.html#a9f9f03ba71146f35814f9d474f02ac38", null ],
     [ "trDefinedIn", "db/dcc/class_translator_korean.html#a7669eacf7955000ccba6d58c5461c6be", null ],
     [ "trDefinedInSourceFile", "db/dcc/class_translator_korean.html#ad1751438305fb35e8f9f3186c325d7a9", null ],

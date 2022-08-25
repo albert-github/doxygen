@@ -35,6 +35,7 @@ var class_translator_afrikaans =
     [ "trDataTypes", "d3/d65/class_translator_afrikaans.html#ae6d24533661ffd83b295be2775710aeb", null ],
     [ "trDate", "d3/d65/class_translator_afrikaans.html#ac2f278bb6543c95187c5b0a3f0fd3465", null ],
     [ "trDayOfWeek", "d3/d65/class_translator_afrikaans.html#abf55213f65713edf8800223e03633718", null ],
+    [ "trDayPeriod", "d3/d65/class_translator_afrikaans.html#a8a9862a274956c9abe6341ab081039b6", null ],
     [ "trDefinedAtLineInSourceFile", "d3/d65/class_translator_afrikaans.html#a250bc5783f367cfd9c0987b7f629f3cd", null ],
     [ "trDefinedIn", "d3/d65/class_translator_afrikaans.html#a2d92c2a62318363a02aeafbdd4e104d6", null ],
     [ "trDefinedInSourceFile", "d3/d65/class_translator_afrikaans.html#a4aea0f07dc39a885a7b8794f37c6eb4f", null ],

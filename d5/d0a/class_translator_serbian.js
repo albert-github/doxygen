@@ -35,6 +35,7 @@ var class_translator_serbian =
     [ "trDataTypes", "d5/d0a/class_translator_serbian.html#aa26a1b2fb7bb6d7aceaf47038a46013f", null ],
     [ "trDate", "d5/d0a/class_translator_serbian.html#a746ddc2882e6384640fdbb38587d966c", null ],
     [ "trDayOfWeek", "d5/d0a/class_translator_serbian.html#a6947ae96f9aadd6197d03f3d7f9c8633", null ],
+    [ "trDayPeriod", "d5/d0a/class_translator_serbian.html#af781e99d1ed423fea3dbde3ecfd51cb7", null ],
     [ "trDefinedAtLineInSourceFile", "d5/d0a/class_translator_serbian.html#a7204c64240f119b344f318f850828b67", null ],
     [ "trDefinedIn", "d5/d0a/class_translator_serbian.html#a5ad78a097ea4368f2c5fda0c2d939947", null ],
     [ "trDefinedInSourceFile", "d5/d0a/class_translator_serbian.html#a5a1c1cab525d4d6e201feec2afd25a75", null ],

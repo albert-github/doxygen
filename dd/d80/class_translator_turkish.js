@@ -36,6 +36,7 @@ var class_translator_turkish =
     [ "trDate", "dd/d80/class_translator_turkish.html#a41108f71acc619785c93970c6a82f920", null ],
     [ "trDateTime", "dd/d80/class_translator_turkish.html#a5d517565cb0e2aa4dfc9d070f0788776", null ],
     [ "trDayOfWeek", "dd/d80/class_translator_turkish.html#a94fcca01a15f86629986a3deb1e417af", null ],
+    [ "trDayPeriod", "dd/d80/class_translator_turkish.html#a66d39ddf7c7ae3f521ee7f90293043c1", null ],
     [ "trDefinedAtLineInSourceFile", "dd/d80/class_translator_turkish.html#a89a3e3a0153377903dcb813e3e570266", null ],
     [ "trDefinedIn", "dd/d80/class_translator_turkish.html#ab8e7eef51321a680663cf84e83101a58", null ],
     [ "trDefinedInSourceFile", "dd/d80/class_translator_turkish.html#ab8d841f167802874be57694a7c6131bf", null ],

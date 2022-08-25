@@ -27,6 +27,7 @@ var class_translator_arabic =
     [ "trConstructorDocumentation", "d3/de9/class_translator_arabic.html#af0b71c62bd906419d092565d64546aff", null ],
     [ "trDate", "d3/de9/class_translator_arabic.html#a6de935804cfbbf90e35d06b8a94e78c4", null ],
     [ "trDayOfWeek", "d3/de9/class_translator_arabic.html#af197365d58ceb52a8c90685ed8f91fa3", null ],
+    [ "trDayPeriod", "d3/de9/class_translator_arabic.html#ab58cfe396beb7cf0c51c1e0b94dbd5ea", null ],
     [ "trDefinedAtLineInSourceFile", "d3/de9/class_translator_arabic.html#abcab840608ff6adca64d294666924f12", null ],
     [ "trDefinedIn", "d3/de9/class_translator_arabic.html#a58eecd6376efdc45deb1b9154c7130e1", null ],
     [ "trDefinedInSourceFile", "d3/de9/class_translator_arabic.html#aa33a2d030623092fd2ac8b1a3ef3dd15", null ],

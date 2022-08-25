@@ -43,6 +43,7 @@ var class_translator_hungarian =
     [ "trDate", "db/d5f/class_translator_hungarian.html#a64efe330103d27cbe66f3415da14f31e", null ],
     [ "trDateTime", "db/d5f/class_translator_hungarian.html#a3a934b1bcf2b0fd226a4feb8238f98e7", null ],
     [ "trDayOfWeek", "db/d5f/class_translator_hungarian.html#a9a27cdef2238fa02ca103e77ef23ab49", null ],
+    [ "trDayPeriod", "db/d5f/class_translator_hungarian.html#acfe430f24e019b76555c472c83e4a174", null ],
     [ "trDefinedAtLineInSourceFile", "db/d5f/class_translator_hungarian.html#a2bf107348664e5c4c34aef2e922e0cb0", null ],
     [ "trDefinedIn", "db/d5f/class_translator_hungarian.html#a16794914b1f00fd5e535e5561b46ffe7", null ],
     [ "trDefinedInSourceFile", "db/d5f/class_translator_hungarian.html#af1bcb67bd2a8deb7d50ee5c0efac9f34", null ],

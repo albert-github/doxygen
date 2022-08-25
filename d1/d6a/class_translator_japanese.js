@@ -47,6 +47,7 @@ var class_translator_japanese =
     [ "trDate", "d1/d6a/class_translator_japanese.html#a6d30bcc9994ff9850dd7cdb4892fcf85", null ],
     [ "trDateTime", "d1/d6a/class_translator_japanese.html#a6be353f75bc39756320621241ee4f385", null ],
     [ "trDayOfWeek", "d1/d6a/class_translator_japanese.html#a138cd105a601e7ebf896d2df4bc28ddb", null ],
+    [ "trDayPeriod", "d1/d6a/class_translator_japanese.html#aa7438e7b835ba0fa1db81c47e9d3166d", null ],
     [ "trDefinedAtLineInSourceFile", "d1/d6a/class_translator_japanese.html#a12ea6d2966bcd4e9ea8c84c8e0b9e4c0", null ],
     [ "trDefinedIn", "d1/d6a/class_translator_japanese.html#ac6b129846bb438195e46847a70e7695c", null ],
     [ "trDefinedInSourceFile", "d1/d6a/class_translator_japanese.html#aa5a14c105b4dac4061f40f59dbea5f62", null ],

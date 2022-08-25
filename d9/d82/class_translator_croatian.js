@@ -40,6 +40,7 @@ var class_translator_croatian =
     [ "trDate", "d9/d82/class_translator_croatian.html#a4cd393a6fd8db1d7fc9f05352bc018c2", null ],
     [ "trDateTime", "d9/d82/class_translator_croatian.html#ab0b72227f89c1eacf7add3ddb4af4dc9", null ],
     [ "trDayOfWeek", "d9/d82/class_translator_croatian.html#a98a7ac556ab66ec8a2a66f7a7224f491", null ],
+    [ "trDayPeriod", "d9/d82/class_translator_croatian.html#a84c94480758000207eadeddb26aeacdf", null ],
     [ "trDefinedAtLineInSourceFile", "d9/d82/class_translator_croatian.html#aeb559bb2330704a787148cae40014ada", null ],
     [ "trDefinedIn", "d9/d82/class_translator_croatian.html#ab7a1306d24134206985667f3ca1700d3", null ],
     [ "trDefinedInSourceFile", "d9/d82/class_translator_croatian.html#a7b9f8de8d63cc6230c841d4e20ae7175", null ],

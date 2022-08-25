@@ -43,6 +43,7 @@ var class_translator_slovak =
     [ "trDate", "d2/d53/class_translator_slovak.html#a46a3917b2e54965f0e4d768e9187b4e2", null ],
     [ "trDateTime", "d2/d53/class_translator_slovak.html#aedc4c9f5640d217e9b8da2282ec99434", null ],
     [ "trDayOfWeek", "d2/d53/class_translator_slovak.html#aea1809609c8bd048e463e608f38cf2cd", null ],
+    [ "trDayPeriod", "d2/d53/class_translator_slovak.html#a159f07d205b842e2f404ffba92cbd68c", null ],
     [ "trDefinedAtLineInSourceFile", "d2/d53/class_translator_slovak.html#afb4de87003f4f9dbe9a5c0fdc3e9a763", null ],
     [ "trDefinedIn", "d2/d53/class_translator_slovak.html#aaeb9dcf0748b7bfa05135a8618193586", null ],
     [ "trDefinedInSourceFile", "d2/d53/class_translator_slovak.html#a8ba0da74395cbfaf3b58b076b99bee77", null ],

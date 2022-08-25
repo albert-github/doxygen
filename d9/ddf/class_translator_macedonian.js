@@ -35,6 +35,7 @@ var class_translator_macedonian =
     [ "trDataTypes", "d9/ddf/class_translator_macedonian.html#acc5a393e1abb3dfcc5ff2d11b357c585", null ],
     [ "trDate", "d9/ddf/class_translator_macedonian.html#a26ce585807600c35aa9fe48eaff9d4f3", null ],
     [ "trDayOfWeek", "d9/ddf/class_translator_macedonian.html#ac78530c1ce92c1eb8d334988d41a2074", null ],
+    [ "trDayPeriod", "d9/ddf/class_translator_macedonian.html#a0458b4cc86fc0c78724e5a5be3fa3677", null ],
     [ "trDefinedAtLineInSourceFile", "d9/ddf/class_translator_macedonian.html#aa2a542e582cd3af0c9a76f2e11f39670", null ],
     [ "trDefinedIn", "d9/ddf/class_translator_macedonian.html#acdb21ee9ddeede3503c659668b93a52b", null ],
     [ "trDefinedInSourceFile", "d9/ddf/class_translator_macedonian.html#a5189f502812f77b987f1f47410d775ca", null ],

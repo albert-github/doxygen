@@ -56,6 +56,7 @@ var class_translator_dutch =
     [ "trDate", "d9/d1b/class_translator_dutch.html#ae6c0d2663dd28a303296b997a09e026a", null ],
     [ "trDateTime", "d9/d1b/class_translator_dutch.html#a040430d74361c3d66ee0c4e87168c9bc", null ],
     [ "trDayOfWeek", "d9/d1b/class_translator_dutch.html#a07b196459d64bfec98772a60eb1880ec", null ],
+    [ "trDayPeriod", "d9/d1b/class_translator_dutch.html#a838a36d629807e28c70f041bc7b153c6", null ],
     [ "trDefinedAtLineInSourceFile", "d9/d1b/class_translator_dutch.html#a6c3f7d3733b05a4dc9f0618eded7bdf3", null ],
     [ "trDefinedIn", "d9/d1b/class_translator_dutch.html#a799450c2a6d07d61ae9646baff5e730a", null ],
     [ "trDefinedInSourceFile", "d9/d1b/class_translator_dutch.html#a17abe34daf3acd002e120341680166dd", null ],

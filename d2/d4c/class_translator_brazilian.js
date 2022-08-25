@@ -56,6 +56,7 @@ var class_translator_brazilian =
     [ "trDate", "d2/d4c/class_translator_brazilian.html#a2516d240c6558f99075b575da9146fa1", null ],
     [ "trDateTime", "d2/d4c/class_translator_brazilian.html#aea6000525e6ae8b6e75e8427ab1aff5e", null ],
     [ "trDayOfWeek", "d2/d4c/class_translator_brazilian.html#a2a628d2e00eeb43ac4e4b4a2045f3911", null ],
+    [ "trDayPeriod", "d2/d4c/class_translator_brazilian.html#ae374513bb7faf0649f4709b665e2802b", null ],
     [ "trDefinedAtLineInSourceFile", "d2/d4c/class_translator_brazilian.html#ab588be560817851f3ce47c09f966f7b2", null ],
     [ "trDefinedIn", "d2/d4c/class_translator_brazilian.html#a18db7766c026b3598cba4934be1fcd04", null ],
     [ "trDefinedInSourceFile", "d2/d4c/class_translator_brazilian.html#a6a69002513cab3bff292c57406b44ae0", null ],

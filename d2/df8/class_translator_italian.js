@@ -43,6 +43,7 @@ var class_translator_italian =
     [ "trDate", "d2/df8/class_translator_italian.html#a3a7317cfeb2960b8a03d4be585e33eee", null ],
     [ "trDateTime", "d2/df8/class_translator_italian.html#ac09695d9dcfda40eadace52441635d10", null ],
     [ "trDayOfWeek", "d2/df8/class_translator_italian.html#a6a1678b6896d2f89f1ab4a9e4dc28bad", null ],
+    [ "trDayPeriod", "d2/df8/class_translator_italian.html#a0c4f36447561a2b307d7bafa7d4a5419", null ],
     [ "trDefinedAtLineInSourceFile", "d2/df8/class_translator_italian.html#ae5edc98e358cf8321111742bb82acb9c", null ],
     [ "trDefinedIn", "d2/df8/class_translator_italian.html#ab93c953a0b074e32fa9e68479255684c", null ],
     [ "trDefinedInSourceFile", "d2/df8/class_translator_italian.html#a5a8e3000335022e49b2cd08d7ce10ae7", null ],

@@ -27,6 +27,7 @@ var class_translator_lithuanian =
     [ "trConstructorDocumentation", "dc/d53/class_translator_lithuanian.html#a450cd9b143c1d612bfb5ac64288e68bd", null ],
     [ "trDate", "dc/d53/class_translator_lithuanian.html#a5ea34ef7f532eeeae44c58d6b4de24c1", null ],
     [ "trDayOfWeek", "dc/d53/class_translator_lithuanian.html#a9241d19410078e3a1c6ec5bdd671fc55", null ],
+    [ "trDayPeriod", "dc/d53/class_translator_lithuanian.html#acd93c361f67f86598962841eb49f7166", null ],
     [ "trDefinedAtLineInSourceFile", "dc/d53/class_translator_lithuanian.html#aaf6264019ddf28afef09a3760f557f7d", null ],
     [ "trDefinedIn", "dc/d53/class_translator_lithuanian.html#a32add55ffd8906b228479c3206883629", null ],
     [ "trDefinedInSourceFile", "dc/d53/class_translator_lithuanian.html#afeadb8ea2b08c0cdf5133cc27e41ec2a", null ],

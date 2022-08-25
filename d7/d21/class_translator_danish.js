@@ -39,6 +39,7 @@ var class_translator_danish =
     [ "trDate", "d7/d21/class_translator_danish.html#a5bb8f0a475b985f1c7efc4a1ccaf012f", null ],
     [ "trDateTime", "d7/d21/class_translator_danish.html#a6b1b8f959c432ab7959b2509d0195c1f", null ],
     [ "trDayOfWeek", "d7/d21/class_translator_danish.html#abeb36c57fa6610f9065953ebeecb8786", null ],
+    [ "trDayPeriod", "d7/d21/class_translator_danish.html#aeb285efb5b0670a21f02fed16d47bb54", null ],
     [ "trDefinedAtLineInSourceFile", "d7/d21/class_translator_danish.html#aada43fcef0f224440665b94ba7db2832", null ],
     [ "trDefinedIn", "d7/d21/class_translator_danish.html#abfacd5c7b61d5b0bc2a8e50191d19296", null ],
     [ "trDefinedInSourceFile", "d7/d21/class_translator_danish.html#a344334f13a4e7ce50b8797f09cf3af42", null ],

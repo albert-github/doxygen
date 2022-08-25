@@ -56,6 +56,7 @@ var class_translator_swedish =
     [ "trDate", "d5/d5c/class_translator_swedish.html#ac8be7073c5ea39485a5ce7fbe2c87628", null ],
     [ "trDateTime", "d5/d5c/class_translator_swedish.html#a2f471ef8c08b9372d03a7472966ac04e", null ],
     [ "trDayOfWeek", "d5/d5c/class_translator_swedish.html#a12bbd6e91a563ca630c88f10f825bf97", null ],
+    [ "trDayPeriod", "d5/d5c/class_translator_swedish.html#af1b822fe11e6144833361a916a35d15b", null ],
     [ "trDefinedAtLineInSourceFile", "d5/d5c/class_translator_swedish.html#a06b9f000486761c31e91b7459e2c003b", null ],
     [ "trDefinedIn", "d5/d5c/class_translator_swedish.html#a3dced1ce5ac235e0b97b5798b1e6d0b5", null ],
     [ "trDefinedInSourceFile", "d5/d5c/class_translator_swedish.html#a5b84dff19028875b39427e6f70882109", null ],

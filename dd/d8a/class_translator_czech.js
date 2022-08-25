@@ -56,6 +56,7 @@ var class_translator_czech =
     [ "trDate", "dd/d8a/class_translator_czech.html#a0512e60a882d67968560aea51b769a2b", null ],
     [ "trDateTime", "dd/d8a/class_translator_czech.html#a48e59377a035fcd38d3a0df78f0f98f4", null ],
     [ "trDayOfWeek", "dd/d8a/class_translator_czech.html#a33436f79d37520baa5db36fa10680d36", null ],
+    [ "trDayPeriod", "dd/d8a/class_translator_czech.html#a81114faa8e72533eaa28010de35a1b29", null ],
     [ "trDefinedAtLineInSourceFile", "dd/d8a/class_translator_czech.html#aa19995a2d5e1e5da77023ab8f639fa35", null ],
     [ "trDefinedIn", "dd/d8a/class_translator_czech.html#a6b2e696890fa5c0df4ba5a4b638b7d6c", null ],
     [ "trDefinedInSourceFile", "dd/d8a/class_translator_czech.html#a66eab5854a5e8216638141595714c5ae", null ],

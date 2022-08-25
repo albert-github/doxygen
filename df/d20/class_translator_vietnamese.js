@@ -37,6 +37,7 @@ var class_translator_vietnamese =
     [ "trDataTypes", "df/d20/class_translator_vietnamese.html#a020eebcdccda4b0cb6abeb2f78e566b3", null ],
     [ "trDate", "df/d20/class_translator_vietnamese.html#a717e57abc613c4ded493be4c640b304e", null ],
     [ "trDayOfWeek", "df/d20/class_translator_vietnamese.html#a04276b56d3b2e0e318b033956801fef9", null ],
+    [ "trDayPeriod", "df/d20/class_translator_vietnamese.html#a1e8d0df480e0ef805f7d8b3ef8b174fe", null ],
     [ "trDefinedAtLineInSourceFile", "df/d20/class_translator_vietnamese.html#ac6d4cf6269a7989caf25aa25d1526882", null ],
     [ "trDefinedIn", "df/d20/class_translator_vietnamese.html#a78229e2e7d5f5e24fba04323160334af", null ],
     [ "trDefinedInSourceFile", "df/d20/class_translator_vietnamese.html#af3b507a93a4d73f88333c054b6670595", null ],

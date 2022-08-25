@@ -27,6 +27,7 @@ var class_translator_slovene =
     [ "trConstructorDocumentation", "dd/d0b/class_translator_slovene.html#ad2bb490e77c2125cbfc1f92b3062bdb7", null ],
     [ "trDate", "dd/d0b/class_translator_slovene.html#afc394a607cbd0961a358c25c9cd53d27", null ],
     [ "trDayOfWeek", "dd/d0b/class_translator_slovene.html#a1566a5b1b7c52a65f617083b6c53fdb7", null ],
+    [ "trDayPeriod", "dd/d0b/class_translator_slovene.html#a9c77d8d7e7381eb665b581b09d5d7af5", null ],
     [ "trDefinedAtLineInSourceFile", "dd/d0b/class_translator_slovene.html#a11a17759b13a7b0ace5b57c7ef8126eb", null ],
     [ "trDefinedIn", "dd/d0b/class_translator_slovene.html#af7fa5a19034b4808a606e92ceef50f58", null ],
     [ "trDefinedInSourceFile", "dd/d0b/class_translator_slovene.html#a12574e71eac363da755aa415c53a524e", null ],

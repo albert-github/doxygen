@@ -49,6 +49,7 @@ var class_translator_french =
     [ "trDate", "da/d1a/class_translator_french.html#afbf8da1924767d230d13c998fa2c56ee", null ],
     [ "trDateTime", "da/d1a/class_translator_french.html#a88fdb3958e998355649cd70032343ac3", null ],
     [ "trDayOfWeek", "da/d1a/class_translator_french.html#a7ec6dc2759dd549c3de688e99d13a268", null ],
+    [ "trDayPeriod", "da/d1a/class_translator_french.html#a3250fa4b343b72746cb3331fa0b761c6", null ],
     [ "trDefinedAtLineInSourceFile", "da/d1a/class_translator_french.html#a98cffc447fe61cd6bfc48c7b00dede8f", null ],
     [ "trDefinedIn", "da/d1a/class_translator_french.html#a7f2b0bc4d82770996b43bc12a988b263", null ],
     [ "trDefinedInSourceFile", "da/d1a/class_translator_french.html#a393777a3ec5ec604debc29b06ff91e55", null ],

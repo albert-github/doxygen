@@ -35,6 +35,7 @@ var class_translator_finnish =
     [ "trDataTypes", "de/df7/class_translator_finnish.html#abec148e263f5fd26e53d69e2beeac2c5", null ],
     [ "trDate", "de/df7/class_translator_finnish.html#ad009d40b33e14917ba8e915c2cbfb0d0", null ],
     [ "trDayOfWeek", "de/df7/class_translator_finnish.html#aa796932074fa849a88232ecd07cd194e", null ],
+    [ "trDayPeriod", "de/df7/class_translator_finnish.html#afc1d1e146bf37eec76c1e9349362c6fc", null ],
     [ "trDefinedAtLineInSourceFile", "de/df7/class_translator_finnish.html#a4a35638a4413e7c5b3c9f4e0960037f3", null ],
     [ "trDefinedIn", "de/df7/class_translator_finnish.html#afdfeab24ab647aab27a2bbc6dd23967b", null ],
     [ "trDefinedInSourceFile", "de/df7/class_translator_finnish.html#aeb21fa34f1f94016f73c955b13e88149", null ],

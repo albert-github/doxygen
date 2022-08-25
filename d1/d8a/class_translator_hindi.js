@@ -56,6 +56,7 @@ var class_translator_hindi =
     [ "trDate", "d1/d8a/class_translator_hindi.html#a5fe779a9c984e3008bc3cbe5e15a1275", null ],
     [ "trDateTime", "d1/d8a/class_translator_hindi.html#a6619ed14acae9079cfbed1dcf0ca37ff", null ],
     [ "trDayOfWeek", "d1/d8a/class_translator_hindi.html#a8549c35610b73289acabd31eafecc13e", null ],
+    [ "trDayPeriod", "d1/d8a/class_translator_hindi.html#ac35a2cf91b3293ecae0faa773db0c524", null ],
     [ "trDefinedAtLineInSourceFile", "d1/d8a/class_translator_hindi.html#a2c1928a77217f00e985d85d8489cc2b0", null ],
     [ "trDefinedIn", "d1/d8a/class_translator_hindi.html#aacb389bdfe9640d495ef3363dfcfb9ce", null ],
     [ "trDefinedInSourceFile", "d1/d8a/class_translator_hindi.html#ab439e143e4e00af59b1f08b5435f390a", null ],
