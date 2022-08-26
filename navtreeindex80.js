@@ -1,5 +1,9 @@
 var NAVTREEINDEX80 =
 {
+"da/dd3/class_latex_escaper.html#ac6db140f510d46ce4f169546adbc5cb6":[4,0,341,3],
+"da/dd3/class_latex_escaper.html#acea62b6c8b79e2e41e61cdfd0923f089":[4,0,341,0],
+"da/dd3/class_latex_escaper.html#ae4f71b73b989dce6b9854146b540e247":[4,0,341,4],
+"da/dd8/struct_style_data.html":[4,0,476],
 "da/dd8/struct_style_data.html#a0b065b8e48e6258fdc607f8b362ded48":[4,0,476,0],
 "da/dd8/struct_style_data.html#a7a9ef51c3d04534f0d123bc771ab3367":[4,0,476,5],
 "da/dd8/struct_style_data.html#a91d075b2822ebca9d9558a462bf5c45c":[4,0,476,7],
@@ -233,7 +237,6 @@ var NAVTREEINDEX80 =
 "db/d16/config_8h.html#a251399cde30dd4c356bbd5634c6eb472":[5,0,1,25,2],
 "db/d16/config_8h.html#a252335f9ceadbd28f4394ec14a7f2777":[5,0,1,25,7],
 "db/d16/config_8h.html#a43f9512cdb148a0f68a30519debac43f":[5,0,1,25,13],
-"db/d16/config_8h.html#a455ee38b43cec2501b11fd3696ab0ebd":[5,0,1,25,17],
 "db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79":[5,0,1,25,0],
 "db/d16/config_8h.html#a5744a411e57f8a3a18ce6569e843b11e":[5,0,1,25,21],
 "db/d16/config_8h.html#a6cc61dde8935f986295262513d2feb2d":[5,0,1,25,14],
@@ -241,13 +244,10 @@ var NAVTREEINDEX80 =
 "db/d16/config_8h.html#a737741e6991bdb5694a50075437a9d89":[5,0,1,25,5],
 "db/d16/config_8h.html#a77eefd6119ed441632a00d7d274184af":[5,0,1,25,10],
 "db/d16/config_8h.html#a7b3346b2e70cc73d231d540df5d67e57":[5,0,1,25,15],
+"db/d16/config_8h.html#a88ed583dc36b1439108163403cc4224f":[5,0,1,25,17],
 "db/d16/config_8h.html#a8c58e5a30ece3e745e1561edd00f6c68":[5,0,1,25,8],
 "db/d16/config_8h.html#a91bcb187ed95ec673137e413a4d77203":[5,0,1,25,16],
 "db/d16/config_8h.html#a98dcadaa623b84d8929dc38239f31cb2":[5,0,1,25,20],
 "db/d16/config_8h.html#ad27e22c157d0c2d33414923d0a41c200":[5,0,1,25,19],
-"db/d16/config_8h.html#afe899eec751dfb75a60c37ec3840e288":[5,0,1,25,1],
-"db/d16/config_8h_source.html":[5,0,1,25],
-"db/d16/debug_8h.html":[5,0,1,40],
-"db/d16/debug_8h_source.html":[5,0,1,40],
-"db/d16/layout_8cpp.html":[5,0,1,153]
+"db/d16/config_8h.html#afe899eec751dfb75a60c37ec3840e288":[5,0,1,25,1]
 };
