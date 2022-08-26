@@ -35,7 +35,6 @@ var class_q_c_string =
     [ "length", "d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268", null ],
     [ "lower", "d9/d45/class_q_c_string.html#a33688239622e659cfb469fbd62c9cccb", null ],
     [ "mid", "d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551", null ],
-    [ "operator+=", "d9/d45/class_q_c_string.html#aeb47b4961cf545995555c00300ee1c0d", null ],
     [ "operator+=", "d9/d45/class_q_c_string.html#a844a24565e79b45a3c0951e314408dc9", null ],
     [ "operator+=", "d9/d45/class_q_c_string.html#a3f8a3c4ff3e86b352ac49ee366dc2c5c", null ],
     [ "operator+=", "d9/d45/class_q_c_string.html#a39cc26ea20a11b2ef1bf77f1a8385606", null ],
