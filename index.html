@@ -94,7 +94,7 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p ><a class="anchor" id="mainpage"></a></p>
-<p >Generated on Friday, August 26, 2022 at 9:27 AM</p>
+<p >Generated on Friday, August 26, 2022 at 10:12 AM</p>
 <h1><a class="anchor" id="autotoc_md0"></a>
 Introduction</h1>
 <p >This page provides a high-level overview of the internals of doxygen, with links to the relevant parts of the code. This document is intended for developers who want to work on doxygen. Users of doxygen are referred to the <a href="https://www.doxygen.nl/manual/index.html">User Manual</a>.</p>
@@ -102,7 +102,7 @@ Introduction</h1>
 <h1><a class="anchor" id="autotoc_md1"></a>
 Configuration options</h1>
 <p >Configuration file data is stored in singleton class <a class="el" href="d0/d31/namespace_config.html" title="Public function to deal with the configuration file.">Config</a> and can be accessed using wrapper macros <a class="el" href="db/d16/config_8h.html#a737741e6991bdb5694a50075437a9d89">Config_getString()</a>, <a class="el" href="db/d16/config_8h.html#a06b59c3720174e9078f613095a89b295">Config_getInt()</a>, <a class="el" href="db/d16/config_8h.html#a15e896ce0b99792d1344b66af98928e7">Config_getList()</a>, <a class="el" href="db/d16/config_8h.html#afe899eec751dfb75a60c37ec3840e288">Config_getEnum()</a>, and <a class="el" href="db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool()</a> depending on the type of the option.</p>
-<p >The format of the configuration file (options and types) is defined by the file <code>config.xml</code>. As part of the build process, the python script <code>configgen.py</code> will create the files <code>configoptions.cpp</code>, <code>configvalues.h</code> and <code>configvalues.cpp</code> from this, which serves as the input for the configuration file parser that is invoked using <a class="el" href="d0/d31/namespace_config.html#a455ee38b43cec2501b11fd3696ab0ebd">Config::parse()</a>. The script <code>configgen.py</code> will also create the documentation for the configuration items, creating the file <code>config.doc</code>.</p>
+<p >The format of the configuration file (options and types) is defined by the file <code>config.xml</code>. As part of the build process, the python script <code>configgen.py</code> will create the files <code>configoptions.cpp</code>, <code>configvalues.h</code> and <code>configvalues.cpp</code> from this, which serves as the input for the configuration file parser that is invoked using <a class="el" href="d0/d31/namespace_config.html#a88ed583dc36b1439108163403cc4224f">Config::parse()</a>. The script <code>configgen.py</code> will also create the documentation for the configuration items, creating the file <code>config.doc</code>.</p>
 <h1><a class="anchor" id="autotoc_md2"></a>
 Gathering Input files</h1>
 <p >After the configuration is known, the input files are searched using <a class="el" href="dc/d98/doxygen_8cpp.html#a7ed1fdd15e6ed566c33a63fcd30d53c4">searchInputFiles()</a> and any tag files are read using <a class="el" href="dc/d98/doxygen_8cpp.html#a7389d7a8c7a2859d36b88ff0dc477cdb">readTagFile()</a></p>
