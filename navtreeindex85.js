@@ -1,9 +1,5 @@
 var NAVTREEINDEX85 =
 {
-"db/daa/class_dot_file_patcher.html#a36fcbf6fe68086f734c114a2d30c5516":[4,0,198,7],
-"db/daa/class_dot_file_patcher.html#a4993d9e9855116cd4fee5bd950c19bb8":[4,0,198,1],
-"db/daa/class_dot_file_patcher.html#a52738c3a25bf0b8a076ad4e0c301162a":[4,0,198,11],
-"db/daa/class_dot_file_patcher.html#a8a0183f93570ac3b1a8df3e0f7229a2b":[4,0,198,5],
 "db/daa/class_dot_file_patcher.html#aa53ad66e5d0c6a04f6d198aa030b63f3":[4,0,198,3],
 "db/daa/class_dot_file_patcher.html#aac97171a3985fd07e09fef2a25819a16":[4,0,198,4],
 "db/daa/class_dot_file_patcher.html#ae17984831f2efe1fab30c6ab5d9e36f0":[4,0,198,12],
@@ -249,5 +245,9 @@ var NAVTREEINDEX85 =
 "db/dcc/class_translator_korean.html#ab670b0885b3a3da2b437f4b0bdc8e6de":[4,0,587,214],
 "db/dcc/class_translator_korean.html#ab73b0ce0feb86a606ca11afaaffa6500":[4,0,587,84],
 "db/dcc/class_translator_korean.html#abb8abbd3d17b2c6b9052eb9dc1ba31f0":[4,0,587,103],
-"db/dcc/class_translator_korean.html#abc7c0238b498ea5bf2a6c9aeafac207d":[4,0,587,201]
+"db/dcc/class_translator_korean.html#abc7c0238b498ea5bf2a6c9aeafac207d":[4,0,587,201],
+"db/dcc/class_translator_korean.html#abd327cbf4d2620a8d3a3d9e4d9ed5b55":[4,0,587,17],
+"db/dcc/class_translator_korean.html#abdcbd4a1e70026701d32b4523e0a0c73":[4,0,587,224],
+"db/dcc/class_translator_korean.html#abf39ae7ff1f7844473f9091eed4f5888":[4,0,587,43],
+"db/dcc/class_translator_korean.html#abf952f790cd6c685829d07330b4d3414":[4,0,587,186]
 };
