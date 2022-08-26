@@ -196,6 +196,7 @@ var class_translator_czech =
     [ "trPackage", "dd/d8a/class_translator_czech.html#a1150deca996d2294e651eab2ce55b3e6", null ],
     [ "trPackageAttribs", "dd/d8a/class_translator_czech.html#a5cd1b4cfc102e8e0ae7768823aa46b91", null ],
     [ "trPackageFunctions", "dd/d8a/class_translator_czech.html#a4c57c324266952da6f50df7f717cde28", null ],
+    [ "trPackageList", "dd/d8a/class_translator_czech.html#a31aa53b59b50e4f818158b1ed61a351e", null ],
     [ "trPackageListDescription", "dd/d8a/class_translator_czech.html#a7f9a5cb82348d25cc39c6bd6a27fa68b", null ],
     [ "trPackageMembers", "dd/d8a/class_translator_czech.html#a37d1d9bee84d6f8b69b5c08282551039", null ],
     [ "trPackages", "dd/d8a/class_translator_czech.html#ac277d68bfff30f516e348d4cc6a7f86c", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX103 =
 {
+"dd/df6/class_translator_chinesetraditional.html#a823b4850251a1459b460f2a68f98f034":[4,0,570,201],
 "dd/df6/class_translator_chinesetraditional.html#a8289959dba838e5c9796e564f760b193":[4,0,570,91],
 "dd/df6/class_translator_chinesetraditional.html#a84f0a69aa5ba86bf01b893606a7fe9a4":[4,0,570,6],
 "dd/df6/class_translator_chinesetraditional.html#a86ca838e617dcacb775585c6b1ef2faf":[4,0,570,221],
@@ -247,7 +248,6 @@ var NAVTREEINDEX103 =
 "de/d04/markdown_8cpp.html#af7be336445f7b19da5a795df89dc81c3":[5,0,1,165,33],
 "de/d04/markdown_8cpp.html#aff1401435a72ba6f4ad22d5c21d67aab":[5,0,1,165,17],
 "de/d04/markdown_8cpp_source.html":[5,0,1,165],
-"de/d05/structdetails_1_1_impl.html":[3,0,3,0],
 "de/d05/structdetails_1_1_impl.html":[4,0,1,0],
-"de/d05/structdetails_1_1_impl.html#a0fd4278ad6e530e3ed836849026072b6":[3,0,3,0,0]
+"de/d05/structdetails_1_1_impl.html":[3,0,3,0]
 };

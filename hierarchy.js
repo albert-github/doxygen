@@ -1287,13 +1287,13 @@ var hierarchy =
           ] ],
           [ "TranslatorBulgarian", "da/dbb/class_translator_bulgarian.html", null ],
           [ "TranslatorChinese", "d6/db6/class_translator_chinese.html", null ],
-          [ "TranslatorCzech", "dd/d8a/class_translator_czech.html", null ],
           [ "TranslatorGreek", "df/d75/class_translator_greek.html", null ],
           [ "TranslatorHindi", "d1/d8a/class_translator_hindi.html", null ],
           [ "TranslatorSwedish", "d5/d5c/class_translator_swedish.html", null ]
         ] ]
       ] ],
       [ "TranslatorBrazilian", "d2/d4c/class_translator_brazilian.html", null ],
+      [ "TranslatorCzech", "dd/d8a/class_translator_czech.html", null ],
       [ "TranslatorDutch", "d9/d1b/class_translator_dutch.html", null ],
       [ "TranslatorEnglish", "d6/d78/class_translator_english.html", [
         [ "TranslatorJapaneseEn", "d0/d16/class_translator_japanese_en.html", null ],
