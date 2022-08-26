@@ -1,5 +1,11 @@
 var NAVTREEINDEX83 =
 {
+"db/d5f/class_html_entity_mapper.html#a5fa49b07f0b74254ab5bd5b18474d7dfaaceb857ae751c2120c1131b05c4ca8d7":[4,0,312,2,141],
+"db/d5f/class_html_entity_mapper.html#a5fa49b07f0b74254ab5bd5b18474d7dfaacf8b703bda409c8c9a599326ac043ab":[4,0,312,2,228],
+"db/d5f/class_html_entity_mapper.html#a5fa49b07f0b74254ab5bd5b18474d7dfaaec3a78aa385aad722309296ce365ad9":[4,0,312,2,142],
+"db/d5f/class_html_entity_mapper.html#a5fa49b07f0b74254ab5bd5b18474d7dfaaf204a8bef3862d9ddddf384b74a62b1":[4,0,312,2,264],
+"db/d5f/class_html_entity_mapper.html#a5fa49b07f0b74254ab5bd5b18474d7dfab130e51b5fae965ad89d2ad2aec5fd55":[4,0,312,2,224],
+"db/d5f/class_html_entity_mapper.html#a5fa49b07f0b74254ab5bd5b18474d7dfab1b913b9900383f804c6d97ca40a2a24":[4,0,312,2,30],
 "db/d5f/class_html_entity_mapper.html#a5fa49b07f0b74254ab5bd5b18474d7dfab2c479beb0b3dfcc5159648484f7d1d6":[4,0,312,2,111],
 "db/d5f/class_html_entity_mapper.html#a5fa49b07f0b74254ab5bd5b18474d7dfab4c8d41134ec3b4dc23e8cd7a8cb3db5":[4,0,312,2,182],
 "db/d5f/class_html_entity_mapper.html#a5fa49b07f0b74254ab5bd5b18474d7dfab64775696bd13f3653c77cb53a511338":[4,0,312,2,163],
@@ -243,11 +249,5 @@ var NAVTREEINDEX83 =
 "db/d5f/class_translator_hungarian.html#a864e8bd5517deb658ef455a2173755a5":[4,0,582,13],
 "db/d5f/class_translator_hungarian.html#a88e3bf187b611a077ae31ee59c5431ba":[4,0,582,153],
 "db/d5f/class_translator_hungarian.html#a8b0383d61cc8cb690551cfd3f553a74f":[4,0,582,169],
-"db/d5f/class_translator_hungarian.html#a8b89e6caf5650c0fdfda1e3e5b8ad29b":[4,0,582,145],
-"db/d5f/class_translator_hungarian.html#a92bd578707a520390a2c8589a5781a5e":[4,0,582,99],
-"db/d5f/class_translator_hungarian.html#a96a434b0917ffafd489644847a2810ae":[4,0,582,213],
-"db/d5f/class_translator_hungarian.html#a96ba3ac48998e3894d29a87b429f06c0":[4,0,582,120],
-"db/d5f/class_translator_hungarian.html#a9723f96a4768f64d6d15011a00df5832":[4,0,582,204],
-"db/d5f/class_translator_hungarian.html#a976b9f7a52b58b09db80cf548596fd84":[4,0,582,190],
-"db/d5f/class_translator_hungarian.html#a9a20493744bb0d3a4b058429abf06155":[4,0,582,194]
+"db/d5f/class_translator_hungarian.html#a8b89e6caf5650c0fdfda1e3e5b8ad29b":[4,0,582,145]
 };

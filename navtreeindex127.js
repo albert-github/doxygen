@@ -1,7 +1,13 @@
 var NAVTREEINDEX127 =
 {
-"df/dcd/classreg_1_1_ex_1_1_private.html#a68af93bd4fbea3f82ee8e36af3a6e68b":[4,0,3,0,0,5],
+"df/dcd/classreg_1_1_ex_1_1_private.html#a3d43ef3d3304bc786d75340eac860780":[3,0,6,0,0,4],
+"df/dcd/classreg_1_1_ex_1_1_private.html#a3d43ef3d3304bc786d75340eac860780":[4,0,3,0,0,4],
+"df/dcd/classreg_1_1_ex_1_1_private.html#a51e12007f0f7866ad4117c489e90cb8e":[3,0,6,0,0,0],
+"df/dcd/classreg_1_1_ex_1_1_private.html#a51e12007f0f7866ad4117c489e90cb8e":[4,0,3,0,0,0],
+"df/dcd/classreg_1_1_ex_1_1_private.html#a5ae763e5ab5231eae1133e68093c49be":[3,0,6,0,0,1],
+"df/dcd/classreg_1_1_ex_1_1_private.html#a5ae763e5ab5231eae1133e68093c49be":[4,0,3,0,0,1],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a68af93bd4fbea3f82ee8e36af3a6e68b":[3,0,6,0,0,5],
+"df/dcd/classreg_1_1_ex_1_1_private.html#a68af93bd4fbea3f82ee8e36af3a6e68b":[4,0,3,0,0,5],
 "df/dcd/classreg_1_1_ex_1_1_private.html#afd98016e2bda56b81308bdc907569ead":[3,0,6,0,0,3],
 "df/dcd/classreg_1_1_ex_1_1_private.html#afd98016e2bda56b81308bdc907569ead":[4,0,3,0,0,3],
 "df/dda/class_member_list_context.html":[4,0,384],
@@ -243,11 +249,5 @@ var NAVTREEINDEX127 =
 "globals_b.html":[5,1,0,1],
 "globals_c.html":[5,1,0,2],
 "globals_d.html":[5,1,0,3],
-"globals_defs.html":[5,1,6],
-"globals_defs.html":[5,1,6,0],
-"globals_defs_b.html":[5,1,6,1],
-"globals_defs_c.html":[5,1,6,2],
-"globals_defs_d.html":[5,1,6,3],
-"globals_defs_e.html":[5,1,6,4],
-"globals_defs_f.html":[5,1,6,5]
+"globals_defs.html":[5,1,6]
 };

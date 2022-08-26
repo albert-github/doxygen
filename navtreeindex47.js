@@ -1,5 +1,11 @@
 var NAVTREEINDEX47 =
 {
+"d6/d78/class_translator_english.html#a786b9300d1be72a483d921103e61214d":[4,0,575,142],
+"d6/d78/class_translator_english.html#a795a1da3c238b58c6d13371e2a044612":[4,0,575,165],
+"d6/d78/class_translator_english.html#a7af33dc80ee1e1369868c2e3e75495d7":[4,0,575,203],
+"d6/d78/class_translator_english.html#a7c52f5bb4d6c49846957e317548f5fb5":[4,0,575,199],
+"d6/d78/class_translator_english.html#a7d5dbf4902fdbd4edcdbe27812e9d52d":[4,0,575,106],
+"d6/d78/class_translator_english.html#a7df2a33f5fbcd874edc1402391f2dc85":[4,0,575,150],
 "d6/d78/class_translator_english.html#a7df6397d0b21e6c4682eaa823763bff3":[4,0,575,159],
 "d6/d78/class_translator_english.html#a7e568ebc767d205d76ba737c77416f24":[4,0,575,23],
 "d6/d78/class_translator_english.html#a80c81649d2d20d2036123322c3e49f4e":[4,0,575,268],
@@ -243,11 +249,5 @@ var NAVTREEINDEX47 =
 "d6/d98/class_vhdl_doc_gen.html#a3f46a86d0561edb71388774696f6cea6":[4,0,618,1],
 "d6/d98/class_vhdl_doc_gen.html#a3f46a86d0561edb71388774696f6cea6a0893bf5a72275367a8e6a3721c9086f6":[4,0,618,1,8],
 "d6/d98/class_vhdl_doc_gen.html#a3f46a86d0561edb71388774696f6cea6a0a5e79aae981605ec80283206d115283":[4,0,618,1,9],
-"d6/d98/class_vhdl_doc_gen.html#a3f46a86d0561edb71388774696f6cea6a0cd6b2634cdb63a17c75b4b223681084":[4,0,618,1,10],
-"d6/d98/class_vhdl_doc_gen.html#a3f46a86d0561edb71388774696f6cea6a16a7b9d37ce120789952ba9bebec0b8c":[4,0,618,1,20],
-"d6/d98/class_vhdl_doc_gen.html#a3f46a86d0561edb71388774696f6cea6a21dd6922b9f777cb0eca071002740a49":[4,0,618,1,18],
-"d6/d98/class_vhdl_doc_gen.html#a3f46a86d0561edb71388774696f6cea6a25acdad40807693c8face87fa6a34dae":[4,0,618,1,13],
-"d6/d98/class_vhdl_doc_gen.html#a3f46a86d0561edb71388774696f6cea6a28636405fd1d55082e41bae5b5b3c3a5":[4,0,618,1,4],
-"d6/d98/class_vhdl_doc_gen.html#a3f46a86d0561edb71388774696f6cea6a3634e4fcc00b052fe7b55fd319d009c9":[4,0,618,1,26],
-"d6/d98/class_vhdl_doc_gen.html#a3f46a86d0561edb71388774696f6cea6a425d57cd5b88c50bf8d6a7f30f9aad5f":[4,0,618,1,6]
+"d6/d98/class_vhdl_doc_gen.html#a3f46a86d0561edb71388774696f6cea6a0cd6b2634cdb63a17c75b4b223681084":[4,0,618,1,10]
 };

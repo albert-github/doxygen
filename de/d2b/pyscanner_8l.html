@@ -817,7 +817,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1695</span> </div>
 <div class="line"><span class="lineno"> 1696</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../de/d2b/pyscanner_8l_source.html#l01516">newEntry()</a>, and <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03415">Markdown::process()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../de/d2b/pyscanner_8l_source.html#l01516">newEntry()</a>, and <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03417">Markdown::process()</a>.</p>
 
 </div>
 </div>
@@ -2762,8 +2762,8 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1288</span>                                <span class="keywordflow">if</span> (!actualDoc.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
 <div class="line"><span class="lineno"> 1289</span>                                {</div>
 <div class="line"><span class="lineno"> 1290</span>                                  <a class="code hl_function" href="../../df/d2d/util_8cpp.html#adac892ac420e7c1aab28a1d50d7b05fd">stripIndentation</a>(actualDoc,yyextra-&gt;commentIndent);</div>
-<div class="line"><span class="lineno"> 1291</span>                                  actualDoc.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0a6a8fe99e596b149ee15138fa8dcf0c">prepend</a>(<span class="stringliteral">&quot;\\verbatim\n&quot;</span>);</div>
-<div class="line"><span class="lineno"> 1292</span>                                  actualDoc.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a8f0a381fdae1427b1182baf0abde21e7">append</a>(<span class="stringliteral">&quot;\\endverbatim &quot;</span>);</div>
+<div class="line"><span class="lineno"> 1291</span>                                  actualDoc.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0a6a8fe99e596b149ee15138fa8dcf0c">prepend</a>(<span class="stringliteral">&quot;@iverbatim\n&quot;</span>);</div>
+<div class="line"><span class="lineno"> 1292</span>                                  actualDoc.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a8f0a381fdae1427b1182baf0abde21e7">append</a>(<span class="stringliteral">&quot;@endiverbatim &quot;</span>);</div>
 <div class="line"><span class="lineno"> 1293</span>                                }</div>
 <div class="line"><span class="lineno"> 1294</span>                              }</div>
 <div class="line"><span class="lineno"> 1295</span>                              <span class="comment">//printf(&quot;-------&gt; yyextra-&gt;current=%p yyextra-&gt;bodyEntry=%p\n&quot;,yyextra-&gt;current,yyextra-&gt;bodyEntry);</span></div>
@@ -2777,8 +2777,8 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1303</span>                                <span class="keywordflow">if</span> (!actualDoc.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
 <div class="line"><span class="lineno"> 1304</span>                                {</div>
 <div class="line"><span class="lineno"> 1305</span>                                  <a class="code hl_function" href="../../df/d2d/util_8cpp.html#adac892ac420e7c1aab28a1d50d7b05fd">stripIndentation</a>(actualDoc,yyextra-&gt;commentIndent);</div>
-<div class="line"><span class="lineno"> 1306</span>                                  actualDoc.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0a6a8fe99e596b149ee15138fa8dcf0c">prepend</a>(<span class="stringliteral">&quot;\\verbatim\n&quot;</span>);</div>
-<div class="line"><span class="lineno"> 1307</span>                                  actualDoc.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a8f0a381fdae1427b1182baf0abde21e7">append</a>(<span class="stringliteral">&quot;\\endverbatim &quot;</span>);</div>
+<div class="line"><span class="lineno"> 1306</span>                                  actualDoc.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0a6a8fe99e596b149ee15138fa8dcf0c">prepend</a>(<span class="stringliteral">&quot;@iverbatim\n&quot;</span>);</div>
+<div class="line"><span class="lineno"> 1307</span>                                  actualDoc.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a8f0a381fdae1427b1182baf0abde21e7">append</a>(<span class="stringliteral">&quot;@endiverbatim &quot;</span>);</div>
 <div class="line"><span class="lineno"> 1308</span>                                }</div>
 <div class="line"><span class="lineno"> 1309</span>                              }</div>
 <div class="line"><span class="lineno"> 1310</span>                              <span class="keywordflow">if</span> (yyextra-&gt;moduleScope.startsWith(<span class="stringliteral">&quot;__&quot;</span>) &amp;&amp;  yyextra-&gt;moduleScope.endsWith(<span class="stringliteral">&quot;__&quot;</span>))</div>
