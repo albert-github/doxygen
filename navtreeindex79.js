@@ -1,5 +1,7 @@
 var NAVTREEINDEX79 =
 {
+"da/dbb/class_translator_bulgarian.html#a6f3732ba3b71485540b821231ea02527":[4,0,567,233],
+"da/dbb/class_translator_bulgarian.html#a70975aecbe3b7420cb82fca1916d49cb":[4,0,567,162],
 "da/dbb/class_translator_bulgarian.html#a7177f76bee1460d400014f4b94d5234b":[4,0,567,133],
 "da/dbb/class_translator_bulgarian.html#a71bdbf0f744d3d9d94a67683d8a7f664":[4,0,567,229],
 "da/dbb/class_translator_bulgarian.html#a726f1fa07f0ac2b91cca4e2ed463937d":[4,0,567,214],
@@ -247,7 +249,5 @@ var NAVTREEINDEX79 =
 "da/dce/clangparser_8cpp.html":[5,0,1,7],
 "da/dce/clangparser_8cpp.html#a2d3ea1645a5e51e8da5f98432bb06cb8":[5,0,1,7,2],
 "da/dce/clangparser_8cpp_source.html":[5,0,1,7],
-"da/dd3/class_latex_escaper.html":[4,0,341],
-"da/dd3/class_latex_escaper.html#a224cb832481438f57b24c2a8159ab67f":[4,0,341,2],
-"da/dd3/class_latex_escaper.html#a8953a4af47c1a91933e3e7896c02c3c8":[4,0,341,1]
+"da/dd3/class_latex_escaper.html":[4,0,341]
 };
