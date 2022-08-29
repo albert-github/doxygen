@@ -1,5 +1,6 @@
 var NAVTREEINDEX99 =
 {
+"dd/d80/class_translator_turkish.html#a1f4bd6da3eafdbd578bac1b7117bda6a":[4,0,604,19],
 "dd/d80/class_translator_turkish.html#a20c1d533427410319e0f32df6d59afc9":[4,0,604,43],
 "dd/d80/class_translator_turkish.html#a2336fbe0dc7569c9ad6dddf056f1da9e":[4,0,604,117],
 "dd/d80/class_translator_turkish.html#a24b018c2a9f9624222f88258f4396c9d":[4,0,604,169],
@@ -248,6 +249,5 @@ var NAVTREEINDEX99 =
 "dd/d8a/class_translator_czech.html#a17fe6cd14782621432f918295072d32e":[4,0,572,254],
 "dd/d8a/class_translator_czech.html#a19833d853e7f899c69e5d8826f87d527":[4,0,572,147],
 "dd/d8a/class_translator_czech.html#a1a951cbb10aa69a7b9537f1b6e605087":[4,0,572,259],
-"dd/d8a/class_translator_czech.html#a1ae44f33cba620b039df66ca100bdc68":[4,0,572,148],
-"dd/d8a/class_translator_czech.html#a1c9899f22c4ae95819e87075f32f5eb5":[4,0,572,77]
+"dd/d8a/class_translator_czech.html#a1ae44f33cba620b039df66ca100bdc68":[4,0,572,148]
 };

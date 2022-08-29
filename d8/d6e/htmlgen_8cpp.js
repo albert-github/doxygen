@@ -7,6 +7,7 @@ var htmlgen_8cpp =
     [ "endSectionHeader", "d8/d6e/htmlgen_8cpp.html#ae2e58dbdf23ed7a1c24f10c4c81ec544", null ],
     [ "endSectionSummary", "d8/d6e/htmlgen_8cpp.html#ae5b4dc7827454fb9508e9a7ee4e663e8", null ],
     [ "fillColorStyleMap", "d8/d6e/htmlgen_8cpp.html#a2f990fbb2a5c7d2c30dcf0425e578546", null ],
+    [ "fillColorStyleMaps", "d8/d6e/htmlgen_8cpp.html#ac082e13d5df852dc8a34fd6e84668dff", null ],
     [ "getConvertLatexMacro", "d8/d6e/htmlgen_8cpp.html#a880152a6988921d6248a7640983bef9e", null ],
     [ "getSearchBox", "d8/d6e/htmlgen_8cpp.html#aa474343ce62c6bd88db53d9924b223a0", null ],
     [ "quickLinkVisible", "d8/d6e/htmlgen_8cpp.html#acd84b4b4ce1b0ba6b03bc8d8e84e4c8c", null ],

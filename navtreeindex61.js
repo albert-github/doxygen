@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"d8/d83/class_translator_latvian.html#a6a6c144679284e109c77de4eb8c714fb":[4,0,589,105],
 "d8/d83/class_translator_latvian.html#a724d8bb368bebdb041ca89a028dacaa9":[4,0,589,1],
 "d8/d83/class_translator_latvian.html#a73c04162ecd8c06cccee4129cd63d633":[4,0,589,23],
 "d8/d83/class_translator_latvian.html#a742e19cc6ec05c7f916a36c701f8d7d2":[4,0,589,167],
@@ -147,12 +148,12 @@ var NAVTREEINDEX61 =
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html":[3,0,8,0,2],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a0994fa11976ac659180bf73c1068783e":[4,0,5,0,2,3],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a0994fa11976ac659180bf73c1068783e":[3,0,8,0,2,3],
-"d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a5d25b6278ae014a14a0f5be2678f663c":[4,0,5,0,2,4],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a5d25b6278ae014a14a0f5be2678f663c":[3,0,8,0,2,4],
+"d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a5d25b6278ae014a14a0f5be2678f663c":[4,0,5,0,2,4],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a6b6a95b77fab1e71ce05bd43da1b8f67":[4,0,5,0,2,5],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a6b6a95b77fab1e71ce05bd43da1b8f67":[3,0,8,0,2,5],
-"d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a952889761822083d0eb8175cc62e6b7f":[4,0,5,0,2,2],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a952889761822083d0eb8175cc62e6b7f":[3,0,8,0,2,2],
+"d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a952889761822083d0eb8175cc62e6b7f":[4,0,5,0,2,2],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a953e9b05e336c11f8e2435b3ea506bc1":[3,0,8,0,2,0],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a953e9b05e336c11f8e2435b3ea506bc1":[4,0,5,0,2,0],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#aaaa2b2b81198a1e2a706a91baa09712c":[3,0,8,0,2,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "d8/dcb/struct_dot_group_collaboration_1_1_link.html":[4,0,201,1],
 "d8/dcb/struct_dot_group_collaboration_1_1_link.html#a73dde739c55a41c9fd8cd2786dcc4f28":[4,0,201,1,2],
 "d8/dcb/struct_dot_group_collaboration_1_1_link.html#aaea36ab56bf3845f2f60805a434b3262":[4,0,201,1,1],
-"d8/dcb/struct_dot_group_collaboration_1_1_link.html#aff5493ac2bf0b5badaa6eea804dabfbc":[4,0,201,1,0],
-"d8/dce/language_8h.html":[5,0,1,148]
+"d8/dcb/struct_dot_group_collaboration_1_1_link.html#aff5493ac2bf0b5badaa6eea804dabfbc":[4,0,201,1,0]
 };
