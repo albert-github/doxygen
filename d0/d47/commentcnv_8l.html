@@ -1259,19 +1259,20 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  361</span>                                     yyextra-&gt;commentStack.push(yyextra-&gt;lineNr);</div>
 <div class="line"><span class="lineno">  362</span>                                   }</div>
 <div class="line"><span class="lineno">  363</span>&lt;Scan&gt;&quot;#&quot;(&quot;#&quot;)?                    {</div>
-<div class="line"><span class="lineno">  364</span>                                     <span class="keywordflow">if</span> (yyextra-&gt;lang!=<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a9974623ce72fc23df5d64426b9178bf2a57c0fb9de98cdad12bc30c80cf96bd53">SrcLangExt_Python</a>)</div>
+<div class="line"><span class="lineno">  364</span>                                     <span class="keywordflow">if</span> (yyextra-&gt;lang!=<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a9974623ce72fc23df5d64426b9178bf2a57c0fb9de98cdad12bc30c80cf96bd53">SrcLangExt_Python</a> &amp;&amp; yyextra-&gt;lang!=<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a9974623ce72fc23df5d64426b9178bf2a30345d9f8c7bfd3851050ddc2cb3b207">SrcLangExt_PHP</a>)</div>
 <div class="line"><span class="lineno">  365</span>                                     {</div>
 <div class="line"><span class="lineno">  366</span>                                       REJECT;</div>
 <div class="line"><span class="lineno">  367</span>                                     }</div>
 <div class="line"><span class="lineno">  368</span>                                     <span class="keywordflow">else</span></div>
 <div class="line"><span class="lineno">  369</span>                                     {</div>
 <div class="line"><span class="lineno">  370</span>                                       <a class="code hl_function" href="../../d0/d47/commentcnv_8l.html#a6af10d5bb9a436e8d3b74fefb86034ea">copyToOutput</a>(yyscanner,yytext,(<span class="keywordtype">int</span>)yyleng); </div>
-<div class="line"><span class="lineno">  371</span>                                       yyextra-&gt;nestingCount=0; <span class="comment">// Python doesn&#39;t have an end comment for #</span></div>
+<div class="line"><span class="lineno">  371</span>                                       yyextra-&gt;nestingCount=0; <span class="comment">// Python and PHP don&#39;t have an end comment for #</span></div>
 <div class="line"><span class="lineno">  372</span>                                       <a class="code hl_function" href="../../d0/d47/commentcnv_8l.html#ac28578b1034a1f4803dd53216ab2bfda">clearCommentStack</a>(yyscanner); <span class="comment">/*  to be on the save side */</span></div>
 <div class="line"><span class="lineno">  373</span>                                       BEGIN(CComment);</div>
 <div class="line"><span class="lineno">  374</span>                                       yyextra-&gt;commentStack.push(yyextra-&gt;lineNr);</div>
 <div class="line"><span class="lineno">  375</span>                                     }</div>
 <div class="line"><span class="lineno">  376</span>                                   }</div>
+<div class="ttc" id="atypes_8h_html_a9974623ce72fc23df5d64426b9178bf2a30345d9f8c7bfd3851050ddc2cb3b207"><div class="ttname"><a href="../../d9/d49/types_8h.html#a9974623ce72fc23df5d64426b9178bf2a30345d9f8c7bfd3851050ddc2cb3b207">SrcLangExt_PHP</a></div><div class="ttdeci">@ SrcLangExt_PHP</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00048">types.h:48</a></div></div>
 <div class="line"><span class="lineno">  377</span>&lt;Scan&gt;&quot;--&quot;[^!][^\n]*               {</div>
 <div class="line"><span class="lineno">  378</span>                                     <span class="keywordflow">if</span> (yyextra-&gt;lang!=<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a9974623ce72fc23df5d64426b9178bf2a04de850503d4e73333e3c8eec7f97da7">SrcLangExt_VHDL</a>)</div>
 <div class="line"><span class="lineno">  379</span>                                     {</div>
@@ -1632,7 +1633,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  730</span>                                     }</div>
 <div class="line"><span class="lineno">  731</span>                                   }</div>
 <div class="line"><span class="lineno">  732</span>&lt;CComment,CNComment&gt;&quot;\n&quot;/[ \t]*[^ \t#\-]           {</div>
-<div class="line"><span class="lineno">  733</span>                                     <span class="keywordflow">if</span> (yyextra-&gt;lang==<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a9974623ce72fc23df5d64426b9178bf2a57c0fb9de98cdad12bc30c80cf96bd53">SrcLangExt_Python</a>)</div>
+<div class="line"><span class="lineno">  733</span>                                     <span class="keywordflow">if</span> (yyextra-&gt;lang==<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a9974623ce72fc23df5d64426b9178bf2a57c0fb9de98cdad12bc30c80cf96bd53">SrcLangExt_Python</a> || yyextra-&gt;lang==<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a9974623ce72fc23df5d64426b9178bf2a30345d9f8c7bfd3851050ddc2cb3b207">SrcLangExt_PHP</a>)</div>
 <div class="line"><span class="lineno">  734</span>                                     {</div>
 <div class="line"><span class="lineno">  735</span>                                       <span class="keywordflow">if</span> (yyextra-&gt;pythonDocString)</div>
 <div class="line"><span class="lineno">  736</span>                                       {</div>
