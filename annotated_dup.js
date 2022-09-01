@@ -605,6 +605,7 @@ var annotated_dup =
     [ "TranslatorAdapter_1_8_4", "de/d2f/class_translator_adapter__1__8__4.html", "de/d2f/class_translator_adapter__1__8__4" ],
     [ "TranslatorAdapter_1_9_2", "d3/d2e/class_translator_adapter__1__9__2.html", "d3/d2e/class_translator_adapter__1__9__2" ],
     [ "TranslatorAdapter_1_9_4", "d0/d33/class_translator_adapter__1__9__4.html", "d0/d33/class_translator_adapter__1__9__4" ],
+    [ "TranslatorAdapter_1_9_5", "dd/dba/class_translator_adapter__1__9__5.html", "dd/dba/class_translator_adapter__1__9__5" ],
     [ "TranslatorAdapterBase", "db/d6c/class_translator_adapter_base.html", "db/d6c/class_translator_adapter_base" ],
     [ "TranslatorAfrikaans", "d3/d65/class_translator_afrikaans.html", "d3/d65/class_translator_afrikaans" ],
     [ "TranslatorArabic", "d3/de9/class_translator_arabic.html", "d3/de9/class_translator_arabic" ],

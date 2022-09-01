@@ -121,6 +121,7 @@ var class_translator =
     [ "trFileMembers", "d8/dfb/class_translator.html#ab1ae470cc9c32e47bdebde8141940ffe", null ],
     [ "trFileMembersDescription", "d8/dfb/class_translator.html#ace231b43d772f05ca59d0aa18cbdd51b", null ],
     [ "trFileReference", "d8/dfb/class_translator.html#a30792c89ec72b82b5edb8c1a602358f1", null ],
+    [ "trFlowchart", "d8/dfb/class_translator.html#acc523c6635204d3f5ce196c72a9a257e", null ],
     [ "trFriends", "d8/dfb/class_translator.html#ab046901f13c045c05588f7e45a3f806d", null ],
     [ "trFunctionAndProc", "d8/dfb/class_translator.html#a302e752086f5155ea1ffc689a91b3e57", null ],
     [ "trFunctionDocumentation", "d8/dfb/class_translator.html#a3733d3cbf05292e37f9c6503e92e30ff", null ],
