@@ -1131,7 +1131,7 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno"> 2586</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> macroName;</div>
 <div class="line"><span class="lineno"> 2587</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> expMacro;</div>
 <div class="line"><span class="lineno"> 2588</span>  <span class="keywordtype">bool</span> definedTest=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="line"><span class="lineno"> 2589</span>  <span class="keywordtype">int</span> i=pos,l,p,len;</div>
+<div class="line"><span class="lineno"> 2589</span>  <span class="keywordtype">int</span> i=pos,l,p,len=0;</div>
 <div class="line"><span class="lineno"> 2590</span>  <span class="keywordtype">int</span> startPos = pos;</div>
 <div class="line"><span class="lineno"> 2591</span>  <span class="keywordtype">int</span> samePosCount=0;</div>
 <div class="line"><span class="lineno"> 2592</span>  <span class="keywordflow">while</span> ((p=<a class="code hl_function" href="../../d0/da7/pre_8l.html#a4a9b5774d3b3547b5143e86594853498">getNextId</a>(expr,i,&amp;l))!=-1) <span class="comment">// search for an macro name</span></div>
@@ -1535,12 +1535,12 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno"> 2044</span>    }</div>
 <div class="line"><span class="lineno"> 2045</span>  }</div>
 <div class="line"><span class="lineno"> 2046</span>  <span class="keywordflow">return</span> 0;</div>
-<div class="ttc" id="anamespace_portable_html_a08dc4d7f652408d7fc2eaba792796cb1"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#a08dc4d7f652408d7fc2eaba792796cb1">Portable::isAbsolutePath</a></div><div class="ttdeci">bool isAbsolutePath(const QCString &amp;fileName)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1c/portable_8cpp_source.html#l00492">portable.cpp:492</a></div></div>
+<div class="ttc" id="anamespace_portable_html_a08dc4d7f652408d7fc2eaba792796cb1"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#a08dc4d7f652408d7fc2eaba792796cb1">Portable::isAbsolutePath</a></div><div class="ttdeci">bool isAbsolutePath(const QCString &amp;fileName)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1c/portable_8cpp_source.html#l00490">portable.cpp:490</a></div></div>
 <div class="ttc" id="apre_8l_html_a3cd40076f3904d6c6ea657b00df39cc6"><div class="ttname"><a href="../../d0/da7/pre_8l.html#a3cd40076f3904d6c6ea657b00df39cc6">setFileName</a></div><div class="ttdeci">static void setFileName(yyscan_t yyscanner, const QCString &amp;name)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/da7/pre_8l_source.html#l01868">pre.l:1868</a></div></div>
 <div class="ttc" id="apre_8l_html_a9f92e99948eee5876f56c21c144201cb"><div class="ttname"><a href="../../d0/da7/pre_8l.html#a9f92e99948eee5876f56c21c144201cb">checkAndOpenFile</a></div><div class="ttdeci">static FileState * checkAndOpenFile(yyscan_t yyscanner, const QCString &amp;fileName, bool &amp;alreadyProcessed)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/da7/pre_8l_source.html#l01931">pre.l:1931</a></div></div>
 <div class="line"><span class="lineno"> 2047</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/da7/pre_8l_source.html#l01931">checkAndOpenFile()</a>, <a class="el" href="../../db/dbc/fileinfo_8cpp_source.html#l00137">FileInfo::dirPath()</a>, <a class="el" href="../../db/dbc/fileinfo_8cpp_source.html#l00030">FileInfo::exists()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00492">Portable::isAbsolutePath()</a>, <a class="el" href="../../d0/da7/pre_8l_source.html#l01868">setFileName()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/da7/pre_8l_source.html#l01931">checkAndOpenFile()</a>, <a class="el" href="../../db/dbc/fileinfo_8cpp_source.html#l00137">FileInfo::dirPath()</a>, <a class="el" href="../../db/dbc/fileinfo_8cpp_source.html#l00030">FileInfo::exists()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00490">Portable::isAbsolutePath()</a>, <a class="el" href="../../d0/da7/pre_8l_source.html#l01868">setFileName()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/da7/pre_8l_source.html#l03122">readIncludeFile()</a>.</p>
 
