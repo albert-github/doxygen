@@ -246,25 +246,25 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00194">194</a> of file <a class="el" href="../../da/d0d/diagram_8cpp_source.html">diagram.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  195</span>{</div>
-<div class="line"><span class="lineno">  196</span>  <span class="keyword">auto</span> it = dil.begin();</div>
-<div class="line"><span class="lineno">  197</span>  <a class="code hl_enumeration" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4ded">Protection</a> result = <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4dedaaa82165706f5dd0859648a09f1f64166">Private</a>;</div>
-<div class="line"><span class="lineno">  198</span>  <span class="keywordflow">if</span> (it!=dil.end())</div>
-<div class="line"><span class="lineno">  199</span>  {</div>
-<div class="line"><span class="lineno">  200</span>    result=(*it)-&gt;protection();</div>
-<div class="line"><span class="lineno">  201</span>    <span class="keywordflow">for</span> (++it;it!=dil.end();++it)</div>
-<div class="line"><span class="lineno">  202</span>    {</div>
-<div class="line"><span class="lineno">  203</span>      <a class="code hl_enumeration" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4ded">Protection</a> p=(*it)-&gt;protection();</div>
-<div class="line"><span class="lineno">  204</span>      <span class="keywordflow">if</span> (p!=result)</div>
-<div class="line"><span class="lineno">  205</span>      {</div>
-<div class="line"><span class="lineno">  206</span>        <span class="keywordflow">if</span> (result==<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda72414112a6a45ab0b4b73e8b83d0b0f5">Protected</a> &amp;&amp; p==<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda2d47e20e63deb55d32228fde32f6b513">Public</a>) result=p;</div>
-<div class="line"><span class="lineno">  207</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (result==<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4dedaaa82165706f5dd0859648a09f1f64166">Private</a>) result=p;</div>
-<div class="line"><span class="lineno">  208</span>      }</div>
-<div class="line"><span class="lineno">  209</span>    }</div>
-<div class="line"><span class="lineno">  210</span>  }</div>
-<div class="line"><span class="lineno">  211</span>  <span class="keywordflow">return</span> result;</div>
-<div class="line"><span class="lineno">  212</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00195">195</a> of file <a class="el" href="../../da/d0d/diagram_8cpp_source.html">diagram.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  196</span>{</div>
+<div class="line"><span class="lineno">  197</span>  <span class="keyword">auto</span> it = dil.begin();</div>
+<div class="line"><span class="lineno">  198</span>  <a class="code hl_enumeration" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4ded">Protection</a> result = <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4dedaaa82165706f5dd0859648a09f1f64166">Private</a>;</div>
+<div class="line"><span class="lineno">  199</span>  <span class="keywordflow">if</span> (it!=dil.end())</div>
+<div class="line"><span class="lineno">  200</span>  {</div>
+<div class="line"><span class="lineno">  201</span>    result=(*it)-&gt;protection();</div>
+<div class="line"><span class="lineno">  202</span>    <span class="keywordflow">for</span> (++it;it!=dil.end();++it)</div>
+<div class="line"><span class="lineno">  203</span>    {</div>
+<div class="line"><span class="lineno">  204</span>      <a class="code hl_enumeration" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4ded">Protection</a> p=(*it)-&gt;protection();</div>
+<div class="line"><span class="lineno">  205</span>      <span class="keywordflow">if</span> (p!=result)</div>
+<div class="line"><span class="lineno">  206</span>      {</div>
+<div class="line"><span class="lineno">  207</span>        <span class="keywordflow">if</span> (result==<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda72414112a6a45ab0b4b73e8b83d0b0f5">Protected</a> &amp;&amp; p==<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda2d47e20e63deb55d32228fde32f6b513">Public</a>) result=p;</div>
+<div class="line"><span class="lineno">  208</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (result==<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4dedaaa82165706f5dd0859648a09f1f64166">Private</a>) result=p;</div>
+<div class="line"><span class="lineno">  209</span>      }</div>
+<div class="line"><span class="lineno">  210</span>    }</div>
+<div class="line"><span class="lineno">  211</span>  }</div>
+<div class="line"><span class="lineno">  212</span>  <span class="keywordflow">return</span> result;</div>
+<div class="line"><span class="lineno">  213</span>}</div>
 <div class="ttc" id="atypes_8h_html_a90e352184df58cd09455fe9996cd4ded"><div class="ttname"><a href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4ded">Protection</a></div><div class="ttdeci">Protection</div><div class="ttdoc">Protection level of members.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00026">types.h:26</a></div></div>
 <div class="ttc" id="atypes_8h_html_a90e352184df58cd09455fe9996cd4deda2d47e20e63deb55d32228fde32f6b513"><div class="ttname"><a href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda2d47e20e63deb55d32228fde32f6b513">Public</a></div><div class="ttdeci">@ Public</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00026">types.h:26</a></div></div>
 <div class="ttc" id="atypes_8h_html_a90e352184df58cd09455fe9996cd4deda72414112a6a45ab0b4b73e8b83d0b0f5"><div class="ttname"><a href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda72414112a6a45ab0b4b73e8b83d0b0f5">Protected</a></div><div class="ttdeci">@ Protected</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00026">types.h:26</a></div></div>
@@ -272,7 +272,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d9/d49/types_8h_source.html#l00026">Private</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00026">Protected</a>, and <a class="el" href="../../d9/d49/types_8h_source.html#l00026">Public</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00701">TreeDiagram::drawConnectors()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00702">TreeDiagram::drawConnectors()</a>.</p>
 
 </div>
 </div>
@@ -315,7 +315,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d9/d49/types_8h_source.html#l00026">Package</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00026">Private</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00026">Protected</a>, and <a class="el" href="../../d9/d49/types_8h_source.html#l00026">Public</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00701">TreeDiagram::drawConnectors()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00702">TreeDiagram::drawConnectors()</a>.</p>
 
 </div>
 </div>
@@ -357,7 +357,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d9/d49/types_8h_source.html#l00026">Package</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00026">Private</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00026">Protected</a>, and <a class="el" href="../../d9/d49/types_8h_source.html#l00026">Public</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00701">TreeDiagram::drawConnectors()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00702">TreeDiagram::drawConnectors()</a>.</p>
 
 </div>
 </div>
@@ -400,7 +400,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d9/d49/types_8h_source.html#l00026">Package</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00026">Private</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00026">Protected</a>, and <a class="el" href="../../d9/d49/types_8h_source.html#l00026">Public</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00701">TreeDiagram::drawConnectors()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00702">TreeDiagram::drawConnectors()</a>.</p>
 
 </div>
 </div>
@@ -434,16 +434,16 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno">  186</span>  {</div>
 <div class="line"><span class="lineno">  187</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#ab16236bdd10ddf4d73a9847350f0017ea5ecbcf0afce98b042f35ec71ba03fa4b">Normal</a>:    <span class="keywordflow">return</span> 0xffffffff;</div>
 <div class="line"><span class="lineno">  188</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#ab16236bdd10ddf4d73a9847350f0017ea297d23a3dfc1e710a551d79c0679348f">Virtual</a>:   <span class="keywordflow">return</span> 0xf0f0f0f0;</div>
-<div class="line"><span class="lineno">  189</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#ab16236bdd10ddf4d73a9847350f0017ea8a81b080f1c9509ceec0bf860140db73">Pure</a>   :   <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  189</span>    <span class="keywordflow">default</span>:        <span class="keywordflow">break</span>;</div>
 <div class="line"><span class="lineno">  190</span>  }</div>
-<div class="line"><span class="lineno">  191</span>}</div>
+<div class="line"><span class="lineno">  191</span>  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  192</span>}</div>
 <div class="ttc" id="atypes_8h_html_ab16236bdd10ddf4d73a9847350f0017ea297d23a3dfc1e710a551d79c0679348f"><div class="ttname"><a href="../../d9/d49/types_8h.html#ab16236bdd10ddf4d73a9847350f0017ea297d23a3dfc1e710a551d79c0679348f">Virtual</a></div><div class="ttdeci">@ Virtual</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00029">types.h:29</a></div></div>
 <div class="ttc" id="atypes_8h_html_ab16236bdd10ddf4d73a9847350f0017ea5ecbcf0afce98b042f35ec71ba03fa4b"><div class="ttname"><a href="../../d9/d49/types_8h.html#ab16236bdd10ddf4d73a9847350f0017ea5ecbcf0afce98b042f35ec71ba03fa4b">Normal</a></div><div class="ttdeci">@ Normal</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00029">types.h:29</a></div></div>
-<div class="ttc" id="atypes_8h_html_ab16236bdd10ddf4d73a9847350f0017ea8a81b080f1c9509ceec0bf860140db73"><div class="ttname"><a href="../../d9/d49/types_8h.html#ab16236bdd10ddf4d73a9847350f0017ea8a81b080f1c9509ceec0bf860140db73">Pure</a></div><div class="ttdeci">@ Pure</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00029">types.h:29</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d9/d49/types_8h_source.html#l00029">Normal</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00029">Pure</a>, and <a class="el" href="../../d9/d49/types_8h_source.html#l00029">Virtual</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d49/types_8h_source.html#l00029">Normal</a>, and <a class="el" href="../../d9/d49/types_8h_source.html#l00029">Virtual</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00214">writeBitmapBox()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00215">writeBitmapBox()</a>.</p>
 
 </div>
 </div>
@@ -523,26 +523,26 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00214">214</a> of file <a class="el" href="../../da/d0d/diagram_8cpp_source.html">diagram.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  217</span>{</div>
-<div class="line"><span class="lineno">  218</span>  <a class="code hl_typedef" href="../../d7/d5c/qcstring_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> colFill = hasDocs ? (firstRow ? 8 : 2) : 7;</div>
-<div class="line"><span class="lineno">  219</span>  <a class="code hl_typedef" href="../../d7/d5c/qcstring_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> colBorder = (firstRow || !hasDocs) ? 1 : 3;</div>
-<div class="line"><span class="lineno">  220</span>  <a class="code hl_typedef" href="../../d7/d5c/qcstring_8h.html#a4d3943ddea65db7163a58e6c7e8df95a">uint</a> l = <a class="code hl_friend" href="../../de/d73/class_image.html#af079f072be99784d939a2a0edf2d730e">Image::stringLength</a>(di-&gt;<a class="code hl_function" href="../../d0/d78/class_diagram_item.html#ab0d5760c4d7ff79eb2ed90652a825b54">label</a>());</div>
-<div class="line"><span class="lineno">  221</span>  <a class="code hl_typedef" href="../../d7/d5c/qcstring_8h.html#a4d3943ddea65db7163a58e6c7e8df95a">uint</a> mask=<a class="code hl_function" href="../../da/d0d/diagram_8cpp.html#a463d9e5db57b130f09a1061ea77c202a">virtToMask</a>(di-&gt;<a class="code hl_function" href="../../d0/d78/class_diagram_item.html#a11ec77d7b8a9920793793ead700627e1">virtualness</a>());</div>
-<div class="line"><span class="lineno">  222</span>  image-&gt;<a class="code hl_function" href="../../de/d73/class_image.html#aff3c649242084845e057e1f7270e726e">fillRect</a>(x+1,y+1,w-2,h-2,colFill,mask);</div>
-<div class="line"><span class="lineno">  223</span>  image-&gt;<a class="code hl_function" href="../../de/d73/class_image.html#a8c62666c18fd0df4b81c03a1251415be">drawRect</a>(x,y,w,h,colBorder,mask);</div>
-<div class="line"><span class="lineno">  224</span>  image-&gt;<a class="code hl_function" href="../../de/d73/class_image.html#a53236e506ff36b370eff655b5d062c53">writeString</a>(x+(w-l)/2, y+(h-<a class="code hl_variable" href="../../da/d0d/diagram_8cpp.html#a2028b5b9a983ed4a8e4fed382c97a3fe">fontHeight</a>)/2, di-&gt;<a class="code hl_function" href="../../d0/d78/class_diagram_item.html#ab0d5760c4d7ff79eb2ed90652a825b54">label</a>(),1);</div>
-<div class="line"><span class="lineno">  225</span>  <span class="keywordflow">if</span> (children)</div>
-<div class="line"><span class="lineno">  226</span>  {</div>
-<div class="line"><span class="lineno">  227</span>    <a class="code hl_typedef" href="../../d7/d5c/qcstring_8h.html#a4d3943ddea65db7163a58e6c7e8df95a">uint</a> i;</div>
-<div class="line"><span class="lineno">  228</span>    <span class="keywordflow">for</span> (i=0;i&lt;5;i++)</div>
-<div class="line"><span class="lineno">  229</span>    {</div>
-<div class="line"><span class="lineno">  230</span>      image-&gt;<a class="code hl_function" href="../../de/d73/class_image.html#aa05e82338cdada0f1d12ca338e96ddfc">drawHorzLine</a>(y+h+i-6,x+w-2-i,x+w-2,firstRow?1:3,0xffffffff);</div>
-<div class="line"><span class="lineno">  231</span>    }</div>
-<div class="line"><span class="lineno">  232</span>  }</div>
-<div class="line"><span class="lineno">  233</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00215">215</a> of file <a class="el" href="../../da/d0d/diagram_8cpp_source.html">diagram.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  218</span>{</div>
+<div class="line"><span class="lineno">  219</span>  <a class="code hl_typedef" href="../../d7/d5c/qcstring_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> colFill = hasDocs ? (firstRow ? 8 : 2) : 7;</div>
+<div class="line"><span class="lineno">  220</span>  <a class="code hl_typedef" href="../../d7/d5c/qcstring_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> colBorder = (firstRow || !hasDocs) ? 1 : 3;</div>
+<div class="line"><span class="lineno">  221</span>  <a class="code hl_typedef" href="../../d7/d5c/qcstring_8h.html#a4d3943ddea65db7163a58e6c7e8df95a">uint</a> l = <a class="code hl_friend" href="../../de/d73/class_image.html#af079f072be99784d939a2a0edf2d730e">Image::stringLength</a>(di-&gt;<a class="code hl_function" href="../../d0/d78/class_diagram_item.html#ab0d5760c4d7ff79eb2ed90652a825b54">label</a>());</div>
+<div class="line"><span class="lineno">  222</span>  <a class="code hl_typedef" href="../../d7/d5c/qcstring_8h.html#a4d3943ddea65db7163a58e6c7e8df95a">uint</a> mask=<a class="code hl_function" href="../../da/d0d/diagram_8cpp.html#a463d9e5db57b130f09a1061ea77c202a">virtToMask</a>(di-&gt;<a class="code hl_function" href="../../d0/d78/class_diagram_item.html#a11ec77d7b8a9920793793ead700627e1">virtualness</a>());</div>
+<div class="line"><span class="lineno">  223</span>  image-&gt;<a class="code hl_function" href="../../de/d73/class_image.html#aff3c649242084845e057e1f7270e726e">fillRect</a>(x+1,y+1,w-2,h-2,colFill,mask);</div>
+<div class="line"><span class="lineno">  224</span>  image-&gt;<a class="code hl_function" href="../../de/d73/class_image.html#a8c62666c18fd0df4b81c03a1251415be">drawRect</a>(x,y,w,h,colBorder,mask);</div>
+<div class="line"><span class="lineno">  225</span>  image-&gt;<a class="code hl_function" href="../../de/d73/class_image.html#a53236e506ff36b370eff655b5d062c53">writeString</a>(x+(w-l)/2, y+(h-<a class="code hl_variable" href="../../da/d0d/diagram_8cpp.html#a2028b5b9a983ed4a8e4fed382c97a3fe">fontHeight</a>)/2, di-&gt;<a class="code hl_function" href="../../d0/d78/class_diagram_item.html#ab0d5760c4d7ff79eb2ed90652a825b54">label</a>(),1);</div>
+<div class="line"><span class="lineno">  226</span>  <span class="keywordflow">if</span> (children)</div>
+<div class="line"><span class="lineno">  227</span>  {</div>
+<div class="line"><span class="lineno">  228</span>    <a class="code hl_typedef" href="../../d7/d5c/qcstring_8h.html#a4d3943ddea65db7163a58e6c7e8df95a">uint</a> i;</div>
+<div class="line"><span class="lineno">  229</span>    <span class="keywordflow">for</span> (i=0;i&lt;5;i++)</div>
+<div class="line"><span class="lineno">  230</span>    {</div>
+<div class="line"><span class="lineno">  231</span>      image-&gt;<a class="code hl_function" href="../../de/d73/class_image.html#aa05e82338cdada0f1d12ca338e96ddfc">drawHorzLine</a>(y+h+i-6,x+w-2-i,x+w-2,firstRow?1:3,0xffffffff);</div>
+<div class="line"><span class="lineno">  232</span>    }</div>
+<div class="line"><span class="lineno">  233</span>  }</div>
+<div class="line"><span class="lineno">  234</span>}</div>
 <div class="ttc" id="aclass_diagram_item_html_a11ec77d7b8a9920793793ead700627e1"><div class="ttname"><a href="../../d0/d78/class_diagram_item.html#a11ec77d7b8a9920793793ead700627e1">DiagramItem::virtualness</a></div><div class="ttdeci">Specifier virtualness() const</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d0d/diagram_8cpp_source.html#l00057">diagram.cpp:57</a></div></div>
-<div class="ttc" id="aclass_diagram_item_html_ab0d5760c4d7ff79eb2ed90652a825b54"><div class="ttname"><a href="../../d0/d78/class_diagram_item.html#ab0d5760c4d7ff79eb2ed90652a825b54">DiagramItem::label</a></div><div class="ttdeci">QCString label() const</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d0d/diagram_8cpp_source.html#l00281">diagram.cpp:281</a></div></div>
+<div class="ttc" id="aclass_diagram_item_html_ab0d5760c4d7ff79eb2ed90652a825b54"><div class="ttname"><a href="../../d0/d78/class_diagram_item.html#ab0d5760c4d7ff79eb2ed90652a825b54">DiagramItem::label</a></div><div class="ttdeci">QCString label() const</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d0d/diagram_8cpp_source.html#l00282">diagram.cpp:282</a></div></div>
 <div class="ttc" id="aclass_image_html_a53236e506ff36b370eff655b5d062c53"><div class="ttname"><a href="../../de/d73/class_image.html#a53236e506ff36b370eff655b5d062c53">Image::writeString</a></div><div class="ttdeci">void writeString(uint x, uint y, const QCString &amp;s, uchar fg)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d11/image_8cpp_source.html#l00257">image.cpp:257</a></div></div>
 <div class="ttc" id="aclass_image_html_a8c62666c18fd0df4b81c03a1251415be"><div class="ttname"><a href="../../de/d73/class_image.html#a8c62666c18fd0df4b81c03a1251415be">Image::drawRect</a></div><div class="ttdeci">void drawRect(uint x, uint y, uint width, uint height, uchar colIndex, uint mask)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d11/image_8cpp_source.html#l00324">image.cpp:324</a></div></div>
 <div class="ttc" id="aclass_image_html_aa05e82338cdada0f1d12ca338e96ddfc"><div class="ttname"><a href="../../de/d73/class_image.html#aa05e82338cdada0f1d12ca338e96ddfc">Image::drawHorzLine</a></div><div class="ttdeci">void drawHorzLine(uint y, uint xs, uint xe, uchar colIndex, uint mask)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d11/image_8cpp_source.html#l00283">image.cpp:283</a></div></div>
@@ -553,9 +553,9 @@ Variables</h2></td></tr>
 <div class="ttc" id="aqcstring_8h_html_a4d3943ddea65db7163a58e6c7e8df95a"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#a4d3943ddea65db7163a58e6c7e8df95a">uint</a></div><div class="ttdeci">unsigned uint</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00040">qcstring.h:40</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_a65f85814a8290f9797005d3b28e7e5fc"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a></div><div class="ttdeci">unsigned char uchar</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00038">qcstring.h:38</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d11/image_8cpp_source.html#l00283">Image::drawHorzLine()</a>, <a class="el" href="../../db/d11/image_8cpp_source.html#l00324">Image::drawRect()</a>, <a class="el" href="../../db/d11/image_8cpp_source.html#l00332">Image::fillRect()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00145">fontHeight</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00281">DiagramItem::label()</a>, <a class="el" href="../../db/d11/image_8cpp_source.html#l00271">Image::stringLength</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00183">virtToMask()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00057">DiagramItem::virtualness()</a>, and <a class="el" href="../../db/d11/image_8cpp_source.html#l00257">Image::writeString()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d11/image_8cpp_source.html#l00283">Image::drawHorzLine()</a>, <a class="el" href="../../db/d11/image_8cpp_source.html#l00324">Image::drawRect()</a>, <a class="el" href="../../db/d11/image_8cpp_source.html#l00332">Image::fillRect()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00145">fontHeight</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00282">DiagramItem::label()</a>, <a class="el" href="../../db/d11/image_8cpp_source.html#l00271">Image::stringLength</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00183">virtToMask()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00057">DiagramItem::virtualness()</a>, and <a class="el" href="../../db/d11/image_8cpp_source.html#l00257">Image::writeString()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00571">TreeDiagram::drawBoxes()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00572">TreeDiagram::drawBoxes()</a>.</p>
 
 </div>
 </div>
@@ -623,34 +623,34 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00244">244</a> of file <a class="el" href="../../da/d0d/diagram_8cpp_source.html">diagram.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  246</span>{</div>
-<div class="line"><span class="lineno">  247</span>  <span class="keywordflow">if</span> (cd-&gt;<a class="code hl_function" href="../../d1/dcf/class_class_def.html#a659ebf886a21ea56b51354c22b91b0dc">isLinkable</a>())</div>
-<div class="line"><span class="lineno">  248</span>  {</div>
-<div class="line"><span class="lineno">  249</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> ref=cd-&gt;<a class="code hl_function" href="../../d1/dcf/class_class_def.html#a5ca8b91f73e7989abdceb8958dcb0b59">getReference</a>();</div>
-<div class="line"><span class="lineno">  250</span>    t &lt;&lt; <span class="stringliteral">&quot;&lt;area &quot;</span>;</div>
-<div class="line"><span class="lineno">  251</span>    <span class="keywordflow">if</span> (!ref.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
-<div class="line"><span class="lineno">  252</span>    {</div>
-<div class="line"><span class="lineno">  253</span>      t &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#ad3f3c94bc6e432d34fa1a51db3b7d5e2">externalLinkTarget</a>(<span class="keyword">true</span>);</div>
-<div class="line"><span class="lineno">  254</span>    }</div>
-<div class="line"><span class="lineno">  255</span>    t &lt;&lt; <span class="stringliteral">&quot;href=\&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno">  256</span>    t &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a06ba0c2593b3fd5f103151bd342e206f">externalRef</a>(relPath,ref,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>);</div>
-<div class="line"><span class="lineno">  257</span>    t &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a36c74291c5a9adc05d5cb6c0932f6b82">addHtmlExtensionIfMissing</a>(cd-&gt;<a class="code hl_function" href="../../d1/dcf/class_class_def.html#a12a8f241e90a0cb0bdf19c27bf2025b0">getOutputFileBase</a>());</div>
-<div class="line"><span class="lineno">  258</span>    <span class="keywordflow">if</span> (!cd-&gt;<a class="code hl_function" href="../../d1/dcf/class_class_def.html#a7016b59e40eefbd4e9a1cc6fa43e0bff">anchor</a>().<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
-<div class="line"><span class="lineno">  259</span>    {</div>
-<div class="line"><span class="lineno">  260</span>      t &lt;&lt; <span class="stringliteral">&quot;#&quot;</span> &lt;&lt; cd-&gt;<a class="code hl_function" href="../../d1/dcf/class_class_def.html#a7016b59e40eefbd4e9a1cc6fa43e0bff">anchor</a>();</div>
-<div class="line"><span class="lineno">  261</span>    }</div>
-<div class="line"><span class="lineno">  262</span>    t &lt;&lt; <span class="stringliteral">&quot;\&quot; &quot;</span>;</div>
-<div class="line"><span class="lineno">  263</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> tooltip = cd-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#a5915353219702c6ea73cc1476bda793a">briefDescriptionAsTooltip</a>();</div>
-<div class="line"><span class="lineno">  264</span>    <span class="keywordflow">if</span> (!tooltip.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
-<div class="line"><span class="lineno">  265</span>    {</div>
-<div class="line"><span class="lineno">  266</span>      t &lt;&lt; <span class="stringliteral">&quot;title=\&quot;&quot;</span> &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a2a3368111f86b401c8f223cd7374b5ac">convertToHtml</a>(tooltip) &lt;&lt; <span class="stringliteral">&quot;\&quot; &quot;</span>;</div>
-<div class="line"><span class="lineno">  267</span>    }</div>
-<div class="line"><span class="lineno">  268</span>    t &lt;&lt; <span class="stringliteral">&quot;alt=\&quot;&quot;</span> &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a93c7f78ab05807663dd8947d0dd5423f">convertToXML</a>(cd-&gt;<a class="code hl_function" href="../../d1/dcf/class_class_def.html#af634536e75a73d841ccd9f5dae55d4c2">displayName</a>());</div>
-<div class="line"><span class="lineno">  269</span>    t &lt;&lt; <span class="stringliteral">&quot;\&quot; shape=\&quot;rect\&quot; coords=\&quot;&quot;</span> &lt;&lt; x &lt;&lt; <span class="stringliteral">&quot;,&quot;</span> &lt;&lt; y &lt;&lt; <span class="stringliteral">&quot;,&quot;</span>;</div>
-<div class="line"><span class="lineno">  270</span>    t &lt;&lt; (x+w) &lt;&lt; <span class="stringliteral">&quot;,&quot;</span> &lt;&lt; (y+h) &lt;&lt; <span class="stringliteral">&quot;\&quot;/&gt;\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  271</span>  }</div>
-<div class="line"><span class="lineno">  272</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00245">245</a> of file <a class="el" href="../../da/d0d/diagram_8cpp_source.html">diagram.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  247</span>{</div>
+<div class="line"><span class="lineno">  248</span>  <span class="keywordflow">if</span> (cd-&gt;<a class="code hl_function" href="../../d1/dcf/class_class_def.html#a659ebf886a21ea56b51354c22b91b0dc">isLinkable</a>())</div>
+<div class="line"><span class="lineno">  249</span>  {</div>
+<div class="line"><span class="lineno">  250</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> ref=cd-&gt;<a class="code hl_function" href="../../d1/dcf/class_class_def.html#a5ca8b91f73e7989abdceb8958dcb0b59">getReference</a>();</div>
+<div class="line"><span class="lineno">  251</span>    t &lt;&lt; <span class="stringliteral">&quot;&lt;area &quot;</span>;</div>
+<div class="line"><span class="lineno">  252</span>    <span class="keywordflow">if</span> (!ref.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
+<div class="line"><span class="lineno">  253</span>    {</div>
+<div class="line"><span class="lineno">  254</span>      t &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#ad3f3c94bc6e432d34fa1a51db3b7d5e2">externalLinkTarget</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  255</span>    }</div>
+<div class="line"><span class="lineno">  256</span>    t &lt;&lt; <span class="stringliteral">&quot;href=\&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno">  257</span>    t &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a06ba0c2593b3fd5f103151bd342e206f">externalRef</a>(relPath,ref,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>);</div>
+<div class="line"><span class="lineno">  258</span>    t &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a36c74291c5a9adc05d5cb6c0932f6b82">addHtmlExtensionIfMissing</a>(cd-&gt;<a class="code hl_function" href="../../d1/dcf/class_class_def.html#a12a8f241e90a0cb0bdf19c27bf2025b0">getOutputFileBase</a>());</div>
+<div class="line"><span class="lineno">  259</span>    <span class="keywordflow">if</span> (!cd-&gt;<a class="code hl_function" href="../../d1/dcf/class_class_def.html#a7016b59e40eefbd4e9a1cc6fa43e0bff">anchor</a>().<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
+<div class="line"><span class="lineno">  260</span>    {</div>
+<div class="line"><span class="lineno">  261</span>      t &lt;&lt; <span class="stringliteral">&quot;#&quot;</span> &lt;&lt; cd-&gt;<a class="code hl_function" href="../../d1/dcf/class_class_def.html#a7016b59e40eefbd4e9a1cc6fa43e0bff">anchor</a>();</div>
+<div class="line"><span class="lineno">  262</span>    }</div>
+<div class="line"><span class="lineno">  263</span>    t &lt;&lt; <span class="stringliteral">&quot;\&quot; &quot;</span>;</div>
+<div class="line"><span class="lineno">  264</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> tooltip = cd-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#a5915353219702c6ea73cc1476bda793a">briefDescriptionAsTooltip</a>();</div>
+<div class="line"><span class="lineno">  265</span>    <span class="keywordflow">if</span> (!tooltip.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
+<div class="line"><span class="lineno">  266</span>    {</div>
+<div class="line"><span class="lineno">  267</span>      t &lt;&lt; <span class="stringliteral">&quot;title=\&quot;&quot;</span> &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a2a3368111f86b401c8f223cd7374b5ac">convertToHtml</a>(tooltip) &lt;&lt; <span class="stringliteral">&quot;\&quot; &quot;</span>;</div>
+<div class="line"><span class="lineno">  268</span>    }</div>
+<div class="line"><span class="lineno">  269</span>    t &lt;&lt; <span class="stringliteral">&quot;alt=\&quot;&quot;</span> &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a93c7f78ab05807663dd8947d0dd5423f">convertToXML</a>(cd-&gt;<a class="code hl_function" href="../../d1/dcf/class_class_def.html#af634536e75a73d841ccd9f5dae55d4c2">displayName</a>());</div>
+<div class="line"><span class="lineno">  270</span>    t &lt;&lt; <span class="stringliteral">&quot;\&quot; shape=\&quot;rect\&quot; coords=\&quot;&quot;</span> &lt;&lt; x &lt;&lt; <span class="stringliteral">&quot;,&quot;</span> &lt;&lt; y &lt;&lt; <span class="stringliteral">&quot;,&quot;</span>;</div>
+<div class="line"><span class="lineno">  271</span>    t &lt;&lt; (x+w) &lt;&lt; <span class="stringliteral">&quot;,&quot;</span> &lt;&lt; (y+h) &lt;&lt; <span class="stringliteral">&quot;\&quot;/&gt;\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  272</span>  }</div>
+<div class="line"><span class="lineno">  273</span>}</div>
 <div class="ttc" id="aclass_class_def_html_a12a8f241e90a0cb0bdf19c27bf2025b0"><div class="ttname"><a href="../../d1/dcf/class_class_def.html#a12a8f241e90a0cb0bdf19c27bf2025b0">ClassDef::getOutputFileBase</a></div><div class="ttdeci">virtual QCString getOutputFileBase() const =0</div><div class="ttdoc">Returns the unique base name (without extension) of the class's file on disk.</div></div>
 <div class="ttc" id="aclass_class_def_html_a5ca8b91f73e7989abdceb8958dcb0b59"><div class="ttname"><a href="../../d1/dcf/class_class_def.html#a5ca8b91f73e7989abdceb8958dcb0b59">ClassDef::getReference</a></div><div class="ttdeci">virtual QCString getReference() const =0</div><div class="ttdoc">If this class originated from a tagfile, this will return the tag file reference.</div></div>
 <div class="ttc" id="aclass_class_def_html_a659ebf886a21ea56b51354c22b91b0dc"><div class="ttname"><a href="../../d1/dcf/class_class_def.html#a659ebf886a21ea56b51354c22b91b0dc">ClassDef::isLinkable</a></div><div class="ttdeci">virtual bool isLinkable() const =0</div><div class="ttdoc">return TRUE iff a link to this class is possible (either within this project, or as a cross-reference...</div></div>
@@ -667,7 +667,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../df/d2d/util_8cpp_source.html#l05369">addHtmlExtensionIfMissing()</a>, <a class="el" href="../../d1/dcf/class_class_def.html#a7016b59e40eefbd4e9a1cc6fa43e0bff">ClassDef::anchor()</a>, <a class="el" href="../../d5/dcc/class_definition.html#a5915353219702c6ea73cc1476bda793a">Definition::briefDescriptionAsTooltip()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04153">convertToHtml()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04037">convertToXML()</a>, <a class="el" href="../../d1/dcf/class_class_def.html#af634536e75a73d841ccd9f5dae55d4c2">ClassDef::displayName()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l06461">externalLinkTarget()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l06472">externalRef()</a>, <a class="el" href="../../d1/dcf/class_class_def.html#a12a8f241e90a0cb0bdf19c27bf2025b0">ClassDef::getOutputFileBase()</a>, <a class="el" href="../../d1/dcf/class_class_def.html#a5ca8b91f73e7989abdceb8958dcb0b59">ClassDef::getReference()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d1/dcf/class_class_def.html#a659ebf886a21ea56b51354c22b91b0dc">ClassDef::isLinkable()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00571">TreeDiagram::drawBoxes()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00572">TreeDiagram::drawBoxes()</a>.</p>
 
 </div>
 </div>
@@ -723,18 +723,18 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00235">235</a> of file <a class="el" href="../../da/d0d/diagram_8cpp_source.html">diagram.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  237</span>{</div>
-<div class="line"><span class="lineno">  238</span>  <span class="keywordflow">if</span> (di-&gt;<a class="code hl_function" href="../../d0/d78/class_diagram_item.html#a11ec77d7b8a9920793793ead700627e1">virtualness</a>()==<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#ab16236bdd10ddf4d73a9847350f0017ea297d23a3dfc1e710a551d79c0679348f">Virtual</a>) t &lt;&lt; <span class="stringliteral">&quot;dashed\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  239</span>  t &lt;&lt; <span class="stringliteral">&quot; (&quot;</span> &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a2387fed870bd881eb6552bf8ea8d6677">convertToPSString</a>(di-&gt;<a class="code hl_function" href="../../d0/d78/class_diagram_item.html#ab0d5760c4d7ff79eb2ed90652a825b54">label</a>()) &lt;&lt; <span class="stringliteral">&quot;) &quot;</span> &lt;&lt; x &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; y &lt;&lt; <span class="stringliteral">&quot; box\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  240</span>  <span class="keywordflow">if</span> (children) t &lt;&lt; x &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; y &lt;&lt; <span class="stringliteral">&quot; mark\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  241</span>  <span class="keywordflow">if</span> (di-&gt;<a class="code hl_function" href="../../d0/d78/class_diagram_item.html#a11ec77d7b8a9920793793ead700627e1">virtualness</a>()==<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#ab16236bdd10ddf4d73a9847350f0017ea297d23a3dfc1e710a551d79c0679348f">Virtual</a>) t &lt;&lt; <span class="stringliteral">&quot;solid\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  242</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00236">236</a> of file <a class="el" href="../../da/d0d/diagram_8cpp_source.html">diagram.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  238</span>{</div>
+<div class="line"><span class="lineno">  239</span>  <span class="keywordflow">if</span> (di-&gt;<a class="code hl_function" href="../../d0/d78/class_diagram_item.html#a11ec77d7b8a9920793793ead700627e1">virtualness</a>()==<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#ab16236bdd10ddf4d73a9847350f0017ea297d23a3dfc1e710a551d79c0679348f">Virtual</a>) t &lt;&lt; <span class="stringliteral">&quot;dashed\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  240</span>  t &lt;&lt; <span class="stringliteral">&quot; (&quot;</span> &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a2387fed870bd881eb6552bf8ea8d6677">convertToPSString</a>(di-&gt;<a class="code hl_function" href="../../d0/d78/class_diagram_item.html#ab0d5760c4d7ff79eb2ed90652a825b54">label</a>()) &lt;&lt; <span class="stringliteral">&quot;) &quot;</span> &lt;&lt; x &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; y &lt;&lt; <span class="stringliteral">&quot; box\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  241</span>  <span class="keywordflow">if</span> (children) t &lt;&lt; x &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; y &lt;&lt; <span class="stringliteral">&quot; mark\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  242</span>  <span class="keywordflow">if</span> (di-&gt;<a class="code hl_function" href="../../d0/d78/class_diagram_item.html#a11ec77d7b8a9920793793ead700627e1">virtualness</a>()==<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#ab16236bdd10ddf4d73a9847350f0017ea297d23a3dfc1e710a551d79c0679348f">Virtual</a>) t &lt;&lt; <span class="stringliteral">&quot;solid\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  243</span>}</div>
 <div class="ttc" id="autil_8cpp_html_a2387fed870bd881eb6552bf8ea8d6677"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a2387fed870bd881eb6552bf8ea8d6677">convertToPSString</a></div><div class="ttdeci">QCString convertToPSString(const QCString &amp;s)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l04232">util.cpp:4232</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d2d/util_8cpp_source.html#l04232">convertToPSString()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00281">DiagramItem::label()</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00029">Virtual</a>, and <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00057">DiagramItem::virtualness()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d2d/util_8cpp_source.html#l04232">convertToPSString()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00282">DiagramItem::label()</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00029">Virtual</a>, and <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00057">DiagramItem::virtualness()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00571">TreeDiagram::drawBoxes()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00572">TreeDiagram::drawBoxes()</a>.</p>
 
 </div>
 </div>
@@ -753,7 +753,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00145">145</a> of file <a class="el" href="../../da/d0d/diagram_8cpp_source.html">diagram.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00214">writeBitmapBox()</a>, and <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l01345">ClassDiagram::writeImage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00215">writeBitmapBox()</a>, and <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l01346">ClassDiagram::writeImage()</a>.</p>
 
 </div>
 </div>
@@ -771,7 +771,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00140">140</a> of file <a class="el" href="../../da/d0d/diagram_8cpp_source.html">diagram.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00571">TreeDiagram::drawBoxes()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00701">TreeDiagram::drawConnectors()</a>, and <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00334">DiagramRow::insertClass()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00572">TreeDiagram::drawBoxes()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00702">TreeDiagram::drawConnectors()</a>, and <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00335">DiagramRow::insertClass()</a>.</p>
 
 </div>
 </div>
@@ -789,7 +789,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00139">139</a> of file <a class="el" href="../../da/d0d/diagram_8cpp_source.html">diagram.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00437">TreeDiagram::computeLayout()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00571">TreeDiagram::drawBoxes()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00701">TreeDiagram::drawConnectors()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00334">DiagramRow::insertClass()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l01050">ClassDiagram::writeFigure()</a>, and <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l01345">ClassDiagram::writeImage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00438">TreeDiagram::computeLayout()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00572">TreeDiagram::drawBoxes()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00702">TreeDiagram::drawConnectors()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00335">DiagramRow::insertClass()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l01051">ClassDiagram::writeFigure()</a>, and <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l01346">ClassDiagram::writeImage()</a>.</p>
 
 </div>
 </div>
@@ -807,7 +807,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00144">144</a> of file <a class="el" href="../../da/d0d/diagram_8cpp_source.html">diagram.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l01345">ClassDiagram::writeImage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l01346">ClassDiagram::writeImage()</a>.</p>
 
 </div>
 </div>
@@ -825,7 +825,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00142">142</a> of file <a class="el" href="../../da/d0d/diagram_8cpp_source.html">diagram.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00571">TreeDiagram::drawBoxes()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00701">TreeDiagram::drawConnectors()</a>, and <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l01345">ClassDiagram::writeImage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00572">TreeDiagram::drawBoxes()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00702">TreeDiagram::drawConnectors()</a>, and <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l01346">ClassDiagram::writeImage()</a>.</p>
 
 </div>
 </div>
@@ -843,7 +843,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00143">143</a> of file <a class="el" href="../../da/d0d/diagram_8cpp_source.html">diagram.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00571">TreeDiagram::drawBoxes()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00701">TreeDiagram::drawConnectors()</a>, and <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l01345">ClassDiagram::writeImage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00572">TreeDiagram::drawBoxes()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00702">TreeDiagram::drawConnectors()</a>, and <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l01346">ClassDiagram::writeImage()</a>.</p>
 
 </div>
 </div>
@@ -861,7 +861,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00138">138</a> of file <a class="el" href="../../da/d0d/diagram_8cpp_source.html">diagram.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00437">TreeDiagram::computeLayout()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00438">TreeDiagram::computeLayout()</a>.</p>
 
 </div>
 </div>
