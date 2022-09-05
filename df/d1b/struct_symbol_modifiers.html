@@ -312,32 +312,32 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p >Adds passed yyextra-&gt;modifiers to these yyextra-&gt;modifiers. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01964">1964</a> of file <a class="el" href="../../dd/d00/fortranscanner_8l_source.html">fortranscanner.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1965</span>{</div>
-<div class="line"><span class="lineno"> 1966</span>  <span class="keywordflow">if</span> (mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#add511aaa15123dd20538a4e23415b91e">protection</a>!=<a class="code hl_enumvalue" href="../../df/d1b/struct_symbol_modifiers.html#a6c76745fa39de2b90353729fe62c6708ae43158532fe3de25bbe6661d6fdef5d0">NONE_P</a>) <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#add511aaa15123dd20538a4e23415b91e">protection</a> = mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#add511aaa15123dd20538a4e23415b91e">protection</a>;</div>
-<div class="line"><span class="lineno"> 1967</span>  <span class="keywordflow">if</span> (mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a60ca7cc66daff6cdae19b5d4162f77a4">direction</a>!=<a class="code hl_enumvalue" href="../../df/d1b/struct_symbol_modifiers.html#aceec8152eeb6c06b8dbe03ef14fed6a4ace26f25fe9aa85a4d1b93a09af862d8b">NONE_D</a>) <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a60ca7cc66daff6cdae19b5d4162f77a4">direction</a> = mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a60ca7cc66daff6cdae19b5d4162f77a4">direction</a>;</div>
-<div class="line"><span class="lineno"> 1968</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#aa6211c1be3fd479e53a26b498e5fc94b">optional</a> |= mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#aa6211c1be3fd479e53a26b498e5fc94b">optional</a>;</div>
-<div class="line"><span class="lineno"> 1969</span>  <span class="keywordflow">if</span> (!mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a3e997f886dd5832f1f8ae64aadca020c">dimension</a>.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a31246261e7f2ae130c9235969b79075a">isNull</a>()) <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a3e997f886dd5832f1f8ae64aadca020c">dimension</a> = mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a3e997f886dd5832f1f8ae64aadca020c">dimension</a>;</div>
-<div class="line"><span class="lineno"> 1970</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a3a7425ed3b345a52a97a37850cecf54d">allocatable</a> |= mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a3a7425ed3b345a52a97a37850cecf54d">allocatable</a>;</div>
-<div class="line"><span class="lineno"> 1971</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a3187a1ff0724dbcff6cf591cd815bd78">external</a> |= mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a3187a1ff0724dbcff6cf591cd815bd78">external</a>;</div>
-<div class="line"><span class="lineno"> 1972</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a9df901b470a76a04f234ff6863f1dca1">intrinsic</a> |= mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a9df901b470a76a04f234ff6863f1dca1">intrinsic</a>;</div>
-<div class="line"><span class="lineno"> 1973</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a391410448831f7e0e967635319e16d73">protect</a> |= mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a391410448831f7e0e967635319e16d73">protect</a>;</div>
-<div class="line"><span class="lineno"> 1974</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a3237efa8834ef0f47b9e14284e1db710">parameter</a> |= mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a3237efa8834ef0f47b9e14284e1db710">parameter</a>;</div>
-<div class="line"><span class="lineno"> 1975</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#ac783671e5116d72c93935bb9bf7c2cb8">pointer</a> |= mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#ac783671e5116d72c93935bb9bf7c2cb8">pointer</a>;</div>
-<div class="line"><span class="lineno"> 1976</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a10971e3ef27a2e20c71a769c6d237807">target</a> |= mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a10971e3ef27a2e20c71a769c6d237807">target</a>;</div>
-<div class="line"><span class="lineno"> 1977</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a25d1321a621eb7496f4e2e3ac99b0842">save</a> |= mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a25d1321a621eb7496f4e2e3ac99b0842">save</a>;</div>
-<div class="line"><span class="lineno"> 1978</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a2aad749396a02ead46410d78da584e9a">deferred</a> |= mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a2aad749396a02ead46410d78da584e9a">deferred</a>;</div>
-<div class="line"><span class="lineno"> 1979</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a1500769a8e0054bb142980765556c923">nonoverridable</a> |= mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a1500769a8e0054bb142980765556c923">nonoverridable</a>;</div>
-<div class="line"><span class="lineno"> 1980</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#adcd51442f97dbef24a66a86ecd231fda">nopass</a> |= mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#adcd51442f97dbef24a66a86ecd231fda">nopass</a>;</div>
-<div class="line"><span class="lineno"> 1981</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#af73c8f692ea33c3d1250adc8e4a1b946">pass</a> |= mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#af73c8f692ea33c3d1250adc8e4a1b946">pass</a>;</div>
-<div class="line"><span class="lineno"> 1982</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#aa087f0ac7c16038e40ba11ad1b66c635">passVar</a> = mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#aa087f0ac7c16038e40ba11ad1b66c635">passVar</a>;</div>
-<div class="line"><span class="lineno"> 1983</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a951fe24444c6f9225d468ce28f69c044">bindVar</a> = mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a951fe24444c6f9225d468ce28f69c044">bindVar</a>;</div>
-<div class="line"><span class="lineno"> 1984</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#af53aa7a23a005f7e861977192ea549ad">contiguous</a> |= mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#af53aa7a23a005f7e861977192ea549ad">contiguous</a>;</div>
-<div class="line"><span class="lineno"> 1985</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a6034722aa4017fca0054462b41b4aa97">volat</a> |= mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a6034722aa4017fca0054462b41b4aa97">volat</a>;</div>
-<div class="line"><span class="lineno"> 1986</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a18f0ffb7109d897a5ba0eb58ac3ace45">value</a> |= mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a18f0ffb7109d897a5ba0eb58ac3ace45">value</a>;</div>
-<div class="line"><span class="lineno"> 1987</span>  <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<p class="definition">Definition at line <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01962">1962</a> of file <a class="el" href="../../dd/d00/fortranscanner_8l_source.html">fortranscanner.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1963</span>{</div>
+<div class="line"><span class="lineno"> 1964</span>  <span class="keywordflow">if</span> (mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#add511aaa15123dd20538a4e23415b91e">protection</a>!=<a class="code hl_enumvalue" href="../../df/d1b/struct_symbol_modifiers.html#a6c76745fa39de2b90353729fe62c6708ae43158532fe3de25bbe6661d6fdef5d0">NONE_P</a>) <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#add511aaa15123dd20538a4e23415b91e">protection</a> = mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#add511aaa15123dd20538a4e23415b91e">protection</a>;</div>
+<div class="line"><span class="lineno"> 1965</span>  <span class="keywordflow">if</span> (mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a60ca7cc66daff6cdae19b5d4162f77a4">direction</a>!=<a class="code hl_enumvalue" href="../../df/d1b/struct_symbol_modifiers.html#aceec8152eeb6c06b8dbe03ef14fed6a4ace26f25fe9aa85a4d1b93a09af862d8b">NONE_D</a>) <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a60ca7cc66daff6cdae19b5d4162f77a4">direction</a> = mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a60ca7cc66daff6cdae19b5d4162f77a4">direction</a>;</div>
+<div class="line"><span class="lineno"> 1966</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#aa6211c1be3fd479e53a26b498e5fc94b">optional</a> |= mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#aa6211c1be3fd479e53a26b498e5fc94b">optional</a>;</div>
+<div class="line"><span class="lineno"> 1967</span>  <span class="keywordflow">if</span> (!mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a3e997f886dd5832f1f8ae64aadca020c">dimension</a>.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a31246261e7f2ae130c9235969b79075a">isNull</a>()) <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a3e997f886dd5832f1f8ae64aadca020c">dimension</a> = mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a3e997f886dd5832f1f8ae64aadca020c">dimension</a>;</div>
+<div class="line"><span class="lineno"> 1968</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a3a7425ed3b345a52a97a37850cecf54d">allocatable</a> |= mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a3a7425ed3b345a52a97a37850cecf54d">allocatable</a>;</div>
+<div class="line"><span class="lineno"> 1969</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a3187a1ff0724dbcff6cf591cd815bd78">external</a> |= mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a3187a1ff0724dbcff6cf591cd815bd78">external</a>;</div>
+<div class="line"><span class="lineno"> 1970</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a9df901b470a76a04f234ff6863f1dca1">intrinsic</a> |= mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a9df901b470a76a04f234ff6863f1dca1">intrinsic</a>;</div>
+<div class="line"><span class="lineno"> 1971</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a391410448831f7e0e967635319e16d73">protect</a> |= mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a391410448831f7e0e967635319e16d73">protect</a>;</div>
+<div class="line"><span class="lineno"> 1972</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a3237efa8834ef0f47b9e14284e1db710">parameter</a> |= mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a3237efa8834ef0f47b9e14284e1db710">parameter</a>;</div>
+<div class="line"><span class="lineno"> 1973</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#ac783671e5116d72c93935bb9bf7c2cb8">pointer</a> |= mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#ac783671e5116d72c93935bb9bf7c2cb8">pointer</a>;</div>
+<div class="line"><span class="lineno"> 1974</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a10971e3ef27a2e20c71a769c6d237807">target</a> |= mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a10971e3ef27a2e20c71a769c6d237807">target</a>;</div>
+<div class="line"><span class="lineno"> 1975</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a25d1321a621eb7496f4e2e3ac99b0842">save</a> |= mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a25d1321a621eb7496f4e2e3ac99b0842">save</a>;</div>
+<div class="line"><span class="lineno"> 1976</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a2aad749396a02ead46410d78da584e9a">deferred</a> |= mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a2aad749396a02ead46410d78da584e9a">deferred</a>;</div>
+<div class="line"><span class="lineno"> 1977</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a1500769a8e0054bb142980765556c923">nonoverridable</a> |= mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a1500769a8e0054bb142980765556c923">nonoverridable</a>;</div>
+<div class="line"><span class="lineno"> 1978</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#adcd51442f97dbef24a66a86ecd231fda">nopass</a> |= mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#adcd51442f97dbef24a66a86ecd231fda">nopass</a>;</div>
+<div class="line"><span class="lineno"> 1979</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#af73c8f692ea33c3d1250adc8e4a1b946">pass</a> |= mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#af73c8f692ea33c3d1250adc8e4a1b946">pass</a>;</div>
+<div class="line"><span class="lineno"> 1980</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#aa087f0ac7c16038e40ba11ad1b66c635">passVar</a> = mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#aa087f0ac7c16038e40ba11ad1b66c635">passVar</a>;</div>
+<div class="line"><span class="lineno"> 1981</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a951fe24444c6f9225d468ce28f69c044">bindVar</a> = mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a951fe24444c6f9225d468ce28f69c044">bindVar</a>;</div>
+<div class="line"><span class="lineno"> 1982</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#af53aa7a23a005f7e861977192ea549ad">contiguous</a> |= mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#af53aa7a23a005f7e861977192ea549ad">contiguous</a>;</div>
+<div class="line"><span class="lineno"> 1983</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a6034722aa4017fca0054462b41b4aa97">volat</a> |= mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a6034722aa4017fca0054462b41b4aa97">volat</a>;</div>
+<div class="line"><span class="lineno"> 1984</span>  <a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a18f0ffb7109d897a5ba0eb58ac3ace45">value</a> |= mdfs.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a18f0ffb7109d897a5ba0eb58ac3ace45">value</a>;</div>
+<div class="line"><span class="lineno"> 1985</span>  <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
 <div class="ttc" id="aclass_q_c_string_html_a31246261e7f2ae130c9235969b79075a"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a31246261e7f2ae130c9235969b79075a">QCString::isNull</a></div><div class="ttdeci">bool isNull() const</div><div class="ttdoc">Returns TRUE iff the string is empty.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00141">qcstring.h:141</a></div></div>
-<div class="line"><span class="lineno"> 1988</span>}</div>
+<div class="line"><span class="lineno"> 1986</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00102">allocatable</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00117">bindVar</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00113">contiguous</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00109">deferred</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00101">dimension</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00098">direction</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00103">external</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00104">intrinsic</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00141">QCString::isNull()</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00093">NONE_D</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00092">NONE_P</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00110">nonoverridable</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00111">nopass</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00099">optional</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00105">parameter</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00112">pass</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00116">passVar</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00106">pointer</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00100">protect</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00097">protection</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00108">save</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00107">target</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00115">value</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00114">volat</a>.</p>
 
@@ -360,125 +360,125 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p >Extracts and adds passed modifier to these yyextra-&gt;modifiers. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01991">1991</a> of file <a class="el" href="../../dd/d00/fortranscanner_8l_source.html">fortranscanner.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1992</span>{</div>
-<div class="line"><span class="lineno"> 1993</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> mdfString = mdfStringArg.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a33688239622e659cfb469fbd62c9cccb">lower</a>();</div>
-<div class="line"><span class="lineno"> 1994</span>  <a class="code hl_struct" href="../../df/d1b/struct_symbol_modifiers.html">SymbolModifiers</a> newMdf;</div>
+<p class="definition">Definition at line <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01989">1989</a> of file <a class="el" href="../../dd/d00/fortranscanner_8l_source.html">fortranscanner.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1990</span>{</div>
+<div class="line"><span class="lineno"> 1991</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> mdfString = mdfStringArg.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a33688239622e659cfb469fbd62c9cccb">lower</a>();</div>
+<div class="line"><span class="lineno"> 1992</span>  <a class="code hl_struct" href="../../df/d1b/struct_symbol_modifiers.html">SymbolModifiers</a> newMdf;</div>
 <div class="ttc" id="aclass_q_c_string_html"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html">QCString</a></div><div class="ttdoc">This is an alternative implementation of QCString.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00108">qcstring.h:109</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a33688239622e659cfb469fbd62c9cccb"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a33688239622e659cfb469fbd62c9cccb">QCString::lower</a></div><div class="ttdeci">QCString lower() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00232">qcstring.h:232</a></div></div>
 <div class="ttc" id="astruct_symbol_modifiers_html"><div class="ttname"><a href="../../df/d1b/struct_symbol_modifiers.html">SymbolModifiers</a></div><div class="ttdoc">Holds yyextra-&gt;modifiers (ie attributes) for one symbol (variable, function, etc)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d00/fortranscanner_8l_source.html#l00090">fortranscanner.l:91</a></div></div>
-<div class="line"><span class="lineno"> 1995</span> </div>
-<div class="line"><span class="lineno"> 1996</span>  <span class="keywordflow">if</span> (mdfString.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0182ece6b76dad6475dafb53e2faaf10">find</a>(<span class="stringliteral">&quot;dimension&quot;</span>)==0)</div>
-<div class="line"><span class="lineno"> 1997</span>  {</div>
-<div class="line"><span class="lineno"> 1998</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a3e997f886dd5832f1f8ae64aadca020c">dimension</a>=mdfString;</div>
-<div class="line"><span class="lineno"> 1999</span>  }</div>
-<div class="line"><span class="lineno"> 2000</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aeeedb2810a85c682c2f2a86bcd2355a7">contains</a>(<span class="stringliteral">&quot;intent&quot;</span>))</div>
-<div class="line"><span class="lineno"> 2001</span>  {</div>
-<div class="line"><span class="lineno"> 2002</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> tmp = <a class="code hl_function" href="../../dd/d00/fortranscanner_8l.html#a25c73dbd285ac4ed23985634ad1a9cab">extractFromParens</a>(mdfString);</div>
-<div class="line"><span class="lineno"> 2003</span>    <span class="keywordtype">bool</span> isin = tmp.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aeeedb2810a85c682c2f2a86bcd2355a7">contains</a>(<span class="stringliteral">&quot;in&quot;</span>);</div>
-<div class="line"><span class="lineno"> 2004</span>    <span class="keywordtype">bool</span> isout = tmp.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aeeedb2810a85c682c2f2a86bcd2355a7">contains</a>(<span class="stringliteral">&quot;out&quot;</span>);</div>
-<div class="line"><span class="lineno"> 2005</span>    <span class="keywordflow">if</span> (isin &amp;&amp; isout) newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a60ca7cc66daff6cdae19b5d4162f77a4">direction</a> = <a class="code hl_enumvalue" href="../../df/d1b/struct_symbol_modifiers.html#aceec8152eeb6c06b8dbe03ef14fed6a4a3274f871e28c11b61c8256d20296aa27">SymbolModifiers::INOUT</a>;</div>
-<div class="line"><span class="lineno"> 2006</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (isin) newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a60ca7cc66daff6cdae19b5d4162f77a4">direction</a> = <a class="code hl_enumvalue" href="../../df/d1b/struct_symbol_modifiers.html#aceec8152eeb6c06b8dbe03ef14fed6a4a61e9eb5a7ae3678a1c6254b69617f4b7">SymbolModifiers::IN</a>;</div>
-<div class="line"><span class="lineno"> 2007</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (isout) newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a60ca7cc66daff6cdae19b5d4162f77a4">direction</a> = <a class="code hl_enumvalue" href="../../df/d1b/struct_symbol_modifiers.html#aceec8152eeb6c06b8dbe03ef14fed6a4a0238d370b0f2d73432f8021cd1c1aed1">SymbolModifiers::OUT</a>;</div>
-<div class="line"><span class="lineno"> 2008</span>  }</div>
-<div class="line"><span class="lineno"> 2009</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString==<span class="stringliteral">&quot;public&quot;</span>)</div>
-<div class="line"><span class="lineno"> 2010</span>  {</div>
-<div class="line"><span class="lineno"> 2011</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#add511aaa15123dd20538a4e23415b91e">protection</a> = <a class="code hl_enumvalue" href="../../df/d1b/struct_symbol_modifiers.html#a6c76745fa39de2b90353729fe62c6708ae0d7c512c0fe421f9d64e801771f9fb3">SymbolModifiers::PUBLIC</a>;</div>
-<div class="line"><span class="lineno"> 2012</span>  }</div>
-<div class="line"><span class="lineno"> 2013</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString==<span class="stringliteral">&quot;private&quot;</span>)</div>
-<div class="line"><span class="lineno"> 2014</span>  {</div>
-<div class="line"><span class="lineno"> 2015</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#add511aaa15123dd20538a4e23415b91e">protection</a> = <a class="code hl_enumvalue" href="../../df/d1b/struct_symbol_modifiers.html#a6c76745fa39de2b90353729fe62c6708a3af5ff26f32ecc18b95bd75082789867">SymbolModifiers::PRIVATE</a>;</div>
-<div class="line"><span class="lineno"> 2016</span>  }</div>
-<div class="line"><span class="lineno"> 2017</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString==<span class="stringliteral">&quot;protected&quot;</span>)</div>
-<div class="line"><span class="lineno"> 2018</span>  {</div>
-<div class="line"><span class="lineno"> 2019</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a391410448831f7e0e967635319e16d73">protect</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno"> 2020</span>  }</div>
-<div class="line"><span class="lineno"> 2021</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString==<span class="stringliteral">&quot;optional&quot;</span>)</div>
-<div class="line"><span class="lineno"> 2022</span>  {</div>
-<div class="line"><span class="lineno"> 2023</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#aa6211c1be3fd479e53a26b498e5fc94b">optional</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno"> 2024</span>  }</div>
-<div class="line"><span class="lineno"> 2025</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString==<span class="stringliteral">&quot;allocatable&quot;</span>)</div>
-<div class="line"><span class="lineno"> 2026</span>  {</div>
-<div class="line"><span class="lineno"> 2027</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a3a7425ed3b345a52a97a37850cecf54d">allocatable</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno"> 2028</span>  }</div>
-<div class="line"><span class="lineno"> 2029</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString==<span class="stringliteral">&quot;external&quot;</span>)</div>
-<div class="line"><span class="lineno"> 2030</span>  {</div>
-<div class="line"><span class="lineno"> 2031</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a3187a1ff0724dbcff6cf591cd815bd78">external</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno"> 2032</span>  }</div>
-<div class="line"><span class="lineno"> 2033</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString==<span class="stringliteral">&quot;intrinsic&quot;</span>)</div>
-<div class="line"><span class="lineno"> 2034</span>  {</div>
-<div class="line"><span class="lineno"> 2035</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a9df901b470a76a04f234ff6863f1dca1">intrinsic</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno"> 2036</span>  }</div>
-<div class="line"><span class="lineno"> 2037</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString==<span class="stringliteral">&quot;parameter&quot;</span>)</div>
-<div class="line"><span class="lineno"> 2038</span>  {</div>
-<div class="line"><span class="lineno"> 2039</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a3237efa8834ef0f47b9e14284e1db710">parameter</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno"> 2040</span>  }</div>
-<div class="line"><span class="lineno"> 2041</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString==<span class="stringliteral">&quot;pointer&quot;</span>)</div>
-<div class="line"><span class="lineno"> 2042</span>  {</div>
-<div class="line"><span class="lineno"> 2043</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#ac783671e5116d72c93935bb9bf7c2cb8">pointer</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno"> 2044</span>  }</div>
-<div class="line"><span class="lineno"> 2045</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString==<span class="stringliteral">&quot;target&quot;</span>)</div>
-<div class="line"><span class="lineno"> 2046</span>  {</div>
-<div class="line"><span class="lineno"> 2047</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a10971e3ef27a2e20c71a769c6d237807">target</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno"> 2048</span>  }</div>
-<div class="line"><span class="lineno"> 2049</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString==<span class="stringliteral">&quot;save&quot;</span>)</div>
-<div class="line"><span class="lineno"> 2050</span>  {</div>
-<div class="line"><span class="lineno"> 2051</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a25d1321a621eb7496f4e2e3ac99b0842">save</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno"> 2052</span>  }</div>
-<div class="line"><span class="lineno"> 2053</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString==<span class="stringliteral">&quot;nopass&quot;</span>)</div>
-<div class="line"><span class="lineno"> 2054</span>  {</div>
-<div class="line"><span class="lineno"> 2055</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#adcd51442f97dbef24a66a86ecd231fda">nopass</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno"> 2056</span>  }</div>
-<div class="line"><span class="lineno"> 2057</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString==<span class="stringliteral">&quot;deferred&quot;</span>)</div>
-<div class="line"><span class="lineno"> 2058</span>  {</div>
-<div class="line"><span class="lineno"> 2059</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a2aad749396a02ead46410d78da584e9a">deferred</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno"> 2060</span>  }</div>
-<div class="line"><span class="lineno"> 2061</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString==<span class="stringliteral">&quot;non_overridable&quot;</span>)</div>
-<div class="line"><span class="lineno"> 2062</span>  {</div>
-<div class="line"><span class="lineno"> 2063</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a1500769a8e0054bb142980765556c923">nonoverridable</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno"> 2064</span>  }</div>
-<div class="line"><span class="lineno"> 2065</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString==<span class="stringliteral">&quot;contiguous&quot;</span>)</div>
-<div class="line"><span class="lineno"> 2066</span>  {</div>
-<div class="line"><span class="lineno"> 2067</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#af53aa7a23a005f7e861977192ea549ad">contiguous</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno"> 2068</span>  }</div>
-<div class="line"><span class="lineno"> 2069</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString==<span class="stringliteral">&quot;volatile&quot;</span>)</div>
-<div class="line"><span class="lineno"> 2070</span>  {</div>
-<div class="line"><span class="lineno"> 2071</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a6034722aa4017fca0054462b41b4aa97">volat</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno"> 2072</span>  }</div>
-<div class="line"><span class="lineno"> 2073</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString==<span class="stringliteral">&quot;value&quot;</span>)</div>
-<div class="line"><span class="lineno"> 2074</span>  {</div>
-<div class="line"><span class="lineno"> 2075</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a18f0ffb7109d897a5ba0eb58ac3ace45">value</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno"> 2076</span>  }</div>
-<div class="line"><span class="lineno"> 2077</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aeeedb2810a85c682c2f2a86bcd2355a7">contains</a>(<span class="stringliteral">&quot;pass&quot;</span>))</div>
-<div class="line"><span class="lineno"> 2078</span>  {</div>
-<div class="line"><span class="lineno"> 2079</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#af73c8f692ea33c3d1250adc8e4a1b946">pass</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno"> 2080</span>    <span class="keywordflow">if</span> (mdfString.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aeeedb2810a85c682c2f2a86bcd2355a7">contains</a>(<span class="stringliteral">&quot;(&quot;</span>))</div>
-<div class="line"><span class="lineno"> 2081</span>      newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#aa087f0ac7c16038e40ba11ad1b66c635">passVar</a> = <a class="code hl_function" href="../../dd/d00/fortranscanner_8l.html#a25c73dbd285ac4ed23985634ad1a9cab">extractFromParens</a>(mdfString);</div>
-<div class="line"><span class="lineno"> 2082</span>    <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno"> 2083</span>      newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#aa087f0ac7c16038e40ba11ad1b66c635">passVar</a> = <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2084</span>  }</div>
-<div class="line"><span class="lineno"> 2085</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a1f43c0a4958cf17f086dc0e3a4b13a68">startsWith</a>(<span class="stringliteral">&quot;bind&quot;</span>))</div>
-<div class="line"><span class="lineno"> 2086</span>  {</div>
-<div class="line"><span class="lineno"> 2087</span>    <span class="comment">// we need here the original string as we want to don&#39;t want to have the lowercase name between the quotes of the name= part</span></div>
-<div class="line"><span class="lineno"> 2088</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a951fe24444c6f9225d468ce28f69c044">bindVar</a> = <a class="code hl_function" href="../../dd/d00/fortranscanner_8l.html#ac494d47958d1f5413e97e355624ca8db">extractBind</a>(mdfStringArg);</div>
-<div class="line"><span class="lineno"> 2089</span>  }</div>
+<div class="line"><span class="lineno"> 1993</span> </div>
+<div class="line"><span class="lineno"> 1994</span>  <span class="keywordflow">if</span> (mdfString.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0182ece6b76dad6475dafb53e2faaf10">find</a>(<span class="stringliteral">&quot;dimension&quot;</span>)==0)</div>
+<div class="line"><span class="lineno"> 1995</span>  {</div>
+<div class="line"><span class="lineno"> 1996</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a3e997f886dd5832f1f8ae64aadca020c">dimension</a>=mdfString;</div>
+<div class="line"><span class="lineno"> 1997</span>  }</div>
+<div class="line"><span class="lineno"> 1998</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aeeedb2810a85c682c2f2a86bcd2355a7">contains</a>(<span class="stringliteral">&quot;intent&quot;</span>))</div>
+<div class="line"><span class="lineno"> 1999</span>  {</div>
+<div class="line"><span class="lineno"> 2000</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> tmp = <a class="code hl_function" href="../../dd/d00/fortranscanner_8l.html#a25c73dbd285ac4ed23985634ad1a9cab">extractFromParens</a>(mdfString);</div>
+<div class="line"><span class="lineno"> 2001</span>    <span class="keywordtype">bool</span> isin = tmp.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aeeedb2810a85c682c2f2a86bcd2355a7">contains</a>(<span class="stringliteral">&quot;in&quot;</span>);</div>
+<div class="line"><span class="lineno"> 2002</span>    <span class="keywordtype">bool</span> isout = tmp.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aeeedb2810a85c682c2f2a86bcd2355a7">contains</a>(<span class="stringliteral">&quot;out&quot;</span>);</div>
+<div class="line"><span class="lineno"> 2003</span>    <span class="keywordflow">if</span> (isin &amp;&amp; isout) newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a60ca7cc66daff6cdae19b5d4162f77a4">direction</a> = <a class="code hl_enumvalue" href="../../df/d1b/struct_symbol_modifiers.html#aceec8152eeb6c06b8dbe03ef14fed6a4a3274f871e28c11b61c8256d20296aa27">SymbolModifiers::INOUT</a>;</div>
+<div class="line"><span class="lineno"> 2004</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (isin) newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a60ca7cc66daff6cdae19b5d4162f77a4">direction</a> = <a class="code hl_enumvalue" href="../../df/d1b/struct_symbol_modifiers.html#aceec8152eeb6c06b8dbe03ef14fed6a4a61e9eb5a7ae3678a1c6254b69617f4b7">SymbolModifiers::IN</a>;</div>
+<div class="line"><span class="lineno"> 2005</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (isout) newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a60ca7cc66daff6cdae19b5d4162f77a4">direction</a> = <a class="code hl_enumvalue" href="../../df/d1b/struct_symbol_modifiers.html#aceec8152eeb6c06b8dbe03ef14fed6a4a0238d370b0f2d73432f8021cd1c1aed1">SymbolModifiers::OUT</a>;</div>
+<div class="line"><span class="lineno"> 2006</span>  }</div>
+<div class="line"><span class="lineno"> 2007</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString==<span class="stringliteral">&quot;public&quot;</span>)</div>
+<div class="line"><span class="lineno"> 2008</span>  {</div>
+<div class="line"><span class="lineno"> 2009</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#add511aaa15123dd20538a4e23415b91e">protection</a> = <a class="code hl_enumvalue" href="../../df/d1b/struct_symbol_modifiers.html#a6c76745fa39de2b90353729fe62c6708ae0d7c512c0fe421f9d64e801771f9fb3">SymbolModifiers::PUBLIC</a>;</div>
+<div class="line"><span class="lineno"> 2010</span>  }</div>
+<div class="line"><span class="lineno"> 2011</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString==<span class="stringliteral">&quot;private&quot;</span>)</div>
+<div class="line"><span class="lineno"> 2012</span>  {</div>
+<div class="line"><span class="lineno"> 2013</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#add511aaa15123dd20538a4e23415b91e">protection</a> = <a class="code hl_enumvalue" href="../../df/d1b/struct_symbol_modifiers.html#a6c76745fa39de2b90353729fe62c6708a3af5ff26f32ecc18b95bd75082789867">SymbolModifiers::PRIVATE</a>;</div>
+<div class="line"><span class="lineno"> 2014</span>  }</div>
+<div class="line"><span class="lineno"> 2015</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString==<span class="stringliteral">&quot;protected&quot;</span>)</div>
+<div class="line"><span class="lineno"> 2016</span>  {</div>
+<div class="line"><span class="lineno"> 2017</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a391410448831f7e0e967635319e16d73">protect</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno"> 2018</span>  }</div>
+<div class="line"><span class="lineno"> 2019</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString==<span class="stringliteral">&quot;optional&quot;</span>)</div>
+<div class="line"><span class="lineno"> 2020</span>  {</div>
+<div class="line"><span class="lineno"> 2021</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#aa6211c1be3fd479e53a26b498e5fc94b">optional</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno"> 2022</span>  }</div>
+<div class="line"><span class="lineno"> 2023</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString==<span class="stringliteral">&quot;allocatable&quot;</span>)</div>
+<div class="line"><span class="lineno"> 2024</span>  {</div>
+<div class="line"><span class="lineno"> 2025</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a3a7425ed3b345a52a97a37850cecf54d">allocatable</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno"> 2026</span>  }</div>
+<div class="line"><span class="lineno"> 2027</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString==<span class="stringliteral">&quot;external&quot;</span>)</div>
+<div class="line"><span class="lineno"> 2028</span>  {</div>
+<div class="line"><span class="lineno"> 2029</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a3187a1ff0724dbcff6cf591cd815bd78">external</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno"> 2030</span>  }</div>
+<div class="line"><span class="lineno"> 2031</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString==<span class="stringliteral">&quot;intrinsic&quot;</span>)</div>
+<div class="line"><span class="lineno"> 2032</span>  {</div>
+<div class="line"><span class="lineno"> 2033</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a9df901b470a76a04f234ff6863f1dca1">intrinsic</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno"> 2034</span>  }</div>
+<div class="line"><span class="lineno"> 2035</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString==<span class="stringliteral">&quot;parameter&quot;</span>)</div>
+<div class="line"><span class="lineno"> 2036</span>  {</div>
+<div class="line"><span class="lineno"> 2037</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a3237efa8834ef0f47b9e14284e1db710">parameter</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno"> 2038</span>  }</div>
+<div class="line"><span class="lineno"> 2039</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString==<span class="stringliteral">&quot;pointer&quot;</span>)</div>
+<div class="line"><span class="lineno"> 2040</span>  {</div>
+<div class="line"><span class="lineno"> 2041</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#ac783671e5116d72c93935bb9bf7c2cb8">pointer</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno"> 2042</span>  }</div>
+<div class="line"><span class="lineno"> 2043</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString==<span class="stringliteral">&quot;target&quot;</span>)</div>
+<div class="line"><span class="lineno"> 2044</span>  {</div>
+<div class="line"><span class="lineno"> 2045</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a10971e3ef27a2e20c71a769c6d237807">target</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno"> 2046</span>  }</div>
+<div class="line"><span class="lineno"> 2047</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString==<span class="stringliteral">&quot;save&quot;</span>)</div>
+<div class="line"><span class="lineno"> 2048</span>  {</div>
+<div class="line"><span class="lineno"> 2049</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a25d1321a621eb7496f4e2e3ac99b0842">save</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno"> 2050</span>  }</div>
+<div class="line"><span class="lineno"> 2051</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString==<span class="stringliteral">&quot;nopass&quot;</span>)</div>
+<div class="line"><span class="lineno"> 2052</span>  {</div>
+<div class="line"><span class="lineno"> 2053</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#adcd51442f97dbef24a66a86ecd231fda">nopass</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno"> 2054</span>  }</div>
+<div class="line"><span class="lineno"> 2055</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString==<span class="stringliteral">&quot;deferred&quot;</span>)</div>
+<div class="line"><span class="lineno"> 2056</span>  {</div>
+<div class="line"><span class="lineno"> 2057</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a2aad749396a02ead46410d78da584e9a">deferred</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno"> 2058</span>  }</div>
+<div class="line"><span class="lineno"> 2059</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString==<span class="stringliteral">&quot;non_overridable&quot;</span>)</div>
+<div class="line"><span class="lineno"> 2060</span>  {</div>
+<div class="line"><span class="lineno"> 2061</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a1500769a8e0054bb142980765556c923">nonoverridable</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno"> 2062</span>  }</div>
+<div class="line"><span class="lineno"> 2063</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString==<span class="stringliteral">&quot;contiguous&quot;</span>)</div>
+<div class="line"><span class="lineno"> 2064</span>  {</div>
+<div class="line"><span class="lineno"> 2065</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#af53aa7a23a005f7e861977192ea549ad">contiguous</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno"> 2066</span>  }</div>
+<div class="line"><span class="lineno"> 2067</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString==<span class="stringliteral">&quot;volatile&quot;</span>)</div>
+<div class="line"><span class="lineno"> 2068</span>  {</div>
+<div class="line"><span class="lineno"> 2069</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a6034722aa4017fca0054462b41b4aa97">volat</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno"> 2070</span>  }</div>
+<div class="line"><span class="lineno"> 2071</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString==<span class="stringliteral">&quot;value&quot;</span>)</div>
+<div class="line"><span class="lineno"> 2072</span>  {</div>
+<div class="line"><span class="lineno"> 2073</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a18f0ffb7109d897a5ba0eb58ac3ace45">value</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno"> 2074</span>  }</div>
+<div class="line"><span class="lineno"> 2075</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aeeedb2810a85c682c2f2a86bcd2355a7">contains</a>(<span class="stringliteral">&quot;pass&quot;</span>))</div>
+<div class="line"><span class="lineno"> 2076</span>  {</div>
+<div class="line"><span class="lineno"> 2077</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#af73c8f692ea33c3d1250adc8e4a1b946">pass</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno"> 2078</span>    <span class="keywordflow">if</span> (mdfString.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aeeedb2810a85c682c2f2a86bcd2355a7">contains</a>(<span class="stringliteral">&quot;(&quot;</span>))</div>
+<div class="line"><span class="lineno"> 2079</span>      newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#aa087f0ac7c16038e40ba11ad1b66c635">passVar</a> = <a class="code hl_function" href="../../dd/d00/fortranscanner_8l.html#a25c73dbd285ac4ed23985634ad1a9cab">extractFromParens</a>(mdfString);</div>
+<div class="line"><span class="lineno"> 2080</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 2081</span>      newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#aa087f0ac7c16038e40ba11ad1b66c635">passVar</a> = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2082</span>  }</div>
+<div class="line"><span class="lineno"> 2083</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mdfString.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a1f43c0a4958cf17f086dc0e3a4b13a68">startsWith</a>(<span class="stringliteral">&quot;bind&quot;</span>))</div>
+<div class="line"><span class="lineno"> 2084</span>  {</div>
+<div class="line"><span class="lineno"> 2085</span>    <span class="comment">// we need here the original string as we want to don&#39;t want to have the lowercase name between the quotes of the name= part</span></div>
+<div class="line"><span class="lineno"> 2086</span>    newMdf.<a class="code hl_variable" href="../../df/d1b/struct_symbol_modifiers.html#a951fe24444c6f9225d468ce28f69c044">bindVar</a> = <a class="code hl_function" href="../../dd/d00/fortranscanner_8l.html#ac494d47958d1f5413e97e355624ca8db">extractBind</a>(mdfStringArg);</div>
+<div class="line"><span class="lineno"> 2087</span>  }</div>
 <div class="ttc" id="aclass_q_c_string_html_a0182ece6b76dad6475dafb53e2faaf10"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a0182ece6b76dad6475dafb53e2faaf10">QCString::find</a></div><div class="ttdeci">int find(char c, int index=0, bool cs=TRUE) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d3e/qcstring_8cpp_source.html#l00043">qcstring.cpp:43</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a1f43c0a4958cf17f086dc0e3a4b13a68"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a1f43c0a4958cf17f086dc0e3a4b13a68">QCString::startsWith</a></div><div class="ttdeci">bool startsWith(const char *s) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00434">qcstring.h:434</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_aeeedb2810a85c682c2f2a86bcd2355a7"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#aeeedb2810a85c682c2f2a86bcd2355a7">QCString::contains</a></div><div class="ttdeci">int contains(char c, bool cs=TRUE) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d3e/qcstring_8cpp_source.html#l00143">qcstring.cpp:143</a></div></div>
-<div class="ttc" id="afortranscanner_8l_html_a25c73dbd285ac4ed23985634ad1a9cab"><div class="ttname"><a href="../../dd/d00/fortranscanner_8l.html#a25c73dbd285ac4ed23985634ad1a9cab">extractFromParens</a></div><div class="ttdeci">static QCString extractFromParens(const QCString &amp;name)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d00/fortranscanner_8l_source.html#l01921">fortranscanner.l:1921</a></div></div>
-<div class="ttc" id="afortranscanner_8l_html_ac494d47958d1f5413e97e355624ca8db"><div class="ttname"><a href="../../dd/d00/fortranscanner_8l.html#ac494d47958d1f5413e97e355624ca8db">extractBind</a></div><div class="ttdeci">static QCString extractBind(const QCString &amp;name)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d00/fortranscanner_8l_source.html#l01941">fortranscanner.l:1941</a></div></div>
+<div class="ttc" id="afortranscanner_8l_html_a25c73dbd285ac4ed23985634ad1a9cab"><div class="ttname"><a href="../../dd/d00/fortranscanner_8l.html#a25c73dbd285ac4ed23985634ad1a9cab">extractFromParens</a></div><div class="ttdeci">static QCString extractFromParens(const QCString &amp;name)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d00/fortranscanner_8l_source.html#l01919">fortranscanner.l:1919</a></div></div>
+<div class="ttc" id="afortranscanner_8l_html_ac494d47958d1f5413e97e355624ca8db"><div class="ttname"><a href="../../dd/d00/fortranscanner_8l.html#ac494d47958d1f5413e97e355624ca8db">extractBind</a></div><div class="ttdeci">static QCString extractBind(const QCString &amp;name)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d00/fortranscanner_8l_source.html#l01939">fortranscanner.l:1939</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_aa8cecfc5c5c054d2875c03e77b7be15d"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a></div><div class="ttdeci">#define TRUE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00036">qcstring.h:36</a></div></div>
 <div class="ttc" id="astruct_symbol_modifiers_html_a6c76745fa39de2b90353729fe62c6708a3af5ff26f32ecc18b95bd75082789867"><div class="ttname"><a href="../../df/d1b/struct_symbol_modifiers.html#a6c76745fa39de2b90353729fe62c6708a3af5ff26f32ecc18b95bd75082789867">SymbolModifiers::PRIVATE</a></div><div class="ttdeci">@ PRIVATE</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d00/fortranscanner_8l_source.html#l00092">fortranscanner.l:92</a></div></div>
 <div class="ttc" id="astruct_symbol_modifiers_html_a6c76745fa39de2b90353729fe62c6708ae0d7c512c0fe421f9d64e801771f9fb3"><div class="ttname"><a href="../../df/d1b/struct_symbol_modifiers.html#a6c76745fa39de2b90353729fe62c6708ae0d7c512c0fe421f9d64e801771f9fb3">SymbolModifiers::PUBLIC</a></div><div class="ttdeci">@ PUBLIC</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d00/fortranscanner_8l_source.html#l00092">fortranscanner.l:92</a></div></div>
 <div class="ttc" id="astruct_symbol_modifiers_html_aceec8152eeb6c06b8dbe03ef14fed6a4a0238d370b0f2d73432f8021cd1c1aed1"><div class="ttname"><a href="../../df/d1b/struct_symbol_modifiers.html#aceec8152eeb6c06b8dbe03ef14fed6a4a0238d370b0f2d73432f8021cd1c1aed1">SymbolModifiers::OUT</a></div><div class="ttdeci">@ OUT</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d00/fortranscanner_8l_source.html#l00093">fortranscanner.l:93</a></div></div>
 <div class="ttc" id="astruct_symbol_modifiers_html_aceec8152eeb6c06b8dbe03ef14fed6a4a3274f871e28c11b61c8256d20296aa27"><div class="ttname"><a href="../../df/d1b/struct_symbol_modifiers.html#aceec8152eeb6c06b8dbe03ef14fed6a4a3274f871e28c11b61c8256d20296aa27">SymbolModifiers::INOUT</a></div><div class="ttdeci">@ INOUT</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d00/fortranscanner_8l_source.html#l00093">fortranscanner.l:93</a></div></div>
 <div class="ttc" id="astruct_symbol_modifiers_html_aceec8152eeb6c06b8dbe03ef14fed6a4a61e9eb5a7ae3678a1c6254b69617f4b7"><div class="ttname"><a href="../../df/d1b/struct_symbol_modifiers.html#aceec8152eeb6c06b8dbe03ef14fed6a4a61e9eb5a7ae3678a1c6254b69617f4b7">SymbolModifiers::IN</a></div><div class="ttdeci">@ IN</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d00/fortranscanner_8l_source.html#l00093">fortranscanner.l:93</a></div></div>
-<div class="line"><span class="lineno"> 2090</span> </div>
-<div class="line"><span class="lineno"> 2091</span>  (*this) |= newMdf;</div>
-<div class="line"><span class="lineno"> 2092</span>  <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
-<div class="line"><span class="lineno"> 2093</span>}</div>
+<div class="line"><span class="lineno"> 2088</span> </div>
+<div class="line"><span class="lineno"> 2089</span>  (*this) |= newMdf;</div>
+<div class="line"><span class="lineno"> 2090</span>  <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno"> 2091</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00102">allocatable</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00117">bindVar</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00143">QCString::contains()</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00113">contiguous</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00109">deferred</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00101">dimension</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00098">direction</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00103">external</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01941">extractBind()</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01921">extractFromParens()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00043">QCString::find()</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00093">IN</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00093">INOUT</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00104">intrinsic</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00232">QCString::lower()</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00110">nonoverridable</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00111">nopass</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00099">optional</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00093">OUT</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00105">parameter</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00112">pass</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00116">passVar</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00106">pointer</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00092">PRIVATE</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00100">protect</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00097">protection</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00092">PUBLIC</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00108">save</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00434">QCString::startsWith()</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00107">target</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00115">value</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00114">volat</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00102">allocatable</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00117">bindVar</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00143">QCString::contains()</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00113">contiguous</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00109">deferred</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00101">dimension</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00098">direction</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00103">external</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01939">extractBind()</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01919">extractFromParens()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00043">QCString::find()</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00093">IN</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00093">INOUT</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00104">intrinsic</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00232">QCString::lower()</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00110">nonoverridable</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00111">nopass</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00099">optional</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00093">OUT</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00105">parameter</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00112">pass</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00116">passVar</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00106">pointer</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00092">PRIVATE</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00100">protect</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00097">protection</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00092">PUBLIC</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00108">save</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00434">QCString::startsWith()</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00107">target</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00115">value</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00114">volat</a>.</p>
 
 </div>
 </div>
@@ -497,7 +497,7 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00102">102</a> of file <a class="el" href="../../dd/d00/fortranscanner_8l_source.html">fortranscanner.l</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02123">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01964">operator|=()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02121">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01962">operator|=()</a>.</p>
 
 </div>
 </div>
@@ -515,7 +515,7 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00117">117</a> of file <a class="el" href="../../dd/d00/fortranscanner_8l_source.html">fortranscanner.l</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02123">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01964">operator|=()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02121">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01962">operator|=()</a>.</p>
 
 </div>
 </div>
@@ -533,7 +533,7 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00113">113</a> of file <a class="el" href="../../dd/d00/fortranscanner_8l_source.html">fortranscanner.l</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02123">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01964">operator|=()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02121">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01962">operator|=()</a>.</p>
 
 </div>
 </div>
@@ -551,7 +551,7 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00109">109</a> of file <a class="el" href="../../dd/d00/fortranscanner_8l_source.html">fortranscanner.l</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02123">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01964">operator|=()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02121">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01962">operator|=()</a>.</p>
 
 </div>
 </div>
@@ -569,7 +569,7 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00101">101</a> of file <a class="el" href="../../dd/d00/fortranscanner_8l_source.html">fortranscanner.l</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02123">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01964">operator|=()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02121">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01962">operator|=()</a>.</p>
 
 </div>
 </div>
@@ -587,7 +587,7 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00098">98</a> of file <a class="el" href="../../dd/d00/fortranscanner_8l_source.html">fortranscanner.l</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02123">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01964">operator|=()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02121">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01962">operator|=()</a>.</p>
 
 </div>
 </div>
@@ -605,7 +605,7 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00103">103</a> of file <a class="el" href="../../dd/d00/fortranscanner_8l_source.html">fortranscanner.l</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02123">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01964">operator|=()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02121">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01962">operator|=()</a>.</p>
 
 </div>
 </div>
@@ -623,7 +623,7 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00104">104</a> of file <a class="el" href="../../dd/d00/fortranscanner_8l_source.html">fortranscanner.l</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02123">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01964">operator|=()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02121">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01962">operator|=()</a>.</p>
 
 </div>
 </div>
@@ -641,7 +641,7 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00110">110</a> of file <a class="el" href="../../dd/d00/fortranscanner_8l_source.html">fortranscanner.l</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02123">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01964">operator|=()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02121">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01962">operator|=()</a>.</p>
 
 </div>
 </div>
@@ -659,7 +659,7 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00111">111</a> of file <a class="el" href="../../dd/d00/fortranscanner_8l_source.html">fortranscanner.l</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02123">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01964">operator|=()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02121">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01962">operator|=()</a>.</p>
 
 </div>
 </div>
@@ -677,7 +677,7 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00099">99</a> of file <a class="el" href="../../dd/d00/fortranscanner_8l_source.html">fortranscanner.l</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02123">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01964">operator|=()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02121">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01962">operator|=()</a>.</p>
 
 </div>
 </div>
@@ -695,7 +695,7 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00105">105</a> of file <a class="el" href="../../dd/d00/fortranscanner_8l_source.html">fortranscanner.l</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02123">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01964">operator|=()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02121">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01962">operator|=()</a>.</p>
 
 </div>
 </div>
@@ -713,7 +713,7 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00112">112</a> of file <a class="el" href="../../dd/d00/fortranscanner_8l_source.html">fortranscanner.l</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02123">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01964">operator|=()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02121">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01962">operator|=()</a>.</p>
 
 </div>
 </div>
@@ -731,7 +731,7 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00116">116</a> of file <a class="el" href="../../dd/d00/fortranscanner_8l_source.html">fortranscanner.l</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02123">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01964">operator|=()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02121">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01962">operator|=()</a>.</p>
 
 </div>
 </div>
@@ -749,7 +749,7 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00106">106</a> of file <a class="el" href="../../dd/d00/fortranscanner_8l_source.html">fortranscanner.l</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02123">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01964">operator|=()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02121">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01962">operator|=()</a>.</p>
 
 </div>
 </div>
@@ -767,7 +767,7 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00100">100</a> of file <a class="el" href="../../dd/d00/fortranscanner_8l_source.html">fortranscanner.l</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02123">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01964">operator|=()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02121">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01962">operator|=()</a>.</p>
 
 </div>
 </div>
@@ -785,7 +785,7 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00097">97</a> of file <a class="el" href="../../dd/d00/fortranscanner_8l_source.html">fortranscanner.l</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02123">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01964">operator|=()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02121">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01962">operator|=()</a>.</p>
 
 </div>
 </div>
@@ -819,7 +819,7 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00108">108</a> of file <a class="el" href="../../dd/d00/fortranscanner_8l_source.html">fortranscanner.l</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02123">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01964">operator|=()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02121">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01962">operator|=()</a>.</p>
 
 </div>
 </div>
@@ -837,7 +837,7 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00107">107</a> of file <a class="el" href="../../dd/d00/fortranscanner_8l_source.html">fortranscanner.l</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02123">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01964">operator|=()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02121">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01962">operator|=()</a>.</p>
 
 </div>
 </div>
@@ -873,7 +873,7 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00115">115</a> of file <a class="el" href="../../dd/d00/fortranscanner_8l_source.html">fortranscanner.l</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02123">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01964">operator|=()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02121">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01962">operator|=()</a>.</p>
 
 </div>
 </div>
@@ -891,7 +891,7 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l00114">114</a> of file <a class="el" href="../../dd/d00/fortranscanner_8l_source.html">fortranscanner.l</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02123">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01964">operator|=()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02121">applyModifiers()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01962">operator|=()</a>.</p>
 
 </div>
 </div>
