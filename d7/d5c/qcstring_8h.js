@@ -3,6 +3,7 @@ var qcstring_8h =
     [ "QCString", "d9/d45/class_q_c_string.html", "d9/d45/class_q_c_string" ],
     [ "ASSERT", "d7/d5c/qcstring_8h.html#aca68c0d4ac8df0838e209fb5300f7be3", null ],
     [ "FALSE", "d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1", null ],
+    [ "HAD_PLUS_OPERATOR_FOR_CHAR", "d7/d5c/qcstring_8h.html#a8937dea0627ab6c31fc5619001b00d71", null ],
     [ "HAS_CHARACTER_APPEND_OPERATOR", "d7/d5c/qcstring_8h.html#a5d8116d29bf5dad9161f0e7309c0a46e", null ],
     [ "HAS_IMPLICIT_CAST_TO_PLAIN_C_STRING", "d7/d5c/qcstring_8h.html#aa138e851b3b64211ce294927a4669b40", null ],
     [ "qsnprintf", "d7/d5c/qcstring_8h.html#a307ffe8cbc4a4aa695900441d1df49f3", null ],

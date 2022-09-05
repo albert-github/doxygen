@@ -1,6 +1,5 @@
 var NAVTREEINDEX119 =
 {
-"de/dea/vhdldocgen_8cpp.html#ad36ddbfe80f95268437d017cf97cf057":[9,0,2,296,38],
 "de/dea/vhdldocgen_8cpp.html#ad5ed36e089ae23fbd0742efe34acf322":[9,0,2,296,2],
 "de/dea/vhdldocgen_8cpp.html#ad87f77f29e176092c5af9423b3523024":[9,0,2,296,19],
 "de/dea/vhdldocgen_8cpp.html#ae261a70614d30ab993e7db91ab7f6c6a":[9,0,2,296,53],
@@ -249,5 +248,6 @@ var NAVTREEINDEX119 =
 "de/dff/class_citation_manager.html#a2904843bbc4e5d707386d5dce049692e":[8,0,27,5],
 "de/dff/class_citation_manager.html#a37a4055f986c73a8de48cd5d19bdd2dc":[8,0,27,11],
 "de/dff/class_citation_manager.html#a4934f7fbd6a387b7cc2ea0a12a2e04b5":[8,0,27,9],
-"de/dff/class_citation_manager.html#a5064df0802f4ce881cbe5d1d9757cc86":[8,0,27,3]
+"de/dff/class_citation_manager.html#a5064df0802f4ce881cbe5d1d9757cc86":[8,0,27,3],
+"de/dff/class_citation_manager.html#acbc101ba2926c6324a479b572ff3c377":[8,0,27,7]
 };
