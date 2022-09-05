@@ -3,6 +3,7 @@ var configimpl_8l =
     [ "ConfigFileState", "d5/dd5/struct_config_file_state.html", "d5/dd5/struct_config_file_state" ],
     [ "LEX_NO_REENTRANT", "d9/de3/configimpl_8l.html#a146a93da1f8efdea496a6d138d4773bc", null ],
     [ "MAX_INCLUDE_DEPTH", "d9/de3/configimpl_8l.html#a641f7209d924c2c4cb24420dcd631f37", null ],
+    [ "SHOW_INCLUDES", "d9/de3/configimpl_8l.html#abc983123ed5d1694a014d1ea7c1f22cb", null ],
     [ "unput_string", "d9/de3/configimpl_8l.html#a86da2f5e3360caa90276fc24433d9512", null ],
     [ "USE_STATE2STRING", "d9/de3/configimpl_8l.html#a1d0e1b21cfd1d3709de673b9a6e8a53b", null ],
     [ "YY_INPUT", "d9/de3/configimpl_8l.html#aacfdca45fa4beb8b06172525a53c424a", null ],
