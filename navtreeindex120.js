@@ -1,5 +1,6 @@
 var NAVTREEINDEX120 =
 {
+"de/dff/class_citation_manager.html#acbc101ba2926c6324a479b572ff3c377":[8,0,27,7],
 "de/dff/class_citation_manager.html#ace9a73a9c71111d88ec3eb90eeb92b26":[8,0,27,1],
 "de/dff/class_citation_manager.html#ade05cab342d2aec59e05a3b7ec166a19":[8,0,27,4],
 "de/dff/class_citation_manager.html#ade88ab31021df991b8f2b6b31e9c24e4":[8,0,27,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX120 =
 "df/d20/class_translator_vietnamese.html#aa10fd8916c5d4d35a225a7202db0498b":[8,0,607,124],
 "df/d20/class_translator_vietnamese.html#aa25246769e54e9e07fa253a31666b824":[8,0,607,2],
 "df/d20/class_translator_vietnamese.html#aa356fe633dabe2485060a0ff7a8f0190":[8,0,607,174],
-"df/d20/class_translator_vietnamese.html#aa5c74a42b75f40466758fef49f526083":[8,0,607,116],
-"df/d20/class_translator_vietnamese.html#aa61aa84f719d581ea36834c2714a116a":[8,0,607,107]
+"df/d20/class_translator_vietnamese.html#aa5c74a42b75f40466758fef49f526083":[8,0,607,116]
 };

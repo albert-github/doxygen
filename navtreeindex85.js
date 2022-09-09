@@ -1,5 +1,6 @@
 var NAVTREEINDEX85 =
 {
+"db/da0/struct_formula_manager_1_1_private.html":[8,0,284,0],
 "db/da0/struct_formula_manager_1_1_private.html#a0c22106da2adbdc4ebcc5237f51e95ce":[8,0,284,0,2],
 "db/da0/struct_formula_manager_1_1_private.html#a656bd0f666894d84c292bd7b1ec9e296":[8,0,284,0,1],
 "db/da0/struct_formula_manager_1_1_private.html#a9a8682571613089ab5c3ebcc642a6aaf":[8,0,284,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX85 =
 "db/dcc/class_translator_korean.html#aa41f60e69b2c9cb5873fa7aff1625a49":[8,0,588,1],
 "db/dcc/class_translator_korean.html#aa4b7b176cd22329c6b32b1451d421187":[8,0,588,128],
 "db/dcc/class_translator_korean.html#aa4c52e8d32d016b14a77cff015f9c9ee":[8,0,588,79],
-"db/dcc/class_translator_korean.html#aa5ac6f40895c988e82a039f24d0d7af2":[8,0,588,28],
-"db/dcc/class_translator_korean.html#aa8be7c0f7412661dc5ae06c1772806f7":[8,0,588,208]
+"db/dcc/class_translator_korean.html#aa5ac6f40895c988e82a039f24d0d7af2":[8,0,588,28]
 };

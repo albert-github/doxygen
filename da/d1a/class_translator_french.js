@@ -58,6 +58,7 @@ var class_translator_french =
     [ "trDefineValue", "da/d1a/class_translator_french.html#a4f3a7b5033d6df789134cdec3f5137e8", null ],
     [ "trDeprecated", "da/d1a/class_translator_french.html#aef1418637ce57c65904eff40f65aa26a", null ],
     [ "trDeprecatedList", "da/d1a/class_translator_french.html#a011f1910fc16d54e14576a54c4ff991f", null ],
+    [ "trDesignUnitDocumentation", "da/d1a/class_translator_french.html#a3aae6c35249f6b745aedb869ebca022a", null ],
     [ "trDesignUnitHierarchy", "da/d1a/class_translator_french.html#a2799be4d88e271225a220615ee79f5c0", null ],
     [ "trDesignUnitIndex", "da/d1a/class_translator_french.html#a2b324ca71516ec4313295fcc37d74ba8", null ],
     [ "trDesignUnitList", "da/d1a/class_translator_french.html#a908b46f9a72448669780b22e9badd77d", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX80 =
 {
+"da/dc3/struct_latex_doc_visitor_1_1_latex_list_item_info.html":[8,0,340,1],
 "da/dc3/struct_latex_doc_visitor_1_1_latex_list_item_info.html#ac76e26d431d1ec045a5ff8c0ec361e3d":[8,0,340,1,0],
 "da/dc5/class_clang_parser.html":[8,0,30],
 "da/dc5/class_clang_parser.html#a214d0c479ca3c5cad1ab31881a93e697":[8,0,30,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX80 =
 "db/d16/config_8h.html#a098ed7e63f2ba437f0e540316e6cd940aa0ba248fb99f2c67cce98a6822482fba":[9,0,2,25,12,2],
 "db/d16/config_8h.html#a098ed7e63f2ba437f0e540316e6cd940abbd47109890259c0127154db1af26c75":[9,0,2,25,12,0],
 "db/d16/config_8h.html#a15e896ce0b99792d1344b66af98928e7":[9,0,2,25,4],
-"db/d16/config_8h.html#a168f2876d56397a94af9140753974f38":[9,0,2,25,11],
-"db/d16/config_8h.html#a24f565457c1536240757e5c8ebbf2e97":[9,0,2,25,9]
+"db/d16/config_8h.html#a168f2876d56397a94af9140753974f38":[9,0,2,25,11]
 };
