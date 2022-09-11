@@ -1068,11 +1068,11 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  413</span>  {</div>
 <div class="line"><span class="lineno">  414</span>    <span class="keywordflow">return</span> openBracket ? <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>(<span class="stringliteral">&quot;}&quot;</span>) : <span class="stringliteral">&quot;end&quot;</span>+blockName;</div>
 <div class="line"><span class="lineno">  415</span>  };</div>
-<div class="line"><span class="lineno">  416</span>  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keyword">auto</span> getEndUml     = [](<span class="keyword">const</span> std::string &amp;blockName,bool,char) -&gt; <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a></div>
+<div class="line"><span class="lineno">  416</span>  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keyword">auto</span> getEndUml     = [](<span class="keyword">const</span> std::string &amp;<span class="comment">/* blockName */</span>,bool,char) -&gt; <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a></div>
 <div class="line"><span class="lineno">  417</span>  {</div>
 <div class="line"><span class="lineno">  418</span>    <span class="keywordflow">return</span> <span class="stringliteral">&quot;enduml&quot;</span>;</div>
 <div class="line"><span class="lineno">  419</span>  };</div>
-<div class="line"><span class="lineno">  420</span>  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keyword">auto</span> getEndFormula = [](<span class="keyword">const</span> std::string &amp;blockName,bool,<span class="keywordtype">char</span> nextChar) -&gt; <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a></div>
+<div class="line"><span class="lineno">  420</span>  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keyword">auto</span> getEndFormula = [](<span class="keyword">const</span> std::string &amp;<span class="comment">/* blockName */</span>,bool,<span class="keywordtype">char</span> nextChar) -&gt; <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a></div>
 <div class="line"><span class="lineno">  421</span>  {</div>
 <div class="line"><span class="lineno">  422</span>    <span class="keywordflow">switch</span> (nextChar)</div>
 <div class="line"><span class="lineno">  423</span>    {</div>
