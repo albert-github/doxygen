@@ -281,7 +281,7 @@ $(document).ready(function(){initNavTree('d0/d1c/portable_8cpp_source.html','../
 <div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>      WaitForSingleObject(sInfo.hProcess,INFINITE);</div>
 <div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>      <span class="comment">/* get process exit code */</span></div>
 <div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>      DWORD exitCode;</div>
-<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>      <span class="keywordtype">bool</span> retval = !GetExitCodeProcess(sInfo.hProcess,&amp;exitCode);</div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>      <span class="keywordtype">bool</span> retval = GetExitCodeProcess(sInfo.hProcess,&amp;exitCode);</div>
 <div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>      CloseHandle(sInfo.hProcess);</div>
 <div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>      <span class="keyword">delete</span>[] commandw;</div>
 <div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>      <span class="keyword">delete</span>[] argsw;</div>

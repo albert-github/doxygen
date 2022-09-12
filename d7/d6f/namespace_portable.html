@@ -1192,7 +1192,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  185</span>      WaitForSingleObject(sInfo.hProcess,INFINITE);</div>
 <div class="line"><span class="lineno">  186</span>      <span class="comment">/* get process exit code */</span></div>
 <div class="line"><span class="lineno">  187</span>      DWORD exitCode;</div>
-<div class="line"><span class="lineno">  188</span>      <span class="keywordtype">bool</span> retval = !GetExitCodeProcess(sInfo.hProcess,&amp;exitCode);</div>
+<div class="line"><span class="lineno">  188</span>      <span class="keywordtype">bool</span> retval = GetExitCodeProcess(sInfo.hProcess,&amp;exitCode);</div>
 <div class="line"><span class="lineno">  189</span>      CloseHandle(sInfo.hProcess);</div>
 <div class="line"><span class="lineno">  190</span>      <span class="keyword">delete</span>[] commandw;</div>
 <div class="line"><span class="lineno">  191</span>      <span class="keyword">delete</span>[] argsw;</div>
