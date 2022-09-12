@@ -71,7 +71,7 @@ var util_8cpp =
     [ "getCanonicalTypeForIdentifier", "df/d2d/util_8cpp.html#ab2ea86daea5714c6e35d4ddc62777790", null ],
     [ "getCaseSenseNames", "df/d2d/util_8cpp.html#aaefdc17b5414c3b2329297ff8c4e90a6", null ],
     [ "getDefs", "df/d2d/util_8cpp.html#a2295072491e4c81a8406ae2a29d68d25", null ],
-    [ "getDefsNew", "df/d2d/util_8cpp.html#ad9df15d8527784d69830118ab0da6a41", null ],
+    [ "getDefsNew", "df/d2d/util_8cpp.html#ae1d4eb64c5814d4eb0724be8fdd6327d", null ],
     [ "getDefsOld", "df/d2d/util_8cpp.html#a9cbafc5ba005ce8b1c0287e9a4ede947", null ],
     [ "getDotImageExtension", "df/d2d/util_8cpp.html#ab1cc08326518f249ccae693a16f6a10d", null ],
     [ "getEncoding", "df/d2d/util_8cpp.html#ac369a1df025c6505f067a880d197d8d8", null ],

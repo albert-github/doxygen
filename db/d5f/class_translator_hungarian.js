@@ -13,7 +13,7 @@ var class_translator_hungarian =
     [ "trCallerGraph", "db/d5f/class_translator_hungarian.html#a35dc43e954432d28c07200593967528d", null ],
     [ "trCallGraph", "db/d5f/class_translator_hungarian.html#a688d685f3a32c3e006c04f334ba74f68", null ],
     [ "trCiteReferences", "db/d5f/class_translator_hungarian.html#aae23d29beacdbecbd5149e793086153d", null ],
-    [ "trClass", "db/d5f/class_translator_hungarian.html#a307945db84f986c0c91baf438313dfc4", null ],
+    [ "trClass", "db/d5f/class_translator_hungarian.html#a864e8bd5517deb658ef455a2173755a5", null ],
     [ "trClassDiagram", "db/d5f/class_translator_hungarian.html#ab38ad957bc6faac851fe1605303b9198", null ],
     [ "trClassDocumentation", "db/d5f/class_translator_hungarian.html#aed3247411254defaf3b5a05693ca303b", null ],
     [ "trClasses", "db/d5f/class_translator_hungarian.html#af253d6545ecd4ec82e92d4dec8577716", null ],
