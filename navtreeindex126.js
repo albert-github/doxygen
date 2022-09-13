@@ -1,7 +1,5 @@
 var NAVTREEINDEX126 =
 {
-"df/dc8/class_output_list.html#abf5c8af1474707f76b32e631f033903a":[8,0,418,37],
-"df/dc8/class_output_list.html#ac13352584de9c19dd2776d49c1e9bf30":[8,0,418,71],
 "df/dc8/class_output_list.html#ac38b30488a0d82de3aa04b7ae30ed48e":[8,0,418,69],
 "df/dc8/class_output_list.html#ac5e2f6ef346a21e513ea4bd3f53616ba":[8,0,418,6],
 "df/dc8/class_output_list.html#ac6efca5985597bb6e51427c51d40732f":[8,0,418,59],
@@ -249,5 +247,7 @@ var NAVTREEINDEX126 =
 "df/dc8/class_translator_indonesian.html#ad51205ea92fa8eb2e9f02cff9fe3db1c":[8,0,584,16],
 "df/dc8/class_translator_indonesian.html#ad5fb31ccc0813683f8c55812a64911c6":[8,0,584,5],
 "df/dc8/class_translator_indonesian.html#adc365fe8ee744a3af6538c00108244c0":[8,0,584,210],
-"df/dc8/class_translator_indonesian.html#adc5560db715fad24920544df6e847386":[8,0,584,61]
+"df/dc8/class_translator_indonesian.html#adc5560db715fad24920544df6e847386":[8,0,584,61],
+"df/dc8/class_translator_indonesian.html#ae3098dbe0ec37c45f27b5d8b38de7797":[8,0,584,136],
+"df/dc8/class_translator_indonesian.html#ae3c4c0370c4fc7d108f64d23c2ea785a":[8,0,584,130]
 };

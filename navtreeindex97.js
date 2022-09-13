@@ -1,7 +1,5 @@
 var NAVTREEINDEX97 =
 {
-"dd/d23/class_dual_dir_iterator.html":[8,0,213],
-"dd/d23/class_dual_dir_iterator.html#a1373c495765f5f449d68ad5352290ffb":[8,0,213,1],
 "dd/d23/class_dual_dir_iterator.html#a14e6d78f7b7c31704e5ce390701dd0da":[8,0,213,3],
 "dd/d23/class_dual_dir_iterator.html#a77c834a909aede3162f95ff478dc694f":[8,0,213,5],
 "dd/d23/class_dual_dir_iterator.html#aad92bde29514b1eb15c84c2033a06416":[8,0,213,7],
@@ -249,5 +247,7 @@ var NAVTREEINDEX97 =
 "dd/d4b/class_member_def_mutable.html#a1026656b64c52794d0b590115ff7abb9":[8,0,373,42],
 "dd/d4b/class_member_def_mutable.html#a1048d11a0914fa7412fc6bbaa1f593bf":[8,0,373,34],
 "dd/d4b/class_member_def_mutable.html#a11563fe533d27551b3a055aacc79de4f":[8,0,373,65],
-"dd/d4b/class_member_def_mutable.html#a1499de35098d97ef45fcc4a2b1abf82b":[8,0,373,57]
+"dd/d4b/class_member_def_mutable.html#a1499de35098d97ef45fcc4a2b1abf82b":[8,0,373,57],
+"dd/d4b/class_member_def_mutable.html#a193c336b13421641e9b85dc3f0826d30":[8,0,373,24],
+"dd/d4b/class_member_def_mutable.html#a1eb20ffe6518980b72843a48fcdd3010":[8,0,373,41]
 };
