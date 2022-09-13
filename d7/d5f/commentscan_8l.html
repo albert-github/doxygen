@@ -166,7 +166,7 @@ Macros</h2></td></tr>
 <tr class="separator:a15b85de192a189d5a31cdd518e001e6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86da2f5e3360caa90276fc24433d9512"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5f/commentscan_8l.html#a86da2f5e3360caa90276fc24433d9512">unput_string</a>(yytext,  yyleng)&#160;&#160;&#160;do { for (int i=(int)yyleng-1;i&gt;=0;i--) unput(yytext[i]); } while(0)</td></tr>
 <tr class="separator:a86da2f5e3360caa90276fc24433d9512"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacfdca45fa4beb8b06172525a53c424a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5f/commentscan_8l.html#aacfdca45fa4beb8b06172525a53c424a">YY_INPUT</a>(buf,  result,  max_size)&#160;&#160;&#160;result=<a class="el" href="../../da/d1f/code_8l.html#a954f5351908394abcda1649f481a6265">yyread</a>(yyscanner,buf,max_size);</td></tr>
+<tr class="memitem:aacfdca45fa4beb8b06172525a53c424a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5f/commentscan_8l.html#aacfdca45fa4beb8b06172525a53c424a">YY_INPUT</a>(buf,  result,  max_size)&#160;&#160;&#160;result=<a class="el" href="../../da/d1f/code_8l.html#aef4757efc594a4ec73f0884965e5f8cd">yyread</a>(yyscanner,buf,max_size);</td></tr>
 <tr class="separator:aacfdca45fa4beb8b06172525a53c424a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
@@ -409,8 +409,8 @@ Functions</h2></td></tr>
 <tr class="separator:afe77efd207c0ca3b44020b051e279957"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a048c00592e372edb8bd1cd16389b57a9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5f/commentscan_8l.html#a048c00592e372edb8bd1cd16389b57a9">handleGuard</a> (<a class="el" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner, const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;expr)</td></tr>
 <tr class="separator:a048c00592e372edb8bd1cd16389b57a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a954f5351908394abcda1649f481a6265"><td class="memItemLeft" align="right" valign="top">static yy_size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5f/commentscan_8l.html#a954f5351908394abcda1649f481a6265">yyread</a> (<a class="el" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner, char *buf, yy_size_t max_size)</td></tr>
-<tr class="separator:a954f5351908394abcda1649f481a6265"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef4757efc594a4ec73f0884965e5f8cd"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5f/commentscan_8l.html#aef4757efc594a4ec73f0884965e5f8cd">yyread</a> (<a class="el" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner, char *buf, yy_size_t max_size)</td></tr>
+<tr class="separator:aef4757efc594a4ec73f0884965e5f8cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b8e4d926adebd224807ed5d9f0e3192"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5f/commentscan_8l.html#a2b8e4d926adebd224807ed5d9f0e3192">addCite</a> (<a class="el" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner)</td></tr>
 <tr class="separator:a2b8e4d926adebd224807ed5d9f0e3192"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2998873ea2f67f5127f7efd25e947df"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5f/commentscan_8l.html#af2998873ea2f67f5127f7efd25e947df">addIline</a> (<a class="el" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner, int lineNr)</td></tr>
@@ -507,7 +507,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;result=<a class="el" href="../../da/d1f/code_8l.html#a954f5351908394abcda1649f481a6265">yyread</a>(yyscanner,buf,max_size);</td>
+          <td></td><td>&#160;&#160;&#160;result=<a class="el" href="../../da/d1f/code_8l.html#aef4757efc594a4ec73f0884965e5f8cd">yyread</a>(yyscanner,buf,max_size);</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -8269,8 +8269,8 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a954f5351908394abcda1649f481a6265" name="a954f5351908394abcda1649f481a6265"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a954f5351908394abcda1649f481a6265">&#9670;&#160;</a></span>yyread()</h2>
+<a id="aef4757efc594a4ec73f0884965e5f8cd" name="aef4757efc594a4ec73f0884965e5f8cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef4757efc594a4ec73f0884965e5f8cd">&#9670;&#160;</a></span>yyread()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8279,7 +8279,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static yy_size_t yyread </td>
+          <td class="memname">static int yyread </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a>&#160;</td>
           <td class="paramname"><em>yyscanner</em>, </td>
@@ -8320,7 +8320,7 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno"> 3600</span>    <span class="comment">//printf(&quot;%d (%c)\n&quot;,*buf,*buf);</span></div>
 <div class="line"><span class="lineno"> 3601</span>    c++; buf++;</div>
 <div class="line"><span class="lineno"> 3602</span>  }</div>
-<div class="line"><span class="lineno"> 3603</span>  <span class="keywordflow">return</span> c;</div>
+<div class="line"><span class="lineno"> 3603</span>  <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(c);</div>
 <div class="line"><span class="lineno"> 3604</span>}</div>
 </div><!-- fragment -->
 </div>

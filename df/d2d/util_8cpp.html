@@ -3098,8 +3098,8 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno"> 6094</span>  <span class="keywordflow">if</span> (result == s)</div>
 <div class="line"><span class="lineno"> 6095</span>  {</div>
 <div class="line"><span class="lineno"> 6096</span>    std::string orgStr = s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>();</div>
-<div class="line"><span class="lineno"> 6097</span>    <span class="keywordtype">int</span> ridx = orgStr.rfind(<span class="charliteral">&#39;-&#39;</span>);</div>
-<div class="line"><span class="lineno"> 6098</span>    <span class="keywordflow">if</span> (ridx != -1) <span class="keywordflow">return</span> <a class="code hl_function" href="../../df/d2d/util_8cpp.html#aa33d444e6400c3a793bcd6f69e79fb33">expandAliasRec</a>(aliasesProcessed,s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">left</a>(ridx),allowRecursion) + s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a8f4aa5417f6a834f28c7148a1fe262d5">right</a>(s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">length</a>() - ridx);</div>
+<div class="line"><span class="lineno"> 6097</span>    <span class="keywordtype">size_t</span> ridx = orgStr.rfind(<span class="charliteral">&#39;-&#39;</span>);</div>
+<div class="line"><span class="lineno"> 6098</span>    <span class="keywordflow">if</span> (ridx != std::string::npos) <span class="keywordflow">return</span> <a class="code hl_function" href="../../df/d2d/util_8cpp.html#aa33d444e6400c3a793bcd6f69e79fb33">expandAliasRec</a>(aliasesProcessed,s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">left</a>(ridx),allowRecursion) + s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a8f4aa5417f6a834f28c7148a1fe262d5">right</a>(s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">length</a>() - ridx);</div>
 <div class="line"><span class="lineno"> 6099</span>  }</div>
 <div class="line"><span class="lineno"> 6100</span> </div>
 <div class="line"><span class="lineno"> 6101</span>  <span class="keywordflow">return</span> result;</div>
@@ -9470,7 +9470,7 @@ template&lt;class PatternList , class PatternElem , typename PatternGet  = QCStr
 <div class="line"><span class="lineno"> 7259</span>  {</div>
 <div class="line"><span class="lineno"> 7260</span>    column++;</div>
 <div class="line"><span class="lineno"> 7261</span> </div>
-<div class="line"><span class="lineno"> 7262</span>    <span class="keywordflow">switch</span>(contents[i])</div>
+<div class="line"><span class="lineno"> 7262</span>    <span class="keywordflow">switch</span>(contents.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a4c8be5d062cc14919b53ff0a3c8f9a4f">at</a>(i))</div>
 <div class="line"><span class="lineno"> 7263</span>    {</div>
 <div class="line"><span class="lineno"> 7264</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;\n&#39;</span>:</div>
 <div class="line"><span class="lineno"> 7265</span>        column=0;</div>
@@ -9504,7 +9504,7 @@ template&lt;class PatternList , class PatternElem , typename PatternGet  = QCStr
 <div class="line"><span class="lineno"> 7293</span>  <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
 <div class="line"><span class="lineno"> 7294</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00034">Config_getInt</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00300">FortranFormat_Fixed</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00299">FortranFormat_Free</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::length()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00503">QCString::at()</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00034">Config_getInt</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00300">FortranFormat_Fixed</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00299">FortranFormat_Free</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::length()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d47/commentcnv_8l_source.html#l01194">convertCppComments()</a>, <a class="el" href="../../d9/d5b/fortrancode_8l_source.html#l01447">FortranCodeParser::parseCode()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02779">parseMain()</a>.</p>
 
