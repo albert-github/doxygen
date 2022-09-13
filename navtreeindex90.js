@@ -1,5 +1,14 @@
 var NAVTREEINDEX90 =
 {
+"dc/d44/class_translator_spanish.html#a1589009f7db597274398ea5155abe6ff":[8,0,603,198],
+"dc/d44/class_translator_spanish.html#a1782a41e641e7e20ca29bd8de69a2cec":[8,0,603,273],
+"dc/d44/class_translator_spanish.html#a1785c24517a8a04edf0879170125c233":[8,0,603,8],
+"dc/d44/class_translator_spanish.html#a18ac14fe9d3dcb44ce73121c0b914227":[8,0,603,73],
+"dc/d44/class_translator_spanish.html#a19088b9a061bced85fe778e923c952c9":[8,0,603,104],
+"dc/d44/class_translator_spanish.html#a1b3dec802cb5b2fef66da1b0929c6fd4":[8,0,603,110],
+"dc/d44/class_translator_spanish.html#a1b565bd311b22da11a9bc859355a21b3":[8,0,603,211],
+"dc/d44/class_translator_spanish.html#a1bce776bcffd970f40b818080e15820e":[8,0,603,28],
+"dc/d44/class_translator_spanish.html#a1bd5bde16cb1c05c51cd4ea8bcf45575":[8,0,603,14],
 "dc/d44/class_translator_spanish.html#a1bfcf19d16990efb94db4f5423436e5c":[8,0,603,270],
 "dc/d44/class_translator_spanish.html#a1db2b6d21962b13371d3355bdfe449c8":[8,0,603,43],
 "dc/d44/class_translator_spanish.html#a1e45f56117d12b6b6d013955b9ecacea":[8,0,603,156],
@@ -240,14 +249,5 @@ var NAVTREEINDEX90 =
 "dc/d44/class_translator_spanish.html#af3779143cd7c53a8f0c68a2e5d20e77e":[8,0,603,167],
 "dc/d44/class_translator_spanish.html#af381fe89675060d4fba1faf347431ddf":[8,0,603,186],
 "dc/d44/class_translator_spanish.html#af386a103e664cdbd7137fb82c73be2f9":[8,0,603,15],
-"dc/d44/class_translator_spanish.html#af4efe183b5c04557a1ca1dd6e38ad6af":[8,0,603,268],
-"dc/d44/class_translator_spanish.html#af5650f6cac37f78f43c272670f74da95":[8,0,603,164],
-"dc/d44/class_translator_spanish.html#af636d48e7e01ef57c053db6eec55fc55":[8,0,603,12],
-"dc/d44/class_translator_spanish.html#af729de0f74371298a658f1e369c9243a":[8,0,603,124],
-"dc/d44/class_translator_spanish.html#afb5f7f0f5a0727ad700a30ea0ca81048":[8,0,603,158],
-"dc/d44/class_translator_spanish.html#afb701ffea0df179e14acdf2d957e5b68":[8,0,603,6],
-"dc/d44/class_translator_spanish.html#afb998e976e2db6209af008a62e16354e":[8,0,603,172],
-"dc/d44/class_translator_spanish.html#afc2466e86fec5063e6324c172d262a9c":[8,0,603,75],
-"dc/d44/class_translator_spanish.html#afe12ea704c8ac0900c3018ee64576f46":[8,0,603,55],
-"dc/d44/class_translator_spanish.html#afe520e8844f8e72cc724a29364cf3121":[8,0,603,71]
+"dc/d44/class_translator_spanish.html#af4efe183b5c04557a1ca1dd6e38ad6af":[8,0,603,268]
 };

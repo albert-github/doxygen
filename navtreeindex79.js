@@ -1,5 +1,14 @@
 var NAVTREEINDEX79 =
 {
+"da/dbb/class_translator_bulgarian.html#a586f57a9a5ceef78c5db609b7f65afcb":[8,0,568,205],
+"da/dbb/class_translator_bulgarian.html#a58966d7d3f712e3b195bf5a5f2a8dc05":[8,0,568,48],
+"da/dbb/class_translator_bulgarian.html#a58fbee827b7572adbc7bb7855fdcb7b0":[8,0,568,109],
+"da/dbb/class_translator_bulgarian.html#a593a944a1a855927c4c2d9c451d6f3da":[8,0,568,218],
+"da/dbb/class_translator_bulgarian.html#a5afa1ee7f8f0099a414f002e189777eb":[8,0,568,13],
+"da/dbb/class_translator_bulgarian.html#a5b77127b0edc234a0146cbc425922eaf":[8,0,568,159],
+"da/dbb/class_translator_bulgarian.html#a5b7971ca4120895154206e5354a0fe37":[8,0,568,173],
+"da/dbb/class_translator_bulgarian.html#a5c7386c7252b500f1c8fe7d678d663c5":[8,0,568,18],
+"da/dbb/class_translator_bulgarian.html#a5d045698a339b58b390778491e843805":[8,0,568,47],
 "da/dbb/class_translator_bulgarian.html#a5e39a034f7f70d85e0643a50984e0306":[8,0,568,171],
 "da/dbb/class_translator_bulgarian.html#a5ea6c9e9472ea38be2e877e91c07cbce":[8,0,568,16],
 "da/dbb/class_translator_bulgarian.html#a5eebbd8f59d8448ad976967b9a6dad23":[8,0,568,168],
@@ -240,14 +249,5 @@ var NAVTREEINDEX79 =
 "da/dbf/class_template_context_impl.html#ac2f762c868c7da964411a719821f08df":[8,0,491,11],
 "da/dbf/class_template_context_impl.html#ad4c9881391e3523008f187d3d444c9e4":[8,0,491,45],
 "da/dbf/class_template_context_impl.html#ad79b1d5a5b158eb4ca479f0d05f93b73":[8,0,491,33],
-"da/dbf/class_template_context_impl.html#ada3d4bc27b6b560127af242790a77f45":[8,0,491,47],
-"da/dbf/class_template_context_impl.html#ae17cf1abda7ad4cf2f5190880fec5f53":[8,0,491,44],
-"da/dbf/class_template_context_impl.html#ae460b2ed6f5aedc406cc80bd52f1a3ab":[8,0,491,39],
-"da/dbf/class_template_context_impl.html#ae6466f63f68cfc93ce1f6d854e44790d":[8,0,491,40],
-"da/dbf/class_template_context_impl.html#af8856e3207a53fad3f700353d71b575e":[8,0,491,20],
-"da/dbf/class_template_context_impl.html#afa734b94d1be0b8de83eca0a7823a3e6":[8,0,491,30],
-"da/dbf/class_template_context_impl.html#afb0b4a00e7ab9bcfbc37e52103d4f587":[8,0,491,28],
-"da/dbf/class_template_context_impl.html#afd3109a0f91006ab2a730e6af55f2b97":[8,0,491,5],
-"da/dc0/mangen_8h.html":[9,0,2,164],
-"da/dc0/mangen_8h_source.html":[9,0,2,164]
+"da/dbf/class_template_context_impl.html#ada3d4bc27b6b560127af242790a77f45":[8,0,491,47]
 };

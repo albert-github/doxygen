@@ -1,5 +1,14 @@
 var NAVTREEINDEX91 =
 {
+"dc/d44/class_translator_spanish.html#af5650f6cac37f78f43c272670f74da95":[8,0,603,164],
+"dc/d44/class_translator_spanish.html#af636d48e7e01ef57c053db6eec55fc55":[8,0,603,12],
+"dc/d44/class_translator_spanish.html#af729de0f74371298a658f1e369c9243a":[8,0,603,124],
+"dc/d44/class_translator_spanish.html#afb5f7f0f5a0727ad700a30ea0ca81048":[8,0,603,158],
+"dc/d44/class_translator_spanish.html#afb701ffea0df179e14acdf2d957e5b68":[8,0,603,6],
+"dc/d44/class_translator_spanish.html#afb998e976e2db6209af008a62e16354e":[8,0,603,172],
+"dc/d44/class_translator_spanish.html#afc2466e86fec5063e6324c172d262a9c":[8,0,603,75],
+"dc/d44/class_translator_spanish.html#afe12ea704c8ac0900c3018ee64576f46":[8,0,603,55],
+"dc/d44/class_translator_spanish.html#afe520e8844f8e72cc724a29364cf3121":[8,0,603,71],
 "dc/d44/class_translator_spanish.html#afeff93e85b89d703be5e4ea8d5f8d458":[8,0,603,111],
 "dc/d53/class_translator_lithuanian.html":[8,0,591],
 "dc/d53/class_translator_lithuanian.html#a01ad40cf1b4fe9536d01f751df868f7a":[8,0,591,136],
@@ -240,14 +249,5 @@ var NAVTREEINDEX91 =
 "dc/d68/translator__tr_8h_source.html":[9,0,2,284],
 "dc/d6f/class_class_tree_context.html":[8,0,46],
 "dc/d6f/class_class_tree_context.html#a14bda13fbb6bb345dd6fa9bf1458c3dc":[8,0,46,6],
-"dc/d6f/class_class_tree_context.html#a5aa0fd9ce454c2c656fc16d37b75dfc9":[8,0,46,3],
-"dc/d6f/class_class_tree_context.html#a7c49475614860a2f2615904106aad621":[8,0,46,1],
-"dc/d6f/class_class_tree_context.html#aa9018116562a4e05ce2d4f3ef760dd09":[8,0,46,4],
-"dc/d6f/class_class_tree_context.html#ad968e49122ae7353cce68f954a5d4e3b":[8,0,46,5],
-"dc/d6f/class_class_tree_context.html#aefee99bb762c07485c7c3e3f066a64f4":[8,0,46,2],
-"dc/d76/md_doc_internal_tags_history.html":[4],
-"dc/d77/class_member_linked_ref_map.html":[8,0,382],
-"dc/d7c/struct_x_m_l_code_parser_1_1_private.html":[8,0,624,0],
-"dc/d7c/struct_x_m_l_code_parser_1_1_private.html#a6218feccae367303ec0adcb350a1b9bd":[8,0,624,0,1],
-"dc/d7c/struct_x_m_l_code_parser_1_1_private.html#accb7e867d038d600df04f98fa100e048":[8,0,624,0,0]
+"dc/d6f/class_class_tree_context.html#a5aa0fd9ce454c2c656fc16d37b75dfc9":[8,0,46,3]
 };

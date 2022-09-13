@@ -74,7 +74,7 @@ var doxygen_8cpp =
     [ "dumpSymbol", "dc/d98/doxygen_8cpp.html#a833bced73323c4df8e30a7491a0857b2", null ],
     [ "dumpSymbolMap", "dc/d98/doxygen_8cpp.html#a567698ca8e22cc5b401cb0e446778dd4", null ],
     [ "escapeAliases", "dc/d98/doxygen_8cpp.html#a06e2d956eae1422dcde7e95879ca0df1", null ],
-    [ "exitDoxygen", "dc/d98/doxygen_8cpp.html#a03398bd40277bc39972502747a158769", null ],
+    [ "exitDoxygen", "dc/d98/doxygen_8cpp.html#a882f8946181d574488d7ff86eab17659", null ],
     [ "expandAliases", "dc/d98/doxygen_8cpp.html#ac6a7a97147e24dde4fe3caef60dc8548", null ],
     [ "extractClassName", "dc/d98/doxygen_8cpp.html#a91b99c5ed2e4b31b81c9eda9514c53da", null ],
     [ "filterMemberDocumentation", "dc/d98/doxygen_8cpp.html#abf6738772e1f2bf741b5fb0868847b8c", null ],

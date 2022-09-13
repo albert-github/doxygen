@@ -114,6 +114,7 @@ var class_translator_brazilian =
     [ "trFileMembers", "d2/d4c/class_translator_brazilian.html#aa024ffe399f6960172da02e87c4dd6f7", null ],
     [ "trFileMembersDescription", "d2/d4c/class_translator_brazilian.html#ae8055763a1567f6f2ab804b2c6e5712a", null ],
     [ "trFileReference", "d2/d4c/class_translator_brazilian.html#a1e1110eef4b5663a1ff73e4765584108", null ],
+    [ "trFlowchart", "d2/d4c/class_translator_brazilian.html#a44bc47363164d6e4c044bd43c9dca11d", null ],
     [ "trFriends", "d2/d4c/class_translator_brazilian.html#a61598f3000f9a8a2a420f758e29a3e9c", null ],
     [ "trFunctionAndProc", "d2/d4c/class_translator_brazilian.html#a035d996869c5c8e3f2fe15c9fd28238b", null ],
     [ "trFunctionDocumentation", "d2/d4c/class_translator_brazilian.html#a9dd48be1ed67c6a7f24e6f5c4ef6bf87", null ],

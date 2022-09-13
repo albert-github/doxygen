@@ -1,5 +1,14 @@
 var NAVTREEINDEX76 =
 {
+"da/d32/class_translator_romanian.html#a8bd66fc0016c5b8ababad71c51aece2b":[8,0,597,224],
+"da/d32/class_translator_romanian.html#a8bdf058f6d534ddeb122521d37c3e9c6":[8,0,597,178],
+"da/d32/class_translator_romanian.html#a8cb64e880d0e902d2db5b1c3d63960e9":[8,0,597,201],
+"da/d32/class_translator_romanian.html#a8d2122a4d08062355ec1e0266ddbd98a":[8,0,597,106],
+"da/d32/class_translator_romanian.html#a8d5b235508f9aa7769c40b340f8e475f":[8,0,597,113],
+"da/d32/class_translator_romanian.html#a8efa96a9df9a11de154ce5c1cf89125e":[8,0,597,12],
+"da/d32/class_translator_romanian.html#a8f3d36f33d2ca8b0a41e2eae8f2bd11b":[8,0,597,141],
+"da/d32/class_translator_romanian.html#a92e18f3afd30efa2cbac9eb58c411b21":[8,0,597,152],
+"da/d32/class_translator_romanian.html#a946e3d50728222fd0a43d931a5d738b7":[8,0,597,212],
 "da/d32/class_translator_romanian.html#a948f639d77578d00b6288056b68defd8":[8,0,597,206],
 "da/d32/class_translator_romanian.html#a94bd8e948397a46045bb5c755f88973d":[8,0,597,41],
 "da/d32/class_translator_romanian.html#a95301c709e857addb69dfa02cf466f2e":[8,0,597,161],
@@ -240,14 +249,5 @@ var NAVTREEINDEX76 =
 "da/d7b/class_lex_outline_parser.html#a6e0a6fa3a2647d040c2b6c721466ce4f":[8,0,354,2],
 "da/d7b/class_lex_outline_parser.html#aa15a62641b1eea32bfb8e3e2c88e03a6":[8,0,354,4],
 "da/d7b/class_lex_outline_parser.html#ad381cb1e25cb3fc68a0d639c85fff348":[8,0,354,5],
-"da/d7b/structsqlcode_y_y__state.html":[8,0,473],
-"da/d7b/structsqlcode_y_y__state.html#a09cad7f457d87dca777352aaa7d9e872":[8,0,473,3],
-"da/d7b/structsqlcode_y_y__state.html#a12ff3617a457baf82d69ccf1e7b5ccc6":[8,0,473,13],
-"da/d7b/structsqlcode_y_y__state.html#a1e58e79a9935e2bc1bc080e4ecd18684":[8,0,473,8],
-"da/d7b/structsqlcode_y_y__state.html#a2960ee55db4af9fccd2c1ab9d5b793b2":[8,0,473,5],
-"da/d7b/structsqlcode_y_y__state.html#a2e8632bb6999de5c3ec3389f71bf57a2":[8,0,473,11],
-"da/d7b/structsqlcode_y_y__state.html#a34a323dabcac14f004b7f3190498c27a":[8,0,473,7],
-"da/d7b/structsqlcode_y_y__state.html#a396daebc48d73dda1687dcd3703d3f38":[8,0,473,4],
-"da/d7b/structsqlcode_y_y__state.html#a5fa633f352c5050b85b95aead5ddca09":[8,0,473,12],
-"da/d7b/structsqlcode_y_y__state.html#a62f45fff15baeca93ff2c9d77a972e18":[8,0,473,1]
+"da/d7b/structsqlcode_y_y__state.html":[8,0,473]
 };

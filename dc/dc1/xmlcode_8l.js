@@ -2,6 +2,7 @@ var xmlcode_8l =
 [
     [ "xmlcodeYY_state", "d1/d7e/structxmlcode_y_y__state.html", "d1/d7e/structxmlcode_y_y__state" ],
     [ "XMLCodeParser::Private", "dc/d7c/struct_x_m_l_code_parser_1_1_private.html", "dc/d7c/struct_x_m_l_code_parser_1_1_private" ],
+    [ "USE_STATE2STRING", "dc/dc1/xmlcode_8l.html#a1d0e1b21cfd1d3709de673b9a6e8a53b", null ],
     [ "YY_INPUT", "dc/dc1/xmlcode_8l.html#aacfdca45fa4beb8b06172525a53c424a", null ],
     [ "YY_NEVER_INTERACTIVE", "dc/dc1/xmlcode_8l.html#a15b85de192a189d5a31cdd518e001e6e", null ],
     [ "YY_NO_INPUT", "dc/dc1/xmlcode_8l.html#a85523a0c7d95c059d251b4e9829947aa", null ],
