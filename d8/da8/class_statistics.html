@@ -222,8 +222,8 @@ Private Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l00221">221</a> of file <a class="el" href="../../dc/d98/doxygen_8cpp_source.html">doxygen.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  222</span>    {</div>
 <div class="line"><span class="lineno">  223</span>      std::chrono::steady_clock::time_point endTime = std::chrono::steady_clock::now();</div>
-<div class="line"><span class="lineno">  224</span>      <a class="code hl_variable" href="../../d8/da8/class_statistics.html#a382e875ed47f4b11feaa8d8b7986810d">stats</a>.back().elapsed = std::chrono::duration_cast&lt;</div>
-<div class="line"><span class="lineno">  225</span>                                std::chrono::microseconds&gt;(endTime - <a class="code hl_variable" href="../../d8/da8/class_statistics.html#ab0f66662f4036c7593d4f908cb1dfa40">startTime</a>).count()/1000000.0;</div>
+<div class="line"><span class="lineno">  224</span>      <a class="code hl_variable" href="../../d8/da8/class_statistics.html#a382e875ed47f4b11feaa8d8b7986810d">stats</a>.back().elapsed = <span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(std::chrono::duration_cast&lt;</div>
+<div class="line"><span class="lineno">  225</span>                                std::chrono::microseconds&gt;(endTime - <a class="code hl_variable" href="../../d8/da8/class_statistics.html#ab0f66662f4036c7593d4f908cb1dfa40">startTime</a>).count())/1000000.0;</div>
 <div class="line"><span class="lineno">  226</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l00251">startTime</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l00250">stats</a>.</p>

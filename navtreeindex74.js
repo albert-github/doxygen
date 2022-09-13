@@ -1,5 +1,7 @@
 var NAVTREEINDEX74 =
 {
+"da/d1a/class_translator_french.html#a9bc4c69b4d6ee71bc4ff53911eeceea1":[8,0,579,117],
+"da/d1a/class_translator_french.html#a9bc54ffd2edcd6fd7ba093a06b351170":[8,0,579,288],
 "da/d1a/class_translator_french.html#a9cbdaf591fc534cc8874738c2d30bf81":[8,0,579,26],
 "da/d1a/class_translator_french.html#a9e5eeb4c9b147618f014af4196c3fc5b":[8,0,579,51],
 "da/d1a/class_translator_french.html#a9ea0def0f45432d1dff410c00ce3328b":[8,0,579,82],
@@ -178,6 +180,7 @@ var NAVTREEINDEX74 =
 "da/d1f/code_8l.html#a8da5e564ca5debbb07a26fb91c0fc3d6":[9,0,2,16,54],
 "da/d1f/code_8l.html#a8e905b506e051ad396d13f2c9d1a075b":[9,0,2,16,25],
 "da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b":[9,0,2,16,11],
+"da/d1f/code_8l.html#a954f5351908394abcda1649f481a6265":[9,0,2,16,58],
 "da/d1f/code_8l.html#a9f3ce7c21549a8e70e535371ef94aaaf":[9,0,2,16,16],
 "da/d1f/code_8l.html#aaab64d133eb33e76de6a6b9a5a855dac":[9,0,2,16,60],
 "da/d1f/code_8l.html#aacfd95cde165d73c3c0094e04e4672e0":[9,0,2,16,33],
@@ -198,7 +201,6 @@ var NAVTREEINDEX74 =
 "da/d1f/code_8l.html#ae56ed854fe016edad8cd1da147c51251":[9,0,2,16,15],
 "da/d1f/code_8l.html#ae78ac56cd1f29572e967ed7636952d15":[9,0,2,16,9],
 "da/d1f/code_8l.html#ae979de69f013fe320cf7233cd59d27ef":[9,0,2,16,30],
-"da/d1f/code_8l.html#aef4757efc594a4ec73f0884965e5f8cd":[9,0,2,16,58],
 "da/d1f/code_8l.html#aef9d8a33c82dbef016b68d619f0b2856":[9,0,2,16,44],
 "da/d1f/code_8l.html#af2995da196faa8940cca40cfc158b9aa":[9,0,2,16,56],
 "da/d1f/code_8l.html#af7af0722d394ed17bb2a672320b85c7c":[9,0,2,16,22],
@@ -247,7 +249,5 @@ var NAVTREEINDEX74 =
 "da/d25/struct_comment_scanner_1_1_private.html#aad1b87dd5ac3fb96db3d6784ede3195f":[8,0,59,0,1],
 "da/d28/structcode_y_y__state.html":[8,0,50],
 "da/d28/structcode_y_y__state.html#a04aec3334cb0fb3956d215f577402e1d":[8,0,50,53],
-"da/d28/structcode_y_y__state.html#a178cf24694010bbf4dbf2c0ff225e001":[8,0,50,14],
-"da/d28/structcode_y_y__state.html#a1a056a21efacf1b9547b7920e4383406":[8,0,50,52],
-"da/d28/structcode_y_y__state.html#a1d3304a54d2d1773fc808587236c9116":[8,0,50,3]
+"da/d28/structcode_y_y__state.html#a178cf24694010bbf4dbf2c0ff225e001":[8,0,50,14]
 };

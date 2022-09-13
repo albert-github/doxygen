@@ -20,6 +20,6 @@ var xmlcode_8l =
     [ "startCodeLine", "dc/dc1/xmlcode_8l.html#a47b0cd13a509f44e1a1032cbf4ad69ed", null ],
     [ "startFontClass", "dc/dc1/xmlcode_8l.html#a774297aa5d69086827360d6f0ab535fa", null ],
     [ "yylex", "dc/dc1/xmlcode_8l.html#a1d80d8ed8c19744ed31163f6e7525e54", null ],
-    [ "yyread", "dc/dc1/xmlcode_8l.html#a51d7251239d4390482ab264475d5d2df", null ],
-    [ "yyread", "dc/dc1/xmlcode_8l.html#aef4757efc594a4ec73f0884965e5f8cd", null ]
+    [ "yyread", "dc/dc1/xmlcode_8l.html#a6471b770c76470cb6ed0c953b403f43a", null ],
+    [ "yyread", "dc/dc1/xmlcode_8l.html#a954f5351908394abcda1649f481a6265", null ]
 ];

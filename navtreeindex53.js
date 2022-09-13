@@ -1,5 +1,7 @@
 var NAVTREEINDEX53 =
 {
+"d7/d5b/formula_8cpp.html#afa25bb4d45f6063809f1c8cd70038d94":[9,0,2,119,12],
+"d7/d5b/formula_8cpp_source.html":[9,0,2,119],
 "d7/d5b/plantuml_8cpp.html":[9,0,2,189],
 "d7/d5b/plantuml_8cpp.html#a309f3f6f3c75a77b4ce5b9760f319d62":[9,0,2,189,4],
 "d7/d5b/plantuml_8cpp.html#a7411ea2df505d0f75b24fdd14da9ba47":[9,0,2,189,0],
@@ -162,6 +164,7 @@ var NAVTREEINDEX53 =
 "d7/d5f/commentscan_8l.html#a8df09ed2f1060ed76a4e2987cfb5e04d":[9,0,2,20,70],
 "d7/d5f/commentscan_8l.html#a8ede19e44f3156ac248ff9d8b9cf04e9":[9,0,2,20,60],
 "d7/d5f/commentscan_8l.html#a9484188abbc459dafcbd4c96425fa70b":[9,0,2,20,12],
+"d7/d5f/commentscan_8l.html#a954f5351908394abcda1649f481a6265":[9,0,2,20,122],
 "d7/d5f/commentscan_8l.html#a95d9407b2895ac9ae0d5fbd634021386":[9,0,2,20,81],
 "d7/d5f/commentscan_8l.html#a968755490a830e175e145c7086125eca":[9,0,2,20,33],
 "d7/d5f/commentscan_8l.html#a9806f33cfd9d47bb4fca710cce153466":[9,0,2,20,124],
@@ -210,7 +213,6 @@ var NAVTREEINDEX53 =
 "d7/d5f/commentscan_8l.html#ae8de787e270e335e74801c5ca8e96952":[9,0,2,20,67],
 "d7/d5f/commentscan_8l.html#ae9dbbb3f0568717ff672007ee5cb8b01":[9,0,2,20,57],
 "d7/d5f/commentscan_8l.html#ae9ff87e31efcc5b93a5c2e3078eccf0e":[9,0,2,20,102],
-"d7/d5f/commentscan_8l.html#aef4757efc594a4ec73f0884965e5f8cd":[9,0,2,20,122],
 "d7/d5f/commentscan_8l.html#aef55dba0c11b5c1053c65e4e48ca62ee":[9,0,2,20,68],
 "d7/d5f/commentscan_8l.html#af06ab3c585082592bee4f19f5de333f1":[9,0,2,20,80],
 "d7/d5f/commentscan_8l.html#af1e9df10f186bddb5d9888efc81ba818":[9,0,2,20,63],
@@ -247,7 +249,5 @@ var NAVTREEINDEX53 =
 "d7/d6f/namespace_portable.html#a08dc4d7f652408d7fc2eaba792796cb1":[7,0,5,12],
 "d7/d6f/namespace_portable.html#a0f30be3f0aed0b88804816f3e6310ee4":[7,0,5,14],
 "d7/d6f/namespace_portable.html#a15b92ac03be9e8f4d95d5e881342d83c":[7,0,5,17],
-"d7/d6f/namespace_portable.html#a248b5a87e07edc01e5ae424b6597142f":[7,0,5,10],
-"d7/d6f/namespace_portable.html#a3131c9d07ca7ce1ad22542ce9e417068":[7,0,5,25],
-"d7/d6f/namespace_portable.html#a33ec52ac55c4d58e0748239920ee3e14":[7,0,5,13]
+"d7/d6f/namespace_portable.html#a248b5a87e07edc01e5ae424b6597142f":[7,0,5,10]
 };

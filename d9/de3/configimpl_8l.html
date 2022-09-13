@@ -156,7 +156,7 @@ Macros</h2></td></tr>
 <tr class="separator:a15b85de192a189d5a31cdd518e001e6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86da2f5e3360caa90276fc24433d9512"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de3/configimpl_8l.html#a86da2f5e3360caa90276fc24433d9512">unput_string</a>(yytext,  yyleng)&#160;&#160;&#160;do { for (int i=(int)yyleng-1;i&gt;=0;i--) unput(yytext[i]); } while(0)</td></tr>
 <tr class="separator:a86da2f5e3360caa90276fc24433d9512"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacfdca45fa4beb8b06172525a53c424a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de3/configimpl_8l.html#aacfdca45fa4beb8b06172525a53c424a">YY_INPUT</a>(buf,  result,  max_size)&#160;&#160;&#160;result=<a class="el" href="../../da/d1f/code_8l.html#aef4757efc594a4ec73f0884965e5f8cd">yyread</a>(buf,max_size);</td></tr>
+<tr class="memitem:aacfdca45fa4beb8b06172525a53c424a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de3/configimpl_8l.html#aacfdca45fa4beb8b06172525a53c424a">YY_INPUT</a>(buf,  result,  max_size)&#160;&#160;&#160;result=<a class="el" href="../../da/d1f/code_8l.html#a954f5351908394abcda1649f481a6265">yyread</a>(buf,max_size);</td></tr>
 <tr class="separator:aacfdca45fa4beb8b06172525a53c424a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a146a93da1f8efdea496a6d138d4773bc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de3/configimpl_8l.html#a146a93da1f8efdea496a6d138d4773bc">LEX_NO_REENTRANT</a></td></tr>
 <tr class="separator:a146a93da1f8efdea496a6d138d4773bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -179,8 +179,8 @@ Functions</h2></td></tr>
 <tr class="separator:a7b04c2a27074eeeccf2fadb03b80fc42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb5f8818546103e3b804ab8606b52c4a"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de3/configimpl_8l.html#acb5f8818546103e3b804ab8606b52c4a">getLexerFILE</a> ()</td></tr>
 <tr class="separator:acb5f8818546103e3b804ab8606b52c4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a527e6274ef1a398329aee10c9a9c0073"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de3/configimpl_8l.html#a527e6274ef1a398329aee10c9a9c0073">yyread</a> (char *buf, yy_size_t max_size)</td></tr>
-<tr class="separator:a527e6274ef1a398329aee10c9a9c0073"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65b2cecb86e91dc4664d6bc50d0b2f6d"><td class="memItemLeft" align="right" valign="top">static yy_size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de3/configimpl_8l.html#a65b2cecb86e91dc4664d6bc50d0b2f6d">yyread</a> (char *buf, yy_size_t max_size)</td></tr>
+<tr class="separator:a65b2cecb86e91dc4664d6bc50d0b2f6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38bfc7b0b040cc8ceefae240aad38b94"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de3/configimpl_8l.html#a38bfc7b0b040cc8ceefae240aad38b94">checkEncoding</a> ()</td></tr>
 <tr class="separator:a38bfc7b0b040cc8ceefae240aad38b94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84908cbd8715e1a9294673286a5f7b6e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de3/configimpl_8l.html#a84908cbd8715e1a9294673286a5f7b6e">stripComment</a> (const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;s)</td></tr>
@@ -385,7 +385,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;result=<a class="el" href="../../da/d1f/code_8l.html#aef4757efc594a4ec73f0884965e5f8cd">yyread</a>(buf,max_size);</td>
+          <td></td><td>&#160;&#160;&#160;result=<a class="el" href="../../da/d1f/code_8l.html#a954f5351908394abcda1649f481a6265">yyread</a>(buf,max_size);</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2403,8 +2403,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a527e6274ef1a398329aee10c9a9c0073" name="a527e6274ef1a398329aee10c9a9c0073"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a527e6274ef1a398329aee10c9a9c0073">&#9670;&#160;</a></span>yyread()</h2>
+<a id="a65b2cecb86e91dc4664d6bc50d0b2f6d" name="a65b2cecb86e91dc4664d6bc50d0b2f6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65b2cecb86e91dc4664d6bc50d0b2f6d">&#9670;&#160;</a></span>yyread()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2413,7 +2413,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static int yyread </td>
+          <td class="memname">static yy_size_t yyread </td>
           <td>(</td>
           <td class="paramtype">char *&#160;</td>
           <td class="paramname"><em>buf</em>, </td>
@@ -2443,18 +2443,18 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno">  653</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d9/de3/configimpl_8l.html#a53705fefd416a984be4714f1d0ca36a6">g_includeStack</a>.empty())</div>
 <div class="line"><span class="lineno">  654</span>  {</div>
 <div class="line"><span class="lineno">  655</span>    yy_size_t c=0;</div>
-<div class="line"><span class="lineno">  656</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d9/de3/configimpl_8l.html#a4884b04c016cb29c59e337c3849a08fd">g_inputString</a>==0) <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(c);</div>
+<div class="line"><span class="lineno">  656</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d9/de3/configimpl_8l.html#a4884b04c016cb29c59e337c3849a08fd">g_inputString</a>==0) <span class="keywordflow">return</span> c;</div>
 <div class="line"><span class="lineno">  657</span>    <span class="keywordflow">while</span>( c &lt; max_size &amp;&amp; <a class="code hl_variable" href="../../d9/de3/configimpl_8l.html#a4884b04c016cb29c59e337c3849a08fd">g_inputString</a>[<a class="code hl_variable" href="../../d9/de3/configimpl_8l.html#a5f7e5ad6f4837038547f7d2ea8e031eb">g_inputPosition</a>] )</div>
 <div class="line"><span class="lineno">  658</span>    {</div>
 <div class="line"><span class="lineno">  659</span>      *buf = <a class="code hl_variable" href="../../d9/de3/configimpl_8l.html#a4884b04c016cb29c59e337c3849a08fd">g_inputString</a>[<a class="code hl_variable" href="../../d9/de3/configimpl_8l.html#a5f7e5ad6f4837038547f7d2ea8e031eb">g_inputPosition</a>++] ;</div>
 <div class="line"><span class="lineno">  660</span>      c++; buf++;</div>
 <div class="line"><span class="lineno">  661</span>    }</div>
-<div class="line"><span class="lineno">  662</span>    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(c);</div>
+<div class="line"><span class="lineno">  662</span>    <span class="keywordflow">return</span> c;</div>
 <div class="line"><span class="lineno">  663</span>  }</div>
 <div class="line"><span class="lineno">  664</span>  <span class="keywordflow">else</span></div>
 <div class="line"><span class="lineno">  665</span>  {</div>
 <div class="line"><span class="lineno">  666</span>    <span class="comment">//assert(g_includeStack.current()-&gt;newState==YY_CURRENT_BUFFER);</span></div>
-<div class="line"><span class="lineno">  667</span>    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(fread(buf,1,max_size,<a class="code hl_variable" href="../../d9/de3/configimpl_8l.html#a53705fefd416a984be4714f1d0ca36a6">g_includeStack</a>.back()-&gt;filePtr));</div>
+<div class="line"><span class="lineno">  667</span>    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>yy_size_t<span class="keyword">&gt;</span>(fread(buf,1,max_size,<a class="code hl_variable" href="../../d9/de3/configimpl_8l.html#a53705fefd416a984be4714f1d0ca36a6">g_includeStack</a>.back()-&gt;filePtr));</div>
 <div class="line"><span class="lineno">  668</span>  }</div>
 <div class="ttc" id="aconfigimpl_8l_html_a4884b04c016cb29c59e337c3849a08fd"><div class="ttname"><a href="../../d9/de3/configimpl_8l.html#a4884b04c016cb29c59e337c3849a08fd">g_inputString</a></div><div class="ttdeci">static const char * g_inputString</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/de3/configimpl_8l_source.html#l00623">configimpl.l:623</a></div></div>
 <div class="ttc" id="aconfigimpl_8l_html_a5f7e5ad6f4837038547f7d2ea8e031eb"><div class="ttname"><a href="../../d9/de3/configimpl_8l.html#a5f7e5ad6f4837038547f7d2ea8e031eb">g_inputPosition</a></div><div class="ttdeci">static int g_inputPosition</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/de3/configimpl_8l_source.html#l00624">configimpl.l:624</a></div></div>

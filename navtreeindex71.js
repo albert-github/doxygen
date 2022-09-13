@@ -1,5 +1,7 @@
 var NAVTREEINDEX71 =
 {
+"d9/ddf/class_translator_macedonian.html#a8d8e93cbfaddc123dc7cf37c5ba742c0":[8,0,592,75],
+"d9/ddf/class_translator_macedonian.html#a8ddb69c60f68ba801c7b1846e1241e26":[8,0,592,184],
 "d9/ddf/class_translator_macedonian.html#a8e98211615de4c839fabddafe8fbcbf9":[8,0,592,39],
 "d9/ddf/class_translator_macedonian.html#a92849623ecdc3821e8c5cdea1ecdb683":[8,0,592,9],
 "d9/ddf/class_translator_macedonian.html#a9344d108b0ce4e81003e2c574756da67":[8,0,592,76],
@@ -109,12 +111,12 @@ var NAVTREEINDEX71 =
 "d9/de3/configimpl_8l.html#a48eae5f8b7d851992e7b3e04a01a8af3":[9,0,2,27,28],
 "d9/de3/configimpl_8l.html#a4b306c7d6514a51d731a5b581ce6c2a4":[9,0,2,27,57],
 "d9/de3/configimpl_8l.html#a4c20e33d84d7477620edc8cdf3e3333b":[9,0,2,27,22],
-"d9/de3/configimpl_8l.html#a527e6274ef1a398329aee10c9a9c0073":[9,0,2,27,37],
 "d9/de3/configimpl_8l.html#a53705fefd416a984be4714f1d0ca36a6":[9,0,2,27,45],
 "d9/de3/configimpl_8l.html#a53f751007ffe5b7c105c3821039a970c":[9,0,2,27,29],
 "d9/de3/configimpl_8l.html#a5f7e5ad6f4837038547f7d2ea8e031eb":[9,0,2,27,46],
 "d9/de3/configimpl_8l.html#a6232960902cd961ee248851d0f5a189d":[9,0,2,27,25],
 "d9/de3/configimpl_8l.html#a641f7209d924c2c4cb24420dcd631f37":[9,0,2,27,2],
+"d9/de3/configimpl_8l.html#a65b2cecb86e91dc4664d6bc50d0b2f6d":[9,0,2,27,37],
 "d9/de3/configimpl_8l.html#a692163c1902febf3d5dc44644e851f26":[9,0,2,27,30],
 "d9/de3/configimpl_8l.html#a6acafb836a24013a01bc21ab92381ad7":[9,0,2,27,20],
 "d9/de3/configimpl_8l.html#a6c24725da6b5b59e4c8867995e84648f":[9,0,2,27,21],
@@ -247,7 +249,5 @@ var NAVTREEINDEX71 =
 "da/d02/class_doc_parser.html#a873efb42d961fbec86ab86a12b9f2c42":[8,0,166,5],
 "da/d02/class_doc_parser.html#a92d044475f815e09877c88ce15399802":[8,0,166,20],
 "da/d02/class_doc_parser.html#a94f06b2f61c71069d46589a7cd4f7b6b":[8,0,166,17],
-"da/d02/class_doc_parser.html#a9ca6efdbb8e10b7908ad6906f26ff1bd":[8,0,166,3],
-"da/d02/class_doc_parser.html#aa05ab8dc59dfa50633146bdba08db5f0":[8,0,166,23],
-"da/d02/class_doc_parser.html#aa75d3dc0424c6b364222f7f357406e62":[8,0,166,8]
+"da/d02/class_doc_parser.html#a9ca6efdbb8e10b7908ad6906f26ff1bd":[8,0,166,3]
 };
