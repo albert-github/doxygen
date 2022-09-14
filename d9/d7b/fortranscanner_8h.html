@@ -402,16 +402,20 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1826</span>    free(newContents);</div>
 <div class="line"><span class="lineno"> 1827</span>    <span class="keywordflow">return</span> NULL;</div>
 <div class="line"><span class="lineno"> 1828</span>  }</div>
-<div class="line"><span class="lineno"> 1829</span>  newContentsSize = (int)strlen(newContents);</div>
-<div class="line"><span class="lineno"> 1830</span>  <span class="keywordflow">if</span> (newContents[newContentsSize - 1] != <span class="charliteral">&#39;\n&#39;</span>)</div>
+<div class="line"><span class="lineno"> 1829</span> </div>
+<div class="line"><span class="lineno"> 1830</span>  <span class="keywordflow">if</span> (newContents[j] == <span class="charliteral">&#39;\n&#39;</span>)</div>
 <div class="line"><span class="lineno"> 1831</span>  {</div>
-<div class="line"><span class="lineno"> 1832</span>    <span class="comment">// to be on the safe side</span></div>
-<div class="line"><span class="lineno"> 1833</span>    newContents = (<span class="keywordtype">char</span>*)realloc(newContents, newContentsSize+2);</div>
-<div class="line"><span class="lineno"> 1834</span>    newContents[newContentsSize] = <span class="charliteral">&#39;\n&#39;</span>;</div>
-<div class="line"><span class="lineno"> 1835</span>    newContents[newContentsSize + 1] = <span class="charliteral">&#39;\000&#39;</span>;</div>
-<div class="line"><span class="lineno"> 1836</span>  }</div>
-<div class="line"><span class="lineno"> 1837</span>  <span class="keywordflow">return</span> newContents;</div>
-<div class="line"><span class="lineno"> 1838</span>}</div>
+<div class="line"><span class="lineno"> 1832</span>    newContents = (<span class="keywordtype">char</span>*)realloc(newContents, j+2);</div>
+<div class="line"><span class="lineno"> 1833</span>    newContents[j + 1] = <span class="charliteral">&#39;\000&#39;</span>;</div>
+<div class="line"><span class="lineno"> 1834</span>  }</div>
+<div class="line"><span class="lineno"> 1835</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1836</span>  {</div>
+<div class="line"><span class="lineno"> 1837</span>    newContents = (<span class="keywordtype">char</span>*)realloc(newContents, j+3);</div>
+<div class="line"><span class="lineno"> 1838</span>    newContents[j + 1] = <span class="charliteral">&#39;\n&#39;</span>;</div>
+<div class="line"><span class="lineno"> 1839</span>    newContents[j + 2] = <span class="charliteral">&#39;\000&#39;</span>;</div>
+<div class="line"><span class="lineno"> 1840</span>  }</div>
+<div class="line"><span class="lineno"> 1841</span>  <span class="keywordflow">return</span> newContents;</div>
+<div class="line"><span class="lineno"> 1842</span>}</div>
 <div class="ttc" id="afortranscanner_8l_html_a57a320e051e7596c3106c1a95ae02915"><div class="ttname"><a href="../../dd/d00/fortranscanner_8l.html#a57a320e051e7596c3106c1a95ae02915">getAmpOrExclAtTheEnd</a></div><div class="ttdeci">static int getAmpOrExclAtTheEnd(const char *buf, int length, char ch)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d00/fortranscanner_8l_source.html#l01501">fortranscanner.l:1501</a></div></div>
 <div class="ttc" id="afortranscanner_8l_html_a7ac86b7091ebd73f18ce4d662cd75908"><div class="ttname"><a href="../../dd/d00/fortranscanner_8l.html#a7ac86b7091ebd73f18ce4d662cd75908">insertCharacter</a></div><div class="ttdeci">static void insertCharacter(char *contents, int length, int pos, char c)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d00/fortranscanner_8l_source.html#l01581">fortranscanner.l:1581</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_aa8cecfc5c5c054d2875c03e77b7be15d"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a></div><div class="ttdeci">#define TRUE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00036">qcstring.h:36</a></div></div>
@@ -419,7 +423,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01501">getAmpOrExclAtTheEnd()</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l01581">insertCharacter()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/d5b/fortrancode_8l_source.html#l01381">checkContLines()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02779">parseMain()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/d5b/fortrancode_8l_source.html#l01381">checkContLines()</a>, and <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02783">parseMain()</a>.</p>
 
 </div>
 </div>

@@ -108,8 +108,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a4d1bd480e339ce43c46e0ccbad7fe0b6"><td class="memItemLeft" align="right" valign="top">std::chrono::time_point&lt; std::chrono::steady_clock &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d08/class_timer.html#a4d1bd480e339ce43c46e0ccbad7fe0b6">m_startTime</a></td></tr>
-<tr class="separator:a4d1bd480e339ce43c46e0ccbad7fe0b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acab09e818556fe8c05e596f041598991"><td class="memItemLeft" align="right" valign="top">std::chrono::time_point&lt; std::chrono::system_clock &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d08/class_timer.html#acab09e818556fe8c05e596f041598991">m_startTime</a></td></tr>
+<tr class="separator:acab09e818556fe8c05e596f041598991"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -142,9 +142,9 @@ Private Attributes</h2></td></tr>
 <div class="fragment"><div class="line"><span class="lineno">  123</span>    {</div>
 <div class="line"><span class="lineno">  124</span>      <span class="keywordflow">return</span> (std::chrono::duration_cast&lt;</div>
 <div class="line"><span class="lineno">  125</span>                  std::chrono::microseconds&gt;(</div>
-<div class="line"><span class="lineno">  126</span>                  std::chrono::steady_clock::now() - <a class="code hl_variable" href="../../d8/d08/class_timer.html#a4d1bd480e339ce43c46e0ccbad7fe0b6">m_startTime</a>).count()) / 1000000.0;</div>
+<div class="line"><span class="lineno">  126</span>                  std::chrono::system_clock::now() - <a class="code hl_variable" href="../../d8/d08/class_timer.html#acab09e818556fe8c05e596f041598991">m_startTime</a>).count()) / 1000000.0;</div>
 <div class="line"><span class="lineno">  127</span>    }</div>
-<div class="ttc" id="aclass_timer_html_a4d1bd480e339ce43c46e0ccbad7fe0b6"><div class="ttname"><a href="../../d8/d08/class_timer.html#a4d1bd480e339ce43c46e0ccbad7fe0b6">Timer::m_startTime</a></div><div class="ttdeci">std::chrono::time_point&lt; std::chrono::steady_clock &gt; m_startTime</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d00/debug_8cpp_source.html#l00129">debug.cpp:129</a></div></div>
+<div class="ttc" id="aclass_timer_html_acab09e818556fe8c05e596f041598991"><div class="ttname"><a href="../../d8/d08/class_timer.html#acab09e818556fe8c05e596f041598991">Timer::m_startTime</a></div><div class="ttdeci">std::chrono::time_point&lt; std::chrono::system_clock &gt; m_startTime</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d00/debug_8cpp_source.html#l00129">debug.cpp:129</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00129">m_startTime</a>.</p>
 
@@ -177,7 +177,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00118">118</a> of file <a class="el" href="../../d1/d00/debug_8cpp_source.html">debug.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  119</span>    {</div>
-<div class="line"><span class="lineno">  120</span>      <a class="code hl_variable" href="../../d8/d08/class_timer.html#a4d1bd480e339ce43c46e0ccbad7fe0b6">m_startTime</a> = std::chrono::steady_clock::now();</div>
+<div class="line"><span class="lineno">  120</span>      <a class="code hl_variable" href="../../d8/d08/class_timer.html#acab09e818556fe8c05e596f041598991">m_startTime</a> = std::chrono::system_clock::now();</div>
 <div class="line"><span class="lineno">  121</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00129">m_startTime</a>.</p>
@@ -187,8 +187,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a4d1bd480e339ce43c46e0ccbad7fe0b6" name="a4d1bd480e339ce43c46e0ccbad7fe0b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d1bd480e339ce43c46e0ccbad7fe0b6">&#9670;&#160;</a></span>m_startTime</h2>
+<a id="acab09e818556fe8c05e596f041598991" name="acab09e818556fe8c05e596f041598991"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acab09e818556fe8c05e596f041598991">&#9670;&#160;</a></span>m_startTime</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -197,7 +197,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::chrono::time_point&lt;std::chrono::steady_clock&gt; Timer::m_startTime</td>
+          <td class="memname">std::chrono::time_point&lt;std::chrono::system_clock&gt; Timer::m_startTime</td>
         </tr>
       </table>
   </td>
