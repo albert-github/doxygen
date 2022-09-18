@@ -1,7 +1,5 @@
 var NAVTREEINDEX57 =
 {
-"d7/dc4/class_docbook_doc_visitor.html#a71bf09dda7c6df3fd8f45c10b66a21ac":[8,0,121,66],
-"d7/dc4/class_docbook_doc_visitor.html#a73a37d31a03800401baf118ecad9e7d8":[8,0,121,20],
 "d7/dc4/class_docbook_doc_visitor.html#a789f7802c80a054fd7ee0d9e5f2fb4dc":[8,0,121,11],
 "d7/dc4/class_docbook_doc_visitor.html#a7d88687aa2a9c7544925377d4a967fc8":[8,0,121,3],
 "d7/dc4/class_docbook_doc_visitor.html#a7f022b87284463cbdd463a89f13d7694":[8,0,121,44],
@@ -179,8 +177,8 @@ var NAVTREEINDEX57 =
 "d7/dfe/vhdlcode_8h_source.html":[9,0,2,294],
 "d8/d08/class_timer.html":[8,0,546],
 "d8/d08/class_timer.html#a3a8b5272198d029779dc9302a54305a8":[8,0,546,1],
+"d8/d08/class_timer.html#a4d1bd480e339ce43c46e0ccbad7fe0b6":[8,0,546,2],
 "d8/d08/class_timer.html#a9b89127c8224e7fb787da4f11ef8d364":[8,0,546,0],
-"d8/d08/class_timer.html#acab09e818556fe8c05e596f041598991":[8,0,546,2],
 "d8/d08/struct_python_code_parser_1_1_private.html":[8,0,441,0],
 "d8/d08/struct_python_code_parser_1_1_private.html#a9933f5a6152ac4a2d7e99038edc4c388":[8,0,441,0,1],
 "d8/d08/struct_python_code_parser_1_1_private.html#ab035ea7bc56fd09c0847778f7d97a986":[8,0,441,0,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX57 =
 "d8/d0a/translator__am_8h.html":[9,0,2,245],
 "d8/d0a/translator__am_8h_source.html":[9,0,2,245],
 "d8/d0f/declinfo_8l.html":[9,0,2,42],
-"d8/d0f/declinfo_8l.html#a07a9d0a3847755d092a9a66f17bcb90b":[9,0,2,42,16]
+"d8/d0f/declinfo_8l.html#a07a9d0a3847755d092a9a66f17bcb90b":[9,0,2,42,16],
+"d8/d0f/declinfo_8l.html#a15b85de192a189d5a31cdd518e001e6e":[9,0,2,42,4],
+"d8/d0f/declinfo_8l.html#a177a7d7b72fc0be3c1655d9667929b27":[9,0,2,42,15]
 };

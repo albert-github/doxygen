@@ -19,6 +19,7 @@ var class_member_group =
     [ "groupId", "da/d32/class_member_group.html#a25d5f6dce1695c96eaddefd8b54fce43", null ],
     [ "header", "da/d32/class_member_group.html#a918bd808efb147a24b25c5246425d5bf", null ],
     [ "insertMember", "da/d32/class_member_group.html#a4d617e7c50bf0b7a88ab572855d2da5a", null ],
+    [ "memberContainer", "da/d32/class_member_group.html#a47a707dff2d9bbe606da2f4201dd1725", null ],
     [ "members", "da/d32/class_member_group.html#a2d6f9905934dcecd96a6f47036c00900", null ],
     [ "numDecEnumValues", "da/d32/class_member_group.html#a269280874f15bb88828ded24882ca4fe", null ],
     [ "numDecMembers", "da/d32/class_member_group.html#a1df8307d8e3bad5587972fe4feff8541", null ],
