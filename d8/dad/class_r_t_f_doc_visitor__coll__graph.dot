@@ -1,0 +1,19 @@
+digraph "RTFDocVisitor"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [label="RTFDocVisitor",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Concrete visitor implementation for RTF output."];
+  Node2 -> Node1 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="DocVisitor",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d0/d78/class_doc_visitor.html",tooltip="Helper base class for functionality shared by all visitors."];
+  Node3 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" m_t" ];
+  Node3 [label="TextStream",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d3/d30/class_text_stream.html",tooltip="Text streaming class that buffers data."];
+  Node4 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" m_ci" ];
+  Node4 [label="CodeOutputInterface",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d5/d9c/class_code_output_interface.html",tooltip="Output interface for code parser."];
+  Node5 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" m_langExt" ];
+  Node5 [label="QCString",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d9/d45/class_q_c_string.html",tooltip="This is an alternative implementation of QCString."];
+  Node6 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" m_listItemInfo" ];
+  Node6 [label="RTFDocVisitor::RTFListItemInfo",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d9/d88/struct_r_t_f_doc_visitor_1_1_r_t_f_list_item_info.html",tooltip=" "];
+}
