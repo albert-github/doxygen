@@ -1,0 +1,26 @@
+var class_namespace_def_mutable =
+[
+    [ "addInnerCompound", "dd/dd5/class_namespace_def_mutable.html#a03fd99a5a1cba69f741fbf7de5846005", null ],
+    [ "addListReferences", "dd/dd5/class_namespace_def_mutable.html#aad3764e837405b423bbfc2e26198c357", null ],
+    [ "addMembersToMemberGroup", "dd/dd5/class_namespace_def_mutable.html#afbb0c9419b7a52efd0a2d4f749b35458", null ],
+    [ "addUsingDeclaration", "dd/dd5/class_namespace_def_mutable.html#acad7728193b8b95567abe1c7dd717a38", null ],
+    [ "addUsingDirective", "dd/dd5/class_namespace_def_mutable.html#a7480b4538ab0e7174915920b40d6cd70", null ],
+    [ "combineUsingRelations", "dd/dd5/class_namespace_def_mutable.html#ac51e6f051216b83d401868b978b08923", null ],
+    [ "computeAnchors", "dd/dd5/class_namespace_def_mutable.html#ab9e625add6957f63f279e67a5a8f74fb", null ],
+    [ "countMembers", "dd/dd5/class_namespace_def_mutable.html#a24bf8294ccc3d0f7766d43f54152588a", null ],
+    [ "distributeMemberGroupDocumentation", "dd/dd5/class_namespace_def_mutable.html#aa558a0de1a51f97ff26f00cf85180e71", null ],
+    [ "findSectionsInDocumentation", "dd/dd5/class_namespace_def_mutable.html#a155ddc80329fab7fef11d97fdab6de5d", null ],
+    [ "insertClass", "dd/dd5/class_namespace_def_mutable.html#a5d15acdd77bc930f0feff1c20e9b634c", null ],
+    [ "insertConcept", "dd/dd5/class_namespace_def_mutable.html#a670d5cd9c80f45994b530139fdb51875", null ],
+    [ "insertMember", "dd/dd5/class_namespace_def_mutable.html#a53e19dfb40f08615b78762500197a6c6", null ],
+    [ "insertNamespace", "dd/dd5/class_namespace_def_mutable.html#a7f4a1f51cbbb7667c6a73c98184ddc0e", null ],
+    [ "insertUsedFile", "dd/dd5/class_namespace_def_mutable.html#a09d9733f9b846dddc66bfcc76a2929e6", null ],
+    [ "setFileName", "dd/dd5/class_namespace_def_mutable.html#ad52feeac4bc762002bff6422b48d2379", null ],
+    [ "setInline", "dd/dd5/class_namespace_def_mutable.html#ab41129b22b4eac9adde902522bcca6c2", null ],
+    [ "setMetaData", "dd/dd5/class_namespace_def_mutable.html#a0ec9c65431efc5f65f307a4ec9d75380", null ],
+    [ "sortMemberLists", "dd/dd5/class_namespace_def_mutable.html#aeb1143134217e3f54bcf8afc34f1ea44", null ],
+    [ "writeDocumentation", "dd/dd5/class_namespace_def_mutable.html#aaf529968d452b5863dde3452652b8825", null ],
+    [ "writeMemberPages", "dd/dd5/class_namespace_def_mutable.html#ae5f5d879094e2f659fb32c9a2c4822f5", null ],
+    [ "writeQuickMemberLinks", "dd/dd5/class_namespace_def_mutable.html#a270415cd4046484c3d367c5508faf393", null ],
+    [ "writeTagFile", "dd/dd5/class_namespace_def_mutable.html#aaaf5127fea12052a1ab575239cafb788", null ]
+];
