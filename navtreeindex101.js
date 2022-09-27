@@ -1,5 +1,7 @@
 var NAVTREEINDEX101 =
 {
+"dd/d8a/class_translator_czech.html#ae723a46292831b2b609b93701f047671":[8,0,573,68],
+"dd/d8a/class_translator_czech.html#ae7730596b9725cf0e8830a40802cc661":[8,0,573,265],
 "dd/d8a/class_translator_czech.html#ae7a7c3733790586ed65f01fd75a4bc85":[8,0,573,6],
 "dd/d8a/class_translator_czech.html#ae8249b24bc1162ea23f44a5b21a5df85":[8,0,573,178],
 "dd/d8a/class_translator_czech.html#ae8c1c60f25a373c53bbdf32f8740702e":[8,0,573,97],
@@ -220,8 +222,8 @@ var NAVTREEINDEX101 =
 "dd/dad/translator__gr_8h_source.html":[9,0,2,260],
 "dd/db2/class_fortran_outline_parser_fixed.html":[8,0,290],
 "dd/db2/class_fortran_outline_parser_fixed.html#a5f28fd868b92ae98d4dfced34475a874":[8,0,290,0],
-"dd/db2/structdetails_1_1_impl_3_01_t_01_4.html":[8,0,1,1],
 "dd/db2/structdetails_1_1_impl_3_01_t_01_4.html":[7,0,3,1],
+"dd/db2/structdetails_1_1_impl_3_01_t_01_4.html":[8,0,1,1],
 "dd/db2/structdetails_1_1_impl_3_01_t_01_4.html#a411ab39838b9727ee8bac81d3790fb11":[8,0,1,1,0],
 "dd/db2/structdetails_1_1_impl_3_01_t_01_4.html#a411ab39838b9727ee8bac81d3790fb11":[7,0,3,1,0],
 "dd/db6/xmldocvisitor_8cpp.html":[9,0,2,302],
@@ -247,7 +249,5 @@ var NAVTREEINDEX101 =
 "dd/db7/class_trace.html#af2b7fb0595db89f74f06389043482882":[8,0,549,3],
 "dd/db7/class_trace.html#afa79a0503817b05383a44965c6b4b2f9":[8,0,549,6],
 "dd/db9/class_file_name.html":[8,0,243],
-"dd/db9/class_file_name.html#a1dbfce58743f807b8076e99ebd76f585":[8,0,243,6],
-"dd/db9/class_file_name.html#a44177c39b03e97607e775aa86b173b8e":[8,0,243,3],
-"dd/db9/class_file_name.html#a6d2360fc171cd55eb3087d214ed588e3":[8,0,243,1]
+"dd/db9/class_file_name.html#a1dbfce58743f807b8076e99ebd76f585":[8,0,243,6]
 };
