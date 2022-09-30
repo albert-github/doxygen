@@ -245,8 +245,8 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno"> 1067</span>  <a class="code hl_typedef" href="../../d7/d5c/qcstring_8h.html#a4d3943ddea65db7163a58e6c7e8df95a">uint</a> cols=(std::max(baseMaxX,superMaxX)+<a class="code hl_variable" href="../../da/d0d/diagram_8cpp.html#a333d34d729f3ad6a666642fd9e461ec6">gridWidth</a>*2-1)/<a class="code hl_variable" href="../../da/d0d/diagram_8cpp.html#a333d34d729f3ad6a666642fd9e461ec6">gridWidth</a>;</div>
 <div class="line"><span class="lineno"> 1068</span> </div>
 <div class="line"><span class="lineno"> 1069</span>  <span class="comment">// Estimate the image aspect width and height in pixels.</span></div>
-<div class="line"><span class="lineno"> 1070</span>  <span class="keywordtype">float</span> estHeight = rows*40.0f;</div>
-<div class="line"><span class="lineno"> 1071</span>  <span class="keywordtype">float</span> estWidth  = cols*(20.0f+std::max(baseMaxLabelWidth,superMaxLabelWidth));</div>
+<div class="line"><span class="lineno"> 1070</span>  <span class="keywordtype">float</span> estHeight = <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(rows)*40.0f;</div>
+<div class="line"><span class="lineno"> 1071</span>  <span class="keywordtype">float</span> estWidth  = <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(cols)*(20+<span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(std::max(baseMaxLabelWidth,superMaxLabelWidth)));</div>
 <div class="line"><span class="lineno"> 1072</span>  <span class="comment">//printf(&quot;Estimated size %d x %d\n&quot;,estWidth,estHeight);</span></div>
 <div class="line"><span class="lineno"> 1073</span> </div>
 <div class="line"><span class="lineno"> 1074</span>  <span class="keyword">const</span> <span class="keywordtype">float</span> pageWidth = 14.0f; <span class="comment">// estimated page width in cm.</span></div>
