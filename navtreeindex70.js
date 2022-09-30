@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"d9/dc1/class_translator_catalan.html#ae06d909f56672c2f20d297069a85bd22":[8,0,569,66],
+"d9/dc1/class_translator_catalan.html#ae1175efde9a9fa8c5f710c566d34c202":[8,0,569,129],
 "d9/dc1/class_translator_catalan.html#ae13f20696a10046c1484d86569e168de":[8,0,569,144],
 "d9/dc1/class_translator_catalan.html#ae2edd534da91df35c1f7f65468906748":[8,0,569,19],
 "d9/dc1/class_translator_catalan.html#ae339a7a6be4de49674a8a1dbb998c834":[8,0,569,69],
@@ -64,6 +66,7 @@ var NAVTREEINDEX70 =
 "d9/dcb/class_doc_u_r_l.html#ac2e7983ca9569098860da2ce21fa25f6":[8,0,185,1],
 "d9/dcc/structpyscanner_y_y__state.html":[8,0,440],
 "d9/dcc/structpyscanner_y_y__state.html#a00913c311fcb67986eb65c0b18f7259c":[8,0,440,31],
+"d9/dcc/structpyscanner_y_y__state.html#a031b4cb71de4f96eb53f7800f899f0d8":[8,0,440,25],
 "d9/dcc/structpyscanner_y_y__state.html#a085d0d3dc086bb335d8be8fe478f70f9":[8,0,440,18],
 "d9/dcc/structpyscanner_y_y__state.html#a08f45e830e688ec5dc511c37e72f17f6":[8,0,440,21],
 "d9/dcc/structpyscanner_y_y__state.html#a0ef610cfc854c8ecf4c03beae12d3428":[8,0,440,33],
@@ -86,7 +89,6 @@ var NAVTREEINDEX70 =
 "d9/dcc/structpyscanner_y_y__state.html#a8c2ca86fa4b865fa4f52a6469eb93210":[8,0,440,13],
 "d9/dcc/structpyscanner_y_y__state.html#a99d85668a8a66218643fe3af849db6f1":[8,0,440,6],
 "d9/dcc/structpyscanner_y_y__state.html#aa499007b331c48ec3ddc527a373e6eec":[8,0,440,37],
-"d9/dcc/structpyscanner_y_y__state.html#aa4f6b7db5a0a259a7b67cff948f79375":[8,0,440,25],
 "d9/dcc/structpyscanner_y_y__state.html#aa93677fd6f1286ff7a8c19477bd4129b":[8,0,440,15],
 "d9/dcc/structpyscanner_y_y__state.html#ab1f62cd32fccc7eb8c73ae203c97501c":[8,0,440,19],
 "d9/dcc/structpyscanner_y_y__state.html#ac0319277db6755a47b599a247df69448":[8,0,440,35],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "d9/ddf/class_translator_macedonian.html#a83c51b8cd07bd6832bbb63c15ae97e17":[8,0,592,49],
 "d9/ddf/class_translator_macedonian.html#a8451fb7ca97ae705def302876e00a3b7":[8,0,592,147],
 "d9/ddf/class_translator_macedonian.html#a84acf9931156663853249d91924b1d64":[8,0,592,198],
-"d9/ddf/class_translator_macedonian.html#a84dc675a790c1757d12f9795efa995cf":[8,0,592,5],
-"d9/ddf/class_translator_macedonian.html#a88e7316dfbfc47baeecf82a657d68062":[8,0,592,123],
-"d9/ddf/class_translator_macedonian.html#a8968ab9f7e93b3abafc2187c8172149c":[8,0,592,83]
+"d9/ddf/class_translator_macedonian.html#a84dc675a790c1757d12f9795efa995cf":[8,0,592,5]
 };

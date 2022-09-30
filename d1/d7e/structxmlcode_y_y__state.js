@@ -14,7 +14,7 @@ var structxmlcode_y_y__state =
     [ "fileName", "d1/d7e/structxmlcode_y_y__state.html#a0a50a6e07d2a4b05d1ae77da81ee4d4f", null ],
     [ "includeCodeFragment", "d1/d7e/structxmlcode_y_y__state.html#acfffd02140b9a8ebb8d21ee13fd00df2", null ],
     [ "inputLines", "d1/d7e/structxmlcode_y_y__state.html#ac90a4729ec74d8fc67f36afa20199a9c", null ],
-    [ "inputPosition", "d1/d7e/structxmlcode_y_y__state.html#a9e6667d3549cadebb4a0f19a9606e6b2", null ],
+    [ "inputPosition", "d1/d7e/structxmlcode_y_y__state.html#a4b50bae46dcc4465f0febbf393a5b0a5", null ],
     [ "inputString", "d1/d7e/structxmlcode_y_y__state.html#a91ee27dd6d3710979a18ff4f5a265c0d", null ],
     [ "insideCodeLine", "d1/d7e/structxmlcode_y_y__state.html#af6b696d9512416935ecce78191538a72", null ],
     [ "name", "d1/d7e/structxmlcode_y_y__state.html#a26ec9d22a02bed750ce0a1dee6ccb42e", null ],

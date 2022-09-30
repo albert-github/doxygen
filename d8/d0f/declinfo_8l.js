@@ -14,7 +14,7 @@ var declinfo_8l =
     [ "getLexerFILE", "d8/d0f/declinfo_8l.html#acb5f8818546103e3b804ab8606b52c4a", null ],
     [ "parseFuncDecl", "d8/d0f/declinfo_8l.html#ab55d9546491f096273237772e055d853", null ],
     [ "yylex", "d8/d0f/declinfo_8l.html#a1d80d8ed8c19744ed31163f6e7525e54", null ],
-    [ "yyread", "d8/d0f/declinfo_8l.html#a6aa6c5ba01e7493a13776739da652548", null ],
+    [ "yyread", "d8/d0f/declinfo_8l.html#a1b339db61de62f7ec1c6116ba10912ae", null ],
     [ "g_declinfo_extra", "d8/d0f/declinfo_8l.html#a177a7d7b72fc0be3c1655d9667929b27", null ],
     [ "g_yyscanner", "d8/d0f/declinfo_8l.html#a07a9d0a3847755d092a9a66f17bcb90b", null ]
 ];

@@ -8,7 +8,7 @@ var structxml_y_y__state =
     [ "data", "d5/d18/structxml_y_y__state.html#abd972ec09ddaf5ea44f3af10c906582f", null ],
     [ "fileName", "d5/d18/structxml_y_y__state.html#ab336c92488698021bae0c5484cf074e3", null ],
     [ "handlers", "d5/d18/structxml_y_y__state.html#a28ee328410bf16f1fd40c65c30d5625c", null ],
-    [ "inputPosition", "d5/d18/structxml_y_y__state.html#ad83c4cb3a64f8e313a6de1701e62bcf9", null ],
+    [ "inputPosition", "d5/d18/structxml_y_y__state.html#aba579c26d99a864ae794244a892bd689", null ],
     [ "inputString", "d5/d18/structxml_y_y__state.html#ae1517f6453471eec1e347545d1976ed8", null ],
     [ "isEnd", "d5/d18/structxml_y_y__state.html#a6ac84469c86d984f2fc3b8810a6c0fef", null ],
     [ "lineNr", "d5/d18/structxml_y_y__state.html#abcc9e6b2990793f3df26c80d1fce7e77", null ],

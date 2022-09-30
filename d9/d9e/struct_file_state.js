@@ -7,5 +7,5 @@ var struct_file_state =
     [ "fileName", "d9/d9e/struct_file_state.html#a3854d7f199d9ca0a7ca88d6cc2add008", null ],
     [ "lineNr", "d9/d9e/struct_file_state.html#a249445ca799ace1fa1ba438369273e04", null ],
     [ "oldFileBuf", "d9/d9e/struct_file_state.html#a1f4e8240ac9abda5299998f9db17f96a", null ],
-    [ "oldFileBufPos", "d9/d9e/struct_file_state.html#a02accbb5c0577a1956ff9a9ed4b6f56d", null ]
+    [ "oldFileBufPos", "d9/d9e/struct_file_state.html#adcbdee9d4290766ae74a8d79115040b6", null ]
 ];

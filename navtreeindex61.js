@@ -1,5 +1,7 @@
 var NAVTREEINDEX61 =
 {
+"d8/d83/class_translator_latvian.html#a690e46e29f64fd6e6009cd1e3d59ff56":[8,0,590,209],
+"d8/d83/class_translator_latvian.html#a69715d6cd736ce17ac8476baf8bd0b44":[8,0,590,203],
 "d8/d83/class_translator_latvian.html#a69eda1383838391ddc6633bb881d0df4":[8,0,590,195],
 "d8/d83/class_translator_latvian.html#a6a64f9108b45b2dfaf2df0907acfca5c":[8,0,590,71],
 "d8/d83/class_translator_latvian.html#a6a6c144679284e109c77de4eb8c714fb":[8,0,590,105],
@@ -151,12 +153,12 @@ var NAVTREEINDEX61 =
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html":[8,0,5,0,2],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a0994fa11976ac659180bf73c1068783e":[8,0,5,0,2,3],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a0994fa11976ac659180bf73c1068783e":[7,0,8,0,2,3],
-"d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a5d25b6278ae014a14a0f5be2678f663c":[8,0,5,0,2,4],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a5d25b6278ae014a14a0f5be2678f663c":[7,0,8,0,2,4],
-"d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a6b6a95b77fab1e71ce05bd43da1b8f67":[7,0,8,0,2,5],
+"d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a5d25b6278ae014a14a0f5be2678f663c":[8,0,5,0,2,4],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a6b6a95b77fab1e71ce05bd43da1b8f67":[8,0,5,0,2,5],
-"d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a952889761822083d0eb8175cc62e6b7f":[7,0,8,0,2,2],
+"d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a6b6a95b77fab1e71ce05bd43da1b8f67":[7,0,8,0,2,5],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a952889761822083d0eb8175cc62e6b7f":[8,0,5,0,2,2],
+"d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a952889761822083d0eb8175cc62e6b7f":[7,0,8,0,2,2],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a953e9b05e336c11f8e2435b3ea506bc1":[8,0,5,0,2,0],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a953e9b05e336c11f8e2435b3ea506bc1":[7,0,8,0,2,0],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#aaaa2b2b81198a1e2a706a91baa09712c":[8,0,5,0,2,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX61 =
 "d8/dc0/class_fortran_code_parser.html#a6d0ab2a0d90e46d2ce8e0fdd526b9d05":[8,0,285,2],
 "d8/dc0/class_fortran_code_parser.html#a8cb63db2c9c015c20f6795cb6aff55a7":[8,0,285,4],
 "d8/dc0/class_fortran_code_parser.html#a8df3de5a46d7ba39548b84645c55e0f4":[8,0,285,5],
-"d8/dc0/class_fortran_code_parser.html#ac476d9ee7019f70168a3fa6c3aeec17f":[8,0,285,3],
-"d8/dc0/class_fortran_code_parser.html#afd583a7874bdbcd0ce7b08607a640264":[8,0,285,1],
-"d8/dc3/htmlhelp_8h.html":[9,0,2,141]
+"d8/dc0/class_fortran_code_parser.html#ac476d9ee7019f70168a3fa6c3aeec17f":[8,0,285,3]
 };

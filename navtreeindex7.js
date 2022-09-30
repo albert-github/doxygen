@@ -1,5 +1,7 @@
 var NAVTREEINDEX7 =
 {
+"d1/d25/class_class_def_impl.html#a02de81220c8c130bc7c8f56dc5ecf55d":[8,0,35,155],
+"d1/d25/class_class_def_impl.html#a06d1c87b5045a6c993de83c8eaa5bfb1":[8,0,35,129],
 "d1/d25/class_class_def_impl.html#a070e3c1bd3d4fec0d2dc5b048a8d8692":[8,0,35,171],
 "d1/d25/class_class_def_impl.html#a07a0425548988113183b7a374c57cf9c":[8,0,35,41],
 "d1/d25/class_class_def_impl.html#a09d431efc9ce3c7eb121ee2a9e48d4f2":[8,0,35,133],
@@ -207,12 +209,12 @@ var NAVTREEINDEX7 =
 "d1/d39/doctokenizer_8l.html#a4c2746ace65d9b91347502c11ccb43cf":[9,0,2,74,16],
 "d1/d39/doctokenizer_8l.html#a51494df7c8ab37060eb73dc26349f3ca":[9,0,2,74,17],
 "d1/d39/doctokenizer_8l.html#a5d5508008cac8fb66fca3baa4e9b6584":[9,0,2,74,10],
+"d1/d39/doctokenizer_8l.html#a5edfc25f0c460f3263fdb340f7a02b03":[9,0,2,74,19],
 "d1/d39/doctokenizer_8l.html#a6256e57feb94db36e0dd7c3c83c9180a":[9,0,2,74,3],
 "d1/d39/doctokenizer_8l.html#a85523a0c7d95c059d251b4e9829947aa":[9,0,2,74,8],
 "d1/d39/doctokenizer_8l.html#a86da2f5e3360caa90276fc24433d9512":[9,0,2,74,5],
 "d1/d39/doctokenizer_8l.html#a93254599b6550533edd446faac434b5d":[9,0,2,74,4],
 "d1/d39/doctokenizer_8l.html#a9484188abbc459dafcbd4c96425fa70b":[9,0,2,74,11],
-"d1/d39/doctokenizer_8l.html#a954f5351908394abcda1649f481a6265":[9,0,2,74,19],
 "d1/d39/doctokenizer_8l.html#a9b60e3bdd311d784431944cfc85f19c9":[9,0,2,74,15],
 "d1/d39/doctokenizer_8l.html#aacfdca45fa4beb8b06172525a53c424a":[9,0,2,74,7],
 "d1/d39/doctokenizer_8l.html#acb5f8818546103e3b804ab8606b52c4a":[9,0,2,74,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX7 =
 "d1/d4b/class_nesting_node_context_1_1_private.html#a10f7de3a1e4d97a6fff0f9abfc2f1f3c":[8,0,410,0,43],
 "d1/d4b/class_nesting_node_context_1_1_private.html#a12fb94ebf4d8969e677aff5670cb84c6":[8,0,410,0,47],
 "d1/d4b/class_nesting_node_context_1_1_private.html#a1885ce6505ee8c939a2d425b5c54a5c9":[8,0,410,0,44],
-"d1/d4b/class_nesting_node_context_1_1_private.html#a1d27be662be314db9fd71a3fa416b98e":[8,0,410,0,30],
-"d1/d4b/class_nesting_node_context_1_1_private.html#a21188072a5747ed1d36bc1e401e87a50":[8,0,410,0,35],
-"d1/d4b/class_nesting_node_context_1_1_private.html#a27173dd363113ceb743eeb93e6831ad6":[8,0,410,0,27]
+"d1/d4b/class_nesting_node_context_1_1_private.html#a1d27be662be314db9fd71a3fa416b98e":[8,0,410,0,30]
 };

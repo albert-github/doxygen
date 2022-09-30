@@ -11,7 +11,7 @@ var structcommentcnv_y_y__state =
     [ "condStack", "d6/d8d/structcommentcnv_y_y__state.html#a7160443ca2fc780ef74b8061235d448c", null ],
     [ "fileName", "d6/d8d/structcommentcnv_y_y__state.html#a9b9bfccd45eebf597a300c15f40f9e6f", null ],
     [ "inBuf", "d6/d8d/structcommentcnv_y_y__state.html#aade2d495f25886c9be96d5df37060ce6", null ],
-    [ "inBufPos", "d6/d8d/structcommentcnv_y_y__state.html#ae82587498d6c0d04a5eceade048d27bc", null ],
+    [ "inBufPos", "d6/d8d/structcommentcnv_y_y__state.html#aefbdd53f60c5f40405cac654539c847e", null ],
     [ "inRoseComment", "d6/d8d/structcommentcnv_y_y__state.html#a85a8a5d0295efd5224ffde61c619ecf7", null ],
     [ "inSpecialComment", "d6/d8d/structcommentcnv_y_y__state.html#a4c49a89ecb4121413585fae6f955c9b4", null ],
     [ "isFixedForm", "d6/d8d/structcommentcnv_y_y__state.html#ac9d34dfe92ba65cdfc964d721cd1c3fe", null ],

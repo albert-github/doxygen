@@ -14,7 +14,7 @@ var structvhdlcode_y_y__state =
     [ "funcProto", "db/d50/structvhdlcode_y_y__state.html#a500cffab105d5f7a95fcfd22a827a8b1", null ],
     [ "includeCodeFragment", "db/d50/structvhdlcode_y_y__state.html#ad6493dea012c62093675daeef1a8f951", null ],
     [ "inputLines", "db/d50/structvhdlcode_y_y__state.html#aea28bbabc305cdcc047a50818599e5c0", null ],
-    [ "inputPosition", "db/d50/structvhdlcode_y_y__state.html#a7b16a6e0ad698bd65a03e21f66eae8ba", null ],
+    [ "inputPosition", "db/d50/structvhdlcode_y_y__state.html#aa08ea76c8ffa3e165185d4398add5510", null ],
     [ "inputString", "db/d50/structvhdlcode_y_y__state.html#ab5899665db936da6deceac3fb0d5ceb0", null ],
     [ "insideCodeLine", "db/d50/structvhdlcode_y_y__state.html#a068e610e77f9b483d5b880f378277142", null ],
     [ "isComponent", "db/d50/structvhdlcode_y_y__state.html#a684d679b6a71d6de3a3d01b46675c4c7", null ],

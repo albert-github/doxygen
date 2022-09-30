@@ -170,7 +170,7 @@ Macros</h2></td></tr>
 <tr class="separator:a119c8f282d438eb18c292c924d02a07d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d0e1b21cfd1d3709de673b9a6e8a53b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1f/code_8l.html#a1d0e1b21cfd1d3709de673b9a6e8a53b">USE_STATE2STRING</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:a1d0e1b21cfd1d3709de673b9a6e8a53b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacfdca45fa4beb8b06172525a53c424a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1f/code_8l.html#aacfdca45fa4beb8b06172525a53c424a">YY_INPUT</a>(buf,  result,  max_size)&#160;&#160;&#160;result=<a class="el" href="../../da/d1f/code_8l.html#a954f5351908394abcda1649f481a6265">yyread</a>(yyscanner,buf,max_size);</td></tr>
+<tr class="memitem:aacfdca45fa4beb8b06172525a53c424a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1f/code_8l.html#aacfdca45fa4beb8b06172525a53c424a">YY_INPUT</a>(buf,  result,  max_size)&#160;&#160;&#160;result=<a class="el" href="../../da/d1f/code_8l.html#a5edfc25f0c460f3263fdb340f7a02b03">yyread</a>(yyscanner,buf,max_size);</td></tr>
 <tr class="separator:aacfdca45fa4beb8b06172525a53c424a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
@@ -264,8 +264,8 @@ Functions</h2></td></tr>
 <tr class="separator:ab828dbdc362a011d3f909e34033b5642"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a36b69d1bae9ee71facbbf0770cbe6f"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1f/code_8l.html#a2a36b69d1bae9ee71facbbf0770cbe6f">skipLanguageSpecificKeyword</a> (<a class="el" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner, const char *kw)</td></tr>
 <tr class="separator:a2a36b69d1bae9ee71facbbf0770cbe6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a954f5351908394abcda1649f481a6265"><td class="memItemLeft" align="right" valign="top">static yy_size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1f/code_8l.html#a954f5351908394abcda1649f481a6265">yyread</a> (<a class="el" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner, char *buf, yy_size_t max_size)</td></tr>
-<tr class="separator:a954f5351908394abcda1649f481a6265"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5edfc25f0c460f3263fdb340f7a02b03"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1f/code_8l.html#a5edfc25f0c460f3263fdb340f7a02b03">yyread</a> (<a class="el" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner, char *buf, int max_size)</td></tr>
+<tr class="separator:a5edfc25f0c460f3263fdb340f7a02b03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9fd711b7dd6cbbefb87ab903e540b31"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1f/code_8l.html#ac9fd711b7dd6cbbefb87ab903e540b31">addVariable</a> (<a class="el" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner, <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> type, <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> name)</td></tr>
 <tr class="separator:ac9fd711b7dd6cbbefb87ab903e540b31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a544c6fd0814756e0e4ab69eac035ff7f"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1f/code_8l.html#a544c6fd0814756e0e4ab69eac035ff7f">startsWithKeyword</a> (const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;str, const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;kw)</td></tr>
@@ -398,7 +398,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;result=<a class="el" href="../../da/d1f/code_8l.html#a954f5351908394abcda1649f481a6265">yyread</a>(yyscanner,buf,max_size);</td>
+          <td></td><td>&#160;&#160;&#160;result=<a class="el" href="../../da/d1f/code_8l.html#a5edfc25f0c460f3263fdb340f7a02b03">yyread</a>(yyscanner,buf,max_size);</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5880,8 +5880,8 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a954f5351908394abcda1649f481a6265" name="a954f5351908394abcda1649f481a6265"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a954f5351908394abcda1649f481a6265">&#9670;&#160;</a></span>yyread()</h2>
+<a id="a5edfc25f0c460f3263fdb340f7a02b03" name="a5edfc25f0c460f3263fdb340f7a02b03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5edfc25f0c460f3263fdb340f7a02b03">&#9670;&#160;</a></span>yyread()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5890,7 +5890,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static yy_size_t yyread </td>
+          <td class="memname">static int yyread </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a>&#160;</td>
           <td class="paramname"><em>yyscanner</em>, </td>
@@ -5904,7 +5904,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">yy_size_t&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>max_size</em>&#160;</td>
         </tr>
         <tr>
@@ -5925,7 +5925,7 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno"> 3844</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
 <div class="line"><span class="lineno"> 3845</span>  yy_size_t inputPosition = yyextra-&gt;inputPosition;</div>
 <div class="line"><span class="lineno"> 3846</span>  <span class="keyword">const</span> <span class="keywordtype">char</span> *s = yyextra-&gt;inputString + inputPosition;</div>
-<div class="line"><span class="lineno"> 3847</span>  yy_size_t c=0;</div>
+<div class="line"><span class="lineno"> 3847</span>  <span class="keywordtype">int</span> c=0;</div>
 <div class="line"><span class="lineno"> 3848</span>  <span class="keywordflow">while</span>( c &lt; max_size &amp;&amp; *s )</div>
 <div class="line"><span class="lineno"> 3849</span>  {</div>
 <div class="line"><span class="lineno"> 3850</span>    *buf++ = *s++;</div>

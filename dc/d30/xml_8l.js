@@ -16,8 +16,7 @@ var xml_8l =
     [ "reportError", "dc/d30/xml_8l.html#a6207ba2d15395f88f479b1b8a61ee94c", null ],
     [ "trimSpaces", "dc/d30/xml_8l.html#a72d9fa05d2ff7e5534d336cd1c98242f", null ],
     [ "yylex", "dc/d30/xml_8l.html#a1d80d8ed8c19744ed31163f6e7525e54", null ],
-    [ "yyread", "dc/d30/xml_8l.html#a6471b770c76470cb6ed0c953b403f43a", null ],
-    [ "yyread", "dc/d30/xml_8l.html#a954f5351908394abcda1649f481a6265", null ],
+    [ "yyread", "dc/d30/xml_8l.html#a5edfc25f0c460f3263fdb340f7a02b03", null ],
     [ "entities_dec", "dc/d30/xml_8l.html#a95276bd5baa3dd1edf716a19699064da", null ],
     [ "entities_enc", "dc/d30/xml_8l.html#ad16a9bef332d1d0cae146f99189b9bf0", null ],
     [ "num_entities", "dc/d30/xml_8l.html#a9474822ffc0025e35130850abb689384", null ]

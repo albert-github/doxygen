@@ -18,7 +18,7 @@ var structlexcode_y_y__state =
     [ "fileName", "d1/d06/structlexcode_y_y__state.html#a90760d5b5208c97d03543f28b8b93be4", null ],
     [ "includeCodeFragment", "d1/d06/structlexcode_y_y__state.html#ad5f07a9b80a115b456f8d7834bc6e8a8", null ],
     [ "inputLines", "d1/d06/structlexcode_y_y__state.html#abfba720a3993c28738629681ea9612f5", null ],
-    [ "inputPosition", "d1/d06/structlexcode_y_y__state.html#a0dca9e2f8a9cfb4685945441d87c80c2", null ],
+    [ "inputPosition", "d1/d06/structlexcode_y_y__state.html#a2c26837d431991960c815a371facebc7", null ],
     [ "inputString", "d1/d06/structlexcode_y_y__state.html#ab46f4152263f7b52ecba731f2e9e1573", null ],
     [ "insideCode", "d1/d06/structlexcode_y_y__state.html#ab99a0b1aa01a1d3ca643ef024eb7e29d", null ],
     [ "insideCodeLine", "d1/d06/structlexcode_y_y__state.html#a4f842f9cd3410eb0048822d76693f109", null ],

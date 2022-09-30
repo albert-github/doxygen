@@ -21,5 +21,5 @@ var lexcode_8l =
     [ "startCodeLine", "d0/d7e/lexcode_8l.html#a47b0cd13a509f44e1a1032cbf4ad69ed", null ],
     [ "startFontClass", "d0/d7e/lexcode_8l.html#a774297aa5d69086827360d6f0ab535fa", null ],
     [ "yylex", "d0/d7e/lexcode_8l.html#a1d80d8ed8c19744ed31163f6e7525e54", null ],
-    [ "yyread", "d0/d7e/lexcode_8l.html#a954f5351908394abcda1649f481a6265", null ]
+    [ "yyread", "d0/d7e/lexcode_8l.html#a5edfc25f0c460f3263fdb340f7a02b03", null ]
 ];

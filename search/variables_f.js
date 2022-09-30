@@ -10,7 +10,7 @@ var searchData=
   ['offset_7',['offset',['../d5/dfd/struct_spec_format.html#ab3c3a5e1782f106f39435506263d6bd7',1,'SpecFormat']]],
   ['oldentry_8',['oldEntry',['../d7/d9c/struct_v_h_d_l_outline_parser_1_1_private.html#ac641d31084d1aec24c1cf3943f5d4dda',1,'VHDLOutlineParser::Private']]],
   ['oldfilebuf_9',['oldFileBuf',['../d9/d9e/struct_file_state.html#a1f4e8240ac9abda5299998f9db17f96a',1,'FileState']]],
-  ['oldfilebufpos_10',['oldFileBufPos',['../d9/d9e/struct_file_state.html#a02accbb5c0577a1956ff9a9ed4b6f56d',1,'FileState']]],
+  ['oldfilebufpos_10',['oldFileBufPos',['../d9/d9e/struct_file_state.html#adcbdee9d4290766ae74a8d79115040b6',1,'FileState']]],
   ['oldname_11',['oldName',['../df/d20/structemoji_entity_compatibility.html#a13ebcba6774191a02cd2c55a7fda04e1',1,'emojiEntityCompatibility']]],
   ['oldstate_12',['oldState',['../d5/dd5/struct_config_file_state.html#aaacb1254715397e72db10477de158e2c',1,'ConfigFileState']]],
   ['oldstyleargtype_13',['oldStyleArgType',['../d4/dfb/structscanner_y_y__state.html#a2241e8b0a27d44f6d22c1af63070b032',1,'scannerYY_state']]],

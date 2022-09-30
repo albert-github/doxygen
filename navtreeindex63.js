@@ -1,5 +1,7 @@
 var NAVTREEINDEX63 =
 {
+"d8/dfb/class_translator.html#a3a68032be485c9b37305bf2dfd738a19":[8,0,551,51],
+"d8/dfb/class_translator.html#a3b7180ac90ac11a5e4591102e9b3e880":[8,0,551,43],
 "d8/dfb/class_translator.html#a3bc5923ca3f5c0903cb3c94bdbabb8b3":[8,0,551,173],
 "d8/dfb/class_translator.html#a3befe2b4b27cc2947b3d3045561e675b":[8,0,551,97],
 "d8/dfb/class_translator.html#a3da3ae447f82df17863e3ab80be0a8e9":[8,0,551,71],
@@ -233,8 +235,8 @@ var NAVTREEINDEX63 =
 "d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#a0afc3cb894583ee40c53a3a5c54495dc":[7,0,8,0,6,0],
 "d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#a27aa05445202b2d20d5cd95983d8fd86":[8,0,5,0,6,1],
 "d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#a27aa05445202b2d20d5cd95983d8fd86":[7,0,8,0,6,1],
-"d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#a6d2fbf9bff5de1775a78dc4872ccdca5":[8,0,5,0,6,4],
 "d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#a6d2fbf9bff5de1775a78dc4872ccdca5":[7,0,8,0,6,4],
+"d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#a6d2fbf9bff5de1775a78dc4872ccdca5":[8,0,5,0,6,4],
 "d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#af0dffd5c5809a0bf16881b19c5786fc3":[8,0,5,0,6,2],
 "d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#af0dffd5c5809a0bf16881b19c5786fc3":[7,0,8,0,6,2],
 "d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#aff28441094086f5cbf8ee8f34a8bc9a4":[8,0,5,0,6,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX63 =
 "d9/d06/class_template_node_variable.html#aa077bf0b834ba5939ed22643fff3b28f":[8,0,529,2],
 "d9/d06/class_template_node_variable.html#abb7d9ed61fac37745a540e422a791ac7":[8,0,529,3],
 "d9/d06/struct_edge_properties.html":[8,0,216],
-"d9/d06/struct_edge_properties.html#a2b2315fe38a4822f4e657c71236fb027":[8,0,216,0],
-"d9/d06/struct_edge_properties.html#a7938928bf27311c0e4acf2c40e0f0510":[8,0,216,2],
-"d9/d06/struct_edge_properties.html#ad0c9d3fa5e49b41e92ff95cbf188a5b1":[8,0,216,1]
+"d9/d06/struct_edge_properties.html#a2b2315fe38a4822f4e657c71236fb027":[8,0,216,0]
 };

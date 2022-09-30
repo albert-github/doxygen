@@ -10,7 +10,7 @@ var structsqlcode_y_y__state =
     [ "fileName", "da/d7b/structsqlcode_y_y__state.html#a34a323dabcac14f004b7f3190498c27a", null ],
     [ "includeCodeFragment", "da/d7b/structsqlcode_y_y__state.html#a1e58e79a9935e2bc1bc080e4ecd18684", null ],
     [ "inputLines", "da/d7b/structsqlcode_y_y__state.html#a9f23efc42a01c1374c20e82ce29aa9ec", null ],
-    [ "inputPosition", "da/d7b/structsqlcode_y_y__state.html#a853c376366ee412a8698548b079fc7a2", null ],
+    [ "inputPosition", "da/d7b/structsqlcode_y_y__state.html#ada659847a96ed5365784886406361fce", null ],
     [ "inputString", "da/d7b/structsqlcode_y_y__state.html#a2e8632bb6999de5c3ec3389f71bf57a2", null ],
     [ "insideCodeLine", "da/d7b/structsqlcode_y_y__state.html#a5fa633f352c5050b85b95aead5ddca09", null ],
     [ "searchCtx", "da/d7b/structsqlcode_y_y__state.html#a12ff3617a457baf82d69ccf1e7b5ccc6", null ],

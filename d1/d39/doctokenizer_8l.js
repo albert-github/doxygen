@@ -19,5 +19,5 @@ var doctokenizer_8l =
     [ "processSection", "d1/d39/doctokenizer_8l.html#a4c2746ace65d9b91347502c11ccb43cf", null ],
     [ "stripEmptyLines", "d1/d39/doctokenizer_8l.html#a51494df7c8ab37060eb73dc26349f3ca", null ],
     [ "yylex", "d1/d39/doctokenizer_8l.html#a1d80d8ed8c19744ed31163f6e7525e54", null ],
-    [ "yyread", "d1/d39/doctokenizer_8l.html#a954f5351908394abcda1649f481a6265", null ]
+    [ "yyread", "d1/d39/doctokenizer_8l.html#a5edfc25f0c460f3263fdb340f7a02b03", null ]
 ];

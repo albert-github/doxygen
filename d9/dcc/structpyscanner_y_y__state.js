@@ -25,7 +25,7 @@ var structpyscanner_y_y__state =
     [ "funcParamsEnd", "d9/dcc/structpyscanner_y_y__state.html#a7898b2318a0abe9115917cff507b4608", null ],
     [ "importTuple", "d9/dcc/structpyscanner_y_y__state.html#a53e6953b43fc43b6b36a5459e249a7b9", null ],
     [ "indent", "d9/dcc/structpyscanner_y_y__state.html#a721ffad5598b28c8b6c8f89eb2b4a319", null ],
-    [ "inputPosition", "d9/dcc/structpyscanner_y_y__state.html#aa4f6b7db5a0a259a7b67cff948f79375", null ],
+    [ "inputPosition", "d9/dcc/structpyscanner_y_y__state.html#a031b4cb71de4f96eb53f7800f899f0d8", null ],
     [ "inputString", "d9/dcc/structpyscanner_y_y__state.html#a64fb33d4b57082a85a95a3a3246443e3", null ],
     [ "lexInit", "d9/dcc/structpyscanner_y_y__state.html#ad52aa3b5c97bed4134039682eaeade8e", null ],
     [ "moduleScope", "d9/dcc/structpyscanner_y_y__state.html#a1f2ecda416a61bc6a021747657dab036", null ],

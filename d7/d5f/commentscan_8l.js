@@ -143,7 +143,7 @@ var commentscan_8l =
     [ "stripQuotes", "d7/d5f/commentscan_8l.html#a4025119712ca93c25aff95e1f4c9a344", null ],
     [ "stripTrailingWhiteSpace", "d7/d5f/commentscan_8l.html#ae81df9187a70102c6f47ca6c2c5012f4", null ],
     [ "yylex", "d7/d5f/commentscan_8l.html#a1d80d8ed8c19744ed31163f6e7525e54", null ],
-    [ "yyread", "d7/d5f/commentscan_8l.html#a954f5351908394abcda1649f481a6265", null ],
+    [ "yyread", "d7/d5f/commentscan_8l.html#a5edfc25f0c460f3263fdb340f7a02b03", null ],
     [ "docCmdMap", "d7/d5f/commentscan_8l.html#a0714597b7e72e3f10fb260622232ef8e", null ],
     [ "g_citeMutex", "d7/d5f/commentscan_8l.html#a9806f33cfd9d47bb4fca710cce153466", null ],
     [ "g_formulaMutex", "d7/d5f/commentscan_8l.html#a71854cabe6d738f42533b051b95b9577", null ],

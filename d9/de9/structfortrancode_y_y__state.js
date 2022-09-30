@@ -18,7 +18,7 @@ var structfortrancode_y_y__state =
     [ "hasContLine", "d9/de9/structfortrancode_y_y__state.html#a3c3573d68d1053adaca84a6bd1f952ff", null ],
     [ "includeCodeFragment", "d9/de9/structfortrancode_y_y__state.html#a1c85218978b6ccb75a2ba8b411d5577c", null ],
     [ "inputLines", "d9/de9/structfortrancode_y_y__state.html#af6b7ff4223f041b5d8a549d1648b489a", null ],
-    [ "inputPosition", "d9/de9/structfortrancode_y_y__state.html#a4a80c12c262eaa089ebdfb31d382811a", null ],
+    [ "inputPosition", "d9/de9/structfortrancode_y_y__state.html#a5f2612ba9198b1f035b502d11a6b9673", null ],
     [ "inputString", "d9/de9/structfortrancode_y_y__state.html#af664477d5fe0a69e5b0679e4894c81c1", null ],
     [ "insideBody", "d9/de9/structfortrancode_y_y__state.html#a4ac136215332ce590ad6b0c393c425e6", null ],
     [ "insideCodeLine", "d9/de9/structfortrancode_y_y__state.html#ad45e3583ce319dec4eddee5a60a03904", null ],
