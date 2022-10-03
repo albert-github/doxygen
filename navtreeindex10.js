@@ -1,6 +1,5 @@
 var NAVTREEINDEX10 =
 {
-"d1/d6a/class_translator_japanese.html#a2b504f1eeebf18f26ed6c6696432e178":[8,0,586,159],
 "d1/d6a/class_translator_japanese.html#a2b91fba77059169cea568e1304a1935a":[8,0,586,38],
 "d1/d6a/class_translator_japanese.html#a2bb335407e8e0674ad172d4713d29448":[8,0,586,146],
 "d1/d6a/class_translator_japanese.html#a2d1dcae8604927539b593930394dd6dd":[8,0,586,246],
@@ -249,5 +248,6 @@ var NAVTREEINDEX10 =
 "d1/d72/class_docbook_generator.html#a287e2bd8f7fe96471ac9d6520f818071":[8,0,122,14],
 "d1/d72/class_docbook_generator.html#a29959b53028bcdf2e21067a096e3fe77":[8,0,122,67],
 "d1/d72/class_docbook_generator.html#a2a432673b8bcab76a9f5746e5baf8d75":[8,0,122,172],
-"d1/d72/class_docbook_generator.html#a2ad711003c6be13e5114b8e02ecae211":[8,0,122,6]
+"d1/d72/class_docbook_generator.html#a2ad711003c6be13e5114b8e02ecae211":[8,0,122,6],
+"d1/d72/class_docbook_generator.html#a2be2ebed3e76609535d64c0b81887a87":[8,0,122,78]
 };

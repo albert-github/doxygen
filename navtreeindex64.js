@@ -1,6 +1,5 @@
 var NAVTREEINDEX64 =
 {
-"d9/d06/struct_edge_properties.html#a2b2315fe38a4822f4e657c71236fb027":[8,0,216,0],
 "d9/d06/struct_edge_properties.html#a7938928bf27311c0e4acf2c40e0f0510":[8,0,216,2],
 "d9/d06/struct_edge_properties.html#ad0c9d3fa5e49b41e92ff95cbf188a5b1":[8,0,216,1],
 "d9/d09/class_mapper.html":[8,0,364],
@@ -249,5 +248,6 @@ var NAVTREEINDEX64 =
 "d9/d1b/class_translator_dutch.html#aa6ddadc6424b2a267dad61e354b50489":[8,0,575,167],
 "d9/d1b/class_translator_dutch.html#aa71cf5cbac07d56330cfda9477986d44":[8,0,575,240],
 "d9/d1b/class_translator_dutch.html#aa8833fa29e2177386a097a715f8e1eea":[8,0,575,207],
-"d9/d1b/class_translator_dutch.html#aa9244461bd04414c966e2f15fa089198":[8,0,575,156]
+"d9/d1b/class_translator_dutch.html#aa9244461bd04414c966e2f15fa089198":[8,0,575,156],
+"d9/d1b/class_translator_dutch.html#aaa630cb62e114f10e68d8e13baa715f7":[8,0,575,210]
 };
