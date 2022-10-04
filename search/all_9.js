@@ -305,7 +305,7 @@ var searchData=
   ['htmlattriblist_302',['HtmlAttribList',['../db/d4d/class_html_attrib_list.html',1,'']]],
   ['htmlattribstostring_303',['htmlAttribsToString',['../da/db0/htmldocvisitor_8cpp.html#a5bf5f3ce01f67df744d390e1991bd856',1,'htmldocvisitor.cpp']]],
   ['htmlcodegenerator_304',['HtmlCodeGenerator',['../da/db6/class_html_code_generator.html',1,'HtmlCodeGenerator'],['../da/db6/class_html_code_generator.html#a565464bafd030cc75b2d2de12babb6cd',1,'HtmlCodeGenerator::HtmlCodeGenerator(TextStream &amp;t, const QCString &amp;relPath)'],['../da/db6/class_html_code_generator.html#a8fc581c9e0e14b815ada22770812784b',1,'HtmlCodeGenerator::HtmlCodeGenerator(TextStream &amp;t)']]],
-  ['htmldetails_305',['HTMLDetails',['../d4/de8/structcommentscan_y_y__state.html#a1e45673eaa82352c658d2fc14bb6b2b2',1,'commentscanYY_state']]],
+  ['htmldetailssummary_305',['HTMLDetailsSummary',['../d4/de8/structcommentscan_y_y__state.html#a1f3eb5e0416454c435526caa997b8c1d',1,'commentscanYY_state']]],
   ['htmldivend_306',['HtmlDivEnd',['../da/d13/translator__fa_8h.html#a60a9932421ab5134a5820e7f662750b2',1,'translator_fa.h']]],
   ['htmldocvisitor_307',['HtmlDocVisitor',['../d5/d1b/class_html_doc_visitor.html',1,'HtmlDocVisitor'],['../d5/d1b/class_html_doc_visitor.html#ad4fdbe841dcb40643a467f2be79f43c5',1,'HtmlDocVisitor::HtmlDocVisitor()']]],
   ['htmldocvisitor_2ecpp_308',['htmldocvisitor.cpp',['../da/db0/htmldocvisitor_8cpp.html',1,'']]],

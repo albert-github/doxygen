@@ -20,7 +20,7 @@ var structcommentscan_y_y__state =
     [ "guardType", "d4/de8/structcommentscan_y_y__state.html#a71bf7acb1894756edf376234de19ff6c", null ],
     [ "htmlAnchor", "d4/de8/structcommentscan_y_y__state.html#a746ef47c40f037e13f7ddc7cb848e0e2", null ],
     [ "htmlAnchorStr", "d4/de8/structcommentscan_y_y__state.html#ac3fdecfc0c02e37b130f9ebe5fa48f59", null ],
-    [ "HTMLDetails", "d4/de8/structcommentscan_y_y__state.html#a1e45673eaa82352c658d2fc14bb6b2b2", null ],
+    [ "HTMLDetailsSummary", "d4/de8/structcommentscan_y_y__state.html#a1f3eb5e0416454c435526caa997b8c1d", null ],
     [ "inBody", "d4/de8/structcommentscan_y_y__state.html#a4afc4218f7fbcc2e856c0fdca0d5dbb9", null ],
     [ "inContext", "d4/de8/structcommentscan_y_y__state.html#a80bf431ceb8ebbabbb17575ff2409d48", null ],
     [ "inGroupParamFound", "d4/de8/structcommentscan_y_y__state.html#a070b422dc00900dee6483f30ca394dac", null ],

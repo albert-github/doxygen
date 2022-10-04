@@ -143,148 +143,148 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01911">1911</a> of file <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html">xmlgen.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1912</span>{</div>
-<div class="line"><span class="lineno"> 1913</span>  <span class="comment">// + classes</span></div>
-<div class="line"><span class="lineno"> 1914</span>  <span class="comment">// + concepts</span></div>
-<div class="line"><span class="lineno"> 1915</span>  <span class="comment">// + namespaces</span></div>
-<div class="line"><span class="lineno"> 1916</span>  <span class="comment">// + files</span></div>
-<div class="line"><span class="lineno"> 1917</span>  <span class="comment">// + groups</span></div>
-<div class="line"><span class="lineno"> 1918</span>  <span class="comment">// + related pages</span></div>
-<div class="line"><span class="lineno"> 1919</span>  <span class="comment">// - examples</span></div>
-<div class="line"><span class="lineno"> 1920</span> </div>
-<div class="line"><span class="lineno"> 1921</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> outputDirectory = <a class="code hl_define" href="../../db/d16/config_8h.html#a737741e6991bdb5694a50075437a9d89">Config_getString</a>(XML_OUTPUT);</div>
-<div class="line"><span class="lineno"> 1922</span>  <a class="code hl_class" href="../../d2/dc2/class_dir.html">Dir</a> xmlDir(outputDirectory.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>());</div>
-<div class="line"><span class="lineno"> 1923</span>  <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a77685956f8517f3a6e062e66925fc93c">createSubDirs</a>(xmlDir);</div>
-<div class="line"><span class="lineno"> 1924</span> </div>
-<div class="line"><span class="lineno"> 1925</span>  <a class="code hl_function" href="../../d6/d12/class_resource_mgr.html#a02fb3176893696eaf659d680c8b08064">ResourceMgr::instance</a>().<a class="code hl_function" href="../../d6/d12/class_resource_mgr.html#a32b8297da656a43a255a3a1b27c210b9">copyResource</a>(<span class="stringliteral">&quot;xml.xsd&quot;</span>,outputDirectory);</div>
-<div class="line"><span class="lineno"> 1926</span>  <a class="code hl_function" href="../../d6/d12/class_resource_mgr.html#a02fb3176893696eaf659d680c8b08064">ResourceMgr::instance</a>().<a class="code hl_function" href="../../d6/d12/class_resource_mgr.html#a32b8297da656a43a255a3a1b27c210b9">copyResource</a>(<span class="stringliteral">&quot;index.xsd&quot;</span>,outputDirectory);</div>
-<div class="line"><span class="lineno"> 1927</span>  <a class="code hl_function" href="../../d6/d12/class_resource_mgr.html#a02fb3176893696eaf659d680c8b08064">ResourceMgr::instance</a>().<a class="code hl_function" href="../../d6/d12/class_resource_mgr.html#a32b8297da656a43a255a3a1b27c210b9">copyResource</a>(<span class="stringliteral">&quot;doxyfile.xsd&quot;</span>,outputDirectory);</div>
-<div class="line"><span class="lineno"> 1928</span> </div>
-<div class="line"><span class="lineno"> 1929</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> fileName=outputDirectory+<span class="stringliteral">&quot;/compound.xsd&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1930</span>  std::ofstream f(fileName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>(),std::ofstream::out | std::ofstream::binary);</div>
-<div class="line"><span class="lineno"> 1931</span>  <span class="keywordflow">if</span> (!f.is_open())</div>
-<div class="line"><span class="lineno"> 1932</span>  {</div>
-<div class="line"><span class="lineno"> 1933</span>    <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a>(<span class="stringliteral">&quot;Cannot open file %s for writing!\n&quot;</span>,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(fileName));</div>
-<div class="line"><span class="lineno"> 1934</span>    <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno"> 1935</span>  }</div>
-<div class="line"><span class="lineno"> 1936</span>  {</div>
-<div class="line"><span class="lineno"> 1937</span>    <a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a> t(&amp;f);</div>
-<div class="line"><span class="lineno"> 1938</span> </div>
-<div class="line"><span class="lineno"> 1939</span>    <span class="comment">// write compound.xsd, but replace special marker with the entities</span></div>
-<div class="line"><span class="lineno"> 1940</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> compound_xsd = <a class="code hl_function" href="../../d6/d12/class_resource_mgr.html#a02fb3176893696eaf659d680c8b08064">ResourceMgr::instance</a>().<a class="code hl_function" href="../../d6/d12/class_resource_mgr.html#aa60ef164e79a11cfa31de29221db11aa">getAsString</a>(<span class="stringliteral">&quot;compound.xsd&quot;</span>);</div>
-<div class="line"><span class="lineno"> 1941</span>    <span class="keyword">const</span> <span class="keywordtype">char</span> *startLine = compound_xsd.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>();</div>
-<div class="line"><span class="lineno"> 1942</span>    <span class="keywordflow">while</span> (*startLine)</div>
-<div class="line"><span class="lineno"> 1943</span>    {</div>
-<div class="line"><span class="lineno"> 1944</span>      <span class="comment">// find end of the line</span></div>
-<div class="line"><span class="lineno"> 1945</span>      <span class="keyword">const</span> <span class="keywordtype">char</span> *endLine = startLine+1;</div>
-<div class="line"><span class="lineno"> 1946</span>      <span class="keywordflow">while</span> (*endLine &amp;&amp; *(endLine-1)!=<span class="charliteral">&#39;\n&#39;</span>) endLine++; <span class="comment">// skip to end of the line including \n</span></div>
-<div class="line"><span class="lineno"> 1947</span>      <span class="keywordtype">int</span> len=<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(endLine-startLine);</div>
-<div class="line"><span class="lineno"> 1948</span>      <span class="keywordflow">if</span> (len&gt;0)</div>
-<div class="line"><span class="lineno"> 1949</span>      {</div>
-<div class="line"><span class="lineno"> 1950</span>        <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> s(startLine,len);</div>
-<div class="line"><span class="lineno"> 1951</span>        <span class="keywordflow">if</span> (s.find(<span class="stringliteral">&quot;&lt;!-- Automatically insert here the HTML entities --&gt;&quot;</span>)!=-1)</div>
-<div class="line"><span class="lineno"> 1952</span>        {</div>
-<div class="line"><span class="lineno"> 1953</span>          <a class="code hl_function" href="../../db/d5f/class_html_entity_mapper.html#ae6ddba77b763691a6e3a1c9021e8d944">HtmlEntityMapper::instance</a>()-&gt;<a class="code hl_function" href="../../db/d5f/class_html_entity_mapper.html#a7c7b82a1151c72c7df57732517379a14">writeXMLSchema</a>(t);</div>
-<div class="line"><span class="lineno"> 1954</span>        }</div>
-<div class="line"><span class="lineno"> 1955</span>        <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno"> 1956</span>        {</div>
-<div class="line"><span class="lineno"> 1957</span>          t.write(startLine,len);</div>
-<div class="line"><span class="lineno"> 1958</span>        }</div>
-<div class="line"><span class="lineno"> 1959</span>      }</div>
-<div class="line"><span class="lineno"> 1960</span>      startLine=endLine;</div>
-<div class="line"><span class="lineno"> 1961</span>    }</div>
-<div class="line"><span class="lineno"> 1962</span>  }</div>
-<div class="line"><span class="lineno"> 1963</span>  f.close();</div>
-<div class="line"><span class="lineno"> 1964</span> </div>
-<div class="line"><span class="lineno"> 1965</span>  fileName=outputDirectory+<span class="stringliteral">&quot;/Doxyfile.xml&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1966</span>  f.open(fileName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>(),std::ofstream::out | std::ofstream::binary);</div>
-<div class="line"><span class="lineno"> 1967</span>  <span class="keywordflow">if</span> (!f.is_open())</div>
-<div class="line"><span class="lineno"> 1968</span>  {</div>
-<div class="line"><span class="lineno"> 1969</span>    <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a>(<span class="stringliteral">&quot;Cannot open file %s for writing\n&quot;</span>,fileName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>());</div>
-<div class="line"><span class="lineno"> 1970</span>    <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno"> 1971</span>  }</div>
-<div class="line"><span class="lineno"> 1972</span>  <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno"> 1973</span>  {</div>
-<div class="line"><span class="lineno"> 1974</span>    <a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a> t(&amp;f);</div>
-<div class="line"><span class="lineno"> 1975</span>    <a class="code hl_function" href="../../d0/d31/namespace_config.html#a5744a411e57f8a3a18ce6569e843b11e">Config::writeXMLDoxyfile</a>(t);</div>
-<div class="line"><span class="lineno"> 1976</span>  }</div>
-<div class="line"><span class="lineno"> 1977</span>  f.close();</div>
-<div class="line"><span class="lineno"> 1978</span> </div>
-<div class="line"><span class="lineno"> 1979</span>  fileName=outputDirectory+<span class="stringliteral">&quot;/index.xml&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1980</span>  f.open(fileName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>(),std::ofstream::out | std::ofstream::binary);</div>
-<div class="line"><span class="lineno"> 1981</span>  <span class="keywordflow">if</span> (!f.is_open())</div>
-<div class="line"><span class="lineno"> 1982</span>  {</div>
-<div class="line"><span class="lineno"> 1983</span>    <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a>(<span class="stringliteral">&quot;Cannot open file %s for writing!\n&quot;</span>,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(fileName));</div>
-<div class="line"><span class="lineno"> 1984</span>    <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno"> 1985</span>  }</div>
-<div class="line"><span class="lineno"> 1986</span>  <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno"> 1987</span>  {</div>
-<div class="line"><span class="lineno"> 1988</span>    <a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a> t(&amp;f);</div>
-<div class="line"><span class="lineno"> 1989</span> </div>
-<div class="line"><span class="lineno"> 1990</span>    <span class="comment">// write index header</span></div>
-<div class="line"><span class="lineno"> 1991</span>    t &lt;&lt; <span class="stringliteral">&quot;&lt;?xml version=&#39;1.0&#39; encoding=&#39;UTF-8&#39; standalone=&#39;no&#39;?&gt;\n&quot;</span>;;</div>
-<div class="line"><span class="lineno"> 1992</span>    t &lt;&lt; <span class="stringliteral">&quot;&lt;doxygenindex xmlns:xsi=\&quot;http://www.w3.org/2001/XMLSchema-instance\&quot; &quot;</span>;</div>
-<div class="line"><span class="lineno"> 1993</span>    t &lt;&lt; <span class="stringliteral">&quot;xsi:noNamespaceSchemaLocation=\&quot;index.xsd\&quot; &quot;</span>;</div>
-<div class="line"><span class="lineno"> 1994</span>    t &lt;&lt; <span class="stringliteral">&quot;version=\&quot;&quot;</span> &lt;&lt; getDoxygenVersion() &lt;&lt; <span class="stringliteral">&quot;\&quot; &quot;</span>;</div>
-<div class="line"><span class="lineno"> 1995</span>    t &lt;&lt; <span class="stringliteral">&quot;xml:lang=\&quot;&quot;</span> &lt;&lt; <a class="code hl_variable" href="../../d2/d48/language_8cpp.html#a07b18e39f7c5156cd370829e7e6f8534">theTranslator</a>-&gt;<a class="code hl_function" href="../../d8/dfb/class_translator.html#a32d242636756c9b302e74454bfb3fa5f">trISOLang</a>() &lt;&lt; <span class="stringliteral">&quot;\&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1996</span>    t &lt;&lt; <span class="stringliteral">&quot;&gt;\n&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1997</span> </div>
-<div class="line"><span class="lineno"> 1998</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;cd : *<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a5f4b7acdd27a42865b4832e4e7ffe82c">Doxygen::classLinkedMap</a>)</div>
-<div class="line"><span class="lineno"> 1999</span>    {</div>
-<div class="line"><span class="lineno"> 2000</span>      <a class="code hl_function" href="../../d0/dc3/xmlgen_8cpp.html#a4dc2c1db665be657de3548de437246d2">generateXMLForClass</a>(cd.get(),t);</div>
-<div class="line"><span class="lineno"> 2001</span>    }</div>
-<div class="line"><span class="lineno"> 2002</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;cd : *<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a0de9b52b3098ea1a4bee5e248e8287c8">Doxygen::conceptLinkedMap</a>)</div>
-<div class="line"><span class="lineno"> 2003</span>    {</div>
-<div class="line"><span class="lineno"> 2004</span>      <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb">msg</a>(<span class="stringliteral">&quot;Generating XML output for concept %s\n&quot;</span>,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(cd-&gt;name()));</div>
-<div class="line"><span class="lineno"> 2005</span>      <a class="code hl_function" href="../../d0/dc3/xmlgen_8cpp.html#aac5793331bb86627d87dd42dcaa637b4">generateXMLForConcept</a>(cd.get(),t);</div>
-<div class="line"><span class="lineno"> 2006</span>    }</div>
-<div class="line"><span class="lineno"> 2007</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;nd : *<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a033b4829afda05c5eef5cd54749b19bf">Doxygen::namespaceLinkedMap</a>)</div>
-<div class="line"><span class="lineno"> 2008</span>    {</div>
-<div class="line"><span class="lineno"> 2009</span>      <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb">msg</a>(<span class="stringliteral">&quot;Generating XML output for namespace %s\n&quot;</span>,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(nd-&gt;name()));</div>
-<div class="line"><span class="lineno"> 2010</span>      <a class="code hl_function" href="../../d0/dc3/xmlgen_8cpp.html#a9371126c00d478f6d9b76346e4fa77dd">generateXMLForNamespace</a>(nd.get(),t);</div>
-<div class="line"><span class="lineno"> 2011</span>    }</div>
-<div class="line"><span class="lineno"> 2012</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;fn : *<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a31a5a5856417ba3f05eccaf1f85e9958">Doxygen::inputNameLinkedMap</a>)</div>
-<div class="line"><span class="lineno"> 2013</span>    {</div>
-<div class="line"><span class="lineno"> 2014</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;fd : *fn)</div>
-<div class="line"><span class="lineno"> 2015</span>      {</div>
-<div class="line"><span class="lineno"> 2016</span>        <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb">msg</a>(<span class="stringliteral">&quot;Generating XML output for file %s\n&quot;</span>,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(fd-&gt;name()));</div>
-<div class="line"><span class="lineno"> 2017</span>        <a class="code hl_function" href="../../d0/dc3/xmlgen_8cpp.html#a541a7f1681d4e6c18ba0fb4902f2b9d3">generateXMLForFile</a>(fd.get(),t);</div>
-<div class="line"><span class="lineno"> 2018</span>      }</div>
-<div class="line"><span class="lineno"> 2019</span>    }</div>
-<div class="line"><span class="lineno"> 2020</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;gd : *<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#afd89d49084b42d085e9d40fc2636da9c">Doxygen::groupLinkedMap</a>)</div>
-<div class="line"><span class="lineno"> 2021</span>    {</div>
-<div class="line"><span class="lineno"> 2022</span>      <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb">msg</a>(<span class="stringliteral">&quot;Generating XML output for group %s\n&quot;</span>,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(gd-&gt;name()));</div>
-<div class="line"><span class="lineno"> 2023</span>      <a class="code hl_function" href="../../d0/dc3/xmlgen_8cpp.html#a0da7be0853343b6580993a525ed72a62">generateXMLForGroup</a>(gd.get(),t);</div>
-<div class="line"><span class="lineno"> 2024</span>    }</div>
-<div class="line"><span class="lineno"> 2025</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;pd : *<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#abd2756663a014ee48e1660d32a48cac5">Doxygen::pageLinkedMap</a>)</div>
-<div class="line"><span class="lineno"> 2026</span>    {</div>
-<div class="line"><span class="lineno"> 2027</span>      <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb">msg</a>(<span class="stringliteral">&quot;Generating XML output for page %s\n&quot;</span>,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(pd-&gt;name()));</div>
-<div class="line"><span class="lineno"> 2028</span>      <a class="code hl_function" href="../../d0/dc3/xmlgen_8cpp.html#afa324f7a9171409ff704f91dd087e8de">generateXMLForPage</a>(pd.get(),t,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>);</div>
-<div class="line"><span class="lineno"> 2029</span>    }</div>
-<div class="line"><span class="lineno"> 2030</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;dd : *<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#ad179803c33ab064adfd6adf681a0a805">Doxygen::dirLinkedMap</a>)</div>
-<div class="line"><span class="lineno"> 2031</span>    {</div>
-<div class="line"><span class="lineno"> 2032</span>      <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb">msg</a>(<span class="stringliteral">&quot;Generate XML output for dir %s\n&quot;</span>,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(dd-&gt;name()));</div>
-<div class="line"><span class="lineno"> 2033</span>      <a class="code hl_function" href="../../d0/dc3/xmlgen_8cpp.html#af23bb9f6e1a0a0bddb2da660425f7da4">generateXMLForDir</a>(dd.get(),t);</div>
-<div class="line"><span class="lineno"> 2034</span>    }</div>
-<div class="line"><span class="lineno"> 2035</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;pd : *<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a6cfac206c42a62e6e3ba66d5d4e4a471">Doxygen::exampleLinkedMap</a>)</div>
-<div class="line"><span class="lineno"> 2036</span>    {</div>
-<div class="line"><span class="lineno"> 2037</span>      <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb">msg</a>(<span class="stringliteral">&quot;Generating XML output for example %s\n&quot;</span>,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(pd-&gt;name()));</div>
-<div class="line"><span class="lineno"> 2038</span>      <a class="code hl_function" href="../../d0/dc3/xmlgen_8cpp.html#afa324f7a9171409ff704f91dd087e8de">generateXMLForPage</a>(pd.get(),t,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>);</div>
-<div class="line"><span class="lineno"> 2039</span>    }</div>
-<div class="line"><span class="lineno"> 2040</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a2cc3616eca3e3c550a211d8b1eaf4661">Doxygen::mainPage</a>)</div>
-<div class="line"><span class="lineno"> 2041</span>    {</div>
-<div class="line"><span class="lineno"> 2042</span>      <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb">msg</a>(<span class="stringliteral">&quot;Generating XML output for the main page\n&quot;</span>);</div>
-<div class="line"><span class="lineno"> 2043</span>      <a class="code hl_function" href="../../d0/dc3/xmlgen_8cpp.html#afa324f7a9171409ff704f91dd087e8de">generateXMLForPage</a>(<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a2cc3616eca3e3c550a211d8b1eaf4661">Doxygen::mainPage</a>.get(),t,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>);</div>
-<div class="line"><span class="lineno"> 2044</span>    }</div>
-<div class="line"><span class="lineno"> 2045</span> </div>
-<div class="line"><span class="lineno"> 2046</span>    <span class="comment">//t &lt;&lt; &quot;  &lt;/compoundlist&gt;\n&quot;;</span></div>
-<div class="line"><span class="lineno"> 2047</span>    t &lt;&lt; <span class="stringliteral">&quot;&lt;/doxygenindex&gt;\n&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2048</span>  }</div>
-<div class="line"><span class="lineno"> 2049</span> </div>
-<div class="line"><span class="lineno"> 2050</span>  <a class="code hl_function" href="../../d0/dc3/xmlgen_8cpp.html#afdcb651fa099a6b705bd08e02e24333f">writeCombineScript</a>();</div>
-<div class="line"><span class="lineno"> 2051</span>  <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a706b1f8eeae91066c7b1d7bb7c0d7ef9">clearSubDirs</a>(xmlDir);</div>
-<div class="line"><span class="lineno"> 2052</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01899">1899</a> of file <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html">xmlgen.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1900</span>{</div>
+<div class="line"><span class="lineno"> 1901</span>  <span class="comment">// + classes</span></div>
+<div class="line"><span class="lineno"> 1902</span>  <span class="comment">// + concepts</span></div>
+<div class="line"><span class="lineno"> 1903</span>  <span class="comment">// + namespaces</span></div>
+<div class="line"><span class="lineno"> 1904</span>  <span class="comment">// + files</span></div>
+<div class="line"><span class="lineno"> 1905</span>  <span class="comment">// + groups</span></div>
+<div class="line"><span class="lineno"> 1906</span>  <span class="comment">// + related pages</span></div>
+<div class="line"><span class="lineno"> 1907</span>  <span class="comment">// - examples</span></div>
+<div class="line"><span class="lineno"> 1908</span> </div>
+<div class="line"><span class="lineno"> 1909</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> outputDirectory = <a class="code hl_define" href="../../db/d16/config_8h.html#a737741e6991bdb5694a50075437a9d89">Config_getString</a>(XML_OUTPUT);</div>
+<div class="line"><span class="lineno"> 1910</span>  <a class="code hl_class" href="../../d2/dc2/class_dir.html">Dir</a> xmlDir(outputDirectory.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>());</div>
+<div class="line"><span class="lineno"> 1911</span>  <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a77685956f8517f3a6e062e66925fc93c">createSubDirs</a>(xmlDir);</div>
+<div class="line"><span class="lineno"> 1912</span> </div>
+<div class="line"><span class="lineno"> 1913</span>  <a class="code hl_function" href="../../d6/d12/class_resource_mgr.html#a02fb3176893696eaf659d680c8b08064">ResourceMgr::instance</a>().<a class="code hl_function" href="../../d6/d12/class_resource_mgr.html#a32b8297da656a43a255a3a1b27c210b9">copyResource</a>(<span class="stringliteral">&quot;xml.xsd&quot;</span>,outputDirectory);</div>
+<div class="line"><span class="lineno"> 1914</span>  <a class="code hl_function" href="../../d6/d12/class_resource_mgr.html#a02fb3176893696eaf659d680c8b08064">ResourceMgr::instance</a>().<a class="code hl_function" href="../../d6/d12/class_resource_mgr.html#a32b8297da656a43a255a3a1b27c210b9">copyResource</a>(<span class="stringliteral">&quot;index.xsd&quot;</span>,outputDirectory);</div>
+<div class="line"><span class="lineno"> 1915</span>  <a class="code hl_function" href="../../d6/d12/class_resource_mgr.html#a02fb3176893696eaf659d680c8b08064">ResourceMgr::instance</a>().<a class="code hl_function" href="../../d6/d12/class_resource_mgr.html#a32b8297da656a43a255a3a1b27c210b9">copyResource</a>(<span class="stringliteral">&quot;doxyfile.xsd&quot;</span>,outputDirectory);</div>
+<div class="line"><span class="lineno"> 1916</span> </div>
+<div class="line"><span class="lineno"> 1917</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> fileName=outputDirectory+<span class="stringliteral">&quot;/compound.xsd&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1918</span>  std::ofstream f(fileName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>(),std::ofstream::out | std::ofstream::binary);</div>
+<div class="line"><span class="lineno"> 1919</span>  <span class="keywordflow">if</span> (!f.is_open())</div>
+<div class="line"><span class="lineno"> 1920</span>  {</div>
+<div class="line"><span class="lineno"> 1921</span>    <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a>(<span class="stringliteral">&quot;Cannot open file %s for writing!\n&quot;</span>,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(fileName));</div>
+<div class="line"><span class="lineno"> 1922</span>    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1923</span>  }</div>
+<div class="line"><span class="lineno"> 1924</span>  {</div>
+<div class="line"><span class="lineno"> 1925</span>    <a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a> t(&amp;f);</div>
+<div class="line"><span class="lineno"> 1926</span> </div>
+<div class="line"><span class="lineno"> 1927</span>    <span class="comment">// write compound.xsd, but replace special marker with the entities</span></div>
+<div class="line"><span class="lineno"> 1928</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> compound_xsd = <a class="code hl_function" href="../../d6/d12/class_resource_mgr.html#a02fb3176893696eaf659d680c8b08064">ResourceMgr::instance</a>().<a class="code hl_function" href="../../d6/d12/class_resource_mgr.html#aa60ef164e79a11cfa31de29221db11aa">getAsString</a>(<span class="stringliteral">&quot;compound.xsd&quot;</span>);</div>
+<div class="line"><span class="lineno"> 1929</span>    <span class="keyword">const</span> <span class="keywordtype">char</span> *startLine = compound_xsd.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>();</div>
+<div class="line"><span class="lineno"> 1930</span>    <span class="keywordflow">while</span> (*startLine)</div>
+<div class="line"><span class="lineno"> 1931</span>    {</div>
+<div class="line"><span class="lineno"> 1932</span>      <span class="comment">// find end of the line</span></div>
+<div class="line"><span class="lineno"> 1933</span>      <span class="keyword">const</span> <span class="keywordtype">char</span> *endLine = startLine+1;</div>
+<div class="line"><span class="lineno"> 1934</span>      <span class="keywordflow">while</span> (*endLine &amp;&amp; *(endLine-1)!=<span class="charliteral">&#39;\n&#39;</span>) endLine++; <span class="comment">// skip to end of the line including \n</span></div>
+<div class="line"><span class="lineno"> 1935</span>      <span class="keywordtype">int</span> len=<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(endLine-startLine);</div>
+<div class="line"><span class="lineno"> 1936</span>      <span class="keywordflow">if</span> (len&gt;0)</div>
+<div class="line"><span class="lineno"> 1937</span>      {</div>
+<div class="line"><span class="lineno"> 1938</span>        <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> s(startLine,len);</div>
+<div class="line"><span class="lineno"> 1939</span>        <span class="keywordflow">if</span> (s.find(<span class="stringliteral">&quot;&lt;!-- Automatically insert here the HTML entities --&gt;&quot;</span>)!=-1)</div>
+<div class="line"><span class="lineno"> 1940</span>        {</div>
+<div class="line"><span class="lineno"> 1941</span>          <a class="code hl_function" href="../../db/d5f/class_html_entity_mapper.html#ae6ddba77b763691a6e3a1c9021e8d944">HtmlEntityMapper::instance</a>()-&gt;<a class="code hl_function" href="../../db/d5f/class_html_entity_mapper.html#a7c7b82a1151c72c7df57732517379a14">writeXMLSchema</a>(t);</div>
+<div class="line"><span class="lineno"> 1942</span>        }</div>
+<div class="line"><span class="lineno"> 1943</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1944</span>        {</div>
+<div class="line"><span class="lineno"> 1945</span>          t.write(startLine,len);</div>
+<div class="line"><span class="lineno"> 1946</span>        }</div>
+<div class="line"><span class="lineno"> 1947</span>      }</div>
+<div class="line"><span class="lineno"> 1948</span>      startLine=endLine;</div>
+<div class="line"><span class="lineno"> 1949</span>    }</div>
+<div class="line"><span class="lineno"> 1950</span>  }</div>
+<div class="line"><span class="lineno"> 1951</span>  f.close();</div>
+<div class="line"><span class="lineno"> 1952</span> </div>
+<div class="line"><span class="lineno"> 1953</span>  fileName=outputDirectory+<span class="stringliteral">&quot;/Doxyfile.xml&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1954</span>  f.open(fileName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>(),std::ofstream::out | std::ofstream::binary);</div>
+<div class="line"><span class="lineno"> 1955</span>  <span class="keywordflow">if</span> (!f.is_open())</div>
+<div class="line"><span class="lineno"> 1956</span>  {</div>
+<div class="line"><span class="lineno"> 1957</span>    <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a>(<span class="stringliteral">&quot;Cannot open file %s for writing\n&quot;</span>,fileName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>());</div>
+<div class="line"><span class="lineno"> 1958</span>    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1959</span>  }</div>
+<div class="line"><span class="lineno"> 1960</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1961</span>  {</div>
+<div class="line"><span class="lineno"> 1962</span>    <a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a> t(&amp;f);</div>
+<div class="line"><span class="lineno"> 1963</span>    <a class="code hl_function" href="../../d0/d31/namespace_config.html#a5744a411e57f8a3a18ce6569e843b11e">Config::writeXMLDoxyfile</a>(t);</div>
+<div class="line"><span class="lineno"> 1964</span>  }</div>
+<div class="line"><span class="lineno"> 1965</span>  f.close();</div>
+<div class="line"><span class="lineno"> 1966</span> </div>
+<div class="line"><span class="lineno"> 1967</span>  fileName=outputDirectory+<span class="stringliteral">&quot;/index.xml&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1968</span>  f.open(fileName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>(),std::ofstream::out | std::ofstream::binary);</div>
+<div class="line"><span class="lineno"> 1969</span>  <span class="keywordflow">if</span> (!f.is_open())</div>
+<div class="line"><span class="lineno"> 1970</span>  {</div>
+<div class="line"><span class="lineno"> 1971</span>    <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a>(<span class="stringliteral">&quot;Cannot open file %s for writing!\n&quot;</span>,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(fileName));</div>
+<div class="line"><span class="lineno"> 1972</span>    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1973</span>  }</div>
+<div class="line"><span class="lineno"> 1974</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1975</span>  {</div>
+<div class="line"><span class="lineno"> 1976</span>    <a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a> t(&amp;f);</div>
+<div class="line"><span class="lineno"> 1977</span> </div>
+<div class="line"><span class="lineno"> 1978</span>    <span class="comment">// write index header</span></div>
+<div class="line"><span class="lineno"> 1979</span>    t &lt;&lt; <span class="stringliteral">&quot;&lt;?xml version=&#39;1.0&#39; encoding=&#39;UTF-8&#39; standalone=&#39;no&#39;?&gt;\n&quot;</span>;;</div>
+<div class="line"><span class="lineno"> 1980</span>    t &lt;&lt; <span class="stringliteral">&quot;&lt;doxygenindex xmlns:xsi=\&quot;http://www.w3.org/2001/XMLSchema-instance\&quot; &quot;</span>;</div>
+<div class="line"><span class="lineno"> 1981</span>    t &lt;&lt; <span class="stringliteral">&quot;xsi:noNamespaceSchemaLocation=\&quot;index.xsd\&quot; &quot;</span>;</div>
+<div class="line"><span class="lineno"> 1982</span>    t &lt;&lt; <span class="stringliteral">&quot;version=\&quot;&quot;</span> &lt;&lt; getDoxygenVersion() &lt;&lt; <span class="stringliteral">&quot;\&quot; &quot;</span>;</div>
+<div class="line"><span class="lineno"> 1983</span>    t &lt;&lt; <span class="stringliteral">&quot;xml:lang=\&quot;&quot;</span> &lt;&lt; <a class="code hl_variable" href="../../d2/d48/language_8cpp.html#a07b18e39f7c5156cd370829e7e6f8534">theTranslator</a>-&gt;<a class="code hl_function" href="../../d8/dfb/class_translator.html#a32d242636756c9b302e74454bfb3fa5f">trISOLang</a>() &lt;&lt; <span class="stringliteral">&quot;\&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1984</span>    t &lt;&lt; <span class="stringliteral">&quot;&gt;\n&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1985</span> </div>
+<div class="line"><span class="lineno"> 1986</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;cd : *<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a5f4b7acdd27a42865b4832e4e7ffe82c">Doxygen::classLinkedMap</a>)</div>
+<div class="line"><span class="lineno"> 1987</span>    {</div>
+<div class="line"><span class="lineno"> 1988</span>      <a class="code hl_function" href="../../d0/dc3/xmlgen_8cpp.html#a4dc2c1db665be657de3548de437246d2">generateXMLForClass</a>(cd.get(),t);</div>
+<div class="line"><span class="lineno"> 1989</span>    }</div>
+<div class="line"><span class="lineno"> 1990</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;cd : *<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a0de9b52b3098ea1a4bee5e248e8287c8">Doxygen::conceptLinkedMap</a>)</div>
+<div class="line"><span class="lineno"> 1991</span>    {</div>
+<div class="line"><span class="lineno"> 1992</span>      <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb">msg</a>(<span class="stringliteral">&quot;Generating XML output for concept %s\n&quot;</span>,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(cd-&gt;name()));</div>
+<div class="line"><span class="lineno"> 1993</span>      <a class="code hl_function" href="../../d0/dc3/xmlgen_8cpp.html#aac5793331bb86627d87dd42dcaa637b4">generateXMLForConcept</a>(cd.get(),t);</div>
+<div class="line"><span class="lineno"> 1994</span>    }</div>
+<div class="line"><span class="lineno"> 1995</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;nd : *<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a033b4829afda05c5eef5cd54749b19bf">Doxygen::namespaceLinkedMap</a>)</div>
+<div class="line"><span class="lineno"> 1996</span>    {</div>
+<div class="line"><span class="lineno"> 1997</span>      <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb">msg</a>(<span class="stringliteral">&quot;Generating XML output for namespace %s\n&quot;</span>,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(nd-&gt;name()));</div>
+<div class="line"><span class="lineno"> 1998</span>      <a class="code hl_function" href="../../d0/dc3/xmlgen_8cpp.html#a9371126c00d478f6d9b76346e4fa77dd">generateXMLForNamespace</a>(nd.get(),t);</div>
+<div class="line"><span class="lineno"> 1999</span>    }</div>
+<div class="line"><span class="lineno"> 2000</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;fn : *<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a31a5a5856417ba3f05eccaf1f85e9958">Doxygen::inputNameLinkedMap</a>)</div>
+<div class="line"><span class="lineno"> 2001</span>    {</div>
+<div class="line"><span class="lineno"> 2002</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;fd : *fn)</div>
+<div class="line"><span class="lineno"> 2003</span>      {</div>
+<div class="line"><span class="lineno"> 2004</span>        <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb">msg</a>(<span class="stringliteral">&quot;Generating XML output for file %s\n&quot;</span>,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(fd-&gt;name()));</div>
+<div class="line"><span class="lineno"> 2005</span>        <a class="code hl_function" href="../../d0/dc3/xmlgen_8cpp.html#a541a7f1681d4e6c18ba0fb4902f2b9d3">generateXMLForFile</a>(fd.get(),t);</div>
+<div class="line"><span class="lineno"> 2006</span>      }</div>
+<div class="line"><span class="lineno"> 2007</span>    }</div>
+<div class="line"><span class="lineno"> 2008</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;gd : *<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#afd89d49084b42d085e9d40fc2636da9c">Doxygen::groupLinkedMap</a>)</div>
+<div class="line"><span class="lineno"> 2009</span>    {</div>
+<div class="line"><span class="lineno"> 2010</span>      <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb">msg</a>(<span class="stringliteral">&quot;Generating XML output for group %s\n&quot;</span>,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(gd-&gt;name()));</div>
+<div class="line"><span class="lineno"> 2011</span>      <a class="code hl_function" href="../../d0/dc3/xmlgen_8cpp.html#a0da7be0853343b6580993a525ed72a62">generateXMLForGroup</a>(gd.get(),t);</div>
+<div class="line"><span class="lineno"> 2012</span>    }</div>
+<div class="line"><span class="lineno"> 2013</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;pd : *<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#abd2756663a014ee48e1660d32a48cac5">Doxygen::pageLinkedMap</a>)</div>
+<div class="line"><span class="lineno"> 2014</span>    {</div>
+<div class="line"><span class="lineno"> 2015</span>      <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb">msg</a>(<span class="stringliteral">&quot;Generating XML output for page %s\n&quot;</span>,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(pd-&gt;name()));</div>
+<div class="line"><span class="lineno"> 2016</span>      <a class="code hl_function" href="../../d0/dc3/xmlgen_8cpp.html#afa324f7a9171409ff704f91dd087e8de">generateXMLForPage</a>(pd.get(),t,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>);</div>
+<div class="line"><span class="lineno"> 2017</span>    }</div>
+<div class="line"><span class="lineno"> 2018</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;dd : *<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#ad179803c33ab064adfd6adf681a0a805">Doxygen::dirLinkedMap</a>)</div>
+<div class="line"><span class="lineno"> 2019</span>    {</div>
+<div class="line"><span class="lineno"> 2020</span>      <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb">msg</a>(<span class="stringliteral">&quot;Generate XML output for dir %s\n&quot;</span>,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(dd-&gt;name()));</div>
+<div class="line"><span class="lineno"> 2021</span>      <a class="code hl_function" href="../../d0/dc3/xmlgen_8cpp.html#af23bb9f6e1a0a0bddb2da660425f7da4">generateXMLForDir</a>(dd.get(),t);</div>
+<div class="line"><span class="lineno"> 2022</span>    }</div>
+<div class="line"><span class="lineno"> 2023</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;pd : *<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a6cfac206c42a62e6e3ba66d5d4e4a471">Doxygen::exampleLinkedMap</a>)</div>
+<div class="line"><span class="lineno"> 2024</span>    {</div>
+<div class="line"><span class="lineno"> 2025</span>      <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb">msg</a>(<span class="stringliteral">&quot;Generating XML output for example %s\n&quot;</span>,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(pd-&gt;name()));</div>
+<div class="line"><span class="lineno"> 2026</span>      <a class="code hl_function" href="../../d0/dc3/xmlgen_8cpp.html#afa324f7a9171409ff704f91dd087e8de">generateXMLForPage</a>(pd.get(),t,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>);</div>
+<div class="line"><span class="lineno"> 2027</span>    }</div>
+<div class="line"><span class="lineno"> 2028</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a2cc3616eca3e3c550a211d8b1eaf4661">Doxygen::mainPage</a>)</div>
+<div class="line"><span class="lineno"> 2029</span>    {</div>
+<div class="line"><span class="lineno"> 2030</span>      <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb">msg</a>(<span class="stringliteral">&quot;Generating XML output for the main page\n&quot;</span>);</div>
+<div class="line"><span class="lineno"> 2031</span>      <a class="code hl_function" href="../../d0/dc3/xmlgen_8cpp.html#afa324f7a9171409ff704f91dd087e8de">generateXMLForPage</a>(<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a2cc3616eca3e3c550a211d8b1eaf4661">Doxygen::mainPage</a>.get(),t,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>);</div>
+<div class="line"><span class="lineno"> 2032</span>    }</div>
+<div class="line"><span class="lineno"> 2033</span> </div>
+<div class="line"><span class="lineno"> 2034</span>    <span class="comment">//t &lt;&lt; &quot;  &lt;/compoundlist&gt;\n&quot;;</span></div>
+<div class="line"><span class="lineno"> 2035</span>    t &lt;&lt; <span class="stringliteral">&quot;&lt;/doxygenindex&gt;\n&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2036</span>  }</div>
+<div class="line"><span class="lineno"> 2037</span> </div>
+<div class="line"><span class="lineno"> 2038</span>  <a class="code hl_function" href="../../d0/dc3/xmlgen_8cpp.html#afdcb651fa099a6b705bd08e02e24333f">writeCombineScript</a>();</div>
+<div class="line"><span class="lineno"> 2039</span>  <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a706b1f8eeae91066c7b1d7bb7c0d7ef9">clearSubDirs</a>(xmlDir);</div>
+<div class="line"><span class="lineno"> 2040</span>}</div>
 <div class="ttc" id="aclass_dir_html"><div class="ttname"><a href="../../d2/dc2/class_dir.html">Dir</a></div><div class="ttdoc">Class representing a directory in the file system.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d9c/dir_8h_source.html#l00068">dir.h:69</a></div></div>
 <div class="ttc" id="aclass_doxygen_html_a033b4829afda05c5eef5cd54749b19bf"><div class="ttname"><a href="../../de/d6a/class_doxygen.html#a033b4829afda05c5eef5cd54749b19bf">Doxygen::namespaceLinkedMap</a></div><div class="ttdeci">static NamespaceLinkedMap * namespaceLinkedMap</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da1/doxygen_8h_source.html#l00107">doxygen.h:107</a></div></div>
 <div class="ttc" id="aclass_doxygen_html_a0de9b52b3098ea1a4bee5e248e8287c8"><div class="ttname"><a href="../../de/d6a/class_doxygen.html#a0de9b52b3098ea1a4bee5e248e8287c8">Doxygen::conceptLinkedMap</a></div><div class="ttdeci">static ConceptLinkedMap * conceptLinkedMap</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da1/doxygen_8h_source.html#l00090">doxygen.h:90</a></div></div>
@@ -315,16 +315,16 @@ Functions</h2></td></tr>
 <div class="ttc" id="aqcstring_8h_html_aa93f0eb578d23995850d61f7d61c55c1"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></div><div class="ttdeci">#define FALSE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00033">qcstring.h:33</a></div></div>
 <div class="ttc" id="autil_8cpp_html_a706b1f8eeae91066c7b1d7bb7c0d7ef9"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a706b1f8eeae91066c7b1d7bb7c0d7ef9">clearSubDirs</a></div><div class="ttdeci">void clearSubDirs(const Dir &amp;d)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l03792">util.cpp:3792</a></div></div>
 <div class="ttc" id="autil_8cpp_html_a77685956f8517f3a6e062e66925fc93c"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a77685956f8517f3a6e062e66925fc93c">createSubDirs</a></div><div class="ttdeci">void createSubDirs(const Dir &amp;d)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l03764">util.cpp:3764</a></div></div>
-<div class="ttc" id="axmlgen_8cpp_html_a0da7be0853343b6580993a525ed72a62"><div class="ttname"><a href="../../d0/dc3/xmlgen_8cpp.html#a0da7be0853343b6580993a525ed72a62">generateXMLForGroup</a></div><div class="ttdeci">static void generateXMLForGroup(const GroupDef *gd, TextStream &amp;ti)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc3/xmlgen_8cpp_source.html#l01667">xmlgen.cpp:1667</a></div></div>
-<div class="ttc" id="axmlgen_8cpp_html_a4dc2c1db665be657de3548de437246d2"><div class="ttname"><a href="../../d0/dc3/xmlgen_8cpp.html#a4dc2c1db665be657de3548de437246d2">generateXMLForClass</a></div><div class="ttdeci">static void generateXMLForClass(const ClassDef *cd, TextStream &amp;ti)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc3/xmlgen_8cpp_source.html#l01251">xmlgen.cpp:1251</a></div></div>
-<div class="ttc" id="axmlgen_8cpp_html_a541a7f1681d4e6c18ba0fb4902f2b9d3"><div class="ttname"><a href="../../d0/dc3/xmlgen_8cpp.html#a541a7f1681d4e6c18ba0fb4902f2b9d3">generateXMLForFile</a></div><div class="ttdeci">static void generateXMLForFile(FileDef *fd, TextStream &amp;ti)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc3/xmlgen_8cpp_source.html#l01552">xmlgen.cpp:1552</a></div></div>
-<div class="ttc" id="axmlgen_8cpp_html_a9371126c00d478f6d9b76346e4fa77dd"><div class="ttname"><a href="../../d0/dc3/xmlgen_8cpp.html#a9371126c00d478f6d9b76346e4fa77dd">generateXMLForNamespace</a></div><div class="ttdeci">static void generateXMLForNamespace(const NamespaceDef *nd, TextStream &amp;ti)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc3/xmlgen_8cpp_source.html#l01481">xmlgen.cpp:1481</a></div></div>
-<div class="ttc" id="axmlgen_8cpp_html_aac5793331bb86627d87dd42dcaa637b4"><div class="ttname"><a href="../../d0/dc3/xmlgen_8cpp.html#aac5793331bb86627d87dd42dcaa637b4">generateXMLForConcept</a></div><div class="ttdeci">static void generateXMLForConcept(const ConceptDef *cd, TextStream &amp;ti)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc3/xmlgen_8cpp_source.html#l01437">xmlgen.cpp:1437</a></div></div>
-<div class="ttc" id="axmlgen_8cpp_html_af23bb9f6e1a0a0bddb2da660425f7da4"><div class="ttname"><a href="../../d0/dc3/xmlgen_8cpp.html#af23bb9f6e1a0a0bddb2da660425f7da4">generateXMLForDir</a></div><div class="ttdeci">static void generateXMLForDir(DirDef *dd, TextStream &amp;ti)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc3/xmlgen_8cpp_source.html#l01735">xmlgen.cpp:1735</a></div></div>
-<div class="ttc" id="axmlgen_8cpp_html_afa324f7a9171409ff704f91dd087e8de"><div class="ttname"><a href="../../d0/dc3/xmlgen_8cpp.html#afa324f7a9171409ff704f91dd087e8de">generateXMLForPage</a></div><div class="ttdeci">static void generateXMLForPage(PageDef *pd, TextStream &amp;ti, bool isExample)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc3/xmlgen_8cpp_source.html#l01773">xmlgen.cpp:1773</a></div></div>
+<div class="ttc" id="axmlgen_8cpp_html_a0da7be0853343b6580993a525ed72a62"><div class="ttname"><a href="../../d0/dc3/xmlgen_8cpp.html#a0da7be0853343b6580993a525ed72a62">generateXMLForGroup</a></div><div class="ttdeci">static void generateXMLForGroup(const GroupDef *gd, TextStream &amp;ti)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc3/xmlgen_8cpp_source.html#l01656">xmlgen.cpp:1656</a></div></div>
+<div class="ttc" id="axmlgen_8cpp_html_a4dc2c1db665be657de3548de437246d2"><div class="ttname"><a href="../../d0/dc3/xmlgen_8cpp.html#a4dc2c1db665be657de3548de437246d2">generateXMLForClass</a></div><div class="ttdeci">static void generateXMLForClass(const ClassDef *cd, TextStream &amp;ti)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc3/xmlgen_8cpp_source.html#l01242">xmlgen.cpp:1242</a></div></div>
+<div class="ttc" id="axmlgen_8cpp_html_a541a7f1681d4e6c18ba0fb4902f2b9d3"><div class="ttname"><a href="../../d0/dc3/xmlgen_8cpp.html#a541a7f1681d4e6c18ba0fb4902f2b9d3">generateXMLForFile</a></div><div class="ttdeci">static void generateXMLForFile(FileDef *fd, TextStream &amp;ti)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc3/xmlgen_8cpp_source.html#l01542">xmlgen.cpp:1542</a></div></div>
+<div class="ttc" id="axmlgen_8cpp_html_a9371126c00d478f6d9b76346e4fa77dd"><div class="ttname"><a href="../../d0/dc3/xmlgen_8cpp.html#a9371126c00d478f6d9b76346e4fa77dd">generateXMLForNamespace</a></div><div class="ttdeci">static void generateXMLForNamespace(const NamespaceDef *nd, TextStream &amp;ti)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc3/xmlgen_8cpp_source.html#l01472">xmlgen.cpp:1472</a></div></div>
+<div class="ttc" id="axmlgen_8cpp_html_aac5793331bb86627d87dd42dcaa637b4"><div class="ttname"><a href="../../d0/dc3/xmlgen_8cpp.html#aac5793331bb86627d87dd42dcaa637b4">generateXMLForConcept</a></div><div class="ttdeci">static void generateXMLForConcept(const ConceptDef *cd, TextStream &amp;ti)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc3/xmlgen_8cpp_source.html#l01428">xmlgen.cpp:1428</a></div></div>
+<div class="ttc" id="axmlgen_8cpp_html_af23bb9f6e1a0a0bddb2da660425f7da4"><div class="ttname"><a href="../../d0/dc3/xmlgen_8cpp.html#af23bb9f6e1a0a0bddb2da660425f7da4">generateXMLForDir</a></div><div class="ttdeci">static void generateXMLForDir(DirDef *dd, TextStream &amp;ti)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc3/xmlgen_8cpp_source.html#l01723">xmlgen.cpp:1723</a></div></div>
+<div class="ttc" id="axmlgen_8cpp_html_afa324f7a9171409ff704f91dd087e8de"><div class="ttname"><a href="../../d0/dc3/xmlgen_8cpp.html#afa324f7a9171409ff704f91dd087e8de">generateXMLForPage</a></div><div class="ttdeci">static void generateXMLForPage(PageDef *pd, TextStream &amp;ti, bool isExample)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc3/xmlgen_8cpp_source.html#l01761">xmlgen.cpp:1761</a></div></div>
 <div class="ttc" id="axmlgen_8cpp_html_afdcb651fa099a6b705bd08e02e24333f"><div class="ttname"><a href="../../d0/dc3/xmlgen_8cpp.html#afdcb651fa099a6b705bd08e02e24333f">writeCombineScript</a></div><div class="ttdeci">static void writeCombineScript()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc3/xmlgen_8cpp_source.html#l00161">xmlgen.cpp:161</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00088">Doxygen::classLinkedMap</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l03792">clearSubDirs()</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00090">Doxygen::conceptLinkedMap</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00032">Config_getString</a>, <a class="el" href="../../d6/dde/resourcemgr_8cpp_source.html#l00180">ResourceMgr::copyResource()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l03764">createSubDirs()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00153">QCString::data()</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00120">Doxygen::dirLinkedMap</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00231">err()</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00091">Doxygen::exampleLinkedMap</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00043">QCString::find()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01251">generateXMLForClass()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01437">generateXMLForConcept()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01735">generateXMLForDir()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01552">generateXMLForFile()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01667">generateXMLForGroup()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01481">generateXMLForNamespace()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01773">generateXMLForPage()</a>, <a class="el" href="../../d6/dde/resourcemgr_8cpp_source.html#l00192">ResourceMgr::getAsString()</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00106">Doxygen::groupLinkedMap</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00098">Doxygen::inputNameLinkedMap</a>, <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00341">HtmlEntityMapper::instance()</a>, <a class="el" href="../../d6/dde/resourcemgr_8cpp_source.html#l00032">ResourceMgr::instance()</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00093">Doxygen::mainPage</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00067">msg()</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00107">Doxygen::namespaceLinkedMap</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00092">Doxygen::pageLinkedMap</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00609">qPrint()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00480">QCString::str()</a>, <a class="el" href="../../d2/d48/language_8cpp_source.html#l00070">theTranslator</a>, <a class="el" href="../../d8/dfb/class_translator.html#a32d242636756c9b302e74454bfb3fa5f">Translator::trISOLang()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00201">TextStream::write()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l00161">writeCombineScript()</a>, <a class="el" href="../../d9/de3/configimpl_8l_source.html#l02238">Config::writeXMLDoxyfile()</a>, and <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00477">HtmlEntityMapper::writeXMLSchema()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00088">Doxygen::classLinkedMap</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l03792">clearSubDirs()</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00090">Doxygen::conceptLinkedMap</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00032">Config_getString</a>, <a class="el" href="../../d6/dde/resourcemgr_8cpp_source.html#l00180">ResourceMgr::copyResource()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l03764">createSubDirs()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00153">QCString::data()</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00120">Doxygen::dirLinkedMap</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00231">err()</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00091">Doxygen::exampleLinkedMap</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00043">QCString::find()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01242">generateXMLForClass()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01428">generateXMLForConcept()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01723">generateXMLForDir()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01542">generateXMLForFile()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01656">generateXMLForGroup()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01472">generateXMLForNamespace()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01761">generateXMLForPage()</a>, <a class="el" href="../../d6/dde/resourcemgr_8cpp_source.html#l00192">ResourceMgr::getAsString()</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00106">Doxygen::groupLinkedMap</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00098">Doxygen::inputNameLinkedMap</a>, <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00341">HtmlEntityMapper::instance()</a>, <a class="el" href="../../d6/dde/resourcemgr_8cpp_source.html#l00032">ResourceMgr::instance()</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00093">Doxygen::mainPage</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00067">msg()</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00107">Doxygen::namespaceLinkedMap</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00092">Doxygen::pageLinkedMap</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00609">qPrint()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00480">QCString::str()</a>, <a class="el" href="../../d2/d48/language_8cpp_source.html#l00070">theTranslator</a>, <a class="el" href="../../d8/dfb/class_translator.html#a32d242636756c9b302e74454bfb3fa5f">Translator::trISOLang()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00201">TextStream::write()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l00161">writeCombineScript()</a>, <a class="el" href="../../d9/de3/configimpl_8l_source.html#l02238">Config::writeXMLDoxyfile()</a>, and <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00477">HtmlEntityMapper::writeXMLSchema()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l12415">generateOutput()</a>.</p>
 
