@@ -31,7 +31,7 @@ var searchData=
   ['html_28',['html',['../d2/d34/structhtml_entity_info.html#a25277263c40c82d1c59b7264fb9c2fe7',1,'htmlEntityInfo']]],
   ['htmlanchor_29',['htmlAnchor',['../d4/de8/structcommentscan_y_y__state.html#a746ef47c40f037e13f7ddc7cb848e0e2',1,'commentscanYY_state']]],
   ['htmlanchorstr_30',['htmlAnchorStr',['../d4/de8/structcommentscan_y_y__state.html#ac3fdecfc0c02e37b130f9ebe5fa48f59',1,'commentscanYY_state']]],
-  ['htmldetailssummary_31',['HTMLDetailsSummary',['../d4/de8/structcommentscan_y_y__state.html#a1f3eb5e0416454c435526caa997b8c1d',1,'commentscanYY_state']]],
+  ['htmldetails_31',['HTMLDetails',['../d4/de8/structcommentscan_y_y__state.html#a1e45673eaa82352c658d2fc14bb6b2b2',1,'commentscanYY_state']]],
   ['htmlfileextension_32',['htmlFileExtension',['../de/d6a/class_doxygen.html#aa98afe79970170f82848bc45b0f076ec',1,'Doxygen']]],
   ['htmltagmap_33',['htmlTagMap',['../df/df1/cmdmapper_8cpp.html#a6ddce7306213db42fd60077a7f7142ad',1,'cmdmapper.cpp']]],
   ['htmltagmapper_34',['htmlTagMapper',['../dd/dc6/struct_mappers.html#abeeec7950ae00f874c06bee2f04337ff',1,'Mappers']]]

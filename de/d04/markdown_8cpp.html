@@ -717,7 +717,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00174">TRACE</a>, and <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00176">TRACE_RESULT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03298">Markdown::extractPageTitle()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02002">Markdown::isAtxHeader()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02195">isFencedCodeBlock()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01850">isLinkRef()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03049">Markdown::processBlocks()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01609">Markdown::processCodeSpan()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00985">Markdown::processHtmlTagWrite()</a>, and <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01170">Markdown::processLink()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03289">Markdown::extractPageTitle()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02002">Markdown::isAtxHeader()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02195">isFencedCodeBlock()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01850">isLinkRef()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03049">Markdown::processBlocks()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01609">Markdown::processCodeSpan()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00985">Markdown::processHtmlTagWrite()</a>, and <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01170">Markdown::processLink()</a>.</p>
 
 </div>
 </div>
@@ -926,7 +926,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00028">AtomicInt</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00034">Config_getInt</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00212">QCString::left()</a>, <a class="el" href="../../d6/d85/regex_8cpp_source.html#l00749">reg::search()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00029">QCString::sprintf()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00480">QCString::str()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00174">TRACE</a>, and <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00176">TRACE_RESULT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03298">Markdown::extractPageTitle()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02002">Markdown::isAtxHeader()</a>, and <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03049">Markdown::processBlocks()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03289">Markdown::extractPageTitle()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02002">Markdown::isAtxHeader()</a>, and <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03049">Markdown::processBlocks()</a>.</p>
 
 </div>
 </div>
@@ -1518,44 +1518,44 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03265">3265</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 3266</span>{</div>
-<div class="line"><span class="lineno"> 3267</span>  <a class="code hl_define" href="../../de/d04/markdown_8cpp.html#a9f1e2fd281728ca4f1a8875f8d10b603">TRACE</a>(docs);</div>
-<div class="line"><span class="lineno"> 3268</span>  <span class="keywordtype">int</span> i=0;</div>
-<div class="line"><span class="lineno"> 3269</span>  <span class="keyword">const</span> <span class="keywordtype">char</span> *data = docs.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>();</div>
-<div class="line"><span class="lineno"> 3270</span>  <span class="keywordflow">if</span> (data)</div>
-<div class="line"><span class="lineno"> 3271</span>  {</div>
-<div class="line"><span class="lineno"> 3272</span>    <span class="keywordtype">int</span> size=docs.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac084f55ab51f8b277cf01bb6e04f16ed">size</a>();</div>
-<div class="line"><span class="lineno"> 3273</span>    <span class="keywordflow">while</span> (i&lt;size &amp;&amp; (data[i]==<span class="charliteral">&#39; &#39;</span> || data[i]==<span class="charliteral">&#39;\n&#39;</span>))</div>
-<div class="line"><span class="lineno"> 3274</span>    {</div>
-<div class="line"><span class="lineno"> 3275</span>      i++;</div>
-<div class="line"><span class="lineno"> 3276</span>    }</div>
-<div class="line"><span class="lineno"> 3277</span>    <span class="keywordflow">if</span> (i&lt;size+1 &amp;&amp;</div>
-<div class="line"><span class="lineno"> 3278</span>        (data[i]==<span class="charliteral">&#39;\\&#39;</span> || data[i]==<span class="charliteral">&#39;@&#39;</span>) &amp;&amp;</div>
-<div class="line"><span class="lineno"> 3279</span>        (<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a19faae287d13ccea75b1d5a0eb110d97">qstrncmp</a>(&amp;data[i+1],<span class="stringliteral">&quot;page &quot;</span>,5)==0 || <a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a19faae287d13ccea75b1d5a0eb110d97">qstrncmp</a>(&amp;data[i+1],<span class="stringliteral">&quot;mainpage&quot;</span>,8)==0)</div>
-<div class="line"><span class="lineno"> 3280</span>       )</div>
-<div class="line"><span class="lineno"> 3281</span>    {</div>
-<div class="line"><span class="lineno"> 3282</span>      <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a19faae287d13ccea75b1d5a0eb110d97">qstrncmp</a>(&amp;data[i+1],<span class="stringliteral">&quot;page &quot;</span>,5)==0)</div>
-<div class="line"><span class="lineno"> 3283</span>      {</div>
-<div class="line"><span class="lineno"> 3284</span>        <a class="code hl_define" href="../../de/d04/markdown_8cpp.html#a2ab6e5971f341977a6e1781d5ffeeb75">TRACE_RESULT</a>(<a class="code hl_enumvalue" href="../../de/d04/markdown_8cpp.html#a32bd5ad1ca53505df49807d933ab3611ae2813323b951a15b22babe5224d9dabe">ExplicitPageResult::explicitPage</a>);</div>
-<div class="line"><span class="lineno"> 3285</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../de/d04/markdown_8cpp.html#a32bd5ad1ca53505df49807d933ab3611ae2813323b951a15b22babe5224d9dabe">ExplicitPageResult::explicitPage</a>;</div>
-<div class="line"><span class="lineno"> 3286</span>      }</div>
-<div class="line"><span class="lineno"> 3287</span>      <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno"> 3288</span>      {</div>
-<div class="line"><span class="lineno"> 3289</span>        <a class="code hl_define" href="../../de/d04/markdown_8cpp.html#a2ab6e5971f341977a6e1781d5ffeeb75">TRACE_RESULT</a>(<a class="code hl_enumvalue" href="../../de/d04/markdown_8cpp.html#a32bd5ad1ca53505df49807d933ab3611a7e256e56ac82ab7e84c0a827a6f87530">ExplicitPageResult::explicitMainPage</a>);</div>
-<div class="line"><span class="lineno"> 3290</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../de/d04/markdown_8cpp.html#a32bd5ad1ca53505df49807d933ab3611a7e256e56ac82ab7e84c0a827a6f87530">ExplicitPageResult::explicitMainPage</a>;</div>
-<div class="line"><span class="lineno"> 3291</span>      }</div>
-<div class="line"><span class="lineno"> 3292</span>    }</div>
-<div class="line"><span class="lineno"> 3293</span>  }</div>
-<div class="line"><span class="lineno"> 3294</span>  <a class="code hl_define" href="../../de/d04/markdown_8cpp.html#a2ab6e5971f341977a6e1781d5ffeeb75">TRACE_RESULT</a>(<a class="code hl_enumvalue" href="../../de/d04/markdown_8cpp.html#a32bd5ad1ca53505df49807d933ab3611aed049ce087485c91fc2610599aebd142">ExplicitPageResult::notExplicit</a>);</div>
-<div class="line"><span class="lineno"> 3295</span>  <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../de/d04/markdown_8cpp.html#a32bd5ad1ca53505df49807d933ab3611aed049ce087485c91fc2610599aebd142">ExplicitPageResult::notExplicit</a>;</div>
-<div class="line"><span class="lineno"> 3296</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03256">3256</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3257</span>{</div>
+<div class="line"><span class="lineno"> 3258</span>  <a class="code hl_define" href="../../de/d04/markdown_8cpp.html#a9f1e2fd281728ca4f1a8875f8d10b603">TRACE</a>(docs);</div>
+<div class="line"><span class="lineno"> 3259</span>  <span class="keywordtype">int</span> i=0;</div>
+<div class="line"><span class="lineno"> 3260</span>  <span class="keyword">const</span> <span class="keywordtype">char</span> *data = docs.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>();</div>
+<div class="line"><span class="lineno"> 3261</span>  <span class="keywordflow">if</span> (data)</div>
+<div class="line"><span class="lineno"> 3262</span>  {</div>
+<div class="line"><span class="lineno"> 3263</span>    <span class="keywordtype">int</span> size=docs.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac084f55ab51f8b277cf01bb6e04f16ed">size</a>();</div>
+<div class="line"><span class="lineno"> 3264</span>    <span class="keywordflow">while</span> (i&lt;size &amp;&amp; (data[i]==<span class="charliteral">&#39; &#39;</span> || data[i]==<span class="charliteral">&#39;\n&#39;</span>))</div>
+<div class="line"><span class="lineno"> 3265</span>    {</div>
+<div class="line"><span class="lineno"> 3266</span>      i++;</div>
+<div class="line"><span class="lineno"> 3267</span>    }</div>
+<div class="line"><span class="lineno"> 3268</span>    <span class="keywordflow">if</span> (i&lt;size+1 &amp;&amp;</div>
+<div class="line"><span class="lineno"> 3269</span>        (data[i]==<span class="charliteral">&#39;\\&#39;</span> || data[i]==<span class="charliteral">&#39;@&#39;</span>) &amp;&amp;</div>
+<div class="line"><span class="lineno"> 3270</span>        (<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a19faae287d13ccea75b1d5a0eb110d97">qstrncmp</a>(&amp;data[i+1],<span class="stringliteral">&quot;page &quot;</span>,5)==0 || <a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a19faae287d13ccea75b1d5a0eb110d97">qstrncmp</a>(&amp;data[i+1],<span class="stringliteral">&quot;mainpage&quot;</span>,8)==0)</div>
+<div class="line"><span class="lineno"> 3271</span>       )</div>
+<div class="line"><span class="lineno"> 3272</span>    {</div>
+<div class="line"><span class="lineno"> 3273</span>      <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a19faae287d13ccea75b1d5a0eb110d97">qstrncmp</a>(&amp;data[i+1],<span class="stringliteral">&quot;page &quot;</span>,5)==0)</div>
+<div class="line"><span class="lineno"> 3274</span>      {</div>
+<div class="line"><span class="lineno"> 3275</span>        <a class="code hl_define" href="../../de/d04/markdown_8cpp.html#a2ab6e5971f341977a6e1781d5ffeeb75">TRACE_RESULT</a>(<a class="code hl_enumvalue" href="../../de/d04/markdown_8cpp.html#a32bd5ad1ca53505df49807d933ab3611ae2813323b951a15b22babe5224d9dabe">ExplicitPageResult::explicitPage</a>);</div>
+<div class="line"><span class="lineno"> 3276</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../de/d04/markdown_8cpp.html#a32bd5ad1ca53505df49807d933ab3611ae2813323b951a15b22babe5224d9dabe">ExplicitPageResult::explicitPage</a>;</div>
+<div class="line"><span class="lineno"> 3277</span>      }</div>
+<div class="line"><span class="lineno"> 3278</span>      <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 3279</span>      {</div>
+<div class="line"><span class="lineno"> 3280</span>        <a class="code hl_define" href="../../de/d04/markdown_8cpp.html#a2ab6e5971f341977a6e1781d5ffeeb75">TRACE_RESULT</a>(<a class="code hl_enumvalue" href="../../de/d04/markdown_8cpp.html#a32bd5ad1ca53505df49807d933ab3611a7e256e56ac82ab7e84c0a827a6f87530">ExplicitPageResult::explicitMainPage</a>);</div>
+<div class="line"><span class="lineno"> 3281</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../de/d04/markdown_8cpp.html#a32bd5ad1ca53505df49807d933ab3611a7e256e56ac82ab7e84c0a827a6f87530">ExplicitPageResult::explicitMainPage</a>;</div>
+<div class="line"><span class="lineno"> 3282</span>      }</div>
+<div class="line"><span class="lineno"> 3283</span>    }</div>
+<div class="line"><span class="lineno"> 3284</span>  }</div>
+<div class="line"><span class="lineno"> 3285</span>  <a class="code hl_define" href="../../de/d04/markdown_8cpp.html#a2ab6e5971f341977a6e1781d5ffeeb75">TRACE_RESULT</a>(<a class="code hl_enumvalue" href="../../de/d04/markdown_8cpp.html#a32bd5ad1ca53505df49807d933ab3611aed049ce087485c91fc2610599aebd142">ExplicitPageResult::notExplicit</a>);</div>
+<div class="line"><span class="lineno"> 3286</span>  <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../de/d04/markdown_8cpp.html#a32bd5ad1ca53505df49807d933ab3611aed049ce087485c91fc2610599aebd142">ExplicitPageResult::notExplicit</a>;</div>
+<div class="line"><span class="lineno"> 3287</span>}</div>
 <div class="ttc" id="aclass_q_c_string_html_ac084f55ab51f8b277cf01bb6e04f16ed"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#ac084f55ab51f8b277cf01bb6e04f16ed">QCString::size</a></div><div class="ttdeci">uint size() const</div><div class="ttdoc">Returns the length of the string, not counting the 0-terminator.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00150">qcstring.h:150</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_a19faae287d13ccea75b1d5a0eb110d97"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#a19faae287d13ccea75b1d5a0eb110d97">qstrncmp</a></div><div class="ttdeci">int qstrncmp(const char *str1, const char *str2, size_t len)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00091">qcstring.h:91</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00153">QCString::data()</a>, <a class="el" href="../../de/d04/markdown_8cpp.html#a32bd5ad1ca53505df49807d933ab3611a7e256e56ac82ab7e84c0a827a6f87530">explicitMainPage</a>, <a class="el" href="../../de/d04/markdown_8cpp.html#a32bd5ad1ca53505df49807d933ab3611ae2813323b951a15b22babe5224d9dabe">explicitPage</a>, <a class="el" href="../../de/d04/markdown_8cpp.html#a32bd5ad1ca53505df49807d933ab3611aed049ce087485c91fc2610599aebd142">notExplicit</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00091">qstrncmp()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00150">QCString::size()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00174">TRACE</a>, and <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00176">TRACE_RESULT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03506">MarkdownOutlineParser::parseInput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03497">MarkdownOutlineParser::parseInput()</a>.</p>
 
 </div>
 </div>
@@ -2103,26 +2103,26 @@ Variables</h2></td></tr>
 
 <p>processes string <em>s</em> and converts markdown into doxygen/html commands. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03470">3470</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 3471</span>{</div>
-<div class="line"><span class="lineno"> 3472</span>  <a class="code hl_define" href="../../de/d04/markdown_8cpp.html#a9f1e2fd281728ca4f1a8875f8d10b603">TRACE</a>(fileName);</div>
-<div class="line"><span class="lineno"> 3473</span>  std::string absFileName = <a class="code hl_class" href="../../d0/da1/class_file_info.html">FileInfo</a>(fileName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>()).<a class="code hl_function" href="../../d0/da1/class_file_info.html#af69e3949475014dcdbd504d742bdf270">absFilePath</a>();</div>
-<div class="line"><span class="lineno"> 3474</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> baseFn  = <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a18b9d603e23c950eaa22e7c625ef0f00">stripFromPath</a>(absFileName.c_str());</div>
-<div class="line"><span class="lineno"> 3475</span>  <span class="keywordtype">int</span> i = baseFn.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ab47a6435c16d61d04fb448f1080b4e26">findRev</a>(<span class="charliteral">&#39;.&#39;</span>);</div>
-<div class="line"><span class="lineno"> 3476</span>  <span class="keywordflow">if</span> (i!=-1) baseFn = baseFn.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">left</a>(i);</div>
-<div class="line"><span class="lineno"> 3477</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> baseName = baseFn;</div>
-<div class="line"><span class="lineno"> 3478</span>  <span class="keywordtype">char</span> *p = baseName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a5f5c9dc172d638c8d7b07010d100117a">rawData</a>();</div>
-<div class="line"><span class="lineno"> 3479</span>  <span class="keywordtype">char</span> c;</div>
-<div class="line"><span class="lineno"> 3480</span>  <span class="keywordflow">while</span> ((c=*p))</div>
-<div class="line"><span class="lineno"> 3481</span>  {</div>
-<div class="line"><span class="lineno"> 3482</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d8/d3c/util_8h.html#ae320c88a8522836f00095d566529046f">isId</a>(c)) *p=<span class="charliteral">&#39;_&#39;</span>; <span class="comment">// escape characters that do not yield an identifier by underscores</span></div>
-<div class="line"><span class="lineno"> 3483</span>    p++;</div>
-<div class="line"><span class="lineno"> 3484</span>  }</div>
-<div class="line"><span class="lineno"> 3485</span>  <span class="comment">//printf(&quot;markdownFileNameToId(%s)=md_%s\n&quot;,qPrint(fileName),qPrint(baseName));</span></div>
-<div class="line"><span class="lineno"> 3486</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> res = <span class="stringliteral">&quot;md_&quot;</span>+baseName;</div>
-<div class="line"><span class="lineno"> 3487</span>  <a class="code hl_define" href="../../de/d04/markdown_8cpp.html#a2ab6e5971f341977a6e1781d5ffeeb75">TRACE_RESULT</a>(res);</div>
-<div class="line"><span class="lineno"> 3488</span>  <span class="keywordflow">return</span> res;</div>
-<div class="line"><span class="lineno"> 3489</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03461">3461</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3462</span>{</div>
+<div class="line"><span class="lineno"> 3463</span>  <a class="code hl_define" href="../../de/d04/markdown_8cpp.html#a9f1e2fd281728ca4f1a8875f8d10b603">TRACE</a>(fileName);</div>
+<div class="line"><span class="lineno"> 3464</span>  std::string absFileName = <a class="code hl_class" href="../../d0/da1/class_file_info.html">FileInfo</a>(fileName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>()).<a class="code hl_function" href="../../d0/da1/class_file_info.html#af69e3949475014dcdbd504d742bdf270">absFilePath</a>();</div>
+<div class="line"><span class="lineno"> 3465</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> baseFn  = <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a18b9d603e23c950eaa22e7c625ef0f00">stripFromPath</a>(absFileName.c_str());</div>
+<div class="line"><span class="lineno"> 3466</span>  <span class="keywordtype">int</span> i = baseFn.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ab47a6435c16d61d04fb448f1080b4e26">findRev</a>(<span class="charliteral">&#39;.&#39;</span>);</div>
+<div class="line"><span class="lineno"> 3467</span>  <span class="keywordflow">if</span> (i!=-1) baseFn = baseFn.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">left</a>(i);</div>
+<div class="line"><span class="lineno"> 3468</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> baseName = baseFn;</div>
+<div class="line"><span class="lineno"> 3469</span>  <span class="keywordtype">char</span> *p = baseName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a5f5c9dc172d638c8d7b07010d100117a">rawData</a>();</div>
+<div class="line"><span class="lineno"> 3470</span>  <span class="keywordtype">char</span> c;</div>
+<div class="line"><span class="lineno"> 3471</span>  <span class="keywordflow">while</span> ((c=*p))</div>
+<div class="line"><span class="lineno"> 3472</span>  {</div>
+<div class="line"><span class="lineno"> 3473</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d8/d3c/util_8h.html#ae320c88a8522836f00095d566529046f">isId</a>(c)) *p=<span class="charliteral">&#39;_&#39;</span>; <span class="comment">// escape characters that do not yield an identifier by underscores</span></div>
+<div class="line"><span class="lineno"> 3474</span>    p++;</div>
+<div class="line"><span class="lineno"> 3475</span>  }</div>
+<div class="line"><span class="lineno"> 3476</span>  <span class="comment">//printf(&quot;markdownFileNameToId(%s)=md_%s\n&quot;,qPrint(fileName),qPrint(baseName));</span></div>
+<div class="line"><span class="lineno"> 3477</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> res = <span class="stringliteral">&quot;md_&quot;</span>+baseName;</div>
+<div class="line"><span class="lineno"> 3478</span>  <a class="code hl_define" href="../../de/d04/markdown_8cpp.html#a2ab6e5971f341977a6e1781d5ffeeb75">TRACE_RESULT</a>(res);</div>
+<div class="line"><span class="lineno"> 3479</span>  <span class="keywordflow">return</span> res;</div>
+<div class="line"><span class="lineno"> 3480</span>}</div>
 <div class="ttc" id="aclass_file_info_html"><div class="ttname"><a href="../../d0/da1/class_file_info.html">FileInfo</a></div><div class="ttdoc">Minimal replacement for QFileInfo.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d45/fileinfo_8h_source.html#l00022">fileinfo.h:23</a></div></div>
 <div class="ttc" id="aclass_file_info_html_af69e3949475014dcdbd504d742bdf270"><div class="ttname"><a href="../../d0/da1/class_file_info.html#af69e3949475014dcdbd504d742bdf270">FileInfo::absFilePath</a></div><div class="ttdeci">std::string absFilePath() const</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dbc/fileinfo_8cpp_source.html#l00101">fileinfo.cpp:101</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a5f5c9dc172d638c8d7b07010d100117a"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a5f5c9dc172d638c8d7b07010d100117a">QCString::rawData</a></div><div class="ttdeci">char * rawData()</div><div class="ttdoc">Returns a writable pointer to the data.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00157">qcstring.h:157</a></div></div>
@@ -2132,7 +2132,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../db/dbc/fileinfo_8cpp_source.html#l00101">FileInfo::absFilePath()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00091">QCString::findRev()</a>, <a class="el" href="../../d8/d3c/util_8h_source.html#l00171">isId()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00212">QCString::left()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00157">QCString::rawData()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00480">QCString::str()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l00294">stripFromPath()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00174">TRACE</a>, and <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00176">TRACE_RESULT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00696">DocRef::DocRef()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00524">DocSecRefItem::parse()</a>, and <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03506">MarkdownOutlineParser::parseInput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00696">DocRef::DocRef()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00524">DocSecRefItem::parse()</a>, and <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03497">MarkdownOutlineParser::parseInput()</a>.</p>
 
 </div>
 </div>
@@ -2232,7 +2232,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00243">243</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01687">Markdown::addStrEscapeUtf8Nbsp()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03349">Markdown::detab()</a>, and <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03419">Markdown::process()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01687">Markdown::addStrEscapeUtf8Nbsp()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03340">Markdown::detab()</a>, and <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03410">Markdown::process()</a>.</p>
 
 </div>
 </div>
