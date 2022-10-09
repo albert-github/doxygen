@@ -25,16 +25,7 @@
 var NAVTREE =
 [
   [ "Doxygen", "index.html", [
-    [ "Doxygen Internals", "index.html", [
-      [ "Introduction", "index.html#autotoc_md1", null ],
-      [ "Configuration options", "index.html#autotoc_md2", null ],
-      [ "Gathering Input files", "index.html#autotoc_md3", null ],
-      [ "Parsing Input files", "index.html#autotoc_md4", null ],
-      [ "Resolving relations", "index.html#autotoc_md5", null ],
-      [ "Producing debug output", "index.html#autotoc_md6", null ],
-      [ "Producing output", "index.html#autotoc_md7", null ],
-      [ "Documentation Topics TODO", "index.html#autotoc_md8", null ]
-    ] ],
+    [ "Doxygen Internals", "index.html", "index" ],
     [ "Overview of introduction of special commands", "d8/d3a/md__home_runner_work_doxygen_doxygen_doc_internal_commands_history.html", null ],
     [ "Overview of introduction of internal special commands", "d8/db4/md__home_runner_work_doxygen_doxygen_doc_internal_commands_internal.html", [
       [ "\\ilinebr", "d8/db4/md__home_runner_work_doxygen_doxygen_doc_internal_commands_internal.html#cmdilinebr", null ],
