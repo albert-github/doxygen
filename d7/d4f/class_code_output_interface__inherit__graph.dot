@@ -21,16 +21,20 @@ digraph "CodeOutputInterface"
   Node7 [label="ManGenerator",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$de/da5/class_man_generator.html",tooltip="Generator for Man page output."];
   Node3 -> Node8 [dir="back",color="steelblue1",style="solid"];
   Node8 [label="RTFGenerator",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d0/da4/class_r_t_f_generator.html",tooltip="Generator for RTF output."];
-  Node2 -> Node9 [dir="back",color="steelblue1",style="solid"];
-  Node9 [label="OutputList",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$df/dc8/class_output_list.html",tooltip="Class representing a list of output generators that are written to in parallel."];
-  Node1 -> Node10 [dir="back",color="steelblue1",style="solid"];
-  Node10 [label="DevNullCodeDocInterface",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$dd/d8a/class_dev_null_code_doc_interface.html",tooltip="Class implementing CodeOutputInterface by throwing away everything."];
+  Node3 -> Node9 [dir="back",color="steelblue1",style="solid"];
+  Node9 [label="ValidatingGenerator",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d7/dcf/class_validating_generator.html",tooltip="Generator so the tests will be executed."];
+  Node2 -> Node10 [dir="back",color="steelblue1",style="solid"];
+  Node10 [label="OutputList",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$df/dc8/class_output_list.html",tooltip="Class representing a list of output generators that are written to in parallel."];
   Node1 -> Node11 [dir="back",color="steelblue1",style="solid"];
-  Node11 [label="DocbookCodeGenerator",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d7/d80/class_docbook_code_generator.html",tooltip=" "];
+  Node11 [label="DevNullCodeDocInterface",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$dd/d8a/class_dev_null_code_doc_interface.html",tooltip="Class implementing CodeOutputInterface by throwing away everything."];
   Node1 -> Node12 [dir="back",color="steelblue1",style="solid"];
-  Node12 [label="HtmlCodeGenerator",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$da/db6/class_html_code_generator.html",tooltip=" "];
+  Node12 [label="DocbookCodeGenerator",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d7/d80/class_docbook_code_generator.html",tooltip=" "];
   Node1 -> Node13 [dir="back",color="steelblue1",style="solid"];
-  Node13 [label="LatexCodeGenerator",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d0/d37/class_latex_code_generator.html",tooltip=" "];
+  Node13 [label="HtmlCodeGenerator",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$da/db6/class_html_code_generator.html",tooltip=" "];
   Node1 -> Node14 [dir="back",color="steelblue1",style="solid"];
-  Node14 [label="XMLCodeGenerator",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$dd/d66/class_x_m_l_code_generator.html",tooltip=" "];
+  Node14 [label="LatexCodeGenerator",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d0/d37/class_latex_code_generator.html",tooltip=" "];
+  Node1 -> Node15 [dir="back",color="steelblue1",style="solid"];
+  Node15 [label="ValidatingCodeGenerator",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$db/d39/class_validating_code_generator.html",tooltip=" "];
+  Node1 -> Node16 [dir="back",color="steelblue1",style="solid"];
+  Node16 [label="XMLCodeGenerator",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$dd/d66/class_x_m_l_code_generator.html",tooltip=" "];
 }

@@ -8,7 +8,8 @@ var class_output_generator =
       [ "XML", "d3/d8e/class_output_generator.html#ab79b5d3c19d95c8a5929c07f5b2918cfac2e6889ca4538412c55c0f22866e3c0b", null ],
       [ "DEF", "d3/d8e/class_output_generator.html#ab79b5d3c19d95c8a5929c07f5b2918cfa58caa6924f3437894cd040f5f6b3ceba", null ],
       [ "Perl", "d3/d8e/class_output_generator.html#ab79b5d3c19d95c8a5929c07f5b2918cfa225b135493e52f986c11789674a76204", null ],
-      [ "Docbook", "d3/d8e/class_output_generator.html#ab79b5d3c19d95c8a5929c07f5b2918cfaa0732a3c9748adc00345ab217ff275e2", null ]
+      [ "Docbook", "d3/d8e/class_output_generator.html#ab79b5d3c19d95c8a5929c07f5b2918cfaa0732a3c9748adc00345ab217ff275e2", null ],
+      [ "Validating", "d3/d8e/class_output_generator.html#ab79b5d3c19d95c8a5929c07f5b2918cfabd42cdd773becc528d55e36a3c0a3f81", null ]
     ] ],
     [ "OutputGenerator", "d3/d8e/class_output_generator.html#a8716724782730065f43ea240f93917b0", null ],
     [ "OutputGenerator", "d3/d8e/class_output_generator.html#a2bbaebfe752451ae9e1d63d50e14e600", null ],
