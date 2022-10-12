@@ -658,8 +658,6 @@ var annotated_dup =
     [ "UseMap", "d2/d76/class_use_map.html", null ],
     [ "UsesClassDef", "d1/d59/struct_uses_class_def.html", "d1/d59/struct_uses_class_def" ],
     [ "UsesClassList", "dd/d1c/class_uses_class_list.html", null ],
-    [ "ValidatingCodeGenerator", "db/d39/class_validating_code_generator.html", "db/d39/class_validating_code_generator" ],
-    [ "ValidatingGenerator", "d7/dcf/class_validating_generator.html", "d7/dcf/class_validating_generator" ],
     [ "VariableContext", "d4/df2/class_variable_context.html", "d4/df2/class_variable_context" ],
     [ "VHDLCodeParser", "de/d18/class_v_h_d_l_code_parser.html", "de/d18/class_v_h_d_l_code_parser" ],
     [ "vhdlcodeYY_state", "db/d50/structvhdlcode_y_y__state.html", "db/d50/structvhdlcode_y_y__state" ],

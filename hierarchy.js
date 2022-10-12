@@ -329,8 +329,7 @@ var hierarchy =
           [ "HtmlGenerator", "d7/d41/class_html_generator.html", null ],
           [ "LatexGenerator", "d3/d77/class_latex_generator.html", null ],
           [ "ManGenerator", "de/da5/class_man_generator.html", null ],
-          [ "RTFGenerator", "d0/da4/class_r_t_f_generator.html", null ],
-          [ "ValidatingGenerator", "d7/dcf/class_validating_generator.html", null ]
+          [ "RTFGenerator", "d0/da4/class_r_t_f_generator.html", null ]
         ] ],
         [ "OutputList", "df/dc8/class_output_list.html", null ]
       ] ],
@@ -338,7 +337,6 @@ var hierarchy =
       [ "DocbookCodeGenerator", "d7/d80/class_docbook_code_generator.html", null ],
       [ "HtmlCodeGenerator", "da/db6/class_html_code_generator.html", null ],
       [ "LatexCodeGenerator", "d0/d37/class_latex_code_generator.html", null ],
-      [ "ValidatingCodeGenerator", "db/d39/class_validating_code_generator.html", null ],
       [ "XMLCodeGenerator", "dd/d66/class_x_m_l_code_generator.html", null ]
     ] ],
     [ "CodeParserInterface", "d4/d65/class_code_parser_interface.html", [
