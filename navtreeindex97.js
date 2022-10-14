@@ -1,5 +1,8 @@
 var NAVTREEINDEX97 =
 {
+"dd/d1b/struct_index_field.html#acc522969a4da3f635cce4bf571fdc9a0":[8,0,326,6],
+"dd/d1b/struct_index_field.html#ace714325ef33d35456d4ccbf5dcf227f":[8,0,326,3],
+"dd/d1b/struct_index_field.html#ad7e44b599f022ca1d9b856224b1d9170":[8,0,326,0],
 "dd/d1b/struct_index_field.html#ae6ccf4cf1398132eb54cb5a3a7b5e5d2":[8,0,326,2],
 "dd/d1b/struct_index_field.html#af14ea53249ef3c89f95628f395dd4b99":[8,0,326,4],
 "dd/d1c/class_uses_class_list.html":[8,0,614],
@@ -246,8 +249,5 @@ var NAVTREEINDEX97 =
 "dd/d49/class_python_outline_parser.html#ab7cba6c930a57cd6d2ca4af7c95dfe75":[8,0,442,2],
 "dd/d49/class_python_outline_parser.html#ad4163b5fd2c8ae60b73141e17049fe14":[8,0,442,5],
 "dd/d49/class_python_outline_parser.html#af9e1a2e462079def013d0a2989eb2c8c":[8,0,442,3],
-"dd/d4b/class_member_def_mutable.html":[8,0,373],
-"dd/d4b/class_member_def_mutable.html#a0578a4f6b9720d17bc2178ec32446a6a":[8,0,373,55],
-"dd/d4b/class_member_def_mutable.html#a06e6f4e828cfed2d5b11f202d009b36d":[8,0,373,9],
-"dd/d4b/class_member_def_mutable.html#a1026656b64c52794d0b590115ff7abb9":[8,0,373,42]
+"dd/d4b/class_member_def_mutable.html":[8,0,373]
 };

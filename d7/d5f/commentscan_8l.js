@@ -136,6 +136,7 @@ var commentscan_8l =
     [ "handleWeakGroup", "d7/d5f/commentscan_8l.html#a1b302e93b966cd7899abd3315e1d6c6c", null ],
     [ "handleXRefItem", "d7/d5f/commentscan_8l.html#a18c4e96349c8a284ab238f9dc94b4bb1", null ],
     [ "initParser", "d7/d5f/commentscan_8l.html#a451cff71879d11897907cc8c2102bdcb", null ],
+    [ "isDoxygenScanCmd", "d7/d5f/commentscan_8l.html#a147814d1fe14df7c5b4612089bd17588", null ],
     [ "lineCount", "d7/d5f/commentscan_8l.html#a6e782ca00a48833dff52b4b5f0a1a147", null ],
     [ "makeStructuralIndicator", "d7/d5f/commentscan_8l.html#a248cf4e00b2a9088d506b30c6fa9fa7b", null ],
     [ "sectionLevelToType", "d7/d5f/commentscan_8l.html#a6bafa4a87d43212e648582a5355539d0", null ],

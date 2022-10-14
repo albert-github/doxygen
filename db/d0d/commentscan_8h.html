@@ -92,7 +92,8 @@ $(document).ready(function(){initNavTree('db/d0d/commentscan_8h.html','../../');
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">commentscan.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -124,12 +125,47 @@ $(document).ready(function(){initNavTree('db/d0d/commentscan_8h.html','../../');
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6b/class_comment_scanner.html">CommentScanner</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a147814d1fe14df7c5b4612089bd17588"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0d/commentscan_8h.html#a147814d1fe14df7c5b4612089bd17588">isDoxygenScanCmd</a> (<a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> cmdName)</td></tr>
+<tr class="separator:a147814d1fe14df7c5b4612089bd17588"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Interface for the comment block scanner. </p>
 
 <p class="definition">Definition in file <a class="el" href="../../db/d0d/commentscan_8h_source.html">commentscan.h</a>.</p>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Function Documentation</h2>
+<a id="a147814d1fe14df7c5b4612089bd17588" name="a147814d1fe14df7c5b4612089bd17588"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a147814d1fe14df7c5b4612089bd17588">&#9670;&#160;</a></span>isDoxygenScanCmd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool isDoxygenScanCmd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>&#160;</td>
+          <td class="paramname"><em>cmdName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d5f/commentscan_8l_source.html#l00324">324</a> of file <a class="el" href="../../d7/d5f/commentscan_8l_source.html">commentscan.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  325</span>{</div>
+<div class="line"><span class="lineno">  326</span>  <span class="keywordflow">return</span> (<a class="code hl_variable" href="../../d7/d5f/commentscan_8l.html#a0714597b7e72e3f10fb260622232ef8e">docCmdMap</a>.find(cmdName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>()) != <a class="code hl_variable" href="../../d7/d5f/commentscan_8l.html#a0714597b7e72e3f10fb260622232ef8e">docCmdMap</a>.end());</div>
+<div class="line"><span class="lineno">  327</span>}</div>
+<div class="ttc" id="aclass_q_c_string_html_a875e9ad762554ef12f3ed69b015bb245"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">QCString::str</a></div><div class="ttdeci">const std::string &amp; str() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00480">qcstring.h:480</a></div></div>
+<div class="ttc" id="acommentscan_8l_html_a0714597b7e72e3f10fb260622232ef8e"><div class="ttname"><a href="../../d7/d5f/commentscan_8l.html#a0714597b7e72e3f10fb260622232ef8e">docCmdMap</a></div><div class="ttdeci">static const std::map&lt; std::string, DocCmdMap &gt; docCmdMap</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5f/commentscan_8l_source.html#l00173">commentscan.l:173</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d7/d5f/commentscan_8l_source.html#l00173">docCmdMap</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00480">QCString::str()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01171">Markdown::processLink()</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

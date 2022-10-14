@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"d8/dfb/class_translator.html#a39e01cdc61885a896f0ca9fbf700987d":[8,0,551,252],
 "d8/dfb/class_translator.html#a3a5e754a2583632dfe5d49a1f7dd5b74":[8,0,551,19],
 "d8/dfb/class_translator.html#a3a68032be485c9b37305bf2dfd738a19":[8,0,551,51],
 "d8/dfb/class_translator.html#a3b7180ac90ac11a5e4591102e9b3e880":[8,0,551,43],
@@ -232,22 +233,21 @@ var NAVTREEINDEX63 =
 "d8/dfb/class_translator.html#afe1d9b3dcd74bb8fb8c116c2c0e86e2e":[8,0,551,68],
 "d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html":[7,0,8,0,6],
 "d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html":[8,0,5,0,6],
-"d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#a0afc3cb894583ee40c53a3a5c54495dc":[8,0,5,0,6,0],
 "d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#a0afc3cb894583ee40c53a3a5c54495dc":[7,0,8,0,6,0],
-"d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#a27aa05445202b2d20d5cd95983d8fd86":[8,0,5,0,6,1],
+"d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#a0afc3cb894583ee40c53a3a5c54495dc":[8,0,5,0,6,0],
 "d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#a27aa05445202b2d20d5cd95983d8fd86":[7,0,8,0,6,1],
-"d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#a6d2fbf9bff5de1775a78dc4872ccdca5":[7,0,8,0,6,4],
+"d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#a27aa05445202b2d20d5cd95983d8fd86":[8,0,5,0,6,1],
 "d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#a6d2fbf9bff5de1775a78dc4872ccdca5":[8,0,5,0,6,4],
-"d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#af0dffd5c5809a0bf16881b19c5786fc3":[8,0,5,0,6,2],
+"d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#a6d2fbf9bff5de1775a78dc4872ccdca5":[7,0,8,0,6,4],
 "d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#af0dffd5c5809a0bf16881b19c5786fc3":[7,0,8,0,6,2],
-"d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#aff28441094086f5cbf8ee8f34a8bc9a4":[8,0,5,0,6,3],
+"d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#af0dffd5c5809a0bf16881b19c5786fc3":[8,0,5,0,6,2],
 "d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#aff28441094086f5cbf8ee8f34a8bc9a4":[7,0,8,0,6,3],
+"d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#aff28441094086f5cbf8ee8f34a8bc9a4":[8,0,5,0,6,3],
 "d9/d06/class_template_node_variable.html":[8,0,529],
 "d9/d06/class_template_node_variable.html#a24e0801eb962f5717561d2340bf3bdcb":[8,0,529,4],
 "d9/d06/class_template_node_variable.html#a5a9f8e7c7b6115665cd3a05bc07dc950":[8,0,529,5],
 "d9/d06/class_template_node_variable.html#a88ef0bf11eea396aabd089bdd84c7ebc":[8,0,529,0],
 "d9/d06/class_template_node_variable.html#a894e1bbd94af4abc161d2c5f6ef49522":[8,0,529,1],
 "d9/d06/class_template_node_variable.html#aa077bf0b834ba5939ed22643fff3b28f":[8,0,529,2],
-"d9/d06/class_template_node_variable.html#abb7d9ed61fac37745a540e422a791ac7":[8,0,529,3],
-"d9/d06/struct_edge_properties.html":[8,0,216]
+"d9/d06/class_template_node_variable.html#abb7d9ed61fac37745a540e422a791ac7":[8,0,529,3]
 };

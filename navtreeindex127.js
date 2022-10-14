@@ -1,5 +1,7 @@
 var NAVTREEINDEX127 =
 {
+"df/dc8/class_translator_indonesian.html#ad3bef44b2475884ec435d3a87a40d4bd":[8,0,584,178],
+"df/dc8/class_translator_indonesian.html#ad51205ea92fa8eb2e9f02cff9fe3db1c":[8,0,584,16],
 "df/dc8/class_translator_indonesian.html#ad5fb31ccc0813683f8c55812a64911c6":[8,0,584,5],
 "df/dc8/class_translator_indonesian.html#adc365fe8ee744a3af6538c00108244c0":[8,0,584,210],
 "df/dc8/class_translator_indonesian.html#adc5560db715fad24920544df6e847386":[8,0,584,61],
@@ -47,8 +49,8 @@ var NAVTREEINDEX127 =
 "df/dcd/classreg_1_1_ex_1_1_private.html":[7,0,6,0,0],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a26bba20b316615c53a77eb522602df8a":[8,0,3,0,0,2],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a26bba20b316615c53a77eb522602df8a":[7,0,6,0,0,2],
-"df/dcd/classreg_1_1_ex_1_1_private.html#a3d43ef3d3304bc786d75340eac860780":[8,0,3,0,0,4],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a3d43ef3d3304bc786d75340eac860780":[7,0,6,0,0,4],
+"df/dcd/classreg_1_1_ex_1_1_private.html#a3d43ef3d3304bc786d75340eac860780":[8,0,3,0,0,4],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a51e12007f0f7866ad4117c489e90cb8e":[7,0,6,0,0,0],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a51e12007f0f7866ad4117c489e90cb8e":[8,0,3,0,0,0],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a5ae763e5ab5231eae1133e68093c49be":[8,0,3,0,0,1],
@@ -188,8 +190,8 @@ var NAVTREEINDEX127 =
 "functions_d.html":[8,3,0,4],
 "functions_e.html":[8,3,0,5],
 "functions_enum.html":[8,3,4],
-"functions_eval.html":[8,3,5,0],
 "functions_eval.html":[8,3,5],
+"functions_eval.html":[8,3,5,0],
 "functions_eval_b.html":[8,3,5,1],
 "functions_eval_c.html":[8,3,5,2],
 "functions_eval_d.html":[8,3,5,3],
@@ -213,8 +215,8 @@ var NAVTREEINDEX127 =
 "functions_eval_w.html":[8,3,5,21],
 "functions_eval_x.html":[8,3,5,22],
 "functions_f.html":[8,3,0,6],
-"functions_func.html":[8,3,1],
 "functions_func.html":[8,3,1,0],
+"functions_func.html":[8,3,1],
 "functions_func_a.html":[8,3,1,1],
 "functions_func_b.html":[8,3,1,2],
 "functions_func_c.html":[8,3,1,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX127 =
 "functions_i.html":[8,3,0,9],
 "functions_j.html":[8,3,0,10],
 "functions_k.html":[8,3,0,11],
-"functions_l.html":[8,3,0,12],
-"functions_m.html":[8,3,0,13],
-"functions_n.html":[8,3,0,14]
+"functions_l.html":[8,3,0,12]
 };

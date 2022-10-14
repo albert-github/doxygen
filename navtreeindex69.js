@@ -1,5 +1,7 @@
 var NAVTREEINDEX69 =
 {
+"d9/dba/struct_layout_doc_entry.html":[8,0,344],
+"d9/dba/struct_layout_doc_entry.html#a1af8607f2effafbf7af22a6f00961c5a":[8,0,344,1],
 "d9/dba/struct_layout_doc_entry.html#a26ca17b3f0f887a7901cee4fb81dace2":[8,0,344,2],
 "d9/dba/struct_layout_doc_entry.html#a89dcbe762ed7e7f7790d8c034cf8ea01":[8,0,344,0],
 "d9/dba/struct_layout_doc_entry.html#a89dcbe762ed7e7f7790d8c034cf8ea01a0295d38fa18ae4e0bf2a246159261b05":[8,0,344,0,24],
@@ -247,7 +249,5 @@ var NAVTREEINDEX69 =
 "d9/dc1/class_translator_catalan.html#adab0da64ca7adcc5e665f2b661d3777d":[8,0,569,67],
 "d9/dc1/class_translator_catalan.html#adace128db1827b66db727a087d86a000":[8,0,569,189],
 "d9/dc1/class_translator_catalan.html#adb42cae30cf31224fcbfc747fcaa1793":[8,0,569,141],
-"d9/dc1/class_translator_catalan.html#adec9f771b481b77eb110ceeccd702811":[8,0,569,109],
-"d9/dc1/class_translator_catalan.html#adf05dffa5a4c3c78d35bfdcfb45260de":[8,0,569,135],
-"d9/dc1/class_translator_catalan.html#adfef507b9fbd518b65491a82b6216f95":[8,0,569,160]
+"d9/dc1/class_translator_catalan.html#adec9f771b481b77eb110ceeccd702811":[8,0,569,109]
 };

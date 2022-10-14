@@ -16,4 +16,6 @@ digraph "/home/runner/work/doxygen/doxygen/src/cmdmapper.h"
   Node5 [label="/home/runner/work/doxygen\l/doxygen/src/doctokenizer.l",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d39/doctokenizer_8l.html",tooltip=" "];
   Node1 -> Node6 [dir="back",color="steelblue1",style="solid"];
   Node6 [label="/home/runner/work/doxygen\l/doxygen/src/doxygen.cpp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d98/doxygen_8cpp.html",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="steelblue1",style="solid"];
+  Node7 [label="/home/runner/work/doxygen\l/doxygen/src/markdown.cpp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d04/markdown_8cpp.html",tooltip=" "];
 }

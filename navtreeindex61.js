@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"d8/d83/class_translator_latvian.html#a68994faaf7f8921a0f314911ddb88a42":[8,0,590,69],
 "d8/d83/class_translator_latvian.html#a69050c0c8a1ac59b3580b741d8e7bb99":[8,0,590,92],
 "d8/d83/class_translator_latvian.html#a690e46e29f64fd6e6009cd1e3d59ff56":[8,0,590,209],
 "d8/d83/class_translator_latvian.html#a69715d6cd736ce17ac8476baf8bd0b44":[8,0,590,203],
@@ -152,8 +153,8 @@ var NAVTREEINDEX61 =
 "d8/da2/pycode_8h_source.html":[9,0,2,196],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html":[7,0,8,0,2],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html":[8,0,5,0,2],
-"d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a0994fa11976ac659180bf73c1068783e":[8,0,5,0,2,3],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a0994fa11976ac659180bf73c1068783e":[7,0,8,0,2,3],
+"d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a0994fa11976ac659180bf73c1068783e":[8,0,5,0,2,3],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a5d25b6278ae014a14a0f5be2678f663c":[7,0,8,0,2,4],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a5d25b6278ae014a14a0f5be2678f663c":[8,0,5,0,2,4],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a6b6a95b77fab1e71ce05bd43da1b8f67":[8,0,5,0,2,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "d8/dbc/class_cite_info_impl.html#ab3b713fffdd7af40a9d905f1b52bf9fb":[8,0,29,0],
 "d8/dc0/class_fortran_code_parser.html":[8,0,285],
 "d8/dc0/class_fortran_code_parser.html#a6d0ab2a0d90e46d2ce8e0fdd526b9d05":[8,0,285,2],
-"d8/dc0/class_fortran_code_parser.html#a8cb63db2c9c015c20f6795cb6aff55a7":[8,0,285,4],
-"d8/dc0/class_fortran_code_parser.html#a8df3de5a46d7ba39548b84645c55e0f4":[8,0,285,5]
+"d8/dc0/class_fortran_code_parser.html#a8cb63db2c9c015c20f6795cb6aff55a7":[8,0,285,4]
 };
