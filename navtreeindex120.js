@@ -1,6 +1,5 @@
 var NAVTREEINDEX120 =
 {
-"de/df7/class_translator_finnish.html#afcf7f54c28497c8bbe3eea0cd19c260f":[8,0,578,2],
 "de/df7/class_translator_finnish.html#afdd9497b9466a4eb5d89e3332575b311":[8,0,578,47],
 "de/df7/class_translator_finnish.html#afdfeab24ab647aab27a2bbc6dd23967b":[8,0,578,37],
 "de/df7/class_translator_finnish.html#afe2f710c712dee2dfb73f651dc9aeb50":[8,0,578,25],
@@ -249,5 +248,6 @@ var NAVTREEINDEX120 =
 "df/d20/class_translator_vietnamese.html#a84b8a328ace739acc1788f176b27620a":[8,0,607,41],
 "df/d20/class_translator_vietnamese.html#a86ea38ab14f2d911e804d2cf818fba36":[8,0,607,104],
 "df/d20/class_translator_vietnamese.html#a888bc508ba4d11c3700aedc47836dc53":[8,0,607,134],
-"df/d20/class_translator_vietnamese.html#a8c196e52cf85888a374c4cf1592cc0bb":[8,0,607,187]
+"df/d20/class_translator_vietnamese.html#a8c196e52cf85888a374c4cf1592cc0bb":[8,0,607,187],
+"df/d20/class_translator_vietnamese.html#a8d49332b33953e8a9f20f279b54875e7":[8,0,607,131]
 };

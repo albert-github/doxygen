@@ -219,11 +219,11 @@ template&lt;class T , class... Args&gt; </div>
 
 <p>Append a new DocNodeVariant to the list by constructing it with type T and parameters Args. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d2b/docnode_8h_source.html#l01307">1307</a> of file <a class="el" href="../../de/d2b/docnode_8h_source.html">docnode.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1308</span>{</div>
-<div class="line"><span class="lineno"> 1309</span>  <a class="code hl_function" href="../../d0/d08/class_grow_vector.html#a7a92b9894590a7470f2f9ebd2d7cda7b">emplace_back</a>(T(std::forward&lt;Args&gt;(args)...));</div>
-<div class="line"><span class="lineno"> 1310</span>  <span class="keywordflow">return</span> &amp;<a class="code hl_function" href="../../d0/d08/class_grow_vector.html#a32ffacabb2c328729f4e6ead6d96a4ad">back</a>();</div>
-<div class="line"><span class="lineno"> 1311</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../de/d2b/docnode_8h_source.html#l01306">1306</a> of file <a class="el" href="../../de/d2b/docnode_8h_source.html">docnode.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1307</span>{</div>
+<div class="line"><span class="lineno"> 1308</span>  <a class="code hl_function" href="../../d0/d08/class_grow_vector.html#a7a92b9894590a7470f2f9ebd2d7cda7b">emplace_back</a>(T(std::forward&lt;Args&gt;(args)...));</div>
+<div class="line"><span class="lineno"> 1309</span>  <span class="keywordflow">return</span> &amp;<a class="code hl_function" href="../../d0/d08/class_grow_vector.html#a32ffacabb2c328729f4e6ead6d96a4ad">back</a>();</div>
+<div class="line"><span class="lineno"> 1310</span>}</div>
 <div class="ttc" id="aclass_grow_vector_html_a32ffacabb2c328729f4e6ead6d96a4ad"><div class="ttname"><a href="../../d0/d08/class_grow_vector.html#a32ffacabb2c328729f4e6ead6d96a4ad">GrowVector&lt; DocNodeVariant &gt;::back</a></div><div class="ttdeci">DocNodeVariant &amp; back()</div><div class="ttdoc">access the last element</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d50/growvector_8h_source.html#l00134">growvector.h:134</a></div></div>
 <div class="ttc" id="aclass_grow_vector_html_a7a92b9894590a7470f2f9ebd2d7cda7b"><div class="ttname"><a href="../../d0/d08/class_grow_vector.html#a7a92b9894590a7470f2f9ebd2d7cda7b">GrowVector&lt; DocNodeVariant &gt;::emplace_back</a></div><div class="ttdeci">void emplace_back(Args &amp;&amp;...args)</div><div class="ttdoc">constructs an element in-place at the end</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d50/growvector_8h_source.html#l00107">growvector.h:107</a></div></div>
 </div><!-- fragment -->
@@ -257,10 +257,10 @@ template&lt;class T &gt; </div>
 
 <p>Returns a pointer to the last element in the list if that element exists and holds a T, otherwise nullptr is returned. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d2b/docnode_8h_source.html#l01323">1323</a> of file <a class="el" href="../../de/d2b/docnode_8h_source.html">docnode.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1324</span>{</div>
-<div class="line"><span class="lineno"> 1325</span>  <span class="keywordflow">return</span> std::get_if&lt;T&gt;(&amp;<a class="code hl_function" href="../../d0/d08/class_grow_vector.html#a32ffacabb2c328729f4e6ead6d96a4ad">back</a>());</div>
-<div class="line"><span class="lineno"> 1326</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../de/d2b/docnode_8h_source.html#l01322">1322</a> of file <a class="el" href="../../de/d2b/docnode_8h_source.html">docnode.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1323</span>{</div>
+<div class="line"><span class="lineno"> 1324</span>  <span class="keywordflow">return</span> std::get_if&lt;T&gt;(&amp;<a class="code hl_function" href="../../d0/d08/class_grow_vector.html#a32ffacabb2c328729f4e6ead6d96a4ad">back</a>());</div>
+<div class="line"><span class="lineno"> 1325</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d7/d50/growvector_8h_source.html#l00134">GrowVector&lt; DocNodeVariant &gt;::back()</a>.</p>
 
@@ -295,14 +295,14 @@ template&lt;class T &gt; </div>
 <p>moves the element of list <em>l</em> at the end of this list. </p>
 <p >List <em>l</em> will become empty. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d2b/docnode_8h_source.html#l01313">1313</a> of file <a class="el" href="../../de/d2b/docnode_8h_source.html">docnode.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1314</span>{</div>
-<div class="line"><span class="lineno"> 1315</span>  <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;&amp;elem : elements)</div>
-<div class="line"><span class="lineno"> 1316</span>  {</div>
-<div class="line"><span class="lineno"> 1317</span>    <a class="code hl_function" href="../../d0/d08/class_grow_vector.html#a7a92b9894590a7470f2f9ebd2d7cda7b">emplace_back</a>(std::move(elem));</div>
-<div class="line"><span class="lineno"> 1318</span>  }</div>
-<div class="line"><span class="lineno"> 1319</span>  elements.clear();</div>
-<div class="line"><span class="lineno"> 1320</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../de/d2b/docnode_8h_source.html#l01312">1312</a> of file <a class="el" href="../../de/d2b/docnode_8h_source.html">docnode.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1313</span>{</div>
+<div class="line"><span class="lineno"> 1314</span>  <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;&amp;elem : elements)</div>
+<div class="line"><span class="lineno"> 1315</span>  {</div>
+<div class="line"><span class="lineno"> 1316</span>    <a class="code hl_function" href="../../d0/d08/class_grow_vector.html#a7a92b9894590a7470f2f9ebd2d7cda7b">emplace_back</a>(std::move(elem));</div>
+<div class="line"><span class="lineno"> 1317</span>  }</div>
+<div class="line"><span class="lineno"> 1318</span>  elements.clear();</div>
+<div class="line"><span class="lineno"> 1319</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d7/d50/growvector_8h_source.html#l00142">GrowVector&lt; T &gt;::clear()</a>, and <a class="el" href="../../d7/d50/growvector_8h_source.html#l00107">GrowVector&lt; DocNodeVariant &gt;::emplace_back()</a>.</p>
 

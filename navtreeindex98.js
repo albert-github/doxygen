@@ -1,6 +1,5 @@
 var NAVTREEINDEX98 =
 {
-"dd/d4b/class_member_def_mutable.html#a1048d11a0914fa7412fc6bbaa1f593bf":[8,0,373,34],
 "dd/d4b/class_member_def_mutable.html#a11563fe533d27551b3a055aacc79de4f":[8,0,373,65],
 "dd/d4b/class_member_def_mutable.html#a1499de35098d97ef45fcc4a2b1abf82b":[8,0,373,57],
 "dd/d4b/class_member_def_mutable.html#a193c336b13421641e9b85dc3f0826d30":[8,0,373,24],
@@ -249,5 +248,6 @@ var NAVTREEINDEX98 =
 "dd/d7e/class_dot_node.html#ae7a5c86a2927e880a7c8413e57275811":[8,0,205,37],
 "dd/d7e/class_dot_node.html#ae8ef878d8915809eccc602a7e896d81b":[8,0,205,32],
 "dd/d7e/class_dot_node.html#aead1705f4e6586bd7ba613fdda2e7241":[8,0,205,19],
-"dd/d7e/class_dot_node.html#aeb01acd1ef9dbeb87e35e7eae24143b1":[8,0,205,33]
+"dd/d7e/class_dot_node.html#aeb01acd1ef9dbeb87e35e7eae24143b1":[8,0,205,33],
+"dd/d7e/class_dot_node.html#aed2051e58bce93b9250b99108a77ae00":[8,0,205,39]
 };

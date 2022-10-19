@@ -49,6 +49,5 @@ digraph "DocPara"
   Node20 [label="GrowVector\< DocNodeVariant \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d0/d08/class_grow_vector.html",tooltip=" "];
   Node21 -> Node20 [dir="back",color="orange",style="dashed",label=" \< DocNodeVariant \>" ];
   Node21 [label="GrowVector\< T \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d0/d08/class_grow_vector.html",tooltip="std::vector like container optimised for pushing elements to the back."];
-  Node8 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" m_sectionId" ];
   Node15 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" m_attribs" ];
 }
