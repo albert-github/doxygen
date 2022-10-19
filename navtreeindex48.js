@@ -1,5 +1,6 @@
 var NAVTREEINDEX48 =
 {
+"d6/d98/class_vhdl_doc_gen.html#a3d47aa601581ef4b2c8e52588c3b4c44":[8,0,619,88],
 "d6/d98/class_vhdl_doc_gen.html#a3f46a86d0561edb71388774696f6cea6":[8,0,619,1],
 "d6/d98/class_vhdl_doc_gen.html#a3f46a86d0561edb71388774696f6cea6a0893bf5a72275367a8e6a3721c9086f6":[8,0,619,1,8],
 "d6/d98/class_vhdl_doc_gen.html#a3f46a86d0561edb71388774696f6cea6a0a5e79aae981605ec80283206d115283":[8,0,619,1,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX48 =
 "d6/db6/class_translator_chinese.html#a51037e46ac3ff06aff64477f0a3593ac":[8,0,570,158],
 "d6/db6/class_translator_chinese.html#a51a102582f6e061d943f8ea1b531be33":[8,0,570,73],
 "d6/db6/class_translator_chinese.html#a53639b2b66e0959a98363bec0c264bb0":[8,0,570,95],
-"d6/db6/class_translator_chinese.html#a548012232a434e483e3cb7f2975c4a3f":[8,0,570,265],
-"d6/db6/class_translator_chinese.html#a54a38c1d58a1747f726df92a5ce1e59a":[8,0,570,174]
+"d6/db6/class_translator_chinese.html#a548012232a434e483e3cb7f2975c4a3f":[8,0,570,265]
 };
