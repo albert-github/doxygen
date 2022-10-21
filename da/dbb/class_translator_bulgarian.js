@@ -94,7 +94,6 @@ var class_translator_bulgarian =
     [ "trEnumValue", "da/dbb/class_translator_bulgarian.html#a881b5a993e89d301e0e626a15d8c56ee", null ],
     [ "trEventDocumentation", "da/dbb/class_translator_bulgarian.html#a6832d03bca22c15966a710f8208a900e", null ],
     [ "trEvents", "da/dbb/class_translator_bulgarian.html#abebfbad857526531e555f57dadd16552", null ],
-    [ "trExampleDocumentation", "da/dbb/class_translator_bulgarian.html#a8eb04ff7ca2c9b746314d48ff5390a66", null ],
     [ "trExamples", "da/dbb/class_translator_bulgarian.html#a252218b63ffcdd9dcb20c7310dae3f8b", null ],
     [ "trExamplesDescription", "da/dbb/class_translator_bulgarian.html#ad7bae7e7aa2562e199a637c75654ae8f", null ],
     [ "trExceptionDocumentation", "da/dbb/class_translator_bulgarian.html#afa4ede17c7e6bdf09fa0d187ba1a893a", null ],

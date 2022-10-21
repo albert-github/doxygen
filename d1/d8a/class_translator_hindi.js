@@ -94,7 +94,6 @@ var class_translator_hindi =
     [ "trEnumValue", "d1/d8a/class_translator_hindi.html#abc928056fbaedba42f46d1b28baa9819", null ],
     [ "trEventDocumentation", "d1/d8a/class_translator_hindi.html#a708ad628d5db5e14c32b47651236f733", null ],
     [ "trEvents", "d1/d8a/class_translator_hindi.html#a47afcc5b14ba77ea5657196c5e850f2f", null ],
-    [ "trExampleDocumentation", "d1/d8a/class_translator_hindi.html#aff29da78c1cff69ea3ab70e92a021322", null ],
     [ "trExamples", "d1/d8a/class_translator_hindi.html#ab26ccf2d36ac787106e0245e301673f4", null ],
     [ "trExamplesDescription", "d1/d8a/class_translator_hindi.html#ad7fa5ea518468f41f529d7ec13742fc6", null ],
     [ "trExceptionDocumentation", "d1/d8a/class_translator_hindi.html#aff0cfa7c3b017a3c9a4ceae3f12300c2", null ],
