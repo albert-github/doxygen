@@ -72,6 +72,7 @@ var class_translator_hungarian =
     [ "trEnumValue", "db/d5f/class_translator_hungarian.html#a065422acd5dab75ef92a6ea1bba93f44", null ],
     [ "trEventDocumentation", "db/d5f/class_translator_hungarian.html#a7e2ff7285e25701209ed451d0a49f71d", null ],
     [ "trEvents", "db/d5f/class_translator_hungarian.html#accfe6d26e92732e1ebc13b4ecbf65c8d", null ],
+    [ "trExampleDocumentation", "db/d5f/class_translator_hungarian.html#ac42543432a118ef1d18aa83c6fe692a4", null ],
     [ "trExamples", "db/d5f/class_translator_hungarian.html#aa02decbea9a271d4a76ce75f0d243ead", null ],
     [ "trExamplesDescription", "db/d5f/class_translator_hungarian.html#a1f7834c20887c0900303ac2070f837b7", null ],
     [ "trExceptions", "db/d5f/class_translator_hungarian.html#ae9f0ff56e0e92ebabf08b526957db22d", null ],

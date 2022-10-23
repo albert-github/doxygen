@@ -94,6 +94,7 @@ var class_translator_swedish =
     [ "trEnumValue", "d5/d5c/class_translator_swedish.html#aba634fd551777a6015808387d13e818d", null ],
     [ "trEventDocumentation", "d5/d5c/class_translator_swedish.html#a0a33dc654bb806ff20eb6c822672b8ce", null ],
     [ "trEvents", "d5/d5c/class_translator_swedish.html#aa9a8c0ed7b9af1c2cd22a39a49f4a013", null ],
+    [ "trExampleDocumentation", "d5/d5c/class_translator_swedish.html#abee7920ce9cf90ab369e8be7ba0a594b", null ],
     [ "trExamples", "d5/d5c/class_translator_swedish.html#a5c6afebd5e435862e3addc2dac4890ca", null ],
     [ "trExamplesDescription", "d5/d5c/class_translator_swedish.html#aca89aec9e93e2fb4774a7731a1257022", null ],
     [ "trExceptionDocumentation", "d5/d5c/class_translator_swedish.html#a8e483ac23342b0895d5f2829e0b88092", null ],

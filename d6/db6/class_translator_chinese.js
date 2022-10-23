@@ -98,6 +98,7 @@ var class_translator_chinese =
     [ "trEnumValue", "d6/db6/class_translator_chinese.html#a53639b2b66e0959a98363bec0c264bb0", null ],
     [ "trEventDocumentation", "d6/db6/class_translator_chinese.html#ad0bb3e2015b491a3a396e7a526588ae2", null ],
     [ "trEvents", "d6/db6/class_translator_chinese.html#ad562702b2a77d308bb44fcb408687d8e", null ],
+    [ "trExampleDocumentation", "d6/db6/class_translator_chinese.html#aba7739cb1e6ecad74962f981530c6683", null ],
     [ "trExamples", "d6/db6/class_translator_chinese.html#a646a38b296d5f3976f71a2cac754f535", null ],
     [ "trExamplesDescription", "d6/db6/class_translator_chinese.html#a5f39dcec9fccd6083bed00de3b3178f3", null ],
     [ "trExceptionDocumentation", "d6/db6/class_translator_chinese.html#a0805de0e9d0c28544867cef4853a167d", null ],

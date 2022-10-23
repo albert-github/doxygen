@@ -94,6 +94,7 @@ var class_translator_brazilian =
     [ "trEnumValue", "d2/d4c/class_translator_brazilian.html#af0d43dbe3d66592929606d2e8625669b", null ],
     [ "trEventDocumentation", "d2/d4c/class_translator_brazilian.html#ae16fbd16a90bb95a84cfc48ef107b28a", null ],
     [ "trEvents", "d2/d4c/class_translator_brazilian.html#aec10651691524b1eb605047c5753dbfd", null ],
+    [ "trExampleDocumentation", "d2/d4c/class_translator_brazilian.html#afb5619b984448f4b60c2e067367f1f32", null ],
     [ "trExamples", "d2/d4c/class_translator_brazilian.html#ac28d1f1400883ca9671356b129312823", null ],
     [ "trExamplesDescription", "d2/d4c/class_translator_brazilian.html#a0735b11722a71ac5fab8825898ec5e7b", null ],
     [ "trExceptionDocumentation", "d2/d4c/class_translator_brazilian.html#a71e95bcccc4131874c5c01f2fbe8aad9", null ],
