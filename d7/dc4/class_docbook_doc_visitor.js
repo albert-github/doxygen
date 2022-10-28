@@ -28,6 +28,7 @@ var class_docbook_doc_visitor =
     [ "operator()", "d7/dc4/class_docbook_doc_visitor.html#a2ef300f18d17dba697499319c88c8eb7", null ],
     [ "operator()", "d7/dc4/class_docbook_doc_visitor.html#ab3dc4aca49387c2801b733951162e52c", null ],
     [ "operator()", "d7/dc4/class_docbook_doc_visitor.html#ab21bc8c6017db61778cf6e60cea89abe", null ],
+    [ "operator()", "d7/dc4/class_docbook_doc_visitor.html#a14f3e3855449c3ee44c7e988e2fc4c38", null ],
     [ "operator()", "d7/dc4/class_docbook_doc_visitor.html#ab9d3c8796370b41a72f6158fa461f5ca", null ],
     [ "operator()", "d7/dc4/class_docbook_doc_visitor.html#aab82ef451cf5eff26b1d097aefd8d421", null ],
     [ "operator()", "d7/dc4/class_docbook_doc_visitor.html#a5826ce8044be2553216f205ef64ead74", null ],

@@ -42,6 +42,7 @@ var class_latex_doc_visitor =
     [ "operator()", "d3/df4/class_latex_doc_visitor.html#aeabfb2614e026a7579c5dadeb5c328c3", null ],
     [ "operator()", "d3/df4/class_latex_doc_visitor.html#a2a1e6cedc141edf8abf82cfe721eb59a", null ],
     [ "operator()", "d3/df4/class_latex_doc_visitor.html#add62a038409ef396c163d584412289cc", null ],
+    [ "operator()", "d3/df4/class_latex_doc_visitor.html#a72863fffe73366c27a00f8fdbc6395d4", null ],
     [ "operator()", "d3/df4/class_latex_doc_visitor.html#a678591cbca0c1070b7a8803d3c5541c7", null ],
     [ "operator()", "d3/df4/class_latex_doc_visitor.html#a28b453c4eabdf03f5d1b690a307d9c4e", null ],
     [ "operator()", "d3/df4/class_latex_doc_visitor.html#ade1c6d00759ad30078d9f5a51cbfc009", null ],

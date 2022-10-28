@@ -23,6 +23,7 @@ var class_man_doc_visitor =
     [ "operator()", "d8/dcf/class_man_doc_visitor.html#aef0c0f7241f4095ca450dc4b56554a86", null ],
     [ "operator()", "d8/dcf/class_man_doc_visitor.html#a4ce763b29a44b5b477602993c33842b9", null ],
     [ "operator()", "d8/dcf/class_man_doc_visitor.html#a36a33acdda18c57a81a33a31883b6b51", null ],
+    [ "operator()", "d8/dcf/class_man_doc_visitor.html#a0de17f04f63f6e2ce8b0d362a023d90c", null ],
     [ "operator()", "d8/dcf/class_man_doc_visitor.html#a020f68cb0200ee90447176b9a176195e", null ],
     [ "operator()", "d8/dcf/class_man_doc_visitor.html#a7d073a9742c34c51135478391c2eb352", null ],
     [ "operator()", "d8/dcf/class_man_doc_visitor.html#a103c34bd91c4bf67cadfca22f2b61466", null ],

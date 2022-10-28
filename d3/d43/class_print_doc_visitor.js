@@ -26,6 +26,7 @@ var class_print_doc_visitor =
     [ "operator()", "d3/d43/class_print_doc_visitor.html#a98adb13be89d3cf7a38d437f0651e757", null ],
     [ "operator()", "d3/d43/class_print_doc_visitor.html#afca508aaeaec816fd6bd99e2c9c1211a", null ],
     [ "operator()", "d3/d43/class_print_doc_visitor.html#ae8203e86d70920c6710eb8b83be0ff1b", null ],
+    [ "operator()", "d3/d43/class_print_doc_visitor.html#a9c72fa42dfa620a7e76e87796cc796f8", null ],
     [ "operator()", "d3/d43/class_print_doc_visitor.html#a781c65343949306e386679f695721435", null ],
     [ "operator()", "d3/d43/class_print_doc_visitor.html#ad4c0764dcc811dec5e635dbd8b3d441f", null ],
     [ "operator()", "d3/d43/class_print_doc_visitor.html#a193a00ab964a64974f8207a0da1f51d3", null ],

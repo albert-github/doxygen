@@ -29,6 +29,7 @@ var class_html_doc_visitor =
     [ "operator()", "d5/d1b/class_html_doc_visitor.html#a8b1f0d351532074efc4bc79b3da7b4c4", null ],
     [ "operator()", "d5/d1b/class_html_doc_visitor.html#aa913c394c4823af2ed130551750922fe", null ],
     [ "operator()", "d5/d1b/class_html_doc_visitor.html#a7403c2c1184b33f47de3b9257b929e41", null ],
+    [ "operator()", "d5/d1b/class_html_doc_visitor.html#acc9d92c357105ee35917a0ef6a1a847d", null ],
     [ "operator()", "d5/d1b/class_html_doc_visitor.html#ace45195acd5464fbc29281fd8d44c66d", null ],
     [ "operator()", "d5/d1b/class_html_doc_visitor.html#ac4fd6827ed35896d1c9e47d264d12a85", null ],
     [ "operator()", "d5/d1b/class_html_doc_visitor.html#abfd0aac31a863e63e61dc67da22a349c", null ],

@@ -24,6 +24,7 @@ var class_xml_doc_visitor =
     [ "operator()", "d4/dc8/class_xml_doc_visitor.html#ae5522b266c9dcf8df929ec4b4ca1d5e5", null ],
     [ "operator()", "d4/dc8/class_xml_doc_visitor.html#abaa429846d5df9551f2226db222c3cb0", null ],
     [ "operator()", "d4/dc8/class_xml_doc_visitor.html#a7b8a51b96265ea51fcf3b68eb7a22be4", null ],
+    [ "operator()", "d4/dc8/class_xml_doc_visitor.html#aed5bd33699c39b682c2f8628da1ce5e9", null ],
     [ "operator()", "d4/dc8/class_xml_doc_visitor.html#a0c0655fab12e9ffece836f11b46a8c44", null ],
     [ "operator()", "d4/dc8/class_xml_doc_visitor.html#a608907da6a8263ac7cff6caae01673c9", null ],
     [ "operator()", "d4/dc8/class_xml_doc_visitor.html#a32d2017f02e0835ea865360773ac1eda", null ],

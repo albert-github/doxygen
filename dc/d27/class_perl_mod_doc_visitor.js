@@ -31,6 +31,7 @@ var class_perl_mod_doc_visitor =
     [ "operator()", "dc/d27/class_perl_mod_doc_visitor.html#abc9316f6d36cef5484dfbd79c7eccff1", null ],
     [ "operator()", "dc/d27/class_perl_mod_doc_visitor.html#ab2f6c9c71d1059e75eda24522ab1d494", null ],
     [ "operator()", "dc/d27/class_perl_mod_doc_visitor.html#a238bbd23978ad8f4fde28605b6d870c4", null ],
+    [ "operator()", "dc/d27/class_perl_mod_doc_visitor.html#afa0f3b6c33268cede22794e32e0d9699", null ],
     [ "operator()", "dc/d27/class_perl_mod_doc_visitor.html#a57b7db74e73a0b47dde3a73b1976d846", null ],
     [ "operator()", "dc/d27/class_perl_mod_doc_visitor.html#a4eefaf70c00c1c7ab252098e8599eff2", null ],
     [ "operator()", "dc/d27/class_perl_mod_doc_visitor.html#a739b167e0a41f08eff74e1bfdecce329", null ],

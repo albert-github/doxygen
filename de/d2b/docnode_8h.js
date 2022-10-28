@@ -37,6 +37,7 @@ var docnode_8h =
     [ "DocRef", "d5/d68/class_doc_ref.html", "d5/d68/class_doc_ref" ],
     [ "DocInternalRef", "da/da2/class_doc_internal_ref.html", "da/da2/class_doc_internal_ref" ],
     [ "DocHRef", "d9/d10/class_doc_h_ref.html", "d9/d10/class_doc_h_ref" ],
+    [ "DocHtmlSummary", "df/d20/class_doc_html_summary.html", "df/d20/class_doc_html_summary" ],
     [ "DocHtmlDetails", "dc/dcc/class_doc_html_details.html", "dc/dcc/class_doc_html_details" ],
     [ "DocHtmlHeader", "df/d24/class_doc_html_header.html", "df/d24/class_doc_html_header" ],
     [ "DocHtmlDescTitle", "dd/dd1/class_doc_html_desc_title.html", "dd/dd1/class_doc_html_desc_title" ],
@@ -79,7 +80,7 @@ var docnode_8h =
     [ "DN_SEP", "de/d2b/docnode_8h.html#aac3b8854dead0ba7c6a9e83d49b7d945", null ],
     [ "DN_SEP", "de/d2b/docnode_8h.html#aac3b8854dead0ba7c6a9e83d49b7d945", null ],
     [ "DOC_NODES", "de/d2b/docnode_8h.html#a9a1f232ee7a2138f67140f80ce7c6628", null ],
-    [ "DocNodeVariant", "de/d2b/docnode_8h.html#aec3475a3e7a8e38210b0620535be357e", null ],
+    [ "DocNodeVariant", "de/d2b/docnode_8h.html#afad5b9fbe2e475f242fe258914b6a4a0", null ],
     [ "docNodeName", "de/d2b/docnode_8h.html#a290fb18190c0d0545261afd181bbcdcc", null ],
     [ "docNodeName", "de/d2b/docnode_8h.html#a8b0b120c386dbc8962f3c754aafecd60", null ],
     [ "docNodeName", "de/d2b/docnode_8h.html#a5f4a34334ddff371ee708fe78e0c09a7", null ],
@@ -101,6 +102,7 @@ var docnode_8h =
     [ "docNodeName", "de/d2b/docnode_8h.html#adc2f8aff448633588b051f8085b5daf5", null ],
     [ "docNodeName", "de/d2b/docnode_8h.html#a593e82da910769a3ab7c854f114ef018", null ],
     [ "docNodeName", "de/d2b/docnode_8h.html#ae37df2208e9a2024e55493acd930b17b", null ],
+    [ "docNodeName", "de/d2b/docnode_8h.html#aa896e3b5e7738c393cf7aca5db9ff62f", null ],
     [ "docNodeName", "de/d2b/docnode_8h.html#aed536be4e243b1d6f77724ff558d52a0", null ],
     [ "docNodeName", "de/d2b/docnode_8h.html#ac22a48de0c75e5d9176a6cd02e285f2e", null ],
     [ "docNodeName", "de/d2b/docnode_8h.html#ae5bb3d474e93992a37b908a9762dde07", null ],
@@ -140,5 +142,6 @@ var docnode_8h =
     [ "dumpDocNodeList", "de/d2b/docnode_8h.html#ae06df9ac205468d82301870dbe23905c", null ],
     [ "dumpDocNodeSizes", "de/d2b/docnode_8h.html#a0cee4ebd85699ca3a3e70eb19dc5a199", null ],
     [ "holds_one_of_alternatives", "de/d2b/docnode_8h.html#a1c1632e37b281677f09baa3acce082cf", null ],
-    [ "parent", "de/d2b/docnode_8h.html#ab4feec38265e781de0502142e696763a", null ]
+    [ "parent", "de/d2b/docnode_8h.html#ab4feec38265e781de0502142e696763a", null ],
+    [ "parent", "de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633", null ]
 ];

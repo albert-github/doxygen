@@ -188,6 +188,7 @@ var annotated_dup =
     [ "DocHtmlList", "d5/d42/class_doc_html_list.html", "d5/d42/class_doc_html_list" ],
     [ "DocHtmlListItem", "df/da8/class_doc_html_list_item.html", "df/da8/class_doc_html_list_item" ],
     [ "DocHtmlRow", "d3/d16/class_doc_html_row.html", "d3/d16/class_doc_html_row" ],
+    [ "DocHtmlSummary", "df/d20/class_doc_html_summary.html", "df/d20/class_doc_html_summary" ],
     [ "DocHtmlTable", "de/d79/class_doc_html_table.html", "de/d79/class_doc_html_table" ],
     [ "DocImage", "db/dc8/class_doc_image.html", "db/dc8/class_doc_image" ],
     [ "DocInclude", "d6/db9/class_doc_include.html", "d6/db9/class_doc_include" ],

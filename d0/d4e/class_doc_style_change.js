@@ -16,7 +16,6 @@ var class_doc_style_change =
       [ "Del", "d0/d4e/class_doc_style_change.html#a97757d2d85c39228c90693491a56d277a0417c5d59bbd1a5c8fb87853ae58dc63", null ],
       [ "Ins", "d0/d4e/class_doc_style_change.html#a97757d2d85c39228c90693491a56d277ad4de98733a18ab2f074935240873fdae", null ],
       [ "S", "d0/d4e/class_doc_style_change.html#a97757d2d85c39228c90693491a56d277a55596f97583b8bab6927a66ea8f869d5", null ],
-      [ "Summary", "d0/d4e/class_doc_style_change.html#a97757d2d85c39228c90693491a56d277a6c8f6e7ee2cb26dc051482b4a12c988b", null ],
       [ "Cite", "d0/d4e/class_doc_style_change.html#a97757d2d85c39228c90693491a56d277a4fd52aeff707aa62ec5f03f5cca312e6", null ]
     ] ],
     [ "DocStyleChange", "d0/d4e/class_doc_style_change.html#ab4facf1bc24d1ea405a739103594f2ae", null ],

@@ -533,6 +533,7 @@ var hierarchy =
         [ "DocHtmlList", "d5/d42/class_doc_html_list.html", null ],
         [ "DocHtmlListItem", "df/da8/class_doc_html_list_item.html", null ],
         [ "DocHtmlRow", "d3/d16/class_doc_html_row.html", null ],
+        [ "DocHtmlSummary", "df/d20/class_doc_html_summary.html", null ],
         [ "DocHtmlTable", "de/d79/class_doc_html_table.html", null ],
         [ "DocImage", "db/dc8/class_doc_image.html", null ],
         [ "DocInternal", "db/d6d/class_doc_internal.html", null ],
