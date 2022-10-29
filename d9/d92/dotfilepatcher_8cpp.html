@@ -176,31 +176,31 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00507">507</a> of file <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html">dotfilepatcher.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  508</span>{</div>
-<div class="line"><span class="lineno">  509</span>  <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="line"><span class="lineno">  510</span>  std::ifstream f(fileName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>(),std::ifstream::in);</div>
-<div class="line"><span class="lineno">  511</span>  <span class="keywordflow">if</span> (!f.is_open())</div>
-<div class="line"><span class="lineno">  512</span>  {</div>
-<div class="line"><span class="lineno">  513</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  514</span>  }</div>
-<div class="line"><span class="lineno">  515</span>  std::string line;</div>
-<div class="line"><span class="lineno">  516</span>  <span class="keywordflow">while</span> (getline(f,line) &amp;&amp; !<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>)</div>
-<div class="line"><span class="lineno">  517</span>  {</div>
-<div class="line"><span class="lineno">  518</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a19faae287d13ccea75b1d5a0eb110d97">qstrncmp</a>(line.c_str(),<span class="stringliteral">&quot;&lt;!--zoomable &quot;</span>,13)==0)</div>
-<div class="line"><span class="lineno">  519</span>    {</div>
-<div class="line"><span class="lineno">  520</span>      *width=-1;</div>
-<div class="line"><span class="lineno">  521</span>      *height=-1;</div>
-<div class="line"><span class="lineno">  522</span>      sscanf(line.c_str(),<span class="stringliteral">&quot;&lt;!--zoomable %d&quot;</span>,height);</div>
-<div class="line"><span class="lineno">  523</span>      <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>=<span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  524</span>    }</div>
-<div class="line"><span class="lineno">  525</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (sscanf(line.c_str(),<span class="stringliteral">&quot;&lt;svg width=\&quot;%dpt\&quot; height=\&quot;%dpt\&quot;&quot;</span>,width,height)==2)</div>
-<div class="line"><span class="lineno">  526</span>    {</div>
-<div class="line"><span class="lineno">  527</span>      <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>=<span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  528</span>    }</div>
-<div class="line"><span class="lineno">  529</span>  }</div>
-<div class="line"><span class="lineno">  530</span>  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  531</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00508">508</a> of file <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html">dotfilepatcher.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  509</span>{</div>
+<div class="line"><span class="lineno">  510</span>  <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
+<div class="line"><span class="lineno">  511</span>  std::ifstream f(fileName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>(),std::ifstream::in);</div>
+<div class="line"><span class="lineno">  512</span>  <span class="keywordflow">if</span> (!f.is_open())</div>
+<div class="line"><span class="lineno">  513</span>  {</div>
+<div class="line"><span class="lineno">  514</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  515</span>  }</div>
+<div class="line"><span class="lineno">  516</span>  std::string line;</div>
+<div class="line"><span class="lineno">  517</span>  <span class="keywordflow">while</span> (getline(f,line) &amp;&amp; !<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>)</div>
+<div class="line"><span class="lineno">  518</span>  {</div>
+<div class="line"><span class="lineno">  519</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a19faae287d13ccea75b1d5a0eb110d97">qstrncmp</a>(line.c_str(),<span class="stringliteral">&quot;&lt;!--zoomable &quot;</span>,13)==0)</div>
+<div class="line"><span class="lineno">  520</span>    {</div>
+<div class="line"><span class="lineno">  521</span>      *width=-1;</div>
+<div class="line"><span class="lineno">  522</span>      *height=-1;</div>
+<div class="line"><span class="lineno">  523</span>      sscanf(line.c_str(),<span class="stringliteral">&quot;&lt;!--zoomable %d&quot;</span>,height);</div>
+<div class="line"><span class="lineno">  524</span>      <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>=<span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  525</span>    }</div>
+<div class="line"><span class="lineno">  526</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (sscanf(line.c_str(),<span class="stringliteral">&quot;&lt;svg width=\&quot;%dpt\&quot; height=\&quot;%dpt\&quot;&quot;</span>,width,height)==2)</div>
+<div class="line"><span class="lineno">  527</span>    {</div>
+<div class="line"><span class="lineno">  528</span>      <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>=<span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  529</span>    }</div>
+<div class="line"><span class="lineno">  530</span>  }</div>
+<div class="line"><span class="lineno">  531</span>  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  532</span>}</div>
 <div class="ttc" id="aclass_q_c_string_html_a875e9ad762554ef12f3ed69b015bb245"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">QCString::str</a></div><div class="ttdeci">const std::string &amp; str() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00480">qcstring.h:480</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_a19faae287d13ccea75b1d5a0eb110d97"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#a19faae287d13ccea75b1d5a0eb110d97">qstrncmp</a></div><div class="ttdeci">int qstrncmp(const char *str1, const char *str2, size_t len)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00091">qcstring.h:91</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_aa93f0eb578d23995850d61f7d61c55c1"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></div><div class="ttdeci">#define FALSE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00033">qcstring.h:33</a></div></div>
@@ -208,7 +208,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l00962">found</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00091">qstrncmp()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00480">QCString::str()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00540">DotFilePatcher::writeSVGFigureLink()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00541">DotFilePatcher::writeSVGFigureLink()</a>.</p>
 
 </div>
 </div>
@@ -390,12 +390,12 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00533">533</a> of file <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html">dotfilepatcher.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  534</span>{</div>
-<div class="line"><span class="lineno">  535</span>  out &lt;&lt; <span class="stringliteral">&quot;&lt;p&gt;&lt;b&gt;This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.&lt;/b&gt;&lt;/p&gt;&quot;</span>;</div>
-<div class="line"><span class="lineno">  536</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00534">534</a> of file <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html">dotfilepatcher.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  535</span>{</div>
+<div class="line"><span class="lineno">  536</span>  out &lt;&lt; <span class="stringliteral">&quot;&lt;p&gt;&lt;b&gt;This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.&lt;/b&gt;&lt;/p&gt;&quot;</span>;</div>
+<div class="line"><span class="lineno">  537</span>}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00540">DotFilePatcher::writeSVGFigureLink()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00541">DotFilePatcher::writeSVGFigureLink()</a>.</p>
 
 </div>
 </div>
