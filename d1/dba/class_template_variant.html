@@ -259,7 +259,7 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a88ba3ce753ff67a68e28daa172aae5e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >Variant type which can hold one value of a fixed set of types. </p>
+<div class="textblock"><p>Variant type which can hold one value of a fixed set of types. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../de/db8/template_8h_source.html#l00098">98</a> of file <a class="el" href="../../de/db8/template_8h_source.html">template.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
@@ -512,7 +512,7 @@ template&lt;typename T , typename std::enable_if&lt; std::is_same&lt; T, size_t 
 </div><div class="memdoc">
 
 <p>Constructs a new variant with a integer value <em>v</em>. </p>
-<p >We use SFINAE to avoid a compiler error in case size_t already matches the 'unsigned int' overload. </p>
+<p>We use SFINAE to avoid a compiler error in case size_t already matches the 'unsigned int' overload. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../de/db8/template_8h_source.html#l00145">145</a> of file <a class="el" href="../../de/db8/template_8h_source.html">template.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  145</span>{ <a class="code hl_variable" href="../../d1/dba/class_template_variant.html#aa3704f7626c39bdacacba0fb5cacd9fd">m_variant</a> = <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(v); }</div>
@@ -867,7 +867,7 @@ template&lt;typename T , typename std::enable_if&lt; std::is_same&lt; T, size_t 
 </div><div class="memdoc">
 
 <p>Moves the contents of variant <em>v</em> into this variant. </p>
-<p >variant <em>v</em> will become invalid </p>
+<p>variant <em>v</em> will become invalid </p>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l00326">326</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  327</span>{</div>
@@ -899,7 +899,7 @@ template&lt;typename T , typename std::enable_if&lt; std::is_same&lt; T, size_t 
 </div><div class="memdoc">
 
 <p>Return the result of apply this function with <em>args</em>. </p>
-<p >Returns an empty string if the variant type is not a function. </p>
+<p>Returns an empty string if the variant type is not a function. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l00453">453</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  454</span>{</div>
@@ -1285,7 +1285,7 @@ template&lt;typename T , typename std::enable_if&lt; std::is_same&lt; T, size_t 
 </div><div class="memdoc">
 
 <p>Move the value of the variant <em>v</em> into this variant. </p>
-<p >Variant <em>v</em> will become invalid </p>
+<p>Variant <em>v</em> will become invalid </p>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l00333">333</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  334</span>{</div>
@@ -1765,7 +1765,7 @@ template&lt;typename T , typename std::enable_if&lt; std::is_same&lt; T, size_t 
 </div><div class="memdoc">
 
 <p>Returns a string representation of this variant's type. </p>
-<p >Return a string representation of the type of the value stored in the variant. </p>
+<p>Return a string representation of the type of the value stored in the variant. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l00415">415</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  416</span>{</div>

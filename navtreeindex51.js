@@ -1,6 +1,5 @@
 var NAVTREEINDEX51 =
 {
-"d7/d21/class_translator_danish.html#a36db40efda78a5865fcee126d42d7f63":[8,0,575,137],
 "d7/d21/class_translator_danish.html#a36ecff3054f04a48bd925a5504268595":[8,0,575,84],
 "d7/d21/class_translator_danish.html#a384b0e20781089797caa5a03e4905db8":[8,0,575,22],
 "d7/d21/class_translator_danish.html#a38a7adbfbc241669d2afa8279df856bc":[8,0,575,71],
@@ -249,5 +248,6 @@ var NAVTREEINDEX51 =
 "d7/d41/class_html_generator.html#a571ffe65979653cb0e7abe30cc7d64bf":[8,0,315,132],
 "d7/d41/class_html_generator.html#a574b29296b93ffa4c3b119cbee70269c":[8,0,315,89],
 "d7/d41/class_html_generator.html#a5809e08af9690f0df63e1703716ca40c":[8,0,315,106],
-"d7/d41/class_html_generator.html#a5a650d7a723ffd19f31485454ca3d2ff":[8,0,315,137]
+"d7/d41/class_html_generator.html#a5a650d7a723ffd19f31485454ca3d2ff":[8,0,315,137],
+"d7/d41/class_html_generator.html#a5a77da371131543fbce69c7227edca2a":[8,0,315,90]
 };

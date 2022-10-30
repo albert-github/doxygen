@@ -1,6 +1,5 @@
 var NAVTREEINDEX98 =
 {
-"dd/d49/class_python_outline_parser.html":[8,0,443],
 "dd/d49/class_python_outline_parser.html#a5bdb60eb490e5775ef03811344532e98":[8,0,443,6],
 "dd/d49/class_python_outline_parser.html#a82b613d877eb78866fe172fbf85fc667":[8,0,443,4],
 "dd/d49/class_python_outline_parser.html#a8a5a1f367924785b005bd7e010e98614":[8,0,443,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX98 =
 "dd/d7e/class_dot_node.html#ac192b74541fe778106f8c17e970dc489":[8,0,206,14],
 "dd/d7e/class_dot_node.html#ac40de94762a7659599b2056942373102":[8,0,206,0],
 "dd/d7e/class_dot_node.html#ac40de94762a7659599b2056942373102a4bb6a5a03b3707d0819d9c4023b516cd":[8,0,206,0,1],
-"dd/d7e/class_dot_node.html#ac40de94762a7659599b2056942373102aa2b953f9ab3592ebf7903ff35643eb60":[8,0,206,0,2]
+"dd/d7e/class_dot_node.html#ac40de94762a7659599b2056942373102aa2b953f9ab3592ebf7903ff35643eb60":[8,0,206,0,2],
+"dd/d7e/class_dot_node.html#ac40de94762a7659599b2056942373102adba69679a9bcc9333c7165d4e7bdade0":[8,0,206,0,0]
 };

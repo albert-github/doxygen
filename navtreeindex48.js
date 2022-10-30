@@ -1,6 +1,5 @@
 var NAVTREEINDEX48 =
 {
-"d6/d98/class_vhdl_doc_gen.html#a2de08afddfa24b4a037c36ac329185ff":[8,0,620,11],
 "d6/d98/class_vhdl_doc_gen.html#a2e65f831a03ff54d13240da96843cd60":[8,0,620,31],
 "d6/d98/class_vhdl_doc_gen.html#a31b60db653850e1be9084b27153e6758":[8,0,620,79],
 "d6/d98/class_vhdl_doc_gen.html#a34f3686f7bccb7f7d9ef304724198661":[8,0,620,21],
@@ -127,8 +126,8 @@ var NAVTREEINDEX48 =
 "d6/da5/doxygen__lex_8h.html":[9,0,2,104],
 "d6/da5/doxygen__lex_8h.html#ac0586b8b0b092d02f4ba7d45abe328f2":[9,0,2,104,0],
 "d6/da5/doxygen__lex_8h_source.html":[9,0,2,104],
-"d6/da7/classvhdl_1_1parser_1_1_vhdl_error_handler.html":[8,0,5,0,9],
 "d6/da7/classvhdl_1_1parser_1_1_vhdl_error_handler.html":[7,0,8,0,9],
+"d6/da7/classvhdl_1_1parser_1_1_vhdl_error_handler.html":[8,0,5,0,9],
 "d6/da7/classvhdl_1_1parser_1_1_vhdl_error_handler.html#a622c20bee99ded9d17909de74ffbb6eb":[8,0,5,0,9,2],
 "d6/da7/classvhdl_1_1parser_1_1_vhdl_error_handler.html#a622c20bee99ded9d17909de74ffbb6eb":[7,0,8,0,9,2],
 "d6/da7/classvhdl_1_1parser_1_1_vhdl_error_handler.html#a7f762940359a017a9f7a903f4a66f6f4":[8,0,5,0,9,4],
@@ -249,5 +248,6 @@ var NAVTREEINDEX48 =
 "d6/db6/class_translator_chinese.html#a4c707906563e4466bf6a3609c3ee8885":[8,0,571,107],
 "d6/db6/class_translator_chinese.html#a4e0ff659c6abd80f85f98e4862680156":[8,0,571,148],
 "d6/db6/class_translator_chinese.html#a4e368073ebc80e931ea9569c9ed39340":[8,0,571,157],
-"d6/db6/class_translator_chinese.html#a4f6b051cede382e7d4234506aeaccedb":[8,0,571,239]
+"d6/db6/class_translator_chinese.html#a4f6b051cede382e7d4234506aeaccedb":[8,0,571,239],
+"d6/db6/class_translator_chinese.html#a50804b5ad74925daac9ddeda1ae7a10c":[8,0,571,198]
 };

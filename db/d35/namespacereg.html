@@ -148,7 +148,7 @@ Functions</h2></td></tr>
 <tr class="separator:a5f59e75927731a22be2be5e4d91075b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >Namespace for the regular expression functions. </p>
+<div class="textblock"><p>Namespace for the regular expression functions. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a id="ae874a7238f39cd3a0510485027015ef5" name="ae874a7238f39cd3a0510485027015ef5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae874a7238f39cd3a0510485027015ef5">&#9670;&#160;</a></span>isalnum()</h2>
@@ -313,7 +313,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Matches a given string <em>str</em> for a match against regular expression <em>re</em>. </p>
-<p >Returns true iff a match was found for the whole string. </p>
+<p>Returns true iff a match was found for the whole string. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d85/regex_8cpp_source.html#l00765">765</a> of file <a class="el" href="../../d6/d85/regex_8cpp_source.html">regex.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  766</span>{</div>
@@ -361,7 +361,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Matches a given string <em>str</em> for a match against regular expression <em>re</em>. </p>
-<p >Returns true iff a match was found for the whole string. Any capture groups are returned via the <em>match</em> object. </p>
+<p>Returns true iff a match was found for the whole string. Any capture groups are returned via the <em>match</em> object. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d85/regex_8cpp_source.html#l00760">760</a> of file <a class="el" href="../../d6/d85/regex_8cpp_source.html">regex.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  761</span>{</div>
@@ -464,7 +464,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Search in a given string <em>str</em> starting at position <em>pos</em> for a match against regular expression <em>re</em>. </p>
-<p >Returns true iff a match was found. </p>
+<p>Returns true iff a match was found. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d85/regex_8cpp_source.html#l00754">754</a> of file <a class="el" href="../../d6/d85/regex_8cpp_source.html">regex.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  755</span>{</div>
@@ -515,8 +515,8 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Search in a given string <em>str</em> starting at position <em>pos</em> for a match against regular expression <em>re</em>. </p>
-<p >Returns true iff a match was found. Details of what part of the string has matched is returned via the <em>match</em> object.</p>
-<p >An example to show how to match all identifiers in a string. </p><div class="fragment"><div class="line"><span class="keyword">static</span> <a class="code hl_class" href="../../d2/dd8/classreg_1_1_ex.html">reg::Ex</a> re(R<span class="stringliteral">&quot;(\a\w*)&quot;);</span></div>
+<p>Returns true iff a match was found. Details of what part of the string has matched is returned via the <em>match</em> object.</p>
+<p>An example to show how to match all identifiers in a string. </p><div class="fragment"><div class="line"><span class="keyword">static</span> <a class="code hl_class" href="../../d2/dd8/classreg_1_1_ex.html">reg::Ex</a> re(R<span class="stringliteral">&quot;(\a\w*)&quot;);</span></div>
 <div class="line"><span class="stringliteral">std::string = u8</span><span class="stringliteral">&quot;void(Func是&lt;B_C::Códe42&gt;(42));&quot;</span>;</div>
 <div class="line"><span class="keywordflow">while</span> (<a class="code hl_function" href="../../db/d35/namespacereg.html#a0af12d3e92e774639befbdf774606e52">reg::search</a>(str,<a class="code hl_function" href="../../db/d35/namespacereg.html#a1a29dcc7e2ccf462503adc5d496881ae">match</a>,re,pos))</div>
 <div class="line">{</div>

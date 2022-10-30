@@ -1345,8 +1345,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a75fd1d1116debf9adacfef772a04a7b1 inherit pro_attribs_class_translator_adapter_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >When defining a translator class for the new language, follow the description in the documentation. One of the steps says that you should copy the <a class="el" href="../../da/d46/translator__en_8h.html">translator_en.h</a> (this) file to your translator_xx.h new file. Your new language should use the <a class="el" href="../../d8/dfb/class_translator.html" title="Abstract base class for all translatable text fragments.">Translator</a> class as the base class. This means that you need to implement exactly the same (pure virtual) methods as the <a class="el" href="../../d6/d78/class_translator_english.html">TranslatorEnglish</a> does. Because of this, it is a good idea to start with the copy of <a class="el" href="../../d6/d78/class_translator_english.html">TranslatorEnglish</a> and replace the strings one by one.</p>
-<p >It is not necessary to include "translator.h" or "translator_adapter.h" here. The files are included in the <a class="el" href="../../d2/d48/language_8cpp.html">language.cpp</a> correctly. Not including any of the mentioned files frees the maintainer from thinking about whether the first, the second, or both files should be included or not, and why. This holds namely for localized translators because their base class is changed occasionally to adapter classes when the <a class="el" href="../../d8/dfb/class_translator.html" title="Abstract base class for all translatable text fragments.">Translator</a> class changes the interface, or back to the <a class="el" href="../../d8/dfb/class_translator.html" title="Abstract base class for all translatable text fragments.">Translator</a> class (by the local maintainer) when the localized translator is made up-to-date again. </p>
+<div class="textblock"><p>When defining a translator class for the new language, follow the description in the documentation. One of the steps says that you should copy the <a class="el" href="../../da/d46/translator__en_8h.html">translator_en.h</a> (this) file to your translator_xx.h new file. Your new language should use the <a class="el" href="../../d8/dfb/class_translator.html" title="Abstract base class for all translatable text fragments.">Translator</a> class as the base class. This means that you need to implement exactly the same (pure virtual) methods as the <a class="el" href="../../d6/d78/class_translator_english.html">TranslatorEnglish</a> does. Because of this, it is a good idea to start with the copy of <a class="el" href="../../d6/d78/class_translator_english.html">TranslatorEnglish</a> and replace the strings one by one.</p>
+<p>It is not necessary to include "translator.h" or "translator_adapter.h" here. The files are included in the <a class="el" href="../../d2/d48/language_8cpp.html">language.cpp</a> correctly. Not including any of the mentioned files frees the maintainer from thinking about whether the first, the second, or both files should be included or not, and why. This holds namely for localized translators because their base class is changed occasionally to adapter classes when the <a class="el" href="../../d8/dfb/class_translator.html" title="Abstract base class for all translatable text fragments.">Translator</a> class changes the interface, or back to the <a class="el" href="../../d8/dfb/class_translator.html" title="Abstract base class for all translatable text fragments.">Translator</a> class (by the local maintainer) when the localized translator is made up-to-date again. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/d34/translator__hu_8h_source.html#l00055">55</a> of file <a class="el" href="../../d8/d34/translator__hu_8h_source.html">translator_hu.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
@@ -1374,9 +1374,9 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>language codes for Html help 0x402 Bulgarian 0x405 Czech 0x406 Danish 0x413 Dutch 0xC09 English (Australia) 0x809 English (Britain) 0x1009 English (Canada) 0x1809 English (Ireland) 0x1409 English (New Zealand) 0x1C09 English (South Africa) 0x409 English (United States) 0x40B Finnish 0x40C French 0x407 German 0x408 Greece 0x439 Hindi 0x40E Hungarian 0x410 Italian 0x814 Norwegian 0x415 Polish 0x816 Portuguese(Portugal) 0x416 Portuguese(Brazil) 0x419 Russian 0x80A Spanish(Mexico) 0xC0A Spanish(Modern Sort) 0x40A Spanish(Traditional Sort) 0x41D Swedish 0x41F Turkey 0x411 Japanese 0x412 Korean 0x804 Chinese (PRC) 0x404 Chinese (Taiwan) </p>
-<p >New LCIDs: 0x421 Indonesian 0x41A Croatian 0x418 Romanian 0x424 Slovenian 0x41B Slovak 0x422 Ukrainian 0x81A Serbian (Serbia, Latin) 0x403 Catalan 0x426 Latvian 0x427 Lithuanian 0x436 Afrikaans 0x42A Vietnamese 0x429 Persian (Iran) 0xC01 Arabic (Egypt) - I don't know which version of arabic is used inside <a class="el" href="../../db/d93/translator__ar_8h.html">translator_ar.h</a> , so I have chosen Egypt at random</p>
-<p >Code for Esperanto should be as shown below but the htmlhelp compiler 1.3 does not support this (and no newer version is available). 0x48f Esperanto So do a fallback to the default language 0x409 English (United States)</p>
-<p >0xC1A Serbian (Serbia, Cyrillic) </p>
+<p>New LCIDs: 0x421 Indonesian 0x41A Croatian 0x418 Romanian 0x424 Slovenian 0x41B Slovak 0x422 Ukrainian 0x81A Serbian (Serbia, Latin) 0x403 Catalan 0x426 Latvian 0x427 Lithuanian 0x436 Afrikaans 0x42A Vietnamese 0x429 Persian (Iran) 0xC01 Arabic (Egypt) - I don't know which version of arabic is used inside <a class="el" href="../../db/d93/translator__ar_8h.html">translator_ar.h</a> , so I have chosen Egypt at random</p>
+<p>Code for Esperanto should be as shown below but the htmlhelp compiler 1.3 does not support this (and no newer version is available). 0x48f Esperanto So do a fallback to the default language 0x409 English (United States)</p>
+<p>0xC1A Serbian (Serbia, Cyrillic) </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#af52da90d0c6a2055ee63d18eb900f171">Translator</a>.</p>
 
@@ -1409,7 +1409,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Used for identification of the language. The identification should not be translated. It should be replaced by the name of the language in English using lower-case characters only (e.g. "czech", "japanese", "russian", etc.). It should be equal to the identification used in <a class="el" href="../../d2/d48/language_8cpp.html">language.cpp</a>. </p>
+<p>Used for identification of the language. The identification should not be translated. It should be replaced by the name of the language in English using lower-case characters only (e.g. "czech", "japanese", "russian", etc.). It should be equal to the identification used in <a class="el" href="../../d2/d48/language_8cpp.html">language.cpp</a>. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#af1d1a225ccc757c51c6cecfeda886b93">Translator</a>.</p>
 
@@ -1440,11 +1440,11 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Used to get the LaTeX command(s) for the language support. This method should return string with commands that switch LaTeX to the desired language. For example </p><pre>"\\usepackage[german]{babel}\n"
+<p>Used to get the LaTeX command(s) for the language support. This method should return string with commands that switch LaTeX to the desired language. For example </p><pre>"\\usepackage[german]{babel}\n"
  </pre><p> or </p><pre>"\\usepackage{polski}\n"
  "\\usepackage[latin2]{inputenc}\n"
  "\\usepackage[T1]{fontenc}\n"
- </pre><p >The English LaTeX does not use such commands. Because of this the empty string is returned in this implementation. </p>
+ </pre><p>The English LaTeX does not use such commands. Because of this the empty string is returned in this implementation. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#aa2cff88fa1aa000c9f5efe2ac12c4448">Translator</a>.</p>
 
@@ -1478,7 +1478,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Header of the sections with inherited members specific for the base class(es) </p>
+<p>Header of the sections with inherited members specific for the base class(es) </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#aa08d0eb2be4b26dcd40f9984c89201cf">Translator</a>.</p>
 
@@ -1509,7 +1509,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Used in the quick index of a class/file/namespace member list page to link to the unfiltered list of all members. </p>
+<p>Used in the quick index of a class/file/namespace member list page to link to the unfiltered list of all members. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a008615452dda018b06bfea08a2d1d552">Translator</a>.</p>
 
@@ -1543,7 +1543,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Used in dot graph when UML_LOOK is enabled and there are many fields </p>
+<p>Used in dot graph when UML_LOOK is enabled and there are many fields </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#abd4b544ad269cb9d961884cd00f14fca">Translator</a>.</p>
 
@@ -1617,7 +1617,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This text is generated when the \author command is used and for the author section in man pages. </p>
+<p>This text is generated when the \author command is used and for the author section in man pages. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#ab1d687861b87ec383f96cc0b323be6eb">Translator</a>.</p>
 
@@ -1653,7 +1653,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Used as a marker that is put before a \bug item </p>
+<p>Used as a marker that is put before a \bug item </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a09bd1ed5d149f8b2c37f660d7d84cfde">Translator</a>.</p>
 
@@ -1686,7 +1686,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Used as the header of the bug list </p>
+<p>Used as the header of the bug list </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a904e5e013c7329eb66fd98bc6709d4d5">Translator</a>.</p>
 
@@ -1719,7 +1719,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used to introduce a caller (or called-by) graph </p>
+<p>This is used to introduce a caller (or called-by) graph </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a4c8eaa74686abf7667ee9f0ac0b0bacd">Translator</a>.</p>
 
@@ -1752,7 +1752,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Put in front of the call graph for a function. </p>
+<p>Put in front of the call graph for a function. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a5f2fd294c6ca32ec48a76eff010b4ae0">Translator</a>.</p>
 
@@ -1785,7 +1785,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Header for the page with bibliographic citations </p>
+<p>Header for the page with bibliographic citations </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a3a5e754a2583632dfe5d49a1f7dd5b74">Translator</a>.</p>
 
@@ -1827,7 +1827,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used for translation of the word that will possibly be followed by a single name or by a list of names of the category. </p>
+<p>This is used for translation of the word that will possibly be followed by a single name or by a list of names of the category. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a887fa58ae73ee4585bd9d89359049196">Translator</a>.</p>
 
@@ -1863,7 +1863,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >this text is put before a class diagram </p>
+<p>this text is put before a class diagram </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#accaa2f30946a8b80b9347457f3090cc3">Translator</a>.</p>
 
@@ -1899,7 +1899,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in LaTeX as the title of the chapter containing the documentation of all classes, structs and unions. </p>
+<p>This is used in LaTeX as the title of the chapter containing the documentation of all classes, structs and unions. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a7f2ce6d3f52323d11e2ec9021c1daff1">Translator</a>.</p>
 
@@ -1947,7 +1947,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Used for Java classes in the summary section of Java packages </p>
+<p>Used for Java classes in the summary section of Java packages </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a182de1d9ac67d054637647d67d90f788">Translator</a>.</p>
 
@@ -1989,7 +1989,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is put above each page as a link to the class hierarchy </p>
+<p>This is put above each page as a link to the class hierarchy </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#aa0239ddf927f682dd691ea075cb8c675">Translator</a>.</p>
 
@@ -2020,7 +2020,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is an introduction to the class hierarchy. </p>
+<p>This is an introduction to the class hierarchy. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a05c4c5ca2361559b5424e6dbadcbdf5c">Translator</a>.</p>
 
@@ -2053,7 +2053,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Used as the header of a list of class methods in Objective-C. These are similar to static public member functions in C++. </p>
+<p>Used as the header of a list of class methods in Objective-C. These are similar to static public member functions in C++. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a666db44cbf3d6b05822b996aaec11a6b">Translator</a>.</p>
 
@@ -2086,7 +2086,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Text used the source code in the file index </p>
+<p>Text used the source code in the file index </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#af85261d5c63262a8dfdf918fd1b35fc2">Translator</a>.</p>
 
@@ -2120,7 +2120,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >this text is put before a collaboration diagram </p>
+<p>this text is put before a collaboration diagram </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a12dc094d188edbe3a801de8bb9f77c22">Translator</a>.</p>
 
@@ -2155,7 +2155,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in LaTeX as the title of the chapter with the annotated compound index. </p>
+<p>This is used in LaTeX as the title of the chapter with the annotated compound index. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a7040654c74fbc401fab833fa581ab04d">Translator</a>.</p>
 
@@ -2197,7 +2197,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in LaTeX as the title of the chapter with the annotated compound index (Fortran). </p>
+<p>This is used in LaTeX as the title of the chapter with the annotated compound index (Fortran). </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#ab704a3dfea30bf2f98e1d2b568027ecd">Translator</a>.</p>
 
@@ -2228,7 +2228,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is put above each page as a link to the list of annotated classes </p>
+<p>This is put above each page as a link to the list of annotated classes </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#af66045c049fb505e2e09605d641f2ff2">Translator</a>.</p>
 
@@ -2270,7 +2270,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is an introduction to the annotated compound list. </p>
+<p>This is an introduction to the annotated compound list. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a031a3a5017a0548c73bb764c7a6b24f4">Translator</a>.</p>
 
@@ -2318,7 +2318,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is an introduction to the annotated compound list (Fortran). </p>
+<p>This is an introduction to the annotated compound list (Fortran). </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#aee8fb1ec3c97865efe420ed67ca49c58">Translator</a>.</p>
 
@@ -2349,7 +2349,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is put above each page as a link to the list of annotated data types (Fortran). </p>
+<p>This is put above each page as a link to the list of annotated data types (Fortran). </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#aa63e646006549a0504783bcb9049a5c0">Translator</a>.</p>
 
@@ -2380,7 +2380,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is put above each page as a link to all members of compounds. </p>
+<p>This is put above each page as a link to all members of compounds. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a6c32b990a668865e04330007c37ecb2a">Translator</a>.</p>
 
@@ -2423,7 +2423,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is an introduction to the page with all class members. </p>
+<p>This is an introduction to the page with all class members. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a3f5797671f227e6a206aaa866973fcb2">Translator</a>.</p>
 
@@ -2495,7 +2495,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is an introduction to the page with all data types (Fortran). </p>
+<p>This is an introduction to the page with all data types (Fortran). </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#af9d5b1d1ff55debe8079331a2e32ea4a">Translator</a>.</p>
 
@@ -2543,7 +2543,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is put above each page as a link to all members of compounds (Fortran). </p>
+<p>This is put above each page as a link to all members of compounds (Fortran). </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#aef130f6aef47d68ad82b30299a8f704f">Translator</a>.</p>
 
@@ -2591,7 +2591,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >used as the title of the HTML page of a class/struct/union </p>
+<p>used as the title of the HTML page of a class/struct/union </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a272732383a9564fc3bd204c12e3d6362">Translator</a>.</p>
 
@@ -2664,7 +2664,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >used as the title of the HTML page of a module/type (Fortran) </p>
+<p>used as the title of the HTML page of a module/type (Fortran) </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#af202992af9669ac40ed2574dc0c13562">Translator</a>.</p>
 
@@ -2713,7 +2713,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in the documentation of a file/namespace/group before the list of links to documented compounds </p>
+<p>This is used in the documentation of a file/namespace/group before the list of links to documented compounds </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a8e2b65d58a4997060ee9f2feff75046b">Translator</a>.</p>
 
@@ -2824,7 +2824,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >header that is put before the list of constructor/destructors. </p>
+<p>header that is put before the list of constructor/destructors. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#af0bb3238975bac96f454f69e9b940538">Translator</a>.</p>
 
@@ -2857,7 +2857,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Text for copyright paragraph </p>
+<p>Text for copyright paragraph </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a9bef11a773c5cf0878f4d833b78df577">Translator</a>.</p>
 
@@ -2888,7 +2888,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in the documentation of a file/namespace/group before the list of links to documented compounds (Fortran) </p>
+<p>This is used in the documentation of a file/namespace/group before the list of links to documented compounds (Fortran) </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a0a0157cfc45d1bc085438bf1d3cca3bb">Translator</a>.</p>
 
@@ -2919,7 +2919,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >this text is generated when the \date command is used. </p>
+<p>this text is generated when the \date command is used. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#aa1e4638e8942601483cf2ba078b86f05">Translator</a>.</p>
 
@@ -3180,7 +3180,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >put after an undocumented member in the list of all members </p>
+<p>put after an undocumented member in the list of all members </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#adcf22e25b6f53f1e98a5461fa6fd4615">Translator</a>.</p>
 
@@ -3243,7 +3243,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in the documentation of a file before the list of documentation blocks for defines </p>
+<p>This is used in the documentation of a file before the list of documentation blocks for defines </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a931507210a6681017dbcfadedc0a30ce">Translator</a>.</p>
 
@@ -3274,7 +3274,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in the documentation of a file as a header before the list of defines </p>
+<p>This is used in the documentation of a file as a header before the list of defines </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#afe1d9b3dcd74bb8fb8c116c2c0e86e2e">Translator</a>.</p>
 
@@ -3305,7 +3305,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Text shown before a multi-line define </p>
+<p>Text shown before a multi-line define </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a33b3a92d21ec58a5cba1043aefbd466b">Translator</a>.</p>
 
@@ -3370,7 +3370,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Used as the header of the list of item that have been flagged deprecated </p>
+<p>Used as the header of the list of item that have been flagged deprecated </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a3da3ae447f82df17863e3ab80be0a8e9">Translator</a>.</p>
 
@@ -3403,7 +3403,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >header that is put before the detailed description of files, classes and namespaces. </p>
+<p>header that is put before the detailed description of files, classes and namespaces. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a6f0826040d05174e350c90920651bf45">Translator</a>.</p>
 
@@ -3434,7 +3434,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Detail level selector shown for hierarchical indices </p>
+<p>Detail level selector shown for hierarchical indices </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#ae7fe2488d7ab8950d24415d95d22bc80">Translator</a>.</p>
 
@@ -3476,7 +3476,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This returns the word directory with or without starting capital (<em>first_capital</em>) and in sigular or plural form (<em>singular</em>). </p>
+<p>This returns the word directory with or without starting capital (<em>first_capital</em>) and in sigular or plural form (<em>singular</em>). </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a63ce770ac66730a13f1686202e0c5d46">Translator</a>.</p>
 
@@ -3512,7 +3512,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Header for the graph showing the directory dependencies </p>
+<p>Header for the graph showing the directory dependencies </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a1f106a5c0506e65b2cc8fdb09ce9fa62">Translator</a>.</p>
 
@@ -3543,7 +3543,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used as the name of the chapter containing the documentation of the directories. </p>
+<p>This is used as the name of the chapter containing the documentation of the directories. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#ab3aee25a206ae53f6d4198b736a6b87d">Translator</a>.</p>
 
@@ -3574,7 +3574,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used as the title of the directory index and also in the Quick links of a HTML page, to link to the directory hierarchy. </p>
+<p>This is used as the title of the directory index and also in the Quick links of a HTML page, to link to the directory hierarchy. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a15ab2414971ee4ece3b2b59f7a4f67bf">Translator</a>.</p>
 
@@ -3605,7 +3605,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used as the name of the chapter containing the directory hierarchy. </p>
+<p>This is used as the name of the chapter containing the directory hierarchy. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a11169ba583e072969866a1c2ab5adacb">Translator</a>.</p>
 
@@ -3637,7 +3637,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This returns the title of a directory page. The name of the directory is passed via <em>dirName</em>. </p>
+<p>This returns the title of a directory page. The name of the directory is passed via <em>dirName</em>. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#af91f456b04ee9b4a27f286a49fc23a33">Translator</a>.</p>
 
@@ -3669,7 +3669,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >directory relation for <em>name</em> </p>
+<p>directory relation for <em>name</em> </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a7f34ebb879373b613c76214e6e77a4ac">Translator</a>.</p>
 
@@ -3702,7 +3702,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in HTML as the title of index.html. </p>
+<p>This is used in HTML as the title of index.html. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a49c727268a64ce6b2989070c475d14be">Translator</a>.</p>
 
@@ -3733,7 +3733,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in the documentation of a file as a header before the list of enumerations </p>
+<p>This is used in the documentation of a file as a header before the list of enumerations </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#aa64aafd8ba4afe93889cf3ca459eb862">Translator</a>.</p>
 
@@ -3764,7 +3764,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in the documentation of a file/namespace before the list of documentation blocks for enumeration types </p>
+<p>This is used in the documentation of a file/namespace before the list of documentation blocks for enumeration types </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a688c81619f410644c0fb5b3e7d96b4d6">Translator</a>.</p>
 
@@ -3795,7 +3795,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in the documentation of a file/namespace before the list of documentation blocks for enumeration values </p>
+<p>This is used in the documentation of a file/namespace before the list of documentation blocks for enumeration values </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#aea7d68b2384a8a88eaa88638e1af2d51">Translator</a>.</p>
 
@@ -3826,7 +3826,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in the documentation of a file as a header before the list of (global) variables </p>
+<p>This is used in the documentation of a file as a header before the list of (global) variables </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a61bb38a3a5fa42b9e1b1045a5151f092">Translator</a>.</p>
 
@@ -3858,7 +3858,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Used file list for a Java enum </p>
+<p>Used file list for a Java enum </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#af21afaff7590eb294ec7fb3b18029909">Translator</a>.</p>
 
@@ -3893,7 +3893,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >put after an enum name in the list of all members </p>
+<p>put after an enum name in the list of all members </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#abc6078e0cfddec33bfd37104629c8aa5">Translator</a>.</p>
 
@@ -3925,7 +3925,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Header of a Java enum page (Java enums are represented as classes). </p>
+<p>Header of a Java enum page (Java enums are represented as classes). </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a3befe2b4b27cc2947b3d3045561e675b">Translator</a>.</p>
 
@@ -3956,7 +3956,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >put after an enum value in the list of all members </p>
+<p>put after an enum value in the list of all members </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#ac967d215eaeada1586591ff86fcb27ee">Translator</a>.</p>
 
@@ -3987,7 +3987,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Header used for the documentation section of a class' events. </p>
+<p>Header used for the documentation section of a class' events. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a2c96efb89bc411ddbfe8250f9d0e2e24">Translator</a>.</p>
 
@@ -4020,7 +4020,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Used as a header for declaration section of the events found in a C# program </p>
+<p>Used as a header for declaration section of the events found in a C# program </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#ac9e66274bee002ddd496457b2f3dc266">Translator</a>.</p>
 
@@ -4053,7 +4053,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in LaTeX as the title of the chapter containing the documentation of all examples. </p>
+<p>This is used in LaTeX as the title of the chapter containing the documentation of all examples. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a7829ffeeebcaaddb10372921956a2d6e">Translator</a>.</p>
 
@@ -4084,7 +4084,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is put above each page as a link to all examples. </p>
+<p>This is put above each page as a link to all examples. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#ad0aac429d4bcd4489a41e395c5244976">Translator</a>.</p>
 
@@ -4115,7 +4115,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is an introduction to the page with the list of all examples </p>
+<p>This is an introduction to the page with the list of all examples </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a6f98d005e7b74f9d189abc30e3d48e6c">Translator</a>.</p>
 
@@ -4146,7 +4146,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >this text is generated when the \exception command is used. </p>
+<p>this text is generated when the \exception command is used. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a638f0cdaaad952acdd6830c76ff740fc">Translator</a>.</p>
 
@@ -4177,7 +4177,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Used in a method of an Objective-C category that extends a class. Note that the @1 marker is required and is replaced by a link to the class method. </p>
+<p>Used in a method of an Objective-C category that extends a class. Note that the @1 marker is required and is replaced by a link to the class method. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a49a3a1c8b254d7586c30f86034607563">Translator</a>.</p>
 
@@ -4221,7 +4221,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used for translation of the word that will possibly be followed by a single name or by a list of names of the category. </p>
+<p>This is used for translation of the word that will possibly be followed by a single name or by a list of names of the category. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#adcedc68246e92cc1e7e3c6e5a457acba">Translator</a>.</p>
 
@@ -4256,7 +4256,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in LaTeX as the title of the chapter containing the documentation of all files. </p>
+<p>This is used in LaTeX as the title of the chapter containing the documentation of all files. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a60511677ac6d642d9ad9226e6a225550">Translator</a>.</p>
 
@@ -4288,7 +4288,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >when clicking a directory dependency label, a page with a table is shown. The heading for the first column mentions the source file that has a relation to another file. </p>
+<p>when clicking a directory dependency label, a page with a table is shown. The heading for the first column mentions the source file that has a relation to another file. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#af0ae5eeb8f0f0a0238017fed8bf2aaa3">Translator</a>.</p>
 
@@ -4321,7 +4321,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in LaTeX as the title of the chapter with the list of all files. </p>
+<p>This is used in LaTeX as the title of the chapter with the list of all files. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a211fb54600da7fd1c98dc7b45e045f6b">Translator</a>.</p>
 
@@ -4352,7 +4352,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is put above each page as a link to the list of documented files </p>
+<p>This is put above each page as a link to the list of documented files </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#ac461556d9c97028bde87745fdc97b3cb">Translator</a>.</p>
 
@@ -4384,7 +4384,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is an introduction to the list with all files. </p>
+<p>This is an introduction to the list with all files. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a30b48fc385dd9707a52622ffebc4392e">Translator</a>.</p>
 
@@ -4420,7 +4420,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is put above each page as a link to all members of files. </p>
+<p>This is put above each page as a link to all members of files. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#ab1ae470cc9c32e47bdebde8141940ffe">Translator</a>.</p>
 
@@ -4463,7 +4463,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is an introduction to the page with all file members. </p>
+<p>This is an introduction to the page with all file members. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#ace231b43d772f05ca59d0aa18cbdd51b">Translator</a>.</p>
 
@@ -4515,7 +4515,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >used as the title of the HTML page of a file </p>
+<p>used as the title of the HTML page of a file </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a30792c89ec72b82b5edb8c1a602358f1">Translator</a>.</p>
 
@@ -4550,7 +4550,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >used in the class documentation as a header before the list of all friends of a class </p>
+<p>used in the class documentation as a header before the list of all friends of a class </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#ab046901f13c045c05588f7e45a3f806d">Translator</a>.</p>
 
@@ -4581,7 +4581,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in the documentation of a file/namespace before the list of documentation blocks for functions </p>
+<p>This is used in the documentation of a file/namespace before the list of documentation blocks for functions </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a3733d3cbf05292e37f9c6503e92e30ff">Translator</a>.</p>
 
@@ -4612,7 +4612,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in the documentation of a file as a header before the list of (global) functions </p>
+<p>This is used in the documentation of a file as a header before the list of (global) functions </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a47b276e3a96dfc48a2466b16b04c1360">Translator</a>.</p>
 
@@ -4654,7 +4654,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in the standard footer of each page and indicates when the page was generated </p>
+<p>This is used in the standard footer of each page and indicates when the page was generated </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#ade034ca30aff9cee3e24c3b498cdc3bc">Translator</a>.</p>
 
@@ -4694,7 +4694,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >this is put at the author sections at the bottom of man pages. parameter s is name of the project name. </p>
+<p>this is put at the author sections at the bottom of man pages. parameter s is name of the project name. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a9dd7e1320ba9493a5f85de295f2191dd">Translator</a>.</p>
 
@@ -4731,7 +4731,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >this text is used in the title page of a LaTeX document. </p>
+<p>this text is used in the title page of a LaTeX document. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a8ba96cf4ebea87a6706e8544661cb0c9">Translator</a>.</p>
 
@@ -4773,7 +4773,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is put at the bottom of a class documentation page and is followed by a list of files that were used to generate the page. </p>
+<p>This is put at the bottom of a class documentation page and is followed by a list of files that were used to generate the page. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#ab6cb87a7a16f256661ea6e7e08d333cb">Translator</a>.</p>
 
@@ -4834,7 +4834,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is put at the bottom of a module documentation page and is followed by a list of files that were used to generate the page. </p>
+<p>This is put at the bottom of a module documentation page and is followed by a list of files that were used to generate the page. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a58bd3fc18bce920201e873ed4338e9a7">Translator</a>.</p>
 
@@ -4896,7 +4896,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used for translation of the word that will possibly be followed by a single name or by a list of names of the category. </p>
+<p>This is used for translation of the word that will possibly be followed by a single name or by a list of names of the category. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a5a2679653633e7b81db3158b90216704">Translator</a>.</p>
 
@@ -4931,7 +4931,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Label used for search results in the global namespace </p>
+<p>Label used for search results in the global namespace </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#aa8d8adf1538babeb7e637ef4dba5549c">Translator</a>.</p>
 
@@ -4964,7 +4964,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Used in the file sources to point to the corresponding documentation. </p>
+<p>Used in the file sources to point to the corresponding documentation. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#ad513407b6d899db23bf73ae8c05a2c3a">Translator</a>.</p>
 
@@ -5029,7 +5029,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Used in the file documentation to point to the corresponding sources. </p>
+<p>Used in the file documentation to point to the corresponding sources. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a32f89b2666555fc695a9f06f8d808570">Translator</a>.</p>
 
@@ -5137,7 +5137,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used for translation of the word that will possibly be followed by a single name or by a list of names of the category. </p>
+<p>This is used for translation of the word that will possibly be followed by a single name or by a list of names of the category. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a3e440062dda08d55c8f9f99d572f6af0">Translator</a>.</p>
 
@@ -5172,7 +5172,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in LaTeX as the title of the chapter with the class hierarchy. </p>
+<p>This is used in LaTeX as the title of the chapter with the class hierarchy. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a2bd618847b3b5a486bc777240d791c5f">Translator</a>.</p>
 
@@ -5204,7 +5204,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >used in member documentation blocks to produce a list of members that are implemented by this one. </p>
+<p>used in member documentation blocks to produce a list of members that are implemented by this one. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#af6f635d2008014eab980bc9aa8544606">Translator</a>.</p>
 
@@ -5241,7 +5241,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >used in member documentation blocks to produce a list of all members that implement this abstract member. </p>
+<p>used in member documentation blocks to produce a list of all members that implement this abstract member. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a7d211e806e62d4203fa532b4735be716">Translator</a>.</p>
 
@@ -5310,7 +5310,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >this text is put before an include dependency graph </p>
+<p>this text is put before an include dependency graph </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a34760488c51cbbf81fef47688e1b146e">Translator</a>.</p>
 
@@ -5346,7 +5346,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >when clicking a directory dependency label, a page with a table is shown. The heading for the second column mentions the destination file that is included. </p>
+<p>when clicking a directory dependency label, a page with a table is shown. The heading for the second column mentions the destination file that is included. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a084166199bb2561feb9f056e4f3da489">Translator</a>.</p>
 
@@ -5379,7 +5379,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >this is the remainder of the sentence after the class name </p>
+<p>this is the remainder of the sentence after the class name </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a158a1104617de4cdbe589d2c2f678cb1">Translator</a>.</p>
 
@@ -5411,7 +5411,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >used in class documentation to produce a list of super classes, if class diagrams are disabled. </p>
+<p>used in class documentation to produce a list of super classes, if class diagrams are disabled. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#ac285a2e20bd3f084e02fbcc43c3e0caa">Translator</a>.</p>
 
@@ -5457,7 +5457,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Used for a section containing inherited members </p>
+<p>Used for a section containing inherited members </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a24bb807aebd790720af10e031fe476c7">Translator</a>.</p>
 
@@ -5489,7 +5489,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >used in class documentation to produce a list of base classes, if class diagrams are disabled. </p>
+<p>used in class documentation to produce a list of base classes, if class diagrams are disabled. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a837ce455893cb96869ab2cd7c049b729">Translator</a>.</p>
 
@@ -5524,7 +5524,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Text shown before a multi-line variable/enum initialization </p>
+<p>Text shown before a multi-line variable/enum initialization </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a79f4a5405cc412a027d7d35dd9b3d2d9">Translator</a>.</p>
 
@@ -5557,7 +5557,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Used as the header of a list of instance methods in Objective-C. These are similar to public member functions in C++. </p>
+<p>Used as the header of a list of instance methods in Objective-C. These are similar to public member functions in C++. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a51e57e0c406deea98a63e914a626eca6">Translator</a>.</p>
 
@@ -5622,7 +5622,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Text for the \invariant command </p>
+<p>Text for the \invariant command </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#af9a644c79e6da8b784bb0fe03a37fb15">Translator</a>.</p>
 
@@ -5687,7 +5687,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >text for the link to the legend page </p>
+<p>text for the link to the legend page </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a976b00badc594fa4d38ac4a9ab527a17">Translator</a>.</p>
 
@@ -5720,7 +5720,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >page explaining how the dot graph's should be interpreted The A in the text below are to prevent link to classes called "A". </p>
+<p>page explaining how the dot graph's should be interpreted The A in the text below are to prevent link to classes called "A". </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a897f4914e877c88c5970c71099d22fdb">Translator</a>.</p>
 
@@ -5814,7 +5814,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >title of the graph legend page </p>
+<p>title of the graph legend page </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#add6f65cea99a2aaffd476604277bda13">Translator</a>.</p>
 
@@ -5847,7 +5847,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >put in the class documentation </p>
+<p>put in the class documentation </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#ade3aeeb9d926bef235edea112a4aae3e">Translator</a>.</p>
 
@@ -5878,7 +5878,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Loading message shown when loading search results </p>
+<p>Loading message shown when loading search results </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a44cd9d9f06489e63609a980c7218e20c">Translator</a>.</p>
 
@@ -5911,7 +5911,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is in the (quick) index as a link to the main page (index.html) </p>
+<p>This is in the (quick) index as a link to the main page (index.html) </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#ae315af2d9a5d19fb5df34e76c5b0a182">Translator</a>.</p>
 
@@ -5953,7 +5953,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used for translation of the word that will possibly be followed by a single name or by a list of names of the category. </p>
+<p>This is used for translation of the word that will possibly be followed by a single name or by a list of names of the category. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#aa8a315987247035ab2aed48303716535">Translator</a>.</p>
 
@@ -5988,7 +5988,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >header that is put before the list of member attributes. </p>
+<p>header that is put before the list of member attributes. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a7951a0dfe5173b444a0bf464148c5961">Translator</a>.</p>
 
@@ -6030,7 +6030,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >header that is put before the list of enumerations. </p>
+<p>header that is put before the list of enumerations. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#aa327ece6b24bc5201a45a9fdee813556">Translator</a>.</p>
 
@@ -6061,7 +6061,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >header that is put before the list of member functions. </p>
+<p>header that is put before the list of member functions. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#aaf453b274c90d92010dd4673e3cdae93">Translator</a>.</p>
 
@@ -6092,7 +6092,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >header that is put before the list of member subprograms (Fortran). </p>
+<p>header that is put before the list of member subprograms (Fortran). </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a0b6cc2ce49b7b1587e958fd537bf2f22">Translator</a>.</p>
 
@@ -6123,7 +6123,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >used as the title of the "list of all members" page of a class </p>
+<p>used as the title of the "list of all members" page of a class </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a00110754c6a4bf3250db05aeec9ce441">Translator</a>.</p>
 
@@ -6154,7 +6154,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >header that is put before the list of typedefs. </p>
+<p>header that is put before the list of typedefs. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a381da0ae49e0801e0699b0e10b448d0b">Translator</a>.</p>
 
@@ -6185,7 +6185,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Used as the header of the member functions of an Objective-C class. </p>
+<p>Used as the header of the member functions of an Objective-C class. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a3bc5923ca3f5c0903cb3c94bdbabb8b3">Translator</a>.</p>
 
@@ -6229,7 +6229,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used for translation of the word that will possibly be followed by a single name or by a list of names of the category. </p>
+<p>This is used for translation of the word that will possibly be followed by a single name or by a list of names of the category. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#aacb52f5a80d2ad3e47b983a8d34c4371">Translator</a>.</p>
 
@@ -6264,7 +6264,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in LaTeX as the title of the chapter containing the documentation of all groups. </p>
+<p>This is used in LaTeX as the title of the chapter containing the documentation of all groups. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a8af0b797724f6454dd670173ecdea786">Translator</a>.</p>
 
@@ -6295,7 +6295,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in LaTeX as the title of the chapter with the index of all groups. </p>
+<p>This is used in LaTeX as the title of the chapter with the index of all groups. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a1528b760ac55c716b31a5bfeb0fce464">Translator</a>.</p>
 
@@ -6327,7 +6327,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >used as the title of the HTML page of a module (Fortran) </p>
+<p>used as the title of the HTML page of a module (Fortran) </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a846f57b4ca7bdc487eb403ffe3bcc7fa">Translator</a>.</p>
 
@@ -6362,7 +6362,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is put above each page as a link to the list of all groups of compounds or files (see the \group command). </p>
+<p>This is put above each page as a link to the list of all groups of compounds or files (see the \group command). </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a30ab06b4873f2a1147790b1f19070daa">Translator</a>.</p>
 
@@ -6393,7 +6393,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is an introduction to the page with the list of class/file groups </p>
+<p>This is an introduction to the page with the list of class/file groups </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a36c9337d60e94df29e4c7769910e0272">Translator</a>.</p>
 
@@ -6424,7 +6424,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in LaTeX as the title of the chapter with the index of all modules (Fortran). </p>
+<p>This is used in LaTeX as the title of the chapter with the index of all modules (Fortran). </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#aaa71718cc9cdcceea109f72ab6c23b44">Translator</a>.</p>
 
@@ -6455,7 +6455,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >used as the title of page containing all the index of all modules (Fortran). </p>
+<p>used as the title of page containing all the index of all modules (Fortran). </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a307b9ec047c97330b93adcdebb43a548">Translator</a>.</p>
 
@@ -6487,7 +6487,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >used as an introduction to the modules list (Fortran) </p>
+<p>used as an introduction to the modules list (Fortran) </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a5273ea86727c6460eae628782d416669">Translator</a>.</p>
 
@@ -6524,7 +6524,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is an introduction to the page with all modules members (Fortran) </p>
+<p>This is an introduction to the page with all modules members (Fortran) </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a7702dae5014c8f51767c12eb540d34e0">Translator</a>.</p>
 
@@ -6568,7 +6568,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is put above each page as a link to all members of modules. (Fortran) </p>
+<p>This is put above each page as a link to all members of modules. (Fortran) </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a73e62152bb05ffe75997806daf5e0b8d">Translator</a>.</p>
 
@@ -6654,7 +6654,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >this is the text of a link put after brief descriptions. </p>
+<p>this is the text of a link put after brief descriptions. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a739f39ac982745ec61d60bb8ed57bd6d">Translator</a>.</p>
 
@@ -6696,7 +6696,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used for translation of the word that will possibly be followed by a single name or by a list of names of the category. </p>
+<p>This is used for translation of the word that will possibly be followed by a single name or by a list of names of the category. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a4a3ca0198450342adb8599f00531a881">Translator</a>.</p>
 
@@ -6732,7 +6732,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in LaTeX as the title of the chapter containing the documentation of all namespaces. </p>
+<p>This is used in LaTeX as the title of the chapter containing the documentation of all namespaces. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a0760fb42dec2f5417768814ed628a26a">Translator</a>.</p>
 
@@ -6763,7 +6763,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in LaTeX as the title of the chapter with the index of all namespaces. </p>
+<p>This is used in LaTeX as the title of the chapter with the index of all namespaces. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a283f3fe348325ea95b6d65add32af790">Translator</a>.</p>
 
@@ -6794,7 +6794,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >used as the title of page containing all the index of all namespaces. </p>
+<p>used as the title of page containing all the index of all namespaces. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#aa204b3cebbb1807093fb76afca1e41e1">Translator</a>.</p>
 
@@ -6826,7 +6826,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >used as an introduction to the namespace list </p>
+<p>used as an introduction to the namespace list </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#ab47254ac74585b9a1f5aa51a689d2058">Translator</a>.</p>
 
@@ -6863,7 +6863,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is an introduction to the page with all namespace members </p>
+<p>This is an introduction to the page with all namespace members </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#acfb4ee07ff2d845063e70216569fad6c">Translator</a>.</p>
 
@@ -6903,7 +6903,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is put above each page as a link to all members of namespaces. </p>
+<p>This is put above each page as a link to all members of namespaces. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#ad4395d9d41cc9ab23624034e328401b5">Translator</a>.</p>
 
@@ -6935,7 +6935,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >used as the title of the HTML page of a namespace </p>
+<p>used as the title of the HTML page of a namespace </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a140ef235dc1e9c678f9e4d3990283ec7">Translator</a>.</p>
 
@@ -6970,7 +6970,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in the documentation before the list of all namespaces in a file. </p>
+<p>This is used in the documentation before the list of all namespaces in a file. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#aeb0ea0117f3c89b8d35780b8d5aa3640">Translator</a>.</p>
 
@@ -7001,7 +7001,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Text shown when no search results are found </p>
+<p>Text shown when no search results are found </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a7c29a8b20c38ea5a2195bef0864bd21f">Translator</a>.</p>
 
@@ -7066,7 +7066,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This text is added to the documentation when the \overload command is used for a overloaded function. </p>
+<p>This text is added to the documentation when the \overload command is used for a overloaded function. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#af933c719d65181b1cb11a7d07db37a09">Translator</a>.</p>
 
@@ -7102,7 +7102,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Used as the title of a Java package </p>
+<p>Used as the title of a Java package </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a098564ddace843a7b8699cf38c662173">Translator</a>.</p>
 
@@ -7135,7 +7135,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Used as a heading for a list of Java class variables with package scope. </p>
+<p>Used as a heading for a list of Java class variables with package scope. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#ac65b5c2a08b0b0df895d762ee1b90493">Translator</a>.</p>
 
@@ -7168,7 +7168,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Used as a heading for a list of Java class functions with package scope. </p>
+<p>Used as a heading for a list of Java class functions with package scope. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a479942c7b2a575f7d71f4aa50bf35718">Translator</a>.</p>
 
@@ -7201,7 +7201,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >The description of the package index page </p>
+<p>The description of the package index page </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a0d426f7f05e8f1ce512709d7dc24a302">Translator</a>.</p>
 
@@ -7266,7 +7266,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >The link name in the Quick links header for each page </p>
+<p>The link name in the Quick links header for each page </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a5d327e7906daeed24aa27d26f2a7c98a">Translator</a>.</p>
 
@@ -7299,7 +7299,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Used as a heading for a list of Java class types with package scope. </p>
+<p>Used as a heading for a list of Java class types with package scope. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#ad3328af2789b15e01a5050ffc7851d47">Translator</a>.</p>
 
@@ -7343,7 +7343,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used for translation of the word that will possibly be followed by a single name or by a list of names of the category. </p>
+<p>This is used for translation of the word that will possibly be followed by a single name or by a list of names of the category. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a6cf8494079dacb3504df0b71f1bd62f8">Translator</a>.</p>
 
@@ -7378,7 +7378,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in references to page that are put in the LaTeX documentation. It should be an abbreviation of the word page. </p>
+<p>This is used in references to page that are put in the LaTeX documentation. It should be an abbreviation of the word page. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a800bf5724b6cff1053d43470090e2963">Translator</a>.</p>
 
@@ -7442,7 +7442,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Used as a tooltip for the toggle button that appears in the navigation tree in the HTML output when GENERATE_TREEVIEW is enabled. This tooltip explains the meaning of the button. </p>
+<p>Used as a tooltip for the toggle button that appears in the navigation tree in the HTML output when GENERATE_TREEVIEW is enabled. This tooltip explains the meaning of the button. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#ac02207b116aa38a252f1f192e320fafe">Translator</a>.</p>
 
@@ -7476,7 +7476,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >this text is generated when the \param command is used. </p>
+<p>this text is generated when the \param command is used. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#aab8ec7804a21da51d6e6447d5dd19aea">Translator</a>.</p>
 
@@ -7507,7 +7507,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Text for the \post command </p>
+<p>Text for the \post command </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a970c167e640eff619d4202266c4cb0ce">Translator</a>.</p>
 
@@ -7540,7 +7540,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Text for the \pre command </p>
+<p>Text for the \pre command </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a1908a5ec684a3fb38fdfc50346d18530">Translator</a>.</p>
 
@@ -7697,7 +7697,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Used as a section header for IDL properties </p>
+<p>Used as a section header for IDL properties </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#af77d1512b4b3c84c0e37492d0c9fa249">Translator</a>.</p>
 
@@ -7730,7 +7730,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Used as a section header for IDL property documentation </p>
+<p>Used as a section header for IDL property documentation </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a238509e37848af806a976776bc8af8cb">Translator</a>.</p>
 
@@ -7887,7 +7887,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Used in a method of an Objective-C class that is declared in a a category. Note that the @1 marker is required and is replaced by a link. </p>
+<p>Used in a method of an Objective-C class that is declared in a a category. Note that the @1 marker is required and is replaced by a link. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a30fce1c46473ab0238add58ddc68355e">Translator</a>.</p>
 
@@ -8085,7 +8085,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in LaTeX as the title of the document </p>
+<p>This is used in LaTeX as the title of the document </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#af35d27f8e080e06312ae9a70edcaaeaf">Translator</a>.</p>
 
@@ -8116,7 +8116,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This text is put before the list of members referenced by a member </p>
+<p>This text is put before the list of members referenced by a member </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a9c8edf9885d809f859f7c91d847d2f67">Translator</a>.</p>
 
@@ -8150,7 +8150,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >used in member documentation blocks to produce a list of members that are hidden by this one. </p>
+<p>used in member documentation blocks to produce a list of members that are hidden by this one. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#ab4194f85d265659e3b0a962e3d2050f7">Translator</a>.</p>
 
@@ -8186,7 +8186,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >used in member documentation blocks to produce a list of all member that overwrite the implementation of this member. </p>
+<p>used in member documentation blocks to produce a list of all member that overwrite the implementation of this member. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a4c9b9e653e7d5b65307b2fd68c3c1dfb">Translator</a>.</p>
 
@@ -8221,7 +8221,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >used in the class documentation as a header before the list of all related classes </p>
+<p>used in the class documentation as a header before the list of all related classes </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#aec367f7f7b16943d6bb41572a728d064">Translator</a>.</p>
 
@@ -8252,7 +8252,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >used in the compound documentation before a list of related functions. </p>
+<p>used in the compound documentation before a list of related functions. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#af90d4efa4402e01bd8212af18b6a2c05">Translator</a>.</p>
 
@@ -8283,7 +8283,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is put above each page as a link to all related pages. </p>
+<p>This is put above each page as a link to all related pages. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a9211862fab0f3438ac948b60175c3a8f">Translator</a>.</p>
 
@@ -8314,7 +8314,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is an introduction to the page with the list of related pages </p>
+<p>This is an introduction to the page with the list of related pages </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a69514c5a8d25925e7cd60245ca5e8e73">Translator</a>.</p>
 
@@ -8345,7 +8345,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >subscript for the related functions. </p>
+<p>subscript for the related functions. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a766626cb6f268088fec86e9d3c20b2f3">Translator</a>.</p>
 
@@ -8408,7 +8408,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >this text is generated when the \return command is used. </p>
+<p>this text is generated when the \return command is used. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a6085a6938ea5edb5b1a61874983260e5">Translator</a>.</p>
 
@@ -8439,7 +8439,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used as the heading text for the retval command. </p>
+<p>This is used as the heading text for the retval command. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#af3f57cf1b57db46a8958688c4945daad">Translator</a>.</p>
 
@@ -8470,8 +8470,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Used as ansicpg for RTF file</p>
-<p >The following table shows the correlation of Charset name, Charset Value and </p><pre>
+<p>Used as ansicpg for RTF file</p>
+<p>The following table shows the correlation of Charset name, Charset Value and </p><pre>
 Codepage number:
 Charset Name       Charset Value(hex)  Codepage number
 ------------------------------------------------------
@@ -8522,7 +8522,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Used as ansicpg for RTF fcharset </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="../../db/d5f/class_translator_hungarian.html#aa3e8143837bae2721e36eff9ac36d120">trRTFansicp()</a> for a table of possible values. </dd></dl>
+<p>Used as ansicpg for RTF fcharset </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="../../db/d5f/class_translator_hungarian.html#aa3e8143837bae2721e36eff9ac36d120">trRTFansicp()</a> for a table of possible values. </dd></dl>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#afad391f3cbfb5ce6332b7239f8e2049a">Translator</a>.</p>
 
@@ -8555,7 +8555,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Used as header RTF general index </p>
+<p>Used as header RTF general index </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a023a76a06189f153d11dc150c664fbd8">Translator</a>.</p>
 
@@ -8588,7 +8588,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
   </tr>
 </table>
 </div><div class="memdoc">
-<p >used in RTF documentation as a heading for the Table of Contents. </p>
+<p>used in RTF documentation as a heading for the Table of Contents. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a68212eef7295b4a261cd05b88f00aa8b">Translator</a>.</p>
 
@@ -8621,7 +8621,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is put above each page as a link to the search engine. </p>
+<p>This is put above each page as a link to the search engine. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a2069e8807c39f57f4e665367d3e214d0">Translator</a>.</p>
 
@@ -8652,7 +8652,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Message shown while searching </p>
+<p>Message shown while searching </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a679d91793083e8bda60dbf346aad2623">Translator</a>.</p>
 
@@ -8685,7 +8685,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This string is put before the list of matched words, for each search result. What follows is the list of words that matched the query. </p>
+<p>This string is put before the list of matched words, for each search result. What follows is the list of words that matched the query. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a144382f5d8b61298e894387a7938559e">Translator</a>.</p>
 
@@ -8719,7 +8719,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This string is put just before listing the search results. The text can be different depending on the number of documents found. Inside the text you can put the special marker $num to insert the number representing the actual number of search results. The <em>numDocuments</em> parameter can be either 0, 1 or 2, where the value 2 represents 2 or more matches. HTML markup is allowed inside the returned string. </p>
+<p>This string is put just before listing the search results. The text can be different depending on the number of documents found. Inside the text you can put the special marker $num to insert the number representing the actual number of search results. The <em>numDocuments</em> parameter can be either 0, 1 or 2, where the value 2 represents 2 or more matches. HTML markup is allowed inside the returned string. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#aac55ca755f3f6bffc8baf2162bea7771">Translator</a>.</p>
 
@@ -8764,7 +8764,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This string is used as the title for the page listing the search results. </p>
+<p>This string is used as the title for the page listing the search results. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a39e01cdc61885a896f0ca9fbf700987d">Translator</a>.</p>
 
@@ -8797,7 +8797,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
   </tr>
 </table>
 </div><div class="memdoc">
-<p >this text is generated when the \sa command is used. </p>
+<p>this text is generated when the \sa command is used. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#ad1f5dba74deba99cafcf97a3df60164e">Translator</a>.</p>
 
@@ -9077,7 +9077,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in HTML as the title of page with source code for file filename </p>
+<p>This is used in HTML as the title of page with source code for file filename </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a25a12bd37f32c6ff636cd7d227175a5a">Translator</a>.</p>
 
@@ -9110,7 +9110,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Used as a heading for a list of static Java class variables with package scope. </p>
+<p>Used as a heading for a list of static Java class variables with package scope. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a186a1a9583c01752d452af26fd28d2b0">Translator</a>.</p>
 
@@ -9143,7 +9143,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Used as a heading for a list of static Java class functions with package scope. </p>
+<p>Used as a heading for a list of static Java class functions with package scope. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#aefcf5d93c2464f3ab6b51b98d6dab29f">Translator</a>.</p>
 
@@ -9373,7 +9373,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used for translation of the word that will possibly be followed by a single name or by a list of names of the category. </p>
+<p>This is used for translation of the word that will possibly be followed by a single name or by a list of names of the category. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a8afff623bf7e3a0e950ed28df4abd482">Translator</a>.</p>
 
@@ -9408,7 +9408,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in the documentation of a file/namespace before the list of documentation blocks for subprograms (Fortran) </p>
+<p>This is used in the documentation of a file/namespace before the list of documentation blocks for subprograms (Fortran) </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a66fabf8785f82dbb59804f67dc4aae84">Translator</a>.</p>
 
@@ -9439,7 +9439,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in the documentation of a file as a header before the list of (global) subprograms (Fortran). </p>
+<p>This is used in the documentation of a file as a header before the list of (global) subprograms (Fortran). </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#ad8bee4c72ece7c603742a06d2e097bb2">Translator</a>.</p>
 
@@ -9470,7 +9470,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Section header for list of template parameters </p>
+<p>Section header for list of template parameters </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#aad2e6bdd6f4e8d2b1eba09ff00c6db2e">Translator</a>.</p>
 
@@ -9501,7 +9501,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Used as a marker that is put before a test item </p>
+<p>Used as a marker that is put before a test item </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a092d95033a0447968f3c536b42e29dc5">Translator</a>.</p>
 
@@ -9534,7 +9534,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Used as the header of the test list </p>
+<p>Used as the header of the test list </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#ad29041fc573a780089d35d5b61533567">Translator</a>.</p>
 
@@ -9567,7 +9567,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
   </tr>
 </table>
 </div><div class="memdoc">
-<p >this is the first part of a sentence that is followed by a class name </p>
+<p>this is the first part of a sentence that is followed by a class name </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a7d3db35076be3c4855bd784f02948583">Translator</a>.</p>
 
@@ -9598,7 +9598,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Used as a marker that is put before a todo item </p>
+<p>Used as a marker that is put before a todo item </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a681cf622bc34bd65a3505fbf4cdcec07">Translator</a>.</p>
 
@@ -9631,7 +9631,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Used as the header of the todo list </p>
+<p>Used as the header of the todo list </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#aee6d584921e7851c57e016cb0c64c01b">Translator</a>.</p>
 
@@ -9675,7 +9675,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used for translation of the word that will possibly be followed by a single name or by a list of names of the category. </p>
+<p>This is used for translation of the word that will possibly be followed by a single name or by a list of names of the category. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a1fb2258a8a0fed41d8efec2ab2c88dce">Translator</a>.</p>
 
@@ -9710,7 +9710,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
   </tr>
 </table>
 </div><div class="memdoc">
-<p >C# Type Constraint list </p>
+<p>C# Type Constraint list </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a3695f44e92e6478f7a4f0aabf7cf37ad">Translator</a>.</p>
 
@@ -9743,7 +9743,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in the documentation of a file/namespace before the list of documentation blocks for typedefs </p>
+<p>This is used in the documentation of a file/namespace before the list of documentation blocks for typedefs </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a74a96db24fcfdcaea9988b7ffff60271">Translator</a>.</p>
 
@@ -9774,7 +9774,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in the documentation of a file as a header before the list of typedefs </p>
+<p>This is used in the documentation of a file as a header before the list of typedefs </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#afcd2ee932660156f0d368863391e1c90">Translator</a>.</p>
 
@@ -9805,7 +9805,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in LaTeX as the title of the chapter containing the documentation of all data types (Fortran). </p>
+<p>This is used in LaTeX as the title of the chapter containing the documentation of all data types (Fortran). </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a96a7cdf0b35d6c092875b364bac5f2cf">Translator</a>.</p>
 
@@ -9836,7 +9836,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in the documentation of a file/namespace before the list of documentation blocks for variables </p>
+<p>This is used in the documentation of a file/namespace before the list of documentation blocks for variables </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a637b04555eedd43402fe240760f302ea">Translator</a>.</p>
 
@@ -9867,7 +9867,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This is used in the documentation of a file as a header before the list of (global) variables </p>
+<p>This is used in the documentation of a file as a header before the list of (global) variables </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a436fe2e6f0ba8c4cdb544dd72a6e72a2">Translator</a>.</p>
 
@@ -9898,7 +9898,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
   </tr>
 </table>
 </div><div class="memdoc">
-<p >this text is generated when the \version command is used. </p>
+<p>this text is generated when the \version command is used. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a5969dae9422940f4675aa18304b16087">Translator</a>.</p>
 
@@ -9929,7 +9929,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
   </tr>
 </table>
 </div><div class="memdoc">
-<p >this text is generated when the \warning command is used. </p>
+<p>this text is generated when the \warning command is used. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#ad00b8ff1d576631ed24b1aaf81f21b82">Translator</a>.</p>
 
@@ -9961,7 +9961,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
   </tr>
 </table>
 </div><div class="memdoc">
-<p >this function is used to produce a comma-separated list of items. use generateMarker(i) to indicate where item i should be put. </p>
+<p>this function is used to produce a comma-separated list of items. use generateMarker(i) to indicate where item i should be put. </p>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a31e719b4e290a359ddbb78132bf3f494">Translator</a>.</p>
 

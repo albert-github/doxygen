@@ -126,8 +126,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a69a5b6af5318cae09594b6a48d6b0d99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >Abstract interface for outline parsers. </p>
-<p >By implementing the methods of this interface one can add a new language parser to doxygen. The parser implementation can make use of the comment block parser to parse the contents of special comment blocks. </p>
+<div class="textblock"><p>Abstract interface for outline parsers. </p>
+<p>By implementing the methods of this interface one can add a new language parser to doxygen. The parser implementation can make use of the comment block parser to parse the contents of special comment blocks. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../da/d55/parserintf_8h_source.html#l00042">42</a> of file <a class="el" href="../../da/d55/parserintf_8h_source.html">parserintf.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -278,7 +278,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Callback function called by the comment block scanner. </p>
-<p >It provides a string <em>text</em> containing the prototype of a function or variable. The parser should parse this and store the information in the <a class="el" href="../../d4/dd7/class_entry.html" title="Represents an unstructured piece of information, about an entity found in the sources.">Entry</a> node that corresponds with the node for which the comment block parser was invoked. </p>
+<p>It provides a string <em>text</em> containing the prototype of a function or variable. The parser should parse this and store the information in the <a class="el" href="../../d4/dd7/class_entry.html" title="Represents an unstructured piece of information, about an entity found in the sources.">Entry</a> node that corresponds with the node for which the comment block parser was invoked. </p>
 
 <p>Implemented in <a class="el" href="../../df/dc2/class_null_outline_parser.html#aeaa6f849822a258ab63ce182a96d8e1e">NullOutlineParser</a>, <a class="el" href="../../d9/d34/class_fortran_outline_parser.html#ab018695dfe0b2e1c71671ae7c425c2ab">FortranOutlineParser</a>, <a class="el" href="../../da/d7b/class_lex_outline_parser.html#ad381cb1e25cb3fc68a0d639c85fff348">LexOutlineParser</a>, <a class="el" href="../../d4/d77/class_markdown_outline_parser.html#aa01f3200563b06e0f9a6364f522685c8">MarkdownOutlineParser</a>, <a class="el" href="../../dd/d49/class_python_outline_parser.html#ad4163b5fd2c8ae60b73141e17049fe14">PythonOutlineParser</a>, <a class="el" href="../../df/d21/class_c_outline_parser.html#af5ec7bd6a3a1dc91c3939b61134b6618">COutlineParser</a>, and <a class="el" href="../../df/d4b/class_v_h_d_l_outline_parser.html#a6d25f36c3435b43a357c22163590dd3b">VHDLOutlineParser</a>.</p>
 

@@ -1,6 +1,5 @@
 var NAVTREEINDEX27 =
 {
-"d3/d77/class_latex_generator.html#ad790bdcf43dd464c13b127f412b7efe0":[8,0,343,212],
 "d3/d77/class_latex_generator.html#ad923c683685b854937c49870db835f48":[8,0,343,51],
 "d3/d77/class_latex_generator.html#ad9348eb54c1c58051655ecd83f2dd84d":[8,0,343,45],
 "d3/d77/class_latex_generator.html#ad9dbb39535bdff3e6b7e0e7fb9182782":[8,0,343,106],
@@ -249,5 +248,6 @@ var NAVTREEINDEX27 =
 "d3/d9a/formula_8h.html":[9,0,2,120],
 "d3/d9a/formula_8h_source.html":[9,0,2,120],
 "d3/d9b/translator__de_8h.html":[9,0,2,252],
-"d3/d9b/translator__de_8h_source.html":[9,0,2,252]
+"d3/d9b/translator__de_8h_source.html":[9,0,2,252],
+"d3/da1/class_translator_adapter__1__6__0.html":[8,0,554]
 };

@@ -148,8 +148,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a22ceaa4b6fdbc31b5f65db3f03aadd89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >Class representing a regular expression. </p>
-<p >It has a similar API as <code>std::regex</code>, but is much faster (and also somewhat more limited). </p>
+<div class="textblock"><p>Class representing a regular expression. </p>
+<p>It has a similar API as <code>std::regex</code>, but is much faster (and also somewhat more limited). </p>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d21/regex_8h_source.html#l00035">35</a> of file <a class="el" href="../../d1/d21/regex_8h_source.html">regex.h</a>.</p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
@@ -175,9 +175,9 @@ Private Attributes</h2></td></tr>
 
 <p>Matching algorithm. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8c11e4a47acf40a6747e2709961acdf9aaa3c0312d71dacb7f28dd70f21d32ac0" name="a8c11e4a47acf40a6747e2709961acdf9aaa3c0312d71dacb7f28dd70f21d32ac0"></a>RegEx&#160;</td><td class="fielddoc"><p >full regular expression. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8c11e4a47acf40a6747e2709961acdf9aaa3c0312d71dacb7f28dd70f21d32ac0" name="a8c11e4a47acf40a6747e2709961acdf9aaa3c0312d71dacb7f28dd70f21d32ac0"></a>RegEx&#160;</td><td class="fielddoc"><p>full regular expression. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8c11e4a47acf40a6747e2709961acdf9ac4a0dbaac3bd0f3bf581ad822f5fb4b4" name="a8c11e4a47acf40a6747e2709961acdf9ac4a0dbaac3bd0f3bf581ad822f5fb4b4"></a>Wildcard&#160;</td><td class="fielddoc"><p >simple globbing pattern. </p>
+<tr><td class="fieldname"><a id="a8c11e4a47acf40a6747e2709961acdf9ac4a0dbaac3bd0f3bf581ad822f5fb4b4" name="a8c11e4a47acf40a6747e2709961acdf9ac4a0dbaac3bd0f3bf581ad822f5fb4b4"></a>Wildcard&#160;</td><td class="fielddoc"><p>simple globbing pattern. </p>
 </td></tr>
 </table>
 
@@ -219,8 +219,8 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Creates a regular expression object given the pattern as a string. </p>
-<p >Two modes of matching are supported: RegEx and Wildcard</p>
-<p >The following special characters are supported in <a class="el" href="../../d2/dd8/classreg_1_1_ex.html#a8c11e4a47acf40a6747e2709961acdf9aaa3c0312d71dacb7f28dd70f21d32ac0" title="full regular expression.">Mode::RegEx</a> mode.</p><ul>
+<p>Two modes of matching are supported: RegEx and Wildcard</p>
+<p>The following special characters are supported in <a class="el" href="../../d2/dd8/classreg_1_1_ex.html#a8c11e4a47acf40a6747e2709961acdf9aaa3c0312d71dacb7f28dd70f21d32ac0" title="full regular expression.">Mode::RegEx</a> mode.</p><ul>
 <li><code>c</code> matches character <code>c</code></li>
 <li><code>.</code> matches any character</li>
 <li><code>^</code> matches the start of the input</li>
@@ -243,7 +243,7 @@ Private Attributes</h2></td></tr>
 <li><code>\w</code> matches any alpha numerical character, same as <code>[a-z_A-Z0-9\x80-\xFF]</code></li>
 <li><code>\xHH</code> matches a hexadecimal character, e.g. <code>\xA0</code> matches character code 160.</li>
 </ul>
-<p >A character range can be used to match a character that falls inside a range (or set of ranges). Within the opening <code>[</code> and closing <code>]</code> brackets of a character ranges the following is supported:</p><ul>
+<p>A character range can be used to match a character that falls inside a range (or set of ranges). Within the opening <code>[</code> and closing <code>]</code> brackets of a character ranges the following is supported:</p><ul>
 <li><code>^</code> if at the start of the range, a character matches if it is <em>not</em> in the range, e.g. <code>[^\d]</code> matches any character not a digit</li>
 <li><code>-</code> when placed between 2 characters it defines a range from the first character to the second. any character that falls in the range will match, e.g. [0-9] matches the digit from 0 to 9.</li>
 <li><code>\s</code>, <code>\d</code>, <code>\a</code>, and <code>\w</code> as explained above.</li>
@@ -285,7 +285,7 @@ that capture ranges cannot be nested, and <code>*</code>, <code>+</code>, and <c
 </div><div class="memdoc">
 
 <p>Destroys the regular expression object. </p>
-<p >Frees resources. </p>
+<p>Frees resources. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d85/regex_8cpp_source.html#l00703">703</a> of file <a class="el" href="../../d6/d85/regex_8cpp_source.html">regex.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  704</span>{</div>

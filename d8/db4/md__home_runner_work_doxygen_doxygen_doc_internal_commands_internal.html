@@ -94,7 +94,7 @@ $(document).ready(function(){initNavTree('d8/db4/md__home_runner_work_doxygen_do
   <div class="headertitle"><div class="title">Overview of introduction of internal special commands </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p ><a class="anchor" id="pg_cmds_int"></a> The following table gives an overview of the doxygen internal special commands and the version in which they were introduced.</p>
+<div class="textblock"><p><a class="anchor" id="pg_cmds_int"></a> The following table gives an overview of the doxygen internal special commands and the version in which they were introduced.</p>
 <div>
 <ul class="multicol">
 <li><a class="el" href="../../d8/db4/md__home_runner_work_doxygen_doxygen_doc_internal_commands_internal.html#cmdendicode">\endicode</a></li>
@@ -111,51 +111,51 @@ $(document).ready(function(){initNavTree('d8/db4/md__home_runner_work_doxygen_do
 <hr  />
  <h1><a class="anchor" id="cmdilinebr"></a>
 \ilinebr</h1>
-<p ><a id="a0_:5Cilinebr" name="a0_:5Cilinebr"></a> Internal doxygen command to simulate an end of line, but without advancing the line counter. In this way it is possible to have multiple commands on one line that read till the end of line. This command is internally used by doxygen and for replacement of the <code>^^</code> in <code>ALIASES</code> settings. This command sees to it that e.g. warning messages stay correct when a command is replaced internally by multiple commands.</p>
-<p >Temporarily also as <code>@_ilinebr</code> (doxygen version 1.8.14) and <code>\_ilinebr</code> (doxygen version 1.8.15 till 1.8.18)</p>
+<p><a id="a0_:5Cilinebr" name="a0_:5Cilinebr"></a> Internal doxygen command to simulate an end of line, but without advancing the line counter. In this way it is possible to have multiple commands on one line that read till the end of line. This command is internally used by doxygen and for replacement of the <code>^^</code> in <code>ALIASES</code> settings. This command sees to it that e.g. warning messages stay correct when a command is replaced internally by multiple commands.</p>
+<p>Temporarily also as <code>@_ilinebr</code> (doxygen version 1.8.14) and <code>\_ilinebr</code> (doxygen version 1.8.15 till 1.8.18)</p>
 <dl class="section since"><dt>Since</dt><dd>doxygen version 1.8.19</dd></dl>
 <hr  />
  <h1><a class="anchor" id="cmdifile"></a>
 \ifile &lt;filename&gt;</h1>
-<p ><a id="a1_:5Cifile" name="a1_:5Cifile"></a></p>
-<p >Internal doxygen command to reset the current filename in a documentation block so that doxygen can give a better warning about the original source of a problem when a documentation block is constructed from multiple files.</p>
+<p><a id="a1_:5Cifile" name="a1_:5Cifile"></a></p>
+<p>Internal doxygen command to reset the current filename in a documentation block so that doxygen can give a better warning about the original source of a problem when a documentation block is constructed from multiple files.</p>
 <dl class="section since"><dt>Since</dt><dd>doxygen version 1.9.5</dd></dl>
 <hr  />
  <h1><a class="anchor" id="cmdiline"></a>
 \iline &lt;linenr&gt;</h1>
-<p ><a id="a2_:5Ciline" name="a2_:5Ciline"></a></p>
-<p >Internal doxygen command to reset the current line counter in a documentation block so that doxygen can give a better warning about the original source of a problem when a documentation block is constructed from multiple files or blocks from one file.</p>
+<p><a id="a2_:5Ciline" name="a2_:5Ciline"></a></p>
+<p>Internal doxygen command to reset the current line counter in a documentation block so that doxygen can give a better warning about the original source of a problem when a documentation block is constructed from multiple files or blocks from one file.</p>
 <dl class="section since"><dt>Since</dt><dd>doxygen version 1.9.2</dd></dl>
 <hr  />
  <h1><a class="anchor" id="cmdicode"></a>
 \icode['{'&lt;word&gt;'}']</h1>
-<p ><a id="a3_:5Cicode" name="a3_:5Cicode"></a> This command has a similar syntax and function as the command <code>\code</code>, but is internally used for markdown fenced code blocks (i.e. <code>```</code> and <code>~~~</code> type of blocks) to replace these markers. The <code>\code</code> command cannot be used as in that case the block cannot contain a <code>\endcode</code> as this would terminate the <code>\code</code> block.</p>
+<p><a id="a3_:5Cicode" name="a3_:5Cicode"></a> This command has a similar syntax and function as the command <code>\code</code>, but is internally used for markdown fenced code blocks (i.e. <code>```</code> and <code>~~~</code> type of blocks) to replace these markers. The <code>\code</code> command cannot be used as in that case the block cannot contain a <code>\endcode</code> as this would terminate the <code>\code</code> block.</p>
 <dl class="section since"><dt>Since</dt><dd>doxygen version 1.9.5</dd></dl>
 <hr  />
  <h1><a class="anchor" id="cmdendicode"></a>
 \endicode</h1>
-<p ><a id="a4_:5Cendicode" name="a4_:5Cendicode"></a> Ends a block of text that was started with a <a class="el" href="../../d8/db4/md__home_runner_work_doxygen_doxygen_doc_internal_commands_internal.html#cmdicode">\icode</a> command.</p>
+<p><a id="a4_:5Cendicode" name="a4_:5Cendicode"></a> Ends a block of text that was started with a <a class="el" href="../../d8/db4/md__home_runner_work_doxygen_doxygen_doc_internal_commands_internal.html#cmdicode">\icode</a> command.</p>
 <dl class="section since"><dt>Since</dt><dd>doxygen version 1.9.5</dd></dl>
 <hr  />
  <h1><a class="anchor" id="cmdiliteral"></a>
 \iliteral['{'&lt;option&gt;'}']</h1>
-<p ><a id="a5_:5Ciliteral" name="a5_:5Ciliteral"></a></p>
-<p >This command is to replace the Java documentation commands <code>{@literal .... }</code> and <code>{@code ...}</code>. The text in the blocks will not be interpreted by doxygen in any way. The text in the <code>{@literal</code> will put as is text in the output. The text in the <code>{@code</code> will be replaced by a code block with class <code>JavaDocCode</code> i.e. <code>&lt;code class="JavaDocCode"&gt;...&lt;/code&gt;</code>.</p>
+<p><a id="a5_:5Ciliteral" name="a5_:5Ciliteral"></a></p>
+<p>This command is to replace the Java documentation commands <code>{@literal .... }</code> and <code>{@code ...}</code>. The text in the blocks will not be interpreted by doxygen in any way. The text in the <code>{@literal</code> will put as is text in the output. The text in the <code>{@code</code> will be replaced by a code block with class <code>JavaDocCode</code> i.e. <code>&lt;code class="JavaDocCode"&gt;...&lt;/code&gt;</code>.</p>
 <dl class="section since"><dt>Since</dt><dd>doxygen version 1.9.3</dd></dl>
 <hr  />
  <h1><a class="anchor" id="cmdendiliteral"></a>
 \endiliteral</h1>
-<p ><a id="a6_:5Cendiliteral" name="a6_:5Cendiliteral"></a> Ends a block of text that was started with a <a class="el" href="../../d8/db4/md__home_runner_work_doxygen_doxygen_doc_internal_commands_internal.html#cmdiliteral">\iliteral</a> command.</p>
+<p><a id="a6_:5Cendiliteral" name="a6_:5Cendiliteral"></a> Ends a block of text that was started with a <a class="el" href="../../d8/db4/md__home_runner_work_doxygen_doxygen_doc_internal_commands_internal.html#cmdiliteral">\iliteral</a> command.</p>
 <dl class="section since"><dt>Since</dt><dd>doxygen version 1.9.3</dd></dl>
 <hr  />
  <h1><a class="anchor" id="cmdiverbatim"></a>
 \iverbatim</h1>
-<p ><a id="a7_:5Civerbatim" name="a7_:5Civerbatim"></a> This command has a similar function as the command <code>\verbatim</code>, but is internally used for markdown code blocks (i.e. blocks of text indented with at least 4 extra spaces compared to the previous block) and python unformatted docstrings (i.e. <code>'''</code> type of blocks) to replace these markers. The <code>\verbatim</code> command cannot be used as in that case the block cannot contain a <code>\endverbatim</code> as this would terminate the <code>\verbatim</code> block.</p>
+<p><a id="a7_:5Civerbatim" name="a7_:5Civerbatim"></a> This command has a similar function as the command <code>\verbatim</code>, but is internally used for markdown code blocks (i.e. blocks of text indented with at least 4 extra spaces compared to the previous block) and python unformatted docstrings (i.e. <code>'''</code> type of blocks) to replace these markers. The <code>\verbatim</code> command cannot be used as in that case the block cannot contain a <code>\endverbatim</code> as this would terminate the <code>\verbatim</code> block.</p>
 <dl class="section since"><dt>Since</dt><dd>doxygen version 1.9.5</dd></dl>
 <hr  />
  <h1><a class="anchor" id="cmdendiverbatim"></a>
 \endiverbatim</h1>
-<p ><a id="a8_:5Cendiverbatim" name="a8_:5Cendiverbatim"></a> Ends a block of text that was started with a <a class="el" href="../../d8/db4/md__home_runner_work_doxygen_doxygen_doc_internal_commands_internal.html#cmdiverbatim">\iverbatim</a> command.</p>
+<p><a id="a8_:5Cendiverbatim" name="a8_:5Cendiverbatim"></a> Ends a block of text that was started with a <a class="el" href="../../d8/db4/md__home_runner_work_doxygen_doxygen_doc_internal_commands_internal.html#cmdiverbatim">\iverbatim</a> command.</p>
 <dl class="section since"><dt>Since</dt><dd>doxygen version 1.9.5</dd></dl>
 <hr  />
  </div></div><!-- contents -->

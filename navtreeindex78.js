@@ -1,6 +1,5 @@
 var NAVTREEINDEX78 =
 {
-"da/db8/class_translator_armenian.html#a398b1ea5d8b526dbcbf23aa1a4535e79":[8,0,567,4],
 "da/db8/class_translator_armenian.html#a39e8bf2d4a331136e555d70937d829aa":[8,0,567,44],
 "da/db8/class_translator_armenian.html#a3dc74657189ab7fdfae42288a41b5807":[8,0,567,25],
 "da/db8/class_translator_armenian.html#a3ed974b41a2ad4cc95645689ff4735dd":[8,0,567,196],
@@ -249,5 +248,6 @@ var NAVTREEINDEX78 =
 "da/dbb/class_translator_bulgarian.html#a4091cf9307786d901cf9e3bd84a604c8":[8,0,569,280],
 "da/dbb/class_translator_bulgarian.html#a4225d54f63ed89d131990e37003db71f":[8,0,569,73],
 "da/dbb/class_translator_bulgarian.html#a4397db84b0f73cb8dc1bdcfb4376fb88":[8,0,569,107],
-"da/dbb/class_translator_bulgarian.html#a4421e2fbf7f09e70293df22a94726c79":[8,0,569,276]
+"da/dbb/class_translator_bulgarian.html#a4421e2fbf7f09e70293df22a94726c79":[8,0,569,276],
+"da/dbb/class_translator_bulgarian.html#a47b0ef3f51b9581b022c9c5ec30fdc22":[8,0,569,100]
 };

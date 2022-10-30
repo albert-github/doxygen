@@ -171,12 +171,12 @@ Functions</h2></td></tr>
 <tr class="separator:adcc79fb659af7f9b25501a5c166cea53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >This scanner is used to convert a string into a list of function or template arguments. Each parsed argument results in a <a class="el" href="../../d1/dee/struct_argument.html" title="This class contains the information about the argument of a function or template.">Argument</a> struct, that is put into an <a class="el" href="../../d7/df8/class_argument_list.html" title="This class represents an function or template argument list.">ArgumentList</a> in declaration order. Comment blocks for arguments can also be included in the string. The argument string does not contain new-lines (except inside any comment blocks). An <a class="el" href="../../d1/dee/struct_argument.html" title="This class contains the information about the argument of a function or template.">Argument</a> consists of the string fields: type,name,default value, and documentation The <a class="el" href="../../d1/dee/struct_argument.html" title="This class contains the information about the argument of a function or template.">Argument</a> list as a whole can be pure, constant or volatile.</p>
-<p >Examples of input strings are: </p><pre class="fragment">*    "(int a,int b) const"
+<div class="textblock"><p>This scanner is used to convert a string into a list of function or template arguments. Each parsed argument results in a <a class="el" href="../../d1/dee/struct_argument.html" title="This class contains the information about the argument of a function or template.">Argument</a> struct, that is put into an <a class="el" href="../../d7/df8/class_argument_list.html" title="This class represents an function or template argument list.">ArgumentList</a> in declaration order. Comment blocks for arguments can also be included in the string. The argument string does not contain new-lines (except inside any comment blocks). An <a class="el" href="../../d1/dee/struct_argument.html" title="This class contains the information about the argument of a function or template.">Argument</a> consists of the string fields: type,name,default value, and documentation The <a class="el" href="../../d1/dee/struct_argument.html" title="This class contains the information about the argument of a function or template.">Argument</a> list as a whole can be pure, constant or volatile.</p>
+<p>Examples of input strings are: </p><pre class="fragment">*    "(int a,int b) const"
 *    "(const char *s="hello world",int=5) = 0"
 *    "&lt;class T,class N&gt;"
 *    "(char c,const char)"
-*  </pre><p >Note: It is not always possible to distinguish between the name and type of an argument. In case of doubt the name is added to the type, and the matchArgumentList in <a class="el" href="../../df/d2d/util_8cpp.html">util.cpp</a> is be used to further determine the correct separation. </p>
+*  </pre><p>Note: It is not always possible to distinguish between the name and type of an argument. In case of doubt the name is added to the type, and the matchArgumentList in <a class="el" href="../../df/d2d/util_8cpp.html">util.cpp</a> is be used to further determine the correct separation. </p>
 
 <p class="definition">Definition in file <a class="el" href="../../de/df3/defargs_8l_source.html">defargs.l</a>.</p>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
@@ -489,7 +489,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Converts an argument string into an <a class="el" href="../../d7/df8/class_argument_list.html" title="This class represents an function or template argument list.">ArgumentList</a>. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Converts an argument string into an <a class="el" href="../../d7/df8/class_argument_list.html" title="This class represents an function or template argument list.">ArgumentList</a>. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">lang</td><td>language of the current argument list </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">argsString</td><td>the list of Arguments. </td></tr>

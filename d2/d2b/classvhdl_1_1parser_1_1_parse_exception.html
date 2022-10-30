@@ -147,9 +147,9 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a2b857653fcb33df53b87503a48616a70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >This exception is thrown when parse errors are encountered. </p>
-<p >You can explicitly create objects of this exception type by calling the method generateParseException in the generated parser.</p>
-<p >You can modify this class to customize your error reporting mechanisms so long as you retain the fields. </p>
+<div class="textblock"><p>This exception is thrown when parse errors are encountered. </p>
+<p>You can explicitly create objects of this exception type by calling the method generateParseException in the generated parser.</p>
+<p>You can modify this class to customize your error reporting mechanisms so long as you retain the fields. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/de0/_parse_exception_8h_source.html#l00021">21</a> of file <a class="el" href="../../d7/de0/_parse_exception_8h_source.html">ParseException.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -186,7 +186,7 @@ Private Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>This constructor is used by the method "generateParseException" in the generated parser. </p>
-<p >Calling this constructor generates a new object of this type with the fields "currentToken", "expectedTokenSequences", and "tokenImage" set. </p>
+<p>Calling this constructor generates a new object of this type with the fields "currentToken", "expectedTokenSequences", and "tokenImage" set. </p>
 
 </div>
 </div>
@@ -206,7 +206,7 @@ Private Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The following constructors are for use by you for whatever purpose you can think of. </p>
-<p >Constructing the exception in this manner makes the exception behave in the normal way - i.e., as documented in the class "Throwable". The fields "errorToken", "expectedTokenSequences", and "tokenImage" do not contain relevant information. The JavaCC generated code does not use these constructors. </p>
+<p>Constructing the exception in this manner makes the exception behave in the normal way - i.e., as documented in the class "Throwable". The fields "errorToken", "expectedTokenSequences", and "tokenImage" do not contain relevant information. The JavaCC generated code does not use these constructors. </p>
 
 </div>
 </div>
@@ -300,7 +300,7 @@ Private Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>It uses "currentToken" and "expectedTokenSequences" to generate a parse error message and returns it. </p>
-<p >If this object has been created due to a parse error, and you do not catch it (it gets thrown from the parser) the correct error message gets displayed. </p>
+<p>If this object has been created due to a parse error, and you do not catch it (it gets thrown from the parser) the correct error message gets displayed. </p>
 
 </div>
 </div>
@@ -318,7 +318,7 @@ Private Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>This is the last token that has been consumed successfully. </p>
-<p >If this object has been created due to a parse error, the token following this token will (therefore) be the first error token. </p>
+<p>If this object has been created due to a parse error, the token following this token will (therefore) be the first error token. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/de0/_parse_exception_8h_source.html#l00056">56</a> of file <a class="el" href="../../d7/de0/_parse_exception_8h_source.html">ParseException.h</a>.</p>
 
@@ -337,7 +337,7 @@ Private Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Each entry in this array is an array of integers. </p>
-<p >Each array of integers represents a sequence of tokens (by their ordinal values) that is expected at this point of the parse. </p>
+<p>Each array of integers represents a sequence of tokens (by their ordinal values) that is expected at this point of the parse. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/de0/_parse_exception_8h_source.html#l00063">63</a> of file <a class="el" href="../../d7/de0/_parse_exception_8h_source.html">ParseException.h</a>.</p>
 
@@ -356,7 +356,7 @@ Private Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>This is a reference to the "tokenImage" array of the generated parser within which the parse error occurred. </p>
-<p >This array is defined in the generated ...Constants class. </p>
+<p>This array is defined in the generated ...Constants class. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/de0/_parse_exception_8h_source.html#l00070">70</a> of file <a class="el" href="../../d7/de0/_parse_exception_8h_source.html">ParseException.h</a>.</p>
 

@@ -140,14 +140,14 @@ Typedefs</h2></td></tr>
 <tr class="separator:ga721a09a9636793ccb7ae9db5aeef5751"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p >This is the API for a <a href="https://www.djangoproject.com/">Django</a> compatible template system written in C++. </p>
-<p >It is somewhat inspired by Stephen Kelly's <a href="http://www.gitorious.org/grantlee/pages/Home">Grantlee</a>.</p>
-<p >A template is simply a text file. A template contains <b>variables</b>, which get replaced with values when the template is evaluated, and <b>tags</b>, which control the logic of the template.</p>
-<p >Variables look like this: <code>{{ variable }}</code> When the template engine encounters a variable, it evaluates that variable and replaces it with the result. Variable names consist of any combination of alphanumeric characters and the underscore ("_"). Use a dot (.) to access attributes of a structured variable.</p>
-<p >One can modify variables for display by using <b>filters</b>, for example: <code>{{ value|default:"nothing" }}</code></p>
-<p >Tags look like this: <code>{% tag %}</code>. Tags are more complex than variables: Some create text in the output, some control flow by performing loops or logic, and some load external information into the template to be used by later variables.</p>
-<p >To comment-out part of a line in a template, use the comment syntax: <code>{# comment text #}</code>.</p>
-<p >Supported Django tags:</p><ul>
+<p>This is the API for a <a href="https://www.djangoproject.com/">Django</a> compatible template system written in C++. </p>
+<p>It is somewhat inspired by Stephen Kelly's <a href="http://www.gitorious.org/grantlee/pages/Home">Grantlee</a>.</p>
+<p>A template is simply a text file. A template contains <b>variables</b>, which get replaced with values when the template is evaluated, and <b>tags</b>, which control the logic of the template.</p>
+<p>Variables look like this: <code>{{ variable }}</code> When the template engine encounters a variable, it evaluates that variable and replaces it with the result. Variable names consist of any combination of alphanumeric characters and the underscore ("_"). Use a dot (.) to access attributes of a structured variable.</p>
+<p>One can modify variables for display by using <b>filters</b>, for example: <code>{{ value|default:"nothing" }}</code></p>
+<p>Tags look like this: <code>{% tag %}</code>. Tags are more complex than variables: Some create text in the output, some control flow by performing loops or logic, and some load external information into the template to be used by later variables.</p>
+<p>To comment-out part of a line in a template, use the comment syntax: <code>{# comment text #}</code>.</p>
+<p>Supported Django tags:</p><ul>
 <li><code>for ... empty ... endfor</code></li>
 <li><code>if ... else ... endif</code></li>
 <li><code>block ... endblock</code></li>
@@ -157,16 +157,16 @@ Typedefs</h2></td></tr>
 <li><code>spaceless ... endspaceless</code></li>
 <li><code>cycle</code></li>
 </ul>
-<p >Extension tags:</p><ul>
+<p>Extension tags:</p><ul>
 <li><code>create</code> which instantiates a template and writes the result to a file. The syntax is &lsquo;{% create 'filename&rsquo; from 'template' %}<code>. -</code>recursetree<code> -</code>markers<code> -</code>msg<code>...</code>endmsg<code> -</code>set`</li>
 </ul>
-<p >Supported Django filters:</p><ul>
+<p>Supported Django filters:</p><ul>
 <li><code>default</code></li>
 <li><code>length</code></li>
 <li><code>add</code></li>
 <li><code>divisibleby</code></li>
 </ul>
-<p >Extension filters:</p><ul>
+<p>Extension filters:</p><ul>
 <li><code>stripPath</code></li>
 <li><code>nowrap</code></li>
 <li><code>prepend</code></li>

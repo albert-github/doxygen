@@ -261,7 +261,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>You can also modify the body of this method to customize your error messages. </p>
-<p >For example, cases like LOOP_DETECTED and INVALID_LEXICAL_STATE are not of end-users concern, so you can return something like : </p><pre class="fragment">"Internal Error : Please file a bug report .... "
+<p>For example, cases like LOOP_DETECTED and INVALID_LEXICAL_STATE are not of end-users concern, so you can return something like : </p><pre class="fragment">"Internal Error : Please file a bug report .... "
 </pre><p> from this method for such cases in the release version of your parser. </p>
 
 </div>
@@ -317,7 +317,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns a detailed message for the Error when it is thrown by the token manager to indicate a lexical error. </p>
-<p >Parameters : EOFSeen : indicates if EOF caused the lexical error curLexState : lexical state in which this error occurred errorLine : line number when the error occurred errorColumn : column number when the error occurred errorAfter : prefix that was seen before this error occurred curchar : the offending character Note: You can customize the lexical error message by modifying this method. </p>
+<p>Parameters : EOFSeen : indicates if EOF caused the lexical error curLexState : lexical state in which this error occurred errorLine : line number when the error occurred errorColumn : column number when the error occurred errorAfter : prefix that was seen before this error occurred curchar : the offending character Note: You can customize the lexical error message by modifying this method. </p>
 
 </div>
 </div>
@@ -335,7 +335,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Indicates the reason why the exception is thrown. </p>
-<p >It will have one of the above 4 values. </p>
+<p>It will have one of the above 4 values. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../de/d2f/_token_mgr_error_8h_source.html#l00044">44</a> of file <a class="el" href="../../de/d2f/_token_mgr_error_8h_source.html">TokenMgrError.h</a>.</p>
 

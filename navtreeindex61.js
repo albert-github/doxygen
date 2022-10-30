@@ -1,6 +1,5 @@
 var NAVTREEINDEX61 =
 {
-"d8/d83/class_translator_latvian.html#a61933ec05bfbd11cda84ba671163515c":[8,0,591,202],
 "d8/d83/class_translator_latvian.html#a626d89e318c916155764e78a14a327c5":[8,0,591,205],
 "d8/d83/class_translator_latvian.html#a641b538c690d3574673976b7eed5a173":[8,0,591,70],
 "d8/d83/class_translator_latvian.html#a645dfdf558e7f0a2749ccff085fddce5":[8,0,591,47],
@@ -160,10 +159,10 @@ var NAVTREEINDEX61 =
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html":[8,0,5,0,2],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a0994fa11976ac659180bf73c1068783e":[8,0,5,0,2,3],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a0994fa11976ac659180bf73c1068783e":[7,0,8,0,2,3],
-"d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a5d25b6278ae014a14a0f5be2678f663c":[7,0,8,0,2,4],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a5d25b6278ae014a14a0f5be2678f663c":[8,0,5,0,2,4],
-"d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a6b6a95b77fab1e71ce05bd43da1b8f67":[8,0,5,0,2,5],
+"d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a5d25b6278ae014a14a0f5be2678f663c":[7,0,8,0,2,4],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a6b6a95b77fab1e71ce05bd43da1b8f67":[7,0,8,0,2,5],
+"d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a6b6a95b77fab1e71ce05bd43da1b8f67":[8,0,5,0,2,5],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a952889761822083d0eb8175cc62e6b7f":[7,0,8,0,2,2],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a952889761822083d0eb8175cc62e6b7f":[8,0,5,0,2,2],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a953e9b05e336c11f8e2435b3ea506bc1":[8,0,5,0,2,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX61 =
 "d8/dbc/class_cite_info_impl.html#a12e4bd452233001e56c6da6c847f787e":[8,0,29,2],
 "d8/dbc/class_cite_info_impl.html#a2f8f1502d3781dd27a17ef370e1ead9e":[8,0,29,4],
 "d8/dbc/class_cite_info_impl.html#a48a7fb329ebd24f34678847e3b32c33b":[8,0,29,1],
-"d8/dbc/class_cite_info_impl.html#a69d3358f4bb21f57bdd8e720b43c7dc3":[8,0,29,3]
+"d8/dbc/class_cite_info_impl.html#a69d3358f4bb21f57bdd8e720b43c7dc3":[8,0,29,3],
+"d8/dbc/class_cite_info_impl.html#a74c65d323840f81d3d9c44ca47dc547d":[8,0,29,5]
 };

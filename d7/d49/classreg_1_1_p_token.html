@@ -183,8 +183,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:aa6204b59dad3115e3fd810bab9d6f255"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >Class representing a token in the compiled regular expression token stream. </p>
-<p >A token has a kind and an optional value whose meaning depends on the kind. It is also possible to store a (from,to) character range in a token. </p>
+<div class="textblock"><p>Class representing a token in the compiled regular expression token stream. </p>
+<p>A token has a kind and an optional value whose meaning depends on the kind. It is also possible to store a (from,to) character range in a token. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d85/regex_8cpp_source.html#l00058">58</a> of file <a class="el" href="../../d6/d85/regex_8cpp_source.html">regex.cpp</a>.</p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
@@ -209,7 +209,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The kind of token. </p>
-<p >Ranges per bit mask:</p><ul>
+<p>Ranges per bit mask:</p><ul>
 <li><code>0x00FF</code> from part of a range, except for <code>0x0000</code> which is the End marker</li>
 <li><code>0x1FFF</code> built-in ranges</li>
 <li><code>0x2FFF</code> user defined ranges</li>
@@ -505,7 +505,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the 'from' part of the character range. </p>
-<p >Only valid if this token represents a range </p>
+<p>Only valid if this token represents a range </p>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d85/regex_8cpp_source.html#l00147">147</a> of file <a class="el" href="../../d6/d85/regex_8cpp_source.html">regex.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  147</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d7/d49/classreg_1_1_p_token.html#aa6204b59dad3115e3fd810bab9d6f255">m_rep</a>&gt;&gt;16; }</div>
@@ -738,7 +738,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the 'to' part of the character range. </p>
-<p >Only valid if this token represents a range </p>
+<p>Only valid if this token represents a range </p>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d85/regex_8cpp_source.html#l00150">150</a> of file <a class="el" href="../../d6/d85/regex_8cpp_source.html">regex.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  150</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d7/d49/classreg_1_1_p_token.html#aa6204b59dad3115e3fd810bab9d6f255">m_rep</a> &amp; 0xFFFF; }</div>

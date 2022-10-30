@@ -33,6 +33,5 @@ var class_doc_para =
     [ "setAttribs", "d3/d01/class_doc_para.html#a93a35455ceb6a7967b466489ccd3432b", null ],
     [ "m_attribs", "d3/d01/class_doc_para.html#a9b24cff0afdbf5cd253d03d77e95c1af", null ],
     [ "m_isFirst", "d3/d01/class_doc_para.html#aad4b9366c317593266ed5bb1722944a5", null ],
-    [ "m_isLast", "d3/d01/class_doc_para.html#adf380760d0bc93329ad25b77d1cbe603", null ],
-    [ "m_sectionId", "d3/d01/class_doc_para.html#a9b5a6b3ee851b7769e902a2396bf7fa8", null ]
+    [ "m_isLast", "d3/d01/class_doc_para.html#adf380760d0bc93329ad25b77d1cbe603", null ]
 ];

@@ -1,6 +1,5 @@
 var NAVTREEINDEX97 =
 {
-"dd/d13/class_member_list.html#af61f3bff24e29a086ea1bf6a66f4a2be":[8,0,384,24],
 "dd/d13/class_member_list.html#af6d805d822b673a443308b6363d9c85f":[8,0,384,11],
 "dd/d16/struct_command_map.html":[8,0,54],
 "dd/d16/struct_command_map.html#a62c848e39548451d6aa2641791e2b33a":[8,0,54,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX97 =
 "dd/d41/class_page_def.html#aea0c5607cb5b7a29a7367ed3f3163869":[8,0,421,8],
 "dd/d41/class_page_def.html#afe8c39a619822e75d75f55d307e6bc0f":[8,0,421,5],
 "dd/d48/translator__fr_8h.html":[9,0,2,259],
-"dd/d48/translator__fr_8h_source.html":[9,0,2,259]
+"dd/d48/translator__fr_8h_source.html":[9,0,2,259],
+"dd/d49/class_python_outline_parser.html":[8,0,443]
 };
