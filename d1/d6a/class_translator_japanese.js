@@ -58,6 +58,7 @@ var class_translator_japanese =
     [ "trDeprecatedList", "d1/d6a/class_translator_japanese.html#af90f29d1e0a9ab6d2edf88a47705fece", null ],
     [ "trDetailedDescription", "d1/d6a/class_translator_japanese.html#ad16cb36fd418dbcc99b6d87fa1950050", null ],
     [ "trDetailLevel", "d1/d6a/class_translator_japanese.html#a2777a4ec6aa939b008cbd34b9b084729", null ],
+    [ "trDetails", "d1/d6a/class_translator_japanese.html#adcfe5de930042714ca61a95488e97275", null ],
     [ "trDir", "d1/d6a/class_translator_japanese.html#a08f91c6cd462e77469139a47f04777c7", null ],
     [ "trDirDepGraph", "d1/d6a/class_translator_japanese.html#a8c6a213230de89242537956749644250", null ],
     [ "trDirDocumentation", "d1/d6a/class_translator_japanese.html#a9e9000357236606370551cd6e26ed037", null ],

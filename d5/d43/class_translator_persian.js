@@ -47,6 +47,7 @@ var class_translator_persian =
     [ "trDeprecated", "d5/d43/class_translator_persian.html#a6c920581d1949d25dee9794b4920cfe6", null ],
     [ "trDeprecatedList", "d5/d43/class_translator_persian.html#ab03dd3cc89e6ca841d0df8366a6e769e", null ],
     [ "trDetailedDescription", "d5/d43/class_translator_persian.html#a8f465f0ef7a9a77fa88444161bfac6b9", null ],
+    [ "trDetails", "d5/d43/class_translator_persian.html#a8a21b8d842ca1b9887c65520cf5be960", null ],
     [ "trDir", "d5/d43/class_translator_persian.html#a7ed31c1aaa90edc6cceb4ab37c873462", null ],
     [ "trDirDocumentation", "d5/d43/class_translator_persian.html#a3100df4d9e74a6ae67a17f70268caaf2", null ],
     [ "trDirectories", "d5/d43/class_translator_persian.html#a8c198763218e8e9a6f391f409e1146f5", null ],

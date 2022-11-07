@@ -45,6 +45,7 @@ var class_translator_afrikaans =
     [ "trDeprecated", "d3/d65/class_translator_afrikaans.html#ae2697b5416d29661d57f3cdc88853650", null ],
     [ "trDeprecatedList", "d3/d65/class_translator_afrikaans.html#a610ed67078b571a23bbcec3f4b5c4c02", null ],
     [ "trDetailedDescription", "d3/d65/class_translator_afrikaans.html#a65d16916cc0b3b8fb7c5548ae7b6c7e5", null ],
+    [ "trDetails", "d3/d65/class_translator_afrikaans.html#a988bd87688be8d74ac7a37f71eb91802", null ],
     [ "trDir", "d3/d65/class_translator_afrikaans.html#ac6284be4b1807f6408fe32ac5c372563", null ],
     [ "trDirDocumentation", "d3/d65/class_translator_afrikaans.html#a2cc94044d48d42bbdcfc30ff82d7fc6d", null ],
     [ "trDirectories", "d3/d65/class_translator_afrikaans.html#a91df977651e11aa72f3384a762d5bc7f", null ],

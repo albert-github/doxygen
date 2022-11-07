@@ -74,6 +74,7 @@ var class_translator_czech =
     [ "trDesignUnits", "dd/d8a/class_translator_czech.html#a093dc22133e7e13e5e5956af24e639ab", null ],
     [ "trDetailedDescription", "dd/d8a/class_translator_czech.html#aaf320a13caf51f252e5bdf330eadfa22", null ],
     [ "trDetailLevel", "dd/d8a/class_translator_czech.html#a15941f83613d8d969fcc3164331b21f6", null ],
+    [ "trDetails", "dd/d8a/class_translator_czech.html#a70ebb8355b0e30e7c3774a534bb90093", null ],
     [ "trDictionaries", "dd/d8a/class_translator_czech.html#ad8adb865da4c0a130dd80522c93a159d", null ],
     [ "trDictionaryDocumentation", "dd/d8a/class_translator_czech.html#ace00217c9cf0e9e641365f3a78fe9a1b", null ],
     [ "trDir", "dd/d8a/class_translator_czech.html#ae31ae6026b12ff3423988ec06d2ba997", null ],

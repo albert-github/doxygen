@@ -48,6 +48,7 @@ var class_translator_indonesian =
     [ "trDeprecated", "df/dc8/class_translator_indonesian.html#a51679ca5b22f8940a30f120e6ec2d7dd", null ],
     [ "trDeprecatedList", "df/dc8/class_translator_indonesian.html#a376b2248c0dd76d9c1c1c91b924767ad", null ],
     [ "trDetailedDescription", "df/dc8/class_translator_indonesian.html#a61b4472165da38729763798f16b9d428", null ],
+    [ "trDetails", "df/dc8/class_translator_indonesian.html#a0e7eec22c7d86c9b4ea9bb5884fd8186", null ],
     [ "trDir", "df/dc8/class_translator_indonesian.html#acabd31f296daa0346282ce7e3128cc41", null ],
     [ "trDirDepGraph", "df/dc8/class_translator_indonesian.html#a6f4645fce4df72ca2f9b1e0d3aa8629b", null ],
     [ "trDirDocumentation", "df/dc8/class_translator_indonesian.html#a0ad6dfb602e4a87ff07eec996efd1ef0", null ],

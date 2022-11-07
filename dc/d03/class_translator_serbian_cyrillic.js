@@ -46,6 +46,7 @@ var class_translator_serbian_cyrillic =
     [ "trDeprecated", "dc/d03/class_translator_serbian_cyrillic.html#ae89bbdf8b8e4b9a1e808e2f22152cce9", null ],
     [ "trDeprecatedList", "dc/d03/class_translator_serbian_cyrillic.html#a43456ebb666ada43f0c69067c2bef5fe", null ],
     [ "trDetailedDescription", "dc/d03/class_translator_serbian_cyrillic.html#aea457c0ab51df7694f0070e34bb6309d", null ],
+    [ "trDetails", "dc/d03/class_translator_serbian_cyrillic.html#aa9866c70346adb4b531786833cb27a22", null ],
     [ "trDir", "dc/d03/class_translator_serbian_cyrillic.html#a462397fedbc0d84018b5482c516b0cb8", null ],
     [ "trDirDocumentation", "dc/d03/class_translator_serbian_cyrillic.html#a5a3e3b75d44c7a5c89da83714d7b11ed", null ],
     [ "trDirectories", "dc/d03/class_translator_serbian_cyrillic.html#a19c86d2bbfd1a361dd368ce8b18b98eb", null ],

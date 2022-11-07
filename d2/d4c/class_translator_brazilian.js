@@ -74,6 +74,7 @@ var class_translator_brazilian =
     [ "trDesignUnits", "d2/d4c/class_translator_brazilian.html#a39cab5e13d360ff7bf232c10189975c2", null ],
     [ "trDetailedDescription", "d2/d4c/class_translator_brazilian.html#a4fd511beb946167470e66d61a8591796", null ],
     [ "trDetailLevel", "d2/d4c/class_translator_brazilian.html#aef48ed2ec8b8d9a72fc74fdb8f70ea19", null ],
+    [ "trDetails", "d2/d4c/class_translator_brazilian.html#af7d0792288252c478d0ff1a7804d032d", null ],
     [ "trDictionaries", "d2/d4c/class_translator_brazilian.html#aa2e54e45a15d63bc754284ad7e239127", null ],
     [ "trDictionaryDocumentation", "d2/d4c/class_translator_brazilian.html#a4891377be14215f3a9cd37555b9021e0", null ],
     [ "trDir", "d2/d4c/class_translator_brazilian.html#a3f5fce49618f873d0a918f112d2e6ada", null ],

@@ -37,6 +37,7 @@ var class_translator_slovene =
     [ "trDeprecated", "dd/d0b/class_translator_slovene.html#aac1ea34816ffccd4558d12270565b73e", null ],
     [ "trDeprecatedList", "dd/d0b/class_translator_slovene.html#aa82c7b475e3a1ee9316a556fb4478ab3", null ],
     [ "trDetailedDescription", "dd/d0b/class_translator_slovene.html#a630618724967bd7b1da822f2bbd3142e", null ],
+    [ "trDetails", "dd/d0b/class_translator_slovene.html#aab0aec436b53306ad80a81e17129a8ac", null ],
     [ "trDir", "dd/d0b/class_translator_slovene.html#a44f4fa649bd9b625c3f222b04f95d82a", null ],
     [ "trDirDocumentation", "dd/d0b/class_translator_slovene.html#a0a7b1a2c7f83f2c655fe28e3ddda8bf9", null ],
     [ "trDirectories", "dd/d0b/class_translator_slovene.html#a7d975ec6d1c31123233ffbe5d6c7d846", null ],

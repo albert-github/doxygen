@@ -81,6 +81,7 @@ var class_translator =
     [ "trDesignUnits", "d8/dfb/class_translator.html#af39391797c54dce9f530c4d77341b37b", null ],
     [ "trDetailedDescription", "d8/dfb/class_translator.html#a6f0826040d05174e350c90920651bf45", null ],
     [ "trDetailLevel", "d8/dfb/class_translator.html#ae7fe2488d7ab8950d24415d95d22bc80", null ],
+    [ "trDetails", "d8/dfb/class_translator.html#a6be6912005a70af242d3b31feba99384", null ],
     [ "trDictionaries", "d8/dfb/class_translator.html#ae08f4f9023cb1e1d26f1c127d7897771", null ],
     [ "trDictionaryDocumentation", "d8/dfb/class_translator.html#ab93b3227e857cd5104b6118f1ffa8682", null ],
     [ "trDir", "d8/dfb/class_translator.html#a63ce770ac66730a13f1686202e0c5d46", null ],

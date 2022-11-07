@@ -46,6 +46,7 @@ var class_translator_turkish =
     [ "trDeprecated", "dd/d80/class_translator_turkish.html#a20c1d533427410319e0f32df6d59afc9", null ],
     [ "trDeprecatedList", "dd/d80/class_translator_turkish.html#af7c4cfebf40ea61536363657cde6a115", null ],
     [ "trDetailedDescription", "dd/d80/class_translator_turkish.html#a0e3aa2bf3923b46611a49bd16e9e3472", null ],
+    [ "trDetails", "dd/d80/class_translator_turkish.html#ab12ae10d00e58ff11014ddd8b21f7599", null ],
     [ "trDir", "dd/d80/class_translator_turkish.html#abee36941632f435d887e03c6b0561f55", null ],
     [ "trDirDocumentation", "dd/d80/class_translator_turkish.html#ad93f9eedecf5615f4877a6b1f1bc039a", null ],
     [ "trDirectories", "dd/d80/class_translator_turkish.html#a50e7b9bfaab305a9d5d7769949fc11a3", null ],

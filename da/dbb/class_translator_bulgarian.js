@@ -74,6 +74,7 @@ var class_translator_bulgarian =
     [ "trDesignUnits", "da/dbb/class_translator_bulgarian.html#aa16140d84365dc79db94b1362078868f", null ],
     [ "trDetailedDescription", "da/dbb/class_translator_bulgarian.html#aafaeb52dce20b3d9d0c96408f9d34708", null ],
     [ "trDetailLevel", "da/dbb/class_translator_bulgarian.html#a4225d54f63ed89d131990e37003db71f", null ],
+    [ "trDetails", "da/dbb/class_translator_bulgarian.html#aabc9dd2e3121f2839280730601829628", null ],
     [ "trDictionaries", "da/dbb/class_translator_bulgarian.html#a110b4476e05d9089b68f48c80bd15eb8", null ],
     [ "trDictionaryDocumentation", "da/dbb/class_translator_bulgarian.html#a8fce23dbf8ff26dab75c337f1275e17c", null ],
     [ "trDir", "da/dbb/class_translator_bulgarian.html#a9ccabc7f249835463dfb8c32c6e7880a", null ],

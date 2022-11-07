@@ -77,6 +77,7 @@ var class_translator_greek =
     [ "trDesignUnits", "df/d75/class_translator_greek.html#a8ed0ffa70f1dbbfe2d394031edd7e31a", null ],
     [ "trDetailedDescription", "df/d75/class_translator_greek.html#ac8ebc41faf7de8de1d3c8b0f67ec50c6", null ],
     [ "trDetailLevel", "df/d75/class_translator_greek.html#a454dd6d523be69b77963252a6037dca2", null ],
+    [ "trDetails", "df/d75/class_translator_greek.html#a8e1d7b7be2b805a69ba3b37db7b6464e", null ],
     [ "trDictionaries", "df/d75/class_translator_greek.html#a660f71f15c7a48f125038ed4bbbfc321", null ],
     [ "trDictionaryDocumentation", "df/d75/class_translator_greek.html#adea0a6c4015e361c88a53571ebab69ef", null ],
     [ "trDir", "df/d75/class_translator_greek.html#ab1793dde0ab01b6db9ad15658de398f5", null ],

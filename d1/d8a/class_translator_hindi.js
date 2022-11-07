@@ -74,6 +74,7 @@ var class_translator_hindi =
     [ "trDesignUnits", "d1/d8a/class_translator_hindi.html#a56b561efeeb7bea6d41e53eb27ecfa19", null ],
     [ "trDetailedDescription", "d1/d8a/class_translator_hindi.html#a0e8c9172aca1812feeef1f4dbdeb02fc", null ],
     [ "trDetailLevel", "d1/d8a/class_translator_hindi.html#aebe46e1a8665a1693d3cc0b7766f9022", null ],
+    [ "trDetails", "d1/d8a/class_translator_hindi.html#a0ceee33ce4fe891ccec95bfdeb81c4c2", null ],
     [ "trDictionaries", "d1/d8a/class_translator_hindi.html#afb6b4b6269cd6af582be4448dca9eae0", null ],
     [ "trDictionaryDocumentation", "d1/d8a/class_translator_hindi.html#a2a37ca5a5dfb298df79fa4c7685fe172", null ],
     [ "trDir", "d1/d8a/class_translator_hindi.html#acfdbbf74ca0276566beec628fe23b14c", null ],

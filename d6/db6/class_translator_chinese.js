@@ -78,6 +78,7 @@ var class_translator_chinese =
     [ "trDesignUnits", "d6/db6/class_translator_chinese.html#a6ff3e379e0f6a108b15e3171abdb3212", null ],
     [ "trDetailedDescription", "d6/db6/class_translator_chinese.html#a3c57752f0aae9b5b39c2e511d985c220", null ],
     [ "trDetailLevel", "d6/db6/class_translator_chinese.html#a03397b2ca00484884f7fb9be9d666d03", null ],
+    [ "trDetails", "d6/db6/class_translator_chinese.html#aef4ae824164307f4c86626670755e08a", null ],
     [ "trDictionaries", "d6/db6/class_translator_chinese.html#ad689e60da0423cb2d9d869ee431138ed", null ],
     [ "trDictionaryDocumentation", "d6/db6/class_translator_chinese.html#added41cb448ce7e8c0067e5303eaa899", null ],
     [ "trDir", "d6/db6/class_translator_chinese.html#ac39bd93fa1e18ef1949bd9dc43c0257a", null ],

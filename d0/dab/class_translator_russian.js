@@ -54,6 +54,7 @@ var class_translator_russian =
     [ "trDeprecatedList", "d0/dab/class_translator_russian.html#acb7a9801b14cacf9468d5b92d8b28625", null ],
     [ "trDetailedDescription", "d0/dab/class_translator_russian.html#a2aa9e0ed6df6423bb1ae5d3670679513", null ],
     [ "trDetailLevel", "d0/dab/class_translator_russian.html#a9a066e4240c79ad2adde2ffefccf42c6", null ],
+    [ "trDetails", "d0/dab/class_translator_russian.html#afda5bb94bd161c1fa1bc48dc2147304b", null ],
     [ "trDir", "d0/dab/class_translator_russian.html#ab724c0d8dff2b2ca3cae95fbe289022f", null ],
     [ "trDirDepGraph", "d0/dab/class_translator_russian.html#af8fd32e023fc8817e45d5267475e3853", null ],
     [ "trDirDocumentation", "d0/dab/class_translator_russian.html#aee98c57fd28976738228f86153b5406a", null ],

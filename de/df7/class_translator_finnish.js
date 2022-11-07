@@ -45,6 +45,7 @@ var class_translator_finnish =
     [ "trDeprecated", "de/df7/class_translator_finnish.html#a60f0bb8bef93cfda4f0d88353cb416c3", null ],
     [ "trDeprecatedList", "de/df7/class_translator_finnish.html#a2e4f5ed8e42ed99a3143107104cdb3b9", null ],
     [ "trDetailedDescription", "de/df7/class_translator_finnish.html#ac1414fea5760e95015271a28d7722750", null ],
+    [ "trDetails", "de/df7/class_translator_finnish.html#af47e141139647aeaf7375fbae8a8b8bd", null ],
     [ "trDir", "de/df7/class_translator_finnish.html#a15891263c1e258fb430f4e83e6bfd0b0", null ],
     [ "trDirDocumentation", "de/df7/class_translator_finnish.html#a9905a8778af8b60802848330d7b7f4c9", null ],
     [ "trDirectories", "de/df7/class_translator_finnish.html#afdd9497b9466a4eb5d89e3332575b311", null ],

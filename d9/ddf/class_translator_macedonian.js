@@ -45,6 +45,7 @@ var class_translator_macedonian =
     [ "trDeprecated", "d9/ddf/class_translator_macedonian.html#a7f2ee78e6fc5db156e2b9d286994efdb", null ],
     [ "trDeprecatedList", "d9/ddf/class_translator_macedonian.html#a9d7f360455d403f14d654636bea1ba66", null ],
     [ "trDetailedDescription", "d9/ddf/class_translator_macedonian.html#a5d1ad73e507a3b4c3807aa3929b934ed", null ],
+    [ "trDetails", "d9/ddf/class_translator_macedonian.html#a2177fa2711935d8d91e5daa8c47c5cd9", null ],
     [ "trDir", "d9/ddf/class_translator_macedonian.html#afbffb3f70b05f35bbdf9b3095c46c4a2", null ],
     [ "trDirDocumentation", "d9/ddf/class_translator_macedonian.html#a77e2f657f5b10b6a92984cd48976c9ed", null ],
     [ "trDirectories", "d9/ddf/class_translator_macedonian.html#adea140dc8193a22ebb270d26d332af19", null ],

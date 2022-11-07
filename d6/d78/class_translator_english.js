@@ -74,6 +74,7 @@ var class_translator_english =
     [ "trDesignUnits", "d6/d78/class_translator_english.html#ae50b1a43eeba9d331b2508b576ae2454", null ],
     [ "trDetailedDescription", "d6/d78/class_translator_english.html#a8dd700811e7fe4caa458945578328044", null ],
     [ "trDetailLevel", "d6/d78/class_translator_english.html#a8cd72b866d1ee6133be6c081c9f1a006", null ],
+    [ "trDetails", "d6/d78/class_translator_english.html#ab8e3d2a30f9054f434d1f124b96d78a6", null ],
     [ "trDictionaries", "d6/d78/class_translator_english.html#a587391816a0073ca38049a064768fc41", null ],
     [ "trDictionaryDocumentation", "d6/d78/class_translator_english.html#a648e08810186a757cf87013f3a5eddee", null ],
     [ "trDir", "d6/d78/class_translator_english.html#adf2a2256c9e6d671e39410e09f352398", null ],

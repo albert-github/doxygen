@@ -49,6 +49,7 @@ var class_translator_danish =
     [ "trDeprecated", "d7/d21/class_translator_danish.html#a8b73c05efc3971b66922cb1e6d4c1657", null ],
     [ "trDeprecatedList", "d7/d21/class_translator_danish.html#ad1086a15d4d98a840d221df9422d7f12", null ],
     [ "trDetailedDescription", "d7/d21/class_translator_danish.html#a7a7335e696d11478a7b2bb0a1fa24c54", null ],
+    [ "trDetails", "d7/d21/class_translator_danish.html#a703726b316e9ae970e94667d3847eba1", null ],
     [ "trDir", "d7/d21/class_translator_danish.html#a3e5197e99dcf66474981d186f1b07939", null ],
     [ "trDirDepGraph", "d7/d21/class_translator_danish.html#a25b9f5f9dd602b9730f0fb4759d91bf8", null ],
     [ "trDirDocumentation", "d7/d21/class_translator_danish.html#a879da65e434991246126ca67ed49fbb2", null ],

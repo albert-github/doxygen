@@ -56,6 +56,7 @@ var class_translator_korean =
     [ "trDeprecatedList", "db/dcc/class_translator_korean.html#a4ae1b349f783775530cb0f8850ec9511", null ],
     [ "trDetailedDescription", "db/dcc/class_translator_korean.html#a363daf2b9ae9fa4719ffc0194b23872c", null ],
     [ "trDetailLevel", "db/dcc/class_translator_korean.html#a136e6478302ac1b2fee739f4f4053d56", null ],
+    [ "trDetails", "db/dcc/class_translator_korean.html#a1cc58ed70699e1a0aa99248a2be6c8a2", null ],
     [ "trDir", "db/dcc/class_translator_korean.html#a86717f83e00ae8877bf9bae2b41772dd", null ],
     [ "trDirDepGraph", "db/dcc/class_translator_korean.html#acbd86ba71b8c8fe3fbecaebd5afd6867", null ],
     [ "trDirDocumentation", "db/dcc/class_translator_korean.html#ade40cfebcc4dd63032402d8fab3dcd66", null ],

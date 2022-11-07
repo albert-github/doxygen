@@ -48,6 +48,7 @@ var class_translator_armenian =
     [ "trDeprecated", "da/db8/class_translator_armenian.html#a192adbe0cfc7f6877e08d08d6634a094", null ],
     [ "trDeprecatedList", "da/db8/class_translator_armenian.html#a1c7721bd5e2b05ecf4f34d8ee494bec2", null ],
     [ "trDetailedDescription", "da/db8/class_translator_armenian.html#a43eb96810f267e1a8687fa50b411e4fc", null ],
+    [ "trDetails", "da/db8/class_translator_armenian.html#ad405adadb761d360e7ba2e4285077fc5", null ],
     [ "trDir", "da/db8/class_translator_armenian.html#a4fb72393cdc0492b52e0ae6a55861b15", null ],
     [ "trDirDepGraph", "da/db8/class_translator_armenian.html#aa2b4dec4fe301562542277b38ca5aa3d", null ],
     [ "trDirDocumentation", "da/db8/class_translator_armenian.html#aba99a4371975d1372c57eb65d60997b8", null ],

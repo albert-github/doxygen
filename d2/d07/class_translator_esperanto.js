@@ -52,6 +52,7 @@ var class_translator_esperanto =
     [ "trDeprecatedList", "d2/d07/class_translator_esperanto.html#a749b791bb5fad96fd98f42f570c50fb1", null ],
     [ "trDetailedDescription", "d2/d07/class_translator_esperanto.html#a5bb25f0469f6b11aba1fe557853d4c3f", null ],
     [ "trDetailLevel", "d2/d07/class_translator_esperanto.html#a10ec6d7d10dc3bd98166c17b831f9264", null ],
+    [ "trDetails", "d2/d07/class_translator_esperanto.html#ac2eb55ff2d961faa81e440e1761d737f", null ],
     [ "trDir", "d2/d07/class_translator_esperanto.html#af611cf5731a4cfea37726f1018ee9002", null ],
     [ "trDirDepGraph", "d2/d07/class_translator_esperanto.html#a5568d7cc45195ec497ead6eb8e8e8f78", null ],
     [ "trDirDocumentation", "d2/d07/class_translator_esperanto.html#a914c3a2f269f518a7d893d41a4d35cb0", null ],

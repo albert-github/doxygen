@@ -62,6 +62,7 @@ var class_translator_german =
     [ "trDesignUnits", "d6/d07/class_translator_german.html#a2fa1eefb9fd013ec26109ff5b77a85a1", null ],
     [ "trDetailedDescription", "d6/d07/class_translator_german.html#a2c82986afd594ea021256805606462fb", null ],
     [ "trDetailLevel", "d6/d07/class_translator_german.html#af424459fd7a15e7a67a74ea2db13d682", null ],
+    [ "trDetails", "d6/d07/class_translator_german.html#a5b7cf7e84c092ecce1085d6ccc4b51a0", null ],
     [ "trDir", "d6/d07/class_translator_german.html#ab6d10fdf35b3ba3de9aeefa8544f00a8", null ],
     [ "trDirDepGraph", "d6/d07/class_translator_german.html#a74038779413ee1568b11fb2fda2d8e5c", null ],
     [ "trDirDocumentation", "d6/d07/class_translator_german.html#a7e5726b5c6331a54de31316e61ebf9fe", null ],

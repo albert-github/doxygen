@@ -66,6 +66,7 @@ var class_translator_spanish =
     [ "trDesignUnits", "dc/d44/class_translator_spanish.html#a416bc6b542e26a47df4bd14dbe398687", null ],
     [ "trDetailedDescription", "dc/d44/class_translator_spanish.html#aadf1ecaa7e3dd00325363fda155f2127", null ],
     [ "trDetailLevel", "dc/d44/class_translator_spanish.html#a7229264c23cf87fbdc17ebf0caef5f0a", null ],
+    [ "trDetails", "dc/d44/class_translator_spanish.html#a06b6a3d2685d528dc544257ca35c375a", null ],
     [ "trDictionaries", "dc/d44/class_translator_spanish.html#a4f9f52d1e3812c12eeb9ce8aef2ae2ce", null ],
     [ "trDictionaryDocumentation", "dc/d44/class_translator_spanish.html#a2067edc97722c293b2e8601618cda6dc", null ],
     [ "trDir", "dc/d44/class_translator_spanish.html#a629506b6975846e5202963f1e74a5da9", null ],

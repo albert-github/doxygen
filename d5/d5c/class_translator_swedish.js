@@ -74,6 +74,7 @@ var class_translator_swedish =
     [ "trDesignUnits", "d5/d5c/class_translator_swedish.html#aedb97c4e91d00aaecd3927fa503abdda", null ],
     [ "trDetailedDescription", "d5/d5c/class_translator_swedish.html#adf44ce20dd921e6156d1ff9ff92fff26", null ],
     [ "trDetailLevel", "d5/d5c/class_translator_swedish.html#afda12b1ee189e27b8066612adcfcad23", null ],
+    [ "trDetails", "d5/d5c/class_translator_swedish.html#ad4b1384df3ab4629c160f8101d803319", null ],
     [ "trDictionaries", "d5/d5c/class_translator_swedish.html#a100d595875dce728486923993b54ac88", null ],
     [ "trDictionaryDocumentation", "d5/d5c/class_translator_swedish.html#ae3c7f93c42cfd6e461e91ee753206670", null ],
     [ "trDir", "d5/d5c/class_translator_swedish.html#a92528ca51cc0b45f6c3bc362e28c3066", null ],

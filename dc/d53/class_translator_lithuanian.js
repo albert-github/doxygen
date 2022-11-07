@@ -37,6 +37,7 @@ var class_translator_lithuanian =
     [ "trDeprecated", "dc/d53/class_translator_lithuanian.html#a658b0044e15bce11fa68fbde54ff0c61", null ],
     [ "trDeprecatedList", "dc/d53/class_translator_lithuanian.html#a652c1f9986b803a6f1ad784da4559727", null ],
     [ "trDetailedDescription", "dc/d53/class_translator_lithuanian.html#a43c7465b39b1259bf70a13f3853c9d12", null ],
+    [ "trDetails", "dc/d53/class_translator_lithuanian.html#a6b541700c3b04c7e8895e412be74d62a", null ],
     [ "trDir", "dc/d53/class_translator_lithuanian.html#a0d40d70a9821529c667a09e2e0962d97", null ],
     [ "trDirDocumentation", "dc/d53/class_translator_lithuanian.html#aae36eface98b68757c50a66408d1c016", null ],
     [ "trDirectories", "dc/d53/class_translator_lithuanian.html#affba1050665c411e2911b41246e0b370", null ],

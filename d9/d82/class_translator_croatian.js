@@ -51,6 +51,7 @@ var class_translator_croatian =
     [ "trDeprecatedList", "d9/d82/class_translator_croatian.html#af7cd6d83c8594fcee8e0f337ba51138a", null ],
     [ "trDetailedDescription", "d9/d82/class_translator_croatian.html#aab786ef813bb0d4ad68f4a27179f459b", null ],
     [ "trDetailLevel", "d9/d82/class_translator_croatian.html#a8c51d43d261f6bdac4ad89305a51439e", null ],
+    [ "trDetails", "d9/d82/class_translator_croatian.html#a8a89d7ea25adf723c0218ad11ebf86ee", null ],
     [ "trDir", "d9/d82/class_translator_croatian.html#a10a3224ece15bbb3004ae9ec02fc2335", null ],
     [ "trDirDepGraph", "d9/d82/class_translator_croatian.html#ae2605dc73d53f5468fdfb8a3f38ed293", null ],
     [ "trDirDocumentation", "d9/d82/class_translator_croatian.html#a885f3f4960c83f070ac69639df98eadf", null ],

@@ -45,6 +45,7 @@ var class_translator_serbian =
     [ "trDeprecated", "d5/d0a/class_translator_serbian.html#af533b4cee889eb446b821ed2ab385a7c", null ],
     [ "trDeprecatedList", "d5/d0a/class_translator_serbian.html#acf2babf56c55bc06c64c350e23ee9de2", null ],
     [ "trDetailedDescription", "d5/d0a/class_translator_serbian.html#a1ff22edadca264eb2479eb72ede71506", null ],
+    [ "trDetails", "d5/d0a/class_translator_serbian.html#a96bf58c6291c20746d37c6b20c15301f", null ],
     [ "trDir", "d5/d0a/class_translator_serbian.html#a0ef3c79ea68cd8db2ea7eec67d7cae73", null ],
     [ "trDirDocumentation", "d5/d0a/class_translator_serbian.html#a4761700bf139127dd54021453221bf56", null ],
     [ "trDirectories", "d5/d0a/class_translator_serbian.html#a3140a11a8f74d575f223ec0692e511f9", null ],

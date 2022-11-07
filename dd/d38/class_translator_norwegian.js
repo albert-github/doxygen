@@ -37,6 +37,7 @@ var class_translator_norwegian =
     [ "trDeprecated", "dd/d38/class_translator_norwegian.html#af4da33e3e08ea884e7e25e69c09d1a0d", null ],
     [ "trDeprecatedList", "dd/d38/class_translator_norwegian.html#a7d8a0ed6dc7d5e3163a2a31fc3fd23e3", null ],
     [ "trDetailedDescription", "dd/d38/class_translator_norwegian.html#a476ed972e3fb7cf19b44d1e60ccdb0b4", null ],
+    [ "trDetails", "dd/d38/class_translator_norwegian.html#a610be88018bed2b453240e4a28e550b9", null ],
     [ "trDir", "dd/d38/class_translator_norwegian.html#a460793e99d45997ac35f98ffbfa447c1", null ],
     [ "trDirDocumentation", "dd/d38/class_translator_norwegian.html#aecd4fc64d2bf3623d639fb05d0d3bf86", null ],
     [ "trDirectories", "dd/d38/class_translator_norwegian.html#ab62df548b3f87c04dd9a263ebe28af0e", null ],

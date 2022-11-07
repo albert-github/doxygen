@@ -47,6 +47,7 @@ var class_translator_vietnamese =
     [ "trDeprecated", "df/d20/class_translator_vietnamese.html#acb5897420e31256a19b1de52196e83e9", null ],
     [ "trDeprecatedList", "df/d20/class_translator_vietnamese.html#abeaca8aa5e62d5f3dc46deabc410f7f3", null ],
     [ "trDetailedDescription", "df/d20/class_translator_vietnamese.html#a93069f1bc56d8eedc4e527b552603ab4", null ],
+    [ "trDetails", "df/d20/class_translator_vietnamese.html#a9b9e7ad97a4dba9d26e5f696aa14bbd3", null ],
     [ "trDir", "df/d20/class_translator_vietnamese.html#ac229e326629a65442b5acc0462e78464", null ],
     [ "trDirDocumentation", "df/d20/class_translator_vietnamese.html#a482af304c4079f98fb1db63abc395737", null ],
     [ "trDirectories", "df/d20/class_translator_vietnamese.html#a3f3915e52140601ac949071a43a0850f", null ],

@@ -54,6 +54,7 @@ var class_translator_slovak =
     [ "trDeprecatedList", "d2/d53/class_translator_slovak.html#a8cd761f5762a965cdbd6175e0e965611", null ],
     [ "trDetailedDescription", "d2/d53/class_translator_slovak.html#a33658a3393cb99b1dd159236376e24df", null ],
     [ "trDetailLevel", "d2/d53/class_translator_slovak.html#a5a9359d16b835517e7b9139f53dbc8db", null ],
+    [ "trDetails", "d2/d53/class_translator_slovak.html#a418ca520967d128c2753f76df207ef0d", null ],
     [ "trDir", "d2/d53/class_translator_slovak.html#ab64c81e7d6a2cd7aa28c9eb24b700b95", null ],
     [ "trDirDepGraph", "d2/d53/class_translator_slovak.html#a3573ead732ab1c4e58f834369baf49d5", null ],
     [ "trDirDocumentation", "d2/d53/class_translator_slovak.html#af30722d322dc5dd83518a2c7dcb6b811", null ],

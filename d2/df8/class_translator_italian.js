@@ -54,6 +54,7 @@ var class_translator_italian =
     [ "trDeprecatedList", "d2/df8/class_translator_italian.html#a09ebd757487d5ff33c57b0bafbba9d66", null ],
     [ "trDetailedDescription", "d2/df8/class_translator_italian.html#a1b1fe2622428c4613dab5aa77624ff95", null ],
     [ "trDetailLevel", "d2/df8/class_translator_italian.html#ac0e1e2c20e38faf820b45b09e589625f", null ],
+    [ "trDetails", "d2/df8/class_translator_italian.html#a73bd5f5b7b8f96dc2e55e35f91148edb", null ],
     [ "trDir", "d2/df8/class_translator_italian.html#a419b502c4fc1c36dcda3fc0bd1bd6a33", null ],
     [ "trDirDepGraph", "d2/df8/class_translator_italian.html#ab1ea555b3239929442f211b00d86fa19", null ],
     [ "trDirDocumentation", "d2/df8/class_translator_italian.html#a9971144c072666795909e3b0bcfcb428", null ],

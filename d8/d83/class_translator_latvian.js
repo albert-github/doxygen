@@ -52,6 +52,7 @@ var class_translator_latvian =
     [ "trDeprecatedList", "d8/d83/class_translator_latvian.html#aab81dcf029c6395e18f9716736441d32", null ],
     [ "trDetailedDescription", "d8/d83/class_translator_latvian.html#aaa3976198fafcb7cdc4e35ad34d02f0c", null ],
     [ "trDetailLevel", "d8/d83/class_translator_latvian.html#a820efa2c530441f7cb95c7e670d1b153", null ],
+    [ "trDetails", "d8/d83/class_translator_latvian.html#ab6cee60d1e3c7aa5b62b16c3d3704312", null ],
     [ "trDir", "d8/d83/class_translator_latvian.html#a864e383950c3b0a730b176e9d79dcc98", null ],
     [ "trDirDepGraph", "d8/d83/class_translator_latvian.html#afdfd9372531388fd23d4898008089d5e", null ],
     [ "trDirDocumentation", "d8/d83/class_translator_latvian.html#a90f3bfe6d0e97a539c4c7ac41b20dc1b", null ],

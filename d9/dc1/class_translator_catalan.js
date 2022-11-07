@@ -48,6 +48,7 @@ var class_translator_catalan =
     [ "trDeprecated", "d9/dc1/class_translator_catalan.html#a62d3e9bc0f9b4a749e0c0b112d92f1f3", null ],
     [ "trDeprecatedList", "d9/dc1/class_translator_catalan.html#af97adec80a57c072309c04ea3efcd176", null ],
     [ "trDetailedDescription", "d9/dc1/class_translator_catalan.html#aff391bcef4e62c6ded50a377fdebe737", null ],
+    [ "trDetails", "d9/dc1/class_translator_catalan.html#a5a5310a0acf4abad07428a7d9cba1807", null ],
     [ "trDir", "d9/dc1/class_translator_catalan.html#a5cf461ccdb77b01c2a774152595d5210", null ],
     [ "trDirDepGraph", "d9/dc1/class_translator_catalan.html#a714ee98a518f938f8133dea4bda456c9", null ],
     [ "trDirDocumentation", "d9/dc1/class_translator_catalan.html#a35ee90edf120bd24a070d977fd796b8b", null ],

@@ -52,6 +52,7 @@ var class_translator_ukrainian =
     [ "trDeprecatedList", "d1/d56/class_translator_ukrainian.html#a796200bfe1ff95e8e3fae4611a4dc254", null ],
     [ "trDetailedDescription", "d1/d56/class_translator_ukrainian.html#a52263b1b386dcec332bf028594d1ee84", null ],
     [ "trDetailLevel", "d1/d56/class_translator_ukrainian.html#ab66afd7fa34f38ecf569d895c1c9e153", null ],
+    [ "trDetails", "d1/d56/class_translator_ukrainian.html#a7d34998b97282b4f77ef06d2979da1d8", null ],
     [ "trDir", "d1/d56/class_translator_ukrainian.html#a01f332ff6918c2cc3c51d08fa098049e", null ],
     [ "trDirDepGraph", "d1/d56/class_translator_ukrainian.html#a830daac34ee12fc3ab3c032b504611a2", null ],
     [ "trDirDocumentation", "d1/d56/class_translator_ukrainian.html#a7b89c731c6b93688846799891b2d9529", null ],

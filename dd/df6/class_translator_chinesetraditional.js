@@ -57,6 +57,7 @@ var class_translator_chinesetraditional =
     [ "trDeprecatedList", "dd/df6/class_translator_chinesetraditional.html#a028e21ebc33dffcd502982aa7fa64503", null ],
     [ "trDetailedDescription", "dd/df6/class_translator_chinesetraditional.html#ae444fc9b33fcfbf93481265d27ed7721", null ],
     [ "trDetailLevel", "dd/df6/class_translator_chinesetraditional.html#a00053c8f20188be89234c72eda9be0b9", null ],
+    [ "trDetails", "dd/df6/class_translator_chinesetraditional.html#a89ba63f735e7eb73ad7e8b0185d948a0", null ],
     [ "trDir", "dd/df6/class_translator_chinesetraditional.html#aa58d8becc977f4dc7fc422c93f124f92", null ],
     [ "trDirDepGraph", "dd/df6/class_translator_chinesetraditional.html#aaf4d5a641a1ea901bf076eb0e4f22167", null ],
     [ "trDirDocumentation", "dd/df6/class_translator_chinesetraditional.html#a963d993d8ff90c7c31418a6619587786", null ],

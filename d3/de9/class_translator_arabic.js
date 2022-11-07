@@ -37,6 +37,7 @@ var class_translator_arabic =
     [ "trDeprecated", "d3/de9/class_translator_arabic.html#af669b579785efebe5da822b73ef38d19", null ],
     [ "trDeprecatedList", "d3/de9/class_translator_arabic.html#a6364c3efba8cdc7bd7518b779c605ec8", null ],
     [ "trDetailedDescription", "d3/de9/class_translator_arabic.html#a7d59b4e35fc8f4cdd25705a1a58f0b69", null ],
+    [ "trDetails", "d3/de9/class_translator_arabic.html#a239d52502404788d3d6700e1ff6572ff", null ],
     [ "trDir", "d3/de9/class_translator_arabic.html#acfbf7905304c071ff1c4c233d27c6021", null ],
     [ "trDirDocumentation", "d3/de9/class_translator_arabic.html#a42bc84de896868f2309af1cb41abfbaf", null ],
     [ "trDirectories", "d3/de9/class_translator_arabic.html#a3540585a951e0159a6a4c30266e12db2", null ],

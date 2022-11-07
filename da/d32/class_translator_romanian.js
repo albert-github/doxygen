@@ -54,6 +54,7 @@ var class_translator_romanian =
     [ "trDeprecatedList", "da/d32/class_translator_romanian.html#af7975a364af808de32a930ff04c0c06b", null ],
     [ "trDetailedDescription", "da/d32/class_translator_romanian.html#abf513a20c63fc4a8b8239dce79c9dcca", null ],
     [ "trDetailLevel", "da/d32/class_translator_romanian.html#afd1d8a9754f23c09e716b88123d863d8", null ],
+    [ "trDetails", "da/d32/class_translator_romanian.html#a513cfc8694b052e0ff6ed4e94209c005", null ],
     [ "trDir", "da/d32/class_translator_romanian.html#aca87b34e214fb29b7f23c2c7fbbc6387", null ],
     [ "trDirDepGraph", "da/d32/class_translator_romanian.html#a493453f1f23dd992cec8e711334f7107", null ],
     [ "trDirDocumentation", "da/d32/class_translator_romanian.html#adf9b6adbc83009c3759ed199131749d1", null ],
