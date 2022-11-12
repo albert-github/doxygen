@@ -1,5 +1,7 @@
 var NAVTREEINDEX43 =
 {
+"d5/df4/namespacevhdl_1_1parser.html#a577f52050058b86512cb55f0ad9e54c1":[7,0,8,0,128],
+"d5/df4/namespacevhdl_1_1parser.html#a59983f64a8933bd5fea1c7c16d492278":[7,0,8,0,207],
 "d5/df4/namespacevhdl_1_1parser.html#a5b5e3b224197a681e77e9f4ef49c7abb":[7,0,8,0,195],
 "d5/df4/namespacevhdl_1_1parser.html#a5b9432c3d13c6741933417a0820d6950":[7,0,8,0,278],
 "d5/df4/namespacevhdl_1_1parser.html#a5b9adbd32dd14042c1d3e30390bf8a61":[7,0,8,0,161],
@@ -247,7 +249,5 @@ var NAVTREEINDEX43 =
 "d5/df7/clangparser_8h_source.html":[9,0,2,8],
 "d5/df9/_vhdl_parser_8h.html":[9,0,3,7],
 "d5/df9/_vhdl_parser_8h_source.html":[9,0,3,7],
-"d5/dfa/class_namespace_def_impl.html":[8,0,400],
-"d5/dfa/class_namespace_def_impl.html#a00b65342e1bdb634c95390ab1fb15731":[8,0,400,84],
-"d5/dfa/class_namespace_def_impl.html#a03d294d7649af63285227d0e96c5cff7":[8,0,400,20]
+"d5/dfa/class_namespace_def_impl.html":[8,0,400]
 };

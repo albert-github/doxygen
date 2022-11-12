@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['data_0',['data',['../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098',1,'QCString::data()'],['../d3/d6c/class_vhdl_string.html#a9adab5bfd895699f39b84696bee7da78',1,'VhdlString::data()'],['../d5/d64/class_buf_str.html#a38f1315046acdef23cab4dc53c6eda2b',1,'BufStr::data()']]],
+  ['data_0',['data',['../d5/d64/class_buf_str.html#a203c8f6de41d58c78cc40a8ffe23c382',1,'BufStr::data()'],['../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098',1,'QCString::data()'],['../d3/d6c/class_vhdl_string.html#a9adab5bfd895699f39b84696bee7da78',1,'VhdlString::data()'],['../d5/d64/class_buf_str.html#a3de05f43cf7f3f18c49622fc0827e63d',1,'BufStr::data()']]],
   ['database_1',['database',['../da/dc5/class_clang_parser.html#a891f7ea10dc213bf41bdd457674763d6',1,'ClangParser']]],
   ['date_2',['date',['../d3/df4/class_doxygen_context_1_1_private.html#af60d73c41298cf881d4b9126019ae918',1,'DoxygenContext::Private']]],
   ['datetimefromstring_3',['dateTimeFromString',['../d7/d14/datetime_8cpp.html#ad9d60769e8d4d67f018bc58c3e7b4e6f',1,'dateTimeFromString(const QCString &amp;spec, std::tm &amp;dt, int &amp;format):&#160;datetime.cpp'],['../de/d1b/datetime_8h.html#ad9d60769e8d4d67f018bc58c3e7b4e6f',1,'dateTimeFromString(const QCString &amp;spec, std::tm &amp;dt, int &amp;format):&#160;datetime.cpp']]],

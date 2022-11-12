@@ -1,5 +1,7 @@
 var NAVTREEINDEX97 =
 {
+"dd/d13/class_member_list.html":[8,0,384],
+"dd/d13/class_member_list.html#a062a8658517d3c208c3400fba38e41f7":[8,0,384,14],
 "dd/d13/class_member_list.html#a0e56354cdbfba74141bac5b1fedbebbc":[8,0,384,15],
 "dd/d13/class_member_list.html#a16a1c5a90a48da3de4f0bcbc38682d0f":[8,0,384,32],
 "dd/d13/class_member_list.html#a1717fc701b294ec348fcfb8385418bf7":[8,0,384,18],
@@ -247,7 +249,5 @@ var NAVTREEINDEX97 =
 "dd/d38/class_translator_norwegian.html#af6584d5199bcba69b0ae9d2000456159":[8,0,594,87],
 "dd/d38/class_translator_norwegian.html#af7745b75b85b42d0d9fa02f706f3a705":[8,0,594,78],
 "dd/d38/class_translator_norwegian.html#af7e07ca08e6f39ba175943fca916b7cf":[8,0,594,55],
-"dd/d38/class_translator_norwegian.html#afb7ad70c4ce5b8e6d78da0917b6fc2e0":[8,0,594,141],
-"dd/d38/class_translator_norwegian.html#afd59f0d6acd23335906d3083816e96ff":[8,0,594,177],
-"dd/d39/namespacedetail.html":[7,0,2]
+"dd/d38/class_translator_norwegian.html#afb7ad70c4ce5b8e6d78da0917b6fc2e0":[8,0,594,141]
 };
