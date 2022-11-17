@@ -17,7 +17,6 @@ var class_dir =
     [ "isRelativePath", "d2/dc2/class_dir.html#a30fb0271610a8148e2c5b31ec2e4299d", null ],
     [ "iterator", "d2/dc2/class_dir.html#aa20a9ce6fb86596abe5047d96b2f6624", null ],
     [ "mkdir", "d2/dc2/class_dir.html#a286f4b1852b489ffcc8b6837c7e6bd8e", null ],
-    [ "mkpath", "d2/dc2/class_dir.html#a36dedf88e7f43d011365e9dab5a7ad6d", null ],
     [ "operator=", "d2/dc2/class_dir.html#a1ab17baf6d6b6c4bd1a46893151f6fad", null ],
     [ "path", "d2/dc2/class_dir.html#ac277cdc273640905e941d9e6262bc594", null ],
     [ "remove", "d2/dc2/class_dir.html#a5a64060f8e1731e8f00da7e8f7051e4b", null ],
