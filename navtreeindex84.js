@@ -1,5 +1,11 @@
 var NAVTREEINDEX84 =
 {
+"db/d5f/class_translator_hungarian.html#a5c8d9f94d7a001834ad44c836da109da":[8,0,587,81],
+"db/d5f/class_translator_hungarian.html#a5cf5441040c97db18b443ebbcff4824a":[8,0,587,220],
+"db/d5f/class_translator_hungarian.html#a5cf79b742f7487c28d6221589e32b19d":[8,0,587,25],
+"db/d5f/class_translator_hungarian.html#a5fb332a97f7433e8d8daa2a9860a216a":[8,0,587,179],
+"db/d5f/class_translator_hungarian.html#a6138f1d9465f0f531a7acc3f708f95bd":[8,0,587,166],
+"db/d5f/class_translator_hungarian.html#a62288ba9811e397c27717875d2148418":[8,0,587,53],
 "db/d5f/class_translator_hungarian.html#a625ababc758191f63da47ea9dbef3315":[8,0,587,57],
 "db/d5f/class_translator_hungarian.html#a629515c0d6f18c4991eee07f7b0b2be3":[8,0,587,95],
 "db/d5f/class_translator_hungarian.html#a631613de762f30b9401be45be6777871":[8,0,587,219],
@@ -243,11 +249,5 @@ var NAVTREEINDEX84 =
 "db/d82/class_const_expression_parser.html":[8,0,83],
 "db/d82/class_const_expression_parser.html#a49a7c5141111b8be29a9975d0fd2c7a6":[8,0,83,3],
 "db/d82/class_const_expression_parser.html#a820976e05ec59a932befb2283d48d98b":[8,0,83,4],
-"db/d82/class_const_expression_parser.html#a8ba102bcf860cb7e9efb6d7388084872":[8,0,83,1],
-"db/d82/class_const_expression_parser.html#ad40306abed35d82c106853dfd0babb6a":[8,0,83,2],
-"db/d83/tooltip_8h.html":[9,0,2,242],
-"db/d83/tooltip_8h_source.html":[9,0,2,242],
-"db/d8d/struct_comment_ctx.html":[8,0,57],
-"db/d8d/struct_comment_ctx.html#a6fafdb4c8671ecd020f5d5aba7091388":[8,0,57,0],
-"db/d8d/struct_comment_ctx.html#aa806b54f9e0d1c31a51106ef2fa4389f":[8,0,57,1]
+"db/d82/class_const_expression_parser.html#a8ba102bcf860cb7e9efb6d7388084872":[8,0,83,1]
 };

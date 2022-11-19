@@ -1,5 +1,8 @@
 var NAVTREEINDEX13 =
 {
+"d1/d8a/class_translator_hindi.html#abb6335ca91ce32e36cebb22524558e46":[8,0,586,272],
+"d1/d8a/class_translator_hindi.html#abc2a9e72e96efcd7679a38d511062b2a":[8,0,586,30],
+"d1/d8a/class_translator_hindi.html#abc928056fbaedba42f46d1b28baa9819":[8,0,586,92],
 "d1/d8a/class_translator_hindi.html#abcd06a3f7c49deacc237f00de40c7cc2":[8,0,586,169],
 "d1/d8a/class_translator_hindi.html#abeea40b40a8116f46690057935c196f0":[8,0,586,89],
 "d1/d8a/class_translator_hindi.html#ac023276e76d778c917ec6822dfb06785":[8,0,586,257],
@@ -246,8 +249,5 @@ var NAVTREEINDEX13 =
 "d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09ab49480ae430534a818f2399198953149":[9,0,2,145,3,1],
 "d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09ac2c8bfd5096e2699c3049b8b23882f90":[9,0,2,145,3,17],
 "d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09ac5b15c3708c5e8e9865fb446bcd6b9a7":[9,0,2,145,3,14],
-"d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09ae8bbb72d16ef9b95f7021c8a147fd77f":[9,0,2,145,3,19],
-"d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09aeafa0e4dff6a1c6b2a19c7587b3309c8":[9,0,2,145,3,3],
-"d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09af342bf05e99ac13aa3e3928a60113131":[9,0,2,145,3,7],
-"d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09af53c8a7dfef03cdb27908ecf29396a69":[9,0,2,145,3,12]
+"d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09ae8bbb72d16ef9b95f7021c8a147fd77f":[9,0,2,145,3,19]
 };

@@ -99,6 +99,7 @@ var class_r_t_f_generator =
     [ "lastIndexPage", "d0/da4/class_r_t_f_generator.html#ab8e8c04376e00b1486850c8f76d01e85", null ],
     [ "lineBreak", "d0/da4/class_r_t_f_generator.html#a54d1117459456aea26b88a0a499aee25", null ],
     [ "newParagraph", "d0/da4/class_r_t_f_generator.html#a19bbf6e08804ee457c7aa9e07b833ba0", null ],
+    [ "objectLinkToString", "d0/da4/class_r_t_f_generator.html#a277fbb80ff40cdc16cdc81771f4f4f13", null ],
     [ "operator=", "d0/da4/class_r_t_f_generator.html#aed839fe843b75ecedd4661eed5342fed", null ],
     [ "preProcessFileInplace", "d0/da4/class_r_t_f_generator.html#a33f1f9f82bc9683769a6be6cdfc76270", null ],
     [ "rtf_BList_DepthStyle", "d0/da4/class_r_t_f_generator.html#a9f4db29aeeb7d0f2ab033f6235a69912", null ],

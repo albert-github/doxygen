@@ -287,40 +287,40 @@ Friends</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d5/d9c/class_code_output_interface.html#aa79acfd0247d182dcd423eeb3f0cdd66">CodeOutputInterface</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00107">107</a> of file <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html">rtfgen.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  108</span>{</div>
-<div class="line"><span class="lineno">  109</span>  <span class="comment">// note that RTF does not have a &quot;verbatim&quot;, so &quot;\n&quot; means</span></div>
-<div class="line"><span class="lineno">  110</span>  <span class="comment">// nothing... add a &quot;newParagraph()&quot;;</span></div>
-<div class="line"><span class="lineno">  111</span>  <span class="comment">//static char spaces[]=&quot;        &quot;;</span></div>
-<div class="line"><span class="lineno">  112</span>  <span class="keywordflow">if</span> (!str.isEmpty())</div>
-<div class="line"><span class="lineno">  113</span>  {</div>
-<div class="line"><span class="lineno">  114</span>    <span class="keyword">const</span> <span class="keywordtype">char</span> *p=str.data();</div>
-<div class="line"><span class="lineno">  115</span>    <span class="keywordtype">char</span> c;</div>
-<div class="line"><span class="lineno">  116</span>    <span class="keywordtype">int</span> spacesToNextTabStop;</div>
-<div class="line"><span class="lineno">  117</span> </div>
-<div class="line"><span class="lineno">  118</span>    <span class="keywordflow">while</span> (*p)</div>
-<div class="line"><span class="lineno">  119</span>    {</div>
-<div class="line"><span class="lineno">  120</span>      <span class="comment">//static bool MultiByte = FALSE;</span></div>
-<div class="line"><span class="lineno">  121</span> </div>
-<div class="line"><span class="lineno">  122</span>      c=*p++;</div>
-<div class="line"><span class="lineno">  123</span> </div>
-<div class="line"><span class="lineno">  124</span>      <span class="keywordflow">switch</span>(c)</div>
-<div class="line"><span class="lineno">  125</span>      {</div>
-<div class="line"><span class="lineno">  126</span>        <span class="keywordflow">case</span> <span class="charliteral">&#39;\t&#39;</span>:  spacesToNextTabStop = <a class="code hl_define" href="../../db/d16/config_8h.html#a06b59c3720174e9078f613095a89b295">Config_getInt</a>(TAB_SIZE) - (<a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a7200b57d2c558edc3a04396ea01a1c8c">m_col</a>%<a class="code hl_define" href="../../db/d16/config_8h.html#a06b59c3720174e9078f613095a89b295">Config_getInt</a>(TAB_SIZE));</div>
-<div class="line"><span class="lineno">  127</span>                    <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a89b66309f30c63ea1a7b5d5d17bf12bf">Doxygen::spaces</a>.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">left</a>(spacesToNextTabStop);</div>
-<div class="line"><span class="lineno">  128</span>                    <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a7200b57d2c558edc3a04396ea01a1c8c">m_col</a>+=spacesToNextTabStop;</div>
-<div class="line"><span class="lineno">  129</span>                    <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  130</span>        <span class="keywordflow">case</span> <span class="charliteral">&#39;\n&#39;</span>:  <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\\par\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  131</span>                    <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a7200b57d2c558edc3a04396ea01a1c8c">m_col</a>=0;</div>
-<div class="line"><span class="lineno">  132</span>                    <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  133</span>        <span class="keywordflow">case</span> <span class="charliteral">&#39;{&#39;</span>:   <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\\{&quot;</span>; <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a7200b57d2c558edc3a04396ea01a1c8c">m_col</a>++;          <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  134</span>        <span class="keywordflow">case</span> <span class="charliteral">&#39;}&#39;</span>:   <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\\}&quot;</span>; <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a7200b57d2c558edc3a04396ea01a1c8c">m_col</a>++;          <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  135</span>        <span class="keywordflow">case</span> <span class="charliteral">&#39;\\&#39;</span>:  <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\\\\&quot;</span>; <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a7200b57d2c558edc3a04396ea01a1c8c">m_col</a>++;         <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  136</span>        <span class="keywordflow">default</span>:    p=<a class="code hl_function" href="../../d2/db5/utf8_8cpp.html#ae9de248ba9e19731fb682352dcbc1b3c">writeUTF8Char</a>(<a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a>,p-1); <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a7200b57d2c558edc3a04396ea01a1c8c">m_col</a>++; <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  137</span>      }</div>
-<div class="line"><span class="lineno">  138</span>    }</div>
-<div class="line"><span class="lineno">  139</span>  }</div>
-<div class="line"><span class="lineno">  140</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00130">130</a> of file <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html">rtfgen.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  131</span>{</div>
+<div class="line"><span class="lineno">  132</span>  <span class="comment">// note that RTF does not have a &quot;verbatim&quot;, so &quot;\n&quot; means</span></div>
+<div class="line"><span class="lineno">  133</span>  <span class="comment">// nothing... add a &quot;newParagraph()&quot;;</span></div>
+<div class="line"><span class="lineno">  134</span>  <span class="comment">//static char spaces[]=&quot;        &quot;;</span></div>
+<div class="line"><span class="lineno">  135</span>  <span class="keywordflow">if</span> (!str.isEmpty())</div>
+<div class="line"><span class="lineno">  136</span>  {</div>
+<div class="line"><span class="lineno">  137</span>    <span class="keyword">const</span> <span class="keywordtype">char</span> *p=str.data();</div>
+<div class="line"><span class="lineno">  138</span>    <span class="keywordtype">char</span> c;</div>
+<div class="line"><span class="lineno">  139</span>    <span class="keywordtype">int</span> spacesToNextTabStop;</div>
+<div class="line"><span class="lineno">  140</span> </div>
+<div class="line"><span class="lineno">  141</span>    <span class="keywordflow">while</span> (*p)</div>
+<div class="line"><span class="lineno">  142</span>    {</div>
+<div class="line"><span class="lineno">  143</span>      <span class="comment">//static bool MultiByte = FALSE;</span></div>
+<div class="line"><span class="lineno">  144</span> </div>
+<div class="line"><span class="lineno">  145</span>      c=*p++;</div>
+<div class="line"><span class="lineno">  146</span> </div>
+<div class="line"><span class="lineno">  147</span>      <span class="keywordflow">switch</span>(c)</div>
+<div class="line"><span class="lineno">  148</span>      {</div>
+<div class="line"><span class="lineno">  149</span>        <span class="keywordflow">case</span> <span class="charliteral">&#39;\t&#39;</span>:  spacesToNextTabStop = <a class="code hl_define" href="../../db/d16/config_8h.html#a06b59c3720174e9078f613095a89b295">Config_getInt</a>(TAB_SIZE) - (<a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a7200b57d2c558edc3a04396ea01a1c8c">m_col</a>%<a class="code hl_define" href="../../db/d16/config_8h.html#a06b59c3720174e9078f613095a89b295">Config_getInt</a>(TAB_SIZE));</div>
+<div class="line"><span class="lineno">  150</span>                    <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a89b66309f30c63ea1a7b5d5d17bf12bf">Doxygen::spaces</a>.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">left</a>(spacesToNextTabStop);</div>
+<div class="line"><span class="lineno">  151</span>                    <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a7200b57d2c558edc3a04396ea01a1c8c">m_col</a>+=spacesToNextTabStop;</div>
+<div class="line"><span class="lineno">  152</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  153</span>        <span class="keywordflow">case</span> <span class="charliteral">&#39;\n&#39;</span>:  <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\\par\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  154</span>                    <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a7200b57d2c558edc3a04396ea01a1c8c">m_col</a>=0;</div>
+<div class="line"><span class="lineno">  155</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  156</span>        <span class="keywordflow">case</span> <span class="charliteral">&#39;{&#39;</span>:   <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\\{&quot;</span>; <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a7200b57d2c558edc3a04396ea01a1c8c">m_col</a>++;          <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  157</span>        <span class="keywordflow">case</span> <span class="charliteral">&#39;}&#39;</span>:   <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\\}&quot;</span>; <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a7200b57d2c558edc3a04396ea01a1c8c">m_col</a>++;          <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  158</span>        <span class="keywordflow">case</span> <span class="charliteral">&#39;\\&#39;</span>:  <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\\\\&quot;</span>; <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a7200b57d2c558edc3a04396ea01a1c8c">m_col</a>++;         <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  159</span>        <span class="keywordflow">default</span>:    p=<a class="code hl_function" href="../../d2/db5/utf8_8cpp.html#ae9de248ba9e19731fb682352dcbc1b3c">writeUTF8Char</a>(<a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a>,p-1); <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a7200b57d2c558edc3a04396ea01a1c8c">m_col</a>++; <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  160</span>      }</div>
+<div class="line"><span class="lineno">  161</span>    }</div>
+<div class="line"><span class="lineno">  162</span>  }</div>
+<div class="line"><span class="lineno">  163</span>}</div>
 <div class="ttc" id="aclass_doxygen_html_a89b66309f30c63ea1a7b5d5d17bf12bf"><div class="ttname"><a href="../../de/d6a/class_doxygen.html#a89b66309f30c63ea1a7b5d5d17bf12bf">Doxygen::spaces</a></div><div class="ttdeci">static QCString spaces</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da1/doxygen_8h_source.html#l00127">doxygen.h:127</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_aecf8b66312c4e97333219cc344c11a4f"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">QCString::left</a></div><div class="ttdeci">QCString left(size_t len) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00212">qcstring.h:212</a></div></div>
 <div class="ttc" id="aclass_r_t_f_code_generator_html_a7200b57d2c558edc3a04396ea01a1c8c"><div class="ttname"><a href="../../d2/df7/class_r_t_f_code_generator.html#a7200b57d2c558edc3a04396ea01a1c8c">RTFCodeGenerator::m_col</a></div><div class="ttdeci">int m_col</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/daa/rtfgen_8h_source.html#l00056">rtfgen.h:56</a></div></div>
@@ -329,7 +329,7 @@ Friends</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00034">Config_getInt</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00153">QCString::data()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00212">QCString::left()</a>, <a class="el" href="../../d4/daa/rtfgen_8h_source.html#l00056">m_col</a>, <a class="el" href="../../d4/daa/rtfgen_8h_source.html#l00057">m_t</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00127">Doxygen::spaces</a>, and <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00197">writeUTF8Char()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00074">writeCodeLink()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00097">writeCodeLink()</a>.</p>
 
 </div>
 </div>
@@ -360,18 +360,18 @@ Friends</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d5/d9c/class_code_output_interface.html#ac9647197ce79f900eacb4c9330728796">CodeOutputInterface</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00149">149</a> of file <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html">rtfgen.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  150</span>{</div>
-<div class="line"><span class="lineno">  151</span>  <a class="code hl_function" href="../../d2/df7/class_r_t_f_code_generator.html#a167d4b5df977d6a8f62569f2b8c343c4">endCodeLine</a>();</div>
-<div class="line"><span class="lineno">  152</span> </div>
-<div class="line"><span class="lineno">  153</span>  <a class="code hl_define" href="../../de/d9a/rtfdocvisitor_8cpp.html#a8e937453cd49cd7e753fa4e9d77d3c38">DBG_RTF</a>(<a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;{\\comment (endCodeFragment) }\n&quot;</span>)</div>
-<div class="line"><span class="lineno">  154</span>  <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; &quot;}\n&quot;;</div>
-<div class="line"><span class="lineno">  155</span>  <span class="comment">//m_omitParagraph = TRUE;</span></div>
-<div class="line"><span class="lineno">  156</span>}</div>
-<div class="ttc" id="aclass_r_t_f_code_generator_html_a167d4b5df977d6a8f62569f2b8c343c4"><div class="ttname"><a href="../../d2/df7/class_r_t_f_code_generator.html#a167d4b5df977d6a8f62569f2b8c343c4">RTFCodeGenerator::endCodeLine</a></div><div class="ttdeci">void endCodeLine()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d9c/rtfgen_8cpp_source.html#l00207">rtfgen.cpp:207</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00172">172</a> of file <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html">rtfgen.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  173</span>{</div>
+<div class="line"><span class="lineno">  174</span>  <a class="code hl_function" href="../../d2/df7/class_r_t_f_code_generator.html#a167d4b5df977d6a8f62569f2b8c343c4">endCodeLine</a>();</div>
+<div class="line"><span class="lineno">  175</span> </div>
+<div class="line"><span class="lineno">  176</span>  <a class="code hl_define" href="../../de/d9a/rtfdocvisitor_8cpp.html#a8e937453cd49cd7e753fa4e9d77d3c38">DBG_RTF</a>(<a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;{\\comment (endCodeFragment) }\n&quot;</span>)</div>
+<div class="line"><span class="lineno">  177</span>  <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; &quot;}\n&quot;;</div>
+<div class="line"><span class="lineno">  178</span>  <span class="comment">//m_omitParagraph = TRUE;</span></div>
+<div class="line"><span class="lineno">  179</span>}</div>
+<div class="ttc" id="aclass_r_t_f_code_generator_html_a167d4b5df977d6a8f62569f2b8c343c4"><div class="ttname"><a href="../../d2/df7/class_r_t_f_code_generator.html#a167d4b5df977d6a8f62569f2b8c343c4">RTFCodeGenerator::endCodeLine</a></div><div class="ttdeci">void endCodeLine()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d9c/rtfgen_8cpp_source.html#l00230">rtfgen.cpp:230</a></div></div>
 <div class="ttc" id="artfdocvisitor_8cpp_html_a8e937453cd49cd7e753fa4e9d77d3c38"><div class="ttname"><a href="../../de/d9a/rtfdocvisitor_8cpp.html#a8e937453cd49cd7e753fa4e9d77d3c38">DBG_RTF</a></div><div class="ttdeci">#define DBG_RTF(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d9a/rtfdocvisitor_8cpp_source.html#l00042">rtfdocvisitor.cpp:42</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/d9a/rtfdocvisitor_8cpp_source.html#l00042">DBG_RTF</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00207">endCodeLine()</a>, and <a class="el" href="../../d4/daa/rtfgen_8h_source.html#l00057">m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d9a/rtfdocvisitor_8cpp_source.html#l00042">DBG_RTF</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00230">endCodeLine()</a>, and <a class="el" href="../../d4/daa/rtfgen_8h_source.html#l00057">m_t</a>.</p>
 
 </div>
 </div>
@@ -401,16 +401,16 @@ Friends</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d5/d9c/class_code_output_interface.html#afac5763eafc78f93b82691fb9a6dcff7">CodeOutputInterface</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00207">207</a> of file <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html">rtfgen.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  208</span>{</div>
-<div class="line"><span class="lineno">  209</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#ab348c86fa73f25281059dbe00a817de8">m_doxyCodeLineOpen</a>) <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\\par\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  210</span>  <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#ab348c86fa73f25281059dbe00a817de8">m_doxyCodeLineOpen</a> = <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  211</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00230">230</a> of file <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html">rtfgen.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  231</span>{</div>
+<div class="line"><span class="lineno">  232</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#ab348c86fa73f25281059dbe00a817de8">m_doxyCodeLineOpen</a>) <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\\par\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  233</span>  <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#ab348c86fa73f25281059dbe00a817de8">m_doxyCodeLineOpen</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  234</span>}</div>
 <div class="ttc" id="aclass_r_t_f_code_generator_html_ab348c86fa73f25281059dbe00a817de8"><div class="ttname"><a href="../../d2/df7/class_r_t_f_code_generator.html#ab348c86fa73f25281059dbe00a817de8">RTFCodeGenerator::m_doxyCodeLineOpen</a></div><div class="ttdeci">bool m_doxyCodeLineOpen</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/daa/rtfgen_8h_source.html#l00058">rtfgen.h:58</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d4/daa/rtfgen_8h_source.html#l00058">m_doxyCodeLineOpen</a>, and <a class="el" href="../../d4/daa/rtfgen_8h_source.html#l00057">m_t</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00149">endCodeFragment()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00172">endCodeFragment()</a>.</p>
 
 </div>
 </div>
@@ -440,10 +440,10 @@ Friends</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d5/d9c/class_code_output_interface.html#a2b8ac05a391dae36793aa3aa8714a0f6">CodeOutputInterface</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00231">231</a> of file <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html">rtfgen.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  232</span>{</div>
-<div class="line"><span class="lineno">  233</span>  <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;}&quot;</span>;</div>
-<div class="line"><span class="lineno">  234</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00254">254</a> of file <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html">rtfgen.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  255</span>{</div>
+<div class="line"><span class="lineno">  256</span>  <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;}&quot;</span>;</div>
+<div class="line"><span class="lineno">  257</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d4/daa/rtfgen_8h_source.html#l00057">m_t</a>.</p>
 
@@ -472,20 +472,20 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00236">236</a> of file <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html">rtfgen.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  237</span>{</div>
-<div class="line"><span class="lineno">  238</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> n=<a class="code hl_function" href="../../d0/d9c/rtfgen_8cpp.html#a94577da729b999a4d3bd80e36a4d8d01">makeIndexName</a>(<span class="stringliteral">&quot;CodeExample&quot;</span>,<a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a921dd4db8b6b1ac387ab437acba47707">m_indentLevel</a>);</div>
-<div class="line"><span class="lineno">  239</span>  <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d5c/rtfstyle_8cpp.html#a0e6daceda067f191c8ec56f44ec2486f">rtf_Style</a>[n.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>()].reference();</div>
-<div class="line"><span class="lineno">  240</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00259">259</a> of file <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html">rtfgen.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  260</span>{</div>
+<div class="line"><span class="lineno">  261</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> n=<a class="code hl_function" href="../../d0/d9c/rtfgen_8cpp.html#a94577da729b999a4d3bd80e36a4d8d01">makeIndexName</a>(<span class="stringliteral">&quot;CodeExample&quot;</span>,<a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a921dd4db8b6b1ac387ab437acba47707">m_indentLevel</a>);</div>
+<div class="line"><span class="lineno">  262</span>  <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d5c/rtfstyle_8cpp.html#a0e6daceda067f191c8ec56f44ec2486f">rtf_Style</a>[n.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>()].reference();</div>
+<div class="line"><span class="lineno">  263</span>}</div>
 <div class="ttc" id="aclass_q_c_string_html"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html">QCString</a></div><div class="ttdoc">This is an alternative implementation of QCString.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00108">qcstring.h:109</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a875e9ad762554ef12f3ed69b015bb245"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">QCString::str</a></div><div class="ttdeci">const std::string &amp; str() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00480">qcstring.h:480</a></div></div>
 <div class="ttc" id="aclass_r_t_f_code_generator_html_a921dd4db8b6b1ac387ab437acba47707"><div class="ttname"><a href="../../d2/df7/class_r_t_f_code_generator.html#a921dd4db8b6b1ac387ab437acba47707">RTFCodeGenerator::m_indentLevel</a></div><div class="ttdeci">int m_indentLevel</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/daa/rtfgen_8h_source.html#l00060">rtfgen.h:60</a></div></div>
-<div class="ttc" id="artfgen_8cpp_html_a94577da729b999a4d3bd80e36a4d8d01"><div class="ttname"><a href="../../d0/d9c/rtfgen_8cpp.html#a94577da729b999a4d3bd80e36a4d8d01">makeIndexName</a></div><div class="ttdeci">static QCString makeIndexName(const QCString &amp;s, int i)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d9c/rtfgen_8cpp_source.html#l00064">rtfgen.cpp:64</a></div></div>
+<div class="ttc" id="artfgen_8cpp_html_a94577da729b999a4d3bd80e36a4d8d01"><div class="ttname"><a href="../../d0/d9c/rtfgen_8cpp.html#a94577da729b999a4d3bd80e36a4d8d01">makeIndexName</a></div><div class="ttdeci">static QCString makeIndexName(const QCString &amp;s, int i)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d9c/rtfgen_8cpp_source.html#l00087">rtfgen.cpp:87</a></div></div>
 <div class="ttc" id="artfstyle_8cpp_html_a0e6daceda067f191c8ec56f44ec2486f"><div class="ttname"><a href="../../de/d5c/rtfstyle_8cpp.html#a0e6daceda067f191c8ec56f44ec2486f">rtf_Style</a></div><div class="ttdeci">StyleDataMap rtf_Style</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d5c/rtfstyle_8cpp_source.html#l00313">rtfstyle.cpp:313</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/daa/rtfgen_8h_source.html#l00060">m_indentLevel</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00064">makeIndexName()</a>, <a class="el" href="../../de/d5c/rtfstyle_8cpp_source.html#l00313">rtf_Style</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00480">QCString::str()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/daa/rtfgen_8h_source.html#l00060">m_indentLevel</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00087">makeIndexName()</a>, <a class="el" href="../../de/d5c/rtfstyle_8cpp_source.html#l00313">rtf_Style</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00480">QCString::str()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00142">startCodeFragment()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00165">startCodeFragment()</a>.</p>
 
 </div>
 </div>
@@ -518,7 +518,7 @@ Friends</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d4/daa/rtfgen_8h_source.html#l00060">m_indentLevel</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l01943">RTFGenerator::decIndentLevel()</a>, and <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l01932">RTFGenerator::incIndentLevel()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l01956">RTFGenerator::decIndentLevel()</a>, and <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l01945">RTFGenerator::incIndentLevel()</a>.</p>
 
 </div>
 </div>
@@ -546,15 +546,15 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00242">242</a> of file <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html">rtfgen.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  243</span>{</div>
-<div class="line"><span class="lineno">  244</span>  <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a697b91aac1591633a24b3cb8cc0f00c7">m_sourceFileName</a> = name;</div>
-<div class="line"><span class="lineno">  245</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00265">265</a> of file <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html">rtfgen.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  266</span>{</div>
+<div class="line"><span class="lineno">  267</span>  <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a697b91aac1591633a24b3cb8cc0f00c7">m_sourceFileName</a> = name;</div>
+<div class="line"><span class="lineno">  268</span>}</div>
 <div class="ttc" id="aclass_r_t_f_code_generator_html_a697b91aac1591633a24b3cb8cc0f00c7"><div class="ttname"><a href="../../d2/df7/class_r_t_f_code_generator.html#a697b91aac1591633a24b3cb8cc0f00c7">RTFCodeGenerator::m_sourceFileName</a></div><div class="ttdeci">QCString m_sourceFileName</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/daa/rtfgen_8h_source.html#l00059">rtfgen.h:59</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d4/daa/rtfgen_8h_source.html#l00059">m_sourceFileName</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00281">RTFGenerator::setSourceFileName()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00304">RTFGenerator::setSourceFileName()</a>.</p>
 
 </div>
 </div>
@@ -590,14 +590,14 @@ Friends</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d5/d9c/class_code_output_interface.html#a8bfe3442097c1cba7701050c9a07e559">CodeOutputInterface</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00142">142</a> of file <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html">rtfgen.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  143</span>{</div>
-<div class="line"><span class="lineno">  144</span>  <a class="code hl_define" href="../../de/d9a/rtfdocvisitor_8cpp.html#a8e937453cd49cd7e753fa4e9d77d3c38">DBG_RTF</a>(<a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;{\\comment (startCodeFragment) }\n&quot;</span>)</div>
-<div class="line"><span class="lineno">  145</span>  <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; &quot;{\n<span class="stringliteral">&quot;;</span></div>
-<div class="line"><span class="lineno">  146</span><span class="stringliteral">  m_t &lt;&lt; rtf_Style_Reset &lt;&lt; rtf_Code_DepthStyle();</span></div>
-<div class="line"><span class="lineno">  147</span><span class="stringliteral">}</span></div>
+<p class="definition">Definition at line <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00165">165</a> of file <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html">rtfgen.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  166</span>{</div>
+<div class="line"><span class="lineno">  167</span>  <a class="code hl_define" href="../../de/d9a/rtfdocvisitor_8cpp.html#a8e937453cd49cd7e753fa4e9d77d3c38">DBG_RTF</a>(<a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;{\\comment (startCodeFragment) }\n&quot;</span>)</div>
+<div class="line"><span class="lineno">  168</span>  <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; &quot;{\n<span class="stringliteral">&quot;;</span></div>
+<div class="line"><span class="lineno">  169</span><span class="stringliteral">  m_t &lt;&lt; rtf_Style_Reset &lt;&lt; rtf_Code_DepthStyle();</span></div>
+<div class="line"><span class="lineno">  170</span><span class="stringliteral">}</span></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/d9a/rtfdocvisitor_8cpp_source.html#l00042">DBG_RTF</a>, <a class="el" href="../../d4/daa/rtfgen_8h_source.html#l00057">m_t</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00236">rtf_Code_DepthStyle()</a>, and <a class="el" href="../../de/d5c/rtfstyle_8cpp_source.html#l00049">rtf_Style_Reset</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d9a/rtfdocvisitor_8cpp_source.html#l00042">DBG_RTF</a>, <a class="el" href="../../d4/daa/rtfgen_8h_source.html#l00057">m_t</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00259">rtf_Code_DepthStyle()</a>, and <a class="el" href="../../de/d5c/rtfstyle_8cpp_source.html#l00049">rtf_Style_Reset</a>.</p>
 
 </div>
 </div>
@@ -627,11 +627,11 @@ Friends</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d5/d9c/class_code_output_interface.html#a080d71d457de084ce2b3245bca5a0d68">CodeOutputInterface</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00201">201</a> of file <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html">rtfgen.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  202</span>{</div>
-<div class="line"><span class="lineno">  203</span>  <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#ab348c86fa73f25281059dbe00a817de8">m_doxyCodeLineOpen</a> = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  204</span>  <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a7200b57d2c558edc3a04396ea01a1c8c">m_col</a>=0;</div>
-<div class="line"><span class="lineno">  205</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00224">224</a> of file <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html">rtfgen.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  225</span>{</div>
+<div class="line"><span class="lineno">  226</span>  <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#ab348c86fa73f25281059dbe00a817de8">m_doxyCodeLineOpen</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  227</span>  <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a7200b57d2c558edc3a04396ea01a1c8c">m_col</a>=0;</div>
+<div class="line"><span class="lineno">  228</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d4/daa/rtfgen_8h_source.html#l00056">m_col</a>, and <a class="el" href="../../d4/daa/rtfgen_8h_source.html#l00058">m_doxyCodeLineOpen</a>.</p>
 
@@ -669,23 +669,23 @@ Friends</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d5/d9c/class_code_output_interface.html#a1a213ecf46f087ecb19d414f6c160a15">CodeOutputInterface</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00213">213</a> of file <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html">rtfgen.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  214</span>{</div>
-<div class="line"><span class="lineno">  215</span>  <span class="keywordtype">int</span> cod = 2;</div>
-<div class="line"><span class="lineno">  216</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> qname(name);</div>
-<div class="line"><span class="lineno">  217</span>  <span class="keywordflow">if</span> (qname == <span class="stringliteral">&quot;keyword&quot;</span>)            cod = 17;</div>
-<div class="line"><span class="lineno">  218</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (qname == <span class="stringliteral">&quot;keywordtype&quot;</span>)   cod = 18;</div>
-<div class="line"><span class="lineno">  219</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (qname == <span class="stringliteral">&quot;keywordflow&quot;</span>)   cod = 19;</div>
-<div class="line"><span class="lineno">  220</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (qname == <span class="stringliteral">&quot;comment&quot;</span>)       cod = 20;</div>
-<div class="line"><span class="lineno">  221</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (qname == <span class="stringliteral">&quot;preprocessor&quot;</span>)  cod = 21;</div>
-<div class="line"><span class="lineno">  222</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (qname == <span class="stringliteral">&quot;stringliteral&quot;</span>) cod = 22;</div>
-<div class="line"><span class="lineno">  223</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (qname == <span class="stringliteral">&quot;charliteral&quot;</span>)   cod = 23;</div>
-<div class="line"><span class="lineno">  224</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (qname == <span class="stringliteral">&quot;vhdldigit&quot;</span>)     cod = 24;</div>
-<div class="line"><span class="lineno">  225</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (qname == <span class="stringliteral">&quot;vhdlchar&quot;</span>)      cod = 25;</div>
-<div class="line"><span class="lineno">  226</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (qname == <span class="stringliteral">&quot;vhdlkeyword&quot;</span>)   cod = 26;</div>
-<div class="line"><span class="lineno">  227</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (qname == <span class="stringliteral">&quot;vhdllogic&quot;</span>)     cod = 27;</div>
-<div class="line"><span class="lineno">  228</span>  <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;{\\cf&quot;</span> &lt;&lt; cod &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
-<div class="line"><span class="lineno">  229</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00236">236</a> of file <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html">rtfgen.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  237</span>{</div>
+<div class="line"><span class="lineno">  238</span>  <span class="keywordtype">int</span> cod = 2;</div>
+<div class="line"><span class="lineno">  239</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> qname(name);</div>
+<div class="line"><span class="lineno">  240</span>  <span class="keywordflow">if</span> (qname == <span class="stringliteral">&quot;keyword&quot;</span>)            cod = 17;</div>
+<div class="line"><span class="lineno">  241</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (qname == <span class="stringliteral">&quot;keywordtype&quot;</span>)   cod = 18;</div>
+<div class="line"><span class="lineno">  242</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (qname == <span class="stringliteral">&quot;keywordflow&quot;</span>)   cod = 19;</div>
+<div class="line"><span class="lineno">  243</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (qname == <span class="stringliteral">&quot;comment&quot;</span>)       cod = 20;</div>
+<div class="line"><span class="lineno">  244</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (qname == <span class="stringliteral">&quot;preprocessor&quot;</span>)  cod = 21;</div>
+<div class="line"><span class="lineno">  245</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (qname == <span class="stringliteral">&quot;stringliteral&quot;</span>) cod = 22;</div>
+<div class="line"><span class="lineno">  246</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (qname == <span class="stringliteral">&quot;charliteral&quot;</span>)   cod = 23;</div>
+<div class="line"><span class="lineno">  247</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (qname == <span class="stringliteral">&quot;vhdldigit&quot;</span>)     cod = 24;</div>
+<div class="line"><span class="lineno">  248</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (qname == <span class="stringliteral">&quot;vhdlchar&quot;</span>)      cod = 25;</div>
+<div class="line"><span class="lineno">  249</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (qname == <span class="stringliteral">&quot;vhdlkeyword&quot;</span>)   cod = 26;</div>
+<div class="line"><span class="lineno">  250</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (qname == <span class="stringliteral">&quot;vhdllogic&quot;</span>)     cod = 27;</div>
+<div class="line"><span class="lineno">  251</span>  <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;{\\cf&quot;</span> &lt;&lt; cod &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
+<div class="line"><span class="lineno">  252</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d4/daa/rtfgen_8h_source.html#l00057">m_t</a>.</p>
 
@@ -829,44 +829,44 @@ Friends</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d5/d9c/class_code_output_interface.html#a13a6b8760052adea7080330705d4a020">CodeOutputInterface</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00074">74</a> of file <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html">rtfgen.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   78</span>{</div>
-<div class="line"><span class="lineno">   79</span>  <span class="keywordflow">if</span> (ref.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>() &amp;&amp; <a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(RTF_HYPERLINKS))</div>
-<div class="line"><span class="lineno">   80</span>  {</div>
-<div class="line"><span class="lineno">   81</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> refName;</div>
-<div class="line"><span class="lineno">   82</span>    <span class="keywordflow">if</span> (!f.isEmpty())</div>
-<div class="line"><span class="lineno">   83</span>    {</div>
-<div class="line"><span class="lineno">   84</span>      refName+=<a class="code hl_function" href="../../df/d2d/util_8cpp.html#a3d37ec79f266698bd836af54ba75e63e">stripPath</a>(f);</div>
-<div class="line"><span class="lineno">   85</span>    }</div>
-<div class="line"><span class="lineno">   86</span>    <span class="keywordflow">if</span> (!anchor.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
-<div class="line"><span class="lineno">   87</span>    {</div>
-<div class="line"><span class="lineno">   88</span>      refName+=<span class="charliteral">&#39;_&#39;</span>;</div>
-<div class="line"><span class="lineno">   89</span>      refName+=anchor;</div>
-<div class="line"><span class="lineno">   90</span>    }</div>
-<div class="line"><span class="lineno">   91</span> </div>
-<div class="line"><span class="lineno">   92</span>    <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;{\\field {\\*\\fldinst { HYPERLINK  \\\\l \&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno">   93</span>    <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a0de8a7e9fdf9ae4c06959f6bc834b12c">rtfFormatBmkStr</a>(refName);</div>
-<div class="line"><span class="lineno">   94</span>    <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\&quot; }{}&quot;</span>;</div>
-<div class="line"><span class="lineno">   95</span>    <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;}{\\fldrslt {\\cs37\\ul\\cf2 &quot;</span>;</div>
-<div class="line"><span class="lineno">   96</span> </div>
-<div class="line"><span class="lineno">   97</span>    <a class="code hl_function" href="../../d2/df7/class_r_t_f_code_generator.html#a759358f3fa2895eb5fb467d17a73c81e">codify</a>(name);</div>
-<div class="line"><span class="lineno">   98</span> </div>
-<div class="line"><span class="lineno">   99</span>    <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;}}}\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  100</span>  }</div>
-<div class="line"><span class="lineno">  101</span>  <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  102</span>  {</div>
-<div class="line"><span class="lineno">  103</span>    <a class="code hl_function" href="../../d2/df7/class_r_t_f_code_generator.html#a759358f3fa2895eb5fb467d17a73c81e">codify</a>(name);</div>
-<div class="line"><span class="lineno">  104</span>  }</div>
-<div class="line"><span class="lineno">  105</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00097">97</a> of file <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html">rtfgen.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  101</span>{</div>
+<div class="line"><span class="lineno">  102</span>  <span class="keywordflow">if</span> (ref.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>() &amp;&amp; <a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(RTF_HYPERLINKS))</div>
+<div class="line"><span class="lineno">  103</span>  {</div>
+<div class="line"><span class="lineno">  104</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> refName;</div>
+<div class="line"><span class="lineno">  105</span>    <span class="keywordflow">if</span> (!f.isEmpty())</div>
+<div class="line"><span class="lineno">  106</span>    {</div>
+<div class="line"><span class="lineno">  107</span>      refName+=<a class="code hl_function" href="../../df/d2d/util_8cpp.html#a3d37ec79f266698bd836af54ba75e63e">stripPath</a>(f);</div>
+<div class="line"><span class="lineno">  108</span>    }</div>
+<div class="line"><span class="lineno">  109</span>    <span class="keywordflow">if</span> (!anchor.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
+<div class="line"><span class="lineno">  110</span>    {</div>
+<div class="line"><span class="lineno">  111</span>      refName+=<span class="charliteral">&#39;_&#39;</span>;</div>
+<div class="line"><span class="lineno">  112</span>      refName+=anchor;</div>
+<div class="line"><span class="lineno">  113</span>    }</div>
+<div class="line"><span class="lineno">  114</span> </div>
+<div class="line"><span class="lineno">  115</span>    <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;{\\field {\\*\\fldinst { HYPERLINK  \\\\l \&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno">  116</span>    <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a0de8a7e9fdf9ae4c06959f6bc834b12c">rtfFormatBmkStr</a>(refName);</div>
+<div class="line"><span class="lineno">  117</span>    <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\&quot; }{}&quot;</span>;</div>
+<div class="line"><span class="lineno">  118</span>    <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;}{\\fldrslt {\\cs37\\ul\\cf2 &quot;</span>;</div>
+<div class="line"><span class="lineno">  119</span> </div>
+<div class="line"><span class="lineno">  120</span>    <a class="code hl_function" href="../../d2/df7/class_r_t_f_code_generator.html#a759358f3fa2895eb5fb467d17a73c81e">codify</a>(name);</div>
+<div class="line"><span class="lineno">  121</span> </div>
+<div class="line"><span class="lineno">  122</span>    <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;}}}\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  123</span>  }</div>
+<div class="line"><span class="lineno">  124</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  125</span>  {</div>
+<div class="line"><span class="lineno">  126</span>    <a class="code hl_function" href="../../d2/df7/class_r_t_f_code_generator.html#a759358f3fa2895eb5fb467d17a73c81e">codify</a>(name);</div>
+<div class="line"><span class="lineno">  127</span>  }</div>
+<div class="line"><span class="lineno">  128</span>}</div>
 <div class="ttc" id="aclass_q_c_string_html_a621c4090d69ad7d05ef8e5234376c3d8"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">QCString::isEmpty</a></div><div class="ttdeci">bool isEmpty() const</div><div class="ttdoc">Returns TRUE iff the string is empty.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00144">qcstring.h:144</a></div></div>
-<div class="ttc" id="aclass_r_t_f_code_generator_html_a759358f3fa2895eb5fb467d17a73c81e"><div class="ttname"><a href="../../d2/df7/class_r_t_f_code_generator.html#a759358f3fa2895eb5fb467d17a73c81e">RTFCodeGenerator::codify</a></div><div class="ttdeci">void codify(const QCString &amp;text)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d9c/rtfgen_8cpp_source.html#l00107">rtfgen.cpp:107</a></div></div>
+<div class="ttc" id="aclass_r_t_f_code_generator_html_a759358f3fa2895eb5fb467d17a73c81e"><div class="ttname"><a href="../../d2/df7/class_r_t_f_code_generator.html#a759358f3fa2895eb5fb467d17a73c81e">RTFCodeGenerator::codify</a></div><div class="ttdeci">void codify(const QCString &amp;text)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d9c/rtfgen_8cpp_source.html#l00130">rtfgen.cpp:130</a></div></div>
 <div class="ttc" id="aconfig_8h_html_a5373d0332a31f16ad7a42037733e8c79"><div class="ttname"><a href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a></div><div class="ttdeci">#define Config_getBool(name)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/config_8h_source.html#l00033">config.h:33</a></div></div>
 <div class="ttc" id="autil_8cpp_html_a0de8a7e9fdf9ae4c06959f6bc834b12c"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a0de8a7e9fdf9ae4c06959f6bc834b12c">rtfFormatBmkStr</a></div><div class="ttdeci">QCString rtfFormatBmkStr(const QCString &amp;name)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l05324">util.cpp:5324</a></div></div>
 <div class="ttc" id="autil_8cpp_html_a3d37ec79f266698bd836af54ba75e63e"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a3d37ec79f266698bd836af54ba75e63e">stripPath</a></div><div class="ttdeci">QCString stripPath(const QCString &amp;s)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l05412">util.cpp:5412</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00107">codify()</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d4/daa/rtfgen_8h_source.html#l00057">m_t</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05324">rtfFormatBmkStr()</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l05412">stripPath()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00130">codify()</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d4/daa/rtfgen_8h_source.html#l00057">m_t</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05324">rtfFormatBmkStr()</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l05412">stripPath()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00158">writeLineNumber()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00181">writeLineNumber()</a>.</p>
 
 </div>
 </div>
@@ -934,54 +934,54 @@ Friends</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d5/d9c/class_code_output_interface.html#a483573b9884f249316728fc85ee413b0">CodeOutputInterface</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00158">158</a> of file <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html">rtfgen.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  159</span>{</div>
-<div class="line"><span class="lineno">  160</span>  <span class="keywordtype">bool</span> rtfHyperlinks = <a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(RTF_HYPERLINKS);</div>
-<div class="line"><span class="lineno">  161</span> </div>
-<div class="line"><span class="lineno">  162</span>  <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#ab348c86fa73f25281059dbe00a817de8">m_doxyCodeLineOpen</a> = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  163</span>  <span class="keywordflow">if</span> (<a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(SOURCE_BROWSER))</div>
-<div class="line"><span class="lineno">  164</span>  {</div>
-<div class="line"><span class="lineno">  165</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> lineNumber;</div>
-<div class="line"><span class="lineno">  166</span>    lineNumber.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aa2dccf89cb25346c3ee81d75aa5859da">sprintf</a>(<span class="stringliteral">&quot;%05d&quot;</span>,l);</div>
-<div class="line"><span class="lineno">  167</span> </div>
-<div class="line"><span class="lineno">  168</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> lineAnchor;</div>
-<div class="line"><span class="lineno">  169</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a697b91aac1591633a24b3cb8cc0f00c7">m_sourceFileName</a>.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
-<div class="line"><span class="lineno">  170</span>    {</div>
-<div class="line"><span class="lineno">  171</span>      lineAnchor.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aa2dccf89cb25346c3ee81d75aa5859da">sprintf</a>(<span class="stringliteral">&quot;_l%05d&quot;</span>,l);</div>
-<div class="line"><span class="lineno">  172</span>      lineAnchor.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0a6a8fe99e596b149ee15138fa8dcf0c">prepend</a>(<a class="code hl_function" href="../../df/d2d/util_8cpp.html#a73d2ea8014e5ac678dac39cfd56ba148">stripExtensionGeneral</a>(<a class="code hl_function" href="../../df/d2d/util_8cpp.html#a3d37ec79f266698bd836af54ba75e63e">stripPath</a>(<a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a697b91aac1591633a24b3cb8cc0f00c7">m_sourceFileName</a>), <span class="stringliteral">&quot;.rtf&quot;</span>));</div>
-<div class="line"><span class="lineno">  173</span>    }</div>
-<div class="line"><span class="lineno">  174</span>    <span class="keywordtype">bool</span> showTarget = rtfHyperlinks &amp;&amp; !lineAnchor.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>() &amp;&amp; writeLineAnchor;</div>
-<div class="line"><span class="lineno">  175</span>    <span class="keywordflow">if</span> (showTarget)</div>
-<div class="line"><span class="lineno">  176</span>    {</div>
-<div class="line"><span class="lineno">  177</span>        <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;{\\bkmkstart &quot;</span>;</div>
-<div class="line"><span class="lineno">  178</span>        <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a0de8a7e9fdf9ae4c06959f6bc834b12c">rtfFormatBmkStr</a>(lineAnchor);</div>
-<div class="line"><span class="lineno">  179</span>        <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;}&quot;</span>;</div>
-<div class="line"><span class="lineno">  180</span>        <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;{\\bkmkend &quot;</span>;</div>
-<div class="line"><span class="lineno">  181</span>        <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a0de8a7e9fdf9ae4c06959f6bc834b12c">rtfFormatBmkStr</a>(lineAnchor);</div>
-<div class="line"><span class="lineno">  182</span>        <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;}\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  183</span>    }</div>
-<div class="line"><span class="lineno">  184</span>    <span class="keywordflow">if</span> (!fileName.isEmpty())</div>
-<div class="line"><span class="lineno">  185</span>    {</div>
-<div class="line"><span class="lineno">  186</span>      <a class="code hl_function" href="../../d2/df7/class_r_t_f_code_generator.html#aaf102f2a9ba0670001ccd4b93c86c8f2">writeCodeLink</a>(CodeSymbolType::Default,ref,fileName,anchor,lineNumber,<a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>());</div>
-<div class="line"><span class="lineno">  187</span>    }</div>
-<div class="line"><span class="lineno">  188</span>    <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  189</span>    {</div>
-<div class="line"><span class="lineno">  190</span>      <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; lineNumber;</div>
-<div class="line"><span class="lineno">  191</span>    }</div>
-<div class="line"><span class="lineno">  192</span>    <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
-<div class="line"><span class="lineno">  193</span>  }</div>
-<div class="line"><span class="lineno">  194</span>  <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  195</span>  {</div>
-<div class="line"><span class="lineno">  196</span>    <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; l &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
-<div class="line"><span class="lineno">  197</span>  }</div>
-<div class="line"><span class="lineno">  198</span>  <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a7200b57d2c558edc3a04396ea01a1c8c">m_col</a>=0;</div>
-<div class="line"><span class="lineno">  199</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00181">181</a> of file <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html">rtfgen.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  182</span>{</div>
+<div class="line"><span class="lineno">  183</span>  <span class="keywordtype">bool</span> rtfHyperlinks = <a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(RTF_HYPERLINKS);</div>
+<div class="line"><span class="lineno">  184</span> </div>
+<div class="line"><span class="lineno">  185</span>  <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#ab348c86fa73f25281059dbe00a817de8">m_doxyCodeLineOpen</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  186</span>  <span class="keywordflow">if</span> (<a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(SOURCE_BROWSER))</div>
+<div class="line"><span class="lineno">  187</span>  {</div>
+<div class="line"><span class="lineno">  188</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> lineNumber;</div>
+<div class="line"><span class="lineno">  189</span>    lineNumber.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aa2dccf89cb25346c3ee81d75aa5859da">sprintf</a>(<span class="stringliteral">&quot;%05d&quot;</span>,l);</div>
+<div class="line"><span class="lineno">  190</span> </div>
+<div class="line"><span class="lineno">  191</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> lineAnchor;</div>
+<div class="line"><span class="lineno">  192</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a697b91aac1591633a24b3cb8cc0f00c7">m_sourceFileName</a>.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
+<div class="line"><span class="lineno">  193</span>    {</div>
+<div class="line"><span class="lineno">  194</span>      lineAnchor.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aa2dccf89cb25346c3ee81d75aa5859da">sprintf</a>(<span class="stringliteral">&quot;_l%05d&quot;</span>,l);</div>
+<div class="line"><span class="lineno">  195</span>      lineAnchor.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0a6a8fe99e596b149ee15138fa8dcf0c">prepend</a>(<a class="code hl_function" href="../../df/d2d/util_8cpp.html#a73d2ea8014e5ac678dac39cfd56ba148">stripExtensionGeneral</a>(<a class="code hl_function" href="../../df/d2d/util_8cpp.html#a3d37ec79f266698bd836af54ba75e63e">stripPath</a>(<a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a697b91aac1591633a24b3cb8cc0f00c7">m_sourceFileName</a>), <span class="stringliteral">&quot;.rtf&quot;</span>));</div>
+<div class="line"><span class="lineno">  196</span>    }</div>
+<div class="line"><span class="lineno">  197</span>    <span class="keywordtype">bool</span> showTarget = rtfHyperlinks &amp;&amp; !lineAnchor.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>() &amp;&amp; writeLineAnchor;</div>
+<div class="line"><span class="lineno">  198</span>    <span class="keywordflow">if</span> (showTarget)</div>
+<div class="line"><span class="lineno">  199</span>    {</div>
+<div class="line"><span class="lineno">  200</span>        <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;{\\bkmkstart &quot;</span>;</div>
+<div class="line"><span class="lineno">  201</span>        <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a0de8a7e9fdf9ae4c06959f6bc834b12c">rtfFormatBmkStr</a>(lineAnchor);</div>
+<div class="line"><span class="lineno">  202</span>        <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;}&quot;</span>;</div>
+<div class="line"><span class="lineno">  203</span>        <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;{\\bkmkend &quot;</span>;</div>
+<div class="line"><span class="lineno">  204</span>        <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a0de8a7e9fdf9ae4c06959f6bc834b12c">rtfFormatBmkStr</a>(lineAnchor);</div>
+<div class="line"><span class="lineno">  205</span>        <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;}\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  206</span>    }</div>
+<div class="line"><span class="lineno">  207</span>    <span class="keywordflow">if</span> (!fileName.isEmpty())</div>
+<div class="line"><span class="lineno">  208</span>    {</div>
+<div class="line"><span class="lineno">  209</span>      <a class="code hl_function" href="../../d2/df7/class_r_t_f_code_generator.html#aaf102f2a9ba0670001ccd4b93c86c8f2">writeCodeLink</a>(CodeSymbolType::Default,ref,fileName,anchor,lineNumber,<a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>());</div>
+<div class="line"><span class="lineno">  210</span>    }</div>
+<div class="line"><span class="lineno">  211</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  212</span>    {</div>
+<div class="line"><span class="lineno">  213</span>      <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; lineNumber;</div>
+<div class="line"><span class="lineno">  214</span>    }</div>
+<div class="line"><span class="lineno">  215</span>    <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
+<div class="line"><span class="lineno">  216</span>  }</div>
+<div class="line"><span class="lineno">  217</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  218</span>  {</div>
+<div class="line"><span class="lineno">  219</span>    <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9">m_t</a> &lt;&lt; l &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
+<div class="line"><span class="lineno">  220</span>  }</div>
+<div class="line"><span class="lineno">  221</span>  <a class="code hl_variable" href="../../d2/df7/class_r_t_f_code_generator.html#a7200b57d2c558edc3a04396ea01a1c8c">m_col</a>=0;</div>
+<div class="line"><span class="lineno">  222</span>}</div>
 <div class="ttc" id="aclass_q_c_string_html_a0a6a8fe99e596b149ee15138fa8dcf0c"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a0a6a8fe99e596b149ee15138fa8dcf0c">QCString::prepend</a></div><div class="ttdeci">QCString &amp; prepend(const char *s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00365">qcstring.h:365</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_aa2dccf89cb25346c3ee81d75aa5859da"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#aa2dccf89cb25346c3ee81d75aa5859da">QCString::sprintf</a></div><div class="ttdeci">QCString &amp; sprintf(const char *format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d3e/qcstring_8cpp_source.html#l00029">qcstring.cpp:29</a></div></div>
-<div class="ttc" id="aclass_r_t_f_code_generator_html_aaf102f2a9ba0670001ccd4b93c86c8f2"><div class="ttname"><a href="../../d2/df7/class_r_t_f_code_generator.html#aaf102f2a9ba0670001ccd4b93c86c8f2">RTFCodeGenerator::writeCodeLink</a></div><div class="ttdeci">void writeCodeLink(CodeSymbolType type, const QCString &amp;ref, const QCString &amp;file, const QCString &amp;anchor, const QCString &amp;name, const QCString &amp;tooltip)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d9c/rtfgen_8cpp_source.html#l00074">rtfgen.cpp:74</a></div></div>
+<div class="ttc" id="aclass_r_t_f_code_generator_html_aaf102f2a9ba0670001ccd4b93c86c8f2"><div class="ttname"><a href="../../d2/df7/class_r_t_f_code_generator.html#aaf102f2a9ba0670001ccd4b93c86c8f2">RTFCodeGenerator::writeCodeLink</a></div><div class="ttdeci">void writeCodeLink(CodeSymbolType type, const QCString &amp;ref, const QCString &amp;file, const QCString &amp;anchor, const QCString &amp;name, const QCString &amp;tooltip)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d9c/rtfgen_8cpp_source.html#l00097">rtfgen.cpp:97</a></div></div>
 <div class="ttc" id="autil_8cpp_html_a73d2ea8014e5ac678dac39cfd56ba148"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a73d2ea8014e5ac678dac39cfd56ba148">stripExtensionGeneral</a></div><div class="ttdeci">QCString stripExtensionGeneral(const QCString &amp;fName, const QCString &amp;ext)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l05379">util.cpp:5379</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d4/daa/rtfgen_8h_source.html#l00056">m_col</a>, <a class="el" href="../../d4/daa/rtfgen_8h_source.html#l00058">m_doxyCodeLineOpen</a>, <a class="el" href="../../d4/daa/rtfgen_8h_source.html#l00059">m_sourceFileName</a>, <a class="el" href="../../d4/daa/rtfgen_8h_source.html#l00057">m_t</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00365">QCString::prepend()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05324">rtfFormatBmkStr()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00029">QCString::sprintf()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05379">stripExtensionGeneral()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05412">stripPath()</a>, and <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00074">writeCodeLink()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d4/daa/rtfgen_8h_source.html#l00056">m_col</a>, <a class="el" href="../../d4/daa/rtfgen_8h_source.html#l00058">m_doxyCodeLineOpen</a>, <a class="el" href="../../d4/daa/rtfgen_8h_source.html#l00059">m_sourceFileName</a>, <a class="el" href="../../d4/daa/rtfgen_8h_source.html#l00057">m_t</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00365">QCString::prepend()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05324">rtfFormatBmkStr()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00029">QCString::sprintf()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05379">stripExtensionGeneral()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05412">stripPath()</a>, and <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00097">writeCodeLink()</a>.</p>
 
 </div>
 </div>
@@ -1109,7 +1109,7 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/daa/rtfgen_8h_source.html#l00056">56</a> of file <a class="el" href="../../d4/daa/rtfgen_8h_source.html">rtfgen.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00107">codify()</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00201">startCodeLine()</a>, and <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00158">writeLineNumber()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00130">codify()</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00224">startCodeLine()</a>, and <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00181">writeLineNumber()</a>.</p>
 
 </div>
 </div>
@@ -1135,7 +1135,7 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/daa/rtfgen_8h_source.html#l00058">58</a> of file <a class="el" href="../../d4/daa/rtfgen_8h_source.html">rtfgen.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00207">endCodeLine()</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00201">startCodeLine()</a>, and <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00158">writeLineNumber()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00230">endCodeLine()</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00224">startCodeLine()</a>, and <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00181">writeLineNumber()</a>.</p>
 
 </div>
 </div>
@@ -1161,7 +1161,7 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/daa/rtfgen_8h_source.html#l00060">60</a> of file <a class="el" href="../../d4/daa/rtfgen_8h_source.html">rtfgen.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00236">rtf_Code_DepthStyle()</a>, and <a class="el" href="../../d4/daa/rtfgen_8h_source.html#l00054">setIndentLevel()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00259">rtf_Code_DepthStyle()</a>, and <a class="el" href="../../d4/daa/rtfgen_8h_source.html#l00054">setIndentLevel()</a>.</p>
 
 </div>
 </div>
@@ -1187,7 +1187,7 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/daa/rtfgen_8h_source.html#l00059">59</a> of file <a class="el" href="../../d4/daa/rtfgen_8h_source.html">rtfgen.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00242">setSourceFileName()</a>, and <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00158">writeLineNumber()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00265">setSourceFileName()</a>, and <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00181">writeLineNumber()</a>.</p>
 
 </div>
 </div>
@@ -1213,7 +1213,7 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/daa/rtfgen_8h_source.html#l00057">57</a> of file <a class="el" href="../../d4/daa/rtfgen_8h_source.html">rtfgen.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00107">codify()</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00149">endCodeFragment()</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00207">endCodeLine()</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00231">endFontClass()</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00142">startCodeFragment()</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00213">startFontClass()</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00074">writeCodeLink()</a>, and <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00158">writeLineNumber()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00130">codify()</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00172">endCodeFragment()</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00230">endCodeLine()</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00254">endFontClass()</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00165">startCodeFragment()</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00236">startFontClass()</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00097">writeCodeLink()</a>, and <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00181">writeLineNumber()</a>.</p>
 
 </div>
 </div>

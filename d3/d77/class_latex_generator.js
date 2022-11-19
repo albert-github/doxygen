@@ -94,6 +94,7 @@ var class_latex_generator =
     [ "lastIndexPage", "d3/d77/class_latex_generator.html#a5bd03c7e1a88abb8d5445bec8581b2aa", null ],
     [ "lineBreak", "d3/d77/class_latex_generator.html#ae8f085f6ff54f692869539996628ff73", null ],
     [ "newParagraph", "d3/d77/class_latex_generator.html#a6c246c6a7fc6f612388e13eb89ff0b63", null ],
+    [ "objectLinkToString", "d3/d77/class_latex_generator.html#a30125204193d440b973d019c1c1ec668", null ],
     [ "operator=", "d3/d77/class_latex_generator.html#aa6325f38ded9fef72a0b76d228a9e748", null ],
     [ "setCurrentDoc", "d3/d77/class_latex_generator.html#a9ef48dbc13f6a858ea4f70626085f85b", null ],
     [ "startAnonTypeScope", "d3/d77/class_latex_generator.html#a320eca9524c1041ffffcffc5784d2272", null ],
