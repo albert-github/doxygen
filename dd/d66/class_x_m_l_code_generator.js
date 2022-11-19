@@ -10,6 +10,7 @@ var class_x_m_l_code_generator =
     [ "startCodeFragment", "dd/d66/class_x_m_l_code_generator.html#affd0e0660e9f1ba00aa9202d90b632a9", null ],
     [ "startCodeLine", "dd/d66/class_x_m_l_code_generator.html#a355eb1c0c70b5f07329b7b0f58e01fe1", null ],
     [ "startFontClass", "dd/d66/class_x_m_l_code_generator.html#aa0280b79aa3d02cc6958d6a30ea31fc3", null ],
+    [ "type", "dd/d66/class_x_m_l_code_generator.html#a1161113df26f973d35819d346c52830f", null ],
     [ "writeCodeAnchor", "dd/d66/class_x_m_l_code_generator.html#af3abeec4466c2fd8b4abd70e6465c4ec", null ],
     [ "writeCodeLink", "dd/d66/class_x_m_l_code_generator.html#a22f6ad09446c1965714f48e8cbf8459a", null ],
     [ "writeLineNumber", "dd/d66/class_x_m_l_code_generator.html#aac332610fed5a983f3b5e012c1fcddef", null ],

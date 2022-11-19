@@ -9,6 +9,7 @@ var class_dev_null_code_doc_interface =
     [ "startCodeFragment", "dd/d8a/class_dev_null_code_doc_interface.html#ad5ba795c610f53e230711f9dede42f54", null ],
     [ "startCodeLine", "dd/d8a/class_dev_null_code_doc_interface.html#a412d05bd6c3da3d6427ac18991a523a3", null ],
     [ "startFontClass", "dd/d8a/class_dev_null_code_doc_interface.html#a7950f801a038a335990823cbf37da305", null ],
+    [ "type", "dd/d8a/class_dev_null_code_doc_interface.html#a81b92385d88b865b55e29821edd9513c", null ],
     [ "writeCodeAnchor", "dd/d8a/class_dev_null_code_doc_interface.html#aba1b32a6c1af549900042c3f79d86aea", null ],
     [ "writeCodeLink", "dd/d8a/class_dev_null_code_doc_interface.html#a1c18db400279ebbdc03715696d5e3c9d", null ],
     [ "writeLineNumber", "dd/d8a/class_dev_null_code_doc_interface.html#a08d8bc6a7b97f79ae189f74c0462fe71", null ],

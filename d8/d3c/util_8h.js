@@ -111,7 +111,7 @@ var util_8h =
     [ "resolveTypeDef", "d8/d3c/util_8h.html#a0fb26660134998245ab21d7e987cdb43", null ],
     [ "rightScopeMatch", "d8/d3c/util_8h.html#ae0c5a702c29f403e331441abfe289d5b", null ],
     [ "rtfFormatBmkStr", "d8/d3c/util_8h.html#a0de8a7e9fdf9ae4c06959f6bc834b12c", null ],
-    [ "selectBlock", "d8/d3c/util_8h.html#a53a397ef3e55a91d790d49743433d579", null ],
+    [ "selectBlock", "d8/d3c/util_8h.html#a5624b0f55050b4f205a8b63fd0d84f9d", null ],
     [ "showFileDefMatches", "d8/d3c/util_8h.html#a70d0b468521b0304252fb659f3b15e24", null ],
     [ "split", "d8/d3c/util_8h.html#a2cc67737d5d2452bb74b4968bb24a00c", null ],
     [ "split", "d8/d3c/util_8h.html#ac148c3a57e84a2440c4e5aaa894586d9", null ],

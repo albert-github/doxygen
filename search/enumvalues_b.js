@@ -2,7 +2,7 @@ var searchData=
 [
   ['mainpage_0',['MainPage',['../df/de7/struct_layout_nav_entry.html#aef36305dd829f7cde87ca203ae647c7ca53e72568b7ada7fcd9e75c1bb5052d54',1,'LayoutNavEntry']]],
   ['mainpagedoc_5fsec_1',['MAINPAGEDOC_SEC',['../d4/dd7/class_entry.html#a1e615d53eb7db6d16c19fcb5788fbd9ea3d14d1f9bc14ce1ea0ae448013b2ca5d',1,'Entry']]],
-  ['man_2',['Man',['../d3/d8e/class_output_generator.html#ab79b5d3c19d95c8a5929c07f5b2918cfa1c0c53e266b0c5a29ba3ab795811340d',1,'OutputGenerator']]],
+  ['man_2',['Man',['../df/d06/outputgen_8h.html#a4e0517338e6c4a31a2addafc06d4f3a3a627661c621eab1b7b298abc47d1a250d',1,'outputgen.h']]],
   ['maninclude_3',['ManInclude',['../d6/db9/class_doc_include.html#a72aa0fd397546547aadf356348ff3eafa135c7c87665378652c597d57710d60a1',1,'DocInclude']]],
   ['manonly_4',['ManOnly',['../dc/d12/class_doc_verbatim.html#ad8c770dcf2e62369b95f4e34fb11fa36a578f19d38fb29903c3f55aea4f76bccb',1,'DocVerbatim']]],
   ['markdown_5',['Markdown',['../da/d7d/class_debug.html#a9e0b892a8030a4f64076850777991c96a4e7a964cec1d0423c74ab7045c1f6f6d',1,'Debug']]],

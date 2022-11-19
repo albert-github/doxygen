@@ -9,6 +9,7 @@ var class_base_output_doc_interface =
       [ "EnumValues", "df/d27/class_base_output_doc_interface.html#a07a3d5df76a714674e070e5e236fe886a14899d1909b84ceff4b564f2c5cdd5c8", null ],
       [ "Examples", "df/d27/class_base_output_doc_interface.html#a07a3d5df76a714674e070e5e236fe886a8e76c29b11f7bc42235f145253d37661", null ]
     ] ],
+    [ "~BaseOutputDocInterface", "df/d27/class_base_output_doc_interface.html#aea4474270984790180da9f8aedd8c0d1", null ],
     [ "addIndexItem", "df/d27/class_base_output_doc_interface.html#a4e0d181e7339c140a7f03ff50b553355", null ],
     [ "docify", "df/d27/class_base_output_doc_interface.html#a45a57ff89e8df4aa6a5e521d2be6321b", null ],
     [ "endBold", "df/d27/class_base_output_doc_interface.html#a2a17911ba778f8efac83999fb5d190d9", null ],

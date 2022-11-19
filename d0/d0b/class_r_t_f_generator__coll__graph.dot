@@ -10,13 +10,17 @@ digraph "RTFGenerator"
   Node2 [label="OutputGenerator",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d3/d8e/class_output_generator.html",tooltip="Abstract output generator."];
   Node3 -> Node2 [dir="back",color="steelblue1",style="solid"];
   Node3 [label="BaseOutputDocInterface",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$df/d27/class_base_output_doc_interface.html",tooltip="Base Interface used for generating output outside of the comment blocks."];
-  Node4 -> Node3 [dir="back",color="steelblue1",style="solid"];
-  Node4 [label="CodeOutputInterface",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d5/d9c/class_code_output_interface.html",tooltip="Output interface for code parser."];
-  Node5 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" m_t" ];
-  Node5 [label="TextStream",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d3/d30/class_text_stream.html",tooltip="Text streaming class that buffers data."];
-  Node6 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" m_dir\nm_fileName" ];
-  Node6 [label="QCString",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d9/d45/class_q_c_string.html",tooltip="This is an alternative implementation of QCString."];
-  Node6 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" m_relPath\nm_sourceFileName" ];
-  Node7 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" m_listItemInfo" ];
-  Node7 [label="RTFGenerator::RTFListItemInfo",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d3/d18/struct_r_t_f_generator_1_1_r_t_f_list_item_info.html",tooltip=" "];
+  Node4 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" m_t" ];
+  Node4 [label="TextStream",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d3/d30/class_text_stream.html",tooltip="Text streaming class that buffers data."];
+  Node5 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" m_dir\nm_fileName" ];
+  Node5 [label="QCString",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d9/d45/class_q_c_string.html",tooltip="This is an alternative implementation of QCString."];
+  Node5 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" m_relPath" ];
+  Node6 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" m_listItemInfo" ];
+  Node6 [label="RTFGenerator::RTFListItemInfo",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d3/d18/struct_r_t_f_generator_1_1_r_t_f_list_item_info.html",tooltip=" "];
+  Node7 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" m_codeGen" ];
+  Node7 [label="RTFCodeGenerator",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d2/df7/class_r_t_f_code_generator.html",tooltip="Generator for RTF code fragments."];
+  Node8 -> Node7 [dir="back",color="steelblue1",style="solid"];
+  Node8 [label="CodeOutputInterface",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d5/d9c/class_code_output_interface.html",tooltip="Output interface for code parser."];
+  Node4 -> Node7 [dir="back",color="darkorchid3",style="dashed",label=" m_t" ];
+  Node5 -> Node7 [dir="back",color="darkorchid3",style="dashed",label=" m_sourceFileName" ];
 }

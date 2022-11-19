@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['xml_0',['Xml',['../db/dc8/class_doc_image.html#aaa49d1dad195745ff9d470c5335be93ead2e9647950376dfa87071aa9913b703f',1,'DocImage::Xml()'],['../da/d1d/class_local_toc.html#a665c661f92a4de013f9c54ad52a330eca0435bb97f551dc7353ddb940de458128',1,'LocalToc::Xml()']]],
-  ['xml_1',['XML',['../d3/d8e/class_output_generator.html#ab79b5d3c19d95c8a5929c07f5b2918cfac2e6889ca4538412c55c0f22866e3c0b',1,'OutputGenerator']]],
+  ['xml_0',['Xml',['../da/d1d/class_local_toc.html#a665c661f92a4de013f9c54ad52a330eca0435bb97f551dc7353ddb940de458128',1,'LocalToc::Xml()'],['../db/dc8/class_doc_image.html#aaa49d1dad195745ff9d470c5335be93ead2e9647950376dfa87071aa9913b703f',1,'DocImage::Xml()']]],
+  ['xml_1',['XML',['../df/d06/outputgen_8h.html#a4e0517338e6c4a31a2addafc06d4f3a3a3501bb093d363810b671059b9cfed3f8',1,'outputgen.h']]],
   ['xml_5fc_2',['XML_C',['../d3/d42/cmdmapper_8h.html#a91be16b8342aa3130a4374d78cf42273a5ce9f148d97c638bc2c457bfe13d249a',1,'cmdmapper.h']]],
   ['xml_5fcmdmask_3',['XML_CmdMask',['../d3/d42/cmdmapper_8h.html#a91be16b8342aa3130a4374d78cf42273adedaab7375bcdd08040b1ba9a6364ea4',1,'cmdmapper.h']]],
   ['xml_5fcode_4',['XML_CODE',['../d3/d42/cmdmapper_8h.html#a91be16b8342aa3130a4374d78cf42273a2bb7e964f4b1a8a2fe5c79fac9533ed1',1,'cmdmapper.h']]],

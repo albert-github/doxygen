@@ -11,7 +11,7 @@ digraph "LatexDocVisitor"
   Node3 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" m_t" ];
   Node3 [label="TextStream",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d3/d30/class_text_stream.html",tooltip="Text streaming class that buffers data."];
   Node4 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" m_ci" ];
-  Node4 [label="LatexCodeGenerator",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d0/d37/class_latex_code_generator.html",tooltip=" "];
+  Node4 [label="LatexCodeGenerator",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d0/d37/class_latex_code_generator.html",tooltip="Generator for LaTeX code fragments."];
   Node5 -> Node4 [dir="back",color="steelblue1",style="solid"];
   Node5 [label="CodeOutputInterface",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d5/d9c/class_code_output_interface.html",tooltip="Output interface for code parser."];
   Node3 -> Node4 [dir="back",color="darkorchid3",style="dashed",label=" m_t" ];

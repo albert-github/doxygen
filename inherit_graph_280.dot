@@ -6,7 +6,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [label="CiteInfo",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d40/struct_cite_info.html",tooltip="Citation-related data."];
-  Node0 -> Node1 [dir="back",color="steelblue1",style="solid"];
-  Node1 [label="CiteInfoImpl",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/dbc/class_cite_info_impl.html",tooltip=" "];
+  Node0 [label="CitationManager::Private",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d4e/struct_citation_manager_1_1_private.html",tooltip=" "];
 }

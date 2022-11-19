@@ -23,6 +23,16 @@ var hierarchy =
     ] ],
     [ "BaseClassDef", "d1/d06/struct_base_class_def.html", null ],
     [ "BaseInfo", "de/d64/struct_base_info.html", null ],
+    [ "BaseOutputDocInterface", "df/d27/class_base_output_doc_interface.html", [
+      [ "OutputGenerator", "d3/d8e/class_output_generator.html", [
+        [ "DocbookGenerator", "d1/d72/class_docbook_generator.html", null ],
+        [ "HtmlGenerator", "d7/d41/class_html_generator.html", null ],
+        [ "LatexGenerator", "d3/d77/class_latex_generator.html", null ],
+        [ "ManGenerator", "de/da5/class_man_generator.html", null ],
+        [ "RTFGenerator", "d0/da4/class_r_t_f_generator.html", null ]
+      ] ],
+      [ "OutputList", "df/dc8/class_output_list.html", null ]
+    ] ],
     [ "BodyInfo", "db/dab/struct_body_info.html", null ],
     [ "BriefInfo", "d0/da7/struct_brief_info.html", null ],
     [ "BufStr", "d5/d64/class_buf_str.html", null ],
@@ -323,20 +333,13 @@ var hierarchy =
     [ "ClassDiagram", "d1/d97/class_class_diagram.html", null ],
     [ "CmhlInfo", "d5/d48/struct_cmhl_info.html", null ],
     [ "CodeOutputInterface", "d5/d9c/class_code_output_interface.html", [
-      [ "BaseOutputDocInterface", "df/d27/class_base_output_doc_interface.html", [
-        [ "OutputGenerator", "d3/d8e/class_output_generator.html", [
-          [ "DocbookGenerator", "d1/d72/class_docbook_generator.html", null ],
-          [ "HtmlGenerator", "d7/d41/class_html_generator.html", null ],
-          [ "LatexGenerator", "d3/d77/class_latex_generator.html", null ],
-          [ "ManGenerator", "de/da5/class_man_generator.html", null ],
-          [ "RTFGenerator", "d0/da4/class_r_t_f_generator.html", null ]
-        ] ],
-        [ "OutputList", "df/dc8/class_output_list.html", null ]
-      ] ],
       [ "DevNullCodeDocInterface", "dd/d8a/class_dev_null_code_doc_interface.html", null ],
       [ "DocbookCodeGenerator", "d7/d80/class_docbook_code_generator.html", null ],
       [ "HtmlCodeGenerator", "da/db6/class_html_code_generator.html", null ],
       [ "LatexCodeGenerator", "d0/d37/class_latex_code_generator.html", null ],
+      [ "ManCodeGenerator", "db/d92/class_man_code_generator.html", null ],
+      [ "OutputCodeList", "db/d8e/class_output_code_list.html", null ],
+      [ "RTFCodeGenerator", "d2/df7/class_r_t_f_code_generator.html", null ],
       [ "XMLCodeGenerator", "dd/d66/class_x_m_l_code_generator.html", null ]
     ] ],
     [ "CodeParserInterface", "d4/d65/class_code_parser_interface.html", [

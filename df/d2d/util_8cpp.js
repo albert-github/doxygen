@@ -133,7 +133,7 @@ var util_8cpp =
     [ "resolveTypeDef", "df/d2d/util_8cpp.html#a7970104534296194ccd535117234a682", null ],
     [ "rightScopeMatch", "df/d2d/util_8cpp.html#ae0c5a702c29f403e331441abfe289d5b", null ],
     [ "rtfFormatBmkStr", "df/d2d/util_8cpp.html#a0de8a7e9fdf9ae4c06959f6bc834b12c", null ],
-    [ "selectBlock", "df/d2d/util_8cpp.html#a53a397ef3e55a91d790d49743433d579", null ],
+    [ "selectBlock", "df/d2d/util_8cpp.html#a5624b0f55050b4f205a8b63fd0d84f9d", null ],
     [ "showFileDefMatches", "df/d2d/util_8cpp.html#a70d0b468521b0304252fb659f3b15e24", null ],
     [ "split", "df/d2d/util_8cpp.html#a2cc67737d5d2452bb74b4968bb24a00c", null ],
     [ "split", "df/d2d/util_8cpp.html#ac148c3a57e84a2440c4e5aaa894586d9", null ],

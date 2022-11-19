@@ -6,5 +6,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [label="CachedItem\< TemplateVariant,\l NamespaceContext::Private,\l &Private::createEnums \>",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/dc1/class_cached_item.html",tooltip=" "];
+  Node0 [label="CachedItem\< TemplateVariant,\l NamespaceContext::Private,\l &Private::createDictionaries \>",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/dc1/class_cached_item.html",tooltip=" "];
 }

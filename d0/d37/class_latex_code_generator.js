@@ -15,6 +15,7 @@ var class_latex_code_generator =
     [ "startCodeFragment", "d0/d37/class_latex_code_generator.html#a756ccfff7534033a522196ab842b5f0c", null ],
     [ "startCodeLine", "d0/d37/class_latex_code_generator.html#a4b5cefc7ecac681fe31fbdcf3edb5743", null ],
     [ "startFontClass", "d0/d37/class_latex_code_generator.html#a6d8204dc6e2eaa9bcbf319b6ff7eff94", null ],
+    [ "type", "d0/d37/class_latex_code_generator.html#aeedcbb68066a334f0571cac52977c536", null ],
     [ "usedTableLevel", "d0/d37/class_latex_code_generator.html#a0f1f9ea1686cfb3c68bac2bbc5081f55", null ],
     [ "writeCodeAnchor", "d0/d37/class_latex_code_generator.html#a9cd12f9b880dbe40521022bbc55518f9", null ],
     [ "writeCodeLink", "d0/d37/class_latex_code_generator.html#ae073efd8b440046f245aaff6c56bc1f4", null ],
