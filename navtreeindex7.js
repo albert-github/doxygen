@@ -1,7 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"d1/d25/class_class_def_impl.html#a0f2801d3bac148db9a137166a305861c":[8,0,35,39],
-"d1/d25/class_class_def_impl.html#a0fa4f37e50ccdd73af751c2e83bc13ff":[8,0,35,57],
 "d1/d25/class_class_def_impl.html#a136114229cd3fddcb9e32bac9d90f92c":[8,0,35,121],
 "d1/d25/class_class_def_impl.html#a189c6ca388312899a66b187f0745b19c":[8,0,35,12],
 "d1/d25/class_class_def_impl.html#a18a6e87ba651fdb17a3a460ed5577262":[8,0,35,38],
@@ -249,5 +247,7 @@ var NAVTREEINDEX7 =
 "d1/d4b/class_nesting_node_context_1_1_private.html#a3fe8d9098abe907ac1b7455dc7d0fe7d":[8,0,412,0,28],
 "d1/d4b/class_nesting_node_context_1_1_private.html#a4765e2aecbd7840fb3dc24dcdf3b4073":[8,0,412,0,54],
 "d1/d4b/class_nesting_node_context_1_1_private.html#a48ab4e25e78aa9bc2637217d3d76c04a":[8,0,412,0,24],
-"d1/d4b/class_nesting_node_context_1_1_private.html#a4ed99470bfc94cdfb008ce008b07d5c6":[8,0,412,0,4]
+"d1/d4b/class_nesting_node_context_1_1_private.html#a4ed99470bfc94cdfb008ce008b07d5c6":[8,0,412,0,4],
+"d1/d4b/class_nesting_node_context_1_1_private.html#a53207c514ead93cc8f463caadfd0cbc3":[8,0,412,0,33],
+"d1/d4b/class_nesting_node_context_1_1_private.html#a540c8972a8917450257e129257b7600c":[8,0,412,0,21]
 };

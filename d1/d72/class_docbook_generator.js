@@ -94,7 +94,6 @@ var class_docbook_generator =
     [ "insertMemberAlignLeft", "d1/d72/class_docbook_generator.html#a5b6548041e988bafab0cfa936153157b", null ],
     [ "lastIndexPage", "d1/d72/class_docbook_generator.html#a9889919e0ddeb5c8047cedd9e2e2f2e3", null ],
     [ "lineBreak", "d1/d72/class_docbook_generator.html#ad5add973ab14f7b424e6e77248056d4d", null ],
-    [ "objectLinkToString", "d1/d72/class_docbook_generator.html#a690e438958c5cf5973391e6b5ef3248b", null ],
     [ "openSection", "d1/d72/class_docbook_generator.html#a9872f2ebb33a85b7fff7268fee91a977", null ],
     [ "operator=", "d1/d72/class_docbook_generator.html#a8a4bc735a51a502841055c13079cb1c1", null ],
     [ "setCurrentDoc", "d1/d72/class_docbook_generator.html#ab6f59e78220512ccefd5649c28da2ef9", null ],

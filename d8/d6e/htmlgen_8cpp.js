@@ -1,7 +1,6 @@
 var htmlgen_8cpp =
 [
     [ "DBG_HTML", "d8/d6e/htmlgen_8cpp.html#a0f5cdb91a5e817f82987bef2e7f9fc45", null ],
-    [ "docifyToString", "d8/d6e/htmlgen_8cpp.html#ad370f3cfa0f4a46e2afd73bd50de864b", null ],
     [ "endQuickIndexItem", "d8/d6e/htmlgen_8cpp.html#ac40c99ba15be25abad2d514413a088b7", null ],
     [ "endQuickIndexList", "d8/d6e/htmlgen_8cpp.html#a54b07e4e2f12496df988f1f66f21e571", null ],
     [ "endSectionContent", "d8/d6e/htmlgen_8cpp.html#a95a7a96e259bc6213901ea61ae4ca431", null ],

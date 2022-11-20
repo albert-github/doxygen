@@ -1,13 +1,5 @@
 var NAVTREEINDEX127 =
 {
-"df/dc8/class_translator_indonesian.html#a791ee49084a54d1e34961e3a2eb196e2":[8,0,588,73],
-"df/dc8/class_translator_indonesian.html#a79da7f3bbd6359ae6d63a8c015f9bd64":[8,0,588,202],
-"df/dc8/class_translator_indonesian.html#a7a475c758aef9631afc3f8701a330d4c":[8,0,588,147],
-"df/dc8/class_translator_indonesian.html#a7c31360beb4ea927cdd5f053a65245e7":[8,0,588,178],
-"df/dc8/class_translator_indonesian.html#a7ca79aaaac3b58234649202c5c92bb97":[8,0,588,113],
-"df/dc8/class_translator_indonesian.html#a7ce5f320693eb175d7ad73e65e4eb878":[8,0,588,217],
-"df/dc8/class_translator_indonesian.html#a7d9ba2fd57d117ea9566d5ab240e6777":[8,0,588,61],
-"df/dc8/class_translator_indonesian.html#a7effa5cc2d84e36b662667d1ab0300cf":[8,0,588,12],
 "df/dc8/class_translator_indonesian.html#a7f1c7067df20ca5319e34f388c4a0487":[8,0,588,140],
 "df/dc8/class_translator_indonesian.html#a7f7c441b30c7836e3809812ebfea786d":[8,0,588,74],
 "df/dc8/class_translator_indonesian.html#a7fe8b62fd5171fc48bd92af2766a74ee":[8,0,588,184],
@@ -249,5 +241,13 @@ var NAVTREEINDEX127 =
 "df/df5/class_section_manager.html#afcf31c2b2bad467541c924342b08773d":[8,0,469,4],
 "df/dfd/translator__pt_8h.html":[9,0,2,276],
 "df/dfd/translator__pt_8h_source.html":[9,0,2,276],
-"dir_22a14ce9b939c27d3887fa5d85db7abb.html":[9,0,1]
+"dir_22a14ce9b939c27d3887fa5d85db7abb.html":[9,0,1],
+"dir_534aeb5b2351b2c83787cc7391511c04.html":[9,0,3],
+"dir_68267d1309a1af8e8297ef4c3efbcdba.html":[9,0,2],
+"dir_cdb905975493562559a4bb0e58a51c37.html":[9,0,0],
+"files.html":[9,0],
+"functions.html":[8,3,0,0],
+"functions.html":[8,3,0],
+"functions_a.html":[8,3,0,1],
+"functions_b.html":[8,3,0,2]
 };

@@ -95,7 +95,6 @@ var class_html_generator =
     [ "insertMemberAlignLeft", "d7/d41/class_html_generator.html#a2162c8cab2978da211b0ec1662863f5d", null ],
     [ "lastIndexPage", "d7/d41/class_html_generator.html#a91b2b5d349350e74a92c1c51ff9eec8f", null ],
     [ "lineBreak", "d7/d41/class_html_generator.html#ac6cfe1cff774f05b27e97989558cd2e2", null ],
-    [ "objectLinkToString", "d7/d41/class_html_generator.html#aa99c70e186292d345a53138c850dc7e6", null ],
     [ "operator=", "d7/d41/class_html_generator.html#a669105fbdac762cd050d86ac74ce885b", null ],
     [ "startAnonTypeScope", "d7/d41/class_html_generator.html#af9db4bdc3231e939587cce7efbc1e56e", null ],
     [ "startBold", "d7/d41/class_html_generator.html#a4785d0f1ac1828284aa1f21dbb1e3773", null ],

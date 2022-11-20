@@ -1,13 +1,5 @@
 var NAVTREEINDEX124 =
 {
-"df/d6e/class_generic_const_iterator.html#abb4c60f119f4ad23523b96080cfabd3e":[8,0,296,2],
-"df/d6e/class_generic_const_iterator.html#aca2af9b0f0ef4d137a768115e80f1cf5":[8,0,296,1],
-"df/d6e/class_generic_const_iterator.html#aeafefa5d7969558a52c32817fd8e7457":[8,0,296,5],
-"df/d6f/class_doc_html_desc_list.html":[8,0,138],
-"df/d6f/class_doc_html_desc_list.html#a35c8a198013a0b044003681efb14b1dd":[8,0,138,0],
-"df/d6f/class_doc_html_desc_list.html#a61e9f129da095600d9eb7c382cf15d01":[8,0,138,1],
-"df/d6f/class_doc_html_desc_list.html#a790243e50653158983e46f9411a2e719":[8,0,138,2],
-"df/d6f/class_doc_html_desc_list.html#a90c6f910b86ea3112b063a862c4000ac":[8,0,138,3],
 "df/d75/class_translator_greek.html":[8,0,585],
 "df/d75/class_translator_greek.html#a0039b1fa1d0facc1548b63de5df2b3cb":[8,0,585,130],
 "df/d75/class_translator_greek.html#a01064bad2a5ebc39a3efb3de5d92eba3":[8,0,585,234],
@@ -249,5 +241,13 @@ var NAVTREEINDEX124 =
 "df/d75/class_translator_greek.html#ada7b8649bb7ee14feafe5ed80064e83a":[8,0,585,129],
 "df/d75/class_translator_greek.html#adb0f9d5be27cefb6fb0cc3b593ec1ae7":[8,0,585,207],
 "df/d75/class_translator_greek.html#adbf889d433a3a4b96cb5477884a61033":[8,0,585,286],
-"df/d75/class_translator_greek.html#adca938edba09db1d0d70b284a4e3712e":[8,0,585,113]
+"df/d75/class_translator_greek.html#adca938edba09db1d0d70b284a4e3712e":[8,0,585,113],
+"df/d75/class_translator_greek.html#adcdb77eb15057a66bb0fffab63edb738":[8,0,585,47],
+"df/d75/class_translator_greek.html#add0bebecd3eb4223e44eb3ebbba3afc1":[8,0,585,93],
+"df/d75/class_translator_greek.html#adea0a6c4015e361c88a53571ebab69ef":[8,0,585,79],
+"df/d75/class_translator_greek.html#ae0f69a50729e3b890705382639a5fddf":[8,0,585,218],
+"df/d75/class_translator_greek.html#ae1333c6af679d9ec5bae803e5d425ba7":[8,0,585,186],
+"df/d75/class_translator_greek.html#ae19caecf6a7f3a879e28717f28a27644":[8,0,585,268],
+"df/d75/class_translator_greek.html#ae1a0fb5c055cd22bd4560c0d5949f1e7":[8,0,585,45],
+"df/d75/class_translator_greek.html#ae229dd5cc8b9c00e336402ce02da95ae":[8,0,585,233]
 };
