@@ -294,7 +294,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  129</span>  <span class="keywordflow">if</span> (input.length()&lt;=pos) <span class="keywordflow">return</span> std::string();</div>
 <div class="line"><span class="lineno">  130</span>  <span class="keywordtype">int</span> numBytes=<a class="code hl_function" href="../../d2/db5/utf8_8cpp.html#aaca02fb609a02d6006c4ae5d02a20b9b">getUTF8CharNumBytes</a>(input[pos]);</div>
 <div class="line"><span class="lineno">  131</span>  <span class="keywordflow">if</span> (input.length()&lt;pos+numBytes) <span class="keywordflow">return</span> std::string();</div>
-<div class="line"><span class="lineno">  132</span>  <span class="keywordflow">return</span> input.substr(pos,pos+numBytes);</div>
+<div class="line"><span class="lineno">  132</span>  <span class="keywordflow">return</span> input.substr(pos,numBytes);</div>
 <div class="line"><span class="lineno">  133</span>}</div>
 <div class="ttc" id="autf8_8cpp_html_aaca02fb609a02d6006c4ae5d02a20b9b"><div class="ttname"><a href="../../d2/db5/utf8_8cpp.html#aaca02fb609a02d6006c4ae5d02a20b9b">getUTF8CharNumBytes</a></div><div class="ttdeci">uint8_t getUTF8CharNumBytes(char c)</div><div class="ttdoc">Returns the number of bytes making up a single UTF8 character given the first byte in the sequence.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db5/utf8_8cpp_source.html#l00023">utf8.cpp:23</a></div></div>
 </div><!-- fragment -->
