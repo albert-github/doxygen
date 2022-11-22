@@ -225,7 +225,7 @@ $(document).ready(function(){initNavTree('d2/db5/utf8_8cpp_source.html','../../'
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>  <span class="keywordflow">if</span> (input.length()&lt;=pos) <span class="keywordflow">return</span> std::string();</div>
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>  <span class="keywordtype">int</span> numBytes=<a class="code hl_function" href="../../d2/db5/utf8_8cpp.html#aaca02fb609a02d6006c4ae5d02a20b9b">getUTF8CharNumBytes</a>(input[pos]);</div>
 <div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>  <span class="keywordflow">if</span> (input.length()&lt;pos+numBytes) <span class="keywordflow">return</span> std::string();</div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>  <span class="keywordflow">return</span> input.substr(pos,numBytes);</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>  <span class="keywordflow">return</span> input.substr(pos,pos+numBytes);</div>
 <div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>}</div>
 <div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
 <div class="line"><a id="l00135" name="l00135"></a><span class="lineno"><a class="line" href="../../d2/db5/utf8_8cpp.html#a83a5739b379d70400986a723aefd42b0">  135</a></span>uint32_t <a class="code hl_function" href="../../d2/db5/utf8_8cpp.html#a83a5739b379d70400986a723aefd42b0">getUnicodeForUTF8CharAt</a>(<span class="keyword">const</span> std::string &amp;input,<span class="keywordtype">size_t</span> pos)</div>
