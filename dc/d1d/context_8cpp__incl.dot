@@ -482,4 +482,9 @@ digraph "/home/runner/work/doxygen/doxygen/src/context.cpp"
   Node116 [label="initializer_list",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
   Node115 -> Node6 [color="steelblue1",style="solid"];
   Node1 -> Node41 [color="steelblue1",style="solid"];
+  Node1 -> Node117 [color="steelblue1",style="solid"];
+  Node117 [label="datetime.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d1b/datetime_8h.html",tooltip=" "];
+  Node117 -> Node118 [color="steelblue1",style="solid"];
+  Node118 [label="ctime",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node117 -> Node6 [color="steelblue1",style="solid"];
 }

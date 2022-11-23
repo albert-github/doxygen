@@ -269,10 +269,10 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00051">51</a> of file <a class="el" href="../../d4/d42/latexgen_8cpp_source.html">latexgen.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   52</span>  : <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a>(t), <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ade3eec74bf4332c6f238448049a1fb78">m_relPath</a>(relPath), <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#acc546ace986e41f11d76eb80ec753e04">m_sourceFileName</a>(sourceFileName)</div>
-<div class="line"><span class="lineno">   53</span>{</div>
-<div class="line"><span class="lineno">   54</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00052">52</a> of file <a class="el" href="../../d4/d42/latexgen_8cpp_source.html">latexgen.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   53</span>  : <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a>(t), <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ade3eec74bf4332c6f238448049a1fb78">m_relPath</a>(relPath), <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#acc546ace986e41f11d76eb80ec753e04">m_sourceFileName</a>(sourceFileName)</div>
+<div class="line"><span class="lineno">   54</span>{</div>
+<div class="line"><span class="lineno">   55</span>}</div>
 <div class="ttc" id="aclass_latex_code_generator_html_ac71df0a557b1ac64ac20578084849a24"><div class="ttname"><a href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">LatexCodeGenerator::m_t</a></div><div class="ttdeci">TextStream &amp; m_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9c/latexgen_8h_source.html#l00073">latexgen.h:73</a></div></div>
 <div class="ttc" id="aclass_latex_code_generator_html_acc546ace986e41f11d76eb80ec753e04"><div class="ttname"><a href="../../d0/d37/class_latex_code_generator.html#acc546ace986e41f11d76eb80ec753e04">LatexCodeGenerator::m_sourceFileName</a></div><div class="ttdeci">QCString m_sourceFileName</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9c/latexgen_8h_source.html#l00075">latexgen.h:75</a></div></div>
 <div class="ttc" id="aclass_latex_code_generator_html_ade3eec74bf4332c6f238448049a1fb78"><div class="ttname"><a href="../../d0/d37/class_latex_code_generator.html#ade3eec74bf4332c6f238448049a1fb78">LatexCodeGenerator::m_relPath</a></div><div class="ttdeci">QCString m_relPath</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9c/latexgen_8h_source.html#l00074">latexgen.h:74</a></div></div>
@@ -295,10 +295,10 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00056">56</a> of file <a class="el" href="../../d4/d42/latexgen_8cpp_source.html">latexgen.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   56</span>                                                    : <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a>(t)</div>
-<div class="line"><span class="lineno">   57</span>{</div>
-<div class="line"><span class="lineno">   58</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00057">57</a> of file <a class="el" href="../../d4/d42/latexgen_8cpp_source.html">latexgen.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   57</span>                                                    : <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a>(t)</div>
+<div class="line"><span class="lineno">   58</span>{</div>
+<div class="line"><span class="lineno">   59</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -390,82 +390,82 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d5/d9c/class_code_output_interface.html#aa79acfd0247d182dcd423eeb3f0cdd66">CodeOutputInterface</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00070">70</a> of file <a class="el" href="../../d4/d42/latexgen_8cpp_source.html">latexgen.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   71</span>{</div>
-<div class="line"><span class="lineno">   72</span>  <span class="keywordflow">if</span> (!str.isEmpty())</div>
-<div class="line"><span class="lineno">   73</span>  {</div>
-<div class="line"><span class="lineno">   74</span>    <span class="keyword">const</span> <span class="keywordtype">char</span> *p=str.data();</div>
-<div class="line"><span class="lineno">   75</span>    <span class="keywordtype">char</span> c;</div>
-<div class="line"><span class="lineno">   76</span>    <span class="comment">//char cs[5];</span></div>
-<div class="line"><span class="lineno">   77</span>    <span class="keywordtype">int</span> spacesToNextTabStop;</div>
-<div class="line"><span class="lineno">   78</span>    <span class="keywordtype">int</span> tabSize = <a class="code hl_define" href="../../db/d16/config_8h.html#a06b59c3720174e9078f613095a89b295">Config_getInt</a>(TAB_SIZE);</div>
-<div class="line"><span class="lineno">   79</span>    <span class="keyword">static</span> <a class="code hl_define" href="../../d1/da1/doxygen_8h.html#af8556c37f3acfa45992b8697930c501b">THREAD_LOCAL</a> <span class="keywordtype">char</span> *result = NULL;</div>
-<div class="line"><span class="lineno">   80</span>    <span class="keyword">static</span> <a class="code hl_define" href="../../d1/da1/doxygen_8h.html#af8556c37f3acfa45992b8697930c501b">THREAD_LOCAL</a> <span class="keywordtype">int</span> lresult = 0;</div>
-<div class="line"><span class="lineno">   81</span>    <span class="keywordtype">int</span> i;</div>
-<div class="line"><span class="lineno">   82</span>    <span class="keywordflow">while</span> ((c=*p))</div>
-<div class="line"><span class="lineno">   83</span>    {</div>
-<div class="line"><span class="lineno">   84</span>      <span class="keywordflow">switch</span>(c)</div>
-<div class="line"><span class="lineno">   85</span>      {</div>
-<div class="line"><span class="lineno">   86</span>        <span class="keywordflow">case</span> 0x0c: p++;  <span class="comment">// remove ^L</span></div>
-<div class="line"><span class="lineno">   87</span>                   <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">   88</span>        <span class="keywordflow">case</span> <span class="charliteral">&#39; &#39;</span>:  <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt;<span class="stringliteral">&quot; &quot;</span>;</div>
-<div class="line"><span class="lineno">   89</span>                   <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#a3013d255c1ed9829b0b12eb51fa4f35e">m_col</a>++;</div>
-<div class="line"><span class="lineno">   90</span>                   p++;</div>
-<div class="line"><span class="lineno">   91</span>                   <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">   92</span>        <span class="keywordflow">case</span> <span class="charliteral">&#39;^&#39;</span>:  <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt;<span class="stringliteral">&quot;\\string^&quot;</span>;</div>
-<div class="line"><span class="lineno">   93</span>                   <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#a3013d255c1ed9829b0b12eb51fa4f35e">m_col</a>++;</div>
-<div class="line"><span class="lineno">   94</span>                   p++;</div>
-<div class="line"><span class="lineno">   95</span>                   <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">   96</span>        <span class="keywordflow">case</span> <span class="charliteral">&#39;\t&#39;</span>: spacesToNextTabStop =</div>
-<div class="line"><span class="lineno">   97</span>                         tabSize - (<a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#a3013d255c1ed9829b0b12eb51fa4f35e">m_col</a>%tabSize);</div>
-<div class="line"><span class="lineno">   98</span>                   <span class="keywordflow">for</span> (i = 0; i &lt; spacesToNextTabStop; i++) <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt;<span class="stringliteral">&quot; &quot;</span>;</div>
-<div class="line"><span class="lineno">   99</span>                   <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#a3013d255c1ed9829b0b12eb51fa4f35e">m_col</a>+=spacesToNextTabStop;</div>
-<div class="line"><span class="lineno">  100</span>                   p++;</div>
-<div class="line"><span class="lineno">  101</span>                   <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  102</span>        <span class="keywordflow">case</span> <span class="charliteral">&#39;\n&#39;</span>: <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; <span class="charliteral">&#39;\n&#39;</span>;</div>
-<div class="line"><span class="lineno">  103</span>                   <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#a3013d255c1ed9829b0b12eb51fa4f35e">m_col</a>=0;</div>
-<div class="line"><span class="lineno">  104</span>                   p++;</div>
-<div class="line"><span class="lineno">  105</span>                   <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  106</span>        <span class="keywordflow">default</span>:</div>
-<div class="line"><span class="lineno">  107</span>                   i=0;</div>
-<div class="line"><span class="lineno">  108</span> </div>
-<div class="line"><span class="lineno">  109</span><span class="preprocessor">#undef  COPYCHAR</span></div>
-<div class="line"><span class="lineno">  110</span><span class="comment">// helper macro to copy a single utf8 character, dealing with multibyte chars.</span></div>
-<div class="line"><span class="lineno">  111</span><span class="preprocessor">#define COPYCHAR() do {                                           \</span></div>
-<div class="line"><span class="lineno">  112</span><span class="preprocessor">                     int bytes = getUTF8CharNumBytes(c);          \</span></div>
-<div class="line"><span class="lineno">  113</span><span class="preprocessor">                     if (lresult &lt; (i + bytes + 1))               \</span></div>
-<div class="line"><span class="lineno">  114</span><span class="preprocessor">                     {                                            \</span></div>
-<div class="line"><span class="lineno">  115</span><span class="preprocessor">                       lresult += 512;                            \</span></div>
-<div class="line"><span class="lineno">  116</span><span class="preprocessor">                       result = static_cast&lt;char *&gt;(realloc(result, lresult)); \</span></div>
-<div class="line"><span class="lineno">  117</span><span class="preprocessor">                     }                                            \</span></div>
-<div class="line"><span class="lineno">  118</span><span class="preprocessor">                     for (int j=0; j&lt;bytes &amp;&amp; *p; j++)            \</span></div>
-<div class="line"><span class="lineno">  119</span><span class="preprocessor">                     {                                            \</span></div>
-<div class="line"><span class="lineno">  120</span><span class="preprocessor">                       result[i++]=*p++;                          \</span></div>
-<div class="line"><span class="lineno">  121</span><span class="preprocessor">                     }                                            \</span></div>
-<div class="line"><span class="lineno">  122</span><span class="preprocessor">                     m_col++;                                     \</span></div>
-<div class="line"><span class="lineno">  123</span><span class="preprocessor">                   } while(0)</span></div>
-<div class="line"><span class="lineno">  124</span> </div>
-<div class="line"><span class="lineno">  125</span>                   <span class="comment">// gather characters until we find whitespace or another special character</span></div>
-<div class="line"><span class="lineno">  126</span>                   <a class="code hl_define" href="../../d4/d42/latexgen_8cpp.html#a9a7f04a1060dfff4cad9f82379053257">COPYCHAR</a>();</div>
-<div class="line"><span class="lineno">  127</span>                   <span class="keywordflow">while</span> ((c=*p) &amp;&amp;</div>
-<div class="line"><span class="lineno">  128</span>                          c!=0x0c &amp;&amp; c!=<span class="charliteral">&#39;\t&#39;</span> &amp;&amp; c!=<span class="charliteral">&#39;\n&#39;</span> &amp;&amp; c!=<span class="charliteral">&#39; &#39;</span> &amp;&amp; c!=<span class="charliteral">&#39;^&#39;</span></div>
-<div class="line"><span class="lineno">  129</span>                         )</div>
-<div class="line"><span class="lineno">  130</span>                   {</div>
-<div class="line"><span class="lineno">  131</span>                     <a class="code hl_define" href="../../d4/d42/latexgen_8cpp.html#a9a7f04a1060dfff4cad9f82379053257">COPYCHAR</a>();</div>
-<div class="line"><span class="lineno">  132</span>                   }</div>
-<div class="line"><span class="lineno">  133</span>                   result[i]=0; <span class="comment">// add terminator</span></div>
-<div class="line"><span class="lineno">  134</span>                   <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a96afd525d79a1a43fbaabae3483b2e6b">filterLatexString</a>(<a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a>,result,</div>
-<div class="line"><span class="lineno">  135</span>                                     <span class="keyword">false</span>, <span class="comment">// insideTabbing</span></div>
-<div class="line"><span class="lineno">  136</span>                                     <span class="keyword">true</span>,  <span class="comment">// insidePre</span></div>
-<div class="line"><span class="lineno">  137</span>                                     <span class="keyword">false</span>, <span class="comment">// insideItem</span></div>
-<div class="line"><span class="lineno">  138</span>                                     <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#a76b404ceab074a0a056233427d993224">m_usedTableLevel</a>&gt;0, <span class="comment">// insideTable</span></div>
-<div class="line"><span class="lineno">  139</span>                                     <span class="keyword">false</span>  <span class="comment">// keepSpaces</span></div>
-<div class="line"><span class="lineno">  140</span>                                    );</div>
-<div class="line"><span class="lineno">  141</span>                   <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  142</span>      }</div>
-<div class="line"><span class="lineno">  143</span>    }</div>
-<div class="line"><span class="lineno">  144</span>  }</div>
-<div class="line"><span class="lineno">  145</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00071">71</a> of file <a class="el" href="../../d4/d42/latexgen_8cpp_source.html">latexgen.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   72</span>{</div>
+<div class="line"><span class="lineno">   73</span>  <span class="keywordflow">if</span> (!str.isEmpty())</div>
+<div class="line"><span class="lineno">   74</span>  {</div>
+<div class="line"><span class="lineno">   75</span>    <span class="keyword">const</span> <span class="keywordtype">char</span> *p=str.data();</div>
+<div class="line"><span class="lineno">   76</span>    <span class="keywordtype">char</span> c;</div>
+<div class="line"><span class="lineno">   77</span>    <span class="comment">//char cs[5];</span></div>
+<div class="line"><span class="lineno">   78</span>    <span class="keywordtype">int</span> spacesToNextTabStop;</div>
+<div class="line"><span class="lineno">   79</span>    <span class="keywordtype">int</span> tabSize = <a class="code hl_define" href="../../db/d16/config_8h.html#a06b59c3720174e9078f613095a89b295">Config_getInt</a>(TAB_SIZE);</div>
+<div class="line"><span class="lineno">   80</span>    <span class="keyword">static</span> <a class="code hl_define" href="../../d1/da1/doxygen_8h.html#af8556c37f3acfa45992b8697930c501b">THREAD_LOCAL</a> <span class="keywordtype">char</span> *result = NULL;</div>
+<div class="line"><span class="lineno">   81</span>    <span class="keyword">static</span> <a class="code hl_define" href="../../d1/da1/doxygen_8h.html#af8556c37f3acfa45992b8697930c501b">THREAD_LOCAL</a> <span class="keywordtype">int</span> lresult = 0;</div>
+<div class="line"><span class="lineno">   82</span>    <span class="keywordtype">int</span> i;</div>
+<div class="line"><span class="lineno">   83</span>    <span class="keywordflow">while</span> ((c=*p))</div>
+<div class="line"><span class="lineno">   84</span>    {</div>
+<div class="line"><span class="lineno">   85</span>      <span class="keywordflow">switch</span>(c)</div>
+<div class="line"><span class="lineno">   86</span>      {</div>
+<div class="line"><span class="lineno">   87</span>        <span class="keywordflow">case</span> 0x0c: p++;  <span class="comment">// remove ^L</span></div>
+<div class="line"><span class="lineno">   88</span>                   <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   89</span>        <span class="keywordflow">case</span> <span class="charliteral">&#39; &#39;</span>:  <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt;<span class="stringliteral">&quot; &quot;</span>;</div>
+<div class="line"><span class="lineno">   90</span>                   <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#a3013d255c1ed9829b0b12eb51fa4f35e">m_col</a>++;</div>
+<div class="line"><span class="lineno">   91</span>                   p++;</div>
+<div class="line"><span class="lineno">   92</span>                   <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   93</span>        <span class="keywordflow">case</span> <span class="charliteral">&#39;^&#39;</span>:  <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt;<span class="stringliteral">&quot;\\string^&quot;</span>;</div>
+<div class="line"><span class="lineno">   94</span>                   <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#a3013d255c1ed9829b0b12eb51fa4f35e">m_col</a>++;</div>
+<div class="line"><span class="lineno">   95</span>                   p++;</div>
+<div class="line"><span class="lineno">   96</span>                   <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   97</span>        <span class="keywordflow">case</span> <span class="charliteral">&#39;\t&#39;</span>: spacesToNextTabStop =</div>
+<div class="line"><span class="lineno">   98</span>                         tabSize - (<a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#a3013d255c1ed9829b0b12eb51fa4f35e">m_col</a>%tabSize);</div>
+<div class="line"><span class="lineno">   99</span>                   <span class="keywordflow">for</span> (i = 0; i &lt; spacesToNextTabStop; i++) <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt;<span class="stringliteral">&quot; &quot;</span>;</div>
+<div class="line"><span class="lineno">  100</span>                   <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#a3013d255c1ed9829b0b12eb51fa4f35e">m_col</a>+=spacesToNextTabStop;</div>
+<div class="line"><span class="lineno">  101</span>                   p++;</div>
+<div class="line"><span class="lineno">  102</span>                   <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  103</span>        <span class="keywordflow">case</span> <span class="charliteral">&#39;\n&#39;</span>: <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; <span class="charliteral">&#39;\n&#39;</span>;</div>
+<div class="line"><span class="lineno">  104</span>                   <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#a3013d255c1ed9829b0b12eb51fa4f35e">m_col</a>=0;</div>
+<div class="line"><span class="lineno">  105</span>                   p++;</div>
+<div class="line"><span class="lineno">  106</span>                   <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  107</span>        <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  108</span>                   i=0;</div>
+<div class="line"><span class="lineno">  109</span> </div>
+<div class="line"><span class="lineno">  110</span><span class="preprocessor">#undef  COPYCHAR</span></div>
+<div class="line"><span class="lineno">  111</span><span class="comment">// helper macro to copy a single utf8 character, dealing with multibyte chars.</span></div>
+<div class="line"><span class="lineno">  112</span><span class="preprocessor">#define COPYCHAR() do {                                           \</span></div>
+<div class="line"><span class="lineno">  113</span><span class="preprocessor">                     int bytes = getUTF8CharNumBytes(c);          \</span></div>
+<div class="line"><span class="lineno">  114</span><span class="preprocessor">                     if (lresult &lt; (i + bytes + 1))               \</span></div>
+<div class="line"><span class="lineno">  115</span><span class="preprocessor">                     {                                            \</span></div>
+<div class="line"><span class="lineno">  116</span><span class="preprocessor">                       lresult += 512;                            \</span></div>
+<div class="line"><span class="lineno">  117</span><span class="preprocessor">                       result = static_cast&lt;char *&gt;(realloc(result, lresult)); \</span></div>
+<div class="line"><span class="lineno">  118</span><span class="preprocessor">                     }                                            \</span></div>
+<div class="line"><span class="lineno">  119</span><span class="preprocessor">                     for (int j=0; j&lt;bytes &amp;&amp; *p; j++)            \</span></div>
+<div class="line"><span class="lineno">  120</span><span class="preprocessor">                     {                                            \</span></div>
+<div class="line"><span class="lineno">  121</span><span class="preprocessor">                       result[i++]=*p++;                          \</span></div>
+<div class="line"><span class="lineno">  122</span><span class="preprocessor">                     }                                            \</span></div>
+<div class="line"><span class="lineno">  123</span><span class="preprocessor">                     m_col++;                                     \</span></div>
+<div class="line"><span class="lineno">  124</span><span class="preprocessor">                   } while(0)</span></div>
+<div class="line"><span class="lineno">  125</span> </div>
+<div class="line"><span class="lineno">  126</span>                   <span class="comment">// gather characters until we find whitespace or another special character</span></div>
+<div class="line"><span class="lineno">  127</span>                   <a class="code hl_define" href="../../d4/d42/latexgen_8cpp.html#a9a7f04a1060dfff4cad9f82379053257">COPYCHAR</a>();</div>
+<div class="line"><span class="lineno">  128</span>                   <span class="keywordflow">while</span> ((c=*p) &amp;&amp;</div>
+<div class="line"><span class="lineno">  129</span>                          c!=0x0c &amp;&amp; c!=<span class="charliteral">&#39;\t&#39;</span> &amp;&amp; c!=<span class="charliteral">&#39;\n&#39;</span> &amp;&amp; c!=<span class="charliteral">&#39; &#39;</span> &amp;&amp; c!=<span class="charliteral">&#39;^&#39;</span></div>
+<div class="line"><span class="lineno">  130</span>                         )</div>
+<div class="line"><span class="lineno">  131</span>                   {</div>
+<div class="line"><span class="lineno">  132</span>                     <a class="code hl_define" href="../../d4/d42/latexgen_8cpp.html#a9a7f04a1060dfff4cad9f82379053257">COPYCHAR</a>();</div>
+<div class="line"><span class="lineno">  133</span>                   }</div>
+<div class="line"><span class="lineno">  134</span>                   result[i]=0; <span class="comment">// add terminator</span></div>
+<div class="line"><span class="lineno">  135</span>                   <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a96afd525d79a1a43fbaabae3483b2e6b">filterLatexString</a>(<a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a>,result,</div>
+<div class="line"><span class="lineno">  136</span>                                     <span class="keyword">false</span>, <span class="comment">// insideTabbing</span></div>
+<div class="line"><span class="lineno">  137</span>                                     <span class="keyword">true</span>,  <span class="comment">// insidePre</span></div>
+<div class="line"><span class="lineno">  138</span>                                     <span class="keyword">false</span>, <span class="comment">// insideItem</span></div>
+<div class="line"><span class="lineno">  139</span>                                     <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#a76b404ceab074a0a056233427d993224">m_usedTableLevel</a>&gt;0, <span class="comment">// insideTable</span></div>
+<div class="line"><span class="lineno">  140</span>                                     <span class="keyword">false</span>  <span class="comment">// keepSpaces</span></div>
+<div class="line"><span class="lineno">  141</span>                                    );</div>
+<div class="line"><span class="lineno">  142</span>                   <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  143</span>      }</div>
+<div class="line"><span class="lineno">  144</span>    }</div>
+<div class="line"><span class="lineno">  145</span>  }</div>
+<div class="line"><span class="lineno">  146</span>}</div>
 <div class="ttc" id="aclass_latex_code_generator_html_a3013d255c1ed9829b0b12eb51fa4f35e"><div class="ttname"><a href="../../d0/d37/class_latex_code_generator.html#a3013d255c1ed9829b0b12eb51fa4f35e">LatexCodeGenerator::m_col</a></div><div class="ttdeci">int m_col</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9c/latexgen_8h_source.html#l00076">latexgen.h:76</a></div></div>
 <div class="ttc" id="aclass_latex_code_generator_html_a76b404ceab074a0a056233427d993224"><div class="ttname"><a href="../../d0/d37/class_latex_code_generator.html#a76b404ceab074a0a056233427d993224">LatexCodeGenerator::m_usedTableLevel</a></div><div class="ttdeci">int m_usedTableLevel</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9c/latexgen_8h_source.html#l00078">latexgen.h:78</a></div></div>
 <div class="ttc" id="aconfig_8h_html_a06b59c3720174e9078f613095a89b295"><div class="ttname"><a href="../../db/d16/config_8h.html#a06b59c3720174e9078f613095a89b295">Config_getInt</a></div><div class="ttdeci">#define Config_getInt(name)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/config_8h_source.html#l00034">config.h:34</a></div></div>
@@ -475,7 +475,7 @@ Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00034">Config_getInt</a>, <a class="el" href="../../d4/d42/latexgen_8cpp.html#a9a7f04a1060dfff4cad9f82379053257">COPYCHAR</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00153">QCString::data()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05024">filterLatexString()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00076">m_col</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00073">m_t</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00078">m_usedTableLevel</a>, and <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00027">THREAD_LOCAL</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00226">endCodeLine()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00148">writeCodeLink()</a>, and <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00173">writeLineNumber()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00227">endCodeLine()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00149">writeCodeLink()</a>, and <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00174">writeLineNumber()</a>.</p>
 
 </div>
 </div>
@@ -507,7 +507,7 @@ Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00078">m_usedTableLevel</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l01731">LatexGenerator::endDescTable()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l02080">LatexGenerator::endMemberDocSimple()</a>, and <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01574">LatexDocVisitor::operator()()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l01732">LatexGenerator::endDescTable()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l02081">LatexGenerator::endMemberDocSimple()</a>, and <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01574">LatexDocVisitor::operator()()</a>.</p>
 
 </div>
 </div>
@@ -564,16 +564,16 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d5/d9c/class_code_output_interface.html#ac9647197ce79f900eacb4c9330728796">CodeOutputInterface</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00251">251</a> of file <a class="el" href="../../d4/d42/latexgen_8cpp_source.html">latexgen.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  252</span>{</div>
-<div class="line"><span class="lineno">  253</span>  <span class="comment">//endCodeLine checks is there is still an open code line, if so closes it.</span></div>
-<div class="line"><span class="lineno">  254</span>  <a class="code hl_function" href="../../d0/d37/class_latex_code_generator.html#ad6a36878e0fde7d9d23711fd7487edb8">endCodeLine</a>();</div>
-<div class="line"><span class="lineno">  255</span> </div>
-<div class="line"><span class="lineno">  256</span>  <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\\end{&quot;</span> &lt;&lt; style &lt;&lt; <span class="stringliteral">&quot;}\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  257</span>}</div>
-<div class="ttc" id="aclass_latex_code_generator_html_ad6a36878e0fde7d9d23711fd7487edb8"><div class="ttname"><a href="../../d0/d37/class_latex_code_generator.html#ad6a36878e0fde7d9d23711fd7487edb8">LatexCodeGenerator::endCodeLine</a></div><div class="ttdeci">void endCodeLine() override</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d42/latexgen_8cpp_source.html#l00226">latexgen.cpp:226</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00252">252</a> of file <a class="el" href="../../d4/d42/latexgen_8cpp_source.html">latexgen.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  253</span>{</div>
+<div class="line"><span class="lineno">  254</span>  <span class="comment">//endCodeLine checks is there is still an open code line, if so closes it.</span></div>
+<div class="line"><span class="lineno">  255</span>  <a class="code hl_function" href="../../d0/d37/class_latex_code_generator.html#ad6a36878e0fde7d9d23711fd7487edb8">endCodeLine</a>();</div>
+<div class="line"><span class="lineno">  256</span> </div>
+<div class="line"><span class="lineno">  257</span>  <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\\end{&quot;</span> &lt;&lt; style &lt;&lt; <span class="stringliteral">&quot;}\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  258</span>}</div>
+<div class="ttc" id="aclass_latex_code_generator_html_ad6a36878e0fde7d9d23711fd7487edb8"><div class="ttname"><a href="../../d0/d37/class_latex_code_generator.html#ad6a36878e0fde7d9d23711fd7487edb8">LatexCodeGenerator::endCodeLine</a></div><div class="ttdeci">void endCodeLine() override</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d42/latexgen_8cpp_source.html#l00227">latexgen.cpp:227</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00226">endCodeLine()</a>, and <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00073">m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00227">endCodeLine()</a>, and <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00073">m_t</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00384">LatexDocVisitor::operator()()</a>.</p>
 
@@ -605,22 +605,22 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d5/d9c/class_code_output_interface.html#afac5763eafc78f93b82691fb9a6dcff7">CodeOutputInterface</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00226">226</a> of file <a class="el" href="../../d4/d42/latexgen_8cpp_source.html">latexgen.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  227</span>{</div>
-<div class="line"><span class="lineno">  228</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ae4ad9cdbf89db5b0fc4bcb3da17e6030">m_doxyCodeLineOpen</a>)</div>
-<div class="line"><span class="lineno">  229</span>  {</div>
-<div class="line"><span class="lineno">  230</span>    <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; <span class="stringliteral">&quot;}&quot;</span>;</div>
-<div class="line"><span class="lineno">  231</span>    <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ae4ad9cdbf89db5b0fc4bcb3da17e6030">m_doxyCodeLineOpen</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="line"><span class="lineno">  232</span>  }</div>
-<div class="line"><span class="lineno">  233</span>  <a class="code hl_function" href="../../d0/d37/class_latex_code_generator.html#ace27d46d07e19112fc6ee3411915c8ea">codify</a>(<span class="stringliteral">&quot;\n&quot;</span>);</div>
-<div class="line"><span class="lineno">  234</span>}</div>
-<div class="ttc" id="aclass_latex_code_generator_html_ace27d46d07e19112fc6ee3411915c8ea"><div class="ttname"><a href="../../d0/d37/class_latex_code_generator.html#ace27d46d07e19112fc6ee3411915c8ea">LatexCodeGenerator::codify</a></div><div class="ttdeci">void codify(const QCString &amp;text) override</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d42/latexgen_8cpp_source.html#l00070">latexgen.cpp:70</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00227">227</a> of file <a class="el" href="../../d4/d42/latexgen_8cpp_source.html">latexgen.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  228</span>{</div>
+<div class="line"><span class="lineno">  229</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ae4ad9cdbf89db5b0fc4bcb3da17e6030">m_doxyCodeLineOpen</a>)</div>
+<div class="line"><span class="lineno">  230</span>  {</div>
+<div class="line"><span class="lineno">  231</span>    <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; <span class="stringliteral">&quot;}&quot;</span>;</div>
+<div class="line"><span class="lineno">  232</span>    <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ae4ad9cdbf89db5b0fc4bcb3da17e6030">m_doxyCodeLineOpen</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
+<div class="line"><span class="lineno">  233</span>  }</div>
+<div class="line"><span class="lineno">  234</span>  <a class="code hl_function" href="../../d0/d37/class_latex_code_generator.html#ace27d46d07e19112fc6ee3411915c8ea">codify</a>(<span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><span class="lineno">  235</span>}</div>
+<div class="ttc" id="aclass_latex_code_generator_html_ace27d46d07e19112fc6ee3411915c8ea"><div class="ttname"><a href="../../d0/d37/class_latex_code_generator.html#ace27d46d07e19112fc6ee3411915c8ea">LatexCodeGenerator::codify</a></div><div class="ttdeci">void codify(const QCString &amp;text) override</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d42/latexgen_8cpp_source.html#l00071">latexgen.cpp:71</a></div></div>
 <div class="ttc" id="aclass_latex_code_generator_html_ae4ad9cdbf89db5b0fc4bcb3da17e6030"><div class="ttname"><a href="../../d0/d37/class_latex_code_generator.html#ae4ad9cdbf89db5b0fc4bcb3da17e6030">LatexCodeGenerator::m_doxyCodeLineOpen</a></div><div class="ttdeci">bool m_doxyCodeLineOpen</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9c/latexgen_8h_source.html#l00077">latexgen.h:77</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_aa93f0eb578d23995850d61f7d61c55c1"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></div><div class="ttdeci">#define FALSE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00033">qcstring.h:33</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00070">codify()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00077">m_doxyCodeLineOpen</a>, and <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00073">m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00071">codify()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00077">m_doxyCodeLineOpen</a>, and <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00073">m_t</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00251">endCodeFragment()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00252">endCodeFragment()</a>.</p>
 
 </div>
 </div>
@@ -650,10 +650,10 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d5/d9c/class_code_output_interface.html#a2b8ac05a391dae36793aa3aa8714a0f6">CodeOutputInterface</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00241">241</a> of file <a class="el" href="../../d4/d42/latexgen_8cpp_source.html">latexgen.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  242</span>{</div>
-<div class="line"><span class="lineno">  243</span>  <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; <span class="stringliteral">&quot;}&quot;</span>;</div>
-<div class="line"><span class="lineno">  244</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00242">242</a> of file <a class="el" href="../../d4/d42/latexgen_8cpp_source.html">latexgen.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  243</span>{</div>
+<div class="line"><span class="lineno">  244</span>  <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; <span class="stringliteral">&quot;}&quot;</span>;</div>
+<div class="line"><span class="lineno">  245</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00073">m_t</a>.</p>
 
@@ -687,7 +687,7 @@ Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00078">m_usedTableLevel</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01574">LatexDocVisitor::operator()()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l01725">LatexGenerator::startDescTable()</a>, and <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l02064">LatexGenerator::startMemberDocSimple()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01574">LatexDocVisitor::operator()()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l01726">LatexGenerator::startDescTable()</a>, and <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l02065">LatexGenerator::startMemberDocSimple()</a>.</p>
 
 </div>
 </div>
@@ -707,14 +707,14 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00060">60</a> of file <a class="el" href="../../d4/d42/latexgen_8cpp_source.html">latexgen.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   61</span>{</div>
-<div class="line"><span class="lineno">   62</span>  <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ade3eec74bf4332c6f238448049a1fb78">m_relPath</a> = path;</div>
-<div class="line"><span class="lineno">   63</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00061">61</a> of file <a class="el" href="../../d4/d42/latexgen_8cpp_source.html">latexgen.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   62</span>{</div>
+<div class="line"><span class="lineno">   63</span>  <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ade3eec74bf4332c6f238448049a1fb78">m_relPath</a> = path;</div>
+<div class="line"><span class="lineno">   64</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00074">m_relPath</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00565">LatexGenerator::startFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00566">LatexGenerator::startFile()</a>.</p>
 
 </div>
 </div>
@@ -734,14 +734,14 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00065">65</a> of file <a class="el" href="../../d4/d42/latexgen_8cpp_source.html">latexgen.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   66</span>{</div>
-<div class="line"><span class="lineno">   67</span>  <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#acc546ace986e41f11d76eb80ec753e04">m_sourceFileName</a> = name;</div>
-<div class="line"><span class="lineno">   68</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00066">66</a> of file <a class="el" href="../../d4/d42/latexgen_8cpp_source.html">latexgen.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   67</span>{</div>
+<div class="line"><span class="lineno">   68</span>  <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#acc546ace986e41f11d76eb80ec753e04">m_sourceFileName</a> = name;</div>
+<div class="line"><span class="lineno">   69</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00075">m_sourceFileName</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00578">LatexGenerator::endFile()</a>, and <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00565">LatexGenerator::startFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00579">LatexGenerator::endFile()</a>, and <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00566">LatexGenerator::startFile()</a>.</p>
 
 </div>
 </div>
@@ -777,10 +777,10 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d5/d9c/class_code_output_interface.html#a8bfe3442097c1cba7701050c9a07e559">CodeOutputInterface</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00246">246</a> of file <a class="el" href="../../d4/d42/latexgen_8cpp_source.html">latexgen.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  247</span>{</div>
-<div class="line"><span class="lineno">  248</span>  <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\n\\begin{&quot;</span> &lt;&lt; style &lt;&lt; <span class="stringliteral">&quot;}{&quot;</span> &lt;&lt; <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#a76b404ceab074a0a056233427d993224">m_usedTableLevel</a> &lt;&lt; <span class="stringliteral">&quot;}\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  249</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00247">247</a> of file <a class="el" href="../../d4/d42/latexgen_8cpp_source.html">latexgen.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  248</span>{</div>
+<div class="line"><span class="lineno">  249</span>  <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\n\\begin{&quot;</span> &lt;&lt; style &lt;&lt; <span class="stringliteral">&quot;}{&quot;</span> &lt;&lt; <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#a76b404ceab074a0a056233427d993224">m_usedTableLevel</a> &lt;&lt; <span class="stringliteral">&quot;}\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  250</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00073">m_t</a>, and <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00078">m_usedTableLevel</a>.</p>
 
@@ -814,15 +814,15 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d5/d9c/class_code_output_interface.html#a080d71d457de084ce2b3245bca5a0d68">CodeOutputInterface</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00216">216</a> of file <a class="el" href="../../d4/d42/latexgen_8cpp_source.html">latexgen.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  217</span>{</div>
-<div class="line"><span class="lineno">  218</span>  <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#a3013d255c1ed9829b0b12eb51fa4f35e">m_col</a>=0;</div>
-<div class="line"><span class="lineno">  219</span>  <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ae4ad9cdbf89db5b0fc4bcb3da17e6030">m_doxyCodeLineOpen</a>)</div>
-<div class="line"><span class="lineno">  220</span>  {</div>
-<div class="line"><span class="lineno">  221</span>    <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\\DoxyCodeLine{&quot;</span>;</div>
-<div class="line"><span class="lineno">  222</span>    <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ae4ad9cdbf89db5b0fc4bcb3da17e6030">m_doxyCodeLineOpen</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno">  223</span>  }</div>
-<div class="line"><span class="lineno">  224</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00217">217</a> of file <a class="el" href="../../d4/d42/latexgen_8cpp_source.html">latexgen.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  218</span>{</div>
+<div class="line"><span class="lineno">  219</span>  <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#a3013d255c1ed9829b0b12eb51fa4f35e">m_col</a>=0;</div>
+<div class="line"><span class="lineno">  220</span>  <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ae4ad9cdbf89db5b0fc4bcb3da17e6030">m_doxyCodeLineOpen</a>)</div>
+<div class="line"><span class="lineno">  221</span>  {</div>
+<div class="line"><span class="lineno">  222</span>    <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\\DoxyCodeLine{&quot;</span>;</div>
+<div class="line"><span class="lineno">  223</span>    <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ae4ad9cdbf89db5b0fc4bcb3da17e6030">m_doxyCodeLineOpen</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno">  224</span>  }</div>
+<div class="line"><span class="lineno">  225</span>}</div>
 <div class="ttc" id="aqcstring_8h_html_aa8cecfc5c5c054d2875c03e77b7be15d"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a></div><div class="ttdeci">#define TRUE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00036">qcstring.h:36</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00076">m_col</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00077">m_doxyCodeLineOpen</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00073">m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
@@ -861,10 +861,10 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d5/d9c/class_code_output_interface.html#a1a213ecf46f087ecb19d414f6c160a15">CodeOutputInterface</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00236">236</a> of file <a class="el" href="../../d4/d42/latexgen_8cpp_source.html">latexgen.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  237</span>{</div>
-<div class="line"><span class="lineno">  238</span>  <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\\textcolor{&quot;</span> &lt;&lt; name &lt;&lt; <span class="stringliteral">&quot;}{&quot;</span>;</div>
-<div class="line"><span class="lineno">  239</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00237">237</a> of file <a class="el" href="../../d4/d42/latexgen_8cpp_source.html">latexgen.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  238</span>{</div>
+<div class="line"><span class="lineno">  239</span>  <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\\textcolor{&quot;</span> &lt;&lt; name &lt;&lt; <span class="stringliteral">&quot;}{&quot;</span>;</div>
+<div class="line"><span class="lineno">  240</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00073">m_t</a>.</p>
 
@@ -928,7 +928,7 @@ Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00078">m_usedTableLevel</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l01582">LatexGenerator::docify()</a>, and <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01775">LatexDocVisitor::filter()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l01583">LatexGenerator::docify()</a>, and <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01775">LatexDocVisitor::filter()</a>.</p>
 
 </div>
 </div>
@@ -1040,36 +1040,36 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d5/d9c/class_code_output_interface.html#a13a6b8760052adea7080330705d4a020">CodeOutputInterface</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00148">148</a> of file <a class="el" href="../../d4/d42/latexgen_8cpp_source.html">latexgen.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  152</span>{</div>
-<div class="line"><span class="lineno">  153</span>  <span class="keywordtype">bool</span> pdfHyperlinks = <a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(PDF_HYPERLINKS);</div>
-<div class="line"><span class="lineno">  154</span>  <span class="keywordtype">bool</span> usePDFLatex   = <a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(USE_PDFLATEX);</div>
-<div class="line"><span class="lineno">  155</span>  <a class="code hl_typedef" href="../../d7/d5c/qcstring_8h.html#a4d3943ddea65db7163a58e6c7e8df95a">uint</a> l = name.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">length</a>();</div>
-<div class="line"><span class="lineno">  156</span>  <span class="keywordflow">if</span> (ref.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>() &amp;&amp; usePDFLatex &amp;&amp; pdfHyperlinks)</div>
-<div class="line"><span class="lineno">  157</span>  {</div>
-<div class="line"><span class="lineno">  158</span>    <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\\mbox{\\hyperlink{&quot;</span>;</div>
-<div class="line"><span class="lineno">  159</span>    <span class="keywordflow">if</span> (!f.isEmpty()) <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a3d37ec79f266698bd836af54ba75e63e">stripPath</a>(f);</div>
-<div class="line"><span class="lineno">  160</span>    <span class="keywordflow">if</span> (!f.isEmpty() &amp;&amp; !anchor.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>()) <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; <span class="stringliteral">&quot;_&quot;</span>;</div>
-<div class="line"><span class="lineno">  161</span>    <span class="keywordflow">if</span> (!anchor.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>()) <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; anchor;</div>
-<div class="line"><span class="lineno">  162</span>    <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; <span class="stringliteral">&quot;}{&quot;</span>;</div>
-<div class="line"><span class="lineno">  163</span>    <a class="code hl_function" href="../../d0/d37/class_latex_code_generator.html#ace27d46d07e19112fc6ee3411915c8ea">codify</a>(name);</div>
-<div class="line"><span class="lineno">  164</span>    <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; <span class="stringliteral">&quot;}}&quot;</span>;</div>
-<div class="line"><span class="lineno">  165</span>  }</div>
-<div class="line"><span class="lineno">  166</span>  <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  167</span>  {</div>
-<div class="line"><span class="lineno">  168</span>    <a class="code hl_function" href="../../d0/d37/class_latex_code_generator.html#ace27d46d07e19112fc6ee3411915c8ea">codify</a>(name);</div>
-<div class="line"><span class="lineno">  169</span>  }</div>
-<div class="line"><span class="lineno">  170</span>  <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#a3013d255c1ed9829b0b12eb51fa4f35e">m_col</a>+=l;</div>
-<div class="line"><span class="lineno">  171</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00149">149</a> of file <a class="el" href="../../d4/d42/latexgen_8cpp_source.html">latexgen.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  153</span>{</div>
+<div class="line"><span class="lineno">  154</span>  <span class="keywordtype">bool</span> pdfHyperlinks = <a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(PDF_HYPERLINKS);</div>
+<div class="line"><span class="lineno">  155</span>  <span class="keywordtype">bool</span> usePDFLatex   = <a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(USE_PDFLATEX);</div>
+<div class="line"><span class="lineno">  156</span>  <a class="code hl_typedef" href="../../d7/d5c/qcstring_8h.html#a4d3943ddea65db7163a58e6c7e8df95a">uint</a> l = name.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">length</a>();</div>
+<div class="line"><span class="lineno">  157</span>  <span class="keywordflow">if</span> (ref.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>() &amp;&amp; usePDFLatex &amp;&amp; pdfHyperlinks)</div>
+<div class="line"><span class="lineno">  158</span>  {</div>
+<div class="line"><span class="lineno">  159</span>    <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\\mbox{\\hyperlink{&quot;</span>;</div>
+<div class="line"><span class="lineno">  160</span>    <span class="keywordflow">if</span> (!f.isEmpty()) <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a3d37ec79f266698bd836af54ba75e63e">stripPath</a>(f);</div>
+<div class="line"><span class="lineno">  161</span>    <span class="keywordflow">if</span> (!f.isEmpty() &amp;&amp; !anchor.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>()) <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; <span class="stringliteral">&quot;_&quot;</span>;</div>
+<div class="line"><span class="lineno">  162</span>    <span class="keywordflow">if</span> (!anchor.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>()) <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; anchor;</div>
+<div class="line"><span class="lineno">  163</span>    <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; <span class="stringliteral">&quot;}{&quot;</span>;</div>
+<div class="line"><span class="lineno">  164</span>    <a class="code hl_function" href="../../d0/d37/class_latex_code_generator.html#ace27d46d07e19112fc6ee3411915c8ea">codify</a>(name);</div>
+<div class="line"><span class="lineno">  165</span>    <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; <span class="stringliteral">&quot;}}&quot;</span>;</div>
+<div class="line"><span class="lineno">  166</span>  }</div>
+<div class="line"><span class="lineno">  167</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  168</span>  {</div>
+<div class="line"><span class="lineno">  169</span>    <a class="code hl_function" href="../../d0/d37/class_latex_code_generator.html#ace27d46d07e19112fc6ee3411915c8ea">codify</a>(name);</div>
+<div class="line"><span class="lineno">  170</span>  }</div>
+<div class="line"><span class="lineno">  171</span>  <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#a3013d255c1ed9829b0b12eb51fa4f35e">m_col</a>+=l;</div>
+<div class="line"><span class="lineno">  172</span>}</div>
 <div class="ttc" id="aclass_q_c_string_html_a621c4090d69ad7d05ef8e5234376c3d8"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">QCString::isEmpty</a></div><div class="ttdeci">bool isEmpty() const</div><div class="ttdoc">Returns TRUE iff the string is empty.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00144">qcstring.h:144</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_ac52596733e9110b778019946d73fb268"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">QCString::length</a></div><div class="ttdeci">uint length() const</div><div class="ttdoc">Returns the length of the string, not counting the 0-terminator.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00147">qcstring.h:147</a></div></div>
 <div class="ttc" id="aconfig_8h_html_a5373d0332a31f16ad7a42037733e8c79"><div class="ttname"><a href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a></div><div class="ttdeci">#define Config_getBool(name)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/config_8h_source.html#l00033">config.h:33</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_a4d3943ddea65db7163a58e6c7e8df95a"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#a4d3943ddea65db7163a58e6c7e8df95a">uint</a></div><div class="ttdeci">unsigned uint</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00040">qcstring.h:40</a></div></div>
 <div class="ttc" id="autil_8cpp_html_a3d37ec79f266698bd836af54ba75e63e"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a3d37ec79f266698bd836af54ba75e63e">stripPath</a></div><div class="ttdeci">QCString stripPath(const QCString &amp;s)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l05412">util.cpp:5412</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00070">codify()</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::length()</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00076">m_col</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00073">m_t</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l05412">stripPath()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00071">codify()</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::length()</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00076">m_col</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00073">m_t</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l05412">stripPath()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00173">writeLineNumber()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00174">writeLineNumber()</a>.</p>
 
 </div>
 </div>
@@ -1137,54 +1137,54 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d5/d9c/class_code_output_interface.html#a483573b9884f249316728fc85ee413b0">CodeOutputInterface</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00173">173</a> of file <a class="el" href="../../d4/d42/latexgen_8cpp_source.html">latexgen.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  174</span>{</div>
-<div class="line"><span class="lineno">  175</span>  <span class="keywordtype">bool</span> usePDFLatex = <a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(USE_PDFLATEX);</div>
-<div class="line"><span class="lineno">  176</span>  <span class="keywordtype">bool</span> pdfHyperlinks = <a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(PDF_HYPERLINKS);</div>
-<div class="line"><span class="lineno">  177</span>  <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ae4ad9cdbf89db5b0fc4bcb3da17e6030">m_doxyCodeLineOpen</a>)</div>
-<div class="line"><span class="lineno">  178</span>  {</div>
-<div class="line"><span class="lineno">  179</span>    <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\\DoxyCodeLine{&quot;</span>;</div>
-<div class="line"><span class="lineno">  180</span>    <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ae4ad9cdbf89db5b0fc4bcb3da17e6030">m_doxyCodeLineOpen</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno">  181</span>  }</div>
-<div class="line"><span class="lineno">  182</span>  <span class="keywordflow">if</span> (<a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(SOURCE_BROWSER))</div>
-<div class="line"><span class="lineno">  183</span>  {</div>
-<div class="line"><span class="lineno">  184</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> lineNumber;</div>
-<div class="line"><span class="lineno">  185</span>    lineNumber.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aa2dccf89cb25346c3ee81d75aa5859da">sprintf</a>(<span class="stringliteral">&quot;%05d&quot;</span>,l);</div>
-<div class="line"><span class="lineno">  186</span> </div>
-<div class="line"><span class="lineno">  187</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> lineAnchor;</div>
-<div class="line"><span class="lineno">  188</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#acc546ace986e41f11d76eb80ec753e04">m_sourceFileName</a>.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
-<div class="line"><span class="lineno">  189</span>    {</div>
-<div class="line"><span class="lineno">  190</span>      lineAnchor.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aa2dccf89cb25346c3ee81d75aa5859da">sprintf</a>(<span class="stringliteral">&quot;_l%05d&quot;</span>,l);</div>
-<div class="line"><span class="lineno">  191</span>      lineAnchor.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0a6a8fe99e596b149ee15138fa8dcf0c">prepend</a>(<a class="code hl_function" href="../../df/d2d/util_8cpp.html#a73d2ea8014e5ac678dac39cfd56ba148">stripExtensionGeneral</a>(<a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#acc546ace986e41f11d76eb80ec753e04">m_sourceFileName</a>, <span class="stringliteral">&quot;.tex&quot;</span>));</div>
-<div class="line"><span class="lineno">  192</span>    }</div>
-<div class="line"><span class="lineno">  193</span>    <span class="keywordtype">bool</span> showTarget = usePDFLatex &amp;&amp; pdfHyperlinks &amp;&amp; !lineAnchor.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>() &amp;&amp; writeLineAnchor;</div>
-<div class="line"><span class="lineno">  194</span>    <span class="keywordflow">if</span> (showTarget)</div>
-<div class="line"><span class="lineno">  195</span>    {</div>
-<div class="line"><span class="lineno">  196</span>      <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\\Hypertarget{&quot;</span> &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a3d37ec79f266698bd836af54ba75e63e">stripPath</a>(lineAnchor) &lt;&lt; <span class="stringliteral">&quot;}&quot;</span>;</div>
-<div class="line"><span class="lineno">  197</span>    }</div>
-<div class="line"><span class="lineno">  198</span>    <span class="keywordflow">if</span> (!fileName.isEmpty())</div>
-<div class="line"><span class="lineno">  199</span>    {</div>
-<div class="line"><span class="lineno">  200</span>      <a class="code hl_function" href="../../d0/d37/class_latex_code_generator.html#ae073efd8b440046f245aaff6c56bc1f4">writeCodeLink</a>(CodeSymbolType::Default,ref,fileName,anchor,lineNumber,<a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>());</div>
-<div class="line"><span class="lineno">  201</span>    }</div>
-<div class="line"><span class="lineno">  202</span>    <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  203</span>    {</div>
-<div class="line"><span class="lineno">  204</span>      <a class="code hl_function" href="../../d0/d37/class_latex_code_generator.html#ace27d46d07e19112fc6ee3411915c8ea">codify</a>(lineNumber);</div>
-<div class="line"><span class="lineno">  205</span>    }</div>
-<div class="line"><span class="lineno">  206</span>    <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
-<div class="line"><span class="lineno">  207</span>  }</div>
-<div class="line"><span class="lineno">  208</span>  <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  209</span>  {</div>
-<div class="line"><span class="lineno">  210</span>    <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; l &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
-<div class="line"><span class="lineno">  211</span>  }</div>
-<div class="line"><span class="lineno">  212</span>  <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#a3013d255c1ed9829b0b12eb51fa4f35e">m_col</a>=0;</div>
-<div class="line"><span class="lineno">  213</span>}</div>
-<div class="ttc" id="aclass_latex_code_generator_html_ae073efd8b440046f245aaff6c56bc1f4"><div class="ttname"><a href="../../d0/d37/class_latex_code_generator.html#ae073efd8b440046f245aaff6c56bc1f4">LatexCodeGenerator::writeCodeLink</a></div><div class="ttdeci">void writeCodeLink(CodeSymbolType type, const QCString &amp;ref, const QCString &amp;file, const QCString &amp;anchor, const QCString &amp;name, const QCString &amp;tooltip) override</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d42/latexgen_8cpp_source.html#l00148">latexgen.cpp:148</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00174">174</a> of file <a class="el" href="../../d4/d42/latexgen_8cpp_source.html">latexgen.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  175</span>{</div>
+<div class="line"><span class="lineno">  176</span>  <span class="keywordtype">bool</span> usePDFLatex = <a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(USE_PDFLATEX);</div>
+<div class="line"><span class="lineno">  177</span>  <span class="keywordtype">bool</span> pdfHyperlinks = <a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(PDF_HYPERLINKS);</div>
+<div class="line"><span class="lineno">  178</span>  <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ae4ad9cdbf89db5b0fc4bcb3da17e6030">m_doxyCodeLineOpen</a>)</div>
+<div class="line"><span class="lineno">  179</span>  {</div>
+<div class="line"><span class="lineno">  180</span>    <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\\DoxyCodeLine{&quot;</span>;</div>
+<div class="line"><span class="lineno">  181</span>    <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ae4ad9cdbf89db5b0fc4bcb3da17e6030">m_doxyCodeLineOpen</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno">  182</span>  }</div>
+<div class="line"><span class="lineno">  183</span>  <span class="keywordflow">if</span> (<a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(SOURCE_BROWSER))</div>
+<div class="line"><span class="lineno">  184</span>  {</div>
+<div class="line"><span class="lineno">  185</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> lineNumber;</div>
+<div class="line"><span class="lineno">  186</span>    lineNumber.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aa2dccf89cb25346c3ee81d75aa5859da">sprintf</a>(<span class="stringliteral">&quot;%05d&quot;</span>,l);</div>
+<div class="line"><span class="lineno">  187</span> </div>
+<div class="line"><span class="lineno">  188</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> lineAnchor;</div>
+<div class="line"><span class="lineno">  189</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#acc546ace986e41f11d76eb80ec753e04">m_sourceFileName</a>.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
+<div class="line"><span class="lineno">  190</span>    {</div>
+<div class="line"><span class="lineno">  191</span>      lineAnchor.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aa2dccf89cb25346c3ee81d75aa5859da">sprintf</a>(<span class="stringliteral">&quot;_l%05d&quot;</span>,l);</div>
+<div class="line"><span class="lineno">  192</span>      lineAnchor.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0a6a8fe99e596b149ee15138fa8dcf0c">prepend</a>(<a class="code hl_function" href="../../df/d2d/util_8cpp.html#a73d2ea8014e5ac678dac39cfd56ba148">stripExtensionGeneral</a>(<a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#acc546ace986e41f11d76eb80ec753e04">m_sourceFileName</a>, <span class="stringliteral">&quot;.tex&quot;</span>));</div>
+<div class="line"><span class="lineno">  193</span>    }</div>
+<div class="line"><span class="lineno">  194</span>    <span class="keywordtype">bool</span> showTarget = usePDFLatex &amp;&amp; pdfHyperlinks &amp;&amp; !lineAnchor.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>() &amp;&amp; writeLineAnchor;</div>
+<div class="line"><span class="lineno">  195</span>    <span class="keywordflow">if</span> (showTarget)</div>
+<div class="line"><span class="lineno">  196</span>    {</div>
+<div class="line"><span class="lineno">  197</span>      <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\\Hypertarget{&quot;</span> &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a3d37ec79f266698bd836af54ba75e63e">stripPath</a>(lineAnchor) &lt;&lt; <span class="stringliteral">&quot;}&quot;</span>;</div>
+<div class="line"><span class="lineno">  198</span>    }</div>
+<div class="line"><span class="lineno">  199</span>    <span class="keywordflow">if</span> (!fileName.isEmpty())</div>
+<div class="line"><span class="lineno">  200</span>    {</div>
+<div class="line"><span class="lineno">  201</span>      <a class="code hl_function" href="../../d0/d37/class_latex_code_generator.html#ae073efd8b440046f245aaff6c56bc1f4">writeCodeLink</a>(CodeSymbolType::Default,ref,fileName,anchor,lineNumber,<a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>());</div>
+<div class="line"><span class="lineno">  202</span>    }</div>
+<div class="line"><span class="lineno">  203</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  204</span>    {</div>
+<div class="line"><span class="lineno">  205</span>      <a class="code hl_function" href="../../d0/d37/class_latex_code_generator.html#ace27d46d07e19112fc6ee3411915c8ea">codify</a>(lineNumber);</div>
+<div class="line"><span class="lineno">  206</span>    }</div>
+<div class="line"><span class="lineno">  207</span>    <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
+<div class="line"><span class="lineno">  208</span>  }</div>
+<div class="line"><span class="lineno">  209</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  210</span>  {</div>
+<div class="line"><span class="lineno">  211</span>    <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; l &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
+<div class="line"><span class="lineno">  212</span>  }</div>
+<div class="line"><span class="lineno">  213</span>  <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#a3013d255c1ed9829b0b12eb51fa4f35e">m_col</a>=0;</div>
+<div class="line"><span class="lineno">  214</span>}</div>
+<div class="ttc" id="aclass_latex_code_generator_html_ae073efd8b440046f245aaff6c56bc1f4"><div class="ttname"><a href="../../d0/d37/class_latex_code_generator.html#ae073efd8b440046f245aaff6c56bc1f4">LatexCodeGenerator::writeCodeLink</a></div><div class="ttdeci">void writeCodeLink(CodeSymbolType type, const QCString &amp;ref, const QCString &amp;file, const QCString &amp;anchor, const QCString &amp;name, const QCString &amp;tooltip) override</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d42/latexgen_8cpp_source.html#l00149">latexgen.cpp:149</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html">QCString</a></div><div class="ttdoc">This is an alternative implementation of QCString.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00108">qcstring.h:109</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a0a6a8fe99e596b149ee15138fa8dcf0c"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a0a6a8fe99e596b149ee15138fa8dcf0c">QCString::prepend</a></div><div class="ttdeci">QCString &amp; prepend(const char *s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00365">qcstring.h:365</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_aa2dccf89cb25346c3ee81d75aa5859da"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#aa2dccf89cb25346c3ee81d75aa5859da">QCString::sprintf</a></div><div class="ttdeci">QCString &amp; sprintf(const char *format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d3e/qcstring_8cpp_source.html#l00029">qcstring.cpp:29</a></div></div>
 <div class="ttc" id="autil_8cpp_html_a73d2ea8014e5ac678dac39cfd56ba148"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a73d2ea8014e5ac678dac39cfd56ba148">stripExtensionGeneral</a></div><div class="ttdeci">QCString stripExtensionGeneral(const QCString &amp;fName, const QCString &amp;ext)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l05379">util.cpp:5379</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00070">codify()</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00076">m_col</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00077">m_doxyCodeLineOpen</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00075">m_sourceFileName</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00073">m_t</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00365">QCString::prepend()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00029">QCString::sprintf()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05379">stripExtensionGeneral()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05412">stripPath()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>, and <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00148">writeCodeLink()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00071">codify()</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00076">m_col</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00077">m_doxyCodeLineOpen</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00075">m_sourceFileName</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00073">m_t</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00365">QCString::prepend()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00029">QCString::sprintf()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05379">stripExtensionGeneral()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05412">stripPath()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>, and <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00149">writeCodeLink()</a>.</p>
 
 </div>
 </div>
@@ -1287,7 +1287,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00076">76</a> of file <a class="el" href="../../d6/d9c/latexgen_8h_source.html">latexgen.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00070">codify()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00216">startCodeLine()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00148">writeCodeLink()</a>, and <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00173">writeLineNumber()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00071">codify()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00217">startCodeLine()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00149">writeCodeLink()</a>, and <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00174">writeLineNumber()</a>.</p>
 
 </div>
 </div>
@@ -1313,7 +1313,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00077">77</a> of file <a class="el" href="../../d6/d9c/latexgen_8h_source.html">latexgen.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00226">endCodeLine()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00216">startCodeLine()</a>, and <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00173">writeLineNumber()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00227">endCodeLine()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00217">startCodeLine()</a>, and <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00174">writeLineNumber()</a>.</p>
 
 </div>
 </div>
@@ -1339,7 +1339,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00074">74</a> of file <a class="el" href="../../d6/d9c/latexgen_8h_source.html">latexgen.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00060">setRelativePath()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00061">setRelativePath()</a>.</p>
 
 </div>
 </div>
@@ -1365,7 +1365,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00075">75</a> of file <a class="el" href="../../d6/d9c/latexgen_8h_source.html">latexgen.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00065">setSourceFileName()</a>, and <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00173">writeLineNumber()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00066">setSourceFileName()</a>, and <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00174">writeLineNumber()</a>.</p>
 
 </div>
 </div>
@@ -1415,7 +1415,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00073">73</a> of file <a class="el" href="../../d6/d9c/latexgen_8h_source.html">latexgen.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00070">codify()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00251">endCodeFragment()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00226">endCodeLine()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00241">endFontClass()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00246">startCodeFragment()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00216">startCodeLine()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00236">startFontClass()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00148">writeCodeLink()</a>, and <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00173">writeLineNumber()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00071">codify()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00252">endCodeFragment()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00227">endCodeLine()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00242">endFontClass()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00247">startCodeFragment()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00217">startCodeLine()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00237">startFontClass()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00149">writeCodeLink()</a>, and <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00174">writeLineNumber()</a>.</p>
 
 </div>
 </div>
@@ -1441,7 +1441,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00078">78</a> of file <a class="el" href="../../d6/d9c/latexgen_8h_source.html">latexgen.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00070">codify()</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00060">decUsedTableLevel()</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00059">incUsedTableLevel()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00246">startCodeFragment()</a>, and <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00061">usedTableLevel()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00071">codify()</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00060">decUsedTableLevel()</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00059">incUsedTableLevel()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00247">startCodeFragment()</a>, and <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00061">usedTableLevel()</a>.</p>
 
 </div>
 </div>

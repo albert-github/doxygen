@@ -1,6 +1,7 @@
 var datetime_8h =
 [
     [ "dateTimeFromString", "de/d1b/datetime_8h.html#ad9d60769e8d4d67f018bc58c3e7b4e6f", null ],
+    [ "dateToString", "de/d1b/datetime_8h.html#ab756d2158c17cfe62c5c51a7cf09d4a5", null ],
     [ "formatDateTime", "de/d1b/datetime_8h.html#a9f06f858b1cd97d3bc7b850a600b45be", null ],
     [ "getCurrentDateTime", "de/d1b/datetime_8h.html#aad46a931d39d3d99fc5d2ad2ecd5e0bf", null ],
     [ "SF_bit2str", "de/d1b/datetime_8h.html#a37d2e6c4e1e33663b8b6e4efe2f782f9", null ],

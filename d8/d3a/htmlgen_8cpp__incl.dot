@@ -454,4 +454,9 @@ digraph "/home/runner/work/doxygen/doxygen/src/htmlgen.cpp"
   Node112 [label="qhp.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d20/qhp_8h.html",tooltip=" "];
   Node112 -> Node20 [color="steelblue1",style="solid"];
   Node112 -> Node8 [color="steelblue1",style="solid"];
+  Node1 -> Node113 [color="steelblue1",style="solid"];
+  Node113 [label="datetime.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d1b/datetime_8h.html",tooltip=" "];
+  Node113 -> Node114 [color="steelblue1",style="solid"];
+  Node114 [label="ctime",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node113 -> Node8 [color="steelblue1",style="solid"];
 }

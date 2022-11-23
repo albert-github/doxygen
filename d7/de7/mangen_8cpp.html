@@ -108,6 +108,7 @@ $(document).ready(function(){initNavTree('d7/de7/mangen_8cpp.html','../../'); in
 <code>#include &quot;<a class="el" href="../../d8/dce/language_8h_source.html">language.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../df/d9c/dir_8h_source.html">dir.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../db/d7c/utf8_8h_source.html">utf8.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../de/d1b/datetime_8h_source.html">datetime.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for mangen.cpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -153,56 +154,56 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00202">202</a> of file <a class="el" href="../../d7/de7/mangen_8cpp_source.html">mangen.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  203</span>{</div>
-<div class="line"><span class="lineno">  204</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> fileName;</div>
-<div class="line"><span class="lineno">  205</span>  <span class="keywordflow">if</span> (name.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>()) <span class="keywordflow">return</span> <span class="stringliteral">&quot;noname&quot;</span>;</div>
-<div class="line"><span class="lineno">  206</span> </div>
-<div class="line"><span class="lineno">  207</span>  <span class="keyword">const</span> <span class="keywordtype">char</span> *p=name.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>();</div>
-<div class="line"><span class="lineno">  208</span>  <span class="keywordtype">char</span> c;</div>
-<div class="line"><span class="lineno">  209</span>  <span class="keywordflow">while</span> ((c=*p++))</div>
-<div class="line"><span class="lineno">  210</span>  {</div>
-<div class="line"><span class="lineno">  211</span>    <span class="keywordflow">switch</span> (c)</div>
-<div class="line"><span class="lineno">  212</span>    {</div>
-<div class="line"><span class="lineno">  213</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;:&#39;</span>:</div>
-<div class="line"><span class="lineno">  214</span>        fileName+=<span class="stringliteral">&quot;_&quot;</span>;</div>
-<div class="line"><span class="lineno">  215</span>        <span class="keywordflow">if</span> (*p==<span class="charliteral">&#39;:&#39;</span>) p++;</div>
-<div class="line"><span class="lineno">  216</span>        <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  217</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;&lt;&#39;</span>:</div>
-<div class="line"><span class="lineno">  218</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;&gt;&#39;</span>:</div>
-<div class="line"><span class="lineno">  219</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;&amp;&#39;</span>:</div>
-<div class="line"><span class="lineno">  220</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;*&#39;</span>:</div>
-<div class="line"><span class="lineno">  221</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;!&#39;</span>:</div>
-<div class="line"><span class="lineno">  222</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;^&#39;</span>:</div>
-<div class="line"><span class="lineno">  223</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;~&#39;</span>:</div>
-<div class="line"><span class="lineno">  224</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;%&#39;</span>:</div>
-<div class="line"><span class="lineno">  225</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;+&#39;</span>:</div>
-<div class="line"><span class="lineno">  226</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;/&#39;</span>:</div>
-<div class="line"><span class="lineno">  227</span>        fileName+=<span class="stringliteral">&quot;_&quot;</span>;</div>
-<div class="line"><span class="lineno">  228</span>        <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  229</span>      <span class="keywordflow">default</span>:</div>
-<div class="line"><span class="lineno">  230</span>        fileName+=c;</div>
-<div class="line"><span class="lineno">  231</span>    }</div>
-<div class="line"><span class="lineno">  232</span>  }</div>
-<div class="line"><span class="lineno">  233</span> </div>
-<div class="line"><span class="lineno">  234</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> manExtension = <span class="stringliteral">&quot;.&quot;</span> + <a class="code hl_function" href="../../d7/de7/mangen_8cpp.html#ad3269d7d65675a5e83889f4a98f5610b">getExtension</a>();</div>
-<div class="line"><span class="lineno">  235</span>  <span class="keywordflow">if</span> (fileName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a8f4aa5417f6a834f28c7148a1fe262d5">right</a>(manExtension.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">length</a>())!=manExtension)</div>
-<div class="line"><span class="lineno">  236</span>  {</div>
-<div class="line"><span class="lineno">  237</span>    fileName+=manExtension;</div>
-<div class="line"><span class="lineno">  238</span>  }</div>
-<div class="line"><span class="lineno">  239</span> </div>
-<div class="line"><span class="lineno">  240</span>  <span class="keywordflow">return</span> fileName;</div>
-<div class="line"><span class="lineno">  241</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00203">203</a> of file <a class="el" href="../../d7/de7/mangen_8cpp_source.html">mangen.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  204</span>{</div>
+<div class="line"><span class="lineno">  205</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> fileName;</div>
+<div class="line"><span class="lineno">  206</span>  <span class="keywordflow">if</span> (name.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>()) <span class="keywordflow">return</span> <span class="stringliteral">&quot;noname&quot;</span>;</div>
+<div class="line"><span class="lineno">  207</span> </div>
+<div class="line"><span class="lineno">  208</span>  <span class="keyword">const</span> <span class="keywordtype">char</span> *p=name.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>();</div>
+<div class="line"><span class="lineno">  209</span>  <span class="keywordtype">char</span> c;</div>
+<div class="line"><span class="lineno">  210</span>  <span class="keywordflow">while</span> ((c=*p++))</div>
+<div class="line"><span class="lineno">  211</span>  {</div>
+<div class="line"><span class="lineno">  212</span>    <span class="keywordflow">switch</span> (c)</div>
+<div class="line"><span class="lineno">  213</span>    {</div>
+<div class="line"><span class="lineno">  214</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;:&#39;</span>:</div>
+<div class="line"><span class="lineno">  215</span>        fileName+=<span class="stringliteral">&quot;_&quot;</span>;</div>
+<div class="line"><span class="lineno">  216</span>        <span class="keywordflow">if</span> (*p==<span class="charliteral">&#39;:&#39;</span>) p++;</div>
+<div class="line"><span class="lineno">  217</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  218</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;&lt;&#39;</span>:</div>
+<div class="line"><span class="lineno">  219</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;&gt;&#39;</span>:</div>
+<div class="line"><span class="lineno">  220</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;&amp;&#39;</span>:</div>
+<div class="line"><span class="lineno">  221</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;*&#39;</span>:</div>
+<div class="line"><span class="lineno">  222</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;!&#39;</span>:</div>
+<div class="line"><span class="lineno">  223</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;^&#39;</span>:</div>
+<div class="line"><span class="lineno">  224</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;~&#39;</span>:</div>
+<div class="line"><span class="lineno">  225</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;%&#39;</span>:</div>
+<div class="line"><span class="lineno">  226</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;+&#39;</span>:</div>
+<div class="line"><span class="lineno">  227</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;/&#39;</span>:</div>
+<div class="line"><span class="lineno">  228</span>        fileName+=<span class="stringliteral">&quot;_&quot;</span>;</div>
+<div class="line"><span class="lineno">  229</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  230</span>      <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  231</span>        fileName+=c;</div>
+<div class="line"><span class="lineno">  232</span>    }</div>
+<div class="line"><span class="lineno">  233</span>  }</div>
+<div class="line"><span class="lineno">  234</span> </div>
+<div class="line"><span class="lineno">  235</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> manExtension = <span class="stringliteral">&quot;.&quot;</span> + <a class="code hl_function" href="../../d7/de7/mangen_8cpp.html#ad3269d7d65675a5e83889f4a98f5610b">getExtension</a>();</div>
+<div class="line"><span class="lineno">  236</span>  <span class="keywordflow">if</span> (fileName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a8f4aa5417f6a834f28c7148a1fe262d5">right</a>(manExtension.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">length</a>())!=manExtension)</div>
+<div class="line"><span class="lineno">  237</span>  {</div>
+<div class="line"><span class="lineno">  238</span>    fileName+=manExtension;</div>
+<div class="line"><span class="lineno">  239</span>  }</div>
+<div class="line"><span class="lineno">  240</span> </div>
+<div class="line"><span class="lineno">  241</span>  <span class="keywordflow">return</span> fileName;</div>
+<div class="line"><span class="lineno">  242</span>}</div>
 <div class="ttc" id="aclass_q_c_string_html"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html">QCString</a></div><div class="ttdoc">This is an alternative implementation of QCString.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00108">qcstring.h:109</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a621c4090d69ad7d05ef8e5234376c3d8"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">QCString::isEmpty</a></div><div class="ttdeci">bool isEmpty() const</div><div class="ttdoc">Returns TRUE iff the string is empty.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00144">qcstring.h:144</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a8f4aa5417f6a834f28c7148a1fe262d5"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a8f4aa5417f6a834f28c7148a1fe262d5">QCString::right</a></div><div class="ttdeci">QCString right(size_t len) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00217">qcstring.h:217</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_ac3aa3ac1a1c36d3305eba22a2eb0d098"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">QCString::data</a></div><div class="ttdeci">const char * data() const</div><div class="ttdoc">Returns a pointer to the contents of the string in the form of a 0-terminated C string.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00153">qcstring.h:153</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_ac52596733e9110b778019946d73fb268"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">QCString::length</a></div><div class="ttdeci">uint length() const</div><div class="ttdoc">Returns the length of the string, not counting the 0-terminator.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00147">qcstring.h:147</a></div></div>
-<div class="ttc" id="amangen_8cpp_html_ad3269d7d65675a5e83889f4a98f5610b"><div class="ttname"><a href="../../d7/de7/mangen_8cpp.html#ad3269d7d65675a5e83889f4a98f5610b">getExtension</a></div><div class="ttdeci">static QCString getExtension()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/de7/mangen_8cpp_source.html#l00035">mangen.cpp:35</a></div></div>
+<div class="ttc" id="amangen_8cpp_html_ad3269d7d65675a5e83889f4a98f5610b"><div class="ttname"><a href="../../d7/de7/mangen_8cpp.html#ad3269d7d65675a5e83889f4a98f5610b">getExtension</a></div><div class="ttdeci">static QCString getExtension()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/de7/mangen_8cpp_source.html#l00036">mangen.cpp:36</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00153">QCString::data()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00035">getExtension()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::length()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00217">QCString::right()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00153">QCString::data()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00036">getExtension()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::length()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00217">QCString::right()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00445">ManGenerator::startDoxyAnchor()</a>, and <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00243">ManGenerator::startFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00446">ManGenerator::startDoxyAnchor()</a>, and <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00244">ManGenerator::startFile()</a>.</p>
 
 </div>
 </div>
@@ -229,38 +230,38 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00035">35</a> of file <a class="el" href="../../d7/de7/mangen_8cpp_source.html">mangen.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   36</span>{</div>
-<div class="line"><span class="lineno">   37</span>  <span class="comment">/*</span></div>
-<div class="line"><span class="lineno">   38</span><span class="comment">   * [.][number][rest]</span></div>
-<div class="line"><span class="lineno">   39</span><span class="comment">   * in case of . missing, just ignore it</span></div>
-<div class="line"><span class="lineno">   40</span><span class="comment">   * in case number missing, just place a 3 in front of it</span></div>
-<div class="line"><span class="lineno">   41</span><span class="comment">   */</span></div>
-<div class="line"><span class="lineno">   42</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> ext = <a class="code hl_define" href="../../db/d16/config_8h.html#a737741e6991bdb5694a50075437a9d89">Config_getString</a>(MAN_EXTENSION);</div>
-<div class="line"><span class="lineno">   43</span>  <span class="keywordflow">if</span> (ext.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
-<div class="line"><span class="lineno">   44</span>  {</div>
-<div class="line"><span class="lineno">   45</span>    ext = <span class="stringliteral">&quot;3&quot;</span>;</div>
-<div class="line"><span class="lineno">   46</span>  }</div>
-<div class="line"><span class="lineno">   47</span>  <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">   48</span>  {</div>
-<div class="line"><span class="lineno">   49</span>    <span class="keywordflow">if</span> (ext.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a4c8be5d062cc14919b53ff0a3c8f9a4f">at</a>(0)==<span class="charliteral">&#39;.&#39;</span>)</div>
-<div class="line"><span class="lineno">   50</span>    {</div>
-<div class="line"><span class="lineno">   51</span>      <span class="keywordflow">if</span> (ext.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">length</a>()==1)</div>
-<div class="line"><span class="lineno">   52</span>      {</div>
-<div class="line"><span class="lineno">   53</span>        ext = <span class="stringliteral">&quot;3&quot;</span>;</div>
-<div class="line"><span class="lineno">   54</span>      }</div>
-<div class="line"><span class="lineno">   55</span>      <span class="keywordflow">else</span> <span class="comment">// strip .</span></div>
-<div class="line"><span class="lineno">   56</span>      {</div>
-<div class="line"><span class="lineno">   57</span>        ext = ext.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(1);</div>
-<div class="line"><span class="lineno">   58</span>      }</div>
-<div class="line"><span class="lineno">   59</span>    }</div>
-<div class="line"><span class="lineno">   60</span>    <span class="keywordflow">if</span> (ext.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a4c8be5d062cc14919b53ff0a3c8f9a4f">at</a>(0)&lt;<span class="charliteral">&#39;0&#39;</span> || ext.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a4c8be5d062cc14919b53ff0a3c8f9a4f">at</a>(0)&gt;<span class="charliteral">&#39;9&#39;</span>)</div>
-<div class="line"><span class="lineno">   61</span>    {</div>
-<div class="line"><span class="lineno">   62</span>      ext.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0a6a8fe99e596b149ee15138fa8dcf0c">prepend</a>(<span class="stringliteral">&quot;3&quot;</span>);</div>
-<div class="line"><span class="lineno">   63</span>    }</div>
-<div class="line"><span class="lineno">   64</span>  }</div>
-<div class="line"><span class="lineno">   65</span>  <span class="keywordflow">return</span> ext;</div>
-<div class="line"><span class="lineno">   66</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00036">36</a> of file <a class="el" href="../../d7/de7/mangen_8cpp_source.html">mangen.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   37</span>{</div>
+<div class="line"><span class="lineno">   38</span>  <span class="comment">/*</span></div>
+<div class="line"><span class="lineno">   39</span><span class="comment">   * [.][number][rest]</span></div>
+<div class="line"><span class="lineno">   40</span><span class="comment">   * in case of . missing, just ignore it</span></div>
+<div class="line"><span class="lineno">   41</span><span class="comment">   * in case number missing, just place a 3 in front of it</span></div>
+<div class="line"><span class="lineno">   42</span><span class="comment">   */</span></div>
+<div class="line"><span class="lineno">   43</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> ext = <a class="code hl_define" href="../../db/d16/config_8h.html#a737741e6991bdb5694a50075437a9d89">Config_getString</a>(MAN_EXTENSION);</div>
+<div class="line"><span class="lineno">   44</span>  <span class="keywordflow">if</span> (ext.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
+<div class="line"><span class="lineno">   45</span>  {</div>
+<div class="line"><span class="lineno">   46</span>    ext = <span class="stringliteral">&quot;3&quot;</span>;</div>
+<div class="line"><span class="lineno">   47</span>  }</div>
+<div class="line"><span class="lineno">   48</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   49</span>  {</div>
+<div class="line"><span class="lineno">   50</span>    <span class="keywordflow">if</span> (ext.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a4c8be5d062cc14919b53ff0a3c8f9a4f">at</a>(0)==<span class="charliteral">&#39;.&#39;</span>)</div>
+<div class="line"><span class="lineno">   51</span>    {</div>
+<div class="line"><span class="lineno">   52</span>      <span class="keywordflow">if</span> (ext.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">length</a>()==1)</div>
+<div class="line"><span class="lineno">   53</span>      {</div>
+<div class="line"><span class="lineno">   54</span>        ext = <span class="stringliteral">&quot;3&quot;</span>;</div>
+<div class="line"><span class="lineno">   55</span>      }</div>
+<div class="line"><span class="lineno">   56</span>      <span class="keywordflow">else</span> <span class="comment">// strip .</span></div>
+<div class="line"><span class="lineno">   57</span>      {</div>
+<div class="line"><span class="lineno">   58</span>        ext = ext.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(1);</div>
+<div class="line"><span class="lineno">   59</span>      }</div>
+<div class="line"><span class="lineno">   60</span>    }</div>
+<div class="line"><span class="lineno">   61</span>    <span class="keywordflow">if</span> (ext.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a4c8be5d062cc14919b53ff0a3c8f9a4f">at</a>(0)&lt;<span class="charliteral">&#39;0&#39;</span> || ext.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a4c8be5d062cc14919b53ff0a3c8f9a4f">at</a>(0)&gt;<span class="charliteral">&#39;9&#39;</span>)</div>
+<div class="line"><span class="lineno">   62</span>    {</div>
+<div class="line"><span class="lineno">   63</span>      ext.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0a6a8fe99e596b149ee15138fa8dcf0c">prepend</a>(<span class="stringliteral">&quot;3&quot;</span>);</div>
+<div class="line"><span class="lineno">   64</span>    }</div>
+<div class="line"><span class="lineno">   65</span>  }</div>
+<div class="line"><span class="lineno">   66</span>  <span class="keywordflow">return</span> ext;</div>
+<div class="line"><span class="lineno">   67</span>}</div>
 <div class="ttc" id="aclass_q_c_string_html_a0a6a8fe99e596b149ee15138fa8dcf0c"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a0a6a8fe99e596b149ee15138fa8dcf0c">QCString::prepend</a></div><div class="ttdeci">QCString &amp; prepend(const char *s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00365">qcstring.h:365</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a27136caf9c0bc4daca574cda6f113551"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">QCString::mid</a></div><div class="ttdeci">QCString mid(size_t index, size_t len=static_cast&lt; size_t &gt;(-1)) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00224">qcstring.h:224</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a4c8be5d062cc14919b53ff0a3c8f9a4f"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a4c8be5d062cc14919b53ff0a3c8f9a4f">QCString::at</a></div><div class="ttdeci">char &amp; at(size_t i)</div><div class="ttdoc">Returns a reference to the character at index i.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00515">qcstring.h:515</a></div></div>
@@ -268,7 +269,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00515">QCString::at()</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00032">Config_getString</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::length()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00224">QCString::mid()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00365">QCString::prepend()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00202">buildFileName()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00255">ManGenerator::endTitleHead()</a>, and <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00068">getSubdir()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00203">buildFileName()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00256">ManGenerator::endTitleHead()</a>, and <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00069">getSubdir()</a>.</p>
 
 </div>
 </div>
@@ -295,19 +296,19 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00068">68</a> of file <a class="el" href="../../d7/de7/mangen_8cpp_source.html">mangen.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   69</span>{</div>
-<div class="line"><span class="lineno">   70</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> dir = <a class="code hl_define" href="../../db/d16/config_8h.html#a737741e6991bdb5694a50075437a9d89">Config_getString</a>(MAN_SUBDIR);</div>
-<div class="line"><span class="lineno">   71</span>  <span class="keywordflow">if</span> (dir.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
-<div class="line"><span class="lineno">   72</span>  {</div>
-<div class="line"><span class="lineno">   73</span>    dir = <span class="stringliteral">&quot;man&quot;</span> + <a class="code hl_function" href="../../d7/de7/mangen_8cpp.html#ad3269d7d65675a5e83889f4a98f5610b">getExtension</a>();</div>
-<div class="line"><span class="lineno">   74</span>  }</div>
-<div class="line"><span class="lineno">   75</span>  <span class="keywordflow">return</span> dir;</div>
-<div class="line"><span class="lineno">   76</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00069">69</a> of file <a class="el" href="../../d7/de7/mangen_8cpp_source.html">mangen.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   70</span>{</div>
+<div class="line"><span class="lineno">   71</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> dir = <a class="code hl_define" href="../../db/d16/config_8h.html#a737741e6991bdb5694a50075437a9d89">Config_getString</a>(MAN_SUBDIR);</div>
+<div class="line"><span class="lineno">   72</span>  <span class="keywordflow">if</span> (dir.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
+<div class="line"><span class="lineno">   73</span>  {</div>
+<div class="line"><span class="lineno">   74</span>    dir = <span class="stringliteral">&quot;man&quot;</span> + <a class="code hl_function" href="../../d7/de7/mangen_8cpp.html#ad3269d7d65675a5e83889f4a98f5610b">getExtension</a>();</div>
+<div class="line"><span class="lineno">   75</span>  }</div>
+<div class="line"><span class="lineno">   76</span>  <span class="keywordflow">return</span> dir;</div>
+<div class="line"><span class="lineno">   77</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00032">Config_getString</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00035">getExtension()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00032">Config_getString</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00036">getExtension()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00178">ManGenerator::init()</a>, and <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00445">ManGenerator::startDoxyAnchor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00179">ManGenerator::init()</a>, and <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00446">ManGenerator::startDoxyAnchor()</a>.</p>
 
 </div>
 </div>

@@ -33,7 +33,6 @@ var util_8h =
     [ "correctURL", "d8/d3c/util_8h.html#a3a775021310e25718452bfe250b2f999", null ],
     [ "countAliasArguments", "d8/d3c/util_8h.html#a1a81a80c083337fa1bdbf92f36e82df7", null ],
     [ "createSubDirs", "d8/d3c/util_8h.html#a77685956f8517f3a6e062e66925fc93c", null ],
-    [ "dateToString", "d8/d3c/util_8h.html#ad100564131ab122948dd034424322cda", null ],
     [ "escapeCharsInString", "d8/d3c/util_8h.html#abcc06559a1adc13dad1b39fc256a4b84", null ],
     [ "expandAlias", "d8/d3c/util_8h.html#a21ea66b9c5d77e1080b48d0ea1dc0f8a", null ],
     [ "externalLinkTarget", "d8/d3c/util_8h.html#a7b4f4d4a0585f32acf5571174075e6c2", null ],

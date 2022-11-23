@@ -383,4 +383,9 @@ digraph "/home/runner/work/doxygen/doxygen/src/latexgen.cpp"
   Node96 -> Node13 [color="steelblue1",style="solid"];
   Node1 -> Node68 [color="steelblue1",style="solid"];
   Node1 -> Node21 [color="steelblue1",style="solid"];
+  Node1 -> Node98 [color="steelblue1",style="solid"];
+  Node98 [label="datetime.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d1b/datetime_8h.html",tooltip=" "];
+  Node98 -> Node99 [color="steelblue1",style="solid"];
+  Node99 [label="ctime",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node98 -> Node13 [color="steelblue1",style="solid"];
 }

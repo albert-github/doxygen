@@ -135,7 +135,7 @@ class CachedItem&lt; T, TOwner, creator &gt;</div><p>Wrapper for data that needs
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l00091">91</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l00092">92</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a1a0c953e18a4c201a714c5f38b04117b" name="a1a0c953e18a4c201a714c5f38b04117b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1a0c953e18a4c201a714c5f38b04117b">&#9670;&#160;</a></span>get()</h2>
@@ -166,19 +166,19 @@ template&lt;typename T , typename TOwner , T(TOwner::*)() const creator&gt; </di
 <p>Returns a reference to the cached data. </p>
 <p>Conceptually this is a const method, i.e. it will always return the same data The first time it is called, the owner will be asked to create the data. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l00098">98</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   99</span>    {</div>
-<div class="line"><span class="lineno">  100</span>      <span class="comment">// create a lambda function to create the cached data</span></div>
-<div class="line"><span class="lineno">  101</span>      <span class="keyword">auto</span> creatorFunc = [<span class="keyword">this</span>,owner]() { <a class="code hl_variable" href="../../d7/dc1/class_cached_item.html#aaedbcfdf5f9fc27483ce6895c488f984">m_item</a> = (owner-&gt;*creator)(); };</div>
-<div class="line"><span class="lineno">  102</span>      <span class="comment">// use std::call_once to let one thread invoke the creator func</span></div>
-<div class="line"><span class="lineno">  103</span>      std::call_once(<a class="code hl_variable" href="../../d7/dc1/class_cached_item.html#abdfcf4bbf9392b47b0af375cede70e58">m_cache_flag</a>, creatorFunc);</div>
-<div class="line"><span class="lineno">  104</span>      <span class="comment">// return the cached results</span></div>
-<div class="line"><span class="lineno">  105</span>      <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d7/dc1/class_cached_item.html#aaedbcfdf5f9fc27483ce6895c488f984">m_item</a>;</div>
-<div class="line"><span class="lineno">  106</span>    }</div>
-<div class="ttc" id="aclass_cached_item_html_aaedbcfdf5f9fc27483ce6895c488f984"><div class="ttname"><a href="../../d7/dc1/class_cached_item.html#aaedbcfdf5f9fc27483ce6895c488f984">CachedItem::m_item</a></div><div class="ttdeci">T m_item</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l00109">context.cpp:109</a></div></div>
-<div class="ttc" id="aclass_cached_item_html_abdfcf4bbf9392b47b0af375cede70e58"><div class="ttname"><a href="../../d7/dc1/class_cached_item.html#abdfcf4bbf9392b47b0af375cede70e58">CachedItem::m_cache_flag</a></div><div class="ttdeci">std::once_flag m_cache_flag</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l00108">context.cpp:108</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l00099">99</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  100</span>    {</div>
+<div class="line"><span class="lineno">  101</span>      <span class="comment">// create a lambda function to create the cached data</span></div>
+<div class="line"><span class="lineno">  102</span>      <span class="keyword">auto</span> creatorFunc = [<span class="keyword">this</span>,owner]() { <a class="code hl_variable" href="../../d7/dc1/class_cached_item.html#aaedbcfdf5f9fc27483ce6895c488f984">m_item</a> = (owner-&gt;*creator)(); };</div>
+<div class="line"><span class="lineno">  103</span>      <span class="comment">// use std::call_once to let one thread invoke the creator func</span></div>
+<div class="line"><span class="lineno">  104</span>      std::call_once(<a class="code hl_variable" href="../../d7/dc1/class_cached_item.html#abdfcf4bbf9392b47b0af375cede70e58">m_cache_flag</a>, creatorFunc);</div>
+<div class="line"><span class="lineno">  105</span>      <span class="comment">// return the cached results</span></div>
+<div class="line"><span class="lineno">  106</span>      <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d7/dc1/class_cached_item.html#aaedbcfdf5f9fc27483ce6895c488f984">m_item</a>;</div>
+<div class="line"><span class="lineno">  107</span>    }</div>
+<div class="ttc" id="aclass_cached_item_html_aaedbcfdf5f9fc27483ce6895c488f984"><div class="ttname"><a href="../../d7/dc1/class_cached_item.html#aaedbcfdf5f9fc27483ce6895c488f984">CachedItem::m_item</a></div><div class="ttdeci">T m_item</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l00110">context.cpp:110</a></div></div>
+<div class="ttc" id="aclass_cached_item_html_abdfcf4bbf9392b47b0af375cede70e58"><div class="ttname"><a href="../../d7/dc1/class_cached_item.html#abdfcf4bbf9392b47b0af375cede70e58">CachedItem::m_cache_flag</a></div><div class="ttdeci">std::once_flag m_cache_flag</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l00109">context.cpp:109</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d12/context_8cpp_source.html#l00108">CachedItem&lt; T, TOwner, creator &gt;::m_cache_flag</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l00109">CachedItem&lt; T, TOwner, creator &gt;::m_item</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d12/context_8cpp_source.html#l00109">CachedItem&lt; T, TOwner, creator &gt;::m_cache_flag</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l00110">CachedItem&lt; T, TOwner, creator &gt;::m_item</a>.</p>
 
 </div>
 </div>
@@ -205,9 +205,9 @@ template&lt;typename T , typename TOwner , T(TOwner::*)() const creator&gt; </di
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l00108">108</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l00109">109</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l00098">CachedItem&lt; T, TOwner, creator &gt;::get()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l00099">CachedItem&lt; T, TOwner, creator &gt;::get()</a>.</p>
 
 </div>
 </div>
@@ -233,9 +233,9 @@ template&lt;typename T , typename TOwner , T(TOwner::*)() const creator&gt; </di
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l00109">109</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l00110">110</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l00098">CachedItem&lt; T, TOwner, creator &gt;::get()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l00099">CachedItem&lt; T, TOwner, creator &gt;::get()</a>.</p>
 
 </div>
 </div>

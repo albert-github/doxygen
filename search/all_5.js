@@ -13,7 +13,7 @@ var searchData=
   ['datetimefield_10',['DateTimeField',['../df/dae/struct_date_time_field.html',1,'']]],
   ['datetimefromstring_11',['dateTimeFromString',['../de/d1b/datetime_8h.html#ad9d60769e8d4d67f018bc58c3e7b4e6f',1,'dateTimeFromString(const QCString &amp;spec, std::tm &amp;dt, int &amp;format):&#160;datetime.cpp'],['../d7/d14/datetime_8cpp.html#ad9d60769e8d4d67f018bc58c3e7b4e6f',1,'dateTimeFromString(const QCString &amp;spec, std::tm &amp;dt, int &amp;format):&#160;datetime.cpp']]],
   ['datetortfdatestring_12',['dateToRTFDateString',['../d0/d9c/rtfgen_8cpp.html#a2996b202ffa4a28fb842837caae8fa0f',1,'rtfgen.cpp']]],
-  ['datetostring_13',['dateToString',['../d8/d3c/util_8h.html#ad100564131ab122948dd034424322cda',1,'dateToString(bool):&#160;datetime.cpp'],['../d7/d14/datetime_8cpp.html#ab756d2158c17cfe62c5c51a7cf09d4a5',1,'dateToString(bool includeTime):&#160;datetime.cpp']]],
+  ['datetostring_13',['dateToString',['../de/d1b/datetime_8h.html#ab756d2158c17cfe62c5c51a7cf09d4a5',1,'dateToString(bool includeTime):&#160;datetime.cpp'],['../d7/d14/datetime_8cpp.html#ab756d2158c17cfe62c5c51a7cf09d4a5',1,'dateToString(bool includeTime):&#160;datetime.cpp']]],
   ['db_5fgen_5fc_14',['DB_GEN_C',['../d8/d29/docbookgen_8cpp.html#aa904aecb68e232b5aea1600dbfde5c0d',1,'docbookgen.cpp']]],
   ['db_5fgen_5fc1_15',['DB_GEN_C1',['../d8/d29/docbookgen_8cpp.html#aad86f7a60609e9852bce76f5a1626d5a',1,'docbookgen.cpp']]],
   ['db_5fgen_5fc2_16',['DB_GEN_C2',['../d8/d29/docbookgen_8cpp.html#ad9e8d60bb28488aa27ff42b3c5907437',1,'docbookgen.cpp']]],

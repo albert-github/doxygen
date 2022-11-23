@@ -196,10 +196,10 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l07580">7580</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 7580</span>                                     : <a class="code hl_variable" href="../../df/dda/class_member_list_context.html#a8456904003f82fa0c3d41fc1a67598f4">p</a>(std::make_unique&lt;Private&gt;())</div>
-<div class="line"><span class="lineno"> 7581</span>{</div>
-<div class="line"><span class="lineno"> 7582</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l07581">7581</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 7581</span>                                     : <a class="code hl_variable" href="../../df/dda/class_member_list_context.html#a8456904003f82fa0c3d41fc1a67598f4">p</a>(std::make_unique&lt;Private&gt;())</div>
+<div class="line"><span class="lineno"> 7582</span>{</div>
+<div class="line"><span class="lineno"> 7583</span>}</div>
 <div class="ttc" id="aclass_member_list_context_html_a8456904003f82fa0c3d41fc1a67598f4"><div class="ttname"><a href="../../df/dda/class_member_list_context.html#a8456904003f82fa0c3d41fc1a67598f4">MemberListContext::p</a></div><div class="ttdeci">std::unique_ptr&lt; Private &gt; p</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d1e/context_8h_source.html#l01023">context.h:1023</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -220,23 +220,23 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l07584">7584</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 7584</span>                                                           : <a class="code hl_variable" href="../../df/dda/class_member_list_context.html#a8456904003f82fa0c3d41fc1a67598f4">p</a>(std::make_unique&lt;Private&gt;())</div>
-<div class="line"><span class="lineno"> 7585</span>{</div>
-<div class="line"><span class="lineno"> 7586</span>  <span class="keywordflow">if</span> (list)</div>
-<div class="line"><span class="lineno"> 7587</span>  {</div>
-<div class="line"><span class="lineno"> 7588</span>    <span class="keywordtype">bool</span> <a class="code hl_namespace" href="../../db/d1b/namespacedetails.html">details</a> = list-&gt;listType()&amp;<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#abe8ad5992f8938a28f918f51b199aa19a8f7cd8ff838619bf4261c06ef5c48410">MemberListType_detailedLists</a>;</div>
-<div class="line"><span class="lineno"> 7589</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;md : *list)</div>
-<div class="line"><span class="lineno"> 7590</span>    {</div>
-<div class="line"><span class="lineno"> 7591</span>      <span class="keywordflow">if</span> ((md-&gt;isBriefSectionVisible() &amp;&amp; !<a class="code hl_namespace" href="../../db/d1b/namespacedetails.html">details</a>) ||</div>
-<div class="line"><span class="lineno"> 7592</span>          (md-&gt;hasDetailedDescription() &amp;&amp; <a class="code hl_namespace" href="../../db/d1b/namespacedetails.html">details</a>)</div>
-<div class="line"><span class="lineno"> 7593</span>         )</div>
-<div class="line"><span class="lineno"> 7594</span>      {</div>
-<div class="line"><span class="lineno"> 7595</span>        <a class="code hl_variable" href="../../df/dda/class_member_list_context.html#a8456904003f82fa0c3d41fc1a67598f4">p</a>-&gt;addMember(md);</div>
-<div class="line"><span class="lineno"> 7596</span>      }</div>
-<div class="line"><span class="lineno"> 7597</span>    }</div>
-<div class="line"><span class="lineno"> 7598</span>  }</div>
-<div class="line"><span class="lineno"> 7599</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l07585">7585</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 7585</span>                                                           : <a class="code hl_variable" href="../../df/dda/class_member_list_context.html#a8456904003f82fa0c3d41fc1a67598f4">p</a>(std::make_unique&lt;Private&gt;())</div>
+<div class="line"><span class="lineno"> 7586</span>{</div>
+<div class="line"><span class="lineno"> 7587</span>  <span class="keywordflow">if</span> (list)</div>
+<div class="line"><span class="lineno"> 7588</span>  {</div>
+<div class="line"><span class="lineno"> 7589</span>    <span class="keywordtype">bool</span> <a class="code hl_namespace" href="../../db/d1b/namespacedetails.html">details</a> = list-&gt;listType()&amp;<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#abe8ad5992f8938a28f918f51b199aa19a8f7cd8ff838619bf4261c06ef5c48410">MemberListType_detailedLists</a>;</div>
+<div class="line"><span class="lineno"> 7590</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;md : *list)</div>
+<div class="line"><span class="lineno"> 7591</span>    {</div>
+<div class="line"><span class="lineno"> 7592</span>      <span class="keywordflow">if</span> ((md-&gt;isBriefSectionVisible() &amp;&amp; !<a class="code hl_namespace" href="../../db/d1b/namespacedetails.html">details</a>) ||</div>
+<div class="line"><span class="lineno"> 7593</span>          (md-&gt;hasDetailedDescription() &amp;&amp; <a class="code hl_namespace" href="../../db/d1b/namespacedetails.html">details</a>)</div>
+<div class="line"><span class="lineno"> 7594</span>         )</div>
+<div class="line"><span class="lineno"> 7595</span>      {</div>
+<div class="line"><span class="lineno"> 7596</span>        <a class="code hl_variable" href="../../df/dda/class_member_list_context.html#a8456904003f82fa0c3d41fc1a67598f4">p</a>-&gt;addMember(md);</div>
+<div class="line"><span class="lineno"> 7597</span>      }</div>
+<div class="line"><span class="lineno"> 7598</span>    }</div>
+<div class="line"><span class="lineno"> 7599</span>  }</div>
+<div class="line"><span class="lineno"> 7600</span>}</div>
 <div class="ttc" id="anamespacedetails_html"><div class="ttname"><a href="../../db/d1b/namespacedetails.html">details</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l01294">docnode.h:1295</a></div></div>
 <div class="ttc" id="atypes_8h_html_abe8ad5992f8938a28f918f51b199aa19a8f7cd8ff838619bf4261c06ef5c48410"><div class="ttname"><a href="../../d9/d49/types_8h.html#abe8ad5992f8938a28f918f51b199aa19a8f7cd8ff838619bf4261c06ef5c48410">MemberListType_detailedLists</a></div><div class="ttdeci">@ MemberListType_detailedLists</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00103">types.h:103</a></div></div>
 </div><!-- fragment -->
@@ -260,14 +260,14 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l07601">7601</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 7601</span>                                                           : <a class="code hl_variable" href="../../df/dda/class_member_list_context.html#a8456904003f82fa0c3d41fc1a67598f4">p</a>(std::make_unique&lt;Private&gt;())</div>
-<div class="line"><span class="lineno"> 7602</span>{</div>
-<div class="line"><span class="lineno"> 7603</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;md : ml)</div>
-<div class="line"><span class="lineno"> 7604</span>  {</div>
-<div class="line"><span class="lineno"> 7605</span>    <a class="code hl_variable" href="../../df/dda/class_member_list_context.html#a8456904003f82fa0c3d41fc1a67598f4">p</a>-&gt;addMember(md);</div>
-<div class="line"><span class="lineno"> 7606</span>  }</div>
-<div class="line"><span class="lineno"> 7607</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l07602">7602</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 7602</span>                                                           : <a class="code hl_variable" href="../../df/dda/class_member_list_context.html#a8456904003f82fa0c3d41fc1a67598f4">p</a>(std::make_unique&lt;Private&gt;())</div>
+<div class="line"><span class="lineno"> 7603</span>{</div>
+<div class="line"><span class="lineno"> 7604</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;md : ml)</div>
+<div class="line"><span class="lineno"> 7605</span>  {</div>
+<div class="line"><span class="lineno"> 7606</span>    <a class="code hl_variable" href="../../df/dda/class_member_list_context.html#a8456904003f82fa0c3d41fc1a67598f4">p</a>-&gt;addMember(md);</div>
+<div class="line"><span class="lineno"> 7607</span>  }</div>
+<div class="line"><span class="lineno"> 7608</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../dc/d1e/context_8h_source.html#l01023">p</a>.</p>
 
@@ -296,9 +296,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l07609">7609</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 7610</span>{</div>
-<div class="line"><span class="lineno"> 7611</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l07610">7610</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 7611</span>{</div>
+<div class="line"><span class="lineno"> 7612</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -329,7 +329,7 @@ Additional Inherited Members</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../dc/d1e/context_8h_source.html#l01004">1004</a> of file <a class="el" href="../../dc/d1e/context_8h_source.html">context.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 1005</span>    { <span class="keywordflow">return</span> std::static_pointer_cast&lt;TemplateListIntf&gt;(std::make_shared&lt;MemberListContext&gt;()); }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l03943">MemberContext::Private::createEnumValues()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l07928">MemberListInfoContext::Private::createMemberList()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l08023">InheritedMemberInfoContext::Private::createMemberList()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l02283">ClassContext::Private::createMembers()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l07793">MemberGroupInfoContext::Private::createMembers()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l04136">MemberContext::Private::createSourceRefBys()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l04132">MemberContext::Private::createSourceRefs()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l03944">MemberContext::Private::createEnumValues()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l07929">MemberListInfoContext::Private::createMemberList()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l08024">InheritedMemberInfoContext::Private::createMemberList()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l02284">ClassContext::Private::createMembers()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l07794">MemberGroupInfoContext::Private::createMembers()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l04137">MemberContext::Private::createSourceRefBys()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l04133">MemberContext::Private::createSourceRefs()</a>.</p>
 
 </div>
 </div>
@@ -419,10 +419,10 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d6/d88/class_template_list_intf.html#aa46eadcf3f36d77491fa3a694cd1afd9">TemplateListIntf</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l07619">7619</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 7620</span>{</div>
-<div class="line"><span class="lineno"> 7621</span>  <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/dda/class_member_list_context.html#a8456904003f82fa0c3d41fc1a67598f4">p</a>-&gt;at(index);</div>
-<div class="line"><span class="lineno"> 7622</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l07620">7620</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 7621</span>{</div>
+<div class="line"><span class="lineno"> 7622</span>  <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/dda/class_member_list_context.html#a8456904003f82fa0c3d41fc1a67598f4">p</a>-&gt;at(index);</div>
+<div class="line"><span class="lineno"> 7623</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../dc/d1e/context_8h_source.html#l01023">p</a>.</p>
 
@@ -455,10 +455,10 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d6/d88/class_template_list_intf.html#a9dc30d3e9dd847c11050c7a6b8666470">TemplateListIntf</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l07614">7614</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 7615</span>{</div>
-<div class="line"><span class="lineno"> 7616</span>  <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/dda/class_member_list_context.html#a8456904003f82fa0c3d41fc1a67598f4">p</a>-&gt;count();</div>
-<div class="line"><span class="lineno"> 7617</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l07615">7615</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 7616</span>{</div>
+<div class="line"><span class="lineno"> 7617</span>  <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/dda/class_member_list_context.html#a8456904003f82fa0c3d41fc1a67598f4">p</a>-&gt;count();</div>
+<div class="line"><span class="lineno"> 7618</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../dc/d1e/context_8h_source.html#l01023">p</a>.</p>
 
@@ -492,10 +492,10 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d6/d88/class_template_list_intf.html#a012fed2bd9d1c19de95e98418a56fc2a">TemplateListIntf</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l07624">7624</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 7625</span>{</div>
-<div class="line"><span class="lineno"> 7626</span>  <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/dda/class_member_list_context.html#a8456904003f82fa0c3d41fc1a67598f4">p</a>-&gt;createIterator();</div>
-<div class="line"><span class="lineno"> 7627</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l07625">7625</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 7626</span>{</div>
+<div class="line"><span class="lineno"> 7627</span>  <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/dda/class_member_list_context.html#a8456904003f82fa0c3d41fc1a67598f4">p</a>-&gt;createIterator();</div>
+<div class="line"><span class="lineno"> 7628</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../dc/d1e/context_8h_source.html#l01023">p</a>.</p>
 
@@ -524,7 +524,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d1e/context_8h_source.html#l01023">1023</a> of file <a class="el" href="../../dc/d1e/context_8h_source.html">context.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l07619">at()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l07614">count()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l07624">createIterator()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l07584">MemberListContext()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l07620">at()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l07615">count()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l07625">createIterator()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l07585">MemberListContext()</a>.</p>
 
 </div>
 </div>

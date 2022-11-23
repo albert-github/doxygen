@@ -159,7 +159,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l04993">4993</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l04994">4994</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a96862a44d58e9e3dea92a170e51f5721" name="a96862a44d58e9e3dea92a170e51f5721"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a96862a44d58e9e3dea92a170e51f5721">&#9670;&#160;</a></span>addClasses()</h2>
@@ -185,32 +185,32 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l04996">4996</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 4997</span>    {</div>
-<div class="line"><span class="lineno"> 4998</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;cd : classLinkedMap)</div>
-<div class="line"><span class="lineno"> 4999</span>      {</div>
-<div class="line"><span class="lineno"> 5000</span>        <span class="keywordflow">if</span> (cd-&gt;getLanguage()==<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a9974623ce72fc23df5d64426b9178bf2a04de850503d4e73333e3c8eec7f97da7">SrcLangExt_VHDL</a> &amp;&amp;</div>
-<div class="line"><span class="lineno"> 5001</span>            (<a class="code hl_function" href="../../d6/d98/class_vhdl_doc_gen.html#ab1ab1504610c798f4924026a48bb4301">VhdlDocGen::convert</a>(cd-&gt;protection())==<a class="code hl_enumvalue" href="../../d6/d98/class_vhdl_doc_gen.html#a010ab08982f29df8c0f3d3f0f642f0f0ae69513dd677b13d97b6a2e3ae445d1ef">VhdlDocGen::PACKAGECLASS</a> ||</div>
-<div class="line"><span class="lineno"> 5002</span>             <a class="code hl_function" href="../../d6/d98/class_vhdl_doc_gen.html#ab1ab1504610c798f4924026a48bb4301">VhdlDocGen::convert</a>(cd-&gt;protection())==<a class="code hl_enumvalue" href="../../d6/d98/class_vhdl_doc_gen.html#a010ab08982f29df8c0f3d3f0f642f0f0a4cdc00f213301fb089eb3906a07efd20">VhdlDocGen::PACKBODYCLASS</a>)</div>
-<div class="line"><span class="lineno"> 5003</span>           ) <span class="comment">// no architecture</span></div>
-<div class="line"><span class="lineno"> 5004</span>        {</div>
-<div class="line"><span class="lineno"> 5005</span>          <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno"> 5006</span>        }</div>
-<div class="line"><span class="lineno"> 5007</span>        <span class="keywordflow">if</span> (cd-&gt;isLinkableInProject() &amp;&amp; cd-&gt;templateMaster()==0 &amp;&amp;</div>
-<div class="line"><span class="lineno"> 5008</span>            !cd-&gt;isHidden() &amp;&amp; !cd-&gt;isEmbeddedInOuterScope())</div>
-<div class="line"><span class="lineno"> 5009</span>        {</div>
-<div class="line"><span class="lineno"> 5010</span>          <a class="code hl_function" href="../../d6/dcb/class_generic_node_list_context.html#a1e3defa7bc050ae33e2fbabba7a20643">append</a>(<a class="code hl_function" href="../../dc/d38/class_class_context.html#a442a79f20793cb4eefc7ebc9d64f4de2">ClassContext::alloc</a>(cd.get()));</div>
-<div class="line"><span class="lineno"> 5011</span>        }</div>
-<div class="line"><span class="lineno"> 5012</span>      }</div>
-<div class="line"><span class="lineno"> 5013</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l04997">4997</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 4998</span>    {</div>
+<div class="line"><span class="lineno"> 4999</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;cd : classLinkedMap)</div>
+<div class="line"><span class="lineno"> 5000</span>      {</div>
+<div class="line"><span class="lineno"> 5001</span>        <span class="keywordflow">if</span> (cd-&gt;getLanguage()==<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a9974623ce72fc23df5d64426b9178bf2a04de850503d4e73333e3c8eec7f97da7">SrcLangExt_VHDL</a> &amp;&amp;</div>
+<div class="line"><span class="lineno"> 5002</span>            (<a class="code hl_function" href="../../d6/d98/class_vhdl_doc_gen.html#ab1ab1504610c798f4924026a48bb4301">VhdlDocGen::convert</a>(cd-&gt;protection())==<a class="code hl_enumvalue" href="../../d6/d98/class_vhdl_doc_gen.html#a010ab08982f29df8c0f3d3f0f642f0f0ae69513dd677b13d97b6a2e3ae445d1ef">VhdlDocGen::PACKAGECLASS</a> ||</div>
+<div class="line"><span class="lineno"> 5003</span>             <a class="code hl_function" href="../../d6/d98/class_vhdl_doc_gen.html#ab1ab1504610c798f4924026a48bb4301">VhdlDocGen::convert</a>(cd-&gt;protection())==<a class="code hl_enumvalue" href="../../d6/d98/class_vhdl_doc_gen.html#a010ab08982f29df8c0f3d3f0f642f0f0a4cdc00f213301fb089eb3906a07efd20">VhdlDocGen::PACKBODYCLASS</a>)</div>
+<div class="line"><span class="lineno"> 5004</span>           ) <span class="comment">// no architecture</span></div>
+<div class="line"><span class="lineno"> 5005</span>        {</div>
+<div class="line"><span class="lineno"> 5006</span>          <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno"> 5007</span>        }</div>
+<div class="line"><span class="lineno"> 5008</span>        <span class="keywordflow">if</span> (cd-&gt;isLinkableInProject() &amp;&amp; cd-&gt;templateMaster()==0 &amp;&amp;</div>
+<div class="line"><span class="lineno"> 5009</span>            !cd-&gt;isHidden() &amp;&amp; !cd-&gt;isEmbeddedInOuterScope())</div>
+<div class="line"><span class="lineno"> 5010</span>        {</div>
+<div class="line"><span class="lineno"> 5011</span>          <a class="code hl_function" href="../../d6/dcb/class_generic_node_list_context.html#a1e3defa7bc050ae33e2fbabba7a20643">append</a>(<a class="code hl_function" href="../../dc/d38/class_class_context.html#a442a79f20793cb4eefc7ebc9d64f4de2">ClassContext::alloc</a>(cd.get()));</div>
+<div class="line"><span class="lineno"> 5012</span>        }</div>
+<div class="line"><span class="lineno"> 5013</span>      }</div>
+<div class="line"><span class="lineno"> 5014</span>    }</div>
 <div class="ttc" id="aclass_class_context_html_a442a79f20793cb4eefc7ebc9d64f4de2"><div class="ttname"><a href="../../dc/d38/class_class_context.html#a442a79f20793cb4eefc7ebc9d64f4de2">ClassContext::alloc</a></div><div class="ttdeci">static TemplateStructIntfPtr alloc(const ClassDef *cd)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d1e/context_8h_source.html#l00199">context.h:199</a></div></div>
-<div class="ttc" id="aclass_generic_node_list_context_html_a1e3defa7bc050ae33e2fbabba7a20643"><div class="ttname"><a href="../../d6/dcb/class_generic_node_list_context.html#a1e3defa7bc050ae33e2fbabba7a20643">GenericNodeListContext::append</a></div><div class="ttdeci">void append(const TemplateVariant &amp;ctn)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l00219">context.cpp:219</a></div></div>
+<div class="ttc" id="aclass_generic_node_list_context_html_a1e3defa7bc050ae33e2fbabba7a20643"><div class="ttname"><a href="../../d6/dcb/class_generic_node_list_context.html#a1e3defa7bc050ae33e2fbabba7a20643">GenericNodeListContext::append</a></div><div class="ttdeci">void append(const TemplateVariant &amp;ctn)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l00220">context.cpp:220</a></div></div>
 <div class="ttc" id="aclass_vhdl_doc_gen_html_a010ab08982f29df8c0f3d3f0f642f0f0a4cdc00f213301fb089eb3906a07efd20"><div class="ttname"><a href="../../d6/d98/class_vhdl_doc_gen.html#a010ab08982f29df8c0f3d3f0f642f0f0a4cdc00f213301fb089eb3906a07efd20">VhdlDocGen::PACKBODYCLASS</a></div><div class="ttdeci">@ PACKBODYCLASS</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dec/vhdldocgen_8h_source.html#l00075">vhdldocgen.h:75</a></div></div>
 <div class="ttc" id="aclass_vhdl_doc_gen_html_a010ab08982f29df8c0f3d3f0f642f0f0ae69513dd677b13d97b6a2e3ae445d1ef"><div class="ttname"><a href="../../d6/d98/class_vhdl_doc_gen.html#a010ab08982f29df8c0f3d3f0f642f0f0ae69513dd677b13d97b6a2e3ae445d1ef">VhdlDocGen::PACKAGECLASS</a></div><div class="ttdeci">@ PACKAGECLASS</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dec/vhdldocgen_8h_source.html#l00078">vhdldocgen.h:77</a></div></div>
 <div class="ttc" id="aclass_vhdl_doc_gen_html_ab1ab1504610c798f4924026a48bb4301"><div class="ttname"><a href="../../d6/d98/class_vhdl_doc_gen.html#ab1ab1504610c798f4924026a48bb4301">VhdlDocGen::convert</a></div><div class="ttdeci">static VhdlClasses convert(Protection prot)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dec/vhdldocgen_8h_source.html#l00079">vhdldocgen.h:79</a></div></div>
 <div class="ttc" id="atypes_8h_html_a9974623ce72fc23df5d64426b9178bf2a04de850503d4e73333e3c8eec7f97da7"><div class="ttname"><a href="../../d9/d49/types_8h.html#a9974623ce72fc23df5d64426b9178bf2a04de850503d4e73333e3c8eec7f97da7">SrcLangExt_VHDL</a></div><div class="ttdeci">@ SrcLangExt_VHDL</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00054">types.h:54</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/d1e/context_8h_source.html#l00199">ClassContext::alloc()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l00219">GenericNodeListContext::append()</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00079">VhdlDocGen::convert()</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00077">VhdlDocGen::PACKAGECLASS</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00075">VhdlDocGen::PACKBODYCLASS</a>, and <a class="el" href="../../d9/d49/types_8h_source.html#l00054">SrcLangExt_VHDL</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d1e/context_8h_source.html#l00199">ClassContext::alloc()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l00220">GenericNodeListContext::append()</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00079">VhdlDocGen::convert()</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00077">VhdlDocGen::PACKAGECLASS</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00075">VhdlDocGen::PACKBODYCLASS</a>, and <a class="el" href="../../d9/d49/types_8h_source.html#l00054">SrcLangExt_VHDL</a>.</p>
 
 </div>
 </div>
