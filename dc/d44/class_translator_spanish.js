@@ -47,7 +47,7 @@ var class_translator_spanish =
     [ "trDataMembers", "dc/d44/class_translator_spanish.html#a7b916bc7ef2d6ebc30ebc290594993ad", null ],
     [ "trDataTypes", "dc/d44/class_translator_spanish.html#a2ff99a9085234b004300c83f860ce0fe", null ],
     [ "trDate", "dc/d44/class_translator_spanish.html#ada7f90d1cdd855da265e39031752241b", null ],
-    [ "trDateTime", "dc/d44/class_translator_spanish.html#ae864e7c990ef4daf847ce2349f1e9a0a", null ],
+    [ "trDateTime", "dc/d44/class_translator_spanish.html#aae1abfd6dea09c4566efa7a676326275", null ],
     [ "trDayOfWeek", "dc/d44/class_translator_spanish.html#a543b80eda43f3335277c43abbb544eca", null ],
     [ "trDayPeriod", "dc/d44/class_translator_spanish.html#ad9d8ae587de483ae9e36cf4545bb9add", null ],
     [ "trDefinedAtLineInSourceFile", "dc/d44/class_translator_spanish.html#a07b9dc3ddc739b6a6d5ba0439c33c60a", null ],

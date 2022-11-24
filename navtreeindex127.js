@@ -1,8 +1,5 @@
 var NAVTREEINDEX127 =
 {
-"df/dc8/class_translator_indonesian.html#a7ce5f320693eb175d7ad73e65e4eb878":[8,0,588,217],
-"df/dc8/class_translator_indonesian.html#a7d9ba2fd57d117ea9566d5ab240e6777":[8,0,588,61],
-"df/dc8/class_translator_indonesian.html#a7effa5cc2d84e36b662667d1ab0300cf":[8,0,588,12],
 "df/dc8/class_translator_indonesian.html#a7f1c7067df20ca5319e34f388c4a0487":[8,0,588,140],
 "df/dc8/class_translator_indonesian.html#a7f7c441b30c7836e3809812ebfea786d":[8,0,588,74],
 "df/dc8/class_translator_indonesian.html#a7fe8b62fd5171fc48bd92af2766a74ee":[8,0,588,184],
@@ -83,7 +80,6 @@ var NAVTREEINDEX127 =
 "df/dc8/class_translator_indonesian.html#ae8875ef0278fe1e7db96cf0c3257a181":[8,0,588,205],
 "df/dc8/class_translator_indonesian.html#ae9e345697076f105f1dc28b640824b54":[8,0,588,7],
 "df/dc8/class_translator_indonesian.html#aeac68f0ab9978e6fc2f8e4a482686e38":[8,0,588,134],
-"df/dc8/class_translator_indonesian.html#aeccf407583487a91e90781f7009ddb81":[8,0,588,36],
 "df/dc8/class_translator_indonesian.html#aed150873d2ebf9ff9c81a7194ed87c4b":[8,0,588,28],
 "df/dc8/class_translator_indonesian.html#aefb6a631ffcb9092d6006e2c87f75595":[8,0,588,109],
 "df/dc8/class_translator_indonesian.html#af16e6b3c8f9597ae61965c14f4562ab5":[8,0,588,186],
@@ -115,12 +111,12 @@ var NAVTREEINDEX127 =
 "df/dc9/docparser__p_8h_source.html":[9,0,2,70],
 "df/dcd/classreg_1_1_ex_1_1_private.html":[7,0,6,0,0],
 "df/dcd/classreg_1_1_ex_1_1_private.html":[8,0,3,0,0],
-"df/dcd/classreg_1_1_ex_1_1_private.html#a26bba20b316615c53a77eb522602df8a":[8,0,3,0,0,2],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a26bba20b316615c53a77eb522602df8a":[7,0,6,0,0,2],
+"df/dcd/classreg_1_1_ex_1_1_private.html#a26bba20b316615c53a77eb522602df8a":[8,0,3,0,0,2],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a3d43ef3d3304bc786d75340eac860780":[7,0,6,0,0,4],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a3d43ef3d3304bc786d75340eac860780":[8,0,3,0,0,4],
-"df/dcd/classreg_1_1_ex_1_1_private.html#a51e12007f0f7866ad4117c489e90cb8e":[7,0,6,0,0,0],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a51e12007f0f7866ad4117c489e90cb8e":[8,0,3,0,0,0],
+"df/dcd/classreg_1_1_ex_1_1_private.html#a51e12007f0f7866ad4117c489e90cb8e":[7,0,6,0,0,0],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a5ae763e5ab5231eae1133e68093c49be":[8,0,3,0,0,1],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a5ae763e5ab5231eae1133e68093c49be":[7,0,6,0,0,1],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a68af93bd4fbea3f82ee8e36af3a6e68b":[7,0,6,0,0,5],
@@ -249,5 +245,9 @@ var NAVTREEINDEX127 =
 "dir_534aeb5b2351b2c83787cc7391511c04.html":[9,0,3],
 "dir_68267d1309a1af8e8297ef4c3efbcdba.html":[9,0,2],
 "dir_cdb905975493562559a4bb0e58a51c37.html":[9,0,0],
-"files.html":[9,0]
+"files.html":[9,0],
+"functions.html":[8,3,0,0],
+"functions.html":[8,3,0],
+"functions_a.html":[8,3,0,1],
+"functions_b.html":[8,3,0,2]
 };

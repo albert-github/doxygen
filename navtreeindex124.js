@@ -1,9 +1,5 @@
 var NAVTREEINDEX124 =
 {
-"df/d6f/class_doc_html_desc_list.html#a35c8a198013a0b044003681efb14b1dd":[8,0,138,0],
-"df/d6f/class_doc_html_desc_list.html#a61e9f129da095600d9eb7c382cf15d01":[8,0,138,1],
-"df/d6f/class_doc_html_desc_list.html#a790243e50653158983e46f9411a2e719":[8,0,138,2],
-"df/d6f/class_doc_html_desc_list.html#a90c6f910b86ea3112b063a862c4000ac":[8,0,138,3],
 "df/d75/class_translator_greek.html":[8,0,585],
 "df/d75/class_translator_greek.html#a0039b1fa1d0facc1548b63de5df2b3cb":[8,0,585,130],
 "df/d75/class_translator_greek.html#a01064bad2a5ebc39a3efb3de5d92eba3":[8,0,585,234],
@@ -54,6 +50,7 @@ var NAVTREEINDEX124 =
 "df/d75/class_translator_greek.html#a32b03703244deaf8a9221b5428f41f57":[8,0,585,289],
 "df/d75/class_translator_greek.html#a34c20fb3ca506b053c375cd1a0a1feaa":[8,0,585,240],
 "df/d75/class_translator_greek.html#a34c6e328bee4609499cee30283429262":[8,0,585,148],
+"df/d75/class_translator_greek.html#a3570152536e37ff51b9c660f72c27d4f":[8,0,585,57],
 "df/d75/class_translator_greek.html#a35793c4db975c8ab1e24233528307a16":[8,0,585,181],
 "df/d75/class_translator_greek.html#a35c1deba9bd237da80d6483544046c77":[8,0,585,276],
 "df/d75/class_translator_greek.html#a36e32ed6f3a383fbc5f0fce7c6c9071c":[8,0,585,11],
@@ -249,5 +246,8 @@ var NAVTREEINDEX124 =
 "df/d75/class_translator_greek.html#add0bebecd3eb4223e44eb3ebbba3afc1":[8,0,585,93],
 "df/d75/class_translator_greek.html#adea0a6c4015e361c88a53571ebab69ef":[8,0,585,79],
 "df/d75/class_translator_greek.html#ae0f69a50729e3b890705382639a5fddf":[8,0,585,218],
-"df/d75/class_translator_greek.html#ae1333c6af679d9ec5bae803e5d425ba7":[8,0,585,186]
+"df/d75/class_translator_greek.html#ae1333c6af679d9ec5bae803e5d425ba7":[8,0,585,186],
+"df/d75/class_translator_greek.html#ae19caecf6a7f3a879e28717f28a27644":[8,0,585,268],
+"df/d75/class_translator_greek.html#ae1a0fb5c055cd22bd4560c0d5949f1e7":[8,0,585,45],
+"df/d75/class_translator_greek.html#ae229dd5cc8b9c00e336402ce02da95ae":[8,0,585,233]
 };

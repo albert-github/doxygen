@@ -39,7 +39,7 @@ var class_translator_latvian =
     [ "trCopyright", "d8/d83/class_translator_latvian.html#a9f2850846c016bf33121ecf1c07976f2", null ],
     [ "trDataTypes", "d8/d83/class_translator_latvian.html#aa9b9f0017d09cd059c0b7ee6f66379eb", null ],
     [ "trDate", "d8/d83/class_translator_latvian.html#a0c27033fbc29758948d56b104370738f", null ],
-    [ "trDateTime", "d8/d83/class_translator_latvian.html#ad6b0837df1bc0c9e8025f39f1924a950", null ],
+    [ "trDateTime", "d8/d83/class_translator_latvian.html#a0fdc35505e7beca6f241f31ed3a21f59", null ],
     [ "trDayOfWeek", "d8/d83/class_translator_latvian.html#a13231758903eaa2f1713b2e22395dac7", null ],
     [ "trDayPeriod", "d8/d83/class_translator_latvian.html#a1fdf47adfe54ad96268832f4a622daff", null ],
     [ "trDefinedAtLineInSourceFile", "d8/d83/class_translator_latvian.html#aaff881aa0f87a8ea51a250b41928e291", null ],

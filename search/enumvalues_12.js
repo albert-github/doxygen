@@ -13,7 +13,7 @@ var searchData=
   ['text_5fno_10',['TEXT_NO',['../db/d1e/class_flow_chart.html#acd787d5c3faa541b938e0d58c800572ca568c64d6bc279ed6097e26de53523adc',1,'FlowChart']]],
   ['tfile_11',['tfile',['../d1/d5f/class_dot_group_collaboration.html#ab83aa11b8617398a50923c04c2541624a7fa22c95ee2968afb94c0a0ea5699509',1,'DotGroupCollaboration']]],
   ['thierarchy_12',['thierarchy',['../d1/d5f/class_dot_group_collaboration.html#ab83aa11b8617398a50923c04c2541624a6e085e15ff653f37b1923a3c3053d11b',1,'DotGroupCollaboration']]],
-  ['time_13',['Time',['../da/d7d/class_debug.html#a9e0b892a8030a4f64076850777991c96a9cbd5d3516ffd3fe86238779edb2f7c5',1,'Debug::Time()'],['../de/d1b/datetime_8h.html#a20573bf423b169aa9100035b297c28feaa76d4ef5f3f6a672bbfab2865563e530',1,'Time():&#160;datetime.h']]],
+  ['time_13',['Time',['../da/d7d/class_debug.html#a9e0b892a8030a4f64076850777991c96a9cbd5d3516ffd3fe86238779edb2f7c5',1,'Debug']]],
   ['tk_5fcommand_5fat_14',['TK_COMMAND_AT',['../d0/d0c/doctokenizer_8h.html#a7722396ed46bc111e7b794948986f8afa801f0729813c70a463eea12b8b179eb1',1,'doctokenizer.h']]],
   ['tk_5fcommand_5fbs_15',['TK_COMMAND_BS',['../d0/d0c/doctokenizer_8h.html#a7722396ed46bc111e7b794948986f8afa5496d14215d41bfaf6ae12b33eb7130d',1,'doctokenizer.h']]],
   ['tk_5fendlist_16',['TK_ENDLIST',['../d0/d0c/doctokenizer_8h.html#a7722396ed46bc111e7b794948986f8afab4ae7909ee0da54e774a68ab5df0872b',1,'doctokenizer.h']]],

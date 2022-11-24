@@ -54,7 +54,7 @@ var class_translator_english =
     [ "trDataMembers", "d6/d78/class_translator_english.html#a01658073fa6d3c7bed2daa363e8a0244", null ],
     [ "trDataTypes", "d6/d78/class_translator_english.html#ae6d9c4b0dd11152c36a9ff308e143fa7", null ],
     [ "trDate", "d6/d78/class_translator_english.html#a65c9f77c5df0db100360e51200ae5e66", null ],
-    [ "trDateTime", "d6/d78/class_translator_english.html#ad0a6275052626da15e03aa0b3c30ae2d", null ],
+    [ "trDateTime", "d6/d78/class_translator_english.html#a9241f5cd893d168d49a6152389af4644", null ],
     [ "trDayOfWeek", "d6/d78/class_translator_english.html#a67947a8f827b9558720446af31592b7d", null ],
     [ "trDayPeriod", "d6/d78/class_translator_english.html#a26b26d59f53ac4bf333d838c9b107e33", null ],
     [ "trDefinedAtLineInSourceFile", "d6/d78/class_translator_english.html#ab844a4458febda9e3eb415fe9554072b", null ],

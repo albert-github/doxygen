@@ -44,7 +44,7 @@ var class_translator_chinesetraditional =
     [ "trCopyright", "dd/df6/class_translator_chinesetraditional.html#a29d2d31637c35174fd2aea7997837d9f", null ],
     [ "trDataTypes", "dd/df6/class_translator_chinesetraditional.html#a9b06a74c7f0ac92241fa1ab21ea9115e", null ],
     [ "trDate", "dd/df6/class_translator_chinesetraditional.html#ab03266211496908f24b94b4b3143ddb9", null ],
-    [ "trDateTime", "dd/df6/class_translator_chinesetraditional.html#a26194167095172384e8ef082f0528466", null ],
+    [ "trDateTime", "dd/df6/class_translator_chinesetraditional.html#a8c32275e7278645b252fdf1a54dd4875", null ],
     [ "trDayOfWeek", "dd/df6/class_translator_chinesetraditional.html#adc31ffb63bf12d199e795dc4c3edecec", null ],
     [ "trDayPeriod", "dd/df6/class_translator_chinesetraditional.html#a6f5988c7cc9571af7ab0c6bea86db625", null ],
     [ "trDefinedAtLineInSourceFile", "dd/df6/class_translator_chinesetraditional.html#a9170f2a51e8d11640cea5c9be5d5cd2c", null ],

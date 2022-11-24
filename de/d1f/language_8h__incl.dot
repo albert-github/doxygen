@@ -85,10 +85,5 @@ digraph "/home/runner/work/doxygen/doxygen/src/language.h"
   Node28 [label="config.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d16/config_8h.html",tooltip=" "];
   Node28 -> Node29 [color="steelblue1",style="solid"];
   Node29 [label="configvalues.h",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
-  Node2 -> Node30 [color="steelblue1",style="solid"];
-  Node30 [label="datetime.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d1b/datetime_8h.html",tooltip=" "];
-  Node30 -> Node31 [color="steelblue1",style="solid"];
-  Node31 [label="ctime",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
-  Node30 -> Node14 [color="steelblue1",style="solid"];
   Node1 -> Node29 [color="steelblue1",style="solid"];
 }

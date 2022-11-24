@@ -54,7 +54,7 @@ var class_translator_portuguese =
     [ "trDataMembers", "dc/df2/class_translator_portuguese.html#ae49f6c383b707fcf26cfa99d787da7e1", null ],
     [ "trDataTypes", "dc/df2/class_translator_portuguese.html#ae093d4bfe038bacb3f4c0313196db34f", null ],
     [ "trDate", "dc/df2/class_translator_portuguese.html#a8cf39fc583129912800db26379efe8b5", null ],
-    [ "trDateTime", "dc/df2/class_translator_portuguese.html#a0764c02b5b4b4b61869798c11ae7fc8c", null ],
+    [ "trDateTime", "dc/df2/class_translator_portuguese.html#a361ab969f387e33f0204d8398571d2b3", null ],
     [ "trDayOfWeek", "dc/df2/class_translator_portuguese.html#a46c70413432acd03e300ec8818fc335e", null ],
     [ "trDayPeriod", "dc/df2/class_translator_portuguese.html#a1590a713ee46a5a785ba31c08b319799", null ],
     [ "trDefinedAtLineInSourceFile", "dc/df2/class_translator_portuguese.html#ac221da9032740897823818dc88a3a820", null ],

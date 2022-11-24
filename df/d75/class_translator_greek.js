@@ -57,7 +57,7 @@ var class_translator_greek =
     [ "trDataMembers", "df/d75/class_translator_greek.html#aaab4cb6e0b7b1583e58dc010569eb3e3", null ],
     [ "trDataTypes", "df/d75/class_translator_greek.html#a449e141ff0362337ca545fd1aa3f27f0", null ],
     [ "trDate", "df/d75/class_translator_greek.html#a66b91d2c8c37e0d31c33e4e66788e0a7", null ],
-    [ "trDateTime", "df/d75/class_translator_greek.html#afe443465281e8106eff05b63f4a64cff", null ],
+    [ "trDateTime", "df/d75/class_translator_greek.html#a3570152536e37ff51b9c660f72c27d4f", null ],
     [ "trDayOfWeek", "df/d75/class_translator_greek.html#a5bb88660a1370874e7e4dbbd50653821", null ],
     [ "trDayPeriod", "df/d75/class_translator_greek.html#a542cdab31b6fc8090801deedfa82c17a", null ],
     [ "trDefinedAtLineInSourceFile", "df/d75/class_translator_greek.html#a3f6d419d244f211a2eda0bab80adbd9c", null ],

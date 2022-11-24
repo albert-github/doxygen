@@ -39,7 +39,7 @@ var class_translator_ukrainian =
     [ "trCopyright", "d1/d56/class_translator_ukrainian.html#ac4d1fb2ef4b346e0d8c210f214b35fe8", null ],
     [ "trDataTypes", "d1/d56/class_translator_ukrainian.html#a1a0c0ccc6fae9ee0721944e4f53738c1", null ],
     [ "trDate", "d1/d56/class_translator_ukrainian.html#a8bae133f680a379eba7c2e6fd7901055", null ],
-    [ "trDateTime", "d1/d56/class_translator_ukrainian.html#a93919fdef249f683f668344b8dfd6fc7", null ],
+    [ "trDateTime", "d1/d56/class_translator_ukrainian.html#ac2d3cc1b86b956c0e90f6f22216f046e", null ],
     [ "trDayOfWeek", "d1/d56/class_translator_ukrainian.html#a1a08c26a641379ad2aab4b83d4814022", null ],
     [ "trDayPeriod", "d1/d56/class_translator_ukrainian.html#a3a0bd8f1acdbed69f62d02c285cafe28", null ],
     [ "trDefinedAtLineInSourceFile", "d1/d56/class_translator_ukrainian.html#adc3d25d9bbf866fe338e84b0fc224ef8", null ],

@@ -41,7 +41,7 @@ var class_translator_russian =
     [ "trCopyright", "d0/dab/class_translator_russian.html#a56054f5e588c5ebd8b86644580dceb64", null ],
     [ "trDataTypes", "d0/dab/class_translator_russian.html#ad832f9bf77d2850739472dd0631e364a", null ],
     [ "trDate", "d0/dab/class_translator_russian.html#a9cd10d61ec8029873f5f5b920830d206", null ],
-    [ "trDateTime", "d0/dab/class_translator_russian.html#af65b89eb33b0d199e63365c8d1da1c28", null ],
+    [ "trDateTime", "d0/dab/class_translator_russian.html#a7d56c21f1f862928a715b3f45511909e", null ],
     [ "trDayOfWeek", "d0/dab/class_translator_russian.html#a24a95bede9a79dda8dfbe0c12b0d8fdc", null ],
     [ "trDayPeriod", "d0/dab/class_translator_russian.html#a1a41a802ef5c2df697956b11a8b0eb66", null ],
     [ "trDefinedAtLineInSourceFile", "d0/dab/class_translator_russian.html#a613a0954855386c2716fad1ba1099d47", null ],
