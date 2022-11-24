@@ -39,7 +39,7 @@ var class_translator_esperanto =
     [ "trCopyright", "d2/d07/class_translator_esperanto.html#a624058f0eadff71121dfe7792878c736", null ],
     [ "trDataTypes", "d2/d07/class_translator_esperanto.html#a8586ba9bf80b0952286207eedde6b28a", null ],
     [ "trDate", "d2/d07/class_translator_esperanto.html#aa6300cccf6a558dd119b7101c2d67dc0", null ],
-    [ "trDateTime", "d2/d07/class_translator_esperanto.html#ae5b7d474f4957605a820853cc5c9b93f", null ],
+    [ "trDateTime", "d2/d07/class_translator_esperanto.html#a3cb5feb17555a62ff0406c802c0980b2", null ],
     [ "trDayOfWeek", "d2/d07/class_translator_esperanto.html#a614961a2f30fcf41342053af62b17a9b", null ],
     [ "trDayPeriod", "d2/d07/class_translator_esperanto.html#a416d91f317355f53c90f6dbd7b901103", null ],
     [ "trDefinedAtLineInSourceFile", "d2/d07/class_translator_esperanto.html#af349c158fccca7ea78141260222679e9", null ],

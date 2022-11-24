@@ -36,7 +36,7 @@ var class_translator_catalan =
     [ "trCopyright", "d9/dc1/class_translator_catalan.html#a792d3d011ea78e8bcf0fd9729ef5ea58", null ],
     [ "trDataTypes", "d9/dc1/class_translator_catalan.html#abacf0f23e9fb3e453d612ee1c52a1fba", null ],
     [ "trDate", "d9/dc1/class_translator_catalan.html#af0e2d79681112825fd837b2144001b88", null ],
-    [ "trDateTime", "d9/dc1/class_translator_catalan.html#af79c64f486cb2a02a213b33e63a2cc66", null ],
+    [ "trDateTime", "d9/dc1/class_translator_catalan.html#aed11193d97c8f0db96ca4b7e02381c20", null ],
     [ "trDayOfWeek", "d9/dc1/class_translator_catalan.html#aefb70c67e4e47c5dccaad5328164f959", null ],
     [ "trDayPeriod", "d9/dc1/class_translator_catalan.html#a6765d8c7d13bdd6c052d6e903a7d2ae9", null ],
     [ "trDefinedAtLineInSourceFile", "d9/dc1/class_translator_catalan.html#a1acc9006ca7044f5a0e5fce80885885d", null ],

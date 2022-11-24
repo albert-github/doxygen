@@ -139,9 +139,9 @@ Functions</h2></td></tr>
 <tr class="memitem:aad46a931d39d3d99fc5d2ad2ecd5e0bf"><td class="memItemLeft" align="right" valign="top">std::tm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d14/datetime_8cpp.html#aad46a931d39d3d99fc5d2ad2ecd5e0bf">getCurrentDateTime</a> ()</td></tr>
 <tr class="memdesc:aad46a931d39d3d99fc5d2ad2ecd5e0bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the filled in std::tm for the current date and time.  <br /></td></tr>
 <tr class="separator:aad46a931d39d3d99fc5d2ad2ecd5e0bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab756d2158c17cfe62c5c51a7cf09d4a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d14/datetime_8cpp.html#ab756d2158c17cfe62c5c51a7cf09d4a5">dateToString</a> (bool includeTime)</td></tr>
-<tr class="memdesc:ab756d2158c17cfe62c5c51a7cf09d4a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current date, when <code>includeTime</code> is set also the time is provided.  <br /></td></tr>
-<tr class="separator:ab756d2158c17cfe62c5c51a7cf09d4a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28a0c3252d0f0f28c0611cbc3268b003"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d14/datetime_8cpp.html#a28a0c3252d0f0f28c0611cbc3268b003">dateToString</a> (<a class="el" href="../../de/d1b/datetime_8h.html#a20573bf423b169aa9100035b297c28fe">DateTimeType</a> includeTime)</td></tr>
+<tr class="memdesc:a28a0c3252d0f0f28c0611cbc3268b003"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current date, when <code>includeTime</code> is set also the time is provided.  <br /></td></tr>
+<tr class="separator:a28a0c3252d0f0f28c0611cbc3268b003"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76a75ed644eb3f75d36151f9d82f862f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d14/datetime_8cpp.html#a76a75ed644eb3f75d36151f9d82f862f">yearToString</a> ()</td></tr>
 <tr class="memdesc:a76a75ed644eb3f75d36151f9d82f862f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current year as a string.  <br /></td></tr>
 <tr class="separator:a76a75ed644eb3f75d36151f9d82f862f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -295,8 +295,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ab756d2158c17cfe62c5c51a7cf09d4a5" name="ab756d2158c17cfe62c5c51a7cf09d4a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab756d2158c17cfe62c5c51a7cf09d4a5">&#9670;&#160;</a></span>dateToString()</h2>
+<a id="a28a0c3252d0f0f28c0611cbc3268b003" name="a28a0c3252d0f0f28c0611cbc3268b003"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28a0c3252d0f0f28c0611cbc3268b003">&#9670;&#160;</a></span>dateToString()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -304,7 +304,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> dateToString </td>
           <td>(</td>
-          <td class="paramtype">bool&#160;</td>
+          <td class="paramtype"><a class="el" href="../../de/d1b/datetime_8h.html#a20573bf423b169aa9100035b297c28fe">DateTimeType</a>&#160;</td>
           <td class="paramname"><em>includeTime</em></td><td>)</td>
           <td></td>
         </tr>
@@ -322,7 +322,7 @@ Variables</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d7/d14/datetime_8cpp_source.html#l00063">63</a> of file <a class="el" href="../../d7/d14/datetime_8cpp_source.html">datetime.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   64</span>{</div>
 <div class="line"><span class="lineno">   65</span>  <span class="keyword">auto</span> current = <a class="code hl_function" href="../../d7/d14/datetime_8cpp.html#aad46a931d39d3d99fc5d2ad2ecd5e0bf">getCurrentDateTime</a>();</div>
-<div class="line"><span class="lineno">   66</span>  <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d48/language_8cpp.html#a07b18e39f7c5156cd370829e7e6f8534">theTranslator</a>-&gt;<a class="code hl_function" href="../../d8/dfb/class_translator.html#aa96be72c23a1d2139b068552e3a539c4">trDateTime</a>(current.tm_year + 1900,</div>
+<div class="line"><span class="lineno">   66</span>  <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d48/language_8cpp.html#a07b18e39f7c5156cd370829e7e6f8534">theTranslator</a>-&gt;<a class="code hl_function" href="../../d8/dfb/class_translator.html#ad25f9a2346ce7f7ef9ddc3a03ffed824">trDateTime</a>(current.tm_year + 1900,</div>
 <div class="line"><span class="lineno">   67</span>                                   current.tm_mon + 1,</div>
 <div class="line"><span class="lineno">   68</span>                                   current.tm_mday,</div>
 <div class="line"><span class="lineno">   69</span>                                   (current.tm_wday+6)%7+1, <span class="comment">// map: Sun=0..Sat=6 to Mon=1..Sun=7</span></div>
@@ -331,10 +331,10 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno">   72</span>                                   current.tm_sec,</div>
 <div class="line"><span class="lineno">   73</span>                                   includeTime);</div>
 <div class="line"><span class="lineno">   74</span>}</div>
-<div class="ttc" id="aclass_translator_html_aa96be72c23a1d2139b068552e3a539c4"><div class="ttname"><a href="../../d8/dfb/class_translator.html#aa96be72c23a1d2139b068552e3a539c4">Translator::trDateTime</a></div><div class="ttdeci">virtual QCString trDateTime(int year, int month, int day, int dayOfWeek, int hour, int minutes, int seconds, bool includeTime)=0</div></div>
+<div class="ttc" id="aclass_translator_html_ad25f9a2346ce7f7ef9ddc3a03ffed824"><div class="ttname"><a href="../../d8/dfb/class_translator.html#ad25f9a2346ce7f7ef9ddc3a03ffed824">Translator::trDateTime</a></div><div class="ttdeci">virtual QCString trDateTime(int year, int month, int day, int dayOfWeek, int hour, int minutes, int seconds, DateTimeType includeTime)=0</div></div>
 <div class="ttc" id="alanguage_8cpp_html_a07b18e39f7c5156cd370829e7e6f8534"><div class="ttname"><a href="../../d2/d48/language_8cpp.html#a07b18e39f7c5156cd370829e7e6f8534">theTranslator</a></div><div class="ttdeci">Translator * theTranslator</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d48/language_8cpp_source.html#l00070">language.cpp:70</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d14/datetime_8cpp_source.html#l00030">getCurrentDateTime()</a>, <a class="el" href="../../d2/d48/language_8cpp_source.html#l00070">theTranslator</a>, and <a class="el" href="../../d8/dfb/class_translator.html#aa96be72c23a1d2139b068552e3a539c4">Translator::trDateTime()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d14/datetime_8cpp_source.html#l00030">getCurrentDateTime()</a>, <a class="el" href="../../d2/d48/language_8cpp_source.html#l00070">theTranslator</a>, and <a class="el" href="../../d8/dfb/class_translator.html#ad25f9a2346ce7f7ef9ddc3a03ffed824">Translator::trDateTime()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l00345">DoxygenContext::Private::date()</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00760">RTFGenerator::endIndexSection()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00256">ManGenerator::endTitleHead()</a>, <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l00317">substituteHtmlKeywords()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l03408">substituteKeywords()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00641">substituteLatexKeywords()</a>, and <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l01399">HtmlGenerator::writeLogoAsString()</a>.</p>
 
