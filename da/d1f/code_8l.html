@@ -4810,7 +4810,7 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno"> 1150</span>                                          yyextra-&gt;name+=yytext+7;</div>
 <div class="line"><span class="lineno"> 1151</span>                                        }</div>
 <div class="ttc" id="acode_8l_html_ad11d1adee26a9b43930b06dc8442c1a6"><div class="ttname"><a href="../../da/d1f/code_8l.html#ad11d1adee26a9b43930b06dc8442c1a6">generatePHPVariableLink</a></div><div class="ttdeci">static void generatePHPVariableLink(yyscan_t yyscanner, CodeOutputInterface &amp;ol, const char *varName)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d1f/code_8l_source.html#l03281">code.l:3281</a></div></div>
-<div class="line"><span class="lineno"> 1152</span>&lt;Body,TemplCast&gt;{SCOPENAME}{B}*&quot;&lt;&quot;[^\n\/\-\.\{\&quot;&gt;\&zwj;(]*&quot;&gt;&quot;{ENDIDopt}/{B}* { // A&lt;T&gt; *pt;</div>
+<div class="line"><span class="lineno"> 1152</span>&lt;Body,TemplCast&gt;{SCOPENAME}{B}*&quot;&lt;&quot;[^\n\/\-\.\{\&quot;&gt;\&zwj;(&#39;]*&quot;&gt;&quot;{ENDIDopt}/{B}* { // A&lt;T&gt; *pt;</div>
 <div class="line"><span class="lineno"> 1153</span>                                          <span class="keywordflow">if</span> (<a class="code hl_function" href="../../da/d1f/code_8l.html#a01336ef49f88d4dd7f574c3db13ad774">isCastKeyword</a>(yytext) &amp;&amp; YY_START==Body)</div>
 <div class="line"><span class="lineno"> 1154</span>                                          {</div>
 <div class="line"><span class="lineno"> 1155</span>                                            REJECT;</div>
@@ -5235,7 +5235,7 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno"> 1563</span>                                          yyextra-&gt;code-&gt;codify(yytext);</div>
 <div class="line"><span class="lineno"> 1564</span>                                          <a class="code hl_function" href="../../da/d1f/code_8l.html#af7af0722d394ed17bb2a672320b85c7c">endFontClass</a>(yyscanner);</div>
 <div class="line"><span class="lineno"> 1565</span>                                        }</div>
-<div class="line"><span class="lineno"> 1566</span>&lt;MemberCall2,FuncCall&gt;(&quot;::&quot;)?{ID}(({B}*&quot;&lt;&quot;[^\n\[\](){}&lt;&gt;]*&quot;&gt;&quot;)?({B}*&quot;::&quot;{B}*{ID})?)* {</div>
+<div class="line"><span class="lineno"> 1566</span>&lt;MemberCall2,FuncCall&gt;(&quot;::&quot;)?{ID}(({B}*&quot;&lt;&quot;[^\n\[\](){}&lt;&gt;&#39;]*&quot;&gt;&quot;)?({B}*&quot;::&quot;{B}*{ID})?)* {</div>
 <div class="line"><span class="lineno"> 1567</span>                                          <span class="keywordflow">if</span> (<a class="code hl_function" href="../../da/d1f/code_8l.html#a01336ef49f88d4dd7f574c3db13ad774">isCastKeyword</a>(yytext))</div>
 <div class="line"><span class="lineno"> 1568</span>                                          {</div>
 <div class="line"><span class="lineno"> 1569</span>                                            REJECT;</div>
