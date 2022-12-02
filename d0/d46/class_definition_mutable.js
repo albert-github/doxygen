@@ -18,7 +18,7 @@ var class_definition_mutable =
     [ "setBodySegment", "d0/d46/class_definition_mutable.html#a21f0601d0ac0f9d245c7a40e28adc3c6", null ],
     [ "setBriefDescription", "d0/d46/class_definition_mutable.html#ae704468ccbae4cbc26922db573676feb", null ],
     [ "setDefFile", "d0/d46/class_definition_mutable.html#a565023cddb3c34a61cc82683cddb9533", null ],
-    [ "setDocumentation", "d0/d46/class_definition_mutable.html#a5115744bf4595f9a08a193dd41d4f4c3", null ],
+    [ "setDocumentation", "d0/d46/class_definition_mutable.html#a124edd086fea18c2c514bc4d3511e475", null ],
     [ "setHidden", "d0/d46/class_definition_mutable.html#a2aeddc8e815902e89321704b079a7e9a", null ],
     [ "setId", "d0/d46/class_definition_mutable.html#ac56880b010eb61a4abad5169d9883812", null ],
     [ "setInbodyDocumentation", "d0/d46/class_definition_mutable.html#a8a4d82f0315802612dcd9732369eaa8a", null ],

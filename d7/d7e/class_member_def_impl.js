@@ -235,7 +235,7 @@ var class_member_def_impl =
     [ "setDefinition", "d7/d7e/class_member_def_impl.html#a9bf4696bbd62a4f0f4f74bc08c4ff8ea", null ],
     [ "setDefinitionTemplateParameterLists", "d7/d7e/class_member_def_impl.html#aa71994c5fec410136ef947df1d7ec7e2", null ],
     [ "setDocsForDefinition", "d7/d7e/class_member_def_impl.html#a6c205a46cec1c24d96510f4636f55261", null ],
-    [ "setDocumentation", "d7/d7e/class_member_def_impl.html#ab1ecbf76d89e6d9bb882056d6327b259", null ],
+    [ "setDocumentation", "d7/d7e/class_member_def_impl.html#a1fc792044e4de090ea4c9942b95bd3d5", null ],
     [ "setDocumentedEnumValues", "d7/d7e/class_member_def_impl.html#a1f8576fc0635cf67a6fc1f589e3a25ca", null ],
     [ "setEnumBaseType", "d7/d7e/class_member_def_impl.html#adb878c4e0e212c3fe4a0f20dcff597c5", null ],
     [ "setEnumClassScope", "d7/d7e/class_member_def_impl.html#af40ca87ddadeca6b80d82dde50f7fbd1", null ],

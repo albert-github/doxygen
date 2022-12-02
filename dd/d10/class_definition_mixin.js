@@ -70,7 +70,7 @@ var class_definition_mixin =
     [ "setBodySegment", "dd/d10/class_definition_mixin.html#a7db6439d6660ad46893ba16dbb781249", null ],
     [ "setBriefDescription", "dd/d10/class_definition_mixin.html#ae7e97fa47aa3368149d8e0a9f492f2e3", null ],
     [ "setDefFile", "dd/d10/class_definition_mixin.html#a1c4493bef6a71e039a56d5ae28b3661b", null ],
-    [ "setDocumentation", "dd/d10/class_definition_mixin.html#ad2929ad41ccc89bafab94869362a0845", null ],
+    [ "setDocumentation", "dd/d10/class_definition_mixin.html#a5a5ad671eff77e7f961914d71d924a41", null ],
     [ "setHidden", "dd/d10/class_definition_mixin.html#ad0327e951d5ef56b13be5978273ab256", null ],
     [ "setId", "dd/d10/class_definition_mixin.html#a29ca310086b3652d8425a5829a81f4cd", null ],
     [ "setInbodyDocumentation", "dd/d10/class_definition_mixin.html#ae3bb6cbd3f79dd5e6b7c9763c2599322", null ],

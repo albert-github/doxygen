@@ -34,7 +34,7 @@ var class_member_def_mutable =
     [ "setDefinition", "dd/d4b/class_member_def_mutable.html#a2921b5e0d64f62bb9a827c37c26062ce", null ],
     [ "setDefinitionTemplateParameterLists", "dd/d4b/class_member_def_mutable.html#a44822573c0fd4b981525619c8151ab28", null ],
     [ "setDocsForDefinition", "dd/d4b/class_member_def_mutable.html#a8b1c18e7f7a27c2661cac096a24e2602", null ],
-    [ "setDocumentation", "dd/d4b/class_member_def_mutable.html#a1048d11a0914fa7412fc6bbaa1f593bf", null ],
+    [ "setDocumentation", "dd/d4b/class_member_def_mutable.html#a9a47d084fd73a11ae49cb8e03f5f354b", null ],
     [ "setDocumentedEnumValues", "dd/d4b/class_member_def_mutable.html#a23eeb3d1937c034c3f564a1957cd6fb2", null ],
     [ "setEnumBaseType", "dd/d4b/class_member_def_mutable.html#a4c948facdd978560d5000fe75b82407a", null ],
     [ "setEnumClassScope", "dd/d4b/class_member_def_mutable.html#a39ddea5bf148359b0d547199e4b01889", null ],
