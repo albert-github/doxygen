@@ -87,7 +87,7 @@ var searchData=
   ['docblockname_84',['docBlockName',['../d1/d06/structlexcode_y_y__state.html#a0192c6a74788519fee68274580821552',1,'lexcodeYY_state::docBlockName()'],['../d4/dfb/structscanner_y_y__state.html#a6ea5d1058138930a88fcf8c74e334a9d',1,'scannerYY_state::docBlockName()'],['../d9/d1c/structlexscanner_y_y__state.html#af0ae04f75e13e8232f1c1d9b97ea0de1',1,'lexscannerYY_state::docBlockName()']]],
   ['docblockspecial_85',['docBlockSpecial',['../d9/dcc/structpyscanner_y_y__state.html#a085d0d3dc086bb335d8be8fe478f70f9',1,'pyscannerYY_state']]],
   ['docblockterm_86',['docBlockTerm',['../d4/dfb/structscanner_y_y__state.html#ad48e11225cfd428a629ba752680db657',1,'scannerYY_state']]],
-  ['docbook_87',['docbook',['../d2/d34/structhtml_entity_info.html#a2e771d33c92272005dde6ebd091248b3',1,'htmlEntityInfo']]],
+  ['docbook_87',['docbook',['../da/dd4/struct_html_entity_info.html#a48870074393d2a5351327a7b403d0ab0',1,'HtmlEntityInfo']]],
   ['docbrief_88',['docBrief',['../d9/dcc/structpyscanner_y_y__state.html#ab1f62cd32fccc7eb8c73ae203c97501c',1,'pyscannerYY_state']]],
   ['doccmdmap_89',['docCmdMap',['../d7/d5f/commentscan_8l.html#a0714597b7e72e3f10fb260622232ef8e',1,'commentscan.l']]],
   ['docentries_90',['docEntries',['../d2/da4/class_layout_doc_manager_1_1_private.html#a07734d08593532f577c17400e2c55cea',1,'LayoutDocManager::Private']]],

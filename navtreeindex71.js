@@ -1,15 +1,5 @@
 var NAVTREEINDEX71 =
 {
-"d9/ddf/class_translator_macedonian.html#a83a26d646912f8c86ee302e9f36e9a8d":[8,0,596,149],
-"d9/ddf/class_translator_macedonian.html#a83c51b8cd07bd6832bbb63c15ae97e17":[8,0,596,50],
-"d9/ddf/class_translator_macedonian.html#a8451fb7ca97ae705def302876e00a3b7":[8,0,596,148],
-"d9/ddf/class_translator_macedonian.html#a84acf9931156663853249d91924b1d64":[8,0,596,199],
-"d9/ddf/class_translator_macedonian.html#a84dc675a790c1757d12f9795efa995cf":[8,0,596,5],
-"d9/ddf/class_translator_macedonian.html#a88e7316dfbfc47baeecf82a657d68062":[8,0,596,124],
-"d9/ddf/class_translator_macedonian.html#a8968ab9f7e93b3abafc2187c8172149c":[8,0,596,84],
-"d9/ddf/class_translator_macedonian.html#a8c9440b42990c82bc12fce14ac46b03b":[8,0,596,101],
-"d9/ddf/class_translator_macedonian.html#a8d8e93cbfaddc123dc7cf37c5ba742c0":[8,0,596,76],
-"d9/ddf/class_translator_macedonian.html#a8ddb69c60f68ba801c7b1846e1241e26":[8,0,596,185],
 "d9/ddf/class_translator_macedonian.html#a8e98211615de4c839fabddafe8fbcbf9":[8,0,596,39],
 "d9/ddf/class_translator_macedonian.html#a92849623ecdc3821e8c5cdea1ecdb683":[8,0,596,9],
 "d9/ddf/class_translator_macedonian.html#a9344d108b0ce4e81003e2c574756da67":[8,0,596,77],
@@ -249,5 +239,15 @@ var NAVTREEINDEX71 =
 "da/d02/class_doc_parser.html#a367fe5ccd7e0378c2e5c94df6e60dd0d":[8,0,167,16],
 "da/d02/class_doc_parser.html#a3d46e03d176edeb9ec7044f80ffe3a81":[8,0,167,7],
 "da/d02/class_doc_parser.html#a3fce1509c4bb1494537fe53ea294fa8c":[8,0,167,2],
-"da/d02/class_doc_parser.html#a445ff0d9d658c1e21b2cb4c5bfea722f":[8,0,167,29]
+"da/d02/class_doc_parser.html#a445ff0d9d658c1e21b2cb4c5bfea722f":[8,0,167,29],
+"da/d02/class_doc_parser.html#a5340de5ad1c86c5c2d03b02e721b51e0":[8,0,167,26],
+"da/d02/class_doc_parser.html#a637fc4d565eaf2927ee9b88bbe23e3cb":[8,0,167,0],
+"da/d02/class_doc_parser.html#a7cbce284509ccf3109aa71472842ce4e":[8,0,167,13],
+"da/d02/class_doc_parser.html#a840e2bed602c941157871de1a8ff2819":[8,0,167,18],
+"da/d02/class_doc_parser.html#a873efb42d961fbec86ab86a12b9f2c42":[8,0,167,5],
+"da/d02/class_doc_parser.html#a92d044475f815e09877c88ce15399802":[8,0,167,20],
+"da/d02/class_doc_parser.html#a94f06b2f61c71069d46589a7cd4f7b6b":[8,0,167,17],
+"da/d02/class_doc_parser.html#a9ca6efdbb8e10b7908ad6906f26ff1bd":[8,0,167,3],
+"da/d02/class_doc_parser.html#aa05ab8dc59dfa50633146bdba08db5f0":[8,0,167,23],
+"da/d02/class_doc_parser.html#aa75d3dc0424c6b364222f7f357406e62":[8,0,167,8]
 };

@@ -98,7 +98,8 @@ $(document).ready(function(){initNavTree('d2/db2/htmlentity_8cpp.html','../../')
   <div class="headertitle"><div class="title">htmlentity.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../db/dc6/htmlentity_8h_source.html">htmlentity.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;vector&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../db/dc6/htmlentity_8h_source.html">htmlentity.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d2/d0d/message_8h_source.html">message.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -114,8 +115,8 @@ $(document).ready(function(){initNavTree('d2/db2/htmlentity_8cpp.html','../../')
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d34/structhtml_entity_info.html">htmlEntityInfo</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure defining all HTML4 entities, doxygen extensions and doxygen commands representing special symbols.  <a href="../../d2/d34/structhtml_entity_info.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dd4/struct_html_entity_info.html">HtmlEntityInfo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure defining all HTML4 entities, doxygen extensions and doxygen commands representing special symbols.  <a href="../../da/dd4/struct_html_entity_info.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
@@ -125,13 +126,11 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a038714c15d7d6e94422d60f6efd01a50"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/htmlentity_8cpp.html#a038714c15d7d6e94422d60f6efd01a50">g_numberHtmlMappedCmds</a> = 11</td></tr>
+<tr class="memitem:addeeaed9ec5e674f6ace6f0ba57b10d7"><td class="memItemLeft" align="right" valign="top">static const std::vector&lt; <a class="el" href="../../da/dd4/struct_html_entity_info.html">HtmlEntityInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/htmlentity_8cpp.html#addeeaed9ec5e674f6ace6f0ba57b10d7">g_htmlEntities</a></td></tr>
+<tr class="separator:addeeaed9ec5e674f6ace6f0ba57b10d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a038714c15d7d6e94422d60f6efd01a50"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/htmlentity_8cpp.html#a038714c15d7d6e94422d60f6efd01a50">g_numberHtmlMappedCmds</a> = 16</td></tr>
 <tr class="memdesc:a038714c15d7d6e94422d60f6efd01a50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of doxygen commands mapped as if it were HTML entities.  <br /></td></tr>
 <tr class="separator:a038714c15d7d6e94422d60f6efd01a50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a252df117b5247e83567be54adc11751e"><td class="memItemLeft" align="right" valign="top">static struct <a class="el" href="../../d2/d34/structhtml_entity_info.html">htmlEntityInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/htmlentity_8cpp.html#a252df117b5247e83567be54adc11751e">g_htmlEntities</a> []</td></tr>
-<tr class="separator:a252df117b5247e83567be54adc11751e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64d4ba5f5dbb1af5e62722d685a1cb8a"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/htmlentity_8cpp.html#a64d4ba5f5dbb1af5e62722d685a1cb8a">g_numHtmlEntities</a> = static_cast&lt;int&gt;(sizeof(<a class="el" href="../../d2/db2/htmlentity_8cpp.html#a252df117b5247e83567be54adc11751e">g_htmlEntities</a>)/ sizeof(*<a class="el" href="../../d2/db2/htmlentity_8cpp.html#a252df117b5247e83567be54adc11751e">g_htmlEntities</a>))</td></tr>
-<tr class="separator:a64d4ba5f5dbb1af5e62722d685a1cb8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="abf83726e81c80d306c467d65700ebe3d" name="abf83726e81c80d306c467d65700ebe3d"></a>
@@ -153,8 +152,8 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a252df117b5247e83567be54adc11751e" name="a252df117b5247e83567be54adc11751e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a252df117b5247e83567be54adc11751e">&#9670;&#160;</a></span>g_htmlEntities</h2>
+<a id="addeeaed9ec5e674f6ace6f0ba57b10d7" name="addeeaed9ec5e674f6ace6f0ba57b10d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addeeaed9ec5e674f6ace6f0ba57b10d7">&#9670;&#160;</a></span>g_htmlEntities</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -163,7 +162,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">struct <a class="el" href="../../d2/d34/structhtml_entity_info.html">htmlEntityInfo</a> g_htmlEntities[]</td>
+          <td class="memname">const std::vector&lt;<a class="el" href="../../da/dd4/struct_html_entity_info.html">HtmlEntityInfo</a>&gt; g_htmlEntities</td>
         </tr>
       </table>
   </td>
@@ -173,7 +172,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00415">HtmlEntityMapper::docbook()</a>, <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00386">HtmlEntityMapper::html()</a>, <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00326">HtmlEntityMapper::HtmlEntityMapper()</a>, <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00426">HtmlEntityMapper::latex()</a>, <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00437">HtmlEntityMapper::man()</a>, <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00460">HtmlEntityMapper::perl()</a>, <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00448">HtmlEntityMapper::rtf()</a>, <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00366">HtmlEntityMapper::utf8()</a>, <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00493">HtmlEntityMapper::validate()</a>, <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00477">HtmlEntityMapper::writeXMLSchema()</a>, and <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00404">HtmlEntityMapper::xml()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00040">40</a> of file <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html">htmlentity.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00404">HtmlEntityMapper::docbook()</a>, <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00375">HtmlEntityMapper::html()</a>, <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00327">HtmlEntityMapper::HtmlEntityMapper()</a>, <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00415">HtmlEntityMapper::latex()</a>, <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00426">HtmlEntityMapper::man()</a>, <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00449">HtmlEntityMapper::perl()</a>, <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00437">HtmlEntityMapper::rtf()</a>, <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00355">HtmlEntityMapper::utf8()</a>, <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00482">HtmlEntityMapper::validate()</a>, <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00466">HtmlEntityMapper::writeXMLSchema()</a>, and <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00393">HtmlEntityMapper::xml()</a>.</p>
 
 </div>
 </div>
@@ -187,7 +188,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const int g_numberHtmlMappedCmds = 11</td>
+          <td class="memname">const int g_numberHtmlMappedCmds = 16</td>
         </tr>
       </table>
   </td>
@@ -199,35 +200,9 @@ Variables</h2></td></tr>
 
 <p>Number of doxygen commands mapped as if it were HTML entities. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00021">21</a> of file <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html">htmlentity.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00324">324</a> of file <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html">htmlentity.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00477">HtmlEntityMapper::writeXMLSchema()</a>.</p>
-
-</div>
-</div>
-<a id="a64d4ba5f5dbb1af5e62722d685a1cb8a" name="a64d4ba5f5dbb1af5e62722d685a1cb8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64d4ba5f5dbb1af5e62722d685a1cb8a">&#9670;&#160;</a></span>g_numHtmlEntities</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const int g_numHtmlEntities = static_cast&lt;int&gt;(sizeof(<a class="el" href="../../d2/db2/htmlentity_8cpp.html#a252df117b5247e83567be54adc11751e">g_htmlEntities</a>)/ sizeof(*<a class="el" href="../../d2/db2/htmlentity_8cpp.html#a252df117b5247e83567be54adc11751e">g_htmlEntities</a>))</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00322">322</a> of file <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html">htmlentity.cpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00326">HtmlEntityMapper::HtmlEntityMapper()</a>, <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00493">HtmlEntityMapper::validate()</a>, and <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00477">HtmlEntityMapper::writeXMLSchema()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/db2/htmlentity_8cpp_source.html#l00466">HtmlEntityMapper::writeXMLSchema()</a>.</p>
 
 </div>
 </div>

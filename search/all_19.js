@@ -2,7 +2,7 @@ var searchData=
 [
   ['xfpos_0',['xfPos',['../d0/d78/class_diagram_item.html#ab10397c2aeb1007eff18ca2d715041c3',1,'DiagramItem']]],
   ['xml_1',['XML',['../df/d06/outputgen_8h.html#a4e0517338e6c4a31a2addafc06d4f3a3a3501bb093d363810b671059b9cfed3f8',1,'outputgen.h']]],
-  ['xml_2',['xml',['../db/d5f/class_html_entity_mapper.html#a6359802a6779aa5f0245357d974c3bd1',1,'HtmlEntityMapper::xml()'],['../d2/d34/structhtml_entity_info.html#a48bab0fee64fb833ae8dd9034a8a3e68',1,'htmlEntityInfo::xml()']]],
+  ['xml_2',['xml',['../db/d5f/class_html_entity_mapper.html#a6359802a6779aa5f0245357d974c3bd1',1,'HtmlEntityMapper::xml()'],['../da/dd4/struct_html_entity_info.html#a3e6dbec155dc9ddb912ed9f5b1be8dc3',1,'HtmlEntityInfo::xml()']]],
   ['xml_3',['Xml',['../da/d1d/class_local_toc.html#a665c661f92a4de013f9c54ad52a330eca0435bb97f551dc7353ddb940de458128',1,'LocalToc::Xml()'],['../db/dc8/class_doc_image.html#aaa49d1dad195745ff9d470c5335be93ead2e9647950376dfa87071aa9913b703f',1,'DocImage::Xml()']]],
   ['xml_2eh_4',['xml.h',['../d0/d62/xml_8h.html',1,'']]],
   ['xml_2el_5',['xml.l',['../dc/d30/xml_8l.html',1,'']]],

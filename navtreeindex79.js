@@ -1,15 +1,5 @@
 var NAVTREEINDEX79 =
 {
-"da/dbb/class_translator_bulgarian.html#a4a68b50d109e7f70b53add6ed93675a7":[8,0,572,149],
-"da/dbb/class_translator_bulgarian.html#a4bec03aec7ba80011c408d08a759c476":[8,0,572,274],
-"da/dbb/class_translator_bulgarian.html#a4e4d4693e4edc016c6ea45a15eb08dac":[8,0,572,41],
-"da/dbb/class_translator_bulgarian.html#a50870f1e9abb32febb4c8de4e4596ec3":[8,0,572,253],
-"da/dbb/class_translator_bulgarian.html#a51ed8cc443b042a58cdba3294a6dd0b0":[8,0,572,145],
-"da/dbb/class_translator_bulgarian.html#a52bd4b8f1b8e76f3bd6b3c5f2f07666d":[8,0,572,87],
-"da/dbb/class_translator_bulgarian.html#a52e719d1a8693c909518491666c605c8":[8,0,572,220],
-"da/dbb/class_translator_bulgarian.html#a53d023d3c27efc084b6de90bc434cbaa":[8,0,572,115],
-"da/dbb/class_translator_bulgarian.html#a564c4df8bd6f1a47f524a892a79b39cd":[8,0,572,116],
-"da/dbb/class_translator_bulgarian.html#a57cf76a6d26c7a14d0037c7849269e72":[8,0,572,26],
 "da/dbb/class_translator_bulgarian.html#a583adae4811c12a172c21504de7e4e7b":[8,0,572,91],
 "da/dbb/class_translator_bulgarian.html#a584e7a0b3878f7818560b26912f8a9ec":[8,0,572,229],
 "da/dbb/class_translator_bulgarian.html#a586f57a9a5ceef78c5db609b7f65afcb":[8,0,572,206],
@@ -249,5 +239,15 @@ var NAVTREEINDEX79 =
 "da/dbf/class_template_context_impl.html#aa1bd38aca1626f7e0f286931ef0f3406":[8,0,495,38],
 "da/dbf/class_template_context_impl.html#aa7a5421a3e04b6fdf07c4734b8dc8f46":[8,0,495,23],
 "da/dbf/class_template_context_impl.html#aa83dc9fe8b26f963febbfda99898d355":[8,0,495,6],
-"da/dbf/class_template_context_impl.html#aa95cf328b6caf850d094d38e39487fd8":[8,0,495,4]
+"da/dbf/class_template_context_impl.html#aa95cf328b6caf850d094d38e39487fd8":[8,0,495,4],
+"da/dbf/class_template_context_impl.html#aaf4534a93bb799f160385999259d3b7f":[8,0,495,25],
+"da/dbf/class_template_context_impl.html#ab204f9f7786114318c4c8dbf28d23d86":[8,0,495,27],
+"da/dbf/class_template_context_impl.html#ab27977185400431bd890056168b77977":[8,0,495,13],
+"da/dbf/class_template_context_impl.html#ab3769ef66cafaafacef2e14b19403123":[8,0,495,19],
+"da/dbf/class_template_context_impl.html#ab8ea2d7cb44d90ec727586f9bf92369e":[8,0,495,22],
+"da/dbf/class_template_context_impl.html#ab950c58d61dabeed0d250d04f46fbd5a":[8,0,495,50],
+"da/dbf/class_template_context_impl.html#aba8ebc4a96d6a1a52f0f16d00a658770":[8,0,495,14],
+"da/dbf/class_template_context_impl.html#abb948038d6280e3bd639c302f7ce2dde":[8,0,495,32],
+"da/dbf/class_template_context_impl.html#abbc758144c9e9485547d59e8b6911c9d":[8,0,495,18],
+"da/dbf/class_template_context_impl.html#ac2f762c868c7da964411a719821f08df":[8,0,495,11]
 };

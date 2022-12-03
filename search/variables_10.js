@@ -67,7 +67,7 @@ var searchData=
   ['pcopysharpstring_64',['pCopySharpString',['../d4/dfb/structscanner_y_y__state.html#ad9d688e170cedbd3b57d546bbbc57ca1',1,'scannerYY_state']]],
   ['pcopysquaregstring_65',['pCopySquareGString',['../d4/dfb/structscanner_y_y__state.html#a2cff7ea21126dd3f969afcd288c1017d',1,'scannerYY_state']]],
   ['pending_66',['pending',['../d9/d20/struct_v_h_d_l_doc_info.html#a9405958eda345c98b5fdfade85bc6487',1,'VHDLDocInfo']]],
-  ['perl_67',['perl',['../d2/d34/structhtml_entity_info.html#a5bce48f33d23f90c3f7907c8eaf928ff',1,'htmlEntityInfo']]],
+  ['perl_67',['perl',['../da/dd4/struct_html_entity_info.html#a5a5f3f4cedacad4b329a262deae07a56',1,'HtmlEntityInfo']]],
   ['plus_5ft_68',['PLUS_T',['../d5/df4/namespacevhdl_1_1parser.html#a577f52050058b86512cb55f0ad9e54c1',1,'vhdl::parser']]],
   ['pnend_69',['pNEnd',['../d8/d48/struct_dot_group_collaboration_1_1_edge.html#aaa1b8e53e4a95e63acde11b161331e11',1,'DotGroupCollaboration::Edge']]],
   ['pnstart_70',['pNStart',['../d8/d48/struct_dot_group_collaboration_1_1_edge.html#a05c8193b7ab3fa66b1cfe1c7bd87e1d2',1,'DotGroupCollaboration::Edge']]],

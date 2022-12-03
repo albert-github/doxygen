@@ -1,15 +1,5 @@
 var NAVTREEINDEX54 =
 {
-"d7/d6f/namespace_portable.html#a4c4c43977edb27e33f873fbacf11d528":[7,0,5,11],
-"d7/d6f/namespace_portable.html#a4dbb08c3de409bd1a73be3da6d93ac57":[7,0,5,6],
-"d7/d6f/namespace_portable.html#a508bfa22b32f24c3920ab65097fd9d59":[7,0,5,7],
-"d7/d6f/namespace_portable.html#a5944f5ca01ff6e756c447e11583b73a0":[7,0,5,16],
-"d7/d6f/namespace_portable.html#a6cde8cab8c3dc3397ea5c6030fbf6e84":[7,0,5,15],
-"d7/d6f/namespace_portable.html#a724f5508f1314342da28cc51b867431b":[7,0,5,18],
-"d7/d6f/namespace_portable.html#a7b0d9dbb919f445905c42fabb783c6f9":[7,0,5,2],
-"d7/d6f/namespace_portable.html#a7e7faa33c4307edc0f95a742bad3a736":[7,0,5,21],
-"d7/d6f/namespace_portable.html#a8c6ba49e769f2990693fa40528d3c50e":[7,0,5,5],
-"d7/d6f/namespace_portable.html#aa76fa3c0c598edac56b9fd5aa2aa1c30":[7,0,5,8],
 "d7/d6f/namespace_portable.html#ab30a636186b72a67d57e9f7f1e917e99":[7,0,5,23],
 "d7/d6f/namespace_portable.html#abd244447df22d110ad410b69c357fdf3":[7,0,5,19],
 "d7/d6f/namespace_portable.html#ac2e29048cffc72c3bed439cff5b02cd4":[7,0,5,27],
@@ -249,5 +239,15 @@ var NAVTREEINDEX54 =
 "d7/d7e/class_member_def_impl.html#a1139d1e64738002d9c68f12e353a2acf":[8,0,374,195],
 "d7/d7e/class_member_def_impl.html#a11cdbade7ad879dd279b1aa55e927ea1":[8,0,374,230],
 "d7/d7e/class_member_def_impl.html#a1202d50e58e04a340ea5d664d4149dc1":[8,0,374,121],
-"d7/d7e/class_member_def_impl.html#a12da53a0e63a1790026f7d40569c560f":[8,0,374,45]
+"d7/d7e/class_member_def_impl.html#a12da53a0e63a1790026f7d40569c560f":[8,0,374,45],
+"d7/d7e/class_member_def_impl.html#a12f04a6210caf6e83e9a408e21aea649":[8,0,374,288],
+"d7/d7e/class_member_def_impl.html#a13122251ba5dd598249195a5bb90c064":[8,0,374,278],
+"d7/d7e/class_member_def_impl.html#a136fb57aeb26ed88376528d30ca51ab3":[8,0,374,166],
+"d7/d7e/class_member_def_impl.html#a14ad024c93f59fd59888eba0b7c638ba":[8,0,374,251],
+"d7/d7e/class_member_def_impl.html#a169089f4142cddca115afd0d519c1a0c":[8,0,374,289],
+"d7/d7e/class_member_def_impl.html#a179abadb16025b191e5fa2345f3ee653":[8,0,374,172],
+"d7/d7e/class_member_def_impl.html#a18ba9477e306fc7855e439c794aa359d":[8,0,374,83],
+"d7/d7e/class_member_def_impl.html#a1943d02385b57a699cd57587cc68283c":[8,0,374,14],
+"d7/d7e/class_member_def_impl.html#a19dd69dc76bca693d4b59c18a12ce018":[8,0,374,70],
+"d7/d7e/class_member_def_impl.html#a1a517e5e1f5e6f236d748b4a605508e4":[8,0,374,22]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX127 =
 {
-"df/dc8/class_translator_indonesian.html#a7f1c7067df20ca5319e34f388c4a0487":[8,0,588,140],
 "df/dc8/class_translator_indonesian.html#a7f7c441b30c7836e3809812ebfea786d":[8,0,588,74],
 "df/dc8/class_translator_indonesian.html#a7fe8b62fd5171fc48bd92af2766a74ee":[8,0,588,184],
 "df/dc8/class_translator_indonesian.html#a803f950a37f6e33a1dbefc346591c50f":[8,0,588,192],
@@ -111,16 +110,16 @@ var NAVTREEINDEX127 =
 "df/dc9/docparser__p_8h_source.html":[9,0,2,70],
 "df/dcd/classreg_1_1_ex_1_1_private.html":[7,0,6,0,0],
 "df/dcd/classreg_1_1_ex_1_1_private.html":[8,0,3,0,0],
-"df/dcd/classreg_1_1_ex_1_1_private.html#a26bba20b316615c53a77eb522602df8a":[7,0,6,0,0,2],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a26bba20b316615c53a77eb522602df8a":[8,0,3,0,0,2],
+"df/dcd/classreg_1_1_ex_1_1_private.html#a26bba20b316615c53a77eb522602df8a":[7,0,6,0,0,2],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a3d43ef3d3304bc786d75340eac860780":[7,0,6,0,0,4],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a3d43ef3d3304bc786d75340eac860780":[8,0,3,0,0,4],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a51e12007f0f7866ad4117c489e90cb8e":[8,0,3,0,0,0],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a51e12007f0f7866ad4117c489e90cb8e":[7,0,6,0,0,0],
-"df/dcd/classreg_1_1_ex_1_1_private.html#a5ae763e5ab5231eae1133e68093c49be":[8,0,3,0,0,1],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a5ae763e5ab5231eae1133e68093c49be":[7,0,6,0,0,1],
-"df/dcd/classreg_1_1_ex_1_1_private.html#a68af93bd4fbea3f82ee8e36af3a6e68b":[7,0,6,0,0,5],
+"df/dcd/classreg_1_1_ex_1_1_private.html#a5ae763e5ab5231eae1133e68093c49be":[8,0,3,0,0,1],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a68af93bd4fbea3f82ee8e36af3a6e68b":[8,0,3,0,0,5],
+"df/dcd/classreg_1_1_ex_1_1_private.html#a68af93bd4fbea3f82ee8e36af3a6e68b":[7,0,6,0,0,5],
 "df/dcd/classreg_1_1_ex_1_1_private.html#afd98016e2bda56b81308bdc907569ead":[7,0,6,0,0,3],
 "df/dcd/classreg_1_1_ex_1_1_private.html#afd98016e2bda56b81308bdc907569ead":[8,0,3,0,0,3],
 "df/dda/class_member_list_context.html":[8,0,386],
@@ -249,5 +248,6 @@ var NAVTREEINDEX127 =
 "functions.html":[8,3,0,0],
 "functions.html":[8,3,0],
 "functions_a.html":[8,3,0,1],
-"functions_b.html":[8,3,0,2]
+"functions_b.html":[8,3,0,2],
+"functions_c.html":[8,3,0,3]
 };

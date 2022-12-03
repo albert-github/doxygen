@@ -522,6 +522,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aca24be6325102c622c2a814e3c7d6b8a inherit pub_methods_class_output_generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2173ea4cffcd7a405b73b369c442006f inherit pub_methods_class_output_generator"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; <a class="el" href="../../d3/d8e/class_output_generator.html">OutputGenerator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8e/class_output_generator.html#a2173ea4cffcd7a405b73b369c442006f">clone</a> () const =0</td></tr>
 <tr class="separator:a2173ea4cffcd7a405b73b369c442006f inherit pub_methods_class_output_generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6326b9fb9d65c5138e3491bfc431fe51 inherit pub_methods_class_output_generator"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d5/d9c/class_code_output_interface.html">CodeOutputInterface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8e/class_output_generator.html#a6326b9fb9d65c5138e3491bfc431fe51">codeGen</a> ()=0</td></tr>
+<tr class="separator:a6326b9fb9d65c5138e3491bfc431fe51 inherit pub_methods_class_output_generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e96bd0b61096478ec0eecfee3f609df inherit pub_methods_class_output_generator"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8e/class_output_generator.html#a0e96bd0b61096478ec0eecfee3f609df">pushGeneratorState</a> ()</td></tr>
 <tr class="separator:a0e96bd0b61096478ec0eecfee3f609df inherit pub_methods_class_output_generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8e915381e39d9c92674d7cb0e0e6589 inherit pub_methods_class_output_generator"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8e/class_output_generator.html#ae8e915381e39d9c92674d7cb0e0e6589">popGeneratorState</a> ()</td></tr>
@@ -1000,7 +1002,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  281</span>}</div>
 <div class="ttc" id="aclass_docbook_generator_html_adab9b834d681915e5abc41b4735c2ed1"><div class="ttname"><a href="../../d1/d72/class_docbook_generator.html#adab9b834d681915e5abc41b4735c2ed1">DocbookGenerator::m_codeGen</a></div><div class="ttdeci">DocbookCodeGenerator m_codeGen</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/docbookgen_8h_source.html#l00317">docbookgen.h:317</a></div></div>
 <div class="ttc" id="aclass_output_generator_html"><div class="ttname"><a href="../../d3/d8e/class_output_generator.html">OutputGenerator</a></div><div class="ttdoc">Abstract output generator.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d06/outputgen_8h_source.html#l00342">outputgen.h:343</a></div></div>
-<div class="ttc" id="aclass_output_generator_html_aceba8f7a334d2e60297dcc727959796c"><div class="ttname"><a href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">OutputGenerator::m_t</a></div><div class="ttdeci">TextStream m_t</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d06/outputgen_8h_source.html#l00513">outputgen.h:513</a></div></div>
+<div class="ttc" id="aclass_output_generator_html_aceba8f7a334d2e60297dcc727959796c"><div class="ttname"><a href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">OutputGenerator::m_t</a></div><div class="ttdeci">TextStream m_t</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d06/outputgen_8h_source.html#l00515">outputgen.h:515</a></div></div>
 <div class="ttc" id="aconfig_8h_html_a737741e6991bdb5694a50075437a9d89"><div class="ttname"><a href="../../db/d16/config_8h.html#a737741e6991bdb5694a50075437a9d89">Config_getString</a></div><div class="ttdeci">#define Config_getString(name)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/config_8h_source.html#l00032">config.h:32</a></div></div>
 <div class="ttc" id="adocbookgen_8cpp_html_aa904aecb68e232b5aea1600dbfde5c0d"><div class="ttname"><a href="../../d8/d29/docbookgen_8cpp.html#aa904aecb68e232b5aea1600dbfde5c0d">DB_GEN_C</a></div><div class="ttdeci">#define DB_GEN_C</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d29/docbookgen_8cpp_source.html#l00067">docbookgen.cpp:67</a></div></div>
 </div><!-- fragment -->
@@ -1108,7 +1110,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 1013</span>}</div>
 <div class="ttc" id="adocbookgen_8cpp_html_ac174bf305a6b97803492e067a2f8dd77"><div class="ttname"><a href="../../d8/d29/docbookgen_8cpp.html#ac174bf305a6b97803492e067a2f8dd77">addIndexTerm</a></div><div class="ttdeci">static void addIndexTerm(TextStream &amp;t, QCString prim, QCString sec=&quot;&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d29/docbookgen_8cpp_source.html#l00122">docbookgen.cpp:122</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00122">addIndexTerm()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00122">addIndexTerm()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -1294,7 +1296,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 1249</span>   <a class="code hl_variable" href="../../d1/d72/class_docbook_generator.html#aee5e536b056fc4c7a6cce79f9175538d">m_openSectionCount</a>--;</div>
 <div class="line"><span class="lineno"> 1250</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00327">m_openSectionCount</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00327">m_openSectionCount</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l01252">closeAllSections()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l01003">endSection()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00836">startDoxyAnchor()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00729">startGroupHeader()</a>, and <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00742">writeRuler()</a>.</p>
 
@@ -1318,10 +1320,12 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Implements <a class="el" href="../../d3/d8e/class_output_generator.html#a6326b9fb9d65c5138e3491bfc431fe51">OutputGenerator</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00309">309</a> of file <a class="el" href="../../de/dea/docbookgen_8h_source.html">docbookgen.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  309</span>{ <span class="keywordflow">return</span> &amp;<a class="code hl_variable" href="../../d1/d72/class_docbook_generator.html#adab9b834d681915e5abc41b4735c2ed1">m_codeGen</a>; }</div>
@@ -1364,7 +1368,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  674</span>}</div>
 <div class="ttc" id="autil_8cpp_html_a7c12b32b5b825c9fc989731c66ba1933"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a7c12b32b5b825c9fc989731c66ba1933">convertToDocBook</a></div><div class="ttdeci">QCString convertToDocBook(const QCString &amp;s, const bool retainNewline)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l04088">util.cpp:4088</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d2d/util_8cpp_source.html#l04088">convertToDocBook()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d2d/util_8cpp_source.html#l04088">convertToDocBook()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l01198">startConstraintList()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00919">startExamples()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00942">writeChar()</a>, and <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00675">writeObjectLink()</a>.</p>
 
@@ -1435,7 +1439,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  727</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;/emphasis&gt;&quot;</span>;</div>
 <div class="line"><span class="lineno">  728</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -1478,7 +1482,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="adotgraph_8h_html_ac60ef98d62b78366a17c9f1bda96523fa4cab0638aeb754692801b1e07fa3db74"><div class="ttname"><a href="../../d0/daa/dotgraph_8h.html#ac60ef98d62b78366a17c9f1bda96523fa4cab0638aeb754692801b1e07fa3db74">GOF_BITMAP</a></div><div class="ttdeci">@ GOF_BITMAP</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daa/dotgraph_8h_source.html#l00028">dotgraph.h:28</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_aa93f0eb578d23995850d61f7d61c55c1"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></div><div class="ttdeci">#define FALSE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00033">qcstring.h:33</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00080">OutputGenerator::dir()</a>, <a class="el" href="../../d0/daa/dotgraph_8h_source.html#l00029">EOF_DocBook</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00085">OutputGenerator::fileName()</a>, <a class="el" href="../../d0/daa/dotgraph_8h_source.html#l00028">GOF_BITMAP</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00316">relPath</a>, and <a class="el" href="../../d4/dd5/dotcallgraph_8cpp_source.html#l00183">DotCallGraph::writeGraph()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00080">OutputGenerator::dir()</a>, <a class="el" href="../../d0/daa/dotgraph_8h_source.html#l00029">EOF_DocBook</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00085">OutputGenerator::fileName()</a>, <a class="el" href="../../d0/daa/dotgraph_8h_source.html#l00028">GOF_BITMAP</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00316">relPath</a>, and <a class="el" href="../../d4/dd5/dotcallgraph_8cpp_source.html#l00183">DotCallGraph::writeGraph()</a>.</p>
 
 </div>
 </div>
@@ -1573,7 +1577,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  902</span>}</div>
 <div class="ttc" id="aclass_class_diagram_html_a79829a2cdb414f49e138e3df9eeb14cd"><div class="ttname"><a href="../../d1/d97/class_class_diagram.html#a79829a2cdb414f49e138e3df9eeb14cd">ClassDiagram::writeImage</a></div><div class="ttdeci">void writeImage(TextStream &amp;t, const QCString &amp;path, const QCString &amp;relPath, const QCString &amp;file, bool generateMap=true) const</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d0d/diagram_8cpp_source.html#l01352">diagram.cpp:1352</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00080">OutputGenerator::dir()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00085">OutputGenerator::fileName()</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00316">relPath</a>, and <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l01352">ClassDiagram::writeImage()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00080">OutputGenerator::dir()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00085">OutputGenerator::fileName()</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00316">relPath</a>, and <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l01352">ClassDiagram::writeImage()</a>.</p>
 
 </div>
 </div>
@@ -1675,7 +1679,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 1235</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;/simplesect&gt;\n&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1236</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -1744,7 +1748,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 1222</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;/emphasis&gt;&lt;/para&gt;\n&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1223</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -1913,7 +1917,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 1108</span>}</div>
 <div class="ttc" id="aclass_docbook_generator_html_a207ad156ddb389309522fc4c6998bc3f"><div class="ttname"><a href="../../d1/d72/class_docbook_generator.html#a207ad156ddb389309522fc4c6998bc3f">DocbookGenerator::m_descTable</a></div><div class="ttdeci">bool m_descTable</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/docbookgen_8h_source.html#l00323">docbookgen.h:323</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00323">m_descTable</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00323">m_descTable</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -1948,7 +1952,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 1142</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;/entry&gt;&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1143</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -1983,7 +1987,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 1120</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;/row&gt;&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1121</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -2054,7 +2058,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 1188</span>}</div>
 <div class="ttc" id="aclass_dot_dir_deps_html_a636d65d1b7097eca39e1dc431e8a7b32"><div class="ttname"><a href="../../d7/dd4/class_dot_dir_deps.html#a636d65d1b7097eca39e1dc431e8a7b32">DotDirDeps::writeGraph</a></div><div class="ttdeci">QCString writeGraph(TextStream &amp;out, GraphOutputFormat gf, EmbeddedOutputFormat ef, const QCString &amp;path, const QCString &amp;fileName, const QCString &amp;relPath, bool writeImageMap=TRUE, int graphId=-1, bool linkRelations=TRUE)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d45/dotdirdeps_8cpp_source.html#l00433">dotdirdeps.cpp:433</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00080">OutputGenerator::dir()</a>, <a class="el" href="../../d0/daa/dotgraph_8h_source.html#l00029">EOF_DocBook</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00085">OutputGenerator::fileName()</a>, <a class="el" href="../../d0/daa/dotgraph_8h_source.html#l00028">GOF_BITMAP</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00316">relPath</a>, and <a class="el" href="../../da/d45/dotdirdeps_8cpp_source.html#l00433">DotDirDeps::writeGraph()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00080">OutputGenerator::dir()</a>, <a class="el" href="../../d0/daa/dotgraph_8h_source.html#l00029">EOF_DocBook</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00085">OutputGenerator::fileName()</a>, <a class="el" href="../../d0/daa/dotgraph_8h_source.html#l00028">GOF_BITMAP</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00316">relPath</a>, and <a class="el" href="../../da/d45/dotdirdeps_8cpp_source.html#l00433">DotDirDeps::writeGraph()</a>.</p>
 
 </div>
 </div>
@@ -2092,7 +2096,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="aclass_dot_class_graph_html_a0273e4e9adfbbe1f601a986636ef79dc"><div class="ttname"><a href="../../df/d1c/class_dot_class_graph.html#a0273e4e9adfbbe1f601a986636ef79dc">DotClassGraph::writeGraph</a></div><div class="ttdeci">QCString writeGraph(TextStream &amp;t, GraphOutputFormat gf, EmbeddedOutputFormat ef, const QCString &amp;path, const QCString &amp;fileName, const QCString &amp;relPath, bool TBRank=TRUE, bool imageMap=TRUE, int graphId=-1)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00446">dotclassgraph.cpp:446</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_aa8cecfc5c5c054d2875c03e77b7be15d"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a></div><div class="ttdeci">#define TRUE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00036">qcstring.h:36</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00080">OutputGenerator::dir()</a>, <a class="el" href="../../d0/daa/dotgraph_8h_source.html#l00029">EOF_DocBook</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00085">OutputGenerator::fileName()</a>, <a class="el" href="../../d0/daa/dotgraph_8h_source.html#l00028">GOF_BITMAP</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00316">relPath</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>, and <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00446">DotClassGraph::writeGraph()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00080">OutputGenerator::dir()</a>, <a class="el" href="../../d0/daa/dotgraph_8h_source.html#l00029">EOF_DocBook</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00085">OutputGenerator::fileName()</a>, <a class="el" href="../../d0/daa/dotgraph_8h_source.html#l00028">GOF_BITMAP</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00316">relPath</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>, and <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00446">DotClassGraph::writeGraph()</a>.</p>
 
 </div>
 </div>
@@ -2205,7 +2209,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  930</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;/simplesect&gt;\n&quot;</span>;</div>
 <div class="line"><span class="lineno">  931</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -2262,7 +2266,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="aclass_docbook_generator_html_adeba147b33df197d9e0f917d7cd6580e"><div class="ttname"><a href="../../d1/d72/class_docbook_generator.html#adeba147b33df197d9e0f917d7cd6580e">DocbookGenerator::m_inGroup</a></div><div class="ttdeci">bool m_inGroup</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/docbookgen_8h_source.html#l00319">docbookgen.h:319</a></div></div>
 <div class="ttc" id="aclass_output_generator_html_aaacf2b4efc09a2c06b9dd8cc2af69046"><div class="ttname"><a href="../../d3/d8e/class_output_generator.html#aaacf2b4efc09a2c06b9dd8cc2af69046">OutputGenerator::endPlainFile</a></div><div class="ttdeci">void endPlainFile()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d17/outputgen_8cpp_source.html#l00072">outputgen.cpp:72</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l01252">closeAllSections()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00072">OutputGenerator::endPlainFile()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00085">OutputGenerator::fileName()</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00317">m_codeGen</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00319">m_inGroup</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00325">m_inLevel</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00070">DocbookCodeGenerator::setSourceFileName()</a>, and <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00071">DocbookCodeGenerator::sourceFileName()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l01252">closeAllSections()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00072">OutputGenerator::endPlainFile()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00085">OutputGenerator::fileName()</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00317">m_codeGen</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00319">m_inGroup</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00325">m_inLevel</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00070">DocbookCodeGenerator::setSourceFileName()</a>, and <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00071">DocbookCodeGenerator::sourceFileName()</a>.</p>
 
 </div>
 </div>
@@ -2299,7 +2303,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 1152</span>}</div>
 <div class="ttc" id="aclass_dot_group_collaboration_html_a1e26ce5a2563ee5144ef66ff9cf88461"><div class="ttname"><a href="../../d1/d5f/class_dot_group_collaboration.html#a1e26ce5a2563ee5144ef66ff9cf88461">DotGroupCollaboration::writeGraph</a></div><div class="ttdeci">QCString writeGraph(TextStream &amp;t, GraphOutputFormat gf, EmbeddedOutputFormat ef, const QCString &amp;path, const QCString &amp;fileName, const QCString &amp;relPath, bool writeImageMap=TRUE, int graphId=-1)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d86/dotgroupcollaboration_8cpp_source.html#l00242">dotgroupcollaboration.cpp:242</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00080">OutputGenerator::dir()</a>, <a class="el" href="../../d0/daa/dotgraph_8h_source.html#l00029">EOF_DocBook</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00085">OutputGenerator::fileName()</a>, <a class="el" href="../../d0/daa/dotgraph_8h_source.html#l00028">GOF_BITMAP</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00316">relPath</a>, and <a class="el" href="../../d1/d86/dotgroupcollaboration_8cpp_source.html#l00242">DotGroupCollaboration::writeGraph()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00080">OutputGenerator::dir()</a>, <a class="el" href="../../d0/daa/dotgraph_8h_source.html#l00029">EOF_DocBook</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00085">OutputGenerator::fileName()</a>, <a class="el" href="../../d0/daa/dotgraph_8h_source.html#l00028">GOF_BITMAP</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00316">relPath</a>, and <a class="el" href="../../d1/d86/dotgroupcollaboration_8cpp_source.html#l00242">DotGroupCollaboration::writeGraph()</a>.</p>
 
 </div>
 </div>
@@ -2335,7 +2339,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  753</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;/title&gt;\n&quot;</span>;</div>
 <div class="line"><span class="lineno">  754</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -2437,7 +2441,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 1170</span>}</div>
 <div class="ttc" id="aclass_dot_incl_dep_graph_html_a197a7b8e9b068d122b062c80b21784e4"><div class="ttname"><a href="../../dc/d03/class_dot_incl_dep_graph.html#a197a7b8e9b068d122b062c80b21784e4">DotInclDepGraph::writeGraph</a></div><div class="ttdeci">QCString writeGraph(TextStream &amp;t, GraphOutputFormat gf, EmbeddedOutputFormat ef, const QCString &amp;path, const QCString &amp;fileName, const QCString &amp;relPath, bool writeImageMap=TRUE, int graphId=-1)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d57/dotincldepgraph_8cpp_source.html#l00184">dotincldepgraph.cpp:184</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00080">OutputGenerator::dir()</a>, <a class="el" href="../../d0/daa/dotgraph_8h_source.html#l00029">EOF_DocBook</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00085">OutputGenerator::fileName()</a>, <a class="el" href="../../d0/daa/dotgraph_8h_source.html#l00028">GOF_BITMAP</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00316">relPath</a>, and <a class="el" href="../../da/d57/dotincldepgraph_8cpp_source.html#l00184">DotInclDepGraph::writeGraph()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00080">OutputGenerator::dir()</a>, <a class="el" href="../../d0/daa/dotgraph_8h_source.html#l00029">EOF_DocBook</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00085">OutputGenerator::fileName()</a>, <a class="el" href="../../d0/daa/dotgraph_8h_source.html#l00028">GOF_BITMAP</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00316">relPath</a>, and <a class="el" href="../../da/d57/dotincldepgraph_8cpp_source.html#l00184">DotInclDepGraph::writeGraph()</a>.</p>
 
 </div>
 </div>
@@ -2820,7 +2824,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="aindex_8h_html_aec03800047ada46460eb75113cfee322af322a2e12f818b8c72799cbdd40d7155"><div class="ttname"><a href="../../d1/db5/index_8h.html#aec03800047ada46460eb75113cfee322af322a2e12f818b8c72799cbdd40d7155">isClassDocumentation</a></div><div class="ttdeci">@ isClassDocumentation</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db5/index_8h_source.html#l00043">index.h:43</a></div></div>
 <div class="ttc" id="aindex_8h_html_aec03800047ada46460eb75113cfee322af36697c9481503948b54359b27638401"><div class="ttname"><a href="../../d1/db5/index_8h.html#aec03800047ada46460eb75113cfee322af36697c9481503948b54359b27638401">isFileIndex</a></div><div class="ttdeci">@ isFileIndex</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db5/index_8h_source.html#l00038">index.h:38</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00088">Doxygen::classLinkedMap</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00090">Doxygen::conceptLinkedMap</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00069">DB_GEN_C2</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00120">Doxygen::dirLinkedMap</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00091">Doxygen::exampleLinkedMap</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00106">Doxygen::groupLinkedMap</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00098">Doxygen::inputNameLinkedMap</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00043">isClassDocumentation</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00036">isClassHierarchyIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00037">isCompoundIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00044">isConceptDocumentation</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00035">isConceptIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00041">isDirDocumentation</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00033">isDirIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00049">isEndIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00046">isExampleDocumentation</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00045">isFileDocumentation</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00038">isFileIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00031">isMainPage</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00040">isModuleDocumentation</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00032">isModuleIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00042">isNamespaceDocumentation</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00034">isNamespaceIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00047">isPageDocumentation</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00048">isPageDocumentation2</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00039">isPageIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00030">isTitlePageAuthor</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00029">isTitlePageStart</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>, and <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00107">Doxygen::namespaceLinkedMap</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00088">Doxygen::classLinkedMap</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00090">Doxygen::conceptLinkedMap</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00069">DB_GEN_C2</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00120">Doxygen::dirLinkedMap</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00091">Doxygen::exampleLinkedMap</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00106">Doxygen::groupLinkedMap</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00098">Doxygen::inputNameLinkedMap</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00043">isClassDocumentation</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00036">isClassHierarchyIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00037">isCompoundIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00044">isConceptDocumentation</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00035">isConceptIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00041">isDirDocumentation</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00033">isDirIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00049">isEndIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00046">isExampleDocumentation</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00045">isFileDocumentation</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00038">isFileIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00031">isMainPage</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00040">isModuleDocumentation</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00032">isModuleIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00042">isNamespaceDocumentation</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00034">isNamespaceIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00047">isPageDocumentation</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00048">isPageDocumentation2</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00039">isPageIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00030">isTitlePageAuthor</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00029">isTitlePageStart</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>, and <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00107">Doxygen::namespaceLinkedMap</a>.</p>
 
 </div>
 </div>
@@ -2930,7 +2934,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 1083</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;/entry&gt;&lt;/row&gt;\n&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1084</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -2965,7 +2969,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 1071</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;/entry&gt;&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1072</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -3000,7 +3004,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 1059</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;/entry&gt;&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1060</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -3211,7 +3215,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  823</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;/computeroutput&gt;&lt;/para&gt;&quot;</span>;</div>
 <div class="line"><span class="lineno">  824</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -3315,7 +3319,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  958</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;/computeroutput&gt;&quot;</span>;</div>
 <div class="line"><span class="lineno">  959</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -3355,7 +3359,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 1048</span>}</div>
 <div class="ttc" id="aclass_docbook_generator_html_ad884acf9c276fdecf1912bbc594e9fc6"><div class="ttname"><a href="../../d1/d72/class_docbook_generator.html#ad884acf9c276fdecf1912bbc594e9fc6">DocbookGenerator::m_simpleTable</a></div><div class="ttdeci">bool m_simpleTable</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/docbookgen_8h_source.html#l00324">docbookgen.h:324</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00324">m_simpleTable</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00324">m_simpleTable</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -3391,7 +3395,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  881</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;/simplesect&gt;\n&quot;</span>;</div>
 <div class="line"><span class="lineno">  882</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -3458,7 +3462,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  872</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;/title&gt;\n&quot;</span>;</div>
 <div class="line"><span class="lineno">  873</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -3493,7 +3497,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  668</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;    &lt;/title&gt;\n&quot;</span>;</div>
 <div class="line"><span class="lineno">  669</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -3528,7 +3532,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  717</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;/para&gt;\n&quot;</span>;</div>
 <div class="line"><span class="lineno">  718</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -3571,7 +3575,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="aclass_docbook_generator_html_a100d37eb3a12a19bf9be985657fa5fde"><div class="ttname"><a href="../../d1/d72/class_docbook_generator.html#a100d37eb3a12a19bf9be985657fa5fde">DocbookGenerator::m_levelListItem</a></div><div class="ttdeci">int m_levelListItem</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/docbookgen_8h_source.html#l00320">docbookgen.h:320</a></div></div>
 <div class="ttc" id="aclass_docbook_generator_html_ac2e43ad3211485c4c8bc84ff3ab74f12"><div class="ttname"><a href="../../d1/d72/class_docbook_generator.html#ac2e43ad3211485c4c8bc84ff3ab74f12">DocbookGenerator::m_inListItem</a></div><div class="ttdeci">bool m_inListItem[20]</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/docbookgen_8h_source.html#l00321">docbookgen.h:321</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00321">m_inListItem</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00322">m_inSimpleSect</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00320">m_levelListItem</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00321">m_inListItem</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00322">m_inSimpleSect</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00320">m_levelListItem</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -3682,7 +3686,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  995</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;para&gt;&quot;</span>;</div>
 <div class="line"><span class="lineno">  996</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -3793,7 +3797,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  650</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;/para&gt;\n&quot;</span>;</div>
 <div class="line"><span class="lineno">  651</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -3882,7 +3886,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  984</span>  }</div>
 <div class="line"><span class="lineno">  985</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -4057,7 +4061,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 1007</span>  <a class="code hl_function" href="../../d1/d72/class_docbook_generator.html#afae8cb3fd84db1e998a4f03433c1493b">closeSection</a>();</div>
 <div class="line"><span class="lineno"> 1008</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l01246">closeSection()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l01246">closeSection()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -4156,7 +4160,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  940</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;/title&gt;&lt;/simplesect&gt;\n&quot;</span>;</div>
 <div class="line"><span class="lineno">  941</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00215">endCompoundTemplateParams()</a>.</p>
 
@@ -4199,7 +4203,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  802</span>}</div>
 <div class="ttc" id="aclass_docbook_generator_html_a25d65c357f9a9cc5cf12912c2c3c301c"><div class="ttname"><a href="../../d1/d72/class_docbook_generator.html#a25d65c357f9a9cc5cf12912c2c3c301c">DocbookGenerator::m_denseText</a></div><div class="ttdeci">bool m_denseText</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/docbookgen_8h_source.html#l00318">docbookgen.h:318</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00318">m_denseText</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00318">m_denseText</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -4311,7 +4315,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  835</span>}</div>
 <div class="ttc" id="aclass_q_c_string_html_a621c4090d69ad7d05ef8e5234376c3d8"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">QCString::isEmpty</a></div><div class="ttdeci">bool isEmpty() const</div><div class="ttdoc">Returns TRUE iff the string is empty.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00144">qcstring.h:144</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00122">addIndexTerm()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00122">addIndexTerm()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -4347,7 +4351,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  783</span>  <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d1/d72/class_docbook_generator.html#a25d65c357f9a9cc5cf12912c2c3c301c">m_denseText</a>) <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;/computeroutput&gt;\n&quot;</span>;</div>
 <div class="line"><span class="lineno">  784</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00318">m_denseText</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00318">m_denseText</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -4401,7 +4405,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  971</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
 <div class="line"><span class="lineno">  972</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -4589,7 +4593,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  773</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;?linebreak?&gt;&quot;</span>;</div>
 <div class="line"><span class="lineno">  774</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -4625,7 +4629,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 1243</span>   <a class="code hl_variable" href="../../d1/d72/class_docbook_generator.html#aee5e536b056fc4c7a6cce79f9175538d">m_openSectionCount</a>++;</div>
 <div class="line"><span class="lineno"> 1244</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00327">m_openSectionCount</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00327">m_openSectionCount</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00729">startGroupHeader()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00803">startMemberDoc()</a>, and <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00997">startSection()</a>.</p>
 
@@ -4770,7 +4774,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  722</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;emphasis role=\&quot;strong\&quot;&gt;&quot;</span>;</div>
 <div class="line"><span class="lineno">  723</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -4871,7 +4875,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  886</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;para&gt;&quot;</span>;</div>
 <div class="line"><span class="lineno">  887</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -4977,7 +4981,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 1204</span>}</div>
 <div class="ttc" id="aclass_docbook_generator_html_a348d537ff6349b8d223890855859013d"><div class="ttname"><a href="../../d1/d72/class_docbook_generator.html#a348d537ff6349b8d223890855859013d">DocbookGenerator::docify</a></div><div class="ttdeci">void docify(const QCString &amp;text)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d29/docbookgen_8cpp_source.html#l00670">docbookgen.cpp:670</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00670">docify()</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00670">docify()</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -5012,7 +5016,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 1208</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;para&gt;&lt;emphasis role=\&quot;strong\&quot;&gt;&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1209</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -5047,7 +5051,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 1217</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;:&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1218</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -5222,7 +5226,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 1098</span>  <a class="code hl_variable" href="../../d1/d72/class_docbook_generator.html#a207ad156ddb389309522fc4c6998bc3f">m_descTable</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
 <div class="line"><span class="lineno"> 1099</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d2d/util_8cpp_source.html#l04088">convertToDocBook()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00323">m_descTable</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d2d/util_8cpp_source.html#l04088">convertToDocBook()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00323">m_descTable</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 </div>
 </div>
@@ -5257,7 +5261,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 1136</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;/entry&gt;&lt;entry&gt;&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1137</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -5293,7 +5297,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 1114</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;entry&gt;&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1115</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -5469,7 +5473,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="aclass_docbook_generator_html_a81a6b8b5249d6aa1144eb15cd75ea019"><div class="ttname"><a href="../../d1/d72/class_docbook_generator.html#a81a6b8b5249d6aa1144eb15cd75ea019">DocbookGenerator::m_firstMember</a></div><div class="ttdeci">bool m_firstMember</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/docbookgen_8h_source.html#l00326">docbookgen.h:326</a></div></div>
 <div class="ttc" id="autil_8cpp_html_a3d37ec79f266698bd836af54ba75e63e"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a3d37ec79f266698bd836af54ba75e63e">stripPath</a></div><div class="ttdeci">QCString stripPath(const QCString &amp;s)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l05412">util.cpp:5412</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l01246">closeSection()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00323">m_descTable</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00326">m_firstMember</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00321">m_inListItem</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00320">m_levelListItem</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00324">m_simpleTable</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l05412">stripPath()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l01246">closeSection()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00323">m_descTable</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00326">m_firstMember</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00321">m_inListItem</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00320">m_levelListItem</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00324">m_simpleTable</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l05412">stripPath()</a>.</p>
 
 </div>
 </div>
@@ -5541,7 +5545,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="aclass_translator_html_ad0aac429d4bcd4489a41e395c5244976"><div class="ttname"><a href="../../d8/dfb/class_translator.html#ad0aac429d4bcd4489a41e395c5244976">Translator::trExamples</a></div><div class="ttdeci">virtual QCString trExamples()=0</div></div>
 <div class="ttc" id="alanguage_8cpp_html_a07b18e39f7c5156cd370829e7e6f8534"><div class="ttname"><a href="../../d2/d48/language_8cpp.html#a07b18e39f7c5156cd370829e7e6f8534">theTranslator</a></div><div class="ttdeci">Translator * theTranslator</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d48/language_8cpp_source.html#l00070">language.cpp:70</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00670">docify()</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>, <a class="el" href="../../d2/d48/language_8cpp_source.html#l00070">theTranslator</a>, and <a class="el" href="../../d8/dfb/class_translator.html#ad0aac429d4bcd4489a41e395c5244976">Translator::trExamples()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00670">docify()</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>, <a class="el" href="../../d2/d48/language_8cpp_source.html#l00070">theTranslator</a>, and <a class="el" href="../../d8/dfb/class_translator.html#ad0aac429d4bcd4489a41e395c5244976">Translator::trExamples()</a>.</p>
 
 </div>
 </div>
@@ -5628,7 +5632,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="aclass_translator_html_a32d242636756c9b302e74454bfb3fa5f"><div class="ttname"><a href="../../d8/dfb/class_translator.html#a32d242636756c9b302e74454bfb3fa5f">Translator::trISOLang</a></div><div class="ttdeci">virtual QCString trISOLang()=0</div></div>
 <div class="ttc" id="autil_8cpp_html_a6cc78f4946029df8c7135fbf36e625e4"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a6cc78f4946029df8c7135fbf36e625e4">relativePathToRoot</a></div><div class="ttdeci">QCString relativePathToRoot(const QCString &amp;name)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l03743">util.cpp:3743</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00458">QCString::endsWith()</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00085">OutputGenerator::fileName()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00317">m_codeGen</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l03743">relativePathToRoot()</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00316">relPath</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00069">DocbookCodeGenerator::setRelativePath()</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00070">DocbookCodeGenerator::setSourceFileName()</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00060">OutputGenerator::startPlainFile()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05412">stripPath()</a>, <a class="el" href="../../d2/d48/language_8cpp_source.html#l00070">theTranslator</a>, and <a class="el" href="../../d8/dfb/class_translator.html#a32d242636756c9b302e74454bfb3fa5f">Translator::trISOLang()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00458">QCString::endsWith()</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00085">OutputGenerator::fileName()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00317">m_codeGen</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l03743">relativePathToRoot()</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00316">relPath</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00069">DocbookCodeGenerator::setRelativePath()</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00070">DocbookCodeGenerator::setSourceFileName()</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00060">OutputGenerator::startPlainFile()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05412">stripPath()</a>, <a class="el" href="../../d2/d48/language_8cpp_source.html#l00070">theTranslator</a>, and <a class="el" href="../../d8/dfb/class_translator.html#a32d242636756c9b302e74454bfb3fa5f">Translator::trISOLang()</a>.</p>
 
 </div>
 </div>
@@ -5707,7 +5711,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  741</span>}</div>
 <div class="ttc" id="aclass_docbook_generator_html_a9872f2ebb33a85b7fff7268fee91a977"><div class="ttname"><a href="../../d1/d72/class_docbook_generator.html#a9872f2ebb33a85b7fff7268fee91a977">DocbookGenerator::openSection</a></div><div class="ttdeci">void openSection(const QCString &amp;attr=QCString())</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d29/docbookgen_8cpp_source.html#l01238">docbookgen.cpp:1238</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l01246">closeSection()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00069">DB_GEN_C2</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00326">m_firstMember</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00319">m_inGroup</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00325">m_inLevel</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00322">m_inSimpleSect</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00320">m_levelListItem</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l01238">openSection()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l01246">closeSection()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00069">DB_GEN_C2</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00326">m_firstMember</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00319">m_inGroup</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00325">m_inLevel</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00322">m_inSimpleSect</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00320">m_levelListItem</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l01238">openSection()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 </div>
 </div>
@@ -6093,7 +6097,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  453</span>  }</div>
 <div class="line"><span class="lineno">  454</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00032">Config_getString</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04088">convertToDocBook()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00069">DB_GEN_C2</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00043">isClassDocumentation</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00036">isClassHierarchyIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00037">isCompoundIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00044">isConceptDocumentation</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00035">isConceptIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00041">isDirDocumentation</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00033">isDirIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00049">isEndIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00046">isExampleDocumentation</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00045">isFileDocumentation</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00038">isFileIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00031">isMainPage</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00040">isModuleDocumentation</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00032">isModuleIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00042">isNamespaceDocumentation</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00034">isNamespaceIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00047">isPageDocumentation</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00048">isPageDocumentation2</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00039">isPageIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00030">isTitlePageAuthor</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00029">isTitlePageStart</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00032">Config_getString</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04088">convertToDocBook()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00069">DB_GEN_C2</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00043">isClassDocumentation</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00036">isClassHierarchyIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00037">isCompoundIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00044">isConceptDocumentation</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00035">isConceptIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00041">isDirDocumentation</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00033">isDirIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00049">isEndIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00046">isExampleDocumentation</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00045">isFileDocumentation</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00038">isFileIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00031">isMainPage</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00040">isModuleDocumentation</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00032">isModuleIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00042">isNamespaceDocumentation</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00034">isNamespaceIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00047">isPageDocumentation</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00048">isPageDocumentation2</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00039">isPageIndex</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00030">isTitlePageAuthor</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00029">isTitlePageStart</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -6193,7 +6197,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 1077</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;entry&gt;&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1078</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -6228,7 +6232,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 1065</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;entry&gt;&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1066</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -6263,7 +6267,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 1053</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;row&gt;&lt;entry&gt;&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1054</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -6531,7 +6535,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  818</span>  }</div>
 <div class="line"><span class="lineno">  819</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00122">addIndexTerm()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04088">convertToDocBook()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00069">DB_GEN_C2</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00325">m_inLevel</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>, and <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l01238">openSection()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00122">addIndexTerm()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04088">convertToDocBook()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00069">DB_GEN_C2</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00325">m_inLevel</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>, and <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l01238">openSection()</a>.</p>
 
 </div>
 </div>
@@ -6601,7 +6605,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  858</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;para&gt;&lt;computeroutput&gt;&quot;</span>;</div>
 <div class="line"><span class="lineno">  859</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -6636,7 +6640,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  953</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;computeroutput&gt;&quot;</span>;</div>
 <div class="line"><span class="lineno">  954</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -6694,7 +6698,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="aclass_translator_html_a61bb38a3a5fa42b9e1b1045a5151f092"><div class="ttname"><a href="../../d8/dfb/class_translator.html#a61bb38a3a5fa42b9e1b1045a5151f092">Translator::trEnumerationValues</a></div><div class="ttdeci">virtual QCString trEnumerationValues()=0</div></div>
 <div class="ttc" id="aclass_translator_html_a6c32b990a668865e04330007c37ecb2a"><div class="ttname"><a href="../../d8/dfb/class_translator.html#a6c32b990a668865e04330007c37ecb2a">Translator::trCompoundMembers</a></div><div class="ttdeci">virtual QCString trCompoundMembers()=0</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d2d/util_8cpp_source.html#l04088">convertToDocBook()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00324">m_simpleTable</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>, <a class="el" href="../../d2/d48/language_8cpp_source.html#l00070">theTranslator</a>, <a class="el" href="../../d8/dfb/class_translator.html#a6c32b990a668865e04330007c37ecb2a">Translator::trCompoundMembers()</a>, and <a class="el" href="../../d8/dfb/class_translator.html#a61bb38a3a5fa42b9e1b1045a5151f092">Translator::trEnumerationValues()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d2d/util_8cpp_source.html#l04088">convertToDocBook()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00324">m_simpleTable</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>, <a class="el" href="../../d2/d48/language_8cpp_source.html#l00070">theTranslator</a>, <a class="el" href="../../d8/dfb/class_translator.html#a6c32b990a668865e04330007c37ecb2a">Translator::trCompoundMembers()</a>, and <a class="el" href="../../d8/dfb/class_translator.html#a61bb38a3a5fa42b9e1b1045a5151f092">Translator::trEnumerationValues()</a>.</p>
 
 </div>
 </div>
@@ -6796,7 +6800,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  867</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;simplesect&gt;&lt;title&gt;&quot;</span>;</div>
 <div class="line"><span class="lineno">  868</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -6844,7 +6848,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  662</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;    &lt;title&gt;&quot;</span>;</div>
 <div class="line"><span class="lineno">  663</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00322">m_inSimpleSect</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00320">m_levelListItem</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00322">m_inSimpleSect</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00320">m_levelListItem</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 </div>
 </div>
@@ -6898,7 +6902,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  712</span>  <a class="code hl_variable" href="../../d1/d72/class_docbook_generator.html#ac2e43ad3211485c4c8bc84ff3ab74f12">m_inListItem</a>[<a class="code hl_variable" href="../../d1/d72/class_docbook_generator.html#a100d37eb3a12a19bf9be985657fa5fde">m_levelListItem</a>] = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
 <div class="line"><span class="lineno">  713</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00321">m_inListItem</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00320">m_levelListItem</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00321">m_inListItem</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00320">m_levelListItem</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 </div>
 </div>
@@ -6934,7 +6938,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  695</span>  <a class="code hl_variable" href="../../d1/d72/class_docbook_generator.html#a100d37eb3a12a19bf9be985657fa5fde">m_levelListItem</a>++;</div>
 <div class="line"><span class="lineno">  696</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00320">m_levelListItem</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00320">m_levelListItem</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -7135,7 +7139,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  644</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;para&gt;\n&quot;</span>;</div>
 <div class="line"><span class="lineno">  645</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -7171,7 +7175,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  759</span>  <span class="keywordflow">if</span> (openBracket) <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;(&quot;</span>;</div>
 <div class="line"><span class="lineno">  760</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -7207,7 +7211,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  976</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
 <div class="line"><span class="lineno">  977</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -7410,7 +7414,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 1001</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;title&gt;&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1002</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l01238">openSection()</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l05412">stripPath()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l01238">openSection()</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l05412">stripPath()</a>.</p>
 
 </div>
 </div>
@@ -7509,7 +7513,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  935</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;simplesect&gt;&lt;title&gt;&quot;</span>;</div>
 <div class="line"><span class="lineno">  936</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00214">startCompoundTemplateParams()</a>.</p>
 
@@ -7551,7 +7555,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  792</span>  }</div>
 <div class="line"><span class="lineno">  793</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00318">m_denseText</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00318">m_denseText</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 </div>
 </div>
@@ -7662,7 +7666,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  828</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;title&gt;&quot;</span>;</div>
 <div class="line"><span class="lineno">  829</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -7698,7 +7702,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  778</span>  <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d1/d72/class_docbook_generator.html#a25d65c357f9a9cc5cf12912c2c3c301c">m_denseText</a>) <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;computeroutput&gt;&quot;</span>;</div>
 <div class="line"><span class="lineno">  779</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00318">m_denseText</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00318">m_denseText</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -7877,7 +7881,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="aclass_doc_node_a_s_t_html"><div class="ttname"><a href="../../db/d98/class_doc_node_a_s_t.html">DocNodeAST</a></div><div class="ttdoc">Class representing the abstract syntax tree of a documentation block.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l01398">docnode.h:1399</a></div></div>
 <div class="ttc" id="aclass_docbook_doc_visitor_html"><div class="ttname"><a href="../../d7/dc4/class_docbook_doc_visitor.html">DocbookDocVisitor</a></div><div class="ttdoc">Concrete visitor implementation for Docbook output.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcd/docbookvisitor_8h_source.html#l00031">docbookvisitor.h:32</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d5/dcc/class_definition.html#adbe53b15923a143881154dd7c0f04f9b">Definition::getDefFileExtension()</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00317">m_codeGen</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d5/dcc/class_definition.html#adbe53b15923a143881154dd7c0f04f9b">Definition::getDefFileExtension()</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00317">m_codeGen</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -8090,7 +8094,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  912</span>  <span class="keywordflow">if</span> (!isLast) <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;, &quot;</span>;</div>
 <div class="line"><span class="lineno">  913</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -8223,7 +8227,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  768</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=0;i&lt;n;i++) <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&amp;#160;&quot;</span>;</div>
 <div class="line"><span class="lineno">  769</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -8300,7 +8304,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  689</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;/link&gt;&quot;</span>;</div>
 <div class="line"><span class="lineno">  690</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00670">docify()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l05412">stripPath()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00670">docify()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l05412">stripPath()</a>.</p>
 
 </div>
 </div>
@@ -8363,7 +8367,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  628</span>}</div>
 <div class="ttc" id="aclass_doxygen_html_abd2756663a014ee48e1660d32a48cac5"><div class="ttname"><a href="../../de/d6a/class_doxygen.html#abd2756663a014ee48e1660d32a48cac5">Doxygen::pageLinkedMap</a></div><div class="ttdeci">static PageLinkedMap * pageLinkedMap</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da1/doxygen_8h_source.html#l00092">doxygen.h:92</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d2d/util_8cpp_source.html#l04088">convertToDocBook()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00092">Doxygen::pageLinkedMap</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l05412">stripPath()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d2d/util_8cpp_source.html#l04088">convertToDocBook()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00092">Doxygen::pageLinkedMap</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l05412">stripPath()</a>.</p>
 
 </div>
 </div>
@@ -8607,7 +8611,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  655</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; text;</div>
 <div class="line"><span class="lineno">  656</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00513">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00067">DB_GEN_C</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00515">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>

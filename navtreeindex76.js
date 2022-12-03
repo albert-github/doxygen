@@ -1,15 +1,5 @@
 var NAVTREEINDEX76 =
 {
-"da/d32/class_translator_romanian.html#a7779d20c3681246d213788375c518022":[8,0,601,158],
-"da/d32/class_translator_romanian.html#a780ab33f21804f844fdddb452e0302dd":[8,0,601,58],
-"da/d32/class_translator_romanian.html#a7bb5f1012f247abdebab6ce9dc3584b6":[8,0,601,62],
-"da/d32/class_translator_romanian.html#a7dcfb3e4b4777674a86c6365aaecc2b5":[8,0,601,216],
-"da/d32/class_translator_romanian.html#a80becfc32a2af84015b012d105a0bf96":[8,0,601,3],
-"da/d32/class_translator_romanian.html#a814d711e26c31ff61a556144af1a1f49":[8,0,601,128],
-"da/d32/class_translator_romanian.html#a81de740ff868dad8b4e145084f25c7c7":[8,0,601,189],
-"da/d32/class_translator_romanian.html#a8389138e725961ad745a2c71dfd76856":[8,0,601,4],
-"da/d32/class_translator_romanian.html#a83bac096face5986a9d3603a738258d9":[8,0,601,77],
-"da/d32/class_translator_romanian.html#a8456264dcdcaf12ec85e5dc9f389c524":[8,0,601,63],
 "da/d32/class_translator_romanian.html#a845c68ba03622b749be31cff6cff1317":[8,0,601,36],
 "da/d32/class_translator_romanian.html#a862c25b26835cbbfcb41e0143aa396c1":[8,0,601,124],
 "da/d32/class_translator_romanian.html#a88f0ac05ff60616c5f1ee1c30a4e3730":[8,0,601,234],
@@ -249,5 +239,15 @@ var NAVTREEINDEX76 =
 "da/d6d/class_file_name_fn.html#a63b6f6b9369310cfcdc4255df8f2022b":[8,0,245,1],
 "da/d6d/class_file_name_fn.html#a66c2a1871d0033e87ef374c8204a54ce":[8,0,245,0],
 "da/d6f/class_example_list_context_1_1_private.html":[8,0,224,0],
-"da/d6f/class_example_list_context_1_1_private.html#a2c3b722b62420f2e6946d07e0bea7b0b":[8,0,224,0,0]
+"da/d6f/class_example_list_context_1_1_private.html#a2c3b722b62420f2e6946d07e0bea7b0b":[8,0,224,0,0],
+"da/d73/dispatcher_8h.html":[9,0,2,59],
+"da/d73/dispatcher_8h.html#a813e5bcc6785357f4ca1f4b19436c5ad":[9,0,2,59,4],
+"da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882":[9,0,2,59,2],
+"da/d73/dispatcher_8h.html#ae816ba4191db47635a574d6037cc11b5":[9,0,2,59,3],
+"da/d73/dispatcher_8h_source.html":[9,0,2,59],
+"da/d7b/class_lex_outline_parser.html":[8,0,355],
+"da/d7b/class_lex_outline_parser.html#a1c3dd92666badfafa45cb0e5295cd511":[8,0,355,1],
+"da/d7b/class_lex_outline_parser.html#a3bf81ea753ad82a279a2c48acd666bd9":[8,0,355,3],
+"da/d7b/class_lex_outline_parser.html#a63d579cc2b0db08ab8057e022146b7d9":[8,0,355,6],
+"da/d7b/class_lex_outline_parser.html#a6e0a6fa3a2647d040c2b6c721466ce4f":[8,0,355,2]
 };

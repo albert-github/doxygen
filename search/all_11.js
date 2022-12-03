@@ -183,7 +183,7 @@ var searchData=
   ['pcopysharpstring_180',['pCopySharpString',['../d4/dfb/structscanner_y_y__state.html#ad9d688e170cedbd3b57d546bbbc57ca1',1,'scannerYY_state']]],
   ['pcopysquaregstring_181',['pCopySquareGString',['../d4/dfb/structscanner_y_y__state.html#a2cff7ea21126dd3f969afcd288c1017d',1,'scannerYY_state']]],
   ['pending_182',['pending',['../d9/d20/struct_v_h_d_l_doc_info.html#a9405958eda345c98b5fdfade85bc6487',1,'VHDLDocInfo']]],
-  ['perl_183',['perl',['../db/d5f/class_html_entity_mapper.html#a56d4e0e2e83a943ea25985c0792f71b0',1,'HtmlEntityMapper::perl()'],['../d2/d34/structhtml_entity_info.html#a5bce48f33d23f90c3f7907c8eaf928ff',1,'htmlEntityInfo::perl()']]],
+  ['perl_183',['perl',['../db/d5f/class_html_entity_mapper.html#a56d4e0e2e83a943ea25985c0792f71b0',1,'HtmlEntityMapper::perl()'],['../da/dd4/struct_html_entity_info.html#a5a5f3f4cedacad4b329a262deae07a56',1,'HtmlEntityInfo::perl()']]],
   ['perl_5facute_184',['Perl_acute',['../db/d5f/class_html_entity_mapper.html#a4911b3c9af98290f7ee0696fc2c8a6a3afedd610e97f6262280751ca949693d82',1,'HtmlEntityMapper']]],
   ['perl_5fcedilla_185',['Perl_cedilla',['../db/d5f/class_html_entity_mapper.html#a4911b3c9af98290f7ee0696fc2c8a6a3a2559915a1e26ef534de86d474925e6ed',1,'HtmlEntityMapper']]],
   ['perl_5fchar_186',['Perl_char',['../db/d5f/class_html_entity_mapper.html#a4911b3c9af98290f7ee0696fc2c8a6a3ad04402fe2918b7724f6516397fa0d1a3',1,'HtmlEntityMapper']]],

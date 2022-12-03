@@ -55,7 +55,7 @@ var searchData=
   ['laststringcontext_52',['lastStringContext',['../d4/dfb/structscanner_y_y__state.html#a2bcedc0a1f4edc435718b99b02f7370f',1,'scannerYY_state::lastStringContext()'],['../d9/d1c/structlexscanner_y_y__state.html#ab5f417a6d5045d108fd081d9d6c816bd',1,'lexscannerYY_state::lastStringContext()'],['../d1/d06/structlexcode_y_y__state.html#a86a2b5d18e1c396361a9c5f73a0a5818',1,'lexcodeYY_state::lastStringContext()'],['../da/d28/structcode_y_y__state.html#ac1e80134a0a08a27e3ea10d13c14267d',1,'codeYY_state::lastStringContext()']]],
   ['lasttemplcastcontext_53',['lastTemplCastContext',['../da/d28/structcode_y_y__state.html#ab37c824155582ca975214f9149e5781a',1,'codeYY_state']]],
   ['lastverbstringcontext_54',['lastVerbStringContext',['../da/d28/structcode_y_y__state.html#adfeb80f93d6212689bc265d56a6a9c70',1,'codeYY_state']]],
-  ['latex_55',['latex',['../d2/d34/structhtml_entity_info.html#afe79b1519786e47dd7191f575d73a55a',1,'htmlEntityInfo']]],
+  ['latex_55',['latex',['../da/dd4/struct_html_entity_info.html#af9aa4253388159401f3fc1a10c00a7ef',1,'HtmlEntityInfo']]],
   ['lbrace_56',['LBRACE',['../d5/df4/namespacevhdl_1_1parser.html#a21d79c7e06df68dbd9b96c4869c77102',1,'vhdl::parser']]],
   ['lbracket_5ft_57',['LBRACKET_T',['../d5/df4/namespacevhdl_1_1parser.html#a502ddddbef77c6f5c7f629af75b0c23f',1,'vhdl::parser']]],
   ['lengthofmatch_58',['lengthOfMatch',['../d4/d48/classvhdl_1_1parser_1_1_vhdl_parser_token_manager.html#a6d05b89884c43044653109f5cb9d7621',1,'vhdl::parser::VhdlParserTokenManager']]],

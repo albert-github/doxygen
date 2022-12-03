@@ -117,6 +117,8 @@ $(document).ready(function(){initNavTree('d3/d36/docgroup_8cpp.html','../../'); 
 Variables</h2></td></tr>
 <tr class="memitem:a05d0ccc0d7aaedbd3ae467c5d1479658"><td class="memItemLeft" align="right" valign="top">static std::atomic_int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d36/docgroup_8cpp.html#a05d0ccc0d7aaedbd3ae467c5d1479658">g_groupId</a></td></tr>
 <tr class="separator:a05d0ccc0d7aaedbd3ae467c5d1479658"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83c0259d4567db59783728e348688ab3"><td class="memItemLeft" align="right" valign="top">static std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d36/docgroup_8cpp.html#a83c0259d4567db59783728e348688ab3">g_memberGroupInfoMapMutex</a></td></tr>
+<tr class="separator:a83c0259d4567db59783728e348688ab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Variable Documentation</h2>
 <a id="a05d0ccc0d7aaedbd3ae467c5d1479658" name="a05d0ccc0d7aaedbd3ae467c5d1479658"></a>
@@ -141,7 +143,33 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d3/d36/docgroup_8cpp_source.html#l00023">23</a> of file <a class="el" href="../../d3/d36/docgroup_8cpp_source.html">docgroup.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d36/docgroup_8cpp_source.html#l00089">DocGroup::findExistingGroup()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d36/docgroup_8cpp_source.html#l00090">DocGroup::findExistingGroup()</a>.</p>
+
+</div>
+</div>
+<a id="a83c0259d4567db59783728e348688ab3" name="a83c0259d4567db59783728e348688ab3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83c0259d4567db59783728e348688ab3">&#9670;&#160;</a></span>g_memberGroupInfoMapMutex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::mutex g_memberGroupInfoMapMutex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/d36/docgroup_8cpp_source.html#l00024">24</a> of file <a class="el" href="../../d3/d36/docgroup_8cpp_source.html">docgroup.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d3/d36/docgroup_8cpp_source.html#l00201">DocGroup::addDocs()</a>, <a class="el" href="../../d3/d36/docgroup_8cpp_source.html#l00141">DocGroup::close()</a>, <a class="el" href="../../d3/d36/docgroup_8cpp_source.html#l00090">DocGroup::findExistingGroup()</a>, and <a class="el" href="../../d3/d36/docgroup_8cpp_source.html#l00108">DocGroup::open()</a>.</p>
 
 </div>
 </div>

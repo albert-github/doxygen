@@ -28,7 +28,7 @@ var searchData=
   ['hierarchyinterfaces_25',['hierarchyInterfaces',['../d1/db5/index_8h.html#a1138e44ec77b6eca3a965da5c22dfe6a',1,'hierarchyInterfaces():&#160;index.cpp'],['../db/d14/index_8cpp.html#a1138e44ec77b6eca3a965da5c22dfe6a',1,'hierarchyInterfaces():&#160;index.cpp']]],
   ['hiitem_26',['hiItem',['../da/d67/struct_annotated_index_context.html#a6e1e413055791e7c065cf0365000db72',1,'AnnotatedIndexContext']]],
   ['hiprio_27',['hiPrio',['../d7/def/struct_s_i_data___word.html#ad7139ab71767d51a15af2099230fd5f6',1,'SIData_Word']]],
-  ['html_28',['html',['../d2/d34/structhtml_entity_info.html#a25277263c40c82d1c59b7264fb9c2fe7',1,'htmlEntityInfo']]],
+  ['html_28',['html',['../da/dd4/struct_html_entity_info.html#a9d9b653841149e73b5dcc09dd505fb06',1,'HtmlEntityInfo']]],
   ['htmlanchor_29',['htmlAnchor',['../d4/de8/structcommentscan_y_y__state.html#a746ef47c40f037e13f7ddc7cb848e0e2',1,'commentscanYY_state']]],
   ['htmlanchorstr_30',['htmlAnchorStr',['../d4/de8/structcommentscan_y_y__state.html#ac3fdecfc0c02e37b130f9ebe5fa48f59',1,'commentscanYY_state']]],
   ['htmldetailssummary_31',['HTMLDetailsSummary',['../d4/de8/structcommentscan_y_y__state.html#a1f3eb5e0416454c435526caa997b8c1d',1,'commentscanYY_state']]],

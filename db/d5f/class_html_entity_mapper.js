@@ -290,10 +290,9 @@ var class_html_entity_mapper =
     ] ],
     [ "HtmlEntityMapper", "db/d5f/class_html_entity_mapper.html#ac16b10159880f0dcd9bf4e0449f7e21e", null ],
     [ "~HtmlEntityMapper", "db/d5f/class_html_entity_mapper.html#a2fb3bfaff647723db532f2dec86d446e", null ],
-    [ "deleteInstance", "db/d5f/class_html_entity_mapper.html#aa45124007f692528edfa91ffbcb21f12", null ],
     [ "docbook", "db/d5f/class_html_entity_mapper.html#acfca10f028c7820564bbd80728898a79", null ],
     [ "html", "db/d5f/class_html_entity_mapper.html#aea40dae4575be9010f2ea950206a6f57", null ],
-    [ "instance", "db/d5f/class_html_entity_mapper.html#ae6ddba77b763691a6e3a1c9021e8d944", null ],
+    [ "instance", "db/d5f/class_html_entity_mapper.html#a9170301bb5ed20abd90f396a53e3e1f7", null ],
     [ "latex", "db/d5f/class_html_entity_mapper.html#a401769ae867a274591c49695c3a819f0", null ],
     [ "man", "db/d5f/class_html_entity_mapper.html#ae69bb690ab38e84854b912b68e71cf79", null ],
     [ "name2sym", "db/d5f/class_html_entity_mapper.html#af0c3a82ead9d9f041131d3bf6ebf9f35", null ],
@@ -304,5 +303,5 @@ var class_html_entity_mapper =
     [ "writeXMLSchema", "db/d5f/class_html_entity_mapper.html#a7c7b82a1151c72c7df57732517379a14", null ],
     [ "xml", "db/d5f/class_html_entity_mapper.html#a6359802a6779aa5f0245357d974c3bd1", null ],
     [ "m_name2sym", "db/d5f/class_html_entity_mapper.html#a95b999cb7f3b3416a6442d4ad4e5deed", null ],
-    [ "s_instance", "db/d5f/class_html_entity_mapper.html#a2bd728bca7f82356189881d34d9e6776", null ]
+    [ "s_instance", "db/d5f/class_html_entity_mapper.html#afc7e4a21bf45782d679c588b72189e7b", null ]
 ];

@@ -103,7 +103,7 @@ var searchData=
   ['usingdecl_5fsec_100',['USINGDECL_SEC',['../d4/dd7/class_entry.html#a1e615d53eb7db6d16c19fcb5788fbd9eaf36465de74f5e770163ff501164b5ea3',1,'Entry']]],
   ['usingdir_5fsec_101',['USINGDIR_SEC',['../d4/dd7/class_entry.html#a1e615d53eb7db6d16c19fcb5788fbd9ea02b6fd475d93b9857740ec4621dbd78c',1,'Entry']]],
   ['utf8_102',['utf8',['../db/d5f/class_html_entity_mapper.html#ad8a01097bbc33683b24dc0ddd198f958',1,'HtmlEntityMapper']]],
-  ['utf8_103',['UTF8',['../d2/d34/structhtml_entity_info.html#ada90d83cde3fa45e52909e091d79955c',1,'htmlEntityInfo']]],
+  ['utf8_103',['UTF8',['../da/dd4/struct_html_entity_info.html#aa6d488bda4eb38613d2de033fa48efe7',1,'HtmlEntityInfo']]],
   ['utf8_2ecpp_104',['utf8.cpp',['../d2/db5/utf8_8cpp.html',1,'']]],
   ['utf8_2eh_105',['utf8.h',['../db/d7c/utf8_8h.html',1,'']]],
   ['util_2ecpp_106',['util.cpp',['../df/d2d/util_8cpp.html',1,'']]],

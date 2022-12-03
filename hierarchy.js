@@ -691,7 +691,7 @@ var hierarchy =
     [ "GuardedSection", "d5/d19/class_guarded_section.html", null ],
     [ "Htags", "d4/db0/struct_htags.html", null ],
     [ "HtmlAttrib", "d0/db2/struct_html_attrib.html", null ],
-    [ "htmlEntityInfo", "d2/d34/structhtml_entity_info.html", null ],
+    [ "HtmlEntityInfo", "da/dd4/struct_html_entity_info.html", null ],
     [ "HtmlEntityMapper", "db/d5f/class_html_entity_mapper.html", null ],
     [ "HtmlHelp", "d4/db3/class_html_help.html", null ],
     [ "HtmlHelpIndex", "d0/d74/class_html_help_index.html", null ],

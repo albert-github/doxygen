@@ -1,15 +1,5 @@
 var NAVTREEINDEX35 =
 {
-"d4/df3/rtfstyle_8h.html#a36e764c0a931ef05c53d3695489d198e":[9,0,2,215,3],
-"d4/df3/rtfstyle_8h.html#a6329c1ef4afd935bc3ef8065583fed30":[9,0,2,215,13],
-"d4/df3/rtfstyle_8h.html#a6dadec111c906be2f9b08e2b20a203d0":[9,0,2,215,11],
-"d4/df3/rtfstyle_8h.html#a86de556a1278f74936d85c3ad6737305":[9,0,2,215,18],
-"d4/df3/rtfstyle_8h.html#aa26f5b63acab74269d212f1559aafb5b":[9,0,2,215,10],
-"d4/df3/rtfstyle_8h.html#aa3f13730015be2d7e9ab56c1282b4b9a":[9,0,2,215,5],
-"d4/df3/rtfstyle_8h.html#ab3df69814841b23f1daaf5cdf52f11ce":[9,0,2,215,12],
-"d4/df3/rtfstyle_8h.html#ab52a06ee957fd74f7e3cc2d7237ea8b9":[9,0,2,215,6],
-"d4/df3/rtfstyle_8h.html#ababa40e3b47889c9d6a12b2c27b1dcea":[9,0,2,215,17],
-"d4/df3/rtfstyle_8h.html#ae5cb613ade78225b9d6487115d840fd7":[9,0,2,215,8],
 "d4/df3/rtfstyle_8h_source.html":[9,0,2,215],
 "d4/df9/_token_manager_8h.html":[9,0,3,5],
 "d4/df9/_token_manager_8h_source.html":[9,0,3,5],
@@ -249,5 +239,15 @@ var NAVTREEINDEX35 =
 "d5/d0a/class_translator_serbian.html#a7c4b80c5ec6e7a2c95298ec015c014c2":[8,0,603,7],
 "d5/d0a/class_translator_serbian.html#a7e5f0e90dc91396b54f945b59724961b":[8,0,603,135],
 "d5/d0a/class_translator_serbian.html#a7eea1f3c614c88d56828a3449195da2a":[8,0,603,58],
-"d5/d0a/class_translator_serbian.html#a7f1d04630e70495a567297582eb318ec":[8,0,603,25]
+"d5/d0a/class_translator_serbian.html#a7f1d04630e70495a567297582eb318ec":[8,0,603,25],
+"d5/d0a/class_translator_serbian.html#a81946123335a7eb0ff88248f4c365555":[8,0,603,159],
+"d5/d0a/class_translator_serbian.html#a852f7f80f8d735683d22ee514e3ef0fd":[8,0,603,129],
+"d5/d0a/class_translator_serbian.html#a891e6e79429d1a09adcaad0a25774a34":[8,0,603,147],
+"d5/d0a/class_translator_serbian.html#a89755fea457a118020135f18590635d8":[8,0,603,158],
+"d5/d0a/class_translator_serbian.html#a8e2cdf799cc8cce652690061492aab5d":[8,0,603,0],
+"d5/d0a/class_translator_serbian.html#a8ecd3c5dc710bc06af57bbeb51eb4dd6":[8,0,603,18],
+"d5/d0a/class_translator_serbian.html#a8fe68f00e076364d5936330765388301":[8,0,603,171],
+"d5/d0a/class_translator_serbian.html#a907fe16b14122de47884441163bf4ef9":[8,0,603,96],
+"d5/d0a/class_translator_serbian.html#a948a1f8f8ae42c07fe5abc040fbccc4e":[8,0,603,84],
+"d5/d0a/class_translator_serbian.html#a94ecdac3e5a4843b58450e3701bb7912":[8,0,603,15]
 };

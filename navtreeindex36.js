@@ -1,15 +1,5 @@
 var NAVTREEINDEX36 =
 {
-"d5/d0a/class_translator_serbian.html#a81946123335a7eb0ff88248f4c365555":[8,0,603,159],
-"d5/d0a/class_translator_serbian.html#a852f7f80f8d735683d22ee514e3ef0fd":[8,0,603,129],
-"d5/d0a/class_translator_serbian.html#a891e6e79429d1a09adcaad0a25774a34":[8,0,603,147],
-"d5/d0a/class_translator_serbian.html#a89755fea457a118020135f18590635d8":[8,0,603,158],
-"d5/d0a/class_translator_serbian.html#a8e2cdf799cc8cce652690061492aab5d":[8,0,603,0],
-"d5/d0a/class_translator_serbian.html#a8ecd3c5dc710bc06af57bbeb51eb4dd6":[8,0,603,18],
-"d5/d0a/class_translator_serbian.html#a8fe68f00e076364d5936330765388301":[8,0,603,171],
-"d5/d0a/class_translator_serbian.html#a907fe16b14122de47884441163bf4ef9":[8,0,603,96],
-"d5/d0a/class_translator_serbian.html#a948a1f8f8ae42c07fe5abc040fbccc4e":[8,0,603,84],
-"d5/d0a/class_translator_serbian.html#a94ecdac3e5a4843b58450e3701bb7912":[8,0,603,15],
 "d5/d0a/class_translator_serbian.html#a95cac05d61b9c60ec6ce2536bf28079c":[8,0,603,3],
 "d5/d0a/class_translator_serbian.html#a96bf58c6291c20746d37c6b20c15301f":[8,0,603,45],
 "d5/d0a/class_translator_serbian.html#a96cbd637a8231ac9456eb278a3822a1e":[8,0,603,59],
@@ -249,5 +239,15 @@ var NAVTREEINDEX36 =
 "d5/d18/structxml_y_y__state.html#a8cf25ebd31e3328c5a2ca600f6c3f2dd":[8,0,634,2],
 "d5/d18/structxml_y_y__state.html#a96e4fe203e294590b51122eceebbf20a":[8,0,634,0],
 "d5/d18/structxml_y_y__state.html#aa76d7fb9e95d3447ea41ac44c49c1358":[8,0,634,3],
-"d5/d18/structxml_y_y__state.html#aae14cab7ff3f1512897997325389304b":[8,0,634,15]
+"d5/d18/structxml_y_y__state.html#aae14cab7ff3f1512897997325389304b":[8,0,634,15],
+"d5/d18/structxml_y_y__state.html#ab336c92488698021bae0c5484cf074e3":[8,0,634,6],
+"d5/d18/structxml_y_y__state.html#aba579c26d99a864ae794244a892bd689":[8,0,634,8],
+"d5/d18/structxml_y_y__state.html#abcc9e6b2990793f3df26c80d1fce7e77":[8,0,634,11],
+"d5/d18/structxml_y_y__state.html#abd972ec09ddaf5ea44f3af10c906582f":[8,0,634,5],
+"d5/d18/structxml_y_y__state.html#acbcbf0033043364d35b526214e8ddef6":[8,0,634,4],
+"d5/d18/structxml_y_y__state.html#ae1517f6453471eec1e347545d1976ed8":[8,0,634,9],
+"d5/d19/class_guarded_section.html":[8,0,306],
+"d5/d19/class_guarded_section.html#a56cd1d1f58762dde6e4a3264bc1c63ea":[8,0,306,1],
+"d5/d19/class_guarded_section.html#a6fdfb98ba49202daae7e14af2fb45ffd":[8,0,306,4],
+"d5/d19/class_guarded_section.html#a705b980ef9c030f19686634b3f0c01a2":[8,0,306,0]
 };

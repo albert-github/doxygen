@@ -1,15 +1,5 @@
 var NAVTREEINDEX57 =
 {
-"d7/dc4/class_docbook_doc_visitor.html#a789f7802c80a054fd7ee0d9e5f2fb4dc":[8,0,121,11],
-"d7/dc4/class_docbook_doc_visitor.html#a7d88687aa2a9c7544925377d4a967fc8":[8,0,121,3],
-"d7/dc4/class_docbook_doc_visitor.html#a7f022b87284463cbdd463a89f13d7694":[8,0,121,45],
-"d7/dc4/class_docbook_doc_visitor.html#a85d9cb1979f0d09164d205bfd447b494":[8,0,121,41],
-"d7/dc4/class_docbook_doc_visitor.html#a9392f6b1374f2be71799e29b52e27c29":[8,0,121,23],
-"d7/dc4/class_docbook_doc_visitor.html#a942b617cd956361afbd314539cab5922":[8,0,121,52],
-"d7/dc4/class_docbook_doc_visitor.html#a967d064892372b073b3a74596cd728bc":[8,0,121,70],
-"d7/dc4/class_docbook_doc_visitor.html#a986a7c2b2b0094683654ef479b0204ef":[8,0,121,43],
-"d7/dc4/class_docbook_doc_visitor.html#a9ecd666271d67f9e23a18d15f1f259e7":[8,0,121,19],
-"d7/dc4/class_docbook_doc_visitor.html#aa1add073cbb95e81ea333d8528797784":[8,0,121,40],
 "d7/dc4/class_docbook_doc_visitor.html#aa29700a65140a358d78dbb9b46f3e520":[8,0,121,35],
 "d7/dc4/class_docbook_doc_visitor.html#aa5dd013610540bba019aaef10157b416":[8,0,121,54],
 "d7/dc4/class_docbook_doc_visitor.html#aa604a879f356a2d4f488ddf4b2534d9b":[8,0,121,77],
@@ -249,5 +239,15 @@ var NAVTREEINDEX57 =
 "d8/d0f/declinfo_8l.html":[9,0,2,42],
 "d8/d0f/declinfo_8l.html#a07a9d0a3847755d092a9a66f17bcb90b":[9,0,2,42,16],
 "d8/d0f/declinfo_8l.html#a15b85de192a189d5a31cdd518e001e6e":[9,0,2,42,4],
-"d8/d0f/declinfo_8l.html#a177a7d7b72fc0be3c1655d9667929b27":[9,0,2,42,15]
+"d8/d0f/declinfo_8l.html#a177a7d7b72fc0be3c1655d9667929b27":[9,0,2,42,15],
+"d8/d0f/declinfo_8l.html#a1b339db61de62f7ec1c6116ba10912ae":[9,0,2,42,14],
+"d8/d0f/declinfo_8l.html#a1d0e1b21cfd1d3709de673b9a6e8a53b":[9,0,2,42,2],
+"d8/d0f/declinfo_8l.html#a1d80d8ed8c19744ed31163f6e7525e54":[9,0,2,42,13],
+"d8/d0f/declinfo_8l.html#a46306330ca4e9148e9f7f76a56cfc991":[9,0,2,42,10],
+"d8/d0f/declinfo_8l.html#a5d5508008cac8fb66fca3baa4e9b6584":[9,0,2,42,7],
+"d8/d0f/declinfo_8l.html#a85523a0c7d95c059d251b4e9829947aa":[9,0,2,42,5],
+"d8/d0f/declinfo_8l.html#a9484188abbc459dafcbd4c96425fa70b":[9,0,2,42,8],
+"d8/d0f/declinfo_8l.html#aacfdca45fa4beb8b06172525a53c424a":[9,0,2,42,3],
+"d8/d0f/declinfo_8l.html#ab55d9546491f096273237772e055d853":[9,0,2,42,12],
+"d8/d0f/declinfo_8l.html#acb5f8818546103e3b804ab8606b52c4a":[9,0,2,42,11]
 };

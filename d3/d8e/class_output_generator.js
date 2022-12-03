@@ -5,6 +5,7 @@ var class_output_generator =
     [ "~OutputGenerator", "d3/d8e/class_output_generator.html#acd612f19fca6b44811a3320f9a5044fd", null ],
     [ "cleanup", "d3/d8e/class_output_generator.html#ad2578340a2c876dede4496c67a4c65f6", null ],
     [ "clone", "d3/d8e/class_output_generator.html#a2173ea4cffcd7a405b73b369c442006f", null ],
+    [ "codeGen", "d3/d8e/class_output_generator.html#a6326b9fb9d65c5138e3491bfc431fe51", null ],
     [ "dir", "d3/d8e/class_output_generator.html#a595e39d22e92ac09d24706829b532b00", null ],
     [ "endAnonTypeScope", "d3/d8e/class_output_generator.html#a3cf66346a0594b1987811bc258b598f6", null ],
     [ "endCallGraph", "d3/d8e/class_output_generator.html#a0b81302d2cef18b5567bacc1d3213787", null ],

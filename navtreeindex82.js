@@ -1,5 +1,6 @@
 var NAVTREEINDEX82 =
 {
+"db/d35/namespacereg.html#a10c804e03b6d547a3748c3042fd5120b":[7,0,6,6],
 "db/d35/namespacereg.html#a1a29dcc7e2ccf462503adc5d496881ae":[7,0,6,10],
 "db/d35/namespacereg.html#a422274e3607fd38891ada1f79d5ce78b":[7,0,6,12],
 "db/d35/namespacereg.html#a5f59e75927731a22be2be5e4d91075b1":[7,0,6,11],
@@ -96,9 +97,8 @@ var NAVTREEINDEX82 =
 "db/d5e/class_inheritance_graph_context_1_1_private.html#aec3c3912c1ab08fe8de9e45c14c1eb71":[8,0,329,0,4],
 "db/d5e/class_inheritance_graph_context_1_1_private.html#af8d0b47b84f81de19304efcfd042c61f":[8,0,329,0,8],
 "db/d5f/class_html_entity_mapper.html":[8,0,313],
-"db/d5f/class_html_entity_mapper.html#a2bd728bca7f82356189881d34d9e6776":[8,0,313,19],
 "db/d5f/class_html_entity_mapper.html#a2fb3bfaff647723db532f2dec86d446e":[8,0,313,4],
-"db/d5f/class_html_entity_mapper.html#a401769ae867a274591c49695c3a819f0":[8,0,313,9],
+"db/d5f/class_html_entity_mapper.html#a401769ae867a274591c49695c3a819f0":[8,0,313,8],
 "db/d5f/class_html_entity_mapper.html#a4911b3c9af98290f7ee0696fc2c8a6a3":[8,0,313,1],
 "db/d5f/class_html_entity_mapper.html#a4911b3c9af98290f7ee0696fc2c8a6a3a0a746987126a0652f79f06fadae9cffd":[8,0,313,1,4],
 "db/d5f/class_html_entity_mapper.html#a4911b3c9af98290f7ee0696fc2c8a6a3a1f7beea596e018c2e12fcd34bb923214":[8,0,313,1,9],
@@ -112,7 +112,7 @@ var NAVTREEINDEX82 =
 "db/d5f/class_html_entity_mapper.html#a4911b3c9af98290f7ee0696fc2c8a6a3ad04402fe2918b7724f6516397fa0d1a3":[8,0,313,1,2],
 "db/d5f/class_html_entity_mapper.html#a4911b3c9af98290f7ee0696fc2c8a6a3af7748fc167a6ee4dbf84a122ee9d40a3":[8,0,313,1,11],
 "db/d5f/class_html_entity_mapper.html#a4911b3c9af98290f7ee0696fc2c8a6a3afedd610e97f6262280751ca949693d82":[8,0,313,1,5],
-"db/d5f/class_html_entity_mapper.html#a56d4e0e2e83a943ea25985c0792f71b0":[8,0,313,12],
+"db/d5f/class_html_entity_mapper.html#a56d4e0e2e83a943ea25985c0792f71b0":[8,0,313,11],
 "db/d5f/class_html_entity_mapper.html#a5fa49b07f0b74254ab5bd5b18474d7df":[8,0,313,2],
 "db/d5f/class_html_entity_mapper.html#a5fa49b07f0b74254ab5bd5b18474d7dfa005c3f8cc9b939256fc3439fcc442fda":[8,0,313,2,237],
 "db/d5f/class_html_entity_mapper.html#a5fa49b07f0b74254ab5bd5b18474d7dfa009456a9fdac8fdc842094eca794fb5f":[8,0,313,2,6],

@@ -1,15 +1,5 @@
 var NAVTREEINDEX67 =
 {
-"d9/d49/types_8h.html#ad3f2a8c13ceee9c0aaeabf930dd88266a255a836d2cd9b5c3d58e71ff153598a5":[9,0,2,289,3,0],
-"d9/d49/types_8h.html#ad3f2a8c13ceee9c0aaeabf930dd88266ac1608a3a222949660e26ab3b0b02c2d8":[9,0,2,289,3,1],
-"d9/d49/types_8h.html#ad3f2a8c13ceee9c0aaeabf930dd88266aeb38ac735dad655f0d49d92a9e4b68e9":[9,0,2,289,3,2],
-"d9/d49/types_8h_source.html":[9,0,2,289],
-"d9/d57/class_index_list.html":[8,0,328],
-"d9/d57/class_index_list.html#a0ba86836f6dbbe9c07c3d5e9c398974b":[8,0,328,1],
-"d9/d57/class_index_list.html#a104b016afa73759d65b08f6c1cced210":[8,0,328,14],
-"d9/d57/class_index_list.html#a18b2beeb1826949562e6fd25edd5228f":[8,0,328,6],
-"d9/d57/class_index_list.html#a2ae70269ec6d9a598eadf0f49570b039":[8,0,328,16],
-"d9/d57/class_index_list.html#a4bad65cd2fadab4529bbfe5df78cc019":[8,0,328,7],
 "d9/d57/class_index_list.html#a4dca6a37ca55f967119e1301ed976aee":[8,0,328,3],
 "d9/d57/class_index_list.html#a4f2482530c2a76d4ecfa2659362cca2b":[8,0,328,11],
 "d9/d57/class_index_list.html#a85b310bcd8bd41aa67eba20c39210a0f":[8,0,328,4],
@@ -249,5 +239,15 @@ var NAVTREEINDEX67 =
 "d9/d82/class_translator_croatian.html#a95224cf59498abd0876a5b1197ac68f8":[8,0,576,141],
 "d9/d82/class_translator_croatian.html#a95d42281050b16f36d7e7b260c53f8e3":[8,0,576,9],
 "d9/d82/class_translator_croatian.html#a963510e90a33b2707c9fffc45ff7cc09":[8,0,576,74],
-"d9/d82/class_translator_croatian.html#a96f1eb4be405b042e408112bf8d84dfc":[8,0,576,161]
+"d9/d82/class_translator_croatian.html#a96f1eb4be405b042e408112bf8d84dfc":[8,0,576,161],
+"d9/d82/class_translator_croatian.html#a98a7ac556ab66ec8a2a66f7a7224f491":[8,0,576,39],
+"d9/d82/class_translator_croatian.html#a9964e73c7bb1aceae539df16ca9de1e5":[8,0,576,131],
+"d9/d82/class_translator_croatian.html#a9a45e4a6cd593c10570d78dd1441a4c3":[8,0,576,200],
+"d9/d82/class_translator_croatian.html#a9e35b757b69a0d6879f6abd64d8f91ca":[8,0,576,68],
+"d9/d82/class_translator_croatian.html#a9fc7033af91d089e67444d79c955ec8c":[8,0,576,130],
+"d9/d82/class_translator_croatian.html#aa187db48d1c9741cfe1c02888a6fad65":[8,0,576,27],
+"d9/d82/class_translator_croatian.html#aa294e184348294ee49a521cfb4e3be78":[8,0,576,107],
+"d9/d82/class_translator_croatian.html#aa2eb500fb2597d7b76330e30ee455e74":[8,0,576,132],
+"d9/d82/class_translator_croatian.html#aa369bf0551c68066f11b8e46a30feba8":[8,0,576,66],
+"d9/d82/class_translator_croatian.html#aa54821992f7c1f8fcbd1fd7cfac0d636":[8,0,576,227]
 };

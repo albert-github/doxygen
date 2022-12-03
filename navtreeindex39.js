@@ -1,15 +1,5 @@
 var NAVTREEINDEX39 =
 {
-"d5/d54/class_class_context_1_1_private.html#ae9ed19658a6c705356bf91de638e1d7d":[8,0,32,0,109],
-"d5/d54/class_class_context_1_1_private.html#aeabc724931ff75265688a30344fe6c79":[8,0,32,0,12],
-"d5/d54/class_class_context_1_1_private.html#aed2e4ca64b2fbab2564122c55325f7a0":[8,0,32,0,15],
-"d5/d54/class_class_context_1_1_private.html#af1d07ddc8dcb7343209213c45bbb29f2":[8,0,32,0,23],
-"d5/d54/class_class_context_1_1_private.html#af3c11d0f99f7b9a8c243a31bbcf5ce24":[8,0,32,0,87],
-"d5/d54/class_class_context_1_1_private.html#af4ece79fff9ee0b9a869ec6f8c13f4df":[8,0,32,0,73],
-"d5/d54/class_class_context_1_1_private.html#af5b67772403a60e78d4ecf28c9af620f":[8,0,32,0,47],
-"d5/d54/class_class_context_1_1_private.html#af8533405b9e5c27e0f85b2abaa877ef4":[8,0,32,0,61],
-"d5/d54/class_class_context_1_1_private.html#afa45805beaa098623e006d60f2dfb428":[8,0,32,0,21],
-"d5/d54/translator__sv_8h.html":[9,0,2,283],
 "d5/d54/translator__sv_8h_source.html":[9,0,2,283],
 "d5/d55/translator__br_8h.html":[9,0,2,248],
 "d5/d55/translator__br_8h_source.html":[9,0,2,248],
@@ -249,5 +239,15 @@ var NAVTREEINDEX39 =
 "d5/d5c/class_translator_swedish.html#ac77ff422e21e77dff023a1e9fde30a36":[8,0,608,162],
 "d5/d5c/class_translator_swedish.html#ac7d2cbb3bad287d49be8399ba1f58d87":[8,0,608,226],
 "d5/d5c/class_translator_swedish.html#ac81787ddadb102d3b16cf314f68b8b53":[8,0,608,189],
-"d5/d5c/class_translator_swedish.html#ac8be7073c5ea39485a5ce7fbe2c87628":[8,0,608,53]
+"d5/d5c/class_translator_swedish.html#ac8be7073c5ea39485a5ce7fbe2c87628":[8,0,608,53],
+"d5/d5c/class_translator_swedish.html#ac8c07c06db37173e0ab9c5271fa021d9":[8,0,608,65],
+"d5/d5c/class_translator_swedish.html#ac8c65bd19bd45d313b20162bde8b1f2b":[8,0,608,199],
+"d5/d5c/class_translator_swedish.html#aca89aec9e93e2fb4774a7731a1257022":[8,0,608,97],
+"d5/d5c/class_translator_swedish.html#acafb8de68bedaa70485675f91b01c377":[8,0,608,211],
+"d5/d5c/class_translator_swedish.html#acc94531a56e349bb2ea509470b5e2e88":[8,0,608,110],
+"d5/d5c/class_translator_swedish.html#acd899397b02f8a3dd1125dcaa8966a1d":[8,0,608,280],
+"d5/d5c/class_translator_swedish.html#acdcf34dd7e1fd843df53f4f24e75d94b":[8,0,608,224],
+"d5/d5c/class_translator_swedish.html#ace3d057b3ca47baa8ca65dbad18070fe":[8,0,608,44],
+"d5/d5c/class_translator_swedish.html#acecc4f28f8b798e73a6b1431c3df2b2e":[8,0,608,135],
+"d5/d5c/class_translator_swedish.html#acf4f5c7fe541b8d1755a00689b9dd910":[8,0,608,220]
 };

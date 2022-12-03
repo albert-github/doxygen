@@ -582,7 +582,7 @@ var searchData=
   ['macros_579',['macros',['../d1/d8e/struct_file_context_1_1_private_1_1_cachable.html#a36776918714c2430a1f74f985775b627',1,'FileContext::Private::Cachable::macros()'],['../d4/deb/struct_module_context_1_1_private_1_1_cachable.html#a48d5c902effff28c4b8e2951bc5adcf2',1,'ModuleContext::Private::Cachable::macros()']]],
   ['mainpage_580',['mainPage',['../de/d6a/class_doxygen.html#a2cc3616eca3e3c550a211d8b1eaf4661',1,'Doxygen']]],
   ['mainprograms_581',['mainPrograms',['../d6/d4a/structfortranscanner_y_y__state.html#ae604d4642c3ae343ac91644cd0a48ac7',1,'fortranscannerYY_state']]],
-  ['man_582',['man',['../d2/d34/structhtml_entity_info.html#abf7df55d6a691137ed9aa121f167f155',1,'htmlEntityInfo']]],
+  ['man_582',['man',['../da/dd4/struct_html_entity_info.html#ab99dd76f45b508602f65566c4ca91465',1,'HtmlEntityInfo']]],
   ['man_5flistiteminfo_583',['man_listItemInfo',['../d8/dde/mandocvisitor_8cpp.html#a1f3a5437345b77a74c9c47e7375a863f',1,'man_listItemInfo():&#160;mandocvisitor.cpp'],['../d6/d6e/mandocvisitor_8h.html#a1f3a5437345b77a74c9c47e7375a863f',1,'man_listItemInfo():&#160;mandocvisitor.cpp']]],
   ['man_5fmaxindentlevels_584',['man_maxIndentLevels',['../d6/d6e/mandocvisitor_8h.html#aa69b3884b5bbf1943d0aa75dde843000',1,'mandocvisitor.h']]],
   ['map_5ft_585',['MAP_T',['../d5/df4/namespacevhdl_1_1parser.html#a088fd9837c0b04dd800147e52decfcba',1,'vhdl::parser']]],

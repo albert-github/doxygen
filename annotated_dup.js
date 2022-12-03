@@ -355,7 +355,7 @@ var annotated_dup =
     [ "HtmlAttribList", "db/d4d/class_html_attrib_list.html", null ],
     [ "HtmlCodeGenerator", "da/db6/class_html_code_generator.html", "da/db6/class_html_code_generator" ],
     [ "HtmlDocVisitor", "d5/d1b/class_html_doc_visitor.html", "d5/d1b/class_html_doc_visitor" ],
-    [ "htmlEntityInfo", "d2/d34/structhtml_entity_info.html", "d2/d34/structhtml_entity_info" ],
+    [ "HtmlEntityInfo", "da/dd4/struct_html_entity_info.html", "da/dd4/struct_html_entity_info" ],
     [ "HtmlEntityMapper", "db/d5f/class_html_entity_mapper.html", "db/d5f/class_html_entity_mapper" ],
     [ "HtmlEscaper", "dc/d97/class_html_escaper.html", "dc/d97/class_html_escaper" ],
     [ "HtmlGenerator", "d7/d41/class_html_generator.html", "d7/d41/class_html_generator" ],

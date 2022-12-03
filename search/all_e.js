@@ -609,7 +609,7 @@ var searchData=
   ['makestructuralindicator_606',['makeStructuralIndicator',['../d7/d5f/commentscan_8l.html#a248cf4e00b2a9088d506b30c6fa9fa7b',1,'commentscan.l']]],
   ['maketemplateargument_607',['makeTemplateArgument',['../d0/dc2/class_class_def_mutable.html#a2612e395bff76cdb264d5e2a2165ddd2',1,'ClassDefMutable::makeTemplateArgument()'],['../d1/d25/class_class_def_impl.html#ac976200db875676a76067b9dba021b3d',1,'ClassDefImpl::makeTemplateArgument()']]],
   ['maketruncated_608',['makeTruncated',['../d1/d6f/class_dot_dir_property_builder.html#af8102fc87410b5684c8e4951706e52d9',1,'DotDirPropertyBuilder']]],
-  ['man_609',['man',['../db/d5f/class_html_entity_mapper.html#ae69bb690ab38e84854b912b68e71cf79',1,'HtmlEntityMapper::man()'],['../d2/d34/structhtml_entity_info.html#abf7df55d6a691137ed9aa121f167f155',1,'htmlEntityInfo::man()']]],
+  ['man_609',['man',['../db/d5f/class_html_entity_mapper.html#ae69bb690ab38e84854b912b68e71cf79',1,'HtmlEntityMapper::man()'],['../da/dd4/struct_html_entity_info.html#ab99dd76f45b508602f65566c4ca91465',1,'HtmlEntityInfo::man()']]],
   ['man_610',['Man',['../df/d06/outputgen_8h.html#a4e0517338e6c4a31a2addafc06d4f3a3a627661c621eab1b7b298abc47d1a250d',1,'outputgen.h']]],
   ['man_5flistiteminfo_611',['man_listItemInfo',['../d6/d6e/mandocvisitor_8h.html#a1f3a5437345b77a74c9c47e7375a863f',1,'man_listItemInfo():&#160;mandocvisitor.cpp'],['../d8/dde/mandocvisitor_8cpp.html#a1f3a5437345b77a74c9c47e7375a863f',1,'man_listItemInfo():&#160;mandocvisitor.cpp']]],
   ['man_5fmaxindentlevels_612',['man_maxIndentLevels',['../d6/d6e/mandocvisitor_8h.html#aa69b3884b5bbf1943d0aa75dde843000',1,'mandocvisitor.h']]],

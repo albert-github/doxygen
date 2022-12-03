@@ -176,6 +176,6 @@ var searchData=
   ['istypedef_173',['isTypedef',['../d4/dfb/structscanner_y_y__state.html#afb9005206d265663dcc25b4b09a7b103',1,'scannerYY_state']]],
   ['istypedefvalcached_174',['isTypedefValCached',['../d0/da8/class_member_def_impl_1_1_i_m_p_l.html#a76b280cc2fa9ef8e3fe5d56c5a63cb26',1,'MemberDefImpl::IMPL']]],
   ['it_175',['it',['../d2/d3c/struct_dir_iterator_1_1_private.html#acc4c8ee36babbe86d6e63f957abda825',1,'DirIterator::Private']]],
-  ['item_176',['item',['../d3/d6a/struct_access_stack_1_1_access_elem.html#a8413f32dd12451d6b488a8fe48bedec3',1,'AccessStack::AccessElem::item()'],['../d2/d34/structhtml_entity_info.html#a65e6a9a3e637ba8ada19f24d362805a6',1,'htmlEntityInfo::item()']]],
+  ['item_176',['item',['../d3/d6a/struct_access_stack_1_1_access_elem.html#a8413f32dd12451d6b488a8fe48bedec3',1,'AccessStack::AccessElem::item()'],['../da/dd4/struct_html_entity_info.html#a8373d492ab88e73d7d342ad90e49bb33',1,'HtmlEntityInfo::item()']]],
   ['iterators_177',['iterators',['../d5/dc7/struct_s_t_l_info.html#aa6a51c8426777163389453b971b338eb',1,'STLInfo']]]
 ];
