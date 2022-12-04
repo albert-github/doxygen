@@ -9,7 +9,7 @@ var searchData=
   ['_5fhasvisiblecallergraph_6',['_hasVisibleCallerGraph',['../d7/d7e/class_member_def_impl.html#a00514e707a17d68b52b60218ae7c1dfd',1,'MemberDefImpl']]],
   ['_5fhasvisiblecallgraph_7',['_hasVisibleCallGraph',['../d7/d7e/class_member_def_impl.html#a32cd3e688d0489c3b35a362162fe7acf',1,'MemberDefImpl']]],
   ['_5fisreimplements_8',['_isReimplements',['../d7/d7e/class_member_def_impl.html#a0860f5779a240d32f68e1f86a1863a01',1,'MemberDefImpl']]],
-  ['_5fsetbriefdescription_9',['_setBriefDescription',['../d3/ddf/class_definition_impl.html#a6186d18c10f70c306f913cc9de81a441',1,'DefinitionImpl']]],
+  ['_5fsetbriefdescription_9',['_setBriefDescription',['../d3/ddf/class_definition_impl.html#a9ceffba2b6aa38d2ef78e80730b90bf0',1,'DefinitionImpl']]],
   ['_5fsetdocumentation_10',['_setDocumentation',['../d3/ddf/class_definition_impl.html#ad5813e8f0f46839bf4f31d2f82789089',1,'DefinitionImpl']]],
   ['_5fsetinbodydocumentation_11',['_setInbodyDocumentation',['../d3/ddf/class_definition_impl.html#a560d9d3845b99154c286dd6e50f0f934',1,'DefinitionImpl']]],
   ['_5fsetsymbolname_12',['_setSymbolName',['../d5/dcc/class_definition.html#ab0059012da8842e6a1768b0448f32867',1,'Definition::_setSymbolName()'],['../d3/ddf/class_definition_impl.html#afca820c7fd41867146ad0151f9072a96',1,'DefinitionImpl::_setSymbolName()'],['../dd/d10/class_definition_mixin.html#ad10cbf35a81425daccac9c4c517ce0a5',1,'DefinitionMixin::_setSymbolName()'],['../d8/d83/class_definition_alias_mixin.html#a24b98e5a644fc8811c0579a8ad62b26d',1,'DefinitionAliasMixin::_setSymbolName(const QCString &amp;name)']]],
