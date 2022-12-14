@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['reg_0',['reg',['../db/d35/namespacereg.html',1,'']]]
+  ['namespacememberhighlight_0',['NamespaceMemberHighlight',['../da/d4d/namespace_namespace_member_highlight.html',1,'']]]
 ];

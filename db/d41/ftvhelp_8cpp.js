@@ -18,6 +18,5 @@ var ftvhelp_8cpp =
     [ "generateJSTree", "db/d41/ftvhelp_8cpp.html#a2945edc16c199a62e84ee85d81b9c854", null ],
     [ "node2URL", "db/d41/ftvhelp_8cpp.html#a4e52d619e02e6a48b41aa65affcac398", null ],
     [ "pathToNode", "db/d41/ftvhelp_8cpp.html#a8e90c9de4676d5baf1fb570c0c0c0495", null ],
-    [ "folderId", "db/d41/ftvhelp_8cpp.html#a31f59f9826bff33dfe4a46af159daa4b", null ],
-    [ "JAVASCRIPT_LICENSE_TEXT", "db/d41/ftvhelp_8cpp.html#a753ac648d626b69287e3907409802dd3", null ]
+    [ "folderId", "db/d41/ftvhelp_8cpp.html#a31f59f9826bff33dfe4a46af159daa4b", null ]
 ];

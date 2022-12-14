@@ -2,6 +2,7 @@ var class_namespace_def =
 [
     [ "anchor", "d0/d07/class_namespace_def.html#a11f430c8101fb0dbe309933cc04aa1aa", null ],
     [ "compoundTypeString", "d0/d07/class_namespace_def.html#a6189830ef990cb1f6c91c8df8e4885cd", null ],
+    [ "countVisibleMembers", "d0/d07/class_namespace_def.html#aa7a3c112d07ba84402099c66a6bda130", null ],
     [ "definitionType", "d0/d07/class_namespace_def.html#ab9a9eab1352f265e4b65d7fbb9ff08e0", null ],
     [ "displayName", "d0/d07/class_namespace_def.html#a6ac0f0a41addcfb9824036f1d06699a3", null ],
     [ "findInnerCompound", "d0/d07/class_namespace_def.html#a4d5d43fcbcaaff28838301f974e95fb2", null ],

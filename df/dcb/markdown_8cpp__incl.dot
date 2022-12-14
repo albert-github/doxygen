@@ -108,6 +108,9 @@ digraph "/home/runner/work/doxygen/doxygen/src/markdown.cpp"
   Node37 -> Node20 [color="steelblue1",style="solid"];
   Node37 -> Node39 [color="steelblue1",style="solid"];
   Node39 [label="index.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/db5/index_8h.html",tooltip=" "];
+  Node39 -> Node18 [color="steelblue1",style="solid"];
+  Node39 -> Node22 [color="steelblue1",style="solid"];
+  Node39 -> Node19 [color="steelblue1",style="solid"];
   Node39 -> Node7 [color="steelblue1",style="solid"];
   Node37 -> Node40 [color="steelblue1",style="solid"];
   Node40 [label="section.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d2a/section_8h.html",tooltip=" "];
@@ -243,7 +246,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/markdown.cpp"
   Node64 -> Node48 [color="steelblue1",style="solid"];
   Node64 -> Node42 [color="steelblue1",style="solid"];
   Node1 -> Node65 [color="steelblue1",style="solid"];
-  Node65 [label="commentcnv.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d9a/commentcnv_8h.html",tooltip=" "];
+  Node65 [label="commentcnv.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d9a/commentcnv_8h.html",tooltip="First pass comment processing."];
   Node1 -> Node66 [color="steelblue1",style="solid"];
   Node66 [label="config.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d16/config_8h.html",tooltip=" "];
   Node66 -> Node67 [color="steelblue1",style="solid"];

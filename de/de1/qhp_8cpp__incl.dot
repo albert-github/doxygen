@@ -214,6 +214,9 @@ digraph "/home/runner/work/doxygen/doxygen/src/qhp.cpp"
   Node60 -> Node20 [color="steelblue1",style="solid"];
   Node60 -> Node61 [color="steelblue1",style="solid"];
   Node61 [label="index.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/db5/index_8h.html",tooltip=" "];
+  Node61 -> Node4 [color="steelblue1",style="solid"];
+  Node61 -> Node6 [color="steelblue1",style="solid"];
+  Node61 -> Node15 [color="steelblue1",style="solid"];
   Node61 -> Node21 [color="steelblue1",style="solid"];
   Node60 -> Node62 [color="steelblue1",style="solid"];
   Node62 [label="section.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d2a/section_8h.html",tooltip=" "];

@@ -38,7 +38,7 @@ var class_translator_polish =
     [ "trCopyright", "de/d82/class_translator_polish.html#a153f56dc96f1f3fa3caccf30a556ba04", null ],
     [ "trDataTypes", "de/d82/class_translator_polish.html#acb28b0dd728c14571732cad0353ad699", null ],
     [ "trDate", "de/d82/class_translator_polish.html#a3e7bf0ac2c5231a890e4f4ad557834d0", null ],
-    [ "trDateTime", "de/d82/class_translator_polish.html#a1e1a6d5b779d7b0d73863691810b31d9", null ],
+    [ "trDateTime", "de/d82/class_translator_polish.html#a55f12adb65ae2e2908150616bc58fdfd", null ],
     [ "trDayOfWeek", "de/d82/class_translator_polish.html#a0386207687f70bef87b04a38a5ee0076", null ],
     [ "trDayPeriod", "de/d82/class_translator_polish.html#a697edf12618fcb9a30351ec15ec46aa7", null ],
     [ "trDefinedAtLineInSourceFile", "de/d82/class_translator_polish.html#ad83d6e77bfb1873911f888cc35ee54d8", null ],

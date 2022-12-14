@@ -310,6 +310,9 @@ digraph "/home/runner/work/doxygen/doxygen/src/docparser.cpp"
   Node81 -> Node28 [color="steelblue1",style="solid"];
   Node81 -> Node83 [color="steelblue1",style="solid"];
   Node83 [label="index.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/db5/index_8h.html",tooltip=" "];
+  Node83 -> Node10 [color="steelblue1",style="solid"];
+  Node83 -> Node9 [color="steelblue1",style="solid"];
+  Node83 -> Node24 [color="steelblue1",style="solid"];
   Node83 -> Node14 [color="steelblue1",style="solid"];
   Node81 -> Node84 [color="steelblue1",style="solid"];
   Node84 [label="section.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d2a/section_8h.html",tooltip=" "];

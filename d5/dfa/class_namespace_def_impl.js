@@ -15,6 +15,7 @@ var class_namespace_def_impl =
     [ "compoundTypeString", "d5/dfa/class_namespace_def_impl.html#a54192ab35ec074296fce8308a20497de", null ],
     [ "computeAnchors", "d5/dfa/class_namespace_def_impl.html#a6aaadf3e4ae1e94ee4f2b0b43fe92cc4", null ],
     [ "countMembers", "d5/dfa/class_namespace_def_impl.html#a94037829589e88800b76971e746ffc6d", null ],
+    [ "countVisibleMembers", "d5/dfa/class_namespace_def_impl.html#a8e6f480ca7aafcb49c05ce783e9c177a", null ],
     [ "definitionType", "d5/dfa/class_namespace_def_impl.html#a41d48ee1c2ded9aaca779db82120d546", null ],
     [ "displayName", "d5/dfa/class_namespace_def_impl.html#a6a9d7d6174498f1d4bfb8ab2e18ad085", null ],
     [ "distributeMemberGroupDocumentation", "d5/dfa/class_namespace_def_impl.html#a8a074824c6d80d808bc52fa970addbdf", null ],

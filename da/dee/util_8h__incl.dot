@@ -77,6 +77,9 @@ digraph "/home/runner/work/doxygen/doxygen/src/util.h"
   Node28 -> Node8 [color="steelblue1",style="solid"];
   Node28 -> Node30 [color="steelblue1",style="solid"];
   Node30 [label="index.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/db5/index_8h.html",tooltip=" "];
+  Node30 -> Node2 [color="steelblue1",style="solid"];
+  Node30 -> Node21 [color="steelblue1",style="solid"];
+  Node30 -> Node25 [color="steelblue1",style="solid"];
   Node30 -> Node9 [color="steelblue1",style="solid"];
   Node28 -> Node31 [color="steelblue1",style="solid"];
   Node31 [label="section.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d2a/section_8h.html",tooltip=" "];

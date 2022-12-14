@@ -38,7 +38,7 @@ var class_translator_croatian =
     [ "trCopyright", "d9/d82/class_translator_croatian.html#a3551539c8ac3b746f1c771870b984587", null ],
     [ "trDataTypes", "d9/d82/class_translator_croatian.html#ae56de72f5f2b9fca50e762a1c09006c9", null ],
     [ "trDate", "d9/d82/class_translator_croatian.html#a4cd393a6fd8db1d7fc9f05352bc018c2", null ],
-    [ "trDateTime", "d9/d82/class_translator_croatian.html#ab0b72227f89c1eacf7add3ddb4af4dc9", null ],
+    [ "trDateTime", "d9/d82/class_translator_croatian.html#a8372f0780a13a6b296b925d979d80aae", null ],
     [ "trDayOfWeek", "d9/d82/class_translator_croatian.html#a98a7ac556ab66ec8a2a66f7a7224f491", null ],
     [ "trDayPeriod", "d9/d82/class_translator_croatian.html#a84c94480758000207eadeddb26aeacdf", null ],
     [ "trDefinedAtLineInSourceFile", "d9/d82/class_translator_croatian.html#aeb559bb2330704a787148cae40014ada", null ],

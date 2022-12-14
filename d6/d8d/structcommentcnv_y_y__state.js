@@ -1,5 +1,6 @@
 var structcommentcnv_y_y__state =
 [
+    [ "commentcnvYY_state", "d6/d8d/structcommentcnv_y_y__state.html#a1983346907e2233fa0ed6bf9a1aa5697", null ],
     [ "aliasString", "d6/d8d/structcommentcnv_y_y__state.html#ac2ab72a72e57a25efaa1f78aa6c94390", null ],
     [ "blockCount", "d6/d8d/structcommentcnv_y_y__state.html#a9b4152b9719bdf41085d451363cb38a9", null ],
     [ "blockHeadCol", "d6/d8d/structcommentcnv_y_y__state.html#acd7164e6c72b720a20534277045586a6", null ],
@@ -10,7 +11,7 @@ var structcommentcnv_y_y__state =
     [ "condCtx", "d6/d8d/structcommentcnv_y_y__state.html#a9e9a97367699c85401b604f986bf722a", null ],
     [ "condStack", "d6/d8d/structcommentcnv_y_y__state.html#a7160443ca2fc780ef74b8061235d448c", null ],
     [ "fileName", "d6/d8d/structcommentcnv_y_y__state.html#a9b9bfccd45eebf597a300c15f40f9e6f", null ],
-    [ "inBuf", "d6/d8d/structcommentcnv_y_y__state.html#aade2d495f25886c9be96d5df37060ce6", null ],
+    [ "inBuf", "d6/d8d/structcommentcnv_y_y__state.html#aeb462c0d0afe6febd2656ee30986740d", null ],
     [ "inBufPos", "d6/d8d/structcommentcnv_y_y__state.html#aefbdd53f60c5f40405cac654539c847e", null ],
     [ "inRoseComment", "d6/d8d/structcommentcnv_y_y__state.html#a85a8a5d0295efd5224ffde61c619ecf7", null ],
     [ "inSpecialComment", "d6/d8d/structcommentcnv_y_y__state.html#a4c49a89ecb4121413585fae6f955c9b4", null ],
@@ -23,7 +24,7 @@ var structcommentcnv_y_y__state =
     [ "lineNr", "d6/d8d/structcommentcnv_y_y__state.html#aaded48e5f95c5c4ed675d28a1ff5d075", null ],
     [ "mlBrief", "d6/d8d/structcommentcnv_y_y__state.html#a0c5cae12ab82be7eee1b1a45b3b2b777", null ],
     [ "nestingCount", "d6/d8d/structcommentcnv_y_y__state.html#a0befbefac95b4b0b8bda90f7fd21fb1e", null ],
-    [ "outBuf", "d6/d8d/structcommentcnv_y_y__state.html#a4f554b920d9447a4b33cb446c4f4164f", null ],
+    [ "outBuf", "d6/d8d/structcommentcnv_y_y__state.html#a0a0a8e7e92ac78093dbad74bae1385cb", null ],
     [ "pythonDocString", "d6/d8d/structcommentcnv_y_y__state.html#a98561a307cd98c48484eb2feaa1a8bbc", null ],
     [ "readLineCtx", "d6/d8d/structcommentcnv_y_y__state.html#a3c47b1ff9aaf968c099c124b901b875c", null ],
     [ "skip", "d6/d8d/structcommentcnv_y_y__state.html#a51c7569d07a26d5f395bd2caf46ffd80", null ],

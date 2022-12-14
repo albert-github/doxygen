@@ -58,7 +58,7 @@ var class_translator_chinese =
     [ "trDataMembers", "d6/db6/class_translator_chinese.html#a8d474d89b1dffde73b980b0d3bd0230f", null ],
     [ "trDataTypes", "d6/db6/class_translator_chinese.html#a6d8814bd6b69896ad0209dd6ba075cf7", null ],
     [ "trDate", "d6/db6/class_translator_chinese.html#a13175654fbbe4a3e53e3ed83f1b1c32d", null ],
-    [ "trDateTime", "d6/db6/class_translator_chinese.html#a9440bfa8100d9e24f0db13310978cd25", null ],
+    [ "trDateTime", "d6/db6/class_translator_chinese.html#aab713b3022a537aa870e45f05767e5e1", null ],
     [ "trDayOfWeek", "d6/db6/class_translator_chinese.html#a0583f7f75b0700191ace18e2dcfcdfcf", null ],
     [ "trDayPeriod", "d6/db6/class_translator_chinese.html#a214adc939d1c0b3b12a3e7b30bd0e811", null ],
     [ "trDefinedAtLineInSourceFile", "d6/db6/class_translator_chinese.html#a3628119a560e605599ad8e5935df5d2a", null ],

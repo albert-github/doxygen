@@ -195,6 +195,9 @@ digraph "/home/runner/work/doxygen/doxygen/src/pycode.l"
   Node54 -> Node13 [color="steelblue1",style="solid"];
   Node54 -> Node55 [color="steelblue1",style="solid"];
   Node55 [label="index.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/db5/index_8h.html",tooltip=" "];
+  Node55 -> Node11 [color="steelblue1",style="solid"];
+  Node55 -> Node3 [color="steelblue1",style="solid"];
+  Node55 -> Node12 [color="steelblue1",style="solid"];
   Node55 -> Node14 [color="steelblue1",style="solid"];
   Node54 -> Node56 [color="steelblue1",style="solid"];
   Node56 [label="section.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d2a/section_8h.html",tooltip=" "];

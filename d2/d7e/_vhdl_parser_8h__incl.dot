@@ -168,6 +168,9 @@ digraph "/home/runner/work/doxygen/doxygen/vhdlparser/VhdlParser.h"
   Node50 -> Node15 [color="steelblue1",style="solid"];
   Node50 -> Node51 [color="steelblue1",style="solid"];
   Node51 [label="index.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/db5/index_8h.html",tooltip=" "];
+  Node51 -> Node4 [color="steelblue1",style="solid"];
+  Node51 -> Node12 [color="steelblue1",style="solid"];
+  Node51 -> Node14 [color="steelblue1",style="solid"];
   Node51 -> Node16 [color="steelblue1",style="solid"];
   Node50 -> Node52 [color="steelblue1",style="solid"];
   Node52 [label="section.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d2a/section_8h.html",tooltip=" "];

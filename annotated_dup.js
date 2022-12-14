@@ -370,6 +370,7 @@ var annotated_dup =
     [ "IncludeInfoContext", "d2/dfe/class_include_info_context.html", "d2/dfe/class_include_info_context" ],
     [ "IncludeInfoList", "d5/d53/class_include_info_list.html", null ],
     [ "IncludeInfoListContext", "d3/d57/class_include_info_list_context.html", "d3/d57/class_include_info_list_context" ],
+    [ "Index", "d3/de8/class_index.html", "d3/de8/class_index" ],
     [ "IndexField", "dd/d1b/struct_index_field.html", "dd/d1b/struct_index_field" ],
     [ "IndexList", "d9/d57/class_index_list.html", "d9/d57/class_index_list" ],
     [ "InheritanceGraphContext", "d2/d30/class_inheritance_graph_context.html", "d2/d30/class_inheritance_graph_context" ],

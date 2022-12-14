@@ -13,7 +13,7 @@ var commentcnv_8l =
     [ "yyscan_t", "d0/d47/commentcnv_8l.html#a9484188abbc459dafcbd4c96425fa70b", null ],
     [ "clearCommentStack", "d0/d47/commentcnv_8l.html#ac28578b1034a1f4803dd53216ab2bfda", null ],
     [ "computeIndent", "d0/d47/commentcnv_8l.html#a2b4acd8f05e7bebf0528ec710692f758", null ],
-    [ "convertCppComments", "d0/d47/commentcnv_8l.html#a04d92f4281c65ebe972f5bf92bcb4a09", null ],
+    [ "convertCppComments", "d0/d47/commentcnv_8l.html#a86bfdd1f538466f88775c02d4159c0ec", null ],
     [ "copyToOutput", "d0/d47/commentcnv_8l.html#a6af10d5bb9a436e8d3b74fefb86034ea", null ],
     [ "endCondSection", "d0/d47/commentcnv_8l.html#a34860cedec3675010f3293403abd9bd3", null ],
     [ "getLexerFILE", "d0/d47/commentcnv_8l.html#acb5f8818546103e3b804ab8606b52c4a", null ],

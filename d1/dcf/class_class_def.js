@@ -49,7 +49,7 @@ var class_class_def =
     [ "insertTemplateInstance", "d1/dcf/class_class_def.html#a9cdbbcba038909c2ae9de31c14e30d3b", null ],
     [ "isAbstract", "d1/dcf/class_class_def.html#a12dd6a6b0ac63233a82327a8b2d2d9f2", null ],
     [ "isAccessibleMember", "d1/dcf/class_class_def.html#aa4f8aa899e9bf12dacd3442c9647bac4", null ],
-    [ "isBaseClass", "d1/dcf/class_class_def.html#aa6cc7f565f801818dace174a6b4d73f3", null ],
+    [ "isBaseClass", "d1/dcf/class_class_def.html#a3e118df515565a29662b41396ee66579", null ],
     [ "isCSharp", "d1/dcf/class_class_def.html#a8bfbc9a9cc5af4db69a0b5a796a28d38", null ],
     [ "isEmbeddedInOuterScope", "d1/dcf/class_class_def.html#ac86d2e29cb6233d073aa4c9b5ea726af", null ],
     [ "isExtension", "d1/dcf/class_class_def.html#a8a066b13127c13f73ae916af7d883ea1", null ],

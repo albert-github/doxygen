@@ -50,6 +50,7 @@ var util_8h =
     [ "findFileDef", "d8/d3c/util_8h.html#af891990268daeb8713d18d154b84ffdb", null ],
     [ "findIndex", "d8/d3c/util_8h.html#a0b4385a8257f0b917af2bc2a093c6c7b", null ],
     [ "findIndex", "d8/d3c/util_8h.html#aa148f513c64eba8bfd7f3e775c711514", null ],
+    [ "fixSpaces", "d8/d3c/util_8h.html#a3eea3729e8c341a13f1976a0ffea49be", null ],
     [ "generateFileRef", "d8/d3c/util_8h.html#a6d233fda4b28cca1389cf9a662d34c95", null ],
     [ "generateLink", "d8/d3c/util_8h.html#a15af517f7e4ec3916072a3034028ae56", null ],
     [ "generateMarker", "d8/d3c/util_8h.html#a5530a73bd518581ac62e4eee5bc2f6db", null ],

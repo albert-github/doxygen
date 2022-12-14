@@ -36,7 +36,7 @@ var class_translator_indonesian =
     [ "trCopyright", "df/dc8/class_translator_indonesian.html#a63d763f3ecdeb38fc19708335f302970", null ],
     [ "trDataTypes", "df/dc8/class_translator_indonesian.html#a0f2871d2288f40d6c52f1a23f5c9d8e4", null ],
     [ "trDate", "df/dc8/class_translator_indonesian.html#a6578f99f83d533cc5590e425bdc7d107", null ],
-    [ "trDateTime", "df/dc8/class_translator_indonesian.html#a26efccc2faab1ef41c88d88c8f4c6bfc", null ],
+    [ "trDateTime", "df/dc8/class_translator_indonesian.html#aeccf407583487a91e90781f7009ddb81", null ],
     [ "trDayOfWeek", "df/dc8/class_translator_indonesian.html#a2ffe73f8c6e68d7641d90c167f112dc3", null ],
     [ "trDayPeriod", "df/dc8/class_translator_indonesian.html#a3b1998c105793ac670c0c569f01af9cf", null ],
     [ "trDefinedAtLineInSourceFile", "df/dc8/class_translator_indonesian.html#a97cacf479c2561c945b0dffa5e8ff2d7", null ],

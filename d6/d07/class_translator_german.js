@@ -42,7 +42,7 @@ var class_translator_german =
     [ "trCustomReference", "d6/d07/class_translator_german.html#a49e3ab79d002cfeaa46b625a00be906b", null ],
     [ "trDataTypes", "d6/d07/class_translator_german.html#a74a8536e0227caf31ce07dee701c542a", null ],
     [ "trDate", "d6/d07/class_translator_german.html#af8740d3be4ae5ee2f6ebfeb3c9a75106", null ],
-    [ "trDateTime", "d6/d07/class_translator_german.html#a4fa0e3cf73ad2b63a6c475156201408b", null ],
+    [ "trDateTime", "d6/d07/class_translator_german.html#a16dc860b1ac0e41413a574ef55705d8c", null ],
     [ "trDayOfWeek", "d6/d07/class_translator_german.html#ad160ddf5626afb137fcaa781a79ea4cc", null ],
     [ "trDayPeriod", "d6/d07/class_translator_german.html#ac881a854a27b6f60aa2129d45cbd7e98", null ],
     [ "trDefinedAtLineInSourceFile", "d6/d07/class_translator_german.html#ac7f5098a2bd658cba106f74638cfb0b4", null ],

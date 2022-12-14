@@ -54,7 +54,7 @@ var class_translator_bulgarian =
     [ "trDataMembers", "da/dbb/class_translator_bulgarian.html#a21e8b91396cf28939fd73ba8e6225c20", null ],
     [ "trDataTypes", "da/dbb/class_translator_bulgarian.html#a65f840a16d882a53b6cb3965d579707e", null ],
     [ "trDate", "da/dbb/class_translator_bulgarian.html#aef9e2095bee11187522f102392f613b5", null ],
-    [ "trDateTime", "da/dbb/class_translator_bulgarian.html#af2f8e645ac17e0d7d771bd95bfbdb9c6", null ],
+    [ "trDateTime", "da/dbb/class_translator_bulgarian.html#ad84dd3438e8be62920deb10f92315315", null ],
     [ "trDayOfWeek", "da/dbb/class_translator_bulgarian.html#a770c683025b228485139cb667826d518", null ],
     [ "trDayPeriod", "da/dbb/class_translator_bulgarian.html#ae187758c8592857b8b596e5719ef3842", null ],
     [ "trDefinedAtLineInSourceFile", "da/dbb/class_translator_bulgarian.html#a2ca907ee1b9e31558cdfd60220159bcb", null ],

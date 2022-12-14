@@ -5,6 +5,7 @@ var class_namespace_def_alias_impl =
     [ "anchor", "d2/d9c/class_namespace_def_alias_impl.html#a4e1a966e7a9a154b2277f5e811337043", null ],
     [ "codeSymbolType", "d2/d9c/class_namespace_def_alias_impl.html#a9d89f268bf4d4dd368090c8f6a72acd8", null ],
     [ "compoundTypeString", "d2/d9c/class_namespace_def_alias_impl.html#a2a45b615955751d4a69f4278b0d37b50", null ],
+    [ "countVisibleMembers", "d2/d9c/class_namespace_def_alias_impl.html#acb54844515f91f49bd9e4843dd41920f", null ],
     [ "definitionType", "d2/d9c/class_namespace_def_alias_impl.html#a7733abdc3662d97b87270662a80f4ce2", null ],
     [ "displayName", "d2/d9c/class_namespace_def_alias_impl.html#a66bf2de5ae84203d026d9d1126f4df54", null ],
     [ "findInnerCompound", "d2/d9c/class_namespace_def_alias_impl.html#a014418c67e6678ae0bc6fc43374d4334", null ],

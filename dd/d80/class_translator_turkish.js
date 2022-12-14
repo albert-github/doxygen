@@ -34,7 +34,7 @@ var class_translator_turkish =
     [ "trConstructorDocumentation", "dd/d80/class_translator_turkish.html#a55fc2a6032b48c6e6a70ef3da2132120", null ],
     [ "trDataTypes", "dd/d80/class_translator_turkish.html#a95ab6811492f0ef7ce30856b56a14e58", null ],
     [ "trDate", "dd/d80/class_translator_turkish.html#a41108f71acc619785c93970c6a82f920", null ],
-    [ "trDateTime", "dd/d80/class_translator_turkish.html#a5d517565cb0e2aa4dfc9d070f0788776", null ],
+    [ "trDateTime", "dd/d80/class_translator_turkish.html#a4b210000484a4ec9592d5aeef44c7a61", null ],
     [ "trDayOfWeek", "dd/d80/class_translator_turkish.html#a94fcca01a15f86629986a3deb1e417af", null ],
     [ "trDayPeriod", "dd/d80/class_translator_turkish.html#a66d39ddf7c7ae3f521ee7f90293043c1", null ],
     [ "trDefinedAtLineInSourceFile", "dd/d80/class_translator_turkish.html#a89a3e3a0153377903dcb813e3e570266", null ],

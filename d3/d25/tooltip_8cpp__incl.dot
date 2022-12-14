@@ -73,6 +73,9 @@ digraph "/home/runner/work/doxygen/doxygen/src/tooltip.cpp"
   Node22 -> Node10 [color="steelblue1",style="solid"];
   Node22 -> Node26 [color="steelblue1",style="solid"];
   Node26 [label="index.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/db5/index_8h.html",tooltip=" "];
+  Node26 -> Node3 [color="steelblue1",style="solid"];
+  Node26 -> Node9 [color="steelblue1",style="solid"];
+  Node26 -> Node2 [color="steelblue1",style="solid"];
   Node26 -> Node11 [color="steelblue1",style="solid"];
   Node22 -> Node27 [color="steelblue1",style="solid"];
   Node27 [label="section.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d2a/section_8h.html",tooltip=" "];

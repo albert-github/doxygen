@@ -66,6 +66,9 @@ digraph "/home/runner/work/doxygen/doxygen/src/fileparser.cpp"
   Node24 -> Node8 [color="steelblue1",style="solid"];
   Node24 -> Node27 [color="steelblue1",style="solid"];
   Node27 [label="index.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/db5/index_8h.html",tooltip=" "];
+  Node27 -> Node5 [color="steelblue1",style="solid"];
+  Node27 -> Node19 [color="steelblue1",style="solid"];
+  Node27 -> Node6 [color="steelblue1",style="solid"];
   Node27 -> Node9 [color="steelblue1",style="solid"];
   Node24 -> Node28 [color="steelblue1",style="solid"];
   Node28 [label="section.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d2a/section_8h.html",tooltip=" "];

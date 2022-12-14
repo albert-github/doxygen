@@ -188,6 +188,9 @@ digraph "/home/runner/work/doxygen/doxygen/src/commentcnv.l"
   Node54 -> Node31 [color="steelblue1",style="solid"];
   Node54 -> Node56 [color="steelblue1",style="solid"];
   Node56 [label="index.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/db5/index_8h.html",tooltip=" "];
+  Node56 -> Node30 [color="steelblue1",style="solid"];
+  Node56 -> Node24 [color="steelblue1",style="solid"];
+  Node56 -> Node26 [color="steelblue1",style="solid"];
   Node56 -> Node9 [color="steelblue1",style="solid"];
   Node54 -> Node57 [color="steelblue1",style="solid"];
   Node57 [label="section.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d2a/section_8h.html",tooltip=" "];

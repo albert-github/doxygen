@@ -280,6 +280,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8d1b06c7331164f6562cb5f19d69c023 inherit pub_methods_class_namespace_def"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfeac05d3bebefde162e271a1d9e6b24 inherit pub_methods_class_namespace_def"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="../../da/d09/class_member_def.html">MemberDef</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d07/class_namespace_def.html#abfeac05d3bebefde162e271a1d9e6b24">getMemberByName</a> (const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;) const =0</td></tr>
 <tr class="separator:abfeac05d3bebefde162e271a1d9e6b24 inherit pub_methods_class_namespace_def"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7a3c112d07ba84402099c66a6bda130 inherit pub_methods_class_namespace_def"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d07/class_namespace_def.html#aa7a3c112d07ba84402099c66a6bda130">countVisibleMembers</a> () const =0</td></tr>
+<tr class="separator:aa7a3c112d07ba84402099c66a6bda130 inherit pub_methods_class_namespace_def"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedf62c808c557f44997b866855615199 inherit pub_methods_class_namespace_def"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="../../df/d11/class_member_group_list.html">MemberGroupList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d07/class_namespace_def.html#aedf62c808c557f44997b866855615199">getMemberGroups</a> () const =0</td></tr>
 <tr class="separator:aedf62c808c557f44997b866855615199 inherit pub_methods_class_namespace_def"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad43237a69f056b45fc87beed091688d5 inherit pub_methods_class_namespace_def"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../da/d08/class_class_linked_ref_map.html">ClassLinkedRefMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d07/class_namespace_def.html#ad43237a69f056b45fc87beed091688d5">getClasses</a> () const =0</td></tr>
@@ -444,7 +446,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d7/d97/namespacedef_8h_source.html#l00105">105</a> of file <a class="el" href="../../d7/d97/namespacedef_8h_source.html">namespacedef.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d97/namespacedef_8h_source.html#l00106">106</a> of file <a class="el" href="../../d7/d97/namespacedef_8h_source.html">namespacedef.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a03fd99a5a1cba69f741fbf7de5846005" name="a03fd99a5a1cba69f741fbf7de5846005"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a03fd99a5a1cba69f741fbf7de5846005">&#9670;&#160;</a></span>addInnerCompound()</h2>
@@ -501,7 +503,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d5/dfa/class_namespace_def_impl.html#ac4262e2909fa6cb05ebeb2b5368da6a2">NamespaceDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05023">addListReferences()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05026">addListReferences()</a>.</p>
 
 </div>
 </div>
@@ -530,7 +532,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d5/dfa/class_namespace_def_impl.html#afd67b88a03dbdda9c2d30db4069eaaaa">NamespaceDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08641">addMembersToMemberGroup()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08645">addMembersToMemberGroup()</a>.</p>
 
 </div>
 </div>
@@ -620,7 +622,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d5/dfa/class_namespace_def_impl.html#ae8abf873a9d6070f658b1c37755a3a0a">NamespaceDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08616">combineUsingRelations()</a>, <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l01488">FileDefImpl::combineUsingRelations()</a>, and <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01246">NamespaceDefImpl::combineUsingRelations()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08620">combineUsingRelations()</a>, <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l01487">FileDefImpl::combineUsingRelations()</a>, and <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01247">NamespaceDefImpl::combineUsingRelations()</a>.</p>
 
 </div>
 </div>
@@ -649,7 +651,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d5/dfa/class_namespace_def_impl.html#a6aaadf3e4ae1e94ee4f2b0b43fe92cc4">NamespaceDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04990">computeMemberReferences()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04993">computeMemberReferences()</a>.</p>
 
 </div>
 </div>
@@ -678,7 +680,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d5/dfa/class_namespace_def_impl.html#a94037829589e88800b76971e746ffc6d">NamespaceDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08406">countMembers()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08410">countMembers()</a>.</p>
 
 </div>
 </div>
@@ -707,7 +709,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d5/dfa/class_namespace_def_impl.html#a8a074824c6d80d808bc52fa970addbdf">NamespaceDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08678">distributeMemberGroupDocumentation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08682">distributeMemberGroupDocumentation()</a>.</p>
 
 </div>
 </div>
@@ -736,7 +738,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d5/dfa/class_namespace_def_impl.html#af0c701a5037a4b8d0acf060c79d88b39">NamespaceDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08715">findSectionsInDocumentation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08719">findSectionsInDocumentation()</a>.</p>
 
 </div>
 </div>
@@ -822,7 +824,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d5/dfa/class_namespace_def_impl.html#a4db9f2bd68ed096fd03c6896e93dc1ce">NamespaceDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l02322">addVariableToFile()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07013">findEnums()</a>, and <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l00423">NamespaceDefImpl::insertMember()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l02322">addVariableToFile()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07016">findEnums()</a>, and <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l00426">NamespaceDefImpl::insertMember()</a>.</p>
 
 </div>
 </div>
@@ -999,7 +1001,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d5/dfa/class_namespace_def_impl.html#ad22dc13b15dbb0fd45250f3d626b08b8">NamespaceDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08299">sortMemberLists()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08303">sortMemberLists()</a>.</p>
 
 </div>
 </div>
@@ -1029,7 +1031,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d5/dfa/class_namespace_def_impl.html#a13dc59526e41fb90c3a278a5423b38e4">NamespaceDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l09504">generateNamespaceDocs()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l09508">generateNamespaceDocs()</a>.</p>
 
 </div>
 </div>
@@ -1127,7 +1129,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d5/dfa/class_namespace_def_impl.html#a238ca226fa2997e7cc4a733bc6451e1a">NamespaceDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l11445">writeTagFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l11446">writeTagFile()</a>.</p>
 
 </div>
 </div>

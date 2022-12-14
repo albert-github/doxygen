@@ -35,7 +35,7 @@ var class_translator_persian =
     [ "trConstructorDocumentation", "d5/d43/class_translator_persian.html#aa79e5feb5a3700ab483130fc027f194a", null ],
     [ "trDataTypes", "d5/d43/class_translator_persian.html#aa2e3546529d921587ea817b48e1a9604", null ],
     [ "trDate", "d5/d43/class_translator_persian.html#a727c1b9a7df46be6a98c15eae1013a28", null ],
-    [ "trDateTime", "d5/d43/class_translator_persian.html#ac226f015b06ad5461d33f2faaabb8143", null ],
+    [ "trDateTime", "d5/d43/class_translator_persian.html#a998ebd9bf984781340070c80101e32b8", null ],
     [ "trDayOfWeek", "d5/d43/class_translator_persian.html#a95654772c568e772d91741a38accfbdb", null ],
     [ "trDayPeriod", "d5/d43/class_translator_persian.html#abe3793d1fc327f68f5ddd191938868d2", null ],
     [ "trDefinedAtLineInSourceFile", "d5/d43/class_translator_persian.html#a4bc66c287c1dd655dcee774d08abf744", null ],

@@ -248,6 +248,9 @@ digraph "/home/runner/work/doxygen/doxygen/src/msc.cpp"
   Node68 -> Node40 [color="steelblue1",style="solid"];
   Node68 -> Node70 [color="steelblue1",style="solid"];
   Node70 [label="index.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/db5/index_8h.html",tooltip=" "];
+  Node70 -> Node23 [color="steelblue1",style="solid"];
+  Node70 -> Node25 [color="steelblue1",style="solid"];
+  Node70 -> Node36 [color="steelblue1",style="solid"];
   Node70 -> Node8 [color="steelblue1",style="solid"];
   Node68 -> Node71 [color="steelblue1",style="solid"];
   Node71 [label="section.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d2a/section_8h.html",tooltip=" "];

@@ -42,7 +42,7 @@ var class_class_def_alias_impl =
     [ "insertTemplateInstance", "d0/d2b/class_class_def_alias_impl.html#ae285716c5b364a7c38dda236b78948ae", null ],
     [ "isAbstract", "d0/d2b/class_class_def_alias_impl.html#a087e4076796ba4779c4bc5ed33a7f4c6", null ],
     [ "isAccessibleMember", "d0/d2b/class_class_def_alias_impl.html#a02f1e43ba66231ac0b7aa3e6cd98717e", null ],
-    [ "isBaseClass", "d0/d2b/class_class_def_alias_impl.html#a9e188bd95d4036591e8a6bbb0fe3f4fb", null ],
+    [ "isBaseClass", "d0/d2b/class_class_def_alias_impl.html#a1ee21abaeac21d3322d6c73b37bbf489", null ],
     [ "isCSharp", "d0/d2b/class_class_def_alias_impl.html#ac95c59910940c1c07ab93c7b05cbd82c", null ],
     [ "isEmbeddedInOuterScope", "d0/d2b/class_class_def_alias_impl.html#aeff98e9949f956688cd08ec9a90a1322", null ],
     [ "isExtension", "d0/d2b/class_class_def_alias_impl.html#a33c6cee35623a88ed3aff2c8362ee461", null ],

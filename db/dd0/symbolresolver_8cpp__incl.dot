@@ -121,6 +121,9 @@ digraph "/home/runner/work/doxygen/doxygen/src/symbolresolver.cpp"
   Node36 -> Node23 [color="steelblue1",style="solid"];
   Node36 -> Node38 [color="steelblue1",style="solid"];
   Node38 [label="index.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/db5/index_8h.html",tooltip=" "];
+  Node38 -> Node6 [color="steelblue1",style="solid"];
+  Node38 -> Node4 [color="steelblue1",style="solid"];
+  Node38 -> Node19 [color="steelblue1",style="solid"];
   Node38 -> Node7 [color="steelblue1",style="solid"];
   Node36 -> Node39 [color="steelblue1",style="solid"];
   Node39 [label="section.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d2a/section_8h.html",tooltip=" "];

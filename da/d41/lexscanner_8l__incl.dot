@@ -147,6 +147,9 @@ digraph "/home/runner/work/doxygen/doxygen/src/lexscanner.l"
   Node47 -> Node18 [color="steelblue1",style="solid"];
   Node47 -> Node48 [color="steelblue1",style="solid"];
   Node48 [label="index.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/db5/index_8h.html",tooltip=" "];
+  Node48 -> Node15 [color="steelblue1",style="solid"];
+  Node48 -> Node4 [color="steelblue1",style="solid"];
+  Node48 -> Node16 [color="steelblue1",style="solid"];
   Node48 -> Node19 [color="steelblue1",style="solid"];
   Node47 -> Node49 [color="steelblue1",style="solid"];
   Node49 [label="section.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d2a/section_8h.html",tooltip=" "];

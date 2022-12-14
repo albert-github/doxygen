@@ -41,7 +41,7 @@ var class_translator_romanian =
     [ "trCopyright", "da/d32/class_translator_romanian.html#a45a87348efa6dd7c8faeb207e5f7a039", null ],
     [ "trDataTypes", "da/d32/class_translator_romanian.html#aea31bf7916645f6bdd294d7629432c0b", null ],
     [ "trDate", "da/d32/class_translator_romanian.html#aece8149f11f3331b5b8218882be1a6f6", null ],
-    [ "trDateTime", "da/d32/class_translator_romanian.html#a94bd8e948397a46045bb5c755f88973d", null ],
+    [ "trDateTime", "da/d32/class_translator_romanian.html#ad9bb176b3c268285f69d67d679cc7084", null ],
     [ "trDayOfWeek", "da/d32/class_translator_romanian.html#a3bcfaad14feef069c6d2513413daa98c", null ],
     [ "trDayPeriod", "da/d32/class_translator_romanian.html#a3cae7dbaea82829648ca5e37e50100f8", null ],
     [ "trDefinedAtLineInSourceFile", "da/d32/class_translator_romanian.html#a7741b50346fe291823a1a069af35be08", null ],
