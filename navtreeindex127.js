@@ -1,5 +1,6 @@
 var NAVTREEINDEX127 =
 {
+"df/dc8/class_translator_indonesian.html#a62223a75fa90bc1118e5d0abeb097dab":[8,0,589,111],
 "df/dc8/class_translator_indonesian.html#a6369756ab29fc9c434408787414f628d":[8,0,589,196],
 "df/dc8/class_translator_indonesian.html#a63d763f3ecdeb38fc19708335f302970":[8,0,589,33],
 "df/dc8/class_translator_indonesian.html#a640a53af037adc22cc1cdc49700e950b":[8,0,589,23],
@@ -248,6 +249,5 @@ var NAVTREEINDEX127 =
 "df/de9/struct_s_q_l_code_parser_1_1_private.html":[8,0,477,0],
 "df/de9/struct_s_q_l_code_parser_1_1_private.html#a2ba882cb4054fe29e61e2f9302851599":[8,0,477,0,1],
 "df/de9/struct_s_q_l_code_parser_1_1_private.html#aa41671aedceb69d71b0e9a35944dbc7b":[8,0,477,0,0],
-"df/df1/cmdmapper_8cpp.html":[9,0,2,13],
-"df/df1/cmdmapper_8cpp.html#a6ddce7306213db42fd60077a7f7142ad":[9,0,2,13,2]
+"df/df1/cmdmapper_8cpp.html":[9,0,2,13]
 };

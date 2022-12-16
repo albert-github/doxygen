@@ -1,5 +1,6 @@
 var structcommentscan_y_y__state =
 [
+    [ "anchorTitle", "d4/de8/structcommentscan_y_y__state.html#a6b91d1a84d514248b6baec066e2161c9", null ],
     [ "blockName", "d4/de8/structcommentscan_y_y__state.html#a0fca85c16a03bc7e68d31406eda3ae04", null ],
     [ "braceCount", "d4/de8/structcommentscan_y_y__state.html#a0b039ee4026f6ffbc734cd40fe64a9e1", null ],
     [ "briefEndsAtDot", "d4/de8/structcommentscan_y_y__state.html#a1fb09cc34d0eada31e347e9d8c4bb97f", null ],

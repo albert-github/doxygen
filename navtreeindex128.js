@@ -1,5 +1,6 @@
 var NAVTREEINDEX128 =
 {
+"df/df1/cmdmapper_8cpp.html#a6ddce7306213db42fd60077a7f7142ad":[9,0,2,13,2],
 "df/df1/cmdmapper_8cpp.html#a7b8d3a6efe70667ff57a1000f0f9acc9":[9,0,2,13,1],
 "df/df1/cmdmapper_8cpp_source.html":[9,0,2,13],
 "df/df4/struct_layout_doc_entry_member_decl.html":[8,0,347],
@@ -248,6 +249,5 @@ var NAVTREEINDEX128 =
 "globals_vars_s.html":[9,1,2,16],
 "globals_vars_t.html":[9,1,2,17],
 "globals_vars_u.html":[9,1,2,18],
-"globals_vars_v.html":[9,1,2,19],
-"globals_vars_w.html":[9,1,2,20]
+"globals_vars_v.html":[9,1,2,19]
 };

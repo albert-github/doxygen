@@ -8,7 +8,7 @@ digraph "commentscanYY_state"
   Node1 [label="commentscanYY_state",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
   Node2 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" langParser" ];
   Node2 [label="OutlineParserInterface",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d5/d79/class_outline_parser_interface.html",tooltip="Abstract interface for outline parsers."];
-  Node3 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" blockName\ncopyDocArg\ncurrentCmd\nfileName\nformulaEnv\nformulaText\nfunctionProto\nguardExpr\nhtmlAnchorStr\ninputString\n..." ];
+  Node3 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" anchorTitle\nblockName\ncopyDocArg\ncurrentCmd\nfileName\nformulaEnv\nformulaText\nfunctionProto\nguardExpr\nhtmlAnchorStr\n..." ];
   Node3 [label="QCString",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d9/d45/class_q_c_string.html",tooltip="This is an alternative implementation of QCString."];
   Node4 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" current" ];
   Node4 [label="Entry",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d4/dd7/class_entry.html",tooltip="Represents an unstructured piece of information, about an entity found in the sources."];
