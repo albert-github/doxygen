@@ -6916,7 +6916,7 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno">  783</span>&lt;Comment&gt;{B}*&quot;\\ilinebr&quot;{B}*            { // preserve spacing around \\ilinebr</div>
 <div class="line"><span class="lineno">  784</span>                                          <a class="code hl_function" href="../../d7/d5f/commentscan_8l.html#aacd050a578098847da993bc206dc7586">addOutput</a>(yyscanner,yytext);</div>
 <div class="line"><span class="lineno">  785</span>                                        }</div>
-<div class="line"><span class="lineno">  786</span>&lt;Comment&gt;{B}*{CMD}[a-z_A-Z]+&quot;{&quot;[a-zA-Z_,:0-9\. %]*&quot;}&quot;{B}*  |</div>
+<div class="line"><span class="lineno">  786</span>&lt;Comment&gt;{B}*{CMD}[a-z_A-Z]+&quot;{&quot;[^}]*&quot;}&quot;{B}*  |</div>
 <div class="line"><span class="lineno">  787</span>&lt;Comment&gt;{B}*{CMD}[a-z_A-Z]+{B}*        { // potentially interesting command</div>
 <div class="line"><span class="lineno">  788</span>                                          <span class="comment">// the {B}* in the front was added for bug620924</span></div>
 <div class="line"><span class="lineno">  789</span>                                          <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> fullMatch = <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>(yytext);</div>
