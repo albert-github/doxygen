@@ -13563,37 +13563,33 @@ template&lt;class DefMutable &gt; </div>
 <div class="line"><span class="lineno">12693</span>         <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a248b5a87e07edc01e5ae424b6597142f">Portable::getSysElapsedTime</a>()</div>
 <div class="line"><span class="lineno">12694</span>        );</div>
 <div class="line"><span class="lineno">12695</span>    <a class="code hl_variable" href="../../dc/d98/doxygen_8cpp.html#a188b1d1bbead4549a91cbf57fa60e652">g_s</a>.<a class="code hl_function" href="../../d8/da8/class_statistics.html#a681d86ad7e9121de36d517420e135415">print</a>();</div>
-<div class="line"><span class="lineno">12696</span>    <span class="keywordtype">bool</span> restore=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="line"><span class="lineno">12697</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../da/d7d/class_debug.html#a92b0668ebfb43903d82ad112bf6c84e1">Debug::isFlagSet</a>(<a class="code hl_enumvalue" href="../../da/d7d/class_debug.html#a9e0b892a8030a4f64076850777991c96a9cbd5d3516ffd3fe86238779edb2f7c5">Debug::Time</a>))</div>
-<div class="line"><span class="lineno">12698</span>    {</div>
-<div class="line"><span class="lineno">12699</span>      <a class="code hl_function" href="../../da/d7d/class_debug.html#a52481ac5c0428f788b176515da2d75b1">Debug::clearFlag</a>(<span class="stringliteral">&quot;time&quot;</span>);</div>
-<div class="line"><span class="lineno">12700</span>      restore=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno">12701</span>    }</div>
-<div class="line"><span class="lineno">12702</span>    <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb">msg</a>(<span class="stringliteral">&quot;finished...\n&quot;</span>);</div>
-<div class="line"><span class="lineno">12703</span>    <span class="keywordflow">if</span> (restore) <a class="code hl_function" href="../../da/d7d/class_debug.html#a3a7f45cdbb37ba05e88fc17a4017f29b">Debug::setFlag</a>(<span class="stringliteral">&quot;time&quot;</span>);</div>
+<div class="line"><span class="lineno">12696</span> </div>
+<div class="line"><span class="lineno">12697</span>    <a class="code hl_function" href="../../da/d7d/class_debug.html#a52481ac5c0428f788b176515da2d75b1">Debug::clearFlag</a>(<span class="stringliteral">&quot;time&quot;</span>);</div>
+<div class="line"><span class="lineno">12698</span>    <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb">msg</a>(<span class="stringliteral">&quot;finished...\n&quot;</span>);</div>
+<div class="line"><span class="lineno">12699</span>    <a class="code hl_function" href="../../da/d7d/class_debug.html#a3a7f45cdbb37ba05e88fc17a4017f29b">Debug::setFlag</a>(<span class="stringliteral">&quot;time&quot;</span>);</div>
+<div class="line"><span class="lineno">12700</span>  }</div>
+<div class="line"><span class="lineno">12701</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">12702</span>  {</div>
+<div class="line"><span class="lineno">12703</span>    <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb">msg</a>(<span class="stringliteral">&quot;finished...\n&quot;</span>);</div>
 <div class="line"><span class="lineno">12704</span>  }</div>
-<div class="line"><span class="lineno">12705</span>  <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">12706</span>  {</div>
-<div class="line"><span class="lineno">12707</span>    <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb">msg</a>(<span class="stringliteral">&quot;finished...\n&quot;</span>);</div>
-<div class="line"><span class="lineno">12708</span>  }</div>
-<div class="line"><span class="lineno">12709</span> </div>
+<div class="line"><span class="lineno">12705</span> </div>
+<div class="line"><span class="lineno">12706</span> </div>
+<div class="line"><span class="lineno">12707</span><span class="comment">  /**************************************************************************</span></div>
+<div class="line"><span class="lineno">12708</span><span class="comment">   *                        Start cleaning up                               *</span></div>
+<div class="line"><span class="lineno">12709</span><span class="comment">   **************************************************************************/</span></div>
 <div class="line"><span class="lineno">12710</span> </div>
-<div class="line"><span class="lineno">12711</span><span class="comment">  /**************************************************************************</span></div>
-<div class="line"><span class="lineno">12712</span><span class="comment">   *                        Start cleaning up                               *</span></div>
-<div class="line"><span class="lineno">12713</span><span class="comment">   **************************************************************************/</span></div>
-<div class="line"><span class="lineno">12714</span> </div>
-<div class="line"><span class="lineno">12715</span>  <a class="code hl_function" href="../../dc/d98/doxygen_8cpp.html#ae12e94f5218f3afc8df4086a2121cd4d">cleanUpDoxygen</a>();</div>
-<div class="line"><span class="lineno">12716</span> </div>
-<div class="line"><span class="lineno">12717</span>  <a class="code hl_function" href="../../d7/d79/searchindex_8cpp.html#ad28704628a5159a8fd5ea6f9bc5d2c49">finalizeSearchIndexer</a>();</div>
-<div class="line"><span class="lineno">12718</span>  <a class="code hl_class" href="../../d2/dc2/class_dir.html">Dir</a> thisDir;</div>
-<div class="line"><span class="lineno">12719</span>  thisDir.<a class="code hl_function" href="../../d2/dc2/class_dir.html#a5a64060f8e1731e8f00da7e8f7051e4b">remove</a>(<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#ab044e0b3e178d1ba542e38a9c206d57a">Doxygen::filterDBFileName</a>.str());</div>
-<div class="line"><span class="lineno">12720</span>  <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#ae3d3e3fe0dd73eb3fe463e99d2bd4a73">finishWarnExit</a>();</div>
-<div class="line"><span class="lineno">12721</span>  <a class="code hl_function" href="../../d0/d31/namespace_config.html#a7b3346b2e70cc73d231d540df5d67e57">Config::deinit</a>();</div>
-<div class="line"><span class="lineno">12722</span>  <span class="keyword">delete</span> <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#aec084fa8f7420ce3fcba490a3e1dace7">Doxygen::clangUsrMap</a>;</div>
-<div class="line"><span class="lineno">12723</span>  <a class="code hl_variable" href="../../dc/d98/doxygen_8cpp.html#aa547447bcc80febd14becae33aa5c40e">g_successfulRun</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno">12724</span> </div>
-<div class="line"><span class="lineno">12725</span>  <span class="comment">//dumpDocNodeSizes();</span></div>
-<div class="line"><span class="lineno">12726</span>}</div>
+<div class="line"><span class="lineno">12711</span>  <a class="code hl_function" href="../../dc/d98/doxygen_8cpp.html#ae12e94f5218f3afc8df4086a2121cd4d">cleanUpDoxygen</a>();</div>
+<div class="line"><span class="lineno">12712</span> </div>
+<div class="line"><span class="lineno">12713</span>  <a class="code hl_function" href="../../d7/d79/searchindex_8cpp.html#ad28704628a5159a8fd5ea6f9bc5d2c49">finalizeSearchIndexer</a>();</div>
+<div class="line"><span class="lineno">12714</span>  <a class="code hl_class" href="../../d2/dc2/class_dir.html">Dir</a> thisDir;</div>
+<div class="line"><span class="lineno">12715</span>  thisDir.<a class="code hl_function" href="../../d2/dc2/class_dir.html#a5a64060f8e1731e8f00da7e8f7051e4b">remove</a>(<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#ab044e0b3e178d1ba542e38a9c206d57a">Doxygen::filterDBFileName</a>.str());</div>
+<div class="line"><span class="lineno">12716</span>  <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#ae3d3e3fe0dd73eb3fe463e99d2bd4a73">finishWarnExit</a>();</div>
+<div class="line"><span class="lineno">12717</span>  <a class="code hl_function" href="../../d0/d31/namespace_config.html#a7b3346b2e70cc73d231d540df5d67e57">Config::deinit</a>();</div>
+<div class="line"><span class="lineno">12718</span>  <span class="keyword">delete</span> <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#aec084fa8f7420ce3fcba490a3e1dace7">Doxygen::clangUsrMap</a>;</div>
+<div class="line"><span class="lineno">12719</span>  <a class="code hl_variable" href="../../dc/d98/doxygen_8cpp.html#aa547447bcc80febd14becae33aa5c40e">g_successfulRun</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno">12720</span> </div>
+<div class="line"><span class="lineno">12721</span>  <span class="comment">//dumpDocNodeSizes();</span></div>
+<div class="line"><span class="lineno">12722</span>}</div>
 <div class="ttc" id="aclass_debug_html_a3a7f45cdbb37ba05e88fc17a4017f29b"><div class="ttname"><a href="../../da/d7d/class_debug.html#a3a7f45cdbb37ba05e88fc17a4017f29b">Debug::setFlag</a></div><div class="ttdeci">static int setFlag(const QCString &amp;label)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d00/debug_8cpp_source.html#l00083">debug.cpp:83</a></div></div>
 <div class="ttc" id="aclass_debug_html_a52481ac5c0428f788b176515da2d75b1"><div class="ttname"><a href="../../da/d7d/class_debug.html#a52481ac5c0428f788b176515da2d75b1">Debug::clearFlag</a></div><div class="ttdeci">static void clearFlag(const QCString &amp;label)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d00/debug_8cpp_source.html#l00090">debug.cpp:90</a></div></div>
 <div class="ttc" id="aclass_debug_html_a92b0668ebfb43903d82ad112bf6c84e1"><div class="ttname"><a href="../../da/d7d/class_debug.html#a92b0668ebfb43903d82ad112bf6c84e1">Debug::isFlagSet</a></div><div class="ttdeci">static bool isFlagSet(DebugMask mask)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d00/debug_8cpp_source.html#l00100">debug.cpp:100</a></div></div>
