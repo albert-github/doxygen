@@ -161,6 +161,7 @@ var class_entry =
     [ "proto", "d4/dd7/class_entry.html#a14c9abc36afe46d02521ef846e6bcc27", null ],
     [ "Protocol", "d4/dd7/class_entry.html#a3a84b60a59e7bc7cb2d1b71e3be16d80", null ],
     [ "Published", "d4/dd7/class_entry.html#a2dffe3090d7636a879832be07aec6a0a", null ],
+    [ "qualifiers", "d4/dd7/class_entry.html#abac435203f5076a98b512db5e6d06c91", null ],
     [ "Raisable", "d4/dd7/class_entry.html#af29e470caff223862bd5da2ebbc2dae3", null ],
     [ "read", "d4/dd7/class_entry.html#ac5ad6c6585645a4427b54e5281316b65", null ],
     [ "Readable", "d4/dd7/class_entry.html#a96ae6836464b455d422a5caec657aa52", null ],

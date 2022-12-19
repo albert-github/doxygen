@@ -1,5 +1,12 @@
 var NAVTREEINDEX70 =
 {
+"d9/dc1/class_translator_catalan.html#aa4d642957dee7d961dfb9d62edf97dae":[8,0,574,56],
+"d9/dc1/class_translator_catalan.html#aa7917b53eb558afead346792fcd3f071":[8,0,574,119],
+"d9/dc1/class_translator_catalan.html#aa86f4199c61a4aa7624d3003ef8ade0a":[8,0,574,181],
+"d9/dc1/class_translator_catalan.html#aa982e3fd81876c69cf13f3fb69f56ad5":[8,0,574,14],
+"d9/dc1/class_translator_catalan.html#aa9b54b13dbd48e7fff34f73fdf377811":[8,0,574,131],
+"d9/dc1/class_translator_catalan.html#aab89a8c98b908f168d07e6e54933f43f":[8,0,574,138],
+"d9/dc1/class_translator_catalan.html#aabb72d68b8b4454cc1595a10c4914f83":[8,0,574,184],
 "d9/dc1/class_translator_catalan.html#aac97cae6ae14d8dd4578e5962b13b984":[8,0,574,170],
 "d9/dc1/class_translator_catalan.html#aad7bc2b810b3a9e21a675b1b52fd2b59":[8,0,574,17],
 "d9/dc1/class_translator_catalan.html#aadcd897e2e396049c74ac5c00c5722a2":[8,0,574,211],
@@ -242,12 +249,5 @@ var NAVTREEINDEX70 =
 "d9/ddf/class_translator_macedonian.html#a493b9227d7ce59aeff1cab208a5c7c20":[8,0,597,143],
 "d9/ddf/class_translator_macedonian.html#a4cda56f02226284c9ccc113dc15e4202":[8,0,597,123],
 "d9/ddf/class_translator_macedonian.html#a4d8ada0547f663b494d5bcd89f0903da":[8,0,597,18],
-"d9/ddf/class_translator_macedonian.html#a4dda33bdd071d03613dd2b5c09661b38":[8,0,597,177],
-"d9/ddf/class_translator_macedonian.html#a4e10bb366b5ecafdc4fa1d74febb0af0":[8,0,597,210],
-"d9/ddf/class_translator_macedonian.html#a4e7dbb8d4f77968af89e195e9f38885c":[8,0,597,156],
-"d9/ddf/class_translator_macedonian.html#a4f86b8625c3a9a69da2cd614b06ec214":[8,0,597,155],
-"d9/ddf/class_translator_macedonian.html#a508042c63243c1e1c5e4c32254e1da82":[8,0,597,189],
-"d9/ddf/class_translator_macedonian.html#a50aa0a8112d4bc48402829b90e1a9bdd":[8,0,597,144],
-"d9/ddf/class_translator_macedonian.html#a50aa25bf300f2333ca0bf8149154d2e6":[8,0,597,173],
-"d9/ddf/class_translator_macedonian.html#a50fa65b1f21b134f9075f324d87df626":[8,0,597,194]
+"d9/ddf/class_translator_macedonian.html#a4dda33bdd071d03613dd2b5c09661b38":[8,0,597,177]
 };

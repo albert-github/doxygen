@@ -1,5 +1,14 @@
 var NAVTREEINDEX76 =
 {
+"da/d32/class_translator_romanian.html#a3d4d1f90cfda3d52ebee8ef4ddb8acf4":[8,0,602,98],
+"da/d32/class_translator_romanian.html#a3d7b4cc48d9bdd17794ba1a045567c35":[8,0,602,75],
+"da/d32/class_translator_romanian.html#a3e448f0cd4e9d7f939afc4da2aef0e7d":[8,0,602,159],
+"da/d32/class_translator_romanian.html#a3e9193e24ba2b5dfa17997bcb1f77408":[8,0,602,120],
+"da/d32/class_translator_romanian.html#a4079df8cdd7c9d6c2703b0a65305958d":[8,0,602,126],
+"da/d32/class_translator_romanian.html#a4191c132998acebb780384ee9b319577":[8,0,602,104],
+"da/d32/class_translator_romanian.html#a41da155ca51189a8bcc7d24976502599":[8,0,602,224],
+"da/d32/class_translator_romanian.html#a42e7e32e563f56ed34df16a11e5ea450":[8,0,602,191],
+"da/d32/class_translator_romanian.html#a45a87348efa6dd7c8faeb207e5f7a039":[8,0,602,38],
 "da/d32/class_translator_romanian.html#a46522fdec227d0aab72a49d156e752c4":[8,0,602,121],
 "da/d32/class_translator_romanian.html#a4680272666db5d8d3c04018a2c637dca":[8,0,602,48],
 "da/d32/class_translator_romanian.html#a468f7ce631e8645919d8ca4d831bcafd":[8,0,602,111],
@@ -240,14 +249,5 @@ var NAVTREEINDEX76 =
 "da/d46/translator__en_8h_source.html":[9,0,2,254],
 "da/d49/dia_8h.html":[9,0,2,52],
 "da/d49/dia_8h.html#a6791d60c7183801a8dcbdd7e9fc7a896":[9,0,2,52,1],
-"da/d49/dia_8h.html#abc13e8949e66677e61029ee294434c35":[9,0,2,52,0],
-"da/d49/dia_8h.html#abc13e8949e66677e61029ee294434c35a62a855ce0069d65a378be40ea7c01af3":[9,0,2,52,0,1],
-"da/d49/dia_8h.html#abc13e8949e66677e61029ee294434c35a8067840da68a1d3cf61db03c1f164193":[9,0,2,52,0,0],
-"da/d49/dia_8h_source.html":[9,0,2,52],
-"da/d4b/class_template_node_include.html":[8,0,520],
-"da/d4b/class_template_node_include.html#a63b932a6a4ff9a5fd6fc635a1074c1d0":[8,0,520,1],
-"da/d4b/class_template_node_include.html#a7c581fbb5dd87f333ad1c716243e2d9d":[8,0,520,0],
-"da/d4b/class_template_node_include.html#af2329a6af85328db151c80545e8509b0":[8,0,520,2],
-"da/d4d/namespace_namespace_member_highlight.html":[7,0,7],
-"da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7c":[7,0,7,0]
+"da/d49/dia_8h.html#abc13e8949e66677e61029ee294434c35":[9,0,2,52,0]
 };

@@ -1,5 +1,15 @@
 var NAVTREEINDEX127 =
 {
+"df/dc8/class_translator_indonesian.html#a5be235a7030ef8ddc314d37a73a5018c":[8,0,589,58],
+"df/dc8/class_translator_indonesian.html#a5c8538474dbd385855ec224a41ec23c6":[8,0,589,122],
+"df/dc8/class_translator_indonesian.html#a5f3f1d4d362ea9890347e3dbc9c3372f":[8,0,589,6],
+"df/dc8/class_translator_indonesian.html#a60211c00aa2e822d2cd0164e1a1b356f":[8,0,589,132],
+"df/dc8/class_translator_indonesian.html#a60f02406f5c6ef196fb140f0895976b6":[8,0,589,135],
+"df/dc8/class_translator_indonesian.html#a61b4472165da38729763798f16b9d428":[8,0,589,47],
+"df/dc8/class_translator_indonesian.html#a61b5ee3ad83a1789f4767a6590407e6f":[8,0,589,2],
+"df/dc8/class_translator_indonesian.html#a61e2517375af73171c7fce6ced35322f":[8,0,589,146],
+"df/dc8/class_translator_indonesian.html#a6215c7c4c485e7237abd02b0960bf9e8":[8,0,589,26],
+"df/dc8/class_translator_indonesian.html#a62223a75fa90bc1118e5d0abeb097dab":[8,0,589,111],
 "df/dc8/class_translator_indonesian.html#a6369756ab29fc9c434408787414f628d":[8,0,589,196],
 "df/dc8/class_translator_indonesian.html#a63d763f3ecdeb38fc19708335f302970":[8,0,589,33],
 "df/dc8/class_translator_indonesian.html#a640a53af037adc22cc1cdc49700e950b":[8,0,589,23],
@@ -239,15 +249,5 @@ var NAVTREEINDEX127 =
 "df/de8/class_filter_alpha_index.html":[8,0,253],
 "df/de8/class_filter_alpha_index.html#a2820c05a94a2b02d444ec7d1eb7918c0":[8,0,253,1],
 "df/de8/class_filter_alpha_index.html#a83b9d1aa25d7c2baf2ad9f7fafad0601":[8,0,253,3],
-"df/de8/class_filter_alpha_index.html#accca2d712b3a8ccd96618d2938beff10":[8,0,253,2],
-"df/de9/struct_example.html":[8,0,222],
-"df/de9/struct_example.html#a3ff74d2063cc9dc8b836ce95e79af75d":[8,0,222,3],
-"df/de9/struct_example.html#a542f2504157d756b0d41c0711dc9bc4c":[8,0,222,0],
-"df/de9/struct_example.html#a5641a1748c9b207ca684c70d8183a7d8":[8,0,222,2],
-"df/de9/struct_example.html#ad77c6c2bbf3a3cd277ee24df5a3d6190":[8,0,222,1],
-"df/de9/struct_s_q_l_code_parser_1_1_private.html":[8,0,477,0],
-"df/de9/struct_s_q_l_code_parser_1_1_private.html#a2ba882cb4054fe29e61e2f9302851599":[8,0,477,0,1],
-"df/de9/struct_s_q_l_code_parser_1_1_private.html#aa41671aedceb69d71b0e9a35944dbc7b":[8,0,477,0,0],
-"df/df1/cmdmapper_8cpp.html":[9,0,2,13],
-"df/df1/cmdmapper_8cpp.html#a6ddce7306213db42fd60077a7f7142ad":[9,0,2,13,2]
+"df/de8/class_filter_alpha_index.html#accca2d712b3a8ccd96618d2938beff10":[8,0,253,2]
 };

@@ -2,6 +2,7 @@ var class_member_def_mutable =
 [
     [ "addExample", "dd/d4b/class_member_def_mutable.html#a858aa8a6b320fa1f8ed0a1d82903ce7b", null ],
     [ "addListReference", "dd/d4b/class_member_def_mutable.html#a5cbb914e14b7f94c014f1935e9974f01", null ],
+    [ "addQualifiers", "dd/d4b/class_member_def_mutable.html#a84d196a50a1c911d65fc8a9a05656f45", null ],
     [ "cacheTypedefVal", "dd/d4b/class_member_def_mutable.html#ab95b7104c9a40aa504f08b1577b18a6f", null ],
     [ "copyArgumentNames", "dd/d4b/class_member_def_mutable.html#aa41863f155b6ca20f433acbd895ca98e", null ],
     [ "enableCallerGraph", "dd/d4b/class_member_def_mutable.html#ae8fecd63e5c00249a93c1c1a0b6cee73", null ],
