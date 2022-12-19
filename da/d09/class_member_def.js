@@ -1,7 +1,6 @@
 var class_member_def =
 [
     [ "accessorClass", "da/d09/class_member_def.html#a19e35fd33e87d41ebfe413d9ec63a44b", null ],
-    [ "addQualifiers", "da/d09/class_member_def.html#a16c882f10f89502966e502b5c83349ec", null ],
     [ "anchor", "da/d09/class_member_def.html#a170c6221384447f7e2e9f5a529efef40", null ],
     [ "anonymousDeclShown", "da/d09/class_member_def.html#ae7c2b887c45e9b9073d3c4d0bde94b04", null ],
     [ "argsString", "da/d09/class_member_def.html#adfae3b8f49644ba27669daa9412e14a3", null ],
@@ -54,7 +53,6 @@ var class_member_def =
     [ "getMemberSpecifiers", "da/d09/class_member_def.html#a4458215515338eb7c5597c44d8694e5d", null ],
     [ "getNamespaceDef", "da/d09/class_member_def.html#a900cace4959b6cad9e6aa58e8283195f", null ],
     [ "getOutputFileBase", "da/d09/class_member_def.html#a1691f8cc2d90978d091a7d7aae11dd8d", null ],
-    [ "getQualifiers", "da/d09/class_member_def.html#a78ea63aa23ada7ecd6d8c59163c3dadf", null ],
     [ "getReadAccessor", "da/d09/class_member_def.html#ab8d7b70952b14c1f6af79a16f122a6c9", null ],
     [ "getReference", "da/d09/class_member_def.html#a1fa921f95581774af1de1a29fb24a0c8", null ],
     [ "getScopeString", "da/d09/class_member_def.html#a68246f42d892a0cd4e1b5248d8f8f947", null ],

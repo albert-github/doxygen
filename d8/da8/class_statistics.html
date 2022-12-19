@@ -192,7 +192,7 @@ Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00067">msg()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l00251">startTime</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l00250">stats</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l12376">generateOutput()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l11764">parseInput()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l11571">searchInputFiles()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l12359">generateOutput()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l11747">parseInput()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l11554">searchInputFiles()</a>.</p>
 
 </div>
 </div>
@@ -228,7 +228,7 @@ Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l00251">startTime</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l00250">stats</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l12376">generateOutput()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l11764">parseInput()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l11571">searchInputFiles()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l12359">generateOutput()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l11747">parseInput()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l11554">searchInputFiles()</a>.</p>
 
 </div>
 </div>
@@ -260,7 +260,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  229</span>      <span class="keywordtype">bool</span> restore=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
 <div class="line"><span class="lineno">  230</span>      <span class="keywordflow">if</span> (<a class="code hl_function" href="../../da/d7d/class_debug.html#a92b0668ebfb43903d82ad112bf6c84e1">Debug::isFlagSet</a>(<a class="code hl_enumvalue" href="../../da/d7d/class_debug.html#a9e0b892a8030a4f64076850777991c96a9cbd5d3516ffd3fe86238779edb2f7c5">Debug::Time</a>))</div>
 <div class="line"><span class="lineno">  231</span>      {</div>
-<div class="line"><span class="lineno">  232</span>        <a class="code hl_function" href="../../da/d7d/class_debug.html#a52481ac5c0428f788b176515da2d75b1">Debug::clearFlag</a>(<span class="stringliteral">&quot;time&quot;</span>);</div>
+<div class="line"><span class="lineno">  232</span>        <a class="code hl_function" href="../../da/d7d/class_debug.html#a8b6226d91e39828116b504b94e22b26b">Debug::clearFlag</a>(<a class="code hl_enumvalue" href="../../da/d7d/class_debug.html#a9e0b892a8030a4f64076850777991c96a9cbd5d3516ffd3fe86238779edb2f7c5">Debug::Time</a>);</div>
 <div class="line"><span class="lineno">  233</span>        restore=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
 <div class="line"><span class="lineno">  234</span>      }</div>
 <div class="line"><span class="lineno">  235</span>      <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb">msg</a>(<span class="stringliteral">&quot;----------------------\n&quot;</span>);</div>
@@ -268,18 +268,18 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  237</span>      {</div>
 <div class="line"><span class="lineno">  238</span>        <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb">msg</a>(<span class="stringliteral">&quot;Spent %.6f seconds in %s&quot;</span>,s.elapsed,s.name);</div>
 <div class="line"><span class="lineno">  239</span>      }</div>
-<div class="line"><span class="lineno">  240</span>      <span class="keywordflow">if</span> (restore) <a class="code hl_function" href="../../da/d7d/class_debug.html#a3a7f45cdbb37ba05e88fc17a4017f29b">Debug::setFlag</a>(<span class="stringliteral">&quot;time&quot;</span>);</div>
+<div class="line"><span class="lineno">  240</span>      <span class="keywordflow">if</span> (restore) <a class="code hl_function" href="../../da/d7d/class_debug.html#affb7c17adbcafb5ec252e95c70f12f53">Debug::setFlag</a>(<a class="code hl_enumvalue" href="../../da/d7d/class_debug.html#a9e0b892a8030a4f64076850777991c96a9cbd5d3516ffd3fe86238779edb2f7c5">Debug::Time</a>);</div>
 <div class="line"><span class="lineno">  241</span>    }</div>
-<div class="ttc" id="aclass_debug_html_a3a7f45cdbb37ba05e88fc17a4017f29b"><div class="ttname"><a href="../../da/d7d/class_debug.html#a3a7f45cdbb37ba05e88fc17a4017f29b">Debug::setFlag</a></div><div class="ttdeci">static int setFlag(const QCString &amp;label)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d00/debug_8cpp_source.html#l00083">debug.cpp:83</a></div></div>
-<div class="ttc" id="aclass_debug_html_a52481ac5c0428f788b176515da2d75b1"><div class="ttname"><a href="../../da/d7d/class_debug.html#a52481ac5c0428f788b176515da2d75b1">Debug::clearFlag</a></div><div class="ttdeci">static void clearFlag(const QCString &amp;label)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d00/debug_8cpp_source.html#l00090">debug.cpp:90</a></div></div>
-<div class="ttc" id="aclass_debug_html_a92b0668ebfb43903d82ad112bf6c84e1"><div class="ttname"><a href="../../da/d7d/class_debug.html#a92b0668ebfb43903d82ad112bf6c84e1">Debug::isFlagSet</a></div><div class="ttdeci">static bool isFlagSet(DebugMask mask)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d00/debug_8cpp_source.html#l00100">debug.cpp:100</a></div></div>
+<div class="ttc" id="aclass_debug_html_a8b6226d91e39828116b504b94e22b26b"><div class="ttname"><a href="../../da/d7d/class_debug.html#a8b6226d91e39828116b504b94e22b26b">Debug::clearFlag</a></div><div class="ttdeci">static void clearFlag(const DebugMask mask)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d00/debug_8cpp_source.html#l00095">debug.cpp:95</a></div></div>
+<div class="ttc" id="aclass_debug_html_a92b0668ebfb43903d82ad112bf6c84e1"><div class="ttname"><a href="../../da/d7d/class_debug.html#a92b0668ebfb43903d82ad112bf6c84e1">Debug::isFlagSet</a></div><div class="ttdeci">static bool isFlagSet(DebugMask mask)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d00/debug_8cpp_source.html#l00105">debug.cpp:105</a></div></div>
 <div class="ttc" id="aclass_debug_html_a9e0b892a8030a4f64076850777991c96a9cbd5d3516ffd3fe86238779edb2f7c5"><div class="ttname"><a href="../../da/d7d/class_debug.html#a9e0b892a8030a4f64076850777991c96a9cbd5d3516ffd3fe86238779edb2f7c5">Debug::Time</a></div><div class="ttdeci">@ Time</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00034">debug.h:34</a></div></div>
+<div class="ttc" id="aclass_debug_html_affb7c17adbcafb5ec252e95c70f12f53"><div class="ttname"><a href="../../da/d7d/class_debug.html#affb7c17adbcafb5ec252e95c70f12f53">Debug::setFlag</a></div><div class="ttdeci">static void setFlag(const DebugMask mask)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d00/debug_8cpp_source.html#l00090">debug.cpp:90</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_aa8cecfc5c5c054d2875c03e77b7be15d"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a></div><div class="ttdeci">#define TRUE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00036">qcstring.h:36</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_aa93f0eb578d23995850d61f7d61c55c1"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></div><div class="ttdeci">#define FALSE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00033">qcstring.h:33</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00090">Debug::clearFlag()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00100">Debug::isFlagSet()</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00067">msg()</a>, <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00083">Debug::setFlag()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l00250">stats</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00034">Debug::Time</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00095">Debug::clearFlag()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00105">Debug::isFlagSet()</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00067">msg()</a>, <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00090">Debug::setFlag()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l00250">stats</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00034">Debug::Time</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l12376">generateOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l12359">generateOutput()</a>.</p>
 
 </div>
 </div>

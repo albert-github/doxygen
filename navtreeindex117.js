@@ -1,14 +1,5 @@
 var NAVTREEINDEX117 =
 {
-"de/d82/class_translator_polish.html#abe9db80c7167df1755c7e58f6f2dcfb6":[8,0,600,89],
-"de/d82/class_translator_polish.html#abef8d4d24996c6ab78698f8b2763d406":[8,0,600,197],
-"de/d82/class_translator_polish.html#ac040527acce76d3ae8e644ea6932984a":[8,0,600,22],
-"de/d82/class_translator_polish.html#ac2c102476e3c367afb549e97883f5df1":[8,0,600,229],
-"de/d82/class_translator_polish.html#ac313be6e56409f028b2074706e5cb57a":[8,0,600,210],
-"de/d82/class_translator_polish.html#ac399b9cdd43e225d284bddcd4f3bdabb":[8,0,600,69],
-"de/d82/class_translator_polish.html#ac47e45c5fcab8b7480b18de0d31f7469":[8,0,600,129],
-"de/d82/class_translator_polish.html#ac4d9d7b38ecf2340250c574e3982b4c1":[8,0,600,147],
-"de/d82/class_translator_polish.html#ac5bf5b88079d6b285978bdfc679d7ddb":[8,0,600,138],
 "de/d82/class_translator_polish.html#ac5c8175efc27b8661a046f601843dec9":[8,0,600,2],
 "de/d82/class_translator_polish.html#ac61982acc3dc6c319991f92d1667a638":[8,0,600,80],
 "de/d82/class_translator_polish.html#ac620731bc7c549f184826d9e558db0aa":[8,0,600,230],
@@ -249,5 +240,14 @@ var NAVTREEINDEX117 =
 "de/da5/class_man_generator.html#a8b98e6c09488de4299044987afb6001c":[8,0,365,200],
 "de/da5/class_man_generator.html#a8cbf8fac92eb5db30e0206d2440ebb0b":[8,0,365,174],
 "de/da5/class_man_generator.html#a8e97f85ec9ce327270fdc5c09d875418":[8,0,365,169],
-"de/da5/class_man_generator.html#a918922201985cac387c671a9767021d1":[8,0,365,86]
+"de/da5/class_man_generator.html#a918922201985cac387c671a9767021d1":[8,0,365,86],
+"de/da5/class_man_generator.html#a920fb8d9e9cdcc0959069d9f0f7a4ff4":[8,0,365,168],
+"de/da5/class_man_generator.html#a93050bd4f7fd8c3181a65b7967b167ea":[8,0,365,61],
+"de/da5/class_man_generator.html#a93a20331a8e073df653ed1df9834361b":[8,0,365,96],
+"de/da5/class_man_generator.html#a94d12a8dc22ce00643f7bec9e0362029":[8,0,365,143],
+"de/da5/class_man_generator.html#a955d39d6b1272951e9c3696e55a7e97f":[8,0,365,163],
+"de/da5/class_man_generator.html#a96fbf7763c494b5d68e80e8c66517e30":[8,0,365,190],
+"de/da5/class_man_generator.html#a97466de55e1ee3c3a8c554e90e0c4894":[8,0,365,187],
+"de/da5/class_man_generator.html#a98bf3194f87fecec71fb1aad5ce0a191":[8,0,365,45],
+"de/da5/class_man_generator.html#a98fcb779ebc649bc817dc7ce7fd53caf":[8,0,365,25]
 };

@@ -1,13 +1,5 @@
 var NAVTREEINDEX80 =
 {
-"da/dbb/class_translator_bulgarian.html#ae3fa84eed183211d0894cf8ef5b69d57":[8,0,573,217],
-"da/dbb/class_translator_bulgarian.html#ae504eaef7bb253c29c76bdb3512e067f":[8,0,573,188],
-"da/dbb/class_translator_bulgarian.html#ae6494b84bf3c1f9cab75bc53fdd9c8e4":[8,0,573,15],
-"da/dbb/class_translator_bulgarian.html#ae764b0a68466173ba0bb2203d89e96ce":[8,0,573,288],
-"da/dbb/class_translator_bulgarian.html#aea22d6d4eb220980c090f9daa2505888":[8,0,573,35],
-"da/dbb/class_translator_bulgarian.html#aeb3dc5053748e8efe630a9ed059112ab":[8,0,573,137],
-"da/dbb/class_translator_bulgarian.html#aeba827a712c4c9dcc793e02c265c8238":[8,0,573,19],
-"da/dbb/class_translator_bulgarian.html#aec272900c4cb579ea3863ac44153c6ae":[8,0,573,0],
 "da/dbb/class_translator_bulgarian.html#aec78f0f68053eb0104d0cbfaae1d1292":[8,0,573,17],
 "da/dbb/class_translator_bulgarian.html#aef9e2095bee11187522f102392f613b5":[8,0,573,53],
 "da/dbb/class_translator_bulgarian.html#af10be80ed48b57a3e2fd466148b31e8d":[8,0,573,257],
@@ -249,5 +241,13 @@ var NAVTREEINDEX80 =
 "db/d14/index_8cpp.html#a6eeea63b666ee5e1d4ed8c94c9cd4a48":[9,0,2,144,78],
 "db/d14/index_8cpp.html#a7009ab1117bf1a2518b7655ef0150540":[9,0,2,144,32],
 "db/d14/index_8cpp.html#a720a2761163764ce53aff1186ad9bfb3":[9,0,2,144,74],
-"db/d14/index_8cpp.html#a761d3a60c665909ccfb9c3eb5dc61973":[9,0,2,144,15]
+"db/d14/index_8cpp.html#a761d3a60c665909ccfb9c3eb5dc61973":[9,0,2,144,15],
+"db/d14/index_8cpp.html#a7679fab482cf6175804f959f5425c2b5":[9,0,2,144,55],
+"db/d14/index_8cpp.html#a7aba23a0c522274ecb4fb76f8d40afb3":[9,0,2,144,104],
+"db/d14/index_8cpp.html#a7c10dc89e478b9f6f343c8def01c5238":[9,0,2,144,94],
+"db/d14/index_8cpp.html#a7c5a3ca960f83aab24f36a9adf0a1e43":[9,0,2,144,72],
+"db/d14/index_8cpp.html#a821e7b508daf7d6a89ee6bc4634fce12":[9,0,2,144,11],
+"db/d14/index_8cpp.html#a82de35e3b84d856dc4fdbc0d3aea1a53":[9,0,2,144,47],
+"db/d14/index_8cpp.html#a83614d4e01cc805780c657669fbcadc2":[9,0,2,144,23],
+"db/d14/index_8cpp.html#a84317d2528b42fa86569b03c749c4d67":[9,0,2,144,52]
 };

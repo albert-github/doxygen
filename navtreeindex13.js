@@ -1,6 +1,5 @@
 var NAVTREEINDEX13 =
 {
-"d1/d8a/class_translator_hindi.html#ab1fd3d6c33715c8a3dab758b0c3f8ad2":[8,0,587,122],
 "d1/d8a/class_translator_hindi.html#ab26ccf2d36ac787106e0245e301673f4":[8,0,587,96],
 "d1/d8a/class_translator_hindi.html#ab2828770a6e59b5ede97f6df220337a9":[8,0,587,24],
 "d1/d8a/class_translator_hindi.html#ab425e785280dbb94ec288293901cf1d0":[8,0,587,48],
@@ -249,5 +248,6 @@ var NAVTREEINDEX13 =
 "d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09a756640f0aea5f5bea1cbe250a9d08989":[9,0,2,145,4,9],
 "d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09a84ddb07d15cabbefecb37c79122a197c":[9,0,2,145,4,23],
 "d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09a91f3a2c0e4424c87689525da44c4db11":[9,0,2,145,4,16],
-"d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09aa02c83a7dbd96295beaefb72c2bee2de":[9,0,2,145,4,1]
+"d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09aa02c83a7dbd96295beaefb72c2bee2de":[9,0,2,145,4,1],
+"d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09aad17ed06f7834adea0cebf8169d05853":[9,0,2,145,4,24]
 };
