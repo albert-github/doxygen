@@ -22,5 +22,5 @@ var rtfstyle_8cpp =
     [ "rtf_Style_Reset", "de/d5c/rtfstyle_8cpp.html#a3588987fef5687c675e6fb979b9850c1", null ],
     [ "rtf_subject", "de/d5c/rtfstyle_8cpp.html#ababa40e3b47889c9d6a12b2c27b1dcea", null ],
     [ "rtf_title", "de/d5c/rtfstyle_8cpp.html#a86de556a1278f74936d85c3ad6737305", null ],
-    [ "s_clause", "de/d5c/rtfstyle_8cpp.html#adcad5c8bccacf5303ae59fdfbb3c7c84", null ]
+    [ "s_clause", "de/d5c/rtfstyle_8cpp.html#a7ce4348d587548a514b1e698abed1a54", null ]
 ];

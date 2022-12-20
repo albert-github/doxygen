@@ -153,7 +153,7 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a6078df856ea98140e2210721d1175764"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/db0/htmldocvisitor_8cpp.html#a6078df856ea98140e2210721d1175764">convertIndexWordToAnchor</a> (const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;word)</td></tr>
+<tr class="memitem:a6078df856ea98140e2210721d1175764"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/db0/htmldocvisitor_8cpp.html#a6078df856ea98140e2210721d1175764">convertIndexWordToAnchor</a> (const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;<a class="el" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>)</td></tr>
 <tr class="separator:a6078df856ea98140e2210721d1175764"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86acf8b4839daaae86b0a90ca98767b8"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/db0/htmldocvisitor_8cpp.html#a86acf8b4839daaae86b0a90ca98767b8">mustBeOutsideParagraph</a> (const <a class="el" href="../../de/d2b/docnode_8h.html#afad5b9fbe2e475f242fe258914b6a4a0">DocNodeVariant</a> &amp;n)</td></tr>
 <tr class="separator:a86acf8b4839daaae86b0a90ca98767b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -283,7 +283,7 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno">   74</span>  result += cntStr.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a87d2bfa3fcbf407c32fab784df368b2d">setNum</a>(cnt);</div>
 <div class="line"><span class="lineno">   75</span>  result += <span class="stringliteral">&quot;_&quot;</span>;</div>
 <div class="line"><span class="lineno">   76</span>  cnt++;</div>
-<div class="line"><span class="lineno">   77</span>  <span class="keyword">const</span> <span class="keywordtype">char</span> *str = word.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>();</div>
+<div class="line"><span class="lineno">   77</span>  <span class="keyword">const</span> <span class="keywordtype">char</span> *str = <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>.data();</div>
 <div class="line"><span class="lineno">   78</span>  <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> c;</div>
 <div class="line"><span class="lineno">   79</span>  <span class="keywordflow">if</span> (str)</div>
 <div class="line"><span class="lineno">   80</span>  {</div>
@@ -314,10 +314,10 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno">  105</span>}</div>
 <div class="ttc" id="aclass_q_c_string_html"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html">QCString</a></div><div class="ttdoc">This is an alternative implementation of QCString.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00108">qcstring.h:109</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a87d2bfa3fcbf407c32fab784df368b2d"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a87d2bfa3fcbf407c32fab784df368b2d">QCString::setNum</a></div><div class="ttdeci">QCString &amp; setNum(short n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00398">qcstring.h:398</a></div></div>
-<div class="ttc" id="aclass_q_c_string_html_ac3aa3ac1a1c36d3305eba22a2eb0d098"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">QCString::data</a></div><div class="ttdeci">const char * data() const</div><div class="ttdoc">Returns a pointer to the contents of the string in the form of a 0-terminated C string.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00153">qcstring.h:153</a></div></div>
 <div class="ttc" id="ahtmldocvisitor_8cpp_html_af6d39adaeb2e454e5ad70f6e7cb83416"><div class="ttname"><a href="../../da/db0/htmldocvisitor_8cpp.html#af6d39adaeb2e454e5ad70f6e7cb83416">hex</a></div><div class="ttdeci">static const char * hex</div><div class="ttdef"><b>Definition:</b> <a href="../../da/db0/htmldocvisitor_8cpp_source.html#l00067">htmldocvisitor.cpp:67</a></div></div>
+<div class="ttc" id="autil_8cpp_html_a5ee566002626114272def590e5eecf76"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a></div><div class="ttdeci">std::string word</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l00958">util.cpp:958</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00153">QCString::data()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00067">hex</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00398">QCString::setNum()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00067">hex</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00398">QCString::setNum()</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l00958">word</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00989">HtmlDocVisitor::operator()()</a>.</p>
 
@@ -708,9 +708,9 @@ template&lt;class Node &gt; </div>
 <div class="line"><span class="lineno">  271</span>  }</div>
 <div class="line"><span class="lineno">  272</span>  <span class="keywordflow">return</span> result;</div>
 <div class="line"><span class="lineno">  273</span>}</div>
-<div class="ttc" id="autil_8cpp_html_a93c7f78ab05807663dd8947d0dd5423f"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a93c7f78ab05807663dd8947d0dd5423f">convertToXML</a></div><div class="ttdeci">QCString convertToXML(const QCString &amp;s, bool keepEntities)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l04033">util.cpp:4033</a></div></div>
+<div class="ttc" id="autil_8cpp_html_a93c7f78ab05807663dd8947d0dd5423f"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a93c7f78ab05807663dd8947d0dd5423f">convertToXML</a></div><div class="ttdeci">QCString convertToXML(const QCString &amp;s, bool keepEntities)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l04038">util.cpp:4038</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d2d/util_8cpp_source.html#l04033">convertToXML()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d2d/util_8cpp_source.html#l04038">convertToXML()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00433">HtmlDocVisitor::operator()()</a>.</p>
 
@@ -1354,7 +1354,7 @@ template&lt;class T &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00067">67</a> of file <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html">htmldocvisitor.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l00701">HtmlCodeGenerator::codify()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00069">convertIndexWordToAnchor()</a>, <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l00765">HtmlCodeGenerator::docify()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02066">HtmlDocVisitor::filter()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02104">HtmlDocVisitor::filterQuotedCdataAttr()</a>, <a class="el" href="../../da/d45/dotdirdeps_8cpp_source.html#l00064">getDirectoryBackgroundColor()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l01290">FilterAlphaIndex::keyToLabel()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l02124">letterToLabel()</a>, <a class="el" href="../../d9/d2f/searchindex__js_8cpp_source.html#l00044">searchId()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00080">writeDocbookCodeString()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l03397">TextGeneratorHtml::writeString()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l00701">HtmlCodeGenerator::codify()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00069">convertIndexWordToAnchor()</a>, <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l00765">HtmlCodeGenerator::docify()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02066">HtmlDocVisitor::filter()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02104">HtmlDocVisitor::filterQuotedCdataAttr()</a>, <a class="el" href="../../da/d45/dotdirdeps_8cpp_source.html#l00064">getDirectoryBackgroundColor()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l01289">FilterAlphaIndex::keyToLabel()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l02124">letterToLabel()</a>, <a class="el" href="../../d9/d2f/searchindex__js_8cpp_source.html#l00044">searchId()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00080">writeDocbookCodeString()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l03397">TextGeneratorHtml::writeString()</a>.</p>
 
 </div>
 </div>
@@ -1406,7 +1406,7 @@ template&lt;class T &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00041">41</a> of file <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html">htmldocvisitor.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01039">HtmlDocVisitor::operator()()</a>, and <a class="el" href="../../d0/da7/pre_8l_source.html#l02752">removeIdsAndMarkers()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01039">HtmlDocVisitor::operator()()</a>, and <a class="el" href="../../d0/da7/pre_8l_source.html#l02753">removeIdsAndMarkers()</a>.</p>
 
 </div>
 </div>

@@ -227,12 +227,18 @@ digraph "/home/runner/work/doxygen/doxygen/src/qhp.cpp"
   Node60 -> Node50 [color="steelblue1",style="solid"];
   Node60 -> Node56 [color="steelblue1",style="solid"];
   Node54 -> Node63 [color="steelblue1",style="solid"];
-  Node63 [label="conceptdef.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/df1/conceptdef_8h.html",tooltip=" "];
-  Node63 -> Node32 [color="steelblue1",style="solid"];
-  Node63 -> Node64 [color="steelblue1",style="solid"];
-  Node64 [label="filedef.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d3a/filedef_8h.html",tooltip=" "];
-  Node64 -> Node14 [color="steelblue1",style="solid"];
+  Node63 [label="regex.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d21/regex_8h.html",tooltip=" "];
+  Node63 -> Node4 [color="steelblue1",style="solid"];
+  Node63 -> Node13 [color="steelblue1",style="solid"];
+  Node63 -> Node6 [color="steelblue1",style="solid"];
+  Node63 -> Node59 [color="steelblue1",style="solid"];
+  Node54 -> Node64 [color="steelblue1",style="solid"];
+  Node64 [label="conceptdef.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/df1/conceptdef_8h.html",tooltip=" "];
   Node64 -> Node32 [color="steelblue1",style="solid"];
-  Node64 -> Node33 [color="steelblue1",style="solid"];
-  Node64 -> Node12 [color="steelblue1",style="solid"];
+  Node64 -> Node65 [color="steelblue1",style="solid"];
+  Node65 [label="filedef.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d3a/filedef_8h.html",tooltip=" "];
+  Node65 -> Node14 [color="steelblue1",style="solid"];
+  Node65 -> Node32 [color="steelblue1",style="solid"];
+  Node65 -> Node33 [color="steelblue1",style="solid"];
+  Node65 -> Node12 [color="steelblue1",style="solid"];
 }
