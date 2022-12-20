@@ -233,14 +233,8 @@ digraph "/home/runner/work/doxygen/doxygen/src/docsets.cpp"
   Node59 -> Node7 [color="steelblue1",style="solid"];
   Node55 -> Node51 [color="steelblue1",style="solid"];
   Node49 -> Node62 [color="steelblue1",style="solid"];
-  Node62 [label="regex.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d21/regex_8h.html",tooltip=" "];
-  Node62 -> Node6 [color="steelblue1",style="solid"];
-  Node62 -> Node8 [color="steelblue1",style="solid"];
-  Node62 -> Node23 [color="steelblue1",style="solid"];
-  Node62 -> Node54 [color="steelblue1",style="solid"];
-  Node49 -> Node63 [color="steelblue1",style="solid"];
-  Node63 [label="conceptdef.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/df1/conceptdef_8h.html",tooltip=" "];
-  Node63 -> Node32 [color="steelblue1",style="solid"];
-  Node63 -> Node47 [color="steelblue1",style="solid"];
+  Node62 [label="conceptdef.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/df1/conceptdef_8h.html",tooltip=" "];
+  Node62 -> Node32 [color="steelblue1",style="solid"];
+  Node62 -> Node47 [color="steelblue1",style="solid"];
   Node1 -> Node59 [color="steelblue1",style="solid"];
 }

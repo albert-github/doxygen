@@ -6,7 +6,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [label="vhdl::parser::ErrorHandler",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d0f/classvhdl_1_1parser_1_1_error_handler.html",tooltip=" "];
-  Node0 -> Node1 [dir="back",color="steelblue1",style="solid"];
-  Node1 [label="vhdl::parser::VhdlErrorHandler",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/da7/classvhdl_1_1parser_1_1_vhdl_error_handler.html",tooltip=" "];
+  Node0 [label="vhdl::parser::ParseException",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d2b/classvhdl_1_1parser_1_1_parse_exception.html",tooltip="This exception is thrown when parse errors are encountered."];
 }

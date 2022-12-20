@@ -1,14 +1,5 @@
 var NAVTREEINDEX129 =
 {
-"globals_vars_w.html":[9,1,2,20],
-"globals_vars_y.html":[9,1,2,21],
-"globals_w.html":[9,1,0,21],
-"globals_x.html":[9,1,0,22],
-"globals_y.html":[9,1,0,23],
-"hierarchy.html":[8,2],
-"index.html":[0],
-"index.html":[],
-"index.html#autotoc_md0":[0,0],
 "index.html#autotoc_md1":[0,1],
 "index.html#autotoc_md2":[0,2],
 "index.html#autotoc_md3":[0,3],

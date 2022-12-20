@@ -161,7 +161,7 @@ Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Internal class representing the implementation of a template. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l02553">2553</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l02554">2554</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a31d4c634a18a30d183118f4f69e6f53d" name="a31d4c634a18a30d183118f4f69e6f53d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a31d4c634a18a30d183118f4f69e6f53d">&#9670;&#160;</a></span>TemplateImpl()</h2>
@@ -201,33 +201,33 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l05176">5176</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 5178</span>  : <a class="code hl_class" href="../../d6/d53/class_template_node.html">TemplateNode</a>(0)</div>
-<div class="line"><span class="lineno"> 5179</span>{</div>
-<div class="line"><span class="lineno"> 5180</span>  <span class="comment">//printf(&quot;%p:TemplateImpl::TemplateImpl(%s)\n&quot;,(void*)this,qPrint(name));</span></div>
-<div class="line"><span class="lineno"> 5181</span>  <a class="code hl_variable" href="../../d6/d07/class_template_impl.html#aecf287e462372daff77f0057489c31e2">m_name</a> = name;</div>
-<div class="line"><span class="lineno"> 5182</span>  <a class="code hl_variable" href="../../d6/d07/class_template_impl.html#a4e129f4146bec29a4e9185680a5b85c1">m_engine</a> = <a class="code hl_function" href="../../d6/d07/class_template_impl.html#a7a773efb6ca5d0910b4b4ddb58d6b690">engine</a>;</div>
-<div class="line"><span class="lineno"> 5183</span>  <a class="code hl_class" href="../../d6/d1f/class_template_lexer.html">TemplateLexer</a> lexer(<a class="code hl_function" href="../../d6/d07/class_template_impl.html#a7a773efb6ca5d0910b4b4ddb58d6b690">engine</a>,name,data);</div>
-<div class="line"><span class="lineno"> 5184</span>  <span class="keywordflow">if</span> (extension==<span class="stringliteral">&quot;tex&quot;</span>)</div>
-<div class="line"><span class="lineno"> 5185</span>  {</div>
-<div class="line"><span class="lineno"> 5186</span>    lexer.setOpenCloseCharacters(<span class="charliteral">&#39;&lt;&#39;</span>,<span class="charliteral">&#39;&gt;&#39;</span>);</div>
-<div class="line"><span class="lineno"> 5187</span>  }</div>
-<div class="line"><span class="lineno"> 5188</span>  <a class="code hl_typedef" href="../../df/d54/template_8cpp.html#a2c233adb0784d2ab5020eaab2614c572">TemplateTokenStream</a> tokens;</div>
-<div class="line"><span class="lineno"> 5189</span>  lexer.tokenize(tokens);</div>
-<div class="line"><span class="lineno"> 5190</span>  <a class="code hl_class" href="../../da/d25/class_template_parser.html">TemplateParser</a> parser(<a class="code hl_function" href="../../d6/d07/class_template_impl.html#a7a773efb6ca5d0910b4b4ddb58d6b690">engine</a>,name,tokens);</div>
-<div class="line"><span class="lineno"> 5191</span>  parser.parse(<span class="keyword">this</span>,1,<a class="code hl_typedef" href="../../d5/d75/containers_8h.html#ac8d53003529fb2d062d614077fe6857c">StringVector</a>(),<a class="code hl_variable" href="../../d6/d07/class_template_impl.html#aad047bb80b9e3479b2bb260b25f99b83">m_nodes</a>);</div>
-<div class="line"><span class="lineno"> 5192</span>}</div>
-<div class="ttc" id="aclass_template_impl_html_a4e129f4146bec29a4e9185680a5b85c1"><div class="ttname"><a href="../../d6/d07/class_template_impl.html#a4e129f4146bec29a4e9185680a5b85c1">TemplateImpl::m_engine</a></div><div class="ttdeci">TemplateEngine * m_engine</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l02565">template.cpp:2565</a></div></div>
-<div class="ttc" id="aclass_template_impl_html_a7a773efb6ca5d0910b4b4ddb58d6b690"><div class="ttname"><a href="../../d6/d07/class_template_impl.html#a7a773efb6ca5d0910b4b4ddb58d6b690">TemplateImpl::engine</a></div><div class="ttdeci">TemplateEngine * engine() const</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l02561">template.cpp:2561</a></div></div>
-<div class="ttc" id="aclass_template_impl_html_aad047bb80b9e3479b2bb260b25f99b83"><div class="ttname"><a href="../../d6/d07/class_template_impl.html#aad047bb80b9e3479b2bb260b25f99b83">TemplateImpl::m_nodes</a></div><div class="ttdeci">TemplateNodeList m_nodes</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l02567">template.cpp:2567</a></div></div>
-<div class="ttc" id="aclass_template_impl_html_aecf287e462372daff77f0057489c31e2"><div class="ttname"><a href="../../d6/d07/class_template_impl.html#aecf287e462372daff77f0057489c31e2">TemplateImpl::m_name</a></div><div class="ttdeci">QCString m_name</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l02566">template.cpp:2566</a></div></div>
-<div class="ttc" id="aclass_template_lexer_html"><div class="ttname"><a href="../../d6/d1f/class_template_lexer.html">TemplateLexer</a></div><div class="ttdoc">Lexer class for turning a template into a list of tokens.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l04804">template.cpp:4805</a></div></div>
-<div class="ttc" id="aclass_template_node_html"><div class="ttname"><a href="../../d6/d53/class_template_node.html">TemplateNode</a></div><div class="ttdoc">Base class of all nodes in a template's AST.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l01932">template.cpp:1933</a></div></div>
-<div class="ttc" id="aclass_template_parser_html"><div class="ttname"><a href="../../da/d25/class_template_parser.html">TemplateParser</a></div><div class="ttdoc">Parser for templates.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l01984">template.cpp:1985</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l05174">5174</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 5176</span>  : <a class="code hl_class" href="../../d6/d53/class_template_node.html">TemplateNode</a>(0)</div>
+<div class="line"><span class="lineno"> 5177</span>{</div>
+<div class="line"><span class="lineno"> 5178</span>  <span class="comment">//printf(&quot;%p:TemplateImpl::TemplateImpl(%s)\n&quot;,(void*)this,qPrint(name));</span></div>
+<div class="line"><span class="lineno"> 5179</span>  <a class="code hl_variable" href="../../d6/d07/class_template_impl.html#aecf287e462372daff77f0057489c31e2">m_name</a> = name;</div>
+<div class="line"><span class="lineno"> 5180</span>  <a class="code hl_variable" href="../../d6/d07/class_template_impl.html#a4e129f4146bec29a4e9185680a5b85c1">m_engine</a> = <a class="code hl_function" href="../../d6/d07/class_template_impl.html#a7a773efb6ca5d0910b4b4ddb58d6b690">engine</a>;</div>
+<div class="line"><span class="lineno"> 5181</span>  <a class="code hl_class" href="../../d6/d1f/class_template_lexer.html">TemplateLexer</a> lexer(<a class="code hl_function" href="../../d6/d07/class_template_impl.html#a7a773efb6ca5d0910b4b4ddb58d6b690">engine</a>,name,data);</div>
+<div class="line"><span class="lineno"> 5182</span>  <span class="keywordflow">if</span> (extension==<span class="stringliteral">&quot;tex&quot;</span>)</div>
+<div class="line"><span class="lineno"> 5183</span>  {</div>
+<div class="line"><span class="lineno"> 5184</span>    lexer.setOpenCloseCharacters(<span class="charliteral">&#39;&lt;&#39;</span>,<span class="charliteral">&#39;&gt;&#39;</span>);</div>
+<div class="line"><span class="lineno"> 5185</span>  }</div>
+<div class="line"><span class="lineno"> 5186</span>  <a class="code hl_typedef" href="../../df/d54/template_8cpp.html#a2c233adb0784d2ab5020eaab2614c572">TemplateTokenStream</a> tokens;</div>
+<div class="line"><span class="lineno"> 5187</span>  lexer.tokenize(tokens);</div>
+<div class="line"><span class="lineno"> 5188</span>  <a class="code hl_class" href="../../da/d25/class_template_parser.html">TemplateParser</a> parser(<a class="code hl_function" href="../../d6/d07/class_template_impl.html#a7a773efb6ca5d0910b4b4ddb58d6b690">engine</a>,name,tokens);</div>
+<div class="line"><span class="lineno"> 5189</span>  parser.parse(<span class="keyword">this</span>,1,<a class="code hl_typedef" href="../../d5/d75/containers_8h.html#ac8d53003529fb2d062d614077fe6857c">StringVector</a>(),<a class="code hl_variable" href="../../d6/d07/class_template_impl.html#aad047bb80b9e3479b2bb260b25f99b83">m_nodes</a>);</div>
+<div class="line"><span class="lineno"> 5190</span>}</div>
+<div class="ttc" id="aclass_template_impl_html_a4e129f4146bec29a4e9185680a5b85c1"><div class="ttname"><a href="../../d6/d07/class_template_impl.html#a4e129f4146bec29a4e9185680a5b85c1">TemplateImpl::m_engine</a></div><div class="ttdeci">TemplateEngine * m_engine</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l02566">template.cpp:2566</a></div></div>
+<div class="ttc" id="aclass_template_impl_html_a7a773efb6ca5d0910b4b4ddb58d6b690"><div class="ttname"><a href="../../d6/d07/class_template_impl.html#a7a773efb6ca5d0910b4b4ddb58d6b690">TemplateImpl::engine</a></div><div class="ttdeci">TemplateEngine * engine() const</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l02562">template.cpp:2562</a></div></div>
+<div class="ttc" id="aclass_template_impl_html_aad047bb80b9e3479b2bb260b25f99b83"><div class="ttname"><a href="../../d6/d07/class_template_impl.html#aad047bb80b9e3479b2bb260b25f99b83">TemplateImpl::m_nodes</a></div><div class="ttdeci">TemplateNodeList m_nodes</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l02568">template.cpp:2568</a></div></div>
+<div class="ttc" id="aclass_template_impl_html_aecf287e462372daff77f0057489c31e2"><div class="ttname"><a href="../../d6/d07/class_template_impl.html#aecf287e462372daff77f0057489c31e2">TemplateImpl::m_name</a></div><div class="ttdeci">QCString m_name</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l02567">template.cpp:2567</a></div></div>
+<div class="ttc" id="aclass_template_lexer_html"><div class="ttname"><a href="../../d6/d1f/class_template_lexer.html">TemplateLexer</a></div><div class="ttdoc">Lexer class for turning a template into a list of tokens.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l04802">template.cpp:4803</a></div></div>
+<div class="ttc" id="aclass_template_node_html"><div class="ttname"><a href="../../d6/d53/class_template_node.html">TemplateNode</a></div><div class="ttdoc">Base class of all nodes in a template's AST.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l01933">template.cpp:1934</a></div></div>
+<div class="ttc" id="aclass_template_parser_html"><div class="ttname"><a href="../../da/d25/class_template_parser.html">TemplateParser</a></div><div class="ttdoc">Parser for templates.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l01985">template.cpp:1986</a></div></div>
 <div class="ttc" id="acontainers_8h_html_ac8d53003529fb2d062d614077fe6857c"><div class="ttname"><a href="../../d5/d75/containers_8h.html#ac8d53003529fb2d062d614077fe6857c">StringVector</a></div><div class="ttdeci">std::vector&lt; std::string &gt; StringVector</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d75/containers_8h_source.html#l00032">containers.h:32</a></div></div>
-<div class="ttc" id="atemplate_8cpp_html_a2c233adb0784d2ab5020eaab2614c572"><div class="ttname"><a href="../../df/d54/template_8cpp.html#a2c233adb0784d2ab5020eaab2614c572">TemplateTokenStream</a></div><div class="ttdeci">std::deque&lt; TemplateTokenPtr &gt; TemplateTokenStream</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l01962">template.cpp:1962</a></div></div>
+<div class="ttc" id="atemplate_8cpp_html_a2c233adb0784d2ab5020eaab2614c572"><div class="ttname"><a href="../../df/d54/template_8cpp.html#a2c233adb0784d2ab5020eaab2614c572">TemplateTokenStream</a></div><div class="ttdeci">std::deque&lt; TemplateTokenPtr &gt; TemplateTokenStream</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l01963">template.cpp:1963</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l02561">engine()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l02565">m_engine</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l02566">m_name</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l02567">m_nodes</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l05056">TemplateParser::parse()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l04809">TemplateLexer::setOpenCloseCharacters()</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l04830">TemplateLexer::tokenize()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l02562">engine()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l02566">m_engine</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l02567">m_name</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l02568">m_nodes</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l05054">TemplateParser::parse()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l04807">TemplateLexer::setOpenCloseCharacters()</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l04828">TemplateLexer::tokenize()</a>.</p>
 
 </div>
 </div>
@@ -246,10 +246,10 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l05194">5194</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 5195</span>{</div>
-<div class="line"><span class="lineno"> 5196</span>  <span class="comment">//printf(&quot;%p:TemplateImpl::~TemplateImpl(%s)\n&quot;,(void*)this,qPrint(m_name));</span></div>
-<div class="line"><span class="lineno"> 5197</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l05192">5192</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 5193</span>{</div>
+<div class="line"><span class="lineno"> 5194</span>  <span class="comment">//printf(&quot;%p:TemplateImpl::~TemplateImpl(%s)\n&quot;,(void*)this,qPrint(m_name));</span></div>
+<div class="line"><span class="lineno"> 5195</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -277,11 +277,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l02562">2562</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2562</span>{ <span class="keywordflow">return</span> &amp;<a class="code hl_variable" href="../../d6/d07/class_template_impl.html#adf3495f66d9a575f70e48d51cec08382">m_blockContext</a>; }</div>
-<div class="ttc" id="aclass_template_impl_html_adf3495f66d9a575f70e48d51cec08382"><div class="ttname"><a href="../../d6/d07/class_template_impl.html#adf3495f66d9a575f70e48d51cec08382">TemplateImpl::m_blockContext</a></div><div class="ttdeci">TemplateBlockContext m_blockContext</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l02568">template.cpp:2568</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l02563">2563</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 2563</span>{ <span class="keywordflow">return</span> &amp;<a class="code hl_variable" href="../../d6/d07/class_template_impl.html#adf3495f66d9a575f70e48d51cec08382">m_blockContext</a>; }</div>
+<div class="ttc" id="aclass_template_impl_html_adf3495f66d9a575f70e48d51cec08382"><div class="ttname"><a href="../../d6/d07/class_template_impl.html#adf3495f66d9a575f70e48d51cec08382">TemplateImpl::m_blockContext</a></div><div class="ttdeci">TemplateBlockContext m_blockContext</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l02569">template.cpp:2569</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l02568">m_blockContext</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l02569">m_blockContext</a>.</p>
 
 </div>
 </div>
@@ -308,12 +308,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l02561">2561</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2561</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d6/d07/class_template_impl.html#a4e129f4146bec29a4e9185680a5b85c1">m_engine</a>; }</div>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l02562">2562</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 2562</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d6/d07/class_template_impl.html#a4e129f4146bec29a4e9185680a5b85c1">m_engine</a>; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l02565">m_engine</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l02566">m_engine</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l03856">TemplateNodeCreate::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03617">TemplateNodeBlock::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03694">TemplateNodeExtend::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03767">TemplateNodeInclude::render()</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l05176">TemplateImpl()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l03857">TemplateNodeCreate::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03618">TemplateNodeBlock::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03695">TemplateNodeExtend::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03768">TemplateNodeInclude::render()</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l05174">TemplateImpl()</a>.</p>
 
 </div>
 </div>
@@ -353,39 +353,39 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d6/d53/class_template_node.html#a359c255cedaf603fd3e0ef35b7126185">TemplateNode</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l05199">5199</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 5200</span>{</div>
-<div class="line"><span class="lineno"> 5201</span>  <a class="code hl_class" href="../../da/dbf/class_template_context_impl.html">TemplateContextImpl</a> *ci = <span class="keyword">dynamic_cast&lt;</span><a class="code hl_class" href="../../da/dbf/class_template_context_impl.html">TemplateContextImpl</a>*<span class="keyword">&gt;</span>(c);</div>
-<div class="line"><span class="lineno"> 5202</span>  <span class="keywordflow">if</span> (ci==0) <span class="keywordflow">return</span>; <span class="comment">// should not happen</span></div>
-<div class="line"><span class="lineno"> 5203</span>  <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d6/d07/class_template_impl.html#aad047bb80b9e3479b2bb260b25f99b83">m_nodes</a>.empty())</div>
-<div class="line"><span class="lineno"> 5204</span>  {</div>
-<div class="line"><span class="lineno"> 5205</span>    <a class="code hl_class" href="../../d0/d21/class_template_node_extend.html">TemplateNodeExtend</a> *ne = <span class="keyword">dynamic_cast&lt;</span><a class="code hl_class" href="../../d0/d21/class_template_node_extend.html">TemplateNodeExtend</a>*<span class="keyword">&gt;</span>(<a class="code hl_variable" href="../../d6/d07/class_template_impl.html#aad047bb80b9e3479b2bb260b25f99b83">m_nodes</a>.front().get());</div>
-<div class="line"><span class="lineno"> 5206</span>    <span class="keywordflow">if</span> (ne==0) <span class="comment">// normal template, add blocks to block context</span></div>
-<div class="line"><span class="lineno"> 5207</span>    {</div>
-<div class="line"><span class="lineno"> 5208</span>      <a class="code hl_class" href="../../dc/d7f/class_template_block_context.html">TemplateBlockContext</a> *bc = ci-&gt;<a class="code hl_function" href="../../da/dbf/class_template_context_impl.html#aa95cf328b6caf850d094d38e39487fd8">blockContext</a>();</div>
-<div class="line"><span class="lineno"> 5209</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;n : <a class="code hl_variable" href="../../d6/d07/class_template_impl.html#aad047bb80b9e3479b2bb260b25f99b83">m_nodes</a>)</div>
-<div class="line"><span class="lineno"> 5210</span>      {</div>
-<div class="line"><span class="lineno"> 5211</span>        <a class="code hl_class" href="../../d2/de0/class_template_node_block.html">TemplateNodeBlock</a> *nb = <span class="keyword">dynamic_cast&lt;</span><a class="code hl_class" href="../../d2/de0/class_template_node_block.html">TemplateNodeBlock</a>*<span class="keyword">&gt;</span>(n.get());</div>
-<div class="line"><span class="lineno"> 5212</span>        <span class="keywordflow">if</span> (nb)</div>
-<div class="line"><span class="lineno"> 5213</span>        {</div>
-<div class="line"><span class="lineno"> 5214</span>          bc-&gt;<a class="code hl_function" href="../../dc/d7f/class_template_block_context.html#a3d0a08f3095d647312ccd6fce5b82f05">add</a>(nb);</div>
-<div class="line"><span class="lineno"> 5215</span>        }</div>
-<div class="line"><span class="lineno"> 5216</span>      }</div>
-<div class="line"><span class="lineno"> 5217</span>    }</div>
-<div class="line"><span class="lineno"> 5218</span>    <a class="code hl_variable" href="../../d6/d07/class_template_impl.html#aad047bb80b9e3479b2bb260b25f99b83">m_nodes</a>.<a class="code hl_function" href="../../df/daf/class_template_node_list.html#ae5b2f603e5180c15115a141784f0ae6c">render</a>(ts,c);</div>
-<div class="line"><span class="lineno"> 5219</span>  }</div>
-<div class="line"><span class="lineno"> 5220</span>}</div>
-<div class="ttc" id="aclass_template_block_context_html"><div class="ttname"><a href="../../dc/d7f/class_template_block_context.html">TemplateBlockContext</a></div><div class="ttdoc">Class holding stacks of blocks available in the context.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l00613">template.cpp:614</a></div></div>
-<div class="ttc" id="aclass_template_block_context_html_a3d0a08f3095d647312ccd6fce5b82f05"><div class="ttname"><a href="../../dc/d7f/class_template_block_context.html#a3d0a08f3095d647312ccd6fce5b82f05">TemplateBlockContext::add</a></div><div class="ttdeci">void add(TemplateNodeBlock *block)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l04764">template.cpp:4764</a></div></div>
-<div class="ttc" id="aclass_template_context_impl_html"><div class="ttname"><a href="../../da/dbf/class_template_context_impl.html">TemplateContextImpl</a></div><div class="ttdoc">Internal class representing the implementation of a template context.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l00639">template.cpp:640</a></div></div>
-<div class="ttc" id="aclass_template_context_impl_html_aa95cf328b6caf850d094d38e39487fd8"><div class="ttname"><a href="../../da/dbf/class_template_context_impl.html#aa95cf328b6caf850d094d38e39487fd8">TemplateContextImpl::blockContext</a></div><div class="ttdeci">TemplateBlockContext * blockContext()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l02767">template.cpp:2767</a></div></div>
-<div class="ttc" id="aclass_template_node_block_html"><div class="ttname"><a href="../../d2/de0/class_template_node_block.html">TemplateNodeBlock</a></div><div class="ttdoc">Class representing a 'block' tag in a template.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l03599">template.cpp:3600</a></div></div>
-<div class="ttc" id="aclass_template_node_extend_html"><div class="ttname"><a href="../../d0/d21/class_template_node_extend.html">TemplateNodeExtend</a></div><div class="ttdoc">Class representing a 'extend' tag in a template.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l03676">template.cpp:3677</a></div></div>
-<div class="ttc" id="aclass_template_node_list_html_ae5b2f603e5180c15115a141784f0ae6c"><div class="ttname"><a href="../../df/daf/class_template_node_list.html#ae5b2f603e5180c15115a141784f0ae6c">TemplateNodeList::render</a></div><div class="ttdeci">void render(TextStream &amp;ts, TemplateContext *c)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l01970">template.cpp:1970</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l05197">5197</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 5198</span>{</div>
+<div class="line"><span class="lineno"> 5199</span>  <a class="code hl_class" href="../../da/dbf/class_template_context_impl.html">TemplateContextImpl</a> *ci = <span class="keyword">dynamic_cast&lt;</span><a class="code hl_class" href="../../da/dbf/class_template_context_impl.html">TemplateContextImpl</a>*<span class="keyword">&gt;</span>(c);</div>
+<div class="line"><span class="lineno"> 5200</span>  <span class="keywordflow">if</span> (ci==0) <span class="keywordflow">return</span>; <span class="comment">// should not happen</span></div>
+<div class="line"><span class="lineno"> 5201</span>  <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d6/d07/class_template_impl.html#aad047bb80b9e3479b2bb260b25f99b83">m_nodes</a>.empty())</div>
+<div class="line"><span class="lineno"> 5202</span>  {</div>
+<div class="line"><span class="lineno"> 5203</span>    <a class="code hl_class" href="../../d0/d21/class_template_node_extend.html">TemplateNodeExtend</a> *ne = <span class="keyword">dynamic_cast&lt;</span><a class="code hl_class" href="../../d0/d21/class_template_node_extend.html">TemplateNodeExtend</a>*<span class="keyword">&gt;</span>(<a class="code hl_variable" href="../../d6/d07/class_template_impl.html#aad047bb80b9e3479b2bb260b25f99b83">m_nodes</a>.front().get());</div>
+<div class="line"><span class="lineno"> 5204</span>    <span class="keywordflow">if</span> (ne==0) <span class="comment">// normal template, add blocks to block context</span></div>
+<div class="line"><span class="lineno"> 5205</span>    {</div>
+<div class="line"><span class="lineno"> 5206</span>      <a class="code hl_class" href="../../dc/d7f/class_template_block_context.html">TemplateBlockContext</a> *bc = ci-&gt;<a class="code hl_function" href="../../da/dbf/class_template_context_impl.html#aa95cf328b6caf850d094d38e39487fd8">blockContext</a>();</div>
+<div class="line"><span class="lineno"> 5207</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;n : <a class="code hl_variable" href="../../d6/d07/class_template_impl.html#aad047bb80b9e3479b2bb260b25f99b83">m_nodes</a>)</div>
+<div class="line"><span class="lineno"> 5208</span>      {</div>
+<div class="line"><span class="lineno"> 5209</span>        <a class="code hl_class" href="../../d2/de0/class_template_node_block.html">TemplateNodeBlock</a> *nb = <span class="keyword">dynamic_cast&lt;</span><a class="code hl_class" href="../../d2/de0/class_template_node_block.html">TemplateNodeBlock</a>*<span class="keyword">&gt;</span>(n.get());</div>
+<div class="line"><span class="lineno"> 5210</span>        <span class="keywordflow">if</span> (nb)</div>
+<div class="line"><span class="lineno"> 5211</span>        {</div>
+<div class="line"><span class="lineno"> 5212</span>          bc-&gt;<a class="code hl_function" href="../../dc/d7f/class_template_block_context.html#a3d0a08f3095d647312ccd6fce5b82f05">add</a>(nb);</div>
+<div class="line"><span class="lineno"> 5213</span>        }</div>
+<div class="line"><span class="lineno"> 5214</span>      }</div>
+<div class="line"><span class="lineno"> 5215</span>    }</div>
+<div class="line"><span class="lineno"> 5216</span>    <a class="code hl_variable" href="../../d6/d07/class_template_impl.html#aad047bb80b9e3479b2bb260b25f99b83">m_nodes</a>.<a class="code hl_function" href="../../df/daf/class_template_node_list.html#ae5b2f603e5180c15115a141784f0ae6c">render</a>(ts,c);</div>
+<div class="line"><span class="lineno"> 5217</span>  }</div>
+<div class="line"><span class="lineno"> 5218</span>}</div>
+<div class="ttc" id="aclass_template_block_context_html"><div class="ttname"><a href="../../dc/d7f/class_template_block_context.html">TemplateBlockContext</a></div><div class="ttdoc">Class holding stacks of blocks available in the context.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l00614">template.cpp:615</a></div></div>
+<div class="ttc" id="aclass_template_block_context_html_a3d0a08f3095d647312ccd6fce5b82f05"><div class="ttname"><a href="../../dc/d7f/class_template_block_context.html#a3d0a08f3095d647312ccd6fce5b82f05">TemplateBlockContext::add</a></div><div class="ttdeci">void add(TemplateNodeBlock *block)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l04762">template.cpp:4762</a></div></div>
+<div class="ttc" id="aclass_template_context_impl_html"><div class="ttname"><a href="../../da/dbf/class_template_context_impl.html">TemplateContextImpl</a></div><div class="ttdoc">Internal class representing the implementation of a template context.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l00640">template.cpp:641</a></div></div>
+<div class="ttc" id="aclass_template_context_impl_html_aa95cf328b6caf850d094d38e39487fd8"><div class="ttname"><a href="../../da/dbf/class_template_context_impl.html#aa95cf328b6caf850d094d38e39487fd8">TemplateContextImpl::blockContext</a></div><div class="ttdeci">TemplateBlockContext * blockContext()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l02768">template.cpp:2768</a></div></div>
+<div class="ttc" id="aclass_template_node_block_html"><div class="ttname"><a href="../../d2/de0/class_template_node_block.html">TemplateNodeBlock</a></div><div class="ttdoc">Class representing a 'block' tag in a template.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l03600">template.cpp:3601</a></div></div>
+<div class="ttc" id="aclass_template_node_extend_html"><div class="ttname"><a href="../../d0/d21/class_template_node_extend.html">TemplateNodeExtend</a></div><div class="ttdoc">Class representing a 'extend' tag in a template.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l03677">template.cpp:3678</a></div></div>
+<div class="ttc" id="aclass_template_node_list_html_ae5b2f603e5180c15115a141784f0ae6c"><div class="ttname"><a href="../../df/daf/class_template_node_list.html#ae5b2f603e5180c15115a141784f0ae6c">TemplateNodeList::render</a></div><div class="ttdeci">void render(TextStream &amp;ts, TemplateContext *c)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l01971">template.cpp:1971</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l04764">TemplateBlockContext::add()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l02767">TemplateContextImpl::blockContext()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l02567">m_nodes</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l01970">TemplateNodeList::render()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l04762">TemplateBlockContext::add()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l02768">TemplateContextImpl::blockContext()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l02568">m_nodes</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l01971">TemplateNodeList::render()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l03856">TemplateNodeCreate::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03694">TemplateNodeExtend::render()</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l03767">TemplateNodeInclude::render()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l03857">TemplateNodeCreate::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03695">TemplateNodeExtend::render()</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l03768">TemplateNodeInclude::render()</a>.</p>
 
 </div>
 </div>
@@ -410,9 +410,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l02568">2568</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l02569">2569</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l02562">blockContext()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l02563">blockContext()</a>.</p>
 
 </div>
 </div>
@@ -436,9 +436,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l02565">2565</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l02566">2566</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l02561">engine()</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l05176">TemplateImpl()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l02562">engine()</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l05174">TemplateImpl()</a>.</p>
 
 </div>
 </div>
@@ -462,9 +462,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l02566">2566</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l02567">2567</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l05176">TemplateImpl()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l05174">TemplateImpl()</a>.</p>
 
 </div>
 </div>
@@ -488,9 +488,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l02567">2567</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l02568">2568</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l05199">render()</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l05176">TemplateImpl()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l05197">render()</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l05174">TemplateImpl()</a>.</p>
 
 </div>
 </div>

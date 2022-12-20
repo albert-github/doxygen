@@ -10,6 +10,7 @@ var vhdldocgen_8cpp =
     [ "FLOWLEN", "de/dea/vhdldocgen_8cpp.html#a202add8ca5d891a736b7865fd7bc733f", null ],
     [ "IFF", "de/dea/vhdldocgen_8cpp.html#a2683dde5ae950c9c69ec580cff66f359", null ],
     [ "LOOP", "de/dea/vhdldocgen_8cpp.html#a8e8f11caf539de9555d07b4e7ef5b1da", null ],
+    [ "RE_EXP", "de/dea/vhdldocgen_8cpp.html#aa9aae9557e49ec4e71613663ce222459", null ],
     [ "STARTFIN", "de/dea/vhdldocgen_8cpp.html#abe49c281c00844e55c25aacf8b4ee1a2", null ],
     [ "STARTL", "de/dea/vhdldocgen_8cpp.html#afd32ac165b45cf0bd6eb6aeb189c98fe", null ],
     [ "theTranslator_vhdlType", "de/dea/vhdldocgen_8cpp.html#a5c766ca623cbbc0bf6fded310f85f857", null ],

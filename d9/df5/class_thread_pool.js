@@ -3,7 +3,7 @@ var class_thread_pool =
     [ "ThreadPool", "d9/df5/class_thread_pool.html#a786db3b3e0aac5ca3e43c37025ab22b0", null ],
     [ "~ThreadPool", "d9/df5/class_thread_pool.html#a44d3d2ab618970605e684efc216655eb", null ],
     [ "finish", "d9/df5/class_thread_pool.html#a1fc76489de6e11c259ccf8f072fe135d", null ],
-    [ "queue", "d9/df5/class_thread_pool.html#abfd71afcc32aef51c03968c99dbc0e00", null ],
+    [ "queue", "d9/df5/class_thread_pool.html#a90398abffcd9d81901195160315b1bc9", null ],
     [ "threadTask", "d9/df5/class_thread_pool.html#a630a5230a8d6a8ba5c11b88ccc91c32b", null ],
     [ "unused_variable", "d9/df5/class_thread_pool.html#aa4eb9cb7a39f85ad28ff04175ba71eb7", null ],
     [ "m_cond", "d9/df5/class_thread_pool.html#aea3e5ca7e471639fdd30c8bde0670616", null ],

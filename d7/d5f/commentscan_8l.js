@@ -11,7 +11,7 @@ var commentscan_8l =
     [ "YY_NO_INPUT", "d7/d5f/commentscan_8l.html#a85523a0c7d95c059d251b4e9829947aa", null ],
     [ "YY_NO_UNISTD_H", "d7/d5f/commentscan_8l.html#ae78ac56cd1f29572e967ed7636952d15", null ],
     [ "YY_TYPEDEF_YY_SCANNER_T", "d7/d5f/commentscan_8l.html#a5d5508008cac8fb66fca3baa4e9b6584", null ],
-    [ "DocCmdFunc", "d7/d5f/commentscan_8l.html#a5f0ef51d0304321a0f49bce394f3b4d2", null ],
+    [ "DocCmdFunc", "d7/d5f/commentscan_8l.html#a4b4d67720fb5ff480ae32e2a15026e19", null ],
     [ "yyscan_t", "d7/d5f/commentscan_8l.html#a9484188abbc459dafcbd4c96425fa70b", null ],
     [ "CommandSpacing", "d7/d5f/commentscan_8l.html#abef2fa9b94f622b395476cf09af989c4", [
       [ "Invisible", "d7/d5f/commentscan_8l.html#abef2fa9b94f622b395476cf09af989c4a8bcda43732b0928d269955e0f09ff76f", null ],

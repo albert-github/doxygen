@@ -1,6 +1,7 @@
 var configimpl_8l =
 [
     [ "ConfigFileState", "d5/dd5/struct_config_file_state.html", "d5/dd5/struct_config_file_state" ],
+    [ "ENV_REPLACE", "d9/de3/configimpl_8l.html#a01b6b1ab265c36b292c80479c6c72f01", null ],
     [ "LEX_NO_REENTRANT", "d9/de3/configimpl_8l.html#a146a93da1f8efdea496a6d138d4773bc", null ],
     [ "MAX_INCLUDE_DEPTH", "d9/de3/configimpl_8l.html#a641f7209d924c2c4cb24420dcd631f37", null ],
     [ "SHOW_INCLUDES", "d9/de3/configimpl_8l.html#abc983123ed5d1694a014d1ea7c1f22cb", null ],
@@ -54,8 +55,8 @@ var configimpl_8l =
     [ "g_string", "d9/de3/configimpl_8l.html#a0b72791268d83dc5adf869ac258a3027", null ],
     [ "g_yyFileName", "d9/de3/configimpl_8l.html#afec8ce807dc9bf79f073fa691fafe1f8", null ],
     [ "g_yyLineNr", "d9/de3/configimpl_8l.html#ada427227e611310f718c3d614f32d032", null ],
-    [ "reEnvVar", "d9/de3/configimpl_8l.html#a93417da3de847772a0db1c1067124b57", null ],
-    [ "reEnvVarCMake", "d9/de3/configimpl_8l.html#ad8742d431dca72b48403598209fa3278", null ],
-    [ "reEnvVarExt", "d9/de3/configimpl_8l.html#a8ef2cd114dfa4c36bb86f42ec41c74ea", null ],
+    [ "reEnvVar", "d9/de3/configimpl_8l.html#a6fac9d64ec1f87c0b93bbdc4945de124", null ],
+    [ "reEnvVarCMake", "d9/de3/configimpl_8l.html#a43846ea77de5f67cf7b0b11a173b1713", null ],
+    [ "reEnvVarExt", "d9/de3/configimpl_8l.html#a9e535c635ac087d1e01bb19142500b64", null ],
     [ "warning_str", "d9/de3/configimpl_8l.html#a4b306c7d6514a51d731a5b581ce6c2a4", null ]
 ];

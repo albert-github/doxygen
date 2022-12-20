@@ -10,7 +10,7 @@ var searchData=
   ['difference_5ftype_7',['difference_type',['../da/da3/class_dir_iterator.html#a1220d59d9dfb89d43504c5e9466364d7',1,'DirIterator::difference_type()'],['../d5/dca/class_grow_vector_1_1_iterator.html#a303b2faf2e9f7000a612dbabeb68fd1a',1,'GrowVector::Iterator::difference_type()'],['../d4/d72/classreg_1_1_iterator.html#a6424b2f931a5cb860a7d60bf777b3c03',1,'reg::Iterator::difference_type()']]],
   ['dirdefmap_8',['DirDefMap',['../da/d45/dotdirdeps_8cpp.html#aa012bdc6c0e896cccb8121b3c6b7ad60',1,'dotdirdeps.cpp']]],
   ['dirrelations_9',['DirRelations',['../da/d45/dotdirdeps_8cpp.html#a0540771f72e56700a0d30f72580d0065',1,'dotdirdeps.cpp']]],
-  ['doccmdfunc_10',['DocCmdFunc',['../d7/d5f/commentscan_8l.html#a5f0ef51d0304321a0f49bce394f3b4d2',1,'commentscan.l']]],
+  ['doccmdfunc_10',['DocCmdFunc',['../d7/d5f/commentscan_8l.html#a4b4d67720fb5ff480ae32e2a15026e19',1,'commentscan.l']]],
   ['docnodestack_11',['DocNodeStack',['../df/dc9/docparser__p_8h.html#a0dfd1bd35105b96a1c23a5705f269277',1,'docparser_p.h']]],
   ['docnodevariant_12',['DocNodeVariant',['../de/d2b/docnode_8h.html#afad5b9fbe2e475f242fe258914b6a4a0',1,'docnode.h']]],
   ['docstylechangestack_13',['DocStyleChangeStack',['../df/dc9/docparser__p_8h.html#a5f6c903a8ded6b802b258c1a4eb466a6',1,'docparser_p.h']]],

@@ -389,7 +389,6 @@ var hierarchy =
     [ "ContextGlobals", "d5/d87/struct_context_globals.html", null ],
     [ "CPPValue", "d2/d75/class_c_p_p_value.html", null ],
     [ "CallContext::Ctx", "d0/d35/struct_call_context_1_1_ctx.html", null ],
-    [ "DateTimeField", "df/dae/struct_date_time_field.html", null ],
     [ "Debug", "da/d7d/class_debug.html", null ],
     [ "IndexIntf::decContentsDepth< T >", "d6/d1d/struct_index_intf_1_1dec_contents_depth.html", null ],
     [ "declinfoYY_state", "da/d1f/structdeclinfo_y_y__state.html", null ],
@@ -1011,7 +1010,6 @@ var hierarchy =
     [ "SIData_Word", "d7/def/struct_s_i_data___word.html", null ],
     [ "SIDataCollection", "d2/dc1/class_s_i_data_collection.html", null ],
     [ "SourceLinkInfo", "dc/dc2/struct_source_link_info.html", null ],
-    [ "SpecFormat", "d5/dfd/struct_spec_format.html", null ],
     [ "sqlcodeYY_state", "da/d7b/structsqlcode_y_y__state.html", null ],
     [ "std::stack", null, [
       [ "IterableStack< const DocNodeVariant * >", "d9/d82/class_iterable_stack.html", null ],

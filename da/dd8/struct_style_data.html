@@ -180,31 +180,28 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d5c/rtfstyle_8cpp_source.html#l00237">237</a> of file <a class="el" href="../../de/d5c/rtfstyle_8cpp_source.html">rtfstyle.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  238</span>{</div>
-<div class="line"><span class="lineno">  239</span>  <a class="code hl_class" href="../../d2/ddf/classreg_1_1_match.html">reg::Match</a> <a class="code hl_function" href="../../db/d35/namespacereg.html#a1a29dcc7e2ccf462503adc5d496881ae">match</a>;</div>
-<div class="line"><span class="lineno">  240</span>  <span class="keywordflow">if</span> (<a class="code hl_function" href="../../db/d35/namespacereg.html#a0af12d3e92e774639befbdf774606e52">reg::search</a>(<a class="code hl_function" href="../../da/dd8/struct_style_data.html#af5bfe4b887b11e7daba3c3648697e031">reference</a>,match,<a class="code hl_variable" href="../../de/d5c/rtfstyle_8cpp.html#a7ce4348d587548a514b1e698abed1a54">s_clause</a>))</div>
-<div class="line"><span class="lineno">  241</span>  {</div>
-<div class="line"><span class="lineno">  242</span>    <a class="code hl_variable" href="../../da/dd8/struct_style_data.html#a91d075b2822ebca9d9558a462bf5c45c">m_index</a> = <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(std::stoul(match[1].str()));</div>
-<div class="line"><span class="lineno">  243</span>  }</div>
-<div class="line"><span class="lineno">  244</span>  <span class="keywordflow">else</span> <span class="comment">// error</span></div>
-<div class="line"><span class="lineno">  245</span>  {</div>
-<div class="line"><span class="lineno">  246</span>    <a class="code hl_variable" href="../../da/dd8/struct_style_data.html#a91d075b2822ebca9d9558a462bf5c45c">m_index</a> = 0;</div>
-<div class="line"><span class="lineno">  247</span>  }</div>
-<div class="line"><span class="lineno">  248</span>  <a class="code hl_variable" href="../../da/dd8/struct_style_data.html#af7b4270cec917791d56b70ff1c5606e3">m_reference</a> = <a class="code hl_function" href="../../da/dd8/struct_style_data.html#af5bfe4b887b11e7daba3c3648697e031">reference</a>;</div>
-<div class="line"><span class="lineno">  249</span>  <a class="code hl_variable" href="../../da/dd8/struct_style_data.html#afb8d293d6b6162f687f6d753e9221729">m_definition</a> = <a class="code hl_function" href="../../da/dd8/struct_style_data.html#acae6677bf1fd21e0b3b0607243d3f01a">definition</a>;</div>
-<div class="line"><span class="lineno">  250</span>}</div>
-<div class="ttc" id="aclassreg_1_1_match_html"><div class="ttname"><a href="../../d2/ddf/classreg_1_1_match.html">reg::Match</a></div><div class="ttdoc">Object representing the matching results.</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d21/regex_8h_source.html#l00150">regex.h:151</a></div></div>
-<div class="ttc" id="anamespacereg_html_a0af12d3e92e774639befbdf774606e52"><div class="ttname"><a href="../../db/d35/namespacereg.html#a0af12d3e92e774639befbdf774606e52">reg::search</a></div><div class="ttdeci">bool search(const std::string &amp;str, Match &amp;match, const Ex &amp;re, size_t pos)</div><div class="ttdoc">Search in a given string str starting at position pos for a match against regular expression re.</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d85/regex_8cpp_source.html#l00749">regex.cpp:749</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../de/d5c/rtfstyle_8cpp_source.html#l00238">238</a> of file <a class="el" href="../../de/d5c/rtfstyle_8cpp_source.html">rtfstyle.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  239</span>{</div>
+<div class="line"><span class="lineno">  240</span>  <span class="keyword">auto</span> <a class="code hl_function" href="../../db/d35/namespacereg.html#a1a29dcc7e2ccf462503adc5d496881ae">match</a> = ctre::search&lt;s_clause&gt;(<a class="code hl_function" href="../../da/dd8/struct_style_data.html#af5bfe4b887b11e7daba3c3648697e031">reference</a>);</div>
+<div class="line"><span class="lineno">  241</span>  <span class="keywordflow">if</span> (match)</div>
+<div class="line"><span class="lineno">  242</span>  {</div>
+<div class="line"><span class="lineno">  243</span>    <a class="code hl_variable" href="../../da/dd8/struct_style_data.html#a91d075b2822ebca9d9558a462bf5c45c">m_index</a> = std::atoi(<a class="code hl_function" href="../../db/d35/namespacereg.html#a1a29dcc7e2ccf462503adc5d496881ae">match</a>.get&lt;1&gt;().str().c_str());</div>
+<div class="line"><span class="lineno">  244</span>  }</div>
+<div class="line"><span class="lineno">  245</span>  <span class="keywordflow">else</span> <span class="comment">// error</span></div>
+<div class="line"><span class="lineno">  246</span>  {</div>
+<div class="line"><span class="lineno">  247</span>    <a class="code hl_variable" href="../../da/dd8/struct_style_data.html#a91d075b2822ebca9d9558a462bf5c45c">m_index</a> = 0;</div>
+<div class="line"><span class="lineno">  248</span>  }</div>
+<div class="line"><span class="lineno">  249</span>  <a class="code hl_variable" href="../../da/dd8/struct_style_data.html#af7b4270cec917791d56b70ff1c5606e3">m_reference</a> = <a class="code hl_function" href="../../da/dd8/struct_style_data.html#af5bfe4b887b11e7daba3c3648697e031">reference</a>;</div>
+<div class="line"><span class="lineno">  250</span>  <a class="code hl_variable" href="../../da/dd8/struct_style_data.html#afb8d293d6b6162f687f6d753e9221729">m_definition</a> = <a class="code hl_function" href="../../da/dd8/struct_style_data.html#acae6677bf1fd21e0b3b0607243d3f01a">definition</a>;</div>
+<div class="line"><span class="lineno">  251</span>}</div>
 <div class="ttc" id="anamespacereg_html_a1a29dcc7e2ccf462503adc5d496881ae"><div class="ttname"><a href="../../db/d35/namespacereg.html#a1a29dcc7e2ccf462503adc5d496881ae">reg::match</a></div><div class="ttdeci">bool match(const std::string &amp;str, Match &amp;match, const Ex &amp;re)</div><div class="ttdoc">Matches a given string str for a match against regular expression re.</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d85/regex_8cpp_source.html#l00760">regex.cpp:760</a></div></div>
-<div class="ttc" id="artfstyle_8cpp_html_a7ce4348d587548a514b1e698abed1a54"><div class="ttname"><a href="../../de/d5c/rtfstyle_8cpp.html#a7ce4348d587548a514b1e698abed1a54">s_clause</a></div><div class="ttdeci">static const reg::Ex s_clause(R&quot;(\\s(\d+)\s*)&quot;)</div></div>
 <div class="ttc" id="astruct_style_data_html_a91d075b2822ebca9d9558a462bf5c45c"><div class="ttname"><a href="../../da/dd8/struct_style_data.html#a91d075b2822ebca9d9558a462bf5c45c">StyleData::m_index</a></div><div class="ttdeci">uint m_index</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df3/rtfstyle_8h_source.html#l00064">rtfstyle.h:64</a></div></div>
 <div class="ttc" id="astruct_style_data_html_acae6677bf1fd21e0b3b0607243d3f01a"><div class="ttname"><a href="../../da/dd8/struct_style_data.html#acae6677bf1fd21e0b3b0607243d3f01a">StyleData::definition</a></div><div class="ttdeci">const char * definition() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df3/rtfstyle_8h_source.html#l00060">rtfstyle.h:60</a></div></div>
 <div class="ttc" id="astruct_style_data_html_af5bfe4b887b11e7daba3c3648697e031"><div class="ttname"><a href="../../da/dd8/struct_style_data.html#af5bfe4b887b11e7daba3c3648697e031">StyleData::reference</a></div><div class="ttdeci">const char * reference() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df3/rtfstyle_8h_source.html#l00059">rtfstyle.h:59</a></div></div>
 <div class="ttc" id="astruct_style_data_html_af7b4270cec917791d56b70ff1c5606e3"><div class="ttname"><a href="../../da/dd8/struct_style_data.html#af7b4270cec917791d56b70ff1c5606e3">StyleData::m_reference</a></div><div class="ttdeci">std::string m_reference</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df3/rtfstyle_8h_source.html#l00065">rtfstyle.h:65</a></div></div>
 <div class="ttc" id="astruct_style_data_html_afb8d293d6b6162f687f6d753e9221729"><div class="ttname"><a href="../../da/dd8/struct_style_data.html#afb8d293d6b6162f687f6d753e9221729">StyleData::m_definition</a></div><div class="ttdeci">std::string m_definition</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df3/rtfstyle_8h_source.html#l00066">rtfstyle.h:66</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/df3/rtfstyle_8h_source.html#l00060">definition()</a>, <a class="el" href="../../d4/df3/rtfstyle_8h_source.html#l00066">m_definition</a>, <a class="el" href="../../d4/df3/rtfstyle_8h_source.html#l00064">m_index</a>, <a class="el" href="../../d4/df3/rtfstyle_8h_source.html#l00065">m_reference</a>, <a class="el" href="../../d4/df3/rtfstyle_8h_source.html#l00059">reference()</a>, <a class="el" href="../../de/d5c/rtfstyle_8cpp.html#a7ce4348d587548a514b1e698abed1a54">s_clause</a>, and <a class="el" href="../../d6/d85/regex_8cpp_source.html#l00749">reg::search()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/df3/rtfstyle_8h_source.html#l00060">definition()</a>, <a class="el" href="../../d4/df3/rtfstyle_8h_source.html#l00066">m_definition</a>, <a class="el" href="../../d4/df3/rtfstyle_8h_source.html#l00064">m_index</a>, <a class="el" href="../../d4/df3/rtfstyle_8h_source.html#l00065">m_reference</a>, and <a class="el" href="../../d4/df3/rtfstyle_8h_source.html#l00059">reference()</a>.</p>
 
 </div>
 </div>
@@ -237,7 +234,7 @@ Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d4/df3/rtfstyle_8h_source.html#l00066">m_definition</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00402">RTFGenerator::beginRTFDocument()</a>, and <a class="el" href="../../de/d5c/rtfstyle_8cpp_source.html#l00237">StyleData()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00402">RTFGenerator::beginRTFDocument()</a>, and <a class="el" href="../../de/d5c/rtfstyle_8cpp_source.html#l00238">StyleData()</a>.</p>
 
 </div>
 </div>
@@ -269,7 +266,7 @@ Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d4/df3/rtfstyle_8h_source.html#l00064">m_index</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d5c/rtfstyle_8cpp_source.html#l00252">setStyle()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d5c/rtfstyle_8cpp_source.html#l00253">setStyle()</a>.</p>
 
 </div>
 </div>
@@ -301,7 +298,7 @@ Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d4/df3/rtfstyle_8h_source.html#l00065">m_reference</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00402">RTFGenerator::beginRTFDocument()</a>, <a class="el" href="../../de/d9a/rtfdocvisitor_8cpp_source.html#l00064">RTFDocVisitor::getStyle()</a>, and <a class="el" href="../../de/d5c/rtfstyle_8cpp_source.html#l00237">StyleData()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00402">RTFGenerator::beginRTFDocument()</a>, <a class="el" href="../../de/d9a/rtfdocvisitor_8cpp_source.html#l00064">RTFDocVisitor::getStyle()</a>, and <a class="el" href="../../de/d5c/rtfstyle_8cpp_source.html#l00238">StyleData()</a>.</p>
 
 </div>
 </div>
@@ -331,31 +328,31 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d5c/rtfstyle_8cpp_source.html#l00252">252</a> of file <a class="el" href="../../de/d5c/rtfstyle_8cpp_source.html">rtfstyle.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  253</span>{</div>
-<div class="line"><span class="lineno">  254</span>  <a class="code hl_class" href="../../d2/ddf/classreg_1_1_match.html">reg::Match</a> <a class="code hl_function" href="../../db/d35/namespacereg.html#a1a29dcc7e2ccf462503adc5d496881ae">match</a>;</div>
-<div class="line"><span class="lineno">  255</span>  <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../db/d35/namespacereg.html#a0af12d3e92e774639befbdf774606e52">reg::search</a>(command,match,<a class="code hl_variable" href="../../de/d5c/rtfstyle_8cpp.html#a7ce4348d587548a514b1e698abed1a54">s_clause</a>))</div>
-<div class="line"><span class="lineno">  256</span>  {</div>
-<div class="line"><span class="lineno">  257</span>    <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a>(<span class="stringliteral">&quot;Style sheet &#39;%s&#39; contains no &#39;\\s&#39; clause.\n{%s}&quot;</span>, styleName.c_str(), command.c_str());</div>
-<div class="line"><span class="lineno">  258</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  259</span>  }</div>
-<div class="line"><span class="lineno">  260</span>  <a class="code hl_variable" href="../../da/dd8/struct_style_data.html#a91d075b2822ebca9d9558a462bf5c45c">m_index</a> = <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(std::stoul(match[1].str()));</div>
-<div class="line"><span class="lineno">  261</span> </div>
-<div class="line"><span class="lineno">  262</span>  <span class="keywordtype">size_t</span> <a class="code hl_function" href="../../da/dd8/struct_style_data.html#abd996f4e151e5e55ac08e1d4951c0f02">index</a> = command.find(<span class="stringliteral">&quot;\\sbasedon&quot;</span>);</div>
-<div class="line"><span class="lineno">  263</span>  <span class="keywordflow">if</span> (<a class="code hl_function" href="../../da/dd8/struct_style_data.html#abd996f4e151e5e55ac08e1d4951c0f02">index</a>!=std::string::npos)</div>
-<div class="line"><span class="lineno">  264</span>  {</div>
-<div class="line"><span class="lineno">  265</span>    <a class="code hl_variable" href="../../da/dd8/struct_style_data.html#af7b4270cec917791d56b70ff1c5606e3">m_reference</a>  = command.substr(0,<a class="code hl_function" href="../../da/dd8/struct_style_data.html#abd996f4e151e5e55ac08e1d4951c0f02">index</a>);</div>
-<div class="line"><span class="lineno">  266</span>    <a class="code hl_variable" href="../../da/dd8/struct_style_data.html#afb8d293d6b6162f687f6d753e9221729">m_definition</a> = command.substr(<a class="code hl_function" href="../../da/dd8/struct_style_data.html#abd996f4e151e5e55ac08e1d4951c0f02">index</a>);</div>
-<div class="line"><span class="lineno">  267</span>  }</div>
-<div class="line"><span class="lineno">  268</span> </div>
-<div class="line"><span class="lineno">  269</span>  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  270</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../de/d5c/rtfstyle_8cpp_source.html#l00253">253</a> of file <a class="el" href="../../de/d5c/rtfstyle_8cpp_source.html">rtfstyle.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  254</span>{</div>
+<div class="line"><span class="lineno">  255</span>  <span class="keyword">auto</span> <a class="code hl_function" href="../../db/d35/namespacereg.html#a1a29dcc7e2ccf462503adc5d496881ae">match</a> = ctre::search&lt;s_clause&gt;(command);</div>
+<div class="line"><span class="lineno">  256</span>  <span class="keywordflow">if</span> (!match)</div>
+<div class="line"><span class="lineno">  257</span>  {</div>
+<div class="line"><span class="lineno">  258</span>    <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a>(<span class="stringliteral">&quot;Style sheet &#39;%s&#39; contains no &#39;\\s&#39; clause.\n{%s}&quot;</span>, styleName.c_str(), command.c_str());</div>
+<div class="line"><span class="lineno">  259</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  260</span>  }</div>
+<div class="line"><span class="lineno">  261</span>  <a class="code hl_variable" href="../../da/dd8/struct_style_data.html#a91d075b2822ebca9d9558a462bf5c45c">m_index</a> = std::atoi(<a class="code hl_function" href="../../db/d35/namespacereg.html#a1a29dcc7e2ccf462503adc5d496881ae">match</a>.get&lt;1&gt;().str().c_str());</div>
+<div class="line"><span class="lineno">  262</span> </div>
+<div class="line"><span class="lineno">  263</span>  <span class="keywordtype">size_t</span> <a class="code hl_function" href="../../da/dd8/struct_style_data.html#abd996f4e151e5e55ac08e1d4951c0f02">index</a> = command.find(<span class="stringliteral">&quot;\\sbasedon&quot;</span>);</div>
+<div class="line"><span class="lineno">  264</span>  <span class="keywordflow">if</span> (<a class="code hl_function" href="../../da/dd8/struct_style_data.html#abd996f4e151e5e55ac08e1d4951c0f02">index</a>!=std::string::npos)</div>
+<div class="line"><span class="lineno">  265</span>  {</div>
+<div class="line"><span class="lineno">  266</span>    <a class="code hl_variable" href="../../da/dd8/struct_style_data.html#af7b4270cec917791d56b70ff1c5606e3">m_reference</a>  = command.substr(0,<a class="code hl_function" href="../../da/dd8/struct_style_data.html#abd996f4e151e5e55ac08e1d4951c0f02">index</a>);</div>
+<div class="line"><span class="lineno">  267</span>    <a class="code hl_variable" href="../../da/dd8/struct_style_data.html#afb8d293d6b6162f687f6d753e9221729">m_definition</a> = command.substr(<a class="code hl_function" href="../../da/dd8/struct_style_data.html#abd996f4e151e5e55ac08e1d4951c0f02">index</a>);</div>
+<div class="line"><span class="lineno">  268</span>  }</div>
+<div class="line"><span class="lineno">  269</span> </div>
+<div class="line"><span class="lineno">  270</span>  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  271</span>}</div>
 <div class="ttc" id="amessage_8cpp_html_aede5746344fdce99647541101eaa7f06"><div class="ttname"><a href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a></div><div class="ttdeci">void err(const char *fmt,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6a/message_8cpp_source.html#l00231">message.cpp:231</a></div></div>
 <div class="ttc" id="astruct_style_data_html_abd996f4e151e5e55ac08e1d4951c0f02"><div class="ttname"><a href="../../da/dd8/struct_style_data.html#abd996f4e151e5e55ac08e1d4951c0f02">StyleData::index</a></div><div class="ttdeci">uint index() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df3/rtfstyle_8h_source.html#l00061">rtfstyle.h:61</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00231">err()</a>, <a class="el" href="../../d4/df3/rtfstyle_8h_source.html#l00061">index()</a>, <a class="el" href="../../d4/df3/rtfstyle_8h_source.html#l00066">m_definition</a>, <a class="el" href="../../d4/df3/rtfstyle_8h_source.html#l00064">m_index</a>, <a class="el" href="../../d4/df3/rtfstyle_8h_source.html#l00065">m_reference</a>, <a class="el" href="../../de/d5c/rtfstyle_8cpp.html#a7ce4348d587548a514b1e698abed1a54">s_clause</a>, and <a class="el" href="../../d6/d85/regex_8cpp_source.html#l00749">reg::search()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00231">err()</a>, <a class="el" href="../../d4/df3/rtfstyle_8h_source.html#l00061">index()</a>, <a class="el" href="../../d4/df3/rtfstyle_8h_source.html#l00066">m_definition</a>, <a class="el" href="../../d4/df3/rtfstyle_8h_source.html#l00064">m_index</a>, and <a class="el" href="../../d4/df3/rtfstyle_8h_source.html#l00065">m_reference</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d5c/rtfstyle_8cpp_source.html#l00273">loadStylesheet()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d5c/rtfstyle_8cpp_source.html#l00274">loadStylesheet()</a>.</p>
 
 </div>
 </div>
@@ -382,7 +379,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/df3/rtfstyle_8h_source.html#l00066">66</a> of file <a class="el" href="../../d4/df3/rtfstyle_8h_source.html">rtfstyle.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/df3/rtfstyle_8h_source.html#l00060">definition()</a>, <a class="el" href="../../de/d5c/rtfstyle_8cpp_source.html#l00252">setStyle()</a>, and <a class="el" href="../../de/d5c/rtfstyle_8cpp_source.html#l00237">StyleData()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/df3/rtfstyle_8h_source.html#l00060">definition()</a>, <a class="el" href="../../de/d5c/rtfstyle_8cpp_source.html#l00253">setStyle()</a>, and <a class="el" href="../../de/d5c/rtfstyle_8cpp_source.html#l00238">StyleData()</a>.</p>
 
 </div>
 </div>
@@ -408,7 +405,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/df3/rtfstyle_8h_source.html#l00064">64</a> of file <a class="el" href="../../d4/df3/rtfstyle_8h_source.html">rtfstyle.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/df3/rtfstyle_8h_source.html#l00061">index()</a>, <a class="el" href="../../de/d5c/rtfstyle_8cpp_source.html#l00252">setStyle()</a>, and <a class="el" href="../../de/d5c/rtfstyle_8cpp_source.html#l00237">StyleData()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/df3/rtfstyle_8h_source.html#l00061">index()</a>, <a class="el" href="../../de/d5c/rtfstyle_8cpp_source.html#l00253">setStyle()</a>, and <a class="el" href="../../de/d5c/rtfstyle_8cpp_source.html#l00238">StyleData()</a>.</p>
 
 </div>
 </div>
@@ -434,7 +431,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/df3/rtfstyle_8h_source.html#l00065">65</a> of file <a class="el" href="../../d4/df3/rtfstyle_8h_source.html">rtfstyle.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/df3/rtfstyle_8h_source.html#l00059">reference()</a>, <a class="el" href="../../de/d5c/rtfstyle_8cpp_source.html#l00252">setStyle()</a>, and <a class="el" href="../../de/d5c/rtfstyle_8cpp_source.html#l00237">StyleData()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/df3/rtfstyle_8h_source.html#l00059">reference()</a>, <a class="el" href="../../de/d5c/rtfstyle_8cpp_source.html#l00253">setStyle()</a>, and <a class="el" href="../../de/d5c/rtfstyle_8cpp_source.html#l00238">StyleData()</a>.</p>
 
 </div>
 </div>

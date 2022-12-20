@@ -104,6 +104,7 @@ $(document).ready(function(){initNavTree('de/dea/vhdldocgen_8cpp.html','../../')
 <code>#include &lt;string.h&gt;</code><br />
 <code>#include &lt;map&gt;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
+<code>#include &quot;ctre.hpp&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d7/d5c/qcstring_8h_source.html">qcstring.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dd/dec/vhdldocgen_8h_source.html">vhdldocgen.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d2/d0d/message_8h_source.html">message.h</a>&quot;</code><br />
@@ -130,7 +131,6 @@ $(document).ready(function(){initNavTree('de/dea/vhdldocgen_8cpp.html','../../')
 <code>#include &quot;<a class="el" href="../../d3/dde/plantuml_8h_source.html">plantuml.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d2/d55/vhdljjparser_8h_source.html">vhdljjparser.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d5/df9/_vhdl_parser_8h_source.html">VhdlParser.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d21/regex_8h_source.html">regex.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for vhdldocgen.cpp:</div>
@@ -147,6 +147,8 @@ $(document).ready(function(){initNavTree('de/dea/vhdldocgen_8cpp.html','../../')
 Macros</h2></td></tr>
 <tr class="memitem:a5c766ca623cbbc0bf6fded310f85f857"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dea/vhdldocgen_8cpp.html#a5c766ca623cbbc0bf6fded310f85f857">theTranslator_vhdlType</a>&#160;&#160;&#160;<a class="el" href="../../d2/d48/language_8cpp.html#a07b18e39f7c5156cd370829e7e6f8534">theTranslator</a>-&gt;trVhdlType</td></tr>
 <tr class="separator:a5c766ca623cbbc0bf6fded310f85f857"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9aae9557e49ec4e71613663ce222459"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dea/vhdldocgen_8cpp.html#aa9aae9557e49ec4e71613663ce222459">RE_EXP</a>&#160;&#160;&#160;R&quot;([:()\s])&quot;</td></tr>
+<tr class="separator:aa9aae9557e49ec4e71613663ce222459"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd32ac165b45cf0bd6eb6aeb189c98fe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dea/vhdldocgen_8cpp.html#afd32ac165b45cf0bd6eb6aeb189c98fe">STARTL</a></td></tr>
 <tr class="separator:afd32ac165b45cf0bd6eb6aeb189c98fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaab1f2b37b1283016df2dee1690c4846"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dea/vhdldocgen_8cpp.html#aaab1f2b37b1283016df2dee1690c4846">DECLN</a></td></tr>
@@ -293,7 +295,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="aclass_flow_chart_html_acd787d5c3faa541b938e0d58c800572caddeba7e93199e159a70560537023be3d"><div class="ttname"><a href="../../db/d1e/class_flow_chart.html#acd787d5c3faa541b938e0d58c800572caddeba7e93199e159a70560537023be3d">FlowChart::CASE_NO</a></div><div class="ttdeci">@ CASE_NO</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dec/vhdldocgen_8h_source.html#l00280">vhdldocgen.h:280</a></div></div>
 <div class="ttc" id="aclass_flow_chart_html_acd787d5c3faa541b938e0d58c800572caf7a5717aa5bac2f250ab4e68a487912b"><div class="ttname"><a href="../../db/d1e/class_flow_chart.html#acd787d5c3faa541b938e0d58c800572caf7a5717aa5bac2f250ab4e68a487912b">FlowChart::ELSIF_NO</a></div><div class="ttdeci">@ ELSIF_NO</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dec/vhdldocgen_8h_source.html#l00278">vhdldocgen.h:278</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02847">2847</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02843">2843</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
 
 </div>
 </div>
@@ -309,7 +311,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02859">2859</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02855">2855</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
 
 </div>
 </div>
@@ -325,7 +327,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02855">2855</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02851">2851</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
 
 </div>
 </div>
@@ -341,7 +343,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02860">2860</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02856">2856</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
 
 </div>
 </div>
@@ -357,7 +359,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02858">2858</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02854">2854</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
 
 </div>
 </div>
@@ -373,7 +375,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02854">2854</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02850">2850</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
 
 </div>
 </div>
@@ -389,7 +391,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02857">2857</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02853">2853</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
 
 </div>
 </div>
@@ -405,7 +407,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02861">2861</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02857">2857</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
 
 </div>
 </div>
@@ -421,7 +423,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02856">2856</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02852">2852</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
 
 </div>
 </div>
@@ -439,7 +441,21 @@ Variables</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line">                  (<a class="code hl_enumvalue" href="../../db/d1e/class_flow_chart.html#acd787d5c3faa541b938e0d58c800572ca20ebc89c9bca7b02af08669632b9a658">FlowChart::FOR_NO</a>       | <a class="code hl_enumvalue" href="../../db/d1e/class_flow_chart.html#acd787d5c3faa541b938e0d58c800572ca83a7f901b277a6663270779a1b4619ed">FlowChart::WHILE_NO</a> | \</div>
 <div class="line">                  <a class="code hl_enumvalue" href="../../db/d1e/class_flow_chart.html#acd787d5c3faa541b938e0d58c800572ca5d1c9a27d84209bf8c7fab031bb52ca4">FlowChart::LOOP_NO</a> )</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02852">2852</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02848">2848</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
+
+</div>
+</div>
+<a id="aa9aae9557e49ec4e71613663ce222459" name="aa9aae9557e49ec4e71613663ce222459"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9aae9557e49ec4e71613663ce222459">&#9670;&#160;</a></span>RE_EXP</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RE_EXP&#160;&#160;&#160;R&quot;([:()\s])&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -455,7 +471,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02851">2851</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02847">2847</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
 
 </div>
 </div>
@@ -474,7 +490,7 @@ Variables</h2></td></tr>
 <div class="line">                  <a class="code hl_enumvalue" href="../../db/d1e/class_flow_chart.html#acd787d5c3faa541b938e0d58c800572ca20ebc89c9bca7b02af08669632b9a658">FlowChart::FOR_NO</a>       | <a class="code hl_enumvalue" href="../../db/d1e/class_flow_chart.html#acd787d5c3faa541b938e0d58c800572caddeba7e93199e159a70560537023be3d">FlowChart::CASE_NO</a>  | \</div>
 <div class="line">                  <a class="code hl_enumvalue" href="../../db/d1e/class_flow_chart.html#acd787d5c3faa541b938e0d58c800572ca5d1c9a27d84209bf8c7fab031bb52ca4">FlowChart::LOOP_NO</a>      | WHEN_NO)</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02844">2844</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02840">2840</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
 
 </div>
 </div>
@@ -541,74 +557,74 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02542">2542</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2544</span>{</div>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02539">2539</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 2541</span>{</div>
+<div class="line"><span class="lineno"> 2542</span> </div>
+<div class="line"><span class="lineno"> 2543</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> bName,n1;</div>
+<div class="line"><span class="lineno"> 2544</span>  <span class="keywordflow">if</span> (ar==0) <span class="keywordflow">return</span>;</div>
 <div class="line"><span class="lineno"> 2545</span> </div>
-<div class="line"><span class="lineno"> 2546</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> bName,n1;</div>
-<div class="line"><span class="lineno"> 2547</span>  <span class="keywordflow">if</span> (ar==0) <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno"> 2548</span> </div>
-<div class="line"><span class="lineno"> 2549</span>  <span class="keywordflow">if</span> (classEntity==0)</div>
-<div class="line"><span class="lineno"> 2550</span>  {</div>
-<div class="line"><span class="lineno"> 2551</span>    <span class="comment">//add component inst</span></div>
-<div class="line"><span class="lineno"> 2552</span>    n1=cur-&gt;type;</div>
-<div class="line"><span class="lineno"> 2553</span>    <span class="keywordflow">goto</span> ferr;</div>
-<div class="line"><span class="lineno"> 2554</span>  }</div>
-<div class="line"><span class="lineno"> 2555</span> </div>
-<div class="line"><span class="lineno"> 2556</span>  <span class="keywordflow">if</span> (classEntity==cd) <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno"> 2557</span> </div>
-<div class="line"><span class="lineno"> 2558</span>  bName=classEntity-&gt;name();</div>
-<div class="line"><span class="lineno"> 2559</span>  <span class="comment">// fprintf(stderr,&quot;\naddInstance %s to %s %s %s\n&quot;,qPrint( classEntity-&gt;name()),qPrint(cd-&gt;name()),qPrint(ar-&gt;name()),cur-&gt;name);</span></div>
-<div class="line"><span class="lineno"> 2560</span>  n1=classEntity-&gt;name();</div>
-<div class="line"><span class="lineno"> 2561</span> </div>
-<div class="line"><span class="lineno"> 2562</span>  <span class="keywordflow">if</span> (!cd-&gt;isBaseClass(classEntity, <span class="keyword">true</span>))</div>
-<div class="line"><span class="lineno"> 2563</span>  {</div>
-<div class="line"><span class="lineno"> 2564</span>    cd-&gt;insertBaseClass(classEntity,n1,<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda2d47e20e63deb55d32228fde32f6b513">Public</a>,<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#ab16236bdd10ddf4d73a9847350f0017ea5ecbcf0afce98b042f35ec71ba03fa4b">Normal</a>,<a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>());</div>
-<div class="line"><span class="lineno"> 2565</span>  }</div>
-<div class="line"><span class="lineno"> 2566</span>  <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno"> 2567</span>  {</div>
-<div class="line"><span class="lineno"> 2568</span>    <a class="code hl_function" href="../../d6/d98/class_vhdl_doc_gen.html#a4892ca19efc7055ce4b5c3004ce550ed">VhdlDocGen::addBaseClass</a>(cd,classEntity);</div>
-<div class="line"><span class="lineno"> 2569</span>  }</div>
-<div class="line"><span class="lineno"> 2570</span> </div>
-<div class="line"><span class="lineno"> 2571</span>  <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d6/d98/class_vhdl_doc_gen.html#ac7d0f125a2bffca08e8c52644bf8c6f2">VhdlDocGen::isSubClass</a>(classEntity,cd,<span class="keyword">true</span>,0))</div>
-<div class="line"><span class="lineno"> 2572</span>  {</div>
-<div class="line"><span class="lineno"> 2573</span>    classEntity-&gt;insertSubClass(cd,<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda2d47e20e63deb55d32228fde32f6b513">Public</a>,<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#ab16236bdd10ddf4d73a9847350f0017ea5ecbcf0afce98b042f35ec71ba03fa4b">Normal</a>,<a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>());</div>
-<div class="line"><span class="lineno"> 2574</span>    classEntity-&gt;setLanguage(<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a9974623ce72fc23df5d64426b9178bf2a04de850503d4e73333e3c8eec7f97da7">SrcLangExt_VHDL</a>);</div>
-<div class="line"><span class="lineno"> 2575</span>  }</div>
-<div class="line"><span class="lineno"> 2576</span> </div>
-<div class="line"><span class="lineno"> 2577</span>ferr:</div>
-<div class="line"><span class="lineno"> 2578</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> uu=cur-&gt;name;</div>
-<div class="line"><span class="lineno"> 2579</span>  std::unique_ptr&lt;MemberDefMutable&gt; md { <a class="code hl_function" href="../../d0/d72/memberdef_8cpp.html#a2739629cdf19249dcf7cd08f8c9491e7">createMemberDef</a>(</div>
-<div class="line"><span class="lineno"> 2580</span>      ar-&gt;getDefFileName(), cur-&gt;startLine,cur-&gt;startColumn,</div>
-<div class="line"><span class="lineno"> 2581</span>      n1,uu,uu, <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>(),</div>
-<div class="line"><span class="lineno"> 2582</span>      <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda2d47e20e63deb55d32228fde32f6b513">Public</a>, <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#ab16236bdd10ddf4d73a9847350f0017ea5ecbcf0afce98b042f35ec71ba03fa4b">Normal</a>, cur-&gt;stat,<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a9d625fe894d9313ec78df1d78553f32ea131b9f46d320a38adefa3494dfdafcd8">Member</a>,</div>
-<div class="line"><span class="lineno"> 2583</span>      <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a63e3de542c5d38de617ab78c8c8f5a41a8e26e040fbf55bd636794ea899dd48f0">MemberType_Variable</a>,</div>
-<div class="line"><span class="lineno"> 2584</span>      <a class="code hl_class" href="../../d7/df8/class_argument_list.html">ArgumentList</a>(),</div>
-<div class="line"><span class="lineno"> 2585</span>      <a class="code hl_class" href="../../d7/df8/class_argument_list.html">ArgumentList</a>(),</div>
-<div class="line"><span class="lineno"> 2586</span>      <span class="stringliteral">&quot;&quot;</span>) };</div>
-<div class="line"><span class="lineno"> 2587</span> </div>
-<div class="line"><span class="lineno"> 2588</span>  <span class="keywordflow">if</span> (!ar-&gt;getOutputFileBase().isEmpty())</div>
-<div class="line"><span class="lineno"> 2589</span>  {</div>
-<div class="line"><span class="lineno"> 2590</span>    <a class="code hl_struct" href="../../d3/dc3/struct_tag_info.html">TagInfo</a> tg;</div>
-<div class="line"><span class="lineno"> 2591</span>    tg.<a class="code hl_variable" href="../../d3/dc3/struct_tag_info.html#a1cc95c706df919ed12443c7574e12aa0">anchor</a> = 0;</div>
-<div class="line"><span class="lineno"> 2592</span>    tg.<a class="code hl_variable" href="../../d3/dc3/struct_tag_info.html#a7c046d5ccf0095527213dabbbf0949f9">fileName</a> = ar-&gt;getOutputFileBase();</div>
-<div class="line"><span class="lineno"> 2593</span>    tg.<a class="code hl_variable" href="../../d3/dc3/struct_tag_info.html#a8f42f0aff3cb6df860f7b5ba27f6cd2f">tagName</a> = 0;</div>
-<div class="line"><span class="lineno"> 2594</span>    md-&gt;setTagInfo(&amp;tg);</div>
-<div class="line"><span class="lineno"> 2595</span>  }</div>
-<div class="line"><span class="lineno"> 2596</span> </div>
-<div class="line"><span class="lineno"> 2597</span>  <span class="comment">//fprintf(stderr,&quot;\n%s%s%s\n&quot;,qPrint(md-&gt;name()),qPrint(cur-&gt;brief),qPrint(cur-&gt;doc));</span></div>
-<div class="line"><span class="lineno"> 2598</span> </div>
-<div class="line"><span class="lineno"> 2599</span>  md-&gt;setLanguage(<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a9974623ce72fc23df5d64426b9178bf2a04de850503d4e73333e3c8eec7f97da7">SrcLangExt_VHDL</a>);</div>
-<div class="line"><span class="lineno"> 2600</span>  md-&gt;setMemberSpecifiers(<a class="code hl_enumvalue" href="../../d6/d98/class_vhdl_doc_gen.html#a3f46a86d0561edb71388774696f6cea6ad66184819af212c8e56c4c69765df23c">VhdlDocGen::INSTANTIATION</a>);</div>
-<div class="line"><span class="lineno"> 2601</span>  md-&gt;setBriefDescription(cur-&gt;brief,cur-&gt;briefFile,cur-&gt;briefLine);</div>
-<div class="line"><span class="lineno"> 2602</span>  md-&gt;setBodySegment(cur-&gt;startLine,cur-&gt;startLine,-1) ;</div>
-<div class="line"><span class="lineno"> 2603</span>  md-&gt;setDocumentation(cur-&gt;doc,cur-&gt;docFile,cur-&gt;docLine);</div>
-<div class="line"><span class="lineno"> 2604</span>  <a class="code hl_class" href="../../de/db0/class_file_def.html">FileDef</a> *fd=ar-&gt;getFileDef();</div>
-<div class="line"><span class="lineno"> 2605</span>  md-&gt;<a class="code hl_function" href="../../d0/d46/class_definition_mutable.html#acebfd2c89008fa8ef42c9ab9bf61d4b7">setBodyDef</a>(fd);</div>
-<div class="line"><span class="lineno"> 2606</span>  ar-&gt;insertMember(md.get());</div>
-<div class="line"><span class="lineno"> 2607</span>  <a class="code hl_class" href="../../da/d7e/class_member_name.html">MemberName</a> *mn = <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a6c68c48d8e3dac65c86b39ab838a5f9e">Doxygen::functionNameLinkedMap</a>-&gt;<a class="code hl_function" href="../../d0/d2c/class_linked_map.html#acddca8cb09f114936f6b80276f2c9c1b">add</a>(uu);</div>
-<div class="line"><span class="lineno"> 2608</span>  mn-&gt;<a class="code hl_function" href="../../da/d7e/class_member_name.html#af5b01c0bc171ba35e0bc2a33d9c88563">push_back</a>(std::move(md));</div>
-<div class="line"><span class="lineno"> 2609</span> </div>
-<div class="line"><span class="lineno"> 2610</span>}</div>
+<div class="line"><span class="lineno"> 2546</span>  <span class="keywordflow">if</span> (classEntity==0)</div>
+<div class="line"><span class="lineno"> 2547</span>  {</div>
+<div class="line"><span class="lineno"> 2548</span>    <span class="comment">//add component inst</span></div>
+<div class="line"><span class="lineno"> 2549</span>    n1=cur-&gt;type;</div>
+<div class="line"><span class="lineno"> 2550</span>    <span class="keywordflow">goto</span> ferr;</div>
+<div class="line"><span class="lineno"> 2551</span>  }</div>
+<div class="line"><span class="lineno"> 2552</span> </div>
+<div class="line"><span class="lineno"> 2553</span>  <span class="keywordflow">if</span> (classEntity==cd) <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 2554</span> </div>
+<div class="line"><span class="lineno"> 2555</span>  bName=classEntity-&gt;name();</div>
+<div class="line"><span class="lineno"> 2556</span>  <span class="comment">// fprintf(stderr,&quot;\naddInstance %s to %s %s %s\n&quot;,qPrint( classEntity-&gt;name()),qPrint(cd-&gt;name()),qPrint(ar-&gt;name()),cur-&gt;name);</span></div>
+<div class="line"><span class="lineno"> 2557</span>  n1=classEntity-&gt;name();</div>
+<div class="line"><span class="lineno"> 2558</span> </div>
+<div class="line"><span class="lineno"> 2559</span>  <span class="keywordflow">if</span> (!cd-&gt;isBaseClass(classEntity, <span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno"> 2560</span>  {</div>
+<div class="line"><span class="lineno"> 2561</span>    cd-&gt;insertBaseClass(classEntity,n1,<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda2d47e20e63deb55d32228fde32f6b513">Public</a>,<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#ab16236bdd10ddf4d73a9847350f0017ea5ecbcf0afce98b042f35ec71ba03fa4b">Normal</a>,<a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>());</div>
+<div class="line"><span class="lineno"> 2562</span>  }</div>
+<div class="line"><span class="lineno"> 2563</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 2564</span>  {</div>
+<div class="line"><span class="lineno"> 2565</span>    <a class="code hl_function" href="../../d6/d98/class_vhdl_doc_gen.html#a4892ca19efc7055ce4b5c3004ce550ed">VhdlDocGen::addBaseClass</a>(cd,classEntity);</div>
+<div class="line"><span class="lineno"> 2566</span>  }</div>
+<div class="line"><span class="lineno"> 2567</span> </div>
+<div class="line"><span class="lineno"> 2568</span>  <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d6/d98/class_vhdl_doc_gen.html#ac7d0f125a2bffca08e8c52644bf8c6f2">VhdlDocGen::isSubClass</a>(classEntity,cd,<span class="keyword">true</span>,0))</div>
+<div class="line"><span class="lineno"> 2569</span>  {</div>
+<div class="line"><span class="lineno"> 2570</span>    classEntity-&gt;insertSubClass(cd,<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda2d47e20e63deb55d32228fde32f6b513">Public</a>,<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#ab16236bdd10ddf4d73a9847350f0017ea5ecbcf0afce98b042f35ec71ba03fa4b">Normal</a>,<a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>());</div>
+<div class="line"><span class="lineno"> 2571</span>    classEntity-&gt;setLanguage(<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a9974623ce72fc23df5d64426b9178bf2a04de850503d4e73333e3c8eec7f97da7">SrcLangExt_VHDL</a>);</div>
+<div class="line"><span class="lineno"> 2572</span>  }</div>
+<div class="line"><span class="lineno"> 2573</span> </div>
+<div class="line"><span class="lineno"> 2574</span>ferr:</div>
+<div class="line"><span class="lineno"> 2575</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> uu=cur-&gt;name;</div>
+<div class="line"><span class="lineno"> 2576</span>  std::unique_ptr&lt;MemberDefMutable&gt; md { <a class="code hl_function" href="../../d0/d72/memberdef_8cpp.html#a2739629cdf19249dcf7cd08f8c9491e7">createMemberDef</a>(</div>
+<div class="line"><span class="lineno"> 2577</span>      ar-&gt;getDefFileName(), cur-&gt;startLine,cur-&gt;startColumn,</div>
+<div class="line"><span class="lineno"> 2578</span>      n1,uu,uu, <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>(),</div>
+<div class="line"><span class="lineno"> 2579</span>      <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda2d47e20e63deb55d32228fde32f6b513">Public</a>, <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#ab16236bdd10ddf4d73a9847350f0017ea5ecbcf0afce98b042f35ec71ba03fa4b">Normal</a>, cur-&gt;stat,<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a9d625fe894d9313ec78df1d78553f32ea131b9f46d320a38adefa3494dfdafcd8">Member</a>,</div>
+<div class="line"><span class="lineno"> 2580</span>      <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a63e3de542c5d38de617ab78c8c8f5a41a8e26e040fbf55bd636794ea899dd48f0">MemberType_Variable</a>,</div>
+<div class="line"><span class="lineno"> 2581</span>      <a class="code hl_class" href="../../d7/df8/class_argument_list.html">ArgumentList</a>(),</div>
+<div class="line"><span class="lineno"> 2582</span>      <a class="code hl_class" href="../../d7/df8/class_argument_list.html">ArgumentList</a>(),</div>
+<div class="line"><span class="lineno"> 2583</span>      <span class="stringliteral">&quot;&quot;</span>) };</div>
+<div class="line"><span class="lineno"> 2584</span> </div>
+<div class="line"><span class="lineno"> 2585</span>  <span class="keywordflow">if</span> (!ar-&gt;getOutputFileBase().isEmpty())</div>
+<div class="line"><span class="lineno"> 2586</span>  {</div>
+<div class="line"><span class="lineno"> 2587</span>    <a class="code hl_struct" href="../../d3/dc3/struct_tag_info.html">TagInfo</a> tg;</div>
+<div class="line"><span class="lineno"> 2588</span>    tg.<a class="code hl_variable" href="../../d3/dc3/struct_tag_info.html#a1cc95c706df919ed12443c7574e12aa0">anchor</a> = 0;</div>
+<div class="line"><span class="lineno"> 2589</span>    tg.<a class="code hl_variable" href="../../d3/dc3/struct_tag_info.html#a7c046d5ccf0095527213dabbbf0949f9">fileName</a> = ar-&gt;getOutputFileBase();</div>
+<div class="line"><span class="lineno"> 2590</span>    tg.<a class="code hl_variable" href="../../d3/dc3/struct_tag_info.html#a8f42f0aff3cb6df860f7b5ba27f6cd2f">tagName</a> = 0;</div>
+<div class="line"><span class="lineno"> 2591</span>    md-&gt;setTagInfo(&amp;tg);</div>
+<div class="line"><span class="lineno"> 2592</span>  }</div>
+<div class="line"><span class="lineno"> 2593</span> </div>
+<div class="line"><span class="lineno"> 2594</span>  <span class="comment">//fprintf(stderr,&quot;\n%s%s%s\n&quot;,qPrint(md-&gt;name()),qPrint(cur-&gt;brief),qPrint(cur-&gt;doc));</span></div>
+<div class="line"><span class="lineno"> 2595</span> </div>
+<div class="line"><span class="lineno"> 2596</span>  md-&gt;setLanguage(<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a9974623ce72fc23df5d64426b9178bf2a04de850503d4e73333e3c8eec7f97da7">SrcLangExt_VHDL</a>);</div>
+<div class="line"><span class="lineno"> 2597</span>  md-&gt;setMemberSpecifiers(<a class="code hl_enumvalue" href="../../d6/d98/class_vhdl_doc_gen.html#a3f46a86d0561edb71388774696f6cea6ad66184819af212c8e56c4c69765df23c">VhdlDocGen::INSTANTIATION</a>);</div>
+<div class="line"><span class="lineno"> 2598</span>  md-&gt;setBriefDescription(cur-&gt;brief,cur-&gt;briefFile,cur-&gt;briefLine);</div>
+<div class="line"><span class="lineno"> 2599</span>  md-&gt;setBodySegment(cur-&gt;startLine,cur-&gt;startLine,-1) ;</div>
+<div class="line"><span class="lineno"> 2600</span>  md-&gt;setDocumentation(cur-&gt;doc,cur-&gt;docFile,cur-&gt;docLine);</div>
+<div class="line"><span class="lineno"> 2601</span>  <a class="code hl_class" href="../../de/db0/class_file_def.html">FileDef</a> *fd=ar-&gt;getFileDef();</div>
+<div class="line"><span class="lineno"> 2602</span>  md-&gt;<a class="code hl_function" href="../../d0/d46/class_definition_mutable.html#acebfd2c89008fa8ef42c9ab9bf61d4b7">setBodyDef</a>(fd);</div>
+<div class="line"><span class="lineno"> 2603</span>  ar-&gt;insertMember(md.get());</div>
+<div class="line"><span class="lineno"> 2604</span>  <a class="code hl_class" href="../../da/d7e/class_member_name.html">MemberName</a> *mn = <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a6c68c48d8e3dac65c86b39ab838a5f9e">Doxygen::functionNameLinkedMap</a>-&gt;<a class="code hl_function" href="../../d0/d2c/class_linked_map.html#acddca8cb09f114936f6b80276f2c9c1b">add</a>(uu);</div>
+<div class="line"><span class="lineno"> 2605</span>  mn-&gt;<a class="code hl_function" href="../../da/d7e/class_member_name.html#af5b01c0bc171ba35e0bc2a33d9c88563">push_back</a>(std::move(md));</div>
+<div class="line"><span class="lineno"> 2606</span> </div>
+<div class="line"><span class="lineno"> 2607</span>}</div>
 <div class="ttc" id="aclass_argument_list_html"><div class="ttname"><a href="../../d7/df8/class_argument_list.html">ArgumentList</a></div><div class="ttdoc">This class represents an function or template argument list.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d9b/arguments_8h_source.html#l00059">arguments.h:60</a></div></div>
 <div class="ttc" id="aclass_definition_mutable_html_acebfd2c89008fa8ef42c9ab9bf61d4b7"><div class="ttname"><a href="../../d0/d46/class_definition_mutable.html#acebfd2c89008fa8ef42c9ab9bf61d4b7">DefinitionMutable::setBodyDef</a></div><div class="ttdeci">virtual void setBodyDef(const FileDef *fd)=0</div></div>
 <div class="ttc" id="aclass_doxygen_html_a6c68c48d8e3dac65c86b39ab838a5f9e"><div class="ttname"><a href="../../de/d6a/class_doxygen.html#a6c68c48d8e3dac65c86b39ab838a5f9e">Doxygen::functionNameLinkedMap</a></div><div class="ttdeci">static MemberNameLinkedMap * functionNameLinkedMap</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da1/doxygen_8h_source.html#l00104">doxygen.h:104</a></div></div>
@@ -618,9 +634,9 @@ Variables</h2></td></tr>
 <div class="ttc" id="aclass_member_name_html_af5b01c0bc171ba35e0bc2a33d9c88563"><div class="ttname"><a href="../../da/d7e/class_member_name.html#af5b01c0bc171ba35e0bc2a33d9c88563">MemberName::push_back</a></div><div class="ttdeci">void push_back(Ptr &amp;&amp;p)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dfc/membername_8h_source.html#l00053">membername.h:53</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html">QCString</a></div><div class="ttdoc">This is an alternative implementation of QCString.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00108">qcstring.h:109</a></div></div>
 <div class="ttc" id="aclass_vhdl_doc_gen_html_a3f46a86d0561edb71388774696f6cea6ad66184819af212c8e56c4c69765df23c"><div class="ttname"><a href="../../d6/d98/class_vhdl_doc_gen.html#a3f46a86d0561edb71388774696f6cea6ad66184819af212c8e56c4c69765df23c">VhdlDocGen::INSTANTIATION</a></div><div class="ttdeci">@ INSTANTIATION</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dec/vhdldocgen_8h_source.html#l00112">vhdldocgen.h:112</a></div></div>
-<div class="ttc" id="aclass_vhdl_doc_gen_html_a4892ca19efc7055ce4b5c3004ce550ed"><div class="ttname"><a href="../../d6/d98/class_vhdl_doc_gen.html#a4892ca19efc7055ce4b5c3004ce550ed">VhdlDocGen::addBaseClass</a></div><div class="ttdeci">static void addBaseClass(ClassDef *cd, ClassDef *ent)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/vhdldocgen_8cpp_source.html#l02700">vhdldocgen.cpp:2700</a></div></div>
-<div class="ttc" id="aclass_vhdl_doc_gen_html_ac7d0f125a2bffca08e8c52644bf8c6f2"><div class="ttname"><a href="../../d6/d98/class_vhdl_doc_gen.html#ac7d0f125a2bffca08e8c52644bf8c6f2">VhdlDocGen::isSubClass</a></div><div class="ttdeci">static bool isSubClass(ClassDef *cd, ClassDef *scd, bool followInstances, int level)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/vhdldocgen_8cpp_source.html#l02666">vhdldocgen.cpp:2666</a></div></div>
-<div class="ttc" id="amemberdef_8cpp_html_a2739629cdf19249dcf7cd08f8c9491e7"><div class="ttname"><a href="../../d0/d72/memberdef_8cpp.html#a2739629cdf19249dcf7cd08f8c9491e7">createMemberDef</a></div><div class="ttdeci">MemberDefMutable * createMemberDef(const QCString &amp;defFileName, int defLine, int defColumn, const QCString &amp;type, const QCString &amp;name, const QCString &amp;args, const QCString &amp;excp, Protection prot, Specifier virt, bool stat, Relationship related, MemberType t, const ArgumentList &amp;tal, const ArgumentList &amp;al, const QCString &amp;metaData)</div><div class="ttdoc">Factory method to create a new instance of a MemberDef.</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d72/memberdef_8cpp_source.html#l00373">memberdef.cpp:373</a></div></div>
+<div class="ttc" id="aclass_vhdl_doc_gen_html_a4892ca19efc7055ce4b5c3004ce550ed"><div class="ttname"><a href="../../d6/d98/class_vhdl_doc_gen.html#a4892ca19efc7055ce4b5c3004ce550ed">VhdlDocGen::addBaseClass</a></div><div class="ttdeci">static void addBaseClass(ClassDef *cd, ClassDef *ent)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/vhdldocgen_8cpp_source.html#l02697">vhdldocgen.cpp:2697</a></div></div>
+<div class="ttc" id="aclass_vhdl_doc_gen_html_ac7d0f125a2bffca08e8c52644bf8c6f2"><div class="ttname"><a href="../../d6/d98/class_vhdl_doc_gen.html#ac7d0f125a2bffca08e8c52644bf8c6f2">VhdlDocGen::isSubClass</a></div><div class="ttdeci">static bool isSubClass(ClassDef *cd, ClassDef *scd, bool followInstances, int level)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/vhdldocgen_8cpp_source.html#l02663">vhdldocgen.cpp:2663</a></div></div>
+<div class="ttc" id="amemberdef_8cpp_html_a2739629cdf19249dcf7cd08f8c9491e7"><div class="ttname"><a href="../../d0/d72/memberdef_8cpp.html#a2739629cdf19249dcf7cd08f8c9491e7">createMemberDef</a></div><div class="ttdeci">MemberDefMutable * createMemberDef(const QCString &amp;defFileName, int defLine, int defColumn, const QCString &amp;type, const QCString &amp;name, const QCString &amp;args, const QCString &amp;excp, Protection prot, Specifier virt, bool stat, Relationship related, MemberType t, const ArgumentList &amp;tal, const ArgumentList &amp;al, const QCString &amp;metaData)</div><div class="ttdoc">Factory method to create a new instance of a MemberDef.</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d72/memberdef_8cpp_source.html#l00374">memberdef.cpp:374</a></div></div>
 <div class="ttc" id="astruct_tag_info_html"><div class="ttname"><a href="../../d3/dc3/struct_tag_info.html">TagInfo</a></div><div class="ttdoc">This struct is used to capture the tag file information for an Entry.</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dc6/entry_8h_source.html#l00048">entry.h:49</a></div></div>
 <div class="ttc" id="astruct_tag_info_html_a1cc95c706df919ed12443c7574e12aa0"><div class="ttname"><a href="../../d3/dc3/struct_tag_info.html#a1cc95c706df919ed12443c7574e12aa0">TagInfo::anchor</a></div><div class="ttdeci">QCString anchor</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dc6/entry_8h_source.html#l00052">entry.h:52</a></div></div>
 <div class="ttc" id="astruct_tag_info_html_a7c046d5ccf0095527213dabbbf0949f9"><div class="ttname"><a href="../../d3/dc3/struct_tag_info.html#a7c046d5ccf0095527213dabbbf0949f9">TagInfo::fileName</a></div><div class="ttdeci">QCString fileName</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dc6/entry_8h_source.html#l00051">entry.h:51</a></div></div>
@@ -631,9 +647,9 @@ Variables</h2></td></tr>
 <div class="ttc" id="atypes_8h_html_a9d625fe894d9313ec78df1d78553f32ea131b9f46d320a38adefa3494dfdafcd8"><div class="ttname"><a href="../../d9/d49/types_8h.html#a9d625fe894d9313ec78df1d78553f32ea131b9f46d320a38adefa3494dfdafcd8">Member</a></div><div class="ttdeci">@ Member</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00038">types.h:38</a></div></div>
 <div class="ttc" id="atypes_8h_html_ab16236bdd10ddf4d73a9847350f0017ea5ecbcf0afce98b042f35ec71ba03fa4b"><div class="ttname"><a href="../../d9/d49/types_8h.html#ab16236bdd10ddf4d73a9847350f0017ea5ecbcf0afce98b042f35ec71ba03fa4b">Normal</a></div><div class="ttdeci">@ Normal</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00029">types.h:29</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/de1/linkedmap_8h_source.html#l00090">LinkedMap&lt; T, Hash, KeyEqual, Map &gt;::add()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02700">VhdlDocGen::addBaseClass()</a>, <a class="el" href="../../d1/dc6/entry_8h_source.html#l00052">TagInfo::anchor</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l00373">createMemberDef()</a>, <a class="el" href="../../d1/dc6/entry_8h_source.html#l00051">TagInfo::fileName</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00104">Doxygen::functionNameLinkedMap</a>, <a class="el" href="../../d5/dcc/class_definition.html#a33fee836f24f8205eedbd21dd9d282e6">Definition::getDefFileName()</a>, <a class="el" href="../../d1/dcf/class_class_def.html#aed4a0864e51e5a3ac616f6c8e10f56c6">ClassDef::getFileDef()</a>, <a class="el" href="../../d1/dcf/class_class_def.html#a12a8f241e90a0cb0bdf19c27bf2025b0">ClassDef::getOutputFileBase()</a>, <a class="el" href="../../d0/dc2/class_class_def_mutable.html#a761d9f7cc2f81e4ac4211e265540bace">ClassDefMutable::insertBaseClass()</a>, <a class="el" href="../../d0/dc2/class_class_def_mutable.html#aceb3bff3f6febf20e1abb61386da66e7">ClassDefMutable::insertMember()</a>, <a class="el" href="../../d0/dc2/class_class_def_mutable.html#a9455d0a7225968447a4bb2b7ce6eb46c">ClassDefMutable::insertSubClass()</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00112">VhdlDocGen::INSTANTIATION</a>, <a class="el" href="../../d1/dcf/class_class_def.html#a3e118df515565a29662b41396ee66579">ClassDef::isBaseClass()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02666">VhdlDocGen::isSubClass()</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00038">Member</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00280">MemberType_Variable</a>, <a class="el" href="../../d5/dcc/class_definition.html#a9374fedd7f64fea7e0e164302d1a9e61">Definition::name()</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00029">Normal</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00026">Public</a>, <a class="el" href="../../d7/dfc/membername_8h_source.html#l00053">MemberName::push_back()</a>, <a class="el" href="../../d0/d46/class_definition_mutable.html#acebfd2c89008fa8ef42c9ab9bf61d4b7">DefinitionMutable::setBodyDef()</a>, <a class="el" href="../../d0/d46/class_definition_mutable.html#aa0c1e834027250c7b3bcffcd73e96c3d">DefinitionMutable::setLanguage()</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00054">SrcLangExt_VHDL</a>, and <a class="el" href="../../d1/dc6/entry_8h_source.html#l00050">TagInfo::tagName</a>.</p>
+<p class="reference">References <a class="el" href="../../da/de1/linkedmap_8h_source.html#l00090">LinkedMap&lt; T, Hash, KeyEqual, Map &gt;::add()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02697">VhdlDocGen::addBaseClass()</a>, <a class="el" href="../../d1/dc6/entry_8h_source.html#l00052">TagInfo::anchor</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l00374">createMemberDef()</a>, <a class="el" href="../../d1/dc6/entry_8h_source.html#l00051">TagInfo::fileName</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00104">Doxygen::functionNameLinkedMap</a>, <a class="el" href="../../d5/dcc/class_definition.html#a33fee836f24f8205eedbd21dd9d282e6">Definition::getDefFileName()</a>, <a class="el" href="../../d1/dcf/class_class_def.html#aed4a0864e51e5a3ac616f6c8e10f56c6">ClassDef::getFileDef()</a>, <a class="el" href="../../d1/dcf/class_class_def.html#a12a8f241e90a0cb0bdf19c27bf2025b0">ClassDef::getOutputFileBase()</a>, <a class="el" href="../../d0/dc2/class_class_def_mutable.html#a761d9f7cc2f81e4ac4211e265540bace">ClassDefMutable::insertBaseClass()</a>, <a class="el" href="../../d0/dc2/class_class_def_mutable.html#aceb3bff3f6febf20e1abb61386da66e7">ClassDefMutable::insertMember()</a>, <a class="el" href="../../d0/dc2/class_class_def_mutable.html#a9455d0a7225968447a4bb2b7ce6eb46c">ClassDefMutable::insertSubClass()</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00112">VhdlDocGen::INSTANTIATION</a>, <a class="el" href="../../d1/dcf/class_class_def.html#a3e118df515565a29662b41396ee66579">ClassDef::isBaseClass()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02663">VhdlDocGen::isSubClass()</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00038">Member</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00280">MemberType_Variable</a>, <a class="el" href="../../d5/dcc/class_definition.html#a9374fedd7f64fea7e0e164302d1a9e61">Definition::name()</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00029">Normal</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00026">Public</a>, <a class="el" href="../../d7/dfc/membername_8h_source.html#l00053">MemberName::push_back()</a>, <a class="el" href="../../d0/d46/class_definition_mutable.html#acebfd2c89008fa8ef42c9ab9bf61d4b7">DefinitionMutable::setBodyDef()</a>, <a class="el" href="../../d0/d46/class_definition_mutable.html#aa0c1e834027250c7b3bcffcd73e96c3d">DefinitionMutable::setLanguage()</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00054">SrcLangExt_VHDL</a>, and <a class="el" href="../../d1/dc6/entry_8h_source.html#l00050">TagInfo::tagName</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02502">VhdlDocGen::computeVhdlComponentRelations()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02499">VhdlDocGen::computeVhdlComponentRelations()</a>.</p>
 
 </div>
 </div>
@@ -653,41 +669,41 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02896">2896</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2897</span>{</div>
-<div class="line"><span class="lineno"> 2898</span>  <span class="keywordflow">if</span> (q.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">length</a>()&lt;=80) <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno"> 2899</span> </div>
-<div class="line"><span class="lineno"> 2900</span>  <span class="keywordflow">if</span> (q.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">length</a>()&gt;200)</div>
-<div class="line"><span class="lineno"> 2901</span>  {</div>
-<div class="line"><span class="lineno"> 2902</span>    q.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a993474e2da59141336e6105b8e154f2b">resize</a>(200);</div>
-<div class="line"><span class="lineno"> 2903</span>  }</div>
-<div class="line"><span class="lineno"> 2904</span> </div>
-<div class="line"><span class="lineno"> 2905</span>  q.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a8f0a381fdae1427b1182baf0abde21e7">append</a>(<span class="stringliteral">&quot; ...&quot;</span>);</div>
-<div class="line"><span class="lineno"> 2906</span> </div>
-<div class="line"><span class="lineno"> 2907</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> str(q);</div>
-<div class="line"><span class="lineno"> 2908</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> temp;</div>
-<div class="line"><span class="lineno"> 2909</span> </div>
-<div class="line"><span class="lineno"> 2910</span>  <span class="keywordflow">while</span> (str.length()&gt;80)</div>
-<div class="line"><span class="lineno"> 2911</span>  {</div>
-<div class="line"><span class="lineno"> 2912</span>    <span class="keywordtype">int</span> j=std::max(str.findRev(<span class="charliteral">&#39; &#39;</span>,80),str.findRev(<span class="charliteral">&#39;|&#39;</span>,80));</div>
-<div class="line"><span class="lineno"> 2913</span>    <span class="keywordflow">if</span> (j&lt;=0)</div>
-<div class="line"><span class="lineno"> 2914</span>    {</div>
-<div class="line"><span class="lineno"> 2915</span>      temp+=str;</div>
-<div class="line"><span class="lineno"> 2916</span>      q=temp;</div>
-<div class="line"><span class="lineno"> 2917</span>      <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno"> 2918</span>    }</div>
-<div class="line"><span class="lineno"> 2919</span>    <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno"> 2920</span>    {</div>
-<div class="line"><span class="lineno"> 2921</span>      <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> qcs=str.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">left</a>(j);</div>
-<div class="line"><span class="lineno"> 2922</span>      temp+=qcs+<span class="stringliteral">&quot;\\&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2923</span>      temp+=<span class="stringliteral">&quot;n&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2924</span>      str.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a66f15f4dde9edaf0aac741fa7d57bae8">remove</a>(0,j);</div>
-<div class="line"><span class="lineno"> 2925</span>    }</div>
-<div class="line"><span class="lineno"> 2926</span>  }<span class="comment">//while</span></div>
-<div class="line"><span class="lineno"> 2927</span> </div>
-<div class="line"><span class="lineno"> 2928</span> q=temp+str;</div>
-<div class="line"><span class="lineno"> 2929</span><span class="comment">// #endif</span></div>
-<div class="line"><span class="lineno"> 2930</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02892">2892</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 2893</span>{</div>
+<div class="line"><span class="lineno"> 2894</span>  <span class="keywordflow">if</span> (q.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">length</a>()&lt;=80) <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 2895</span> </div>
+<div class="line"><span class="lineno"> 2896</span>  <span class="keywordflow">if</span> (q.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">length</a>()&gt;200)</div>
+<div class="line"><span class="lineno"> 2897</span>  {</div>
+<div class="line"><span class="lineno"> 2898</span>    q.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a993474e2da59141336e6105b8e154f2b">resize</a>(200);</div>
+<div class="line"><span class="lineno"> 2899</span>  }</div>
+<div class="line"><span class="lineno"> 2900</span> </div>
+<div class="line"><span class="lineno"> 2901</span>  q.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a8f0a381fdae1427b1182baf0abde21e7">append</a>(<span class="stringliteral">&quot; ...&quot;</span>);</div>
+<div class="line"><span class="lineno"> 2902</span> </div>
+<div class="line"><span class="lineno"> 2903</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> str(q);</div>
+<div class="line"><span class="lineno"> 2904</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> temp;</div>
+<div class="line"><span class="lineno"> 2905</span> </div>
+<div class="line"><span class="lineno"> 2906</span>  <span class="keywordflow">while</span> (str.length()&gt;80)</div>
+<div class="line"><span class="lineno"> 2907</span>  {</div>
+<div class="line"><span class="lineno"> 2908</span>    <span class="keywordtype">int</span> j=std::max(str.findRev(<span class="charliteral">&#39; &#39;</span>,80),str.findRev(<span class="charliteral">&#39;|&#39;</span>,80));</div>
+<div class="line"><span class="lineno"> 2909</span>    <span class="keywordflow">if</span> (j&lt;=0)</div>
+<div class="line"><span class="lineno"> 2910</span>    {</div>
+<div class="line"><span class="lineno"> 2911</span>      temp+=str;</div>
+<div class="line"><span class="lineno"> 2912</span>      q=temp;</div>
+<div class="line"><span class="lineno"> 2913</span>      <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 2914</span>    }</div>
+<div class="line"><span class="lineno"> 2915</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 2916</span>    {</div>
+<div class="line"><span class="lineno"> 2917</span>      <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> qcs=str.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">left</a>(j);</div>
+<div class="line"><span class="lineno"> 2918</span>      temp+=qcs+<span class="stringliteral">&quot;\\&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2919</span>      temp+=<span class="stringliteral">&quot;n&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2920</span>      str.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a66f15f4dde9edaf0aac741fa7d57bae8">remove</a>(0,j);</div>
+<div class="line"><span class="lineno"> 2921</span>    }</div>
+<div class="line"><span class="lineno"> 2922</span>  }<span class="comment">//while</span></div>
+<div class="line"><span class="lineno"> 2923</span> </div>
+<div class="line"><span class="lineno"> 2924</span> q=temp+str;</div>
+<div class="line"><span class="lineno"> 2925</span><span class="comment">// #endif</span></div>
+<div class="line"><span class="lineno"> 2926</span>}</div>
 <div class="ttc" id="aclass_q_c_string_html_a66f15f4dde9edaf0aac741fa7d57bae8"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a66f15f4dde9edaf0aac741fa7d57bae8">QCString::remove</a></div><div class="ttdeci">QCString &amp; remove(size_t index, size_t len)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00380">qcstring.h:380</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a8f0a381fdae1427b1182baf0abde21e7"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a8f0a381fdae1427b1182baf0abde21e7">QCString::append</a></div><div class="ttdeci">QCString &amp; append(char c)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00344">qcstring.h:344</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a993474e2da59141336e6105b8e154f2b"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a993474e2da59141336e6105b8e154f2b">QCString::resize</a></div><div class="ttdeci">bool resize(size_t newlen)</div><div class="ttdoc">Resizes the string to hold newlen characters (this value should also count the 0-terminator).</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00164">qcstring.h:164</a></div></div>
@@ -696,7 +712,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00344">QCString::append()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00091">QCString::findRev()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00212">QCString::left()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::length()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00380">QCString::remove()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00164">QCString::resize()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03478">FlowChart::writeShape()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03473">FlowChart::writeShape()</a>.</p>
 
 </div>
 </div>
@@ -955,24 +971,24 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02734">2734</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2735</span>{</div>
-<div class="line"><span class="lineno"> 2736</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;md : <a class="code hl_variable" href="../../de/dea/vhdldocgen_8cpp.html#a3ab79d2d52d43f3c22214135a989f88d">mdList</a>)</div>
-<div class="line"><span class="lineno"> 2737</span>  {</div>
-<div class="line"><span class="lineno"> 2738</span>    <span class="keywordflow">if</span> (md-&gt;name()==mdef-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#a9374fedd7f64fea7e0e164302d1a9e61">name</a>() &amp;&amp;  md-&gt;getStartBodyLine()==mdef-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#ad63d39480ae9ec4e71bedbb749d16a4c">getStartBodyLine</a>())</div>
-<div class="line"><span class="lineno"> 2739</span>    {</div>
-<div class="line"><span class="lineno"> 2740</span>      <span class="keywordflow">return</span> md;</div>
-<div class="line"><span class="lineno"> 2741</span>    }</div>
-<div class="line"><span class="lineno"> 2742</span>  }</div>
-<div class="line"><span class="lineno"> 2743</span>  <span class="keywordflow">return</span> 0;</div>
-<div class="line"><span class="lineno"> 2744</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02730">2730</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 2731</span>{</div>
+<div class="line"><span class="lineno"> 2732</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;md : <a class="code hl_variable" href="../../de/dea/vhdldocgen_8cpp.html#a3ab79d2d52d43f3c22214135a989f88d">mdList</a>)</div>
+<div class="line"><span class="lineno"> 2733</span>  {</div>
+<div class="line"><span class="lineno"> 2734</span>    <span class="keywordflow">if</span> (md-&gt;name()==mdef-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#a9374fedd7f64fea7e0e164302d1a9e61">name</a>() &amp;&amp;  md-&gt;getStartBodyLine()==mdef-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#ad63d39480ae9ec4e71bedbb749d16a4c">getStartBodyLine</a>())</div>
+<div class="line"><span class="lineno"> 2735</span>    {</div>
+<div class="line"><span class="lineno"> 2736</span>      <span class="keywordflow">return</span> md;</div>
+<div class="line"><span class="lineno"> 2737</span>    }</div>
+<div class="line"><span class="lineno"> 2738</span>  }</div>
+<div class="line"><span class="lineno"> 2739</span>  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno"> 2740</span>}</div>
 <div class="ttc" id="aclass_definition_html_a9374fedd7f64fea7e0e164302d1a9e61"><div class="ttname"><a href="../../d5/dcc/class_definition.html#a9374fedd7f64fea7e0e164302d1a9e61">Definition::name</a></div><div class="ttdeci">virtual QCString name() const =0</div></div>
 <div class="ttc" id="aclass_definition_html_ad63d39480ae9ec4e71bedbb749d16a4c"><div class="ttname"><a href="../../d5/dcc/class_definition.html#ad63d39480ae9ec4e71bedbb749d16a4c">Definition::getStartBodyLine</a></div><div class="ttdeci">virtual int getStartBodyLine() const =0</div></div>
-<div class="ttc" id="avhdldocgen_8cpp_html_a3ab79d2d52d43f3c22214135a989f88d"><div class="ttname"><a href="../../de/dea/vhdldocgen_8cpp.html#a3ab79d2d52d43f3c22214135a989f88d">mdList</a></div><div class="ttdeci">static std::vector&lt; const MemberDef * &gt; mdList</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/vhdldocgen_8cpp_source.html#l02732">vhdldocgen.cpp:2732</a></div></div>
+<div class="ttc" id="avhdldocgen_8cpp_html_a3ab79d2d52d43f3c22214135a989f88d"><div class="ttname"><a href="../../de/dea/vhdldocgen_8cpp.html#a3ab79d2d52d43f3c22214135a989f88d">mdList</a></div><div class="ttdeci">static std::vector&lt; const MemberDef * &gt; mdList</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/vhdldocgen_8cpp_source.html#l02728">vhdldocgen.cpp:2728</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/dcc/class_definition.html#ad63d39480ae9ec4e71bedbb749d16a4c">Definition::getStartBodyLine()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02732">mdList</a>, and <a class="el" href="../../d5/dcc/class_definition.html#a9374fedd7f64fea7e0e164302d1a9e61">Definition::name()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/dcc/class_definition.html#ad63d39480ae9ec4e71bedbb749d16a4c">Definition::getStartBodyLine()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02728">mdList</a>, and <a class="el" href="../../d5/dcc/class_definition.html#a9374fedd7f64fea7e0e164302d1a9e61">Definition::name()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02746">VhdlDocGen::createFlowChart()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02742">VhdlDocGen::createFlowChart()</a>.</p>
 
 </div>
 </div>
@@ -1030,10 +1046,10 @@ Variables</h2></td></tr>
 <div class="ttc" id="aclass_definition_html_a33fee836f24f8205eedbd21dd9d282e6"><div class="ttname"><a href="../../d5/dcc/class_definition.html#a33fee836f24f8205eedbd21dd9d282e6">Definition::getDefFileName</a></div><div class="ttdeci">virtual QCString getDefFileName() const =0</div></div>
 <div class="ttc" id="aclass_definition_html_a8073d399d39c43e66a4b487b3e06ade1"><div class="ttname"><a href="../../d5/dcc/class_definition.html#a8073d399d39c43e66a4b487b3e06ade1">Definition::briefLine</a></div><div class="ttdeci">virtual int briefLine() const =0</div></div>
 <div class="ttc" id="aclass_q_c_string_html_a875e9ad762554ef12f3ed69b015bb245"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">QCString::str</a></div><div class="ttdeci">const std::string &amp; str() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00480">qcstring.h:480</a></div></div>
-<div class="ttc" id="atemplate_8cpp_html_a8624741268e62217f73c2d84c18bf659"><div class="ttname"><a href="../../df/d54/template_8cpp.html#a8624741268e62217f73c2d84c18bf659">split</a></div><div class="ttdeci">static std::vector&lt; QCString &gt; split(const QCString &amp;str, const QCString &amp;sep, bool allowEmptyEntries=FALSE, bool cleanup=TRUE)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l00047">template.cpp:47</a></div></div>
-<div class="ttc" id="autil_8cpp_html_a336a6313626a3a3931e2086fd507bedc"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a336a6313626a3a3931e2086fd507bedc">parseCommentAsText</a></div><div class="ttdeci">QCString parseCommentAsText(const Definition *scope, const MemberDef *md, const QCString &amp;doc, const QCString &amp;fileName, int lineNr)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l05832">util.cpp:5832</a></div></div>
+<div class="ttc" id="atemplate_8cpp_html_a8624741268e62217f73c2d84c18bf659"><div class="ttname"><a href="../../df/d54/template_8cpp.html#a8624741268e62217f73c2d84c18bf659">split</a></div><div class="ttdeci">static std::vector&lt; QCString &gt; split(const QCString &amp;str, const QCString &amp;sep, bool allowEmptyEntries=FALSE, bool cleanup=TRUE)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l00048">template.cpp:48</a></div></div>
+<div class="ttc" id="autil_8cpp_html_a336a6313626a3a3931e2086fd507bedc"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a336a6313626a3a3931e2086fd507bedc">parseCommentAsText</a></div><div class="ttdeci">QCString parseCommentAsText(const Definition *scope, const MemberDef *md, const QCString &amp;doc, const QCString &amp;fileName, int lineNr)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l05810">util.cpp:5810</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/dcc/class_definition.html#a8073d399d39c43e66a4b487b3e06ade1">Definition::briefLine()</a>, <a class="el" href="../../d5/dcc/class_definition.html#a33fee836f24f8205eedbd21dd9d282e6">Definition::getDefFileName()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05832">parseCommentAsText()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l00047">split()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00480">QCString::str()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/dcc/class_definition.html#a8073d399d39c43e66a4b487b3e06ade1">Definition::briefLine()</a>, <a class="el" href="../../d5/dcc/class_definition.html#a33fee836f24f8205eedbd21dd9d282e6">Definition::getDefFileName()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05810">parseCommentAsText()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l00048">split()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00480">QCString::str()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00292">writeVhdlEntityToolTip()</a>.</p>
 
@@ -1152,73 +1168,70 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02324">2324</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2326</span>{</div>
-<div class="line"><span class="lineno"> 2327</span>  <span class="keywordflow">if</span> (qcs.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())<span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno"> 2328</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> n;</div>
-<div class="line"><span class="lineno"> 2329</span> </div>
-<div class="line"><span class="lineno"> 2330</span>  <a class="code hl_function" href="../../d6/d98/class_vhdl_doc_gen.html#ae4bf0d0561d8ef807b56c1f29765713e">VhdlDocGen::deleteAllChars</a>(qcs,<span class="charliteral">&#39;;&#39;</span>);</div>
-<div class="line"><span class="lineno"> 2331</span>  qcs=qcs.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a66269a694d9e6961bfd145bb4ca72f42">stripWhiteSpace</a>();</div>
-<div class="line"><span class="lineno"> 2332</span> </div>
-<div class="line"><span class="lineno"> 2333</span>  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code hl_class" href="../../d2/dd8/classreg_1_1_ex.html">reg::Ex</a> <a class="code hl_namespace" href="../../db/d35/namespacereg.html">reg</a>(R<span class="stringliteral">&quot;([\s=])&quot;);</span></div>
-<div class="line"><span class="lineno"> 2334</span><span class="stringliteral">  </span><span class="keywordtype">int</span> i = <a class="code hl_function" href="../../df/d2d/util_8cpp.html#aa148f513c64eba8bfd7f3e775c711514">findIndex</a>(qcs.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>(),<a class="code hl_namespace" href="../../db/d35/namespacereg.html">reg</a>);</div>
-<div class="line"><span class="lineno"> 2335</span>  <span class="keywordflow">if</span> (i&lt;0) <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno"> 2336</span>  <span class="keywordflow">if</span> (i==0)</div>
-<div class="line"><span class="lineno"> 2337</span>  {</div>
-<div class="line"><span class="lineno"> 2338</span>    n=type;</div>
-<div class="line"><span class="lineno"> 2339</span>    <a class="code hl_function" href="../../d6/d98/class_vhdl_doc_gen.html#ae4bf0d0561d8ef807b56c1f29765713e">VhdlDocGen::deleteAllChars</a>(n,<span class="charliteral">&#39;#&#39;</span>);</div>
-<div class="line"><span class="lineno"> 2340</span>  }</div>
-<div class="line"><span class="lineno"> 2341</span>  <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno"> 2342</span>  {</div>
-<div class="line"><span class="lineno"> 2343</span>    n=qcs.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">left</a>(i);</div>
-<div class="line"><span class="lineno"> 2344</span>  }</div>
-<div class="line"><span class="lineno"> 2345</span>  qcs=qcs.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a66f15f4dde9edaf0aac741fa7d57bae8">remove</a>(0,i+1);</div>
-<div class="line"><span class="lineno"> 2346</span>  <span class="comment">//  qcs.prepend(&quot;|&quot;);</span></div>
-<div class="line"><span class="lineno"> 2347</span> </div>
-<div class="line"><span class="lineno"> 2348</span>  qcs.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#af363dfe85e56f873aa3a373c70a33b24">stripPrefix</a>(<span class="stringliteral">&quot;=&quot;</span>);</div>
-<div class="line"><span class="lineno"> 2349</span> </div>
-<div class="line"><span class="lineno"> 2350</span>  std::shared_ptr&lt;Entry&gt; current = std::make_shared&lt;Entry&gt;();</div>
-<div class="line"><span class="lineno"> 2351</span>  current-&gt;spec=<a class="code hl_enumvalue" href="../../d6/d98/class_vhdl_doc_gen.html#a3f46a86d0561edb71388774696f6cea6a3634e4fcc00b052fe7b55fd319d009c9">VhdlDocGen::UCF_CONST</a>;</div>
-<div class="line"><span class="lineno"> 2352</span>  current-&gt;section=<a class="code hl_enumvalue" href="../../d4/dd7/class_entry.html#a1e615d53eb7db6d16c19fcb5788fbd9ea25a7eb430ec1ff5877adcba5930fa09d">Entry::VARIABLE_SEC</a>;</div>
-<div class="line"><span class="lineno"> 2353</span>  current-&gt;bodyLine=line;</div>
-<div class="line"><span class="lineno"> 2354</span>  current-&gt;fileName=fileName;</div>
-<div class="line"><span class="lineno"> 2355</span>  current-&gt;type=<span class="stringliteral">&quot;ucf_const&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2356</span>  current-&gt;args+=qcs;</div>
-<div class="line"><span class="lineno"> 2357</span>  current-&gt;lang=  <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a9974623ce72fc23df5d64426b9178bf2a04de850503d4e73333e3c8eec7f97da7">SrcLangExt_VHDL</a> ;</div>
-<div class="line"><span class="lineno"> 2358</span> </div>
-<div class="line"><span class="lineno"> 2359</span>  <span class="comment">// adding dummy name for constraints like VOLTAGE=5,TEMPERATURE=20 C</span></div>
-<div class="line"><span class="lineno"> 2360</span>  <span class="keywordflow">if</span> (n.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
-<div class="line"><span class="lineno"> 2361</span>  {</div>
-<div class="line"><span class="lineno"> 2362</span>    n=<span class="stringliteral">&quot;dummy&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2363</span>    n+=<a class="code hl_function" href="../../d6/d98/class_vhdl_doc_gen.html#a2e65f831a03ff54d13240da96843cd60">VhdlDocGen::getRecordNumber</a>();</div>
-<div class="line"><span class="lineno"> 2364</span>  }</div>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02322">2322</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 2324</span>{</div>
+<div class="line"><span class="lineno"> 2325</span>  <span class="keywordflow">if</span> (qcs.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())<span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 2326</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> n;</div>
+<div class="line"><span class="lineno"> 2327</span> </div>
+<div class="line"><span class="lineno"> 2328</span>  <a class="code hl_function" href="../../d6/d98/class_vhdl_doc_gen.html#ae4bf0d0561d8ef807b56c1f29765713e">VhdlDocGen::deleteAllChars</a>(qcs,<span class="charliteral">&#39;;&#39;</span>);</div>
+<div class="line"><span class="lineno"> 2329</span>  qcs=qcs.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a66269a694d9e6961bfd145bb4ca72f42">stripWhiteSpace</a>();</div>
+<div class="line"><span class="lineno"> 2330</span> </div>
+<div class="line"><span class="lineno"> 2331</span>  <span class="keywordtype">int</span> i = <a class="code hl_define" href="../../d8/d3c/util_8h.html#abc221b0165cb6d1b4abd44ee2cc9184b">FIND_INDEX_CTRE</a>(qcs.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>(),R<span class="stringliteral">&quot;([\s=])&quot;);</span></div>
+<div class="line"><span class="lineno"> 2332</span><span class="stringliteral">  </span><span class="keywordflow">if</span> (i&lt;0) <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 2333</span>  <span class="keywordflow">if</span> (i==0)</div>
+<div class="line"><span class="lineno"> 2334</span>  {</div>
+<div class="line"><span class="lineno"> 2335</span>    n=type;</div>
+<div class="line"><span class="lineno"> 2336</span>    <a class="code hl_function" href="../../d6/d98/class_vhdl_doc_gen.html#ae4bf0d0561d8ef807b56c1f29765713e">VhdlDocGen::deleteAllChars</a>(n,<span class="charliteral">&#39;#&#39;</span>);</div>
+<div class="line"><span class="lineno"> 2337</span>  }</div>
+<div class="line"><span class="lineno"> 2338</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 2339</span>  {</div>
+<div class="line"><span class="lineno"> 2340</span>    n=qcs.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">left</a>(i);</div>
+<div class="line"><span class="lineno"> 2341</span>  }</div>
+<div class="line"><span class="lineno"> 2342</span>  qcs=qcs.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a66f15f4dde9edaf0aac741fa7d57bae8">remove</a>(0,i+1);</div>
+<div class="line"><span class="lineno"> 2343</span>  <span class="comment">//  qcs.prepend(&quot;|&quot;);</span></div>
+<div class="line"><span class="lineno"> 2344</span> </div>
+<div class="line"><span class="lineno"> 2345</span>  qcs.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#af363dfe85e56f873aa3a373c70a33b24">stripPrefix</a>(<span class="stringliteral">&quot;=&quot;</span>);</div>
+<div class="line"><span class="lineno"> 2346</span> </div>
+<div class="line"><span class="lineno"> 2347</span>  std::shared_ptr&lt;Entry&gt; current = std::make_shared&lt;Entry&gt;();</div>
+<div class="line"><span class="lineno"> 2348</span>  current-&gt;spec=<a class="code hl_enumvalue" href="../../d6/d98/class_vhdl_doc_gen.html#a3f46a86d0561edb71388774696f6cea6a3634e4fcc00b052fe7b55fd319d009c9">VhdlDocGen::UCF_CONST</a>;</div>
+<div class="line"><span class="lineno"> 2349</span>  current-&gt;section=<a class="code hl_enumvalue" href="../../d4/dd7/class_entry.html#a1e615d53eb7db6d16c19fcb5788fbd9ea25a7eb430ec1ff5877adcba5930fa09d">Entry::VARIABLE_SEC</a>;</div>
+<div class="line"><span class="lineno"> 2350</span>  current-&gt;bodyLine=line;</div>
+<div class="line"><span class="lineno"> 2351</span>  current-&gt;fileName=fileName;</div>
+<div class="line"><span class="lineno"> 2352</span>  current-&gt;type=<span class="stringliteral">&quot;ucf_const&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2353</span>  current-&gt;args+=qcs;</div>
+<div class="line"><span class="lineno"> 2354</span>  current-&gt;lang=  <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a9974623ce72fc23df5d64426b9178bf2a04de850503d4e73333e3c8eec7f97da7">SrcLangExt_VHDL</a> ;</div>
+<div class="line"><span class="lineno"> 2355</span> </div>
+<div class="line"><span class="lineno"> 2356</span>  <span class="comment">// adding dummy name for constraints like VOLTAGE=5,TEMPERATURE=20 C</span></div>
+<div class="line"><span class="lineno"> 2357</span>  <span class="keywordflow">if</span> (n.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
+<div class="line"><span class="lineno"> 2358</span>  {</div>
+<div class="line"><span class="lineno"> 2359</span>    n=<span class="stringliteral">&quot;dummy&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2360</span>    n+=<a class="code hl_function" href="../../d6/d98/class_vhdl_doc_gen.html#a2e65f831a03ff54d13240da96843cd60">VhdlDocGen::getRecordNumber</a>();</div>
+<div class="line"><span class="lineno"> 2361</span>  }</div>
+<div class="line"><span class="lineno"> 2362</span> </div>
+<div class="line"><span class="lineno"> 2363</span>  current-&gt;name= n+<span class="stringliteral">&quot;_&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2364</span>  current-&gt;name.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a8f0a381fdae1427b1182baf0abde21e7">append</a>(<a class="code hl_function" href="../../d6/d98/class_vhdl_doc_gen.html#a2e65f831a03ff54d13240da96843cd60">VhdlDocGen::getRecordNumber</a>());</div>
 <div class="line"><span class="lineno"> 2365</span> </div>
-<div class="line"><span class="lineno"> 2366</span>  current-&gt;name= n+<span class="stringliteral">&quot;_&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2367</span>  current-&gt;name.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a8f0a381fdae1427b1182baf0abde21e7">append</a>(<a class="code hl_function" href="../../d6/d98/class_vhdl_doc_gen.html#a2e65f831a03ff54d13240da96843cd60">VhdlDocGen::getRecordNumber</a>());</div>
-<div class="line"><span class="lineno"> 2368</span> </div>
-<div class="line"><span class="lineno"> 2369</span>  <span class="keywordflow">if</span> (!brief.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
-<div class="line"><span class="lineno"> 2370</span>  {</div>
-<div class="line"><span class="lineno"> 2371</span>    current-&gt;brief=brief;</div>
-<div class="line"><span class="lineno"> 2372</span>    current-&gt;briefLine=line;</div>
-<div class="line"><span class="lineno"> 2373</span>    current-&gt;briefFile=fileName;</div>
-<div class="line"><span class="lineno"> 2374</span>    brief.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a993474e2da59141336e6105b8e154f2b">resize</a>(0);</div>
-<div class="line"><span class="lineno"> 2375</span>  }</div>
-<div class="line"><span class="lineno"> 2376</span> </div>
-<div class="line"><span class="lineno"> 2377</span>  root-&gt;<a class="code hl_function" href="../../d4/dd7/class_entry.html#a07c79aba42cd96fbf689c324e4e31da7">moveToSubEntryAndKeep</a>(current);</div>
-<div class="line"><span class="lineno"> 2378</span>}</div>
+<div class="line"><span class="lineno"> 2366</span>  <span class="keywordflow">if</span> (!brief.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
+<div class="line"><span class="lineno"> 2367</span>  {</div>
+<div class="line"><span class="lineno"> 2368</span>    current-&gt;brief=brief;</div>
+<div class="line"><span class="lineno"> 2369</span>    current-&gt;briefLine=line;</div>
+<div class="line"><span class="lineno"> 2370</span>    current-&gt;briefFile=fileName;</div>
+<div class="line"><span class="lineno"> 2371</span>    brief.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a993474e2da59141336e6105b8e154f2b">resize</a>(0);</div>
+<div class="line"><span class="lineno"> 2372</span>  }</div>
+<div class="line"><span class="lineno"> 2373</span> </div>
+<div class="line"><span class="lineno"> 2374</span>  root-&gt;<a class="code hl_function" href="../../d4/dd7/class_entry.html#a07c79aba42cd96fbf689c324e4e31da7">moveToSubEntryAndKeep</a>(current);</div>
+<div class="line"><span class="lineno"> 2375</span>}</div>
 <div class="ttc" id="aclass_entry_html_a07c79aba42cd96fbf689c324e4e31da7"><div class="ttname"><a href="../../d4/dd7/class_entry.html#a07c79aba42cd96fbf689c324e4e31da7">Entry::moveToSubEntryAndKeep</a></div><div class="ttdeci">void moveToSubEntryAndKeep(Entry *e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dd2/entry_8cpp_source.html#l00146">entry.cpp:146</a></div></div>
 <div class="ttc" id="aclass_entry_html_a1e615d53eb7db6d16c19fcb5788fbd9ea25a7eb430ec1ff5877adcba5930fa09d"><div class="ttname"><a href="../../d4/dd7/class_entry.html#a1e615d53eb7db6d16c19fcb5788fbd9ea25a7eb430ec1ff5877adcba5930fa09d">Entry::VARIABLE_SEC</a></div><div class="ttdeci">@ VARIABLE_SEC</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dc6/entry_8h_source.html#l00096">entry.h:96</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_af363dfe85e56f873aa3a373c70a33b24"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#af363dfe85e56f873aa3a373c70a33b24">QCString::stripPrefix</a></div><div class="ttdeci">bool stripPrefix(const QCString &amp;prefix)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00197">qcstring.h:197</a></div></div>
-<div class="ttc" id="aclass_vhdl_doc_gen_html_a2e65f831a03ff54d13240da96843cd60"><div class="ttname"><a href="../../d6/d98/class_vhdl_doc_gen.html#a2e65f831a03ff54d13240da96843cd60">VhdlDocGen::getRecordNumber</a></div><div class="ttdeci">static QCString getRecordNumber()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/vhdldocgen_8cpp_source.html#l01103">vhdldocgen.cpp:1103</a></div></div>
+<div class="ttc" id="aclass_vhdl_doc_gen_html_a2e65f831a03ff54d13240da96843cd60"><div class="ttname"><a href="../../d6/d98/class_vhdl_doc_gen.html#a2e65f831a03ff54d13240da96843cd60">VhdlDocGen::getRecordNumber</a></div><div class="ttdeci">static QCString getRecordNumber()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/vhdldocgen_8cpp_source.html#l01102">vhdldocgen.cpp:1102</a></div></div>
 <div class="ttc" id="aclass_vhdl_doc_gen_html_a3f46a86d0561edb71388774696f6cea6a3634e4fcc00b052fe7b55fd319d009c9"><div class="ttname"><a href="../../d6/d98/class_vhdl_doc_gen.html#a3f46a86d0561edb71388774696f6cea6a3634e4fcc00b052fe7b55fd319d009c9">VhdlDocGen::UCF_CONST</a></div><div class="ttdeci">@ UCF_CONST</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dec/vhdldocgen_8h_source.html#l00120">vhdldocgen.h:119</a></div></div>
-<div class="ttc" id="aclass_vhdl_doc_gen_html_ae4bf0d0561d8ef807b56c1f29765713e"><div class="ttname"><a href="../../d6/d98/class_vhdl_doc_gen.html#ae4bf0d0561d8ef807b56c1f29765713e">VhdlDocGen::deleteAllChars</a></div><div class="ttdeci">static void deleteAllChars(QCString &amp;s, char c)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/vhdldocgen_8cpp_source.html#l01085">vhdldocgen.cpp:1085</a></div></div>
-<div class="ttc" id="aclassreg_1_1_ex_html"><div class="ttname"><a href="../../d2/dd8/classreg_1_1_ex.html">reg::Ex</a></div><div class="ttdoc">Class representing a regular expression.</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d21/regex_8h_source.html#l00035">regex.h:36</a></div></div>
-<div class="ttc" id="anamespacereg_html"><div class="ttname"><a href="../../db/d35/namespacereg.html">reg</a></div><div class="ttdoc">Namespace for the regular expression functions.</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d85/regex_8cpp_source.html#l00030">regex.cpp:31</a></div></div>
-<div class="ttc" id="autil_8cpp_html_aa148f513c64eba8bfd7f3e775c711514"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#aa148f513c64eba8bfd7f3e775c711514">findIndex</a></div><div class="ttdeci">int findIndex(const StringVector &amp;sv, const std::string &amp;s)</div><div class="ttdoc">find the index of a string in a vector of strings, returns -1 if the string could not be found</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l07460">util.cpp:7460</a></div></div>
+<div class="ttc" id="aclass_vhdl_doc_gen_html_ae4bf0d0561d8ef807b56c1f29765713e"><div class="ttname"><a href="../../d6/d98/class_vhdl_doc_gen.html#ae4bf0d0561d8ef807b56c1f29765713e">VhdlDocGen::deleteAllChars</a></div><div class="ttdeci">static void deleteAllChars(QCString &amp;s, char c)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/vhdldocgen_8cpp_source.html#l01084">vhdldocgen.cpp:1084</a></div></div>
+<div class="ttc" id="autil_8h_html_abc221b0165cb6d1b4abd44ee2cc9184b"><div class="ttname"><a href="../../d8/d3c/util_8h.html#abc221b0165cb6d1b4abd44ee2cc9184b">FIND_INDEX_CTRE</a></div><div class="ttdeci">#define FIND_INDEX_CTRE(str, PATTERN)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d3c/util_8h_source.html#l00487">util.h:487</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00344">QCString::append()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01085">VhdlDocGen::deleteAllChars()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l07460">findIndex()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01103">VhdlDocGen::getRecordNumber()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00212">QCString::left()</a>, <a class="el" href="../../d2/dd2/entry_8cpp_source.html#l00146">Entry::moveToSubEntryAndKeep()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00380">QCString::remove()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00164">QCString::resize()</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00054">SrcLangExt_VHDL</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00480">QCString::str()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00197">QCString::stripPrefix()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00243">QCString::stripWhiteSpace()</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00119">VhdlDocGen::UCF_CONST</a>, and <a class="el" href="../../d1/dc6/entry_8h_source.html#l00096">Entry::VARIABLE_SEC</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00344">QCString::append()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01084">VhdlDocGen::deleteAllChars()</a>, <a class="el" href="../../d8/d3c/util_8h_source.html#l00487">FIND_INDEX_CTRE</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01102">VhdlDocGen::getRecordNumber()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00212">QCString::left()</a>, <a class="el" href="../../d2/dd2/entry_8cpp_source.html#l00146">Entry::moveToSubEntryAndKeep()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00380">QCString::remove()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00164">QCString::resize()</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00054">SrcLangExt_VHDL</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00480">QCString::str()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00197">QCString::stripPrefix()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00243">QCString::stripWhiteSpace()</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00119">VhdlDocGen::UCF_CONST</a>, and <a class="el" href="../../d1/dc6/entry_8h_source.html#l00096">Entry::VARIABLE_SEC</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02267">VhdlDocGen::parseUCF()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02266">VhdlDocGen::parseUCF()</a>.</p>
 
 </div>
 </div>
@@ -1256,32 +1269,32 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02078">2078</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2079</span>{</div>
-<div class="line"><span class="lineno"> 2080</span>  <span class="keywordflow">if</span> (ml==0) <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="line"><span class="lineno"> 2081</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;mdd : *ml)</div>
-<div class="line"><span class="lineno"> 2082</span>  {</div>
-<div class="line"><span class="lineno"> 2083</span>    <span class="keywordflow">if</span> (mdd-&gt;getMemberSpecifiers()==type) <span class="comment">//is type in class</span></div>
-<div class="line"><span class="lineno"> 2084</span>    {</div>
-<div class="line"><span class="lineno"> 2085</span>      <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno"> 2086</span>    }</div>
-<div class="line"><span class="lineno"> 2087</span>  }</div>
-<div class="line"><span class="lineno"> 2088</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;mg : ml-&gt;getMemberGroupList())</div>
-<div class="line"><span class="lineno"> 2089</span>  {</div>
-<div class="line"><span class="lineno"> 2090</span>    <span class="keywordflow">if</span> (!mg-&gt;members().empty())</div>
-<div class="line"><span class="lineno"> 2091</span>    {</div>
-<div class="line"><span class="lineno"> 2092</span>      <span class="keywordflow">if</span> (<a class="code hl_function" href="../../de/dea/vhdldocgen_8cpp.html#a6716f18f0514d852937faae85612e5bf">membersHaveSpecificType</a>(&amp;mg-&gt;members(),type)) <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno"> 2093</span>    }</div>
-<div class="line"><span class="lineno"> 2094</span>  }</div>
-<div class="line"><span class="lineno"> 2095</span>  <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="line"><span class="lineno"> 2096</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02077">2077</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 2078</span>{</div>
+<div class="line"><span class="lineno"> 2079</span>  <span class="keywordflow">if</span> (ml==0) <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
+<div class="line"><span class="lineno"> 2080</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;mdd : *ml)</div>
+<div class="line"><span class="lineno"> 2081</span>  {</div>
+<div class="line"><span class="lineno"> 2082</span>    <span class="keywordflow">if</span> (mdd-&gt;getMemberSpecifiers()==type) <span class="comment">//is type in class</span></div>
+<div class="line"><span class="lineno"> 2083</span>    {</div>
+<div class="line"><span class="lineno"> 2084</span>      <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno"> 2085</span>    }</div>
+<div class="line"><span class="lineno"> 2086</span>  }</div>
+<div class="line"><span class="lineno"> 2087</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;mg : ml-&gt;getMemberGroupList())</div>
+<div class="line"><span class="lineno"> 2088</span>  {</div>
+<div class="line"><span class="lineno"> 2089</span>    <span class="keywordflow">if</span> (!mg-&gt;members().empty())</div>
+<div class="line"><span class="lineno"> 2090</span>    {</div>
+<div class="line"><span class="lineno"> 2091</span>      <span class="keywordflow">if</span> (<a class="code hl_function" href="../../de/dea/vhdldocgen_8cpp.html#a6716f18f0514d852937faae85612e5bf">membersHaveSpecificType</a>(&amp;mg-&gt;members(),type)) <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno"> 2092</span>    }</div>
+<div class="line"><span class="lineno"> 2093</span>  }</div>
+<div class="line"><span class="lineno"> 2094</span>  <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
+<div class="line"><span class="lineno"> 2095</span>}</div>
 <div class="ttc" id="aqcstring_8h_html_aa8cecfc5c5c054d2875c03e77b7be15d"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a></div><div class="ttdeci">#define TRUE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00036">qcstring.h:36</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_aa93f0eb578d23995850d61f7d61c55c1"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></div><div class="ttdeci">#define FALSE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00033">qcstring.h:33</a></div></div>
-<div class="ttc" id="avhdldocgen_8cpp_html_a6716f18f0514d852937faae85612e5bf"><div class="ttname"><a href="../../de/dea/vhdldocgen_8cpp.html#a6716f18f0514d852937faae85612e5bf">membersHaveSpecificType</a></div><div class="ttdeci">static bool membersHaveSpecificType(const MemberList *ml, uint64 type)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/vhdldocgen_8cpp_source.html#l02078">vhdldocgen.cpp:2078</a></div></div>
+<div class="ttc" id="avhdldocgen_8cpp_html_a6716f18f0514d852937faae85612e5bf"><div class="ttname"><a href="../../de/dea/vhdldocgen_8cpp.html#a6716f18f0514d852937faae85612e5bf">membersHaveSpecificType</a></div><div class="ttdeci">static bool membersHaveSpecificType(const MemberList *ml, uint64 type)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/vhdldocgen_8cpp_source.html#l02077">vhdldocgen.cpp:2077</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../dd/d78/memberlist_8h_source.html#l00118">MemberList::getMemberGroupList()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02078">membersHaveSpecificType()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../dd/d78/memberlist_8h_source.html#l00118">MemberList::getMemberGroupList()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02077">membersHaveSpecificType()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02078">membersHaveSpecificType()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02098">VhdlDocGen::writeVHDLDeclarations()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02077">membersHaveSpecificType()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02097">VhdlDocGen::writeVHDLDeclarations()</a>.</p>
 
 </div>
 </div>
@@ -1334,7 +1347,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00043">QCString::find()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00212">QCString::left()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00380">QCString::remove()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02381">writeUCFLink()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02378">writeUCFLink()</a>.</p>
 
 </div>
 </div>
@@ -1426,7 +1439,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/db9/outputlist_8h_source.html#l00122">OutputList::codeGenerators()</a>, and <a class="el" href="../../d2/db9/outputlist_8h_source.html#l00078">OutputCodeList::startFontClass()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01129">VhdlDocGen::writeFormatString()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01428">VhdlDocGen::writeFuncProcDocu()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01324">VhdlDocGen::writeFunctionProto()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01269">VhdlDocGen::writeProcedureProto()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02167">VhdlDocGen::writeStringLink()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01128">VhdlDocGen::writeFormatString()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01427">VhdlDocGen::writeFuncProcDocu()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01323">VhdlDocGen::writeFunctionProto()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01268">VhdlDocGen::writeProcedureProto()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02166">VhdlDocGen::writeStringLink()</a>.</p>
 
 </div>
 </div>
@@ -1522,9 +1535,9 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno">  413</span>  t &lt;&lt; <span class="stringliteral">&quot; &lt;/TD&gt;&lt;/TR&gt;\n&quot;</span>;</div>
 <div class="line"><span class="lineno">  414</span>}</div>
 <div class="ttc" id="aclass_class_def_html_a12a8f241e90a0cb0bdf19c27bf2025b0"><div class="ttname"><a href="../../d1/dcf/class_class_def.html#a12a8f241e90a0cb0bdf19c27bf2025b0">ClassDef::getOutputFileBase</a></div><div class="ttdeci">virtual QCString getOutputFileBase() const =0</div><div class="ttdoc">Returns the unique base name (without extension) of the class's file on disk.</div></div>
-<div class="ttc" id="autil_8cpp_html_a36c74291c5a9adc05d5cb6c0932f6b82"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a36c74291c5a9adc05d5cb6c0932f6b82">addHtmlExtensionIfMissing</a></div><div class="ttdeci">QCString addHtmlExtensionIfMissing(const QCString &amp;fName)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l05370">util.cpp:5370</a></div></div>
+<div class="ttc" id="autil_8cpp_html_a36c74291c5a9adc05d5cb6c0932f6b82"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a36c74291c5a9adc05d5cb6c0932f6b82">addHtmlExtensionIfMissing</a></div><div class="ttdeci">QCString addHtmlExtensionIfMissing(const QCString &amp;fName)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l05353">util.cpp:5353</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d2d/util_8cpp_source.html#l05370">addHtmlExtensionIfMissing()</a>, <a class="el" href="../../d1/dcf/class_class_def.html#a12a8f241e90a0cb0bdf19c27bf2025b0">ClassDef::getOutputFileBase()</a>, and <a class="el" href="../../d5/dcc/class_definition.html#a9374fedd7f64fea7e0e164302d1a9e61">Definition::name()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d2d/util_8cpp_source.html#l05353">addHtmlExtensionIfMissing()</a>, <a class="el" href="../../d1/dcf/class_class_def.html#a12a8f241e90a0cb0bdf19c27bf2025b0">ClassDef::getOutputFileBase()</a>, and <a class="el" href="../../d5/dcc/class_definition.html#a9374fedd7f64fea7e0e164302d1a9e61">Definition::name()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00176">VhdlDocGen::writeOverview()</a>.</p>
 
@@ -1660,7 +1673,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="aqcstring_8cpp_html_a99187f0723aa35b7f06be3a5506b1285"><div class="ttname"><a href="../../d5/d3e/qcstring_8cpp.html#a99187f0723aa35b7f06be3a5506b1285">substitute</a></div><div class="ttdeci">QCString substitute(const QCString &amp;s, const QCString &amp;src, const QCString &amp;dst)</div><div class="ttdoc">substitute all occurrences of src in s by dst</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d3e/qcstring_8cpp_source.html#l00473">qcstring.cpp:473</a></div></div>
 <div class="ttc" id="avhdldocgen_8cpp_html_ab30b312f9544ebfae65e8d7f108743ee"><div class="ttname"><a href="../../de/dea/vhdldocgen_8cpp.html#ab30b312f9544ebfae65e8d7f108743ee">codify</a></div><div class="ttdeci">static void codify(TextStream &amp;t, const QCString &amp;str)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/vhdldocgen_8cpp_source.html#l00099">vhdldocgen.cpp:99</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d2d/util_8cpp_source.html#l05370">addHtmlExtensionIfMissing()</a>, <a class="el" href="../../da/d09/class_member_def.html#a170c6221384447f7e2e9f5a529efef40">MemberDef::anchor()</a>, <a class="el" href="../../da/d09/class_member_def.html#adfae3b8f49644ba27669daa9412e14a3">MemberDef::argsString()</a>, <a class="el" href="../../d5/dcc/class_definition.html#a5915353219702c6ea73cc1476bda793a">Definition::briefDescriptionAsTooltip()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00099">codify()</a>, <a class="el" href="../../da/d09/class_member_def.html#a1691f8cc2d90978d091a7d7aae11dd8d">MemberDef::getOutputFileBase()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d5/dcc/class_definition.html#a9374fedd7f64fea7e0e164302d1a9e61">Definition::name()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00438">qstricmp()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00473">substitute()</a>, and <a class="el" href="../../da/d09/class_member_def.html#a0032c6e040cdec6d9c52dc75a790a884">MemberDef::typeString()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d2d/util_8cpp_source.html#l05353">addHtmlExtensionIfMissing()</a>, <a class="el" href="../../da/d09/class_member_def.html#a170c6221384447f7e2e9f5a529efef40">MemberDef::anchor()</a>, <a class="el" href="../../da/d09/class_member_def.html#adfae3b8f49644ba27669daa9412e14a3">MemberDef::argsString()</a>, <a class="el" href="../../d5/dcc/class_definition.html#a5915353219702c6ea73cc1476bda793a">Definition::briefDescriptionAsTooltip()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00099">codify()</a>, <a class="el" href="../../da/d09/class_member_def.html#a1691f8cc2d90978d091a7d7aae11dd8d">MemberDef::getOutputFileBase()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d5/dcc/class_definition.html#a9374fedd7f64fea7e0e164302d1a9e61">Definition::name()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00438">qstricmp()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00473">substitute()</a>, and <a class="el" href="../../da/d09/class_member_def.html#a0032c6e040cdec6d9c52dc75a790a884">MemberDef::typeString()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00438">writeTable()</a>.</p>
 
@@ -1712,7 +1725,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../da/d09/class_member_def.html#a170c6221384447f7e2e9f5a529efef40">MemberDef::anchor()</a>, <a class="el" href="../../da/d09/class_member_def.html#a1691f8cc2d90978d091a7d7aae11dd8d">MemberDef::getOutputFileBase()</a>, <a class="el" href="../../da/d09/class_member_def.html#a1fa921f95581774af1de1a29fb24a0c8">MemberDef::getReference()</a>, <a class="el" href="../../d5/dcc/class_definition.html#a9374fedd7f64fea7e0e164302d1a9e61">Definition::name()</a>, and <a class="el" href="../../d2/db9/outputlist_8h_source.html#l00207">OutputList::writeObjectLink()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02613">VhdlDocGen::writeRecordUnit()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02191">VhdlDocGen::writeSource()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02167">VhdlDocGen::writeStringLink()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02381">writeUCFLink()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01746">VhdlDocGen::writeVHDLDeclaration()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01618">VhdlDocGen::writeVHDLTypeDocumentation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02610">VhdlDocGen::writeRecordUnit()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02190">VhdlDocGen::writeSource()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02166">VhdlDocGen::writeStringLink()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02378">writeUCFLink()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01745">VhdlDocGen::writeVHDLDeclaration()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01617">VhdlDocGen::writeVHDLTypeDocumentation()</a>.</p>
 
 </div>
 </div>
@@ -1849,43 +1862,43 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02381">2381</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2382</span>{</div>
-<div class="line"><span class="lineno"> 2383</span> </div>
-<div class="line"><span class="lineno"> 2384</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> largs(mdef-&gt;<a class="code hl_function" href="../../da/d09/class_member_def.html#adfae3b8f49644ba27669daa9412e14a3">argsString</a>());</div>
-<div class="line"><span class="lineno"> 2385</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> n= <a class="code hl_function" href="../../de/dea/vhdldocgen_8cpp.html#a67e22ceaa05ae493f2f3892681aec351">splitString</a>(largs, <span class="charliteral">&#39;#&#39;</span>);</div>
-<div class="line"><span class="lineno"> 2386</span>  <span class="comment">// VhdlDocGen::adjustRecordMember(mdef);</span></div>
-<div class="line"><span class="lineno"> 2387</span>  <span class="keywordtype">bool</span> equ=(n.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">length</a>()==largs.length());</div>
-<div class="line"><span class="lineno"> 2388</span> </div>
-<div class="line"><span class="lineno"> 2389</span>  <span class="keywordflow">if</span> (!equ)</div>
-<div class="line"><span class="lineno"> 2390</span>  {</div>
-<div class="line"><span class="lineno"> 2391</span>    ol.<a class="code hl_function" href="../../df/dc8/class_output_list.html#a07cac8a8981da35314f77d8f3edb7f76">writeString</a>(n);</div>
-<div class="line"><span class="lineno"> 2392</span>    ol.<a class="code hl_function" href="../../df/dc8/class_output_list.html#a5647a62e8819abb6e6b2378a7c115bbd">docify</a>(<span class="stringliteral">&quot; &quot;</span>);</div>
-<div class="line"><span class="lineno"> 2393</span>    ol.<a class="code hl_function" href="../../df/dc8/class_output_list.html#a8a0967d0442047bfe07a5644505c2d68">insertMemberAlign</a>();</div>
-<div class="line"><span class="lineno"> 2394</span>  }</div>
-<div class="line"><span class="lineno"> 2395</span> </div>
-<div class="line"><span class="lineno"> 2396</span>  <span class="keywordflow">if</span> (mdef-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#a9374fedd7f64fea7e0e164302d1a9e61">name</a>().<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aeeedb2810a85c682c2f2a86bcd2355a7">contains</a>(<span class="stringliteral">&quot;dummy&quot;</span>)==0)</div>
-<div class="line"><span class="lineno"> 2397</span>  {</div>
-<div class="line"><span class="lineno"> 2398</span>    <a class="code hl_function" href="../../de/dea/vhdldocgen_8cpp.html#a5e22c140f692291551eb95a7e1867b8f">writeLink</a>(mdef,ol);</div>
-<div class="line"><span class="lineno"> 2399</span>  }</div>
-<div class="line"><span class="lineno"> 2400</span>  <span class="keywordflow">if</span> (equ)</div>
-<div class="line"><span class="lineno"> 2401</span>  {</div>
-<div class="line"><span class="lineno"> 2402</span>    ol.<a class="code hl_function" href="../../df/dc8/class_output_list.html#a8a0967d0442047bfe07a5644505c2d68">insertMemberAlign</a>();</div>
-<div class="line"><span class="lineno"> 2403</span>  }</div>
-<div class="line"><span class="lineno"> 2404</span>  ol.<a class="code hl_function" href="../../df/dc8/class_output_list.html#a5647a62e8819abb6e6b2378a7c115bbd">docify</a>(<span class="stringliteral">&quot; &quot;</span>);</div>
-<div class="line"><span class="lineno"> 2405</span>  <a class="code hl_function" href="../../d6/d98/class_vhdl_doc_gen.html#aacccadab8f7d60dc0e4b2892ea724c2b">VhdlDocGen::formatString</a>(largs,ol,mdef);</div>
-<div class="line"><span class="lineno"> 2406</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02378">2378</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 2379</span>{</div>
+<div class="line"><span class="lineno"> 2380</span> </div>
+<div class="line"><span class="lineno"> 2381</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> largs(mdef-&gt;<a class="code hl_function" href="../../da/d09/class_member_def.html#adfae3b8f49644ba27669daa9412e14a3">argsString</a>());</div>
+<div class="line"><span class="lineno"> 2382</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> n= <a class="code hl_function" href="../../de/dea/vhdldocgen_8cpp.html#a67e22ceaa05ae493f2f3892681aec351">splitString</a>(largs, <span class="charliteral">&#39;#&#39;</span>);</div>
+<div class="line"><span class="lineno"> 2383</span>  <span class="comment">// VhdlDocGen::adjustRecordMember(mdef);</span></div>
+<div class="line"><span class="lineno"> 2384</span>  <span class="keywordtype">bool</span> equ=(n.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">length</a>()==largs.length());</div>
+<div class="line"><span class="lineno"> 2385</span> </div>
+<div class="line"><span class="lineno"> 2386</span>  <span class="keywordflow">if</span> (!equ)</div>
+<div class="line"><span class="lineno"> 2387</span>  {</div>
+<div class="line"><span class="lineno"> 2388</span>    ol.<a class="code hl_function" href="../../df/dc8/class_output_list.html#a07cac8a8981da35314f77d8f3edb7f76">writeString</a>(n);</div>
+<div class="line"><span class="lineno"> 2389</span>    ol.<a class="code hl_function" href="../../df/dc8/class_output_list.html#a5647a62e8819abb6e6b2378a7c115bbd">docify</a>(<span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno"> 2390</span>    ol.<a class="code hl_function" href="../../df/dc8/class_output_list.html#a8a0967d0442047bfe07a5644505c2d68">insertMemberAlign</a>();</div>
+<div class="line"><span class="lineno"> 2391</span>  }</div>
+<div class="line"><span class="lineno"> 2392</span> </div>
+<div class="line"><span class="lineno"> 2393</span>  <span class="keywordflow">if</span> (mdef-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#a9374fedd7f64fea7e0e164302d1a9e61">name</a>().<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aeeedb2810a85c682c2f2a86bcd2355a7">contains</a>(<span class="stringliteral">&quot;dummy&quot;</span>)==0)</div>
+<div class="line"><span class="lineno"> 2394</span>  {</div>
+<div class="line"><span class="lineno"> 2395</span>    <a class="code hl_function" href="../../de/dea/vhdldocgen_8cpp.html#a5e22c140f692291551eb95a7e1867b8f">writeLink</a>(mdef,ol);</div>
+<div class="line"><span class="lineno"> 2396</span>  }</div>
+<div class="line"><span class="lineno"> 2397</span>  <span class="keywordflow">if</span> (equ)</div>
+<div class="line"><span class="lineno"> 2398</span>  {</div>
+<div class="line"><span class="lineno"> 2399</span>    ol.<a class="code hl_function" href="../../df/dc8/class_output_list.html#a8a0967d0442047bfe07a5644505c2d68">insertMemberAlign</a>();</div>
+<div class="line"><span class="lineno"> 2400</span>  }</div>
+<div class="line"><span class="lineno"> 2401</span>  ol.<a class="code hl_function" href="../../df/dc8/class_output_list.html#a5647a62e8819abb6e6b2378a7c115bbd">docify</a>(<span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno"> 2402</span>  <a class="code hl_function" href="../../d6/d98/class_vhdl_doc_gen.html#aacccadab8f7d60dc0e4b2892ea724c2b">VhdlDocGen::formatString</a>(largs,ol,mdef);</div>
+<div class="line"><span class="lineno"> 2403</span>}</div>
 <div class="ttc" id="aclass_output_list_html_a07cac8a8981da35314f77d8f3edb7f76"><div class="ttname"><a href="../../df/dc8/class_output_list.html#a07cac8a8981da35314f77d8f3edb7f76">OutputList::writeString</a></div><div class="ttdeci">void writeString(const QCString &amp;text)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db9/outputlist_8h_source.html#l00179">outputlist.h:179</a></div></div>
 <div class="ttc" id="aclass_output_list_html_a5647a62e8819abb6e6b2378a7c115bbd"><div class="ttname"><a href="../../df/dc8/class_output_list.html#a5647a62e8819abb6e6b2378a7c115bbd">OutputList::docify</a></div><div class="ttdeci">void docify(const QCString &amp;s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db9/outputlist_8h_source.html#l00205">outputlist.h:205</a></div></div>
 <div class="ttc" id="aclass_output_list_html_a8a0967d0442047bfe07a5644505c2d68"><div class="ttname"><a href="../../df/dc8/class_output_list.html#a8a0967d0442047bfe07a5644505c2d68">OutputList::insertMemberAlign</a></div><div class="ttdeci">void insertMemberAlign(bool templ=FALSE)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db9/outputlist_8h_source.html#l00291">outputlist.h:291</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_aeeedb2810a85c682c2f2a86bcd2355a7"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#aeeedb2810a85c682c2f2a86bcd2355a7">QCString::contains</a></div><div class="ttdeci">int contains(char c, bool cs=TRUE) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d3e/qcstring_8cpp_source.html#l00143">qcstring.cpp:143</a></div></div>
-<div class="ttc" id="aclass_vhdl_doc_gen_html_aacccadab8f7d60dc0e4b2892ea724c2b"><div class="ttname"><a href="../../d6/d98/class_vhdl_doc_gen.html#aacccadab8f7d60dc0e4b2892ea724c2b">VhdlDocGen::formatString</a></div><div class="ttdeci">static void formatString(const QCString &amp;, OutputList &amp;ol, const MemberDef *)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/vhdldocgen_8cpp_source.html#l01210">vhdldocgen.cpp:1210</a></div></div>
+<div class="ttc" id="aclass_vhdl_doc_gen_html_aacccadab8f7d60dc0e4b2892ea724c2b"><div class="ttname"><a href="../../d6/d98/class_vhdl_doc_gen.html#aacccadab8f7d60dc0e4b2892ea724c2b">VhdlDocGen::formatString</a></div><div class="ttdeci">static void formatString(const QCString &amp;, OutputList &amp;ol, const MemberDef *)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/vhdldocgen_8cpp_source.html#l01209">vhdldocgen.cpp:1209</a></div></div>
 <div class="ttc" id="avhdldocgen_8cpp_html_a5e22c140f692291551eb95a7e1867b8f"><div class="ttname"><a href="../../de/dea/vhdldocgen_8cpp.html#a5e22c140f692291551eb95a7e1867b8f">writeLink</a></div><div class="ttdeci">static void writeLink(const MemberDef *mdef, OutputList &amp;ol)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/vhdldocgen_8cpp_source.html#l00127">vhdldocgen.cpp:127</a></div></div>
 <div class="ttc" id="avhdldocgen_8cpp_html_a67e22ceaa05ae493f2f3892681aec351"><div class="ttname"><a href="../../de/dea/vhdldocgen_8cpp.html#a67e22ceaa05ae493f2f3892681aec351">splitString</a></div><div class="ttdeci">static QCString splitString(QCString &amp;str, char c)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/vhdldocgen_8cpp_source.html#l00143">vhdldocgen.cpp:143</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/d09/class_member_def.html#adfae3b8f49644ba27669daa9412e14a3">MemberDef::argsString()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00143">QCString::contains()</a>, <a class="el" href="../../d2/db9/outputlist_8h_source.html#l00205">OutputList::docify()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01210">VhdlDocGen::formatString()</a>, <a class="el" href="../../d2/db9/outputlist_8h_source.html#l00291">OutputList::insertMemberAlign()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::length()</a>, <a class="el" href="../../d5/dcc/class_definition.html#a9374fedd7f64fea7e0e164302d1a9e61">Definition::name()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00143">splitString()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00127">writeLink()</a>, and <a class="el" href="../../d2/db9/outputlist_8h_source.html#l00179">OutputList::writeString()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/d09/class_member_def.html#adfae3b8f49644ba27669daa9412e14a3">MemberDef::argsString()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00143">QCString::contains()</a>, <a class="el" href="../../d2/db9/outputlist_8h_source.html#l00205">OutputList::docify()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01209">VhdlDocGen::formatString()</a>, <a class="el" href="../../d2/db9/outputlist_8h_source.html#l00291">OutputList::insertMemberAlign()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::length()</a>, <a class="el" href="../../d5/dcc/class_definition.html#a9374fedd7f64fea7e0e164302d1a9e61">Definition::name()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00143">splitString()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00127">writeLink()</a>, and <a class="el" href="../../d2/db9/outputlist_8h_source.html#l00179">OutputList::writeString()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01746">VhdlDocGen::writeVHDLDeclaration()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01745">VhdlDocGen::writeVHDLDeclaration()</a>.</p>
 
 </div>
 </div>
@@ -2009,7 +2022,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="avhdldocgen_8cpp_html_a18e77dc1728e63e4cbf44698a7ef01d4"><div class="ttname"><a href="../../de/dea/vhdldocgen_8cpp.html#a18e77dc1728e63e4cbf44698a7ef01d4">writeVhdlDotLink</a></div><div class="ttdeci">static void writeVhdlDotLink(TextStream &amp;t, const QCString &amp;a, const QCString &amp;b, const QCString &amp;style)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/vhdldocgen_8cpp_source.html#l00262">vhdldocgen.cpp:262</a></div></div>
 <div class="ttc" id="avhdldocgen_8cpp_html_abf933f7f0042ad158eb6412b57026925"><div class="ttname"><a href="../../de/dea/vhdldocgen_8cpp.html#abf933f7f0042ad158eb6412b57026925">formatBriefNote</a></div><div class="ttdeci">static QCString formatBriefNote(const QCString &amp;brief, ClassDef *cd)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/vhdldocgen_8cpp_source.html#l00274">vhdldocgen.cpp:274</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/dcc/class_definition.html#a8ca2bb51665eab1ffd981a38c2b5f188">Definition::briefDescription()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00274">formatBriefNote()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01103">VhdlDocGen::getRecordNumber()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d5/dcc/class_definition.html#a9374fedd7f64fea7e0e164302d1a9e61">Definition::name()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00262">writeVhdlDotLink()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/dcc/class_definition.html#a8ca2bb51665eab1ffd981a38c2b5f188">Definition::briefDescription()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00274">formatBriefNote()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01102">VhdlDocGen::getRecordNumber()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d5/dcc/class_definition.html#a9374fedd7f64fea7e0e164302d1a9e61">Definition::name()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00262">writeVhdlDotLink()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00176">VhdlDocGen::writeOverview()</a>.</p>
 
@@ -2028,9 +2041,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02874">2874</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02870">2870</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d6a/vhdlcode_8l_source.html#l01188">codifyLines()</a>, <a class="el" href="../../d7/d5f/commentscan_8l_source.html#l03656">CommentScanner::parseCommentBlock()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02267">VhdlDocGen::parseUCF()</a>, and <a class="el" href="../../da/d1f/code_8l_source.html#l03447">writeObjCMethodCall()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d6a/vhdlcode_8l_source.html#l01187">codifyLines()</a>, <a class="el" href="../../d7/d5f/commentscan_8l_source.html#l03656">CommentScanner::parseCommentBlock()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02266">VhdlDocGen::parseUCF()</a>, and <a class="el" href="../../da/d1f/code_8l_source.html#l03447">writeObjCMethodCall()</a>.</p>
 
 </div>
 </div>
@@ -2046,7 +2059,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02875">2875</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02871">2871</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
 
 </div>
 </div>
@@ -2072,7 +2085,7 @@ Variables</h2></td></tr>
 <div class="line">  <span class="stringliteral">&quot;lightcyan&quot;</span>    </div>
 <div class="line">}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03100">FlowChart::buildCommentNodes()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03598">FlowChart::writeEdge()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03478">FlowChart::writeShape()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03095">FlowChart::buildCommentNodes()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03593">FlowChart::writeEdge()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03473">FlowChart::writeShape()</a>.</p>
 
 </div>
 </div>
@@ -2088,9 +2101,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02890">2890</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02886">2886</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03239">FlowChart::addFlowChart()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03100">FlowChart::buildCommentNodes()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03000">FlowChart::colTextNodes()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03057">FlowChart::delFlowList()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03700">FlowChart::findLabel()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03660">FlowChart::findNextLoop()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03714">FlowChart::findNode()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03677">FlowChart::findPrevLoop()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03768">FlowChart::getNextIfLink()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03727">FlowChart::getNextNode()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02992">FlowChart::printFlowTree()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03323">FlowChart::printUmlTree()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03433">FlowChart::writeFlowChart()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03790">FlowChart::writeFlowLinks()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03234">FlowChart::addFlowChart()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03095">FlowChart::buildCommentNodes()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02995">FlowChart::colTextNodes()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03052">FlowChart::delFlowList()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03695">FlowChart::findLabel()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03655">FlowChart::findNextLoop()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03709">FlowChart::findNode()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03672">FlowChart::findPrevLoop()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03763">FlowChart::getNextIfLink()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03722">FlowChart::getNextNode()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02987">FlowChart::printFlowTree()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03318">FlowChart::printUmlTree()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03428">FlowChart::writeFlowChart()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03785">FlowChart::writeFlowLinks()</a>.</p>
 
 </div>
 </div>
@@ -2142,7 +2155,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00595">595</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00698">VhdlDocGen::findMemberDef()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02778">VhdlDocGen::resetCodeVhdlParserState()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00698">VhdlDocGen::findMemberDef()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02774">VhdlDocGen::resetCodeVhdlParserState()</a>.</p>
 
 </div>
 </div>
@@ -2168,7 +2181,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00596">596</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00741">VhdlDocGen::findAllPackages()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00598">VhdlDocGen::findMember()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02778">VhdlDocGen::resetCodeVhdlParserState()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00741">VhdlDocGen::findAllPackages()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00598">VhdlDocGen::findMember()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02774">VhdlDocGen::resetCodeVhdlParserState()</a>.</p>
 
 </div>
 </div>
@@ -2194,7 +2207,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00594">594</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00698">VhdlDocGen::findMemberDef()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02778">VhdlDocGen::resetCodeVhdlParserState()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00698">VhdlDocGen::findMemberDef()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02774">VhdlDocGen::resetCodeVhdlParserState()</a>.</p>
 
 </div>
 </div>
@@ -2362,9 +2375,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02863">2863</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02859">2859</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03057">FlowChart::delFlowList()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03212">FlowChart::FlowChart()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03278">FlowChart::moveToPrevLevel()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03052">FlowChart::delFlowList()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03207">FlowChart::FlowChart()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03273">FlowChart::moveToPrevLevel()</a>.</p>
 
 </div>
 </div>
@@ -2388,9 +2401,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02732">2732</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02728">2728</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02746">VhdlDocGen::createFlowChart()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02734">findMemFlow()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02742">VhdlDocGen::createFlowChart()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02730">findMemFlow()</a>.</p>
 
 </div>
 </div>
@@ -2414,9 +2427,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02864">2864</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02860">2860</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03057">FlowChart::delFlowList()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03212">FlowChart::FlowChart()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03052">FlowChart::delFlowList()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03207">FlowChart::FlowChart()</a>.</p>
 
 </div>
 </div>
@@ -2432,7 +2445,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02871">2871</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02867">2867</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
 
 </div>
 </div>
@@ -2456,9 +2469,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01097">1097</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01096">1096</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01103">VhdlDocGen::getRecordNumber()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01102">VhdlDocGen::getRecordNumber()</a>.</p>
 
 </div>
 </div>
@@ -2474,7 +2487,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02877">2877</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02873">2873</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
 
 </div>
 </div>
@@ -2490,7 +2503,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02878">2878</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02874">2874</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../db/dd8/outputlist_8cpp_source.html#l00222">OutputList::parseText()</a>.</p>
 
@@ -2508,7 +2521,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02869">2869</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02865">2865</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
 
 </div>
 </div>
@@ -2524,7 +2537,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02876">2876</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02872">2872</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
 
 </div>
 </div>
@@ -2540,7 +2553,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02870">2870</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02866">2866</a> of file <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html">vhdldocgen.cpp</a>.</p>
 
 </div>
 </div>

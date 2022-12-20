@@ -159,7 +159,7 @@ Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00057">57</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00058">58</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="aa1e2d240f103f4527652a4cbb9b57aed" name="aa1e2d240f103f4527652a4cbb9b57aed"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa1e2d240f103f4527652a4cbb9b57aed">&#9670;&#160;</a></span>parseVhdlfile()</h2>
@@ -193,39 +193,39 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00088">88</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   90</span>{</div>
-<div class="line"><span class="lineno">   91</span>  <a class="code hl_define" href="../../d1/d2f/_java_c_c_8h.html#a7941da0682a76ffa9869d8458e166062">JAVACC_STRING_TYPE</a> s =inputBuffer;</div>
-<div class="line"><span class="lineno">   92</span>  <a class="code hl_class" href="../../d2/d98/classvhdl_1_1parser_1_1_char_stream.html">CharStream</a> *stream = <span class="keyword">new</span> <a class="code hl_class" href="../../d2/d98/classvhdl_1_1parser_1_1_char_stream.html">CharStream</a>(s.c_str(), (<span class="keywordtype">int</span>)s.size(), 1, 1);</div>
-<div class="line"><span class="lineno">   93</span>  <a class="code hl_class" href="../../d4/d48/classvhdl_1_1parser_1_1_vhdl_parser_token_manager.html">VhdlParserTokenManager</a> *tokenManager = <span class="keyword">new</span> <a class="code hl_class" href="../../d4/d48/classvhdl_1_1parser_1_1_vhdl_parser_token_manager.html">VhdlParserTokenManager</a>(stream);</div>
-<div class="line"><span class="lineno">   94</span>  <a class="code hl_class" href="../../d9/d3e/classvhdl_1_1parser_1_1_vhdl_token_manager_error_handler.html">VhdlTokenManagerErrorHandler</a> *tokErrHandler=<span class="keyword">new</span> <a class="code hl_class" href="../../d9/d3e/classvhdl_1_1parser_1_1_vhdl_token_manager_error_handler.html">VhdlTokenManagerErrorHandler</a>(fileName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>());</div>
-<div class="line"><span class="lineno">   95</span>  <a class="code hl_variable" href="../../d7/d9c/struct_v_h_d_l_outline_parser_1_1_private.html#a2202f9de751b3979497bcb5a8bbd826b">vhdlParser</a>=<span class="keyword">new</span> <a class="code hl_class" href="../../de/d32/classvhdl_1_1parser_1_1_vhdl_parser.html">VhdlParser</a>(tokenManager);</div>
-<div class="line"><span class="lineno">   96</span>  <a class="code hl_variable" href="../../d7/d9c/struct_v_h_d_l_outline_parser_1_1_private.html#a2202f9de751b3979497bcb5a8bbd826b">vhdlParser</a>-&gt;<a class="code hl_function" href="../../de/d32/classvhdl_1_1parser_1_1_vhdl_parser.html#ad23b50f479a5e6ef51529f0812ef5e35">setOutlineParser</a>(<a class="code hl_variable" href="../../d7/d9c/struct_v_h_d_l_outline_parser_1_1_private.html#a7709a3aa2d9e17ede59340cb8d1fd027">thisParser</a>);</div>
-<div class="line"><span class="lineno">   97</span>  <a class="code hl_variable" href="../../d7/d9c/struct_v_h_d_l_outline_parser_1_1_private.html#a2202f9de751b3979497bcb5a8bbd826b">vhdlParser</a>-&gt;<a class="code hl_function" href="../../de/d32/classvhdl_1_1parser_1_1_vhdl_parser.html#a7bd43566f1ce6dabaf7c567cbf32393a">setSharedState</a>(&amp;<a class="code hl_variable" href="../../d7/d9c/struct_v_h_d_l_outline_parser_1_1_private.html#af9e0800d0b8fd8902270d7b81cb8055a">shared</a>);</div>
-<div class="line"><span class="lineno">   98</span>  tokenManager-&gt;<a class="code hl_function" href="../../d8/d73/classvhdl_1_1parser_1_1_token_parser.html#ac5cb74c3a7c9a7f4620c34d939da9fbc">setLexParser</a>(<a class="code hl_variable" href="../../d7/d9c/struct_v_h_d_l_outline_parser_1_1_private.html#a2202f9de751b3979497bcb5a8bbd826b">vhdlParser</a>);</div>
-<div class="line"><span class="lineno">   99</span>  tokenManager-&gt;<a class="code hl_function" href="../../d4/d48/classvhdl_1_1parser_1_1_vhdl_parser_token_manager.html#a117f0df3f3675897ccb4a63c63a12721">ReInit</a>(stream,0);</div>
-<div class="line"><span class="lineno">  100</span>  tokenManager-&gt;<a class="code hl_function" href="../../d4/d48/classvhdl_1_1parser_1_1_vhdl_parser_token_manager.html#af10e66a2453415cb8f5778d60d4f6dd2">setErrorHandler</a>(tokErrHandler);</div>
-<div class="line"><span class="lineno">  101</span>  <a class="code hl_class" href="../../d6/da7/classvhdl_1_1parser_1_1_vhdl_error_handler.html">VhdlErrorHandler</a> *parserErrHandler=<span class="keyword">new</span> <a class="code hl_class" href="../../d6/da7/classvhdl_1_1parser_1_1_vhdl_error_handler.html">VhdlErrorHandler</a>(fileName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>());</div>
-<div class="line"><span class="lineno">  102</span>  <a class="code hl_variable" href="../../d7/d9c/struct_v_h_d_l_outline_parser_1_1_private.html#a2202f9de751b3979497bcb5a8bbd826b">vhdlParser</a>-&gt;<a class="code hl_function" href="../../de/d32/classvhdl_1_1parser_1_1_vhdl_parser.html#afe8b17ac122b95c8874c537f798f9656">setErrorHandler</a>(parserErrHandler);</div>
-<div class="line"><span class="lineno">  103</span>  <span class="keywordflow">try</span></div>
-<div class="line"><span class="lineno">  104</span>  {</div>
-<div class="line"><span class="lineno">  105</span>    <span class="keywordflow">if</span>(inLine)</div>
-<div class="line"><span class="lineno">  106</span>    {</div>
-<div class="line"><span class="lineno">  107</span>      <a class="code hl_variable" href="../../d7/d9c/struct_v_h_d_l_outline_parser_1_1_private.html#a2202f9de751b3979497bcb5a8bbd826b">vhdlParser</a>-&gt;<a class="code hl_function" href="../../de/d32/classvhdl_1_1parser_1_1_vhdl_parser.html#a3463fbacd6a380a44bb1ae4c6a0a1557">parseInline</a>();</div>
-<div class="line"><span class="lineno">  108</span>    }</div>
-<div class="line"><span class="lineno">  109</span>    <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  110</span>    {</div>
-<div class="line"><span class="lineno">  111</span>      <a class="code hl_variable" href="../../d7/d9c/struct_v_h_d_l_outline_parser_1_1_private.html#a2202f9de751b3979497bcb5a8bbd826b">vhdlParser</a>-&gt;<a class="code hl_function" href="../../de/d32/classvhdl_1_1parser_1_1_vhdl_parser.html#abe6271fb182b04e090fa635c94572db4">design_file</a>();</div>
-<div class="line"><span class="lineno">  112</span>    }</div>
-<div class="line"><span class="lineno">  113</span>  }</div>
-<div class="line"><span class="lineno">  114</span>  <span class="keywordflow">catch</span>( std::exception &amp;){ <span class="comment">/* fprintf(stderr,&quot;\n[%s]&quot;,e.what()); */</span> }</div>
-<div class="line"><span class="lineno">  115</span>  <span class="comment">//  fprintf(stderr,&quot;\n\nparsed lines: %d\n&quot;,yyLineNr);</span></div>
-<div class="line"><span class="lineno">  116</span>  <span class="comment">//  fprintf(stderr,&quot;\n\nerrors : %d\n\n&quot;,myErr-&gt;getErrorCount());</span></div>
-<div class="line"><span class="lineno">  117</span>  <span class="comment">//</span></div>
-<div class="line"><span class="lineno">  118</span>  <span class="keyword">delete</span> <a class="code hl_variable" href="../../d7/d9c/struct_v_h_d_l_outline_parser_1_1_private.html#a2202f9de751b3979497bcb5a8bbd826b">vhdlParser</a>;</div>
-<div class="line"><span class="lineno">  119</span>  <span class="keyword">delete</span> tokenManager;</div>
-<div class="line"><span class="lineno">  120</span>  <span class="keyword">delete</span> stream;</div>
-<div class="line"><span class="lineno">  121</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00089">89</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   91</span>{</div>
+<div class="line"><span class="lineno">   92</span>  <a class="code hl_define" href="../../d1/d2f/_java_c_c_8h.html#a7941da0682a76ffa9869d8458e166062">JAVACC_STRING_TYPE</a> s =inputBuffer;</div>
+<div class="line"><span class="lineno">   93</span>  <a class="code hl_class" href="../../d2/d98/classvhdl_1_1parser_1_1_char_stream.html">CharStream</a> *stream = <span class="keyword">new</span> <a class="code hl_class" href="../../d2/d98/classvhdl_1_1parser_1_1_char_stream.html">CharStream</a>(s.c_str(), (<span class="keywordtype">int</span>)s.size(), 1, 1);</div>
+<div class="line"><span class="lineno">   94</span>  <a class="code hl_class" href="../../d4/d48/classvhdl_1_1parser_1_1_vhdl_parser_token_manager.html">VhdlParserTokenManager</a> *tokenManager = <span class="keyword">new</span> <a class="code hl_class" href="../../d4/d48/classvhdl_1_1parser_1_1_vhdl_parser_token_manager.html">VhdlParserTokenManager</a>(stream);</div>
+<div class="line"><span class="lineno">   95</span>  <a class="code hl_class" href="../../d9/d3e/classvhdl_1_1parser_1_1_vhdl_token_manager_error_handler.html">VhdlTokenManagerErrorHandler</a> *tokErrHandler=<span class="keyword">new</span> <a class="code hl_class" href="../../d9/d3e/classvhdl_1_1parser_1_1_vhdl_token_manager_error_handler.html">VhdlTokenManagerErrorHandler</a>(fileName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>());</div>
+<div class="line"><span class="lineno">   96</span>  <a class="code hl_variable" href="../../d7/d9c/struct_v_h_d_l_outline_parser_1_1_private.html#a2202f9de751b3979497bcb5a8bbd826b">vhdlParser</a>=<span class="keyword">new</span> <a class="code hl_class" href="../../de/d32/classvhdl_1_1parser_1_1_vhdl_parser.html">VhdlParser</a>(tokenManager);</div>
+<div class="line"><span class="lineno">   97</span>  <a class="code hl_variable" href="../../d7/d9c/struct_v_h_d_l_outline_parser_1_1_private.html#a2202f9de751b3979497bcb5a8bbd826b">vhdlParser</a>-&gt;<a class="code hl_function" href="../../de/d32/classvhdl_1_1parser_1_1_vhdl_parser.html#ad23b50f479a5e6ef51529f0812ef5e35">setOutlineParser</a>(<a class="code hl_variable" href="../../d7/d9c/struct_v_h_d_l_outline_parser_1_1_private.html#a7709a3aa2d9e17ede59340cb8d1fd027">thisParser</a>);</div>
+<div class="line"><span class="lineno">   98</span>  <a class="code hl_variable" href="../../d7/d9c/struct_v_h_d_l_outline_parser_1_1_private.html#a2202f9de751b3979497bcb5a8bbd826b">vhdlParser</a>-&gt;<a class="code hl_function" href="../../de/d32/classvhdl_1_1parser_1_1_vhdl_parser.html#a7bd43566f1ce6dabaf7c567cbf32393a">setSharedState</a>(&amp;<a class="code hl_variable" href="../../d7/d9c/struct_v_h_d_l_outline_parser_1_1_private.html#af9e0800d0b8fd8902270d7b81cb8055a">shared</a>);</div>
+<div class="line"><span class="lineno">   99</span>  tokenManager-&gt;<a class="code hl_function" href="../../d8/d73/classvhdl_1_1parser_1_1_token_parser.html#ac5cb74c3a7c9a7f4620c34d939da9fbc">setLexParser</a>(<a class="code hl_variable" href="../../d7/d9c/struct_v_h_d_l_outline_parser_1_1_private.html#a2202f9de751b3979497bcb5a8bbd826b">vhdlParser</a>);</div>
+<div class="line"><span class="lineno">  100</span>  tokenManager-&gt;<a class="code hl_function" href="../../d4/d48/classvhdl_1_1parser_1_1_vhdl_parser_token_manager.html#a117f0df3f3675897ccb4a63c63a12721">ReInit</a>(stream,0);</div>
+<div class="line"><span class="lineno">  101</span>  tokenManager-&gt;<a class="code hl_function" href="../../d4/d48/classvhdl_1_1parser_1_1_vhdl_parser_token_manager.html#af10e66a2453415cb8f5778d60d4f6dd2">setErrorHandler</a>(tokErrHandler);</div>
+<div class="line"><span class="lineno">  102</span>  <a class="code hl_class" href="../../d6/da7/classvhdl_1_1parser_1_1_vhdl_error_handler.html">VhdlErrorHandler</a> *parserErrHandler=<span class="keyword">new</span> <a class="code hl_class" href="../../d6/da7/classvhdl_1_1parser_1_1_vhdl_error_handler.html">VhdlErrorHandler</a>(fileName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>());</div>
+<div class="line"><span class="lineno">  103</span>  <a class="code hl_variable" href="../../d7/d9c/struct_v_h_d_l_outline_parser_1_1_private.html#a2202f9de751b3979497bcb5a8bbd826b">vhdlParser</a>-&gt;<a class="code hl_function" href="../../de/d32/classvhdl_1_1parser_1_1_vhdl_parser.html#afe8b17ac122b95c8874c537f798f9656">setErrorHandler</a>(parserErrHandler);</div>
+<div class="line"><span class="lineno">  104</span>  <span class="keywordflow">try</span></div>
+<div class="line"><span class="lineno">  105</span>  {</div>
+<div class="line"><span class="lineno">  106</span>    <span class="keywordflow">if</span>(inLine)</div>
+<div class="line"><span class="lineno">  107</span>    {</div>
+<div class="line"><span class="lineno">  108</span>      <a class="code hl_variable" href="../../d7/d9c/struct_v_h_d_l_outline_parser_1_1_private.html#a2202f9de751b3979497bcb5a8bbd826b">vhdlParser</a>-&gt;<a class="code hl_function" href="../../de/d32/classvhdl_1_1parser_1_1_vhdl_parser.html#a3463fbacd6a380a44bb1ae4c6a0a1557">parseInline</a>();</div>
+<div class="line"><span class="lineno">  109</span>    }</div>
+<div class="line"><span class="lineno">  110</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  111</span>    {</div>
+<div class="line"><span class="lineno">  112</span>      <a class="code hl_variable" href="../../d7/d9c/struct_v_h_d_l_outline_parser_1_1_private.html#a2202f9de751b3979497bcb5a8bbd826b">vhdlParser</a>-&gt;<a class="code hl_function" href="../../de/d32/classvhdl_1_1parser_1_1_vhdl_parser.html#abe6271fb182b04e090fa635c94572db4">design_file</a>();</div>
+<div class="line"><span class="lineno">  113</span>    }</div>
+<div class="line"><span class="lineno">  114</span>  }</div>
+<div class="line"><span class="lineno">  115</span>  <span class="keywordflow">catch</span>( std::exception &amp;){ <span class="comment">/* fprintf(stderr,&quot;\n[%s]&quot;,e.what()); */</span> }</div>
+<div class="line"><span class="lineno">  116</span>  <span class="comment">//  fprintf(stderr,&quot;\n\nparsed lines: %d\n&quot;,yyLineNr);</span></div>
+<div class="line"><span class="lineno">  117</span>  <span class="comment">//  fprintf(stderr,&quot;\n\nerrors : %d\n\n&quot;,myErr-&gt;getErrorCount());</span></div>
+<div class="line"><span class="lineno">  118</span>  <span class="comment">//</span></div>
+<div class="line"><span class="lineno">  119</span>  <span class="keyword">delete</span> <a class="code hl_variable" href="../../d7/d9c/struct_v_h_d_l_outline_parser_1_1_private.html#a2202f9de751b3979497bcb5a8bbd826b">vhdlParser</a>;</div>
+<div class="line"><span class="lineno">  120</span>  <span class="keyword">delete</span> tokenManager;</div>
+<div class="line"><span class="lineno">  121</span>  <span class="keyword">delete</span> stream;</div>
+<div class="line"><span class="lineno">  122</span>}</div>
 <div class="ttc" id="a_java_c_c_8h_html_a7941da0682a76ffa9869d8458e166062"><div class="ttname"><a href="../../d1/d2f/_java_c_c_8h.html#a7941da0682a76ffa9869d8458e166062">JAVACC_STRING_TYPE</a></div><div class="ttdeci">#define JAVACC_STRING_TYPE</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d2f/_java_c_c_8h_source.html#l00016">JavaCC.h:16</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_ac3aa3ac1a1c36d3305eba22a2eb0d098"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">QCString::data</a></div><div class="ttdeci">const char * data() const</div><div class="ttdoc">Returns a pointer to the contents of the string in the form of a 0-terminated C string.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00153">qcstring.h:153</a></div></div>
 <div class="ttc" id="aclassvhdl_1_1parser_1_1_char_stream_html"><div class="ttname"><a href="../../d2/d98/classvhdl_1_1parser_1_1_char_stream.html">vhdl::parser::CharStream</a></div><div class="ttdoc">This class describes a character stream that maintains line and column number positions of the charac...</div><div class="ttdef"><b>Definition:</b> <a href="../../df/ddf/_char_stream_8h_source.html#l00031">CharStream.h:31</a></div></div>
@@ -241,11 +241,11 @@ Public Attributes</h2></td></tr>
 <div class="ttc" id="aclassvhdl_1_1parser_1_1_vhdl_parser_token_manager_html_a117f0df3f3675897ccb4a63c63a12721"><div class="ttname"><a href="../../d4/d48/classvhdl_1_1parser_1_1_vhdl_parser_token_manager.html#a117f0df3f3675897ccb4a63c63a12721">vhdl::parser::VhdlParserTokenManager::ReInit</a></div><div class="ttdeci">void ReInit(JAVACC_CHARSTREAM *stream, int lexState=0)</div></div>
 <div class="ttc" id="aclassvhdl_1_1parser_1_1_vhdl_parser_token_manager_html_af10e66a2453415cb8f5778d60d4f6dd2"><div class="ttname"><a href="../../d4/d48/classvhdl_1_1parser_1_1_vhdl_parser_token_manager.html#af10e66a2453415cb8f5778d60d4f6dd2">vhdl::parser::VhdlParserTokenManager::setErrorHandler</a></div><div class="ttdeci">void setErrorHandler(TokenManagerErrorHandler *eh)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dad/_vhdl_parser_token_manager_8h_source.html#l00111">VhdlParserTokenManager.h:111</a></div></div>
 <div class="ttc" id="aclassvhdl_1_1parser_1_1_vhdl_token_manager_error_handler_html"><div class="ttname"><a href="../../d9/d3e/classvhdl_1_1parser_1_1_vhdl_token_manager_error_handler.html">vhdl::parser::VhdlTokenManagerErrorHandler</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc3/_vhdl_parser_error_handler_8hpp_source.html#l00046">VhdlParserErrorHandler.hpp:47</a></div></div>
-<div class="ttc" id="astruct_v_h_d_l_outline_parser_1_1_private_html_a2202f9de751b3979497bcb5a8bbd826b"><div class="ttname"><a href="../../d7/d9c/struct_v_h_d_l_outline_parser_1_1_private.html#a2202f9de751b3979497bcb5a8bbd826b">VHDLOutlineParser::Private::vhdlParser</a></div><div class="ttdeci">VhdlParser * vhdlParser</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d86/vhdljjparser_8cpp_source.html#l00062">vhdljjparser.cpp:62</a></div></div>
-<div class="ttc" id="astruct_v_h_d_l_outline_parser_1_1_private_html_a7709a3aa2d9e17ede59340cb8d1fd027"><div class="ttname"><a href="../../d7/d9c/struct_v_h_d_l_outline_parser_1_1_private.html#a7709a3aa2d9e17ede59340cb8d1fd027">VHDLOutlineParser::Private::thisParser</a></div><div class="ttdeci">VHDLOutlineParser * thisParser</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d86/vhdljjparser_8cpp_source.html#l00061">vhdljjparser.cpp:61</a></div></div>
-<div class="ttc" id="astruct_v_h_d_l_outline_parser_1_1_private_html_af9e0800d0b8fd8902270d7b81cb8055a"><div class="ttname"><a href="../../d7/d9c/struct_v_h_d_l_outline_parser_1_1_private.html#af9e0800d0b8fd8902270d7b81cb8055a">VHDLOutlineParser::Private::shared</a></div><div class="ttdeci">VhdlParser::SharedState shared</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d86/vhdljjparser_8cpp_source.html#l00082">vhdljjparser.cpp:82</a></div></div>
+<div class="ttc" id="astruct_v_h_d_l_outline_parser_1_1_private_html_a2202f9de751b3979497bcb5a8bbd826b"><div class="ttname"><a href="../../d7/d9c/struct_v_h_d_l_outline_parser_1_1_private.html#a2202f9de751b3979497bcb5a8bbd826b">VHDLOutlineParser::Private::vhdlParser</a></div><div class="ttdeci">VhdlParser * vhdlParser</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d86/vhdljjparser_8cpp_source.html#l00063">vhdljjparser.cpp:63</a></div></div>
+<div class="ttc" id="astruct_v_h_d_l_outline_parser_1_1_private_html_a7709a3aa2d9e17ede59340cb8d1fd027"><div class="ttname"><a href="../../d7/d9c/struct_v_h_d_l_outline_parser_1_1_private.html#a7709a3aa2d9e17ede59340cb8d1fd027">VHDLOutlineParser::Private::thisParser</a></div><div class="ttdeci">VHDLOutlineParser * thisParser</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d86/vhdljjparser_8cpp_source.html#l00062">vhdljjparser.cpp:62</a></div></div>
+<div class="ttc" id="astruct_v_h_d_l_outline_parser_1_1_private_html_af9e0800d0b8fd8902270d7b81cb8055a"><div class="ttname"><a href="../../d7/d9c/struct_v_h_d_l_outline_parser_1_1_private.html#af9e0800d0b8fd8902270d7b81cb8055a">VHDLOutlineParser::Private::shared</a></div><div class="ttdeci">VhdlParser::SharedState shared</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d86/vhdljjparser_8cpp_source.html#l00083">vhdljjparser.cpp:83</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00153">QCString::data()</a>, <a class="el" href="../../de/d32/classvhdl_1_1parser_1_1_vhdl_parser.html#abe6271fb182b04e090fa635c94572db4">vhdl::parser::VhdlParser::design_file()</a>, <a class="el" href="../../d1/d2f/_java_c_c_8h_source.html#l00016">JAVACC_STRING_TYPE</a>, <a class="el" href="../../de/d32/classvhdl_1_1parser_1_1_vhdl_parser.html#a3463fbacd6a380a44bb1ae4c6a0a1557">vhdl::parser::VhdlParser::parseInline()</a>, <a class="el" href="../../d4/d48/classvhdl_1_1parser_1_1_vhdl_parser_token_manager.html#a117f0df3f3675897ccb4a63c63a12721">vhdl::parser::VhdlParserTokenManager::ReInit()</a>, <a class="el" href="../../d5/df9/_vhdl_parser_8h_source.html#l08763">vhdl::parser::VhdlParser::setErrorHandler()</a>, <a class="el" href="../../d7/dad/_vhdl_parser_token_manager_8h_source.html#l00111">vhdl::parser::VhdlParserTokenManager::setErrorHandler()</a>, <a class="el" href="../../d9/d48/vhdlstring_8h_source.html#l00020">vhdl::parser::TokenParser::setLexParser()</a>, <a class="el" href="../../d5/df9/_vhdl_parser_8h_source.html#l08842">vhdl::parser::VhdlParser::setOutlineParser()</a>, <a class="el" href="../../d5/df9/_vhdl_parser_8h_source.html#l08844">vhdl::parser::VhdlParser::setSharedState()</a>, <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00082">shared</a>, <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00061">thisParser</a>, and <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00062">vhdlParser</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00153">QCString::data()</a>, <a class="el" href="../../de/d32/classvhdl_1_1parser_1_1_vhdl_parser.html#abe6271fb182b04e090fa635c94572db4">vhdl::parser::VhdlParser::design_file()</a>, <a class="el" href="../../d1/d2f/_java_c_c_8h_source.html#l00016">JAVACC_STRING_TYPE</a>, <a class="el" href="../../de/d32/classvhdl_1_1parser_1_1_vhdl_parser.html#a3463fbacd6a380a44bb1ae4c6a0a1557">vhdl::parser::VhdlParser::parseInline()</a>, <a class="el" href="../../d4/d48/classvhdl_1_1parser_1_1_vhdl_parser_token_manager.html#a117f0df3f3675897ccb4a63c63a12721">vhdl::parser::VhdlParserTokenManager::ReInit()</a>, <a class="el" href="../../d5/df9/_vhdl_parser_8h_source.html#l08763">vhdl::parser::VhdlParser::setErrorHandler()</a>, <a class="el" href="../../d7/dad/_vhdl_parser_token_manager_8h_source.html#l00111">vhdl::parser::VhdlParserTokenManager::setErrorHandler()</a>, <a class="el" href="../../d9/d48/vhdlstring_8h_source.html#l00020">vhdl::parser::TokenParser::setLexParser()</a>, <a class="el" href="../../d5/df9/_vhdl_parser_8h_source.html#l08842">vhdl::parser::VhdlParser::setOutlineParser()</a>, <a class="el" href="../../d5/df9/_vhdl_parser_8h_source.html#l08844">vhdl::parser::VhdlParser::setSharedState()</a>, <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00083">shared</a>, <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00062">thisParser</a>, and <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00063">vhdlParser</a>.</p>
 
 </div>
 </div>
@@ -262,7 +262,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00084">84</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00085">85</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
 
 </div>
 </div>
@@ -278,7 +278,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00063">63</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00064">64</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
 
 </div>
 </div>
@@ -294,7 +294,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00083">83</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00084">84</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
 
 </div>
 </div>
@@ -310,7 +310,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00070">70</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00071">71</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
 
 </div>
 </div>
@@ -326,7 +326,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00080">80</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00081">81</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
 
 </div>
 </div>
@@ -342,7 +342,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00068">68</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00069">69</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
 
 </div>
 </div>
@@ -358,7 +358,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00069">69</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00070">70</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
 
 </div>
 </div>
@@ -374,7 +374,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00077">77</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00078">78</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
 
 </div>
 </div>
@@ -390,7 +390,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00078">78</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00079">79</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
 
 </div>
 </div>
@@ -406,7 +406,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00067">67</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00068">68</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
 
 </div>
 </div>
@@ -422,7 +422,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00074">74</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00075">75</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
 
 </div>
 </div>
@@ -438,7 +438,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00071">71</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00072">72</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
 
 </div>
 </div>
@@ -454,9 +454,9 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00082">82</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00083">83</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00088">parseVhdlfile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00089">parseVhdlfile()</a>.</p>
 
 </div>
 </div>
@@ -472,7 +472,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00081">81</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00082">82</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
 
 </div>
 </div>
@@ -488,7 +488,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00079">79</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00080">80</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
 
 </div>
 </div>
@@ -504,9 +504,9 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00061">61</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00062">62</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00088">parseVhdlfile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00089">parseVhdlfile()</a>.</p>
 
 </div>
 </div>
@@ -522,7 +522,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00076">76</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00077">77</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
 
 </div>
 </div>
@@ -538,7 +538,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00075">75</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00076">76</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
 
 </div>
 </div>
@@ -554,9 +554,9 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00062">62</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00063">63</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00088">parseVhdlfile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00089">parseVhdlfile()</a>.</p>
 
 </div>
 </div>
@@ -572,7 +572,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00065">65</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00066">66</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
 
 </div>
 </div>
@@ -588,7 +588,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00066">66</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00067">67</a> of file <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html">vhdljjparser.cpp</a>.</p>
 
 </div>
 </div>

@@ -23,7 +23,8 @@ var searchData=
   ['search_5findex_5ftypedefs_20',['SEARCH_INDEX_TYPEDEFS',['../d9/d2f/searchindex__js_8cpp.html#a07ec16842dddf537e26d2c8ddd368dfc',1,'searchindex_js.cpp']]],
   ['search_5findex_5fvariables_21',['SEARCH_INDEX_VARIABLES',['../d9/d2f/searchindex__js_8cpp.html#acb2ab2e86ce7e805d62b1f4020ffabbe',1,'searchindex_js.cpp']]],
   ['show_5fincludes_22',['SHOW_INCLUDES',['../d9/de3/configimpl_8l.html#abc983123ed5d1694a014d1ea7c1f22cb',1,'configimpl.l']]],
-  ['startfin_23',['STARTFIN',['../de/dea/vhdldocgen_8cpp.html#abe49c281c00844e55c25aacf8b4ee1a2',1,'vhdldocgen.cpp']]],
-  ['startl_24',['STARTL',['../de/dea/vhdldocgen_8cpp.html#afd32ac165b45cf0bd6eb6aeb189c98fe',1,'vhdldocgen.cpp']]],
-  ['sym_25',['SYM',['../d2/db2/htmlentity_8cpp.html#abf83726e81c80d306c467d65700ebe3d',1,'htmlentity.cpp']]]
+  ['split_5fctre_23',['SPLIT_CTRE',['../d8/d3c/util_8h.html#a8adf8cd553113d0701391400060d57db',1,'util.h']]],
+  ['startfin_24',['STARTFIN',['../de/dea/vhdldocgen_8cpp.html#abe49c281c00844e55c25aacf8b4ee1a2',1,'vhdldocgen.cpp']]],
+  ['startl_25',['STARTL',['../de/dea/vhdldocgen_8cpp.html#afd32ac165b45cf0bd6eb6aeb189c98fe',1,'vhdldocgen.cpp']]],
+  ['sym_26',['SYM',['../d2/db2/htmlentity_8cpp.html#abf83726e81c80d306c467d65700ebe3d',1,'htmlentity.cpp']]]
 ];

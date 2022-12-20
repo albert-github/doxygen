@@ -244,18 +244,12 @@ digraph "/home/runner/work/doxygen/doxygen/src/dotgroupcollaboration.cpp"
   Node62 -> Node10 [color="steelblue1",style="solid"];
   Node59 -> Node55 [color="steelblue1",style="solid"];
   Node52 -> Node65 [color="steelblue1",style="solid"];
-  Node65 [label="regex.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d21/regex_8h.html",tooltip=" "];
-  Node65 -> Node3 [color="steelblue1",style="solid"];
-  Node65 -> Node11 [color="steelblue1",style="solid"];
-  Node65 -> Node5 [color="steelblue1",style="solid"];
-  Node65 -> Node58 [color="steelblue1",style="solid"];
-  Node52 -> Node66 [color="steelblue1",style="solid"];
-  Node66 [label="conceptdef.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/df1/conceptdef_8h.html",tooltip=" "];
-  Node66 -> Node23 [color="steelblue1",style="solid"];
-  Node66 -> Node50 [color="steelblue1",style="solid"];
-  Node1 -> Node67 [color="steelblue1",style="solid"];
-  Node67 [label="config.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d16/config_8h.html",tooltip=" "];
-  Node67 -> Node68 [color="steelblue1",style="solid"];
-  Node68 [label="configvalues.h",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node65 [label="conceptdef.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/df1/conceptdef_8h.html",tooltip=" "];
+  Node65 -> Node23 [color="steelblue1",style="solid"];
+  Node65 -> Node50 [color="steelblue1",style="solid"];
+  Node1 -> Node66 [color="steelblue1",style="solid"];
+  Node66 [label="config.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d16/config_8h.html",tooltip=" "];
+  Node66 -> Node67 [color="steelblue1",style="solid"];
+  Node67 [label="configvalues.h",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
   Node1 -> Node62 [color="steelblue1",style="solid"];
 }

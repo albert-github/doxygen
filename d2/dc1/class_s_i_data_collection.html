@@ -106,7 +106,7 @@ $(document).ready(function(){initNavTree('d2/dc1/class_s_i_data_collection.html'
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a25d837c3ddad78acf6da7fd7c84e6155"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc1/class_s_i_data_collection.html#a25d837c3ddad78acf6da7fd7c84e6155">setCurrentDoc</a> (const <a class="el" href="../../d5/dcc/class_definition.html">Definition</a> *ctx, const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;anchor, bool isSourceFile)</td></tr>
 <tr class="separator:a25d837c3ddad78acf6da7fd7c84e6155"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a815fbee7698a47bcc5c8ae6e9a46740f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc1/class_s_i_data_collection.html#a815fbee7698a47bcc5c8ae6e9a46740f">addWord</a> (const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;<a class="el" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>, bool hiPriority)</td></tr>
+<tr class="memitem:a815fbee7698a47bcc5c8ae6e9a46740f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc1/class_s_i_data_collection.html#a815fbee7698a47bcc5c8ae6e9a46740f">addWord</a> (const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;word, bool hiPriority)</td></tr>
 <tr class="separator:a815fbee7698a47bcc5c8ae6e9a46740f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afab029e39c21f84a63aad5601f195b37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc1/class_s_i_data_collection.html#afab029e39c21f84a63aad5601f195b37">transfer</a> ()</td></tr>
 <tr class="separator:afab029e39c21f84a63aad5601f195b37"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -186,13 +186,12 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/d07/searchindex_8h_source.html#l00073">73</a> of file <a class="el" href="../../de/d07/searchindex_8h_source.html">searchindex.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   74</span>    {</div>
-<div class="line"><span class="lineno">   75</span>      <a class="code hl_variable" href="../../d2/dc1/class_s_i_data_collection.html#afa091520c36fde6b628bf64869606b8c">m_data</a>.emplace_back(<a class="code hl_struct" href="../../d7/def/struct_s_i_data___word.html">SIData_Word</a>(<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>,hiPriority));</div>
+<div class="line"><span class="lineno">   75</span>      <a class="code hl_variable" href="../../d2/dc1/class_s_i_data_collection.html#afa091520c36fde6b628bf64869606b8c">m_data</a>.emplace_back(<a class="code hl_struct" href="../../d7/def/struct_s_i_data___word.html">SIData_Word</a>(word,hiPriority));</div>
 <div class="line"><span class="lineno">   76</span>    }</div>
 <div class="ttc" id="aclass_s_i_data_collection_html_afa091520c36fde6b628bf64869606b8c"><div class="ttname"><a href="../../d2/dc1/class_s_i_data_collection.html#afa091520c36fde6b628bf64869606b8c">SIDataCollection::m_data</a></div><div class="ttdeci">std::vector&lt; SIData &gt; m_data</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d07/searchindex_8h_source.html#l00083">searchindex.h:83</a></div></div>
 <div class="ttc" id="astruct_s_i_data___word_html"><div class="ttname"><a href="../../d7/def/struct_s_i_data___word.html">SIData_Word</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d07/searchindex_8h_source.html#l00056">searchindex.h:57</a></div></div>
-<div class="ttc" id="autil_8cpp_html_a5ee566002626114272def590e5eecf76"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a></div><div class="ttdeci">std::string word</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l00958">util.cpp:958</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/d07/searchindex_8h_source.html#l00083">m_data</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l00958">word</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d07/searchindex_8h_source.html#l00083">m_data</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d2/db9/outputlist_8h_source.html#l00533">OutputList::addWord()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00186">DocLinkedWord::DocLinkedWord()</a>, and <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00174">DocWord::DocWord()</a>.</p>
 
@@ -246,7 +245,7 @@ Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../de/d07/searchindex_8h_source.html#l00083">m_data</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/db9/outputlist_8h_source.html#l00529">OutputList::setCurrentDoc()</a>, and <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01898">validatingParseDoc()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/db9/outputlist_8h_source.html#l00529">OutputList::setCurrentDoc()</a>, and <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01897">validatingParseDoc()</a>.</p>
 
 </div>
 </div>
@@ -293,7 +292,7 @@ Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../de/d07/searchindex_8h_source.html#l00182">SearchIndexIntf::addWord()</a>, <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00376">g_transferSearchIndexMutex</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00115">Doxygen::searchIndex</a>, and <a class="el" href="../../de/d07/searchindex_8h_source.html#l00178">SearchIndexIntf::setCurrentDoc()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/db9/outputlist_8h_source.html#l00537">OutputList::indexSearchData()</a>, and <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00060">DocParser::~DocParser()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/db9/outputlist_8h_source.html#l00537">OutputList::indexSearchData()</a>, and <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00062">DocParser::~DocParser()</a>.</p>
 
 </div>
 </div>
