@@ -1,5 +1,6 @@
 var NAVTREEINDEX128 =
 {
+"df/df4/struct_layout_doc_entry_member_decl.html#a10fad7cf84e33c32c4db54d26d5ed26f":[8,0,347,0],
 "df/df4/struct_layout_doc_entry_member_decl.html#a20f84bd3015b092b218ec7eb7f66897e":[8,0,347,3],
 "df/df4/struct_layout_doc_entry_member_decl.html#a9a03c58c4e1d6e007eabd27834106db4":[8,0,347,6],
 "df/df4/struct_layout_doc_entry_member_decl.html#ac0d8d0be507c58dd5c3fe02fd986369b":[8,0,347,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX128 =
 "globals_vars_w.html":[9,1,2,20],
 "globals_vars_y.html":[9,1,2,21],
 "globals_w.html":[9,1,0,21],
-"globals_x.html":[9,1,0,22],
-"globals_y.html":[9,1,0,23]
+"globals_x.html":[9,1,0,22]
 };
