@@ -188,6 +188,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/htmlgen.cpp"
   Node49 -> Node42 [color="steelblue1",style="solid"];
   Node1 -> Node56 [color="steelblue1",style="solid"];
   Node56 [label="doxygen.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/da1/doxygen_8h.html",tooltip=" "];
+  Node56 -> Node4 [color="steelblue1",style="solid"];
   Node56 -> Node42 [color="steelblue1",style="solid"];
   Node56 -> Node55 [color="steelblue1",style="solid"];
   Node56 -> Node57 [color="steelblue1",style="solid"];

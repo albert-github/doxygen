@@ -1,12 +1,5 @@
 var NAVTREEINDEX78 =
 {
-"da/db8/class_translator_armenian.html#a00723ab11ed3a6202cddce7a11d5c17e":[8,0,571,153],
-"da/db8/class_translator_armenian.html#a0080a67b2122ec5982ddb895484a0b19":[8,0,571,6],
-"da/db8/class_translator_armenian.html#a00c2fea9dd0e23175b25403c6fc3bce4":[8,0,571,165],
-"da/db8/class_translator_armenian.html#a0178158d43660f3fd50275cce4f58ba9":[8,0,571,207],
-"da/db8/class_translator_armenian.html#a04c520024834883c7ffb5f121f91f88a":[8,0,571,138],
-"da/db8/class_translator_armenian.html#a05bc60f49feee5ccee07bbecc8ae9d23":[8,0,571,132],
-"da/db8/class_translator_armenian.html#a05e3dfe8763632d622ed6cd779ba21ba":[8,0,571,72],
 "da/db8/class_translator_armenian.html#a06199a1947dc2a02de75988912522ff7":[8,0,571,203],
 "da/db8/class_translator_armenian.html#a063662d0b2ac4917ef1cbbd582c67a31":[8,0,571,40],
 "da/db8/class_translator_armenian.html#a073e541d354db7bfd3bc7f9dee8cc8f6":[8,0,571,97],
@@ -249,5 +242,12 @@ var NAVTREEINDEX78 =
 "da/dbb/class_translator_bulgarian.html#a0d7029ae10ad7596a2eb9ad709550892":[8,0,573,241],
 "da/dbb/class_translator_bulgarian.html#a0d7cb56b5cbd9db23d9101646af3bac7":[8,0,573,85],
 "da/dbb/class_translator_bulgarian.html#a110b4476e05d9089b68f48c80bd15eb8":[8,0,573,75],
-"da/dbb/class_translator_bulgarian.html#a1524b4bfa35d6845d96aa48210407e64":[8,0,573,213]
+"da/dbb/class_translator_bulgarian.html#a1524b4bfa35d6845d96aa48210407e64":[8,0,573,213],
+"da/dbb/class_translator_bulgarian.html#a15873adc13db54c7ee7913a4479312e0":[8,0,573,132],
+"da/dbb/class_translator_bulgarian.html#a17a43230d5cd668bdee3fed14d83c5b8":[8,0,573,6],
+"da/dbb/class_translator_bulgarian.html#a17c2beec02056cef15728b1f4e0ebffd":[8,0,573,205],
+"da/dbb/class_translator_bulgarian.html#a18999dbb644684d313594d74bd03f49d":[8,0,573,1],
+"da/dbb/class_translator_bulgarian.html#a19cc21a07543209c80946e809d34fcd3":[8,0,573,83],
+"da/dbb/class_translator_bulgarian.html#a1af3a0ece3fceacc0351fb2740294d40":[8,0,573,248],
+"da/dbb/class_translator_bulgarian.html#a1bdab94f424b8549bc299a5bac6ec3da":[8,0,573,22]
 };

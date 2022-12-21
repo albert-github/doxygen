@@ -1,12 +1,5 @@
 var NAVTREEINDEX79 =
 {
-"da/dbb/class_translator_bulgarian.html#a15873adc13db54c7ee7913a4479312e0":[8,0,573,132],
-"da/dbb/class_translator_bulgarian.html#a17a43230d5cd668bdee3fed14d83c5b8":[8,0,573,6],
-"da/dbb/class_translator_bulgarian.html#a17c2beec02056cef15728b1f4e0ebffd":[8,0,573,205],
-"da/dbb/class_translator_bulgarian.html#a18999dbb644684d313594d74bd03f49d":[8,0,573,1],
-"da/dbb/class_translator_bulgarian.html#a19cc21a07543209c80946e809d34fcd3":[8,0,573,83],
-"da/dbb/class_translator_bulgarian.html#a1af3a0ece3fceacc0351fb2740294d40":[8,0,573,248],
-"da/dbb/class_translator_bulgarian.html#a1bdab94f424b8549bc299a5bac6ec3da":[8,0,573,22],
 "da/dbb/class_translator_bulgarian.html#a1cabac3b2e4fded6beec29442ac10dc6":[8,0,573,211],
 "da/dbb/class_translator_bulgarian.html#a1cc20265023a09b5fc44f5cb3ea8f86f":[8,0,573,161],
 "da/dbb/class_translator_bulgarian.html#a1cf9e2634b618cbc3fe7802c9274000f":[8,0,573,4],
@@ -249,5 +242,12 @@ var NAVTREEINDEX79 =
 "da/dbb/class_translator_bulgarian.html#aeb3dc5053748e8efe630a9ed059112ab":[8,0,573,137],
 "da/dbb/class_translator_bulgarian.html#aeba827a712c4c9dcc793e02c265c8238":[8,0,573,19],
 "da/dbb/class_translator_bulgarian.html#aec272900c4cb579ea3863ac44153c6ae":[8,0,573,0],
-"da/dbb/class_translator_bulgarian.html#aec78f0f68053eb0104d0cbfaae1d1292":[8,0,573,17]
+"da/dbb/class_translator_bulgarian.html#aec78f0f68053eb0104d0cbfaae1d1292":[8,0,573,17],
+"da/dbb/class_translator_bulgarian.html#aef9e2095bee11187522f102392f613b5":[8,0,573,53],
+"da/dbb/class_translator_bulgarian.html#af10be80ed48b57a3e2fd466148b31e8d":[8,0,573,257],
+"da/dbb/class_translator_bulgarian.html#af12c0d17915a4daee52e4b6c4f93f32d":[8,0,573,199],
+"da/dbb/class_translator_bulgarian.html#af1a6f3f0ce2731ef6299a3d1104005fe":[8,0,573,130],
+"da/dbb/class_translator_bulgarian.html#af24897310b09f9f4b9d3177cedb394ce":[8,0,573,90],
+"da/dbb/class_translator_bulgarian.html#af34fc687afd6f90e5a10a3936216db28":[8,0,573,37],
+"da/dbb/class_translator_bulgarian.html#af3ae432265e7496048a481022a517bba":[8,0,573,30]
 };

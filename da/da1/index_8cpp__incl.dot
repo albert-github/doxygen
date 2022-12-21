@@ -92,6 +92,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/index.cpp"
   Node33 -> Node8 [color="steelblue1",style="solid"];
   Node1 -> Node34 [color="steelblue1",style="solid"];
   Node34 [label="doxygen.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/da1/doxygen_8h.html",tooltip=" "];
+  Node34 -> Node23 [color="steelblue1",style="solid"];
   Node34 -> Node35 [color="steelblue1",style="solid"];
   Node35 [label="containers.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d75/containers_8h.html",tooltip=" "];
   Node35 -> Node19 [color="steelblue1",style="solid"];

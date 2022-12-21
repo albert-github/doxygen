@@ -1,12 +1,5 @@
 var NAVTREEINDEX77 =
 {
-"da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca058990972fd9b9f273438f613c9599c5":[7,0,7,0,5],
-"da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca0871415d5e1675ebcdb37b458fc8b67f":[7,0,7,0,8],
-"da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca2c419cf729051a9e2eef2743ccc9f84d":[7,0,7,0,7],
-"da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca361bea90e10d43996b1baed4e51cbd62":[7,0,7,0,0],
-"da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca3c3fda61a1823a23e8c49f3c915859f3":[7,0,7,0,6],
-"da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca600a97f79b076618a0891f10352c0fdb":[7,0,7,0,3],
-"da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca612a9d9df61450edc5503a6bf328b3b1":[7,0,7,0,4],
 "da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca653b486e14d3775eff75c1fc3582557a":[7,0,7,0,2],
 "da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca69da3a4829e3330851f4ca6d2828018f":[7,0,7,0,1],
 "da/d4e/struct_citation_manager_1_1_private.html":[8,0,27,0],
@@ -249,5 +242,12 @@ var NAVTREEINDEX77 =
 "da/db6/class_html_code_generator.html#acf7e275e8dd80016271da6c856e50885":[8,0,310,17],
 "da/db6/class_html_code_generator.html#afe694794f2c376ae77a3f8e34f6ad103":[8,0,310,5],
 "da/db6/class_html_code_generator.html#afee68c6253f5c9ed82886d0197d276ef":[8,0,310,12],
-"da/db8/class_translator_armenian.html":[8,0,571]
+"da/db8/class_translator_armenian.html":[8,0,571],
+"da/db8/class_translator_armenian.html#a00723ab11ed3a6202cddce7a11d5c17e":[8,0,571,153],
+"da/db8/class_translator_armenian.html#a0080a67b2122ec5982ddb895484a0b19":[8,0,571,6],
+"da/db8/class_translator_armenian.html#a00c2fea9dd0e23175b25403c6fc3bce4":[8,0,571,165],
+"da/db8/class_translator_armenian.html#a0178158d43660f3fd50275cce4f58ba9":[8,0,571,207],
+"da/db8/class_translator_armenian.html#a04c520024834883c7ffb5f121f91f88a":[8,0,571,138],
+"da/db8/class_translator_armenian.html#a05bc60f49feee5ccee07bbecc8ae9d23":[8,0,571,132],
+"da/db8/class_translator_armenian.html#a05e3dfe8763632d622ed6cd779ba21ba":[8,0,571,72]
 };

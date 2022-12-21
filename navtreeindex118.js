@@ -1,9 +1,5 @@
 var NAVTREEINDEX118 =
 {
-"de/da5/class_man_generator.html#a9b26c28be8f8e51f9d8c2d3bcf5af505":[8,0,365,73],
-"de/da5/class_man_generator.html#a9c1a9e6d28d35c61d8bada0b3df54135":[8,0,365,129],
-"de/da5/class_man_generator.html#a9d0f82f72d8efcf0aec1b73010cb5399":[8,0,365,194],
-"de/da5/class_man_generator.html#a9e8739b09bd5788c0b44711d9bbe1fbb":[8,0,365,162],
 "de/da5/class_man_generator.html#aa03f575a82549d2393bb080337769f1c":[8,0,365,172],
 "de/da5/class_man_generator.html#aa30427fbbe13113b3fe39bebfe79d1ee":[8,0,365,22],
 "de/da5/class_man_generator.html#aa3087d26fc36bd95bebf71f9a92fa404":[8,0,365,133],
@@ -249,5 +245,9 @@ var NAVTREEINDEX118 =
 "de/dd3/class_example_tree_context_1_1_private.html#ad5958509f440597455ff2640c952afa1":[8,0,225,0,3],
 "de/dd3/class_example_tree_context_1_1_private.html#af16d3e4c19ba180de60e9a56d91d244d":[8,0,225,0,1],
 "de/dd3/class_example_tree_context_1_1_private.html#af1e5a36c74fba1cdab469ea018f4e321":[8,0,225,0,2],
-"de/dd3/class_example_tree_context_1_1_private.html#afa6f2dc217cd562da5ac280e3546a253":[8,0,225,0,16]
+"de/dd3/class_example_tree_context_1_1_private.html#afa6f2dc217cd562da5ac280e3546a253":[8,0,225,0,16],
+"de/dd6/class_use_entry.html":[8,0,616],
+"de/dd6/class_use_entry.html#a68218c0795c329b96c69d1bf3825f6bc":[8,0,616,1],
+"de/dd6/class_use_entry.html#a84f8f457213f3f11338ad766412dbb4b":[8,0,616,0],
+"de/dd8/class_emoji_entity_mapper.html":[8,0,220]
 };

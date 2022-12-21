@@ -18,6 +18,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/dotgraph.cpp"
   Node6 [label="configvalues.h",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
   Node1 -> Node7 [color="steelblue1",style="solid"];
   Node7 [label="doxygen.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/da1/doxygen_8h.html",tooltip=" "];
+  Node7 -> Node3 [color="steelblue1",style="solid"];
   Node7 -> Node8 [color="steelblue1",style="solid"];
   Node8 [label="containers.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d75/containers_8h.html",tooltip=" "];
   Node8 -> Node9 [color="steelblue1",style="solid"];

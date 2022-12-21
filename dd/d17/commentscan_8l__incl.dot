@@ -99,6 +99,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/commentscan.l"
   Node35 -> Node13 [color="steelblue1",style="solid"];
   Node1 -> Node36 [color="steelblue1",style="solid"];
   Node36 [label="doxygen.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/da1/doxygen_8h.html",tooltip=" "];
+  Node36 -> Node6 [color="steelblue1",style="solid"];
   Node36 -> Node37 [color="steelblue1",style="solid"];
   Node37 [label="containers.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d75/containers_8h.html",tooltip=" "];
   Node37 -> Node32 [color="steelblue1",style="solid"];

@@ -116,6 +116,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/code.l"
   Node35 -> Node21 [color="steelblue1",style="solid"];
   Node1 -> Node39 [color="steelblue1",style="solid"];
   Node39 [label="doxygen.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/da1/doxygen_8h.html",tooltip=" "];
+  Node39 -> Node11 [color="steelblue1",style="solid"];
   Node39 -> Node29 [color="steelblue1",style="solid"];
   Node39 -> Node40 [color="steelblue1",style="solid"];
   Node40 [label="membergroup.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d11/membergroup_8h.html",tooltip=" "];
