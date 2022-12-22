@@ -28,8 +28,6 @@ var portable_8h =
     [ "sleep", "d2/de2/portable_8h.html#a7e7faa33c4307edc0f95a742bad3a736", null ],
     [ "strnstr", "d2/de2/portable_8h.html#ada69eeb681c8f036f6a3327478acbd75", null ],
     [ "system", "d2/de2/portable_8h.html#ab30a636186b72a67d57e9f7f1e917e99", null ],
-    [ "sysTimerStart", "d2/de2/portable_8h.html#ada9653ce1cfc72cc4923aac726435962", null ],
-    [ "sysTimerStop", "d2/de2/portable_8h.html#a3131c9d07ca7ce1ad22542ce9e417068", null ],
     [ "unlink", "d2/de2/portable_8h.html#a394e935b6fd1899b26f8987f89a4cbfb", null ],
     [ "unsetenv", "d2/de2/portable_8h.html#ac2e29048cffc72c3bed439cff5b02cd4", null ]
 ];

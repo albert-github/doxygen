@@ -368,7 +368,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">   82</span>}</div>
 <div class="ttc" id="aclass_dot_manager_html"><div class="ttname"><a href="../../d5/d7c/class_dot_manager.html">DotManager</a></div><div class="ttdoc">Singleton that manages parallel dot invocations and patching files for embedding image maps.</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d4a/dot_8h_source.html#l00034">dot.h:35</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../de/d45/dotgraph_8cpp_source.html#l00212">DotGraph::generateCode()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l12362">generateOutput()</a>, <a class="el" href="../../de/d45/dotgraph_8cpp_source.html#l00151">DotGraph::prepareDotFile()</a>, and <a class="el" href="../../d4/d33/dotlegendgraph_8cpp_source.html#l00027">DotLegendGraph::writeGraph()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d45/dotgraph_8cpp_source.html#l00212">DotGraph::generateCode()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l12358">generateOutput()</a>, <a class="el" href="../../de/d45/dotgraph_8cpp_source.html#l00151">DotGraph::prepareDotFile()</a>, and <a class="el" href="../../d4/d33/dotlegendgraph_8cpp_source.html#l00027">DotLegendGraph::writeGraph()</a>.</p>
 
 </div>
 </div>
@@ -425,83 +425,81 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  183</span>    <a class="code hl_function" href="../../de/daa/dot_8cpp.html#a3d9eb667db4f11f9bd15cfc0b8fe45b4">setDotFontPath</a>(<a class="code hl_define" href="../../db/d16/config_8h.html#a737741e6991bdb5694a50075437a9d89">Config_getString</a>(DOCBOOK_OUTPUT));</div>
 <div class="line"><span class="lineno">  184</span>    setPath=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
 <div class="line"><span class="lineno">  185</span>  }</div>
-<div class="line"><span class="lineno">  186</span>  <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#ada9653ce1cfc72cc4923aac726435962">Portable::sysTimerStart</a>();</div>
-<div class="line"><span class="lineno">  187</span>  <span class="comment">// fill work queue with dot operations</span></div>
-<div class="line"><span class="lineno">  188</span>  <span class="keywordtype">size_t</span> prev=1;</div>
-<div class="line"><span class="lineno">  189</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d7c/class_dot_manager.html#a63461f236249164e0095a842267ae8e0">m_workers</a>.size()==0) <span class="comment">// no threads to work with</span></div>
-<div class="line"><span class="lineno">  190</span>  {</div>
-<div class="line"><span class="lineno">  191</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp; dr : <a class="code hl_variable" href="../../d5/d7c/class_dot_manager.html#a675d0f04d2444e2883ed6c3eb655cfdc">m_runners</a>)</div>
-<div class="line"><span class="lineno">  192</span>    {</div>
-<div class="line"><span class="lineno">  193</span>      <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb">msg</a>(<span class="stringliteral">&quot;Running dot for graph %zu/%zu\n&quot;</span>,prev,numDotRuns);</div>
-<div class="line"><span class="lineno">  194</span>      dr.second-&gt;run();</div>
-<div class="line"><span class="lineno">  195</span>      prev++;</div>
-<div class="line"><span class="lineno">  196</span>    }</div>
-<div class="line"><span class="lineno">  197</span>  }</div>
-<div class="line"><span class="lineno">  198</span>  <span class="keywordflow">else</span> <span class="comment">// use multiple threads to run instances of dot in parallel</span></div>
-<div class="line"><span class="lineno">  199</span>  {</div>
-<div class="line"><span class="lineno">  200</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp; dr: <a class="code hl_variable" href="../../d5/d7c/class_dot_manager.html#a675d0f04d2444e2883ed6c3eb655cfdc">m_runners</a>)</div>
-<div class="line"><span class="lineno">  201</span>    {</div>
-<div class="line"><span class="lineno">  202</span>      <a class="code hl_variable" href="../../d5/d7c/class_dot_manager.html#a64cd1342a6f50012b756f61834e01883">m_queue</a>-&gt;<a class="code hl_function" href="../../d6/dbb/class_dot_runner_queue.html#a5574ec90088f55eb96016a84d2b51e9f">enqueue</a>(dr.second.get());</div>
-<div class="line"><span class="lineno">  203</span>    }</div>
-<div class="line"><span class="lineno">  204</span>    <span class="comment">// wait for the queue to become empty</span></div>
-<div class="line"><span class="lineno">  205</span>    <span class="keywordflow">while</span> ((i=<a class="code hl_variable" href="../../d5/d7c/class_dot_manager.html#a64cd1342a6f50012b756f61834e01883">m_queue</a>-&gt;<a class="code hl_function" href="../../d6/dbb/class_dot_runner_queue.html#ac60d86028e2715e3f75903b4023c1458">size</a>())&gt;0)</div>
-<div class="line"><span class="lineno">  206</span>    {</div>
-<div class="line"><span class="lineno">  207</span>      i = numDotRuns - i;</div>
-<div class="line"><span class="lineno">  208</span>      <span class="keywordflow">while</span> (i&gt;=prev)</div>
-<div class="line"><span class="lineno">  209</span>      {</div>
-<div class="line"><span class="lineno">  210</span>        <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb">msg</a>(<span class="stringliteral">&quot;Running dot for graph %zu/%zu\n&quot;</span>,prev,numDotRuns);</div>
-<div class="line"><span class="lineno">  211</span>        prev++;</div>
-<div class="line"><span class="lineno">  212</span>      }</div>
-<div class="line"><span class="lineno">  213</span>      <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a7e7faa33c4307edc0f95a742bad3a736">Portable::sleep</a>(100);</div>
-<div class="line"><span class="lineno">  214</span>    }</div>
-<div class="line"><span class="lineno">  215</span>    <span class="keywordflow">while</span> (numDotRuns&gt;=prev)</div>
-<div class="line"><span class="lineno">  216</span>    {</div>
-<div class="line"><span class="lineno">  217</span>      <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb">msg</a>(<span class="stringliteral">&quot;Running dot for graph %zu/%zu\n&quot;</span>,prev,numDotRuns);</div>
-<div class="line"><span class="lineno">  218</span>      prev++;</div>
-<div class="line"><span class="lineno">  219</span>    }</div>
-<div class="line"><span class="lineno">  220</span>    <span class="comment">// signal the workers we are done</span></div>
-<div class="line"><span class="lineno">  221</span>    <span class="keywordflow">for</span> (i=0;i&lt;<a class="code hl_variable" href="../../d5/d7c/class_dot_manager.html#a63461f236249164e0095a842267ae8e0">m_workers</a>.size();i++)</div>
-<div class="line"><span class="lineno">  222</span>    {</div>
-<div class="line"><span class="lineno">  223</span>      <a class="code hl_variable" href="../../d5/d7c/class_dot_manager.html#a64cd1342a6f50012b756f61834e01883">m_queue</a>-&gt;<a class="code hl_function" href="../../d6/dbb/class_dot_runner_queue.html#a5574ec90088f55eb96016a84d2b51e9f">enqueue</a>(0); <span class="comment">// add terminator for each worker</span></div>
-<div class="line"><span class="lineno">  224</span>    }</div>
-<div class="line"><span class="lineno">  225</span>    <span class="comment">// wait for the workers to finish</span></div>
-<div class="line"><span class="lineno">  226</span>    <span class="keywordflow">for</span> (i=0;i&lt;<a class="code hl_variable" href="../../d5/d7c/class_dot_manager.html#a63461f236249164e0095a842267ae8e0">m_workers</a>.size();i++)</div>
-<div class="line"><span class="lineno">  227</span>    {</div>
-<div class="line"><span class="lineno">  228</span>      <a class="code hl_variable" href="../../d5/d7c/class_dot_manager.html#a63461f236249164e0095a842267ae8e0">m_workers</a>.at(i)-&gt;wait();</div>
-<div class="line"><span class="lineno">  229</span>    }</div>
-<div class="line"><span class="lineno">  230</span>  }</div>
-<div class="line"><span class="lineno">  231</span>  <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a3131c9d07ca7ce1ad22542ce9e417068">Portable::sysTimerStop</a>();</div>
-<div class="line"><span class="lineno">  232</span>  <span class="keywordflow">if</span> (setPath)</div>
-<div class="line"><span class="lineno">  233</span>  {</div>
-<div class="line"><span class="lineno">  234</span>    <a class="code hl_function" href="../../de/daa/dot_8cpp.html#a74cb640833073a036af5b7fa13cd16c6">unsetDotFontPath</a>();</div>
-<div class="line"><span class="lineno">  235</span>  }</div>
-<div class="line"><span class="lineno">  236</span> </div>
-<div class="line"><span class="lineno">  237</span>  <span class="comment">// patch the output file and insert the maps and figures</span></div>
-<div class="line"><span class="lineno">  238</span>  i=1;</div>
-<div class="line"><span class="lineno">  239</span>  <span class="comment">// since patching the svg files may involve patching the header of the SVG</span></div>
-<div class="line"><span class="lineno">  240</span>  <span class="comment">// (for zoomable SVGs), and patching the .html files requires reading that</span></div>
-<div class="line"><span class="lineno">  241</span>  <span class="comment">// header after the SVG is patched, we first process the .svg files and</span></div>
-<div class="line"><span class="lineno">  242</span>  <span class="comment">// then the other files.</span></div>
-<div class="line"><span class="lineno">  243</span>  <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp; fp : <a class="code hl_variable" href="../../d5/d7c/class_dot_manager.html#a23c5f84262493785aed9361cef97a88e">m_filePatchers</a>)</div>
-<div class="line"><span class="lineno">  244</span>  {</div>
-<div class="line"><span class="lineno">  245</span>    <span class="keywordflow">if</span> (fp.second.isSVGFile())</div>
-<div class="line"><span class="lineno">  246</span>    {</div>
-<div class="line"><span class="lineno">  247</span>      <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb">msg</a>(<span class="stringliteral">&quot;Patching output file %zu/%zu\n&quot;</span>,i,numFilePatchers);</div>
-<div class="line"><span class="lineno">  248</span>      <span class="keywordflow">if</span> (!fp.second.run()) <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="line"><span class="lineno">  249</span>      i++;</div>
-<div class="line"><span class="lineno">  250</span>    }</div>
-<div class="line"><span class="lineno">  251</span>  }</div>
-<div class="line"><span class="lineno">  252</span>  <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; fp : <a class="code hl_variable" href="../../d5/d7c/class_dot_manager.html#a23c5f84262493785aed9361cef97a88e">m_filePatchers</a>)</div>
-<div class="line"><span class="lineno">  253</span>  {</div>
-<div class="line"><span class="lineno">  254</span>    <span class="keywordflow">if</span> (!fp.second.isSVGFile())</div>
-<div class="line"><span class="lineno">  255</span>    {</div>
-<div class="line"><span class="lineno">  256</span>      <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb">msg</a>(<span class="stringliteral">&quot;Patching output file %zu/%zu\n&quot;</span>,i,numFilePatchers);</div>
-<div class="line"><span class="lineno">  257</span>      <span class="keywordflow">if</span> (!fp.second.run()) <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="line"><span class="lineno">  258</span>      i++;</div>
-<div class="line"><span class="lineno">  259</span>    }</div>
-<div class="line"><span class="lineno">  260</span>  }</div>
-<div class="line"><span class="lineno">  261</span>  <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno">  262</span>}</div>
+<div class="line"><span class="lineno">  186</span>  <span class="comment">// fill work queue with dot operations</span></div>
+<div class="line"><span class="lineno">  187</span>  <span class="keywordtype">size_t</span> prev=1;</div>
+<div class="line"><span class="lineno">  188</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d7c/class_dot_manager.html#a63461f236249164e0095a842267ae8e0">m_workers</a>.size()==0) <span class="comment">// no threads to work with</span></div>
+<div class="line"><span class="lineno">  189</span>  {</div>
+<div class="line"><span class="lineno">  190</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp; dr : <a class="code hl_variable" href="../../d5/d7c/class_dot_manager.html#a675d0f04d2444e2883ed6c3eb655cfdc">m_runners</a>)</div>
+<div class="line"><span class="lineno">  191</span>    {</div>
+<div class="line"><span class="lineno">  192</span>      <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb">msg</a>(<span class="stringliteral">&quot;Running dot for graph %zu/%zu\n&quot;</span>,prev,numDotRuns);</div>
+<div class="line"><span class="lineno">  193</span>      dr.second-&gt;run();</div>
+<div class="line"><span class="lineno">  194</span>      prev++;</div>
+<div class="line"><span class="lineno">  195</span>    }</div>
+<div class="line"><span class="lineno">  196</span>  }</div>
+<div class="line"><span class="lineno">  197</span>  <span class="keywordflow">else</span> <span class="comment">// use multiple threads to run instances of dot in parallel</span></div>
+<div class="line"><span class="lineno">  198</span>  {</div>
+<div class="line"><span class="lineno">  199</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp; dr: <a class="code hl_variable" href="../../d5/d7c/class_dot_manager.html#a675d0f04d2444e2883ed6c3eb655cfdc">m_runners</a>)</div>
+<div class="line"><span class="lineno">  200</span>    {</div>
+<div class="line"><span class="lineno">  201</span>      <a class="code hl_variable" href="../../d5/d7c/class_dot_manager.html#a64cd1342a6f50012b756f61834e01883">m_queue</a>-&gt;<a class="code hl_function" href="../../d6/dbb/class_dot_runner_queue.html#a5574ec90088f55eb96016a84d2b51e9f">enqueue</a>(dr.second.get());</div>
+<div class="line"><span class="lineno">  202</span>    }</div>
+<div class="line"><span class="lineno">  203</span>    <span class="comment">// wait for the queue to become empty</span></div>
+<div class="line"><span class="lineno">  204</span>    <span class="keywordflow">while</span> ((i=<a class="code hl_variable" href="../../d5/d7c/class_dot_manager.html#a64cd1342a6f50012b756f61834e01883">m_queue</a>-&gt;<a class="code hl_function" href="../../d6/dbb/class_dot_runner_queue.html#ac60d86028e2715e3f75903b4023c1458">size</a>())&gt;0)</div>
+<div class="line"><span class="lineno">  205</span>    {</div>
+<div class="line"><span class="lineno">  206</span>      i = numDotRuns - i;</div>
+<div class="line"><span class="lineno">  207</span>      <span class="keywordflow">while</span> (i&gt;=prev)</div>
+<div class="line"><span class="lineno">  208</span>      {</div>
+<div class="line"><span class="lineno">  209</span>        <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb">msg</a>(<span class="stringliteral">&quot;Running dot for graph %zu/%zu\n&quot;</span>,prev,numDotRuns);</div>
+<div class="line"><span class="lineno">  210</span>        prev++;</div>
+<div class="line"><span class="lineno">  211</span>      }</div>
+<div class="line"><span class="lineno">  212</span>      <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a7e7faa33c4307edc0f95a742bad3a736">Portable::sleep</a>(100);</div>
+<div class="line"><span class="lineno">  213</span>    }</div>
+<div class="line"><span class="lineno">  214</span>    <span class="keywordflow">while</span> (numDotRuns&gt;=prev)</div>
+<div class="line"><span class="lineno">  215</span>    {</div>
+<div class="line"><span class="lineno">  216</span>      <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb">msg</a>(<span class="stringliteral">&quot;Running dot for graph %zu/%zu\n&quot;</span>,prev,numDotRuns);</div>
+<div class="line"><span class="lineno">  217</span>      prev++;</div>
+<div class="line"><span class="lineno">  218</span>    }</div>
+<div class="line"><span class="lineno">  219</span>    <span class="comment">// signal the workers we are done</span></div>
+<div class="line"><span class="lineno">  220</span>    <span class="keywordflow">for</span> (i=0;i&lt;<a class="code hl_variable" href="../../d5/d7c/class_dot_manager.html#a63461f236249164e0095a842267ae8e0">m_workers</a>.size();i++)</div>
+<div class="line"><span class="lineno">  221</span>    {</div>
+<div class="line"><span class="lineno">  222</span>      <a class="code hl_variable" href="../../d5/d7c/class_dot_manager.html#a64cd1342a6f50012b756f61834e01883">m_queue</a>-&gt;<a class="code hl_function" href="../../d6/dbb/class_dot_runner_queue.html#a5574ec90088f55eb96016a84d2b51e9f">enqueue</a>(0); <span class="comment">// add terminator for each worker</span></div>
+<div class="line"><span class="lineno">  223</span>    }</div>
+<div class="line"><span class="lineno">  224</span>    <span class="comment">// wait for the workers to finish</span></div>
+<div class="line"><span class="lineno">  225</span>    <span class="keywordflow">for</span> (i=0;i&lt;<a class="code hl_variable" href="../../d5/d7c/class_dot_manager.html#a63461f236249164e0095a842267ae8e0">m_workers</a>.size();i++)</div>
+<div class="line"><span class="lineno">  226</span>    {</div>
+<div class="line"><span class="lineno">  227</span>      <a class="code hl_variable" href="../../d5/d7c/class_dot_manager.html#a63461f236249164e0095a842267ae8e0">m_workers</a>.at(i)-&gt;wait();</div>
+<div class="line"><span class="lineno">  228</span>    }</div>
+<div class="line"><span class="lineno">  229</span>  }</div>
+<div class="line"><span class="lineno">  230</span>  <span class="keywordflow">if</span> (setPath)</div>
+<div class="line"><span class="lineno">  231</span>  {</div>
+<div class="line"><span class="lineno">  232</span>    <a class="code hl_function" href="../../de/daa/dot_8cpp.html#a74cb640833073a036af5b7fa13cd16c6">unsetDotFontPath</a>();</div>
+<div class="line"><span class="lineno">  233</span>  }</div>
+<div class="line"><span class="lineno">  234</span> </div>
+<div class="line"><span class="lineno">  235</span>  <span class="comment">// patch the output file and insert the maps and figures</span></div>
+<div class="line"><span class="lineno">  236</span>  i=1;</div>
+<div class="line"><span class="lineno">  237</span>  <span class="comment">// since patching the svg files may involve patching the header of the SVG</span></div>
+<div class="line"><span class="lineno">  238</span>  <span class="comment">// (for zoomable SVGs), and patching the .html files requires reading that</span></div>
+<div class="line"><span class="lineno">  239</span>  <span class="comment">// header after the SVG is patched, we first process the .svg files and</span></div>
+<div class="line"><span class="lineno">  240</span>  <span class="comment">// then the other files.</span></div>
+<div class="line"><span class="lineno">  241</span>  <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp; fp : <a class="code hl_variable" href="../../d5/d7c/class_dot_manager.html#a23c5f84262493785aed9361cef97a88e">m_filePatchers</a>)</div>
+<div class="line"><span class="lineno">  242</span>  {</div>
+<div class="line"><span class="lineno">  243</span>    <span class="keywordflow">if</span> (fp.second.isSVGFile())</div>
+<div class="line"><span class="lineno">  244</span>    {</div>
+<div class="line"><span class="lineno">  245</span>      <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb">msg</a>(<span class="stringliteral">&quot;Patching output file %zu/%zu\n&quot;</span>,i,numFilePatchers);</div>
+<div class="line"><span class="lineno">  246</span>      <span class="keywordflow">if</span> (!fp.second.run()) <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
+<div class="line"><span class="lineno">  247</span>      i++;</div>
+<div class="line"><span class="lineno">  248</span>    }</div>
+<div class="line"><span class="lineno">  249</span>  }</div>
+<div class="line"><span class="lineno">  250</span>  <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; fp : <a class="code hl_variable" href="../../d5/d7c/class_dot_manager.html#a23c5f84262493785aed9361cef97a88e">m_filePatchers</a>)</div>
+<div class="line"><span class="lineno">  251</span>  {</div>
+<div class="line"><span class="lineno">  252</span>    <span class="keywordflow">if</span> (!fp.second.isSVGFile())</div>
+<div class="line"><span class="lineno">  253</span>    {</div>
+<div class="line"><span class="lineno">  254</span>      <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb">msg</a>(<span class="stringliteral">&quot;Patching output file %zu/%zu\n&quot;</span>,i,numFilePatchers);</div>
+<div class="line"><span class="lineno">  255</span>      <span class="keywordflow">if</span> (!fp.second.run()) <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
+<div class="line"><span class="lineno">  256</span>      i++;</div>
+<div class="line"><span class="lineno">  257</span>    }</div>
+<div class="line"><span class="lineno">  258</span>  }</div>
+<div class="line"><span class="lineno">  259</span>  <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno">  260</span>}</div>
 <div class="ttc" id="aclass_dot_runner_queue_html_a5574ec90088f55eb96016a84d2b51e9f"><div class="ttname"><a href="../../d6/dbb/class_dot_runner_queue.html#a5574ec90088f55eb96016a84d2b51e9f">DotRunnerQueue::enqueue</a></div><div class="ttdeci">void enqueue(DotRunner *runner)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dfe/dotrunner_8cpp_source.html#l00263">dotrunner.cpp:263</a></div></div>
 <div class="ttc" id="aclass_dot_runner_queue_html_ac60d86028e2715e3f75903b4023c1458"><div class="ttname"><a href="../../d6/dbb/class_dot_runner_queue.html#ac60d86028e2715e3f75903b4023c1458">DotRunnerQueue::size</a></div><div class="ttdeci">size_t size() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dfe/dotrunner_8cpp_source.html#l00282">dotrunner.cpp:282</a></div></div>
 <div class="ttc" id="aconfig_8h_html_a5373d0332a31f16ad7a42037733e8c79"><div class="ttname"><a href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a></div><div class="ttdeci">#define Config_getBool(name)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/config_8h_source.html#l00033">config.h:33</a></div></div>
@@ -509,15 +507,13 @@ Private Attributes</h2></td></tr>
 <div class="ttc" id="adot_8cpp_html_a3d9eb667db4f11f9bd15cfc0b8fe45b4"><div class="ttname"><a href="../../de/daa/dot_8cpp.html#a3d9eb667db4f11f9bd15cfc0b8fe45b4">setDotFontPath</a></div><div class="ttdeci">static void setDotFontPath(const QCString &amp;path)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/daa/dot_8cpp_source.html#l00042">dot.cpp:42</a></div></div>
 <div class="ttc" id="adot_8cpp_html_a74cb640833073a036af5b7fa13cd16c6"><div class="ttname"><a href="../../de/daa/dot_8cpp.html#a74cb640833073a036af5b7fa13cd16c6">unsetDotFontPath</a></div><div class="ttdeci">static void unsetDotFontPath()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/daa/dot_8cpp_source.html#l00063">dot.cpp:63</a></div></div>
 <div class="ttc" id="amessage_8cpp_html_aba549a028419cd48a3f373037c2c57eb"><div class="ttname"><a href="../../d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb">msg</a></div><div class="ttdeci">void msg(const char *fmt,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6a/message_8cpp_source.html#l00067">message.cpp:67</a></div></div>
-<div class="ttc" id="anamespace_portable_html_a3131c9d07ca7ce1ad22542ce9e417068"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#a3131c9d07ca7ce1ad22542ce9e417068">Portable::sysTimerStop</a></div><div class="ttdeci">void sysTimerStop()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1c/portable_8cpp_source.html#l00469">portable.cpp:469</a></div></div>
-<div class="ttc" id="anamespace_portable_html_a7e7faa33c4307edc0f95a742bad3a736"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#a7e7faa33c4307edc0f95a742bad3a736">Portable::sleep</a></div><div class="ttdeci">void sleep(int ms)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1c/portable_8cpp_source.html#l00481">portable.cpp:481</a></div></div>
-<div class="ttc" id="anamespace_portable_html_ada9653ce1cfc72cc4923aac726435962"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#ada9653ce1cfc72cc4923aac726435962">Portable::sysTimerStart</a></div><div class="ttdeci">void sysTimerStart()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1c/portable_8cpp_source.html#l00464">portable.cpp:464</a></div></div>
+<div class="ttc" id="anamespace_portable_html_a7e7faa33c4307edc0f95a742bad3a736"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#a7e7faa33c4307edc0f95a742bad3a736">Portable::sleep</a></div><div class="ttdeci">void sleep(int ms)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1c/portable_8cpp_source.html#l00526">portable.cpp:526</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_aa8cecfc5c5c054d2875c03e77b7be15d"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a></div><div class="ttdeci">#define TRUE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00036">qcstring.h:36</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_aa93f0eb578d23995850d61f7d61c55c1"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></div><div class="ttdeci">#define FALSE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00033">qcstring.h:33</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00032">Config_getString</a>, <a class="el" href="../../d1/dfe/dotrunner_8cpp_source.html#l00263">DotRunnerQueue::enqueue()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d6/d4a/dot_8h_source.html#l00048">m_filePatchers</a>, <a class="el" href="../../d6/d4a/dot_8h_source.html#l00049">m_queue</a>, <a class="el" href="../../d6/d4a/dot_8h_source.html#l00047">m_runners</a>, <a class="el" href="../../d6/d4a/dot_8h_source.html#l00050">m_workers</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00067">msg()</a>, <a class="el" href="../../de/daa/dot_8cpp_source.html#l00042">setDotFontPath()</a>, <a class="el" href="../../d1/dfe/dotrunner_8cpp_source.html#l00282">DotRunnerQueue::size()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00481">Portable::sleep()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00464">Portable::sysTimerStart()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00469">Portable::sysTimerStop()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>, and <a class="el" href="../../de/daa/dot_8cpp_source.html#l00063">unsetDotFontPath()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00032">Config_getString</a>, <a class="el" href="../../d1/dfe/dotrunner_8cpp_source.html#l00263">DotRunnerQueue::enqueue()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d6/d4a/dot_8h_source.html#l00048">m_filePatchers</a>, <a class="el" href="../../d6/d4a/dot_8h_source.html#l00049">m_queue</a>, <a class="el" href="../../d6/d4a/dot_8h_source.html#l00047">m_runners</a>, <a class="el" href="../../d6/d4a/dot_8h_source.html#l00050">m_workers</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00067">msg()</a>, <a class="el" href="../../de/daa/dot_8cpp_source.html#l00042">setDotFontPath()</a>, <a class="el" href="../../d1/dfe/dotrunner_8cpp_source.html#l00282">DotRunnerQueue::size()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00526">Portable::sleep()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>, and <a class="el" href="../../de/daa/dot_8cpp_source.html#l00063">unsetDotFontPath()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l12362">generateOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l12358">generateOutput()</a>.</p>
 
 </div>
 </div>

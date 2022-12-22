@@ -98,8 +98,9 @@ $(document).ready(function(){initNavTree('db/d11/image_8cpp.html','../../'); ini
   <div class="headertitle"><div class="title">image.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d5/db2/image_8h_source.html">image.h</a>&quot;</code><br />
-<code>#include &lt;math.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;cmath&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/db2/image_8h_source.html">image.h</a>&quot;</code><br />
 <code>#include &quot;lodepng.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../db/d16/config_8h_source.html">config.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -118,6 +119,10 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/struct_color.html">Color</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper struct representing a RGBA color.  <a href="../../d9/d44/struct_color.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d8b/struct_image_1_1_private.html">Image::Private</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d12/struct_colored_image_1_1_private.html">ColoredImage::Private</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -132,14 +137,12 @@ Variables</h2></td></tr>
 <tr class="separator:ac01e29ec591af8444cb2cb5e9128d130"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7039c6d467143b65eee4688f35178297"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d11/image_8cpp.html#a7039c6d467143b65eee4688f35178297">numChars</a> =96</td></tr>
 <tr class="separator:a7039c6d467143b65eee4688f35178297"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f015eca9b8327e05044743748629ae9"><td class="memItemLeft" align="right" valign="top">unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d11/image_8cpp.html#a3f015eca9b8327e05044743748629ae9">charPos</a> [<a class="el" href="../../db/d11/image_8cpp.html#a7039c6d467143b65eee4688f35178297">numChars</a>]</td></tr>
-<tr class="separator:a3f015eca9b8327e05044743748629ae9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afdd592511fae7801258a4408091d4342"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d11/image_8cpp.html#afdd592511fae7801258a4408091d4342">charWidth</a> [<a class="el" href="../../db/d11/image_8cpp.html#a7039c6d467143b65eee4688f35178297">numChars</a>]</td></tr>
-<tr class="separator:afdd592511fae7801258a4408091d4342"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54eb9c5e56292b27cc59fca445f72f4b"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d11/image_8cpp.html#a54eb9c5e56292b27cc59fca445f72f4b">fontRaw</a> [<a class="el" href="../../db/d11/image_8cpp.html#addcb648439e446f4cdc7f81ed8bd7701">charSetWidth</a> *<a class="el" href="../../db/d11/image_8cpp.html#ac01e29ec591af8444cb2cb5e9128d130">charHeight</a>]</td></tr>
-<tr class="separator:a54eb9c5e56292b27cc59fca445f72f4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acfe43b36ff6b37d0df7b60495d7b5ea7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d44/struct_color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d11/image_8cpp.html#acfe43b36ff6b37d0df7b60495d7b5ea7">palette</a> []</td></tr>
-<tr class="separator:acfe43b36ff6b37d0df7b60495d7b5ea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0deb38d89dca0124fc08d960657d74ed"><td class="memItemLeft" align="right" valign="top">const unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d11/image_8cpp.html#a0deb38d89dca0124fc08d960657d74ed">charPos</a> [<a class="el" href="../../db/d11/image_8cpp.html#a7039c6d467143b65eee4688f35178297">numChars</a>]</td></tr>
+<tr class="separator:a0deb38d89dca0124fc08d960657d74ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b6c376e48d9e19606ef8b24815321de"><td class="memItemLeft" align="right" valign="top">const unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d11/image_8cpp.html#a1b6c376e48d9e19606ef8b24815321de">charWidth</a> [<a class="el" href="../../db/d11/image_8cpp.html#a7039c6d467143b65eee4688f35178297">numChars</a>]</td></tr>
+<tr class="separator:a1b6c376e48d9e19606ef8b24815321de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f62b9caff0302178d5a0d73ac720239"><td class="memItemLeft" align="right" valign="top">const unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d11/image_8cpp.html#a1f62b9caff0302178d5a0d73ac720239">fontRaw</a> [<a class="el" href="../../db/d11/image_8cpp.html#addcb648439e446f4cdc7f81ed8bd7701">charSetWidth</a> *<a class="el" href="../../db/d11/image_8cpp.html#ac01e29ec591af8444cb2cb5e9128d130">charHeight</a>]</td></tr>
+<tr class="separator:a1f62b9caff0302178d5a0d73ac720239"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="ae3a497195d617519e5353ea7b417940f" name="ae3a497195d617519e5353ea7b417940f"></a>
@@ -154,7 +157,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d11/image_8cpp_source.html#l00024">24</a> of file <a class="el" href="../../db/d11/image_8cpp_source.html">image.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d11/image_8cpp_source.html#l00023">23</a> of file <a class="el" href="../../db/d11/image_8cpp_source.html">image.cpp</a>.</p>
 
 </div>
 </div>
@@ -171,20 +174,20 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d11/image_8cpp_source.html#l00036">36</a> of file <a class="el" href="../../db/d11/image_8cpp_source.html">image.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d11/image_8cpp_source.html#l00035">35</a> of file <a class="el" href="../../db/d11/image_8cpp_source.html">image.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d11/image_8cpp_source.html#l00220">Image::writeChar()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d11/image_8cpp_source.html#l00223">Image::writeChar()</a>.</p>
 
 </div>
 </div>
-<a id="a3f015eca9b8327e05044743748629ae9" name="a3f015eca9b8327e05044743748629ae9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f015eca9b8327e05044743748629ae9">&#9670;&#160;</a></span>charPos</h2>
+<a id="a0deb38d89dca0124fc08d960657d74ed" name="a0deb38d89dca0124fc08d960657d74ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0deb38d89dca0124fc08d960657d74ed">&#9670;&#160;</a></span>charPos</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned short charPos[<a class="el" href="../../db/d11/image_8cpp.html#a7039c6d467143b65eee4688f35178297">numChars</a>]</td>
+          <td class="memname">const unsigned short charPos[<a class="el" href="../../db/d11/image_8cpp.html#a7039c6d467143b65eee4688f35178297">numChars</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -204,9 +207,9 @@ Variables</h2></td></tr>
 <div class="line">    594,600,607,613,617,620,624,631</div>
 <div class="line">  }</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../db/d11/image_8cpp_source.html#l00039">39</a> of file <a class="el" href="../../db/d11/image_8cpp_source.html">image.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d11/image_8cpp_source.html#l00038">38</a> of file <a class="el" href="../../db/d11/image_8cpp_source.html">image.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d11/image_8cpp_source.html#l00220">Image::writeChar()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d11/image_8cpp_source.html#l00223">Image::writeChar()</a>.</p>
 
 </div>
 </div>
@@ -222,20 +225,20 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d11/image_8cpp_source.html#l00035">35</a> of file <a class="el" href="../../db/d11/image_8cpp_source.html">image.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d11/image_8cpp_source.html#l00034">34</a> of file <a class="el" href="../../db/d11/image_8cpp_source.html">image.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d11/image_8cpp_source.html#l00220">Image::writeChar()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d11/image_8cpp_source.html#l00223">Image::writeChar()</a>.</p>
 
 </div>
 </div>
-<a id="afdd592511fae7801258a4408091d4342" name="afdd592511fae7801258a4408091d4342"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afdd592511fae7801258a4408091d4342">&#9670;&#160;</a></span>charWidth</h2>
+<a id="a1b6c376e48d9e19606ef8b24815321de" name="a1b6c376e48d9e19606ef8b24815321de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b6c376e48d9e19606ef8b24815321de">&#9670;&#160;</a></span>charWidth</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned char charWidth[<a class="el" href="../../db/d11/image_8cpp.html#a7039c6d467143b65eee4688f35178297">numChars</a>]</td>
+          <td class="memname">const unsigned char charWidth[<a class="el" href="../../db/d11/image_8cpp.html#a7039c6d467143b65eee4688f35178297">numChars</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -256,27 +259,27 @@ Variables</h2></td></tr>
 <div class="line">     6, 7, 6, 4, 3, 4, 7, 5</div>
 <div class="line">  }</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../db/d11/image_8cpp_source.html#l00055">55</a> of file <a class="el" href="../../db/d11/image_8cpp_source.html">image.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d11/image_8cpp_source.html#l00054">54</a> of file <a class="el" href="../../db/d11/image_8cpp_source.html">image.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d11/image_8cpp_source.html#l00220">Image::writeChar()</a>, and <a class="el" href="../../db/d11/image_8cpp_source.html#l00257">Image::writeString()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d11/image_8cpp_source.html#l00223">Image::writeChar()</a>, and <a class="el" href="../../db/d11/image_8cpp_source.html#l00260">Image::writeString()</a>.</p>
 
 </div>
 </div>
-<a id="a54eb9c5e56292b27cc59fca445f72f4b" name="a54eb9c5e56292b27cc59fca445f72f4b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54eb9c5e56292b27cc59fca445f72f4b">&#9670;&#160;</a></span>fontRaw</h2>
+<a id="a1f62b9caff0302178d5a0d73ac720239" name="a1f62b9caff0302178d5a0d73ac720239"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f62b9caff0302178d5a0d73ac720239">&#9670;&#160;</a></span>fontRaw</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned char fontRaw[<a class="el" href="../../db/d11/image_8cpp.html#addcb648439e446f4cdc7f81ed8bd7701">charSetWidth</a> *<a class="el" href="../../db/d11/image_8cpp.html#ac01e29ec591af8444cb2cb5e9128d130">charHeight</a>]</td>
+          <td class="memname">const unsigned char fontRaw[<a class="el" href="../../db/d11/image_8cpp.html#addcb648439e446f4cdc7f81ed8bd7701">charSetWidth</a> *<a class="el" href="../../db/d11/image_8cpp.html#ac01e29ec591af8444cb2cb5e9128d130">charHeight</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d11/image_8cpp_source.html#l00072">72</a> of file <a class="el" href="../../db/d11/image_8cpp_source.html">image.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d11/image_8cpp_source.html#l00071">71</a> of file <a class="el" href="../../db/d11/image_8cpp_source.html">image.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d11/image_8cpp_source.html#l00220">Image::writeChar()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d11/image_8cpp_source.html#l00223">Image::writeChar()</a>.</p>
 
 </div>
 </div>
@@ -292,45 +295,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d11/image_8cpp_source.html#l00037">37</a> of file <a class="el" href="../../db/d11/image_8cpp_source.html">image.cpp</a>.</p>
-
-</div>
-</div>
-<a id="acfe43b36ff6b37d0df7b60495d7b5ea7" name="acfe43b36ff6b37d0df7b60495d7b5ea7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acfe43b36ff6b37d0df7b60495d7b5ea7">&#9670;&#160;</a></span>palette</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d9/d44/struct_color.html">Color</a> palette[]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">{</div>
-<div class="line">  { 0xff, 0xff, 0xff, 0x00 },</div>
-<div class="line">  { 0x00, 0x00, 0x00, 0xff },</div>
-<div class="line">  { 0xff, 0xff, 0xc0, 0xff },</div>
-<div class="line">  { 0x9f, 0x9f, 0x60, 0xff },</div>
-<div class="line">  { 0xa7, 0x38, 0x30, 0xff },</div>
-<div class="line">  { 0x29, 0x70, 0x18, 0xff },</div>
-<div class="line">  { 0x97, 0xCC, 0xE8, 0xff },</div>
-<div class="line">  { 0xc0, 0xc0, 0xc0, 0xff },</div>
-<div class="line">  { 0xff, 0xff, 0xff, 0xff }</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../db/d11/image_8cpp_source.html#l00155">155</a> of file <a class="el" href="../../db/d11/image_8cpp_source.html">image.cpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../db/d11/image_8cpp_source.html#l00168">Image::Image()</a>, and <a class="el" href="../../db/d11/image_8cpp_source.html#l00341">Image::save()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d11/image_8cpp_source.html#l00036">36</a> of file <a class="el" href="../../db/d11/image_8cpp_source.html">image.cpp</a>.</p>
 
 </div>
 </div>

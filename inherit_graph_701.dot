@@ -6,7 +6,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [label="TemplateContext",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d1b/class_template_context.html",tooltip="Abstract interface for a template context."];
-  Node0 -> Node1 [dir="back",color="steelblue1",style="solid"];
-  Node1 [label="TemplateContextImpl",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/dbf/class_template_context_impl.html",tooltip="Internal class representing the implementation of a template context."];
+  Node0 [label="SysTimeKeeper::TimeData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d10/struct_sys_time_keeper_1_1_time_data.html",tooltip=" "];
 }

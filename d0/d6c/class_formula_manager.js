@@ -24,6 +24,5 @@ var class_formula_manager =
     [ "hasFormulas", "d0/d6c/class_formula_manager.html#a4b5c2d7e0c8001ae48514de0b468eb87", null ],
     [ "initFromRepository", "d0/d6c/class_formula_manager.html#a10998c967b5e151acf3dad299deb0bc9", null ],
     [ "instance", "d0/d6c/class_formula_manager.html#ab5c33a247a1b081414e3350552beb6ee", null ],
-    [ "updateFormulaSize", "d0/d6c/class_formula_manager.html#a70aa26f8a815b1f65663e06a2af49bb7", null ],
     [ "p", "d0/d6c/class_formula_manager.html#ad6efed826faf400f0c45b49d7dd79f0d", null ]
 ];

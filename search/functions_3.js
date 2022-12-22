@@ -503,7 +503,7 @@ var searchData=
   ['createsubdirs_500',['createSubDirs',['../df/d2d/util_8cpp.html#a77685956f8517f3a6e062e66925fc93c',1,'createSubDirs(const Dir &amp;d):&#160;util.cpp'],['../d8/d3c/util_8h.html#a77685956f8517f3a6e062e66925fc93c',1,'createSubDirs(const Dir &amp;d):&#160;util.cpp']]],
   ['createsvg_501',['createSVG',['../db/d1e/class_flow_chart.html#a7848f4e846cafbec9e8a6ecca50d4fb2',1,'FlowChart::createSVG()'],['../de/dea/vhdldocgen_8cpp.html#af5cd5bc160da3ea896d8d60e0a56f1fe',1,'createSVG():&#160;vhdldocgen.cpp']]],
   ['createsvgfrompdf_502',['createSVGFromPDF',['../d7/d5b/formula_8cpp.html#ad88d54d53a499dad6fda6617d2dc952e',1,'formula.cpp']]],
-  ['createsvgfrompdfviainkscape_503',['createSVGFromPDFviaInkscape',['../d7/d5b/formula_8cpp.html#a4a9f805d74ef5c5e0e38427ccf5719f7',1,'formula.cpp']]],
+  ['createsvgfrompdfviainkscape_503',['createSVGFromPDFviaInkscape',['../d7/d5b/formula_8cpp.html#a0c843eafd8ef0511d939fa5c6efc863f',1,'formula.cpp']]],
   ['createsymbolgroups_504',['createSymbolGroups',['../dd/d7a/class_symbol_index_context_1_1_private.html#ac1631e8bd77e60c5e21d948ae48645d2',1,'SymbolIndexContext::Private']]],
   ['createsymbolindices_505',['createSymbolIndices',['../db/d5d/class_search_index_context_1_1_private.html#a0b5585e6f3eeaa0d3e7c30fba008d228',1,'SearchIndexContext::Private']]],
   ['createsymbollist_506',['createSymbolList',['../de/d3a/class_symbol_group_context_1_1_private.html#ad080a1353de1d0b3cd37f6eae6e83e2c',1,'SymbolGroupContext::Private']]],

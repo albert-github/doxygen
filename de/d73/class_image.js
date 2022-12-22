@@ -1,5 +1,6 @@
 var class_image =
 [
+    [ "Private", "d0/d8b/struct_image_1_1_private.html", "d0/d8b/struct_image_1_1_private" ],
     [ "Image", "de/d73/class_image.html#a786446ce26bd19dfa3577261b90ea582", null ],
     [ "~Image", "de/d73/class_image.html#a0294f63700543e11c0f0da85601c7ae5", null ],
     [ "drawHorzArrow", "de/d73/class_image.html#aed29f2abeb0ce6fea7bb553c5ca4e59b", null ],
@@ -17,7 +18,5 @@ var class_image =
     [ "writeChar", "de/d73/class_image.html#aa1f00be6fb129d898e3d1695c5480710", null ],
     [ "writeString", "de/d73/class_image.html#a53236e506ff36b370eff655b5d062c53", null ],
     [ "stringLength", "de/d73/class_image.html#af079f072be99784d939a2a0edf2d730e", null ],
-    [ "m_data", "de/d73/class_image.html#acb8c58799dd9fb0f09e37ed0e5eac0d8", null ],
-    [ "m_height", "de/d73/class_image.html#afc53b5bc84996d6c07f70650a4c73546", null ],
-    [ "m_width", "de/d73/class_image.html#a3c9a86409b44ffcec233c1cfe2d4b88e", null ]
+    [ "p", "de/d73/class_image.html#a251116033da81763d7fad84398117868", null ]
 ];

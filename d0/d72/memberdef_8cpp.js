@@ -20,6 +20,7 @@ var memberdef_8cpp =
     [ "writeDefArgumentList", "d0/d72/memberdef_8cpp.html#a5109f6f8128e0b9169ac9b8ebe29ba64", null ],
     [ "writeExceptionList", "d0/d72/memberdef_8cpp.html#a158781f51faf723e59ca681487e4da1a", null ],
     [ "writeExceptionListImpl", "d0/d72/memberdef_8cpp.html#a25431a65b263de7827454ea81eb8be29", null ],
+    [ "g_anonymousUsedMutex", "d0/d72/memberdef_8cpp.html#af13fb716ae6bade1e5c25d6a893a40c7", null ],
     [ "g_cachedAnonymousTypeMutex", "d0/d72/memberdef_8cpp.html#a961ae6d2d358b27f1898087008b186fa", null ],
     [ "g_detectUndocumentedParamsMutex", "d0/d72/memberdef_8cpp.html#a8e711cc7ca7ab729f5b8e1d81d88cf53", null ],
     [ "g_docCrossReferenceMutex", "d0/d72/memberdef_8cpp.html#a6ec17e0e1fa9fc5b2ab522f618f39b88", null ],

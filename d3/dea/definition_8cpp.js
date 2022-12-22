@@ -14,5 +14,6 @@ var definition_8cpp =
     [ "toDefinitionMutable", "d3/dea/definition_8cpp.html#a0100dfde81557eed34a7501052226bf0", null ],
     [ "toDefinitionMutable", "d3/dea/definition_8cpp.html#afe6bb7de7547134d0e29feddc1f894d7", null ],
     [ "g_filterCache", "d3/dea/definition_8cpp.html#a3854c12c59eb44f0ae1e168bb1b66e08", null ],
-    [ "g_memberReferenceMutex", "d3/dea/definition_8cpp.html#a0bc92abff18d90b3f61f3a59d2540316", null ]
+    [ "g_memberReferenceMutex", "d3/dea/definition_8cpp.html#a0bc92abff18d90b3f61f3a59d2540316", null ],
+    [ "g_qualifiedNameMutex", "d3/dea/definition_8cpp.html#aef4f117a1f0f6eebcd68a693dce76a24", null ]
 ];
