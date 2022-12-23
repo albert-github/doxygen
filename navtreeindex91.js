@@ -1,5 +1,9 @@
 var NAVTREEINDEX91 =
 {
+"dc/d44/class_translator_spanish.html#a94d87ae4bb5c70b70875ac879bb46779":[8,0,610,86],
+"dc/d44/class_translator_spanish.html#a950b5245154a91dadaf3f134055d86be":[8,0,610,144],
+"dc/d44/class_translator_spanish.html#a9586ef08fa4aac32b2532d13c24279ce":[8,0,610,94],
+"dc/d44/class_translator_spanish.html#a95a0924174a2a2e12c6b896f8666ab14":[8,0,610,241],
 "dc/d44/class_translator_spanish.html#a95f6502c25f8d5040616c816581d17e4":[8,0,610,231],
 "dc/d44/class_translator_spanish.html#a96ae868654dbe193fb96d8824718300c":[8,0,610,106],
 "dc/d44/class_translator_spanish.html#a9798387ffd549362ce2cd3dce5894c71":[8,0,610,221],
@@ -245,9 +249,5 @@ var NAVTREEINDEX91 =
 "dc/d53/class_translator_lithuanian.html#ab351f6b871ae8a133f30f183cd17fa0b":[8,0,598,168],
 "dc/d53/class_translator_lithuanian.html#ab8f8ccaa93aeb418b23c107a6ee9cccb":[8,0,598,32],
 "dc/d53/class_translator_lithuanian.html#ab956a8bf7c0dbdfb14ca45171e59af8e":[8,0,598,162],
-"dc/d53/class_translator_lithuanian.html#aba4cb0ed9ee42cf45debb5279ba31a5f":[8,0,598,94],
-"dc/d53/class_translator_lithuanian.html#ac0e6ffbf257eb500c574403899853e53":[8,0,598,122],
-"dc/d53/class_translator_lithuanian.html#ac38f3b32bb305be1fd4afdf3ebca9604":[8,0,598,174],
-"dc/d53/class_translator_lithuanian.html#ac53ecc80768a8a8f17bc0d15beaef70c":[8,0,598,142],
-"dc/d53/class_translator_lithuanian.html#ac5417f40e9c69b9f84c1744caa049da8":[8,0,598,160]
+"dc/d53/class_translator_lithuanian.html#aba4cb0ed9ee42cf45debb5279ba31a5f":[8,0,598,94]
 };

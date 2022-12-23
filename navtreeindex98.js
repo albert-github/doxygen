@@ -1,5 +1,9 @@
 var NAVTREEINDEX98 =
 {
+"dd/d38/class_translator_norwegian.html#ab644f977790ca08fbe30dafdd38f2811":[8,0,600,107],
+"dd/d38/class_translator_norwegian.html#aba6cffeb4e885992b737208fec03e753":[8,0,600,178],
+"dd/d38/class_translator_norwegian.html#abbba5c7fcdb5c95a4f58ad017606e738":[8,0,600,33],
+"dd/d38/class_translator_norwegian.html#ac018e7af9b956f72f75b84c51821ae4a":[8,0,600,183],
 "dd/d38/class_translator_norwegian.html#ac0f0e9c46cd36a15dfe3748e5d590a45":[8,0,600,28],
 "dd/d38/class_translator_norwegian.html#ac21330f4db8f249fc193e9d0363e6089":[8,0,600,129],
 "dd/d38/class_translator_norwegian.html#ac3e851e771f6d68cd6e1b8927b3af0d5":[8,0,600,112],
@@ -245,9 +249,5 @@ var NAVTREEINDEX98 =
 "dd/d72/growbuf_8h_source.html":[9,0,2,129],
 "dd/d74/struct_qhp_section_tree_1_1_node.html":[8,0,450,0],
 "dd/d74/struct_qhp_section_tree_1_1_node.html#a133e006d4965cd28269c0cbaf97f6bf9":[8,0,450,0,6],
-"dd/d74/struct_qhp_section_tree_1_1_node.html#a1541f06740584f5b34a4c2c90e65d757":[8,0,450,0,4],
-"dd/d74/struct_qhp_section_tree_1_1_node.html#a2b4c4f59fd1aca269f4435bc8f3f3386":[8,0,450,0,7],
-"dd/d74/struct_qhp_section_tree_1_1_node.html#a3dcbc162c389c119d8b5b83ac29bf70f":[8,0,450,0,3],
-"dd/d74/struct_qhp_section_tree_1_1_node.html#a50e5e4f52f69ddb808ebca2732d2f85b":[8,0,450,0,8],
-"dd/d74/struct_qhp_section_tree_1_1_node.html#a8fd0cb872e4f1762747df4dfa5578dfc":[8,0,450,0,1]
+"dd/d74/struct_qhp_section_tree_1_1_node.html#a1541f06740584f5b34a4c2c90e65d757":[8,0,450,0,4]
 };

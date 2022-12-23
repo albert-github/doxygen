@@ -17,7 +17,7 @@ digraph "COutlineParser::Private"
   Node6 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" currentArgumentList" ];
   Node6 [label="ArgumentList",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d7/df8/class_argument_list.html",tooltip="This class represents an function or template argument list."];
   Node5 -> Node6 [dir="back",color="darkorchid3",style="dashed",label=" m_trailingReturnType" ];
-  Node7 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" docBlock\ndummyTextStream\npCopyCurlyGString\npCopyHereDocGString\npCopyQuotedGString\npCopyRawGString\npCopyRoundGString\npCopySquareGString\npSkipVerbString" ];
+  Node7 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" docBlock\ndummyTextStream\npCopyCurlyGString\npCopyHereDocGString\npCopyQuotedGString\npCopyRawGString\npCopyRoundGString\npCopySquareGString\npSkipInterpString\npSkipInterpVerbString\n..." ];
   Node7 [label="TextStream",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d3/d30/class_text_stream.html",tooltip="Text streaming class that buffers data."];
   Node8 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" clangParser" ];
   Node8 [label="ClangTUParser",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$dd/df8/class_clang_t_u_parser.html",tooltip="Clang parser object for a single translation unit, which consists of a source file and the directly o..."];

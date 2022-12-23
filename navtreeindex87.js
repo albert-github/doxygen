@@ -1,5 +1,9 @@
 var NAVTREEINDEX87 =
 {
+"dc/d03/class_translator_serbian_cyrillic.html#a13c7629bcb37b472e4601a42ac30af47":[8,0,607,197],
+"dc/d03/class_translator_serbian_cyrillic.html#a15f1c1e7cb0e576db381c487618e3eb2":[8,0,607,61],
+"dc/d03/class_translator_serbian_cyrillic.html#a17126fcf4e081b924b6d39172b354a48":[8,0,607,83],
+"dc/d03/class_translator_serbian_cyrillic.html#a1875dfe0f28a1cb110700e585cee2a7a":[8,0,607,186],
 "dc/d03/class_translator_serbian_cyrillic.html#a19c86d2bbfd1a361dd368ce8b18b98eb":[8,0,607,49],
 "dc/d03/class_translator_serbian_cyrillic.html#a1bb0bdf4b0dd41e5dc5095585aaf467b":[8,0,607,131],
 "dc/d03/class_translator_serbian_cyrillic.html#a1c9921cc810aa49a9d19a4fbdb034e8d":[8,0,607,171],
@@ -245,9 +249,5 @@ var NAVTREEINDEX87 =
 "dc/d12/class_doc_verbatim.html#ad8c770dcf2e62369b95f4e34fb11fa36a3291e7fae70d3ccc1ee0e306d7150012":[8,0,188,1,10],
 "dc/d12/class_doc_verbatim.html#ad8c770dcf2e62369b95f4e34fb11fa36a5237d98c668e1c746648c77e62e18fe4":[8,0,188,1,0],
 "dc/d12/class_doc_verbatim.html#ad8c770dcf2e62369b95f4e34fb11fa36a53b96b0c5ba74d8884669c178eb88bf9":[8,0,188,1,4],
-"dc/d12/class_doc_verbatim.html#ad8c770dcf2e62369b95f4e34fb11fa36a578f19d38fb29903c3f55aea4f76bccb":[8,0,188,1,2],
-"dc/d12/class_doc_verbatim.html#ad8c770dcf2e62369b95f4e34fb11fa36a6c1b77a564f7f47346627a07de09c251":[8,0,188,1,6],
-"dc/d12/class_doc_verbatim.html#ad8c770dcf2e62369b95f4e34fb11fa36a792fd26984aba5cab5b5bc235d705bd1":[8,0,188,1,7],
-"dc/d12/class_doc_verbatim.html#ad8c770dcf2e62369b95f4e34fb11fa36a8abc5ca69c3762e97cffaacc244457f1":[8,0,188,1,1],
-"dc/d12/class_doc_verbatim.html#ad8c770dcf2e62369b95f4e34fb11fa36aa841d77afafe62444561766f255fda8b":[8,0,188,1,8]
+"dc/d12/class_doc_verbatim.html#ad8c770dcf2e62369b95f4e34fb11fa36a578f19d38fb29903c3f55aea4f76bccb":[8,0,188,1,2]
 };
