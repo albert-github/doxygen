@@ -1,5 +1,8 @@
 var NAVTREEINDEX15 =
 {
+"d1/dd9/class_plantuml_manager.html#aeae4a1ea8542946832f282102993acd7":[8,0,437,14],
+"d1/dd9/class_plantuml_manager.html#af38a83e442553a769951c724353cbe6a":[8,0,437,7],
+"d1/dd9/class_plantuml_manager.html#af6f1c6249e4127996095d0086442fa0f":[8,0,437,4],
 "d1/dd9/class_plantuml_manager.html#af736b55d9c30405deb9333eb840339da":[8,0,437,10],
 "d1/ddd/class_template_token.html":[8,0,542],
 "d1/ddd/class_template_token.html#a44271a10cbc74eea133ed9e92897012e":[8,0,542,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX15 =
 "d2/d07/class_translator_esperanto.html#a83b46757b333f7ac4353f0d9296f7c4b":[8,0,584,101],
 "d2/d07/class_translator_esperanto.html#a840eb9d04a6820d3686b39288674fee7":[8,0,584,181],
 "d2/d07/class_translator_esperanto.html#a8586ba9bf80b0952286207eedde6b28a":[8,0,584,37],
-"d2/d07/class_translator_esperanto.html#a87624c7debaf425b8df52f56990fb5d3":[8,0,584,138],
-"d2/d07/class_translator_esperanto.html#a876f771499e8dd5461c72f1eebcd3e7b":[8,0,584,177],
-"d2/d07/class_translator_esperanto.html#a88067bc066b2b8988ec775e5042ccb1c":[8,0,584,126],
-"d2/d07/class_translator_esperanto.html#a88572a98550e5ae9a575d5d6dd987a10":[8,0,584,70]
+"d2/d07/class_translator_esperanto.html#a87624c7debaf425b8df52f56990fb5d3":[8,0,584,138]
 };

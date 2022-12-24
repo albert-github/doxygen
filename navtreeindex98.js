@@ -1,5 +1,15 @@
 var NAVTREEINDEX98 =
 {
+"dd/d38/class_translator_norwegian.html#aac6cf5936e39a429cc26ed2f31acfabf":[8,0,600,118],
+"dd/d38/class_translator_norwegian.html#aacb68c4305d381ff5c6168b6d82636c7":[8,0,600,50],
+"dd/d38/class_translator_norwegian.html#aad63bbbec277c04ed4d2e6f96e48ab3c":[8,0,600,29],
+"dd/d38/class_translator_norwegian.html#aae6f1f2f29b67ff9410077edbc6910fd":[8,0,600,11],
+"dd/d38/class_translator_norwegian.html#aaeef151315b77ece7d99362d620b72f4":[8,0,600,43],
+"dd/d38/class_translator_norwegian.html#aaf9918df4485eba1301812f7c93c724f":[8,0,600,138],
+"dd/d38/class_translator_norwegian.html#ab275874b6bcba054f4ec80882fc5702a":[8,0,600,9],
+"dd/d38/class_translator_norwegian.html#ab2efeda7527b3e104625968ec0d93379":[8,0,600,22],
+"dd/d38/class_translator_norwegian.html#ab57d4f3c731565e70e9c669512608259":[8,0,600,115],
+"dd/d38/class_translator_norwegian.html#ab62df548b3f87c04dd9a263ebe28af0e":[8,0,600,40],
 "dd/d38/class_translator_norwegian.html#ab644f977790ca08fbe30dafdd38f2811":[8,0,600,107],
 "dd/d38/class_translator_norwegian.html#aba6cffeb4e885992b737208fec03e753":[8,0,600,178],
 "dd/d38/class_translator_norwegian.html#abbba5c7fcdb5c95a4f58ad017606e738":[8,0,600,33],
@@ -49,8 +59,8 @@ var NAVTREEINDEX98 =
 "dd/d38/class_translator_norwegian.html#afd59f0d6acd23335906d3083816e96ff":[8,0,600,177],
 "dd/d39/namespacedetail.html":[7,0,3],
 "dd/d39/namespacedetail.html#a813e5bcc6785357f4ca1f4b19436c5ad":[7,0,3,3],
-"dd/d3f/class_filter_is_absolute_u_r_l.html":[8,0,266],
-"dd/d3f/class_filter_is_absolute_u_r_l.html#a5af4caa52dbe1e90b66ed9c0e8f4b9ea":[8,0,266,0],
+"dd/d3f/class_filter_is_absolute_u_r_l.html":[8,0,265],
+"dd/d3f/class_filter_is_absolute_u_r_l.html#a5af4caa52dbe1e90b66ed9c0e8f4b9ea":[8,0,265,0],
 "dd/d41/class_page_def.html":[8,0,425],
 "dd/d41/class_page_def.html#a047adaea812def0686ab3af64245c8bd":[8,0,425,7],
 "dd/d41/class_page_def.html#a07b4363a361ba2b1b7d6f1086321bbae":[8,0,425,4],
@@ -239,15 +249,5 @@ var NAVTREEINDEX98 =
 "dd/d6e/struct_dot_file_patcher_1_1_map.html#a1039cf6923ea60a919d092990d86bb07":[8,0,200,0,5],
 "dd/d6e/struct_dot_file_patcher_1_1_map.html#a1bf5d3f2543719b345339e1ec307f24e":[8,0,200,0,2],
 "dd/d6e/struct_dot_file_patcher_1_1_map.html#a4e0032ccbfd53bb27adc4d0252da9a6f":[8,0,200,0,6],
-"dd/d6e/struct_dot_file_patcher_1_1_map.html#a7aa1ae8828fec8377ddf808132a52f24":[8,0,200,0,3],
-"dd/d6e/struct_dot_file_patcher_1_1_map.html#a8e657340f36c6d423a2c0d1e417b3407":[8,0,200,0,7],
-"dd/d6e/struct_dot_file_patcher_1_1_map.html#ab4be867f214098973a1b9053d42baac1":[8,0,200,0,0],
-"dd/d6e/struct_dot_file_patcher_1_1_map.html#acd850ca81fb232e7b253746937702e66":[8,0,200,0,1],
-"dd/d6e/struct_dot_file_patcher_1_1_map.html#aec1d56210a55b5bae168f4492d786b6a":[8,0,200,0,4],
-"dd/d72/growbuf_8h.html":[9,0,2,129],
-"dd/d72/growbuf_8h.html#a8b0dc2f8685a41830347ff1e73629fb3":[9,0,2,129,1],
-"dd/d72/growbuf_8h_source.html":[9,0,2,129],
-"dd/d74/struct_qhp_section_tree_1_1_node.html":[8,0,450,0],
-"dd/d74/struct_qhp_section_tree_1_1_node.html#a133e006d4965cd28269c0cbaf97f6bf9":[8,0,450,0,6],
-"dd/d74/struct_qhp_section_tree_1_1_node.html#a1541f06740584f5b34a4c2c90e65d757":[8,0,450,0,4]
+"dd/d6e/struct_dot_file_patcher_1_1_map.html#a7aa1ae8828fec8377ddf808132a52f24":[8,0,200,0,3]
 };

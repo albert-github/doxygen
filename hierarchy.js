@@ -647,7 +647,7 @@ var hierarchy =
     [ "FilterAlphaIndex", "df/de8/class_filter_alpha_index.html", null ],
     [ "FilterAppend", "d9/dfb/class_filter_append.html", null ],
     [ "FilterCache", "d8/d80/class_filter_cache.html", null ],
-    [ "FilterCacheItem", "d6/db3/struct_filter_cache_item.html", null ],
+    [ "FilterCache::FilterCacheItem", "d3/d05/struct_filter_cache_1_1_filter_cache_item.html", null ],
     [ "FilterDecodeURL", "d1/d70/class_filter_decode_u_r_l.html", null ],
     [ "FilterDefault", "de/dfe/class_filter_default.html", null ],
     [ "FilterDivisibleBy", "db/d70/class_filter_divisible_by.html", null ],
@@ -724,6 +724,7 @@ var hierarchy =
     [ "JJEnter< T >", "d2/d49/struct_j_j_enter.html", null ],
     [ "JJExit< T >", "d5/d16/struct_j_j_exit.html", null ],
     [ "KeywordHash", "d4/d10/class_keyword_hash.html", null ],
+    [ "KeywordSubstitution", "d0/d3b/struct_keyword_substitution.html", null ],
     [ "Lang2ExtMap", "d8/def/struct_lang2_ext_map.html", null ],
     [ "LatexDocVisitor::LatexListItemInfo", "da/dc3/struct_latex_doc_visitor_1_1_latex_list_item_info.html", null ],
     [ "LayoutDocEntry", "d9/dba/struct_layout_doc_entry.html", [

@@ -2,7 +2,9 @@ var util_8h =
 [
     [ "TextGeneratorIntf", "d0/dcf/class_text_generator_intf.html", "d0/dcf/class_text_generator_intf" ],
     [ "TextGeneratorOLImpl", "db/d2b/class_text_generator_o_l_impl.html", "db/d2b/class_text_generator_o_l_impl" ],
+    [ "KeywordSubstitution", "d0/d3b/struct_keyword_substitution.html", "d0/d3b/struct_keyword_substitution" ],
     [ "ColoredImgDataItem", "da/d06/struct_colored_img_data_item.html", "da/d06/struct_colored_img_data_item" ],
+    [ "KeywordSubstitutionList", "d8/d3c/util_8h.html#a20e1a336cf03f1455b11a3a4082b1bdb", null ],
     [ "addCodeOnlyMappings", "d8/d3c/util_8h.html#a2a25909e621a15bb253eb0d6a7d1db13", null ],
     [ "addDirPrefix", "d8/d3c/util_8h.html#a83849c25ca67f4a8fd4f2870736a9550", null ],
     [ "addGroupListToTitle", "d8/d3c/util_8h.html#a6c4285f255bbb17f7c3d308d222334cf", null ],
@@ -128,6 +130,7 @@ var util_8h =
     [ "stripScope", "d8/d3c/util_8h.html#a78d33655f54cd45e22070b58a6dce6b6", null ],
     [ "stripTemplateSpecifiersFromScope", "d8/d3c/util_8h.html#aa78497e488f5e271031b67fbe5452221", null ],
     [ "substituteClassNames", "d8/d3c/util_8h.html#a1528138e65b90b6587cf91bab2e485e9", null ],
+    [ "substituteKeywords", "d8/d3c/util_8h.html#a7c2dde764dee7193c46e103258c368c2", null ],
     [ "substituteKeywords", "d8/d3c/util_8h.html#ad2837e99807e1f7cad4d35de87f28cbd", null ],
     [ "substituteTemplateArgumentsInString", "d8/d3c/util_8h.html#a5453f35c5493ab6beef867f1c5415c13", null ],
     [ "tempArgListToString", "d8/d3c/util_8h.html#a6f39a4807033ba47f3ff14a5725cfc34", null ],

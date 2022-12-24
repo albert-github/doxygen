@@ -19,7 +19,7 @@ var searchData=
   ['filteralphaindex_16',['FilterAlphaIndex',['../df/de8/class_filter_alpha_index.html',1,'']]],
   ['filterappend_17',['FilterAppend',['../d9/dfb/class_filter_append.html',1,'']]],
   ['filtercache_18',['FilterCache',['../d8/d80/class_filter_cache.html',1,'']]],
-  ['filtercacheitem_19',['FilterCacheItem',['../d6/db3/struct_filter_cache_item.html',1,'']]],
+  ['filtercacheitem_19',['FilterCacheItem',['../d3/d05/struct_filter_cache_1_1_filter_cache_item.html',1,'FilterCache']]],
   ['filterdecodeurl_20',['FilterDecodeURL',['../d1/d70/class_filter_decode_u_r_l.html',1,'']]],
   ['filterdefault_21',['FilterDefault',['../de/dfe/class_filter_default.html',1,'']]],
   ['filterdivisibleby_22',['FilterDivisibleBy',['../db/d70/class_filter_divisible_by.html',1,'']]],

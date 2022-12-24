@@ -1,5 +1,15 @@
 var NAVTREEINDEX99 =
 {
+"dd/d6e/struct_dot_file_patcher_1_1_map.html#a8e657340f36c6d423a2c0d1e417b3407":[8,0,200,0,7],
+"dd/d6e/struct_dot_file_patcher_1_1_map.html#ab4be867f214098973a1b9053d42baac1":[8,0,200,0,0],
+"dd/d6e/struct_dot_file_patcher_1_1_map.html#acd850ca81fb232e7b253746937702e66":[8,0,200,0,1],
+"dd/d6e/struct_dot_file_patcher_1_1_map.html#aec1d56210a55b5bae168f4492d786b6a":[8,0,200,0,4],
+"dd/d72/growbuf_8h.html":[9,0,2,129],
+"dd/d72/growbuf_8h.html#a8b0dc2f8685a41830347ff1e73629fb3":[9,0,2,129,1],
+"dd/d72/growbuf_8h_source.html":[9,0,2,129],
+"dd/d74/struct_qhp_section_tree_1_1_node.html":[8,0,450,0],
+"dd/d74/struct_qhp_section_tree_1_1_node.html#a133e006d4965cd28269c0cbaf97f6bf9":[8,0,450,0,6],
+"dd/d74/struct_qhp_section_tree_1_1_node.html#a1541f06740584f5b34a4c2c90e65d757":[8,0,450,0,4],
 "dd/d74/struct_qhp_section_tree_1_1_node.html#a2b4c4f59fd1aca269f4435bc8f3f3386":[8,0,450,0,7],
 "dd/d74/struct_qhp_section_tree_1_1_node.html#a3dcbc162c389c119d8b5b83ac29bf70f":[8,0,450,0,3],
 "dd/d74/struct_qhp_section_tree_1_1_node.html#a50e5e4f52f69ddb808ebca2732d2f85b":[8,0,450,0,8],
@@ -239,15 +249,5 @@ var NAVTREEINDEX99 =
 "dd/d80/class_translator_turkish.html#a98d6946b81c2630d173832302dbd7f1e":[8,0,612,109],
 "dd/d80/class_translator_turkish.html#a994979419ca742b65e99689cd331f2c7":[8,0,612,62],
 "dd/d80/class_translator_turkish.html#a9a86157c06f30c935b3db98f388bbbc4":[8,0,612,166],
-"dd/d80/class_translator_turkish.html#a9ad8f46d63a96a3885dc789ef5333e2c":[8,0,612,23],
-"dd/d80/class_translator_turkish.html#a9b637890abba9eb1dce1f1000453a7da":[8,0,612,215],
-"dd/d80/class_translator_turkish.html#a9bc8835dae1b3559d1fd1fb8021fca00":[8,0,612,193],
-"dd/d80/class_translator_turkish.html#a9e5adbd3e474eefadeffda56c853cb4a":[8,0,612,209],
-"dd/d80/class_translator_turkish.html#aa038388196a26c1e4238fd47a55d56fd":[8,0,612,141],
-"dd/d80/class_translator_turkish.html#aa0670c1105b9c3a7c07e019c5fd31fac":[8,0,612,90],
-"dd/d80/class_translator_turkish.html#aa39480bab6e67daffa6917d13dd27a36":[8,0,612,1],
-"dd/d80/class_translator_turkish.html#aa3cf32927aba683c52954d741c506986":[8,0,612,132],
-"dd/d80/class_translator_turkish.html#aa3dffc8b8cc3a4a66ecdc328c72f1180":[8,0,612,130],
-"dd/d80/class_translator_turkish.html#aa593c56e62853caa36fa4e3e883277fd":[8,0,612,204],
-"dd/d80/class_translator_turkish.html#aa85d4a2623d5e6912b471241feaed836":[8,0,612,117]
+"dd/d80/class_translator_turkish.html#a9ad8f46d63a96a3885dc789ef5333e2c":[8,0,612,23]
 };

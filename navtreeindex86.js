@@ -1,5 +1,15 @@
 var NAVTREEINDEX86 =
 {
+"db/dcc/class_translator_korean.html#a3a7eff64086f6f9222fa568850dbbd99":[8,0,595,155],
+"db/dcc/class_translator_korean.html#a3a949bf771391965536d4d812938db2a":[8,0,595,78],
+"db/dcc/class_translator_korean.html#a3b11bea21e9dd9c81da36b43d1dacdc3":[8,0,595,45],
+"db/dcc/class_translator_korean.html#a3b6a2007ae6740d239adcddd5c8b31de":[8,0,595,34],
+"db/dcc/class_translator_korean.html#a3bd080d9676a9ed087342e3410f7864f":[8,0,595,125],
+"db/dcc/class_translator_korean.html#a3c782638bfdf5557ea17868304005590":[8,0,595,88],
+"db/dcc/class_translator_korean.html#a3ee64a5e4635a5d9a428a0d8acfcf0ea":[8,0,595,208],
+"db/dcc/class_translator_korean.html#a3f7b1b72bb394aefeb1310f00f9ee604":[8,0,595,172],
+"db/dcc/class_translator_korean.html#a3fc6d38e3bb16bef81009a67a76300ab":[8,0,595,33],
+"db/dcc/class_translator_korean.html#a40330c41363d6d093241961165b9da30":[8,0,595,237],
 "db/dcc/class_translator_korean.html#a403e4a3b1720e6c420386296d72260aa":[8,0,595,132],
 "db/dcc/class_translator_korean.html#a4103757babc4be7e266358e2f132c9d7":[8,0,595,180],
 "db/dcc/class_translator_korean.html#a42750039cd92218dd88247dd2383d936":[8,0,595,148],
@@ -239,15 +249,5 @@ var NAVTREEINDEX86 =
 "dc/d03/class_dot_incl_dep_graph.html#af2e50c911e5a8a9522b91e6ffcc7bd58":[8,0,204,15],
 "dc/d03/class_dot_incl_dep_graph.html#af6d8bd77179230c06b11a35a14f9f390":[8,0,204,1],
 "dc/d03/class_dot_incl_dep_graph.html#afe9784772becb74106aa3978a52105eb":[8,0,204,10],
-"dc/d03/class_translator_serbian_cyrillic.html":[8,0,607],
-"dc/d03/class_translator_serbian_cyrillic.html#a00f6a31cf25bacaaa79faf331f05582c":[8,0,607,69],
-"dc/d03/class_translator_serbian_cyrillic.html#a01d4b3b8c0ab94fd39745dff314a4616":[8,0,607,172],
-"dc/d03/class_translator_serbian_cyrillic.html#a051e9dc9d4615b046b3aba279ccd5f77":[8,0,607,154],
-"dc/d03/class_translator_serbian_cyrillic.html#a073934ac0520cbecf6cf0dc65b19deb5":[8,0,607,152],
-"dc/d03/class_translator_serbian_cyrillic.html#a091f20241d66086253369101262fa258":[8,0,607,59],
-"dc/d03/class_translator_serbian_cyrillic.html#a0a5a8d376effc003a2bf6e943773af29":[8,0,607,163],
-"dc/d03/class_translator_serbian_cyrillic.html#a0b0286958ced6cb71a504cb69ecac092":[8,0,607,93],
-"dc/d03/class_translator_serbian_cyrillic.html#a0fbcd6cd269a58db86c102c52543bcd2":[8,0,607,9],
-"dc/d03/class_translator_serbian_cyrillic.html#a1185121eae0df502e8c5ccbd3a403c1d":[8,0,607,162],
-"dc/d03/class_translator_serbian_cyrillic.html#a138724316b15f8bb0761d74ef5992170":[8,0,607,14]
+"dc/d03/class_translator_serbian_cyrillic.html":[8,0,607]
 };

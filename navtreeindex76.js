@@ -1,5 +1,15 @@
 var NAVTREEINDEX76 =
 {
+"da/d32/class_translator_romanian.html#a2e62b11e8b020c7e91015c63bff923b2":[8,0,604,13],
+"da/d32/class_translator_romanian.html#a328814f5c6470979fe258edaf8f3a97f":[8,0,604,220],
+"da/d32/class_translator_romanian.html#a329d3f47875db45f16d270fb92f6e0ff":[8,0,604,90],
+"da/d32/class_translator_romanian.html#a349a6d2104e084d372d4336b6a47c4ee":[8,0,604,78],
+"da/d32/class_translator_romanian.html#a34e56e7e779880b7282a8bf9cb392d1c":[8,0,604,22],
+"da/d32/class_translator_romanian.html#a35d1805438c18b16f0c6fbf84d2ce18e":[8,0,604,215],
+"da/d32/class_translator_romanian.html#a365ba648f73c58d6c308e3152caa9f45":[8,0,604,31],
+"da/d32/class_translator_romanian.html#a36e2957bbfc76fc554856dbe067dcae7":[8,0,604,206],
+"da/d32/class_translator_romanian.html#a382b34351a26aa8295445080e4ef0375":[8,0,604,32],
+"da/d32/class_translator_romanian.html#a38f2358b505e315bc7f3dd4600918ef5":[8,0,604,177],
 "da/d32/class_translator_romanian.html#a398cc6c94a03395ff0b9039c9f7c4f24":[8,0,604,137],
 "da/d32/class_translator_romanian.html#a3a61d1f3cbbc248e30bed73b91822a7c":[8,0,604,192],
 "da/d32/class_translator_romanian.html#a3a631b60cb22ad018c1076bc6a7c6508":[8,0,604,100],
@@ -205,8 +215,8 @@ var NAVTREEINDEX76 =
 "da/d36/class_symbol_list_context_1_1_private.html#a0bb6c758fde50eaad408c84bb970aefe":[8,0,488,0,0],
 "da/d36/translator__it_8h.html":[9,0,2,265],
 "da/d36/translator__it_8h_source.html":[9,0,2,265],
-"da/d39/class_fortran_outline_parser_free.html":[8,0,293],
-"da/d39/class_fortran_outline_parser_free.html#a34fce3d84efdd2ff4ad6f2b0b33f333f":[8,0,293,0],
+"da/d39/class_fortran_outline_parser_free.html":[8,0,292],
+"da/d39/class_fortran_outline_parser_free.html#a34fce3d84efdd2ff4ad6f2b0b33f333f":[8,0,292,0],
 "da/d39/docvisitor_8cpp.html":[9,0,2,75],
 "da/d39/docvisitor_8cpp_source.html":[9,0,2,75],
 "da/d3d/class_member_name_linked_map.html":[8,0,394],
@@ -239,15 +249,5 @@ var NAVTREEINDEX76 =
 "da/d46/class_expression_parser.html#a5f84a1fbbb4b33171cfa322c9ed779e0":[8,0,237,21],
 "da/d46/class_expression_parser.html#a5f9360cdaf5eb6bfe36e99cff27ec4d6":[8,0,237,2],
 "da/d46/class_expression_parser.html#a84987cb4bd840706a2604938a81a2cb7":[8,0,237,19],
-"da/d46/class_expression_parser.html#a87b3b3f64936670a95e3c354cd996be4":[8,0,237,12],
-"da/d46/class_expression_parser.html#a8e17ad5f0e1afb0d5c7fdf9b5f91f3f3":[8,0,237,11],
-"da/d46/class_expression_parser.html#aabaaf221760058c6226a2cd383b4c36a":[8,0,237,4],
-"da/d46/class_expression_parser.html#ab0d2fb617ff67948408d41eee1366181":[8,0,237,1],
-"da/d46/class_expression_parser.html#abedcd1d1979c21f58645885612286a7b":[8,0,237,6],
-"da/d46/class_expression_parser.html#ae200973383e55db7c16405d50f7afed7":[8,0,237,14],
-"da/d46/class_expression_parser.html#ae653e30fa1176ff15053a32b7235aa2f":[8,0,237,10],
-"da/d46/class_expression_parser.html#ae9ac14ed6295c397e35d4ad441fb4964":[8,0,237,23],
-"da/d46/class_expression_parser.html#af57a81465c5c0291a545caf2c15f41ad":[8,0,237,5],
-"da/d46/class_expression_parser.html#afab573dff16cf8304ac0823dcb61a530":[8,0,237,9],
-"da/d46/struct_char_around_space.html":[8,0,27]
+"da/d46/class_expression_parser.html#a87b3b3f64936670a95e3c354cd996be4":[8,0,237,12]
 };

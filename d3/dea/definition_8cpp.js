@@ -1,8 +1,8 @@
 var definition_8cpp =
 [
     [ "DefinitionImpl::IMPL", "dd/d50/class_definition_impl_1_1_i_m_p_l.html", "dd/d50/class_definition_impl_1_1_i_m_p_l" ],
-    [ "FilterCacheItem", "d6/db3/struct_filter_cache_item.html", "d6/db3/struct_filter_cache_item" ],
     [ "FilterCache", "d8/d80/class_filter_cache.html", "d8/d80/class_filter_cache" ],
+    [ "FilterCache::FilterCacheItem", "d3/d05/struct_filter_cache_1_1_filter_cache_item.html", "d3/d05/struct_filter_cache_1_1_filter_cache_item" ],
     [ "abbreviate", "d3/dea/definition_8cpp.html#a73a802f4c5838f2ebe51f19aa9c2d8ea", null ],
     [ "addToMap", "d3/dea/definition_8cpp.html#a29d1f8fcda9166d21abaf8d785c378c5", null ],
     [ "matchExcludedSymbols", "d3/dea/definition_8cpp.html#a4af6f5bd4b9fd624dd2c2a8c410fc9cf", null ],
@@ -13,7 +13,6 @@ var definition_8cpp =
     [ "toDefinition", "d3/dea/definition_8cpp.html#ab43e817b86eeee8909980167d1a140c8", null ],
     [ "toDefinitionMutable", "d3/dea/definition_8cpp.html#a0100dfde81557eed34a7501052226bf0", null ],
     [ "toDefinitionMutable", "d3/dea/definition_8cpp.html#afe6bb7de7547134d0e29feddc1f894d7", null ],
-    [ "g_filterCache", "d3/dea/definition_8cpp.html#a3854c12c59eb44f0ae1e168bb1b66e08", null ],
     [ "g_memberReferenceMutex", "d3/dea/definition_8cpp.html#a0bc92abff18d90b3f61f3a59d2540316", null ],
     [ "g_qualifiedNameMutex", "d3/dea/definition_8cpp.html#aef4f117a1f0f6eebcd68a693dce76a24", null ]
 ];
