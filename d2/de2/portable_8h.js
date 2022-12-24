@@ -1,6 +1,5 @@
 var portable_8h =
 [
-    [ "portable_off_t", "d2/de2/portable_8h.html#a25423a5b429a3ee0610315d93938bd0b", null ],
     [ "checkForExecutable", "d2/de2/portable_8h.html#a39228795dec07d8121645b0348e91712", null ],
     [ "commandExtension", "d2/de2/portable_8h.html#acf75def6ec394875d4a3c380ffc301b7", null ],
     [ "correct_path", "d2/de2/portable_8h.html#a7b0d9dbb919f445905c42fabb783c6f9", null ],
@@ -8,8 +7,6 @@ var portable_8h =
     [ "fclose", "d2/de2/portable_8h.html#af099fa6239b4961887192d8eadfd2a44", null ],
     [ "fileSystemIsCaseSensitive", "d2/de2/portable_8h.html#a8c6ba49e769f2990693fa40528d3c50e", null ],
     [ "fopen", "d2/de2/portable_8h.html#a4dbb08c3de409bd1a73be3da6d93ac57", null ],
-    [ "fseek", "d2/de2/portable_8h.html#a508bfa22b32f24c3920ab65097fd9d59", null ],
-    [ "ftell", "d2/de2/portable_8h.html#aa76fa3c0c598edac56b9fd5aa2aa1c30", null ],
     [ "getenv", "d2/de2/portable_8h.html#ae1a7516287ca7c75eebc3fa7aa12e970", null ],
     [ "getSysElapsedTime", "d2/de2/portable_8h.html#a248b5a87e07edc01e5ae424b6597142f", null ],
     [ "ghostScriptCommand", "d2/de2/portable_8h.html#a4c4c43977edb27e33f873fbacf11d528", null ],
