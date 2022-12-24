@@ -93,6 +93,7 @@ $(document).ready(function(){initNavTree('d2/de2/portable_8h.html','../../'); in
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">portable.h File Reference</div></div>
 </div><!--header-->
@@ -128,6 +129,11 @@ Namespaces</h2></td></tr>
 <tr class="memitem:d7/d6f/namespace_portable"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6f/namespace_portable.html">Portable</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a25423a5b429a3ee0610315d93938bd0b"><td class="memItemLeft" align="right" valign="top">typedef off_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/de2/portable_8h.html#a25423a5b429a3ee0610315d93938bd0b">portable_off_t</a></td></tr>
+<tr class="separator:a25423a5b429a3ee0610315d93938bd0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ab30a636186b72a67d57e9f7f1e917e99"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6f/namespace_portable.html#ab30a636186b72a67d57e9f7f1e917e99">Portable::system</a> (const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;command, const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;args, bool commandHasConsole=true)</td></tr>
@@ -140,6 +146,10 @@ Functions</h2></td></tr>
 <tr class="separator:abd244447df22d110ad410b69c357fdf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2e29048cffc72c3bed439cff5b02cd4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6f/namespace_portable.html#ac2e29048cffc72c3bed439cff5b02cd4">Portable::unsetenv</a> (const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;variable)</td></tr>
 <tr class="separator:ac2e29048cffc72c3bed439cff5b02cd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a508bfa22b32f24c3920ab65097fd9d59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de2/portable_8h.html#a25423a5b429a3ee0610315d93938bd0b">portable_off_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6f/namespace_portable.html#a508bfa22b32f24c3920ab65097fd9d59">Portable::fseek</a> (FILE *f, <a class="el" href="../../d2/de2/portable_8h.html#a25423a5b429a3ee0610315d93938bd0b">portable_off_t</a> offset, int whence)</td></tr>
+<tr class="separator:a508bfa22b32f24c3920ab65097fd9d59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa76fa3c0c598edac56b9fd5aa2aa1c30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de2/portable_8h.html#a25423a5b429a3ee0610315d93938bd0b">portable_off_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6f/namespace_portable.html#aa76fa3c0c598edac56b9fd5aa2aa1c30">Portable::ftell</a> (FILE *f)</td></tr>
+<tr class="separator:aa76fa3c0c598edac56b9fd5aa2aa1c30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4dbb08c3de409bd1a73be3da6d93ac57"><td class="memItemLeft" align="right" valign="top">FILE *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6f/namespace_portable.html#a4dbb08c3de409bd1a73be3da6d93ac57">Portable::fopen</a> (const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;fileName, const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;mode)</td></tr>
 <tr class="separator:a4dbb08c3de409bd1a73be3da6d93ac57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af099fa6239b4961887192d8eadfd2a44"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6f/namespace_portable.html#af099fa6239b4961887192d8eadfd2a44">Portable::fclose</a> (FILE *f)</td></tr>
@@ -190,7 +200,24 @@ Functions</h2></td></tr>
 <div class="textblock"><p><a class="el" href="../../d7/d6f/namespace_portable.html">Portable</a> versions of functions that are platform dependent. </p>
 
 <p class="definition">Definition in file <a class="el" href="../../d2/de2/portable_8h_source.html">portable.h</a>.</p>
-</div><h2 class="groupheader">Function Documentation</h2>
+</div><h2 class="groupheader">Typedef Documentation</h2>
+<a id="a25423a5b429a3ee0610315d93938bd0b" name="a25423a5b429a3ee0610315d93938bd0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25423a5b429a3ee0610315d93938bd0b">&#9670;&#160;</a></span>portable_off_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef off_t <a class="el" href="../../d2/de2/portable_8h.html#a25423a5b429a3ee0610315d93938bd0b">portable_off_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/de2/portable_8h_source.html#l00015">15</a> of file <a class="el" href="../../d2/de2/portable_8h_source.html">portable.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
 <a id="a5fc5ec1eedfa06b27448863f69ee2e1d" name="a5fc5ec1eedfa06b27448863f69ee2e1d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5fc5ec1eedfa06b27448863f69ee2e1d">&#9670;&#160;</a></span>portable_iconv()</h2>
 
@@ -235,7 +262,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00672">configStringRecode()</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l02082">encodeForOutput()</a>, <a class="el" href="../../d3/d4b/htmlhelp_8cpp_source.html#l00069">HtmlHelpRecoder::recode()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l02608">TemplateContextImpl::recode()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00622">Portable::recodeUtf8StringToW()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l06264">transcodeCharacterBuffer()</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l01346">transcodeCharacterStringToUTF8()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00672">configStringRecode()</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l02082">encodeForOutput()</a>, <a class="el" href="../../d3/d4b/htmlhelp_8cpp_source.html#l00069">HtmlHelpRecoder::recode()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l02608">TemplateContextImpl::recode()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00644">Portable::recodeUtf8StringToW()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l06264">transcodeCharacterBuffer()</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l01346">transcodeCharacterStringToUTF8()</a>.</p>
 
 </div>
 </div>
@@ -255,7 +282,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l11305">adjustConfiguration()</a>, <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00672">configStringRecode()</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l02082">encodeForOutput()</a>, <a class="el" href="../../d3/d4b/htmlhelp_8cpp_source.html#l00060">HtmlHelpRecoder::finalize()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00622">Portable::recodeUtf8StringToW()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l02588">TemplateContextImpl::setEncoding()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l06264">transcodeCharacterBuffer()</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l01346">transcodeCharacterStringToUTF8()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l11305">adjustConfiguration()</a>, <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00672">configStringRecode()</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l02082">encodeForOutput()</a>, <a class="el" href="../../d3/d4b/htmlhelp_8cpp_source.html#l00060">HtmlHelpRecoder::finalize()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00644">Portable::recodeUtf8StringToW()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l02588">TemplateContextImpl::setEncoding()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l06264">transcodeCharacterBuffer()</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l01346">transcodeCharacterStringToUTF8()</a>.</p>
 
 </div>
 </div>
@@ -285,7 +312,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l11305">adjustConfiguration()</a>, <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00672">configStringRecode()</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l02082">encodeForOutput()</a>, <a class="el" href="../../d3/d4b/htmlhelp_8cpp_source.html#l00050">HtmlHelpRecoder::initialize()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00622">Portable::recodeUtf8StringToW()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l02588">TemplateContextImpl::setEncoding()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l06264">transcodeCharacterBuffer()</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l01346">transcodeCharacterStringToUTF8()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l11305">adjustConfiguration()</a>, <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00672">configStringRecode()</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l02082">encodeForOutput()</a>, <a class="el" href="../../d3/d4b/htmlhelp_8cpp_source.html#l00050">HtmlHelpRecoder::initialize()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00644">Portable::recodeUtf8StringToW()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l02588">TemplateContextImpl::setEncoding()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l06264">transcodeCharacterBuffer()</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l01346">transcodeCharacterStringToUTF8()</a>.</p>
 
 </div>
 </div>

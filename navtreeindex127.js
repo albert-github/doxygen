@@ -1,5 +1,10 @@
 var NAVTREEINDEX127 =
 {
+"df/dc8/class_translator_indonesian.html#a4b47ece1d7a23c18d7cc1fd9d44d07b5":[8,0,591,8],
+"df/dc8/class_translator_indonesian.html#a4c7afa351c3e5f842da2d237e0485ee1":[8,0,591,24],
+"df/dc8/class_translator_indonesian.html#a4f0cf3dc04da97ee1f56144facabc88a":[8,0,591,75],
+"df/dc8/class_translator_indonesian.html#a4f3d8efd8df0357e9d17630cfc62185a":[8,0,591,85],
+"df/dc8/class_translator_indonesian.html#a50544a68ed542dc4409c6aa6e0b13701":[8,0,591,152],
 "df/dc8/class_translator_indonesian.html#a50d9cc9dec22664ed528b515836f8a8a":[8,0,591,72],
 "df/dc8/class_translator_indonesian.html#a51679ca5b22f8940a30f120e6ec2d7dd":[8,0,591,45],
 "df/dc8/class_translator_indonesian.html#a530538a2f5526dec0f8684932e4ac51f":[8,0,591,154],
@@ -163,8 +168,8 @@ var NAVTREEINDEX127 =
 "df/dc9/docparser__p_8h_source.html":[9,0,2,70],
 "df/dcd/classreg_1_1_ex_1_1_private.html":[7,0,9,0,0],
 "df/dcd/classreg_1_1_ex_1_1_private.html":[8,0,3,0,0],
-"df/dcd/classreg_1_1_ex_1_1_private.html#a26bba20b316615c53a77eb522602df8a":[7,0,9,0,0,2],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a26bba20b316615c53a77eb522602df8a":[8,0,3,0,0,2],
+"df/dcd/classreg_1_1_ex_1_1_private.html#a26bba20b316615c53a77eb522602df8a":[7,0,9,0,0,2],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a3d43ef3d3304bc786d75340eac860780":[8,0,3,0,0,4],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a3d43ef3d3304bc786d75340eac860780":[7,0,9,0,0,4],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a51e12007f0f7866ad4117c489e90cb8e":[7,0,9,0,0,0],
@@ -173,8 +178,8 @@ var NAVTREEINDEX127 =
 "df/dcd/classreg_1_1_ex_1_1_private.html#a5ae763e5ab5231eae1133e68093c49be":[8,0,3,0,0,1],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a68af93bd4fbea3f82ee8e36af3a6e68b":[7,0,9,0,0,5],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a68af93bd4fbea3f82ee8e36af3a6e68b":[8,0,3,0,0,5],
-"df/dcd/classreg_1_1_ex_1_1_private.html#afd98016e2bda56b81308bdc907569ead":[8,0,3,0,0,3],
 "df/dcd/classreg_1_1_ex_1_1_private.html#afd98016e2bda56b81308bdc907569ead":[7,0,9,0,0,3],
+"df/dcd/classreg_1_1_ex_1_1_private.html#afd98016e2bda56b81308bdc907569ead":[8,0,3,0,0,3],
 "df/dda/class_member_list_context.html":[8,0,388],
 "df/dda/class_member_list_context.html#a0293f82a150435ea73bdae1aea1deba9":[8,0,388,10],
 "df/dda/class_member_list_context.html#a077a8c0f862bcfc9df2f61e29bd9e228":[8,0,388,1],
@@ -244,10 +249,5 @@ var NAVTREEINDEX127 =
 "df/de7/struct_layout_nav_entry.html#aef36305dd829f7cde87ca203ae647c7ca7ec847f42f630b812ad30b4b12430270":[8,0,353,0,3],
 "df/de7/struct_layout_nav_entry.html#aef36305dd829f7cde87ca203ae647c7ca8b7c480240f9d989b78901ced52c4904":[8,0,353,0,11],
 "df/de7/struct_layout_nav_entry.html#aef36305dd829f7cde87ca203ae647c7ca8c9dd04b1066a22886eeb09e825e38e4":[8,0,353,0,28],
-"df/de7/struct_layout_nav_entry.html#aef36305dd829f7cde87ca203ae647c7ca8dd2b8dbead139cad91e6d0ac3334350":[8,0,353,0,27],
-"df/de7/struct_layout_nav_entry.html#aef36305dd829f7cde87ca203ae647c7ca9e761530542ee0b876f003909e665e66":[8,0,353,0,21],
-"df/de7/struct_layout_nav_entry.html#aef36305dd829f7cde87ca203ae647c7caa6f9e295b343cd7e5946dd4748ac376a":[8,0,353,0,5],
-"df/de7/struct_layout_nav_entry.html#aef36305dd829f7cde87ca203ae647c7caaa9db70924904b6cbac27c5a04421cc5":[8,0,353,0,0],
-"df/de7/struct_layout_nav_entry.html#aef36305dd829f7cde87ca203ae647c7caae821e8f40e4e3fde63033c09e16056c":[8,0,353,0,12],
-"df/de7/struct_layout_nav_entry.html#aef36305dd829f7cde87ca203ae647c7cab1480dfc4c8e7a36c0b649f9b546d5ef":[8,0,353,0,13]
+"df/de7/struct_layout_nav_entry.html#aef36305dd829f7cde87ca203ae647c7ca8dd2b8dbead139cad91e6d0ac3334350":[8,0,353,0,27]
 };

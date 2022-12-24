@@ -69,6 +69,8 @@ var namespaces_dup =
       [ "fclose", "d7/d6f/namespace_portable.html#af099fa6239b4961887192d8eadfd2a44", null ],
       [ "fileSystemIsCaseSensitive", "d7/d6f/namespace_portable.html#a8c6ba49e769f2990693fa40528d3c50e", null ],
       [ "fopen", "d7/d6f/namespace_portable.html#a4dbb08c3de409bd1a73be3da6d93ac57", null ],
+      [ "fseek", "d7/d6f/namespace_portable.html#a508bfa22b32f24c3920ab65097fd9d59", null ],
+      [ "ftell", "d7/d6f/namespace_portable.html#aa76fa3c0c598edac56b9fd5aa2aa1c30", null ],
       [ "getenv", "d7/d6f/namespace_portable.html#ae1a7516287ca7c75eebc3fa7aa12e970", null ],
       [ "getSysElapsedTime", "d7/d6f/namespace_portable.html#a248b5a87e07edc01e5ae424b6597142f", null ],
       [ "ghostScriptCommand", "d7/d6f/namespace_portable.html#a4c4c43977edb27e33f873fbacf11d528", null ],

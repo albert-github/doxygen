@@ -395,7 +395,7 @@ var searchData=
   ['showlineno_392',['showLineNo',['../d2/db2/class_doc_inc_operator.html#aea2218e2b49020af7c643b1b6b9204ac',1,'DocIncOperator::showLineNo()'],['../dd/de8/class_page_def_impl.html#ad47be77a18bb00f9b3b432b8722a7a2e',1,'PageDefImpl::showLineNo()'],['../dd/d41/class_page_def.html#a9ea77de5c1a05e87f7fb1dbbf19a12a6',1,'PageDef::showLineNo()']]],
   ['showusedfiles_393',['showUsedFiles',['../d1/d25/class_class_def_impl.html#af21af80199783680a6a6d6e83fff0a39',1,'ClassDefImpl']]],
   ['shrink_394',['shrink',['../d5/d64/class_buf_str.html#a1249e1bd467994877b9671a525782e12',1,'BufStr']]],
-  ['shrinkbuffer_395',['shrinkBuffer',['../d8/d80/class_filter_cache.html#a83dda63454ddae5c6979c308b4094bf5',1,'FilterCache']]],
+  ['shrinkbuffer_395',['shrinkBuffer',['../d8/d80/class_filter_cache.html#a41975c6ec34925928624a3f96074d56f',1,'FilterCache']]],
   ['sidata_396',['SIData',['../d2/dc1/class_s_i_data_collection.html#a4c3e10a26e7f1a0713f71cad4424b055',1,'SIDataCollection']]],
   ['sidata_5fcurrentdoc_397',['SIData_CurrentDoc',['../d0/d9d/struct_s_i_data___current_doc.html',1,'SIData_CurrentDoc'],['../d0/d9d/struct_s_i_data___current_doc.html#a3be768e36e36f25c733809f449fe3911',1,'SIData_CurrentDoc::SIData_CurrentDoc()']]],
   ['sidata_5fword_398',['SIData_Word',['../d7/def/struct_s_i_data___word.html',1,'SIData_Word'],['../d7/def/struct_s_i_data___word.html#a1c35b150169139351dae0a697415fdbd',1,'SIData_Word::SIData_Word()']]],

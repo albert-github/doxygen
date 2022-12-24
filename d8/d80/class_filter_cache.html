@@ -137,9 +137,9 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a2b04ae61006aa3e9ac0d44ded23f246d"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d80/class_filter_cache.html#a2b04ae61006aa3e9ac0d44ded23f246d">getFragmentLocation</a> (const <a class="el" href="../../d8/d80/class_filter_cache.html#a125fac6149a9636b3f8343b05ca24ea9">LineOffsets</a> &amp;lineOffsets, size_t startLine, size_t endLine) -&gt; std::tuple&lt; size_t, size_t &gt;</td></tr>
 <tr class="memdesc:a2b04ae61006aa3e9ac0d44ded23f246d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the byte offset and size within a file of a fragment given the array of line offsets and the start emd end line of the fragment.  <br /></td></tr>
 <tr class="separator:a2b04ae61006aa3e9ac0d44ded23f246d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83dda63454ddae5c6979c308b4094bf5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d80/class_filter_cache.html#a83dda63454ddae5c6979c308b4094bf5">shrinkBuffer</a> (<a class="el" href="../../d5/d64/class_buf_str.html">BufStr</a> &amp;str, const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;fileName, size_t startLine, size_t endLine)</td></tr>
-<tr class="memdesc:a83dda63454ddae5c6979c308b4094bf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shrinks buffer <em>str</em> which should hold the contents of <em>fileName</em> to the fragment starting a line <em>startLine</em> and ending at line <em>endLine</em>.  <br /></td></tr>
-<tr class="separator:a83dda63454ddae5c6979c308b4094bf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41975c6ec34925928624a3f96074d56f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d80/class_filter_cache.html#a41975c6ec34925928624a3f96074d56f">shrinkBuffer</a> (<a class="el" href="../../d5/d64/class_buf_str.html">BufStr</a> &amp;str, const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;fileName, int startLine, int endLine)</td></tr>
+<tr class="memdesc:a41975c6ec34925928624a3f96074d56f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shrinks buffer <em>str</em> which should hold the contents of <em>fileName</em> to the fragment starting a line <em>startLine</em> and ending at line <em>endLine</em>.  <br /></td></tr>
+<tr class="separator:a41975c6ec34925928624a3f96074d56f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a561aed69f8328ab8f425802023f8a502"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d80/class_filter_cache.html#a561aed69f8328ab8f425802023f8a502">readFragmentFromFile</a> (<a class="el" href="../../d5/d64/class_buf_str.html">BufStr</a> &amp;str, const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;fileName, size_t startOffset, size_t size=0)</td></tr>
 <tr class="memdesc:a561aed69f8328ab8f425802023f8a502"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the fragment start at byte offset <em>startOffset</em> of file <em>fileName</em> into buffer <em>str</em>.  <br /></td></tr>
 <tr class="separator:a561aed69f8328ab8f425802023f8a502"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -154,8 +154,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a3772d8fa456dcd1aa7fa7719552d06e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd73c9ef7ca1d08c6c051f3076b44a1f"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d80/class_filter_cache.html#afd73c9ef7ca1d08c6c051f3076b44a1f">m_mutex</a></td></tr>
 <tr class="separator:afd73c9ef7ca1d08c6c051f3076b44a1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9330d2904c228992b599ec62cf3442e0"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d80/class_filter_cache.html#a9330d2904c228992b599ec62cf3442e0">m_endPos</a></td></tr>
-<tr class="separator:a9330d2904c228992b599ec62cf3442e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ef8cdbd8e0b997aeeb92777ff5fc965"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de2/portable_8h.html#a25423a5b429a3ee0610315d93938bd0b">portable_off_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d80/class_filter_cache.html#a5ef8cdbd8e0b997aeeb92777ff5fc965">m_endPos</a></td></tr>
+<tr class="separator:a5ef8cdbd8e0b997aeeb92777ff5fc965"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="../../dc/d67/class_cache.html">Cache</a> for storing the result of filtering a file </p>
@@ -211,8 +211,8 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00774">774</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  774</span>: <a class="code hl_variable" href="../../d8/d80/class_filter_cache.html#a9330d2904c228992b599ec62cf3442e0">m_endPos</a>(0) { }</div>
-<div class="ttc" id="aclass_filter_cache_html_a9330d2904c228992b599ec62cf3442e0"><div class="ttname"><a href="../../d8/d80/class_filter_cache.html#a9330d2904c228992b599ec62cf3442e0">FilterCache::m_endPos</a></div><div class="ttdeci">size_t m_endPos</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l00778">definition.cpp:778</a></div></div>
+<div class="fragment"><div class="line"><span class="lineno">  774</span>: <a class="code hl_variable" href="../../d8/d80/class_filter_cache.html#a5ef8cdbd8e0b997aeeb92777ff5fc965">m_endPos</a>(0) { }</div>
+<div class="ttc" id="aclass_filter_cache_html_a5ef8cdbd8e0b997aeeb92777ff5fc965"><div class="ttname"><a href="../../d8/d80/class_filter_cache.html#a5ef8cdbd8e0b997aeeb92777ff5fc965">FilterCache::m_endPos</a></div><div class="ttdeci">portable_off_t m_endPos</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l00778">definition.cpp:778</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -406,7 +406,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  701</span>        <span class="comment">// read file completely into str buffer</span></div>
 <div class="line"><span class="lineno">  702</span>        <a class="code hl_function" href="../../d8/d80/class_filter_cache.html#a561aed69f8328ab8f425802023f8a502">readFragmentFromFile</a>(str,fileName,0);</div>
 <div class="line"><span class="lineno">  703</span>        <span class="comment">// shrink buffer to [startLine..endLine] part</span></div>
-<div class="line"><span class="lineno">  704</span>        <a class="code hl_function" href="../../d8/d80/class_filter_cache.html#a83dda63454ddae5c6979c308b4094bf5">shrinkBuffer</a>(str,fileName,startLine,endLine);</div>
+<div class="line"><span class="lineno">  704</span>        <a class="code hl_function" href="../../d8/d80/class_filter_cache.html#a41975c6ec34925928624a3f96074d56f">shrinkBuffer</a>(str,fileName,startLine,endLine);</div>
 <div class="line"><span class="lineno">  705</span>      }</div>
 <div class="line"><span class="lineno">  706</span>      <span class="keywordflow">else</span> <span class="comment">// file already processed before</span></div>
 <div class="line"><span class="lineno">  707</span>      {</div>
@@ -418,8 +418,8 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  713</span>      <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><span class="lineno">  714</span>    }</div>
 <div class="ttc" id="aclass_filter_cache_html_a2b04ae61006aa3e9ac0d44ded23f246d"><div class="ttname"><a href="../../d8/d80/class_filter_cache.html#a2b04ae61006aa3e9ac0d44ded23f246d">FilterCache::getFragmentLocation</a></div><div class="ttdeci">auto getFragmentLocation(const LineOffsets &amp;lineOffsets, size_t startLine, size_t endLine) -&gt; std::tuple&lt; size_t, size_t &gt;</div><div class="ttdoc">Returns the byte offset and size within a file of a fragment given the array of line offsets and the ...</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l00734">definition.cpp:734</a></div></div>
+<div class="ttc" id="aclass_filter_cache_html_a41975c6ec34925928624a3f96074d56f"><div class="ttname"><a href="../../d8/d80/class_filter_cache.html#a41975c6ec34925928624a3f96074d56f">FilterCache::shrinkBuffer</a></div><div class="ttdeci">void shrinkBuffer(BufStr &amp;str, const QCString &amp;fileName, int startLine, int endLine)</div><div class="ttdoc">Shrinks buffer str which should hold the contents of fileName to the fragment starting a line startLi...</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l00745">definition.cpp:745</a></div></div>
 <div class="ttc" id="aclass_filter_cache_html_a561aed69f8328ab8f425802023f8a502"><div class="ttname"><a href="../../d8/d80/class_filter_cache.html#a561aed69f8328ab8f425802023f8a502">FilterCache::readFragmentFromFile</a></div><div class="ttdeci">void readFragmentFromFile(BufStr &amp;str, const QCString &amp;fileName, size_t startOffset, size_t size=0)</div><div class="ttdoc">Reads the fragment start at byte offset startOffset of file fileName into buffer str.</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l00763">definition.cpp:763</a></div></div>
-<div class="ttc" id="aclass_filter_cache_html_a83dda63454ddae5c6979c308b4094bf5"><div class="ttname"><a href="../../d8/d80/class_filter_cache.html#a83dda63454ddae5c6979c308b4094bf5">FilterCache::shrinkBuffer</a></div><div class="ttdeci">void shrinkBuffer(BufStr &amp;str, const QCString &amp;fileName, size_t startLine, size_t endLine)</div><div class="ttdoc">Shrinks buffer str which should hold the contents of fileName to the fragment starting a line startLi...</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l00745">definition.cpp:745</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a875e9ad762554ef12f3ed69b015bb245"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">QCString::str</a></div><div class="ttdeci">const std::string &amp; str() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00480">qcstring.h:480</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00480">QCString::str()</a>.</p>
@@ -514,7 +514,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  642</span>        }</div>
 <div class="line"><span class="lineno">  643</span>        FILE *bf = <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a4dbb08c3de409bd1a73be3da6d93ac57">Portable::fopen</a>(<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#ab044e0b3e178d1ba542e38a9c206d57a">Doxygen::filterDBFileName</a>,<span class="stringliteral">&quot;a+b&quot;</span>);</div>
 <div class="line"><span class="lineno">  644</span>        FilterCacheItem item;</div>
-<div class="line"><span class="lineno">  645</span>        item.filePos = <a class="code hl_variable" href="../../d8/d80/class_filter_cache.html#a9330d2904c228992b599ec62cf3442e0">m_endPos</a>;</div>
+<div class="line"><span class="lineno">  645</span>        item.filePos = <a class="code hl_variable" href="../../d8/d80/class_filter_cache.html#a5ef8cdbd8e0b997aeeb92777ff5fc965">m_endPos</a>;</div>
 <div class="line"><span class="lineno">  646</span>        <span class="keywordflow">if</span> (bf==0)</div>
 <div class="line"><span class="lineno">  647</span>        {</div>
 <div class="line"><span class="lineno">  648</span>          <span class="comment">// handle error</span></div>
@@ -551,12 +551,12 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  679</span>        <a class="code hl_function" href="../../da/d7d/class_debug.html#a5d86ffebf96f9f75b6c957db5f831da3">Debug::print</a>(<a class="code hl_enumvalue" href="../../da/d7d/class_debug.html#a9e0b892a8030a4f64076850777991c96a5e47cf9df9552fe30480288b70288d72">Debug::FilterOutput</a>,0,<span class="stringliteral">&quot;Storing new filter result for %s in %s at offset=%lld size=%zu\n&quot;</span>,</div>
 <div class="line"><span class="lineno">  680</span>               <a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(fileName),<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#ab044e0b3e178d1ba542e38a9c206d57a">Doxygen::filterDBFileName</a>),item.filePos,item.fileSize);</div>
 <div class="line"><span class="lineno">  681</span>        <span class="comment">// update end of file position</span></div>
-<div class="line"><span class="lineno">  682</span>        <a class="code hl_variable" href="../../d8/d80/class_filter_cache.html#a9330d2904c228992b599ec62cf3442e0">m_endPos</a> += size;</div>
+<div class="line"><span class="lineno">  682</span>        <a class="code hl_variable" href="../../d8/d80/class_filter_cache.html#a5ef8cdbd8e0b997aeeb92777ff5fc965">m_endPos</a> += size;</div>
 <div class="line"><span class="lineno">  683</span>        <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a6cde8cab8c3dc3397ea5c6030fbf6e84">Portable::pclose</a>(f);</div>
 <div class="line"><span class="lineno">  684</span>        <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#af099fa6239b4961887192d8eadfd2a44">fclose</a>(bf);</div>
 <div class="line"><span class="lineno">  685</span> </div>
 <div class="line"><span class="lineno">  686</span>        <span class="comment">// shrink buffer to [startLine..endLine] part</span></div>
-<div class="line"><span class="lineno">  687</span>        <a class="code hl_function" href="../../d8/d80/class_filter_cache.html#a83dda63454ddae5c6979c308b4094bf5">shrinkBuffer</a>(str,fileName,startLine,endLine);</div>
+<div class="line"><span class="lineno">  687</span>        <a class="code hl_function" href="../../d8/d80/class_filter_cache.html#a41975c6ec34925928624a3f96074d56f">shrinkBuffer</a>(str,fileName,startLine,endLine);</div>
 <div class="line"><span class="lineno">  688</span>      }</div>
 <div class="line"><span class="lineno">  689</span>      <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><span class="lineno">  690</span>    }</div>
@@ -568,14 +568,14 @@ Private Attributes</h2></td></tr>
 <div class="ttc" id="aclass_doxygen_html_ab044e0b3e178d1ba542e38a9c206d57a"><div class="ttname"><a href="../../de/d6a/class_doxygen.html#ab044e0b3e178d1ba542e38a9c206d57a">Doxygen::filterDBFileName</a></div><div class="ttdeci">static QCString filterDBFileName</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da1/doxygen_8h_source.html#l00126">doxygen.h:126</a></div></div>
 <div class="ttc" id="aclass_filter_cache_html_ad92cbee1c6a87517ee25ce8fc5fa9657"><div class="ttname"><a href="../../d8/d80/class_filter_cache.html#ad92cbee1c6a87517ee25ce8fc5fa9657">FilterCache::m_cache</a></div><div class="ttdeci">std::unordered_map&lt; std::string, FilterCacheItem &gt; m_cache</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l00775">definition.cpp:775</a></div></div>
 <div class="ttc" id="amessage_8cpp_html_aede5746344fdce99647541101eaa7f06"><div class="ttname"><a href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a></div><div class="ttdeci">void err(const char *fmt,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6a/message_8cpp_source.html#l00231">message.cpp:231</a></div></div>
-<div class="ttc" id="anamespace_portable_html_a15b92ac03be9e8f4d95d5e881342d83c"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#a15b92ac03be9e8f4d95d5e881342d83c">Portable::popen</a></div><div class="ttdeci">FILE * popen(const QCString &amp;name, const QCString &amp;type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1c/portable_8cpp_source.html#l00487">portable.cpp:487</a></div></div>
-<div class="ttc" id="anamespace_portable_html_a4dbb08c3de409bd1a73be3da6d93ac57"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#a4dbb08c3de409bd1a73be3da6d93ac57">Portable::fopen</a></div><div class="ttdeci">FILE * fopen(const QCString &amp;fileName, const QCString &amp;mode)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1c/portable_8cpp_source.html#l00357">portable.cpp:357</a></div></div>
-<div class="ttc" id="anamespace_portable_html_a6cde8cab8c3dc3397ea5c6030fbf6e84"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#a6cde8cab8c3dc3397ea5c6030fbf6e84">Portable::pclose</a></div><div class="ttdeci">int pclose(FILE *stream)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1c/portable_8cpp_source.html#l00496">portable.cpp:496</a></div></div>
-<div class="ttc" id="anamespace_portable_html_af099fa6239b4961887192d8eadfd2a44"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#af099fa6239b4961887192d8eadfd2a44">Portable::fclose</a></div><div class="ttdeci">int fclose(FILE *f)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1c/portable_8cpp_source.html#l00377">portable.cpp:377</a></div></div>
+<div class="ttc" id="anamespace_portable_html_a15b92ac03be9e8f4d95d5e881342d83c"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#a15b92ac03be9e8f4d95d5e881342d83c">Portable::popen</a></div><div class="ttdeci">FILE * popen(const QCString &amp;name, const QCString &amp;type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1c/portable_8cpp_source.html#l00509">portable.cpp:509</a></div></div>
+<div class="ttc" id="anamespace_portable_html_a4dbb08c3de409bd1a73be3da6d93ac57"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#a4dbb08c3de409bd1a73be3da6d93ac57">Portable::fopen</a></div><div class="ttdeci">FILE * fopen(const QCString &amp;fileName, const QCString &amp;mode)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1c/portable_8cpp_source.html#l00379">portable.cpp:379</a></div></div>
+<div class="ttc" id="anamespace_portable_html_a6cde8cab8c3dc3397ea5c6030fbf6e84"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#a6cde8cab8c3dc3397ea5c6030fbf6e84">Portable::pclose</a></div><div class="ttdeci">int pclose(FILE *stream)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1c/portable_8cpp_source.html#l00518">portable.cpp:518</a></div></div>
+<div class="ttc" id="anamespace_portable_html_af099fa6239b4961887192d8eadfd2a44"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#af099fa6239b4961887192d8eadfd2a44">Portable::fclose</a></div><div class="ttdeci">int fclose(FILE *f)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1c/portable_8cpp_source.html#l00399">portable.cpp:399</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_a4d3943ddea65db7163a58e6c7e8df95a"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#a4d3943ddea65db7163a58e6c7e8df95a">uint</a></div><div class="ttdeci">unsigned uint</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00040">qcstring.h:40</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_a9851ebb5ae2f65b4d2b1d08421edbfd2"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a></div><div class="ttdeci">const char * qPrint(const char *s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00609">qcstring.h:609</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/de5/bufstr_8h_source.html#l00046">BufStr::addArray()</a>, <a class="el" href="../../d4/de5/bufstr_8h_source.html#l00041">BufStr::addChar()</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00231">err()</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00035">Debug::ExtCmd</a>, <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00586">FilterCache::FilterCacheItem::filePos</a>, <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00587">FilterCache::FilterCacheItem::fileSize</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00126">Doxygen::filterDBFileName</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00037">Debug::FilterOutput</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00357">Portable::fopen()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00496">Portable::pclose()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00487">Portable::popen()</a>, <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00058">Debug::print()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00609">qPrint()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00480">QCString::str()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/de5/bufstr_8h_source.html#l00046">BufStr::addArray()</a>, <a class="el" href="../../d4/de5/bufstr_8h_source.html#l00041">BufStr::addChar()</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00231">err()</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00035">Debug::ExtCmd</a>, <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00586">FilterCache::FilterCacheItem::filePos</a>, <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00587">FilterCache::FilterCacheItem::fileSize</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00126">Doxygen::filterDBFileName</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00037">Debug::FilterOutput</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00379">Portable::fopen()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00518">Portable::pclose()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00509">Portable::popen()</a>, <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00058">Debug::print()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00609">qPrint()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00480">QCString::str()</a>.</p>
 
 </div>
 </div>
@@ -732,8 +732,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a83dda63454ddae5c6979c308b4094bf5" name="a83dda63454ddae5c6979c308b4094bf5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83dda63454ddae5c6979c308b4094bf5">&#9670;&#160;</a></span>shrinkBuffer()</h2>
+<a id="a41975c6ec34925928624a3f96074d56f" name="a41975c6ec34925928624a3f96074d56f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41975c6ec34925928624a3f96074d56f">&#9670;&#160;</a></span>shrinkBuffer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -756,13 +756,13 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>startLine</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>endLine</em>&#160;</td>
         </tr>
         <tr>
@@ -827,8 +827,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a9330d2904c228992b599ec62cf3442e0" name="a9330d2904c228992b599ec62cf3442e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9330d2904c228992b599ec62cf3442e0">&#9670;&#160;</a></span>m_endPos</h2>
+<a id="a5ef8cdbd8e0b997aeeb92777ff5fc965" name="a5ef8cdbd8e0b997aeeb92777ff5fc965"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ef8cdbd8e0b997aeeb92777ff5fc965">&#9670;&#160;</a></span>m_endPos</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -837,7 +837,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">size_t FilterCache::m_endPos</td>
+          <td class="memname"><a class="el" href="../../d2/de2/portable_8h.html#a25423a5b429a3ee0610315d93938bd0b">portable_off_t</a> FilterCache::m_endPos</td>
         </tr>
       </table>
   </td>

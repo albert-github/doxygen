@@ -1,5 +1,10 @@
 var NAVTREEINDEX129 =
 {
+"globals_q.html":[9,1,0,16],
+"globals_r.html":[9,1,0,17],
+"globals_s.html":[9,1,0,18],
+"globals_t.html":[9,1,0,19],
+"globals_type.html":[9,1,3],
 "globals_u.html":[9,1,0,20],
 "globals_v.html":[9,1,0,21],
 "globals_vars.html":[9,1,2],
