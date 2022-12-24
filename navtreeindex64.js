@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"d8/dfb/class_translator.html#adcf22e25b6f53f1e98a5461fa6fd4615":[8,0,558,65],
 "d8/dfb/class_translator.html#add6f65cea99a2aaffd476604277bda13":[8,0,558,163],
 "d8/dfb/class_translator.html#ade034ca30aff9cee3e24c3b498cdc3bc":[8,0,558,127],
 "d8/dfb/class_translator.html#ade090183d43e3f6a3bcebf03a89ebdfd":[8,0,558,64],
@@ -52,14 +53,14 @@ var NAVTREEINDEX64 =
 "d8/dfb/class_translator.html#afe1d9b3dcd74bb8fb8c116c2c0e86e2e":[8,0,558,68],
 "d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html":[8,0,5,0,6],
 "d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html":[7,0,11,0,6],
-"d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#a0afc3cb894583ee40c53a3a5c54495dc":[8,0,5,0,6,0],
 "d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#a0afc3cb894583ee40c53a3a5c54495dc":[7,0,11,0,6,0],
-"d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#a27aa05445202b2d20d5cd95983d8fd86":[8,0,5,0,6,1],
+"d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#a0afc3cb894583ee40c53a3a5c54495dc":[8,0,5,0,6,0],
 "d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#a27aa05445202b2d20d5cd95983d8fd86":[7,0,11,0,6,1],
+"d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#a27aa05445202b2d20d5cd95983d8fd86":[8,0,5,0,6,1],
 "d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#a6d2fbf9bff5de1775a78dc4872ccdca5":[8,0,5,0,6,4],
 "d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#a6d2fbf9bff5de1775a78dc4872ccdca5":[7,0,11,0,6,4],
-"d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#af0dffd5c5809a0bf16881b19c5786fc3":[8,0,5,0,6,2],
 "d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#af0dffd5c5809a0bf16881b19c5786fc3":[7,0,11,0,6,2],
+"d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#af0dffd5c5809a0bf16881b19c5786fc3":[8,0,5,0,6,2],
 "d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#aff28441094086f5cbf8ee8f34a8bc9a4":[7,0,11,0,6,3],
 "d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#aff28441094086f5cbf8ee8f34a8bc9a4":[8,0,5,0,6,3],
 "d9/d06/class_template_node_variable.html":[8,0,536],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "d9/d1b/class_translator_dutch.html#a6b72ae157a4f066a629f881e05c774cf":[8,0,582,36],
 "d9/d1b/class_translator_dutch.html#a6ba4694852a8e84bfeca37f2a405eb72":[8,0,582,43],
 "d9/d1b/class_translator_dutch.html#a6c3f7d3733b05a4dc9f0618eded7bdf3":[8,0,582,57],
-"d9/d1b/class_translator_dutch.html#a6d46de54c2484599c9d22e9b8d2080e6":[8,0,582,100],
-"d9/d1b/class_translator_dutch.html#a6d8821ed61cf8ffa58ca61d2305bf0d0":[8,0,582,195]
+"d9/d1b/class_translator_dutch.html#a6d46de54c2484599c9d22e9b8d2080e6":[8,0,582,100]
 };

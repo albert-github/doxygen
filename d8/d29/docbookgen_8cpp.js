@@ -6,6 +6,7 @@ var docbookgen_8cpp =
     [ "DB_GEN_C2a", "d8/d29/docbookgen_8cpp.html#a6f0e27e5a10a97d88bb77b84d6d42481", null ],
     [ "Docbook_DB", "d8/d29/docbookgen_8cpp.html#a72e66067731a340037c60b0774b24ef4", null ],
     [ "addIndexTerm", "d8/d29/docbookgen_8cpp.html#ac174bf305a6b97803492e067a2f8dd77", null ],
+    [ "objectLinkToString", "d8/d29/docbookgen_8cpp.html#a311635f4bd437fd28ab5fe0f0309f15d", null ],
     [ "writeDocbookCodeString", "d8/d29/docbookgen_8cpp.html#ab577267901e65dac0690326ef512f9d4", null ],
     [ "writeDocbookLink", "d8/d29/docbookgen_8cpp.html#a748b4a218a6a5cd91bd9fdcf939b9c3c", null ],
     [ "writeDocbookString", "d8/d29/docbookgen_8cpp.html#a598af556233ed34c685184d9e0741c3e", null ]

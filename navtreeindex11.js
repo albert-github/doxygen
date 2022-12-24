@@ -1,5 +1,7 @@
 var NAVTREEINDEX11 =
 {
+"d1/d72/class_docbook_generator.html#a205e8526c572a3bc41d634bf57dd1e93":[8,0,123,44],
+"d1/d72/class_docbook_generator.html#a207ad156ddb389309522fc4c6998bc3f":[8,0,123,200],
 "d1/d72/class_docbook_generator.html#a2357e3802724a0a59e5ada38f3b86479":[8,0,123,179],
 "d1/d72/class_docbook_generator.html#a23d3d93e8e6022e07d22e713925e55b8":[8,0,123,59],
 "d1/d72/class_docbook_generator.html#a2508a2106dfe5682ee5406f278e742d7":[8,0,123,180],
@@ -247,7 +249,5 @@ var NAVTREEINDEX11 =
 "d1/d7e/structxmlcode_y_y__state.html#af6b696d9512416935ecce78191538a72":[8,0,632,16],
 "d1/d7f/class_doc_tokenizer.html":[8,0,185],
 "d1/d7f/class_doc_tokenizer.html#a060403865cc48ca7f55af46d8272282c":[8,0,185,57],
-"d1/d7f/class_doc_tokenizer.html#a0b6da566ad128beaf9ccb68aa8d1c705":[8,0,185,51],
-"d1/d7f/class_doc_tokenizer.html#a1416a695181d2b7475649fcfa6328afc":[8,0,185,3],
-"d1/d7f/class_doc_tokenizer.html#a146a51289b61c4a07eae63f20a70c47c":[8,0,185,29]
+"d1/d7f/class_doc_tokenizer.html#a0b6da566ad128beaf9ccb68aa8d1c705":[8,0,185,51]
 };

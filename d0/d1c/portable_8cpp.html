@@ -181,48 +181,48 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00422">422</a> of file <a class="el" href="../../d0/d1c/portable_8cpp_source.html">portable.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  423</span>{</div>
-<div class="line"><span class="lineno">  424</span>  <a class="code hl_class" href="../../d0/da1/class_file_info.html">FileInfo</a> fi1(fileName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>());</div>
-<div class="line"><span class="lineno">  425</span>  <span class="keywordflow">if</span> (fi1.exists()) <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  426</span> </div>
-<div class="line"><span class="lineno">  427</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> paths = <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#ae1a7516287ca7c75eebc3fa7aa12e970">Portable::getenv</a>(<span class="stringliteral">&quot;PATH&quot;</span>);</div>
-<div class="line"><span class="lineno">  428</span>  <span class="keywordtype">char</span> listSep = <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a33ec52ac55c4d58e0748239920ee3e14">Portable::pathListSeparator</a>()[0];</div>
-<div class="line"><span class="lineno">  429</span>  <span class="keywordtype">char</span> pathSep = <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a0f30be3f0aed0b88804816f3e6310ee4">Portable::pathSeparator</a>()[0];</div>
-<div class="line"><span class="lineno">  430</span>  <span class="keywordtype">int</span> strt = 0;</div>
-<div class="line"><span class="lineno">  431</span>  <span class="keywordtype">int</span> idx;</div>
-<div class="line"><span class="lineno">  432</span>  <span class="keywordflow">while</span> ((idx = paths.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0182ece6b76dad6475dafb53e2faaf10">find</a>(listSep,strt)) != -1)</div>
-<div class="line"><span class="lineno">  433</span>  {</div>
-<div class="line"><span class="lineno">  434</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> locFile(paths.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(strt,idx-strt));</div>
-<div class="line"><span class="lineno">  435</span>    locFile += pathSep;</div>
-<div class="line"><span class="lineno">  436</span>    locFile += fileName;</div>
-<div class="line"><span class="lineno">  437</span>    <a class="code hl_class" href="../../d0/da1/class_file_info.html">FileInfo</a> fi(locFile.str());</div>
-<div class="line"><span class="lineno">  438</span>    <span class="keywordflow">if</span> (fi.exists()) <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  439</span>    strt = idx + 1;</div>
-<div class="line"><span class="lineno">  440</span>  }</div>
-<div class="line"><span class="lineno">  441</span>  <span class="comment">// to be sure the last path component is checked as well</span></div>
-<div class="line"><span class="lineno">  442</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> locFile(paths.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(strt));</div>
-<div class="line"><span class="lineno">  443</span>  <span class="keywordflow">if</span> (!locFile.isEmpty())</div>
-<div class="line"><span class="lineno">  444</span>  {</div>
-<div class="line"><span class="lineno">  445</span>    locFile += pathSep;</div>
-<div class="line"><span class="lineno">  446</span>    locFile += fileName;</div>
-<div class="line"><span class="lineno">  447</span>    <a class="code hl_class" href="../../d0/da1/class_file_info.html">FileInfo</a> fi(locFile.str());</div>
-<div class="line"><span class="lineno">  448</span>    <span class="keywordflow">if</span> (fi.exists()) <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  449</span>  }</div>
-<div class="line"><span class="lineno">  450</span>  <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  451</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00400">400</a> of file <a class="el" href="../../d0/d1c/portable_8cpp_source.html">portable.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  401</span>{</div>
+<div class="line"><span class="lineno">  402</span>  <a class="code hl_class" href="../../d0/da1/class_file_info.html">FileInfo</a> fi1(fileName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>());</div>
+<div class="line"><span class="lineno">  403</span>  <span class="keywordflow">if</span> (fi1.exists()) <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  404</span> </div>
+<div class="line"><span class="lineno">  405</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> paths = <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#ae1a7516287ca7c75eebc3fa7aa12e970">Portable::getenv</a>(<span class="stringliteral">&quot;PATH&quot;</span>);</div>
+<div class="line"><span class="lineno">  406</span>  <span class="keywordtype">char</span> listSep = <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a33ec52ac55c4d58e0748239920ee3e14">Portable::pathListSeparator</a>()[0];</div>
+<div class="line"><span class="lineno">  407</span>  <span class="keywordtype">char</span> pathSep = <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a0f30be3f0aed0b88804816f3e6310ee4">Portable::pathSeparator</a>()[0];</div>
+<div class="line"><span class="lineno">  408</span>  <span class="keywordtype">int</span> strt = 0;</div>
+<div class="line"><span class="lineno">  409</span>  <span class="keywordtype">int</span> idx;</div>
+<div class="line"><span class="lineno">  410</span>  <span class="keywordflow">while</span> ((idx = paths.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0182ece6b76dad6475dafb53e2faaf10">find</a>(listSep,strt)) != -1)</div>
+<div class="line"><span class="lineno">  411</span>  {</div>
+<div class="line"><span class="lineno">  412</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> locFile(paths.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(strt,idx-strt));</div>
+<div class="line"><span class="lineno">  413</span>    locFile += pathSep;</div>
+<div class="line"><span class="lineno">  414</span>    locFile += fileName;</div>
+<div class="line"><span class="lineno">  415</span>    <a class="code hl_class" href="../../d0/da1/class_file_info.html">FileInfo</a> fi(locFile.str());</div>
+<div class="line"><span class="lineno">  416</span>    <span class="keywordflow">if</span> (fi.exists()) <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  417</span>    strt = idx + 1;</div>
+<div class="line"><span class="lineno">  418</span>  }</div>
+<div class="line"><span class="lineno">  419</span>  <span class="comment">// to be sure the last path component is checked as well</span></div>
+<div class="line"><span class="lineno">  420</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> locFile(paths.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(strt));</div>
+<div class="line"><span class="lineno">  421</span>  <span class="keywordflow">if</span> (!locFile.isEmpty())</div>
+<div class="line"><span class="lineno">  422</span>  {</div>
+<div class="line"><span class="lineno">  423</span>    locFile += pathSep;</div>
+<div class="line"><span class="lineno">  424</span>    locFile += fileName;</div>
+<div class="line"><span class="lineno">  425</span>    <a class="code hl_class" href="../../d0/da1/class_file_info.html">FileInfo</a> fi(locFile.str());</div>
+<div class="line"><span class="lineno">  426</span>    <span class="keywordflow">if</span> (fi.exists()) <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  427</span>  }</div>
+<div class="line"><span class="lineno">  428</span>  <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  429</span>}</div>
 <div class="ttc" id="aclass_file_info_html"><div class="ttname"><a href="../../d0/da1/class_file_info.html">FileInfo</a></div><div class="ttdoc">Minimal replacement for QFileInfo.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d45/fileinfo_8h_source.html#l00022">fileinfo.h:23</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html">QCString</a></div><div class="ttdoc">This is an alternative implementation of QCString.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00108">qcstring.h:109</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a0182ece6b76dad6475dafb53e2faaf10"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a0182ece6b76dad6475dafb53e2faaf10">QCString::find</a></div><div class="ttdeci">int find(char c, int index=0, bool cs=TRUE) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d3e/qcstring_8cpp_source.html#l00043">qcstring.cpp:43</a></div></div>
-<div class="ttc" id="aclass_q_c_string_html_a27136caf9c0bc4daca574cda6f113551"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">QCString::mid</a></div><div class="ttdeci">QCString mid(size_t index, size_t len=static_cast&lt; size_t &gt;(-1)) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00224">qcstring.h:224</a></div></div>
-<div class="ttc" id="aclass_q_c_string_html_a875e9ad762554ef12f3ed69b015bb245"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">QCString::str</a></div><div class="ttdeci">const std::string &amp; str() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00480">qcstring.h:480</a></div></div>
-<div class="ttc" id="anamespace_portable_html_a0f30be3f0aed0b88804816f3e6310ee4"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#a0f30be3f0aed0b88804816f3e6310ee4">Portable::pathSeparator</a></div><div class="ttdeci">QCString pathSeparator()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1c/portable_8cpp_source.html#l00404">portable.cpp:404</a></div></div>
-<div class="ttc" id="anamespace_portable_html_a33ec52ac55c4d58e0748239920ee3e14"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#a33ec52ac55c4d58e0748239920ee3e14">Portable::pathListSeparator</a></div><div class="ttdeci">QCString pathListSeparator()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1c/portable_8cpp_source.html#l00413">portable.cpp:413</a></div></div>
+<div class="ttc" id="aclass_q_c_string_html_a27136caf9c0bc4daca574cda6f113551"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">QCString::mid</a></div><div class="ttdeci">QCString mid(size_t index, size_t len=static_cast&lt; size_t &gt;(-1)) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00227">qcstring.h:227</a></div></div>
+<div class="ttc" id="aclass_q_c_string_html_a875e9ad762554ef12f3ed69b015bb245"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">QCString::str</a></div><div class="ttdeci">const std::string &amp; str() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00483">qcstring.h:483</a></div></div>
+<div class="ttc" id="anamespace_portable_html_a0f30be3f0aed0b88804816f3e6310ee4"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#a0f30be3f0aed0b88804816f3e6310ee4">Portable::pathSeparator</a></div><div class="ttdeci">QCString pathSeparator()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1c/portable_8cpp_source.html#l00382">portable.cpp:382</a></div></div>
+<div class="ttc" id="anamespace_portable_html_a33ec52ac55c4d58e0748239920ee3e14"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#a33ec52ac55c4d58e0748239920ee3e14">Portable::pathListSeparator</a></div><div class="ttdeci">QCString pathListSeparator()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1c/portable_8cpp_source.html#l00391">portable.cpp:391</a></div></div>
 <div class="ttc" id="anamespace_portable_html_ae1a7516287ca7c75eebc3fa7aa12e970"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#ae1a7516287ca7c75eebc3fa7aa12e970">Portable::getenv</a></div><div class="ttdeci">QCString getenv(const QCString &amp;variable)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1c/portable_8cpp_source.html#l00336">portable.cpp:336</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/dbc/fileinfo_8cpp_source.html#l00030">FileInfo::exists()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00043">QCString::find()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00336">Portable::getenv()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00224">QCString::mid()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00413">Portable::pathListSeparator()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00404">Portable::pathSeparator()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00480">QCString::str()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/dbc/fileinfo_8cpp_source.html#l00030">FileInfo::exists()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00043">QCString::find()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00336">Portable::getenv()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00227">QCString::mid()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00391">Portable::pathListSeparator()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00382">Portable::pathSeparator()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00483">QCString::str()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00453">Portable::checkForExecutable()</a>, and <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00467">Portable::ghostScriptCommand()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00431">Portable::checkForExecutable()</a>, and <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00445">Portable::ghostScriptCommand()</a>.</p>
 
 </div>
 </div>
@@ -322,37 +322,37 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00593">593</a> of file <a class="el" href="../../d0/d1c/portable_8cpp_source.html">portable.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  595</span>{</div>
-<div class="line"><span class="lineno">  596</span>  <span class="keyword">const</span> <span class="keywordtype">char</span> *<span class="keyword">const</span> last_possible = haystack + haystack_len - needle_len;</div>
-<div class="line"><span class="lineno">  597</span> </div>
-<div class="line"><span class="lineno">  598</span>  <span class="keywordflow">if</span> (needle_len == 0)</div>
-<div class="line"><span class="lineno">  599</span>    <span class="comment">// The first occurrence of the empty string should to occur at the beginning of the string.</span></div>
-<div class="line"><span class="lineno">  600</span>  {</div>
-<div class="line"><span class="lineno">  601</span>    <span class="keywordflow">return</span> haystack;</div>
-<div class="line"><span class="lineno">  602</span>  }</div>
-<div class="line"><span class="lineno">  603</span> </div>
-<div class="line"><span class="lineno">  604</span>  <span class="comment">// Sanity check</span></div>
-<div class="line"><span class="lineno">  605</span>  <span class="keywordflow">if</span> (haystack_len &lt; needle_len)</div>
-<div class="line"><span class="lineno">  606</span>  {</div>
-<div class="line"><span class="lineno">  607</span>    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><span class="lineno">  608</span>  }</div>
-<div class="line"><span class="lineno">  609</span> </div>
-<div class="line"><span class="lineno">  610</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code hl_function" href="../../d3/d48/dir_8cpp.html#a6c544e0039887bf39e3c9e85f55d8ebc">begin</a> = haystack; <a class="code hl_function" href="../../d3/d48/dir_8cpp.html#a6c544e0039887bf39e3c9e85f55d8ebc">begin</a> &lt;= last_possible; ++<a class="code hl_function" href="../../d3/d48/dir_8cpp.html#a6c544e0039887bf39e3c9e85f55d8ebc">begin</a>)</div>
-<div class="line"><span class="lineno">  611</span>  {</div>
-<div class="line"><span class="lineno">  612</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d3/d48/dir_8cpp.html#a6c544e0039887bf39e3c9e85f55d8ebc">begin</a>[0] == needle[0] &amp;&amp; !memcmp(&amp;<a class="code hl_function" href="../../d3/d48/dir_8cpp.html#a6c544e0039887bf39e3c9e85f55d8ebc">begin</a>[1], needle + 1, needle_len - 1))</div>
-<div class="line"><span class="lineno">  613</span>    {</div>
-<div class="line"><span class="lineno">  614</span>      <span class="keywordflow">return</span> <a class="code hl_function" href="../../d3/d48/dir_8cpp.html#a6c544e0039887bf39e3c9e85f55d8ebc">begin</a>;</div>
-<div class="line"><span class="lineno">  615</span>    }</div>
-<div class="line"><span class="lineno">  616</span>  }</div>
-<div class="line"><span class="lineno">  617</span> </div>
-<div class="line"><span class="lineno">  618</span>  <span class="keywordflow">return</span> 0;</div>
-<div class="line"><span class="lineno">  619</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00571">571</a> of file <a class="el" href="../../d0/d1c/portable_8cpp_source.html">portable.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  573</span>{</div>
+<div class="line"><span class="lineno">  574</span>  <span class="keyword">const</span> <span class="keywordtype">char</span> *<span class="keyword">const</span> last_possible = haystack + haystack_len - needle_len;</div>
+<div class="line"><span class="lineno">  575</span> </div>
+<div class="line"><span class="lineno">  576</span>  <span class="keywordflow">if</span> (needle_len == 0)</div>
+<div class="line"><span class="lineno">  577</span>    <span class="comment">// The first occurrence of the empty string should to occur at the beginning of the string.</span></div>
+<div class="line"><span class="lineno">  578</span>  {</div>
+<div class="line"><span class="lineno">  579</span>    <span class="keywordflow">return</span> haystack;</div>
+<div class="line"><span class="lineno">  580</span>  }</div>
+<div class="line"><span class="lineno">  581</span> </div>
+<div class="line"><span class="lineno">  582</span>  <span class="comment">// Sanity check</span></div>
+<div class="line"><span class="lineno">  583</span>  <span class="keywordflow">if</span> (haystack_len &lt; needle_len)</div>
+<div class="line"><span class="lineno">  584</span>  {</div>
+<div class="line"><span class="lineno">  585</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  586</span>  }</div>
+<div class="line"><span class="lineno">  587</span> </div>
+<div class="line"><span class="lineno">  588</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code hl_function" href="../../d3/d48/dir_8cpp.html#a6c544e0039887bf39e3c9e85f55d8ebc">begin</a> = haystack; <a class="code hl_function" href="../../d3/d48/dir_8cpp.html#a6c544e0039887bf39e3c9e85f55d8ebc">begin</a> &lt;= last_possible; ++<a class="code hl_function" href="../../d3/d48/dir_8cpp.html#a6c544e0039887bf39e3c9e85f55d8ebc">begin</a>)</div>
+<div class="line"><span class="lineno">  589</span>  {</div>
+<div class="line"><span class="lineno">  590</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d3/d48/dir_8cpp.html#a6c544e0039887bf39e3c9e85f55d8ebc">begin</a>[0] == needle[0] &amp;&amp; !memcmp(&amp;<a class="code hl_function" href="../../d3/d48/dir_8cpp.html#a6c544e0039887bf39e3c9e85f55d8ebc">begin</a>[1], needle + 1, needle_len - 1))</div>
+<div class="line"><span class="lineno">  591</span>    {</div>
+<div class="line"><span class="lineno">  592</span>      <span class="keywordflow">return</span> <a class="code hl_function" href="../../d3/d48/dir_8cpp.html#a6c544e0039887bf39e3c9e85f55d8ebc">begin</a>;</div>
+<div class="line"><span class="lineno">  593</span>    }</div>
+<div class="line"><span class="lineno">  594</span>  }</div>
+<div class="line"><span class="lineno">  595</span> </div>
+<div class="line"><span class="lineno">  596</span>  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  597</span>}</div>
 <div class="ttc" id="adir_8cpp_html_a6c544e0039887bf39e3c9e85f55d8ebc"><div class="ttname"><a href="../../d3/d48/dir_8cpp.html#a6c544e0039887bf39e3c9e85f55d8ebc">begin</a></div><div class="ttdeci">DirIterator begin(DirIterator it) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d48/dir_8cpp_source.html#l00124">dir.cpp:124</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d3/d48/dir_8cpp_source.html#l00124">begin()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00621">Portable::strnstr()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00599">Portable::strnstr()</a>.</p>
 
 </div>
 </div>

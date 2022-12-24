@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"d8/d83/class_translator_latvian.html#a1fbaa5241a205d860272f239b6d415cd":[8,0,597,159],
 "d8/d83/class_translator_latvian.html#a1fcfc6a0ddc8a35840a0ce2ffc59fcee":[8,0,597,63],
 "d8/d83/class_translator_latvian.html#a1fdf47adfe54ad96268832f4a622daff":[8,0,597,41],
 "d8/d83/class_translator_latvian.html#a22bbe030d98d4f055d9b42a60e163816":[8,0,597,135],
@@ -222,12 +223,12 @@ var NAVTREEINDEX61 =
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html":[7,0,11,0,2],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a0994fa11976ac659180bf73c1068783e":[8,0,5,0,2,3],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a0994fa11976ac659180bf73c1068783e":[7,0,11,0,2,3],
-"d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a5d25b6278ae014a14a0f5be2678f663c":[8,0,5,0,2,4],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a5d25b6278ae014a14a0f5be2678f663c":[7,0,11,0,2,4],
-"d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a6b6a95b77fab1e71ce05bd43da1b8f67":[8,0,5,0,2,5],
+"d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a5d25b6278ae014a14a0f5be2678f663c":[8,0,5,0,2,4],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a6b6a95b77fab1e71ce05bd43da1b8f67":[7,0,11,0,2,5],
-"d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a952889761822083d0eb8175cc62e6b7f":[7,0,11,0,2,2],
+"d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a6b6a95b77fab1e71ce05bd43da1b8f67":[8,0,5,0,2,5],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a952889761822083d0eb8175cc62e6b7f":[8,0,5,0,2,2],
+"d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a952889761822083d0eb8175cc62e6b7f":[7,0,11,0,2,2],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a953e9b05e336c11f8e2435b3ea506bc1":[7,0,11,0,2,0],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#a953e9b05e336c11f8e2435b3ea506bc1":[8,0,5,0,2,0],
 "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html#aaaa2b2b81198a1e2a706a91baa09712c":[7,0,11,0,2,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "d8/db4/md__home_runner_work_doxygen_doxygen_doc_internal_commands_internal.html#cmdifile":[2,1],
 "d8/db4/md__home_runner_work_doxygen_doxygen_doc_internal_commands_internal.html#cmdiline":[2,2],
 "d8/db4/md__home_runner_work_doxygen_doxygen_doc_internal_commands_internal.html#cmdilinebr":[2,0],
-"d8/db4/md__home_runner_work_doxygen_doxygen_doc_internal_commands_internal.html#cmdiliteral":[2,5],
-"d8/db4/md__home_runner_work_doxygen_doxygen_doc_internal_commands_internal.html#cmdiverbatim":[2,7]
+"d8/db4/md__home_runner_work_doxygen_doxygen_doc_internal_commands_internal.html#cmdiliteral":[2,5]
 };
