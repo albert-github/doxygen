@@ -653,7 +653,7 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno">  148</span>&lt;Start&gt;{B}*&quot;::&quot;{B}*             { // found a yyextra-&gt;scope specifier</div>
 <div class="line"><span class="lineno">  149</span>                                  <span class="keywordflow">if</span> (!yyextra-&gt;scope.isEmpty() &amp;&amp; !yyextra-&gt;scope.endsWith(<span class="stringliteral">&quot;::&quot;</span>))</div>
 <div class="line"><span class="lineno">  150</span>                                  {</div>
-<div class="line"><span class="lineno">  151</span>                                    yyextra-&gt;scope+=<span class="stringliteral">&quot;::&quot;</span>+yyextra-&gt;name; <span class="comment">// add yyextra-&gt;name to yyextra-&gt;scope</span></div>
+<div class="line"><span class="lineno">  151</span>                                    <span class="keywordflow">if</span> (!yyextra-&gt;name.isEmpty()) yyextra-&gt;scope+=<span class="stringliteral">&quot;::&quot;</span>+yyextra-&gt;name; <span class="comment">// add yyextra-&gt;name to yyextra-&gt;scope</span></div>
 <div class="line"><span class="lineno">  152</span>                                  }</div>
 <div class="line"><span class="lineno">  153</span>                                  <span class="keywordflow">else</span></div>
 <div class="line"><span class="lineno">  154</span>                                  {</div>
