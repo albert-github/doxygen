@@ -148,6 +148,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a2ec28eb2358035889bbd91cec58d24e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb1f385aa4c24942dd6c1b43a419898c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dfb/structscanner_y_y__state.html#abb1f385aa4c24942dd6c1b43a419898c">lastSkipVerbStringContext</a> = 0</td></tr>
 <tr class="separator:abb1f385aa4c24942dd6c1b43a419898c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf12dd6cf7aa6d6f95a227ef4e07965d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dfb/structscanner_y_y__state.html#acf12dd6cf7aa6d6f95a227ef4e07965d">lastSkipInterpStringContext</a> = 0</td></tr>
+<tr class="separator:acf12dd6cf7aa6d6f95a227ef4e07965d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a686f0a61fc2fa50753d9d3840f8fe8cf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dfb/structscanner_y_y__state.html#a686f0a61fc2fa50753d9d3840f8fe8cf">lastSkipInterpVerbStringContext</a> = 0</td></tr>
+<tr class="separator:a686f0a61fc2fa50753d9d3840f8fe8cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a487f0f5e8d018c2f10457865569f9130"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dfb/structscanner_y_y__state.html#a487f0f5e8d018c2f10457865569f9130">lastCommentInArgContext</a> = 0</td></tr>
 <tr class="separator:a487f0f5e8d018c2f10457865569f9130"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afec15e15d17fee635d5e36631baa1e22"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dfb/structscanner_y_y__state.html#afec15e15d17fee635d5e36631baa1e22">lastRawStringContext</a> = 0</td></tr>
@@ -312,6 +316,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:abe036c97ca2ba14b9b6b57e326d506b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79644e9b36dee802364463683162121a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d30/class_text_stream.html">TextStream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dfb/structscanner_y_y__state.html#a79644e9b36dee802364463683162121a">pSkipVerbString</a> = 0</td></tr>
 <tr class="separator:a79644e9b36dee802364463683162121a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0564dd227799a611c45acb3451964675"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d30/class_text_stream.html">TextStream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dfb/structscanner_y_y__state.html#a0564dd227799a611c45acb3451964675">pSkipInterpString</a> = 0</td></tr>
+<tr class="separator:a0564dd227799a611c45acb3451964675"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca75f7da4eea2e0dc0b34f1ba129a18b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d30/class_text_stream.html">TextStream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dfb/structscanner_y_y__state.html#aca75f7da4eea2e0dc0b34f1ba129a18b">pSkipInterpVerbString</a> = 0</td></tr>
+<tr class="separator:aca75f7da4eea2e0dc0b34f1ba129a18b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb58d4e2bcc7a9889daa55e04a9c7561"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dfb/structscanner_y_y__state.html#aeb58d4e2bcc7a9889daa55e04a9c7561">insideFormula</a> = false</td></tr>
 <tr class="separator:aeb58d4e2bcc7a9889daa55e04a9c7561"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9891a7502ed018697b6da850bec7f765"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dfb/structscanner_y_y__state.html#a9891a7502ed018697b6da850bec7f765">insideTryBlock</a> = false</td></tr>
@@ -385,7 +393,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00124">124</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00126">126</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -401,7 +409,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00144">144</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00146">146</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -417,7 +425,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00146">146</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00148">148</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -433,7 +441,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00145">145</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00147">147</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -449,7 +457,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00125">125</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00127">127</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -465,7 +473,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00097">97</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00099">99</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -481,7 +489,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00117">117</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00119">119</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -497,7 +505,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00180">180</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00184">184</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -513,7 +521,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00205">205</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00209">209</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -529,7 +537,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00198">198</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00202">202</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -561,7 +569,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00151">151</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00153">153</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -577,7 +585,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00100">100</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00102">102</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -593,7 +601,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00103">103</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00105">105</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -609,7 +617,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00104">104</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00106">106</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -625,7 +633,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00147">147</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00149">149</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -641,7 +649,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00155">155</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00157">157</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -657,7 +665,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00196">196</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00200">200</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -673,7 +681,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00179">179</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00183">183</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -689,7 +697,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00183">183</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00187">187</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -705,7 +713,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00186">186</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00190">190</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -721,7 +729,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00182">182</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00186">186</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -737,7 +745,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00185">185</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00189">189</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -753,7 +761,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00184">184</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00188">188</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -769,7 +777,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00187">187</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00191">191</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -785,7 +793,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00142">142</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00144">144</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -801,7 +809,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00153">153</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00155">155</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -817,7 +825,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00208">208</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00212">212</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -833,7 +841,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00194">194</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00198">198</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -849,7 +857,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00207">207</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00211">211</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -865,7 +873,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00200">200</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00204">204</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -881,7 +889,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00113">113</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00115">115</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -897,7 +905,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00107">107</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00109">109</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -913,7 +921,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00152">152</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00154">154</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -929,7 +937,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00122">122</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00124">124</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -945,7 +953,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00189">189</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00193">193</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -961,7 +969,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00190">190</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00194">194</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -977,7 +985,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00176">176</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00180">180</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1027,7 +1035,7 @@ Public Attributes</h2></td></tr>
 
 <p>processing C++/CLI code? </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00135">135</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00137">137</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1043,7 +1051,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00173">173</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00177">177</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1061,7 +1069,7 @@ Public Attributes</h2></td></tr>
 
 <p>processing C/C++ code </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00138">138</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00140">140</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1077,7 +1085,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00140">140</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00142">142</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1095,7 +1103,7 @@ Public Attributes</h2></td></tr>
 
 <p>processing C# code? </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00131">131</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00133">133</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1113,7 +1121,7 @@ Public Attributes</h2></td></tr>
 
 <p>processing D code? </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00132">132</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00134">134</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1129,7 +1137,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00171">171</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00175">175</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1147,7 +1155,7 @@ Public Attributes</h2></td></tr>
 
 <p>processing IDL code? </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00129">129</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00131">131</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1165,7 +1173,7 @@ Public Attributes</h2></td></tr>
 
 <p>processing Java code? </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00130">130</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00132">132</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1183,7 +1191,7 @@ Public Attributes</h2></td></tr>
 
 <p>processing JavaScript code? </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00136">136</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00138">138</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1201,7 +1209,7 @@ Public Attributes</h2></td></tr>
 
 <p>processing Objective C code? </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00134">134</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00136">136</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1219,7 +1227,7 @@ Public Attributes</h2></td></tr>
 
 <p>processing PHP code? </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00133">133</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00135">135</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1235,7 +1243,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00141">141</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00143">143</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1253,7 +1261,7 @@ Public Attributes</h2></td></tr>
 
 <p>processing Slice code? </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00137">137</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00139">139</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1269,7 +1277,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00172">172</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00176">176</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1285,7 +1293,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00121">121</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00123">123</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1301,7 +1309,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00128">128</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00130">130</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1317,7 +1325,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00093">93</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00095">95</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1333,7 +1341,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00094">94</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00096">96</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1381,7 +1389,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00088">88</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00090">90</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1413,7 +1421,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00156">156</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00158">158</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1429,7 +1437,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00149">149</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00151">151</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1445,7 +1453,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00148">148</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00150">150</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1477,7 +1485,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00090">90</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00092">92</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1509,7 +1517,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00092">92</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00094">94</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1557,7 +1565,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00091">91</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00093">93</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1589,7 +1597,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00095">95</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00097">97</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1621,7 +1629,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00089">89</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00091">91</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1654,6 +1662,38 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00082">82</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+
+</div>
+</div>
+<a id="acf12dd6cf7aa6d6f95a227ef4e07965d" name="acf12dd6cf7aa6d6f95a227ef4e07965d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf12dd6cf7aa6d6f95a227ef4e07965d">&#9670;&#160;</a></span>lastSkipInterpStringContext</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int scannerYY_state::lastSkipInterpStringContext = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00088">88</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+
+</div>
+</div>
+<a id="a686f0a61fc2fa50753d9d3840f8fe8cf" name="a686f0a61fc2fa50753d9d3840f8fe8cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a686f0a61fc2fa50753d9d3840f8fe8cf">&#9670;&#160;</a></span>lastSkipInterpVerbStringContext</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int scannerYY_state::lastSkipInterpVerbStringContext = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00089">89</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1749,7 +1789,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00193">193</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00197">197</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1765,7 +1805,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00108">108</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00110">110</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1781,7 +1821,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00120">120</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00122">122</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1797,7 +1837,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00119">119</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00121">121</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1813,7 +1853,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00118">118</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00120">120</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1829,7 +1869,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00114">114</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00116">116</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1845,7 +1885,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00174">174</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00178">178</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1861,7 +1901,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00201">201</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00205">205</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1877,7 +1917,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00191">191</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00195">195</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1893,7 +1933,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00178">178</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00182">182</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1909,7 +1949,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00202">202</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00206">206</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1925,7 +1965,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00102">102</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00104">104</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1941,7 +1981,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00163">163</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00165">165</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1957,7 +1997,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00160">160</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00162">162</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1973,7 +2013,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00167">167</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00169">169</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -1989,7 +2029,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00166">166</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00168">168</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -2005,7 +2045,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00158">158</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00160">160</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -2021,7 +2061,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00168">168</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00170">170</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -2037,7 +2077,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00162">162</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00164">164</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -2053,7 +2093,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00164">164</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00166">166</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -2069,7 +2109,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00159">159</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00161">161</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -2085,7 +2125,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00161">161</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00163">163</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -2101,7 +2141,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00165">165</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00167">167</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -2117,7 +2157,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00105">105</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00107">107</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -2133,7 +2173,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00203">203</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00207">207</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -2149,7 +2189,39 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00096">96</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00098">98</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+
+</div>
+</div>
+<a id="a0564dd227799a611c45acb3451964675" name="a0564dd227799a611c45acb3451964675"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0564dd227799a611c45acb3451964675">&#9670;&#160;</a></span>pSkipInterpString</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/d30/class_text_stream.html">TextStream</a>* scannerYY_state::pSkipInterpString = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00172">172</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+
+</div>
+</div>
+<a id="aca75f7da4eea2e0dc0b34f1ba129a18b" name="aca75f7da4eea2e0dc0b34f1ba129a18b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca75f7da4eea2e0dc0b34f1ba129a18b">&#9670;&#160;</a></span>pSkipInterpVerbString</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/d30/class_text_stream.html">TextStream</a>* scannerYY_state::pSkipInterpVerbString = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00173">173</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -2165,7 +2237,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00169">169</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00171">171</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -2181,7 +2253,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00150">150</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00152">152</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -2197,7 +2269,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00099">99</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00101">101</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -2213,7 +2285,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00098">98</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00100">100</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -2229,7 +2301,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00126">126</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00128">128</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -2245,7 +2317,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00101">101</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00103">103</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -2261,7 +2333,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00115">115</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00117">117</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -2277,7 +2349,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00106">106</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00108">108</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -2293,7 +2365,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00123">123</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00125">125</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -2325,7 +2397,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00116">116</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00118">118</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -2341,7 +2413,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00112">112</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00114">114</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -2357,7 +2429,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00110">110</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00112">112</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -2373,7 +2445,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00111">111</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00113">113</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>
@@ -2389,7 +2461,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00109">109</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d11/scanner_8l_source.html#l00111">111</a> of file <a class="el" href="../../da/d11/scanner_8l_source.html">scanner.l</a>.</p>
 
 </div>
 </div>

@@ -1,5 +1,9 @@
 var NAVTREEINDEX67 =
 {
+"d9/d49/types_8h.html#abe8ad5992f8938a28f918f51b199aa19a0705871c68af1179de5a9cb1456eae29":[9,0,2,289,5,66],
+"d9/d49/types_8h.html#abe8ad5992f8938a28f918f51b199aa19a07524e8bc859fa0a8b7b0b92f55bd321":[9,0,2,289,5,47],
+"d9/d49/types_8h.html#abe8ad5992f8938a28f918f51b199aa19a078b62c40b38b03618f5e9cd19319afb":[9,0,2,289,5,27],
+"d9/d49/types_8h.html#abe8ad5992f8938a28f918f51b199aa19a1483537e3b2db0fd694f83062c71ff9a":[9,0,2,289,5,30],
 "d9/d49/types_8h.html#abe8ad5992f8938a28f918f51b199aa19a148db9c1db1f39f7df74ed36c9f66c91":[9,0,2,289,5,24],
 "d9/d49/types_8h.html#abe8ad5992f8938a28f918f51b199aa19a17703ad9cbbe96912fb4270eac00f1c6":[9,0,2,289,5,25],
 "d9/d49/types_8h.html#abe8ad5992f8938a28f918f51b199aa19a1b9b145ce71dd7273122841ae5895803":[9,0,2,289,5,72],
@@ -245,9 +249,5 @@ var NAVTREEINDEX67 =
 "d9/d82/class_translator_croatian.html#a44c8817e5ab5c325e5d5fad24bacf312":[8,0,579,110],
 "d9/d82/class_translator_croatian.html#a454efe3076f6fa0bc0eb0ac068de933c":[8,0,579,129],
 "d9/d82/class_translator_croatian.html#a48747300f884a8e745a45eebb4b70a20":[8,0,579,64],
-"d9/d82/class_translator_croatian.html#a49a09bde699d280d7c20502bfc906ca9":[8,0,579,29],
-"d9/d82/class_translator_croatian.html#a4a0d2fb86ef05cf02138f20e7db931d6":[8,0,579,105],
-"d9/d82/class_translator_croatian.html#a4a65b3f3158b1c165147210eeec46727":[8,0,579,124],
-"d9/d82/class_translator_croatian.html#a4b5985effb669a293df613bc9f94292a":[8,0,579,206],
-"d9/d82/class_translator_croatian.html#a4bce586a3326efea94eb99b01ec52c73":[8,0,579,163]
+"d9/d82/class_translator_croatian.html#a49a09bde699d280d7c20502bfc906ca9":[8,0,579,29]
 };

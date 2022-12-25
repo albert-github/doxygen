@@ -1,5 +1,9 @@
 var NAVTREEINDEX98 =
 {
+"dd/d38/class_translator_norwegian.html#aa502aa5abad02bfb785ed1575f2d61ff":[8,0,600,84],
+"dd/d38/class_translator_norwegian.html#aa58b3c26f941088fa8c5d1d8d1f90d01":[8,0,600,74],
+"dd/d38/class_translator_norwegian.html#aa637a1bd0dc9d29ea61e8fdfb02d0bc4":[8,0,600,161],
+"dd/d38/class_translator_norwegian.html#aa694b0d893cb3f350746b32a392b9902":[8,0,600,119],
 "dd/d38/class_translator_norwegian.html#aa9efd8f4b10cd329e4958461ac7d833a":[8,0,600,91],
 "dd/d38/class_translator_norwegian.html#aabe91143366a9516431f61b5fd2cf409":[8,0,600,96],
 "dd/d38/class_translator_norwegian.html#aac6cf5936e39a429cc26ed2f31acfabf":[8,0,600,118],
@@ -245,9 +249,5 @@ var NAVTREEINDEX98 =
 "dd/d66/pagedef_8h.html#a7697e578ee832ee5d8e992bf6dc93617":[9,0,2,185,5],
 "dd/d66/pagedef_8h.html#a89e31806dfb7a76094f973b17542e20e":[9,0,2,185,4],
 "dd/d66/pagedef_8h_source.html":[9,0,2,185],
-"dd/d66/textdocvisitor_8h.html":[9,0,2,238],
-"dd/d66/textdocvisitor_8h_source.html":[9,0,2,238],
-"dd/d6e/struct_dot_file_patcher_1_1_map.html":[8,0,200,0],
-"dd/d6e/struct_dot_file_patcher_1_1_map.html#a1039cf6923ea60a919d092990d86bb07":[8,0,200,0,5],
-"dd/d6e/struct_dot_file_patcher_1_1_map.html#a1bf5d3f2543719b345339e1ec307f24e":[8,0,200,0,2]
+"dd/d66/textdocvisitor_8h.html":[9,0,2,238]
 };

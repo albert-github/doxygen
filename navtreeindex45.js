@@ -1,5 +1,9 @@
 var NAVTREEINDEX45 =
 {
+"d6/d07/class_translator_german.html#a4ffd2dcaf31d2dadb2fdc7913bffb8ed":[8,0,587,157],
+"d6/d07/class_translator_german.html#a5071c95bd73ae542c89b729427696682":[8,0,587,228],
+"d6/d07/class_translator_german.html#a50894ff741073a056530ebd5df7bfcb5":[8,0,587,91],
+"d6/d07/class_translator_german.html#a50a36cd9db7770c3308bbd9130f04923":[8,0,587,138],
 "d6/d07/class_translator_german.html#a519a8a08f69c3a49c31d8ca1446c6b85":[8,0,587,221],
 "d6/d07/class_translator_german.html#a51b03156da00ffd02ea220852b645622":[8,0,587,109],
 "d6/d07/class_translator_german.html#a52930d6ef40b8d44cfda146f3710f72c":[8,0,587,84],
@@ -227,8 +231,8 @@ var NAVTREEINDEX45 =
 "d6/d1c/struct_comment_in_prepass.html#adeb00c14514e8550c06a5622ecec7298":[8,0,59,0],
 "d6/d1d/struct_index_intf_1_1dec_contents_depth.html":[8,0,2,5],
 "d6/d1d/struct_index_intf_1_1dec_contents_depth.html":[7,0,6,5],
-"d6/d1d/struct_index_intf_1_1dec_contents_depth.html#a3020f024c4f382333ee3b522e7b85a09":[8,0,2,5,0],
 "d6/d1d/struct_index_intf_1_1dec_contents_depth.html#a3020f024c4f382333ee3b522e7b85a09":[7,0,6,5,0],
+"d6/d1d/struct_index_intf_1_1dec_contents_depth.html#a3020f024c4f382333ee3b522e7b85a09":[8,0,2,5,0],
 "d6/d1f/class_template_lexer.html":[8,0,507],
 "d6/d1f/class_template_lexer.html#a1e9e28f4b7cadbec7b5bd00ceda8e490":[8,0,507,7],
 "d6/d1f/class_template_lexer.html#a66516554b1836bbf3e98dec5650964ee":[8,0,507,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX45 =
 "d6/d20/class_template_node_open_sub_index.html#a82ddb28765ad696285a431c7a5241253":[8,0,527,2],
 "d6/d20/class_template_node_open_sub_index.html#ac2b8759dc5fd24f4a977401628ed0b2c":[8,0,527,1],
 "d6/d29/class_inheritance_node_context.html":[8,0,332],
-"d6/d29/class_inheritance_node_context.html#a1ceb74ce41702b19818f6e66860ca2db":[8,0,332,3],
-"d6/d29/class_inheritance_node_context.html#a45e4f4a96b14298f10472c7344f7e038":[8,0,332,5],
-"d6/d29/class_inheritance_node_context.html#a6194363bcfa38c2d6f7be144867e93f1":[8,0,332,6],
-"d6/d29/class_inheritance_node_context.html#a8712404c40400b726c733283395a5527":[8,0,332,4],
-"d6/d29/class_inheritance_node_context.html#a911628dbe8ff957e9e2d21455d62f046":[8,0,332,2]
+"d6/d29/class_inheritance_node_context.html#a1ceb74ce41702b19818f6e66860ca2db":[8,0,332,3]
 };

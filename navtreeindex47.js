@@ -1,5 +1,9 @@
 var NAVTREEINDEX47 =
 {
+"d6/d78/class_translator_english.html#a35b72349c997135cea10e1db4a671353":[8,0,583,204],
+"d6/d78/class_translator_english.html#a376a3eb016a5630742ac37d07584a821":[8,0,583,151],
+"d6/d78/class_translator_english.html#a3791305a5c29ecc8490a3e20ec63b87f":[8,0,583,275],
+"d6/d78/class_translator_english.html#a384ba4e1fabc92c246096e93b6780c94":[8,0,583,94],
 "d6/d78/class_translator_english.html#a3901aea3db143c58075ccbb51053c267":[8,0,583,104],
 "d6/d78/class_translator_english.html#a3930ebeba121ab79c02b8146c4989658":[8,0,583,181],
 "d6/d78/class_translator_english.html#a39a0c3ff05795597ecf19d13f0b98c30":[8,0,583,108],
@@ -245,9 +249,5 @@ var NAVTREEINDEX47 =
 "d6/d88/class_template_list_intf.html#a9dc30d3e9dd847c11050c7a6b8666470":[6,0,1,4],
 "d6/d88/class_template_list_intf.html#aa46eadcf3f36d77491fa3a694cd1afd9":[6,0,1,3],
 "d6/d88/class_template_list_intf.html#afeab7c121c6545469289135e53a77e5c":[6,0,1,1],
-"d6/d89/translator__eo_8h.html":[9,0,2,255],
-"d6/d89/translator__eo_8h_source.html":[9,0,2,255],
-"d6/d8b/class_symbol_indices_context_1_1_private.html":[8,0,487,0],
-"d6/d8b/class_symbol_indices_context_1_1_private.html#ae3d1b53b276b134f5b6e1fed23e6cfe9":[8,0,487,0,0],
-"d6/d8d/class_concept_def.html":[8,0,63]
+"d6/d89/translator__eo_8h.html":[9,0,2,255]
 };

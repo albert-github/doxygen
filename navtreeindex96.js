@@ -1,5 +1,9 @@
 var NAVTREEINDEX96 =
 {
+"dd/d0b/class_translator_slovene.html#a13f175853e81dd3c8e952c9c2f8705e2":[8,0,609,67],
+"dd/d0b/class_translator_slovene.html#a1566a5b1b7c52a65f617083b6c53fdb7":[8,0,609,26],
+"dd/d0b/class_translator_slovene.html#a18cdf07250591f1b7a1849201753b212":[8,0,609,76],
+"dd/d0b/class_translator_slovene.html#a1ce46cc456b48c73de18a4ae3fb27f0c":[8,0,609,164],
 "dd/d0b/class_translator_slovene.html#a1e2b491d74de98b7562a21968e1863d0":[8,0,609,70],
 "dd/d0b/class_translator_slovene.html#a1e30cbec91138ad19b8b3fb93813230f":[8,0,609,102],
 "dd/d0b/class_translator_slovene.html#a1ef12865e904ab4db058a15950bfc34f":[8,0,609,14],
@@ -245,9 +249,5 @@ var NAVTREEINDEX96 =
 "dd/d10/class_definition_mixin.html#a4767a444c806c61da9a3dff90ed04457":[8,0,102,1],
 "dd/d10/class_definition_mixin.html#a4836d2a081610869ff5956b11ae9765f":[8,0,102,86],
 "dd/d10/class_definition_mixin.html#a4df81dd5a641af574b506be45b60bdc0":[8,0,102,53],
-"dd/d10/class_definition_mixin.html#a513fdca5d0cc85d8489489674eb696e9":[8,0,102,14],
-"dd/d10/class_definition_mixin.html#a520d013ca021fd70ae61d44b5960695f":[8,0,102,20],
-"dd/d10/class_definition_mixin.html#a53a76ecaa23cea1bd28dfe39d7aa7178":[8,0,102,65],
-"dd/d10/class_definition_mixin.html#a55412adb8ac7d45ea26e051a08dddadc":[8,0,102,77],
-"dd/d10/class_definition_mixin.html#a55711965db7d96e818f5977785dc9711":[8,0,102,91]
+"dd/d10/class_definition_mixin.html#a513fdca5d0cc85d8489489674eb696e9":[8,0,102,14]
 };
