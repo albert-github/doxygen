@@ -65,7 +65,7 @@ var class_docbook_generator =
     [ "endMemberGroupDocs", "d1/d72/class_docbook_generator.html#a99393eb2ff7472daebc1505815970586", null ],
     [ "endMemberGroupHeader", "d1/d72/class_docbook_generator.html#a100a878eeb984b71baf36c69d6867a4c", null ],
     [ "endMemberHeader", "d1/d72/class_docbook_generator.html#a29959b53028bcdf2e21067a096e3fe77", null ],
-    [ "endMemberItem", "d1/d72/class_docbook_generator.html#a10016ae27c71c96885babaa4379ee68a", null ],
+    [ "endMemberItem", "d1/d72/class_docbook_generator.html#a809a668dd4691533bdc9b286bdfc62a1", null ],
     [ "endMemberList", "d1/d72/class_docbook_generator.html#aa16fe3c2eaf5e95ecffc0c65f682fd71", null ],
     [ "endMemberSections", "d1/d72/class_docbook_generator.html#a742b6c6bf05b83f068339d9cf14dc93b", null ],
     [ "endMemberSubtitle", "d1/d72/class_docbook_generator.html#a6b1fd9a897f23f264ef17256c44b0bc2", null ],

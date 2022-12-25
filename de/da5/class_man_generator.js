@@ -65,7 +65,7 @@ var class_man_generator =
     [ "endMemberGroupDocs", "de/da5/class_man_generator.html#a60f94edabac05693a5c536c90ef45aaa", null ],
     [ "endMemberGroupHeader", "de/da5/class_man_generator.html#af4486862ca19909c0ae2489e0343673d", null ],
     [ "endMemberHeader", "de/da5/class_man_generator.html#ae8b551cb5b57bdafb99421c7d22b96e7", null ],
-    [ "endMemberItem", "de/da5/class_man_generator.html#a2a73acbe9604bc1f71e6980786efd083", null ],
+    [ "endMemberItem", "de/da5/class_man_generator.html#a0bf54b0520a592a870ae4d310c4890b2", null ],
     [ "endMemberList", "de/da5/class_man_generator.html#a0ee830ccc307c8123fffe69bd869ee41", null ],
     [ "endMemberSections", "de/da5/class_man_generator.html#a860d52eda1510b0c06177ac90c18b850", null ],
     [ "endMemberSubtitle", "de/da5/class_man_generator.html#a2338bc0695c2c43e905266bd6178db98", null ],

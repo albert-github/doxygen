@@ -65,7 +65,7 @@ var class_latex_generator =
     [ "endMemberGroupDocs", "d3/d77/class_latex_generator.html#a75f69fc27fd975f0203456390c498490", null ],
     [ "endMemberGroupHeader", "d3/d77/class_latex_generator.html#ac4339024ccc0da904106eaf6df9514a5", null ],
     [ "endMemberHeader", "d3/d77/class_latex_generator.html#aab0f11e3d9ce4eec99f4c9253e90d42c", null ],
-    [ "endMemberItem", "d3/d77/class_latex_generator.html#a1915805c725244feae28447c1d674d95", null ],
+    [ "endMemberItem", "d3/d77/class_latex_generator.html#abc987c69dce26f3ae3b8b10aeb4e4ce6", null ],
     [ "endMemberList", "d3/d77/class_latex_generator.html#ae48dfc57c572fe5004850c809697f1c7", null ],
     [ "endMemberSections", "d3/d77/class_latex_generator.html#a11bd307d045459052bcc3e096bf4ecd5", null ],
     [ "endMemberSubtitle", "d3/d77/class_latex_generator.html#a1df0ae4d268f904add9bbfc67ee31797", null ],

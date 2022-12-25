@@ -94,7 +94,7 @@ var NAVTREEINDEX =
 "d1/d40/translator__za_8h_source.html",
 "d1/d56/class_translator_ukrainian.html#a3d68bf8c57d8aa12fcee0119be09d6a7",
 "d1/d6a/class_translator_japanese.html#a22c91fb4d65a211817217acc600afbd5",
-"d1/d72/class_docbook_generator.html#a1fc25bb1fa33a7f3434d6be5ffa81abb",
+"d1/d72/class_docbook_generator.html#a205e8526c572a3bc41d634bf57dd1e93",
 "d1/d7f/class_doc_tokenizer.html#a1416a695181d2b7475649fcfa6328afc",
 "d1/d8a/class_translator_hindi.html#aaabceb5aad43384fd1bda9d8ddf6b5e7",
 "d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09a453aceb005ceaf54a47da15fee8b2a26",
