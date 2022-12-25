@@ -47,7 +47,7 @@ var class_output_generator =
     [ "endMemberGroupDocs", "d3/d8e/class_output_generator.html#a7debb7a4d6584e8855e7dc9ce0594d99", null ],
     [ "endMemberGroupHeader", "d3/d8e/class_output_generator.html#a585ab0b649dad9edf7b78e8f1ec20885", null ],
     [ "endMemberHeader", "d3/d8e/class_output_generator.html#a59dd3993aedf7baf7465b67d4327335e", null ],
-    [ "endMemberItem", "d3/d8e/class_output_generator.html#aac81201cfd0dedc7635bc81913906335", null ],
+    [ "endMemberItem", "d3/d8e/class_output_generator.html#ae3c74d39810613f0bf4a223a47e3bf16", null ],
     [ "endMemberList", "d3/d8e/class_output_generator.html#af3e875ff86510c53f355c024cc3a574d", null ],
     [ "endMemberSections", "d3/d8e/class_output_generator.html#a68c7d0afc95708807a5e623a7e9bb9db", null ],
     [ "endMemberSubtitle", "d3/d8e/class_output_generator.html#a0c56a25591efb4a9b38da70757dfe46c", null ],
