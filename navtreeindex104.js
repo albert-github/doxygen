@@ -1,5 +1,9 @@
 var NAVTREEINDEX104 =
 {
+"dd/df6/class_translator_chinesetraditional.html#ad88945dcceb6d0e446b8ff4e2767133a":[8,0,578,200],
+"dd/df6/class_translator_chinesetraditional.html#ad8c097af58cce68a9c3eb92788ea5750":[8,0,578,210],
+"dd/df6/class_translator_chinesetraditional.html#ad8d8875df7672390a8a10a147886e63f":[8,0,578,114],
+"dd/df6/class_translator_chinesetraditional.html#ad91d5ea9f31d47efac43960215ce6179":[8,0,578,147],
 "dd/df6/class_translator_chinesetraditional.html#adb29a4b3089d770c0b1ec8351fad1ed8":[8,0,578,65],
 "dd/df6/class_translator_chinesetraditional.html#adc31ffb63bf12d199e795dc4c3edecec":[8,0,578,45],
 "dd/df6/class_translator_chinesetraditional.html#ade896d737b8e80dd3d5573be1c37ebce":[8,0,578,51],
@@ -151,8 +155,8 @@ var NAVTREEINDEX104 =
 "de/d04/markdown_8cpp_source.html":[9,0,2,165],
 "de/d05/structdetails_1_1_impl.html":[7,0,4,0],
 "de/d05/structdetails_1_1_impl.html":[8,0,1,0],
-"de/d05/structdetails_1_1_impl.html#a0fd4278ad6e530e3ed836849026072b6":[7,0,4,0,0],
 "de/d05/structdetails_1_1_impl.html#a0fd4278ad6e530e3ed836849026072b6":[8,0,1,0,0],
+"de/d05/structdetails_1_1_impl.html#a0fd4278ad6e530e3ed836849026072b6":[7,0,4,0,0],
 "de/d07/searchindex_8h.html":[9,0,2,220],
 "de/d07/searchindex_8h.html#a50d08832d359fc0cce18c3079d46eb9a":[9,0,2,220,14],
 "de/d07/searchindex_8h.html#ad28704628a5159a8fd5ea6f9bc5d2c49":[9,0,2,220,13],
@@ -245,9 +249,5 @@ var NAVTREEINDEX104 =
 "de/d2b/docnode_8h.html#a5389b91ff46319ef07a0a79a6946d265":[9,0,2,67,89],
 "de/d2b/docnode_8h.html#a560d982ac73a31f8f11774d2e1124735":[9,0,2,67,120],
 "de/d2b/docnode_8h.html#a593e82da910769a3ab7c854f114ef018":[9,0,2,67,100],
-"de/d2b/docnode_8h.html#a5f4a34334ddff371ee708fe78e0c09a7":[9,0,2,67,83],
-"de/d2b/docnode_8h.html#a6669269a4e72ff4d0dcae95967996bcb":[9,0,2,67,125],
-"de/d2b/docnode_8h.html#a6d2b82b1633052df78fed96134ed2ca5":[9,0,2,67,117],
-"de/d2b/docnode_8h.html#a6de37e0933d92bb91fcdc1b70ef32e2b":[9,0,2,67,70],
-"de/d2b/docnode_8h.html#a6de37e0933d92bb91fcdc1b70ef32e2b":[9,0,2,67,72]
+"de/d2b/docnode_8h.html#a5f4a34334ddff371ee708fe78e0c09a7":[9,0,2,67,83]
 };

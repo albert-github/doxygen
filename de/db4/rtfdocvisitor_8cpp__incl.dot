@@ -320,4 +320,12 @@ digraph "/home/runner/work/doxygen/doxygen/src/rtfdocvisitor.cpp"
   Node84 -> Node30 [color="steelblue1",style="solid"];
   Node84 -> Node7 [color="steelblue1",style="solid"];
   Node1 -> Node66 [color="steelblue1",style="solid"];
+  Node1 -> Node85 [color="steelblue1",style="solid"];
+  Node85 [label="portable.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/de2/portable_8h.html",tooltip="Portable versions of functions that are platform dependent."];
+  Node85 -> Node17 [color="steelblue1",style="solid"];
+  Node85 -> Node49 [color="steelblue1",style="solid"];
+  Node85 -> Node86 [color="steelblue1",style="solid"];
+  Node86 [label="stdint.h",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node85 -> Node57 [color="steelblue1",style="solid"];
+  Node85 -> Node7 [color="steelblue1",style="solid"];
 }

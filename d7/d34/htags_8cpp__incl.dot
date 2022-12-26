@@ -187,6 +187,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/htags.cpp"
   Node53 -> Node45 [color="steelblue1",style="solid"];
   Node53 -> Node54 [color="steelblue1",style="solid"];
   Node54 [label="stdint.h",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node53 -> Node10 [color="steelblue1",style="solid"];
   Node53 -> Node13 [color="steelblue1",style="solid"];
   Node1 -> Node55 [color="steelblue1",style="solid"];
   Node55 [label="fileinfo.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d45/fileinfo_8h.html",tooltip=" "];

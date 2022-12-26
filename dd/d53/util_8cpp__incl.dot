@@ -359,6 +359,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/util.cpp"
   Node94 -> Node55 [color="steelblue1",style="solid"];
   Node94 -> Node95 [color="steelblue1",style="solid"];
   Node95 [label="stdint.h",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node94 -> Node25 [color="steelblue1",style="solid"];
   Node94 -> Node28 [color="steelblue1",style="solid"];
   Node1 -> Node96 [color="steelblue1",style="solid"];
   Node96 [label="parserintf.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d55/parserintf_8h.html",tooltip=" "];

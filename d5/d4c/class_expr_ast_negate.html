@@ -138,7 +138,7 @@ Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class representing a negation (not) operator in the AST. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01790">1790</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01788">1788</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac212e245054a30a080de4b616f4f043f" name="ac212e245054a30a080de4b616f4f043f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac212e245054a30a080de4b616f4f043f">&#9670;&#160;</a></span>ExprAstNegate()</h2>
@@ -164,13 +164,13 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01793">1793</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1793</span>                                     : <a class="code hl_variable" href="../../d5/d4c/class_expr_ast_negate.html#a3f3ddac695da0939cc879a604aa2749e">m_expr</a>(std::move(expr))</div>
-<div class="line"><span class="lineno"> 1794</span>    { <a class="code hl_define" href="../../df/d54/template_8cpp.html#a494d31903e7b0333dfa03b0778679113">TRACE</a>((<span class="stringliteral">&quot;ExprAstNegate\n&quot;</span>)); }</div>
-<div class="ttc" id="aclass_expr_ast_negate_html_a3f3ddac695da0939cc879a604aa2749e"><div class="ttname"><a href="../../d5/d4c/class_expr_ast_negate.html#a3f3ddac695da0939cc879a604aa2749e">ExprAstNegate::m_expr</a></div><div class="ttdeci">ExprAstPtr m_expr</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l01798">template.cpp:1798</a></div></div>
-<div class="ttc" id="atemplate_8cpp_html_a494d31903e7b0333dfa03b0778679113"><div class="ttname"><a href="../../df/d54/template_8cpp.html#a494d31903e7b0333dfa03b0778679113">TRACE</a></div><div class="ttdeci">#define TRACE(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l00040">template.cpp:40</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01791">1791</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1791</span>                                     : <a class="code hl_variable" href="../../d5/d4c/class_expr_ast_negate.html#a3f3ddac695da0939cc879a604aa2749e">m_expr</a>(std::move(expr))</div>
+<div class="line"><span class="lineno"> 1792</span>    { <a class="code hl_define" href="../../df/d54/template_8cpp.html#a494d31903e7b0333dfa03b0778679113">TRACE</a>((<span class="stringliteral">&quot;ExprAstNegate\n&quot;</span>)); }</div>
+<div class="ttc" id="aclass_expr_ast_negate_html_a3f3ddac695da0939cc879a604aa2749e"><div class="ttname"><a href="../../d5/d4c/class_expr_ast_negate.html#a3f3ddac695da0939cc879a604aa2749e">ExprAstNegate::m_expr</a></div><div class="ttdeci">ExprAstPtr m_expr</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l01796">template.cpp:1796</a></div></div>
+<div class="ttc" id="atemplate_8cpp_html_a494d31903e7b0333dfa03b0778679113"><div class="ttname"><a href="../../df/d54/template_8cpp.html#a494d31903e7b0333dfa03b0778679113">TRACE</a></div><div class="ttdeci">#define TRACE(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l00038">template.cpp:38</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l00040">TRACE</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l00038">TRACE</a>.</p>
 
 </div>
 </div>
@@ -201,11 +201,11 @@ Private Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../dc/dfa/class_expr_ast.html#a45af2ff7084b61d66b5d764b458c3bd3">ExprAst</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01795">1795</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1796</span>    { <span class="keywordflow">return</span> <a class="code hl_class" href="../../d1/dba/class_template_variant.html">TemplateVariant</a>(!<a class="code hl_variable" href="../../d5/d4c/class_expr_ast_negate.html#a3f3ddac695da0939cc879a604aa2749e">m_expr</a>-&gt;resolve(c).toBool()); }</div>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01793">1793</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1794</span>    { <span class="keywordflow">return</span> <a class="code hl_class" href="../../d1/dba/class_template_variant.html">TemplateVariant</a>(!<a class="code hl_variable" href="../../d5/d4c/class_expr_ast_negate.html#a3f3ddac695da0939cc879a604aa2749e">m_expr</a>-&gt;resolve(c).toBool()); }</div>
 <div class="ttc" id="aclass_template_variant_html"><div class="ttname"><a href="../../d1/dba/class_template_variant.html">TemplateVariant</a></div><div class="ttdoc">Variant type which can hold one value of a fixed set of types.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/db8/template_8h_source.html#l00098">template.h:99</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l01798">m_expr</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l01796">m_expr</a>.</p>
 
 </div>
 </div>
@@ -230,9 +230,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01798">1798</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01796">1796</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l01795">resolve()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l01793">resolve()</a>.</p>
 
 </div>
 </div>

@@ -1,5 +1,9 @@
 var NAVTREEINDEX60 =
 {
+"d8/d6e/htmlgen_8cpp.html#ac5f89137286ceb01d9c5a1a14a36d8e1":[9,0,2,138,17],
+"d8/d6e/htmlgen_8cpp.html#ac7339dc7ff25bcb7a9fbea1d671a16da":[9,0,2,138,22],
+"d8/d6e/htmlgen_8cpp.html#acd16443590d430ed27faa06521ec03e4":[9,0,2,138,12],
+"d8/d6e/htmlgen_8cpp.html#acd84b4b4ce1b0ba6b03bc8d8e84e4c8c":[9,0,2,138,10],
 "d8/d6e/htmlgen_8cpp.html#ad2a13506b949e3ae461c03411a8ff36b":[9,0,2,138,27],
 "d8/d6e/htmlgen_8cpp.html#ad70e1784728041954704c29624efcd47":[9,0,2,138,21],
 "d8/d6e/htmlgen_8cpp.html#ae0f7f0e27ca0e60d44a291398f2b0375":[9,0,2,138,24],
@@ -49,12 +53,12 @@ var NAVTREEINDEX60 =
 "d8/d72/class_concept_def_impl.html#ae8c64d12ee3fc7ae623e7b44e6072b06":[8,0,65,22],
 "d8/d72/class_concept_def_impl.html#aec94d27ae7459f75e56fd19c2653b1a7":[8,0,65,25],
 "d8/d72/class_concept_def_impl.html#aedc877b79fe9e5f72e9a46c20185252d":[8,0,65,12],
-"d8/d73/classvhdl_1_1parser_1_1_token_parser.html":[7,0,11,0,8],
 "d8/d73/classvhdl_1_1parser_1_1_token_parser.html":[8,0,5,0,8],
-"d8/d73/classvhdl_1_1parser_1_1_token_parser.html#a686a5c4c377513d56ee5588f9727314a":[8,0,5,0,8,1],
+"d8/d73/classvhdl_1_1parser_1_1_token_parser.html":[7,0,11,0,8],
 "d8/d73/classvhdl_1_1parser_1_1_token_parser.html#a686a5c4c377513d56ee5588f9727314a":[7,0,11,0,8,1],
-"d8/d73/classvhdl_1_1parser_1_1_token_parser.html#ac5cb74c3a7c9a7f4620c34d939da9fbc":[8,0,5,0,8,0],
+"d8/d73/classvhdl_1_1parser_1_1_token_parser.html#a686a5c4c377513d56ee5588f9727314a":[8,0,5,0,8,1],
 "d8/d73/classvhdl_1_1parser_1_1_token_parser.html#ac5cb74c3a7c9a7f4620c34d939da9fbc":[7,0,11,0,8,0],
+"d8/d73/classvhdl_1_1parser_1_1_token_parser.html#ac5cb74c3a7c9a7f4620c34d939da9fbc":[8,0,5,0,8,0],
 "d8/d77/class_inheritance_list_context.html":[8,0,331],
 "d8/d77/class_inheritance_list_context.html#a1c6a8e4e0e8a6ff3f51e9aa811657572":[8,0,331,3],
 "d8/d77/class_inheritance_list_context.html#a6e590e24ca8621809364a9cc95370e28":[8,0,331,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX60 =
 "d8/d83/class_translator_latvian.html#a1563b4e100c4f77f0c6becd26bff110c":[8,0,597,189],
 "d8/d83/class_translator_latvian.html#a175d1bdf4e2f65d671630fb84d859f28":[8,0,597,124],
 "d8/d83/class_translator_latvian.html#a1762a85578cb38692d311dcdbe04bf6b":[8,0,597,179],
-"d8/d83/class_translator_latvian.html#a19fe082bc876f6bbcbc680ca0d9d4f41":[8,0,597,111],
-"d8/d83/class_translator_latvian.html#a1a5958385ce986079b5df1ffc43682e6":[8,0,597,84],
-"d8/d83/class_translator_latvian.html#a1aec545d75fa37e696c0a3125b52f362":[8,0,597,66],
-"d8/d83/class_translator_latvian.html#a1be577a3640fab66666a0d49f147fbbb":[8,0,597,182],
-"d8/d83/class_translator_latvian.html#a1c55a99f05f23e91cf07a12c6da906d4":[8,0,597,99]
+"d8/d83/class_translator_latvian.html#a19fe082bc876f6bbcbc680ca0d9d4f41":[8,0,597,111]
 };

@@ -136,7 +136,7 @@ Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Factory singleton for registering and creating filters. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01582">1582</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01580">1580</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a55706e7732e3cffde3d4a81bdc1b02f3" name="a55706e7732e3cffde3d4a81bdc1b02f3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a55706e7732e3cffde3d4a81bdc1b02f3">&#9670;&#160;</a></span>FilterFunction</h2>
@@ -150,7 +150,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01585">1585</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01583">1583</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
 
 </div>
 </div>
@@ -201,28 +201,28 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01594">1594</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1595</span>    {</div>
-<div class="line"><span class="lineno"> 1596</span>      <span class="keyword">auto</span> it = <a class="code hl_variable" href="../../d9/db6/class_template_filter_factory.html#a86fed389ec8418f3c1809537c9155b26">m_registry</a>.find(name.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>());</div>
-<div class="line"><span class="lineno"> 1597</span>      <span class="keywordflow">if</span> (it!=<a class="code hl_variable" href="../../d9/db6/class_template_filter_factory.html#a86fed389ec8418f3c1809537c9155b26">m_registry</a>.end())</div>
-<div class="line"><span class="lineno"> 1598</span>      {</div>
-<div class="line"><span class="lineno"> 1599</span>        ok=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno"> 1600</span>        <span class="keywordflow">return</span> it-&gt;second(v,arg);</div>
-<div class="line"><span class="lineno"> 1601</span>      }</div>
-<div class="line"><span class="lineno"> 1602</span>      <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno"> 1603</span>      {</div>
-<div class="line"><span class="lineno"> 1604</span>        ok=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="line"><span class="lineno"> 1605</span>        <span class="keywordflow">return</span> v;</div>
-<div class="line"><span class="lineno"> 1606</span>      }</div>
-<div class="line"><span class="lineno"> 1607</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01592">1592</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1593</span>    {</div>
+<div class="line"><span class="lineno"> 1594</span>      <span class="keyword">auto</span> it = <a class="code hl_variable" href="../../d9/db6/class_template_filter_factory.html#a86fed389ec8418f3c1809537c9155b26">m_registry</a>.find(name.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>());</div>
+<div class="line"><span class="lineno"> 1595</span>      <span class="keywordflow">if</span> (it!=<a class="code hl_variable" href="../../d9/db6/class_template_filter_factory.html#a86fed389ec8418f3c1809537c9155b26">m_registry</a>.end())</div>
+<div class="line"><span class="lineno"> 1596</span>      {</div>
+<div class="line"><span class="lineno"> 1597</span>        ok=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno"> 1598</span>        <span class="keywordflow">return</span> it-&gt;second(v,arg);</div>
+<div class="line"><span class="lineno"> 1599</span>      }</div>
+<div class="line"><span class="lineno"> 1600</span>      <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1601</span>      {</div>
+<div class="line"><span class="lineno"> 1602</span>        ok=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
+<div class="line"><span class="lineno"> 1603</span>        <span class="keywordflow">return</span> v;</div>
+<div class="line"><span class="lineno"> 1604</span>      }</div>
+<div class="line"><span class="lineno"> 1605</span>    }</div>
 <div class="ttc" id="aclass_q_c_string_html_a875e9ad762554ef12f3ed69b015bb245"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">QCString::str</a></div><div class="ttdeci">const std::string &amp; str() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00483">qcstring.h:483</a></div></div>
-<div class="ttc" id="aclass_template_filter_factory_html_a86fed389ec8418f3c1809537c9155b26"><div class="ttname"><a href="../../d9/db6/class_template_filter_factory.html#a86fed389ec8418f3c1809537c9155b26">TemplateFilterFactory::m_registry</a></div><div class="ttdeci">std::unordered_map&lt; std::string, FilterFunction * &gt; m_registry</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l01625">template.cpp:1625</a></div></div>
+<div class="ttc" id="aclass_template_filter_factory_html_a86fed389ec8418f3c1809537c9155b26"><div class="ttname"><a href="../../d9/db6/class_template_filter_factory.html#a86fed389ec8418f3c1809537c9155b26">TemplateFilterFactory::m_registry</a></div><div class="ttdeci">std::unordered_map&lt; std::string, FilterFunction * &gt; m_registry</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l01623">template.cpp:1623</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_aa8cecfc5c5c054d2875c03e77b7be15d"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a></div><div class="ttdeci">#define TRUE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00036">qcstring.h:36</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_aa93f0eb578d23995850d61f7d61c55c1"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></div><div class="ttdeci">#define FALSE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00033">qcstring.h:33</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l01625">m_registry</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00483">QCString::str()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l01623">m_registry</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00483">QCString::str()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l01739">ExprAstFilter::apply()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l01737">ExprAstFilter::apply()</a>.</p>
 
 </div>
 </div>
@@ -249,17 +249,17 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01587">1587</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1588</span>    {</div>
-<div class="line"><span class="lineno"> 1589</span>      <span class="keyword">static</span> std::unique_ptr&lt;TemplateFilterFactory&gt; <a class="code hl_function" href="../../d9/db6/class_template_filter_factory.html#abfa62cf95c9c00f8897e7b7e70d20ae4">instance</a>;</div>
-<div class="line"><span class="lineno"> 1590</span>      <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d9/db6/class_template_filter_factory.html#abfa62cf95c9c00f8897e7b7e70d20ae4">instance</a>==0) <a class="code hl_function" href="../../d9/db6/class_template_filter_factory.html#abfa62cf95c9c00f8897e7b7e70d20ae4">instance</a> = std::make_unique&lt;TemplateFilterFactory&gt;();</div>
-<div class="line"><span class="lineno"> 1591</span>      <span class="keywordflow">return</span> *<a class="code hl_function" href="../../d9/db6/class_template_filter_factory.html#abfa62cf95c9c00f8897e7b7e70d20ae4">instance</a>;</div>
-<div class="line"><span class="lineno"> 1592</span>    }</div>
-<div class="ttc" id="aclass_template_filter_factory_html_abfa62cf95c9c00f8897e7b7e70d20ae4"><div class="ttname"><a href="../../d9/db6/class_template_filter_factory.html#abfa62cf95c9c00f8897e7b7e70d20ae4">TemplateFilterFactory::instance</a></div><div class="ttdeci">static TemplateFilterFactory &amp; instance()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l01587">template.cpp:1587</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01585">1585</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1586</span>    {</div>
+<div class="line"><span class="lineno"> 1587</span>      <span class="keyword">static</span> std::unique_ptr&lt;TemplateFilterFactory&gt; <a class="code hl_function" href="../../d9/db6/class_template_filter_factory.html#abfa62cf95c9c00f8897e7b7e70d20ae4">instance</a>;</div>
+<div class="line"><span class="lineno"> 1588</span>      <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d9/db6/class_template_filter_factory.html#abfa62cf95c9c00f8897e7b7e70d20ae4">instance</a>==0) <a class="code hl_function" href="../../d9/db6/class_template_filter_factory.html#abfa62cf95c9c00f8897e7b7e70d20ae4">instance</a> = std::make_unique&lt;TemplateFilterFactory&gt;();</div>
+<div class="line"><span class="lineno"> 1589</span>      <span class="keywordflow">return</span> *<a class="code hl_function" href="../../d9/db6/class_template_filter_factory.html#abfa62cf95c9c00f8897e7b7e70d20ae4">instance</a>;</div>
+<div class="line"><span class="lineno"> 1590</span>    }</div>
+<div class="ttc" id="aclass_template_filter_factory_html_abfa62cf95c9c00f8897e7b7e70d20ae4"><div class="ttname"><a href="../../d9/db6/class_template_filter_factory.html#abfa62cf95c9c00f8897e7b7e70d20ae4">TemplateFilterFactory::instance</a></div><div class="ttdeci">static TemplateFilterFactory &amp; instance()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l01585">template.cpp:1585</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l01587">instance()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l01585">instance()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l01739">ExprAstFilter::apply()</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l01587">instance()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l01737">ExprAstFilter::apply()</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l01585">instance()</a>.</p>
 
 </div>
 </div>
@@ -297,12 +297,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01609">1609</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1610</span>    {</div>
-<div class="line"><span class="lineno"> 1611</span>      <a class="code hl_variable" href="../../d9/db6/class_template_filter_factory.html#a86fed389ec8418f3c1809537c9155b26">m_registry</a>.insert(std::make_pair(name.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>(),func));</div>
-<div class="line"><span class="lineno"> 1612</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01607">1607</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1608</span>    {</div>
+<div class="line"><span class="lineno"> 1609</span>      <a class="code hl_variable" href="../../d9/db6/class_template_filter_factory.html#a86fed389ec8418f3c1809537c9155b26">m_registry</a>.insert(std::make_pair(name.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>(),func));</div>
+<div class="line"><span class="lineno"> 1610</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l01625">m_registry</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00483">QCString::str()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l01623">m_registry</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00483">QCString::str()</a>.</p>
 
 </div>
 </div>
@@ -327,9 +327,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01625">1625</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01623">1623</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l01594">apply()</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l01609">registerFilter()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l01592">apply()</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l01607">registerFilter()</a>.</p>
 
 </div>
 </div>

@@ -342,6 +342,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/filedef.cpp"
   Node89 -> Node8 [color="steelblue1",style="solid"];
   Node89 -> Node90 [color="steelblue1",style="solid"];
   Node90 [label="stdint.h",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node89 -> Node44 [color="steelblue1",style="solid"];
   Node89 -> Node10 [color="steelblue1",style="solid"];
   Node1 -> Node91 [color="steelblue1",style="solid"];
   Node91 [label="vhdldocgen.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dec/vhdldocgen_8h.html",tooltip=" "];

@@ -179,6 +179,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/plantuml.cpp"
   Node49 -> Node45 [color="steelblue1",style="solid"];
   Node49 -> Node50 [color="steelblue1",style="solid"];
   Node50 [label="stdint.h",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node49 -> Node23 [color="steelblue1",style="solid"];
   Node49 -> Node11 [color="steelblue1",style="solid"];
   Node1 -> Node51 [color="steelblue1",style="solid"];
   Node51 [label="config.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d16/config_8h.html",tooltip=" "];

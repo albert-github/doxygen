@@ -476,6 +476,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/doxygen.cpp"
   Node128 -> Node39 [color="steelblue1",style="solid"];
   Node128 -> Node129 [color="steelblue1",style="solid"];
   Node129 [label="stdint.h",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node128 -> Node55 [color="steelblue1",style="solid"];
   Node128 -> Node25 [color="steelblue1",style="solid"];
   Node1 -> Node130 [color="steelblue1",style="solid"];
   Node130 [label="vhdljjparser.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d55/vhdljjparser_8h.html",tooltip=" "];

@@ -109,7 +109,7 @@ Static Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The implementation of the "append" filter. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l00924">924</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l00922">922</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a97b5f8e69f2ebd947ab9bb6f77f1a1d8" name="a97b5f8e69f2ebd947ab9bb6f77f1a1d8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a97b5f8e69f2ebd947ab9bb6f77f1a1d8">&#9670;&#160;</a></span>apply()</h2>
@@ -145,24 +145,24 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l00927">927</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  928</span>    {</div>
-<div class="line"><span class="lineno">  929</span>      <span class="keywordflow">if</span> ((v.<a class="code hl_function" href="../../d1/dba/class_template_variant.html#a58289f012fe2d5afa506ed4ce14e2b41">isString</a>() || v.<a class="code hl_function" href="../../d1/dba/class_template_variant.html#ae3d8991e2e28e67289c989eb1cbc1cbc">isInt</a>()) &amp;&amp;</div>
-<div class="line"><span class="lineno">  930</span>          (arg.<a class="code hl_function" href="../../d1/dba/class_template_variant.html#a58289f012fe2d5afa506ed4ce14e2b41">isString</a>() || arg.<a class="code hl_function" href="../../d1/dba/class_template_variant.html#ae3d8991e2e28e67289c989eb1cbc1cbc">isInt</a>()))</div>
-<div class="line"><span class="lineno">  931</span>      {</div>
-<div class="line"><span class="lineno">  932</span>        <span class="keywordflow">return</span> <a class="code hl_class" href="../../d1/dba/class_template_variant.html">TemplateVariant</a>(v.<a class="code hl_function" href="../../d1/dba/class_template_variant.html#ab03869d8a226d83614fca23902b0facd">toString</a>() + arg.<a class="code hl_function" href="../../d1/dba/class_template_variant.html#ab03869d8a226d83614fca23902b0facd">toString</a>());</div>
-<div class="line"><span class="lineno">  933</span>      }</div>
-<div class="line"><span class="lineno">  934</span>      <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  935</span>      {</div>
-<div class="line"><span class="lineno">  936</span>        <span class="keywordflow">return</span> v;</div>
-<div class="line"><span class="lineno">  937</span>      }</div>
-<div class="line"><span class="lineno">  938</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l00925">925</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  926</span>    {</div>
+<div class="line"><span class="lineno">  927</span>      <span class="keywordflow">if</span> ((v.<a class="code hl_function" href="../../d1/dba/class_template_variant.html#a58289f012fe2d5afa506ed4ce14e2b41">isString</a>() || v.<a class="code hl_function" href="../../d1/dba/class_template_variant.html#ae3d8991e2e28e67289c989eb1cbc1cbc">isInt</a>()) &amp;&amp;</div>
+<div class="line"><span class="lineno">  928</span>          (arg.<a class="code hl_function" href="../../d1/dba/class_template_variant.html#a58289f012fe2d5afa506ed4ce14e2b41">isString</a>() || arg.<a class="code hl_function" href="../../d1/dba/class_template_variant.html#ae3d8991e2e28e67289c989eb1cbc1cbc">isInt</a>()))</div>
+<div class="line"><span class="lineno">  929</span>      {</div>
+<div class="line"><span class="lineno">  930</span>        <span class="keywordflow">return</span> <a class="code hl_class" href="../../d1/dba/class_template_variant.html">TemplateVariant</a>(v.<a class="code hl_function" href="../../d1/dba/class_template_variant.html#ab03869d8a226d83614fca23902b0facd">toString</a>() + arg.<a class="code hl_function" href="../../d1/dba/class_template_variant.html#ab03869d8a226d83614fca23902b0facd">toString</a>());</div>
+<div class="line"><span class="lineno">  931</span>      }</div>
+<div class="line"><span class="lineno">  932</span>      <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  933</span>      {</div>
+<div class="line"><span class="lineno">  934</span>        <span class="keywordflow">return</span> v;</div>
+<div class="line"><span class="lineno">  935</span>      }</div>
+<div class="line"><span class="lineno">  936</span>    }</div>
 <div class="ttc" id="aclass_template_variant_html"><div class="ttname"><a href="../../d1/dba/class_template_variant.html">TemplateVariant</a></div><div class="ttdoc">Variant type which can hold one value of a fixed set of types.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/db8/template_8h_source.html#l00098">template.h:99</a></div></div>
 <div class="ttc" id="aclass_template_variant_html_a58289f012fe2d5afa506ed4ce14e2b41"><div class="ttname"><a href="../../d1/dba/class_template_variant.html#a58289f012fe2d5afa506ed4ce14e2b41">TemplateVariant::isString</a></div><div class="ttdeci">constexpr bool isString() const</div><div class="ttdoc">Returns TRUE if the variant holds a string value.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/db8/template_8h_source.html#l00221">template.h:221</a></div></div>
-<div class="ttc" id="aclass_template_variant_html_ab03869d8a226d83614fca23902b0facd"><div class="ttname"><a href="../../d1/dba/class_template_variant.html#ab03869d8a226d83614fca23902b0facd">TemplateVariant::toString</a></div><div class="ttdeci">QCString toString() const</div><div class="ttdoc">Returns the variant as a string.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l00398">template.cpp:398</a></div></div>
+<div class="ttc" id="aclass_template_variant_html_ab03869d8a226d83614fca23902b0facd"><div class="ttname"><a href="../../d1/dba/class_template_variant.html#ab03869d8a226d83614fca23902b0facd">TemplateVariant::toString</a></div><div class="ttdeci">QCString toString() const</div><div class="ttdoc">Returns the variant as a string.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l00396">template.cpp:396</a></div></div>
 <div class="ttc" id="aclass_template_variant_html_ae3d8991e2e28e67289c989eb1cbc1cbc"><div class="ttname"><a href="../../d1/dba/class_template_variant.html#ae3d8991e2e28e67289c989eb1cbc1cbc">TemplateVariant::isInt</a></div><div class="ttdeci">constexpr bool isInt() const</div><div class="ttdoc">Returns TRUE if the variant holds an integer value.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/db8/template_8h_source.html#l00219">template.h:219</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/db8/template_8h_source.html#l00219">TemplateVariant::isInt()</a>, <a class="el" href="../../de/db8/template_8h_source.html#l00221">TemplateVariant::isString()</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l00398">TemplateVariant::toString()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/db8/template_8h_source.html#l00219">TemplateVariant::isInt()</a>, <a class="el" href="../../de/db8/template_8h_source.html#l00221">TemplateVariant::isString()</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l00396">TemplateVariant::toString()</a>.</p>
 
 </div>
 </div>

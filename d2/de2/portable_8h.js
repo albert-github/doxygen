@@ -11,6 +11,8 @@ var portable_8h =
     [ "getSysElapsedTime", "d2/de2/portable_8h.html#a248b5a87e07edc01e5ae424b6597142f", null ],
     [ "ghostScriptCommand", "d2/de2/portable_8h.html#a4c4c43977edb27e33f873fbacf11d528", null ],
     [ "isAbsolutePath", "d2/de2/portable_8h.html#a08dc4d7f652408d7fc2eaba792796cb1", null ],
+    [ "openInputStream", "d2/de2/portable_8h.html#a0579eaf8c245a77f1e804a3cf1b0aa73", null ],
+    [ "openOutputStream", "d2/de2/portable_8h.html#a230fceefc8f9abd1e8d4be71d7eef281", null ],
     [ "pathListSeparator", "d2/de2/portable_8h.html#a33ec52ac55c4d58e0748239920ee3e14", null ],
     [ "pathSeparator", "d2/de2/portable_8h.html#a0f30be3f0aed0b88804816f3e6310ee4", null ],
     [ "pclose", "d2/de2/portable_8h.html#a6cde8cab8c3dc3397ea5c6030fbf6e84", null ],

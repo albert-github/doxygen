@@ -116,6 +116,7 @@ $(document).ready(function(){initNavTree('de/d9a/rtfdocvisitor_8cpp.html','../..
 <code>#include &quot;<a class="el" href="../../d6/dd3/emoji_8h_source.html">emoji.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d3/dde/plantuml_8h_source.html">plantuml.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../df/d45/fileinfo_8h_source.html">fileinfo.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d2/de2/portable_8h_source.html">portable.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for rtfdocvisitor.cpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -154,7 +155,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d9a/rtfdocvisitor_8cpp_source.html#l00042">42</a> of file <a class="el" href="../../de/d9a/rtfdocvisitor_8cpp_source.html">rtfdocvisitor.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d9a/rtfdocvisitor_8cpp_source.html#l00040">40</a> of file <a class="el" href="../../de/d9a/rtfdocvisitor_8cpp_source.html">rtfdocvisitor.cpp</a>.</p>
 
 </div>
 </div>
@@ -183,24 +184,24 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d9a/rtfdocvisitor_8cpp_source.html#l00044">44</a> of file <a class="el" href="../../de/d9a/rtfdocvisitor_8cpp_source.html">rtfdocvisitor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   45</span>{</div>
-<div class="line"><span class="lineno">   46</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;attr : cell.<a class="code hl_function" href="../../d1/d56/class_doc_html_cell.html#ad42711394b311bbb450073c2206da8c8">attribs</a>())</div>
-<div class="line"><span class="lineno">   47</span>  {</div>
-<div class="line"><span class="lineno">   48</span>    <span class="keywordflow">if</span> (attr.name.lower()==<span class="stringliteral">&quot;align&quot;</span>)</div>
-<div class="line"><span class="lineno">   49</span>    {</div>
-<div class="line"><span class="lineno">   50</span>      <span class="keywordflow">if</span> (attr.value.lower()==<span class="stringliteral">&quot;center&quot;</span>)     <span class="keywordflow">return</span> <span class="stringliteral">&quot;\\qc &quot;</span>;</div>
-<div class="line"><span class="lineno">   51</span>      <span class="keywordflow">else</span> <span class="keywordflow">if</span> (attr.value.lower()==<span class="stringliteral">&quot;right&quot;</span>) <span class="keywordflow">return</span> <span class="stringliteral">&quot;\\qr &quot;</span>;</div>
-<div class="line"><span class="lineno">   52</span>      <span class="keywordflow">else</span> <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno">   53</span>    }</div>
-<div class="line"><span class="lineno">   54</span>  }</div>
-<div class="line"><span class="lineno">   55</span>  <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno">   56</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../de/d9a/rtfdocvisitor_8cpp_source.html#l00042">42</a> of file <a class="el" href="../../de/d9a/rtfdocvisitor_8cpp_source.html">rtfdocvisitor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   43</span>{</div>
+<div class="line"><span class="lineno">   44</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;attr : cell.<a class="code hl_function" href="../../d1/d56/class_doc_html_cell.html#ad42711394b311bbb450073c2206da8c8">attribs</a>())</div>
+<div class="line"><span class="lineno">   45</span>  {</div>
+<div class="line"><span class="lineno">   46</span>    <span class="keywordflow">if</span> (attr.name.lower()==<span class="stringliteral">&quot;align&quot;</span>)</div>
+<div class="line"><span class="lineno">   47</span>    {</div>
+<div class="line"><span class="lineno">   48</span>      <span class="keywordflow">if</span> (attr.value.lower()==<span class="stringliteral">&quot;center&quot;</span>)     <span class="keywordflow">return</span> <span class="stringliteral">&quot;\\qc &quot;</span>;</div>
+<div class="line"><span class="lineno">   49</span>      <span class="keywordflow">else</span> <span class="keywordflow">if</span> (attr.value.lower()==<span class="stringliteral">&quot;right&quot;</span>) <span class="keywordflow">return</span> <span class="stringliteral">&quot;\\qr &quot;</span>;</div>
+<div class="line"><span class="lineno">   50</span>      <span class="keywordflow">else</span> <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno">   51</span>    }</div>
+<div class="line"><span class="lineno">   52</span>  }</div>
+<div class="line"><span class="lineno">   53</span>  <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno">   54</span>}</div>
 <div class="ttc" id="aclass_doc_html_cell_html_ad42711394b311bbb450073c2206da8c8"><div class="ttname"><a href="../../d1/d56/class_doc_html_cell.html#ad42711394b311bbb450073c2206da8c8">DocHtmlCell::attribs</a></div><div class="ttdeci">const HtmlAttribList &amp; attribs() const</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l01158">docnode.h:1158</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../de/d2b/docnode_8h_source.html#l01158">DocHtmlCell::attribs()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d9a/rtfdocvisitor_8cpp_source.html#l01065">RTFDocVisitor::operator()()</a>, and <a class="el" href="../../d2/db9/outputlist_8h_source.html#l00466">OutputList::startMemberDocName()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d9a/rtfdocvisitor_8cpp_source.html#l01063">RTFDocVisitor::operator()()</a>, and <a class="el" href="../../d2/db9/outputlist_8h_source.html#l00466">OutputList::startMemberDocName()</a>.</p>
 
 </div>
 </div>

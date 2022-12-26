@@ -153,19 +153,19 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d2f/searchindex__js_8cpp_source.html#l00647">647</a> of file <a class="el" href="../../d9/d2f/searchindex__js_8cpp_source.html">searchindex_js.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  648</span>{</div>
-<div class="line"><span class="lineno">  649</span>  <span class="comment">//printf(&quot;%p: %s-&gt;%s (full=%s)\n&quot;,this,qPrint(letter),qPrint(searchName(def)),qPrint(def-&gt;name()));</span></div>
-<div class="line"><span class="lineno">  650</span>  <span class="keyword">auto</span> it = <a class="code hl_variable" href="../../d4/db6/struct_search_index_info.html#aab250a5688a170b30a64030a2139f529">symbolMap</a>.find(letter);</div>
-<div class="line"><span class="lineno">  651</span>  <span class="keywordflow">if</span> (it!=<a class="code hl_variable" href="../../d4/db6/struct_search_index_info.html#aab250a5688a170b30a64030a2139f529">symbolMap</a>.end())</div>
-<div class="line"><span class="lineno">  652</span>  {</div>
-<div class="line"><span class="lineno">  653</span>    it-&gt;second.push_back(def);</div>
-<div class="line"><span class="lineno">  654</span>  }</div>
-<div class="line"><span class="lineno">  655</span>  <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  656</span>  {</div>
-<div class="line"><span class="lineno">  657</span>    <a class="code hl_variable" href="../../d4/db6/struct_search_index_info.html#aab250a5688a170b30a64030a2139f529">symbolMap</a>.insert(std::make_pair(letter,std::vector&lt;const Definition*&gt;({def})));</div>
-<div class="line"><span class="lineno">  658</span>  }</div>
-<div class="line"><span class="lineno">  659</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d9/d2f/searchindex__js_8cpp_source.html#l00646">646</a> of file <a class="el" href="../../d9/d2f/searchindex__js_8cpp_source.html">searchindex_js.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  647</span>{</div>
+<div class="line"><span class="lineno">  648</span>  <span class="comment">//printf(&quot;%p: %s-&gt;%s (full=%s)\n&quot;,this,qPrint(letter),qPrint(searchName(def)),qPrint(def-&gt;name()));</span></div>
+<div class="line"><span class="lineno">  649</span>  <span class="keyword">auto</span> it = <a class="code hl_variable" href="../../d4/db6/struct_search_index_info.html#aab250a5688a170b30a64030a2139f529">symbolMap</a>.find(letter);</div>
+<div class="line"><span class="lineno">  650</span>  <span class="keywordflow">if</span> (it!=<a class="code hl_variable" href="../../d4/db6/struct_search_index_info.html#aab250a5688a170b30a64030a2139f529">symbolMap</a>.end())</div>
+<div class="line"><span class="lineno">  651</span>  {</div>
+<div class="line"><span class="lineno">  652</span>    it-&gt;second.push_back(def);</div>
+<div class="line"><span class="lineno">  653</span>  }</div>
+<div class="line"><span class="lineno">  654</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  655</span>  {</div>
+<div class="line"><span class="lineno">  656</span>    <a class="code hl_variable" href="../../d4/db6/struct_search_index_info.html#aab250a5688a170b30a64030a2139f529">symbolMap</a>.insert(std::make_pair(letter,std::vector&lt;const Definition*&gt;({def})));</div>
+<div class="line"><span class="lineno">  657</span>  }</div>
+<div class="line"><span class="lineno">  658</span>}</div>
 <div class="ttc" id="astruct_search_index_info_html_aab250a5688a170b30a64030a2139f529"><div class="ttname"><a href="../../d4/db6/struct_search_index_info.html#aab250a5688a170b30a64030a2139f529">SearchIndexInfo::symbolMap</a></div><div class="ttdeci">SearchIndexMap symbolMap</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de5/searchindex__js_8h_source.html#l00046">searchindex_js.h:46</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../dd/de5/searchindex__js_8h_source.html#l00046">symbolMap</a>.</p>
@@ -223,7 +223,7 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/de5/searchindex__js_8h_source.html#l00046">46</a> of file <a class="el" href="../../dd/de5/searchindex__js_8h_source.html">searchindex_js.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/d2f/searchindex__js_8cpp_source.html#l00647">add()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l08722">SymbolIndicesContext::Private::Private()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/d2f/searchindex__js_8cpp_source.html#l00646">add()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l08722">SymbolIndicesContext::Private::Private()</a>.</p>
 
 </div>
 </div>

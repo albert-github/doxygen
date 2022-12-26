@@ -1,5 +1,9 @@
 var NAVTREEINDEX70 =
 {
+"d9/dc1/class_translator_catalan.html#a7630b9b388daad151c69d076a943e068":[8,0,576,57],
+"d9/dc1/class_translator_catalan.html#a763447f104738c8f0ec0aef0e08aa026":[8,0,576,168],
+"d9/dc1/class_translator_catalan.html#a7757e6e81cbd7f64a542061b8c67daf3":[8,0,576,30],
+"d9/dc1/class_translator_catalan.html#a78158239235bd6d47ed412d70e6067c9":[8,0,576,73],
 "d9/dc1/class_translator_catalan.html#a792d3d011ea78e8bcf0fd9729ef5ea58":[8,0,576,33],
 "d9/dc1/class_translator_catalan.html#a7a00cf1c50c96aaa15eea44755782e35":[8,0,576,187],
 "d9/dc1/class_translator_catalan.html#a7ab864951a8636d1cb164295efec5758":[8,0,576,84],
@@ -245,9 +249,5 @@ var NAVTREEINDEX70 =
 "d9/ddf/class_translator_macedonian.html#a2230f71a04ada8241a13b69816030b8d":[8,0,599,93],
 "d9/ddf/class_translator_macedonian.html#a22a163ba60128e0e05da84bd79a03923":[8,0,599,62],
 "d9/ddf/class_translator_macedonian.html#a255b5a67cc149995c93bf3ca1444e85a":[8,0,599,66],
-"d9/ddf/class_translator_macedonian.html#a256abae5c4aa6cb625159ab95fd9d539":[8,0,599,2],
-"d9/ddf/class_translator_macedonian.html#a26ce585807600c35aa9fe48eaff9d4f3":[8,0,599,33],
-"d9/ddf/class_translator_macedonian.html#a27068d6ea29be6ad99c7bdc7dec3e051":[8,0,599,157],
-"d9/ddf/class_translator_macedonian.html#a27a123cb0ea37e5455b8b8d1b513a8b7":[8,0,599,83],
-"d9/ddf/class_translator_macedonian.html#a28fa6d85d2480c12badc6a18acb1161e":[8,0,599,6]
+"d9/ddf/class_translator_macedonian.html#a256abae5c4aa6cb625159ab95fd9d539":[8,0,599,2]
 };

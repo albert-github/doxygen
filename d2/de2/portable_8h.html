@@ -103,6 +103,7 @@ $(document).ready(function(){initNavTree('d2/de2/portable_8h.html','../../'); in
 <div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
 <code>#include &lt;sys/types.h&gt;</code><br />
 <code>#include &lt;stdint.h&gt;</code><br />
+<code>#include &lt;fstream&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../d7/d5c/qcstring_8h_source.html">qcstring.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for portable.h:</div>
@@ -179,6 +180,10 @@ Functions</h2></td></tr>
 <tr class="separator:a39228795dec07d8121645b0348e91712"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a724f5508f1314342da28cc51b867431b"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6f/namespace_portable.html#a724f5508f1314342da28cc51b867431b">Portable::recodeUtf8StringToW</a> (const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;inputStr, uint16_t **buf)</td></tr>
 <tr class="separator:a724f5508f1314342da28cc51b867431b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a230fceefc8f9abd1e8d4be71d7eef281"><td class="memItemLeft" align="right" valign="top">std::ofstream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6f/namespace_portable.html#a230fceefc8f9abd1e8d4be71d7eef281">Portable::openOutputStream</a> (const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;name, bool append=false)</td></tr>
+<tr class="separator:a230fceefc8f9abd1e8d4be71d7eef281"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0579eaf8c245a77f1e804a3cf1b0aa73"><td class="memItemLeft" align="right" valign="top">std::ifstream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6f/namespace_portable.html#a0579eaf8c245a77f1e804a3cf1b0aa73">Portable::openInputStream</a> (const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;name, bool binary=false, bool openAtEnd=false)</td></tr>
+<tr class="separator:a0579eaf8c245a77f1e804a3cf1b0aa73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bc4daae6d2c3e89837c44e2c3d4dac6"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/de2/portable_8h.html#a7bc4daae6d2c3e89837c44e2c3d4dac6">portable_iconv_open</a> (const char *tocode, const char *fromcode)</td></tr>
 <tr class="separator:a7bc4daae6d2c3e89837c44e2c3d4dac6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fc5ec1eedfa06b27448863f69ee2e1d"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/de2/portable_8h.html#a5fc5ec1eedfa06b27448863f69ee2e1d">portable_iconv</a> (void *cd, const char **inbuf, size_t *inbytesleft, char **outbuf, size_t *outbytesleft)</td></tr>
@@ -235,7 +240,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00672">configStringRecode()</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l02095">encodeForOutput()</a>, <a class="el" href="../../d3/d4b/htmlhelp_8cpp_source.html#l00069">HtmlHelpRecoder::recode()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l02608">TemplateContextImpl::recode()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00622">Portable::recodeUtf8StringToW()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l06264">transcodeCharacterBuffer()</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l01346">transcodeCharacterStringToUTF8()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00671">configStringRecode()</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l02095">encodeForOutput()</a>, <a class="el" href="../../d3/d4b/htmlhelp_8cpp_source.html#l00069">HtmlHelpRecoder::recode()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l02606">TemplateContextImpl::recode()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00623">Portable::recodeUtf8StringToW()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l06264">transcodeCharacterBuffer()</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l01346">transcodeCharacterStringToUTF8()</a>.</p>
 
 </div>
 </div>
@@ -255,7 +260,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l11305">adjustConfiguration()</a>, <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00672">configStringRecode()</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l02095">encodeForOutput()</a>, <a class="el" href="../../d3/d4b/htmlhelp_8cpp_source.html#l00060">HtmlHelpRecoder::finalize()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00622">Portable::recodeUtf8StringToW()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l02588">TemplateContextImpl::setEncoding()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l06264">transcodeCharacterBuffer()</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l01346">transcodeCharacterStringToUTF8()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l11305">adjustConfiguration()</a>, <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00671">configStringRecode()</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l02095">encodeForOutput()</a>, <a class="el" href="../../d3/d4b/htmlhelp_8cpp_source.html#l00060">HtmlHelpRecoder::finalize()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00623">Portable::recodeUtf8StringToW()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l02586">TemplateContextImpl::setEncoding()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l06264">transcodeCharacterBuffer()</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l01346">transcodeCharacterStringToUTF8()</a>.</p>
 
 </div>
 </div>
@@ -285,7 +290,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l11305">adjustConfiguration()</a>, <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00672">configStringRecode()</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l02095">encodeForOutput()</a>, <a class="el" href="../../d3/d4b/htmlhelp_8cpp_source.html#l00050">HtmlHelpRecoder::initialize()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00622">Portable::recodeUtf8StringToW()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l02588">TemplateContextImpl::setEncoding()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l06264">transcodeCharacterBuffer()</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l01346">transcodeCharacterStringToUTF8()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l11305">adjustConfiguration()</a>, <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00671">configStringRecode()</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l02095">encodeForOutput()</a>, <a class="el" href="../../d3/d4b/htmlhelp_8cpp_source.html#l00050">HtmlHelpRecoder::initialize()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00623">Portable::recodeUtf8StringToW()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l02586">TemplateContextImpl::setEncoding()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l06264">transcodeCharacterBuffer()</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l01346">transcodeCharacterStringToUTF8()</a>.</p>
 
 </div>
 </div>

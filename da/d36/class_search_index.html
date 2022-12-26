@@ -572,7 +572,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  318</span>  }</div>
 <div class="line"><span class="lineno">  319</span> </div>
 <div class="line"><span class="lineno">  320</span>  <span class="comment">//printf(&quot;Total size %x bytes (word=%x stats=%x urls=%x)\n&quot;,size,wordsOffset,statsOffset,urlsOffset);</span></div>
-<div class="line"><span class="lineno">  321</span>  std::ofstream f(fileName.str(),std::ofstream::out | std::ofstream::binary);</div>
+<div class="line"><span class="lineno">  321</span>  std::ofstream f = <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a230fceefc8f9abd1e8d4be71d7eef281">Portable::openOutputStream</a>(fileName);</div>
 <div class="line"><span class="lineno">  322</span>  <span class="keywordflow">if</span> (f.is_open())</div>
 <div class="line"><span class="lineno">  323</span>  {</div>
 <div class="line"><span class="lineno">  324</span>    <span class="comment">// write header</span></div>
@@ -626,10 +626,11 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  372</span>  }</div>
 <div class="line"><span class="lineno">  373</span> </div>
 <div class="line"><span class="lineno">  374</span>}</div>
+<div class="ttc" id="anamespace_portable_html_a230fceefc8f9abd1e8d4be71d7eef281"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#a230fceefc8f9abd1e8d4be71d7eef281">Portable::openOutputStream</a></div><div class="ttdeci">std::ofstream openOutputStream(const QCString &amp;name, bool append=false)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1c/portable_8cpp_source.html#l00648">portable.cpp:648</a></div></div>
 <div class="ttc" id="asearchindex_8cpp_html_a0b6667c7bad976edc1ef63202c87defe"><div class="ttname"><a href="../../d7/d79/searchindex_8cpp.html#a0b6667c7bad976edc1ef63202c87defe">writeString</a></div><div class="ttdeci">static void writeString(std::ostream &amp;f, const QCString &amp;s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d79/searchindex_8cpp_source.html#l00241">searchindex.cpp:241</a></div></div>
 <div class="ttc" id="asearchindex_8cpp_html_a61aa3a8c310a432e4925f68741d9bb21"><div class="ttname"><a href="../../d7/d79/searchindex_8cpp.html#a61aa3a8c310a432e4925f68741d9bb21">writeInt</a></div><div class="ttdeci">static void writeInt(std::ostream &amp;f, size_t index)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d79/searchindex_8cpp_source.html#l00233">searchindex.cpp:233</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/d07/searchindex_8h_source.html#l00127">m_index</a>, <a class="el" href="../../de/d07/searchindex_8h_source.html#l00129">m_urls</a>, <a class="el" href="../../de/d07/searchindex_8h_source.html#l00126">m_words</a>, <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00048">numIndexEntries</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00483">QCString::str()</a>, <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00233">writeInt()</a>, and <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00241">writeString()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d07/searchindex_8h_source.html#l00127">m_index</a>, <a class="el" href="../../de/d07/searchindex_8h_source.html#l00129">m_urls</a>, <a class="el" href="../../de/d07/searchindex_8h_source.html#l00126">m_words</a>, <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00048">numIndexEntries</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00648">Portable::openOutputStream()</a>, <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00233">writeInt()</a>, and <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00241">writeString()</a>.</p>
 
 </div>
 </div>
