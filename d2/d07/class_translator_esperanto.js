@@ -71,6 +71,7 @@ var class_translator_esperanto =
     [ "trEnumValue", "d2/d07/class_translator_esperanto.html#a2a6670acd98110ded878f2e121db6292", null ],
     [ "trEventDocumentation", "d2/d07/class_translator_esperanto.html#a9ac54cbfd7723d0d083b0c5668d03e84", null ],
     [ "trEvents", "d2/d07/class_translator_esperanto.html#a88572a98550e5ae9a575d5d6dd987a10", null ],
+    [ "trExampleDocumentation", "d2/d07/class_translator_esperanto.html#a7dce1c7d8ff2e4d85a78af267910e2a2", null ],
     [ "trExamples", "d2/d07/class_translator_esperanto.html#a513d25a076a168b30900b4b570f6d427", null ],
     [ "trExamplesDescription", "d2/d07/class_translator_esperanto.html#ac008de4220cb69145992cdf4018ea647", null ],
     [ "trExceptions", "d2/d07/class_translator_esperanto.html#a8cf8110f205bb7439a509230eff8e410", null ],

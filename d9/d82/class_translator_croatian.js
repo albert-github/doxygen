@@ -70,6 +70,7 @@ var class_translator_croatian =
     [ "trEnumValue", "d9/d82/class_translator_croatian.html#aba84efaf044d45b4346b1571b3ca7d26", null ],
     [ "trEventDocumentation", "d9/d82/class_translator_croatian.html#a9e35b757b69a0d6879f6abd64d8f91ca", null ],
     [ "trEvents", "d9/d82/class_translator_croatian.html#abc08e45d3be4d63c9a26f5b91f247d4b", null ],
+    [ "trExampleDocumentation", "d9/d82/class_translator_croatian.html#a124b09a77bc13436da9510702b3d8a29", null ],
     [ "trExamples", "d9/d82/class_translator_croatian.html#a04f1b677976dae44ec702486b3a9f9c9", null ],
     [ "trExamplesDescription", "d9/d82/class_translator_croatian.html#ad9aced40f06ea2d269ecaa5ce170d37d", null ],
     [ "trExceptions", "d9/d82/class_translator_croatian.html#a4fea439896fcff5996180d18b51ae32c", null ],

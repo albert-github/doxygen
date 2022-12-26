@@ -66,6 +66,7 @@ var class_translator_danish =
     [ "trEnumValue", "d7/d21/class_translator_danish.html#a932304de8980cbc82e14f3bd3886aa78", null ],
     [ "trEventDocumentation", "d7/d21/class_translator_danish.html#a2848147167e0fcc24a293ffa5ba63b34", null ],
     [ "trEvents", "d7/d21/class_translator_danish.html#adc3dc4dd23171bced014aafbd5593081", null ],
+    [ "trExampleDocumentation", "d7/d21/class_translator_danish.html#a43cff9c74ec5524657c36e4bf7f2a33b", null ],
     [ "trExamples", "d7/d21/class_translator_danish.html#a17e7124ddfb6c21019a0471e6ec61fcb", null ],
     [ "trExamplesDescription", "d7/d21/class_translator_danish.html#ab9c30651b8adc22d073cc1ed96c1fca7", null ],
     [ "trExceptions", "d7/d21/class_translator_danish.html#a0758e2f55138823aa68e7eb0a779452f", null ],

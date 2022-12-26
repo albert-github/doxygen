@@ -65,6 +65,7 @@ var class_translator_catalan =
     [ "trEnumValue", "d9/dc1/class_translator_catalan.html#a3a1c4e918d811785acc9d9e9e8495430", null ],
     [ "trEventDocumentation", "d9/dc1/class_translator_catalan.html#a59f96610fe90562d99f00bd609522268", null ],
     [ "trEvents", "d9/dc1/class_translator_catalan.html#ad92e99fa47322a6e24c57e8aa72c52a3", null ],
+    [ "trExampleDocumentation", "d9/dc1/class_translator_catalan.html#a07acb3ab34483733d5f3399710335e1d", null ],
     [ "trExamples", "d9/dc1/class_translator_catalan.html#af531e72583187a07dd4fa472704e5ba2", null ],
     [ "trExamplesDescription", "d9/dc1/class_translator_catalan.html#ae06d909f56672c2f20d297069a85bd22", null ],
     [ "trExceptions", "d9/dc1/class_translator_catalan.html#adab0da64ca7adcc5e665f2b661d3777d", null ],

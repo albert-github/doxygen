@@ -75,6 +75,7 @@ var class_translator_korean =
     [ "trEnumValue", "db/dcc/class_translator_korean.html#a6f0da64b700565a28d3d77b845be2c92", null ],
     [ "trEventDocumentation", "db/dcc/class_translator_korean.html#a9b93b09881dae65623c1c5c562462aff", null ],
     [ "trEvents", "db/dcc/class_translator_korean.html#af3d6f5fd9b0c11943c05f231ad03c150", null ],
+    [ "trExampleDocumentation", "db/dcc/class_translator_korean.html#a4824f5f504a44deb5f0a222ef112e381", null ],
     [ "trExamples", "db/dcc/class_translator_korean.html#a4532ba0db931e3bde21d05ca0157bb40", null ],
     [ "trExamplesDescription", "db/dcc/class_translator_korean.html#ad10a70724298842340ece3453ee2618f", null ],
     [ "trExceptions", "db/dcc/class_translator_korean.html#a3a949bf771391965536d4d812938db2a", null ],

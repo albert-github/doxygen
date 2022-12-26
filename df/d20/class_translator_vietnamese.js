@@ -62,6 +62,7 @@ var class_translator_vietnamese =
     [ "trEnumValue", "df/d20/class_translator_vietnamese.html#aebde5a5e7e5a8e2bdcedd16aa84b104b", null ],
     [ "trEventDocumentation", "df/d20/class_translator_vietnamese.html#ad0aa62f0b15578fa9e494ff273166438", null ],
     [ "trEvents", "df/d20/class_translator_vietnamese.html#a805e3ba6215964887711cd28c53325ea", null ],
+    [ "trExampleDocumentation", "df/d20/class_translator_vietnamese.html#a756889cf2e219a203a64ef5cc45fc829", null ],
     [ "trExamples", "df/d20/class_translator_vietnamese.html#aec70e499c88c890ad2c06092d5faa4d3", null ],
     [ "trExamplesDescription", "df/d20/class_translator_vietnamese.html#aff6b91ca8b47558aa4f9aed938d3297c", null ],
     [ "trExceptions", "df/d20/class_translator_vietnamese.html#ab4b59788541117f953b1ac9cdb84cdae", null ],

@@ -52,6 +52,7 @@ var class_translator_arabic =
     [ "trEnumValue", "d3/de9/class_translator_arabic.html#ae9b4ecec9913389fea6432dc2171afb5", null ],
     [ "trEventDocumentation", "d3/de9/class_translator_arabic.html#a32c79069b0baf68aa960fb12e5eccf69", null ],
     [ "trEvents", "d3/de9/class_translator_arabic.html#a22a39d424d0cb37428a7350d04e4448b", null ],
+    [ "trExampleDocumentation", "d3/de9/class_translator_arabic.html#afcb9a17ca0cf3e9a30bc8fcaa3eb0529", null ],
     [ "trExamples", "d3/de9/class_translator_arabic.html#a25e1edc62b0483c21294f890cea8d0cb", null ],
     [ "trExamplesDescription", "d3/de9/class_translator_arabic.html#a9447a02d8ff3f92c9836c317d16e9c8c", null ],
     [ "trExceptions", "d3/de9/class_translator_arabic.html#a6eabaaa6157a6ebd1ddccca45d2b42c2", null ],

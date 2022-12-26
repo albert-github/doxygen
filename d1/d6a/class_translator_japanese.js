@@ -77,6 +77,7 @@ var class_translator_japanese =
     [ "trEnumValue", "d1/d6a/class_translator_japanese.html#a22c91fb4d65a211817217acc600afbd5", null ],
     [ "trEventDocumentation", "d1/d6a/class_translator_japanese.html#a5c0b0cd38680a740837e989505918799", null ],
     [ "trEvents", "d1/d6a/class_translator_japanese.html#aa76891354ed3cd9b0ccdd0aab601b022", null ],
+    [ "trExampleDocumentation", "d1/d6a/class_translator_japanese.html#af9f10fc778f95f99edd3dec625eb66ae", null ],
     [ "trExamples", "d1/d6a/class_translator_japanese.html#a9156009f1d3b6509fea32f5da43ffd66", null ],
     [ "trExamplesDescription", "d1/d6a/class_translator_japanese.html#a64634d888eea387e1678d0c7fbd7e510", null ],
     [ "trExceptions", "d1/d6a/class_translator_japanese.html#a740f03ad885ee604d5b0b94c43711f05", null ],

@@ -73,6 +73,7 @@ var class_translator_russian =
     [ "trEnumValue", "d0/dab/class_translator_russian.html#a03121cad2e6b1335b17cfba7d8c98810", null ],
     [ "trEventDocumentation", "d0/dab/class_translator_russian.html#a97ef3ac0ca3f70ea589feaa6b0208c50", null ],
     [ "trEvents", "d0/dab/class_translator_russian.html#a6f01b3a46dbb6fc8d718c1d1060ff01b", null ],
+    [ "trExampleDocumentation", "d0/dab/class_translator_russian.html#a6900b822ff8f49afe3b80cf789fca2ea", null ],
     [ "trExamples", "d0/dab/class_translator_russian.html#a15e8b8460c400c4e7b80d36dd8b07864", null ],
     [ "trExamplesDescription", "d0/dab/class_translator_russian.html#a0dde522a4e0b8fd6041fe54d3c15c6f1", null ],
     [ "trExceptions", "d0/dab/class_translator_russian.html#a90c7c3e8224e277a71bd8b32586aa410", null ],

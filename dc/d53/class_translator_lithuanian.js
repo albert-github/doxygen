@@ -51,6 +51,7 @@ var class_translator_lithuanian =
     [ "trEnumValue", "dc/d53/class_translator_lithuanian.html#acef3b50fa73c8837aec7d0ee007fc406", null ],
     [ "trEventDocumentation", "dc/d53/class_translator_lithuanian.html#adec683c693165e685a6275c8a525c8e7", null ],
     [ "trEvents", "dc/d53/class_translator_lithuanian.html#a28550142ee50b966aa8a6bc79e95fff6", null ],
+    [ "trExampleDocumentation", "dc/d53/class_translator_lithuanian.html#ac6b61b9081a98da7f5170e9fed15f45d", null ],
     [ "trExamples", "dc/d53/class_translator_lithuanian.html#a70bb6bb7d2d0521c1d60e0a7a0d94b7e", null ],
     [ "trExamplesDescription", "dc/d53/class_translator_lithuanian.html#a90ac6bb0840add6c1f15cd38816c3567", null ],
     [ "trExceptions", "dc/d53/class_translator_lithuanian.html#a50bada60cd2c5099d5dd0c4c37175298", null ],

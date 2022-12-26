@@ -60,6 +60,7 @@ var class_translator_afrikaans =
     [ "trEnumValue", "d3/d65/class_translator_afrikaans.html#a5859c8e196334c48f261c032670993dd", null ],
     [ "trEventDocumentation", "d3/d65/class_translator_afrikaans.html#a87c84c2561389783a83b451c714599fa", null ],
     [ "trEvents", "d3/d65/class_translator_afrikaans.html#aea1cf7b4d33588cc73ca6c3c61225998", null ],
+    [ "trExampleDocumentation", "d3/d65/class_translator_afrikaans.html#a0e9bafa9d7cc3a476f5d3504bb607619", null ],
     [ "trExamples", "d3/d65/class_translator_afrikaans.html#a5948b1e757e3c83f6509f4b87d8a307a", null ],
     [ "trExamplesDescription", "d3/d65/class_translator_afrikaans.html#a0ec014d06b6517c521278dbf43ee9ead", null ],
     [ "trExceptions", "d3/d65/class_translator_afrikaans.html#a0da5dd0dae10e1d3474cf0b65d41f7fe", null ],

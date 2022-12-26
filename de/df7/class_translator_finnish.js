@@ -60,6 +60,7 @@ var class_translator_finnish =
     [ "trEnumValue", "de/df7/class_translator_finnish.html#a4f9924dbd6ff3b100101f3d011799c22", null ],
     [ "trEventDocumentation", "de/df7/class_translator_finnish.html#a0d03fbc305d3e284d81606f79d1562c3", null ],
     [ "trEvents", "de/df7/class_translator_finnish.html#aee02d83031bf92c40af07cef17e63b06", null ],
+    [ "trExampleDocumentation", "de/df7/class_translator_finnish.html#aa684912e698b526e63cfbb09fe3bf692", null ],
     [ "trExamples", "de/df7/class_translator_finnish.html#a3e1175a17bd1dc864dfcbc5434eb0c8d", null ],
     [ "trExamplesDescription", "de/df7/class_translator_finnish.html#a3374b8c8f1bc8eed4a680a4d179667dc", null ],
     [ "trExceptions", "de/df7/class_translator_finnish.html#a91cc50b9356cd63a2d2e30cf9e1367de", null ],

@@ -63,6 +63,7 @@ var class_translator_persian =
     [ "trEnumValue", "d5/d43/class_translator_persian.html#a1e6cb470865f7b249733ffccedfc7fd2", null ],
     [ "trEventDocumentation", "d5/d43/class_translator_persian.html#ad03ee316255eccb66cdeac5ebd27d194", null ],
     [ "trEvents", "d5/d43/class_translator_persian.html#a7270d6a4d299cc548507c03d3148b687", null ],
+    [ "trExampleDocumentation", "d5/d43/class_translator_persian.html#aa6727c823cb56954d8f6e775cb59a12d", null ],
     [ "trExamples", "d5/d43/class_translator_persian.html#a3b094f0a4aea8d77f42e7a1d29c2d4ca", null ],
     [ "trExamplesDescription", "d5/d43/class_translator_persian.html#a5690397f2d3d92f2a367d01206ee24aa", null ],
     [ "trExceptions", "d5/d43/class_translator_persian.html#aa6bdf30a3fc86ef8e6fd9f8e0f762496", null ],

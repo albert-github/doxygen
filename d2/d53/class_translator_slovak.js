@@ -73,6 +73,7 @@ var class_translator_slovak =
     [ "trEnumValue", "d2/d53/class_translator_slovak.html#a63bebee96bc109ab30d25978c4aa26d3", null ],
     [ "trEventDocumentation", "d2/d53/class_translator_slovak.html#a80d1c8a7588136af82900473f1cc769d", null ],
     [ "trEvents", "d2/d53/class_translator_slovak.html#aef34c61565248c43fe766e85ed657af7", null ],
+    [ "trExampleDocumentation", "d2/d53/class_translator_slovak.html#a8797066b2304a1d82ded14545bec80b7", null ],
     [ "trExamples", "d2/d53/class_translator_slovak.html#a2be2ee1b3c8d37b764d984c2b0fcb59f", null ],
     [ "trExamplesDescription", "d2/d53/class_translator_slovak.html#a5fcb65e73cc3d0c1e1bbda095cd9a396", null ],
     [ "trExceptions", "d2/d53/class_translator_slovak.html#afc93e4e8d77e7a517b086a9579f44309", null ],

@@ -73,6 +73,7 @@ var class_translator_italian =
     [ "trEnumValue", "d2/df8/class_translator_italian.html#ac29baf0cffb2425dafd6203b18b9ede7", null ],
     [ "trEventDocumentation", "d2/df8/class_translator_italian.html#a61585235bd1958ab76352e17e646ef21", null ],
     [ "trEvents", "d2/df8/class_translator_italian.html#a5c52e957178fa12eff42db39fda9b1a7", null ],
+    [ "trExampleDocumentation", "d2/df8/class_translator_italian.html#a67063fffd51200830a42a7466c085d39", null ],
     [ "trExamples", "d2/df8/class_translator_italian.html#ae87f35c3c0d43ba328a32fa20058b4c3", null ],
     [ "trExamplesDescription", "d2/df8/class_translator_italian.html#a0d2bdf692fbe641b56c0ddb85e5cf882", null ],
     [ "trExceptions", "d2/df8/class_translator_italian.html#a031a42a99a64a7c806bd6ce0c26e65e6", null ],

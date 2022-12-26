@@ -60,6 +60,7 @@ var class_translator_serbian =
     [ "trEnumValue", "d5/d0a/class_translator_serbian.html#aa36f223b3591d613aab1a969eea9fd0f", null ],
     [ "trEventDocumentation", "d5/d0a/class_translator_serbian.html#a7eea1f3c614c88d56828a3449195da2a", null ],
     [ "trEvents", "d5/d0a/class_translator_serbian.html#a96cbd637a8231ac9456eb278a3822a1e", null ],
+    [ "trExampleDocumentation", "d5/d0a/class_translator_serbian.html#abacc757e76d020434c2c23c6ac07fbb9", null ],
     [ "trExamples", "d5/d0a/class_translator_serbian.html#a119d7dfc9d0c1693276c013ac7d0fa5e", null ],
     [ "trExamplesDescription", "d5/d0a/class_translator_serbian.html#a5410a4017c9c75dbbf60b1889c3b49b8", null ],
     [ "trExceptions", "d5/d0a/class_translator_serbian.html#a51555af0ed9a514b8c4aa147417ef075", null ],

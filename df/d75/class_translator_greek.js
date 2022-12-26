@@ -98,6 +98,7 @@ var class_translator_greek =
     [ "trEnumValue", "df/d75/class_translator_greek.html#afd8eaa8133b7945efe82766718a907c0", null ],
     [ "trEventDocumentation", "df/d75/class_translator_greek.html#a267fa4466f72a89df428d4fa1cc518b0", null ],
     [ "trEvents", "df/d75/class_translator_greek.html#a5df9b859596cb0b5836cbaf9c04d6572", null ],
+    [ "trExampleDocumentation", "df/d75/class_translator_greek.html#a13cb9634c1dc8804684f526ac7112400", null ],
     [ "trExamples", "df/d75/class_translator_greek.html#a75dd2ea0dc31e3738676cf56d598a479", null ],
     [ "trExamplesDescription", "df/d75/class_translator_greek.html#a49adb03bcbfb71c475a3668107ab787b", null ],
     [ "trExceptionDocumentation", "df/d75/class_translator_greek.html#ae7fa32e2393d7b70b1c0b06d3c344345", null ],

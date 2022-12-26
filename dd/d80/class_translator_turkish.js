@@ -62,6 +62,7 @@ var class_translator_turkish =
     [ "trEnumValue", "dd/d80/class_translator_turkish.html#a72f86f730449a34058569ab8cdb07f18", null ],
     [ "trEventDocumentation", "dd/d80/class_translator_turkish.html#aeaa57e52868588c82861ce248d7337bf", null ],
     [ "trEvents", "dd/d80/class_translator_turkish.html#a5399380a9e87985c2c3afed2e2ba26a6", null ],
+    [ "trExampleDocumentation", "dd/d80/class_translator_turkish.html#a994979419ca742b65e99689cd331f2c7", null ],
     [ "trExamples", "dd/d80/class_translator_turkish.html#a70f4c6369b09048ae6adedd0cdc6d165", null ],
     [ "trExamplesDescription", "dd/d80/class_translator_turkish.html#abc4a8e9592ab2662ed666574b06e2b5b", null ],
     [ "trExceptions", "dd/d80/class_translator_turkish.html#a08f9c9d789df14c377ff8a43db286a9d", null ],

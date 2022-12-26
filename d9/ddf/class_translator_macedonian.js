@@ -60,6 +60,7 @@ var class_translator_macedonian =
     [ "trEnumValue", "d9/ddf/class_translator_macedonian.html#ab1aeafce435a1147730b8de47a52c325", null ],
     [ "trEventDocumentation", "d9/ddf/class_translator_macedonian.html#a4733e20877c2cbb1f0d3cc928045bdcc", null ],
     [ "trEvents", "d9/ddf/class_translator_macedonian.html#a7c1a100ace034f892e692bf9d4f9958f", null ],
+    [ "trExampleDocumentation", "d9/ddf/class_translator_macedonian.html#a768a3a76d4ad5f7048d18e4bbe09f642", null ],
     [ "trExamples", "d9/ddf/class_translator_macedonian.html#a71c725d9484ce4777fc08eed63d5c762", null ],
     [ "trExamplesDescription", "d9/ddf/class_translator_macedonian.html#a22a163ba60128e0e05da84bd79a03923", null ],
     [ "trExceptions", "d9/ddf/class_translator_macedonian.html#ac4634a2d76a14595fef2d9d05cc4212c", null ],

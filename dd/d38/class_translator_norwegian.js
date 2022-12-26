@@ -52,6 +52,7 @@ var class_translator_norwegian =
     [ "trEnumValue", "dd/d38/class_translator_norwegian.html#a7b2dc9ecbf53486bbbed091e5686ad1d", null ],
     [ "trEventDocumentation", "dd/d38/class_translator_norwegian.html#aacb68c4305d381ff5c6168b6d82636c7", null ],
     [ "trEvents", "dd/d38/class_translator_norwegian.html#aa4affc21a7a8d6367dc1f1069316cc35", null ],
+    [ "trExampleDocumentation", "dd/d38/class_translator_norwegian.html#a8b0d3f953b275be330604a73f4d2367e", null ],
     [ "trExamples", "dd/d38/class_translator_norwegian.html#a809b1833c57839084661bf3e075a43b3", null ],
     [ "trExamplesDescription", "dd/d38/class_translator_norwegian.html#a3b1e3c1b1bb2c424f52898d3a7317e4f", null ],
     [ "trExceptions", "dd/d38/class_translator_norwegian.html#af7e07ca08e6f39ba175943fca916b7cf", null ],

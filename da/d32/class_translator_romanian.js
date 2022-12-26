@@ -73,6 +73,7 @@ var class_translator_romanian =
     [ "trEnumValue", "da/d32/class_translator_romanian.html#a00cf2157b9e9e9aa79bf89dbd415297f", null ],
     [ "trEventDocumentation", "da/d32/class_translator_romanian.html#ae21160d8e96af54ba2a52cecf67db73b", null ],
     [ "trEvents", "da/d32/class_translator_romanian.html#a4ebd39202b30ee56ceff1437f102dbd1", null ],
+    [ "trExampleDocumentation", "da/d32/class_translator_romanian.html#a58425d4497f4cfde71a0ceb57c1d6a50", null ],
     [ "trExamples", "da/d32/class_translator_romanian.html#ac450948232315dd746f9ee61d33b9b3f", null ],
     [ "trExamplesDescription", "da/d32/class_translator_romanian.html#a3d7b4cc48d9bdd17794ba1a045567c35", null ],
     [ "trExceptions", "da/d32/class_translator_romanian.html#add5a40d7c001ec777678ce93237bb394", null ],

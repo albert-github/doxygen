@@ -61,6 +61,7 @@ var class_translator_serbian_cyrillic =
     [ "trEnumValue", "dc/d03/class_translator_serbian_cyrillic.html#a8937afefdbe2013fac2901276f9c1489", null ],
     [ "trEventDocumentation", "dc/d03/class_translator_serbian_cyrillic.html#a091f20241d66086253369101262fa258", null ],
     [ "trEvents", "dc/d03/class_translator_serbian_cyrillic.html#a44fe734c8aebeab6c68c5bdd36e379c0", null ],
+    [ "trExampleDocumentation", "dc/d03/class_translator_serbian_cyrillic.html#a15f1c1e7cb0e576db381c487618e3eb2", null ],
     [ "trExamples", "dc/d03/class_translator_serbian_cyrillic.html#abd4dc589411ccaeb55462764edeb5367", null ],
     [ "trExamplesDescription", "dc/d03/class_translator_serbian_cyrillic.html#a1e5a0dad07a8b79a296541236bf0708e", null ],
     [ "trExceptions", "dc/d03/class_translator_serbian_cyrillic.html#aa2bfbaae043f9a0f8473ffba434812b6", null ],

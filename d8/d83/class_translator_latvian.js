@@ -71,6 +71,7 @@ var class_translator_latvian =
     [ "trEnumValue", "d8/d83/class_translator_latvian.html#af530ff043fadc1c037700658791fb1f6", null ],
     [ "trEventDocumentation", "d8/d83/class_translator_latvian.html#a894ab88d36cb6e57963acbd2e1a0603a", null ],
     [ "trEvents", "d8/d83/class_translator_latvian.html#a68994faaf7f8921a0f314911ddb88a42", null ],
+    [ "trExampleDocumentation", "d8/d83/class_translator_latvian.html#a641b538c690d3574673976b7eed5a173", null ],
     [ "trExamples", "d8/d83/class_translator_latvian.html#a6a64f9108b45b2dfaf2df0907acfca5c", null ],
     [ "trExamplesDescription", "d8/d83/class_translator_latvian.html#a58d01a1801f5919281724f6ebcf83b14", null ],
     [ "trExceptions", "d8/d83/class_translator_latvian.html#aacde6e4e96f397053eeddabaa9ecaadd", null ],

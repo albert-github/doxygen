@@ -71,6 +71,7 @@ var class_translator_ukrainian =
     [ "trEnumValue", "d1/d56/class_translator_ukrainian.html#aecdeefecc693c82687814d7e2c7c5f44", null ],
     [ "trEventDocumentation", "d1/d56/class_translator_ukrainian.html#a2ee0cce934d80993b6eef09bf3ec0dc0", null ],
     [ "trEvents", "d1/d56/class_translator_ukrainian.html#a9ff55cd2b9e1a4efe4ae403efcddfff7", null ],
+    [ "trExampleDocumentation", "d1/d56/class_translator_ukrainian.html#a7bcf3d7e69a9dfdebe8e8cc7b6e21d21", null ],
     [ "trExamples", "d1/d56/class_translator_ukrainian.html#a46110858d8731d02187ecceed9256e06", null ],
     [ "trExamplesDescription", "d1/d56/class_translator_ukrainian.html#a85e65ea6ee048466f16418f91f1abe8d", null ],
     [ "trExceptions", "d1/d56/class_translator_ukrainian.html#a619b01ae603383d0d2143429aeebf0f3", null ],

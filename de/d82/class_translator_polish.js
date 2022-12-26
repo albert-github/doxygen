@@ -70,6 +70,7 @@ var class_translator_polish =
     [ "trEnumValue", "de/d82/class_translator_polish.html#a1a96005738f33bd7724413dfcfb555f7", null ],
     [ "trEventDocumentation", "de/d82/class_translator_polish.html#a9a1e00b24df09230de3ca0ebb2cb7b1f", null ],
     [ "trEvents", "de/d82/class_translator_polish.html#ac399b9cdd43e225d284bddcd4f3bdabb", null ],
+    [ "trExampleDocumentation", "de/d82/class_translator_polish.html#adda882b0d8277983bbc5560fbc26aa78", null ],
     [ "trExamples", "de/d82/class_translator_polish.html#a3a9406c85bbeccb8e01f6ea4faa88d6e", null ],
     [ "trExamplesDescription", "de/d82/class_translator_polish.html#ab08c9c6f8e611a0d42e6984531a7259c", null ],
     [ "trExceptions", "de/d82/class_translator_polish.html#a3aa24750d30c7cb91e001aa2a45d409a", null ],

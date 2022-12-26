@@ -65,6 +65,7 @@ var class_translator_indonesian =
     [ "trEnumValue", "df/dc8/class_translator_indonesian.html#adc5560db715fad24920544df6e847386", null ],
     [ "trEventDocumentation", "df/dc8/class_translator_indonesian.html#a0e3a80a83b9fe7777f47db3d34cadba8", null ],
     [ "trEvents", "df/dc8/class_translator_indonesian.html#a00b4918452191519042608ab27931f0e", null ],
+    [ "trExampleDocumentation", "df/dc8/class_translator_indonesian.html#a15bf2a6331c2bb18c87eee7f62ffeeef", null ],
     [ "trExamples", "df/dc8/class_translator_indonesian.html#a2956aa73bd36da2b1c5daab267d50921", null ],
     [ "trExamplesDescription", "df/dc8/class_translator_indonesian.html#a96cb82c37275ecaa7849a43620e8a6e5", null ],
     [ "trExceptions", "df/dc8/class_translator_indonesian.html#a2f43a12b6fb90eb18ae847c9de2f9a84", null ],

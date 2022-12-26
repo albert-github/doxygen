@@ -65,6 +65,7 @@ var class_translator_armenian =
     [ "trEnumValue", "da/db8/class_translator_armenian.html#a93fc9e1199055fd79ef12a97376c0121", null ],
     [ "trEventDocumentation", "da/db8/class_translator_armenian.html#a6303975646065cd8f50ab63a69982de6", null ],
     [ "trEvents", "da/db8/class_translator_armenian.html#a6b3fcd2aad93f88b77aa71ab75be68fe", null ],
+    [ "trExampleDocumentation", "da/db8/class_translator_armenian.html#aa211e5d3e8eeed88f15735a6208f15f3", null ],
     [ "trExamples", "da/db8/class_translator_armenian.html#a7c5c8f4e0ebf08f9e67d15891e43fbb4", null ],
     [ "trExamplesDescription", "da/db8/class_translator_armenian.html#a7fffcf5bcff1b4f49c267a497cd9739b", null ],
     [ "trExceptions", "da/db8/class_translator_armenian.html#af5156692116d005bf5aab19770206609", null ],

@@ -51,6 +51,7 @@ var class_translator_slovene =
     [ "trEnumValue", "dd/d0b/class_translator_slovene.html#a95fc785df160a252946abd72c08137e7", null ],
     [ "trEventDocumentation", "dd/d0b/class_translator_slovene.html#ae2e0905cf87e6c623e6495a1e16018bb", null ],
     [ "trEvents", "dd/d0b/class_translator_slovene.html#af55b066161283b049e039b03631b36d0", null ],
+    [ "trExampleDocumentation", "dd/d0b/class_translator_slovene.html#a7fbf6a42ac80c498412996b1fd085375", null ],
     [ "trExamples", "dd/d0b/class_translator_slovene.html#a0a64d170036b6183017af3147c59ffca", null ],
     [ "trExamplesDescription", "dd/d0b/class_translator_slovene.html#ad124db9acd4e77368a76cdc6aa6ff530", null ],
     [ "trExceptions", "dd/d0b/class_translator_slovene.html#ad90577cb41a9a100b5ee214af8144149", null ],
