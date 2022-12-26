@@ -95,7 +95,6 @@ var class_translator_portuguese =
     [ "trEnumValue", "dc/df2/class_translator_portuguese.html#a003f65dcb1899d8fa0a7904ea7d1ff45", null ],
     [ "trEventDocumentation", "dc/df2/class_translator_portuguese.html#a74a3dcbae4a9f56c143ad597c5eb3295", null ],
     [ "trEvents", "dc/df2/class_translator_portuguese.html#a3d881a57ecc9b039ad91d4f811082e07", null ],
-    [ "trExampleDocumentation", "dc/df2/class_translator_portuguese.html#afd4d5a5fa30767abf396574af3b22edf", null ],
     [ "trExamples", "dc/df2/class_translator_portuguese.html#af6b3271c54d8083d9a2a91a737b4e2f8", null ],
     [ "trExamplesDescription", "dc/df2/class_translator_portuguese.html#a2923bc757e192fb65a4c22ae7298bb51", null ],
     [ "trExceptionDocumentation", "dc/df2/class_translator_portuguese.html#af80598b8a15e85495c7214cfa6a6f307", null ],

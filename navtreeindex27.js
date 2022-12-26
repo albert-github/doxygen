@@ -1,14 +1,5 @@
 var NAVTREEINDEX27 =
 {
-"d3/d77/class_latex_generator.html#ab69cb7decfc841c4fb0b1b71eab0c0aa":[8,0,345,29],
-"d3/d77/class_latex_generator.html#ab92ba4ec639de4be31f04be7333de37a":[8,0,345,49],
-"d3/d77/class_latex_generator.html#ab9b53e9b2ca627d07fc8e688459fc4e0":[8,0,345,5],
-"d3/d77/class_latex_generator.html#abc79ee7e0a83ce1b804189f74d55d899":[8,0,345,115],
-"d3/d77/class_latex_generator.html#abc814eeab82521846cf18686f8d92fac":[8,0,345,50],
-"d3/d77/class_latex_generator.html#abc987c69dce26f3ae3b8b10aeb4e4ce6":[8,0,345,65],
-"d3/d77/class_latex_generator.html#ac1feab4756dc9795d056b72cc74379e4":[8,0,345,196],
-"d3/d77/class_latex_generator.html#ac28872ad91e4d83b68a7a948b341c0d6":[8,0,345,37],
-"d3/d77/class_latex_generator.html#ac2b9d0f03ee66d0727bb9916194ec0c3":[8,0,345,195],
 "d3/d77/class_latex_generator.html#ac4339024ccc0da904106eaf6df9514a5":[8,0,345,63],
 "d3/d77/class_latex_generator.html#ac4add448cd45bd24b9055e59ca16c0e1":[8,0,345,75],
 "d3/d77/class_latex_generator.html#ac5b9cbf30e02b2d1714ffaf648f38e72":[8,0,345,90],
@@ -249,5 +240,14 @@ var NAVTREEINDEX27 =
 "d3/d8e/class_output_generator.html#af7b192445835b7aed03a272faa69f02a":[8,0,422,18],
 "d3/d8e/class_output_generator.html#af7f56035354567686d15ab77e1f6f31d":[8,0,422,37],
 "d3/d8e/class_output_generator.html#afacff7ea600037f0e6fc29207f06332e":[8,0,422,13],
-"d3/d8e/class_output_generator.html#afcb9acfea2d7a6f0a340287632aea4e8":[8,0,422,133]
+"d3/d8e/class_output_generator.html#afcb9acfea2d7a6f0a340287632aea4e8":[8,0,422,133],
+"d3/d8e/class_output_generator.html#afcffdc42aba2bec8663e4e746b6b7f99":[8,0,422,17],
+"d3/d8e/class_output_generator.html#afe4260c0e579d0c958c8819125270a87":[8,0,422,132],
+"d3/d8e/class_output_generator.html#aff2bc4bc8bdfd7e14d0c0cf69741926a":[8,0,422,120],
+"d3/d8e/class_output_generator.html#affa3b7942cec8751db1dc6328891f060":[8,0,422,16],
+"d3/d9a/formula_8h.html":[9,0,2,120],
+"d3/d9a/formula_8h_source.html":[9,0,2,120],
+"d3/d9b/translator__de_8h.html":[9,0,2,252],
+"d3/d9b/translator__de_8h_source.html":[9,0,2,252],
+"d3/da1/class_translator_adapter__1__6__0.html":[8,0,560]
 };

@@ -102,7 +102,6 @@ var class_translator =
     [ "trEnumValue", "d8/dfb/class_translator.html#ac967d215eaeada1586591ff86fcb27ee", null ],
     [ "trEventDocumentation", "d8/dfb/class_translator.html#a2c96efb89bc411ddbfe8250f9d0e2e24", null ],
     [ "trEvents", "d8/dfb/class_translator.html#ac9e66274bee002ddd496457b2f3dc266", null ],
-    [ "trExampleDocumentation", "d8/dfb/class_translator.html#a7829ffeeebcaaddb10372921956a2d6e", null ],
     [ "trExamples", "d8/dfb/class_translator.html#ad0aac429d4bcd4489a41e395c5244976", null ],
     [ "trExamplesDescription", "d8/dfb/class_translator.html#a6f98d005e7b74f9d189abc30e3d48e6c", null ],
     [ "trExceptionDocumentation", "d8/dfb/class_translator.html#a16ad7f78c8162a65fccab1bcd5b8e607", null ],
