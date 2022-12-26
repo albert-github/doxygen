@@ -53,6 +53,7 @@ var class_member_def =
     [ "getMemberSpecifiers", "da/d09/class_member_def.html#a4458215515338eb7c5597c44d8694e5d", null ],
     [ "getNamespaceDef", "da/d09/class_member_def.html#a900cace4959b6cad9e6aa58e8283195f", null ],
     [ "getOutputFileBase", "da/d09/class_member_def.html#a1691f8cc2d90978d091a7d7aae11dd8d", null ],
+    [ "getQualifiers", "da/d09/class_member_def.html#a78ea63aa23ada7ecd6d8c59163c3dadf", null ],
     [ "getReadAccessor", "da/d09/class_member_def.html#ab8d7b70952b14c1f6af79a16f122a6c9", null ],
     [ "getReference", "da/d09/class_member_def.html#a1fa921f95581774af1de1a29fb24a0c8", null ],
     [ "getScopeString", "da/d09/class_member_def.html#a68246f42d892a0cd4e1b5248d8f8f947", null ],

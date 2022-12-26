@@ -28,6 +28,7 @@ var class_class_def_alias_impl =
     [ "getMemberListFileName", "d0/d2b/class_class_def_alias_impl.html#ad0f303124670bc70948cc3970c7d5556", null ],
     [ "getMemberLists", "d0/d2b/class_class_def_alias_impl.html#a81db6b4eaf13a10f603c4bc6ea6e03af", null ],
     [ "getOutputFileBase", "d0/d2b/class_class_def_alias_impl.html#aa9e27c43e798f0ccc6b9728ec813681a", null ],
+    [ "getQualifiers", "d0/d2b/class_class_def_alias_impl.html#aaad39255b8fcfbacd65f380aad12e3c2", null ],
     [ "getReference", "d0/d2b/class_class_def_alias_impl.html#ae884da09744b00dcda74fb509833af37", null ],
     [ "getSourceFileBase", "d0/d2b/class_class_def_alias_impl.html#aa1321012767eb292a1043561c67504ac", null ],
     [ "getTemplateBaseClassNames", "d0/d2b/class_class_def_alias_impl.html#a08ecb7b3653752f5699b135eb8c7bffb", null ],

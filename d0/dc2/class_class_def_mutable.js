@@ -6,6 +6,7 @@ var class_class_def_mutable =
     [ "addListReferences", "d0/dc2/class_class_def_mutable.html#a8e6e94e29c2e6db09e38213e1525cd64", null ],
     [ "addMembersToMemberGroup", "d0/dc2/class_class_def_mutable.html#a1c90cadafedf7c5aabf13652c88929d9", null ],
     [ "addMembersToTemplateInstance", "d0/dc2/class_class_def_mutable.html#ad59851d3155ba565dfe74bbb919435cc", null ],
+    [ "addQualifiers", "d0/dc2/class_class_def_mutable.html#a8ce00e76971eb9e767556f901f03970a", null ],
     [ "addTypeConstraints", "d0/dc2/class_class_def_mutable.html#a02add5668fa40a4104eee73bafae1a55", null ],
     [ "addUsedByClass", "d0/dc2/class_class_def_mutable.html#acc27a2bc4401c6769868027174ae8859", null ],
     [ "addUsedClass", "d0/dc2/class_class_def_mutable.html#a495b362e77fb13df4c06880dcd36daae", null ],

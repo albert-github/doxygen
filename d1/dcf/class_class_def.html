@@ -359,6 +359,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8bfa7122b5f501c389a13c2d55219f44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af404e73b14943149542cf4202bc0ab6d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcf/class_class_def.html#af404e73b14943149542cf4202bc0ab6d">requiresClause</a> () const =0</td></tr>
 <tr class="separator:af404e73b14943149542cf4202bc0ab6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a570d8dcfdd144e17226ca785e58b15b7"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d5/d75/containers_8h.html#ac8d53003529fb2d062d614077fe6857c">StringVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcf/class_class_def.html#a570d8dcfdd144e17226ca785e58b15b7">getQualifiers</a> () const =0</td></tr>
+<tr class="separator:a570d8dcfdd144e17226ca785e58b15b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa08a21c84b7e1718d8f2701bc3af6291"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcf/class_class_def.html#aa08a21c84b7e1718d8f2701bc3af6291">countMembersIncludingGrouped</a> (<a class="el" href="../../d9/d49/types_8h.html#abe8ad5992f8938a28f918f51b199aa19">MemberListType</a> lt, const <a class="el" href="../../d1/dcf/class_class_def.html">ClassDef</a> *inheritedFrom, bool additional) const =0</td></tr>
 <tr class="separator:aa08a21c84b7e1718d8f2701bc3af6291"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaed5a1330ded27cf8e803ff5fc57de6f"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcf/class_class_def.html#aaed5a1330ded27cf8e803ff5fc57de6f">countInheritanceNodes</a> () const =0</td></tr>
@@ -577,7 +579,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#af5b7c1d4fe321131a3fb44c972c14e8b">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#ad77cf1695a5ec4ad60d81b18ccbea870">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02802">MemberDefImpl::_writeReimplements()</a>, <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00026">DotClassGraph::addClass()</a>, <a class="el" href="../../d4/d09/dotgfxhierarchytable_8cpp_source.html#l00105">DotGfxHierarchyTable::addHierarchy()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07624">addToIndices()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00501">ClassDefAliasImpl::anchor()</a>, <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00313">DotClassGraph::DotClassGraph()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00774">DocParser::handleLinkedWord()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l00963">if()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l03110">resolveLink()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l01641">writeClassTree()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l00551">writeClassTreeToOutput()</a>, <a class="el" href="../../d0/d14/memberlist_8cpp_source.html#l00526">MemberList::writeDeclarations()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l01604">ClassDefImpl::writeInheritanceGraph()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00246">writeMapArea()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l03735">MemberDefImpl::writeMemberDocSimple()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l02835">ClassDefImpl::writeMemberList()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02819">MemberDefImpl::_writeReimplements()</a>, <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00026">DotClassGraph::addClass()</a>, <a class="el" href="../../d4/d09/dotgfxhierarchytable_8cpp_source.html#l00105">DotGfxHierarchyTable::addHierarchy()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07642">addToIndices()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00503">ClassDefAliasImpl::anchor()</a>, <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00313">DotClassGraph::DotClassGraph()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00774">DocParser::handleLinkedWord()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l00963">if()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l03110">resolveLink()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l01641">writeClassTree()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l00551">writeClassTreeToOutput()</a>, <a class="el" href="../../d0/d14/memberlist_8cpp_source.html#l00526">MemberList::writeDeclarations()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l01610">ClassDefImpl::writeInheritanceGraph()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00246">writeMapArea()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l03752">MemberDefImpl::writeMemberDocSimple()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l02850">ClassDefImpl::writeMemberList()</a>.</p>
 
 </div>
 </div>
@@ -608,7 +610,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a33ee0ec48b93c2a71ac928f69a88e3d4">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a56326ddc8f9e79340b9883def387a70e">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02699">VhdlDocGen::addBaseClass()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l05366">NestingNodeContext::Private::addClasses()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l05899">NestingContext::Private::addDerivedClasses()</a>, <a class="el" href="../../d4/d09/dotgfxhierarchytable_8cpp_source.html#l00105">DotGfxHierarchyTable::addHierarchy()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00414">ClassDefAliasImpl::baseClasses()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07933">buildCompleteMemberLists()</a>, <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00249">DotClassGraph::buildGraph()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l05046">classHasVisibleChildren()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l05035">classHasVisibleRoot()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l05106">classInheritedProtectionLevel()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07818">computeMemberRelations()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l01952">ClassContext::Private::createInheritsList()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l08137">InheritedMemberInfoListContext::Private::findInheritedMembers()</a>, <a class="el" href="../../d3/d17/defgen_8cpp_source.html#l00317">generateDEFForClass()</a>, <a class="el" href="../../de/dd0/perlmodgen_8cpp_source.html#l01718">PerlModGenerator::generatePerlModForClass()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01252">generateXMLForClass()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00336">DiagramRow::insertClass()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03672">ClassDefImpl::mergeCategory()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l05081">minClassDistance()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l01431">trimBaseClassScope()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l00551">writeClassTreeToOutput()</a>, and <a class="el" href="../../da/d1f/code_8l_source.html#l03436">writeObjCMethodCall()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02699">VhdlDocGen::addBaseClass()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l05366">NestingNodeContext::Private::addClasses()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l05899">NestingContext::Private::addDerivedClasses()</a>, <a class="el" href="../../d4/d09/dotgfxhierarchytable_8cpp_source.html#l00105">DotGfxHierarchyTable::addHierarchy()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00416">ClassDefAliasImpl::baseClasses()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07951">buildCompleteMemberLists()</a>, <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00249">DotClassGraph::buildGraph()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l05078">classHasVisibleChildren()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l05067">classHasVisibleRoot()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l05138">classInheritedProtectionLevel()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07836">computeMemberRelations()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l01952">ClassContext::Private::createInheritsList()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l08137">InheritedMemberInfoListContext::Private::findInheritedMembers()</a>, <a class="el" href="../../d3/d17/defgen_8cpp_source.html#l00317">generateDEFForClass()</a>, <a class="el" href="../../de/dd0/perlmodgen_8cpp_source.html#l01718">PerlModGenerator::generatePerlModForClass()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01257">generateXMLForClass()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00336">DiagramRow::insertClass()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03687">ClassDefImpl::mergeCategory()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l05113">minClassDistance()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l01431">trimBaseClassScope()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l00551">writeClassTreeToOutput()</a>, and <a class="el" href="../../da/d1f/code_8l_source.html#l03436">writeObjCMethodCall()</a>.</p>
 
 </div>
 </div>
@@ -639,7 +641,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a18dbdce800224d21a658769813455869">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a5fce69458698cbbed36402569808c0c0">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02937">MemberDefImpl::_writeCategoryRelation()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00487">ClassDefAliasImpl::categoryOf()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l05106">classInheritedProtectionLevel()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l02322">ClassContext::Private::createCategoryOf()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l05081">minClassDistance()</a>, and <a class="el" href="../../da/d1f/code_8l_source.html#l03436">writeObjCMethodCall()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02954">MemberDefImpl::_writeCategoryRelation()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00489">ClassDefAliasImpl::categoryOf()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l05138">classInheritedProtectionLevel()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l02322">ClassContext::Private::createCategoryOf()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l05113">minClassDistance()</a>, and <a class="el" href="../../da/d1f/code_8l_source.html#l03436">writeObjCMethodCall()</a>.</p>
 
 </div>
 </div>
@@ -670,7 +672,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#ad36078e49e62ba4d50561a7e1cf7ffea">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#adec8048debca3294a33ecd72f4838027">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00489">ClassDefAliasImpl::className()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00905">VhdlDocGen::findAllArchitectures()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00809">VhdlDocGen::getClassName()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00108">makeDisplayName()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00056">makeQualifiedNameWithTemplateParameters()</a>, <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l01601">FileDefImpl::sortMemberLists()</a>, <a class="el" href="../../d6/d42/groupdef_8cpp_source.html#l01648">GroupDefImpl::sortMemberLists()</a>, <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01416">NamespaceDefImpl::sortMemberLists()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00828">VhdlDocGen::writeInlineClassLink()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00491">ClassDefAliasImpl::className()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00905">VhdlDocGen::findAllArchitectures()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00809">VhdlDocGen::getClassName()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00108">makeDisplayName()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00056">makeQualifiedNameWithTemplateParameters()</a>, <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l01601">FileDefImpl::sortMemberLists()</a>, <a class="el" href="../../d6/d42/groupdef_8cpp_source.html#l01648">GroupDefImpl::sortMemberLists()</a>, <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01416">NamespaceDefImpl::sortMemberLists()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00828">VhdlDocGen::writeInlineClassLink()</a>.</p>
 
 </div>
 </div>
@@ -701,7 +703,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a20892eb383b20b00faee7e916f282511">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#ab9279e7f36136346f77150007004352f">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00404">ClassDefAliasImpl::collaborationGraphFileName()</a>, and <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00313">DotClassGraph::DotClassGraph()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00406">ClassDefAliasImpl::collaborationGraphFileName()</a>, and <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00313">DotClassGraph::DotClassGraph()</a>.</p>
 
 </div>
 </div>
@@ -733,7 +735,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#abe339c4956b47ee046868b9225180341">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#aba65a49fe41a39999be6ca4459511e28">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02802">MemberDefImpl::_writeReimplements()</a>, <a class="el" href="../../d7/d8f/docsets_8cpp_source.html#l00271">DocSets::addIndexItem()</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00344">compoundIcon()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00410">ClassDefAliasImpl::compoundType()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07818">computeMemberRelations()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l04081">MemberContext::Private::createImplementedBy()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l04051">MemberContext::Private::createImplements()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l04096">MemberContext::Private::createReimplementedBy()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l04066">MemberContext::Private::createReimplements()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01434">createTagLessInstance()</a>, <a class="el" href="../../d9/d5b/fortrancode_8l_source.html#l01257">generateLink()</a>, <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l01281">FileDefImpl::insertClass()</a>, <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l00371">NamespaceDefImpl::insertClass()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00108">makeDisplayName()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03442">ClassDefImpl::mergeMembers()</a>, and <a class="el" href="../../db/d14/index_8cpp_source.html#l01641">writeClassTree()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02819">MemberDefImpl::_writeReimplements()</a>, <a class="el" href="../../d7/d8f/docsets_8cpp_source.html#l00271">DocSets::addIndexItem()</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00344">compoundIcon()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00412">ClassDefAliasImpl::compoundType()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07836">computeMemberRelations()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l04081">MemberContext::Private::createImplementedBy()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l04051">MemberContext::Private::createImplements()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l04096">MemberContext::Private::createReimplementedBy()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l04066">MemberContext::Private::createReimplements()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01435">createTagLessInstance()</a>, <a class="el" href="../../d9/d5b/fortrancode_8l_source.html#l01257">generateLink()</a>, <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l01281">FileDefImpl::insertClass()</a>, <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l00371">NamespaceDefImpl::insertClass()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00108">makeDisplayName()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03457">ClassDefImpl::mergeMembers()</a>, and <a class="el" href="../../db/d14/index_8cpp_source.html#l01641">writeClassTree()</a>.</p>
 
 </div>
 </div>
@@ -764,7 +766,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a88627119d80da2663c1da055578785d6">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a1c32a86796bb51ea36024634fcaa78fa">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l01782">ClassContext::Private::compoundType()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00412">ClassDefAliasImpl::compoundTypeString()</a>, <a class="el" href="../../d3/d17/defgen_8cpp_source.html#l00317">generateDEFForClass()</a>, <a class="el" href="../../de/dd0/perlmodgen_8cpp_source.html#l01718">PerlModGenerator::generatePerlModForClass()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01252">generateXMLForClass()</a>, <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00072">SearchIndex::setCurrentDoc()</a>, and <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l03867">MemberDefImpl::warnIfUndocumented()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l01782">ClassContext::Private::compoundType()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00414">ClassDefAliasImpl::compoundTypeString()</a>, <a class="el" href="../../d3/d17/defgen_8cpp_source.html#l00317">generateDEFForClass()</a>, <a class="el" href="../../de/dd0/perlmodgen_8cpp_source.html#l01718">PerlModGenerator::generatePerlModForClass()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01257">generateXMLForClass()</a>, <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00072">SearchIndex::setCurrentDoc()</a>, and <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l03884">MemberDefImpl::warnIfUndocumented()</a>.</p>
 
 </div>
 </div>
@@ -793,7 +795,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a8bbf7f16199be281c40f85dc51652548">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#aee84bb8dd0bbe6d3ece4ee82dcb628ea">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00538">ClassDefAliasImpl::countInheritanceNodes()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l02328">ClassContext::Private::createNumInheritanceNodes()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00542">ClassDefAliasImpl::countInheritanceNodes()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l02328">ClassContext::Private::createNumInheritanceNodes()</a>.</p>
 
 </div>
 </div>
@@ -857,7 +859,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a48346768d1de89dd2d24e4dcd861f4f6">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a77c8f63ec555f6332e25d8b3a9fdd431">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l04331">ClassDefImpl::countInheritedDecMembers()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00540">ClassDefAliasImpl::countMemberDeclarations()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l04346">ClassDefImpl::countInheritedDecMembers()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00544">ClassDefAliasImpl::countMemberDeclarations()</a>.</p>
 
 </div>
 </div>
@@ -903,7 +905,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a933d6ef8855a3675fddd2ce2e4dd660f">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a59870c373dca10081577e0660dd6f2fd">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l08120">InheritedMemberInfoListContext::Private::addInheritedMembers()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l08172">InheritedMemberInfoListContext::addMemberList()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00536">ClassDefAliasImpl::countMembersIncludingGrouped()</a>, and <a class="el" href="../../d0/d14/memberlist_8cpp_source.html#l00526">MemberList::writeDeclarations()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l08120">InheritedMemberInfoListContext::Private::addInheritedMembers()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l08172">InheritedMemberInfoListContext::addMemberList()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00540">ClassDefAliasImpl::countMembersIncludingGrouped()</a>, and <a class="el" href="../../d0/d14/memberlist_8cpp_source.html#l00526">MemberList::writeDeclarations()</a>.</p>
 
 </div>
 </div>
@@ -970,7 +972,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a52fbc57970ed8330c54702ef839024b0">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a03fd78225e2c8f394483e8f83f07997e">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02937">MemberDefImpl::_writeCategoryRelation()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02878">MemberDefImpl::_writeReimplementedBy()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02802">MemberDefImpl::_writeReimplements()</a>, <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00026">DotClassGraph::addClass()</a>, <a class="el" href="../../d4/d09/dotgfxhierarchytable_8cpp_source.html#l00105">DotGfxHierarchyTable::addHierarchy()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07624">addToIndices()</a>, <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00313">DotClassGraph::DotClassGraph()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04102">MemberDefImpl::getScopeString()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l03862">MemberContext::Private::handleNameWithContextFor()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l01812">ClassContext::Private::inheritanceDiagram()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l07529">InheritanceListContext::InheritanceListContext()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00283">DiagramItem::label()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l02601">writeClassLinkForMember()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l01641">writeClassTree()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l00551">writeClassTreeToOutput()</a>, <a class="el" href="../../d0/d14/memberlist_8cpp_source.html#l00526">MemberList::writeDeclarations()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l03227">MemberDefImpl::writeDocumentation()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l01604">ClassDefImpl::writeInheritanceGraph()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l01769">MemberDefImpl::writeLink()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00246">writeMapArea()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l02835">ClassDefImpl::writeMemberList()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02954">MemberDefImpl::_writeCategoryRelation()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02895">MemberDefImpl::_writeReimplementedBy()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02819">MemberDefImpl::_writeReimplements()</a>, <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00026">DotClassGraph::addClass()</a>, <a class="el" href="../../d4/d09/dotgfxhierarchytable_8cpp_source.html#l00105">DotGfxHierarchyTable::addHierarchy()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07642">addToIndices()</a>, <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00313">DotClassGraph::DotClassGraph()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04119">MemberDefImpl::getScopeString()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l03862">MemberContext::Private::handleNameWithContextFor()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l01812">ClassContext::Private::inheritanceDiagram()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l07529">InheritanceListContext::InheritanceListContext()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00283">DiagramItem::label()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l02601">writeClassLinkForMember()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l01641">writeClassTree()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l00551">writeClassTreeToOutput()</a>, <a class="el" href="../../d0/d14/memberlist_8cpp_source.html#l00526">MemberList::writeDeclarations()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l03244">MemberDefImpl::writeDocumentation()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l01610">ClassDefImpl::writeInheritanceGraph()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l01776">MemberDefImpl::writeLink()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00246">writeMapArea()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l02850">ClassDefImpl::writeMemberList()</a>.</p>
 
 </div>
 </div>
@@ -1010,7 +1012,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a7c2707efa830fbb93d1869967761f8af">ClassDefImpl</a>, <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#ae984575c6d0116729ed9931bc096e020">ClassDefAliasImpl</a>, <a class="el" href="../../dd/d10/class_definition_mixin.html#a0e63097e685cae960d26576ca6e00a18">DefinitionMixin&lt; ClassDefMutable &gt;</a>, and <a class="el" href="../../d8/d83/class_definition_alias_mixin.html#a50fec39fe0c68d5e185b097d917d92e9">DefinitionAliasMixin&lt; ClassDef &gt;</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00460">ClassDefAliasImpl::findInnerCompound()</a>, and <a class="el" href="../../da/d1f/code_8l_source.html#l03133">generateClassMemberLink()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00462">ClassDefAliasImpl::findInnerCompound()</a>, and <a class="el" href="../../da/d1f/code_8l_source.html#l03133">generateClassMemberLink()</a>.</p>
 
 </div>
 </div>
@@ -1039,7 +1041,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a18a6e87ba651fdb17a3a460ed5577262">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a8c5fd4bd36c7e1b7db4fc40565215046">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00515">ClassDefAliasImpl::generatedFromFiles()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l01733">ClassContext::Private::generatedFromFiles()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00517">ClassDefAliasImpl::generatedFromFiles()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l01733">ClassContext::Private::generatedFromFiles()</a>.</p>
 
 </div>
 </div>
@@ -1070,7 +1072,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a0f2801d3bac148db9a137166a305861c">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a68e804d5623c263a884f0b26f3d144a2">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08524">addClassAndNestedClasses()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l05366">NestingNodeContext::Private::addClasses()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l04043">ClassDefImpl::addMembersToTemplateInstance()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l01968">ClassContext::Private::createClasses()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l01981">ClassContext::Private::createInnerClasses()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01580">findTagLessClasses()</a>, <a class="el" href="../../de/dd0/perlmodgen_8cpp_source.html#l01718">PerlModGenerator::generatePerlModForClass()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01252">generateXMLForClass()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00398">ClassDefAliasImpl::getClasses()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01517">processTagLessClasses()</a>, and <a class="el" href="../../db/d14/index_8cpp_source.html#l01641">writeClassTree()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08542">addClassAndNestedClasses()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l05366">NestingNodeContext::Private::addClasses()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l04058">ClassDefImpl::addMembersToTemplateInstance()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l01968">ClassContext::Private::createClasses()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l01981">ClassContext::Private::createInnerClasses()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01581">findTagLessClasses()</a>, <a class="el" href="../../de/dd0/perlmodgen_8cpp_source.html#l01718">PerlModGenerator::generatePerlModForClass()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01257">generateXMLForClass()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00400">ClassDefAliasImpl::getClasses()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01518">processTagLessClasses()</a>, and <a class="el" href="../../db/d14/index_8cpp_source.html#l01641">writeClassTree()</a>.</p>
 
 </div>
 </div>
@@ -1099,7 +1101,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#aac08210504e48a5e32c419472ff63905">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a50804a090ac6987ad89148b51d1c2d7b">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l02184">ClassContext::Private::createExamples()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00521">ClassDefAliasImpl::getExamples()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l02184">ClassContext::Private::createExamples()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00523">ClassDefAliasImpl::getExamples()</a>.</p>
 
 </div>
 </div>
@@ -1131,7 +1133,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a07a0425548988113183b7a374c57cf9c">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a76fd92fbb11989bc81c0fd8c6521b8aa">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02541">addInstance()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01434">createTagLessInstance()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04447">findClassRelation()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04015">findClassWithinClassContext()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04050">findUsedClassesForClass()</a>, <a class="el" href="../../da/d1f/code_8l_source.html#l02853">generateClassOrGlobalLink()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01252">generateXMLForClass()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l02198">getDefsOld()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00434">ClassDefAliasImpl::getFileDef()</a>, <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html#l01257">SymbolResolver::Private::isAccessibleFrom()</a>, and <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l00408">writeTemplateList()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02541">addInstance()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01435">createTagLessInstance()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04457">findClassRelation()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04025">findClassWithinClassContext()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04060">findUsedClassesForClass()</a>, <a class="el" href="../../da/d1f/code_8l_source.html#l02853">generateClassOrGlobalLink()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01257">generateXMLForClass()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l02198">getDefsOld()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00436">ClassDefAliasImpl::getFileDef()</a>, <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html#l01257">SymbolResolver::Private::isAccessibleFrom()</a>, and <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l00408">writeTemplateList()</a>.</p>
 
 </div>
 </div>
@@ -1160,7 +1162,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#af3104952dc0ec2c57fb29d6f5c26f604">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#ad22f7721d130ff764fceb787c8cd284c">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00388">ClassDefAliasImpl::getInstanceOutputFileBase()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00390">ClassDefAliasImpl::getInstanceOutputFileBase()</a>.</p>
 
 </div>
 </div>
@@ -1192,7 +1194,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a7eb260ccb322fd361814050af7a18664">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a70405bd8590c3c2911c6ca43521acb0f">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html#l01095">SymbolResolver::Private::followPath()</a>, <a class="el" href="../../da/d1f/code_8l_source.html#l03133">generateClassMemberLink()</a>, <a class="el" href="../../d3/ded/pycode_8l_source.html#l01291">generateClassOrGlobalLink()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00436">ClassDefAliasImpl::getMemberByName()</a>, <a class="el" href="../../da/d1f/code_8l_source.html#l02639">setCallContextForVar()</a>, and <a class="el" href="../../da/d1f/code_8l_source.html#l03436">writeObjCMethodCall()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html#l01095">SymbolResolver::Private::followPath()</a>, <a class="el" href="../../da/d1f/code_8l_source.html#l03133">generateClassMemberLink()</a>, <a class="el" href="../../d3/ded/pycode_8l_source.html#l01291">generateClassOrGlobalLink()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00438">ClassDefAliasImpl::getMemberByName()</a>, <a class="el" href="../../da/d1f/code_8l_source.html#l02639">setCallContextForVar()</a>, and <a class="el" href="../../da/d1f/code_8l_source.html#l03436">writeObjCMethodCall()</a>.</p>
 
 </div>
 </div>
@@ -1223,7 +1225,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a013020eeefcaa7d5b46eac2f72d7c7cd">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#abda44e87bd2a50de2f6cae77624c3d92">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l08099">InheritedMemberInfoListContext::Private::addMemberGroupsOfClass()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l02168">ClassContext::Private::createMemberGroups()</a>, <a class="el" href="../../de/dd0/perlmodgen_8cpp_source.html#l01718">PerlModGenerator::generatePerlModForClass()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01252">generateXMLForClass()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00495">ClassDefAliasImpl::getMemberGroups()</a>, and <a class="el" href="../../df/d58/dotnode_8cpp_source.html#l00357">DotNode::writeLabel()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l08099">InheritedMemberInfoListContext::Private::addMemberGroupsOfClass()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l02168">ClassContext::Private::createMemberGroups()</a>, <a class="el" href="../../de/dd0/perlmodgen_8cpp_source.html#l01718">PerlModGenerator::generatePerlModForClass()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01257">generateXMLForClass()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00497">ClassDefAliasImpl::getMemberGroups()</a>, and <a class="el" href="../../df/d58/dotnode_8cpp_source.html#l00357">DotNode::writeLabel()</a>.</p>
 
 </div>
 </div>
@@ -1255,7 +1257,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#aa3a60cbf714583d56785f6ec4494a938">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a53d51e4eeb8407af9cdc197b6653631c">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l08120">InheritedMemberInfoListContext::Private::addInheritedMembers()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l05466">NestingNodeContext::Private::addMembers()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l02270">ClassContext::Private::addMembers()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l01998">ClassContext::Private::createMemberList()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01434">createTagLessInstance()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00740">VhdlDocGen::findAllPackages()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00769">VhdlDocGen::findFunction()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00697">VhdlDocGen::findMemberDef()</a>, <a class="el" href="../../d3/d17/defgen_8cpp_source.html#l00317">generateDEFForClass()</a>, <a class="el" href="../../de/dd0/perlmodgen_8cpp_source.html#l01718">PerlModGenerator::generatePerlModForClass()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00491">ClassDefAliasImpl::getMemberList()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00415">getPorts()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01517">processTagLessClasses()</a>, and <a class="el" href="../../df/d58/dotnode_8cpp_source.html#l00357">DotNode::writeLabel()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l08120">InheritedMemberInfoListContext::Private::addInheritedMembers()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l05466">NestingNodeContext::Private::addMembers()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l02270">ClassContext::Private::addMembers()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l01998">ClassContext::Private::createMemberList()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01435">createTagLessInstance()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00740">VhdlDocGen::findAllPackages()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00769">VhdlDocGen::findFunction()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00697">VhdlDocGen::findMemberDef()</a>, <a class="el" href="../../d3/d17/defgen_8cpp_source.html#l00317">generateDEFForClass()</a>, <a class="el" href="../../de/dd0/perlmodgen_8cpp_source.html#l01718">PerlModGenerator::generatePerlModForClass()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00493">ClassDefAliasImpl::getMemberList()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00415">getPorts()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01518">processTagLessClasses()</a>, and <a class="el" href="../../df/d58/dotnode_8cpp_source.html#l00357">DotNode::writeLabel()</a>.</p>
 
 </div>
 </div>
@@ -1284,7 +1286,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a5953b35c11fe046c8e5384f2fd9b2041">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#ad0f303124670bc70948cc3970c7d5556">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l01788">ClassContext::Private::allMembersFileName()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00525">ClassDefAliasImpl::getMemberListFileName()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l01788">ClassContext::Private::allMembersFileName()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00527">ClassDefAliasImpl::getMemberListFileName()</a>.</p>
 
 </div>
 </div>
@@ -1315,7 +1317,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#aecb43863fb850cc2c8926d334b0adf32">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a81db6b4eaf13a10f603c4bc6ea6e03af">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d17/defgen_8cpp_source.html#l00317">generateDEFForClass()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01252">generateXMLForClass()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00493">ClassDefAliasImpl::getMemberLists()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d17/defgen_8cpp_source.html#l00317">generateDEFForClass()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01257">generateXMLForClass()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00495">ClassDefAliasImpl::getMemberLists()</a>.</p>
 
 </div>
 </div>
@@ -1348,7 +1350,36 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#ad74985d4d01557f6a4fa513ddd51583a">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#aa9e27c43e798f0ccc6b9728ec813681a">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02802">MemberDefImpl::_writeReimplements()</a>, <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00026">DotClassGraph::addClass()</a>, <a class="el" href="../../d4/d09/dotgfxhierarchytable_8cpp_source.html#l00105">DotGfxHierarchyTable::addHierarchy()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02541">addInstance()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l04813">ClassDefImpl::anchor()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l00506">classOutputFileBase()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l01906">ClassContext::Private::collaborationDiagram()</a>, <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00313">DotClassGraph::DotClassGraph()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00305">DiagramItem::fileName()</a>, <a class="el" href="../../d3/d17/defgen_8cpp_source.html#l00317">generateDEFForClass()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03886">ClassDefImpl::getOutputFileBase()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00386">ClassDefAliasImpl::getOutputFileBase()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l01517">MemberDefImpl::getOutputFileBase()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00774">DocParser::handleLinkedWord()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l08013">InheritedMemberInfoContext::Private::id()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l00963">if()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l01812">ClassContext::Private::inheritanceDiagram()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00401">writeClassToDot()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l01641">writeClassTree()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l00551">writeClassTreeToOutput()</a>, <a class="el" href="../../d0/d14/memberlist_8cpp_source.html#l00526">MemberList::writeDeclarations()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l01604">ClassDefImpl::writeInheritanceGraph()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00246">writeMapArea()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l03735">MemberDefImpl::writeMemberDocSimple()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l02835">ClassDefImpl::writeMemberList()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01745">VhdlDocGen::writeVHDLDeclaration()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00943">VhdlDocGen::writeVhdlLink()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02819">MemberDefImpl::_writeReimplements()</a>, <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00026">DotClassGraph::addClass()</a>, <a class="el" href="../../d4/d09/dotgfxhierarchytable_8cpp_source.html#l00105">DotGfxHierarchyTable::addHierarchy()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02541">addInstance()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l04828">ClassDefImpl::anchor()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l00506">classOutputFileBase()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l01906">ClassContext::Private::collaborationDiagram()</a>, <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00313">DotClassGraph::DotClassGraph()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00305">DiagramItem::fileName()</a>, <a class="el" href="../../d3/d17/defgen_8cpp_source.html#l00317">generateDEFForClass()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03901">ClassDefImpl::getOutputFileBase()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00388">ClassDefAliasImpl::getOutputFileBase()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l01524">MemberDefImpl::getOutputFileBase()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00774">DocParser::handleLinkedWord()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l08013">InheritedMemberInfoContext::Private::id()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l00963">if()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l01812">ClassContext::Private::inheritanceDiagram()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00401">writeClassToDot()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l01641">writeClassTree()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l00551">writeClassTreeToOutput()</a>, <a class="el" href="../../d0/d14/memberlist_8cpp_source.html#l00526">MemberList::writeDeclarations()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l01610">ClassDefImpl::writeInheritanceGraph()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00246">writeMapArea()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l03752">MemberDefImpl::writeMemberDocSimple()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l02850">ClassDefImpl::writeMemberList()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01745">VhdlDocGen::writeVHDLDeclaration()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00943">VhdlDocGen::writeVhdlLink()</a>.</p>
+
+</div>
+</div>
+<a id="a570d8dcfdd144e17226ca785e58b15b7" name="a570d8dcfdd144e17226ca785e58b15b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a570d8dcfdd144e17226ca785e58b15b7">&#9670;&#160;</a></span>getQualifiers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="../../d5/d75/containers_8h.html#ac8d53003529fb2d062d614077fe6857c">StringVector</a> ClassDef::getQualifiers </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#aac6be35ead6579d258f640cafb51854d">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#aaad39255b8fcfbacd65f380aad12e3c2">ClassDefAliasImpl</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01257">generateXMLForClass()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00537">ClassDefAliasImpl::getQualifiers()</a>.</p>
 
 </div>
 </div>
@@ -1381,7 +1412,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a36998f16be9292b5b37887a8a6ed0316">ClassDefImpl</a>, <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#ae884da09744b00dcda74fb509833af37">ClassDefAliasImpl</a>, <a class="el" href="../../dd/d10/class_definition_mixin.html#ab815a5db88f6b7e356c96f843ef44285">DefinitionMixin&lt; ClassDefMutable &gt;</a>, and <a class="el" href="../../d8/d83/class_definition_alias_mixin.html#a7b4650132e54f97aa7f5970702645725">DefinitionAliasMixin&lt; ClassDef &gt;</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02802">MemberDefImpl::_writeReimplements()</a>, <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00026">DotClassGraph::addClass()</a>, <a class="el" href="../../d4/d09/dotgfxhierarchytable_8cpp_source.html#l00105">DotGfxHierarchyTable::addHierarchy()</a>, <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00313">DotClassGraph::DotClassGraph()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l04083">ClassDefImpl::getReference()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00392">ClassDefAliasImpl::getReference()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l01581">MemberDefImpl::getReference()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00774">DocParser::handleLinkedWord()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l00963">if()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l01641">writeClassTree()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l00551">writeClassTreeToOutput()</a>, <a class="el" href="../../d0/d14/memberlist_8cpp_source.html#l00526">MemberList::writeDeclarations()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l01604">ClassDefImpl::writeInheritanceGraph()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00246">writeMapArea()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l03735">MemberDefImpl::writeMemberDocSimple()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l02835">ClassDefImpl::writeMemberList()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01745">VhdlDocGen::writeVHDLDeclaration()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00943">VhdlDocGen::writeVhdlLink()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02819">MemberDefImpl::_writeReimplements()</a>, <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00026">DotClassGraph::addClass()</a>, <a class="el" href="../../d4/d09/dotgfxhierarchytable_8cpp_source.html#l00105">DotGfxHierarchyTable::addHierarchy()</a>, <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00313">DotClassGraph::DotClassGraph()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l04098">ClassDefImpl::getReference()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00394">ClassDefAliasImpl::getReference()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l01588">MemberDefImpl::getReference()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00774">DocParser::handleLinkedWord()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l00963">if()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l01641">writeClassTree()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l00551">writeClassTreeToOutput()</a>, <a class="el" href="../../d0/d14/memberlist_8cpp_source.html#l00526">MemberList::writeDeclarations()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l01610">ClassDefImpl::writeInheritanceGraph()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00246">writeMapArea()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l03752">MemberDefImpl::writeMemberDocSimple()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l02850">ClassDefImpl::writeMemberList()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01745">VhdlDocGen::writeVHDLDeclaration()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00943">VhdlDocGen::writeVhdlLink()</a>.</p>
 
 </div>
 </div>
@@ -1414,7 +1445,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a311e6f0600e6577a0ce9e5ada45ef7b2">ClassDefImpl</a>, <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#aa1321012767eb292a1043561c67504ac">ClassDefAliasImpl</a>, <a class="el" href="../../dd/d10/class_definition_mixin.html#a8b19e346b7ce7eb140da0b3c4f3552b7">DefinitionMixin&lt; ClassDefMutable &gt;</a>, and <a class="el" href="../../d8/d83/class_definition_alias_mixin.html#a3c2dc731cea67f615b238786d3c2af8f">DefinitionAliasMixin&lt; ClassDef &gt;</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03928">ClassDefImpl::getSourceFileBase()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00390">ClassDefAliasImpl::getSourceFileBase()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03943">ClassDefImpl::getSourceFileBase()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00392">ClassDefAliasImpl::getSourceFileBase()</a>.</p>
 
 </div>
 </div>
@@ -1443,7 +1474,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#ae0901555114a8a8b6247855460174edd">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a08ecb7b3653752f5699b135eb8c7bffb">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04927">computeTemplateClassRelations()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00497">ClassDefAliasImpl::getTemplateBaseClassNames()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04937">computeTemplateClassRelations()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00499">ClassDefAliasImpl::getTemplateBaseClassNames()</a>.</p>
 
 </div>
 </div>
@@ -1475,7 +1506,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a0189dc4d70a381ebb14b47d86b3db3e9">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#ab5f7bf6dc3b86a97b73ee786fa76ec55">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00249">DotClassGraph::buildGraph()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04927">computeTemplateClassRelations()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07892">createTemplateInstanceMembers()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00444">ClassDefAliasImpl::getTemplateInstances()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03205">hasNonReferenceSuperClassRec()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00249">DotClassGraph::buildGraph()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04937">computeTemplateClassRelations()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07910">createTemplateInstanceMembers()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00446">ClassDefAliasImpl::getTemplateInstances()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03220">hasNonReferenceSuperClassRec()</a>.</p>
 
 </div>
 </div>
@@ -1507,7 +1538,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a9abbdee534eb47561e38f0d23a746e03">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a95e75e2400b23ccac61d3c564b8663e9">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05679">addMemberFunction()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l03992">MemberContext::Private::createTemplateDecls()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00462">ClassDefAliasImpl::getTemplateParameterLists()</a>, and <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l03227">MemberDefImpl::writeDocumentation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05693">addMemberFunction()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l03992">MemberContext::Private::createTemplateDecls()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00464">ClassDefAliasImpl::getTemplateParameterLists()</a>, and <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l03244">MemberDefImpl::writeDocumentation()</a>.</p>
 
 </div>
 </div>
@@ -1538,7 +1569,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a8b6168d42b7582cceffe6fa53c078970">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#aabe3069682593260441b0362cc1c8859">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00402">ClassDefAliasImpl::hasDetailedDescription()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l01732">ClassContext::Private::hasDetails()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00404">ClassDefAliasImpl::hasDetailedDescription()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l01732">ClassContext::Private::hasDetails()</a>.</p>
 
 </div>
 </div>
@@ -1571,7 +1602,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a3105bd83f9096869481ec3b32850c4f3">ClassDefImpl</a>, <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#ab2df4d4de42df2ed4ef3d57f2c521b90">ClassDefAliasImpl</a>, <a class="el" href="../../dd/d10/class_definition_mixin.html#a41ceab8b372a47ef408efadf43bdc31c">DefinitionMixin&lt; ClassDefMutable &gt;</a>, and <a class="el" href="../../d8/d83/class_definition_alias_mixin.html#aee0d5fdcafede9beebccd5c2e8938e88">DefinitionAliasMixin&lt; ClassDef &gt;</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l00905">addClassToContext()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04895">computeClassRelations()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00400">ClassDefAliasImpl::hasDocumentation()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03341">ClassDefImpl::isVisibleInHierarchy()</a>, and <a class="el" href="../../df/d58/dotnode_8cpp_source.html#l00473">DotNode::writeBox()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l00905">addClassToContext()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04905">computeClassRelations()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00402">ClassDefAliasImpl::hasDocumentation()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03356">ClassDefImpl::isVisibleInHierarchy()</a>, and <a class="el" href="../../df/d58/dotnode_8cpp_source.html#l00473">DotNode::writeBox()</a>.</p>
 
 </div>
 </div>
@@ -1600,7 +1631,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a0fa4f37e50ccdd73af751c2e83bc13ff">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a11c37d0f677adf5271a6ef005ce8c957">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l02184">ClassContext::Private::createExamples()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00523">ClassDefAliasImpl::hasExamples()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l02184">ClassContext::Private::createExamples()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00525">ClassDefAliasImpl::hasExamples()</a>.</p>
 
 </div>
 </div>
@@ -1629,7 +1660,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a521d2cc730fb55f5070d55f0407f83c0">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a23fdfa92d535fd43f5c1f00a845c5b72">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00531">ClassDefAliasImpl::hasNonReferenceSuperClass()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00533">ClassDefAliasImpl::hasNonReferenceSuperClass()</a>.</p>
 
 </div>
 </div>
@@ -1658,7 +1689,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a2e89d3e0152ab67d3c01c67a1c74f2af">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a22d5cc8d25a1bdb7b880aed7da8fd65c">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d8f/docsets_8cpp_source.html#l00271">DocSets::addIndexItem()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l01946">ClassContext::Private::createIncludeInfo()</a>, <a class="el" href="../../de/dd0/perlmodgen_8cpp_source.html#l01718">PerlModGenerator::generatePerlModForClass()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01252">generateXMLForClass()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00450">ClassDefAliasImpl::includeInfo()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d8f/docsets_8cpp_source.html#l00271">DocSets::addIndexItem()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l01946">ClassContext::Private::createIncludeInfo()</a>, <a class="el" href="../../de/dd0/perlmodgen_8cpp_source.html#l01718">PerlModGenerator::generatePerlModForClass()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01257">generateXMLForClass()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00452">ClassDefAliasImpl::includeInfo()</a>.</p>
 
 </div>
 </div>
@@ -1689,7 +1720,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a0bbfe398d140b97104e53c92e683fe08">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a7bdf06bea3ec1aa2c95f7a4ef3696f32">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00313">DotClassGraph::DotClassGraph()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00406">ClassDefAliasImpl::inheritanceGraphFileName()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00313">DotClassGraph::DotClassGraph()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00408">ClassDefAliasImpl::inheritanceGraphFileName()</a>.</p>
 
 </div>
 </div>
@@ -1747,7 +1778,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#ace39074e0ffe473ed11349f526c3d81b">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#ae285716c5b364a7c38dda236b78948ae">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04265">findTemplateInstanceRelation()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00547">ClassDefAliasImpl::insertTemplateInstance()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04275">findTemplateInstanceRelation()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00551">ClassDefAliasImpl::insertTemplateInstance()</a>.</p>
 
 </div>
 </div>
@@ -1778,7 +1809,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#af2d30b984ef58068f7e2bae3e0b15eb6">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a087e4076796ba4779c4bc5ed33a7f4c6">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01252">generateXMLForClass()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00467">ClassDefAliasImpl::isAbstract()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01257">generateXMLForClass()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00469">ClassDefAliasImpl::isAbstract()</a>.</p>
 
 </div>
 </div>
@@ -1810,7 +1841,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#ab8efb34e6c770a87ba60fa9cedba5688">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a02f1e43ba66231ac0b7aa3e6cd98717e">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00442">ClassDefAliasImpl::isAccessibleMember()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00444">ClassDefAliasImpl::isAccessibleMember()</a>.</p>
 
 </div>
 </div>
@@ -1859,7 +1890,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a841d563514898225a1fe3a56cadeeb6e">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a1ee21abaeac21d3322d6c73b37bbf489">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02541">addInstance()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07818">computeMemberRelations()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04447">findClassRelation()</a>, <a class="el" href="../../d3/ded/pycode_8l_source.html#l01475">findMemberLink()</a>, <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html#l01257">SymbolResolver::Private::isAccessibleFrom()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03373">ClassDefImpl::isBaseClass()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00438">ClassDefAliasImpl::isBaseClass()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l01482">MemberDefImpl::isReimplementedBy()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02665">VhdlDocGen::isSubClass()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03442">ClassDefImpl::mergeMembers()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02541">addInstance()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07836">computeMemberRelations()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04457">findClassRelation()</a>, <a class="el" href="../../d3/ded/pycode_8l_source.html#l01475">findMemberLink()</a>, <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html#l01257">SymbolResolver::Private::isAccessibleFrom()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03388">ClassDefImpl::isBaseClass()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00440">ClassDefAliasImpl::isBaseClass()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l01489">MemberDefImpl::isReimplementedBy()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02665">VhdlDocGen::isSubClass()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03457">ClassDefImpl::mergeMembers()</a>.</p>
 
 </div>
 </div>
@@ -1890,7 +1921,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#ac711d6083683cdedf8a1db798c4d4848">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#ac95c59910940c1c07ab93c7b05cbd82c">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04447">findClassRelation()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00473">ClassDefAliasImpl::isCSharp()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04457">findClassRelation()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00475">ClassDefAliasImpl::isCSharp()</a>.</p>
 
 </div>
 </div>
@@ -1919,7 +1950,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a53aaf3fdc3c6fed46ad545ee34b0f8a5">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#aeff98e9949f956688cd08ec9a90a1322">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08524">addClassAndNestedClasses()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08451">generateDocsForClassList()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l09425">generateNamespaceClassDocs()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00503">ClassDefAliasImpl::isEmbeddedInOuterScope()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08542">addClassAndNestedClasses()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08469">generateDocsForClassList()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l09443">generateNamespaceClassDocs()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00505">ClassDefAliasImpl::isEmbeddedInOuterScope()</a>.</p>
 
 </div>
 </div>
@@ -1950,7 +1981,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#aa5f61d1937c4b3dea7b3e4f1775b125a">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a33c6cee35623a88ed3aff2c8362ee461">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00481">ClassDefAliasImpl::isExtension()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03672">ClassDefImpl::mergeCategory()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00483">ClassDefAliasImpl::isExtension()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03687">ClassDefImpl::mergeCategory()</a>.</p>
 
 </div>
 </div>
@@ -1981,7 +2012,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a2a727fbbe9d5389685b92cfcb40012ed">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#aaec4ead95ba2d781ecb5ec77e1370994">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01252">generateXMLForClass()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00475">ClassDefAliasImpl::isFinal()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01257">generateXMLForClass()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00477">ClassDefAliasImpl::isFinal()</a>.</p>
 
 </div>
 </div>
@@ -2012,7 +2043,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a9128673da2621ed8f530fb1e7a9a6b69">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a33aa33e3b7ace154705f2739cc1a2e7c">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00471">ClassDefAliasImpl::isFortran()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00473">ClassDefAliasImpl::isFortran()</a>.</p>
 
 </div>
 </div>
@@ -2043,7 +2074,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a1af4711cb4e9d1ebb7b9a65f36e5bbdd">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#ad44b7b0eadd699f6c222827a7285ca64">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l00905">addClassToContext()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00483">ClassDefAliasImpl::isForwardDeclared()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l00905">addClassToContext()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00485">ClassDefAliasImpl::isForwardDeclared()</a>.</p>
 
 </div>
 </div>
@@ -2074,7 +2105,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#adf32dc96ccfdd0c6ff0605fa13412e9c">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a19ddb6012fdc88a5392fca93af334712">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00485">ClassDefAliasImpl::isInterface()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l01753">ClassDefImpl::writeIncludeFilesForSlice()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00487">ClassDefAliasImpl::isInterface()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l01759">ClassDefImpl::writeIncludeFilesForSlice()</a>.</p>
 
 </div>
 </div>
@@ -2103,7 +2134,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#ac4ec68976f1fedf10b3a389a7688eb64">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#abe719e62ac5746feb633add6680e2f9d">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00511">ClassDefAliasImpl::isJavaEnum()</a>, and <a class="el" href="../../d0/d14/memberlist_8cpp_source.html#l00722">MemberList::writeSimpleDocumentation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00513">ClassDefAliasImpl::isJavaEnum()</a>, and <a class="el" href="../../d0/d14/memberlist_8cpp_source.html#l00722">MemberList::writeSimpleDocumentation()</a>.</p>
 
 </div>
 </div>
@@ -2136,7 +2167,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a9f43a5c5e5ae07de2b347e30c3f42fc8">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a449ae535d0f9f34f1e95ab04b666be43">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02861">MemberDefImpl::_countReimplementedBy()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02788">MemberDefImpl::_isReimplements()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02878">MemberDefImpl::_writeReimplementedBy()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02802">MemberDefImpl::_writeReimplements()</a>, <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00026">DotClassGraph::addClass()</a>, <a class="el" href="../../d4/d09/dotgfxhierarchytable_8cpp_source.html#l00105">DotGfxHierarchyTable::addHierarchy()</a>, <a class="el" href="../../d9/d2f/searchindex__js_8cpp_source.html#l00122">addMemberToSearchIndex()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l05071">classVisibleInIndex()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07818">computeMemberRelations()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l04331">ClassDefImpl::countInheritedDecMembers()</a>, <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00313">DotClassGraph::DotClassGraph()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00573">TreeDiagram::drawBoxes()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l08137">InheritedMemberInfoListContext::Private::findInheritedMembers()</a>, <a class="el" href="../../da/d1f/code_8l_source.html#l02853">generateClassOrGlobalLink()</a>, <a class="el" href="../../d9/d5b/fortrancode_8l_source.html#l01257">generateLink()</a>, <a class="el" href="../../da/d1f/code_8l_source.html#l03176">generateMemberLink()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l02198">getDefsOld()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l02766">getScopeDefs()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l00963">if()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04074">MemberDefImpl::isDocumentedFriendClass()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03327">ClassDefImpl::isLinkable()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00424">ClassDefAliasImpl::isLinkable()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l07723">AllMembersListContext::Private::Private()</a>, <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html#l01468">SymbolResolver::resolveClass()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l00551">writeClassTreeToOutput()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l01604">ClassDefImpl::writeInheritanceGraph()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l04447">ClassDefImpl::writeInheritedMemberDeclarations()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00246">writeMapArea()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l02835">ClassDefImpl::writeMemberList()</a>, <a class="el" href="../../da/d1f/code_8l_source.html#l03436">writeObjCMethodCall()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l02081">ClassDefImpl::writeTagFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02878">MemberDefImpl::_countReimplementedBy()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02805">MemberDefImpl::_isReimplements()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02895">MemberDefImpl::_writeReimplementedBy()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02819">MemberDefImpl::_writeReimplements()</a>, <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00026">DotClassGraph::addClass()</a>, <a class="el" href="../../d4/d09/dotgfxhierarchytable_8cpp_source.html#l00105">DotGfxHierarchyTable::addHierarchy()</a>, <a class="el" href="../../d9/d2f/searchindex__js_8cpp_source.html#l00122">addMemberToSearchIndex()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l05103">classVisibleInIndex()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07836">computeMemberRelations()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l04346">ClassDefImpl::countInheritedDecMembers()</a>, <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00313">DotClassGraph::DotClassGraph()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00573">TreeDiagram::drawBoxes()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l08137">InheritedMemberInfoListContext::Private::findInheritedMembers()</a>, <a class="el" href="../../da/d1f/code_8l_source.html#l02853">generateClassOrGlobalLink()</a>, <a class="el" href="../../d9/d5b/fortrancode_8l_source.html#l01257">generateLink()</a>, <a class="el" href="../../da/d1f/code_8l_source.html#l03176">generateMemberLink()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l02198">getDefsOld()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l02766">getScopeDefs()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l00963">if()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04091">MemberDefImpl::isDocumentedFriendClass()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03342">ClassDefImpl::isLinkable()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00426">ClassDefAliasImpl::isLinkable()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l07723">AllMembersListContext::Private::Private()</a>, <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html#l01468">SymbolResolver::resolveClass()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l00551">writeClassTreeToOutput()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l01610">ClassDefImpl::writeInheritanceGraph()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l04462">ClassDefImpl::writeInheritedMemberDeclarations()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00246">writeMapArea()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l02850">ClassDefImpl::writeMemberList()</a>, <a class="el" href="../../da/d1f/code_8l_source.html#l03436">writeObjCMethodCall()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l02087">ClassDefImpl::writeTagFile()</a>.</p>
 
 </div>
 </div>
@@ -2169,7 +2200,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a5b51b8cda3ae31f240efd5e6d2a7f903">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a5fa50d2fa28d54f018b8dd000afef805">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l01638">MemberDefImpl::_computeLinkableInProject()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02802">MemberDefImpl::_writeReimplements()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08524">addClassAndNestedClasses()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l02750">Index::addClassMemberNameToIndex()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08191">addSourceReferences()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07624">addToIndices()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l05071">classVisibleInIndex()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l07210">ClassMembersIndexContext::Private::createMembersFiltered()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08451">generateDocsForClassList()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l09425">generateNamespaceClassDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l09497">generateNamespaceConceptDocs()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03205">hasNonReferenceSuperClassRec()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l00963">if()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03305">ClassDefImpl::isLinkableInProject()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00422">ClassDefAliasImpl::isLinkableInProject()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l11445">writeTagFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l01645">MemberDefImpl::_computeLinkableInProject()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02819">MemberDefImpl::_writeReimplements()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08542">addClassAndNestedClasses()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l02750">Index::addClassMemberNameToIndex()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08209">addSourceReferences()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07642">addToIndices()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l05103">classVisibleInIndex()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l07210">ClassMembersIndexContext::Private::createMembersFiltered()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08469">generateDocsForClassList()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l09443">generateNamespaceClassDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l09515">generateNamespaceConceptDocs()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03220">hasNonReferenceSuperClassRec()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l00963">if()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03320">ClassDefImpl::isLinkableInProject()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00424">ClassDefAliasImpl::isLinkableInProject()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l11463">writeTagFile()</a>.</p>
 
 </div>
 </div>
@@ -2200,7 +2231,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#aff9875703d7af9e181d04fdbfa01b939">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#abfbd330ad8f681ef3706367f120393fe">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00396">ClassDefAliasImpl::isLocal()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03672">ClassDefImpl::mergeCategory()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00398">ClassDefAliasImpl::isLocal()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03687">ClassDefImpl::mergeCategory()</a>.</p>
 
 </div>
 </div>
@@ -2231,7 +2262,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#afbfb371f5269bd16deb80da14000d6b0">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a806a1c6119f8f0bea81ef4ae0f62259a">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l03082">MemberDefImpl::displayDefinition()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00469">ClassDefAliasImpl::isObjectiveC()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l03227">MemberDefImpl::writeDocumentation()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l02835">ClassDefImpl::writeMemberList()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l03099">MemberDefImpl::displayDefinition()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00471">ClassDefAliasImpl::isObjectiveC()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l03244">MemberDefImpl::writeDocumentation()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l02850">ClassDefImpl::writeMemberList()</a>.</p>
 
 </div>
 </div>
@@ -2262,7 +2293,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#ae0df346aa557da21e8ec3a720beb31b3">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a60cfee44abd38a4784622dba9a5d3ed8">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00479">ClassDefAliasImpl::isPublished()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00481">ClassDefAliasImpl::isPublished()</a>.</p>
 
 </div>
 </div>
@@ -2295,7 +2326,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a74f9d582eb6263e18697fda6a078ea19">ClassDefImpl</a>, <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#addbb994908554615a2798260d7b2168f">ClassDefAliasImpl</a>, <a class="el" href="../../dd/d10/class_definition_mixin.html#a4255a2bb5ac1e9f4f2cbe910c2c229ce">DefinitionMixin&lt; ClassDefMutable &gt;</a>, and <a class="el" href="../../d8/d83/class_definition_alias_mixin.html#aede2669730d98ec4158cbd471c500e5d">DefinitionAliasMixin&lt; ClassDef &gt;</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04895">computeClassRelations()</a>, <a class="el" href="../../d3/d17/defgen_8cpp_source.html#l00317">generateDEFForClass()</a>, <a class="el" href="../../de/dd0/perlmodgen_8cpp_source.html#l01718">PerlModGenerator::generatePerlModForClass()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01252">generateXMLForClass()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03205">hasNonReferenceSuperClassRec()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l04095">ClassDefImpl::isReference()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00394">ClassDefAliasImpl::isReference()</a>, and <a class="el" href="../../db/d14/index_8cpp_source.html#l00551">writeClassTreeToOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04905">computeClassRelations()</a>, <a class="el" href="../../d3/d17/defgen_8cpp_source.html#l00317">generateDEFForClass()</a>, <a class="el" href="../../de/dd0/perlmodgen_8cpp_source.html#l01718">PerlModGenerator::generatePerlModForClass()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01257">generateXMLForClass()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03220">hasNonReferenceSuperClassRec()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l04110">ClassDefImpl::isReference()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00396">ClassDefAliasImpl::isReference()</a>, and <a class="el" href="../../db/d14/index_8cpp_source.html#l00551">writeClassTreeToOutput()</a>.</p>
 
 </div>
 </div>
@@ -2326,7 +2357,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a205de8ed3af66fe24c427b7140ef6ece">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#abbc35aa7becfbaebf04a9dd0f582a1d6">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01252">generateXMLForClass()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00477">ClassDefAliasImpl::isSealed()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01257">generateXMLForClass()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00479">ClassDefAliasImpl::isSealed()</a>.</p>
 
 </div>
 </div>
@@ -2355,7 +2386,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#aded3322f0d3d5dacdcb6138fcd26c64b">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a5b1d51602535d3a4a9ab51da9f8a8987">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l01517">MemberDefImpl::getOutputFileBase()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02604">MemberDefImpl::isDetailedSectionVisible()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00505">ClassDefAliasImpl::isSimple()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l01791">ClassContext::Private::isSimple()</a>, and <a class="el" href="../../db/d14/index_8cpp_source.html#l01641">writeClassTree()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l01524">MemberDefImpl::getOutputFileBase()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02611">MemberDefImpl::isDetailedSectionVisible()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00507">ClassDefAliasImpl::isSimple()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l01791">ClassContext::Private::isSimple()</a>, and <a class="el" href="../../db/d14/index_8cpp_source.html#l01641">writeClassTree()</a>.</p>
 
 </div>
 </div>
@@ -2384,7 +2415,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a6af5dd0fc6091f961b999179d8c7730e">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#ad433f23e5357a4bd8cabdd39d706db44">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00529">ClassDefAliasImpl::isSliceLocal()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00531">ClassDefAliasImpl::isSliceLocal()</a>.</p>
 
 </div>
 </div>
@@ -2413,7 +2444,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a856ca2326ce8d0099df47d21d290d6bf">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a89c623f15ccc3709a1a5515c54100047">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00509">ClassDefAliasImpl::isSmartPointer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00511">ClassDefAliasImpl::isSmartPointer()</a>.</p>
 
 </div>
 </div>
@@ -2455,7 +2486,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#ad4d3693f4f9a669c681795228876bbf6">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#af768cc05fb86599f9a8ebfbc1acfb67a">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04447">findClassRelation()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03411">ClassDefImpl::isSubClass()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00440">ClassDefAliasImpl::isSubClass()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04457">findClassRelation()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03426">ClassDefImpl::isSubClass()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00442">ClassDefAliasImpl::isSubClass()</a>.</p>
 
 </div>
 </div>
@@ -2486,7 +2517,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a825b45b747c73e3f4d138360162a79c4">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a5b54658086ca05a80c2de4576cca6371">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d8f/docsets_8cpp_source.html#l00271">DocSets::addIndexItem()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08775">flushCachedTemplateRelations()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l01556">getCanonicalTypeForIdentifier()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00448">ClassDefAliasImpl::isTemplate()</a>, and <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html#l00786">SymbolResolver::Private::newResolveTypedef()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d8f/docsets_8cpp_source.html#l00271">DocSets::addIndexItem()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08793">flushCachedTemplateRelations()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l01556">getCanonicalTypeForIdentifier()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00450">ClassDefAliasImpl::isTemplate()</a>, and <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html#l00786">SymbolResolver::Private::newResolveTypedef()</a>.</p>
 
 </div>
 </div>
@@ -2515,7 +2546,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a917c7e080c001220d67dd875141c6946">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#aa5364c1ab477169853e627a90517d40f">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html#l00669">SymbolResolver::Private::getResolvedSymbol()</a>, <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html#l00509">SymbolResolver::Private::getResolvedType()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00458">ClassDefAliasImpl::isTemplateArgument()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html#l00669">SymbolResolver::Private::getResolvedSymbol()</a>, <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html#l00509">SymbolResolver::Private::getResolvedType()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00460">ClassDefAliasImpl::isTemplateArgument()</a>.</p>
 
 </div>
 </div>
@@ -2544,7 +2575,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a7ca3aeaf1106ac5e2674ddaf28a1e1dc">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#aa840e659e1138dfe275de1f8fefb6c91">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d2d/util_8cpp_source.html#l01556">getCanonicalTypeForIdentifier()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00499">ClassDefAliasImpl::isUsedOnly()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d2d/util_8cpp_source.html#l01556">getCanonicalTypeForIdentifier()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00501">ClassDefAliasImpl::isUsedOnly()</a>.</p>
 
 </div>
 </div>
@@ -2575,7 +2606,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a314601728a1822d5c67b0a5c5dd3e79e">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a90f33233315866b412ac8573c9f0c583">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l05899">NestingContext::Private::addDerivedClasses()</a>, <a class="el" href="../../d4/d09/dotgfxhierarchytable_8cpp_source.html#l00105">DotGfxHierarchyTable::addHierarchy()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l05035">classHasVisibleRoot()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l01588">ClassDefImpl::countInheritanceNodes()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00336">DiagramRow::insertClass()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00426">ClassDefAliasImpl::isVisibleInHierarchy()</a>, and <a class="el" href="../../db/d14/index_8cpp_source.html#l00551">writeClassTreeToOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l05899">NestingContext::Private::addDerivedClasses()</a>, <a class="el" href="../../d4/d09/dotgfxhierarchytable_8cpp_source.html#l00105">DotGfxHierarchyTable::addHierarchy()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l05067">classHasVisibleRoot()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l01594">ClassDefImpl::countInheritanceNodes()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00336">DiagramRow::insertClass()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00428">ClassDefAliasImpl::isVisibleInHierarchy()</a>, and <a class="el" href="../../db/d14/index_8cpp_source.html#l00551">writeClassTreeToOutput()</a>.</p>
 
 </div>
 </div>
@@ -2607,7 +2638,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a937fe5ab72cd432b34f0a399805627ff">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a0bcabe265cae72e63addac5357670246">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dd0/perlmodgen_8cpp_source.html#l01649">PerlModGenerator::addListOfAllMembers()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l04043">ClassDefImpl::addMembersToTemplateInstance()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04895">computeClassRelations()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l02174">ClassContext::Private::createAllMembersList()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04050">findUsedClassesForClass()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l02049">findUsingDeclImports()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00418">ClassDefAliasImpl::memberNameInfoLinkedMap()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03672">ClassDefImpl::mergeCategory()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03442">ClassDefImpl::mergeMembers()</a>, and <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01105">writeListOfAllMembers()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dd0/perlmodgen_8cpp_source.html#l01649">PerlModGenerator::addListOfAllMembers()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l04058">ClassDefImpl::addMembersToTemplateInstance()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04905">computeClassRelations()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l02174">ClassContext::Private::createAllMembersList()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04060">findUsedClassesForClass()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l02050">findUsingDeclImports()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00420">ClassDefAliasImpl::memberNameInfoLinkedMap()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03687">ClassDefImpl::mergeCategory()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03457">ClassDefImpl::mergeMembers()</a>, and <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01110">writeListOfAllMembers()</a>.</p>
 
 </div>
 </div>
@@ -2638,7 +2669,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a7e1c5b1ee5ec5e8c314391eee73cdc62">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a6649f63f795daf76a3c80747d20d3e94">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l05738">NestingContext::Private::addClass()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08524">addClassAndNestedClasses()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l05899">NestingContext::Private::addDerivedClasses()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00597">VhdlDocGen::findMember()</a>, <a class="el" href="../../d5/d6a/vhdlcode_8l_source.html#l01290">generateMemLink()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01252">generateXMLForClass()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00809">VhdlDocGen::getClassName()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00796">VhdlDocGen::getClassTitle()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00816">ClassDefImpl::insertSubClass()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00420">ClassDefAliasImpl::protection()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l01641">writeClassTree()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l00551">writeClassTreeToOutput()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02149">VhdlDocGen::writeClassType()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00828">VhdlDocGen::writeInlineClassLink()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01745">VhdlDocGen::writeVHDLDeclaration()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l05738">NestingContext::Private::addClass()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08542">addClassAndNestedClasses()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l05899">NestingContext::Private::addDerivedClasses()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00597">VhdlDocGen::findMember()</a>, <a class="el" href="../../d5/d6a/vhdlcode_8l_source.html#l01290">generateMemLink()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01257">generateXMLForClass()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00809">VhdlDocGen::getClassName()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00796">VhdlDocGen::getClassTitle()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00822">ClassDefImpl::insertSubClass()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00422">ClassDefAliasImpl::protection()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l01641">writeClassTree()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l00551">writeClassTreeToOutput()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02149">VhdlDocGen::writeClassType()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00828">VhdlDocGen::writeInlineClassLink()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01745">VhdlDocGen::writeVHDLDeclaration()</a>.</p>
 
 </div>
 </div>
@@ -2678,7 +2709,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a87c47205657f385a68816d2428e2554d">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a79e996c7943696de1f8133e5e1b7e96b">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05679">addMemberFunction()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l02160">addVariableToClass()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06169">findMember()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l01556">getCanonicalTypeForIdentifier()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00108">makeDisplayName()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00056">makeQualifiedNameWithTemplateParameters()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05693">addMemberFunction()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l02162">addVariableToClass()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06185">findMember()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l01556">getCanonicalTypeForIdentifier()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00108">makeDisplayName()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00056">makeQualifiedNameWithTemplateParameters()</a>.</p>
 
 </div>
 </div>
@@ -2707,7 +2738,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a6941986a82e4b390f5527924c75effe7">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a3f17cb2e5f614a9ad439ae0118cc4b7c">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l00905">addClassToContext()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01252">generateXMLForClass()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00533">ClassDefAliasImpl::requiresClause()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l00905">addClassToContext()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01257">generateXMLForClass()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00535">ClassDefAliasImpl::requiresClause()</a>.</p>
 
 </div>
 </div>
@@ -2738,7 +2769,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a06d1c87b5045a6c993de83c8eaa5bfb1">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#ac319aad2837839d3dc7703ef6b5f5230">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l05366">NestingNodeContext::Private::addClasses()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l05899">NestingContext::Private::addDerivedClasses()</a>, <a class="el" href="../../d4/d09/dotgfxhierarchytable_8cpp_source.html#l00105">DotGfxHierarchyTable::addHierarchy()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07933">buildCompleteMemberLists()</a>, <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00249">DotClassGraph::buildGraph()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l05046">classHasVisibleChildren()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l01956">ClassContext::Private::createInheritedByList()</a>, <a class="el" href="../../d3/d17/defgen_8cpp_source.html#l00317">generateDEFForClass()</a>, <a class="el" href="../../de/dd0/perlmodgen_8cpp_source.html#l01718">PerlModGenerator::generatePerlModForClass()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01252">generateXMLForClass()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03205">hasNonReferenceSuperClassRec()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00336">DiagramRow::insertClass()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02665">VhdlDocGen::isSubClass()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00416">ClassDefAliasImpl::subClasses()</a>, and <a class="el" href="../../db/d14/index_8cpp_source.html#l00551">writeClassTreeToOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l05366">NestingNodeContext::Private::addClasses()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l05899">NestingContext::Private::addDerivedClasses()</a>, <a class="el" href="../../d4/d09/dotgfxhierarchytable_8cpp_source.html#l00105">DotGfxHierarchyTable::addHierarchy()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07951">buildCompleteMemberLists()</a>, <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00249">DotClassGraph::buildGraph()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l05078">classHasVisibleChildren()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l01956">ClassContext::Private::createInheritedByList()</a>, <a class="el" href="../../d3/d17/defgen_8cpp_source.html#l00317">generateDEFForClass()</a>, <a class="el" href="../../de/dd0/perlmodgen_8cpp_source.html#l01718">PerlModGenerator::generatePerlModForClass()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01257">generateXMLForClass()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03220">hasNonReferenceSuperClassRec()</a>, <a class="el" href="../../da/d0d/diagram_8cpp_source.html#l00336">DiagramRow::insertClass()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02665">VhdlDocGen::isSubClass()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00418">ClassDefAliasImpl::subClasses()</a>, and <a class="el" href="../../db/d14/index_8cpp_source.html#l00551">writeClassTreeToOutput()</a>.</p>
 
 </div>
 </div>
@@ -2767,7 +2798,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a660f8917509b43a9423185ffeb0f9c03">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a3f750db7befd8e8d6e3d0893e15a48a6">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l08099">InheritedMemberInfoListContext::Private::addMemberGroupsOfClass()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l02168">ClassContext::Private::createMemberGroups()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00527">ClassDefAliasImpl::subGrouping()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l08099">InheritedMemberInfoListContext::Private::addMemberGroupsOfClass()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l02168">ClassContext::Private::createMemberGroups()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00529">ClassDefAliasImpl::subGrouping()</a>.</p>
 
 </div>
 </div>
@@ -2796,7 +2827,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#af67ada925f0bd5a53eac507fe379e727">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#af130e969d150927809ba5c881fc54edd">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00507">ClassDefAliasImpl::tagLessReference()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00509">ClassDefAliasImpl::tagLessReference()</a>.</p>
 
 </div>
 </div>
@@ -2827,7 +2858,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a4c637fa08e1e75bcad9cdb66d1a2ac87">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#aadd4b402ad61480c0b085c5d685ed5a8">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l00905">addClassToContext()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l04043">ClassDefImpl::addMembersToTemplateInstance()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l02206">ClassContext::Private::addTemplateDecls()</a>, <a class="el" href="../../de/dd0/perlmodgen_8cpp_source.html#l01334">addTemplateList()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04927">computeTemplateClassRelations()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07892">createTemplateInstanceMembers()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04215">findBaseClassesForClass()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04265">findTemplateInstanceRelation()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04050">findUsedClassesForClass()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l00818">getTemplateArgumentsFromName()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l03910">insertTemplateSpecifierInScope()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00056">makeQualifiedNameWithTemplateParameters()</a>, <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html#l00786">SymbolResolver::Private::newResolveTypedef()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l01265">searchTemplateSpecs()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00430">ClassDefAliasImpl::templateArguments()</a>, and <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l00408">writeTemplateList()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l00905">addClassToContext()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l04058">ClassDefImpl::addMembersToTemplateInstance()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l02206">ClassContext::Private::addTemplateDecls()</a>, <a class="el" href="../../de/dd0/perlmodgen_8cpp_source.html#l01334">addTemplateList()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04937">computeTemplateClassRelations()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07910">createTemplateInstanceMembers()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04225">findBaseClassesForClass()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04275">findTemplateInstanceRelation()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04060">findUsedClassesForClass()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l00818">getTemplateArgumentsFromName()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l03910">insertTemplateSpecifierInScope()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00056">makeQualifiedNameWithTemplateParameters()</a>, <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html#l00786">SymbolResolver::Private::newResolveTypedef()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l01271">searchTemplateSpecs()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00432">ClassDefAliasImpl::templateArguments()</a>, and <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l00408">writeTemplateList()</a>.</p>
 
 </div>
 </div>
@@ -2859,7 +2890,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a09d431efc9ce3c7eb121ee2a9e48d4f2">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a08849a56e542ac9d7108d5e6fbbecdab">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l05738">NestingContext::Private::addClass()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08524">addClassAndNestedClasses()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l02750">Index::addClassMemberNameToIndex()</a>, <a class="el" href="../../d9/d2f/searchindex__js_8cpp_source.html#l00122">addMemberToSearchIndex()</a>, <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00249">DotClassGraph::buildGraph()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l07210">ClassMembersIndexContext::Private::createMembersFiltered()</a>, <a class="el" href="../../d3/d17/defgen_8cpp_source.html#l00317">generateDEFForClass()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08451">generateDocsForClassList()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l09425">generateNamespaceClassDocs()</a>, <a class="el" href="../../de/dd0/perlmodgen_8cpp_source.html#l01718">PerlModGenerator::generatePerlModForClass()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01252">generateXMLForClass()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03373">ClassDefImpl::isBaseClass()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02665">VhdlDocGen::isSubClass()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00446">ClassDefAliasImpl::templateMaster()</a>, <a class="el" href="../../df/d58/dotnode_8cpp_source.html#l00473">DotNode::writeBox()</a>, and <a class="el" href="../../db/d14/index_8cpp_source.html#l01641">writeClassTree()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l05738">NestingContext::Private::addClass()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08542">addClassAndNestedClasses()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l02750">Index::addClassMemberNameToIndex()</a>, <a class="el" href="../../d9/d2f/searchindex__js_8cpp_source.html#l00122">addMemberToSearchIndex()</a>, <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00249">DotClassGraph::buildGraph()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l07210">ClassMembersIndexContext::Private::createMembersFiltered()</a>, <a class="el" href="../../d3/d17/defgen_8cpp_source.html#l00317">generateDEFForClass()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08469">generateDocsForClassList()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l09443">generateNamespaceClassDocs()</a>, <a class="el" href="../../de/dd0/perlmodgen_8cpp_source.html#l01718">PerlModGenerator::generatePerlModForClass()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01257">generateXMLForClass()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03388">ClassDefImpl::isBaseClass()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02665">VhdlDocGen::isSubClass()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00448">ClassDefAliasImpl::templateMaster()</a>, <a class="el" href="../../df/d58/dotnode_8cpp_source.html#l00473">DotNode::writeBox()</a>, and <a class="el" href="../../db/d14/index_8cpp_source.html#l01641">writeClassTree()</a>.</p>
 
 </div>
 </div>
@@ -2888,7 +2919,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a1b12349c17f4eda9ac9814e0f74f9b70">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#ae7507929f5aff8bec491dbd226457aa7">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00249">DotClassGraph::buildGraph()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00456">ClassDefAliasImpl::templateTypeConstraints()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00249">DotClassGraph::buildGraph()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00458">ClassDefAliasImpl::templateTypeConstraints()</a>.</p>
 
 </div>
 </div>
@@ -2917,7 +2948,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a9549ac83d92dff3f4ad1016b94b536b7">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#aec73a10cab1e5a12a82fb214eb43c868">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00513">ClassDefAliasImpl::title()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l01729">ClassContext::Private::title()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00515">ClassDefAliasImpl::title()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l01729">ClassContext::Private::title()</a>.</p>
 
 </div>
 </div>
@@ -2946,7 +2977,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#aa3c5fcd18aa6ca0f74b28af0c7e69375">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a65b0376f21b24f103d63deb5a88c76e9">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l02178">ClassContext::Private::createTypeConstraints()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00519">ClassDefAliasImpl::typeConstraints()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l02178">ClassContext::Private::createTypeConstraints()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00521">ClassDefAliasImpl::typeConstraints()</a>.</p>
 
 </div>
 </div>
@@ -3037,7 +3068,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a2db1b082fd793bd072b92b3b556b5d7f">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a74b531481114086be7c17b4d0ae2bdb4">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00249">DotClassGraph::buildGraph()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00454">ClassDefAliasImpl::usedByImplementationClasses()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00249">DotClassGraph::buildGraph()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00456">ClassDefAliasImpl::usedByImplementationClasses()</a>.</p>
 
 </div>
 </div>
@@ -3066,7 +3097,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a860f7cc8caf25642693a49b6ab54317e">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a3b4a06658e67a742e7c81a51600fa0ed">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00517">ClassDefAliasImpl::usedFiles()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l06438">UsedFilesContext::UsedFilesContext()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00519">ClassDefAliasImpl::usedFiles()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l06438">UsedFilesContext::UsedFilesContext()</a>.</p>
 
 </div>
 </div>
@@ -3095,7 +3126,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#afd58483f0c4830b904eabbd1e0f52317">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a01338755344f52bad7b8b96c8860c79a">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00249">DotClassGraph::buildGraph()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00452">ClassDefAliasImpl::usedImplementationClasses()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/dcd/dotclassgraph_8cpp_source.html#l00249">DotClassGraph::buildGraph()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00454">ClassDefAliasImpl::usedImplementationClasses()</a>.</p>
 
 </div>
 </div>
@@ -3126,7 +3157,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#aa6ce6e050a89b287e9045212019dce24">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a8426dba6a9f40ca12d11c5b993aa0df1">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00428">ClassDefAliasImpl::visibleInParentsDeclList()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00430">ClassDefAliasImpl::visibleInParentsDeclList()</a>.</p>
 
 </div>
 </div>
@@ -3178,7 +3209,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#ae2c0e35e68fdcfa9c8e637afe02a24de">ClassDefImpl</a>, and <a class="el" href="../../d0/d2b/class_class_def_alias_impl.html#a99cf83b3a5598e1babe6c168b3f13272">ClassDefAliasImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00544">ClassDefAliasImpl::writeDeclarationLink()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00548">ClassDefAliasImpl::writeDeclarationLink()</a>.</p>
 
 </div>
 </div>

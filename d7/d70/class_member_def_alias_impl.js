@@ -56,6 +56,7 @@ var class_member_def_alias_impl =
     [ "getMemberSpecifiers", "d7/d70/class_member_def_alias_impl.html#a82afc7f68c44cc3785460be9d34bdd1f", null ],
     [ "getNamespaceDef", "d7/d70/class_member_def_alias_impl.html#a0f897a37d1b8ac7f1597297ed4652617", null ],
     [ "getOutputFileBase", "d7/d70/class_member_def_alias_impl.html#ad3f3743358acb1d344e8e776ba7c738c", null ],
+    [ "getQualifiers", "d7/d70/class_member_def_alias_impl.html#a0354df007910cf53a01d360d7b376017", null ],
     [ "getReadAccessor", "d7/d70/class_member_def_alias_impl.html#a54ac9cf2aa28a55f7e3feec1c1dc6675", null ],
     [ "getReference", "d7/d70/class_member_def_alias_impl.html#a5f3287c7c5d9dbea465bd8920e0c6c3e", null ],
     [ "getScopeString", "d7/d70/class_member_def_alias_impl.html#ac53e20ccc6b7964172f220c42c7f4168", null ],

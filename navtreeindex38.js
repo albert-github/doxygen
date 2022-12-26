@@ -1,5 +1,12 @@
 var NAVTREEINDEX38 =
 {
+"d5/d43/class_translator_persian.html#a22e2b9347519495efc24b78d3fe811ee":[8,0,601,43],
+"d5/d43/class_translator_persian.html#a22fb6406f917e03dcaf55e86853d51bc":[8,0,601,203],
+"d5/d43/class_translator_persian.html#a232b217625bc53e116fa0fee7050f4f5":[8,0,601,142],
+"d5/d43/class_translator_persian.html#a2415f824b684e8411944fe033350aaa0":[8,0,601,31],
+"d5/d43/class_translator_persian.html#a24187d5344e024b056f16db59add8af2":[8,0,601,58],
+"d5/d43/class_translator_persian.html#a24ef149e27d80177e7eca6afefa440eb":[8,0,601,108],
+"d5/d43/class_translator_persian.html#a25e7ec74ce148545edb8fc74c098c7b9":[8,0,601,183],
 "d5/d43/class_translator_persian.html#a26c70a4dc0ec36e8513ffd7711ce8966":[8,0,601,157],
 "d5/d43/class_translator_persian.html#a29b16a0819f20f9d5c4afa710a45b98b":[8,0,601,99],
 "d5/d43/class_translator_persian.html#a2bd374a56b76f0d9559c265cd0f7d9ba":[8,0,601,114],
@@ -242,12 +249,5 @@ var NAVTREEINDEX38 =
 "d5/d54/class_class_context_1_1_private.html#a48faf65574e5fadb6b22700b767a052f":[8,0,33,0,71],
 "d5/d54/class_class_context_1_1_private.html#a4a084f6a387460e4821e7c8ab9739952":[8,0,33,0,84],
 "d5/d54/class_class_context_1_1_private.html#a4a0c9c95e63e50bd4b66bc731b9a705d":[8,0,33,0,44],
-"d5/d54/class_class_context_1_1_private.html#a4b32f17ae9b07c307392dea6beac40c4":[8,0,33,0,69],
-"d5/d54/class_class_context_1_1_private.html#a543edbc4a9c25ac02ed01a40c891ec49":[8,0,33,0,54],
-"d5/d54/class_class_context_1_1_private.html#a5573e9742d1fa16fa8a32bae6581d519":[8,0,33,0,117],
-"d5/d54/class_class_context_1_1_private.html#a57d80cd5170e14a7c7ddbda7768c7d6b":[8,0,33,0,2],
-"d5/d54/class_class_context_1_1_private.html#a591f964d2e990a5ade397f9c0a634d06":[8,0,33,0,132],
-"d5/d54/class_class_context_1_1_private.html#a5b74a4b13dfe9f8912bc8d4489893215":[8,0,33,0,5],
-"d5/d54/class_class_context_1_1_private.html#a5bd69040b73ca0cc2071677022351f46":[8,0,33,0,114],
-"d5/d54/class_class_context_1_1_private.html#a5e3629aec8122a00ad1f18d0911f206a":[8,0,33,0,58]
+"d5/d54/class_class_context_1_1_private.html#a4b32f17ae9b07c307392dea6beac40c4":[8,0,33,0,69]
 };

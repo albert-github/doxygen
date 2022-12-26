@@ -35,6 +35,7 @@ var class_class_def =
     [ "getMemberListFileName", "d1/dcf/class_class_def.html#ac620ac7f22f673e84410b1ceca0af3be", null ],
     [ "getMemberLists", "d1/dcf/class_class_def.html#a283e841b3eb34d0ba2e0e106a4e3ad59", null ],
     [ "getOutputFileBase", "d1/dcf/class_class_def.html#a12a8f241e90a0cb0bdf19c27bf2025b0", null ],
+    [ "getQualifiers", "d1/dcf/class_class_def.html#a570d8dcfdd144e17226ca785e58b15b7", null ],
     [ "getReference", "d1/dcf/class_class_def.html#a5ca8b91f73e7989abdceb8958dcb0b59", null ],
     [ "getSourceFileBase", "d1/dcf/class_class_def.html#ad14ea5ae079a471daac0a502e2979f5d", null ],
     [ "getTemplateBaseClassNames", "d1/dcf/class_class_def.html#aaf3dc7118f6d91b7bc741e29f45215b1", null ],

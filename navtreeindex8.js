@@ -1,5 +1,10 @@
 var NAVTREEINDEX8 =
 {
+"d1/d40/struct_fortran_code_parser_1_1_private.html":[8,0,286,0],
+"d1/d40/struct_fortran_code_parser_1_1_private.html#a743a22dc707888596bf6393b4e5de529":[8,0,286,0,2],
+"d1/d40/struct_fortran_code_parser_1_1_private.html#a916cb6d8e080184a48435ede5da105c5":[8,0,286,0,0],
+"d1/d40/struct_fortran_code_parser_1_1_private.html#af9b21558afa72871d07e5e9433f6ccd0":[8,0,286,0,1],
+"d1/d40/translator__za_8h.html":[9,0,2,288],
 "d1/d40/translator__za_8h_source.html":[9,0,2,288],
 "d1/d43/namespace_search_index_methods.html":[7,0,10],
 "d1/d48/class_example_list.html":[8,0,224],
@@ -244,10 +249,5 @@ var NAVTREEINDEX8 =
 "d1/d56/class_translator_ukrainian.html#a2d5c19e5191fd469e076fcc52340220e":[8,0,613,43],
 "d1/d56/class_translator_ukrainian.html#a2ece872ccb705b37f1aa0bd2d80e255e":[8,0,613,126],
 "d1/d56/class_translator_ukrainian.html#a2ee0cce934d80993b6eef09bf3ec0dc0":[8,0,613,69],
-"d1/d56/class_translator_ukrainian.html#a3039468143c6faba8d82259f797a117d":[8,0,613,83],
-"d1/d56/class_translator_ukrainian.html#a3305c29d17f65ccf59c75145963fa07d":[8,0,613,32],
-"d1/d56/class_translator_ukrainian.html#a34f8c086c9437d0d8e9b3f5853d7ec6d":[8,0,613,212],
-"d1/d56/class_translator_ukrainian.html#a37153ea18e7b6534a23fb4fa5fc5ed52":[8,0,613,188],
-"d1/d56/class_translator_ukrainian.html#a3775c805f620a00e80d9abea1c119e6a":[8,0,613,18],
-"d1/d56/class_translator_ukrainian.html#a3a0bd8f1acdbed69f62d02c285cafe28":[8,0,613,41]
+"d1/d56/class_translator_ukrainian.html#a3039468143c6faba8d82259f797a117d":[8,0,613,83]
 };
