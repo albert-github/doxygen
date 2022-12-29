@@ -1,6 +1,5 @@
 var NAVTREEINDEX35 =
 {
-"d4/deb/class_concept_def_mutable.html#a8529a2b82c87e29a8745644bf48ddf98":[8,0,66,3],
 "d4/deb/class_concept_def_mutable.html#ad3ac93bdff9848bc001e93f55ccb4d71":[8,0,66,7],
 "d4/deb/class_concept_def_mutable.html#add4ffd35c01c274db2c20a6a32c9e63c":[8,0,66,2],
 "d4/deb/class_concept_def_mutable.html#afa9c676ae5e9ac665306b370a1959446":[8,0,66,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX35 =
 "d5/d0a/class_translator_serbian.html#a1a2920bf737a78326f8ca713f2a8174e":[8,0,606,56],
 "d5/d0a/class_translator_serbian.html#a1a9c0884d5e88102675e95abba0405d0":[8,0,606,198],
 "d5/d0a/class_translator_serbian.html#a1af5df12499c50f74f8eb0120a922c9c":[8,0,606,170],
-"d5/d0a/class_translator_serbian.html#a1b0cdb1b4943ac3a0a9f4c4974b35ab7":[8,0,606,190]
+"d5/d0a/class_translator_serbian.html#a1b0cdb1b4943ac3a0a9f4c4974b35ab7":[8,0,606,190],
+"d5/d0a/class_translator_serbian.html#a1bbde1303f54fb3e008fd527d2880bc1":[8,0,606,23]
 };

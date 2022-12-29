@@ -1,6 +1,5 @@
 var NAVTREEINDEX92 =
 {
-"dc/d53/class_translator_lithuanian.html#a886247a8b14388f44174e011c761582a":[8,0,598,114],
 "dc/d53/class_translator_lithuanian.html#a8f1b1425f9c6345a06ec1d473f1879b2":[8,0,598,14],
 "dc/d53/class_translator_lithuanian.html#a90ac6bb0840add6c1f15cd38816c3567":[8,0,598,53],
 "dc/d53/class_translator_lithuanian.html#a91f7fbbb84f6142d4585d5cb64ebf410":[8,0,598,104],
@@ -151,6 +150,7 @@ var NAVTREEINDEX92 =
 "dc/d85/class_include_info_list_context_1_1_private.html":[8,0,326,0],
 "dc/d85/class_include_info_list_context_1_1_private.html#ab6e6bcb2262ee6eb809a6e094bad3dc6":[8,0,326,0,0],
 "dc/d92/namespace_index_intf.html":[7,0,6],
+"dc/d94/md__home_runner_work_doxygen_doxygen_doc_internal_tags_history.html":[4],
 "dc/d97/class_html_escaper.html":[8,0,314],
 "dc/d97/class_html_escaper.html#a67c1651e9b8f580f1245a11e3f8f7129":[8,0,314,0],
 "dc/d97/class_html_escaper.html#a9a3ca4fe8ec6faf9fa4edb2dc85e453c":[8,0,314,2],
