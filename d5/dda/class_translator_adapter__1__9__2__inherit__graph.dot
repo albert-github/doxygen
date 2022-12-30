@@ -91,6 +91,4 @@ digraph "TranslatorAdapter_1_9_2"
   Node42 [label="TranslatorRussian",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d0/dab/class_translator_russian.html",tooltip=" "];
   Node7 -> Node43 [dir="back",color="steelblue1",style="solid"];
   Node43 [label="TranslatorSlovak",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d2/d53/class_translator_slovak.html",tooltip=" "];
-  Node6 -> Node44 [dir="back",color="steelblue1",style="solid"];
-  Node44 [label="TranslatorSpanish",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$dc/d44/class_translator_spanish.html",tooltip=" "];
 }

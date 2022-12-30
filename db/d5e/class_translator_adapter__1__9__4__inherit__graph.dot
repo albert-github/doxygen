@@ -91,16 +91,12 @@ digraph "TranslatorAdapter_1_9_4"
   Node42 [label="TranslatorRussian",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d0/dab/class_translator_russian.html",tooltip=" "];
   Node7 -> Node43 [dir="back",color="steelblue1",style="solid"];
   Node43 [label="TranslatorSlovak",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d2/d53/class_translator_slovak.html",tooltip=" "];
-  Node6 -> Node44 [dir="back",color="steelblue1",style="solid"];
-  Node44 [label="TranslatorSpanish",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$dc/d44/class_translator_spanish.html",tooltip=" "];
+  Node1 -> Node44 [dir="back",color="steelblue1",style="solid"];
+  Node44 [label="TranslatorBulgarian",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$da/dbb/class_translator_bulgarian.html",tooltip=" "];
   Node1 -> Node45 [dir="back",color="steelblue1",style="solid"];
-  Node45 [label="TranslatorBulgarian",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$da/dbb/class_translator_bulgarian.html",tooltip=" "];
+  Node45 [label="TranslatorChinese",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d6/db6/class_translator_chinese.html",tooltip=" "];
   Node1 -> Node46 [dir="back",color="steelblue1",style="solid"];
-  Node46 [label="TranslatorChinese",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d6/db6/class_translator_chinese.html",tooltip=" "];
+  Node46 [label="TranslatorGreek",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$df/d75/class_translator_greek.html",tooltip=" "];
   Node1 -> Node47 [dir="back",color="steelblue1",style="solid"];
-  Node47 [label="TranslatorGreek",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$df/d75/class_translator_greek.html",tooltip=" "];
-  Node1 -> Node48 [dir="back",color="steelblue1",style="solid"];
-  Node48 [label="TranslatorHindi",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d1/d8a/class_translator_hindi.html",tooltip=" "];
-  Node1 -> Node49 [dir="back",color="steelblue1",style="solid"];
-  Node49 [label="TranslatorSwedish",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d5/d5c/class_translator_swedish.html",tooltip=" "];
+  Node47 [label="TranslatorHindi",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d1/d8a/class_translator_hindi.html",tooltip=" "];
 }
