@@ -35,8 +35,8 @@ digraph "ClassDefImpl::IMPL"
   Node14 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" innerClasses" ];
   Node14 [label="ClassLinkedRefMap",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$da/d08/class_class_linked_ref_map.html",tooltip=" "];
   Node15 -> Node14 [dir="back",color="steelblue1",style="solid"];
-  Node15 [label="LinkedRefMap\< const\l ClassDef \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d2/db7/class_linked_ref_map.html",tooltip=" "];
-  Node16 -> Node15 [dir="back",color="orange",style="dashed",label=" \< const ClassDef \>" ];
+  Node15 [label="LinkedRefMap\< ClassDef \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d2/db7/class_linked_ref_map.html",tooltip=" "];
+  Node16 -> Node15 [dir="back",color="orange",style="dashed",label=" \< ClassDef \>" ];
   Node16 [label="LinkedRefMap\< T, Hash,\l KeyEqual, Map \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d2/db7/class_linked_ref_map.html",tooltip="Container class representing a vector of objects with keys."];
   Node17 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" usedByImplClassList\nusesImplClassList" ];
   Node17 [label="UsesClassList",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$dd/d1c/class_uses_class_list.html",tooltip=" "];

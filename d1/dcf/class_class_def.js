@@ -11,6 +11,7 @@ var class_class_def =
       [ "Service", "d1/dcf/class_class_def.html#ae70cf86d35fe954a94c566fbcfc87939aaf2c9d4d2eaa6e6a614d7bd164a29c0e", null ],
       [ "Singleton", "d1/dcf/class_class_def.html#ae70cf86d35fe954a94c566fbcfc87939a34f6a5dd42307d62a5fe3038b245a667", null ]
     ] ],
+    [ "addGroupedInheritedMembers", "d1/dcf/class_class_def.html#ac8ed300bfb36eefd34b5ba9f165ff880", null ],
     [ "anchor", "d1/dcf/class_class_def.html#a7016b59e40eefbd4e9a1cc6fa43e0bff", null ],
     [ "baseClasses", "d1/dcf/class_class_def.html#a38001a11a297629e363c0db5b1968ab3", null ],
     [ "categoryOf", "d1/dcf/class_class_def.html#a81969b4626cb26cd6061f6c54d051827", null ],
@@ -92,5 +93,15 @@ var class_class_def =
     [ "usedFiles", "d1/dcf/class_class_def.html#ab6ba54124ee74df07036e2473579264d", null ],
     [ "usedImplementationClasses", "d1/dcf/class_class_def.html#a4a15dff9d9567c126433228fff77837b", null ],
     [ "visibleInParentsDeclList", "d1/dcf/class_class_def.html#a1a79f778ae2201c52ee19c048763d4fa", null ],
-    [ "writeDeclarationLink", "d1/dcf/class_class_def.html#acd75a76f95d8eacddd4afbb7dc8693a2", null ]
+    [ "writeDeclaration", "d1/dcf/class_class_def.html#acfcf16726b8d952b1c76d43adfbef197", null ],
+    [ "writeDeclarationLink", "d1/dcf/class_class_def.html#acd75a76f95d8eacddd4afbb7dc8693a2", null ],
+    [ "writeDocumentation", "d1/dcf/class_class_def.html#a283ca4e39a593316c8c6c83085088900", null ],
+    [ "writeDocumentationForInnerClasses", "d1/dcf/class_class_def.html#afd404f2052b5c688bf0815741a290842", null ],
+    [ "writeInlineDocumentation", "d1/dcf/class_class_def.html#af59b44de9052b4e62482853fdb7a514a", null ],
+    [ "writeMemberDeclarations", "d1/dcf/class_class_def.html#ad30856f1775b229f941679aaaf55e239", null ],
+    [ "writeMemberList", "d1/dcf/class_class_def.html#a30391896721a6454f35d69ef5457080b", null ],
+    [ "writeMemberPages", "d1/dcf/class_class_def.html#a21e64cf1626ca35924f114aaadac8009", null ],
+    [ "writeQuickMemberLinks", "d1/dcf/class_class_def.html#a6f85844c1b5d67ca6110b3c48053bc77", null ],
+    [ "writeSummaryLinks", "d1/dcf/class_class_def.html#a1e4c88be7cbea1cd3c46833f69843612", null ],
+    [ "writeTagFile", "d1/dcf/class_class_def.html#af5fb9d775ecdb41ff87abcc2eb44f105", null ]
 ];

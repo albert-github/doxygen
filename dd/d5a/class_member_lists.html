@@ -133,7 +133,7 @@ Private Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dd/d78/memberlist_8h_source.html#l00138">138</a> of file <a class="el" href="../../dd/d78/memberlist_8h_source.html">memberlist.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d78/memberlist_8h_source.html#l00153">153</a> of file <a class="el" href="../../dd/d78/memberlist_8h_source.html">memberlist.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2f61bea6c07780614b38af584423027d" name="a2f61bea6c07780614b38af584423027d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2f61bea6c07780614b38af584423027d">&#9670;&#160;</a></span>MemberLists() <span class="overload">[1/2]</span></h2>
@@ -221,21 +221,21 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d78/memberlist_8h_source.html#l00142">142</a> of file <a class="el" href="../../dd/d78/memberlist_8h_source.html">memberlist.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  143</span>    {</div>
-<div class="line"><span class="lineno">  144</span>      <span class="comment">// find the list with the given type</span></div>
-<div class="line"><span class="lineno">  145</span>      <span class="keyword">auto</span> it = std::find_if(<a class="code hl_function" href="../../d3/d48/dir_8cpp.html#a6c544e0039887bf39e3c9e85f55d8ebc">begin</a>(),<a class="code hl_function" href="../../d3/d48/dir_8cpp.html#abb4720f72b574f81dc4f7aea0e653a64">end</a>(),[&amp;lt](<span class="keyword">const</span> <span class="keyword">auto</span> &amp;ml) { <span class="keywordflow">return</span> ml-&gt;listType()==lt; });</div>
-<div class="line"><span class="lineno">  146</span>      <span class="keywordflow">if</span> (it!=<a class="code hl_function" href="../../d3/d48/dir_8cpp.html#abb4720f72b574f81dc4f7aea0e653a64">end</a>()) <span class="keywordflow">return</span> *it;</div>
-<div class="line"><span class="lineno">  147</span>      <span class="comment">// or create a new list if it is not found</span></div>
-<div class="line"><span class="lineno">  148</span>      emplace_back(std::make_unique&lt;MemberList&gt;(lt,con));</div>
-<div class="line"><span class="lineno">  149</span>      <span class="keywordflow">return</span> back();</div>
-<div class="line"><span class="lineno">  150</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../dd/d78/memberlist_8h_source.html#l00157">157</a> of file <a class="el" href="../../dd/d78/memberlist_8h_source.html">memberlist.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  158</span>    {</div>
+<div class="line"><span class="lineno">  159</span>      <span class="comment">// find the list with the given type</span></div>
+<div class="line"><span class="lineno">  160</span>      <span class="keyword">auto</span> it = std::find_if(<a class="code hl_function" href="../../d3/d48/dir_8cpp.html#a6c544e0039887bf39e3c9e85f55d8ebc">begin</a>(),<a class="code hl_function" href="../../d3/d48/dir_8cpp.html#abb4720f72b574f81dc4f7aea0e653a64">end</a>(),[&amp;lt](<span class="keyword">const</span> <span class="keyword">auto</span> &amp;ml) { <span class="keywordflow">return</span> ml-&gt;listType()==lt; });</div>
+<div class="line"><span class="lineno">  161</span>      <span class="keywordflow">if</span> (it!=<a class="code hl_function" href="../../d3/d48/dir_8cpp.html#abb4720f72b574f81dc4f7aea0e653a64">end</a>()) <span class="keywordflow">return</span> *it;</div>
+<div class="line"><span class="lineno">  162</span>      <span class="comment">// or create a new list if it is not found</span></div>
+<div class="line"><span class="lineno">  163</span>      emplace_back(std::make_unique&lt;MemberList&gt;(lt,con));</div>
+<div class="line"><span class="lineno">  164</span>      <span class="keywordflow">return</span> back();</div>
+<div class="line"><span class="lineno">  165</span>    }</div>
 <div class="ttc" id="adir_8cpp_html_a6c544e0039887bf39e3c9e85f55d8ebc"><div class="ttname"><a href="../../d3/d48/dir_8cpp.html#a6c544e0039887bf39e3c9e85f55d8ebc">begin</a></div><div class="ttdeci">DirIterator begin(DirIterator it) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d48/dir_8cpp_source.html#l00124">dir.cpp:124</a></div></div>
 <div class="ttc" id="adir_8cpp_html_abb4720f72b574f81dc4f7aea0e653a64"><div class="ttname"><a href="../../d3/d48/dir_8cpp.html#abb4720f72b574f81dc4f7aea0e653a64">end</a></div><div class="ttdeci">DirIterator end(const DirIterator &amp;) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d48/dir_8cpp_source.html#l00129">dir.cpp:129</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d3/d48/dir_8cpp_source.html#l00124">begin()</a>, and <a class="el" href="../../d3/d48/dir_8cpp_source.html#l00129">end()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/d42/groupdef_8cpp_source.html#l01577">GroupDefImpl::addMemberToList()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l04233">ClassDefImpl::addMemberToList()</a>, <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l01582">FileDefImpl::addMemberToList()</a>, <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01396">NamespaceDefImpl::addMemberToList()</a>, <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l01220">FileDefImpl::insertMember()</a>, <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l00426">NamespaceDefImpl::insertMember()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00854">ClassDefImpl::internalInsertMember()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l01582">FileDefImpl::addMemberToList()</a>, <a class="el" href="../../d6/d42/groupdef_8cpp_source.html#l01577">GroupDefImpl::addMemberToList()</a>, <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01396">NamespaceDefImpl::addMemberToList()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l04257">ClassDefImpl::addMemberToList()</a>, <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l01220">FileDefImpl::insertMember()</a>, <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l00426">NamespaceDefImpl::insertMember()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00882">ClassDefImpl::internalInsertMember()</a>.</p>
 
 </div>
 </div>

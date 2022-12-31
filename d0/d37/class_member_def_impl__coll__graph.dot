@@ -27,7 +27,7 @@ digraph "MemberDefImpl"
   Node10 -> Node8 [dir="back",color="darkorchid3",style="dashed",label=" partOfGroups" ];
   Node10 [label="GroupList",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d3/d3b/class_group_list.html",tooltip=" "];
   Node11 -> Node10 [dir="back",color="steelblue1",style="solid"];
-  Node11 [label="std::vector\< const\l GroupDef * \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",tooltip=" "];
+  Node11 [label="std::vector\< GroupDef * \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",tooltip=" "];
   Node12 -> Node8 [dir="back",color="darkorchid3",style="dashed",label=" details\ninbodyDocs" ];
   Node12 [label="DocInfo",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d7/dd5/struct_doc_info.html",tooltip="Data associated with a detailed description."];
   Node13 -> Node12 [dir="back",color="darkorchid3",style="dashed",label=" doc\nfile" ];
