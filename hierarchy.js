@@ -787,10 +787,10 @@ var hierarchy =
       [ "DirDef::UsedDirLinkedMap", "dd/dd7/class_dir_def_1_1_used_dir_linked_map.html", null ]
     ] ],
     [ "LinkedRefMap< T, Hash, KeyEqual, Map >", "d2/db7/class_linked_ref_map.html", null ],
-    [ "LinkedRefMap< const ClassDef >", "d2/db7/class_linked_ref_map.html", [
+    [ "LinkedRefMap< ClassDef >", "d2/db7/class_linked_ref_map.html", [
       [ "ClassLinkedRefMap", "da/d08/class_class_linked_ref_map.html", null ]
     ] ],
-    [ "LinkedRefMap< const ConceptDef >", "d2/db7/class_linked_ref_map.html", [
+    [ "LinkedRefMap< ConceptDef >", "d2/db7/class_linked_ref_map.html", [
       [ "ConceptLinkedRefMap", "d4/daa/class_concept_linked_ref_map.html", null ]
     ] ],
     [ "LinkedRefMap< const Definition >", "d2/db7/class_linked_ref_map.html", null ],
@@ -803,6 +803,7 @@ var hierarchy =
     [ "LinkedRefMap< const PageDef >", "d2/db7/class_linked_ref_map.html", [
       [ "PageLinkedRefMap", "d9/de6/class_page_linked_ref_map.html", null ]
     ] ],
+    [ "LinkedRefMap< NamespaceDef >", "d2/db7/class_linked_ref_map.html", null ],
     [ "Markdown::LinkRef", "dd/dff/struct_markdown_1_1_link_ref.html", null ],
     [ "FilterAlphaIndex::ListElem", "d4/d6c/struct_filter_alpha_index_1_1_list_elem.html", null ],
     [ "FilterGroupBy::ListElem", "de/d96/struct_filter_group_by_1_1_list_elem.html", null ],
@@ -1293,15 +1294,13 @@ var hierarchy =
                   [ "TranslatorRomanian", "da/d32/class_translator_romanian.html", null ],
                   [ "TranslatorRussian", "d0/dab/class_translator_russian.html", null ],
                   [ "TranslatorSlovak", "d2/d53/class_translator_slovak.html", null ]
-                ] ],
-                [ "TranslatorSpanish", "dc/d44/class_translator_spanish.html", null ]
+                ] ]
               ] ]
             ] ],
             [ "TranslatorBulgarian", "da/dbb/class_translator_bulgarian.html", null ],
             [ "TranslatorChinese", "d6/db6/class_translator_chinese.html", null ],
             [ "TranslatorGreek", "df/d75/class_translator_greek.html", null ],
-            [ "TranslatorHindi", "d1/d8a/class_translator_hindi.html", null ],
-            [ "TranslatorSwedish", "d5/d5c/class_translator_swedish.html", null ]
+            [ "TranslatorHindi", "d1/d8a/class_translator_hindi.html", null ]
           ] ],
           [ "TranslatorFrench", "da/d1a/class_translator_french.html", null ]
         ] ]
@@ -1313,7 +1312,9 @@ var hierarchy =
         [ "TranslatorJapaneseEn", "d0/d16/class_translator_japanese_en.html", null ],
         [ "TranslatorKoreanEn", "d0/d3a/class_translator_korean_en.html", null ]
       ] ],
-      [ "TranslatorPortuguese", "dc/df2/class_translator_portuguese.html", null ]
+      [ "TranslatorPortuguese", "dc/df2/class_translator_portuguese.html", null ],
+      [ "TranslatorSpanish", "dc/d44/class_translator_spanish.html", null ],
+      [ "TranslatorSwedish", "d5/d5c/class_translator_swedish.html", null ]
     ] ],
     [ "TemplateNodeTree::TreeContext", "de/d99/struct_template_node_tree_1_1_tree_context.html", null ],
     [ "TreeDiagram", "d4/dc4/class_tree_diagram.html", null ],

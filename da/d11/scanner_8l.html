@@ -5373,7 +5373,7 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno"> 3896</span>                                          yyextra-&gt;current-&gt;program &lt;&lt; yytext ;</div>
 <div class="line"><span class="lineno"> 3897</span>                                        }</div>
 <div class="line"><span class="lineno"> 3898</span>  <span class="comment">/* Interpolated string C# */</span></div>
-<div class="line"><span class="lineno"> 3899</span>&lt;CopyGString,SkipString,SkipCurly,ReadBody,ReadNSBody,ReadBodyIntf&gt;$\&quot;   { if (!yyextra-&gt;insideCS) REJECT</div>
+<div class="line"><span class="lineno"> 3899</span>&lt;CopyGString,SkipString,SkipCurly,ReadBody,ReadNSBody,ReadBodyIntf,FindMembers,FindMemberName&gt;$\&quot;   { if (!yyextra-&gt;insideCS) REJECT</div>
 <div class="line"><span class="lineno"> 3900</span>                                          yyextra-&gt;current-&gt;program &lt;&lt; yytext ;</div>
 <div class="line"><span class="lineno"> 3901</span>                                          yyextra-&gt;pSkipInterpString = &amp;yyextra-&gt;current-&gt;program;</div>
 <div class="line"><span class="lineno"> 3902</span>                                          yyextra-&gt;lastSkipInterpStringContext=YY_START;</div>
@@ -5387,7 +5387,7 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno"> 3910</span>                                          BEGIN( yyextra-&gt;lastSkipInterpStringContext );</div>
 <div class="line"><span class="lineno"> 3911</span>                                        }</div>
 <div class="line"><span class="lineno"> 3912</span>  <span class="comment">/* Verbatim Interpolated string C# */</span></div>
-<div class="line"><span class="lineno"> 3913</span>&lt;SkipCurly,ReadBody,ReadNSBody,ReadBodyIntf&gt;$@\&quot;   { if (!yyextra-&gt;insideCS) REJECT</div>
+<div class="line"><span class="lineno"> 3913</span>&lt;SkipCurly,ReadBody,ReadNSBody,ReadBodyIntf,FindMembers,FindMemberName&gt;$@\&quot;   { if (!yyextra-&gt;insideCS) REJECT</div>
 <div class="line"><span class="lineno"> 3914</span>                                          yyextra-&gt;current-&gt;program &lt;&lt; yytext ;</div>
 <div class="line"><span class="lineno"> 3915</span>                                          yyextra-&gt;pSkipInterpVerbString = &amp;yyextra-&gt;current-&gt;program;</div>
 <div class="line"><span class="lineno"> 3916</span>                                          yyextra-&gt;lastSkipInterpVerbStringContext=YY_START;</div>

@@ -24,6 +24,5 @@ var classdef_8h =
     [ "toClassDef", "d1/da6/classdef_8h.html#adc2d9148971973811ca545c8990b1951", null ],
     [ "toClassDef", "d1/da6/classdef_8h.html#ac7e9d22a4c24e745c1ab16d0af527da2", null ],
     [ "toClassDef", "d1/da6/classdef_8h.html#a57154265979f0457ffb83b3a8b51cb97", null ],
-    [ "toClassDefMutable", "d1/da6/classdef_8h.html#a033ec722e9daa21bb77e5a0445014a0d", null ],
     [ "toClassDefMutable", "d1/da6/classdef_8h.html#a2d0bf73f7801534e7e2b6e5fc03ed6f5", null ]
 ];

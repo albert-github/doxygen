@@ -1,8 +1,7 @@
 var class_class_def_mutable =
 [
     [ "addExample", "d0/dc2/class_class_def_mutable.html#ae24cc8d57767aa81b004bc941de52e90", null ],
-    [ "addGroupedInheritedMembers", "d0/dc2/class_class_def_mutable.html#a785f5cfb30497385fd978a035c335bb2", null ],
-    [ "addInnerCompound", "d0/dc2/class_class_def_mutable.html#a51368b2e8ca9891a4ba4f9cf13bcdb88", null ],
+    [ "addInnerCompound", "d0/dc2/class_class_def_mutable.html#a0be5c05b7fbe6faa09fc6b80793a97ed", null ],
     [ "addListReferences", "d0/dc2/class_class_def_mutable.html#a8e6e94e29c2e6db09e38213e1525cd64", null ],
     [ "addMembersToMemberGroup", "d0/dc2/class_class_def_mutable.html#a1c90cadafedf7c5aabf13652c88929d9", null ],
     [ "addMembersToTemplateInstance", "d0/dc2/class_class_def_mutable.html#ad59851d3155ba565dfe74bbb919435cc", null ],
@@ -44,15 +43,5 @@ var class_class_def_mutable =
     [ "setTypeConstraints", "d0/dc2/class_class_def_mutable.html#aadad154d921a40f51f94b6a300fe95fc", null ],
     [ "setUsedOnly", "d0/dc2/class_class_def_mutable.html#a9ebbd33fff9657c55529319f4a355309", null ],
     [ "sortAllMembersList", "d0/dc2/class_class_def_mutable.html#ad3f331c1d12e6f5256e749173835b2b8", null ],
-    [ "sortMemberLists", "d0/dc2/class_class_def_mutable.html#aa5eb04ce72bf8939bc7f1e101fb385ad", null ],
-    [ "writeDeclaration", "d0/dc2/class_class_def_mutable.html#ae75f6c570eaef9ca12848c1fed3a3494", null ],
-    [ "writeDocumentation", "d0/dc2/class_class_def_mutable.html#a1cf2cee2b4fc875308d2f3dffc45a83e", null ],
-    [ "writeDocumentationForInnerClasses", "d0/dc2/class_class_def_mutable.html#af0eba0ab21b01fc31bb9cf8fb2c1d1e7", null ],
-    [ "writeInlineDocumentation", "d0/dc2/class_class_def_mutable.html#a51d483e2dfa5353eb539a594e79c8d58", null ],
-    [ "writeMemberDeclarations", "d0/dc2/class_class_def_mutable.html#aff2ebc0f29ddb4ec88ede73953682276", null ],
-    [ "writeMemberList", "d0/dc2/class_class_def_mutable.html#af5ec2fcecd83972e7418725bf40f9345", null ],
-    [ "writeMemberPages", "d0/dc2/class_class_def_mutable.html#a7057026a4be6a181eae7ceac0e8a7f8e", null ],
-    [ "writeQuickMemberLinks", "d0/dc2/class_class_def_mutable.html#a04beb4319a59ad16b7684c345eb799b6", null ],
-    [ "writeSummaryLinks", "d0/dc2/class_class_def_mutable.html#a0ec43a9202e0339e6022c6d9ee6602ea", null ],
-    [ "writeTagFile", "d0/dc2/class_class_def_mutable.html#a954daa410c414dae7ff9571f618c389c", null ]
+    [ "sortMemberLists", "d0/dc2/class_class_def_mutable.html#aa5eb04ce72bf8939bc7f1e101fb385ad", null ]
 ];

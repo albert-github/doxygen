@@ -2,6 +2,7 @@ var class_class_def_alias_impl =
 [
     [ "ClassDefAliasImpl", "d0/d2b/class_class_def_alias_impl.html#a6a11e5ccd30b61bd7f5b7df76ce29b39", null ],
     [ "~ClassDefAliasImpl", "d0/d2b/class_class_def_alias_impl.html#a10b7b2c885db2646235005f481542ed4", null ],
+    [ "addGroupedInheritedMembers", "d0/d2b/class_class_def_alias_impl.html#adaf5c6362990856d4105a88d692f2ac3", null ],
     [ "anchor", "d0/d2b/class_class_def_alias_impl.html#ad77cf1695a5ec4ad60d81b18ccbea870", null ],
     [ "baseClasses", "d0/d2b/class_class_def_alias_impl.html#a56326ddc8f9e79340b9883def387a70e", null ],
     [ "categoryOf", "d0/d2b/class_class_def_alias_impl.html#a5fce69458698cbbed36402569808c0c0", null ],
@@ -86,5 +87,15 @@ var class_class_def_alias_impl =
     [ "usedFiles", "d0/d2b/class_class_def_alias_impl.html#a3b4a06658e67a742e7c81a51600fa0ed", null ],
     [ "usedImplementationClasses", "d0/d2b/class_class_def_alias_impl.html#a01338755344f52bad7b8b96c8860c79a", null ],
     [ "visibleInParentsDeclList", "d0/d2b/class_class_def_alias_impl.html#a8426dba6a9f40ca12d11c5b993aa0df1", null ],
-    [ "writeDeclarationLink", "d0/d2b/class_class_def_alias_impl.html#a99cf83b3a5598e1babe6c168b3f13272", null ]
+    [ "writeDeclaration", "d0/d2b/class_class_def_alias_impl.html#ac8339e8e4ffaec4775c382a9a195a73e", null ],
+    [ "writeDeclarationLink", "d0/d2b/class_class_def_alias_impl.html#a99cf83b3a5598e1babe6c168b3f13272", null ],
+    [ "writeDocumentation", "d0/d2b/class_class_def_alias_impl.html#a9c880798ab6a8b58969f84951bb8e1a0", null ],
+    [ "writeDocumentationForInnerClasses", "d0/d2b/class_class_def_alias_impl.html#a6fc340be5fe7acb3408ed8dd3b8091d6", null ],
+    [ "writeInlineDocumentation", "d0/d2b/class_class_def_alias_impl.html#ab9fdb0d92f35ede1687f4a7cc6547707", null ],
+    [ "writeMemberDeclarations", "d0/d2b/class_class_def_alias_impl.html#ab789c960f91f3e99301c95cc12167b92", null ],
+    [ "writeMemberList", "d0/d2b/class_class_def_alias_impl.html#a4efc1886ff43c013458a448b23bb9480", null ],
+    [ "writeMemberPages", "d0/d2b/class_class_def_alias_impl.html#a7cf213b0b8c0578840f7b1334b9a09da", null ],
+    [ "writeQuickMemberLinks", "d0/d2b/class_class_def_alias_impl.html#ab4fd830ba3815cc674b2156fa7cc7a8d", null ],
+    [ "writeSummaryLinks", "d0/d2b/class_class_def_alias_impl.html#af4988cf4ef6d9252af67b7cc6719cb4c", null ],
+    [ "writeTagFile", "d0/d2b/class_class_def_alias_impl.html#aa8c1fe87748a4432b37b61cdef9b737f", null ]
 ];

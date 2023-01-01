@@ -7,12 +7,12 @@ digraph "LinkedRefMap&lt; T, Hash, KeyEqual, Map &gt;"
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
   Node1 [label="LinkedRefMap\< T, Hash,\l KeyEqual, Map \>",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Container class representing a vector of objects with keys."];
-  Node1 -> Node2 [dir="back",color="orange",style="dashed",label=" \< const ClassDef \>" ];
-  Node2 [label="LinkedRefMap\< const\l ClassDef \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d2/db7/class_linked_ref_map.html",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="orange",style="dashed",label=" \< ClassDef \>" ];
+  Node2 [label="LinkedRefMap\< ClassDef \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d2/db7/class_linked_ref_map.html",tooltip=" "];
   Node2 -> Node3 [dir="back",color="steelblue1",style="solid"];
   Node3 [label="ClassLinkedRefMap",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$da/d08/class_class_linked_ref_map.html",tooltip=" "];
-  Node1 -> Node4 [dir="back",color="orange",style="dashed",label=" \< const ConceptDef \>" ];
-  Node4 [label="LinkedRefMap\< const\l ConceptDef \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d2/db7/class_linked_ref_map.html",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="orange",style="dashed",label=" \< ConceptDef \>" ];
+  Node4 [label="LinkedRefMap\< ConceptDef \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d2/db7/class_linked_ref_map.html",tooltip=" "];
   Node4 -> Node5 [dir="back",color="steelblue1",style="solid"];
   Node5 [label="ConceptLinkedRefMap",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d4/daa/class_concept_linked_ref_map.html",tooltip=" "];
   Node1 -> Node6 [dir="back",color="orange",style="dashed",label=" \< const MemberDef \>" ];
@@ -27,6 +27,8 @@ digraph "LinkedRefMap&lt; T, Hash, KeyEqual, Map &gt;"
   Node10 [label="LinkedRefMap\< const\l PageDef \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d2/db7/class_linked_ref_map.html",tooltip=" "];
   Node10 -> Node11 [dir="back",color="steelblue1",style="solid"];
   Node11 [label="PageLinkedRefMap",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d9/de6/class_page_linked_ref_map.html",tooltip=" "];
-  Node1 -> Node12 [dir="back",color="orange",style="dashed",label=" \< const Definition \>" ];
-  Node12 [label="LinkedRefMap\< const\l Definition \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d2/db7/class_linked_ref_map.html",tooltip=" "];
+  Node1 -> Node12 [dir="back",color="orange",style="dashed",label=" \< NamespaceDef \>" ];
+  Node12 [label="LinkedRefMap\< NamespaceDef \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d2/db7/class_linked_ref_map.html",tooltip=" "];
+  Node1 -> Node13 [dir="back",color="orange",style="dashed",label=" \< const Definition \>" ];
+  Node13 [label="LinkedRefMap\< const\l Definition \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d2/db7/class_linked_ref_map.html",tooltip=" "];
 }
