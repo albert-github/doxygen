@@ -29,8 +29,8 @@ var class_definition_impl_1_1_i_m_p_l =
     [ "referencedByMembers", "dd/d50/class_definition_impl_1_1_i_m_p_l.html#a4784192134f6d7d80d76ad16370978fc", null ],
     [ "referencesMembers", "dd/d50/class_definition_impl_1_1_i_m_p_l.html#afa23f47ed7f99881d7ca249f42c23475", null ],
     [ "sectionRefs", "dd/d50/class_definition_impl_1_1_i_m_p_l.html#a9f00ab003423c0c654a41f1f4c6ba8d4", null ],
-    [ "sourceRefByDict", "dd/d50/class_definition_impl_1_1_i_m_p_l.html#aaaddf1b6a9916825f1e43a0a3b1f125b", null ],
-    [ "sourceRefsDict", "dd/d50/class_definition_impl_1_1_i_m_p_l.html#a0e08c1594f6fb527a371d48ad08de85c", null ],
+    [ "sourceRefByDict", "dd/d50/class_definition_impl_1_1_i_m_p_l.html#a90aeaaef22af81af230ee7ade5f74b71", null ],
+    [ "sourceRefsDict", "dd/d50/class_definition_impl_1_1_i_m_p_l.html#a602f80c64fe0e35ac8933ddef888bc09", null ],
     [ "symbolName", "dd/d50/class_definition_impl_1_1_i_m_p_l.html#abb13a742bc56b24e4becc6603667f41f", null ],
     [ "xrefListItems", "dd/d50/class_definition_impl_1_1_i_m_p_l.html#aff024874a648f9ab442f5e1b5d5b7a47", null ]
 ];

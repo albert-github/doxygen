@@ -256,7 +256,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="aclass_inherited_member_info_context_html_ac57bb227880acb64035b5bc0cb1b7265"><div class="ttname"><a href="../../d7/dd6/class_inherited_member_info_context.html#ac57bb227880acb64035b5bc0cb1b7265">InheritedMemberInfoContext::alloc</a></div><div class="ttdeci">static TemplateStructIntfPtr alloc(const ClassDef *cd, std::unique_ptr&lt; MemberList &gt; &amp;&amp;ml, const QCString &amp;title)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d1e/context_8h_source.html#l01123">context.h:1123</a></div></div>
 <div class="ttc" id="aclass_inherited_member_info_list_context_1_1_private_html_a5cb80aae6daa39425085db3826ff68e5"><div class="ttname"><a href="../../d0/de8/class_inherited_member_info_list_context_1_1_private.html#a5cb80aae6daa39425085db3826ff68e5">InheritedMemberInfoListContext::Private::addMemberGroupsOfClass</a></div><div class="ttdeci">void addMemberGroupsOfClass(const ClassDef *inheritedFrom, const ClassDef *cd, MemberListType lt, MemberList *combinedList)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l08099">context.cpp:8099</a></div></div>
 <div class="ttc" id="aclass_inherited_member_info_list_context_1_1_private_html_a8800eada82534798bf830ea0b0ca351f"><div class="ttname"><a href="../../d0/de8/class_inherited_member_info_list_context_1_1_private.html#a8800eada82534798bf830ea0b0ca351f">InheritedMemberInfoListContext::Private::addMemberListIncludingGrouped</a></div><div class="ttdeci">void addMemberListIncludingGrouped(const ClassDef *inheritedFrom, const MemberList *ml, MemberList *combinedList)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l08088">context.cpp:8088</a></div></div>
-<div class="ttc" id="aclass_member_list_html"><div class="ttname"><a href="../../dd/d13/class_member_list.html">MemberList</a></div><div class="ttdoc">A list of MemberDef objects as shown in documentation sections.</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d78/memberlist_8h_source.html#l00096">memberlist.h:97</a></div></div>
+<div class="ttc" id="aclass_member_list_html"><div class="ttname"><a href="../../dd/d13/class_member_list.html">MemberList</a></div><div class="ttdoc">A list of MemberDef objects as shown in documentation sections.</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d78/memberlist_8h_source.html#l00081">memberlist.h:82</a></div></div>
 <div class="ttc" id="atypes_8h_html_abe8ad5992f8938a28f918f51b199aa19"><div class="ttname"><a href="../../d9/d49/types_8h.html#abe8ad5992f8938a28f918f51b199aa19">MemberListType</a></div><div class="ttdeci">MemberListType</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00100">types.h:101</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../db/d12/context_8cpp_source.html#l08099">addMemberGroupsOfClass()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l08088">addMemberListIncludingGrouped()</a>, <a class="el" href="../../dc/d1e/context_8h_source.html#l01123">InheritedMemberInfoContext::alloc()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l00220">GenericNodeListContext::append()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l00202">GenericNodeListContext::count()</a>, <a class="el" href="../../d1/dcf/class_class_def.html#aa08a21c84b7e1718d8f2701bc3af6291">ClassDef::countMembersIncludingGrouped()</a>, and <a class="el" href="../../d1/dcf/class_class_def.html#a7d2f9d08207ecf5b227c11f8b4ea6d9f">ClassDef::getMemberList()</a>.</p>
@@ -325,7 +325,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 8111</span>                !md-&gt;isReimplementedBy(inheritedFrom) &amp;&amp;</div>
 <div class="line"><span class="lineno"> 8112</span>                md-&gt;isBriefSectionVisible())</div>
 <div class="line"><span class="lineno"> 8113</span>            {</div>
-<div class="line"><span class="lineno"> 8114</span>              combinedList-&gt;<a class="code hl_function" href="../../d1/d7d/class_member_vector.html#ae8265ec4f4b9b33ae0ddc0341f84433f">push_back</a>(md);</div>
+<div class="line"><span class="lineno"> 8114</span>              combinedList-&gt;<a class="code hl_function" href="../../d1/d7d/class_member_vector.html#af76ec8b9f3fa62a3276c0c115526325a">push_back</a>(md);</div>
 <div class="line"><span class="lineno"> 8115</span>            }</div>
 <div class="line"><span class="lineno"> 8116</span>          }</div>
 <div class="line"><span class="lineno"> 8117</span>        }</div>
@@ -333,9 +333,9 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 8119</span>    }</div>
 <div class="ttc" id="aclass_class_def_html_a1e2ce9f8d0cb3b6f1ba0317ca8dbb714"><div class="ttname"><a href="../../d1/dcf/class_class_def.html#a1e2ce9f8d0cb3b6f1ba0317ca8dbb714">ClassDef::subGrouping</a></div><div class="ttdeci">virtual bool subGrouping() const =0</div></div>
 <div class="ttc" id="aclass_class_def_html_add2c3b56273ce664bbaeb0ce1c8f420c"><div class="ttname"><a href="../../d1/dcf/class_class_def.html#add2c3b56273ce664bbaeb0ce1c8f420c">ClassDef::getMemberGroups</a></div><div class="ttdeci">virtual const MemberGroupList &amp; getMemberGroups() const =0</div><div class="ttdoc">Returns the member groups defined for this class.</div></div>
-<div class="ttc" id="aclass_member_vector_html_ae8265ec4f4b9b33ae0ddc0341f84433f"><div class="ttname"><a href="../../d1/d7d/class_member_vector.html#ae8265ec4f4b9b33ae0ddc0341f84433f">MemberVector::push_back</a></div><div class="ttdeci">void push_back(const T &amp;value)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d78/memberlist_8h_source.html#l00046">memberlist.h:46</a></div></div>
+<div class="ttc" id="aclass_member_vector_html_af76ec8b9f3fa62a3276c0c115526325a"><div class="ttname"><a href="../../d1/d7d/class_member_vector.html#af76ec8b9f3fa62a3276c0c115526325a">MemberVector::push_back</a></div><div class="ttdeci">void push_back(const MemberDef *md)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d78/memberlist_8h_source.html#l00042">memberlist.h:42</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/dcf/class_class_def.html#add2c3b56273ce664bbaeb0ce1c8f420c">ClassDef::getMemberGroups()</a>, <a class="el" href="../../dd/d78/memberlist_8h_source.html#l00046">MemberVector::push_back()</a>, and <a class="el" href="../../d1/dcf/class_class_def.html#a1e2ce9f8d0cb3b6f1ba0317ca8dbb714">ClassDef::subGrouping()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/dcf/class_class_def.html#add2c3b56273ce664bbaeb0ce1c8f420c">ClassDef::getMemberGroups()</a>, <a class="el" href="../../dd/d78/memberlist_8h_source.html#l00042">MemberVector::push_back()</a>, and <a class="el" href="../../d1/dcf/class_class_def.html#a1e2ce9f8d0cb3b6f1ba0317ca8dbb714">ClassDef::subGrouping()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l08120">addInheritedMembers()</a>.</p>
 
@@ -387,12 +387,12 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 8081</span>      {</div>
 <div class="line"><span class="lineno"> 8082</span>        <span class="keywordflow">if</span> (md-&gt;isBriefSectionVisible() &amp;&amp; !md-&gt;isReimplementedBy(inheritedFrom))</div>
 <div class="line"><span class="lineno"> 8083</span>        {</div>
-<div class="line"><span class="lineno"> 8084</span>          combinedList-&gt;<a class="code hl_function" href="../../d1/d7d/class_member_vector.html#ae8265ec4f4b9b33ae0ddc0341f84433f">push_back</a>(md);</div>
+<div class="line"><span class="lineno"> 8084</span>          combinedList-&gt;<a class="code hl_function" href="../../d1/d7d/class_member_vector.html#af76ec8b9f3fa62a3276c0c115526325a">push_back</a>(md);</div>
 <div class="line"><span class="lineno"> 8085</span>        }</div>
 <div class="line"><span class="lineno"> 8086</span>      }</div>
 <div class="line"><span class="lineno"> 8087</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d78/memberlist_8h_source.html#l00046">MemberVector::push_back()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d78/memberlist_8h_source.html#l00042">MemberVector::push_back()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l08088">addMemberListIncludingGrouped()</a>.</p>
 
@@ -450,9 +450,9 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 8097</span>      }</div>
 <div class="line"><span class="lineno"> 8098</span>    }</div>
 <div class="ttc" id="aclass_inherited_member_info_list_context_1_1_private_html_aad5ee64282e5277cba21c68735d1116c"><div class="ttname"><a href="../../d0/de8/class_inherited_member_info_list_context_1_1_private.html#aad5ee64282e5277cba21c68735d1116c">InheritedMemberInfoListContext::Private::addMemberList</a></div><div class="ttdeci">void addMemberList(const ClassDef *inheritedFrom, const MemberList &amp;ml, MemberList *combinedList)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l08078">context.cpp:8078</a></div></div>
-<div class="ttc" id="aclass_member_list_html_af6d805d822b673a443308b6363d9c85f"><div class="ttname"><a href="../../dd/d13/class_member_list.html#af6d805d822b673a443308b6363d9c85f">MemberList::getMemberGroupList</a></div><div class="ttdeci">const MemberGroupRefList &amp; getMemberGroupList() const</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d78/memberlist_8h_source.html#l00133">memberlist.h:133</a></div></div>
+<div class="ttc" id="aclass_member_list_html_af6d805d822b673a443308b6363d9c85f"><div class="ttname"><a href="../../dd/d13/class_member_list.html#af6d805d822b673a443308b6363d9c85f">MemberList::getMemberGroupList</a></div><div class="ttdeci">const MemberGroupRefList &amp; getMemberGroupList() const</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d78/memberlist_8h_source.html#l00118">memberlist.h:118</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d12/context_8cpp_source.html#l08078">addMemberList()</a>, and <a class="el" href="../../dd/d78/memberlist_8h_source.html#l00133">MemberList::getMemberGroupList()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d12/context_8cpp_source.html#l08078">addMemberList()</a>, and <a class="el" href="../../dd/d78/memberlist_8h_source.html#l00118">MemberList::getMemberGroupList()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l08120">addInheritedMembers()</a>.</p>
 

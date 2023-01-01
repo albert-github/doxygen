@@ -787,10 +787,10 @@ var hierarchy =
       [ "DirDef::UsedDirLinkedMap", "dd/dd7/class_dir_def_1_1_used_dir_linked_map.html", null ]
     ] ],
     [ "LinkedRefMap< T, Hash, KeyEqual, Map >", "d2/db7/class_linked_ref_map.html", null ],
-    [ "LinkedRefMap< ClassDef >", "d2/db7/class_linked_ref_map.html", [
+    [ "LinkedRefMap< const ClassDef >", "d2/db7/class_linked_ref_map.html", [
       [ "ClassLinkedRefMap", "da/d08/class_class_linked_ref_map.html", null ]
     ] ],
-    [ "LinkedRefMap< ConceptDef >", "d2/db7/class_linked_ref_map.html", [
+    [ "LinkedRefMap< const ConceptDef >", "d2/db7/class_linked_ref_map.html", [
       [ "ConceptLinkedRefMap", "d4/daa/class_concept_linked_ref_map.html", null ]
     ] ],
     [ "LinkedRefMap< const Definition >", "d2/db7/class_linked_ref_map.html", null ],
@@ -803,7 +803,6 @@ var hierarchy =
     [ "LinkedRefMap< const PageDef >", "d2/db7/class_linked_ref_map.html", [
       [ "PageLinkedRefMap", "d9/de6/class_page_linked_ref_map.html", null ]
     ] ],
-    [ "LinkedRefMap< NamespaceDef >", "d2/db7/class_linked_ref_map.html", null ],
     [ "Markdown::LinkRef", "dd/dff/struct_markdown_1_1_link_ref.html", null ],
     [ "FilterAlphaIndex::ListElem", "d4/d6c/struct_filter_alpha_index_1_1_list_elem.html", null ],
     [ "FilterGroupBy::ListElem", "de/d96/struct_filter_group_by_1_1_list_elem.html", null ],

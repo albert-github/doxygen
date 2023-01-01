@@ -15,5 +15,6 @@ var namespacedef_8h =
     [ "toNamespaceDef", "d7/d97/namespacedef_8h.html#ac4a3a7d929c1539b4580ef9895c48f0f", null ],
     [ "toNamespaceDef", "d7/d97/namespacedef_8h.html#ae303e4de18684cb3d0c72d936cc0654f", null ],
     [ "toNamespaceDef", "d7/d97/namespacedef_8h.html#af52a8a4a35b2209c0c4609c23b5b82e4", null ],
+    [ "toNamespaceDefMutable", "d7/d97/namespacedef_8h.html#a8a6a7eb78d4bfc91159878bb648b4a6b", null ],
     [ "toNamespaceDefMutable", "d7/d97/namespacedef_8h.html#ae480c007a9e16b642a72ffb1119c5812", null ]
 ];

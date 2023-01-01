@@ -27,7 +27,7 @@ digraph "NamespaceDefImpl"
   Node10 -> Node8 [dir="back",color="darkorchid3",style="dashed",label=" partOfGroups" ];
   Node10 [label="GroupList",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d3/d3b/class_group_list.html",tooltip=" "];
   Node11 -> Node10 [dir="back",color="steelblue1",style="solid"];
-  Node11 [label="std::vector\< GroupDef * \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",tooltip=" "];
+  Node11 [label="std::vector\< const\l GroupDef * \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",tooltip=" "];
   Node12 -> Node8 [dir="back",color="darkorchid3",style="dashed",label=" details\ninbodyDocs" ];
   Node12 [label="DocInfo",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d7/dd5/struct_doc_info.html",tooltip="Data associated with a detailed description."];
   Node13 -> Node12 [dir="back",color="darkorchid3",style="dashed",label=" doc\nfile" ];
@@ -55,12 +55,12 @@ digraph "NamespaceDefImpl"
   Node21 -> Node20 [dir="back",color="steelblue1",style="solid"];
   Node21 [label="std::vector\< const\l FileDef * \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",tooltip=" "];
   Node22 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" m_usingDirList" ];
-  Node22 [label="LinkedRefMap\< NamespaceDef \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d2/db7/class_linked_ref_map.html",tooltip=" "];
-  Node23 -> Node22 [dir="back",color="orange",style="dashed",label=" \< NamespaceDef \>" ];
+  Node22 [label="LinkedRefMap\< const\l NamespaceDef \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d2/db7/class_linked_ref_map.html",tooltip=" "];
+  Node23 -> Node22 [dir="back",color="orange",style="dashed",label=" \< const NamespaceDef \>" ];
   Node23 [label="LinkedRefMap\< T, Hash,\l KeyEqual, Map \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d2/db7/class_linked_ref_map.html",tooltip="Container class representing a vector of objects with keys."];
   Node24 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" m_usingDeclList" ];
-  Node24 [label="LinkedRefMap\< ClassDef \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d2/db7/class_linked_ref_map.html",tooltip=" "];
-  Node23 -> Node24 [dir="back",color="orange",style="dashed",label=" \< ClassDef \>" ];
+  Node24 [label="LinkedRefMap\< const\l ClassDef \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d2/db7/class_linked_ref_map.html",tooltip=" "];
+  Node23 -> Node24 [dir="back",color="orange",style="dashed",label=" \< const ClassDef \>" ];
   Node25 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" m_innerCompounds" ];
   Node25 [label="LinkedRefMap\< const\l Definition \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d2/db7/class_linked_ref_map.html",tooltip=" "];
   Node23 -> Node25 [dir="back",color="orange",style="dashed",label=" \< const Definition \>" ];
@@ -83,11 +83,9 @@ digraph "NamespaceDefImpl"
   Node33 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" m_concepts" ];
   Node33 [label="ConceptLinkedRefMap",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d4/daa/class_concept_linked_ref_map.html",tooltip=" "];
   Node34 -> Node33 [dir="back",color="steelblue1",style="solid"];
-  Node34 [label="LinkedRefMap\< ConceptDef \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d2/db7/class_linked_ref_map.html",tooltip=" "];
-  Node23 -> Node34 [dir="back",color="orange",style="dashed",label=" \< ConceptDef \>" ];
+  Node34 [label="LinkedRefMap\< const\l ConceptDef \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d2/db7/class_linked_ref_map.html",tooltip=" "];
+  Node23 -> Node34 [dir="back",color="orange",style="dashed",label=" \< const ConceptDef \>" ];
   Node35 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" namespaces" ];
   Node35 [label="NamespaceLinkedRefMap",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$da/df0/class_namespace_linked_ref_map.html",tooltip=" "];
-  Node36 -> Node35 [dir="back",color="steelblue1",style="solid"];
-  Node36 [label="LinkedRefMap\< const\l NamespaceDef \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d2/db7/class_linked_ref_map.html",tooltip=" "];
-  Node23 -> Node36 [dir="back",color="orange",style="dashed",label=" \< const NamespaceDef \>" ];
+  Node22 -> Node35 [dir="back",color="steelblue1",style="solid"];
 }

@@ -32,7 +32,7 @@ var class_member_def =
     [ "getCachedTypedefTemplSpec", "da/d09/class_member_def.html#a799ea114bacbfab8f6b8eb4e63564484", null ],
     [ "getCachedTypedefVal", "da/d09/class_member_def.html#a2d86b14ef7e0bae448c4ab6cb0e0bedc", null ],
     [ "getClassDef", "da/d09/class_member_def.html#a33ff70edee6691aacaeecf40a1146995", null ],
-    [ "getClassDef", "da/d09/class_member_def.html#a3dbdd0e17187a9512364eeb42782df6a", null ],
+    [ "getClassDefMutable", "da/d09/class_member_def.html#ae234ef5335b7786d0e2324efb74f1907", null ],
     [ "getClassDefOfAnonymousType", "da/d09/class_member_def.html#a90092536a05578d258ca1381e3176c88", null ],
     [ "getDeclColumn", "da/d09/class_member_def.html#a73180115a82af3a943f4bb34b1cc0df3", null ],
     [ "getDeclFileName", "da/d09/class_member_def.html#a9fcd7ce509544c84675118e28d7f6c8c", null ],
@@ -41,7 +41,6 @@ var class_member_def =
     [ "getEnumScope", "da/d09/class_member_def.html#af99e46c3a8716075dfcb6debf428e44f", null ],
     [ "getExamples", "da/d09/class_member_def.html#af11ea2d4093d08b9ca4147b6e10b1c7b", null ],
     [ "getFileDef", "da/d09/class_member_def.html#a5036fd8ee16b186925236105029ee823", null ],
-    [ "getFileDef", "da/d09/class_member_def.html#ae4ea166eb6883ec29aedb1d58eb5dc59", null ],
     [ "getGroupAlias", "da/d09/class_member_def.html#a347b09058c4ebdded074d8030ad53bb1", null ],
     [ "getGroupDef", "da/d09/class_member_def.html#a43ef09743c900283a46b2e0ecd81e486", null ],
     [ "getGroupFileName", "da/d09/class_member_def.html#acb9da3d6b3e2f3e8102ee9a3380c0746", null ],
@@ -53,7 +52,6 @@ var class_member_def =
     [ "getMemberGroupId", "da/d09/class_member_def.html#a6b67777af87af494e32dfec9d881da5d", null ],
     [ "getMemberSpecifiers", "da/d09/class_member_def.html#a4458215515338eb7c5597c44d8694e5d", null ],
     [ "getNamespaceDef", "da/d09/class_member_def.html#a900cace4959b6cad9e6aa58e8283195f", null ],
-    [ "getNamespaceDef", "da/d09/class_member_def.html#ad1ef0d32e09ba0696f74c4651839ad73", null ],
     [ "getOutputFileBase", "da/d09/class_member_def.html#a1691f8cc2d90978d091a7d7aae11dd8d", null ],
     [ "getQualifiers", "da/d09/class_member_def.html#a78ea63aa23ada7ecd6d8c59163c3dadf", null ],
     [ "getReadAccessor", "da/d09/class_member_def.html#ab8d7b70952b14c1f6af79a16f122a6c9", null ],
@@ -190,6 +188,5 @@ var class_member_def =
     [ "warnIfUndocumented", "da/d09/class_member_def.html#a1212af3d2b7edf710bbda655097a8a7b", null ],
     [ "warnIfUndocumentedParams", "da/d09/class_member_def.html#af292c658cf6cf0f6ac800f520818f7b6", null ],
     [ "writeDeclaration", "da/d09/class_member_def.html#ad48e7301ddaee99ade129b10f2518161", null ],
-    [ "writeEnumDeclaration", "da/d09/class_member_def.html#a4f5f39838febcbd66d723bc2b134a2aa", null ],
-    [ "writeLink", "da/d09/class_member_def.html#af6b323be485823061ea6a3aaf6e53c00", null ]
+    [ "writeEnumDeclaration", "da/d09/class_member_def.html#a4f5f39838febcbd66d723bc2b134a2aa", null ]
 ];

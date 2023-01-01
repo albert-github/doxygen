@@ -1,9 +1,9 @@
 var struct_symbol_resolver_1_1_private =
 [
     [ "Private", "d9/dc5/struct_symbol_resolver_1_1_private.html#a67735bb927b53dcc800ef7bce7929cb5", null ],
-    [ "accessibleViaUsingClass", "d9/dc5/struct_symbol_resolver_1_1_private.html#a19d9e6fbc545ebd6803a06eedabd081b", null ],
-    [ "accessibleViaUsingNamespace", "d9/dc5/struct_symbol_resolver_1_1_private.html#a887cd2a29d11cbe8dcccbb26e3b9475c", null ],
-    [ "endOfPathIsUsedClass", "d9/dc5/struct_symbol_resolver_1_1_private.html#a7e9d41024f45436fbadce85da5f51cb8", null ],
+    [ "accessibleViaUsingClass", "d9/dc5/struct_symbol_resolver_1_1_private.html#a6460c8de121f802f6b5ee7a4f127b26c", null ],
+    [ "accessibleViaUsingNamespace", "d9/dc5/struct_symbol_resolver_1_1_private.html#aca995ad12e00dcbf3b9a22fb08f7d7c7", null ],
+    [ "endOfPathIsUsedClass", "d9/dc5/struct_symbol_resolver_1_1_private.html#aca027cea1b9e08a1cc8740f5f0d4ffbe", null ],
     [ "followPath", "d9/dc5/struct_symbol_resolver_1_1_private.html#a11f8ff024ccb38ed7bb93c4bbbd2912d", null ],
     [ "getResolvedSymbol", "d9/dc5/struct_symbol_resolver_1_1_private.html#ab82f55d87ac3417ae78a0ddf4806b263", null ],
     [ "getResolvedSymbolRec", "d9/dc5/struct_symbol_resolver_1_1_private.html#a1b353e10f16e1e03de54bdbc90c284b0", null ],

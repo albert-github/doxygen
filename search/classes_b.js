@@ -39,16 +39,15 @@ var searchData=
   ['linkedmap_3c_20sectioninfo_20_3e_36',['LinkedMap&lt; SectionInfo &gt;',['../d0/d2c/class_linked_map.html',1,'']]],
   ['linkedmap_3c_20useddir_20_3e_37',['LinkedMap&lt; UsedDir &gt;',['../d0/d2c/class_linked_map.html',1,'']]],
   ['linkedrefmap_38',['LinkedRefMap',['../d2/db7/class_linked_ref_map.html',1,'']]],
-  ['linkedrefmap_3c_20classdef_20_3e_39',['LinkedRefMap&lt; ClassDef &gt;',['../d2/db7/class_linked_ref_map.html',1,'']]],
-  ['linkedrefmap_3c_20conceptdef_20_3e_40',['LinkedRefMap&lt; ConceptDef &gt;',['../d2/db7/class_linked_ref_map.html',1,'']]],
+  ['linkedrefmap_3c_20const_20classdef_20_3e_39',['LinkedRefMap&lt; const ClassDef &gt;',['../d2/db7/class_linked_ref_map.html',1,'']]],
+  ['linkedrefmap_3c_20const_20conceptdef_20_3e_40',['LinkedRefMap&lt; const ConceptDef &gt;',['../d2/db7/class_linked_ref_map.html',1,'']]],
   ['linkedrefmap_3c_20const_20definition_20_3e_41',['LinkedRefMap&lt; const Definition &gt;',['../d2/db7/class_linked_ref_map.html',1,'']]],
   ['linkedrefmap_3c_20const_20memberdef_20_3e_42',['LinkedRefMap&lt; const MemberDef &gt;',['../d2/db7/class_linked_ref_map.html',1,'']]],
   ['linkedrefmap_3c_20const_20namespacedef_20_3e_43',['LinkedRefMap&lt; const NamespaceDef &gt;',['../d2/db7/class_linked_ref_map.html',1,'']]],
   ['linkedrefmap_3c_20const_20pagedef_20_3e_44',['LinkedRefMap&lt; const PageDef &gt;',['../d2/db7/class_linked_ref_map.html',1,'']]],
-  ['linkedrefmap_3c_20namespacedef_20_3e_45',['LinkedRefMap&lt; NamespaceDef &gt;',['../d2/db7/class_linked_ref_map.html',1,'']]],
-  ['linkref_46',['LinkRef',['../dd/dff/struct_markdown_1_1_link_ref.html',1,'Markdown']]],
-  ['listelem_47',['ListElem',['../d4/d6c/struct_filter_alpha_index_1_1_list_elem.html',1,'FilterAlphaIndex::ListElem'],['../de/d96/struct_filter_group_by_1_1_list_elem.html',1,'FilterGroupBy::ListElem'],['../d8/d82/struct_filter_list_sort_1_1_list_elem.html',1,'FilterListSort::ListElem']]],
-  ['localdef_48',['LocalDef',['../dc/db8/class_local_def.html',1,'']]],
-  ['localtoc_49',['LocalToc',['../da/d1d/class_local_toc.html',1,'']]],
-  ['lookupinfo_50',['LookupInfo',['../d7/d19/struct_lookup_info.html',1,'']]]
+  ['linkref_45',['LinkRef',['../dd/dff/struct_markdown_1_1_link_ref.html',1,'Markdown']]],
+  ['listelem_46',['ListElem',['../d4/d6c/struct_filter_alpha_index_1_1_list_elem.html',1,'FilterAlphaIndex::ListElem'],['../de/d96/struct_filter_group_by_1_1_list_elem.html',1,'FilterGroupBy::ListElem'],['../d8/d82/struct_filter_list_sort_1_1_list_elem.html',1,'FilterListSort::ListElem']]],
+  ['localdef_47',['LocalDef',['../dc/db8/class_local_def.html',1,'']]],
+  ['localtoc_48',['LocalToc',['../da/d1d/class_local_toc.html',1,'']]],
+  ['lookupinfo_49',['LookupInfo',['../d7/d19/struct_lookup_info.html',1,'']]]
 ];

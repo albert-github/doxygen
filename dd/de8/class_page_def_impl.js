@@ -2,7 +2,7 @@ var class_page_def_impl =
 [
     [ "PageDefImpl", "dd/de8/class_page_def_impl.html#a3b619a4fc6ed1af839392d59ec20b0e2", null ],
     [ "~PageDefImpl", "dd/de8/class_page_def_impl.html#a547b24fcdf7347d03fc17de2bf2b2b4c", null ],
-    [ "addInnerCompound", "dd/de8/class_page_def_impl.html#ae8ea8fbea5c6ffb7f292fa89bb994a1e", null ],
+    [ "addInnerCompound", "dd/de8/class_page_def_impl.html#a07406453860eb44ca48ee79266a39c44", null ],
     [ "anchor", "dd/de8/class_page_def_impl.html#a98064bd9132116a1801f46f0be8a48b2", null ],
     [ "codeSymbolType", "dd/de8/class_page_def_impl.html#a933e78c33319742c94e09db96191b6c8", null ],
     [ "definitionType", "dd/de8/class_page_def_impl.html#a2610b6a659dd06cff5ce447b466e6d16", null ],

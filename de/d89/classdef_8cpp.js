@@ -19,6 +19,7 @@ var classdef_8cpp =
     [ "toClassDef", "de/d89/classdef_8cpp.html#adc2d9148971973811ca545c8990b1951", null ],
     [ "toClassDef", "de/d89/classdef_8cpp.html#ac7e9d22a4c24e745c1ab16d0af527da2", null ],
     [ "toClassDef", "de/d89/classdef_8cpp.html#a0c64550144b1c5be3dfa3e79ad1a2ac1", null ],
+    [ "toClassDefMutable", "de/d89/classdef_8cpp.html#a033ec722e9daa21bb77e5a0445014a0d", null ],
     [ "toClassDefMutable", "de/d89/classdef_8cpp.html#a2d0bf73f7801534e7e2b6e5fc03ed6f5", null ],
     [ "writeInheritanceSpecifier", "de/d89/classdef_8cpp.html#aa1221bfb5b21c047427a269f0caef930", null ]
 ];

@@ -168,8 +168,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a98844b40b53f9e938671fe274771754f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad59851d3155ba565dfe74bbb919435cc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc2/class_class_def_mutable.html#ad59851d3155ba565dfe74bbb919435cc">addMembersToTemplateInstance</a> (const <a class="el" href="../../d1/dcf/class_class_def.html">ClassDef</a> *cd, const <a class="el" href="../../d7/df8/class_argument_list.html">ArgumentList</a> &amp;<a class="el" href="../../d1/dcf/class_class_def.html#a201b8f24043f9b7c7cc59d55282f6d47">templateArguments</a>, const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;templSpec)=0</td></tr>
 <tr class="separator:ad59851d3155ba565dfe74bbb919435cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0be5c05b7fbe6faa09fc6b80793a97ed"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc2/class_class_def_mutable.html#a0be5c05b7fbe6faa09fc6b80793a97ed">addInnerCompound</a> (<a class="el" href="../../d5/dcc/class_definition.html">Definition</a> *d)=0</td></tr>
-<tr class="separator:a0be5c05b7fbe6faa09fc6b80793a97ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51368b2e8ca9891a4ba4f9cf13bcdb88"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc2/class_class_def_mutable.html#a51368b2e8ca9891a4ba4f9cf13bcdb88">addInnerCompound</a> (const <a class="el" href="../../d5/dcc/class_definition.html">Definition</a> *d)=0</td></tr>
+<tr class="separator:a51368b2e8ca9891a4ba4f9cf13bcdb88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae24cc8d57767aa81b004bc941de52e90"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc2/class_class_def_mutable.html#ae24cc8d57767aa81b004bc941de52e90">addExample</a> (const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;<a class="el" href="../../d1/dcf/class_class_def.html#a7016b59e40eefbd4e9a1cc6fa43e0bff">anchor</a>, const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;<a class="el" href="../../d5/dcc/class_definition.html#a9374fedd7f64fea7e0e164302d1a9e61">name</a>, const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;file)=0</td></tr>
 <tr class="separator:ae24cc8d57767aa81b004bc941de52e90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a495b362e77fb13df4c06880dcd36daae"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc2/class_class_def_mutable.html#a495b362e77fb13df4c06880dcd36daae">addUsedClass</a> (<a class="el" href="../../d1/dcf/class_class_def.html">ClassDef</a> *cd, const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;accessName, <a class="el" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4ded">Protection</a> prot)=0</td></tr>
@@ -206,6 +206,28 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1ba28a556105e009bab4a3a1321e4de9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3f331c1d12e6f5256e749173835b2b8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc2/class_class_def_mutable.html#ad3f331c1d12e6f5256e749173835b2b8">sortAllMembersList</a> ()=0</td></tr>
 <tr class="separator:ad3f331c1d12e6f5256e749173835b2b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cf2cee2b4fc875308d2f3dffc45a83e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc2/class_class_def_mutable.html#a1cf2cee2b4fc875308d2f3dffc45a83e">writeDocumentation</a> (<a class="el" href="../../df/dc8/class_output_list.html">OutputList</a> &amp;ol) const =0</td></tr>
+<tr class="separator:a1cf2cee2b4fc875308d2f3dffc45a83e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0eba0ab21b01fc31bb9cf8fb2c1d1e7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc2/class_class_def_mutable.html#af0eba0ab21b01fc31bb9cf8fb2c1d1e7">writeDocumentationForInnerClasses</a> (<a class="el" href="../../df/dc8/class_output_list.html">OutputList</a> &amp;ol) const =0</td></tr>
+<tr class="separator:af0eba0ab21b01fc31bb9cf8fb2c1d1e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7057026a4be6a181eae7ceac0e8a7f8e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc2/class_class_def_mutable.html#a7057026a4be6a181eae7ceac0e8a7f8e">writeMemberPages</a> (<a class="el" href="../../df/dc8/class_output_list.html">OutputList</a> &amp;ol) const =0</td></tr>
+<tr class="separator:a7057026a4be6a181eae7ceac0e8a7f8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5ec2fcecd83972e7418725bf40f9345"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc2/class_class_def_mutable.html#af5ec2fcecd83972e7418725bf40f9345">writeMemberList</a> (<a class="el" href="../../df/dc8/class_output_list.html">OutputList</a> &amp;ol) const =0</td></tr>
+<tr class="separator:af5ec2fcecd83972e7418725bf40f9345"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae75f6c570eaef9ca12848c1fed3a3494"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc2/class_class_def_mutable.html#ae75f6c570eaef9ca12848c1fed3a3494">writeDeclaration</a> (<a class="el" href="../../df/dc8/class_output_list.html">OutputList</a> &amp;ol, const <a class="el" href="../../da/d09/class_member_def.html">MemberDef</a> *md, bool inGroup, int indentLevel, const <a class="el" href="../../d1/dcf/class_class_def.html">ClassDef</a> *inheritedFrom, const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;inheritId) const =0</td></tr>
+<tr class="separator:ae75f6c570eaef9ca12848c1fed3a3494"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04beb4319a59ad16b7684c345eb799b6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc2/class_class_def_mutable.html#a04beb4319a59ad16b7684c345eb799b6">writeQuickMemberLinks</a> (<a class="el" href="../../df/dc8/class_output_list.html">OutputList</a> &amp;ol, const <a class="el" href="../../da/d09/class_member_def.html">MemberDef</a> *md) const =0</td></tr>
+<tr class="separator:a04beb4319a59ad16b7684c345eb799b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ec43a9202e0339e6022c6d9ee6602ea"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc2/class_class_def_mutable.html#a0ec43a9202e0339e6022c6d9ee6602ea">writeSummaryLinks</a> (<a class="el" href="../../df/dc8/class_output_list.html">OutputList</a> &amp;ol) const =0</td></tr>
+<tr class="separator:a0ec43a9202e0339e6022c6d9ee6602ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51d483e2dfa5353eb539a594e79c8d58"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc2/class_class_def_mutable.html#a51d483e2dfa5353eb539a594e79c8d58">writeInlineDocumentation</a> (<a class="el" href="../../df/dc8/class_output_list.html">OutputList</a> &amp;ol) const =0</td></tr>
+<tr class="separator:a51d483e2dfa5353eb539a594e79c8d58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a954daa410c414dae7ff9571f618c389c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc2/class_class_def_mutable.html#a954daa410c414dae7ff9571f618c389c">writeTagFile</a> (<a class="el" href="../../d3/d30/class_text_stream.html">TextStream</a> &amp;)=0</td></tr>
+<tr class="separator:a954daa410c414dae7ff9571f618c389c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff2ebc0f29ddb4ec88ede73953682276"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc2/class_class_def_mutable.html#aff2ebc0f29ddb4ec88ede73953682276">writeMemberDeclarations</a> (<a class="el" href="../../df/dc8/class_output_list.html">OutputList</a> &amp;ol, <a class="el" href="../../d1/da6/classdef_8h.html#a6a57c19877e781003273aacd8c7b18fe">ClassDefSet</a> &amp;visitedClasses, <a class="el" href="../../d9/d49/types_8h.html#abe8ad5992f8938a28f918f51b199aa19">MemberListType</a> lt, const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;<a class="el" href="../../d1/dcf/class_class_def.html#afb51998523ff484408b2a96fd4f3fced">title</a>, const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;subTitle=<a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>(), bool showInline=<a class="el" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>, const <a class="el" href="../../d1/dcf/class_class_def.html">ClassDef</a> *inheritedFrom=0, int lt2=-1, bool invert=<a class="el" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>, bool showAlways=<a class="el" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>) const =0</td></tr>
+<tr class="separator:aff2ebc0f29ddb4ec88ede73953682276"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a785f5cfb30497385fd978a035c335bb2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc2/class_class_def_mutable.html#a785f5cfb30497385fd978a035c335bb2">addGroupedInheritedMembers</a> (<a class="el" href="../../df/dc8/class_output_list.html">OutputList</a> &amp;ol, <a class="el" href="../../d9/d49/types_8h.html#abe8ad5992f8938a28f918f51b199aa19">MemberListType</a> lt, const <a class="el" href="../../d1/dcf/class_class_def.html">ClassDef</a> *inheritedFrom, const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;inheritId) const =0</td></tr>
+<tr class="separator:a785f5cfb30497385fd978a035c335bb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_definition_mutable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_definition_mutable')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d0/d46/class_definition_mutable.html">DefinitionMutable</a></td></tr>
 <tr class="memitem:a22b8c8f07db7eb0435d27a79d2d32655 inherit pub_methods_class_definition_mutable"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d46/class_definition_mutable.html#a22b8c8f07db7eb0435d27a79d2d32655">setName</a> (const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;name)=0</td></tr>
 <tr class="separator:a22b8c8f07db7eb0435d27a79d2d32655 inherit pub_methods_class_definition_mutable"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -237,18 +259,18 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa0c1e834027250c7b3bcffcd73e96c3d inherit pub_methods_class_definition_mutable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a296be549e2a6c24f2de529d70daab956 inherit pub_methods_class_definition_mutable"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d46/class_definition_mutable.html#a296be549e2a6c24f2de529d70daab956">setLocalName</a> (const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;name)=0</td></tr>
 <tr class="separator:a296be549e2a6c24f2de529d70daab956 inherit pub_methods_class_definition_mutable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace7c1ad57b2a21941d7dd860e7e9c9fd inherit pub_methods_class_definition_mutable"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d46/class_definition_mutable.html#ace7c1ad57b2a21941d7dd860e7e9c9fd">makePartOfGroup</a> (<a class="el" href="../../d8/d09/class_group_def.html">GroupDef</a> *gd)=0</td></tr>
-<tr class="separator:ace7c1ad57b2a21941d7dd860e7e9c9fd inherit pub_methods_class_definition_mutable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a631fedd4f1f258fa0d1edc06cefae3 inherit pub_methods_class_definition_mutable"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d46/class_definition_mutable.html#a8a631fedd4f1f258fa0d1edc06cefae3">makePartOfGroup</a> (const <a class="el" href="../../d8/d09/class_group_def.html">GroupDef</a> *gd)=0</td></tr>
+<tr class="separator:a8a631fedd4f1f258fa0d1edc06cefae3 inherit pub_methods_class_definition_mutable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a887b37e99fd86677550a17186db349f2 inherit pub_methods_class_definition_mutable"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d46/class_definition_mutable.html#a887b37e99fd86677550a17186db349f2">addSectionsToDefinition</a> (const std::vector&lt; const <a class="el" href="../../de/d3c/class_section_info.html">SectionInfo</a> * &gt; &amp;anchorList)=0</td></tr>
 <tr class="separator:a887b37e99fd86677550a17186db349f2 inherit pub_methods_class_definition_mutable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85446044beefa5e875cc70000359f893 inherit pub_methods_class_definition_mutable"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d46/class_definition_mutable.html#a85446044beefa5e875cc70000359f893">addSourceReferencedBy</a> (<a class="el" href="../../da/d09/class_member_def.html">MemberDef</a> *d)=0</td></tr>
-<tr class="separator:a85446044beefa5e875cc70000359f893 inherit pub_methods_class_definition_mutable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a423355511c127924efb2e0cb7d9c863f inherit pub_methods_class_definition_mutable"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d46/class_definition_mutable.html#a423355511c127924efb2e0cb7d9c863f">addSourceReferences</a> (<a class="el" href="../../da/d09/class_member_def.html">MemberDef</a> *d)=0</td></tr>
-<tr class="separator:a423355511c127924efb2e0cb7d9c863f inherit pub_methods_class_definition_mutable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2fcdad0b348721d87088fe329b22ea3 inherit pub_methods_class_definition_mutable"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d46/class_definition_mutable.html#ab2fcdad0b348721d87088fe329b22ea3">addSourceReferencedBy</a> (const <a class="el" href="../../da/d09/class_member_def.html">MemberDef</a> *d)=0</td></tr>
+<tr class="separator:ab2fcdad0b348721d87088fe329b22ea3 inherit pub_methods_class_definition_mutable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac574d113ff2d297bec9924db491d525 inherit pub_methods_class_definition_mutable"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d46/class_definition_mutable.html#aac574d113ff2d297bec9924db491d525">addSourceReferences</a> (const <a class="el" href="../../da/d09/class_member_def.html">MemberDef</a> *d)=0</td></tr>
+<tr class="separator:aac574d113ff2d297bec9924db491d525 inherit pub_methods_class_definition_mutable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9954b7f44ce715872d177b25966e13d inherit pub_methods_class_definition_mutable"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d46/class_definition_mutable.html#ac9954b7f44ce715872d177b25966e13d">mergeRefItems</a> (<a class="el" href="../../d5/dcc/class_definition.html">Definition</a> *d)=0</td></tr>
 <tr class="separator:ac9954b7f44ce715872d177b25966e13d inherit pub_methods_class_definition_mutable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6cf8a0406e3af4549e97692503129b10 inherit pub_methods_class_definition_mutable"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d46/class_definition_mutable.html#a6cf8a0406e3af4549e97692503129b10">addInnerCompound</a> (<a class="el" href="../../d5/dcc/class_definition.html">Definition</a> *d)=0</td></tr>
-<tr class="separator:a6cf8a0406e3af4549e97692503129b10 inherit pub_methods_class_definition_mutable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed48c2d9ec22b36437e7511979a7d549 inherit pub_methods_class_definition_mutable"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d46/class_definition_mutable.html#aed48c2d9ec22b36437e7511979a7d549">addInnerCompound</a> (const <a class="el" href="../../d5/dcc/class_definition.html">Definition</a> *d)=0</td></tr>
+<tr class="separator:aed48c2d9ec22b36437e7511979a7d549 inherit pub_methods_class_definition_mutable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac82f0527890f796d8d756dae52845e62 inherit pub_methods_class_definition_mutable"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d46/class_definition_mutable.html#ac82f0527890f796d8d756dae52845e62">addSectionsToIndex</a> ()=0</td></tr>
 <tr class="separator:ac82f0527890f796d8d756dae52845e62 inherit pub_methods_class_definition_mutable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37617eb479f2695b0909ebd4dc437b98 inherit pub_methods_class_definition_mutable"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d46/class_definition_mutable.html#a37617eb479f2695b0909ebd4dc437b98">mergeReferences</a> (const <a class="el" href="../../d5/dcc/class_definition.html">Definition</a> *other)=0</td></tr>
@@ -496,28 +518,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9cdbbcba038909c2ae9de31c14e30d3b inherit pub_methods_class_class_def"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd75a76f95d8eacddd4afbb7dc8693a2 inherit pub_methods_class_class_def"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcf/class_class_def.html#acd75a76f95d8eacddd4afbb7dc8693a2">writeDeclarationLink</a> (<a class="el" href="../../df/dc8/class_output_list.html">OutputList</a> &amp;ol, bool &amp;<a class="el" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>, const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;header, bool localNames) const =0</td></tr>
 <tr class="separator:acd75a76f95d8eacddd4afbb7dc8693a2 inherit pub_methods_class_class_def"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a283ca4e39a593316c8c6c83085088900 inherit pub_methods_class_class_def"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcf/class_class_def.html#a283ca4e39a593316c8c6c83085088900">writeDocumentation</a> (<a class="el" href="../../df/dc8/class_output_list.html">OutputList</a> &amp;ol) const =0</td></tr>
-<tr class="separator:a283ca4e39a593316c8c6c83085088900 inherit pub_methods_class_class_def"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd404f2052b5c688bf0815741a290842 inherit pub_methods_class_class_def"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcf/class_class_def.html#afd404f2052b5c688bf0815741a290842">writeDocumentationForInnerClasses</a> (<a class="el" href="../../df/dc8/class_output_list.html">OutputList</a> &amp;ol) const =0</td></tr>
-<tr class="separator:afd404f2052b5c688bf0815741a290842 inherit pub_methods_class_class_def"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21e64cf1626ca35924f114aaadac8009 inherit pub_methods_class_class_def"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcf/class_class_def.html#a21e64cf1626ca35924f114aaadac8009">writeMemberPages</a> (<a class="el" href="../../df/dc8/class_output_list.html">OutputList</a> &amp;ol) const =0</td></tr>
-<tr class="separator:a21e64cf1626ca35924f114aaadac8009 inherit pub_methods_class_class_def"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30391896721a6454f35d69ef5457080b inherit pub_methods_class_class_def"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcf/class_class_def.html#a30391896721a6454f35d69ef5457080b">writeMemberList</a> (<a class="el" href="../../df/dc8/class_output_list.html">OutputList</a> &amp;ol) const =0</td></tr>
-<tr class="separator:a30391896721a6454f35d69ef5457080b inherit pub_methods_class_class_def"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acfcf16726b8d952b1c76d43adfbef197 inherit pub_methods_class_class_def"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcf/class_class_def.html#acfcf16726b8d952b1c76d43adfbef197">writeDeclaration</a> (<a class="el" href="../../df/dc8/class_output_list.html">OutputList</a> &amp;ol, const <a class="el" href="../../da/d09/class_member_def.html">MemberDef</a> *md, bool inGroup, int indentLevel, const <a class="el" href="../../d1/dcf/class_class_def.html">ClassDef</a> *inheritedFrom, const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;inheritId) const =0</td></tr>
-<tr class="separator:acfcf16726b8d952b1c76d43adfbef197 inherit pub_methods_class_class_def"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f85844c1b5d67ca6110b3c48053bc77 inherit pub_methods_class_class_def"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcf/class_class_def.html#a6f85844c1b5d67ca6110b3c48053bc77">writeQuickMemberLinks</a> (<a class="el" href="../../df/dc8/class_output_list.html">OutputList</a> &amp;ol, const <a class="el" href="../../da/d09/class_member_def.html">MemberDef</a> *md) const =0</td></tr>
-<tr class="separator:a6f85844c1b5d67ca6110b3c48053bc77 inherit pub_methods_class_class_def"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e4c88be7cbea1cd3c46833f69843612 inherit pub_methods_class_class_def"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcf/class_class_def.html#a1e4c88be7cbea1cd3c46833f69843612">writeSummaryLinks</a> (<a class="el" href="../../df/dc8/class_output_list.html">OutputList</a> &amp;ol) const =0</td></tr>
-<tr class="separator:a1e4c88be7cbea1cd3c46833f69843612 inherit pub_methods_class_class_def"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af59b44de9052b4e62482853fdb7a514a inherit pub_methods_class_class_def"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcf/class_class_def.html#af59b44de9052b4e62482853fdb7a514a">writeInlineDocumentation</a> (<a class="el" href="../../df/dc8/class_output_list.html">OutputList</a> &amp;ol) const =0</td></tr>
-<tr class="separator:af59b44de9052b4e62482853fdb7a514a inherit pub_methods_class_class_def"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5fb9d775ecdb41ff87abcc2eb44f105 inherit pub_methods_class_class_def"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcf/class_class_def.html#af5fb9d775ecdb41ff87abcc2eb44f105">writeTagFile</a> (<a class="el" href="../../d3/d30/class_text_stream.html">TextStream</a> &amp;) const =0</td></tr>
-<tr class="separator:af5fb9d775ecdb41ff87abcc2eb44f105 inherit pub_methods_class_class_def"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad30856f1775b229f941679aaaf55e239 inherit pub_methods_class_class_def"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcf/class_class_def.html#ad30856f1775b229f941679aaaf55e239">writeMemberDeclarations</a> (<a class="el" href="../../df/dc8/class_output_list.html">OutputList</a> &amp;ol, <a class="el" href="../../d1/da6/classdef_8h.html#a6a57c19877e781003273aacd8c7b18fe">ClassDefSet</a> &amp;visitedClasses, <a class="el" href="../../d9/d49/types_8h.html#abe8ad5992f8938a28f918f51b199aa19">MemberListType</a> lt, const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;<a class="el" href="../../d1/dcf/class_class_def.html#afb51998523ff484408b2a96fd4f3fced">title</a>, const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;subTitle=<a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>(), bool showInline=<a class="el" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>, const <a class="el" href="../../d1/dcf/class_class_def.html">ClassDef</a> *inheritedFrom=0, int lt2=-1, bool invert=<a class="el" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>, bool showAlways=<a class="el" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>) const =0</td></tr>
-<tr class="separator:ad30856f1775b229f941679aaaf55e239 inherit pub_methods_class_class_def"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8ed300bfb36eefd34b5ba9f165ff880 inherit pub_methods_class_class_def"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcf/class_class_def.html#ac8ed300bfb36eefd34b5ba9f165ff880">addGroupedInheritedMembers</a> (<a class="el" href="../../df/dc8/class_output_list.html">OutputList</a> &amp;ol, <a class="el" href="../../d9/d49/types_8h.html#abe8ad5992f8938a28f918f51b199aa19">MemberListType</a> lt, const <a class="el" href="../../d1/dcf/class_class_def.html">ClassDef</a> *inheritedFrom, const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;inheritId) const =0</td></tr>
-<tr class="separator:ac8ed300bfb36eefd34b5ba9f165ff880 inherit pub_methods_class_class_def"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_definition"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_definition')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d5/dcc/class_definition.html">Definition</a></td></tr>
 <tr class="memitem:a526c39074637d4b17a3f67df56d961ff inherit pub_methods_class_definition"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d5/dcc/class_definition.html#aa41b6bc53dcf93ecf745698aaf15ef8e">DefType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcc/class_definition.html#a526c39074637d4b17a3f67df56d961ff">definitionType</a> () const =0</td></tr>
 <tr class="separator:a526c39074637d4b17a3f67df56d961ff inherit pub_methods_class_definition"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -681,7 +681,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/da6/classdef_8h_source.html#l00402">402</a> of file <a class="el" href="../../d1/da6/classdef_8h_source.html">classdef.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/da6/classdef_8h_source.html#l00379">379</a> of file <a class="el" href="../../d1/da6/classdef_8h_source.html">classdef.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ae24cc8d57767aa81b004bc941de52e90" name="ae24cc8d57767aa81b004bc941de52e90"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae24cc8d57767aa81b004bc941de52e90">&#9670;&#160;</a></span>addExample()</h2>
@@ -729,8 +729,60 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a0be5c05b7fbe6faa09fc6b80793a97ed" name="a0be5c05b7fbe6faa09fc6b80793a97ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0be5c05b7fbe6faa09fc6b80793a97ed">&#9670;&#160;</a></span>addInnerCompound()</h2>
+<a id="a785f5cfb30497385fd978a035c335bb2" name="a785f5cfb30497385fd978a035c335bb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a785f5cfb30497385fd978a035c335bb2">&#9670;&#160;</a></span>addGroupedInheritedMembers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ClassDefMutable::addGroupedInheritedMembers </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/dc8/class_output_list.html">OutputList</a> &amp;&#160;</td>
+          <td class="paramname"><em>ol</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#abe8ad5992f8938a28f918f51b199aa19">MemberListType</a>&#160;</td>
+          <td class="paramname"><em>lt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d1/dcf/class_class_def.html">ClassDef</a> *&#160;</td>
+          <td class="paramname"><em>inheritedFrom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;&#160;</td>
+          <td class="paramname"><em>inheritId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a59346e3ed608dd9bee0add0da0736af4">ClassDefImpl</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d0/d14/memberlist_8cpp_source.html#l00526">MemberList::writeDeclarations()</a>.</p>
+
+</div>
+</div>
+<a id="a51368b2e8ca9891a4ba4f9cf13bcdb88" name="a51368b2e8ca9891a4ba4f9cf13bcdb88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51368b2e8ca9891a4ba4f9cf13bcdb88">&#9670;&#160;</a></span>addInnerCompound()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -741,7 +793,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">virtual void ClassDefMutable::addInnerCompound </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/dcc/class_definition.html">Definition</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d5/dcc/class_definition.html">Definition</a> *&#160;</td>
           <td class="paramname"><em>d</em></td><td>)</td>
           <td></td>
         </tr>
@@ -753,11 +805,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="../../d0/d46/class_definition_mutable.html#a6cf8a0406e3af4549e97692503129b10">DefinitionMutable</a>.</p>
+<p>Implements <a class="el" href="../../d0/d46/class_definition_mutable.html#aed48c2d9ec22b36437e7511979a7d549">DefinitionMutable</a>.</p>
 
-<p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#ae7ea7350744de43b0fc4c872271a3363">ClassDefImpl</a>, and <a class="el" href="../../dd/d10/class_definition_mixin.html#a6125c5d571c9286e13eab6cffb507ec3">DefinitionMixin&lt; ClassDefMutable &gt;</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a415c944c2f29ee2c9a1d91aefd28b0f5">ClassDefImpl</a>, and <a class="el" href="../../dd/d10/class_definition_mixin.html#afd042d3075150fdad2a6840068fb2252">DefinitionMixin&lt; ClassDefMutable &gt;</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l04014">ClassDefImpl::insertTemplateInstance()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03990">ClassDefImpl::insertTemplateInstance()</a>.</p>
 
 </div>
 </div>
@@ -815,7 +867,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a75185d3e3cb9def5e1e15ca641ae5a6b">ClassDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08668">addMembersToMemberGroup()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08666">addMembersToMemberGroup()</a>.</p>
 
 </div>
 </div>
@@ -861,7 +913,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a97e537f74ce79123894794ee150ab2ec">ClassDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l04082">ClassDefImpl::addMembersToTemplateInstance()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07912">createTemplateInstanceMembers()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l04058">ClassDefImpl::addMembersToTemplateInstance()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07910">createTemplateInstanceMembers()</a>.</p>
 
 </div>
 </div>
@@ -1070,7 +1122,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#ae459248f39b88259c2ce55e5f9bb0d21">ClassDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08433">countMembers()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08431">countMembers()</a>.</p>
 
 </div>
 </div>
@@ -1099,7 +1151,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#ac302b4b90e290eabebc10091acb6dc17">ClassDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08705">distributeMemberGroupDocumentation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08703">distributeMemberGroupDocumentation()</a>.</p>
 
 </div>
 </div>
@@ -1128,7 +1180,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a33c42aea0150a1ea0f2a88e33877b599">ClassDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08742">findSectionsInDocumentation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08740">findSectionsInDocumentation()</a>.</p>
 
 </div>
 </div>
@@ -1216,7 +1268,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a957469729bfff9e2c8a12ba214d06357">ClassDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07209">addEnumValuesToEnums()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02541">addInstance()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05638">addLocalObjCMethod()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06047">addMemberSpecialization()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06109">addOverloaded()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l02162">addVariableToClass()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01435">createTagLessInstance()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07038">findEnums()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06187">findMember()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l02050">findUsingDeclImports()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07207">addEnumValuesToEnums()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02541">addInstance()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05638">addLocalObjCMethod()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06046">addMemberSpecialization()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06108">addOverloaded()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l02162">addVariableToClass()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01435">createTagLessInstance()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07036">findEnums()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06185">findMember()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l02050">findUsingDeclImports()</a>.</p>
 
 </div>
 </div>
@@ -1298,7 +1350,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a8c551764130f6d6ba263661b8ccf785d">ClassDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l00905">addClassToContext()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05638">addLocalObjCMethod()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05118">addMemberDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06109">addOverloaded()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l02162">addVariableToClass()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04457">findClassRelation()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07038">findEnums()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06187">findMember()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l01220">ClassDefImpl::insertUsedFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l00905">addClassToContext()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05638">addLocalObjCMethod()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05118">addMemberDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06108">addOverloaded()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l02162">addVariableToClass()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04457">findClassRelation()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07036">findEnums()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06185">findMember()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l01192">ClassDefImpl::insertUsedFile()</a>.</p>
 
 </div>
 </div>
@@ -1358,7 +1410,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#af17b8ad608f24859a826b228bf867727">ClassDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07931">mergeCategories()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07929">mergeCategories()</a>.</p>
 
 </div>
 </div>
@@ -1387,7 +1439,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a3cd440afae521ae842f4333064eb687b">ClassDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07953">buildCompleteMemberLists()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03481">ClassDefImpl::mergeMembers()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07951">buildCompleteMemberLists()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03457">ClassDefImpl::mergeMembers()</a>.</p>
 
 </div>
 </div>
@@ -1484,7 +1536,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a001b9be64d40a33e71ddc821b96966ef">ClassDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08419">setAnonymousEnumType()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08417">setAnonymousEnumType()</a>.</p>
 
 </div>
 </div>
@@ -1514,7 +1566,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#ae506efa9c431fc1920aba5e908bb32bd">ClassDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03711">ClassDefImpl::mergeCategory()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03687">ClassDefImpl::mergeCategory()</a>.</p>
 
 </div>
 </div>
@@ -1544,7 +1596,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a55e26dbf10d9ff55541b63e33f057d05">ClassDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l02328">addVariableToFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l02328">addVariableToFile()</a>, and <a class="el" href="../../db/d14/index_8cpp_source.html#l01641">writeClassTree()</a>.</p>
 
 </div>
 </div>
@@ -1692,7 +1744,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#ae93835687967ba319771d379e83db130">ClassDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/d42/groupdef_8cpp_source.html#l01413">addMemberToGroups()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03979">ClassDefImpl::setGroupDefForAllMembers()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d42/groupdef_8cpp_source.html#l01413">addMemberToGroups()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03955">ClassDefImpl::setGroupDefForAllMembers()</a>.</p>
 
 </div>
 </div>
@@ -2043,7 +2095,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a136114229cd3fddcb9e32bac9d90f92c">ClassDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l04014">ClassDefImpl::insertTemplateInstance()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03990">ClassDefImpl::insertTemplateInstance()</a>.</p>
 
 </div>
 </div>
@@ -2103,7 +2155,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a8cb6ba98afa3e552844b997530746533">ClassDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03170">ClassDefImpl::addTypeConstraint()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04060">findUsedClassesForClass()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03146">ClassDefImpl::addTypeConstraint()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04060">findUsedClassesForClass()</a>.</p>
 
 </div>
 </div>
@@ -2132,7 +2184,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a807b3766be3a976d553bbb3157474e7b">ClassDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07953">buildCompleteMemberLists()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07951">buildCompleteMemberLists()</a>.</p>
 
 </div>
 </div>
@@ -2161,7 +2213,407 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#acfa5f797e97e3b9f969f0ec8c3e44de7">ClassDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08326">sortMemberLists()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08324">sortMemberLists()</a>.</p>
+
+</div>
+</div>
+<a id="ae75f6c570eaef9ca12848c1fed3a3494" name="ae75f6c570eaef9ca12848c1fed3a3494"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae75f6c570eaef9ca12848c1fed3a3494">&#9670;&#160;</a></span>writeDeclaration()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ClassDefMutable::writeDeclaration </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/dc8/class_output_list.html">OutputList</a> &amp;&#160;</td>
+          <td class="paramname"><em>ol</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../da/d09/class_member_def.html">MemberDef</a> *&#160;</td>
+          <td class="paramname"><em>md</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>inGroup</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>indentLevel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d1/dcf/class_class_def.html">ClassDef</a> *&#160;</td>
+          <td class="paramname"><em>inheritedFrom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;&#160;</td>
+          <td class="paramname"><em>inheritId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a76940ff306112db5dba24d8928f37b04">ClassDefImpl</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02068">MemberDefImpl::writeDeclaration()</a>.</p>
+
+</div>
+</div>
+<a id="a1cf2cee2b4fc875308d2f3dffc45a83e" name="a1cf2cee2b4fc875308d2f3dffc45a83e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cf2cee2b4fc875308d2f3dffc45a83e">&#9670;&#160;</a></span>writeDocumentation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ClassDefMutable::writeDocumentation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/dc8/class_output_list.html">OutputList</a> &amp;&#160;</td>
+          <td class="paramname"><em>ol</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#ab9a22970e9abdc0be2c5001fdea1ae37">ClassDefImpl</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08469">generateDocsForClassList()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l09443">generateNamespaceClassDocs()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l02825">ClassDefImpl::writeDocumentationForInnerClasses()</a>.</p>
+
+</div>
+</div>
+<a id="af0eba0ab21b01fc31bb9cf8fb2c1d1e7" name="af0eba0ab21b01fc31bb9cf8fb2c1d1e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0eba0ab21b01fc31bb9cf8fb2c1d1e7">&#9670;&#160;</a></span>writeDocumentationForInnerClasses()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ClassDefMutable::writeDocumentationForInnerClasses </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/dc8/class_output_list.html">OutputList</a> &amp;&#160;</td>
+          <td class="paramname"><em>ol</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a9a7beb8dbf8913a00f6c727b89aed392">ClassDefImpl</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08469">generateDocsForClassList()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l09443">generateNamespaceClassDocs()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l02825">ClassDefImpl::writeDocumentationForInnerClasses()</a>.</p>
+
+</div>
+</div>
+<a id="a51d483e2dfa5353eb539a594e79c8d58" name="a51d483e2dfa5353eb539a594e79c8d58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51d483e2dfa5353eb539a594e79c8d58">&#9670;&#160;</a></span>writeInlineDocumentation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ClassDefMutable::writeInlineDocumentation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/dc8/class_output_list.html">OutputList</a> &amp;&#160;</td>
+          <td class="paramname"><em>ol</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a3ebf96c9b56f524cec365dc22da29cbc">ClassDefImpl</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d6/d10/classlist_8cpp_source.html#l00074">ClassLinkedRefMap::writeDocumentation()</a>.</p>
+
+</div>
+</div>
+<a id="aff2ebc0f29ddb4ec88ede73953682276" name="aff2ebc0f29ddb4ec88ede73953682276"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff2ebc0f29ddb4ec88ede73953682276">&#9670;&#160;</a></span>writeMemberDeclarations()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ClassDefMutable::writeMemberDeclarations </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/dc8/class_output_list.html">OutputList</a> &amp;&#160;</td>
+          <td class="paramname"><em>ol</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/da6/classdef_8h.html#a6a57c19877e781003273aacd8c7b18fe">ClassDefSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>visitedClasses</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#abe8ad5992f8938a28f918f51b199aa19">MemberListType</a>&#160;</td>
+          <td class="paramname"><em>lt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;&#160;</td>
+          <td class="paramname"><em>title</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;&#160;</td>
+          <td class="paramname"><em>subTitle</em> = <code><a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>showInline</em> = <code><a class="el" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d1/dcf/class_class_def.html">ClassDef</a> *&#160;</td>
+          <td class="paramname"><em>inheritedFrom</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lt2</em> = <code>-1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>invert</em> = <code><a class="el" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>showAlways</em> = <code><a class="el" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#aa71771e14109398b2e73a8e7124809ce">ClassDefImpl</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l04462">ClassDefImpl::writeInheritedMemberDeclarations()</a>.</p>
+
+</div>
+</div>
+<a id="af5ec2fcecd83972e7418725bf40f9345" name="af5ec2fcecd83972e7418725bf40f9345"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5ec2fcecd83972e7418725bf40f9345">&#9670;&#160;</a></span>writeMemberList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ClassDefMutable::writeMemberList </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/dc8/class_output_list.html">OutputList</a> &amp;&#160;</td>
+          <td class="paramname"><em>ol</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a65c00b0f4e07b03c410dc284b8416fd4">ClassDefImpl</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08469">generateDocsForClassList()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l09443">generateNamespaceClassDocs()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l02825">ClassDefImpl::writeDocumentationForInnerClasses()</a>.</p>
+
+</div>
+</div>
+<a id="a7057026a4be6a181eae7ceac0e8a7f8e" name="a7057026a4be6a181eae7ceac0e8a7f8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7057026a4be6a181eae7ceac0e8a7f8e">&#9670;&#160;</a></span>writeMemberPages()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ClassDefMutable::writeMemberPages </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/dc8/class_output_list.html">OutputList</a> &amp;&#160;</td>
+          <td class="paramname"><em>ol</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#abcacc8db3f9201355339b07a9b63beb5">ClassDefImpl</a>.</p>
+
+</div>
+</div>
+<a id="a04beb4319a59ad16b7684c345eb799b6" name="a04beb4319a59ad16b7684c345eb799b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04beb4319a59ad16b7684c345eb799b6">&#9670;&#160;</a></span>writeQuickMemberLinks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ClassDefMutable::writeQuickMemberLinks </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/dc8/class_output_list.html">OutputList</a> &amp;&#160;</td>
+          <td class="paramname"><em>ol</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../da/d09/class_member_def.html">MemberDef</a> *&#160;</td>
+          <td class="paramname"><em>md</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="../../d0/d46/class_definition_mutable.html#a75192dbb0443e95665eca8fabd271a62">DefinitionMutable</a>.</p>
+
+<p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a910577f819acb0d763b7c3150ffd2e64">ClassDefImpl</a>, and <a class="el" href="../../dd/d10/class_definition_mixin.html#aa263f496d9788b46b82811e0647ca92b">DefinitionMixin&lt; ClassDefMutable &gt;</a>.</p>
+
+</div>
+</div>
+<a id="a0ec43a9202e0339e6022c6d9ee6602ea" name="a0ec43a9202e0339e6022c6d9ee6602ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ec43a9202e0339e6022c6d9ee6602ea">&#9670;&#160;</a></span>writeSummaryLinks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ClassDefMutable::writeSummaryLinks </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/dc8/class_output_list.html">OutputList</a> &amp;&#160;</td>
+          <td class="paramname"><em>ol</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="../../d0/d46/class_definition_mutable.html#a62634de56f13bd4bd8e90707368fc8d7">DefinitionMutable</a>.</p>
+
+<p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a003b5a2b85dc9e49450a04f346b22807">ClassDefImpl</a>, and <a class="el" href="../../dd/d10/class_definition_mixin.html#a55711965db7d96e818f5977785dc9711">DefinitionMixin&lt; ClassDefMutable &gt;</a>.</p>
+
+</div>
+</div>
+<a id="a954daa410c414dae7ff9571f618c389c" name="a954daa410c414dae7ff9571f618c389c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a954daa410c414dae7ff9571f618c389c">&#9670;&#160;</a></span>writeTagFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ClassDefMutable::writeTagFile </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d3/d30/class_text_stream.html">TextStream</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../d1/d25/class_class_def_impl.html#a070e3c1bd3d4fec0d2dc5b048a8d8692">ClassDefImpl</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l11463">writeTagFile()</a>.</p>
 
 </div>
 </div>

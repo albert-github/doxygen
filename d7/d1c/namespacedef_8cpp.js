@@ -12,5 +12,6 @@ var namespacedef_8cpp =
     [ "toNamespaceDef", "d7/d1c/namespacedef_8cpp.html#ac4a3a7d929c1539b4580ef9895c48f0f", null ],
     [ "toNamespaceDef", "d7/d1c/namespacedef_8cpp.html#ae303e4de18684cb3d0c72d936cc0654f", null ],
     [ "toNamespaceDef", "d7/d1c/namespacedef_8cpp.html#a11cdaa39ac25a83a376fa59f6b0a9cde", null ],
+    [ "toNamespaceDefMutable", "d7/d1c/namespacedef_8cpp.html#a8a6a7eb78d4bfc91159878bb648b4a6b", null ],
     [ "toNamespaceDefMutable", "d7/d1c/namespacedef_8cpp.html#ae480c007a9e16b642a72ffb1119c5812", null ]
 ];

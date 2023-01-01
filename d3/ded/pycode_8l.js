@@ -23,7 +23,6 @@ var pycode_8l =
     [ "getLexerFILE", "d3/ded/pycode_8l.html#acb5f8818546103e3b804ab8606b52c4a", null ],
     [ "getLink", "d3/ded/pycode_8l.html#a25db878b17af01400ddba070fb390beb", null ],
     [ "getLinkInScope", "d3/ded/pycode_8l.html#a6531f2b535ff7a4c521b20e35d321c1d", null ],
-    [ "incrementFlowKeyWordCount", "d3/ded/pycode_8l.html#a4e0a7985a36e2f35ba21be58c8285f02", null ],
     [ "nextCodeLine", "d3/ded/pycode_8l.html#a3b060f853a2545afc385b18ecc734473", null ],
     [ "pop_state", "d3/ded/pycode_8l.html#a84f9bfb00f12e8fc287ed97f3e1d693c", null ],
     [ "setCurrentDoc", "d3/ded/pycode_8l.html#adbfcafb48c794e6885763cd94da51375", null ],
