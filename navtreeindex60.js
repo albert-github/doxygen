@@ -1,7 +1,5 @@
 var NAVTREEINDEX60 =
 {
-"d8/d6e/htmlgen_8cpp.html#a589d7504a995d3f00ae97b7684d588eb":[9,0,2,138,23],
-"d8/d6e/htmlgen_8cpp.html#a5de92e3118bc2a62d1f43598d1cb2028":[9,0,2,138,18],
 "d8/d6e/htmlgen_8cpp.html#a607223d8bf91989cb35218acc2b95e3c":[9,0,2,138,14],
 "d8/d6e/htmlgen_8cpp.html#a6d45214fe7f759039bfd8cc7b37abbf5":[9,0,2,138,11],
 "d8/d6e/htmlgen_8cpp.html#a6ef18a9e8d540c96bde81562abb60e42":[9,0,2,138,25],
@@ -67,12 +65,12 @@ var NAVTREEINDEX60 =
 "d8/d72/class_concept_def_impl.html#ae8c64d12ee3fc7ae623e7b44e6072b06":[8,0,65,22],
 "d8/d72/class_concept_def_impl.html#aec94d27ae7459f75e56fd19c2653b1a7":[8,0,65,25],
 "d8/d72/class_concept_def_impl.html#aedc877b79fe9e5f72e9a46c20185252d":[8,0,65,12],
-"d8/d73/classvhdl_1_1parser_1_1_token_parser.html":[7,0,11,0,8],
 "d8/d73/classvhdl_1_1parser_1_1_token_parser.html":[8,0,5,0,8],
-"d8/d73/classvhdl_1_1parser_1_1_token_parser.html#a686a5c4c377513d56ee5588f9727314a":[7,0,11,0,8,1],
+"d8/d73/classvhdl_1_1parser_1_1_token_parser.html":[7,0,11,0,8],
 "d8/d73/classvhdl_1_1parser_1_1_token_parser.html#a686a5c4c377513d56ee5588f9727314a":[8,0,5,0,8,1],
-"d8/d73/classvhdl_1_1parser_1_1_token_parser.html#ac5cb74c3a7c9a7f4620c34d939da9fbc":[7,0,11,0,8,0],
+"d8/d73/classvhdl_1_1parser_1_1_token_parser.html#a686a5c4c377513d56ee5588f9727314a":[7,0,11,0,8,1],
 "d8/d73/classvhdl_1_1parser_1_1_token_parser.html#ac5cb74c3a7c9a7f4620c34d939da9fbc":[8,0,5,0,8,0],
+"d8/d73/classvhdl_1_1parser_1_1_token_parser.html#ac5cb74c3a7c9a7f4620c34d939da9fbc":[7,0,11,0,8,0],
 "d8/d77/class_inheritance_list_context.html":[8,0,331],
 "d8/d77/class_inheritance_list_context.html#a1c6a8e4e0e8a6ff3f51e9aa811657572":[8,0,331,3],
 "d8/d77/class_inheritance_list_context.html#a6e590e24ca8621809364a9cc95370e28":[8,0,331,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX60 =
 "d8/d83/class_translator_latvian.html":[8,0,597],
 "d8/d83/class_translator_latvian.html#a00036283d0e6e0c2e9eacf1ac41dae06":[8,0,597,193],
 "d8/d83/class_translator_latvian.html#a01648054f14b27fe72eb8a4a85ab1c28":[8,0,597,187],
-"d8/d83/class_translator_latvian.html#a056195b563c16d485f9baa3f105d55a9":[8,0,597,6]
+"d8/d83/class_translator_latvian.html#a056195b563c16d485f9baa3f105d55a9":[8,0,597,6],
+"d8/d83/class_translator_latvian.html#a0644f201c43e9f20a601b9d9d71df202":[8,0,597,143],
+"d8/d83/class_translator_latvian.html#a0a1d89b67fe87f1c834c650c6fe1ab15":[8,0,597,85]
 };

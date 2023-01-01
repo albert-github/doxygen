@@ -1,17 +1,5 @@
 var NAVTREEINDEX96 =
 {
-"dd/d00/fortranscanner_8l.html#ae78ac56cd1f29572e967ed7636952d15":[9,0,2,124,8],
-"dd/d00/fortranscanner_8l.html#ae88a4d2b7afc5a1c3def9d800cc5863e":[9,0,2,124,19],
-"dd/d00/fortranscanner_8l.html#af1ef2c97e255bd7f21d3b7614b283d9d":[9,0,2,124,12],
-"dd/d00/fortranscanner_8l.html#af1ef2c97e255bd7f21d3b7614b283d9da46dbf2e0f925aa7b0f3f9edd25acf5e6":[9,0,2,124,12,0],
-"dd/d00/fortranscanner_8l.html#af1ef2c97e255bd7f21d3b7614b283d9da5d1432a4cae2b52cafb669c901908aa5":[9,0,2,124,12,2],
-"dd/d00/fortranscanner_8l.html#af1ef2c97e255bd7f21d3b7614b283d9da89f0d2424cf9ae9c82a868376ceb29b9":[9,0,2,124,12,1],
-"dd/d00/fortranscanner_8l.html#af1ef2c97e255bd7f21d3b7614b283d9daa33f8bd097d7a6cd1210bed71c5cb937":[9,0,2,124,12,3],
-"dd/d00/fortranscanner_8l.html#afac5fd6d0047c7134afcef46db6a4ab8":[9,0,2,124,48],
-"dd/d00/fortranscanner_8l.html#affe329b2bcd94b04290e03afad9c97c5":[9,0,2,124,31],
-"dd/d00/fortranscanner_8l_source.html":[9,0,2,124],
-"dd/d0b/class_translator_slovene.html":[8,0,609],
-"dd/d0b/class_translator_slovene.html#a024b6c46e82865f106bbbde2bcb1b818":[8,0,609,22],
 "dd/d0b/class_translator_slovene.html#a03a83cef286998d2ac169efe64ea200b":[8,0,609,3],
 "dd/d0b/class_translator_slovene.html#a0446ae7058a03da42c15650f5948aea1":[8,0,609,161],
 "dd/d0b/class_translator_slovene.html#a05b84fb4d4a609fa630792cce27a067f":[8,0,609,176],
@@ -249,5 +237,17 @@ var NAVTREEINDEX96 =
 "dd/d10/class_definition_mixin.html#a03a95195d1616701c67a11d38b2b22bf":[8,0,102,60],
 "dd/d10/class_definition_mixin.html#a03ee9d5777b8854f5663681f4352d6f2":[8,0,102,84],
 "dd/d10/class_definition_mixin.html#a099f0fa3fbea5a5bbad1d6976163fd0b":[8,0,102,47],
-"dd/d10/class_definition_mixin.html#a0d5cde471271f675ae0bd77dc62c0822":[8,0,102,50]
+"dd/d10/class_definition_mixin.html#a0d5cde471271f675ae0bd77dc62c0822":[8,0,102,50],
+"dd/d10/class_definition_mixin.html#a0e63097e685cae960d26576ca6e00a18":[8,0,102,19],
+"dd/d10/class_definition_mixin.html#a0f739b0f4cedd4f331f5b29141f1a5ca":[8,0,102,89],
+"dd/d10/class_definition_mixin.html#a0fbdf01fda216bc5dee1d21589b6b48e":[8,0,102,27],
+"dd/d10/class_definition_mixin.html#a1899eaa3e278b3fd061814cfe1b6c83d":[8,0,102,13],
+"dd/d10/class_definition_mixin.html#a1a35f6b7d3af1ca4deefff2cebf653a3":[8,0,102,21],
+"dd/d10/class_definition_mixin.html#a1b1301ea478c381c93be8e1fc0fb7e1f":[8,0,102,82],
+"dd/d10/class_definition_mixin.html#a1bc3cf5f17e3938fad0ab633eef3a566":[8,0,102,43],
+"dd/d10/class_definition_mixin.html#a1bdb33760e3315cca793401bb3a31843":[8,0,102,23],
+"dd/d10/class_definition_mixin.html#a1c4493bef6a71e039a56d5ae28b3661b":[8,0,102,69],
+"dd/d10/class_definition_mixin.html#a1d0ea49ef3d44d44c74eb4af7800428d":[8,0,102,18],
+"dd/d10/class_definition_mixin.html#a20c29d3e051c2524ad99b232ef4deacd":[8,0,102,90],
+"dd/d10/class_definition_mixin.html#a2276aefa7025a419a0ffe2149958d23d":[8,0,102,12]
 };
