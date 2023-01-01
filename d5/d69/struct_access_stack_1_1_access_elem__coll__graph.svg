@@ -31,8 +31,8 @@
 <title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M31.39,-114.54C31.72,-100.37 33.88,-80.95 42,-66 53.28,-45.25 75.51,-28.54 90.32,-19.06"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="27.89,-114.61 31.44,-124.59 34.89,-114.57 27.89,-114.61"/>
-<text text-anchor="middle" x="56.5" y="-80" font-family="Helvetica,sans-Serif" font-size="10.00"> item</text>
-<text text-anchor="middle" x="56.5" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00">scope</text>
+<text text-anchor="middle" x="56.5" y="-80" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> item</text>
+<text text-anchor="middle" x="56.5" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">scope</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -54,7 +54,7 @@
 <title>Node3&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M105,-57.18C105,-44.71 105,-28.92 105,-19.27"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="101.5,-57.44 105,-67.44 108.5,-57.44 101.5,-57.44"/>
-<text text-anchor="middle" x="129" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00"> fileScope</text>
+<text text-anchor="middle" x="129" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> fileScope</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -85,7 +85,7 @@
 <title>Node5&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M170.45,-57.72C166.85,-50.61 162.01,-42.81 156,-37 148.11,-29.37 137.58,-23.41 128.14,-19.08"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="167.48,-59.66 174.81,-67.31 173.85,-56.75 167.48,-59.66"/>
-<text text-anchor="middle" x="189.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00"> expScope</text>
+<text text-anchor="middle" x="189.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> expScope</text>
 </g>
 </g>
 </svg>

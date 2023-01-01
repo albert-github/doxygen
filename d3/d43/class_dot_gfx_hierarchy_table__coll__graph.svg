@@ -46,7 +46,7 @@
 <title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M10.57,-165.95C7.01,-148.36 4.67,-121.88 16.5,-103 21.63,-94.81 30.14,-89.06 38.86,-85.06"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="7.2,-166.9 12.89,-175.84 14.01,-165.3 7.2,-166.9"/>
-<text text-anchor="middle" x="32" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00"> m_dir</text>
+<text text-anchor="middle" x="32" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_dir</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -62,18 +62,18 @@
 <title>Node4&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M152.5,-165.56C152.5,-128.12 152.5,-45.95 152.5,-19.14"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="149,-165.63 152.5,-175.63 156,-165.63 149,-165.63"/>
-<text text-anchor="middle" x="175.5" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00"> m_prefix</text>
+<text text-anchor="middle" x="175.5" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_prefix</text>
 </g>
 <!-- Node4&#45;&gt;Node2 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node2</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M112.75,-181.47C97,-178.09 80.33,-171.34 70.5,-158 54.38,-136.13 61.88,-101.22 66.63,-85.13"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="112.44,-184.97 122.89,-183.23 113.64,-178.07 112.44,-184.97"/>
-<text text-anchor="middle" x="104.5" y="-150" font-family="Helvetica,sans-Serif" font-size="10.00"> m_absPath</text>
-<text text-anchor="middle" x="104.5" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00">m_baseName</text>
-<text text-anchor="middle" x="104.5" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00">m_fileName</text>
-<text text-anchor="middle" x="104.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">m_relPath</text>
-<text text-anchor="middle" x="104.5" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00">m_theGraph</text>
+<text text-anchor="middle" x="104.5" y="-150" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_absPath</text>
+<text text-anchor="middle" x="104.5" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_baseName</text>
+<text text-anchor="middle" x="104.5" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_fileName</text>
+<text text-anchor="middle" x="104.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_relPath</text>
+<text text-anchor="middle" x="104.5" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_theGraph</text>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
@@ -89,16 +89,16 @@
 <title>Node4&#45;&gt;Node5</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M161.08,-166.75C171.42,-145.86 188.63,-112.78 198.5,-103 206.07,-95.5 216.21,-89.49 225.21,-85.1"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="157.87,-165.35 156.62,-175.87 164.16,-168.43 157.87,-165.35"/>
-<text text-anchor="middle" x="222" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00"> m_label</text>
-<text text-anchor="middle" x="222" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00">m_tooltip</text>
-<text text-anchor="middle" x="222" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">m_url</text>
+<text text-anchor="middle" x="222" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_label</text>
+<text text-anchor="middle" x="222" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_tooltip</text>
+<text text-anchor="middle" x="222" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_url</text>
 </g>
 <!-- Node5&#45;&gt;Node1 -->
 <g id="edge5" class="edge">
 <title>Node5&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M225.47,-60.18C207,-47.61 180.74,-29.73 165.28,-19.2"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="223.59,-63.13 233.82,-65.87 227.53,-57.35 223.59,-63.13"/>
-<text text-anchor="middle" x="260" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00"> m_rootSubgraphNode</text>
+<text text-anchor="middle" x="260" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_rootSubgraphNode</text>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
@@ -114,7 +114,7 @@
 <title>Node6&#45;&gt;Node5</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M253.92,-165.48C251.95,-141.84 248.67,-102.5 247.22,-85.16"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="250.45,-165.99 254.76,-175.66 257.42,-165.41 250.45,-165.99"/>
-<text text-anchor="middle" x="284" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00"> m_classDef</text>
+<text text-anchor="middle" x="284" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_classDef</text>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">

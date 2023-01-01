@@ -31,7 +31,7 @@
 <title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M32.51,-88.93C33.89,-73.3 38.19,-51.27 51,-37 58.45,-28.7 68.81,-22.98 79.2,-19.04"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="29.01,-88.79 31.94,-98.97 36,-89.19 29.01,-88.79"/>
-<text text-anchor="middle" x="83" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00"> m_container</text>
+<text text-anchor="middle" x="83" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_container</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -47,7 +47,7 @@
 <title>Node3&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M119,-88.68C119,-67.74 119,-34.81 119,-19.23"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="115.5,-88.89 119,-98.89 122.5,-88.89 115.5,-88.89"/>
-<text text-anchor="middle" x="154" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00"> inDeclSection</text>
+<text text-anchor="middle" x="154" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> inDeclSection</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -78,7 +78,7 @@
 <title>Node5&#45;&gt;Node3</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M182.53,-158.49C166.28,-145.96 143.69,-128.54 130.28,-118.2"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="180.75,-161.53 190.81,-164.87 185.02,-155.99 180.75,-161.53"/>
-<text text-anchor="middle" x="226.5" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00"> m_memberGroupRefList</text>
+<text text-anchor="middle" x="226.5" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_memberGroupRefList</text>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
@@ -109,10 +109,10 @@
 <title>Node7&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M210.66,-88.83C208.59,-73.14 203.34,-51.09 190,-37 182.13,-28.69 171.41,-22.96 160.68,-19.03"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="207.19,-89.32 211.68,-98.93 214.16,-88.63 207.19,-89.32"/>
-<text text-anchor="middle" x="235" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00"> doc</text>
-<text text-anchor="middle" x="235" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">fileName</text>
-<text text-anchor="middle" x="235" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00">grpHeader</text>
-<text text-anchor="middle" x="235" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00">m_docFile</text>
+<text text-anchor="middle" x="235" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> doc</text>
+<text text-anchor="middle" x="235" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">fileName</text>
+<text text-anchor="middle" x="235" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">grpHeader</text>
+<text text-anchor="middle" x="235" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_docFile</text>
 </g>
 </g>
 </svg>

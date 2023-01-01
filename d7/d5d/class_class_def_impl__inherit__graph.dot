@@ -16,7 +16,7 @@ digraph "ClassDefImpl"
   Node5 [label="ClassDef",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d1/dcf/class_class_def.html",tooltip="A abstract class representing of a compound symbol."];
   Node6 -> Node5 [dir="back",color="steelblue1",style="solid"];
   Node6 [label="Definition",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d5/dcc/class_definition.html",tooltip="The common base class of all entity definitions found in the sources."];
-  Node7 -> Node2 [dir="back",color="orange",style="dashed",label=" \< ClassDefMutable \>" ];
+  Node7 -> Node2 [dir="back",color="orange",style="dashed",label=" \< ClassDefMutable \>",fontcolor="grey" ];
   Node7 [label="DefinitionMixin\< Base \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$dd/d10/class_definition_mixin.html",tooltip=" "];
   Node8 -> Node7 [dir="back",color="steelblue1",style="solid"];
   Node8 [label="Base",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",tooltip=" "];

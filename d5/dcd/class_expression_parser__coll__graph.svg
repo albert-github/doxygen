@@ -31,7 +31,7 @@
 <title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M112.88,-58.83C126.63,-46.44 145.33,-29.59 156.62,-19.41"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="110.16,-56.57 105.08,-65.87 114.85,-61.77 110.16,-56.57"/>
-<text text-anchor="middle" x="160" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00"> m_parser</text>
+<text text-anchor="middle" x="160" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_parser</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -47,7 +47,7 @@
 <title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M44.41,-121.43C44.3,-115.18 45.22,-108.44 48.5,-103 53.33,-94.98 61.56,-89.18 69.8,-85.09"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="40.97,-122.18 45.44,-131.79 47.93,-121.49 40.97,-122.18"/>
-<text text-anchor="middle" x="74.5" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00"> m_engine</text>
+<text text-anchor="middle" x="74.5" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_engine</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -63,7 +63,7 @@
 <title>Node4&#45;&gt;Node2</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M150.12,-130.56C139.44,-126.59 128.38,-121.21 119.5,-114 109.9,-106.21 102.92,-93.51 99.04,-85.08"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="149.15,-133.93 159.75,-133.81 151.39,-127.29 149.15,-133.93"/>
-<text text-anchor="middle" x="165.5" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00"> m_templateName</text>
+<text text-anchor="middle" x="165.5" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_templateName</text>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
@@ -79,14 +79,14 @@
 <title>Node4&#45;&gt;Node5</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M206.27,-124.66C209.49,-121.28 212.72,-117.63 215.5,-114 222.56,-104.77 229.09,-93.07 233.17,-85.22"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="203.59,-122.39 198.99,-131.93 208.54,-127.34 203.59,-122.39"/>
-<text text-anchor="middle" x="230" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00"> id</text>
+<text text-anchor="middle" x="230" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> id</text>
 </g>
 <!-- Node5&#45;&gt;Node1 -->
 <g id="edge4" class="edge">
 <title>Node5&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M220.12,-58.83C206.37,-46.44 187.67,-29.59 176.38,-19.41"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="218.15,-61.77 227.92,-65.87 222.84,-56.57 218.15,-61.77"/>
-<text text-anchor="middle" x="237" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00"> m_curToken</text>
+<text text-anchor="middle" x="237" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_curToken</text>
 </g>
 </g>
 </svg>

@@ -31,7 +31,7 @@
 <title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M62.25,-167.02C68.79,-134.9 86.71,-70.11 129,-37 141.79,-26.99 179.44,-20.07 211.43,-15.82"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="58.73,-166.78 60.33,-177.25 65.61,-168.07 58.73,-166.78"/>
-<text text-anchor="middle" x="142.5" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00"> code</text>
+<text text-anchor="middle" x="142.5" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> code</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -47,17 +47,17 @@
 <title>Node3&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M162.63,-167.21C158.24,-136.37 154.35,-74.66 185,-37 191.78,-28.67 201.32,-22.95 211.39,-19.02"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="159.23,-168.09 164.27,-177.41 166.14,-166.98 159.23,-168.09"/>
-<text text-anchor="middle" x="221.5" y="-150" font-family="Helvetica,sans-Serif" font-size="10.00"> CurrScope</text>
-<text text-anchor="middle" x="221.5" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00">args</text>
-<text text-anchor="middle" x="221.5" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00">classScope</text>
-<text text-anchor="middle" x="221.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">curClassName</text>
-<text text-anchor="middle" x="221.5" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00">exampleFile</text>
-<text text-anchor="middle" x="221.5" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">exampleName</text>
-<text text-anchor="middle" x="221.5" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">fileName</text>
-<text text-anchor="middle" x="221.5" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">name</text>
-<text text-anchor="middle" x="221.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">parmName</text>
-<text text-anchor="middle" x="221.5" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00">parmType</text>
-<text text-anchor="middle" x="221.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00">...</text>
+<text text-anchor="middle" x="221.5" y="-150" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> CurrScope</text>
+<text text-anchor="middle" x="221.5" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">args</text>
+<text text-anchor="middle" x="221.5" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">classScope</text>
+<text text-anchor="middle" x="221.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">curClassName</text>
+<text text-anchor="middle" x="221.5" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">exampleFile</text>
+<text text-anchor="middle" x="221.5" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">exampleName</text>
+<text text-anchor="middle" x="221.5" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">fileName</text>
+<text text-anchor="middle" x="221.5" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">name</text>
+<text text-anchor="middle" x="221.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">parmName</text>
+<text text-anchor="middle" x="221.5" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">parmType</text>
+<text text-anchor="middle" x="221.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">...</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -73,8 +73,8 @@
 <title>Node4&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M383.99,-229.45C406.34,-214.81 438.22,-189.62 452,-158 473.49,-108.7 487.3,-77.57 452,-37 434.29,-16.65 362.91,-11.44 312.88,-10.36"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="381.96,-226.59 375.36,-234.88 385.69,-232.51 381.96,-226.59"/>
-<text text-anchor="middle" x="483.5" y="-190" font-family="Helvetica,sans-Serif" font-size="10.00"> currentDefinition</text>
-<text text-anchor="middle" x="483.5" y="-179" font-family="Helvetica,sans-Serif" font-size="10.00">searchCtx</text>
+<text text-anchor="middle" x="483.5" y="-190" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> currentDefinition</text>
+<text text-anchor="middle" x="483.5" y="-179" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">searchCtx</text>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
@@ -111,7 +111,7 @@
 <title>Node5&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M262,-166.9C262,-129.14 262,-46.26 262,-19.22"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="258.5,-167.06 262,-177.06 265.5,-167.06 258.5,-167.06"/>
-<text text-anchor="middle" x="297" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00"> sourceFileDef</text>
+<text text-anchor="middle" x="297" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> sourceFileDef</text>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
@@ -133,7 +133,7 @@
 <title>Node7&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M356.27,-167.01C354.54,-131.44 349.04,-56.57 333,-37 326.16,-28.66 316.42,-22.94 306.33,-19.02"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="352.79,-167.6 356.72,-177.43 359.79,-167.29 352.79,-167.6"/>
-<text text-anchor="middle" x="404" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00"> currentMemberDef</text>
+<text text-anchor="middle" x="404" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> currentMemberDef</text>
 </g>
 </g>
 </svg>

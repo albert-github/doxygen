@@ -80,7 +80,7 @@ var sectionId = 'dynsection-0';
 <title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M529.05,-108.99C571.98,-99.88 622.14,-89.24 659.91,-81.22"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="528.22,-105.59 519.16,-111.09 529.67,-112.44 528.22,-105.59"/>
-<text text-anchor="middle" x="595.5" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00"> m_maxDepth</text>
+<text text-anchor="middle" x="595.5" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_maxDepth</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -97,9 +97,9 @@ var sectionId = 'dynsection-0';
 <title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M149.15,-104.43C210.69,-109.46 295.92,-116.43 357.75,-121.48"/>
 <polygon fill="orange" stroke="orange" points="149.35,-100.93 139.1,-103.61 148.78,-107.91 149.35,-100.93"/>
-<text text-anchor="start" x="169" y="-143" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; int, ModuleTreeContext</text>
-<text text-anchor="start" x="169" y="-132" font-family="Helvetica,sans-Serif" font-size="10.00">::Private, &amp;Private::createMax</text>
-<text text-anchor="middle" x="242.5" y="-121" font-family="Helvetica,sans-Serif" font-size="10.00">Depth &gt;</text>
+<text text-anchor="start" x="169" y="-143" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; int, ModuleTreeContext</text>
+<text text-anchor="start" x="169" y="-132" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">::Private, &amp;Private::createMax</text>
+<text text-anchor="middle" x="242.5" y="-121" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">Depth &gt;</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -117,16 +117,16 @@ var sectionId = 'dynsection-0';
 <title>Node3&#45;&gt;Node4</title>
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M121.99,-79.95C133.38,-76.68 145.49,-73.76 157,-72 224.16,-61.76 301.42,-61.79 357.83,-63.93"/>
 <polygon fill="orange" stroke="orange" points="120.76,-76.66 112.19,-82.89 122.78,-83.36 120.76,-76.66"/>
-<text text-anchor="start" x="157" y="-97" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; int, ModuleTreeContext</text>
-<text text-anchor="start" x="157" y="-86" font-family="Helvetica,sans-Serif" font-size="10.00">::Private, &amp;Private::createPreferred</text>
-<text text-anchor="middle" x="242.5" y="-75" font-family="Helvetica,sans-Serif" font-size="10.00">Depth &gt;</text>
+<text text-anchor="start" x="157" y="-97" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; int, ModuleTreeContext</text>
+<text text-anchor="start" x="157" y="-86" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">::Private, &amp;Private::createPreferred</text>
+<text text-anchor="middle" x="242.5" y="-75" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">Depth &gt;</text>
 </g>
 <!-- Node4&#45;&gt;Node1 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M529.32,-69C572.19,-69 622.22,-69 659.91,-69"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="529.16,-65.5 519.16,-69 529.16,-72.5 529.16,-65.5"/>
-<text text-anchor="middle" x="595.5" y="-72" font-family="Helvetica,sans-Serif" font-size="10.00"> m_preferredDepth</text>
+<text text-anchor="middle" x="595.5" y="-72" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_preferredDepth</text>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
@@ -143,7 +143,7 @@ var sectionId = 'dynsection-0';
 <title>Node5&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M528.2,-31.97C563.61,-38.77 604.74,-46.71 642,-54 647.77,-55.13 653.79,-56.31 659.8,-57.5"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="528.86,-28.53 518.38,-30.08 527.54,-35.4 528.86,-28.53"/>
-<text text-anchor="middle" x="595.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00"> s_inst</text>
+<text text-anchor="middle" x="595.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> s_inst</text>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
@@ -159,8 +159,8 @@ var sectionId = 'dynsection-0';
 <title>Node6&#45;&gt;Node5</title>
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M133.27,-15C191.67,-15 279.39,-15 345.65,-15"/>
 <polygon fill="orange" stroke="orange" points="133.08,-11.5 123.08,-15 133.08,-18.5 133.08,-11.5"/>
-<text text-anchor="start" x="188" y="-29" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; ModuleTreeContext</text>
-<text text-anchor="middle" x="242.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">::Private &gt;</text>
+<text text-anchor="start" x="188" y="-29" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; ModuleTreeContext</text>
+<text text-anchor="middle" x="242.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">::Private &gt;</text>
 </g>
 </g>
 </svg>

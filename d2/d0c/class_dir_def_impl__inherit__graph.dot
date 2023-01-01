@@ -14,7 +14,7 @@ digraph "DirDefImpl"
   Node4 [label="DefinitionMutable",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d0/d46/class_definition_mutable.html",tooltip=" "];
   Node5 -> Node3 [dir="back",color="steelblue1",style="solid"];
   Node5 [label="Definition",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d5/dcc/class_definition.html",tooltip="The common base class of all entity definitions found in the sources."];
-  Node6 -> Node2 [dir="back",color="orange",style="dashed",label=" \< DirDef \>" ];
+  Node6 -> Node2 [dir="back",color="orange",style="dashed",label=" \< DirDef \>",fontcolor="grey" ];
   Node6 [label="DefinitionMixin\< Base \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$dd/d10/class_definition_mixin.html",tooltip=" "];
   Node7 -> Node6 [dir="back",color="steelblue1",style="solid"];
   Node7 [label="Base",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",tooltip=" "];

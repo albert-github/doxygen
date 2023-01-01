@@ -32,7 +32,7 @@ digraph "TranslatorNorwegian"
   Node13 [label="TranslatorAdapterBase",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$db/d6c/class_translator_adapter_base.html",tooltip="Base of the translator adapter tree."];
   Node14 -> Node13 [dir="back",color="steelblue1",style="solid"];
   Node14 [label="Translator",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d8/dfb/class_translator.html",tooltip="Abstract base class for all translatable text fragments."];
-  Node15 -> Node13 [dir="back",color="darkorchid3",style="dashed",label=" english" ];
+  Node15 -> Node13 [dir="back",color="darkorchid3",style="dashed",label=" english",fontcolor="grey" ];
   Node15 [label="TranslatorEnglish",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d6/d78/class_translator_english.html",tooltip=" "];
   Node14 -> Node15 [dir="back",color="steelblue1",style="solid"];
 }

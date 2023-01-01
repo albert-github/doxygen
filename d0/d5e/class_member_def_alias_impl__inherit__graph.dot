@@ -12,7 +12,7 @@ digraph "MemberDefAliasImpl"
   Node3 [label="MemberDef",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$da/d09/class_member_def.html",tooltip="A model of a class/file/namespace member symbol."];
   Node4 -> Node3 [dir="back",color="steelblue1",style="solid"];
   Node4 [label="Definition",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d5/dcc/class_definition.html",tooltip="The common base class of all entity definitions found in the sources."];
-  Node5 -> Node2 [dir="back",color="orange",style="dashed",label=" \< MemberDef \>" ];
+  Node5 -> Node2 [dir="back",color="orange",style="dashed",label=" \< MemberDef \>",fontcolor="grey" ];
   Node5 [label="DefinitionAliasMixin\l\< Base \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d8/d83/class_definition_alias_mixin.html",tooltip=" "];
   Node6 -> Node5 [dir="back",color="steelblue1",style="solid"];
   Node6 [label="Base",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",tooltip=" "];

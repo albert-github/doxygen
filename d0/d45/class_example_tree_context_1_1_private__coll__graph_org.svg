@@ -34,7 +34,7 @@
 <title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M528.15,-109.08C570.94,-100 621,-89.38 658.82,-81.35"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="527.35,-105.67 518.29,-111.17 528.8,-112.52 527.35,-105.67"/>
-<text text-anchor="middle" x="594.5" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00"> m_maxDepth</text>
+<text text-anchor="middle" x="594.5" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_maxDepth</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -51,9 +51,9 @@
 <title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M149.06,-104.43C210.63,-109.47 295.92,-116.45 357.68,-121.51"/>
 <polygon fill="orange" stroke="orange" points="149.26,-100.94 139.01,-103.61 148.69,-107.91 149.26,-100.94"/>
-<text text-anchor="start" x="169" y="-143" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; int, ExampleTreeContext</text>
-<text text-anchor="start" x="169" y="-132" font-family="Helvetica,sans-Serif" font-size="10.00">::Private, &amp;Private::createMax</text>
-<text text-anchor="middle" x="242.5" y="-121" font-family="Helvetica,sans-Serif" font-size="10.00">Depth &gt;</text>
+<text text-anchor="start" x="169" y="-143" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; int, ExampleTreeContext</text>
+<text text-anchor="start" x="169" y="-132" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">::Private, &amp;Private::createMax</text>
+<text text-anchor="middle" x="242.5" y="-121" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">Depth &gt;</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -71,16 +71,16 @@
 <title>Node3&#45;&gt;Node4</title>
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M121.99,-79.95C133.38,-76.68 145.49,-73.76 157,-72 219.48,-62.47 290.7,-61.85 345.68,-63.54"/>
 <polygon fill="orange" stroke="orange" points="120.76,-76.66 112.19,-82.89 122.78,-83.36 120.76,-76.66"/>
-<text text-anchor="start" x="157" y="-97" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; int, ExampleTreeContext</text>
-<text text-anchor="start" x="157" y="-86" font-family="Helvetica,sans-Serif" font-size="10.00">::Private, &amp;Private::createPreferred</text>
-<text text-anchor="middle" x="242.5" y="-75" font-family="Helvetica,sans-Serif" font-size="10.00">Depth &gt;</text>
+<text text-anchor="start" x="157" y="-97" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; int, ExampleTreeContext</text>
+<text text-anchor="start" x="157" y="-86" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">::Private, &amp;Private::createPreferred</text>
+<text text-anchor="middle" x="242.5" y="-75" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">Depth &gt;</text>
 </g>
 <!-- Node4&#45;&gt;Node1 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M540.09,-69C580.09,-69 624.62,-69 659,-69"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="540.03,-65.5 530.03,-69 540.03,-72.5 540.03,-65.5"/>
-<text text-anchor="middle" x="594.5" y="-72" font-family="Helvetica,sans-Serif" font-size="10.00"> m_preferredDepth</text>
+<text text-anchor="middle" x="594.5" y="-72" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_preferredDepth</text>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
@@ -97,7 +97,7 @@
 <title>Node5&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M524.75,-31.47C560.67,-38.4 602.87,-46.56 641,-54 646.81,-55.13 652.86,-56.32 658.91,-57.51"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="525.28,-28.01 514.79,-29.56 523.95,-34.88 525.28,-28.01"/>
-<text text-anchor="middle" x="594.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00"> s_inst</text>
+<text text-anchor="middle" x="594.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> s_inst</text>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
@@ -113,8 +113,8 @@
 <title>Node6&#45;&gt;Node5</title>
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M133.23,-15C196.41,-15 293.92,-15 361.35,-15"/>
 <polygon fill="orange" stroke="orange" points="133.01,-11.5 123.01,-15 133.01,-18.5 133.01,-11.5"/>
-<text text-anchor="start" x="184.5" y="-29" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; ExampleTreeContext</text>
-<text text-anchor="middle" x="242.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">::Private &gt;</text>
+<text text-anchor="start" x="184.5" y="-29" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; ExampleTreeContext</text>
+<text text-anchor="middle" x="242.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">::Private &gt;</text>
 </g>
 </g>
 </svg>

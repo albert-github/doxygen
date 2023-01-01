@@ -32,7 +32,7 @@
 <title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M467.93,-146.62C483.3,-143.57 501.03,-139.86 517,-136 561.87,-125.17 573.23,-122.64 617,-108 632.98,-102.66 650.37,-96.01 665.19,-90.09"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="466.86,-143.26 457.71,-148.61 468.2,-150.13 466.86,-143.26"/>
-<text text-anchor="middle" x="576" y="-134" font-family="Helvetica,sans-Serif" font-size="10.00"> m_classDef</text>
+<text text-anchor="middle" x="576" y="-134" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_classDef</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -65,7 +65,7 @@
 <title>Node4&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M527.13,-94.8C562.94,-90.73 602.54,-86.24 634.93,-82.56"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="526.68,-91.33 517.14,-95.94 527.47,-98.28 526.68,-91.33"/>
-<text text-anchor="middle" x="576" y="-96" font-family="Helvetica,sans-Serif" font-size="10.00"> m_classContext</text>
+<text text-anchor="middle" x="576" y="-96" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_classContext</text>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
@@ -81,7 +81,7 @@
 <title>Node5&#45;&gt;Node4</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M128,-114.38C184.74,-112.79 272.28,-110.33 337.91,-108.49"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="127.67,-110.89 117.77,-114.67 127.87,-117.89 127.67,-110.89"/>
-<text text-anchor="middle" x="238.5" y="-116" font-family="Helvetica,sans-Serif" font-size="10.00"> m_item</text>
+<text text-anchor="middle" x="238.5" y="-116" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_item</text>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
@@ -98,9 +98,9 @@
 <title>Node6&#45;&gt;Node4</title>
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M149.38,-58.56C198.76,-58.95 263.52,-61.81 320,-72 325.01,-72.9 343.83,-78.79 364.29,-85.41"/>
 <polygon fill="orange" stroke="orange" points="149.1,-55.06 139.08,-58.51 149.06,-62.06 149.1,-55.06"/>
-<text text-anchor="start" x="157" y="-97" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; TemplateVariant,</text>
-<text text-anchor="start" x="157" y="-86" font-family="Helvetica,sans-Serif" font-size="10.00"> InheritanceNodeContext</text>
-<text text-anchor="middle" x="238.5" y="-75" font-family="Helvetica,sans-Serif" font-size="10.00">::Private, &amp;Private::createClass &gt;</text>
+<text text-anchor="start" x="157" y="-97" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; TemplateVariant,</text>
+<text text-anchor="start" x="157" y="-86" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> InheritanceNodeContext</text>
+<text text-anchor="middle" x="238.5" y="-75" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">::Private, &amp;Private::createClass &gt;</text>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
@@ -116,7 +116,7 @@
 <title>Node7&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M467.44,-58.93C505.58,-60.01 565.35,-62.16 617,-66 622.74,-66.43 628.69,-66.93 634.65,-67.48"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="467.37,-55.43 457.27,-58.65 467.18,-62.42 467.37,-55.43"/>
-<text text-anchor="middle" x="576" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00"> m_name</text>
+<text text-anchor="middle" x="576" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_name</text>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
@@ -133,7 +133,7 @@
 <title>Node8&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M510.4,-25.41C543.73,-30.44 582.46,-37.3 617,-46 631.89,-49.75 647.9,-54.94 661.94,-59.89"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="510.65,-21.91 500.24,-23.91 509.62,-28.84 510.65,-21.91"/>
-<text text-anchor="middle" x="576" y="-49" font-family="Helvetica,sans-Serif" font-size="10.00"> s_inst</text>
+<text text-anchor="middle" x="576" y="-49" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> s_inst</text>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node">
@@ -149,8 +149,8 @@
 <title>Node9&#45;&gt;Node8</title>
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M133.07,-15C195.1,-15 290,-15 354.98,-15"/>
 <polygon fill="orange" stroke="orange" points="133.03,-11.5 123.03,-15 133.03,-18.5 133.03,-11.5"/>
-<text text-anchor="start" x="172" y="-29" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; InheritanceNodeContext</text>
-<text text-anchor="middle" x="238.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">::Private &gt;</text>
+<text text-anchor="start" x="172" y="-29" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; InheritanceNodeContext</text>
+<text text-anchor="middle" x="238.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">::Private &gt;</text>
 </g>
 </g>
 </svg>

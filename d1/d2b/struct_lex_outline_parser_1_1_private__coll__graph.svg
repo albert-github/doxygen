@@ -31,7 +31,7 @@
 <title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M159.5,-55.58C159.5,-43.63 159.5,-28.72 159.5,-19.41"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="156,-55.87 159.5,-65.87 163,-55.87 156,-55.87"/>
-<text text-anchor="middle" x="173.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00"> state</text>
+<text text-anchor="middle" x="173.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> state</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -47,7 +47,7 @@
 <title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M61.94,-165.64C62.42,-147.41 65.99,-120.12 81.5,-103 88.99,-94.73 99.16,-89.04 109.67,-85.13"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="58.44,-165.65 61.96,-175.64 65.44,-165.63 58.44,-165.65"/>
-<text text-anchor="middle" x="118.5" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00"> cOutlineParser</text>
+<text text-anchor="middle" x="118.5" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> cOutlineParser</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -78,11 +78,11 @@
 <title>Node5&#45;&gt;Node2</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M159.5,-165.48C159.5,-141.84 159.5,-102.5 159.5,-85.16"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="156,-165.66 159.5,-175.66 163,-165.66 156,-165.66"/>
-<text text-anchor="middle" x="196.5" y="-150" font-family="Helvetica,sans-Serif" font-size="10.00"> cCodeBuffer</text>
-<text text-anchor="middle" x="196.5" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00">delimiter</text>
-<text text-anchor="middle" x="196.5" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00">docBlockName</text>
-<text text-anchor="middle" x="196.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">fileName</text>
-<text text-anchor="middle" x="196.5" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00">prefix</text>
+<text text-anchor="middle" x="196.5" y="-150" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> cCodeBuffer</text>
+<text text-anchor="middle" x="196.5" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">delimiter</text>
+<text text-anchor="middle" x="196.5" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">docBlockName</text>
+<text text-anchor="middle" x="196.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">fileName</text>
+<text text-anchor="middle" x="196.5" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">prefix</text>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
@@ -98,7 +98,7 @@
 <title>Node6&#45;&gt;Node2</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M256.24,-165.63C254.99,-147.39 250.34,-120.09 234.5,-103 226.8,-94.69 216.34,-88.99 205.68,-85.07"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="252.74,-165.79 256.65,-175.64 259.74,-165.5 252.74,-165.79"/>
-<text text-anchor="middle" x="284.5" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00"> clangParser</text>
+<text text-anchor="middle" x="284.5" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> clangParser</text>
 </g>
 </g>
 </svg>

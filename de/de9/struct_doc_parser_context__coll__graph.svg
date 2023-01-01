@@ -77,7 +77,7 @@ var sectionId = 'dynsection-0';
 <title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M305.14,-376.76C375.56,-382.08 522.3,-388.6 643,-364 689.84,-354.45 705.25,-355 744,-327 774,-305.32 797.81,-267.22 807.84,-249.53"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="305.15,-373.25 294.91,-375.96 304.6,-380.23 305.15,-373.25"/>
-<text text-anchor="middle" x="583.5" y="-381" font-family="Helvetica,sans-Serif" font-size="10.00"> scope</text>
+<text text-anchor="middle" x="583.5" y="-381" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> scope</text>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
@@ -108,13 +108,13 @@ var sectionId = 'dynsection-0';
 <title>Node3&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M296.54,-207.07C315.88,-214.07 340.95,-222.05 364,-226 506.4,-250.4 677.83,-246.82 761.7,-242.97"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="297.59,-203.73 287,-203.53 295.15,-210.29 297.59,-203.73"/>
-<text text-anchor="middle" x="583.5" y="-314" font-family="Helvetica,sans-Serif" font-size="10.00"> context</text>
-<text text-anchor="middle" x="583.5" y="-303" font-family="Helvetica,sans-Serif" font-size="10.00">exampleName</text>
-<text text-anchor="middle" x="583.5" y="-292" font-family="Helvetica,sans-Serif" font-size="10.00">fileName</text>
-<text text-anchor="middle" x="583.5" y="-281" font-family="Helvetica,sans-Serif" font-size="10.00">includeFileName</text>
-<text text-anchor="middle" x="583.5" y="-270" font-family="Helvetica,sans-Serif" font-size="10.00">includeFileText</text>
-<text text-anchor="middle" x="583.5" y="-259" font-family="Helvetica,sans-Serif" font-size="10.00">relPath</text>
-<text text-anchor="middle" x="583.5" y="-248" font-family="Helvetica,sans-Serif" font-size="10.00">searchUrl</text>
+<text text-anchor="middle" x="583.5" y="-314" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> context</text>
+<text text-anchor="middle" x="583.5" y="-303" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">exampleName</text>
+<text text-anchor="middle" x="583.5" y="-292" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">fileName</text>
+<text text-anchor="middle" x="583.5" y="-281" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">includeFileName</text>
+<text text-anchor="middle" x="583.5" y="-270" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">includeFileText</text>
+<text text-anchor="middle" x="583.5" y="-259" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">relPath</text>
+<text text-anchor="middle" x="583.5" y="-248" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">searchUrl</text>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node">
@@ -130,14 +130,14 @@ var sectionId = 'dynsection-0';
 <title>Node3&#45;&gt;Node9</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M284.28,-178.27C303.71,-164.61 334.14,-145.83 364,-138 429.13,-120.92 508.99,-127.04 551.84,-132.41"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="281.98,-175.62 275.92,-184.31 286.08,-181.29 281.98,-175.62"/>
-<text text-anchor="middle" x="435" y="-218" font-family="Helvetica,sans-Serif" font-size="10.00"> attribsStr</text>
-<text text-anchor="middle" x="435" y="-207" font-family="Helvetica,sans-Serif" font-size="10.00">chars</text>
-<text text-anchor="middle" x="435" y="-196" font-family="Helvetica,sans-Serif" font-size="10.00">name</text>
-<text text-anchor="middle" x="435" y="-185" font-family="Helvetica,sans-Serif" font-size="10.00">sectionId</text>
-<text text-anchor="middle" x="435" y="-174" font-family="Helvetica,sans-Serif" font-size="10.00">simpleSectName</text>
-<text text-anchor="middle" x="435" y="-163" font-family="Helvetica,sans-Serif" font-size="10.00">simpleSectText</text>
-<text text-anchor="middle" x="435" y="-152" font-family="Helvetica,sans-Serif" font-size="10.00">text</text>
-<text text-anchor="middle" x="435" y="-141" font-family="Helvetica,sans-Serif" font-size="10.00">verb</text>
+<text text-anchor="middle" x="435" y="-218" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> attribsStr</text>
+<text text-anchor="middle" x="435" y="-207" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">chars</text>
+<text text-anchor="middle" x="435" y="-196" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">name</text>
+<text text-anchor="middle" x="435" y="-185" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">sectionId</text>
+<text text-anchor="middle" x="435" y="-174" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">simpleSectName</text>
+<text text-anchor="middle" x="435" y="-163" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">simpleSectText</text>
+<text text-anchor="middle" x="435" y="-152" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">text</text>
+<text text-anchor="middle" x="435" y="-141" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">verb</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -154,8 +154,8 @@ var sectionId = 'dynsection-0';
 <title>Node4&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M634.1,-82.21C667.49,-96.72 711.23,-118.92 744,-147 773.46,-172.25 797.72,-212.29 807.87,-230.46"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="635.11,-78.83 624.54,-78.14 632.37,-85.27 635.11,-78.83"/>
-<text text-anchor="middle" x="702.5" y="-161" font-family="Helvetica,sans-Serif" font-size="10.00"> initialStyleStack</text>
-<text text-anchor="middle" x="702.5" y="-150" font-family="Helvetica,sans-Serif" font-size="10.00">styleStack</text>
+<text text-anchor="middle" x="702.5" y="-161" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> initialStyleStack</text>
+<text text-anchor="middle" x="702.5" y="-150" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">styleStack</text>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
@@ -188,7 +188,7 @@ var sectionId = 'dynsection-0';
 <title>Node6&#45;&gt;Node4</title>
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M351.98,-25.78C398.01,-31.71 455.14,-39.56 506,-48 511.74,-48.95 517.71,-50.01 523.67,-51.11"/>
 <polygon fill="orange" stroke="orange" points="352.4,-22.31 342.03,-24.51 351.51,-29.25 352.4,-22.31"/>
-<text text-anchor="middle" x="435" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; const DocNodeVariant * &gt;</text>
+<text text-anchor="middle" x="435" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; const DocNodeVariant * &gt;</text>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
@@ -211,14 +211,14 @@ var sectionId = 'dynsection-0';
 <title>Node8&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M617.89,-331.67C626.14,-328.28 634.92,-324.58 643,-321 698.3,-296.5 762.45,-265.11 793.79,-249.58"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="616.47,-328.47 608.54,-335.49 619.12,-334.95 616.47,-328.47"/>
-<text text-anchor="middle" x="702.5" y="-315" font-family="Helvetica,sans-Serif" font-size="10.00"> memberDef</text>
+<text text-anchor="middle" x="702.5" y="-315" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> memberDef</text>
 </g>
 <!-- Node9&#45;&gt;Node1 -->
 <g id="edge9" class="edge">
 <title>Node9&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M614.94,-150.72C661.91,-171.89 750.87,-212 791.63,-230.37"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="616.14,-147.42 605.59,-146.51 613.27,-153.81 616.14,-147.42"/>
-<text text-anchor="middle" x="702.5" y="-209" font-family="Helvetica,sans-Serif" font-size="10.00"> token</text>
+<text text-anchor="middle" x="702.5" y="-209" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> token</text>
 </g>
 <!-- Node10 -->
 <g id="node10" class="node">
@@ -234,7 +234,7 @@ var sectionId = 'dynsection-0';
 <title>Node10&#45;&gt;Node9</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M315.34,-102.65C364.86,-96.28 441.31,-90.64 506,-104 527.67,-108.48 550.77,-119.39 565.84,-127.45"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="314.64,-99.21 305.2,-104.01 315.58,-106.15 314.64,-99.21"/>
-<text text-anchor="middle" x="435" y="-107" font-family="Helvetica,sans-Serif" font-size="10.00"> attribs</text>
+<text text-anchor="middle" x="435" y="-107" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> attribs</text>
 </g>
 <!-- Node11 -->
 <g id="node11" class="node">

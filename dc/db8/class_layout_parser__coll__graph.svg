@@ -31,7 +31,7 @@
 <title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M22.31,-144.31C15.44,-123.75 8.08,-90.04 22.5,-66 37.34,-41.25 67.39,-26.93 91.38,-19.06"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="19.03,-145.53 25.74,-153.73 25.61,-143.14 19.03,-145.53"/>
-<text text-anchor="middle" x="46" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00"> m_scope</text>
+<text text-anchor="middle" x="46" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_scope</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -47,23 +47,23 @@
 <title>Node2&#45;&gt;Node3</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M46.8,-147.16C67.25,-129.03 100.57,-99.49 116.88,-85.03"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="44.32,-144.69 39.16,-153.94 48.96,-149.92 44.32,-144.69"/>
-<text text-anchor="middle" x="125" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00"> m_baseFile</text>
-<text text-anchor="middle" x="125" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">m_intro</text>
-<text text-anchor="middle" x="125" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00">m_title</text>
+<text text-anchor="middle" x="125" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_baseFile</text>
+<text text-anchor="middle" x="125" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_intro</text>
+<text text-anchor="middle" x="125" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_title</text>
 </g>
 <!-- Node3&#45;&gt;Node1 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M126.5,-55.58C126.5,-43.63 126.5,-28.72 126.5,-19.41"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="123,-55.87 126.5,-65.87 130,-55.87 123,-55.87"/>
-<text text-anchor="middle" x="155.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00"> m_rootNav</text>
+<text text-anchor="middle" x="155.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_rootNav</text>
 </g>
 <!-- Node3&#45;&gt;Node3 -->
 <g id="edge3" class="edge">
 <title>Node3&#45;&gt;Node3</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M184.36,-80.1C189.08,-79.1 192,-77.57 192,-75.5 192,-72.19 184.51,-70.25 174.19,-69.68"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="183.7,-76.66 174.19,-81.32 184.54,-83.61 183.7,-76.66"/>
-<text text-anchor="middle" x="217" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00"> m_parent</text>
+<text text-anchor="middle" x="217" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_parent</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -79,7 +79,7 @@
 <title>Node4&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M265.01,-62.34C231.22,-49.7 179.21,-30.23 149.47,-19.1"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="263.85,-65.64 274.44,-65.87 266.3,-59.09 263.85,-65.64"/>
-<text text-anchor="middle" x="247.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00"> m_locator</text>
+<text text-anchor="middle" x="247.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_locator</text>
 </g>
 </g>
 </svg>

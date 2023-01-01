@@ -31,8 +31,8 @@
 <title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M29.29,-77.5C31.81,-65.5 35.89,-49.89 42,-37 45,-30.66 49.56,-24.24 53.45,-19.31"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="25.79,-77.21 27.35,-87.68 32.66,-78.52 25.79,-77.21"/>
-<text text-anchor="middle" x="58.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00"> inBuf</text>
-<text text-anchor="middle" x="58.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">outBuf</text>
+<text text-anchor="middle" x="58.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> inBuf</text>
+<text text-anchor="middle" x="58.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">outBuf</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -48,9 +48,9 @@
 <title>Node3&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M90.94,-78.22C86.83,-66.32 81.05,-50.55 75,-37 72.28,-30.92 68.78,-24.29 65.96,-19.19"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="87.69,-79.53 94.21,-87.88 94.32,-77.29 87.69,-79.53"/>
-<text text-anchor="middle" x="115" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00"> aliasString</text>
-<text text-anchor="middle" x="115" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00">blockName</text>
-<text text-anchor="middle" x="115" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00">fileName</text>
+<text text-anchor="middle" x="115" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> aliasString</text>
+<text text-anchor="middle" x="115" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">blockName</text>
+<text text-anchor="middle" x="115" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">fileName</text>
 </g>
 </g>
 </svg>

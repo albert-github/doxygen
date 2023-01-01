@@ -46,20 +46,20 @@
 <title>Node3&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M24.9,-169.98C19.25,-143.99 11.67,-95.48 22.5,-56 26.34,-42 35.72,-27.95 42.35,-19.25"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="21.54,-170.98 27.21,-179.93 28.36,-169.4 21.54,-170.98"/>
-<text text-anchor="middle" x="53" y="-70" font-family="Helvetica,sans-Serif" font-size="10.00"> m_defValue</text>
-<text text-anchor="middle" x="53" y="-59" font-family="Helvetica,sans-Serif" font-size="10.00">m_value</text>
+<text text-anchor="middle" x="53" y="-70" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_defValue</text>
+<text text-anchor="middle" x="53" y="-59" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_value</text>
 </g>
 <!-- Node3&#45;&gt;Node2 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M43.6,-172C65.81,-146.02 108.15,-96.48 125.16,-76.59"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="40.74,-169.96 36.91,-179.83 46.07,-174.51 40.74,-169.96"/>
-<text text-anchor="middle" x="150" y="-154" font-family="Helvetica,sans-Serif" font-size="10.00"> m_dependency</text>
-<text text-anchor="middle" x="150" y="-143" font-family="Helvetica,sans-Serif" font-size="10.00">m_doc</text>
-<text text-anchor="middle" x="150" y="-132" font-family="Helvetica,sans-Serif" font-size="10.00">m_encoding</text>
-<text text-anchor="middle" x="150" y="-121" font-family="Helvetica,sans-Serif" font-size="10.00">m_name</text>
-<text text-anchor="middle" x="150" y="-110" font-family="Helvetica,sans-Serif" font-size="10.00">m_spaces</text>
-<text text-anchor="middle" x="150" y="-99" font-family="Helvetica,sans-Serif" font-size="10.00">m_userComment</text>
+<text text-anchor="middle" x="150" y="-154" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_dependency</text>
+<text text-anchor="middle" x="150" y="-143" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_doc</text>
+<text text-anchor="middle" x="150" y="-132" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_encoding</text>
+<text text-anchor="middle" x="150" y="-121" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_name</text>
+<text text-anchor="middle" x="150" y="-110" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_spaces</text>
+<text text-anchor="middle" x="150" y="-99" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_userComment</text>
 </g>
 </g>
 </svg>

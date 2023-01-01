@@ -33,7 +33,7 @@
 <title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M510.84,-110.75C560.08,-100.24 621.12,-87.22 661.8,-78.54"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="509.9,-107.37 500.85,-112.88 511.36,-114.22 509.9,-107.37"/>
-<text text-anchor="middle" x="576.5" y="-108" font-family="Helvetica,sans-Serif" font-size="10.00"> m_maxDepth</text>
+<text text-anchor="middle" x="576.5" y="-108" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_maxDepth</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -50,9 +50,9 @@
 <title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M149.16,-104.6C211.31,-109.82 297.29,-117.03 357.28,-122.07"/>
 <polygon fill="orange" stroke="orange" points="149.26,-101.1 139.01,-103.75 148.68,-108.07 149.26,-101.1"/>
-<text text-anchor="start" x="169" y="-144" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; int, FileTreeContext</text>
-<text text-anchor="start" x="169" y="-133" font-family="Helvetica,sans-Serif" font-size="10.00">::Private, &amp;Private::createMax</text>
-<text text-anchor="middle" x="242.5" y="-122" font-family="Helvetica,sans-Serif" font-size="10.00">Depth &gt;</text>
+<text text-anchor="start" x="169" y="-144" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; int, FileTreeContext</text>
+<text text-anchor="start" x="169" y="-133" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">::Private, &amp;Private::createMax</text>
+<text text-anchor="middle" x="242.5" y="-122" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">Depth &gt;</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -70,16 +70,16 @@
 <title>Node3&#45;&gt;Node4</title>
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M121.99,-79.95C133.38,-76.68 145.49,-73.76 157,-72 224.44,-61.7 302.43,-62.11 357.37,-64.39"/>
 <polygon fill="orange" stroke="orange" points="120.76,-76.66 112.19,-82.89 122.78,-83.37 120.76,-76.66"/>
-<text text-anchor="start" x="157" y="-97" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; int, FileTreeContext</text>
-<text text-anchor="start" x="157" y="-86" font-family="Helvetica,sans-Serif" font-size="10.00">::Private, &amp;Private::createPreferred</text>
-<text text-anchor="middle" x="242.5" y="-75" font-family="Helvetica,sans-Serif" font-size="10.00">Depth &gt;</text>
+<text text-anchor="start" x="157" y="-97" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; int, FileTreeContext</text>
+<text text-anchor="start" x="157" y="-86" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">::Private, &amp;Private::createPreferred</text>
+<text text-anchor="middle" x="242.5" y="-75" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">Depth &gt;</text>
 </g>
 <!-- Node4&#45;&gt;Node1 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M510.87,-69C552.13,-69 601.68,-69 640.58,-69"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="510.85,-65.5 500.85,-69 510.85,-72.5 510.85,-65.5"/>
-<text text-anchor="middle" x="576.5" y="-72" font-family="Helvetica,sans-Serif" font-size="10.00"> m_preferredDepth</text>
+<text text-anchor="middle" x="576.5" y="-72" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_preferredDepth</text>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
@@ -96,7 +96,7 @@
 <title>Node5&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M517.08,-32.01C563.49,-41.07 618.86,-51.88 657.71,-59.47"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="517.51,-28.52 507.02,-30.04 516.16,-35.39 517.51,-28.52"/>
-<text text-anchor="middle" x="576.5" y="-54" font-family="Helvetica,sans-Serif" font-size="10.00"> s_inst</text>
+<text text-anchor="middle" x="576.5" y="-54" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> s_inst</text>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
@@ -112,8 +112,8 @@
 <title>Node6&#45;&gt;Node5</title>
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M133.56,-15C192.64,-15 281.27,-15 345.86,-15"/>
 <polygon fill="orange" stroke="orange" points="133.25,-11.5 123.25,-15 133.25,-18.5 133.25,-11.5"/>
-<text text-anchor="start" x="194" y="-29" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; FileTreeContext::</text>
-<text text-anchor="middle" x="242.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">Private &gt;</text>
+<text text-anchor="start" x="194" y="-29" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; FileTreeContext::</text>
+<text text-anchor="middle" x="242.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">Private &gt;</text>
 </g>
 </g>
 </svg>

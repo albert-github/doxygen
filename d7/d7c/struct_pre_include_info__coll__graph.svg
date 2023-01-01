@@ -31,8 +31,8 @@
 <title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M25.85,-66.92C24.93,-57.39 25.39,-45.93 30.5,-37 35.03,-29.08 42.97,-23.23 50.81,-19.06"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="22.41,-67.6 27.36,-76.96 29.33,-66.56 22.41,-67.6"/>
-<text text-anchor="middle" x="63" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00"> fileName</text>
-<text text-anchor="middle" x="63" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00">includeName</text>
+<text text-anchor="middle" x="63" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> fileName</text>
+<text text-anchor="middle" x="63" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">includeName</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -48,8 +48,8 @@
 <title>Node3&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M110.65,-67.42C106.77,-58.04 101.49,-46.57 95.5,-37 91.57,-30.72 86.28,-24.3 81.88,-19.36"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="107.48,-68.9 114.41,-76.91 113.99,-66.33 107.48,-68.9"/>
-<text text-anchor="middle" x="137" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00"> fromFileDef</text>
-<text text-anchor="middle" x="137" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00">toFileDef</text>
+<text text-anchor="middle" x="137" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> fromFileDef</text>
+<text text-anchor="middle" x="137" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">toFileDef</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">

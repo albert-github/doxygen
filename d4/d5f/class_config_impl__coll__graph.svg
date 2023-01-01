@@ -22,7 +22,7 @@
 <title>Node1&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M79.19,-16.99C83.95,-15.54 87,-13.04 87,-9.5 87,-3.83 79.18,-0.84 69.09,-0.53"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="78.47,-13.56 69.09,-18.47 79.49,-20.49 78.47,-13.56"/>
-<text text-anchor="middle" x="117" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00"> m_instance</text>
+<text text-anchor="middle" x="117" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_instance</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node">
@@ -38,10 +38,10 @@
 <title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M34.5,-88.68C34.5,-67.74 34.5,-34.81 34.5,-19.23"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="31,-88.89 34.5,-98.89 38,-88.89 31,-88.89"/>
-<text text-anchor="middle" x="77.5" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00"> m_header</text>
-<text text-anchor="middle" x="77.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">m_startComment</text>
-<text text-anchor="middle" x="77.5" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00">m_storeRepl</text>
-<text text-anchor="middle" x="77.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00">m_userComment</text>
+<text text-anchor="middle" x="77.5" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_header</text>
+<text text-anchor="middle" x="77.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_startComment</text>
+<text text-anchor="middle" x="77.5" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_storeRepl</text>
+<text text-anchor="middle" x="77.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_userComment</text>
 </g>
 </g>
 </svg>

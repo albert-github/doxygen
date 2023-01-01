@@ -31,7 +31,7 @@
 <title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M316,-55.58C316,-43.63 316,-28.72 316,-19.41"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="312.5,-55.87 316,-65.87 319.5,-55.87 312.5,-55.87"/>
-<text text-anchor="middle" x="330" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00"> state</text>
+<text text-anchor="middle" x="330" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> state</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -47,7 +47,7 @@
 <title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M66.89,-190.33C78.65,-166.24 103.18,-123.72 138,-103 159.28,-90.34 222.44,-83.2 267.47,-79.59"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="63.71,-188.87 62.64,-199.41 70.05,-191.83 63.71,-188.87"/>
-<text text-anchor="middle" x="151.5" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00"> code</text>
+<text text-anchor="middle" x="151.5" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> code</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -63,7 +63,7 @@
 <title>Node4&#45;&gt;Node2</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M170.98,-189.34C167.15,-166.05 164.72,-126.44 186,-103 196.91,-90.98 235.24,-84.16 267.48,-80.46"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="167.57,-190.15 172.88,-199.32 174.45,-188.84 167.57,-190.15"/>
-<text text-anchor="middle" x="217" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00"> ccodeParser</text>
+<text text-anchor="middle" x="217" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> ccodeParser</text>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
@@ -94,13 +94,13 @@
 <title>Node6&#45;&gt;Node2</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M256.47,-189.41C251,-167.08 245.59,-129.34 262,-103 267.14,-94.76 275.67,-89.01 284.45,-85.02"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="253.15,-190.54 259.15,-199.28 259.91,-188.71 253.15,-190.54"/>
-<text text-anchor="middle" x="306" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00"> CCodeBuffer</text>
-<text text-anchor="middle" x="306" y="-161" font-family="Helvetica,sans-Serif" font-size="10.00">classScope</text>
-<text text-anchor="middle" x="306" y="-150" font-family="Helvetica,sans-Serif" font-size="10.00">delimiter</text>
-<text text-anchor="middle" x="306" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00">docBlockName</text>
-<text text-anchor="middle" x="306" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00">exampleName</text>
-<text text-anchor="middle" x="306" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">fileName</text>
-<text text-anchor="middle" x="306" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00">rulesPatternBuffer</text>
+<text text-anchor="middle" x="306" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> CCodeBuffer</text>
+<text text-anchor="middle" x="306" y="-161" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">classScope</text>
+<text text-anchor="middle" x="306" y="-150" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">delimiter</text>
+<text text-anchor="middle" x="306" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">docBlockName</text>
+<text text-anchor="middle" x="306" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">exampleName</text>
+<text text-anchor="middle" x="306" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">fileName</text>
+<text text-anchor="middle" x="306" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">rulesPatternBuffer</text>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
@@ -116,8 +116,8 @@
 <title>Node7&#45;&gt;Node2</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M484.13,-246.66C485.99,-208.4 487.83,-123.51 469,-103 455.19,-87.96 404.14,-81.44 364.77,-78.62"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="480.62,-246.74 483.57,-256.91 487.61,-247.12 480.62,-246.74"/>
-<text text-anchor="middle" x="528.5" y="-212" font-family="Helvetica,sans-Serif" font-size="10.00"> currentDefinition</text>
-<text text-anchor="middle" x="528.5" y="-201" font-family="Helvetica,sans-Serif" font-size="10.00">searchCtx</text>
+<text text-anchor="middle" x="528.5" y="-212" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> currentDefinition</text>
+<text text-anchor="middle" x="528.5" y="-201" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">searchCtx</text>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
@@ -154,7 +154,7 @@
 <title>Node8&#45;&gt;Node2</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M599.24,-191.25C579.96,-167.29 540.97,-123.85 497,-103 455.25,-83.21 402.49,-77.35 364.72,-75.99"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="596.7,-193.68 605.63,-199.38 602.21,-189.36 596.7,-193.68"/>
-<text text-anchor="middle" x="624" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00"> sourceFileDef</text>
+<text text-anchor="middle" x="624" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> sourceFileDef</text>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node">
@@ -176,7 +176,7 @@
 <title>Node10&#45;&gt;Node2</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M378.79,-190.65C376.68,-187.22 374.64,-183.57 373,-180 358.08,-147.55 370.15,-132.49 350,-103 345.1,-95.83 337.66,-89.72 330.99,-85.18"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="375.89,-192.62 384.32,-199.04 381.74,-188.76 375.89,-192.62"/>
-<text text-anchor="middle" x="421" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00"> currentMemberDef</text>
+<text text-anchor="middle" x="421" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> currentMemberDef</text>
 </g>
 </g>
 </svg>

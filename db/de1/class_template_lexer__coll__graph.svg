@@ -31,7 +31,7 @@
 <title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M53.6,-67.19C57.18,-57.75 62.25,-46.29 68.5,-37 72.96,-30.37 79.2,-23.94 84.45,-19.08"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="50.24,-66.19 50.19,-76.78 56.84,-68.53 50.24,-66.19"/>
-<text text-anchor="middle" x="94.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00"> m_engine</text>
+<text text-anchor="middle" x="94.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_engine</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -47,8 +47,8 @@
 <title>Node3&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M135.97,-67.21C132.18,-57.77 126.88,-46.31 120.5,-37 115.98,-30.41 109.74,-23.98 104.51,-19.11"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="132.79,-68.68 139.6,-76.79 139.33,-66.2 132.79,-68.68"/>
-<text text-anchor="middle" x="161.5" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00"> m_data</text>
-<text text-anchor="middle" x="161.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00">m_fileName</text>
+<text text-anchor="middle" x="161.5" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_data</text>
+<text text-anchor="middle" x="161.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_fileName</text>
 </g>
 </g>
 </svg>

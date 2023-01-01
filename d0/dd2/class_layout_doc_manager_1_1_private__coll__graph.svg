@@ -31,14 +31,14 @@
 <title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M76,-55.58C76,-43.63 76,-28.72 76,-19.41"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="72.5,-55.87 76,-65.87 79.5,-55.87 72.5,-55.87"/>
-<text text-anchor="middle" x="97.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00"> rootNav</text>
+<text text-anchor="middle" x="97.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> rootNav</text>
 </g>
 <!-- Node2&#45;&gt;Node2 -->
 <g id="edge2" class="edge">
 <title>Node2&#45;&gt;Node2</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M133.86,-80.1C138.58,-79.1 141.5,-77.57 141.5,-75.5 141.5,-72.19 134.01,-70.25 123.69,-69.68"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="133.2,-76.66 123.69,-81.32 134.04,-83.61 133.2,-76.66"/>
-<text text-anchor="middle" x="166.5" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00"> m_parent</text>
+<text text-anchor="middle" x="166.5" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_parent</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -54,9 +54,9 @@
 <title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M76,-143.91C76,-125.67 76,-98.65 76,-85.03"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="72.5,-143.94 76,-153.94 79.5,-143.94 72.5,-143.94"/>
-<text text-anchor="middle" x="105.5" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00"> m_baseFile</text>
-<text text-anchor="middle" x="105.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">m_intro</text>
-<text text-anchor="middle" x="105.5" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00">m_title</text>
+<text text-anchor="middle" x="105.5" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_baseFile</text>
+<text text-anchor="middle" x="105.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_intro</text>
+<text text-anchor="middle" x="105.5" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_title</text>
 </g>
 </g>
 </svg>

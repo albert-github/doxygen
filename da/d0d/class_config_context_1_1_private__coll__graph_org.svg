@@ -33,7 +33,7 @@
 <title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M508.04,-70.42C541.99,-66.76 580.48,-62.6 611.84,-59.21"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="507.22,-66.99 497.66,-71.55 507.97,-73.95 507.22,-66.99"/>
-<text text-anchor="middle" x="558.5" y="-70.5" font-family="Helvetica,sans-Serif" font-size="10.00"> m_fields</text>
+<text text-anchor="middle" x="558.5" y="-70.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_fields</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -50,8 +50,8 @@
 <title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M149.22,-56.22C208.83,-61.31 290.11,-68.24 348.41,-73.22"/>
 <polygon fill="orange" stroke="orange" points="149.37,-52.72 139.11,-55.36 148.77,-59.69 149.37,-52.72"/>
-<text text-anchor="start" x="157" y="-84.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; StringVector, ConfigContext</text>
-<text text-anchor="middle" x="240" y="-73.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Private, &amp;Private::createFields &gt;</text>
+<text text-anchor="start" x="157" y="-84.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; StringVector, ConfigContext</text>
+<text text-anchor="middle" x="240" y="-73.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">::Private, &amp;Private::createFields &gt;</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -69,16 +69,16 @@
 <title>Node3&#45;&gt;Node4</title>
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M121.99,-31.45C133.38,-28.18 145.49,-25.26 157,-23.5 218.17,-14.15 288.22,-13.8 340.92,-15.57"/>
 <polygon fill="orange" stroke="orange" points="120.76,-28.17 112.19,-34.39 122.78,-34.87 120.76,-28.17"/>
-<text text-anchor="start" x="161.5" y="-48.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; ConfigData, ConfigContext</text>
-<text text-anchor="start" x="161.5" y="-37.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Private, &amp;Private::createConfig</text>
-<text text-anchor="middle" x="240" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00">Data &gt;</text>
+<text text-anchor="start" x="161.5" y="-48.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; ConfigData, ConfigContext</text>
+<text text-anchor="start" x="161.5" y="-37.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">::Private, &amp;Private::createConfig</text>
+<text text-anchor="middle" x="240" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">Data &gt;</text>
 </g>
 <!-- Node4&#45;&gt;Node1 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M515.45,-32.21C547.51,-36.31 582.75,-40.82 611.85,-44.54"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="515.53,-28.69 505.17,-30.89 514.64,-35.63 515.53,-28.69"/>
-<text text-anchor="middle" x="558.5" y="-44.5" font-family="Helvetica,sans-Serif" font-size="10.00"> m_configData</text>
+<text text-anchor="middle" x="558.5" y="-44.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_configData</text>
 </g>
 </g>
 </svg>

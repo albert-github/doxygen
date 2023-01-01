@@ -97,7 +97,7 @@ var sectionId = 'dynsection-1';
 <title>Node3&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M491.18,-55.59C515.42,-58.83 540.83,-62.22 562.7,-65.14"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="491.61,-52.11 481.23,-54.26 490.68,-59.05 491.61,-52.11"/>
-<text text-anchor="middle" x="522" y="-65" font-family="Helvetica,sans-Serif" font-size="10.00"> example</text>
+<text text-anchor="middle" x="522" y="-65" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> example</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -113,7 +113,7 @@ var sectionId = 'dynsection-1';
 <title>Node4&#45;&gt;Node3</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M127.83,-66.05C178.61,-61.67 253.41,-55.22 310.95,-50.25"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="127.35,-62.58 117.69,-66.93 127.95,-69.56 127.35,-62.58"/>
-<text text-anchor="middle" x="225" y="-66" font-family="Helvetica,sans-Serif" font-size="10.00"> m_item</text>
+<text text-anchor="middle" x="225" y="-66" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_item</text>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
@@ -130,9 +130,9 @@ var sectionId = 'dynsection-1';
 <title>Node5&#45;&gt;Node3</title>
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M149.51,-10.5C192.18,-9.28 245.67,-9.73 293,-16 304.17,-17.48 315.86,-19.81 327.17,-22.49"/>
 <polygon fill="orange" stroke="orange" points="149.35,-7 139.47,-10.82 149.57,-14 149.35,-7"/>
-<text text-anchor="start" x="157" y="-41" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; TemplateVariant,</text>
-<text text-anchor="start" x="157" y="-30" font-family="Helvetica,sans-Serif" font-size="10.00"> PageContext::Private,</text>
-<text text-anchor="middle" x="225" y="-19" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;Private::createExample &gt;</text>
+<text text-anchor="start" x="157" y="-41" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; TemplateVariant,</text>
+<text text-anchor="start" x="157" y="-30" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> PageContext::Private,</text>
+<text text-anchor="middle" x="225" y="-19" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &amp;Private::createExample &gt;</text>
 </g>
 </g>
 </svg>

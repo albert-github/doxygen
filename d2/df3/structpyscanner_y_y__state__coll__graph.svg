@@ -31,7 +31,7 @@
 <title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M55.91,-111.23C61.47,-89.95 73.78,-55.37 98,-37 111.26,-26.94 149.43,-20.11 182.42,-15.9"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="52.5,-110.45 53.6,-120.99 59.31,-112.07 52.5,-110.45"/>
-<text text-anchor="middle" x="142.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00"> commentScanner</text>
+<text text-anchor="middle" x="142.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> commentScanner</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -47,7 +47,7 @@
 <title>Node3&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M189.17,-111.06C193.96,-91.82 202.91,-61.15 216,-37 219.47,-30.6 224.5,-24.18 228.77,-19.27"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="185.73,-110.4 186.82,-120.93 192.54,-112.01 185.73,-110.4"/>
-<text text-anchor="middle" x="242" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00"> thisParser</text>
+<text text-anchor="middle" x="242" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> thisParser</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -63,12 +63,12 @@
 <title>Node4&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M290.93,-111.02C285.58,-87.73 275.92,-49.25 268,-37 263.47,-29.98 256.52,-23.8 250.36,-19.18"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="287.52,-111.8 293.13,-120.78 294.35,-110.26 287.52,-111.8"/>
-<text text-anchor="middle" x="323" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00"> argType</text>
-<text text-anchor="middle" x="323" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">docBlock</text>
-<text text-anchor="middle" x="323" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">fileName</text>
-<text text-anchor="middle" x="323" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">moduleScope</text>
-<text text-anchor="middle" x="323" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00">packageName</text>
-<text text-anchor="middle" x="323" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00">programStr</text>
+<text text-anchor="middle" x="323" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> argType</text>
+<text text-anchor="middle" x="323" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">docBlock</text>
+<text text-anchor="middle" x="323" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">fileName</text>
+<text text-anchor="middle" x="323" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">moduleScope</text>
+<text text-anchor="middle" x="323" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">packageName</text>
+<text text-anchor="middle" x="323" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">programStr</text>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
@@ -84,8 +84,8 @@
 <title>Node5&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M384.02,-110.74C384.07,-89.79 380.72,-56.27 361,-37 350.96,-27.19 320.17,-20.58 291.78,-16.41"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="380.52,-110.83 383.72,-120.93 387.51,-111.03 380.52,-110.83"/>
-<text text-anchor="middle" x="410.5" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00"> copyString</text>
-<text text-anchor="middle" x="410.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">defVal</text>
+<text text-anchor="middle" x="410.5" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> copyString</text>
+<text text-anchor="middle" x="410.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">defVal</text>
 </g>
 </g>
 </svg>

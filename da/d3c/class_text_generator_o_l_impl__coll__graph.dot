@@ -8,6 +8,6 @@ digraph "TextGeneratorOLImpl"
   Node1 [label="TextGeneratorOLImpl",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Implements TextGeneratorIntf for an OutputDocInterface stream."];
   Node2 -> Node1 [dir="back",color="steelblue1",style="solid"];
   Node2 [label="TextGeneratorIntf",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d0/dcf/class_text_generator_intf.html",tooltip="Abstract interface for a hyperlinked text fragment."];
-  Node3 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" m_od" ];
+  Node3 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" m_od",fontcolor="grey" ];
   Node3 [label="BaseOutputDocInterface",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$df/d27/class_base_output_doc_interface.html",tooltip="Base Interface used for generating output outside of the comment blocks."];
 }

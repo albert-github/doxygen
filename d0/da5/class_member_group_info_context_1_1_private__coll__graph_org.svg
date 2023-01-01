@@ -32,7 +32,7 @@
 <title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M596.69,-482.31C700.51,-497.08 976.79,-521.36 1148,-395.5 1189.8,-364.77 1218.3,-308.05 1230.22,-280.84"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="597.02,-478.82 586.61,-480.82 596,-485.74 597.02,-478.82"/>
-<text text-anchor="middle" x="938" y="-494.5" font-family="Helvetica,sans-Serif" font-size="10.00"> m_def</text>
+<text text-anchor="middle" x="938" y="-494.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_def</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -48,7 +48,7 @@
 <title>Node2&#45;&gt;Node4</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M596.77,-469.2C611.09,-467.04 627.25,-464.63 642,-462.5 721.94,-450.94 742.6,-452.3 822,-437.5 848.41,-432.58 877.91,-425.62 900.41,-420"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="596.08,-465.77 586.72,-470.72 597.13,-472.69 596.08,-465.77"/>
-<text text-anchor="middle" x="732" y="-465.5" font-family="Helvetica,sans-Serif" font-size="10.00"> m_container</text>
+<text text-anchor="middle" x="732" y="-465.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_container</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -64,24 +64,24 @@
 <title>Node3&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M594.35,-341.13C676.24,-335.89 872.5,-322.05 1036,-300.5 1079.27,-294.8 1127.45,-286.45 1165.74,-279.34"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="593.78,-337.66 584.02,-341.78 594.23,-344.64 593.78,-337.66"/>
-<text text-anchor="middle" x="938" y="-323.5" font-family="Helvetica,sans-Serif" font-size="10.00"> m_relPath</text>
+<text text-anchor="middle" x="938" y="-323.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_relPath</text>
 </g>
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge9" class="edge">
 <title>Node3&#45;&gt;Node4</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M594.48,-343.76C646.85,-344.84 742.54,-349.41 822,-367.5 856.09,-375.26 893.69,-390.72 916.32,-400.84"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="594.35,-340.26 584.29,-343.58 594.23,-347.26 594.35,-340.26"/>
-<text text-anchor="middle" x="732" y="-403.5" font-family="Helvetica,sans-Serif" font-size="10.00"> doc</text>
-<text text-anchor="middle" x="732" y="-392.5" font-family="Helvetica,sans-Serif" font-size="10.00">fileName</text>
-<text text-anchor="middle" x="732" y="-381.5" font-family="Helvetica,sans-Serif" font-size="10.00">grpHeader</text>
-<text text-anchor="middle" x="732" y="-370.5" font-family="Helvetica,sans-Serif" font-size="10.00">m_docFile</text>
+<text text-anchor="middle" x="732" y="-403.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> doc</text>
+<text text-anchor="middle" x="732" y="-392.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">fileName</text>
+<text text-anchor="middle" x="732" y="-381.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">grpHeader</text>
+<text text-anchor="middle" x="732" y="-370.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_docFile</text>
 </g>
 <!-- Node4&#45;&gt;Node1 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M990.9,-399.37C1034.67,-388.61 1098,-369.75 1148,-341.5 1177.45,-324.86 1206.14,-297.59 1222.53,-280.64"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="989.95,-396 981.04,-401.74 991.58,-402.81 989.95,-396"/>
-<text text-anchor="middle" x="1101" y="-383.5" font-family="Helvetica,sans-Serif" font-size="10.00"> m_memberGroup</text>
+<text text-anchor="middle" x="1101" y="-383.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_memberGroup</text>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
@@ -97,7 +97,7 @@
 <title>Node5&#45;&gt;Node4</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M601.8,-425.44C676.62,-422.1 822.98,-415.58 894.97,-412.37"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="601.57,-421.94 591.73,-425.89 601.88,-428.94 601.57,-421.94"/>
-<text text-anchor="middle" x="732" y="-425.5" font-family="Helvetica,sans-Serif" font-size="10.00"> inDeclSection</text>
+<text text-anchor="middle" x="732" y="-425.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> inDeclSection</text>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
@@ -128,7 +128,7 @@
 <title>Node7&#45;&gt;Node5</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M336.23,-408.09C374.78,-409.83 423.61,-412.55 467,-416.5 483.58,-418.01 501.89,-420.25 517.37,-422.32"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="336.3,-404.59 326.15,-407.64 335.99,-411.58 336.3,-404.59"/>
-<text text-anchor="middle" x="405.5" y="-419.5" font-family="Helvetica,sans-Serif" font-size="10.00"> m_memberGroupRefList</text>
+<text text-anchor="middle" x="405.5" y="-419.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_memberGroupRefList</text>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
@@ -161,7 +161,7 @@
 <title>Node9&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1035.01,-221.48C1078.21,-230.92 1128.22,-241.84 1167.62,-250.45"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1035.57,-218.02 1025.05,-219.3 1034.07,-224.85 1035.57,-218.02"/>
-<text text-anchor="middle" x="1101" y="-246.5" font-family="Helvetica,sans-Serif" font-size="10.00"> m_docs</text>
+<text text-anchor="middle" x="1101" y="-246.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_docs</text>
 </g>
 <!-- Node10 -->
 <g id="node10" class="node">
@@ -177,7 +177,7 @@
 <title>Node10&#45;&gt;Node9</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M612.98,-266.79C679.76,-265.25 785.45,-260.46 822,-245.5 831.64,-241.55 830.85,-235.47 840,-230.5 846.43,-227.01 853.32,-223.86 860.36,-221.04"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="612.54,-263.29 602.62,-267 612.69,-270.29 612.54,-263.29"/>
-<text text-anchor="middle" x="732" y="-268.5" font-family="Helvetica,sans-Serif" font-size="10.00"> m_item</text>
+<text text-anchor="middle" x="732" y="-268.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_item</text>
 </g>
 <!-- Node12 -->
 <g id="node12" class="node">
@@ -195,7 +195,7 @@
 <title>Node10&#45;&gt;Node12</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M565.46,-248.94C579.22,-225.41 606.41,-185.7 642,-167.5 659.45,-158.57 760.8,-151.06 839.89,-146.44"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="562.26,-247.5 560.41,-257.93 568.36,-250.93 562.26,-247.5"/>
-<text text-anchor="middle" x="732" y="-170.5" font-family="Helvetica,sans-Serif" font-size="10.00"> m_item</text>
+<text text-anchor="middle" x="732" y="-170.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_item</text>
 </g>
 <!-- Node13 -->
 <g id="node13" class="node">
@@ -214,7 +214,7 @@
 <title>Node10&#45;&gt;Node13</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M612.57,-276.55C622.37,-277.78 632.46,-278.84 642,-279.5 721.81,-285.01 742.15,-284.34 822,-279.5 830.53,-278.98 839.4,-278.25 848.26,-277.39"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="612.89,-273.06 602.52,-275.22 611.97,-280 612.89,-273.06"/>
-<text text-anchor="middle" x="732" y="-285.5" font-family="Helvetica,sans-Serif" font-size="10.00"> m_item</text>
+<text text-anchor="middle" x="732" y="-285.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_item</text>
 </g>
 <!-- Node11 -->
 <g id="node11" class="node">
@@ -231,42 +231,42 @@
 <title>Node11&#45;&gt;Node9</title>
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M634.35,-100.8C702.11,-94.23 793.3,-90.17 822,-111.5 844,-127.86 820.65,-151.08 840,-170.5 843.48,-174 847.37,-177.09 851.52,-179.82"/>
 <polygon fill="orange" stroke="orange" points="633.71,-97.35 624.11,-101.83 634.41,-104.31 633.71,-97.35"/>
-<text text-anchor="start" x="653" y="-136.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; TemplateVariant,</text>
-<text text-anchor="start" x="653" y="-125.5" font-family="Helvetica,sans-Serif" font-size="10.00"> MemberGroupInfoContext</text>
-<text text-anchor="middle" x="732" y="-114.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Private,&amp;Private::createDocs &gt;</text>
+<text text-anchor="start" x="653" y="-136.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; TemplateVariant,</text>
+<text text-anchor="start" x="653" y="-125.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> MemberGroupInfoContext</text>
+<text text-anchor="middle" x="732" y="-114.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">::Private,&amp;Private::createDocs &gt;</text>
 </g>
 <!-- Node11&#45;&gt;Node12 -->
 <g id="edge15" class="edge">
 <title>Node11&#45;&gt;Node12</title>
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M580.54,-89.15C596.87,-76.67 619.3,-62.11 642,-55.5 718.81,-33.15 747.66,-25.94 822,-55.5 832.23,-59.57 831.5,-65.52 840,-72.5 861.08,-89.81 886.21,-107.62 905.61,-120.8"/>
 <polygon fill="orange" stroke="orange" points="578.26,-86.48 572.58,-95.43 582.6,-91.98 578.26,-86.48"/>
-<text text-anchor="start" x="642" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; TemplateVariant,</text>
-<text text-anchor="start" x="642" y="-69.5" font-family="Helvetica,sans-Serif" font-size="10.00"> MemberGroupInfoContext</text>
-<text text-anchor="middle" x="732" y="-58.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Private,&amp;Private::createMembers &gt;</text>
+<text text-anchor="start" x="642" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; TemplateVariant,</text>
+<text text-anchor="start" x="642" y="-69.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> MemberGroupInfoContext</text>
+<text text-anchor="middle" x="732" y="-58.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">::Private,&amp;Private::createMembers &gt;</text>
 </g>
 <!-- Node11&#45;&gt;Node13 -->
 <g id="edge18" class="edge">
 <title>Node11&#45;&gt;Node13</title>
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M576.8,-132.94C593.07,-148.55 616.9,-168.31 642,-178.5 716.53,-208.76 755.08,-152.86 822,-197.5 835.9,-206.77 827.32,-219.62 840,-230.5 843.81,-233.76 847.94,-236.73 852.28,-239.43"/>
 <polygon fill="orange" stroke="orange" points="579.02,-130.21 569.45,-125.67 574.1,-135.19 579.02,-130.21"/>
-<text text-anchor="start" x="650.5" y="-233.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; TemplateVariant,</text>
-<text text-anchor="start" x="650.5" y="-222.5" font-family="Helvetica,sans-Serif" font-size="10.00"> MemberGroupInfoContext</text>
-<text text-anchor="start" x="650.5" y="-211.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Private,&amp;Private::createMember</text>
-<text text-anchor="middle" x="732" y="-200.5" font-family="Helvetica,sans-Serif" font-size="10.00">Groups &gt;</text>
+<text text-anchor="start" x="650.5" y="-233.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; TemplateVariant,</text>
+<text text-anchor="start" x="650.5" y="-222.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> MemberGroupInfoContext</text>
+<text text-anchor="start" x="650.5" y="-211.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">::Private,&amp;Private::createMember</text>
+<text text-anchor="middle" x="732" y="-200.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">Groups &gt;</text>
 </g>
 <!-- Node12&#45;&gt;Node1 -->
 <g id="edge13" class="edge">
 <title>Node12&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1025.4,-165.06C1063.82,-176.9 1109.08,-192.73 1148,-211.5 1171.67,-222.92 1197.13,-238.87 1214.63,-250.48"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1026.37,-161.7 1015.79,-162.14 1024.34,-168.4 1026.37,-161.7"/>
-<text text-anchor="middle" x="1101" y="-214.5" font-family="Helvetica,sans-Serif" font-size="10.00"> m_members</text>
+<text text-anchor="middle" x="1101" y="-214.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_members</text>
 </g>
 <!-- Node13&#45;&gt;Node1 -->
 <g id="edge16" class="edge">
 <title>Node13&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1038.05,-265.5C1079.78,-265.5 1127.4,-265.5 1165.53,-265.5"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1037.86,-262 1027.86,-265.5 1037.86,-269 1037.86,-262"/>
-<text text-anchor="middle" x="1101" y="-268.5" font-family="Helvetica,sans-Serif" font-size="10.00"> m_memberGroups</text>
+<text text-anchor="middle" x="1101" y="-268.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_memberGroups</text>
 </g>
 <!-- Node14 -->
 <g id="node14" class="node">
@@ -283,7 +283,7 @@
 <title>Node14&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M985.63,-67.67C1030.08,-87.29 1097.53,-120.63 1148,-161.5 1180.98,-188.21 1211.11,-228.41 1226.25,-250.18"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="986.8,-64.37 976.24,-63.58 984.01,-70.78 986.8,-64.37"/>
-<text text-anchor="middle" x="1101" y="-164.5" font-family="Helvetica,sans-Serif" font-size="10.00"> s_inst</text>
+<text text-anchor="middle" x="1101" y="-164.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> s_inst</text>
 </g>
 <!-- Node15 -->
 <g id="node15" class="node">
@@ -299,8 +299,8 @@
 <title>Node15&#45;&gt;Node14</title>
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M618.4,-4.2C672.7,-0.94 753.04,0.73 822,-10.5 849.29,-14.94 878.89,-24.85 901.22,-33.43"/>
 <polygon fill="orange" stroke="orange" points="618,-0.72 608.24,-4.85 618.44,-7.7 618,-0.72"/>
-<text text-anchor="start" x="661" y="-24.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; MemberGroupInfoContext</text>
-<text text-anchor="middle" x="732" y="-13.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Private &gt;</text>
+<text text-anchor="start" x="661" y="-24.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; MemberGroupInfoContext</text>
+<text text-anchor="middle" x="732" y="-13.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">::Private &gt;</text>
 </g>
 </g>
 </svg>

@@ -34,7 +34,7 @@
 <title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M537.9,-108.67C577.35,-100.29 622.68,-90.65 658.79,-82.97"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="537.06,-105.27 528.01,-110.78 538.52,-112.12 537.06,-105.27"/>
-<text text-anchor="middle" x="594.5" y="-108" font-family="Helvetica,sans-Serif" font-size="10.00"> m_maxDepth</text>
+<text text-anchor="middle" x="594.5" y="-108" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_maxDepth</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -51,8 +51,8 @@
 <title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M149.4,-104.39C151.97,-104.6 154.5,-104.8 157,-105 226.87,-110.62 306.28,-116.96 364,-121.55"/>
 <polygon fill="orange" stroke="orange" points="149.68,-100.9 139.43,-103.58 149.12,-107.88 149.68,-100.9"/>
-<text text-anchor="start" x="157" y="-133" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; int, NamespaceTreeContext</text>
-<text text-anchor="middle" x="250.5" y="-122" font-family="Helvetica,sans-Serif" font-size="10.00">::Private, &amp;Private::createMaxDepth &gt;</text>
+<text text-anchor="start" x="157" y="-133" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; int, NamespaceTreeContext</text>
+<text text-anchor="middle" x="250.5" y="-122" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">::Private, &amp;Private::createMaxDepth &gt;</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -70,16 +70,16 @@
 <title>Node3&#45;&gt;Node4</title>
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M121.99,-79.94C133.38,-76.68 145.49,-73.75 157,-72 226.21,-61.46 305.85,-61.55 363.82,-63.79"/>
 <polygon fill="orange" stroke="orange" points="120.76,-76.66 112.19,-82.88 122.77,-83.36 120.76,-76.66"/>
-<text text-anchor="start" x="165" y="-97" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; int, NamespaceTreeContext</text>
-<text text-anchor="start" x="165" y="-86" font-family="Helvetica,sans-Serif" font-size="10.00">::Private, &amp;Private::createPreferred</text>
-<text text-anchor="middle" x="250.5" y="-75" font-family="Helvetica,sans-Serif" font-size="10.00">Depth &gt;</text>
+<text text-anchor="start" x="165" y="-97" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; int, NamespaceTreeContext</text>
+<text text-anchor="start" x="165" y="-86" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">::Private, &amp;Private::createPreferred</text>
+<text text-anchor="middle" x="250.5" y="-75" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">Depth &gt;</text>
 </g>
 <!-- Node4&#45;&gt;Node1 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M538.15,-69C577.55,-69 622.76,-69 658.79,-69"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="538.01,-65.5 528.01,-69 538.01,-72.5 538.01,-65.5"/>
-<text text-anchor="middle" x="594.5" y="-72" font-family="Helvetica,sans-Serif" font-size="10.00"> m_preferredDepth</text>
+<text text-anchor="middle" x="594.5" y="-72" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_preferredDepth</text>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
@@ -96,7 +96,7 @@
 <title>Node5&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M534.13,-31.96C574.48,-39.81 621.61,-48.98 658.89,-56.23"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="534.78,-28.52 524.3,-30.04 533.45,-35.39 534.78,-28.52"/>
-<text text-anchor="middle" x="594.5" y="-54" font-family="Helvetica,sans-Serif" font-size="10.00"> s_inst</text>
+<text text-anchor="middle" x="594.5" y="-54" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> s_inst</text>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
@@ -112,8 +112,8 @@
 <title>Node6&#45;&gt;Node5</title>
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M133.51,-15C196.2,-15 292.75,-15 361.73,-15"/>
 <polygon fill="orange" stroke="orange" points="133.36,-11.5 123.36,-15 133.36,-18.5 133.36,-11.5"/>
-<text text-anchor="start" x="185" y="-29" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; NamespaceTreeContext</text>
-<text text-anchor="middle" x="250.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">::Private &gt;</text>
+<text text-anchor="start" x="185" y="-29" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; NamespaceTreeContext</text>
+<text text-anchor="middle" x="250.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">::Private &gt;</text>
 </g>
 </g>
 </svg>

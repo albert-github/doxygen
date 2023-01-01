@@ -6,7 +6,7 @@ digraph "FindFileCacheElem"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   Node1 [label="FindFileCacheElem",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Cache element for the file name to FileDef mapping cache."];
-  Node2 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" fileDef" ];
+  Node2 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" fileDef",fontcolor="grey" ];
   Node2 [label="FileDef",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$de/db0/class_file_def.html",tooltip="A model of a file symbol."];
   Node3 -> Node2 [dir="back",color="steelblue1",style="solid"];
   Node3 [label="DefinitionMutable",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d0/d46/class_definition_mutable.html",tooltip=" "];

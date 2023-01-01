@@ -6,7 +6,7 @@ digraph "FilePair"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   Node1 [label="FilePair",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Class representing a pair of FileDef objects."];
-  Node2 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" m_dst\nm_src" ];
+  Node2 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" m_dst\nm_src",fontcolor="grey" ];
   Node2 [label="FileDef",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$de/db0/class_file_def.html",tooltip="A model of a file symbol."];
   Node3 -> Node2 [dir="back",color="steelblue1",style="solid"];
   Node3 [label="DefinitionMutable",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d0/d46/class_definition_mutable.html",tooltip=" "];

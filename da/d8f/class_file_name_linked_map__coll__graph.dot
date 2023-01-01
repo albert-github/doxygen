@@ -9,6 +9,6 @@ digraph "FileNameLinkedMap"
   Node1 [label="FileNameLinkedMap",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Ordered dictionary of FileName objects."];
   Node2 -> Node1 [dir="back",color="steelblue1",style="solid"];
   Node2 [label="LinkedMap\< FileName,\l FileNameFn, FileNameFn,\l std::unordered_multimap\l\< std::string, FileName *,\l FileNameFn, FileNameFn \> \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d0/d2c/class_linked_map.html",tooltip=" "];
-  Node3 -> Node2 [dir="back",color="orange",style="dashed",label=" \< FileName, FileNameFn,\l FileNameFn, std::unordered\l_multimap\< std::string, FileName\l *, FileNameFn, FileNameFn \> \>" ];
+  Node3 -> Node2 [dir="back",color="orange",style="dashed",label=" \< FileName, FileNameFn,\l FileNameFn, std::unordered\l_multimap\< std::string, FileName\l *, FileNameFn, FileNameFn \> \>",fontcolor="grey" ];
   Node3 [label="LinkedMap\< T, Hash,\l KeyEqual, Map \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d0/d2c/class_linked_map.html",tooltip="Container class representing a vector of objects with keys."];
 }

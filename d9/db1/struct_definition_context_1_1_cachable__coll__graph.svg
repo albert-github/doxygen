@@ -80,7 +80,7 @@ var sectionId = 'dynsection-0';
 <title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M439.97,-253.36C474.37,-235.51 521.05,-210.53 561,-186.5 578.38,-176.05 597.45,-163.27 611.6,-153.53"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="438.33,-250.27 431.05,-257.97 441.54,-256.49 438.33,-250.27"/>
-<text text-anchor="middle" x="526.5" y="-225.5" font-family="Helvetica,sans-Serif" font-size="10.00"> details</text>
+<text text-anchor="middle" x="526.5" y="-225.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> details</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -96,7 +96,7 @@ var sectionId = 'dynsection-0';
 <title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M117.01,-346.17C161.62,-355.26 230.36,-363.72 287,-346.5 317.44,-337.25 347.06,-315.49 366.36,-299.06"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="117.55,-342.7 107.04,-344.04 116.09,-349.55 117.55,-342.7"/>
-<text text-anchor="middle" x="222" y="-358.5" font-family="Helvetica,sans-Serif" font-size="10.00"> m_item</text>
+<text text-anchor="middle" x="222" y="-358.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_item</text>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
@@ -114,7 +114,7 @@ var sectionId = 'dynsection-0';
 <title>Node3&#45;&gt;Node5</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M127.87,-331.97C187.87,-328.8 275,-322.54 287,-312.5 309.33,-293.81 287.47,-272.75 305,-249.5 314.66,-236.68 328.49,-226.27 342.12,-218.22"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="127.55,-328.48 117.74,-332.49 127.91,-335.47 127.55,-328.48"/>
-<text text-anchor="middle" x="222" y="-332.5" font-family="Helvetica,sans-Serif" font-size="10.00"> m_item</text>
+<text text-anchor="middle" x="222" y="-332.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_item</text>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
@@ -132,7 +132,7 @@ var sectionId = 'dynsection-0';
 <title>Node3&#45;&gt;Node6</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M82.17,-316.39C96.88,-295.19 124.25,-260.78 157,-243.5 208.76,-216.19 242.41,-260.41 287,-222.5 306.27,-206.11 287.32,-186.59 305,-168.5 308.44,-164.97 312.33,-161.86 316.5,-159.11"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="79.16,-314.59 76.49,-324.84 84.97,-318.49 79.16,-314.59"/>
-<text text-anchor="middle" x="222" y="-246.5" font-family="Helvetica,sans-Serif" font-size="10.00"> m_item</text>
+<text text-anchor="middle" x="222" y="-246.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_item</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -149,27 +149,27 @@ var sectionId = 'dynsection-0';
 <title>Node4&#45;&gt;Node2</title>
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M79.99,-157.03C92.7,-186.23 118.27,-233.9 157,-256.5 169.79,-263.96 243.99,-270.1 304.99,-273.98"/>
 <polygon fill="orange" stroke="orange" points="83.11,-155.41 76.02,-147.54 76.65,-158.11 83.11,-155.41"/>
-<text text-anchor="start" x="168" y="-296.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; TemplateVariant,</text>
-<text text-anchor="start" x="168" y="-285.5" font-family="Helvetica,sans-Serif" font-size="10.00"> DefinitionContext,</text>
-<text text-anchor="middle" x="222" y="-274.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;DC::createDetails &gt;</text>
+<text text-anchor="start" x="168" y="-296.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; TemplateVariant,</text>
+<text text-anchor="start" x="168" y="-285.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> DefinitionContext,</text>
+<text text-anchor="middle" x="222" y="-274.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &amp;DC::createDetails &gt;</text>
 </g>
 <!-- Node4&#45;&gt;Node5 -->
 <g id="edge6" class="edge">
 <title>Node4&#45;&gt;Node5</title>
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M112.83,-151.49C126.67,-157.07 142.28,-162.68 157,-166.5 205.18,-179 260.38,-186.64 304.79,-191.21"/>
 <polygon fill="orange" stroke="orange" points="114.14,-148.25 103.56,-147.67 111.47,-154.72 114.14,-148.25"/>
-<text text-anchor="start" x="173.5" y="-213.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; TemplateVariant,</text>
-<text text-anchor="start" x="173.5" y="-202.5" font-family="Helvetica,sans-Serif" font-size="10.00"> DefinitionContext,</text>
-<text text-anchor="middle" x="222" y="-191.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;DC::createBrief &gt;</text>
+<text text-anchor="start" x="173.5" y="-213.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; TemplateVariant,</text>
+<text text-anchor="start" x="173.5" y="-202.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> DefinitionContext,</text>
+<text text-anchor="middle" x="222" y="-191.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &amp;DC::createBrief &gt;</text>
 </g>
 <!-- Node4&#45;&gt;Node6 -->
 <g id="edge9" class="edge">
 <title>Node4&#45;&gt;Node6</title>
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M149.46,-132.02C190.49,-131.98 241.45,-132.27 287,-133.5 292.82,-133.66 298.83,-133.86 304.87,-134.08"/>
 <polygon fill="orange" stroke="orange" points="149.25,-128.52 139.25,-132.04 149.26,-135.52 149.25,-128.52"/>
-<text text-anchor="start" x="157" y="-158.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; TemplateVariant,</text>
-<text text-anchor="start" x="157" y="-147.5" font-family="Helvetica,sans-Serif" font-size="10.00"> DefinitionContext,</text>
-<text text-anchor="middle" x="222" y="-136.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;DC::createInbodyDocs &gt;</text>
+<text text-anchor="start" x="157" y="-158.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; TemplateVariant,</text>
+<text text-anchor="start" x="157" y="-147.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> DefinitionContext,</text>
+<text text-anchor="middle" x="222" y="-136.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &amp;DC::createInbodyDocs &gt;</text>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
@@ -187,9 +187,9 @@ var sectionId = 'dynsection-0';
 <title>Node4&#45;&gt;Node7</title>
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M107.47,-112.86C122.44,-105.82 140.14,-98.61 157,-94.5 206.01,-82.54 262.47,-78.7 307.37,-77.88"/>
 <polygon fill="orange" stroke="orange" points="105.53,-109.91 98.07,-117.43 108.59,-116.21 105.53,-109.91"/>
-<text text-anchor="start" x="160.5" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; TemplateListIntfPtr,</text>
-<text text-anchor="start" x="160.5" y="-108.5" font-family="Helvetica,sans-Serif" font-size="10.00"> DefinitionContext, &amp;DC</text>
-<text text-anchor="middle" x="222" y="-97.5" font-family="Helvetica,sans-Serif" font-size="10.00">::createNavigationPath &gt;</text>
+<text text-anchor="start" x="160.5" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; TemplateListIntfPtr,</text>
+<text text-anchor="start" x="160.5" y="-108.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> DefinitionContext, &amp;DC</text>
+<text text-anchor="middle" x="222" y="-97.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">::createNavigationPath &gt;</text>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
@@ -207,37 +207,37 @@ var sectionId = 'dynsection-0';
 <title>Node4&#45;&gt;Node8</title>
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M85.39,-109.02C100.53,-87.38 126.13,-56.43 157,-41.5 205.13,-18.21 265.46,-13.41 312.46,-14.19"/>
 <polygon fill="orange" stroke="orange" points="82.45,-107.12 79.74,-117.37 88.24,-111.05 82.45,-107.12"/>
-<text text-anchor="start" x="163.5" y="-66.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; TemplateListIntfPtr,</text>
-<text text-anchor="start" x="163.5" y="-55.5" font-family="Helvetica,sans-Serif" font-size="10.00"> DefinitionContext, &amp;DC</text>
-<text text-anchor="middle" x="222" y="-44.5" font-family="Helvetica,sans-Serif" font-size="10.00">::createPartOfGroups &gt;</text>
+<text text-anchor="start" x="163.5" y="-66.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; TemplateListIntfPtr,</text>
+<text text-anchor="start" x="163.5" y="-55.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> DefinitionContext, &amp;DC</text>
+<text text-anchor="middle" x="222" y="-44.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">::createPartOfGroups &gt;</text>
 </g>
 <!-- Node5&#45;&gt;Node1 -->
 <g id="edge4" class="edge">
 <title>Node5&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M484.14,-174.72C516.2,-166.92 550.97,-158.46 578.84,-151.68"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="483.18,-171.35 474.29,-177.11 484.84,-178.15 483.18,-171.35"/>
-<text text-anchor="middle" x="526.5" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00"> brief</text>
+<text text-anchor="middle" x="526.5" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> brief</text>
 </g>
 <!-- Node6&#45;&gt;Node1 -->
 <g id="edge7" class="edge">
 <title>Node6&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M484.56,-138.5C516.5,-138.5 551.09,-138.5 578.84,-138.5"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="484.29,-135 474.29,-138.5 484.29,-142 484.29,-135"/>
-<text text-anchor="middle" x="526.5" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00"> inbodyDocs</text>
+<text text-anchor="middle" x="526.5" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> inbodyDocs</text>
 </g>
 <!-- Node7&#45;&gt;Node1 -->
 <g id="edge10" class="edge">
 <title>Node7&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M481.62,-101.67C514.32,-109.63 550.14,-118.34 578.73,-125.3"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="482.13,-98.19 471.59,-99.23 480.48,-104.99 482.13,-98.19"/>
-<text text-anchor="middle" x="526.5" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00"> navPath</text>
+<text text-anchor="middle" x="526.5" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> navPath</text>
 </g>
 <!-- Node8&#45;&gt;Node1 -->
 <g id="edge12" class="edge">
 <title>Node8&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M461.78,-44.62C493.09,-56.4 529.76,-71.85 561,-89.5 579.17,-99.76 598.67,-113.2 612.79,-123.41"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="462.84,-41.28 452.25,-41.08 460.41,-47.84 462.84,-41.28"/>
-<text text-anchor="middle" x="526.5" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00"> partOfGroups</text>
+<text text-anchor="middle" x="526.5" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> partOfGroups</text>
 </g>
 </g>
 </svg>

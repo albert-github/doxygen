@@ -46,7 +46,7 @@
 <title>Node3&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M129.5,-55.58C129.5,-43.63 129.5,-28.72 129.5,-19.41"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="126,-55.87 129.5,-65.87 133,-55.87 126,-55.87"/>
-<text text-anchor="middle" x="154.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00"> m_output</text>
+<text text-anchor="middle" x="154.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_output</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -62,7 +62,7 @@
 <title>Node4&#45;&gt;Node3</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M129.5,-121.58C129.5,-109.63 129.5,-94.72 129.5,-85.41"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="126,-121.87 129.5,-131.87 133,-121.87 126,-121.87"/>
-<text text-anchor="middle" x="156" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00"> m_stream</text>
+<text text-anchor="middle" x="156" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_stream</text>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
@@ -78,7 +78,7 @@
 <title>Node5&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M207.27,-58.25C200.53,-51.16 192.08,-43.09 183.5,-37 173.45,-29.87 161.19,-23.68 150.9,-19.08"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="204.98,-60.93 214.31,-65.95 210.14,-56.21 204.98,-60.93"/>
-<text text-anchor="middle" x="218.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00"> m_other</text>
+<text text-anchor="middle" x="218.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_other</text>
 </g>
 </g>
 </svg>

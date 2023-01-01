@@ -97,10 +97,10 @@ var sectionId = 'dynsection-0';
 <title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M130.34,-31.5C185.74,-31.5 263.49,-31.5 321.89,-31.5"/>
 <polygon fill="orange" stroke="orange" points="130.27,-28 120.27,-31.5 130.27,-35 130.27,-28"/>
-<text text-anchor="start" x="138" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; FileName, FileNameFn,</text>
-<text text-anchor="start" x="138" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00"> FileNameFn, std::unordered</text>
-<text text-anchor="start" x="138" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">_multimap&lt; std::string, FileName</text>
-<text text-anchor="middle" x="221" y="-34.5" font-family="Helvetica,sans-Serif" font-size="10.00"> *, FileNameFn, FileNameFn &gt; &gt;</text>
+<text text-anchor="start" x="138" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; FileName, FileNameFn,</text>
+<text text-anchor="start" x="138" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> FileNameFn, std::unordered</text>
+<text text-anchor="start" x="138" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">_multimap&lt; std::string, FileName</text>
+<text text-anchor="middle" x="221" y="-34.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> *, FileNameFn, FileNameFn &gt; &gt;</text>
 </g>
 </g>
 </svg>

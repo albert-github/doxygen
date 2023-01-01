@@ -31,7 +31,7 @@
 <title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M14.97,-99.23C15.16,-82.22 17.1,-57.09 25.5,-37 28.31,-30.28 33.32,-23.86 37.75,-19.01"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="11.47,-99.57 15.05,-109.54 18.47,-99.51 11.47,-99.57"/>
-<text text-anchor="middle" x="41" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00"> m_dir</text>
+<text text-anchor="middle" x="41" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_dir</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -47,11 +47,11 @@
 <title>Node3&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M74.01,-99.82C69.88,-83.2 63.38,-58.3 56.5,-37 54.57,-31.01 52.07,-24.39 50.05,-19.26"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="70.69,-100.97 76.46,-109.85 77.49,-99.31 70.69,-100.97"/>
-<text text-anchor="middle" x="105.5" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00"> m_absPath</text>
-<text text-anchor="middle" x="105.5" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">m_baseName</text>
-<text text-anchor="middle" x="105.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">m_fileName</text>
-<text text-anchor="middle" x="105.5" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00">m_relPath</text>
-<text text-anchor="middle" x="105.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00">m_theGraph</text>
+<text text-anchor="middle" x="105.5" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_absPath</text>
+<text text-anchor="middle" x="105.5" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_baseName</text>
+<text text-anchor="middle" x="105.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_fileName</text>
+<text text-anchor="middle" x="105.5" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_relPath</text>
+<text text-anchor="middle" x="105.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_theGraph</text>
 </g>
 </g>
 </svg>

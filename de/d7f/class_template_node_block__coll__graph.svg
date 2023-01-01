@@ -99,7 +99,7 @@ var sectionId = 'dynsection-1';
 <title>Node3&#45;&gt;Node3</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M97.32,-234.21C102.04,-233.22 105,-231.65 105,-229.5 105,-226.06 97.43,-224.1 87.17,-223.62"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="96.7,-230.76 87.17,-235.38 97.5,-237.72 96.7,-230.76"/>
-<text text-anchor="middle" x="130" y="-227" font-family="Helvetica,sans-Serif" font-size="10.00"> m_parent</text>
+<text text-anchor="middle" x="130" y="-227" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_parent</text>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
@@ -130,28 +130,28 @@ var sectionId = 'dynsection-1';
 <title>Node4&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M269.67,-216.62C291.16,-208.02 316.25,-194.13 330.5,-173 364.03,-123.27 355.88,-45.13 351.97,-19.19"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="268.24,-213.42 260.1,-220.21 270.7,-219.98 268.24,-213.42"/>
-<text text-anchor="middle" x="388.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00"> m_blockName</text>
+<text text-anchor="middle" x="388.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_blockName</text>
 </g>
 <!-- Node4&#45;&gt;Node2 -->
 <g id="edge4" class="edge">
 <title>Node4&#45;&gt;Node2</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M233,-209.9C235.25,-185.72 235.72,-143.16 216.5,-114 211.64,-106.62 204.44,-100.73 196.85,-96.11"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="229.52,-209.54 231.87,-219.87 236.47,-210.33 229.52,-209.54"/>
-<text text-anchor="middle" x="280.5" y="-155.5" font-family="Helvetica,sans-Serif" font-size="10.00"> m_templateName</text>
+<text text-anchor="middle" x="280.5" y="-155.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_templateName</text>
 </g>
 <!-- Node4&#45;&gt;Node5 -->
 <g id="edge7" class="edge">
 <title>Node4&#45;&gt;Node5</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M190.85,-223.26C164.6,-218.96 133.43,-211.93 124.5,-202 116.14,-192.69 116.1,-177.38 117.1,-167.76"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="190.56,-226.76 200.98,-224.84 191.64,-219.84 190.56,-226.76"/>
-<text text-anchor="middle" x="170.5" y="-194" font-family="Helvetica,sans-Serif" font-size="10.00"> m_templateName</text>
+<text text-anchor="middle" x="170.5" y="-194" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_templateName</text>
 </g>
 <!-- Node5&#45;&gt;Node2 -->
 <g id="edge5" class="edge">
 <title>Node5&#45;&gt;Node2</title>
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M99.74,-141.21C92.34,-133.03 86.81,-122.92 92.5,-114 97.33,-106.43 104.47,-100.63 112.34,-96.18"/>
 <polygon fill="orange" stroke="orange" points="97.49,-143.9 107.1,-148.36 102.37,-138.88 97.49,-143.9"/>
-<text text-anchor="middle" x="154.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; TemplateNodeBlock &gt;</text>
+<text text-anchor="middle" x="154.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; TemplateNodeBlock &gt;</text>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
@@ -167,7 +167,7 @@ var sectionId = 'dynsection-1';
 <title>Node6&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M422.11,-65.19C403.74,-51.16 376.81,-30.59 361.75,-19.09"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="420.27,-68.19 430.34,-71.48 424.52,-62.63 420.27,-68.19"/>
-<text text-anchor="middle" x="422.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00"> m_nodes</text>
+<text text-anchor="middle" x="422.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_nodes</text>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">

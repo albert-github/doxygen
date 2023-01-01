@@ -22,7 +22,7 @@
 <title>Node1&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M134.03,-14.66C138.99,-13.48 142,-11.76 142,-9.5 142,-5.97 134.66,-3.76 124.05,-2.85"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="133.43,-11.22 124.05,-16.15 134.46,-18.14 133.43,-11.22"/>
-<text text-anchor="middle" x="159.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00"> parent</text>
+<text text-anchor="middle" x="159.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> parent</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node">
@@ -38,8 +38,8 @@
 <title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M62,-66.52C62,-51.24 62,-30.48 62,-19"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="58.5,-66.9 62,-76.9 65.5,-66.9 58.5,-66.9"/>
-<text text-anchor="middle" x="72" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00"> ref</text>
-<text text-anchor="middle" x="72" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00">title</text>
+<text text-anchor="middle" x="72" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> ref</text>
+<text text-anchor="middle" x="72" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">title</text>
 </g>
 </g>
 </svg>

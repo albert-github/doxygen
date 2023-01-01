@@ -32,7 +32,7 @@
 <title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M86.5,-55.56C86.5,-42.95 86.5,-28.35 86.5,-19.27"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="83,-55.94 86.5,-65.94 90,-55.94 83,-55.94"/>
-<text text-anchor="middle" x="102.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00"> s_inst</text>
+<text text-anchor="middle" x="102.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> s_inst</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -48,8 +48,8 @@
 <title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M86.5,-143.6C86.5,-129.1 86.5,-109.4 86.5,-96.22"/>
 <polygon fill="orange" stroke="orange" points="83,-143.89 86.5,-153.89 90,-143.89 83,-143.89"/>
-<text text-anchor="start" x="86.5" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; TranslateContext</text>
-<text text-anchor="middle" x="135" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">::Private &gt;</text>
+<text text-anchor="start" x="86.5" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; TranslateContext</text>
+<text text-anchor="middle" x="135" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">::Private &gt;</text>
 </g>
 </g>
 </svg>

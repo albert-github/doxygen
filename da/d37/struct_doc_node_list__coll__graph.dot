@@ -8,6 +8,6 @@ digraph "DocNodeList"
   Node1 [label="DocNodeList",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
   Node2 -> Node1 [dir="back",color="steelblue1",style="solid"];
   Node2 [label="GrowVector\< DocNodeVariant \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d0/d08/class_grow_vector.html",tooltip=" "];
-  Node3 -> Node2 [dir="back",color="orange",style="dashed",label=" \< DocNodeVariant \>" ];
+  Node3 -> Node2 [dir="back",color="orange",style="dashed",label=" \< DocNodeVariant \>",fontcolor="grey" ];
   Node3 [label="GrowVector\< T \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d0/d08/class_grow_vector.html",tooltip="std::vector like container optimised for pushing elements to the back."];
 }

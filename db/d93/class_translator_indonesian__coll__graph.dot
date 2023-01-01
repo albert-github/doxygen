@@ -26,7 +26,7 @@ digraph "TranslatorIndonesian"
   Node10 [label="TranslatorAdapterBase",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$db/d6c/class_translator_adapter_base.html",tooltip="Base of the translator adapter tree."];
   Node11 -> Node10 [dir="back",color="steelblue1",style="solid"];
   Node11 [label="Translator",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d8/dfb/class_translator.html",tooltip="Abstract base class for all translatable text fragments."];
-  Node12 -> Node10 [dir="back",color="darkorchid3",style="dashed",label=" english" ];
+  Node12 -> Node10 [dir="back",color="darkorchid3",style="dashed",label=" english",fontcolor="grey" ];
   Node12 [label="TranslatorEnglish",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d6/d78/class_translator_english.html",tooltip=" "];
   Node11 -> Node12 [dir="back",color="steelblue1",style="solid"];
 }

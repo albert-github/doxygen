@@ -46,7 +46,7 @@
 <title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1074.03,-103.91C1097.91,-97.53 1127.34,-89.67 1148.87,-83.91"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1072.94,-100.58 1064.18,-106.54 1074.74,-107.34 1072.94,-100.58"/>
-<text text-anchor="middle" x="1106.5" y="-104" font-family="Helvetica,sans-Serif" font-size="10.00"> m_parser</text>
+<text text-anchor="middle" x="1106.5" y="-104" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_parser</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -77,7 +77,7 @@
 <title>Node5&#45;&gt;Node3</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M875.87,-195.66C908.47,-188.93 948.49,-177.81 981,-160 997.7,-150.85 1013.32,-134.95 1022.39,-124.71"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="875.14,-192.24 866,-197.61 876.49,-199.11 875.14,-192.24"/>
-<text text-anchor="middle" x="932.5" y="-196" font-family="Helvetica,sans-Serif" font-size="10.00"> context</text>
+<text text-anchor="middle" x="932.5" y="-196" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> context</text>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
@@ -93,7 +93,7 @@
 <title>Node6&#45;&gt;Node5</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M305.01,-323.42C375.24,-326.65 521.71,-329.72 643,-308 689.09,-299.75 704.11,-302.52 744,-278 771.63,-261.01 795.54,-230.17 806.54,-214.58"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="304.97,-319.91 294.81,-322.92 304.63,-326.9 304.97,-319.91"/>
-<text text-anchor="middle" x="583.5" y="-324" font-family="Helvetica,sans-Serif" font-size="10.00"> scope</text>
+<text text-anchor="middle" x="583.5" y="-324" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> scope</text>
 </g>
 <!-- Node12 -->
 <g id="node12" class="node">
@@ -124,24 +124,24 @@
 <title>Node7&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M302.28,-25.04C320.88,-21.48 343.52,-17.53 364,-15 460.61,-3.07 485.16,0 582.5,0 582.5,0 582.5,0 1180.5,0 1209.86,0 1242.54,-8.36 1264.89,-15.41"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="301.55,-21.62 292.4,-26.96 302.88,-28.49 301.55,-21.62"/>
-<text text-anchor="middle" x="932.5" y="-47" font-family="Helvetica,sans-Serif" font-size="10.00"> m_context</text>
-<text text-anchor="middle" x="932.5" y="-36" font-family="Helvetica,sans-Serif" font-size="10.00">m_exampleFile</text>
-<text text-anchor="middle" x="932.5" y="-25" font-family="Helvetica,sans-Serif" font-size="10.00">m_includeFileName</text>
-<text text-anchor="middle" x="932.5" y="-14" font-family="Helvetica,sans-Serif" font-size="10.00">m_pattern</text>
-<text text-anchor="middle" x="932.5" y="-3" font-family="Helvetica,sans-Serif" font-size="10.00">m_text</text>
+<text text-anchor="middle" x="932.5" y="-47" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_context</text>
+<text text-anchor="middle" x="932.5" y="-36" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_exampleFile</text>
+<text text-anchor="middle" x="932.5" y="-25" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_includeFileName</text>
+<text text-anchor="middle" x="932.5" y="-14" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_pattern</text>
+<text text-anchor="middle" x="932.5" y="-3" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_text</text>
 </g>
 <!-- Node7&#45;&gt;Node5 -->
 <g id="edge6" class="edge">
 <title>Node7&#45;&gt;Node5</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M277.14,-50.6C294.67,-71.74 327.26,-106.32 364,-122 478.43,-170.85 521.33,-118.97 643,-145 698.09,-156.79 759.76,-181.66 791.51,-195.39"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="279.78,-48.3 270.78,-42.71 274.33,-52.69 279.78,-48.3"/>
-<text text-anchor="middle" x="583.5" y="-214" font-family="Helvetica,sans-Serif" font-size="10.00"> context</text>
-<text text-anchor="middle" x="583.5" y="-203" font-family="Helvetica,sans-Serif" font-size="10.00">exampleName</text>
-<text text-anchor="middle" x="583.5" y="-192" font-family="Helvetica,sans-Serif" font-size="10.00">fileName</text>
-<text text-anchor="middle" x="583.5" y="-181" font-family="Helvetica,sans-Serif" font-size="10.00">includeFileName</text>
-<text text-anchor="middle" x="583.5" y="-170" font-family="Helvetica,sans-Serif" font-size="10.00">includeFileText</text>
-<text text-anchor="middle" x="583.5" y="-159" font-family="Helvetica,sans-Serif" font-size="10.00">relPath</text>
-<text text-anchor="middle" x="583.5" y="-148" font-family="Helvetica,sans-Serif" font-size="10.00">searchUrl</text>
+<text text-anchor="middle" x="583.5" y="-214" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> context</text>
+<text text-anchor="middle" x="583.5" y="-203" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">exampleName</text>
+<text text-anchor="middle" x="583.5" y="-192" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">fileName</text>
+<text text-anchor="middle" x="583.5" y="-181" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">includeFileName</text>
+<text text-anchor="middle" x="583.5" y="-170" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">includeFileText</text>
+<text text-anchor="middle" x="583.5" y="-159" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">relPath</text>
+<text text-anchor="middle" x="583.5" y="-148" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">searchUrl</text>
 </g>
 <!-- Node13 -->
 <g id="node13" class="node">
@@ -157,14 +157,14 @@
 <title>Node7&#45;&gt;Node13</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M302.18,-25.98C351.04,-18.72 437.08,-11.31 506,-34 533.83,-43.16 559.94,-66.66 573.27,-80.12"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="301.38,-22.57 292.04,-27.57 302.46,-29.48 301.38,-22.57"/>
-<text text-anchor="middle" x="435" y="-114" font-family="Helvetica,sans-Serif" font-size="10.00"> attribsStr</text>
-<text text-anchor="middle" x="435" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">chars</text>
-<text text-anchor="middle" x="435" y="-92" font-family="Helvetica,sans-Serif" font-size="10.00">name</text>
-<text text-anchor="middle" x="435" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">sectionId</text>
-<text text-anchor="middle" x="435" y="-70" font-family="Helvetica,sans-Serif" font-size="10.00">simpleSectName</text>
-<text text-anchor="middle" x="435" y="-59" font-family="Helvetica,sans-Serif" font-size="10.00">simpleSectText</text>
-<text text-anchor="middle" x="435" y="-48" font-family="Helvetica,sans-Serif" font-size="10.00">text</text>
-<text text-anchor="middle" x="435" y="-37" font-family="Helvetica,sans-Serif" font-size="10.00">verb</text>
+<text text-anchor="middle" x="435" y="-114" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> attribsStr</text>
+<text text-anchor="middle" x="435" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">chars</text>
+<text text-anchor="middle" x="435" y="-92" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">name</text>
+<text text-anchor="middle" x="435" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">sectionId</text>
+<text text-anchor="middle" x="435" y="-70" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">simpleSectName</text>
+<text text-anchor="middle" x="435" y="-59" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">simpleSectText</text>
+<text text-anchor="middle" x="435" y="-48" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">text</text>
+<text text-anchor="middle" x="435" y="-37" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">verb</text>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
@@ -181,8 +181,8 @@
 <title>Node8&#45;&gt;Node5</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M623.07,-226.9C634.96,-221.83 648.27,-216.95 661,-214 693.96,-206.36 731.96,-204.11 761.72,-203.77"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="621.6,-223.72 613.88,-230.97 624.44,-230.12 621.6,-223.72"/>
-<text text-anchor="middle" x="702.5" y="-228" font-family="Helvetica,sans-Serif" font-size="10.00"> initialStyleStack</text>
-<text text-anchor="middle" x="702.5" y="-217" font-family="Helvetica,sans-Serif" font-size="10.00">styleStack</text>
+<text text-anchor="middle" x="702.5" y="-228" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> initialStyleStack</text>
+<text text-anchor="middle" x="702.5" y="-217" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">styleStack</text>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node">
@@ -215,7 +215,7 @@
 <title>Node10&#45;&gt;Node8</title>
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M354.41,-262.45C408.83,-258.52 476.41,-253.65 523.83,-250.23"/>
 <polygon fill="orange" stroke="orange" points="354.13,-258.96 344.41,-263.17 354.64,-265.94 354.13,-258.96"/>
-<text text-anchor="middle" x="435" y="-264" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; const DocNodeVariant * &gt;</text>
+<text text-anchor="middle" x="435" y="-264" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; const DocNodeVariant * &gt;</text>
 </g>
 <!-- Node11 -->
 <g id="node11" class="node">
@@ -238,14 +238,14 @@
 <title>Node12&#45;&gt;Node5</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M623.84,-276.29C630.25,-274.2 636.81,-272.05 643,-270 687.97,-255.13 699.9,-253.28 744,-236 760.75,-229.44 779.33,-221.02 792.99,-214.61"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="622.41,-273.07 613.98,-279.49 624.57,-279.73 622.41,-273.07"/>
-<text text-anchor="middle" x="702.5" y="-266" font-family="Helvetica,sans-Serif" font-size="10.00"> memberDef</text>
+<text text-anchor="middle" x="702.5" y="-266" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> memberDef</text>
 </g>
 <!-- Node13&#45;&gt;Node5 -->
 <g id="edge13" class="edge">
 <title>Node13&#45;&gt;Node5</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M625.13,-84.03C660.6,-81.2 711.38,-83.24 744,-111 765.2,-129.04 745.44,-148.62 762,-171 769.72,-181.44 781.67,-189.65 792.06,-195.38"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="624.72,-80.56 615.1,-84.99 625.39,-87.52 624.72,-80.56"/>
-<text text-anchor="middle" x="702.5" y="-114" font-family="Helvetica,sans-Serif" font-size="10.00"> token</text>
+<text text-anchor="middle" x="702.5" y="-114" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> token</text>
 </g>
 <!-- Node14 -->
 <g id="node14" class="node">
@@ -261,7 +261,7 @@
 <title>Node14&#45;&gt;Node13</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M315.24,-165.99C365.52,-161.66 443.26,-151.18 506,-126 514.92,-122.42 515.51,-118.51 524,-114 534.18,-108.59 545.85,-103.58 556.07,-99.55"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="314.94,-162.51 305.25,-166.8 315.5,-169.48 314.94,-162.51"/>
-<text text-anchor="middle" x="435" y="-163" font-family="Helvetica,sans-Serif" font-size="10.00"> attribs</text>
+<text text-anchor="middle" x="435" y="-163" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> attribs</text>
 </g>
 <!-- Node15 -->
 <g id="node15" class="node">
@@ -292,7 +292,7 @@
 <title>Node16&#45;&gt;Node3</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M864.9,-147.52C898.05,-144.03 942.41,-138.35 981,-130 987.85,-128.52 995.12,-126.55 1001.91,-124.52"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="864.14,-144.08 854.55,-148.58 864.86,-151.05 864.14,-144.08"/>
-<text text-anchor="middle" x="932.5" y="-148" font-family="Helvetica,sans-Serif" font-size="10.00"> tokenizer</text>
+<text text-anchor="middle" x="932.5" y="-148" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> tokenizer</text>
 </g>
 <!-- Node17 -->
 <g id="node17" class="node">
@@ -308,7 +308,7 @@
 <title>Node17&#45;&gt;Node3</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M873.1,-115C913.55,-115 965.94,-115 998.89,-115"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="873.09,-111.5 863.09,-115 873.09,-118.5 873.09,-111.5"/>
-<text text-anchor="middle" x="932.5" y="-118" font-family="Helvetica,sans-Serif" font-size="10.00"> searchData</text>
+<text text-anchor="middle" x="932.5" y="-118" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> searchData</text>
 </g>
 </g>
 </svg>

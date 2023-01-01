@@ -46,7 +46,7 @@
 <title>Node3&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M190,-66.52C190,-51.24 190,-30.48 190,-19"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="186.5,-66.9 190,-76.9 193.5,-66.9 186.5,-66.9"/>
-<text text-anchor="middle" x="201" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00"> m_t</text>
+<text text-anchor="middle" x="201" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_t</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -62,8 +62,8 @@
 <title>Node4&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M256.65,-70.01C239.34,-54.55 213.38,-31.38 199.52,-19"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="254.57,-72.85 264.36,-76.9 259.24,-67.63 254.57,-72.85"/>
-<text text-anchor="middle" x="271" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00"> m_dir</text>
-<text text-anchor="middle" x="271" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00">m_fileName</text>
+<text text-anchor="middle" x="271" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_dir</text>
+<text text-anchor="middle" x="271" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_fileName</text>
 </g>
 </g>
 </svg>

@@ -32,7 +32,7 @@
 <title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M568.25,-138.26C605.34,-129.41 661.94,-115.91 705.52,-105.52"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="567.24,-134.9 558.33,-140.62 568.87,-141.71 567.24,-134.9"/>
-<text text-anchor="middle" x="659" y="-123.5" font-family="Helvetica,sans-Serif" font-size="10.00"> m_node</text>
+<text text-anchor="middle" x="659" y="-123.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_node</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -48,9 +48,9 @@
 <title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M210.55,-181.69C259.72,-178 346.74,-171 421,-162.5 447.34,-159.49 477.23,-155.2 498.62,-151.98"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="210.08,-178.21 200.36,-182.44 210.59,-185.19 210.08,-178.21"/>
-<text text-anchor="middle" x="339.5" y="-202.5" font-family="Helvetica,sans-Serif" font-size="10.00"> m_label</text>
-<text text-anchor="middle" x="339.5" y="-191.5" font-family="Helvetica,sans-Serif" font-size="10.00">m_tooltip</text>
-<text text-anchor="middle" x="339.5" y="-180.5" font-family="Helvetica,sans-Serif" font-size="10.00">m_url</text>
+<text text-anchor="middle" x="339.5" y="-202.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_label</text>
+<text text-anchor="middle" x="339.5" y="-191.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_tooltip</text>
+<text text-anchor="middle" x="339.5" y="-180.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_url</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -66,7 +66,7 @@
 <title>Node4&#45;&gt;Node2</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M210.69,-147.5C282.95,-147.5 435.57,-147.5 498.96,-147.5"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="210.63,-144 200.63,-147.5 210.63,-151 210.63,-144"/>
-<text text-anchor="middle" x="339.5" y="-150.5" font-family="Helvetica,sans-Serif" font-size="10.00"> m_classDef</text>
+<text text-anchor="middle" x="339.5" y="-150.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_classDef</text>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
@@ -99,7 +99,7 @@
 <title>Node6&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M628.36,-90.5C652.37,-90.5 677.52,-90.5 699.78,-90.5"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="628.16,-87 618.16,-90.5 628.16,-94 628.16,-87"/>
-<text text-anchor="middle" x="659" y="-93.5" font-family="Helvetica,sans-Serif" font-size="10.00"> m_graph</text>
+<text text-anchor="middle" x="659" y="-93.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_graph</text>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
@@ -115,7 +115,7 @@
 <title>Node7&#45;&gt;Node6</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M229,-107.27C285.74,-104.08 373.28,-99.16 438.91,-95.48"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="228.56,-103.79 218.77,-107.84 228.95,-110.78 228.56,-103.79"/>
-<text text-anchor="middle" x="339.5" y="-107.5" font-family="Helvetica,sans-Serif" font-size="10.00"> m_item</text>
+<text text-anchor="middle" x="339.5" y="-107.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_item</text>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
@@ -132,9 +132,9 @@
 <title>Node8&#45;&gt;Node6</title>
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M250.5,-50.8C299.8,-49.8 364.42,-50.85 421,-59.5 436.23,-61.83 452.34,-65.73 467.29,-69.99"/>
 <polygon fill="orange" stroke="orange" points="250.13,-47.31 240.22,-51.05 250.3,-54.31 250.13,-47.31"/>
-<text text-anchor="start" x="258" y="-84.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; TemplateVariant,</text>
-<text text-anchor="start" x="258" y="-73.5" font-family="Helvetica,sans-Serif" font-size="10.00"> InheritanceGraphContext</text>
-<text text-anchor="middle" x="339.5" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Private,&amp;Private::createGraph &gt;</text>
+<text text-anchor="start" x="258" y="-84.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; TemplateVariant,</text>
+<text text-anchor="start" x="258" y="-73.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> InheritanceGraphContext</text>
+<text text-anchor="middle" x="339.5" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">::Private,&amp;Private::createGraph &gt;</text>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node">
@@ -151,7 +151,7 @@
 <title>Node9&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M588.9,-36.4C628.73,-48.39 680.59,-64.02 718.34,-75.39"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="589.9,-33.04 579.31,-33.51 587.88,-39.74 589.9,-33.04"/>
-<text text-anchor="middle" x="659" y="-65.5" font-family="Helvetica,sans-Serif" font-size="10.00"> s_inst</text>
+<text text-anchor="middle" x="659" y="-65.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> s_inst</text>
 </g>
 <!-- Node10 -->
 <g id="node10" class="node">
@@ -167,8 +167,8 @@
 <title>Node10&#45;&gt;Node9</title>
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M234.2,-8.52C284.67,-8.03 357.43,-7.99 421,-10.5 432.3,-10.95 444.26,-11.63 455.93,-12.42"/>
 <polygon fill="orange" stroke="orange" points="234.05,-5.02 224.09,-8.63 234.13,-12.02 234.05,-5.02"/>
-<text text-anchor="start" x="271" y="-24.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; InheritanceGraphContext</text>
-<text text-anchor="middle" x="339.5" y="-13.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Private &gt;</text>
+<text text-anchor="start" x="271" y="-24.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; InheritanceGraphContext</text>
+<text text-anchor="middle" x="339.5" y="-13.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">::Private &gt;</text>
 </g>
 </g>
 </svg>

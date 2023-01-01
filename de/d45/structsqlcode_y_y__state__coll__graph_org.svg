@@ -31,7 +31,7 @@
 <title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M74.98,-82.37C90.19,-68.37 114.37,-48.35 139,-37 162.41,-26.21 190.37,-19.74 213.72,-15.89"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="72.36,-80.02 67.5,-89.43 77.17,-85.11 72.36,-80.02"/>
-<text text-anchor="middle" x="152.5" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00"> code</text>
+<text text-anchor="middle" x="152.5" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> code</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -47,9 +47,9 @@
 <title>Node3&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M167.41,-79.26C169.37,-65.88 174.01,-48.32 185,-37 193.08,-28.68 203.88,-22.97 214.83,-19.06"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="163.92,-78.97 166.32,-89.29 170.88,-79.72 163.92,-78.97"/>
-<text text-anchor="middle" x="221.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00"> classScope</text>
-<text text-anchor="middle" x="221.5" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00">exampleName</text>
-<text text-anchor="middle" x="221.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00">fileName</text>
+<text text-anchor="middle" x="221.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> classScope</text>
+<text text-anchor="middle" x="221.5" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">exampleName</text>
+<text text-anchor="middle" x="221.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">fileName</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -65,8 +65,8 @@
 <title>Node4&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M384.21,-141.68C420.75,-119.12 482.54,-73.27 451,-37 433.12,-16.44 360.18,-11.36 310.32,-10.35"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="382.3,-138.74 375.53,-146.89 385.91,-144.74 382.3,-138.74"/>
-<text text-anchor="middle" x="491.5" y="-102" font-family="Helvetica,sans-Serif" font-size="10.00"> currentDefinition</text>
-<text text-anchor="middle" x="491.5" y="-91" font-family="Helvetica,sans-Serif" font-size="10.00">searchCtx</text>
+<text text-anchor="middle" x="491.5" y="-102" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> currentDefinition</text>
+<text text-anchor="middle" x="491.5" y="-91" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">searchCtx</text>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
@@ -103,7 +103,7 @@
 <title>Node5&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M262,-79.09C262,-60.52 262,-33.04 262,-19.17"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="258.5,-79.29 262,-89.29 265.5,-79.29 258.5,-79.29"/>
-<text text-anchor="middle" x="297" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00"> sourceFileDef</text>
+<text text-anchor="middle" x="297" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> sourceFileDef</text>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
@@ -125,7 +125,7 @@
 <title>Node7&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M353.83,-79.27C350.67,-65.9 344.54,-48.34 333,-37 324.55,-28.7 313.27,-22.96 302.19,-19.01"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="350.44,-80.18 355.85,-89.29 357.31,-78.8 350.44,-80.18"/>
-<text text-anchor="middle" x="399" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00"> currentMemberDef</text>
+<text text-anchor="middle" x="399" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> currentMemberDef</text>
 </g>
 </g>
 </svg>

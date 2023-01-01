@@ -8,6 +8,6 @@ digraph "PageLinkedRefMap"
   Node1 [label="PageLinkedRefMap",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
   Node2 -> Node1 [dir="back",color="steelblue1",style="solid"];
   Node2 [label="LinkedRefMap\< const\l PageDef \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d2/db7/class_linked_ref_map.html",tooltip=" "];
-  Node3 -> Node2 [dir="back",color="orange",style="dashed",label=" \< const PageDef \>" ];
+  Node3 -> Node2 [dir="back",color="orange",style="dashed",label=" \< const PageDef \>",fontcolor="grey" ];
   Node3 [label="LinkedRefMap\< T, Hash,\l KeyEqual, Map \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d2/db7/class_linked_ref_map.html",tooltip="Container class representing a vector of objects with keys."];
 }

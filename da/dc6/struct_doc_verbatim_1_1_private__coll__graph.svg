@@ -31,15 +31,15 @@
 <title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M24.73,-143.99C19.16,-118.25 12.91,-70.97 31.5,-37 35.74,-29.25 43.33,-23.38 50.76,-19.15"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="21.36,-144.97 27.07,-153.9 28.18,-143.36 21.36,-144.97"/>
-<text text-anchor="middle" x="62" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00"> context</text>
-<text text-anchor="middle" x="62" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">engine</text>
-<text text-anchor="middle" x="62" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00">exampleFile</text>
-<text text-anchor="middle" x="62" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">height</text>
-<text text-anchor="middle" x="62" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">lang</text>
-<text text-anchor="middle" x="62" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">relPath</text>
-<text text-anchor="middle" x="62" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">srcFile</text>
-<text text-anchor="middle" x="62" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00">text</text>
-<text text-anchor="middle" x="62" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00">width</text>
+<text text-anchor="middle" x="62" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> context</text>
+<text text-anchor="middle" x="62" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">engine</text>
+<text text-anchor="middle" x="62" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">exampleFile</text>
+<text text-anchor="middle" x="62" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">height</text>
+<text text-anchor="middle" x="62" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">lang</text>
+<text text-anchor="middle" x="62" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">relPath</text>
+<text text-anchor="middle" x="62" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">srcFile</text>
+<text text-anchor="middle" x="62" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">text</text>
+<text text-anchor="middle" x="62" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">width</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -55,7 +55,7 @@
 <title>Node3&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M115.7,-143.81C114.01,-118.52 108.76,-72.5 92.5,-37 89.47,-30.38 84.45,-23.96 80.07,-19.09"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="112.21,-144.06 116.25,-153.85 119.2,-143.68 112.21,-144.06"/>
-<text text-anchor="middle" x="136" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00"> children</text>
+<text text-anchor="middle" x="136" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> children</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -86,7 +86,7 @@
 <title>Node5&#45;&gt;Node4</title>
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M116.5,-265.58C116.5,-253.63 116.5,-238.72 116.5,-229.41"/>
 <polygon fill="orange" stroke="orange" points="113,-265.87 116.5,-275.87 120,-265.87 113,-265.87"/>
-<text text-anchor="middle" x="169" y="-250" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; DocNodeVariant &gt;</text>
+<text text-anchor="middle" x="169" y="-250" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; DocNodeVariant &gt;</text>
 </g>
 </g>
 </svg>

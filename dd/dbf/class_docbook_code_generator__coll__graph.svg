@@ -46,7 +46,7 @@
 <title>Node3&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M172,-88.68C172,-67.74 172,-34.81 172,-19.23"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="168.5,-88.89 172,-98.89 175.5,-88.89 168.5,-88.89"/>
-<text text-anchor="middle" x="183" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00"> m_t</text>
+<text text-anchor="middle" x="183" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_t</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -62,10 +62,10 @@
 <title>Node4&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M242.74,-90.55C231.24,-76.05 213.97,-54.77 198,-37 192.49,-30.86 185.99,-24.24 180.86,-19.15"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="240.16,-92.92 249.1,-98.61 245.65,-88.59 240.16,-92.92"/>
-<text text-anchor="middle" x="281" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00"> m_external</text>
-<text text-anchor="middle" x="281" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">m_refId</text>
-<text text-anchor="middle" x="281" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00">m_relPath</text>
-<text text-anchor="middle" x="281" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00">m_sourceFileName</text>
+<text text-anchor="middle" x="281" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_external</text>
+<text text-anchor="middle" x="281" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_refId</text>
+<text text-anchor="middle" x="281" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_relPath</text>
+<text text-anchor="middle" x="281" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_sourceFileName</text>
 </g>
 </g>
 </svg>
