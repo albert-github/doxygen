@@ -62,4 +62,18 @@ digraph "/home/runner/work/doxygen/doxygen/src/docnode.h"
   Node21 -> Node7 [color="steelblue1",style="solid"];
   Node21 -> Node6 [color="steelblue1",style="solid"];
   Node1 -> Node18 [color="steelblue1",style="solid"];
+  Node1 -> Node23 [color="steelblue1",style="solid"];
+  Node23 [label="section.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d2a/section_8h.html",tooltip=" "];
+  Node23 -> Node7 [color="steelblue1",style="solid"];
+  Node23 -> Node22 [color="steelblue1",style="solid"];
+  Node23 -> Node6 [color="steelblue1",style="solid"];
+  Node23 -> Node24 [color="steelblue1",style="solid"];
+  Node24 [label="linkedmap.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/de1/linkedmap_8h.html",tooltip=" "];
+  Node24 -> Node22 [color="steelblue1",style="solid"];
+  Node24 -> Node3 [color="steelblue1",style="solid"];
+  Node24 -> Node4 [color="steelblue1",style="solid"];
+  Node24 -> Node7 [color="steelblue1",style="solid"];
+  Node24 -> Node8 [color="steelblue1",style="solid"];
+  Node24 -> Node9 [color="steelblue1",style="solid"];
+  Node24 -> Node6 [color="steelblue1",style="solid"];
 }
