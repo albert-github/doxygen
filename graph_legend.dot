@@ -18,8 +18,8 @@ digraph "Graph Legend"
   Node15 [label="Undocumented",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
   Node16 -> Node9 [dir="back",color="steelblue1",style="solid"];
   Node16 [label="Templ\< int \>",color="gray40",fillcolor="white",style="filled"];
-  Node17 -> Node16 [dir="back",color="orange",style="dashed",label="< int >",];
+  Node17 -> Node16 [dir="back",color="orange",style="dashed",label="< int >",fontcolor="grey"];
   Node17 [label="Templ\< T \>",color="gray40",fillcolor="white",style="filled"];
-  Node18 -> Node9 [dir="back",color="darkorchid3",style="dashed",label="m_usedClass",];
+  Node18 -> Node9 [dir="back",color="darkorchid3",style="dashed",label="m_usedClass",fontcolor="grey"];
   Node18 [label="Used",color="gray40",fillcolor="white",style="filled"];
 }
