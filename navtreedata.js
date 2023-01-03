@@ -207,12 +207,12 @@ var NAVTREEINDEX =
 "df/d1b/struct_symbol_modifiers.html#a3e997f886dd5832f1f8ae64aadca020c",
 "df/d20/class_translator_vietnamese.html#ae5e6d592bbe59c3af7acd83bbcfe79a2",
 "df/d2d/util_8cpp.html#a2a3368111f86b401c8f223cd7374b5ac",
-"df/d4b/class_v_h_d_l_outline_parser.html#afed30c38099a7370ae59ee670b7dc5e4",
-"df/d75/class_translator_greek.html#a7570d2ce3b530c2719b53bf4e1de6607",
-"df/dba/class_namespace_members_index_context_1_1_private.html#a9ef9fb2e9e44a1ca7a727c9a15055a90",
-"df/dc8/class_translator_indonesian.html#a065aa7fed09b047868c83c26eba73d4c",
-"df/dda/class_member_list_context.html#a8d2478d596e9e6ea2e9339d5ee6544d7",
-"globals_defs_t.html"
+"df/d4b/class_v_h_d_l_outline_parser.html#afe98061778ab170da03108ad813fa2e2",
+"df/d75/class_translator_greek.html#a7400c120d03d10a5093fe457892b09aa",
+"df/dba/class_namespace_members_index_context_1_1_private.html#a9a23d5c92e8b77e17b1b8fd84d26669b",
+"df/dc8/class_translator_indonesian.html#a050dc79ac095dd5dfc64f1c2698fef4d",
+"df/dda/class_member_list_context.html#a8456904003f82fa0c3d41fc1a67598f4",
+"globals_defs_s.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

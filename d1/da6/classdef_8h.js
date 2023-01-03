@@ -14,7 +14,7 @@ var classdef_8h =
     [ "TemplateNameMap", "d1/da6/classdef_8h.html#a52c06547a303385be1dc01559096a3d9", null ],
     [ "classHasVisibleChildren", "d1/da6/classdef_8h.html#af0c88e52d4d7424c0840a23a522dc330", null ],
     [ "classHasVisibleRoot", "d1/da6/classdef_8h.html#aa17b12d6a1e62b6d01659a5c9857aa4e", null ],
-    [ "classInheritedProtectionLevel", "d1/da6/classdef_8h.html#a1c8b5464000c08445cd8b953bf217fcd", null ],
+    [ "classInheritedProtectionLevel", "d1/da6/classdef_8h.html#a209eb83ec485fc8bcb9b918e6a78beb0", null ],
     [ "classVisibleInIndex", "d1/da6/classdef_8h.html#abf9fad8d7ee7f78e152b542bcd38061d", null ],
     [ "createClassDef", "d1/da6/classdef_8h.html#a1a3c0b17bfb52e5b9a800b62386fdb90", null ],
     [ "createClassDefAlias", "d1/da6/classdef_8h.html#afb364ad10f2478640e415534f8cd23c3", null ],

@@ -7,7 +7,7 @@ var class_dot_node =
     ] ],
     [ "DotNode", "dd/d7e/class_dot_node.html#a8f3784a3c239c0675a064c1de994daee", null ],
     [ "~DotNode", "dd/d7e/class_dot_node.html#a8255849e01faa55e877c8f0235a8de3e", null ],
-    [ "addChild", "dd/d7e/class_dot_node.html#a3bb31751a32b209c613ac8edf7168d3f", null ],
+    [ "addChild", "dd/d7e/class_dot_node.html#ac54555a412724c31181a40a50213e38e", null ],
     [ "addParent", "dd/d7e/class_dot_node.html#a98f7fc0d1caa3e53622039e86903b04e", null ],
     [ "children", "dd/d7e/class_dot_node.html#ad8b1f38e1403f73fc4f8745b5fbe00c9", null ],
     [ "clearWriteFlag", "dd/d7e/class_dot_node.html#a27692f33c86a577ad85ab7176539d4de", null ],

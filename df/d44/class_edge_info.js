@@ -13,11 +13,12 @@ var class_edge_info =
       [ "Solid", "df/d44/class_edge_info.html#a4fe2d2921d0f51d84da1bf48b3b4f2c5a26f6a09cd44415e9be80ccabf5195989", null ],
       [ "Dashed", "df/d44/class_edge_info.html#a4fe2d2921d0f51d84da1bf48b3b4f2c5a96c6ed866d802acef7582691e8230b63", null ]
     ] ],
-    [ "EdgeInfo", "df/d44/class_edge_info.html#a08e81151f399a54205185eb0780bd56f", null ],
+    [ "EdgeInfo", "df/d44/class_edge_info.html#adfa2c8dd78e6e72e6555a27240220bb9", null ],
     [ "~EdgeInfo", "df/d44/class_edge_info.html#ac1563ffa6c9641e5510503aa2e46f7a1", null ],
     [ "color", "df/d44/class_edge_info.html#a9aa86c737a1f46a55567ee172b5a07c9", null ],
     [ "label", "df/d44/class_edge_info.html#abeb235190964a4b359ff9dc1970fb327", null ],
     [ "labelColor", "df/d44/class_edge_info.html#a67e135337865bbc694d1bb42bf73afc0", null ],
+    [ "protectionToColor", "df/d44/class_edge_info.html#a8988355568d7d2f2fe1b876be67bac92", null ],
     [ "style", "df/d44/class_edge_info.html#a534c4e3b34bb87d6077fc1cb398dd121", null ],
     [ "url", "df/d44/class_edge_info.html#a38c4ef0172263c5a568eaef9ca213c7f", null ],
     [ "m_color", "df/d44/class_edge_info.html#a67f74484abac64da6f84291550232430", null ],

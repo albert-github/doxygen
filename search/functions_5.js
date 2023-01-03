@@ -2,8 +2,8 @@ var searchData=
 [
   ['eclipsehelp_0',['EclipseHelp',['../db/dd3/class_eclipse_help.html#a4a64240a6a034c8a20a7029e9b76ffd1',1,'EclipseHelp::EclipseHelp(EclipseHelp &amp;&amp;)'],['../db/dd3/class_eclipse_help.html#a4f1bd0f9c58507da2b24c9491200bf8a',1,'EclipseHelp::EclipseHelp()']]],
   ['edge_1',['Edge',['../d8/d48/struct_dot_group_collaboration_1_1_edge.html#a72ac56ac966b6ab1f983c728e99f9608',1,'DotGroupCollaboration::Edge']]],
-  ['edgeinfo_2',['EdgeInfo',['../df/d44/class_edge_info.html#a08e81151f399a54205185eb0780bd56f',1,'EdgeInfo']]],
-  ['edgeinfo_3',['edgeInfo',['../dd/d7e/class_dot_node.html#a323a0f1b9913242153ef1f84abb05a60',1,'DotNode']]],
+  ['edgeinfo_2',['edgeInfo',['../dd/d7e/class_dot_node.html#a323a0f1b9913242153ef1f84abb05a60',1,'DotNode']]],
+  ['edgeinfo_3',['EdgeInfo',['../df/d44/class_edge_info.html#adfa2c8dd78e6e72e6555a27240220bb9',1,'EdgeInfo']]],
   ['elapsedtime_4',['elapsedTime',['../da/d7d/class_debug.html#accc1a68a6e51b015caee0ab90ddb6e87',1,'Debug::elapsedTime()'],['../d2/d23/class_sys_time_keeper.html#a4f6d6e92f23a8bc80ef6ec257295f101',1,'SysTimeKeeper::elapsedTime()']]],
   ['elapsedtimes_5',['elapsedTimeS',['../d8/d08/class_timer.html#a9b89127c8224e7fb787da4f11ef8d364',1,'Timer']]],
   ['element_5fassociation_6',['element_association',['../de/d32/classvhdl_1_1parser_1_1_vhdl_parser.html#a9c5f305334681d97dec259d7d43ce38a',1,'vhdl::parser::VhdlParser']]],

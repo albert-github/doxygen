@@ -2,7 +2,7 @@ var class_dot_class_graph =
 [
     [ "DotClassGraph", "df/d1c/class_dot_class_graph.html#a53601818c690d945d05a971b506bb5df", null ],
     [ "~DotClassGraph", "df/d1c/class_dot_class_graph.html#a0b61a10dee46f6b05575aa3d1b6c8800", null ],
-    [ "addClass", "df/d1c/class_dot_class_graph.html#aad9770d8e4560701e46a10fd263ce87d", null ],
+    [ "addClass", "df/d1c/class_dot_class_graph.html#aab4159501d3dc8a968c4db08dcfc1863", null ],
     [ "buildGraph", "df/d1c/class_dot_class_graph.html#acda218b5772f482d137ab17020b96431", null ],
     [ "computeTheGraph", "df/d1c/class_dot_class_graph.html#a57ab62048bac98a787cefe8d46faa035", null ],
     [ "determineTruncatedNodes", "df/d1c/class_dot_class_graph.html#a94ed71ea8772865ed1f494bcedbb9b9f", null ],

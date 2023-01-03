@@ -92,6 +92,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/dotclassgraph.cpp"
   Node29 [label="deque",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
   Node28 -> Node30 [color="steelblue1",style="solid"];
   Node30 [label="iostream",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node28 -> Node15 [color="steelblue1",style="solid"];
   Node28 -> Node31 [color="steelblue1",style="solid"];
   Node31 [label="dotgraph.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/daa/dotgraph_8h.html",tooltip=" "];
   Node31 -> Node30 [color="steelblue1",style="solid"];

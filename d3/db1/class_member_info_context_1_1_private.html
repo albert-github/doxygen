@@ -372,10 +372,10 @@ Static Private Attributes</h2></td></tr>
 <div class="fragment"><div class="line"><span class="lineno"> 7644</span>    {</div>
 <div class="line"><span class="lineno"> 7645</span>      <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../d3/db1/class_member_info_context_1_1_private.html#ae5d962acd6f2d7589b44162d1ec99b65">m_memberInfo</a>-&gt;<a class="code hl_function" href="../../d5/d86/class_member_info.html#a187ccf5fe57645f5e9d5461f58c24511">prot</a>())</div>
 <div class="line"><span class="lineno"> 7646</span>      {</div>
-<div class="line"><span class="lineno"> 7647</span>        case ::Public:    <span class="keywordflow">return</span> <span class="stringliteral">&quot;public&quot;</span>;</div>
-<div class="line"><span class="lineno"> 7648</span>        case ::Protected: <span class="keywordflow">return</span> <span class="stringliteral">&quot;protected&quot;</span>;</div>
-<div class="line"><span class="lineno"> 7649</span>        case ::Private:   <span class="keywordflow">return</span> <span class="stringliteral">&quot;private&quot;</span>;</div>
-<div class="line"><span class="lineno"> 7650</span>        case ::Package:   <span class="keywordflow">return</span> <span class="stringliteral">&quot;package&quot;</span>;</div>
+<div class="line"><span class="lineno"> 7647</span>        <span class="keywordflow">case</span> Protection::Public:    <span class="keywordflow">return</span> <span class="stringliteral">&quot;public&quot;</span>;</div>
+<div class="line"><span class="lineno"> 7648</span>        <span class="keywordflow">case</span> Protection::Protected: <span class="keywordflow">return</span> <span class="stringliteral">&quot;protected&quot;</span>;</div>
+<div class="line"><span class="lineno"> 7649</span>        <span class="keywordflow">case</span> Protection::Private:   <span class="keywordflow">return</span> <span class="stringliteral">&quot;private&quot;</span>;</div>
+<div class="line"><span class="lineno"> 7650</span>        <span class="keywordflow">case</span> Protection::Package:   <span class="keywordflow">return</span> <span class="stringliteral">&quot;package&quot;</span>;</div>
 <div class="line"><span class="lineno"> 7651</span>      }</div>
 <div class="line"><span class="lineno"> 7652</span>      <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
 <div class="line"><span class="lineno"> 7653</span>    }</div>
@@ -412,9 +412,9 @@ Static Private Attributes</h2></td></tr>
 <div class="fragment"><div class="line"><span class="lineno"> 7655</span>    {</div>
 <div class="line"><span class="lineno"> 7656</span>      <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../d3/db1/class_member_info_context_1_1_private.html#ae5d962acd6f2d7589b44162d1ec99b65">m_memberInfo</a>-&gt;<a class="code hl_function" href="../../d5/d86/class_member_info.html#a9a0e0751232b7abff3d4a5ae0368a4de">virt</a>())</div>
 <div class="line"><span class="lineno"> 7657</span>      {</div>
-<div class="line"><span class="lineno"> 7658</span>        case ::Normal:   <span class="keywordflow">return</span> <span class="stringliteral">&quot;normal&quot;</span>;</div>
-<div class="line"><span class="lineno"> 7659</span>        case ::Virtual:  <span class="keywordflow">return</span> <span class="stringliteral">&quot;virtual&quot;</span>;</div>
-<div class="line"><span class="lineno"> 7660</span>        case ::Pure:     <span class="keywordflow">return</span> <span class="stringliteral">&quot;pure&quot;</span>;</div>
+<div class="line"><span class="lineno"> 7658</span>        <span class="keywordflow">case</span> Specifier::Normal:   <span class="keywordflow">return</span> <span class="stringliteral">&quot;normal&quot;</span>;</div>
+<div class="line"><span class="lineno"> 7659</span>        <span class="keywordflow">case</span> Specifier::Virtual:  <span class="keywordflow">return</span> <span class="stringliteral">&quot;virtual&quot;</span>;</div>
+<div class="line"><span class="lineno"> 7660</span>        <span class="keywordflow">case</span> Specifier::Pure:     <span class="keywordflow">return</span> <span class="stringliteral">&quot;pure&quot;</span>;</div>
 <div class="line"><span class="lineno"> 7661</span>      }</div>
 <div class="line"><span class="lineno"> 7662</span>      <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
 <div class="line"><span class="lineno"> 7663</span>    }</div>

@@ -15,9 +15,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/dotnode.h"
   Node1 -> Node5 [color="steelblue1",style="solid"];
   Node5 [label="iostream",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
   Node1 -> Node6 [color="steelblue1",style="solid"];
-  Node6 [label="dotgraph.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/daa/dotgraph_8h.html",tooltip=" "];
-  Node6 -> Node5 [color="steelblue1",style="solid"];
-  Node6 -> Node3 [color="steelblue1",style="solid"];
+  Node6 [label="types.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d49/types_8h.html",tooltip="This file contains a number of basic enums and types."];
   Node6 -> Node7 [color="steelblue1",style="solid"];
   Node7 [label="qcstring.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d5c/qcstring_8h.html",tooltip=" "];
   Node7 -> Node8 [color="steelblue1",style="solid"];
@@ -40,12 +38,17 @@ digraph "/home/runner/work/doxygen/doxygen/src/dotnode.h"
   Node16 [label="utf8.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d7c/utf8_8h.html",tooltip="Various UTF8 related helper functions."];
   Node16 -> Node14 [color="steelblue1",style="solid"];
   Node16 -> Node8 [color="steelblue1",style="solid"];
-  Node6 -> Node17 [color="steelblue1",style="solid"];
-  Node17 [label="dir.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d9c/dir_8h.html",tooltip=" "];
-  Node17 -> Node8 [color="steelblue1",style="solid"];
+  Node1 -> Node17 [color="steelblue1",style="solid"];
+  Node17 [label="dotgraph.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/daa/dotgraph_8h.html",tooltip=" "];
+  Node17 -> Node5 [color="steelblue1",style="solid"];
+  Node17 -> Node3 [color="steelblue1",style="solid"];
+  Node17 -> Node7 [color="steelblue1",style="solid"];
   Node17 -> Node18 [color="steelblue1",style="solid"];
-  Node18 [label="memory",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
-  Node17 -> Node19 [color="steelblue1",style="solid"];
-  Node19 [label="fileinfo.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d45/fileinfo_8h.html",tooltip=" "];
-  Node19 -> Node8 [color="steelblue1",style="solid"];
+  Node18 [label="dir.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d9c/dir_8h.html",tooltip=" "];
+  Node18 -> Node8 [color="steelblue1",style="solid"];
+  Node18 -> Node19 [color="steelblue1",style="solid"];
+  Node19 [label="memory",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node18 -> Node20 [color="steelblue1",style="solid"];
+  Node20 [label="fileinfo.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d45/fileinfo_8h.html",tooltip=" "];
+  Node20 -> Node8 [color="steelblue1",style="solid"];
 }

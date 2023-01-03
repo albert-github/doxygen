@@ -4326,14 +4326,14 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno"> 2571</span>    <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#ab9900b0a7af62acd881e57901b0418a1">warn</a>(yyextra-&gt;fileName,yyextra-&gt;lineNr,</div>
 <div class="line"><span class="lineno"> 2572</span>        <span class="stringliteral">&quot;found multiple \\relates, \\relatesalso or \\memberof commands in a comment block, using last definition&quot;</span>);</div>
 <div class="line"><span class="lineno"> 2573</span>  }</div>
-<div class="line"><span class="lineno"> 2574</span>  yyextra-&gt;current-&gt;relatesType = <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#aa370e9ca1d3ff266cab92689bcc37d9ea391fbcb5b8eff04c3a82fc085f1c8f58">MemberOf</a>;</div>
+<div class="line"><span class="lineno"> 2574</span>  yyextra-&gt;current-&gt;relatesType = <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#aa370e9ca1d3ff266cab92689bcc37d9eacf6653a5c1912835e4e8a0711b19cdd0">RelatesType::MemberOf</a>;</div>
 <div class="line"><span class="lineno"> 2575</span>  yyextra-&gt;currentCmd = cmd;</div>
 <div class="line"><span class="lineno"> 2576</span>  BEGIN(RelatesParam1);</div>
 <div class="line"><span class="lineno"> 2577</span>  <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="ttc" id="atypes_8h_html_aa370e9ca1d3ff266cab92689bcc37d9ea391fbcb5b8eff04c3a82fc085f1c8f58"><div class="ttname"><a href="../../d9/d49/types_8h.html#aa370e9ca1d3ff266cab92689bcc37d9ea391fbcb5b8eff04c3a82fc085f1c8f58">MemberOf</a></div><div class="ttdeci">@ MemberOf</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00035">types.h:35</a></div></div>
+<div class="ttc" id="atypes_8h_html_aa370e9ca1d3ff266cab92689bcc37d9eacf6653a5c1912835e4e8a0711b19cdd0"><div class="ttname"><a href="../../d9/d49/types_8h.html#aa370e9ca1d3ff266cab92689bcc37d9eacf6653a5c1912835e4e8a0711b19cdd0">RelatesType::MemberOf</a></div><div class="ttdeci">@ MemberOf</div></div>
 <div class="line"><span class="lineno"> 2578</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00035">MemberOf</a>, and <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00179">warn()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d9/d49/types_8h.html#aa370e9ca1d3ff266cab92689bcc37d9eacf6653a5c1912835e4e8a0711b19cdd0">MemberOf</a>, and <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00179">warn()</a>.</p>
 
 </div>
 </div>
@@ -4866,12 +4866,12 @@ Variables</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d7/d5f/commentscan_8l_source.html#l02974">2974</a> of file <a class="el" href="../../d7/d5f/commentscan_8l_source.html">commentscan.l</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 2975</span>{</div>
 <div class="line"><span class="lineno"> 2976</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 2977</span>  yyextra-&gt;current-&gt;protection = <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4dedaaa82165706f5dd0859648a09f1f64166">Private</a>;</div>
+<div class="line"><span class="lineno"> 2977</span>  yyextra-&gt;current-&gt;protection = <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda47f9082fc380ca62d531096aa1d110f1">Protection::Private</a>;</div>
 <div class="line"><span class="lineno"> 2978</span>  <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="ttc" id="atypes_8h_html_a90e352184df58cd09455fe9996cd4dedaaa82165706f5dd0859648a09f1f64166"><div class="ttname"><a href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4dedaaa82165706f5dd0859648a09f1f64166">Private</a></div><div class="ttdeci">@ Private</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00026">types.h:26</a></div></div>
+<div class="ttc" id="atypes_8h_html_a90e352184df58cd09455fe9996cd4deda47f9082fc380ca62d531096aa1d110f1"><div class="ttname"><a href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda47f9082fc380ca62d531096aa1d110f1">Protection::Private</a></div><div class="ttdeci">@ Private</div></div>
 <div class="line"><span class="lineno"> 2979</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, and <a class="el" href="../../d9/d49/types_8h_source.html#l00026">Private</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, and <a class="el" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda47f9082fc380ca62d531096aa1d110f1">Private</a>.</p>
 
 </div>
 </div>
@@ -4918,11 +4918,11 @@ Variables</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d7/d5f/commentscan_8l_source.html#l02981">2981</a> of file <a class="el" href="../../d7/d5f/commentscan_8l_source.html">commentscan.l</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 2982</span>{</div>
 <div class="line"><span class="lineno"> 2983</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 2984</span>  yyextra-&gt;current-&gt;protection = yyextra-&gt;protection = <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4dedaaa82165706f5dd0859648a09f1f64166">Private</a>;</div>
+<div class="line"><span class="lineno"> 2984</span>  yyextra-&gt;current-&gt;protection = yyextra-&gt;protection = <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda47f9082fc380ca62d531096aa1d110f1">Protection::Private</a>;</div>
 <div class="line"><span class="lineno"> 2985</span>  <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
 <div class="line"><span class="lineno"> 2986</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, and <a class="el" href="../../d9/d49/types_8h_source.html#l00026">Private</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, and <a class="el" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda47f9082fc380ca62d531096aa1d110f1">Private</a>.</p>
 
 </div>
 </div>
@@ -4969,12 +4969,12 @@ Variables</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d7/d5f/commentscan_8l_source.html#l02988">2988</a> of file <a class="el" href="../../d7/d5f/commentscan_8l_source.html">commentscan.l</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 2989</span>{</div>
 <div class="line"><span class="lineno"> 2990</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 2991</span>  yyextra-&gt;current-&gt;protection = <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda72414112a6a45ab0b4b73e8b83d0b0f5">Protected</a>;</div>
+<div class="line"><span class="lineno"> 2991</span>  yyextra-&gt;current-&gt;protection = <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda56f0605c9795b173abd2e34fab7fc164">Protection::Protected</a>;</div>
 <div class="line"><span class="lineno"> 2992</span>  <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="ttc" id="atypes_8h_html_a90e352184df58cd09455fe9996cd4deda72414112a6a45ab0b4b73e8b83d0b0f5"><div class="ttname"><a href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda72414112a6a45ab0b4b73e8b83d0b0f5">Protected</a></div><div class="ttdeci">@ Protected</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00026">types.h:26</a></div></div>
+<div class="ttc" id="atypes_8h_html_a90e352184df58cd09455fe9996cd4deda56f0605c9795b173abd2e34fab7fc164"><div class="ttname"><a href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda56f0605c9795b173abd2e34fab7fc164">Protection::Protected</a></div><div class="ttdeci">@ Protected</div></div>
 <div class="line"><span class="lineno"> 2993</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, and <a class="el" href="../../d9/d49/types_8h_source.html#l00026">Protected</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, and <a class="el" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda56f0605c9795b173abd2e34fab7fc164">Protected</a>.</p>
 
 </div>
 </div>
@@ -5021,11 +5021,11 @@ Variables</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d7/d5f/commentscan_8l_source.html#l02995">2995</a> of file <a class="el" href="../../d7/d5f/commentscan_8l_source.html">commentscan.l</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 2996</span>{</div>
 <div class="line"><span class="lineno"> 2997</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 2998</span>  yyextra-&gt;current-&gt;protection = yyextra-&gt;protection = <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda72414112a6a45ab0b4b73e8b83d0b0f5">Protected</a> ;</div>
+<div class="line"><span class="lineno"> 2998</span>  yyextra-&gt;current-&gt;protection = yyextra-&gt;protection = <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda56f0605c9795b173abd2e34fab7fc164">Protection::Protected</a> ;</div>
 <div class="line"><span class="lineno"> 2999</span>  <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
 <div class="line"><span class="lineno"> 3000</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, and <a class="el" href="../../d9/d49/types_8h_source.html#l00026">Protected</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, and <a class="el" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda56f0605c9795b173abd2e34fab7fc164">Protected</a>.</p>
 
 </div>
 </div>
@@ -5125,12 +5125,12 @@ Variables</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d7/d5f/commentscan_8l_source.html#l03002">3002</a> of file <a class="el" href="../../d7/d5f/commentscan_8l_source.html">commentscan.l</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 3003</span>{</div>
 <div class="line"><span class="lineno"> 3004</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 3005</span>  yyextra-&gt;current-&gt;protection = <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda2d47e20e63deb55d32228fde32f6b513">Public</a>;</div>
+<div class="line"><span class="lineno"> 3005</span>  yyextra-&gt;current-&gt;protection = <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda3d067bedfe2f4677470dd6ccf64d05ed">Protection::Public</a>;</div>
 <div class="line"><span class="lineno"> 3006</span>  <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="ttc" id="atypes_8h_html_a90e352184df58cd09455fe9996cd4deda2d47e20e63deb55d32228fde32f6b513"><div class="ttname"><a href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda2d47e20e63deb55d32228fde32f6b513">Public</a></div><div class="ttdeci">@ Public</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00026">types.h:26</a></div></div>
+<div class="ttc" id="atypes_8h_html_a90e352184df58cd09455fe9996cd4deda3d067bedfe2f4677470dd6ccf64d05ed"><div class="ttname"><a href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda3d067bedfe2f4677470dd6ccf64d05ed">Protection::Public</a></div><div class="ttdeci">@ Public</div></div>
 <div class="line"><span class="lineno"> 3007</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, and <a class="el" href="../../d9/d49/types_8h_source.html#l00026">Public</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, and <a class="el" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda3d067bedfe2f4677470dd6ccf64d05ed">Public</a>.</p>
 
 </div>
 </div>
@@ -5177,11 +5177,11 @@ Variables</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d7/d5f/commentscan_8l_source.html#l03009">3009</a> of file <a class="el" href="../../d7/d5f/commentscan_8l_source.html">commentscan.l</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 3010</span>{</div>
 <div class="line"><span class="lineno"> 3011</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 3012</span>  yyextra-&gt;current-&gt;protection = yyextra-&gt;protection = <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda2d47e20e63deb55d32228fde32f6b513">Public</a>;</div>
+<div class="line"><span class="lineno"> 3012</span>  yyextra-&gt;current-&gt;protection = yyextra-&gt;protection = <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda3d067bedfe2f4677470dd6ccf64d05ed">Protection::Public</a>;</div>
 <div class="line"><span class="lineno"> 3013</span>  <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
 <div class="line"><span class="lineno"> 3014</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, and <a class="el" href="../../d9/d49/types_8h_source.html#l00026">Public</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, and <a class="el" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda3d067bedfe2f4677470dd6ccf64d05ed">Public</a>.</p>
 
 </div>
 </div>
@@ -5228,12 +5228,12 @@ Variables</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d7/d5f/commentscan_8l_source.html#l02967">2967</a> of file <a class="el" href="../../d7/d5f/commentscan_8l_source.html">commentscan.l</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 2968</span>{</div>
 <div class="line"><span class="lineno"> 2969</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 2970</span>  yyextra-&gt;current-&gt;virt = <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#ab16236bdd10ddf4d73a9847350f0017ea8a81b080f1c9509ceec0bf860140db73">Pure</a>;</div>
+<div class="line"><span class="lineno"> 2970</span>  yyextra-&gt;current-&gt;virt = <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#ab16236bdd10ddf4d73a9847350f0017ead30973809f2e4238b7eb2bac9241674c">Specifier::Pure</a>;</div>
 <div class="line"><span class="lineno"> 2971</span>  <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="ttc" id="atypes_8h_html_ab16236bdd10ddf4d73a9847350f0017ea8a81b080f1c9509ceec0bf860140db73"><div class="ttname"><a href="../../d9/d49/types_8h.html#ab16236bdd10ddf4d73a9847350f0017ea8a81b080f1c9509ceec0bf860140db73">Pure</a></div><div class="ttdeci">@ Pure</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00029">types.h:29</a></div></div>
+<div class="ttc" id="atypes_8h_html_ab16236bdd10ddf4d73a9847350f0017ead30973809f2e4238b7eb2bac9241674c"><div class="ttname"><a href="../../d9/d49/types_8h.html#ab16236bdd10ddf4d73a9847350f0017ead30973809f2e4238b7eb2bac9241674c">Specifier::Pure</a></div><div class="ttdeci">@ Pure</div></div>
 <div class="line"><span class="lineno"> 2972</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, and <a class="el" href="../../d9/d49/types_8h_source.html#l00029">Pure</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, and <a class="el" href="../../d9/d49/types_8h.html#ab16236bdd10ddf4d73a9847350f0017ead30973809f2e4238b7eb2bac9241674c">Pure</a>.</p>
 
 </div>
 </div>
@@ -5543,14 +5543,14 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno"> 2543</span>    <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#ab9900b0a7af62acd881e57901b0418a1">warn</a>(yyextra-&gt;fileName,yyextra-&gt;lineNr,</div>
 <div class="line"><span class="lineno"> 2544</span>        <span class="stringliteral">&quot;found multiple \\relates, \\relatesalso or \\memberof commands in a comment block, using last definition&quot;</span>);</div>
 <div class="line"><span class="lineno"> 2545</span>  }</div>
-<div class="line"><span class="lineno"> 2546</span>  yyextra-&gt;current-&gt;relatesType = <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#aa370e9ca1d3ff266cab92689bcc37d9eaebfbf7dc5cde0772efb1aa49712bd76b">Simple</a>;</div>
+<div class="line"><span class="lineno"> 2546</span>  yyextra-&gt;current-&gt;relatesType = <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#aa370e9ca1d3ff266cab92689bcc37d9ea1fbb1e3943c2c6c560247ac8f9289780">RelatesType::Simple</a>;</div>
 <div class="line"><span class="lineno"> 2547</span>  yyextra-&gt;currentCmd = cmd;</div>
 <div class="line"><span class="lineno"> 2548</span>  BEGIN(RelatesParam1);</div>
 <div class="line"><span class="lineno"> 2549</span>  <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="ttc" id="atypes_8h_html_aa370e9ca1d3ff266cab92689bcc37d9eaebfbf7dc5cde0772efb1aa49712bd76b"><div class="ttname"><a href="../../d9/d49/types_8h.html#aa370e9ca1d3ff266cab92689bcc37d9eaebfbf7dc5cde0772efb1aa49712bd76b">Simple</a></div><div class="ttdeci">@ Simple</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00035">types.h:35</a></div></div>
+<div class="ttc" id="atypes_8h_html_aa370e9ca1d3ff266cab92689bcc37d9ea1fbb1e3943c2c6c560247ac8f9289780"><div class="ttname"><a href="../../d9/d49/types_8h.html#aa370e9ca1d3ff266cab92689bcc37d9ea1fbb1e3943c2c6c560247ac8f9289780">RelatesType::Simple</a></div><div class="ttdeci">@ Simple</div></div>
 <div class="line"><span class="lineno"> 2550</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00035">Simple</a>, and <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00179">warn()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d9/d49/types_8h.html#aa370e9ca1d3ff266cab92689bcc37d9ea1fbb1e3943c2c6c560247ac8f9289780">Simple</a>, and <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00179">warn()</a>.</p>
 
 </div>
 </div>
@@ -5602,14 +5602,14 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno"> 2557</span>    <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#ab9900b0a7af62acd881e57901b0418a1">warn</a>(yyextra-&gt;fileName,yyextra-&gt;lineNr,</div>
 <div class="line"><span class="lineno"> 2558</span>        <span class="stringliteral">&quot;found multiple \\relates, \\relatesalso or \\memberof commands in a comment block, using last definition&quot;</span>);</div>
 <div class="line"><span class="lineno"> 2559</span>  }</div>
-<div class="line"><span class="lineno"> 2560</span>  yyextra-&gt;current-&gt;relatesType = <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#aa370e9ca1d3ff266cab92689bcc37d9ea119a45e404df9bb5b8aa3125081f7914">Duplicate</a>;</div>
+<div class="line"><span class="lineno"> 2560</span>  yyextra-&gt;current-&gt;relatesType = <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#aa370e9ca1d3ff266cab92689bcc37d9eaed75712b0eb1913c28a3872731ffd48d">RelatesType::Duplicate</a>;</div>
 <div class="line"><span class="lineno"> 2561</span>  yyextra-&gt;currentCmd = cmd;</div>
 <div class="line"><span class="lineno"> 2562</span>  BEGIN(RelatesParam1);</div>
 <div class="line"><span class="lineno"> 2563</span>  <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="ttc" id="atypes_8h_html_aa370e9ca1d3ff266cab92689bcc37d9ea119a45e404df9bb5b8aa3125081f7914"><div class="ttname"><a href="../../d9/d49/types_8h.html#aa370e9ca1d3ff266cab92689bcc37d9ea119a45e404df9bb5b8aa3125081f7914">Duplicate</a></div><div class="ttdeci">@ Duplicate</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00035">types.h:35</a></div></div>
+<div class="ttc" id="atypes_8h_html_aa370e9ca1d3ff266cab92689bcc37d9eaed75712b0eb1913c28a3872731ffd48d"><div class="ttname"><a href="../../d9/d49/types_8h.html#aa370e9ca1d3ff266cab92689bcc37d9eaed75712b0eb1913c28a3872731ffd48d">RelatesType::Duplicate</a></div><div class="ttdeci">@ Duplicate</div></div>
 <div class="line"><span class="lineno"> 2564</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d9/d49/types_8h_source.html#l00035">Duplicate</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, and <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00179">warn()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d49/types_8h.html#aa370e9ca1d3ff266cab92689bcc37d9eaed75712b0eb1913c28a3872731ffd48d">Duplicate</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, and <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00179">warn()</a>.</p>
 
 </div>
 </div>
@@ -7781,11 +7781,11 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno"> 1596</span>                                          <a class="code hl_function" href="../../d7/d5f/commentscan_8l.html#aacd050a578098847da993bc206dc7586">addOutput</a>(yyscanner,yytext);</div>
 <div class="line"><span class="lineno"> 1597</span>                                          <span class="comment">// we add subpage labels as a kind of &quot;inheritance&quot; relation to prevent</span></div>
 <div class="line"><span class="lineno"> 1598</span>                                          <span class="comment">// needing to add another list to the Entry class.</span></div>
-<div class="line"><span class="lineno"> 1599</span>                                          yyextra-&gt;current-&gt;extends.push_back(<a class="code hl_struct" href="../../de/d64/struct_base_info.html">BaseInfo</a>(<a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>(yytext),<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda2d47e20e63deb55d32228fde32f6b513">Public</a>,<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#ab16236bdd10ddf4d73a9847350f0017ea5ecbcf0afce98b042f35ec71ba03fa4b">Normal</a>));</div>
+<div class="line"><span class="lineno"> 1599</span>                                          yyextra-&gt;current-&gt;extends.push_back(<a class="code hl_struct" href="../../de/d64/struct_base_info.html">BaseInfo</a>(<a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>(yytext),<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda3d067bedfe2f4677470dd6ccf64d05ed">Protection::Public</a>,<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#ab16236bdd10ddf4d73a9847350f0017ea960b44c579bc2f6818d2daaf9e4c16f0">Specifier::Normal</a>));</div>
 <div class="line"><span class="lineno"> 1600</span>                                          BEGIN(SubpageTitle);</div>
 <div class="line"><span class="lineno"> 1601</span>                                        }</div>
 <div class="ttc" id="astruct_base_info_html"><div class="ttname"><a href="../../de/d64/struct_base_info.html">BaseInfo</a></div><div class="ttdoc">This class stores information about an inheritance relation.</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dc6/entry_8h_source.html#l00035">entry.h:36</a></div></div>
-<div class="ttc" id="atypes_8h_html_ab16236bdd10ddf4d73a9847350f0017ea5ecbcf0afce98b042f35ec71ba03fa4b"><div class="ttname"><a href="../../d9/d49/types_8h.html#ab16236bdd10ddf4d73a9847350f0017ea5ecbcf0afce98b042f35ec71ba03fa4b">Normal</a></div><div class="ttdeci">@ Normal</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00029">types.h:29</a></div></div>
+<div class="ttc" id="atypes_8h_html_ab16236bdd10ddf4d73a9847350f0017ea960b44c579bc2f6818d2daaf9e4c16f0"><div class="ttname"><a href="../../d9/d49/types_8h.html#ab16236bdd10ddf4d73a9847350f0017ea960b44c579bc2f6818d2daaf9e4c16f0">Specifier::Normal</a></div><div class="ttdeci">@ Normal</div></div>
 <div class="line"><span class="lineno"> 1602</span>&lt;SubpageLabel&gt;{DOCNL}                   { // missing argument</div>
 <div class="line"><span class="lineno"> 1603</span>                                          <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#ab9900b0a7af62acd881e57901b0418a1">warn</a>(yyextra-&gt;fileName,yyextra-&gt;lineNr,</div>
 <div class="line"><span class="lineno"> 1604</span>                                              <span class="stringliteral">&quot;\\subpage command has no label&quot;</span></div>
@@ -8228,7 +8228,7 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno"> 2034</span> </div>
 <div class="line"><span class="lineno"> 2035</span>&lt;InheritParam&gt;({ID}(&quot;::&quot;|&quot;.&quot;))*{ID}     { // found argument</div>
 <div class="line"><span class="lineno"> 2036</span>                                          yyextra-&gt;current-&gt;extends.push_back(</div>
-<div class="line"><span class="lineno"> 2037</span>                                            <a class="code hl_struct" href="../../de/d64/struct_base_info.html">BaseInfo</a>(<a class="code hl_function" href="../../df/d2d/util_8cpp.html#a0940360aa6d41fd2496603fc565e3996">removeRedundantWhiteSpace</a>(<a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>(yytext)),<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda2d47e20e63deb55d32228fde32f6b513">Public</a>,<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#ab16236bdd10ddf4d73a9847350f0017ea5ecbcf0afce98b042f35ec71ba03fa4b">Normal</a>)</div>
+<div class="line"><span class="lineno"> 2037</span>                                            <a class="code hl_struct" href="../../de/d64/struct_base_info.html">BaseInfo</a>(<a class="code hl_function" href="../../df/d2d/util_8cpp.html#a0940360aa6d41fd2496603fc565e3996">removeRedundantWhiteSpace</a>(<a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>(yytext)),<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda3d067bedfe2f4677470dd6ccf64d05ed">Protection::Public</a>,<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#ab16236bdd10ddf4d73a9847350f0017ea960b44c579bc2f6818d2daaf9e4c16f0">Specifier::Normal</a>)</div>
 <div class="line"><span class="lineno"> 2038</span>                                          );</div>
 <div class="line"><span class="lineno"> 2039</span>                                          BEGIN( Comment );</div>
 <div class="line"><span class="lineno"> 2040</span>                                        }</div>
@@ -8251,7 +8251,7 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno"> 2057</span> </div>
 <div class="line"><span class="lineno"> 2058</span>&lt;ExtendsParam&gt;({ID}(&quot;::&quot;|&quot;.&quot;))*{ID}     { // found argument</div>
 <div class="line"><span class="lineno"> 2059</span>                                          yyextra-&gt;current-&gt;extends.push_back(</div>
-<div class="line"><span class="lineno"> 2060</span>                                            <a class="code hl_struct" href="../../de/d64/struct_base_info.html">BaseInfo</a>(<a class="code hl_function" href="../../df/d2d/util_8cpp.html#a0940360aa6d41fd2496603fc565e3996">removeRedundantWhiteSpace</a>(<a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>(yytext)),<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda2d47e20e63deb55d32228fde32f6b513">Public</a>,<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#ab16236bdd10ddf4d73a9847350f0017ea5ecbcf0afce98b042f35ec71ba03fa4b">Normal</a>)</div>
+<div class="line"><span class="lineno"> 2060</span>                                            <a class="code hl_struct" href="../../de/d64/struct_base_info.html">BaseInfo</a>(<a class="code hl_function" href="../../df/d2d/util_8cpp.html#a0940360aa6d41fd2496603fc565e3996">removeRedundantWhiteSpace</a>(<a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>(yytext)),<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda3d067bedfe2f4677470dd6ccf64d05ed">Protection::Public</a>,<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#ab16236bdd10ddf4d73a9847350f0017ea960b44c579bc2f6818d2daaf9e4c16f0">Specifier::Normal</a>)</div>
 <div class="line"><span class="lineno"> 2061</span>                                          );</div>
 <div class="line"><span class="lineno"> 2062</span>                                          BEGIN( Comment );</div>
 <div class="line"><span class="lineno"> 2063</span>                                        }</div>
