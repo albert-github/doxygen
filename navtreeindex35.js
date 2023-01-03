@@ -1,5 +1,6 @@
 var NAVTREEINDEX35 =
 {
+"d4/de8/structcommentscan_y_y__state.html#ab64fdb57fa005888ff62154a982fbffb":[8,0,61,24],
 "d4/de8/structcommentscan_y_y__state.html#ab94f3ba7d8a1b6ba80a06f718aed2a2b":[8,0,61,41],
 "d4/de8/structcommentscan_y_y__state.html#ab9858384cbe8eebcabfb63770972ff03":[8,0,61,4],
 "d4/de8/structcommentscan_y_y__state.html#ac048929c27c42f14f32b7a6b4c1aadee":[8,0,61,32],
@@ -248,6 +249,5 @@ var NAVTREEINDEX35 =
 "d5/d0a/class_translator_serbian.html#a034fed8c32064931657c05ab80944490":[8,0,606,173],
 "d5/d0a/class_translator_serbian.html#a035c0fb4d8b00e78e0bda87b342ba7dc":[8,0,606,166],
 "d5/d0a/class_translator_serbian.html#a03dcbb2a37d9e3b4c4d7647f3bc5b22d":[8,0,606,187],
-"d5/d0a/class_translator_serbian.html#a044314d3deb5f5ca6a2f9a318215c0a7":[8,0,606,114],
-"d5/d0a/class_translator_serbian.html#a0581252d4bc3285f8a2fd22769f024c7":[8,0,606,27]
+"d5/d0a/class_translator_serbian.html#a044314d3deb5f5ca6a2f9a318215c0a7":[8,0,606,114]
 };
