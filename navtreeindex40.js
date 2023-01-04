@@ -1,5 +1,6 @@
 var NAVTREEINDEX40 =
 {
+"d5/d5c/class_translator_swedish.html#a69f8b831cbed3c620be777ac2da344ec":[8,0,611,90],
 "d5/d5c/class_translator_swedish.html#a6ba4fb4c95d5ddaefb86d7bc451b3220":[8,0,611,176],
 "d5/d5c/class_translator_swedish.html#a6bfa20f71a552477ddba5b83634f18eb":[8,0,611,253],
 "d5/d5c/class_translator_swedish.html#a6c8c3fee4fe5f57113295bbd4db35e39":[8,0,611,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX40 =
 "d5/d6a/vhdlcode_8l.html#a64ea38c6553eebe39c034c704bcc2eeb":[9,0,2,295,25],
 "d5/d6a/vhdlcode_8l.html#a6e655bf7e63cc49ecd79d0e5272310a2":[9,0,2,295,28],
 "d5/d6a/vhdlcode_8l.html#a774297aa5d69086827360d6f0ab535fa":[9,0,2,295,24],
-"d5/d6a/vhdlcode_8l.html#a85523a0c7d95c059d251b4e9829947aa":[9,0,2,295,5],
-"d5/d6a/vhdlcode_8l.html#a9484188abbc459dafcbd4c96425fa70b":[9,0,2,295,8]
+"d5/d6a/vhdlcode_8l.html#a85523a0c7d95c059d251b4e9829947aa":[9,0,2,295,5]
 };

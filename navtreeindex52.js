@@ -1,5 +1,6 @@
 var NAVTREEINDEX52 =
 {
+"d7/d21/class_translator_danish.html#ae6dd9f8fb876f6a70629593a306af7cf":[8,0,581,223],
 "d7/d21/class_translator_danish.html#ae8134602c85ed31b10dc797c6a996174":[8,0,581,167],
 "d7/d21/class_translator_danish.html#ae932ffa641d9bbf298b28a63c4dd9e58":[8,0,581,10],
 "d7/d21/class_translator_danish.html#aea2b801be4a160edd3b027ee3cc8a3bd":[8,0,581,146],
@@ -234,20 +235,19 @@ var NAVTREEINDEX52 =
 "d7/d41/class_html_generator.html#aff598e78fc1ebaefb21fe94fda564e4d":[8,0,315,23],
 "d7/d49/classreg_1_1_p_token.html":[7,0,9,3],
 "d7/d49/classreg_1_1_p_token.html":[8,0,3,3],
-"d7/d49/classreg_1_1_p_token.html#a2def1e14eeb96c08b25e4c906af071b6":[8,0,3,3,13],
 "d7/d49/classreg_1_1_p_token.html#a2def1e14eeb96c08b25e4c906af071b6":[7,0,9,3,13],
+"d7/d49/classreg_1_1_p_token.html#a2def1e14eeb96c08b25e4c906af071b6":[8,0,3,3,13],
 "d7/d49/classreg_1_1_p_token.html#a34589c92a4e8ff59eb14c5536e760929":[7,0,9,3,6],
 "d7/d49/classreg_1_1_p_token.html#a34589c92a4e8ff59eb14c5536e760929":[8,0,3,3,6],
 "d7/d49/classreg_1_1_p_token.html#a383d4137455b9fdc268fd0db4b050db0":[8,0,3,3,2],
 "d7/d49/classreg_1_1_p_token.html#a383d4137455b9fdc268fd0db4b050db0":[7,0,9,3,2],
-"d7/d49/classreg_1_1_p_token.html#a3c769c7cb9e8961e5f52187237f94992":[7,0,9,3,3],
 "d7/d49/classreg_1_1_p_token.html#a3c769c7cb9e8961e5f52187237f94992":[8,0,3,3,3],
-"d7/d49/classreg_1_1_p_token.html#a4bcf1a48342ff492138d3aff1e0a6fc0":[7,0,9,3,9],
+"d7/d49/classreg_1_1_p_token.html#a3c769c7cb9e8961e5f52187237f94992":[7,0,9,3,3],
 "d7/d49/classreg_1_1_p_token.html#a4bcf1a48342ff492138d3aff1e0a6fc0":[8,0,3,3,9],
-"d7/d49/classreg_1_1_p_token.html#a5b947291aff91a346d6526074989a9fa":[7,0,9,3,10],
+"d7/d49/classreg_1_1_p_token.html#a4bcf1a48342ff492138d3aff1e0a6fc0":[7,0,9,3,9],
 "d7/d49/classreg_1_1_p_token.html#a5b947291aff91a346d6526074989a9fa":[8,0,3,3,10],
-"d7/d49/classreg_1_1_p_token.html#a63a09d68f5ded8c563f5a06cdd32db27":[7,0,9,3,1],
+"d7/d49/classreg_1_1_p_token.html#a5b947291aff91a346d6526074989a9fa":[7,0,9,3,10],
 "d7/d49/classreg_1_1_p_token.html#a63a09d68f5ded8c563f5a06cdd32db27":[8,0,3,3,1],
-"d7/d49/classreg_1_1_p_token.html#a93203bf3f74828336b477ea31fde1a1c":[7,0,9,3,7],
+"d7/d49/classreg_1_1_p_token.html#a63a09d68f5ded8c563f5a06cdd32db27":[7,0,9,3,1],
 "d7/d49/classreg_1_1_p_token.html#a93203bf3f74828336b477ea31fde1a1c":[8,0,3,3,7]
 };

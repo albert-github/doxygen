@@ -1,5 +1,6 @@
 var NAVTREEINDEX46 =
 {
+"d6/d15/dirdef_8h.html#abf61ee43dee8d980a631843cd26b71cb":[9,0,2,58,11],
 "d6/d15/dirdef_8h.html#ad0d3cefa1a824ceaccafcb643850ee5e":[9,0,2,58,14],
 "d6/d15/dirdef_8h.html#aeb63b0db3ac92afc6ef8fd7a34129001":[9,0,2,58,12],
 "d6/d15/dirdef_8h_source.html":[9,0,2,58],
@@ -248,6 +249,5 @@ var NAVTREEINDEX46 =
 "d6/d78/class_translator_english.html#a1a8f05361f42591e984838ed9a617660":[8,0,583,248],
 "d6/d78/class_translator_english.html#a1b650694e5af59250a2168d11369d484":[8,0,583,127],
 "d6/d78/class_translator_english.html#a1bc26c1658f2a0705ba000906a764ffc":[8,0,583,159],
-"d6/d78/class_translator_english.html#a1c606b3f6fc7a50a94b083a17bd3e1ab":[8,0,583,121],
-"d6/d78/class_translator_english.html#a1cc31252d090b28c84108707ec5ed943":[8,0,583,187]
+"d6/d78/class_translator_english.html#a1c606b3f6fc7a50a94b083a17bd3e1ab":[8,0,583,121]
 };

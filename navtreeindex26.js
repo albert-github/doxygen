@@ -1,5 +1,6 @@
 var NAVTREEINDEX26 =
 {
+"d3/d65/class_translator_afrikaans.html#ac20a33c0eb2006367a01204255919e86":[8,0,571,110],
 "d3/d65/class_translator_afrikaans.html#ac2f278bb6543c95187c5b0a3f0fd3465":[8,0,571,33],
 "d3/d65/class_translator_afrikaans.html#ac445d5e12e526bf86e4b3884143e3c64":[8,0,571,193],
 "d3/d65/class_translator_afrikaans.html#ac468d74896f14b9b4eaafd1e06c7c8f4":[8,0,571,135],
@@ -105,12 +106,12 @@ var NAVTREEINDEX26 =
 "d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#a4dd946e2e5c74b2c9bcf818e66dd60e0":[7,0,11,0,7,6],
 "d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#a50f498a288427b988cd7021a977378f8":[8,0,5,0,7,4],
 "d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#a50f498a288427b988cd7021a977378f8":[7,0,11,0,7,4],
-"d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#a73f6a2866b37dc073293f43eaafafdbf":[7,0,11,0,7,2],
 "d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#a73f6a2866b37dc073293f43eaafafdbf":[8,0,5,0,7,2],
-"d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#a860806ee07d5e8223004cc4dae5386e9":[7,0,11,0,7,0],
+"d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#a73f6a2866b37dc073293f43eaafafdbf":[7,0,11,0,7,2],
 "d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#a860806ee07d5e8223004cc4dae5386e9":[8,0,5,0,7,0],
-"d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#aa58e9b420bb0e53d5944cc96e8a8b349":[8,0,5,0,7,1],
+"d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#a860806ee07d5e8223004cc4dae5386e9":[7,0,11,0,7,0],
 "d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#aa58e9b420bb0e53d5944cc96e8a8b349":[7,0,11,0,7,1],
+"d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#aa58e9b420bb0e53d5944cc96e8a8b349":[8,0,5,0,7,1],
 "d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#ac142542be128305d21d59277db52eb93":[8,0,5,0,7,5],
 "d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#ac142542be128305d21d59277db52eb93":[7,0,11,0,7,5],
 "d3/d74/struct_dir_1_1_private.html":[8,0,107,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX26 =
 "d3/d77/class_latex_generator.html#a9ca2b0c10ac902436350642079fbd56b":[8,0,345,184],
 "d3/d77/class_latex_generator.html#a9ee4283738dc975f9b31b554a0de945e":[8,0,345,99],
 "d3/d77/class_latex_generator.html#a9ef48dbc13f6a858ea4f70626085f85b":[8,0,345,95],
-"d3/d77/class_latex_generator.html#a9f524f4b76b5a8b0ce222349106beba2":[8,0,345,161],
-"d3/d77/class_latex_generator.html#aa0f89ab599109d222204ed70531feb84":[8,0,345,79]
+"d3/d77/class_latex_generator.html#a9f524f4b76b5a8b0ce222349106beba2":[8,0,345,161]
 };
