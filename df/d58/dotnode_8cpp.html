@@ -171,7 +171,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d58/dotnode_8cpp_source.html#l00878">878</a> of file <a class="el" href="../../df/d58/dotnode_8cpp_source.html">dotnode.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d58/dotnode_8cpp_source.html#l00882">882</a> of file <a class="el" href="../../df/d58/dotnode_8cpp_source.html">dotnode.cpp</a>.</p>
 
 </div>
 </div>
@@ -215,7 +215,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00153">QCString::data()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/d45/dotdirdeps_8cpp_source.html#l00137">common_attributes()</a>, and <a class="el" href="../../df/d58/dotnode_8cpp_source.html#l00509">DotNode::writeBox()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d45/dotdirdeps_8cpp_source.html#l00137">common_attributes()</a>, and <a class="el" href="../../df/d58/dotnode_8cpp_source.html#l00513">DotNode::writeBox()</a>.</p>
 
 </div>
 </div>
@@ -243,22 +243,22 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d58/dotnode_8cpp_source.html#l00282">282</a> of file <a class="el" href="../../df/d58/dotnode_8cpp_source.html">dotnode.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  283</span>{</div>
-<div class="line"><span class="lineno">  284</span>  <span class="keywordflow">if</span> (!s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>() &amp;&amp; (s[0]==<span class="charliteral">&#39;-&#39;</span> || s[0]==<span class="charliteral">&#39;+&#39;</span> || s[0]==<span class="charliteral">&#39;~&#39;</span> || s[0]==<span class="charliteral">&#39;#&#39;</span>))</div>
-<div class="line"><span class="lineno">  285</span>  {</div>
-<div class="line"><span class="lineno">  286</span>    <span class="keywordflow">return</span> s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(1);</div>
-<div class="line"><span class="lineno">  287</span>  }</div>
-<div class="line"><span class="lineno">  288</span>  <span class="keywordflow">else</span></div>
+<p class="definition">Definition at line <a class="el" href="../../df/d58/dotnode_8cpp_source.html#l00286">286</a> of file <a class="el" href="../../df/d58/dotnode_8cpp_source.html">dotnode.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  287</span>{</div>
+<div class="line"><span class="lineno">  288</span>  <span class="keywordflow">if</span> (!s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>() &amp;&amp; (s[0]==<span class="charliteral">&#39;-&#39;</span> || s[0]==<span class="charliteral">&#39;+&#39;</span> || s[0]==<span class="charliteral">&#39;~&#39;</span> || s[0]==<span class="charliteral">&#39;#&#39;</span>))</div>
 <div class="line"><span class="lineno">  289</span>  {</div>
-<div class="line"><span class="lineno">  290</span>    <span class="keywordflow">return</span> s;</div>
+<div class="line"><span class="lineno">  290</span>    <span class="keywordflow">return</span> s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(1);</div>
 <div class="line"><span class="lineno">  291</span>  }</div>
-<div class="line"><span class="lineno">  292</span>}</div>
+<div class="line"><span class="lineno">  292</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  293</span>  {</div>
+<div class="line"><span class="lineno">  294</span>    <span class="keywordflow">return</span> s;</div>
+<div class="line"><span class="lineno">  295</span>  }</div>
+<div class="line"><span class="lineno">  296</span>}</div>
 <div class="ttc" id="aclass_q_c_string_html_a27136caf9c0bc4daca574cda6f113551"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">QCString::mid</a></div><div class="ttdeci">QCString mid(size_t index, size_t len=static_cast&lt; size_t &gt;(-1)) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00227">qcstring.h:227</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00227">QCString::mid()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d58/dotnode_8cpp_source.html#l00385">DotNode::writeLabel()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d58/dotnode_8cpp_source.html#l00389">DotNode::writeLabel()</a>.</p>
 
 </div>
 </div>
@@ -405,7 +405,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00035">Config_getEnum</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00034">Config_getInt</a>, <a class="el" href="../../df/d58/dotnode_8cpp_source.html#l00191">DotNode::convertLabel()</a>, <a class="el" href="../../d2/d48/language_8cpp_source.html#l00070">theTranslator</a>, <a class="el" href="../../d8/dfb/class_translator.html#abd4b544ad269cb9d961884cd00f14fca">Translator::trAndMore()</a>, and <a class="el" href="../../df/d58/dotnode_8cpp_source.html#l00117">writeBoxMemberList()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d58/dotnode_8cpp_source.html#l00117">writeBoxMemberList()</a>, and <a class="el" href="../../df/d58/dotnode_8cpp_source.html#l00385">DotNode::writeLabel()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d58/dotnode_8cpp_source.html#l00117">writeBoxMemberList()</a>, and <a class="el" href="../../df/d58/dotnode_8cpp_source.html#l00389">DotNode::writeLabel()</a>.</p>
 
 </div>
 </div>
@@ -507,7 +507,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="../../df/d58/dotnode_8cpp_source.html#l00089">89</a> of file <a class="el" href="../../df/d58/dotnode_8cpp_source.html">dotnode.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d58/dotnode_8cpp_source.html#l00566">DotNode::writeArrow()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d58/dotnode_8cpp_source.html#l00570">DotNode::writeArrow()</a>.</p>
 
 </div>
 </div>
@@ -636,7 +636,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="../../df/d58/dotnode_8cpp_source.html#l00094">94</a> of file <a class="el" href="../../df/d58/dotnode_8cpp_source.html">dotnode.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d58/dotnode_8cpp_source.html#l00566">DotNode::writeArrow()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d58/dotnode_8cpp_source.html#l00570">DotNode::writeArrow()</a>.</p>
 
 </div>
 </div>
