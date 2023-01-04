@@ -29,9 +29,7 @@ digraph "TranslatorArabic"
   Node12 -> Node11 [dir="back",color="steelblue1",style="solid"];
   Node12 [label="TranslatorAdapter_1_9_5",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$dd/dba/class_translator_adapter__1__9__5.html",tooltip=" "];
   Node13 -> Node12 [dir="back",color="steelblue1",style="solid"];
-  Node13 [label="TranslatorAdapter_1_9_6",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$db/d71/class_translator_adapter__1__9__6.html",tooltip=" "];
+  Node13 [label="TranslatorAdapterBase",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$db/d6c/class_translator_adapter_base.html",tooltip="Base of the translator adapter tree."];
   Node14 -> Node13 [dir="back",color="steelblue1",style="solid"];
-  Node14 [label="TranslatorAdapterBase",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$db/d6c/class_translator_adapter_base.html",tooltip="Base of the translator adapter tree."];
-  Node15 -> Node14 [dir="back",color="steelblue1",style="solid"];
-  Node15 [label="Translator",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d8/dfb/class_translator.html",tooltip="Abstract base class for all translatable text fragments."];
+  Node14 [label="Translator",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d8/dfb/class_translator.html",tooltip="Abstract base class for all translatable text fragments."];
 }

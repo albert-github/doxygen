@@ -1,7 +1,6 @@
 var translator__adapter_8h =
 [
     [ "TranslatorAdapterBase", "db/d6c/class_translator_adapter_base.html", "db/d6c/class_translator_adapter_base" ],
-    [ "TranslatorAdapter_1_9_6", "db/d71/class_translator_adapter__1__9__6.html", "db/d71/class_translator_adapter__1__9__6" ],
     [ "TranslatorAdapter_1_9_5", "dd/dba/class_translator_adapter__1__9__5.html", "dd/dba/class_translator_adapter__1__9__5" ],
     [ "TranslatorAdapter_1_9_4", "d0/d33/class_translator_adapter__1__9__4.html", "d0/d33/class_translator_adapter__1__9__4" ],
     [ "TranslatorAdapter_1_9_2", "d3/d2e/class_translator_adapter__1__9__2.html", "d3/d2e/class_translator_adapter__1__9__2" ],
