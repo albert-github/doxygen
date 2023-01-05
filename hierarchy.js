@@ -1247,74 +1247,76 @@ var hierarchy =
     [ "Trace", "dd/db7/class_trace.html", null ],
     [ "Translator", "d8/dfb/class_translator.html", [
       [ "TranslatorAdapterBase", "db/d6c/class_translator_adapter_base.html", [
-        [ "TranslatorAdapter_1_9_5", "dd/dba/class_translator_adapter__1__9__5.html", [
-          [ "TranslatorAdapter_1_9_4", "d0/d33/class_translator_adapter__1__9__4.html", [
-            [ "TranslatorAdapter_1_9_2", "d3/d2e/class_translator_adapter__1__9__2.html", [
-              [ "TranslatorAdapter_1_8_19", "de/dde/class_translator_adapter__1__8__19.html", [
-                [ "TranslatorAdapter_1_8_15", "d4/d2e/class_translator_adapter__1__8__15.html", [
-                  [ "TranslatorAdapter_1_8_4", "de/d2f/class_translator_adapter__1__8__4.html", [
-                    [ "TranslatorAdapter_1_8_2", "d2/d75/class_translator_adapter__1__8__2.html", [
-                      [ "TranslatorAdapter_1_8_0", "de/d49/class_translator_adapter__1__8__0.html", [
-                        [ "TranslatorAdapter_1_7_5", "da/d24/class_translator_adapter__1__7__5.html", [
-                          [ "TranslatorAdapter_1_6_0", "d3/da1/class_translator_adapter__1__6__0.html", [
-                            [ "TranslatorAdapter_1_4_6", "d4/d2b/class_translator_adapter__1__4__6.html", [
-                              [ "TranslatorArabic", "d3/de9/class_translator_arabic.html", null ],
-                              [ "TranslatorLithuanian", "dc/d53/class_translator_lithuanian.html", null ],
-                              [ "TranslatorNorwegian", "dd/d38/class_translator_norwegian.html", null ],
-                              [ "TranslatorSlovene", "dd/d0b/class_translator_slovene.html", null ]
+        [ "TranslatorAdapter_1_9_6", "db/d71/class_translator_adapter__1__9__6.html", [
+          [ "TranslatorAdapter_1_9_5", "dd/dba/class_translator_adapter__1__9__5.html", [
+            [ "TranslatorAdapter_1_9_4", "d0/d33/class_translator_adapter__1__9__4.html", [
+              [ "TranslatorAdapter_1_9_2", "d3/d2e/class_translator_adapter__1__9__2.html", [
+                [ "TranslatorAdapter_1_8_19", "de/dde/class_translator_adapter__1__8__19.html", [
+                  [ "TranslatorAdapter_1_8_15", "d4/d2e/class_translator_adapter__1__8__15.html", [
+                    [ "TranslatorAdapter_1_8_4", "de/d2f/class_translator_adapter__1__8__4.html", [
+                      [ "TranslatorAdapter_1_8_2", "d2/d75/class_translator_adapter__1__8__2.html", [
+                        [ "TranslatorAdapter_1_8_0", "de/d49/class_translator_adapter__1__8__0.html", [
+                          [ "TranslatorAdapter_1_7_5", "da/d24/class_translator_adapter__1__7__5.html", [
+                            [ "TranslatorAdapter_1_6_0", "d3/da1/class_translator_adapter__1__6__0.html", [
+                              [ "TranslatorAdapter_1_4_6", "d4/d2b/class_translator_adapter__1__4__6.html", [
+                                [ "TranslatorArabic", "d3/de9/class_translator_arabic.html", null ],
+                                [ "TranslatorLithuanian", "dc/d53/class_translator_lithuanian.html", null ],
+                                [ "TranslatorNorwegian", "dd/d38/class_translator_norwegian.html", null ],
+                                [ "TranslatorSlovene", "dd/d0b/class_translator_slovene.html", null ]
+                              ] ],
+                              [ "TranslatorAfrikaans", "d3/d65/class_translator_afrikaans.html", null ],
+                              [ "TranslatorFinnish", "de/df7/class_translator_finnish.html", null ],
+                              [ "TranslatorMacedonian", "d9/ddf/class_translator_macedonian.html", null ],
+                              [ "TranslatorSerbian", "d5/d0a/class_translator_serbian.html", null ],
+                              [ "TranslatorSerbianCyrillic", "dc/d03/class_translator_serbian_cyrillic.html", null ],
+                              [ "TranslatorVietnamese", "df/d20/class_translator_vietnamese.html", null ]
                             ] ],
-                            [ "TranslatorAfrikaans", "d3/d65/class_translator_afrikaans.html", null ],
-                            [ "TranslatorFinnish", "de/df7/class_translator_finnish.html", null ],
-                            [ "TranslatorMacedonian", "d9/ddf/class_translator_macedonian.html", null ],
-                            [ "TranslatorSerbian", "d5/d0a/class_translator_serbian.html", null ],
-                            [ "TranslatorSerbianCyrillic", "dc/d03/class_translator_serbian_cyrillic.html", null ],
-                            [ "TranslatorVietnamese", "df/d20/class_translator_vietnamese.html", null ]
+                            [ "TranslatorPersian", "d5/d43/class_translator_persian.html", null ],
+                            [ "TranslatorTurkish", "dd/d80/class_translator_turkish.html", null ]
                           ] ],
-                          [ "TranslatorPersian", "d5/d43/class_translator_persian.html", null ],
-                          [ "TranslatorTurkish", "dd/d80/class_translator_turkish.html", null ]
+                          [ "TranslatorArmenian", "da/db8/class_translator_armenian.html", null ],
+                          [ "TranslatorCatalan", "d9/dc1/class_translator_catalan.html", null ],
+                          [ "TranslatorDanish", "d7/d21/class_translator_danish.html", null ],
+                          [ "TranslatorIndonesian", "df/dc8/class_translator_indonesian.html", null ]
                         ] ],
-                        [ "TranslatorArmenian", "da/db8/class_translator_armenian.html", null ],
-                        [ "TranslatorCatalan", "d9/dc1/class_translator_catalan.html", null ],
-                        [ "TranslatorDanish", "d7/d21/class_translator_danish.html", null ],
-                        [ "TranslatorIndonesian", "df/dc8/class_translator_indonesian.html", null ]
+                        [ "TranslatorCroatian", "d9/d82/class_translator_croatian.html", null ],
+                        [ "TranslatorPolish", "de/d82/class_translator_polish.html", null ]
                       ] ],
-                      [ "TranslatorCroatian", "d9/d82/class_translator_croatian.html", null ],
-                      [ "TranslatorPolish", "de/d82/class_translator_polish.html", null ]
+                      [ "TranslatorEsperanto", "d2/d07/class_translator_esperanto.html", null ],
+                      [ "TranslatorLatvian", "d8/d83/class_translator_latvian.html", null ],
+                      [ "TranslatorUkrainian", "d1/d56/class_translator_ukrainian.html", null ]
                     ] ],
-                    [ "TranslatorEsperanto", "d2/d07/class_translator_esperanto.html", null ],
-                    [ "TranslatorLatvian", "d8/d83/class_translator_latvian.html", null ],
-                    [ "TranslatorUkrainian", "d1/d56/class_translator_ukrainian.html", null ]
-                  ] ],
-                  [ "TranslatorChinesetraditional", "dd/df6/class_translator_chinesetraditional.html", null ],
-                  [ "TranslatorGerman", "d6/d07/class_translator_german.html", null ],
-                  [ "TranslatorHungarian", "db/d5f/class_translator_hungarian.html", null ],
-                  [ "TranslatorItalian", "d2/df8/class_translator_italian.html", null ],
-                  [ "TranslatorJapanese", "d1/d6a/class_translator_japanese.html", null ],
-                  [ "TranslatorKorean", "db/dcc/class_translator_korean.html", null ],
-                  [ "TranslatorRomanian", "da/d32/class_translator_romanian.html", null ],
-                  [ "TranslatorRussian", "d0/dab/class_translator_russian.html", null ],
-                  [ "TranslatorSlovak", "d2/d53/class_translator_slovak.html", null ]
+                    [ "TranslatorChinesetraditional", "dd/df6/class_translator_chinesetraditional.html", null ],
+                    [ "TranslatorGerman", "d6/d07/class_translator_german.html", null ],
+                    [ "TranslatorHungarian", "db/d5f/class_translator_hungarian.html", null ],
+                    [ "TranslatorItalian", "d2/df8/class_translator_italian.html", null ],
+                    [ "TranslatorJapanese", "d1/d6a/class_translator_japanese.html", null ],
+                    [ "TranslatorKorean", "db/dcc/class_translator_korean.html", null ],
+                    [ "TranslatorRomanian", "da/d32/class_translator_romanian.html", null ],
+                    [ "TranslatorRussian", "d0/dab/class_translator_russian.html", null ],
+                    [ "TranslatorSlovak", "d2/d53/class_translator_slovak.html", null ]
+                  ] ]
                 ] ]
-              ] ]
+              ] ],
+              [ "TranslatorBulgarian", "da/dbb/class_translator_bulgarian.html", null ],
+              [ "TranslatorChinese", "d6/db6/class_translator_chinese.html", null ],
+              [ "TranslatorGreek", "df/d75/class_translator_greek.html", null ],
+              [ "TranslatorHindi", "d1/d8a/class_translator_hindi.html", null ]
             ] ],
-            [ "TranslatorBulgarian", "da/dbb/class_translator_bulgarian.html", null ],
-            [ "TranslatorChinese", "d6/db6/class_translator_chinese.html", null ],
-            [ "TranslatorGreek", "df/d75/class_translator_greek.html", null ],
-            [ "TranslatorHindi", "d1/d8a/class_translator_hindi.html", null ]
+            [ "TranslatorFrench", "da/d1a/class_translator_french.html", null ]
           ] ],
-          [ "TranslatorFrench", "da/d1a/class_translator_french.html", null ]
+          [ "TranslatorBrazilian", "d2/d4c/class_translator_brazilian.html", null ],
+          [ "TranslatorCzech", "dd/d8a/class_translator_czech.html", null ],
+          [ "TranslatorPortuguese", "dc/df2/class_translator_portuguese.html", null ],
+          [ "TranslatorSpanish", "dc/d44/class_translator_spanish.html", null ],
+          [ "TranslatorSwedish", "d5/d5c/class_translator_swedish.html", null ]
         ] ]
       ] ],
-      [ "TranslatorBrazilian", "d2/d4c/class_translator_brazilian.html", null ],
-      [ "TranslatorCzech", "dd/d8a/class_translator_czech.html", null ],
       [ "TranslatorDutch", "d9/d1b/class_translator_dutch.html", null ],
       [ "TranslatorEnglish", "d6/d78/class_translator_english.html", [
         [ "TranslatorJapaneseEn", "d0/d16/class_translator_japanese_en.html", null ],
         [ "TranslatorKoreanEn", "d0/d3a/class_translator_korean_en.html", null ]
-      ] ],
-      [ "TranslatorPortuguese", "dc/df2/class_translator_portuguese.html", null ],
-      [ "TranslatorSpanish", "dc/d44/class_translator_spanish.html", null ],
-      [ "TranslatorSwedish", "d5/d5c/class_translator_swedish.html", null ]
+      ] ]
     ] ],
     [ "TemplateNodeTree::TreeContext", "de/d99/struct_template_node_tree_1_1_tree_context.html", null ],
     [ "TreeDiagram", "d4/dc4/class_tree_diagram.html", null ],
