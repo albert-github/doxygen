@@ -185,6 +185,7 @@ var class_latex_generator =
     [ "writeInheritedSectionTitle", "d3/d77/class_latex_generator.html#a1a0bbe21d00e53a977f2883427fa080a", null ],
     [ "writeLabel", "d3/d77/class_latex_generator.html#a68008ad7e42837dfb408d103fa25921e", null ],
     [ "writeLatexSpacing", "d3/d77/class_latex_generator.html#a9ca2b0c10ac902436350642079fbd56b", null ],
+    [ "writeLocalToc", "d3/d77/class_latex_generator.html#a328f17ccd254fcb9c3ff329789fd370e", null ],
     [ "writeLogo", "d3/d77/class_latex_generator.html#a82e0611e3440955d89a6978936d22cec", null ],
     [ "writeNavigationPath", "d3/d77/class_latex_generator.html#afdb5c85db1a7b1e4c560da954bac0622", null ],
     [ "writeNonBreakableSpace", "d3/d77/class_latex_generator.html#a5e671bec2d4436bc8dd7577ac925eaac", null ],

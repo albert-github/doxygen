@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 698;
+var viewWidth = 1042;
 var viewHeight = 104;
 var sectionId = 'dynsection-1';
 </script>
@@ -58,9 +58,9 @@ var sectionId = 'dynsection-1';
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title=" ">
-<polygon fill="#999999" stroke="#666666" points="417,-96 263,-96 263,-66 417,-66 417,-96"/>
-<text text-anchor="start" x="271" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">/home/runner/work/doxygen</text>
-<text text-anchor="middle" x="340" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">/doxygen/src/latexgen.h</text>
+<polygon fill="#999999" stroke="#666666" points="589,-96 435,-96 435,-66 589,-66 589,-96"/>
+<text text-anchor="start" x="443" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">/home/runner/work/doxygen</text>
+<text text-anchor="middle" x="512" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">/doxygen/src/latexgen.h</text>
 </a>
 </g>
 </g>
@@ -77,8 +77,8 @@ var sectionId = 'dynsection-1';
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="#63b8ff" d="M272.54,-63.58C229.84,-53.19 175.23,-39.9 134.58,-30.01"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="271.74,-66.99 282.28,-65.95 273.39,-60.19 271.74,-66.99"/>
+<path fill="none" stroke="#63b8ff" d="M424.47,-67.93C353.84,-58.08 251.95,-43.61 163,-30 160.16,-29.57 157.27,-29.12 154.34,-28.66"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="424.27,-71.44 434.66,-69.35 425.24,-64.5 424.27,-71.44"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -93,40 +93,72 @@ var sectionId = 'dynsection-1';
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="#63b8ff" d="M311.6,-60.03C297.83,-50.34 281.62,-38.94 269.14,-30.16"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="309.61,-62.91 319.8,-65.8 313.64,-57.18 309.61,-62.91"/>
+<path fill="none" stroke="#63b8ff" d="M444.54,-63.58C401.84,-53.19 347.23,-39.9 306.58,-30.01"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="443.74,-66.99 454.28,-65.95 445.39,-60.19 443.74,-66.99"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d1/d4e/latexdocvisitor_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="518,-30 344,-30 344,0 518,0 518,-30"/>
+<g id="a_node4"><a xlink:href="../../d7/d5b/formula_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="498,-30 344,-30 344,0 498,0 498,-30"/>
 <text text-anchor="start" x="352" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">/home/runner/work/doxygen</text>
-<text text-anchor="middle" x="431" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">/doxygen/src/latexdocvisitor.cpp</text>
+<text text-anchor="middle" x="421" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">/doxygen/src/formula.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="#63b8ff" d="M368.4,-60.03C382.17,-50.34 398.38,-38.94 410.86,-30.16"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="366.36,-57.18 360.2,-65.8 370.39,-62.91 366.36,-57.18"/>
+<path fill="none" stroke="#63b8ff" d="M483.6,-60.03C469.83,-50.34 453.62,-38.94 441.14,-30.16"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="481.61,-62.91 491.8,-65.8 485.64,-57.18 481.61,-62.91"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d4/d42/latexgen_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="690,-30 536,-30 536,0 690,0 690,-30"/>
-<text text-anchor="start" x="544" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">/home/runner/work/doxygen</text>
-<text text-anchor="middle" x="613" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">/doxygen/src/latexgen.cpp</text>
+<g id="a_node5"><a xlink:href="../../d1/d4e/latexdocvisitor_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="690,-30 516,-30 516,0 690,0 690,-30"/>
+<text text-anchor="start" x="524" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">/home/runner/work/doxygen</text>
+<text text-anchor="middle" x="603" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">/doxygen/src/latexdocvisitor.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
 <title>Node1&#45;&gt;Node5</title>
-<path fill="none" stroke="#63b8ff" d="M409.75,-63.65C454.11,-53.25 510.94,-39.93 553.23,-30.01"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="408.85,-60.26 399.91,-65.95 410.45,-67.08 408.85,-60.26"/>
+<path fill="none" stroke="#63b8ff" d="M540.4,-60.03C554.17,-50.34 570.38,-38.94 582.86,-30.16"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="538.36,-57.18 532.2,-65.8 542.39,-62.91 538.36,-57.18"/>
+</g>
+<!-- Node6 -->
+<g id="node6" class="node">
+<title>Node6</title>
+<g id="a_node6"><a xlink:href="../../d4/d42/latexgen_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="862,-30 708,-30 708,0 862,0 862,-30"/>
+<text text-anchor="start" x="716" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">/home/runner/work/doxygen</text>
+<text text-anchor="middle" x="785" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">/doxygen/src/latexgen.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node6 -->
+<g id="edge5" class="edge">
+<title>Node1&#45;&gt;Node6</title>
+<path fill="none" stroke="#63b8ff" d="M581.75,-63.65C626.11,-53.25 682.94,-39.93 725.23,-30.01"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="580.85,-60.26 571.91,-65.95 582.45,-67.08 580.85,-60.26"/>
+</g>
+<!-- Node7 -->
+<g id="node7" class="node">
+<title>Node7</title>
+<g id="a_node7"><a xlink:href="../../df/d54/template_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1034,-30 880,-30 880,0 1034,0 1034,-30"/>
+<text text-anchor="start" x="888" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">/home/runner/work/doxygen</text>
+<text text-anchor="middle" x="957" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">/doxygen/src/template.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node7 -->
+<g id="edge6" class="edge">
+<title>Node1&#45;&gt;Node7</title>
+<path fill="none" stroke="#63b8ff" d="M599.14,-68.43C671.9,-58.64 778.29,-44 871,-30 873.84,-29.57 876.74,-29.13 879.66,-28.68"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="598.55,-64.98 589.11,-69.78 599.48,-71.92 598.55,-64.98"/>
 </g>
 </g>
 </svg>

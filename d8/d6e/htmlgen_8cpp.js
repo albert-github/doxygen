@@ -31,5 +31,5 @@ var htmlgen_8cpp =
     [ "g_latex_macro", "d8/d6e/htmlgen_8cpp.html#abe3baaa3e5fc0455cd443d1722191cf5", null ],
     [ "g_lightMap", "d8/d6e/htmlgen_8cpp.html#ac52a9791b71e7f3ccfb32256329e3594", null ],
     [ "g_mathjax_code", "d8/d6e/htmlgen_8cpp.html#a4e0395c7f64c90455b817813fdaf3952", null ],
-    [ "hex", "d8/d6e/htmlgen_8cpp.html#af6d39adaeb2e454e5ad70f6e7cb83416", null ]
+    [ "hex", "d8/d6e/htmlgen_8cpp.html#a1748a7403991604b7f600589b77f9937", null ]
 ];

@@ -1225,7 +1225,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00235">QCString::lower()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00246">QCString::stripWhiteSpace()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00248">ConfigBool::convertStrToVal()</a>, and <a class="el" href="../../d9/de3/configimpl_8l_source.html#l02177">Config::updateObsolete()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00248">ConfigBool::convertStrToVal()</a>, and <a class="el" href="../../d9/de3/configimpl_8l_source.html#l02176">Config::updateObsolete()</a>.</p>
 
 </div>
 </div>
@@ -2058,15 +2058,14 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/de3/configimpl_8l_source.html#l02171">2171</a> of file <a class="el" href="../../d9/de3/configimpl_8l_source.html">configimpl.l</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 2172</span>{</div>
-<div class="line"><span class="lineno"> 2173</span>  <span class="keywordflow">if</span> (value==0 || value-&gt;<a class="code hl_function" href="../../d3/db9/class_config_obsolete.html#a5b2f5633d6d13cfe0c2873ab683db80e">valueStringRef</a>()-&gt;<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>()) <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno"> 2174</span>  attr.<a class="code hl_function" href="../../d5/d84/class_dot_attributes.html#a4f5659a8f6428ebc0978b109daff5204">updateValue</a>(name,*value-&gt;<a class="code hl_function" href="../../d3/db9/class_config_obsolete.html#a5b2f5633d6d13cfe0c2873ab683db80e">valueStringRef</a>());</div>
+<div class="line"><span class="lineno"> 2173</span>  attr.<a class="code hl_function" href="../../d5/d84/class_dot_attributes.html#a379cba80b5c667d8d41d85426c4f5376">updateValue</a>(name,*value-&gt;<a class="code hl_function" href="../../d3/db9/class_config_obsolete.html#a5b2f5633d6d13cfe0c2873ab683db80e">valueStringRef</a>());</div>
 <div class="ttc" id="aclass_config_obsolete_html_a5b2f5633d6d13cfe0c2873ab683db80e"><div class="ttname"><a href="../../d3/db9/class_config_obsolete.html#a5b2f5633d6d13cfe0c2873ab683db80e">ConfigObsolete::valueStringRef</a></div><div class="ttdeci">QCString * valueStringRef()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/db1/configimpl_8h_source.html#l00291">configimpl.h:291</a></div></div>
-<div class="ttc" id="aclass_dot_attributes_html_a4f5659a8f6428ebc0978b109daff5204"><div class="ttname"><a href="../../d5/d84/class_dot_attributes.html#a4f5659a8f6428ebc0978b109daff5204">DotAttributes::updateValue</a></div><div class="ttdeci">void updateValue(const QCString &amp;key, const QCString &amp;value)</div><div class="ttdoc">update a given attribute with a new value.</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dfc/dotattributes_8h_source.html#l00037">dotattributes.h:37</a></div></div>
-<div class="line"><span class="lineno"> 2175</span>}</div>
+<div class="ttc" id="aclass_dot_attributes_html_a379cba80b5c667d8d41d85426c4f5376"><div class="ttname"><a href="../../d5/d84/class_dot_attributes.html#a379cba80b5c667d8d41d85426c4f5376">DotAttributes::updateValue</a></div><div class="ttdeci">void updateValue(const QCString &amp;key, const QCString &amp;inpValue)</div><div class="ttdoc">update a given attribute with a new value.</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dfc/dotattributes_8h_source.html#l00037">dotattributes.h:37</a></div></div>
+<div class="line"><span class="lineno"> 2174</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d6/dfc/dotattributes_8h_source.html#l00037">DotAttributes::updateValue()</a>, and <a class="el" href="../../db/db1/configimpl_8h_source.html#l00291">ConfigObsolete::valueStringRef()</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/dfc/dotattributes_8h_source.html#l00037">DotAttributes::updateValue()</a>, and <a class="el" href="../../db/db1/configimpl_8h_source.html#l00291">ConfigObsolete::valueStringRef()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/de3/configimpl_8l_source.html#l02177">Config::updateObsolete()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/de3/configimpl_8l_source.html#l02176">Config::updateObsolete()</a>.</p>
 
 </div>
 </div>
@@ -2539,7 +2538,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00635">635</a> of file <a class="el" href="../../d9/de3/configimpl_8l_source.html">configimpl.l</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/de3/configimpl_8l_source.html#l02246">Config::parse()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/de3/configimpl_8l_source.html#l02245">Config::parse()</a>.</p>
 
 </div>
 </div>
@@ -2565,7 +2564,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00634">634</a> of file <a class="el" href="../../d9/de3/configimpl_8l_source.html">configimpl.l</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00707">checkEncoding()</a>, <a class="el" href="../../d9/de3/configimpl_8l_source.html#l02246">Config::parse()</a>, <a class="el" href="../../d9/de3/configimpl_8l_source.html#l01569">ConfigImpl::parseString()</a>, and <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00713">stripComment()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00707">checkEncoding()</a>, <a class="el" href="../../d9/de3/configimpl_8l_source.html#l02245">Config::parse()</a>, <a class="el" href="../../d9/de3/configimpl_8l_source.html#l01569">ConfigImpl::parseString()</a>, and <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00713">stripComment()</a>.</p>
 
 </div>
 </div>

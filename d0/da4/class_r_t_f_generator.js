@@ -200,6 +200,7 @@ var class_r_t_f_generator =
     [ "writeInheritedSectionTitle", "d0/da4/class_r_t_f_generator.html#a17f64e8b1e217156542e6fb8fbd04c99", null ],
     [ "writeLabel", "d0/da4/class_r_t_f_generator.html#a3845989208755f9a77aa04f1b4a5b507", null ],
     [ "writeLatexSpacing", "d0/da4/class_r_t_f_generator.html#a1b58b1600ad492690fc1c83b7c6c9803", null ],
+    [ "writeLocalToc", "d0/da4/class_r_t_f_generator.html#ab450f7f616681433a7d15075e4792ea2", null ],
     [ "writeLogo", "d0/da4/class_r_t_f_generator.html#a94f7432f76fdcce01b1706170cd6c433", null ],
     [ "writeNavigationPath", "d0/da4/class_r_t_f_generator.html#ac8eacdfb0bbaecab46344789338465d2", null ],
     [ "writeNonBreakableSpace", "d0/da4/class_r_t_f_generator.html#a0f51f9022b3e8f3d95f154e0d4d5b201", null ],

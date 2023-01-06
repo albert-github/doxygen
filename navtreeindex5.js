@@ -1,5 +1,10 @@
 var NAVTREEINDEX5 =
 {
+"d0/dab/class_translator_russian.html#a3d87287f0c4e4f09081dd983558a68a0":[8,0,606,145],
+"d0/dab/class_translator_russian.html#a3da397db2651871c6d587fa2398ddc67":[8,0,606,183],
+"d0/dab/class_translator_russian.html#a3e76774dc9cd6fb260037ccc94bd30f6":[8,0,606,138],
+"d0/dab/class_translator_russian.html#a3f204bdad000e4c943d79f08c217cfc2":[8,0,606,198],
+"d0/dab/class_translator_russian.html#a4078ccd04741bf184fb299437d9f05fd":[8,0,606,99],
 "d0/dab/class_translator_russian.html#a426363fce4e1a9c519698061f09e8c2b":[8,0,606,216],
 "d0/dab/class_translator_russian.html#a42691a47ebafb9216afa86a48e208d48":[8,0,606,18],
 "d0/dab/class_translator_russian.html#a428158395562634bf360d3d8eb811079":[8,0,606,108],
@@ -188,8 +193,8 @@ var NAVTREEINDEX5 =
 "d0/db2/struct_html_attrib.html#a89bb7f09a717b34af2fc9b5466adad63":[8,0,308,0],
 "d0/db8/group__template__api.html":[6,0],
 "d0/db8/group__template__api.html#ga721a09a9636793ccb7ae9db5aeef5751":[6,0,10],
-"d0/dc1/struct_search_index_methods_1_1set_current_doc.html":[7,0,10,1],
 "d0/dc1/struct_search_index_methods_1_1set_current_doc.html":[8,0,4,1],
+"d0/dc1/struct_search_index_methods_1_1set_current_doc.html":[7,0,10,1],
 "d0/dc1/struct_search_index_methods_1_1set_current_doc.html#a0db75b6b850bd59fbae0933704799f6e":[8,0,4,1,0],
 "d0/dc1/struct_search_index_methods_1_1set_current_doc.html#a0db75b6b850bd59fbae0933704799f6e":[7,0,10,1,0],
 "d0/dc2/class_class_def_mutable.html":[8,0,37],
@@ -244,10 +249,5 @@ var NAVTREEINDEX5 =
 "d0/dc2/class_html_spaceless.html#a76830fa0ab2521a037bf49242038ed3f":[8,0,319,4],
 "d0/dc2/class_html_spaceless.html#a7946d2bd58bde65bd45e2c4ae2d53fee":[8,0,319,0],
 "d0/dc2/class_html_spaceless.html#ae0979dacb44f1a2db65f14f5bba84a7f":[8,0,319,2],
-"d0/dc2/class_html_spaceless.html#af7774a1e0cda214f1d50e05dfb52be0b":[8,0,319,3],
-"d0/dc3/xmlgen_8cpp.html":[9,0,2,304],
-"d0/dc3/xmlgen_8cpp.html#a05626bc44975c02e4f75b86520b8b7ed":[9,0,2,304,2],
-"d0/dc3/xmlgen_8cpp.html#a0da7be0853343b6580993a525ed72a62":[9,0,2,304,8],
-"d0/dc3/xmlgen_8cpp.html#a0f9b3e222369b7d908441a0825b0da84":[9,0,2,304,3],
-"d0/dc3/xmlgen_8cpp.html#a15a13b52d6f40e0f5b5c6afb4a44b71b":[9,0,2,304,37]
+"d0/dc2/class_html_spaceless.html#af7774a1e0cda214f1d50e05dfb52be0b":[8,0,319,3]
 };

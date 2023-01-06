@@ -7,6 +7,7 @@ var diagram_8cpp =
     [ "ClassDiagram::Private", "dc/d28/struct_class_diagram_1_1_private.html", "dc/d28/struct_class_diagram_1_1_private" ],
     [ "IMAGE_EXT", "da/d0d/diagram_8cpp.html#addf4ae1173df3a2d96b5862df8960117", null ],
     [ "DiagramItemList", "da/d0d/diagram_8cpp.html#a603348be77849aaf4416a4673fa207b6", null ],
+    [ "convertToPSString", "da/d0d/diagram_8cpp.html#ab1778365304892c7a24196f356222b18", null ],
     [ "getMinProtectionLevel", "da/d0d/diagram_8cpp.html#aa7edd2f3dfefdfd9655c162adc982e70", null ],
     [ "protToColor", "da/d0d/diagram_8cpp.html#a795da6949338dce366860ca9f7807662", null ],
     [ "protToMask", "da/d0d/diagram_8cpp.html#ad5de5180d446e5debf2a96ded1684cb3", null ],

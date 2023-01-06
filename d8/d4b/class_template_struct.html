@@ -164,7 +164,7 @@ Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Default implementation of a context value of type struct. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l00148">148</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l00149">149</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8cc5680c6d196fa7d7b173ae1d31502b" name="a8cc5680c6d196fa7d7b173ae1d31502b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8cc5680c6d196fa7d7b173ae1d31502b">&#9670;&#160;</a></span>TemplateStruct()</h2>
@@ -246,12 +246,12 @@ Private Attributes</h2></td></tr>
 
 <p>Creates an instance and returns a shared pointer to it. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l00216">216</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  217</span>{</div>
-<div class="line"><span class="lineno">  218</span>  <span class="keywordflow">return</span> std::make_shared&lt;TemplateStruct&gt;();</div>
-<div class="line"><span class="lineno">  219</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l00217">217</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  218</span>{</div>
+<div class="line"><span class="lineno">  219</span>  <span class="keywordflow">return</span> std::make_shared&lt;TemplateStruct&gt;();</div>
+<div class="line"><span class="lineno">  220</span>}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l02850">TemplateContextImpl::addIndexEntry()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l01318">FilterAlphaIndex::apply()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03207">TemplateNodeRepeat::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03313">TemplateNodeRange::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03466">TemplateNodeFor::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03615">TemplateNodeBlock::render()</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l04417">TemplateNodeMarkers::render()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l02851">TemplateContextImpl::addIndexEntry()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l01319">FilterAlphaIndex::apply()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03208">TemplateNodeRepeat::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03314">TemplateNodeRange::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03467">TemplateNodeFor::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03616">TemplateNodeBlock::render()</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l04418">TemplateNodeMarkers::render()</a>.</p>
 
 </div>
 </div>
@@ -282,20 +282,20 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d9/de8/class_template_struct_intf.html#afc0e136b8705d1c7f48c434b92ade695">TemplateStructIntf</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l00205">205</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  206</span>{</div>
-<div class="line"><span class="lineno">  207</span>  <a class="code hl_typedef" href="../../d5/d75/containers_8h.html#ac8d53003529fb2d062d614077fe6857c">StringVector</a> result;</div>
-<div class="line"><span class="lineno">  208</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;kv : <a class="code hl_variable" href="../../d8/d4b/class_template_struct.html#a2399b272292c7fd72bf44f360a6652d4">m_fields</a>)</div>
-<div class="line"><span class="lineno">  209</span>  {</div>
-<div class="line"><span class="lineno">  210</span>    result.push_back(kv.first);</div>
-<div class="line"><span class="lineno">  211</span>  }</div>
-<div class="line"><span class="lineno">  212</span>  std::sort(result.begin(),result.end());</div>
-<div class="line"><span class="lineno">  213</span>  <span class="keywordflow">return</span> result;</div>
-<div class="line"><span class="lineno">  214</span>}</div>
-<div class="ttc" id="aclass_template_struct_html_a2399b272292c7fd72bf44f360a6652d4"><div class="ttname"><a href="../../d8/d4b/class_template_struct.html#a2399b272292c7fd72bf44f360a6652d4">TemplateStruct::m_fields</a></div><div class="ttdeci">std::unordered_map&lt; std::string, TemplateVariant &gt; m_fields</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l00174">template.cpp:174</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l00206">206</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  207</span>{</div>
+<div class="line"><span class="lineno">  208</span>  <a class="code hl_typedef" href="../../d5/d75/containers_8h.html#ac8d53003529fb2d062d614077fe6857c">StringVector</a> result;</div>
+<div class="line"><span class="lineno">  209</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;kv : <a class="code hl_variable" href="../../d8/d4b/class_template_struct.html#a2399b272292c7fd72bf44f360a6652d4">m_fields</a>)</div>
+<div class="line"><span class="lineno">  210</span>  {</div>
+<div class="line"><span class="lineno">  211</span>    result.push_back(kv.first);</div>
+<div class="line"><span class="lineno">  212</span>  }</div>
+<div class="line"><span class="lineno">  213</span>  std::sort(result.begin(),result.end());</div>
+<div class="line"><span class="lineno">  214</span>  <span class="keywordflow">return</span> result;</div>
+<div class="line"><span class="lineno">  215</span>}</div>
+<div class="ttc" id="aclass_template_struct_html_a2399b272292c7fd72bf44f360a6652d4"><div class="ttname"><a href="../../d8/d4b/class_template_struct.html#a2399b272292c7fd72bf44f360a6652d4">TemplateStruct::m_fields</a></div><div class="ttdeci">std::unordered_map&lt; std::string, TemplateVariant &gt; m_fields</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l00175">template.cpp:175</a></div></div>
 <div class="ttc" id="acontainers_8h_html_ac8d53003529fb2d062d614077fe6857c"><div class="ttname"><a href="../../d5/d75/containers_8h.html#ac8d53003529fb2d062d614077fe6857c">StringVector</a></div><div class="ttdeci">std::vector&lt; std::string &gt; StringVector</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d75/containers_8h_source.html#l00032">containers.h:32</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l00174">m_fields</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l00175">m_fields</a>.</p>
 
 </div>
 </div>
@@ -333,15 +333,15 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d9/de8/class_template_struct_intf.html#a692b781100146c0dfe98e2d2ac1ab030">TemplateStructIntf</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l00199">199</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  200</span>{</div>
-<div class="line"><span class="lineno">  201</span>  <span class="keyword">auto</span> it = <a class="code hl_variable" href="../../d8/d4b/class_template_struct.html#a2399b272292c7fd72bf44f360a6652d4">m_fields</a>.find(name.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>());</div>
-<div class="line"><span class="lineno">  202</span>  <span class="keywordflow">return</span> it!=<a class="code hl_variable" href="../../d8/d4b/class_template_struct.html#a2399b272292c7fd72bf44f360a6652d4">m_fields</a>.end() ? it-&gt;second : <a class="code hl_class" href="../../d1/dba/class_template_variant.html">TemplateVariant</a>();</div>
-<div class="line"><span class="lineno">  203</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l00200">200</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  201</span>{</div>
+<div class="line"><span class="lineno">  202</span>  <span class="keyword">auto</span> it = <a class="code hl_variable" href="../../d8/d4b/class_template_struct.html#a2399b272292c7fd72bf44f360a6652d4">m_fields</a>.find(name.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>());</div>
+<div class="line"><span class="lineno">  203</span>  <span class="keywordflow">return</span> it!=<a class="code hl_variable" href="../../d8/d4b/class_template_struct.html#a2399b272292c7fd72bf44f360a6652d4">m_fields</a>.end() ? it-&gt;second : <a class="code hl_class" href="../../d1/dba/class_template_variant.html">TemplateVariant</a>();</div>
+<div class="line"><span class="lineno">  204</span>}</div>
 <div class="ttc" id="aclass_q_c_string_html_a875e9ad762554ef12f3ed69b015bb245"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">QCString::str</a></div><div class="ttdeci">const std::string &amp; str() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00484">qcstring.h:484</a></div></div>
 <div class="ttc" id="aclass_template_variant_html"><div class="ttname"><a href="../../d1/dba/class_template_variant.html">TemplateVariant</a></div><div class="ttdoc">Variant type which can hold one value of a fixed set of types.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/db8/template_8h_source.html#l00098">template.h:99</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l00174">m_fields</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00484">QCString::str()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l00175">m_fields</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00484">QCString::str()</a>.</p>
 
 </div>
 </div>
@@ -371,16 +371,16 @@ Private Attributes</h2></td></tr>
 
 <p>Removes the field from the struct. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l00190">190</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  191</span>{</div>
-<div class="line"><span class="lineno">  192</span>  <span class="keyword">auto</span> it = <a class="code hl_variable" href="../../d8/d4b/class_template_struct.html#a2399b272292c7fd72bf44f360a6652d4">m_fields</a>.find(name.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>());</div>
-<div class="line"><span class="lineno">  193</span>  <span class="keywordflow">if</span> (it!=<a class="code hl_variable" href="../../d8/d4b/class_template_struct.html#a2399b272292c7fd72bf44f360a6652d4">m_fields</a>.end())</div>
-<div class="line"><span class="lineno">  194</span>  {</div>
-<div class="line"><span class="lineno">  195</span>    <a class="code hl_variable" href="../../d8/d4b/class_template_struct.html#a2399b272292c7fd72bf44f360a6652d4">m_fields</a>.erase(it);</div>
-<div class="line"><span class="lineno">  196</span>  }</div>
-<div class="line"><span class="lineno">  197</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l00191">191</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  192</span>{</div>
+<div class="line"><span class="lineno">  193</span>  <span class="keyword">auto</span> it = <a class="code hl_variable" href="../../d8/d4b/class_template_struct.html#a2399b272292c7fd72bf44f360a6652d4">m_fields</a>.find(name.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>());</div>
+<div class="line"><span class="lineno">  194</span>  <span class="keywordflow">if</span> (it!=<a class="code hl_variable" href="../../d8/d4b/class_template_struct.html#a2399b272292c7fd72bf44f360a6652d4">m_fields</a>.end())</div>
+<div class="line"><span class="lineno">  195</span>  {</div>
+<div class="line"><span class="lineno">  196</span>    <a class="code hl_variable" href="../../d8/d4b/class_template_struct.html#a2399b272292c7fd72bf44f360a6652d4">m_fields</a>.erase(it);</div>
+<div class="line"><span class="lineno">  197</span>  }</div>
+<div class="line"><span class="lineno">  198</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l00174">m_fields</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00484">QCString::str()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l00175">m_fields</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00484">QCString::str()</a>.</p>
 
 </div>
 </div>
@@ -427,20 +427,20 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l00177">177</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  178</span>{</div>
-<div class="line"><span class="lineno">  179</span>  <span class="keyword">auto</span> it = <a class="code hl_variable" href="../../d8/d4b/class_template_struct.html#a2399b272292c7fd72bf44f360a6652d4">m_fields</a>.find(name.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>());</div>
-<div class="line"><span class="lineno">  180</span>  <span class="keywordflow">if</span> (it!=<a class="code hl_variable" href="../../d8/d4b/class_template_struct.html#a2399b272292c7fd72bf44f360a6652d4">m_fields</a>.end()) <span class="comment">// change existing field</span></div>
-<div class="line"><span class="lineno">  181</span>  {</div>
-<div class="line"><span class="lineno">  182</span>    it-&gt;second = v;</div>
-<div class="line"><span class="lineno">  183</span>  }</div>
-<div class="line"><span class="lineno">  184</span>  <span class="keywordflow">else</span> <span class="comment">// insert new field</span></div>
-<div class="line"><span class="lineno">  185</span>  {</div>
-<div class="line"><span class="lineno">  186</span>    <a class="code hl_variable" href="../../d8/d4b/class_template_struct.html#a2399b272292c7fd72bf44f360a6652d4">m_fields</a>.insert(std::make_pair(name.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>(),v));</div>
-<div class="line"><span class="lineno">  187</span>  }</div>
-<div class="line"><span class="lineno">  188</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l00178">178</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  179</span>{</div>
+<div class="line"><span class="lineno">  180</span>  <span class="keyword">auto</span> it = <a class="code hl_variable" href="../../d8/d4b/class_template_struct.html#a2399b272292c7fd72bf44f360a6652d4">m_fields</a>.find(name.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>());</div>
+<div class="line"><span class="lineno">  181</span>  <span class="keywordflow">if</span> (it!=<a class="code hl_variable" href="../../d8/d4b/class_template_struct.html#a2399b272292c7fd72bf44f360a6652d4">m_fields</a>.end()) <span class="comment">// change existing field</span></div>
+<div class="line"><span class="lineno">  182</span>  {</div>
+<div class="line"><span class="lineno">  183</span>    it-&gt;second = v;</div>
+<div class="line"><span class="lineno">  184</span>  }</div>
+<div class="line"><span class="lineno">  185</span>  <span class="keywordflow">else</span> <span class="comment">// insert new field</span></div>
+<div class="line"><span class="lineno">  186</span>  {</div>
+<div class="line"><span class="lineno">  187</span>    <a class="code hl_variable" href="../../d8/d4b/class_template_struct.html#a2399b272292c7fd72bf44f360a6652d4">m_fields</a>.insert(std::make_pair(name.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>(),v));</div>
+<div class="line"><span class="lineno">  188</span>  }</div>
+<div class="line"><span class="lineno">  189</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l00174">m_fields</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00484">QCString::str()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l00175">m_fields</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00484">QCString::str()</a>.</p>
 
 </div>
 </div>
@@ -465,9 +465,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l00174">174</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l00175">175</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l00205">fields()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l00199">get()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l00190">remove()</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l00177">set()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l00206">fields()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l00200">get()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l00191">remove()</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l00178">set()</a>.</p>
 
 </div>
 </div>

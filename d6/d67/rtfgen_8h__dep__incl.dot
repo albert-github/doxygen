@@ -9,5 +9,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/rtfgen.h"
   Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
   Node2 [label="/home/runner/work/doxygen\l/doxygen/src/doxygen.cpp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d98/doxygen_8cpp.html",tooltip=" "];
   Node1 -> Node3 [dir="back",color="steelblue1",style="solid"];
-  Node3 [label="/home/runner/work/doxygen\l/doxygen/src/rtfgen.cpp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d9c/rtfgen_8cpp.html",tooltip=" "];
+  Node3 [label="/home/runner/work/doxygen\l/doxygen/src/rtfdocvisitor.cpp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d9a/rtfdocvisitor_8cpp.html",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node4 [label="/home/runner/work/doxygen\l/doxygen/src/rtfgen.cpp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d9c/rtfgen_8cpp.html",tooltip=" "];
 }

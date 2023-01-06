@@ -140,6 +140,7 @@ var class_output_generator =
     [ "writeInheritedSectionTitle", "d3/d8e/class_output_generator.html#a6f0911054fe388d7bfbd4a2b60ba21d5", null ],
     [ "writeLabel", "d3/d8e/class_output_generator.html#afe4260c0e579d0c958c8819125270a87", null ],
     [ "writeLatexSpacing", "d3/d8e/class_output_generator.html#afcb9acfea2d7a6f0a340287632aea4e8", null ],
+    [ "writeLocalToc", "d3/d8e/class_output_generator.html#a34e126775a7ec8d8455c33ca93d1f06d", null ],
     [ "writeLogo", "d3/d8e/class_output_generator.html#a4a253e01f787c22716b14709344535ab", null ],
     [ "writeNavigationPath", "d3/d8e/class_output_generator.html#a82c0a0b69d93652d92b1aea3621db77a", null ],
     [ "writePageLink", "d3/d8e/class_output_generator.html#a71e5217be79a5b4a209638e6e0da8630", null ],

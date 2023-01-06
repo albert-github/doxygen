@@ -513,6 +513,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac43650e1c991e52d73b770964950af5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad66fe9b4b75de372b5bd1669d554c5ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da5/class_man_generator.html#ad66fe9b4b75de372b5bd1669d554c5ee">endLabels</a> ()</td></tr>
 <tr class="separator:ad66fe9b4b75de372b5bd1669d554c5ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8ba3f5b35bb5e12205d21ab55fa3c89"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da5/class_man_generator.html#aa8ba3f5b35bb5e12205d21ab55fa3c89">writeLocalToc</a> (const <a class="el" href="../../d1/df9/class_section_refs.html">SectionRefs</a> &amp;, const <a class="el" href="../../da/d1d/class_local_toc.html">LocalToc</a> &amp;)</td></tr>
+<tr class="separator:aa8ba3f5b35bb5e12205d21ab55fa3c89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e6b8ca3cae40e7f04a73cb2d4862aff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d9c/class_code_output_interface.html">CodeOutputInterface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da5/class_man_generator.html#a5e6b8ca3cae40e7f04a73cb2d4862aff">codeGen</a> ()</td></tr>
 <tr class="separator:a5e6b8ca3cae40e7f04a73cb2d4862aff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_output_generator"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_output_generator')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d3/d8e/class_output_generator.html">OutputGenerator</a></td></tr>
@@ -802,6 +804,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afe4260c0e579d0c958c8819125270a87 inherit pub_methods_class_output_generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13875bb6d9d678dac1ae21b3ad97127a inherit pub_methods_class_output_generator"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8e/class_output_generator.html#a13875bb6d9d678dac1ae21b3ad97127a">endLabels</a> ()=0</td></tr>
 <tr class="separator:a13875bb6d9d678dac1ae21b3ad97127a inherit pub_methods_class_output_generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34e126775a7ec8d8455c33ca93d1f06d inherit pub_methods_class_output_generator"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8e/class_output_generator.html#a34e126775a7ec8d8455c33ca93d1f06d">writeLocalToc</a> (const <a class="el" href="../../d1/df9/class_section_refs.html">SectionRefs</a> &amp;, const <a class="el" href="../../da/d1d/class_local_toc.html">LocalToc</a> &amp;lt)=0</td></tr>
+<tr class="separator:a34e126775a7ec8d8455c33ca93d1f06d inherit pub_methods_class_output_generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2578340a2c876dede4496c67a4c65f6 inherit pub_methods_class_output_generator"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8e/class_output_generator.html#ad2578340a2c876dede4496c67a4c65f6">cleanup</a> ()=0</td></tr>
 <tr class="separator:ad2578340a2c876dede4496c67a4c65f6 inherit pub_methods_class_output_generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_base_output_doc_interface"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_base_output_doc_interface')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../df/d27/class_base_output_doc_interface.html">BaseOutputDocInterface</a></td></tr>
@@ -994,9 +998,9 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  183</span>  , <a class="code hl_variable" href="../../de/da5/class_man_generator.html#af49abf556b2f133ea4381008688ef2fa">m_codeGen</a>(<a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a>)</div>
 <div class="line"><span class="lineno">  184</span>{</div>
 <div class="line"><span class="lineno">  185</span>}</div>
-<div class="ttc" id="aclass_man_generator_html_af49abf556b2f133ea4381008688ef2fa"><div class="ttname"><a href="../../de/da5/class_man_generator.html#af49abf556b2f133ea4381008688ef2fa">ManGenerator::m_codeGen</a></div><div class="ttdeci">ManCodeGenerator m_codeGen</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc0/mangen_8h_source.html#l00286">mangen.h:286</a></div></div>
+<div class="ttc" id="aclass_man_generator_html_af49abf556b2f133ea4381008688ef2fa"><div class="ttname"><a href="../../de/da5/class_man_generator.html#af49abf556b2f133ea4381008688ef2fa">ManGenerator::m_codeGen</a></div><div class="ttdeci">ManCodeGenerator m_codeGen</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc0/mangen_8h_source.html#l00288">mangen.h:288</a></div></div>
 <div class="ttc" id="aclass_output_generator_html"><div class="ttname"><a href="../../d3/d8e/class_output_generator.html">OutputGenerator</a></div><div class="ttdoc">Abstract output generator.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d06/outputgen_8h_source.html#l00342">outputgen.h:343</a></div></div>
-<div class="ttc" id="aclass_output_generator_html_aceba8f7a334d2e60297dcc727959796c"><div class="ttname"><a href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">OutputGenerator::m_t</a></div><div class="ttdeci">TextStream m_t</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d06/outputgen_8h_source.html#l00516">outputgen.h:516</a></div></div>
+<div class="ttc" id="aclass_output_generator_html_aceba8f7a334d2e60297dcc727959796c"><div class="ttname"><a href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">OutputGenerator::m_t</a></div><div class="ttdeci">TextStream m_t</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d06/outputgen_8h_source.html#l00518">outputgen.h:518</a></div></div>
 <div class="ttc" id="aconfig_8h_html_a737741e6991bdb5694a50075437a9d89"><div class="ttname"><a href="../../db/d16/config_8h.html#a737741e6991bdb5694a50075437a9d89">Config_getString</a></div><div class="ttdeci">#define Config_getString(name)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/config_8h_source.html#l00032">config.h:32</a></div></div>
 <div class="ttc" id="amangen_8cpp_html_a5ea636b28660e85fc0dc3b8d9b6daf2c"><div class="ttname"><a href="../../d7/de7/mangen_8cpp.html#a5ea636b28660e85fc0dc3b8d9b6daf2c">getSubdir</a></div><div class="ttdeci">static QCString getSubdir()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/de7/mangen_8cpp_source.html#l00068">mangen.cpp:68</a></div></div>
 </div><!-- fragment -->
@@ -1211,10 +1215,10 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d3/d8e/class_output_generator.html#a6326b9fb9d65c5138e3491bfc431fe51">OutputGenerator</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/dc0/mangen_8h_source.html#l00277">277</a> of file <a class="el" href="../../da/dc0/mangen_8h_source.html">mangen.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  277</span>{ <span class="keywordflow">return</span> &amp;<a class="code hl_variable" href="../../de/da5/class_man_generator.html#af49abf556b2f133ea4381008688ef2fa">m_codeGen</a>; }</div>
+<p class="definition">Definition at line <a class="el" href="../../da/dc0/mangen_8h_source.html#l00279">279</a> of file <a class="el" href="../../da/dc0/mangen_8h_source.html">mangen.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  279</span>{ <span class="keywordflow">return</span> &amp;<a class="code hl_variable" href="../../de/da5/class_man_generator.html#af49abf556b2f133ea4381008688ef2fa">m_codeGen</a>; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/dc0/mangen_8h_source.html#l00286">m_codeGen</a>.</p>
+<p class="reference">References <a class="el" href="../../da/dc0/mangen_8h_source.html#l00288">m_codeGen</a>.</p>
 
 </div>
 </div>
@@ -1268,12 +1272,12 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  412</span>  }</div>
 <div class="line"><span class="lineno">  413</span>  <a class="code hl_variable" href="../../de/da5/class_man_generator.html#a5993316bd73c426770b1e2bb7e7c2c9c">m_paragraph</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
 <div class="line"><span class="lineno">  414</span>}</div>
-<div class="ttc" id="aclass_man_generator_html_a5993316bd73c426770b1e2bb7e7c2c9c"><div class="ttname"><a href="../../de/da5/class_man_generator.html#a5993316bd73c426770b1e2bb7e7c2c9c">ManGenerator::m_paragraph</a></div><div class="ttdeci">bool m_paragraph</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc0/mangen_8h_source.html#l00282">mangen.h:282</a></div></div>
-<div class="ttc" id="aclass_man_generator_html_a69eb7ce0210b98f4040331fe46702935"><div class="ttname"><a href="../../de/da5/class_man_generator.html#a69eb7ce0210b98f4040331fe46702935">ManGenerator::m_col</a></div><div class="ttdeci">int m_col</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc0/mangen_8h_source.html#l00281">mangen.h:281</a></div></div>
-<div class="ttc" id="aclass_man_generator_html_ab4e8ed9a340d928ce303d3815a796548"><div class="ttname"><a href="../../de/da5/class_man_generator.html#ab4e8ed9a340d928ce303d3815a796548">ManGenerator::m_firstCol</a></div><div class="ttdeci">bool m_firstCol</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc0/mangen_8h_source.html#l00280">mangen.h:280</a></div></div>
+<div class="ttc" id="aclass_man_generator_html_a5993316bd73c426770b1e2bb7e7c2c9c"><div class="ttname"><a href="../../de/da5/class_man_generator.html#a5993316bd73c426770b1e2bb7e7c2c9c">ManGenerator::m_paragraph</a></div><div class="ttdeci">bool m_paragraph</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc0/mangen_8h_source.html#l00284">mangen.h:284</a></div></div>
+<div class="ttc" id="aclass_man_generator_html_a69eb7ce0210b98f4040331fe46702935"><div class="ttname"><a href="../../de/da5/class_man_generator.html#a69eb7ce0210b98f4040331fe46702935">ManGenerator::m_col</a></div><div class="ttdeci">int m_col</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc0/mangen_8h_source.html#l00283">mangen.h:283</a></div></div>
+<div class="ttc" id="aclass_man_generator_html_ab4e8ed9a340d928ce303d3815a796548"><div class="ttname"><a href="../../de/da5/class_man_generator.html#ab4e8ed9a340d928ce303d3815a796548">ManGenerator::m_firstCol</a></div><div class="ttdeci">bool m_firstCol</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc0/mangen_8h_source.html#l00282">mangen.h:282</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_aa93f0eb578d23995850d61f7d61c55c1"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></div><div class="ttdeci">#define FALSE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00033">qcstring.h:33</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00153">QCString::data()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00281">m_col</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_paragraph</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00153">QCString::data()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00283">m_col</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00284">m_paragraph</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00757">startConstraintList()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00707">startDescTable()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00689">startExamples()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00823">startMemberDocSimple()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00727">startParamList()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00349">writeObjectLink()</a>, and <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00331">writeString()</a>.</p>
 
@@ -1312,9 +1316,9 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  586</span>    <a class="code hl_variable" href="../../de/da5/class_man_generator.html#ad0fab05664c35ad10db6438c68b510e7">m_insideTabbing</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
 <div class="line"><span class="lineno">  587</span>  }</div>
 <div class="line"><span class="lineno">  588</span>}</div>
-<div class="ttc" id="aclass_man_generator_html_ad0fab05664c35ad10db6438c68b510e7"><div class="ttname"><a href="../../de/da5/class_man_generator.html#ad0fab05664c35ad10db6438c68b510e7">ManGenerator::m_insideTabbing</a></div><div class="ttdeci">bool m_insideTabbing</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc0/mangen_8h_source.html#l00284">mangen.h:284</a></div></div>
+<div class="ttc" id="aclass_man_generator_html_ad0fab05664c35ad10db6438c68b510e7"><div class="ttname"><a href="../../de/da5/class_man_generator.html#ad0fab05664c35ad10db6438c68b510e7">ManGenerator::m_insideTabbing</a></div><div class="ttdeci">bool m_insideTabbing</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc0/mangen_8h_source.html#l00286">mangen.h:286</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, and <a class="el" href="../../da/dc0/mangen_8h_source.html#l00284">m_insideTabbing</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, and <a class="el" href="../../da/dc0/mangen_8h_source.html#l00286">m_insideTabbing</a>.</p>
 
 </div>
 </div>
@@ -1347,7 +1351,7 @@ Additional Inherited Members</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/dc0/mangen_8h_source.html#l00157">157</a> of file <a class="el" href="../../da/dc0/mangen_8h_source.html">mangen.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  157</span>{ <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\\fP&quot;</span>; <a class="code hl_variable" href="../../de/da5/class_man_generator.html#ab4e8ed9a340d928ce303d3815a796548">m_firstCol</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/dc0/mangen_8h_source.html#l00220">endDescTableTitle()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00757">startConstraintList()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00707">startDescTable()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00689">startExamples()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00727">startParamList()</a>, and <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00349">writeObjectLink()</a>.</p>
 
@@ -1525,7 +1529,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  801</span>}</div>
 <div class="ttc" id="aqcstring_8h_html_aa8cecfc5c5c054d2875c03e77b7be15d"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a></div><div class="ttdeci">#define TRUE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00036">qcstring.h:36</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 </div>
 </div>
@@ -1594,7 +1598,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="aclass_man_generator_html_a3e158ae587148e66ad6f3d4df509ca35"><div class="ttname"><a href="../../de/da5/class_man_generator.html#a3e158ae587148e66ad6f3d4df509ca35">ManGenerator::endEmphasis</a></div><div class="ttdeci">void endEmphasis()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc0/mangen_8h_source.html#l00155">mangen.h:155</a></div></div>
 <div class="ttc" id="aclass_man_generator_html_a87a722d58e6364660622ab086f20edc8"><div class="ttname"><a href="../../de/da5/class_man_generator.html#a87a722d58e6364660622ab086f20edc8">ManGenerator::endItemListItem</a></div><div class="ttdeci">void endItemListItem()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/de7/mangen_8cpp_source.html#l00463">mangen.cpp:463</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/dc0/mangen_8h_source.html#l00155">endEmphasis()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00463">endItemListItem()</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../da/dc0/mangen_8h_source.html#l00155">endEmphasis()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00463">endItemListItem()</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -1727,7 +1731,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  571</span>  <a class="code hl_variable" href="../../de/da5/class_man_generator.html#ab4e8ed9a340d928ce303d3815a796548">m_firstCol</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
 <div class="line"><span class="lineno">  572</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 </div>
 </div>
@@ -2050,7 +2054,7 @@ Additional Inherited Members</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/dc0/mangen_8h_source.html#l00155">155</a> of file <a class="el" href="../../da/dc0/mangen_8h_source.html">mangen.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  155</span>{ <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\\fP&quot;</span>; <a class="code hl_variable" href="../../de/da5/class_man_generator.html#ab4e8ed9a340d928ce303d3815a796548">m_firstCol</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00777">endConstraintParam()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00789">endConstraintType()</a>, and <a class="el" href="../../da/dc0/mangen_8h_source.html#l00220">endDescTableTitle()</a>.</p>
 
@@ -2119,7 +2123,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  283</span>}</div>
 <div class="ttc" id="aclass_output_generator_html_aaacf2b4efc09a2c06b9dd8cc2af69046"><div class="ttname"><a href="../../d3/d8e/class_output_generator.html#aaacf2b4efc09a2c06b9dd8cc2af69046">OutputGenerator::endPlainFile</a></div><div class="ttdeci">void endPlainFile()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d17/outputgen_8cpp_source.html#l00072">outputgen.cpp:72</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00072">OutputGenerator::endPlainFile()</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00072">OutputGenerator::endPlainFile()</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -2215,9 +2219,9 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  375</span>  <a class="code hl_variable" href="../../de/da5/class_man_generator.html#a5993316bd73c426770b1e2bb7e7c2c9c">m_paragraph</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
 <div class="line"><span class="lineno">  376</span>  <a class="code hl_variable" href="../../de/da5/class_man_generator.html#af38ab03549c3ed19ec3ae0508bb857cc">m_upperCase</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
 <div class="line"><span class="lineno">  377</span>}</div>
-<div class="ttc" id="aclass_man_generator_html_af38ab03549c3ed19ec3ae0508bb857cc"><div class="ttname"><a href="../../de/da5/class_man_generator.html#af38ab03549c3ed19ec3ae0508bb857cc">ManGenerator::m_upperCase</a></div><div class="ttdeci">bool m_upperCase</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc0/mangen_8h_source.html#l00283">mangen.h:283</a></div></div>
+<div class="ttc" id="aclass_man_generator_html_af38ab03549c3ed19ec3ae0508bb857cc"><div class="ttname"><a href="../../de/da5/class_man_generator.html#af38ab03549c3ed19ec3ae0508bb857cc">ManGenerator::m_upperCase</a></div><div class="ttdeci">bool m_upperCase</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc0/mangen_8h_source.html#l00285">mangen.h:285</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_paragraph</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00283">m_upperCase</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00284">m_paragraph</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00285">m_upperCase</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00666">endSection()</a>.</p>
 
@@ -2585,7 +2589,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  820</span>  <a class="code hl_variable" href="../../de/da5/class_man_generator.html#ab4e8ed9a340d928ce303d3815a796548">m_firstCol</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
 <div class="line"><span class="lineno">  821</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -2622,7 +2626,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  878</span>  <a class="code hl_variable" href="../../de/da5/class_man_generator.html#ab4e8ed9a340d928ce303d3815a796548">m_firstCol</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
 <div class="line"><span class="lineno">  879</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 </div>
 </div>
@@ -2656,7 +2660,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  866</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\\fP &quot;</span>;</div>
 <div class="line"><span class="lineno">  867</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -2690,7 +2694,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  856</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
 <div class="line"><span class="lineno">  857</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -2861,7 +2865,7 @@ Additional Inherited Members</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/dc0/mangen_8h_source.html#l00181">181</a> of file <a class="el" href="../../da/dc0/mangen_8h_source.html">mangen.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  181</span>{ <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\&quot;&quot;</span>; <a class="code hl_variable" href="../../de/da5/class_man_generator.html#ab4e8ed9a340d928ce303d3815a796548">m_firstCol</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -2896,7 +2900,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  509</span>    <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\&quot;\n&quot;</span>;</div>
 <div class="line"><span class="lineno">  510</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -3024,7 +3028,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  847</span>  <a class="code hl_variable" href="../../de/da5/class_man_generator.html#ab4e8ed9a340d928ce303d3815a796548">m_firstCol</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
 <div class="line"><span class="lineno">  848</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 </div>
 </div>
@@ -3060,7 +3064,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  647</span>  <a class="code hl_variable" href="../../de/da5/class_man_generator.html#ab4e8ed9a340d928ce303d3815a796548">m_firstCol</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
 <div class="line"><span class="lineno">  648</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -3094,7 +3098,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  636</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\n.PP&quot;</span>;</div>
 <div class="line"><span class="lineno">  637</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -3129,7 +3133,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  627</span>  <a class="code hl_variable" href="../../de/da5/class_man_generator.html#ab4e8ed9a340d928ce303d3815a796548">m_firstCol</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
 <div class="line"><span class="lineno">  628</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 </div>
 </div>
@@ -3165,7 +3169,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  389</span>  <a class="code hl_variable" href="../../de/da5/class_man_generator.html#a5993316bd73c426770b1e2bb7e7c2c9c">m_paragraph</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
 <div class="line"><span class="lineno">  390</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_paragraph</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00284">m_paragraph</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00666">endSection()</a>.</p>
 
@@ -3202,7 +3206,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  600</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\&quot;\n.br&quot;</span>;</div>
 <div class="line"><span class="lineno">  601</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -3239,7 +3243,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  616</span>  }</div>
 <div class="line"><span class="lineno">  617</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00284">m_insideTabbing</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00286">m_insideTabbing</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -3674,12 +3678,12 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  686</span>  }</div>
 <div class="line"><span class="lineno">  687</span>}</div>
 <div class="ttc" id="aclass_man_generator_html_a826a7e069686709295c162b2b2db7e25"><div class="ttname"><a href="../../de/da5/class_man_generator.html#a826a7e069686709295c162b2b2db7e25">ManGenerator::endGroupHeader</a></div><div class="ttdeci">void endGroupHeader(int)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/de7/mangen_8cpp_source.html#l00371">mangen.cpp:371</a></div></div>
-<div class="ttc" id="aclass_man_generator_html_a8b98e6c09488de4299044987afb6001c"><div class="ttname"><a href="../../de/da5/class_man_generator.html#a8b98e6c09488de4299044987afb6001c">ManGenerator::m_inHeader</a></div><div class="ttdeci">bool m_inHeader</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc0/mangen_8h_source.html#l00285">mangen.h:285</a></div></div>
+<div class="ttc" id="aclass_man_generator_html_a8b98e6c09488de4299044987afb6001c"><div class="ttname"><a href="../../de/da5/class_man_generator.html#a8b98e6c09488de4299044987afb6001c">ManGenerator::m_inHeader</a></div><div class="ttdeci">bool m_inHeader</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc0/mangen_8h_source.html#l00287">mangen.h:287</a></div></div>
 <div class="ttc" id="aclass_man_generator_html_ae8b551cb5b57bdafb99421c7d22b96e7"><div class="ttname"><a href="../../de/da5/class_man_generator.html#ae8b551cb5b57bdafb99421c7d22b96e7">ManGenerator::endMemberHeader</a></div><div class="ttdeci">void endMemberHeader()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/de7/mangen_8cpp_source.html#l00385">mangen.cpp:385</a></div></div>
 <div class="ttc" id="aclass_man_generator_html_af03cd87557ef2f13cec3c71f05331112"><div class="ttname"><a href="../../de/da5/class_man_generator.html#af03cd87557ef2f13cec3c71f05331112">ManGenerator::type</a></div><div class="ttdeci">OutputType type() const</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc0/mangen_8h_source.html#l00068">mangen.h:68</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_aca68c0d4ac8df0838e209fb5300f7be3"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aca68c0d4ac8df0838e209fb5300f7be3">ASSERT</a></div><div class="ttdeci">#define ASSERT(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00044">qcstring.h:44</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00044">ASSERT</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00371">endGroupHeader()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00385">endMemberHeader()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00285">m_inHeader</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_paragraph</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>, and <a class="el" href="../../da/dc0/mangen_8h_source.html#l00068">type()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00044">ASSERT</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00371">endGroupHeader()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00385">endMemberHeader()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00287">m_inHeader</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00284">m_paragraph</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>, and <a class="el" href="../../da/dc0/mangen_8h_source.html#l00068">type()</a>.</p>
 
 </div>
 </div>
@@ -3743,7 +3747,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  522</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\&quot;&quot;</span>;</div>
 <div class="line"><span class="lineno">  523</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -3777,7 +3781,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  536</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\&quot;&quot;</span>;</div>
 <div class="line"><span class="lineno">  537</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/dc0/mangen_8h_source.html#l00143">endCompoundTemplateParams()</a>.</p>
 
@@ -3874,7 +3878,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  451</span>    <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\&quot;&quot;</span>;</div>
 <div class="line"><span class="lineno">  452</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -3936,7 +3940,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="adatetime_8cpp_html_a28a0c3252d0f0f28c0611cbc3268b003"><div class="ttname"><a href="../../d7/d14/datetime_8cpp.html#a28a0c3252d0f0f28c0611cbc3268b003">dateToString</a></div><div class="ttdeci">QCString dateToString(DateTimeType includeTime)</div><div class="ttdoc">Returns the current date, when includeTime is set also the time is provided.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d14/datetime_8cpp_source.html#l00063">datetime.cpp:63</a></div></div>
 <div class="ttc" id="amangen_8cpp_html_ad3269d7d65675a5e83889f4a98f5610b"><div class="ttname"><a href="../../d7/de7/mangen_8cpp.html#ad3269d7d65675a5e83889f4a98f5610b">getExtension</a></div><div class="ttdeci">static QCString getExtension()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/de7/mangen_8cpp_source.html#l00035">mangen.cpp:35</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00032">Config_getString</a>, <a class="el" href="../../d7/d14/datetime_8cpp_source.html#l00063">dateToString()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00035">getExtension()</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00285">m_inHeader</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_paragraph</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00032">Config_getString</a>, <a class="el" href="../../d7/d14/datetime_8cpp_source.html#l00063">dateToString()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00035">getExtension()</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00287">m_inHeader</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00284">m_paragraph</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 </div>
 </div>
@@ -3969,7 +3973,7 @@ Additional Inherited Members</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/dc0/mangen_8h_source.html#l00115">115</a> of file <a class="el" href="../../da/dc0/mangen_8h_source.html">mangen.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  115</span>{ <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\\fP&quot;</span>; <a class="code hl_variable" href="../../de/da5/class_man_generator.html#ab4e8ed9a340d928ce303d3815a796548">m_firstCol</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -4194,7 +4198,7 @@ Additional Inherited Members</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/dc0/mangen_8h_source.html#l00162">162</a> of file <a class="el" href="../../da/dc0/mangen_8h_source.html">mangen.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  162</span>{ <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\n.br\n&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -4224,7 +4228,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  313</span>  <a class="code hl_variable" href="../../de/da5/class_man_generator.html#a5993316bd73c426770b1e2bb7e7c2c9c">m_paragraph</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
 <div class="line"><span class="lineno">  314</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_paragraph</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00284">m_paragraph</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/dc0/mangen_8h_source.html#l00098">endIndexList()</a>, and <a class="el" href="../../da/dc0/mangen_8h_source.html#l00104">endItemList()</a>.</p>
 
@@ -4291,7 +4295,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  579</span>  }</div>
 <div class="line"><span class="lineno">  580</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/dc0/mangen_8h_source.html#l00284">m_insideTabbing</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../da/dc0/mangen_8h_source.html#l00286">m_insideTabbing</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 </div>
 </div>
@@ -4324,7 +4328,7 @@ Additional Inherited Members</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/dc0/mangen_8h_source.html#l00156">156</a> of file <a class="el" href="../../da/dc0/mangen_8h_source.html">mangen.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  156</span>{ <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\\fB&quot;</span>; <a class="code hl_variable" href="../../de/da5/class_man_generator.html#ab4e8ed9a340d928ce303d3815a796548">m_firstCol</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00757">startConstraintList()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00430">startDescList()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00707">startDescTable()</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00219">startDescTableTitle()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00689">startExamples()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00727">startParamList()</a>, and <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00349">writeObjectLink()</a>.</p>
 
@@ -4526,7 +4530,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="aclass_man_generator_html_a93a20331a8e073df653ed1df9834361b"><div class="ttname"><a href="../../de/da5/class_man_generator.html#a93a20331a8e073df653ed1df9834361b">ManGenerator::startBold</a></div><div class="ttdeci">void startBold()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc0/mangen_8h_source.html#l00156">mangen.h:156</a></div></div>
 <div class="ttc" id="aclass_man_generator_html_ab9fcba9418faf4adb91f7643d5682da2"><div class="ttname"><a href="../../de/da5/class_man_generator.html#ab9fcba9418faf4adb91f7643d5682da2">ManGenerator::docify</a></div><div class="ttdeci">void docify(const QCString &amp;text)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/de7/mangen_8cpp_source.html#l00392">mangen.cpp:392</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00392">docify()</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00157">endBold()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00281">m_col</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_paragraph</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00156">startBold()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00392">docify()</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00157">endBold()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00283">m_col</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00284">m_paragraph</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00156">startBold()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 </div>
 </div>
@@ -4666,7 +4670,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  561</span>  <a class="code hl_variable" href="../../de/da5/class_man_generator.html#a69eb7ce0210b98f4040331fe46702935">m_col</a>=0;</div>
 <div class="line"><span class="lineno">  562</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00281">m_col</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_paragraph</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00283">m_col</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00284">m_paragraph</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00707">startDescTable()</a>.</p>
 
@@ -4705,7 +4709,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  551</span>  <a class="code hl_variable" href="../../de/da5/class_man_generator.html#ab4e8ed9a340d928ce303d3815a796548">m_firstCol</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
 <div class="line"><span class="lineno">  552</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -4736,7 +4740,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  438</span>  <a class="code hl_function" href="../../de/da5/class_man_generator.html#a93a20331a8e073df653ed1df9834361b">startBold</a>();</div>
 <div class="line"><span class="lineno">  439</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00281">m_col</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_paragraph</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00156">startBold()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00283">m_col</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00284">m_paragraph</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00156">startBold()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 </div>
 </div>
@@ -4813,7 +4817,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  720</span>}</div>
 <div class="ttc" id="aclass_man_generator_html_ae826d6dc94da45c9b35bb715ab316656"><div class="ttname"><a href="../../de/da5/class_man_generator.html#ae826d6dc94da45c9b35bb715ab316656">ManGenerator::startDescForItem</a></div><div class="ttdeci">void startDescForItem()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/de7/mangen_8cpp_source.html#l00554">mangen.cpp:554</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00392">docify()</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00157">endBold()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00281">m_col</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_paragraph</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00156">startBold()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00554">startDescForItem()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00392">docify()</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00157">endBold()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00283">m_col</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00284">m_paragraph</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00156">startBold()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00554">startDescForItem()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 </div>
 </div>
@@ -4845,7 +4849,7 @@ Additional Inherited Members</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/dc0/mangen_8h_source.html#l00221">221</a> of file <a class="el" href="../../da/dc0/mangen_8h_source.html">mangen.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  221</span>{ <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>; <a class="code hl_variable" href="../../de/da5/class_man_generator.html#ab4e8ed9a340d928ce303d3815a796548">m_firstCol</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 </div>
 </div>
@@ -5097,7 +5101,7 @@ Additional Inherited Members</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/dc0/mangen_8h_source.html#l00154">154</a> of file <a class="el" href="../../da/dc0/mangen_8h_source.html">mangen.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  154</span>{ <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\\fI&quot;</span>; <a class="code hl_variable" href="../../de/da5/class_man_generator.html#ab4e8ed9a340d928ce303d3815a796548">m_firstCol</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00771">startConstraintParam()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00784">startConstraintType()</a>, and <a class="el" href="../../da/dc0/mangen_8h_source.html#l00219">startDescTableTitle()</a>.</p>
 
@@ -5144,7 +5148,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="aclass_translator_html_ad0aac429d4bcd4489a41e395c5244976"><div class="ttname"><a href="../../d8/dfb/class_translator.html#ad0aac429d4bcd4489a41e395c5244976">Translator::trExamples</a></div><div class="ttdeci">virtual QCString trExamples()=0</div></div>
 <div class="ttc" id="alanguage_8cpp_html_a07b18e39f7c5156cd370829e7e6f8534"><div class="ttname"><a href="../../d2/d48/language_8cpp.html#a07b18e39f7c5156cd370829e7e6f8534">theTranslator</a></div><div class="ttdeci">Translator * theTranslator</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d48/language_8cpp_source.html#l00070">language.cpp:70</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00392">docify()</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00157">endBold()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00281">m_col</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_paragraph</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00156">startBold()</a>, <a class="el" href="../../d2/d48/language_8cpp_source.html#l00070">theTranslator</a>, <a class="el" href="../../d8/dfb/class_translator.html#ad0aac429d4bcd4489a41e395c5244976">Translator::trExamples()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00392">docify()</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00157">endBold()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00283">m_col</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00284">m_paragraph</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00156">startBold()</a>, <a class="el" href="../../d2/d48/language_8cpp_source.html#l00070">theTranslator</a>, <a class="el" href="../../d8/dfb/class_translator.html#ad0aac429d4bcd4489a41e395c5244976">Translator::trExamples()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 </div>
 </div>
@@ -5203,7 +5207,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  277</span>}</div>
 <div class="ttc" id="aclass_output_generator_html_a6d2b81663565fee4440ef02fe9b3a197"><div class="ttname"><a href="../../d3/d8e/class_output_generator.html#a6d2b81663565fee4440ef02fe9b3a197">OutputGenerator::startPlainFile</a></div><div class="ttdeci">void startPlainFile(const QCString &amp;name)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d17/outputgen_8cpp_source.html#l00060">outputgen.cpp:60</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00232">buildFileName()</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00060">OutputGenerator::startPlainFile()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00232">buildFileName()</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00060">OutputGenerator::startPlainFile()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 </div>
 </div>
@@ -5300,7 +5304,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  368</span>  <a class="code hl_variable" href="../../de/da5/class_man_generator.html#ab4e8ed9a340d928ce303d3815a796548">m_firstCol</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
 <div class="line"><span class="lineno">  369</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00283">m_upperCase</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00285">m_upperCase</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00650">startSection()</a>.</p>
 
@@ -5662,7 +5666,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  814</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;.RI \&quot;\\fB&quot;</span>;</div>
 <div class="line"><span class="lineno">  815</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -5727,7 +5731,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  861</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\\fI&quot;</span>;</div>
 <div class="line"><span class="lineno">  862</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -5828,7 +5832,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  460</span>  <a class="code hl_variable" href="../../de/da5/class_man_generator.html#a69eb7ce0210b98f4040331fe46702935">m_col</a>=0;</div>
 <div class="line"><span class="lineno">  461</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00281">m_col</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_paragraph</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00283">m_col</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00284">m_paragraph</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00771">startConstraintParam()</a>, and <a class="el" href="../../da/dc0/mangen_8h_source.html#l00219">startDescTableTitle()</a>.</p>
 
@@ -5940,7 +5944,7 @@ Additional Inherited Members</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/dc0/mangen_8h_source.html#l00180">180</a> of file <a class="el" href="../../da/dc0/mangen_8h_source.html">mangen.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  180</span>{ <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\n.RI \&quot;&quot;</span>; <a class="code hl_variable" href="../../de/da5/class_man_generator.html#ab4e8ed9a340d928ce303d3815a796548">m_firstCol</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -6018,7 +6022,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  472</span>  <a class="code hl_variable" href="../../de/da5/class_man_generator.html#a5993316bd73c426770b1e2bb7e7c2c9c">m_paragraph</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
 <div class="line"><span class="lineno">  473</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_paragraph</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00284">m_paragraph</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -6160,7 +6164,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="aclass_translator_html_a61bb38a3a5fa42b9e1b1045a5151f092"><div class="ttname"><a href="../../d8/dfb/class_translator.html#a61bb38a3a5fa42b9e1b1045a5151f092">Translator::trEnumerationValues</a></div><div class="ttdeci">virtual QCString trEnumerationValues()=0</div></div>
 <div class="ttc" id="aclass_translator_html_a6c32b990a668865e04330007c37ecb2a"><div class="ttname"><a href="../../d8/dfb/class_translator.html#a6c32b990a668865e04330007c37ecb2a">Translator::trCompoundMembers</a></div><div class="ttdeci">virtual QCString trCompoundMembers()=0</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00392">docify()</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>, <a class="el" href="../../d2/d48/language_8cpp_source.html#l00070">theTranslator</a>, <a class="el" href="../../d8/dfb/class_translator.html#a6c32b990a668865e04330007c37ecb2a">Translator::trCompoundMembers()</a>, and <a class="el" href="../../d8/dfb/class_translator.html#a61bb38a3a5fa42b9e1b1045a5151f092">Translator::trEnumerationValues()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00392">docify()</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>, <a class="el" href="../../d2/d48/language_8cpp_source.html#l00070">theTranslator</a>, <a class="el" href="../../d8/dfb/class_translator.html#a6c32b990a668865e04330007c37ecb2a">Translator::trCompoundMembers()</a>, and <a class="el" href="../../d8/dfb/class_translator.html#a61bb38a3a5fa42b9e1b1045a5151f092">Translator::trEnumerationValues()</a>.</p>
 
 </div>
 </div>
@@ -6194,7 +6198,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  641</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\n.in +1c&quot;</span>;</div>
 <div class="line"><span class="lineno">  642</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -6260,7 +6264,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  621</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\n.PP\n.RI \&quot;\\fB&quot;</span>;</div>
 <div class="line"><span class="lineno">  622</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -6306,7 +6310,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  382</span>  <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;.SS \&quot;&quot;</span>;</div>
 <div class="line"><span class="lineno">  383</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00650">startSection()</a>.</p>
 
@@ -6361,7 +6365,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  595</span>  <a class="code hl_variable" href="../../de/da5/class_man_generator.html#ab4e8ed9a340d928ce303d3815a796548">m_firstCol</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
 <div class="line"><span class="lineno">  596</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00284">m_insideTabbing</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00286">m_insideTabbing</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -6398,7 +6402,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  608</span>  }</div>
 <div class="line"><span class="lineno">  609</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00284">m_insideTabbing</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00286">m_insideTabbing</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -6561,7 +6565,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  324</span>  <a class="code hl_variable" href="../../de/da5/class_man_generator.html#a5993316bd73c426770b1e2bb7e7c2c9c">m_paragraph</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
 <div class="line"><span class="lineno">  325</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_paragraph</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00284">m_paragraph</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 </div>
 </div>
@@ -6718,7 +6722,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  738</span>  <a class="code hl_variable" href="../../de/da5/class_man_generator.html#a5993316bd73c426770b1e2bb7e7c2c9c">m_paragraph</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
 <div class="line"><span class="lineno">  739</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00392">docify()</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00157">endBold()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00281">m_col</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_paragraph</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00156">startBold()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00392">docify()</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00157">endBold()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00283">m_col</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00284">m_paragraph</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00156">startBold()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 </div>
 </div>
@@ -6842,7 +6846,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="aclass_man_generator_html_a5383688c2d974ad86e5197fa7bf23936"><div class="ttname"><a href="../../de/da5/class_man_generator.html#a5383688c2d974ad86e5197fa7bf23936">ManGenerator::startMemberHeader</a></div><div class="ttdeci">void startMemberHeader(const QCString &amp;, int)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/de7/mangen_8cpp_source.html#l00379">mangen.cpp:379</a></div></div>
 <div class="ttc" id="aclass_man_generator_html_a69dbc09e1398a0f64796d28a45642bba"><div class="ttname"><a href="../../de/da5/class_man_generator.html#a69dbc09e1398a0f64796d28a45642bba">ManGenerator::startGroupHeader</a></div><div class="ttdeci">void startGroupHeader(int)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/de7/mangen_8cpp_source.html#l00363">mangen.cpp:363</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00044">ASSERT</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00285">m_inHeader</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00363">startGroupHeader()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00379">startMemberHeader()</a>, and <a class="el" href="../../da/dc0/mangen_8h_source.html#l00068">type()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00044">ASSERT</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00287">m_inHeader</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00363">startGroupHeader()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00379">startMemberHeader()</a>, and <a class="el" href="../../da/dc0/mangen_8h_source.html#l00068">type()</a>.</p>
 
 </div>
 </div>
@@ -6909,7 +6913,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  517</span>  <a class="code hl_variable" href="../../de/da5/class_man_generator.html#a5993316bd73c426770b1e2bb7e7c2c9c">m_paragraph</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
 <div class="line"><span class="lineno">  518</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_paragraph</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00284">m_paragraph</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -6946,7 +6950,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  531</span>  <a class="code hl_variable" href="../../de/da5/class_man_generator.html#a5993316bd73c426770b1e2bb7e7c2c9c">m_paragraph</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
 <div class="line"><span class="lineno">  532</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_paragraph</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00284">m_paragraph</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/dc0/mangen_8h_source.html#l00142">startCompoundTemplateParams()</a>.</p>
 
@@ -7057,7 +7061,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  446</span>  <a class="code hl_variable" href="../../de/da5/class_man_generator.html#a5993316bd73c426770b1e2bb7e7c2c9c">m_paragraph</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
 <div class="line"><span class="lineno">  447</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_paragraph</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00284">m_paragraph</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -7121,7 +7125,7 @@ Additional Inherited Members</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/dc0/mangen_8h_source.html#l00114">114</a> of file <a class="el" href="../../da/dc0/mangen_8h_source.html">mangen.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  114</span>{ <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\\fC&quot;</span>; <a class="code hl_variable" href="../../de/da5/class_man_generator.html#ab4e8ed9a340d928ce303d3815a796548">m_firstCol</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -7239,7 +7243,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  427</span>  <a class="code hl_variable" href="../../de/da5/class_man_generator.html#a5993316bd73c426770b1e2bb7e7c2c9c">m_paragraph</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
 <div class="line"><span class="lineno">  428</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00281">m_col</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_paragraph</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00283">m_col</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00284">m_paragraph</a>, and <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -7307,7 +7311,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="aclass_doc_node_a_s_t_html_a77e351cc54c344eac97ef21709f44305"><div class="ttname"><a href="../../db/d98/class_doc_node_a_s_t.html#a77e351cc54c344eac97ef21709f44305">DocNodeAST::root</a></div><div class="ttdeci">DocNodeVariant root</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l01418">docnode.h:1418</a></div></div>
 <div class="ttc" id="aclass_man_doc_visitor_html"><div class="ttname"><a href="../../d8/dcf/class_man_doc_visitor.html">ManDocVisitor</a></div><div class="ttdoc">Concrete visitor implementation for LaTeX output.</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d6e/mandocvisitor_8h_source.html#l00032">mandocvisitor.h:33</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d5/dcc/class_definition.html#adbe53b15923a143881154dd7c0f04f9b">Definition::getDefFileExtension()</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00286">m_codeGen</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_paragraph</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>, and <a class="el" href="../../de/d2b/docnode_8h_source.html#l01418">DocNodeAST::root</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d5/dcc/class_definition.html#adbe53b15923a143881154dd7c0f04f9b">Definition::getDefFileExtension()</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00288">m_codeGen</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00284">m_paragraph</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>, and <a class="el" href="../../de/d2b/docnode_8h_source.html#l01418">DocNodeAST::root</a>.</p>
 
 </div>
 </div>
@@ -7340,7 +7344,7 @@ Additional Inherited Members</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/dc0/mangen_8h_source.html#l00171">171</a> of file <a class="el" href="../../da/dc0/mangen_8h_source.html">mangen.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  171</span>{ <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>; <a class="code hl_variable" href="../../de/da5/class_man_generator.html#ab4e8ed9a340d928ce303d3815a796548">m_firstCol</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 </div>
 </div>
@@ -7473,10 +7477,10 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  906</span>  <a class="code hl_variable" href="../../de/da5/class_man_generator.html#ab4e8ed9a340d928ce303d3815a796548">m_firstCol</a> = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
 <div class="line"><span class="lineno">  907</span>}</div>
 <div class="ttc" id="aclass_translator_html_a24bb807aebd790720af10e031fe476c7"><div class="ttname"><a href="../../d8/dfb/class_translator.html#a24bb807aebd790720af10e031fe476c7">Translator::trInheritedFrom</a></div><div class="ttdeci">virtual QCString trInheritedFrom(const QCString &amp;members, const QCString &amp;what)=0</div></div>
-<div class="ttc" id="adocbookgen_8cpp_html_a311635f4bd437fd28ab5fe0f0309f15d"><div class="ttname"><a href="../../d8/d29/docbookgen_8cpp.html#a311635f4bd437fd28ab5fe0f0309f15d">objectLinkToString</a></div><div class="ttdeci">static QCString objectLinkToString(const QCString &amp;, const QCString &amp;f, const QCString &amp;anchor, const QCString &amp;text)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d29/docbookgen_8cpp_source.html#l00675">docbookgen.cpp:675</a></div></div>
+<div class="ttc" id="adocbookgen_8cpp_html_a311635f4bd437fd28ab5fe0f0309f15d"><div class="ttname"><a href="../../d8/d29/docbookgen_8cpp.html#a311635f4bd437fd28ab5fe0f0309f15d">objectLinkToString</a></div><div class="ttdeci">static QCString objectLinkToString(const QCString &amp;, const QCString &amp;f, const QCString &amp;anchor, const QCString &amp;text)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d29/docbookgen_8cpp_source.html#l00676">docbookgen.cpp:676</a></div></div>
 <div class="ttc" id="amangen_8cpp_html_ad370f3cfa0f4a46e2afd73bd50de864b"><div class="ttname"><a href="../../d7/de7/mangen_8cpp.html#ad370f3cfa0f4a46e2afd73bd50de864b">docifyToString</a></div><div class="ttdeci">static QCString docifyToString(const QCString &amp;str)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/de7/mangen_8cpp_source.html#l00078">mangen.cpp:78</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00078">docifyToString()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00675">objectLinkToString()</a>, <a class="el" href="../../d2/d48/language_8cpp_source.html#l00070">theTranslator</a>, and <a class="el" href="../../d8/dfb/class_translator.html#a24bb807aebd790720af10e031fe476c7">Translator::trInheritedFrom()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00078">docifyToString()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00676">objectLinkToString()</a>, <a class="el" href="../../d2/d48/language_8cpp_source.html#l00070">theTranslator</a>, and <a class="el" href="../../d8/dfb/class_translator.html#a24bb807aebd790720af10e031fe476c7">Translator::trInheritedFrom()</a>.</p>
 
 </div>
 </div>
@@ -7522,7 +7526,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  888</span>  <span class="keywordflow">if</span> (!isLast) <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;, &quot;</span>;</div>
 <div class="line"><span class="lineno">  889</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -7553,6 +7557,47 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/dc0/mangen_8h_source.html#l00168">168</a> of file <a class="el" href="../../da/dc0/mangen_8h_source.html">mangen.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  168</span>{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aa8ba3f5b35bb5e12205d21ab55fa3c89" name="aa8ba3f5b35bb5e12205d21ab55fa3c89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8ba3f5b35bb5e12205d21ab55fa3c89">&#9670;&#160;</a></span>writeLocalToc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ManGenerator::writeLocalToc </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d1/df9/class_section_refs.html">SectionRefs</a> &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../da/d1d/class_local_toc.html">LocalToc</a> &amp;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="../../d3/d8e/class_output_generator.html#a34e126775a7ec8d8455c33ca93d1f06d">OutputGenerator</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="../../da/dc0/mangen_8h_source.html#l00277">277</a> of file <a class="el" href="../../da/dc0/mangen_8h_source.html">mangen.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  277</span>{}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -7646,7 +7691,7 @@ Additional Inherited Members</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/dc0/mangen_8h_source.html#l00213">213</a> of file <a class="el" href="../../da/dc0/mangen_8h_source.html">mangen.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  213</span>{ <span class="keywordtype">int</span> i; <span class="keywordflow">for</span> (i=0;i&lt;n;i++) <a class="code hl_variable" href="../../d3/d8e/class_output_generator.html#aceba8f7a334d2e60297dcc727959796c">m_t</a> &lt;&lt; <span class="stringliteral">&quot; &quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>.</p>
 
 </div>
 </div>
@@ -8103,7 +8148,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  544</span>  <a class="code hl_variable" href="../../de/da5/class_man_generator.html#a5993316bd73c426770b1e2bb7e7c2c9c">m_paragraph</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
 <div class="line"><span class="lineno">  545</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_paragraph</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00516">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">m_firstCol</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00284">m_paragraph</a>, <a class="el" href="../../df/d06/outputgen_8h_source.html#l00518">OutputGenerator::m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 </div>
 </div>
@@ -8128,9 +8173,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dc0/mangen_8h_source.html#l00286">286</a> of file <a class="el" href="../../da/dc0/mangen_8h_source.html">mangen.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc0/mangen_8h_source.html#l00288">288</a> of file <a class="el" href="../../da/dc0/mangen_8h_source.html">mangen.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/dc0/mangen_8h_source.html#l00277">codeGen()</a>, and <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00745">writeDoc()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/dc0/mangen_8h_source.html#l00279">codeGen()</a>, and <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00745">writeDoc()</a>.</p>
 
 </div>
 </div>
@@ -8154,7 +8199,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dc0/mangen_8h_source.html#l00281">281</a> of file <a class="el" href="../../da/dc0/mangen_8h_source.html">mangen.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc0/mangen_8h_source.html#l00283">283</a> of file <a class="el" href="../../da/dc0/mangen_8h_source.html">mangen.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00392">docify()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00757">startConstraintList()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00554">startDescForItem()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00430">startDescList()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00707">startDescTable()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00689">startExamples()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00454">startItemListItem()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00727">startParamList()</a>, and <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00416">writeChar()</a>.</p>
 
@@ -8180,7 +8225,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dc0/mangen_8h_source.html#l00280">280</a> of file <a class="el" href="../../da/dc0/mangen_8h_source.html">mangen.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">282</a> of file <a class="el" href="../../da/dc0/mangen_8h_source.html">mangen.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00392">docify()</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00157">endBold()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00798">endConstraintDocs()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00568">endDescItem()</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00155">endEmphasis()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00371">endGroupHeader()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00817">endInlineHeader()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00873">endInlineMemberDoc()</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00181">endMemberDescription()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00842">endMemberDocSimple()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00644">endMemberGroup()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00624">endMemberGroupHeader()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00385">endMemberHeader()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00611">endMemberList()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00666">endSection()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00285">endTitleHead()</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00115">endTypewriter()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00305">newParagraph()</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00156">startBold()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00757">startConstraintList()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00554">startDescForItem()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00547">startDescItem()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00430">startDescList()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00707">startDescTable()</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00221">startDescTableData()</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00154">startEmphasis()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00689">startExamples()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00273">startFile()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00363">startGroupHeader()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00808">startInlineHeader()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00454">startItemListItem()</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00180">startMemberDescription()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00467">startMemberDoc()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00823">startMemberDocSimple()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00379">startMemberHeader()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00591">startMemberItem()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00603">startMemberList()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00316">startParagraph()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00727">startParamList()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00512">startSubsection()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00526">startSubsubsection()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00441">startTitle()</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00114">startTypewriter()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00416">writeChar()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00745">writeDoc()</a>, <a class="el" href="../../da/dc0/mangen_8h_source.html#l00171">writeEndAnnoItem()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00899">writeInheritedSectionTitle()</a>, and <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00539">writeSynopsis()</a>.</p>
 
@@ -8206,7 +8251,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dc0/mangen_8h_source.html#l00285">285</a> of file <a class="el" href="../../da/dc0/mangen_8h_source.html">mangen.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc0/mangen_8h_source.html#l00287">287</a> of file <a class="el" href="../../da/dc0/mangen_8h_source.html">mangen.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00666">endSection()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00285">endTitleHead()</a>, and <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00650">startSection()</a>.</p>
 
@@ -8232,7 +8277,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dc0/mangen_8h_source.html#l00284">284</a> of file <a class="el" href="../../da/dc0/mangen_8h_source.html">mangen.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc0/mangen_8h_source.html#l00286">286</a> of file <a class="el" href="../../da/dc0/mangen_8h_source.html">mangen.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00582">endAnonTypeScope()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00611">endMemberList()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00574">startAnonTypeScope()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00591">startMemberItem()</a>, and <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00603">startMemberList()</a>.</p>
 
@@ -8258,7 +8303,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dc0/mangen_8h_source.html#l00282">282</a> of file <a class="el" href="../../da/dc0/mangen_8h_source.html">mangen.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc0/mangen_8h_source.html#l00284">284</a> of file <a class="el" href="../../da/dc0/mangen_8h_source.html">mangen.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00392">docify()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00371">endGroupHeader()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00385">endMemberHeader()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00666">endSection()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00285">endTitleHead()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00305">newParagraph()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00757">startConstraintList()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00554">startDescForItem()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00430">startDescList()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00707">startDescTable()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00689">startExamples()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00454">startItemListItem()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00467">startMemberDoc()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00316">startParagraph()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00727">startParamList()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00512">startSubsection()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00526">startSubsubsection()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00441">startTitle()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00416">writeChar()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00745">writeDoc()</a>, and <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00539">writeSynopsis()</a>.</p>
 
@@ -8284,7 +8329,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dc0/mangen_8h_source.html#l00283">283</a> of file <a class="el" href="../../da/dc0/mangen_8h_source.html">mangen.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc0/mangen_8h_source.html#l00285">285</a> of file <a class="el" href="../../da/dc0/mangen_8h_source.html">mangen.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00371">endGroupHeader()</a>, and <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00363">startGroupHeader()</a>.</p>
 

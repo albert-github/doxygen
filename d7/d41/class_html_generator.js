@@ -186,6 +186,7 @@ var class_html_generator =
     [ "writeInheritedSectionTitle", "d7/d41/class_html_generator.html#a47923553ab870d04e69795a7918b0dab", null ],
     [ "writeLabel", "d7/d41/class_html_generator.html#a7017ec1c1424ff55261c7e95d03134e4", null ],
     [ "writeLatexSpacing", "d7/d41/class_html_generator.html#a2dc6c95466bf497d2912cb15d184b53d", null ],
+    [ "writeLocalToc", "d7/d41/class_html_generator.html#ae263c2253017932ed0833800ed5a5fab", null ],
     [ "writeLogo", "d7/d41/class_html_generator.html#a6f2d8ea4be1a4586c32c8217d7716422", null ],
     [ "writeLogoAsString", "d7/d41/class_html_generator.html#a540a1a09ba6e1bcaf7e0704cc05e3880", null ],
     [ "writeNavigationPath", "d7/d41/class_html_generator.html#a0d458bed29ead5c14d02cc9593745280", null ],

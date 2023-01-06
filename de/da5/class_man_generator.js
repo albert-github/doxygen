@@ -183,6 +183,7 @@ var class_man_generator =
     [ "writeInheritedSectionTitle", "de/da5/class_man_generator.html#aeea68a8a03af22c1547cc954e76cbdc3", null ],
     [ "writeLabel", "de/da5/class_man_generator.html#ac43650e1c991e52d73b770964950af5d", null ],
     [ "writeLatexSpacing", "de/da5/class_man_generator.html#adc7746d2f225bc7742dc0fd23fd9bf1e", null ],
+    [ "writeLocalToc", "de/da5/class_man_generator.html#aa8ba3f5b35bb5e12205d21ab55fa3c89", null ],
     [ "writeLogo", "de/da5/class_man_generator.html#abc49b9aa742057e1cbbea917451de6d7", null ],
     [ "writeNavigationPath", "de/da5/class_man_generator.html#a48f0345d351bb6672b6658cd992823ab", null ],
     [ "writeNonBreakableSpace", "de/da5/class_man_generator.html#ab73e17675d0c5ce30b48c9815c60ba74", null ],

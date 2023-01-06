@@ -184,6 +184,7 @@ var class_docbook_generator =
     [ "writeInheritedSectionTitle", "d1/d72/class_docbook_generator.html#a5e0010d2e9695338bb313e909f7bd691", null ],
     [ "writeLabel", "d1/d72/class_docbook_generator.html#a5747916476f96736a68519c3e180ab1e", null ],
     [ "writeLatexSpacing", "d1/d72/class_docbook_generator.html#aa22b4e02bb230d1df37dcc7c8b9471e7", null ],
+    [ "writeLocalToc", "d1/d72/class_docbook_generator.html#aa72a121ff6d44acb5fb40c5ee359e8d5", null ],
     [ "writeLogo", "d1/d72/class_docbook_generator.html#a2f56a6d8d8d097846ed90ad1af9bd21a", null ],
     [ "writeNavigationPath", "d1/d72/class_docbook_generator.html#a2e7a89f371672171e9812c19a92b0d99", null ],
     [ "writeNonBreakableSpace", "d1/d72/class_docbook_generator.html#a90d3afc310288c35d48787bc84310ec7", null ],

@@ -199,6 +199,7 @@ var class_output_list =
     [ "writeInheritedSectionTitle", "df/dc8/class_output_list.html#ae60261a39e2cc0d6fa5d78da1ae5caeb", null ],
     [ "writeLabel", "df/dc8/class_output_list.html#ac700283b8e771ab0dd515d5f384632ff", null ],
     [ "writeLatexSpacing", "df/dc8/class_output_list.html#a2a7a1bca5871c912848bddde9b7dd3fc", null ],
+    [ "writeLocalToc", "df/dc8/class_output_list.html#acb1f9c88a422f51d5d1aeccaf61e9494", null ],
     [ "writeLogo", "df/dc8/class_output_list.html#a739eb036549fb3787e5daa3d35bc1aff", null ],
     [ "writeNavigationPath", "df/dc8/class_output_list.html#ace864e843eca954efb12af825f56bdca", null ],
     [ "writeNonBreakableSpace", "df/dc8/class_output_list.html#ae6cc078977edd1e2a5ae2cf6ed64ed35", null ],

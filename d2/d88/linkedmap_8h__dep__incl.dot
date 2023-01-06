@@ -927,8 +927,10 @@ digraph "/home/runner/work/doxygen/doxygen/src/linkedmap.h"
   Node155 [label="/home/runner/work/doxygen\l/doxygen/src/latexgen.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d9c/latexgen_8h.html",tooltip=" "];
   Node155 -> Node6 [dir="back",color="steelblue1",style="solid"];
   Node155 -> Node13 [dir="back",color="steelblue1",style="solid"];
+  Node155 -> Node58 [dir="back",color="steelblue1",style="solid"];
   Node155 -> Node50 [dir="back",color="steelblue1",style="solid"];
   Node155 -> Node18 [dir="back",color="steelblue1",style="solid"];
+  Node155 -> Node110 [dir="back",color="steelblue1",style="solid"];
   Node151 -> Node63 [dir="back",color="steelblue1",style="solid"];
   Node151 -> Node51 [dir="back",color="steelblue1",style="solid"];
   Node151 -> Node156 [dir="back",color="steelblue1",style="solid"];
@@ -942,6 +944,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/linkedmap.h"
   Node151 -> Node157 [dir="back",color="steelblue1",style="solid"];
   Node157 [label="/home/runner/work/doxygen\l/doxygen/src/rtfgen.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/daa/rtfgen_8h.html",tooltip=" "];
   Node157 -> Node13 [dir="back",color="steelblue1",style="solid"];
+  Node157 -> Node53 [dir="back",color="steelblue1",style="solid"];
   Node157 -> Node22 [dir="back",color="steelblue1",style="solid"];
   Node151 -> Node87 [dir="back",color="steelblue1",style="solid"];
   Node151 -> Node96 [dir="back",color="steelblue1",style="solid"];

@@ -136,7 +136,7 @@ Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Factory class for creating tag AST nodes found in a template. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l04660">4660</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l04661">4661</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a1b169497d17d0b1e1d07ee86162d35f9" name="a1b169497d17d0b1e1d07ee86162d35f9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1b169497d17d0b1e1d07ee86162d35f9">&#9670;&#160;</a></span>CreateFunc</h2>
@@ -150,7 +150,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l04663">4663</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l04664">4664</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
 
 </div>
 </div>
@@ -207,19 +207,19 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l04675">4675</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 4680</span>    {</div>
-<div class="line"><span class="lineno"> 4681</span>      <span class="keyword">auto</span> it = <a class="code hl_variable" href="../../dc/d22/class_template_node_factory.html#a7f55e35d254b3335849c50ddb81ae18e">m_registry</a>.find(name.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>());</div>
-<div class="line"><span class="lineno"> 4682</span>      <span class="keywordflow">if</span> (it==<a class="code hl_variable" href="../../dc/d22/class_template_node_factory.html#a7f55e35d254b3335849c50ddb81ae18e">m_registry</a>.end()) <span class="keywordflow">return</span> 0;</div>
-<div class="line"><span class="lineno"> 4683</span>      <span class="keywordflow">return</span> it-&gt;second(parser,<a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">parent</a>,line,data);</div>
-<div class="line"><span class="lineno"> 4684</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l04676">4676</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 4681</span>    {</div>
+<div class="line"><span class="lineno"> 4682</span>      <span class="keyword">auto</span> it = <a class="code hl_variable" href="../../dc/d22/class_template_node_factory.html#a7f55e35d254b3335849c50ddb81ae18e">m_registry</a>.find(name.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>());</div>
+<div class="line"><span class="lineno"> 4683</span>      <span class="keywordflow">if</span> (it==<a class="code hl_variable" href="../../dc/d22/class_template_node_factory.html#a7f55e35d254b3335849c50ddb81ae18e">m_registry</a>.end()) <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno"> 4684</span>      <span class="keywordflow">return</span> it-&gt;second(parser,<a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">parent</a>,line,data);</div>
+<div class="line"><span class="lineno"> 4685</span>    }</div>
 <div class="ttc" id="aclass_q_c_string_html_a875e9ad762554ef12f3ed69b015bb245"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">QCString::str</a></div><div class="ttdeci">const std::string &amp; str() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00484">qcstring.h:484</a></div></div>
-<div class="ttc" id="aclass_template_node_factory_html_a7f55e35d254b3335849c50ddb81ae18e"><div class="ttname"><a href="../../dc/d22/class_template_node_factory.html#a7f55e35d254b3335849c50ddb81ae18e">TemplateNodeFactory::m_registry</a></div><div class="ttdeci">std::unordered_map&lt; std::string, CreateFunc &gt; m_registry</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l04702">template.cpp:4702</a></div></div>
+<div class="ttc" id="aclass_template_node_factory_html_a7f55e35d254b3335849c50ddb81ae18e"><div class="ttname"><a href="../../dc/d22/class_template_node_factory.html#a7f55e35d254b3335849c50ddb81ae18e">TemplateNodeFactory::m_registry</a></div><div class="ttdeci">std::unordered_map&lt; std::string, CreateFunc &gt; m_registry</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l04703">template.cpp:4703</a></div></div>
 <div class="ttc" id="adocnode_8h_html_aa08872da61afee56859056e5a0612633"><div class="ttname"><a href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">parent</a></div><div class="ttdeci">constexpr DocNodeVariant * parent(DocNodeVariant *n)</div><div class="ttdoc">returns the parent node of a given node n or 0 if the node has no parent.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l01286">docnode.h:1286</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l04702">m_registry</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l01286">parent()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00484">QCString::str()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l04703">m_registry</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l01286">parent()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00484">QCString::str()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l05054">TemplateParser::parse()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l05055">TemplateParser::parse()</a>.</p>
 
 </div>
 </div>
@@ -246,17 +246,17 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l04668">4668</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 4669</span>    {</div>
-<div class="line"><span class="lineno"> 4670</span>      <span class="keyword">static</span> std::unique_ptr&lt;TemplateNodeFactory&gt; <a class="code hl_function" href="../../dc/d22/class_template_node_factory.html#a55c8aa6ca3b1db3490572812b308e00a">instance</a>;</div>
-<div class="line"><span class="lineno"> 4671</span>      <span class="keywordflow">if</span> (<a class="code hl_function" href="../../dc/d22/class_template_node_factory.html#a55c8aa6ca3b1db3490572812b308e00a">instance</a>==0) <a class="code hl_function" href="../../dc/d22/class_template_node_factory.html#a55c8aa6ca3b1db3490572812b308e00a">instance</a> = std::make_unique&lt;TemplateNodeFactory&gt;();</div>
-<div class="line"><span class="lineno"> 4672</span>      <span class="keywordflow">return</span> *<a class="code hl_function" href="../../dc/d22/class_template_node_factory.html#a55c8aa6ca3b1db3490572812b308e00a">instance</a>;</div>
-<div class="line"><span class="lineno"> 4673</span>    }</div>
-<div class="ttc" id="aclass_template_node_factory_html_a55c8aa6ca3b1db3490572812b308e00a"><div class="ttname"><a href="../../dc/d22/class_template_node_factory.html#a55c8aa6ca3b1db3490572812b308e00a">TemplateNodeFactory::instance</a></div><div class="ttdeci">static TemplateNodeFactory &amp; instance()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l04668">template.cpp:4668</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l04669">4669</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 4670</span>    {</div>
+<div class="line"><span class="lineno"> 4671</span>      <span class="keyword">static</span> std::unique_ptr&lt;TemplateNodeFactory&gt; <a class="code hl_function" href="../../dc/d22/class_template_node_factory.html#a55c8aa6ca3b1db3490572812b308e00a">instance</a>;</div>
+<div class="line"><span class="lineno"> 4672</span>      <span class="keywordflow">if</span> (<a class="code hl_function" href="../../dc/d22/class_template_node_factory.html#a55c8aa6ca3b1db3490572812b308e00a">instance</a>==0) <a class="code hl_function" href="../../dc/d22/class_template_node_factory.html#a55c8aa6ca3b1db3490572812b308e00a">instance</a> = std::make_unique&lt;TemplateNodeFactory&gt;();</div>
+<div class="line"><span class="lineno"> 4673</span>      <span class="keywordflow">return</span> *<a class="code hl_function" href="../../dc/d22/class_template_node_factory.html#a55c8aa6ca3b1db3490572812b308e00a">instance</a>;</div>
+<div class="line"><span class="lineno"> 4674</span>    }</div>
+<div class="ttc" id="aclass_template_node_factory_html_a55c8aa6ca3b1db3490572812b308e00a"><div class="ttname"><a href="../../dc/d22/class_template_node_factory.html#a55c8aa6ca3b1db3490572812b308e00a">TemplateNodeFactory::instance</a></div><div class="ttdeci">static TemplateNodeFactory &amp; instance()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l04669">template.cpp:4669</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l04668">instance()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l04669">instance()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l04668">instance()</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l05054">TemplateParser::parse()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l04669">instance()</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l05055">TemplateParser::parse()</a>.</p>
 
 </div>
 </div>
@@ -294,12 +294,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l04686">4686</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 4687</span>    {</div>
-<div class="line"><span class="lineno"> 4688</span>      <a class="code hl_variable" href="../../dc/d22/class_template_node_factory.html#a7f55e35d254b3335849c50ddb81ae18e">m_registry</a>.insert(std::make_pair(name.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>(),func));</div>
-<div class="line"><span class="lineno"> 4689</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l04687">4687</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 4688</span>    {</div>
+<div class="line"><span class="lineno"> 4689</span>      <a class="code hl_variable" href="../../dc/d22/class_template_node_factory.html#a7f55e35d254b3335849c50ddb81ae18e">m_registry</a>.insert(std::make_pair(name.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>(),func));</div>
+<div class="line"><span class="lineno"> 4690</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l04702">m_registry</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00484">QCString::str()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l04703">m_registry</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00484">QCString::str()</a>.</p>
 
 </div>
 </div>
@@ -324,9 +324,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l04702">4702</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l04703">4703</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l04675">create()</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l04686">registerTemplateNode()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l04676">create()</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l04687">registerTemplateNode()</a>.</p>
 
 </div>
 </div>

@@ -279,4 +279,11 @@ digraph "/home/runner/work/doxygen/doxygen/src/diagram.cpp"
   Node74 -> Node28 [color="steelblue1",style="solid"];
   Node74 -> Node18 [color="steelblue1",style="solid"];
   Node1 -> Node46 [color="steelblue1",style="solid"];
+  Node1 -> Node75 [color="steelblue1",style="solid"];
+  Node75 [label="growbuf.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d72/growbuf_8h.html",tooltip=" "];
+  Node75 -> Node61 [color="steelblue1",style="solid"];
+  Node75 -> Node3 [color="steelblue1",style="solid"];
+  Node75 -> Node76 [color="steelblue1",style="solid"];
+  Node76 [label="string.h",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node75 -> Node8 [color="steelblue1",style="solid"];
 }
