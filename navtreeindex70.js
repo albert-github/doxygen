@@ -1,5 +1,11 @@
 var NAVTREEINDEX70 =
 {
+"d9/dc1/class_translator_catalan.html#a1f49972fab87b0e8443d4d839a2893f4":[8,0,577,112],
+"d9/dc1/class_translator_catalan.html#a2056a631163a4ff072e395f1ed0e8bd5":[8,0,577,159],
+"d9/dc1/class_translator_catalan.html#a20c2f69a4ab441f0a212472d6fcc57c2":[8,0,577,77],
+"d9/dc1/class_translator_catalan.html#a21707b1878ddd4bf604ade5cd1e651ca":[8,0,577,20],
+"d9/dc1/class_translator_catalan.html#a223abadd8ce26194375c7329b441215a":[8,0,577,6],
+"d9/dc1/class_translator_catalan.html#a23551f903def26b56ed5259c1204b985":[8,0,577,216],
 "d9/dc1/class_translator_catalan.html#a27b917b26e44f47561b7e9f35114d9d0":[8,0,577,154],
 "d9/dc1/class_translator_catalan.html#a285c039dc515e12b0762d2b70425d04e":[8,0,577,171],
 "d9/dc1/class_translator_catalan.html#a2880d4552956181998048a995d9a9a0d":[8,0,577,116],
@@ -243,11 +249,5 @@ var NAVTREEINDEX70 =
 "d9/dcc/structpyscanner_y_y__state.html#a7898b2318a0abe9115917cff507b4608":[8,0,445,22],
 "d9/dcc/structpyscanner_y_y__state.html#a88c6efe0e84c4ad6de2bf67cae6c2c16":[8,0,445,8],
 "d9/dcc/structpyscanner_y_y__state.html#a8c2ca86fa4b865fa4f52a6469eb93210":[8,0,445,13],
-"d9/dcc/structpyscanner_y_y__state.html#a99d85668a8a66218643fe3af849db6f1":[8,0,445,6],
-"d9/dcc/structpyscanner_y_y__state.html#aa499007b331c48ec3ddc527a373e6eec":[8,0,445,37],
-"d9/dcc/structpyscanner_y_y__state.html#aa93677fd6f1286ff7a8c19477bd4129b":[8,0,445,15],
-"d9/dcc/structpyscanner_y_y__state.html#ab1f62cd32fccc7eb8c73ae203c97501c":[8,0,445,19],
-"d9/dcc/structpyscanner_y_y__state.html#ac0319277db6755a47b599a247df69448":[8,0,445,35],
-"d9/dcc/structpyscanner_y_y__state.html#acae3371b912ab41b7919d9927ca0052b":[8,0,445,16],
-"d9/dcc/structpyscanner_y_y__state.html#ad10e926306677343613ad2fb81ebee33":[8,0,445,3]
+"d9/dcc/structpyscanner_y_y__state.html#a99d85668a8a66218643fe3af849db6f1":[8,0,445,6]
 };

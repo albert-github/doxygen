@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['namespace_0',['Namespace',['../dc/d1d/class_layout_doc_manager.html#aee13a925ea1f915c542ecd7f579ebc94ad342856294e002e934e11e0b7b1de590',1,'LayoutDocManager::Namespace()'],['../dc/d1e/context_8h.html#a74df7450438043c0c7b7a8aad44301b9ab3ba0fe968ce39dcfc6fe8cc0f1b02da',1,'Namespace():&#160;context.h'],['../d9/d49/types_8h.html#a6dc2e6c0ceaaa530cb9859af8d37449dab3ba0fe968ce39dcfc6fe8cc0f1b02da',1,'Namespace():&#160;types.h'],['../d9/d49/types_8h.html#a55cbcb91fc25e3a2e785b8a30309843cab3ba0fe968ce39dcfc6fe8cc0f1b02da',1,'Namespace():&#160;types.h']]],
-  ['namespace_1',['NAMESPACE',['../d5/dfa/class_namespace_def_impl.html#a9b67e0b4b15cbcae814e445c9c639f19a8397889054ee84a12aa0eb5f16be2364',1,'NamespaceDefImpl']]],
+  ['namespace_0',['NAMESPACE',['../d5/dfa/class_namespace_def_impl.html#a9b67e0b4b15cbcae814e445c9c639f19a8397889054ee84a12aa0eb5f16be2364',1,'NamespaceDefImpl']]],
+  ['namespace_1',['Namespace',['../dc/d1e/context_8h.html#a74df7450438043c0c7b7a8aad44301b9ab3ba0fe968ce39dcfc6fe8cc0f1b02da',1,'Namespace():&#160;context.h'],['../d9/d49/types_8h.html#a6dc2e6c0ceaaa530cb9859af8d37449dab3ba0fe968ce39dcfc6fe8cc0f1b02da',1,'Namespace():&#160;types.h'],['../d9/d49/types_8h.html#a55cbcb91fc25e3a2e785b8a30309843cab3ba0fe968ce39dcfc6fe8cc0f1b02da',1,'Namespace():&#160;types.h'],['../dc/d1d/class_layout_doc_manager.html#aee13a925ea1f915c542ecd7f579ebc94ad342856294e002e934e11e0b7b1de590',1,'LayoutDocManager::Namespace()']]],
   ['namespace_5fsec_2',['NAMESPACE_SEC',['../d4/dd7/class_entry.html#a1e615d53eb7db6d16c19fcb5788fbd9ea86229a756764e3d5f94ad24c19cd2ce1',1,'Entry']]],
   ['namespaceclasses_3',['NamespaceClasses',['../d9/dba/struct_layout_doc_entry.html#a89dcbe762ed7e7f7790d8c034cf8ea01ad9abcb1691f5dd7d5882ccc4039e2a09',1,'LayoutDocEntry']]],
   ['namespaceconcepts_4',['NamespaceConcepts',['../d9/dba/struct_layout_doc_entry.html#a89dcbe762ed7e7f7790d8c034cf8ea01a87fa4cbacaa1250a02c094a40bd0b203',1,'LayoutDocEntry']]],

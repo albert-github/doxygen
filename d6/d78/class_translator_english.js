@@ -36,6 +36,7 @@ var class_translator_english =
     [ "trCompoundReferenceFortran", "d6/d78/class_translator_english.html#aaa71552ba4f386e3a1335fb3dc2d1dea", null ],
     [ "trCompoundReferenceSlice", "d6/d78/class_translator_english.html#ad4324fb5e7df67c3f71484312b5feffb", null ],
     [ "trCompounds", "d6/d78/class_translator_english.html#a76661b103a0cb78c0bcf26d4b3941d7a", null ],
+    [ "trCompoundType", "d6/d78/class_translator_english.html#a3c7b9c2ad1deda11d0c8c001ae26eb4b", null ],
     [ "trConcept", "d6/d78/class_translator_english.html#a51ad4a8d432587ca59adb52937ecaba9", null ],
     [ "trConceptDefinition", "d6/d78/class_translator_english.html#abeb41a5d6f8e274e24c541e1b568d95f", null ],
     [ "trConceptDocumentation", "d6/d78/class_translator_english.html#a2db4220d1c3dc1500feb5be5b7ddd8d1", null ],

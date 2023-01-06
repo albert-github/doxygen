@@ -1,5 +1,13 @@
 var NAVTREEINDEX98 =
 {
+"dd/d38/class_translator_norwegian.html#a2840deb96af0a279a2221cd35db242e7":[8,0,601,165],
+"dd/d38/class_translator_norwegian.html#a28824c22c658ed3f6d166de628d202c1":[8,0,601,101],
+"dd/d38/class_translator_norwegian.html#a29f0d7815f5545b1acfad460aa478cf2":[8,0,601,184],
+"dd/d38/class_translator_norwegian.html#a2b9e664b354be825117c1d2847f15e49":[8,0,601,85],
+"dd/d38/class_translator_norwegian.html#a2bc0fd474fcfe844892fea5e3c057b27":[8,0,601,89],
+"dd/d38/class_translator_norwegian.html#a2eaf23003da213d49b1faa922d4123fd":[8,0,601,15],
+"dd/d38/class_translator_norwegian.html#a2fce7ef1c3795aa2a3c6b6752feece19":[8,0,601,151],
+"dd/d38/class_translator_norwegian.html#a2fe4f0090ea4b14ab7624ea3ced45e64":[8,0,601,58],
 "dd/d38/class_translator_norwegian.html#a321a35ac04917c7cfad58c8b07d96c66":[8,0,601,188],
 "dd/d38/class_translator_norwegian.html#a32c4b846f22c62e2813f5c481fd19833":[8,0,601,61],
 "dd/d38/class_translator_norwegian.html#a32df834a86a6d44bff7f3662908024e9":[8,0,601,16],
@@ -241,13 +249,5 @@ var NAVTREEINDEX98 =
 "dd/d4b/class_member_def_mutable.html#a849e24fe603d4e64214bd7eebdac9e89":[8,0,377,39],
 "dd/d4b/class_member_def_mutable.html#a8559a33cee86e84956df4e79d64d8bc4":[8,0,377,16],
 "dd/d4b/class_member_def_mutable.html#a858aa8a6b320fa1f8ed0a1d82903ce7b":[8,0,377,0],
-"dd/d4b/class_member_def_mutable.html#a8b1c18e7f7a27c2661cac096a24e2602":[8,0,377,34],
-"dd/d4b/class_member_def_mutable.html#a8c3633572163aff7d79f9d5cf2bd074e":[8,0,377,63],
-"dd/d4b/class_member_def_mutable.html#a92909f20b430b11825971c0721818a46":[8,0,377,7],
-"dd/d4b/class_member_def_mutable.html#a955e0151a05a35a9f83294765ace360f":[8,0,377,9],
-"dd/d4b/class_member_def_mutable.html#a96b36522814ded55eeebcab6d8cd0b58":[8,0,377,26],
-"dd/d4b/class_member_def_mutable.html#aa38926f906c8ce684e2ca73ca5108bad":[8,0,377,49],
-"dd/d4b/class_member_def_mutable.html#aa41863f155b6ca20f433acbd895ca98e":[8,0,377,4],
-"dd/d4b/class_member_def_mutable.html#aa958be0aa1f9a5e73d603bf13412d546":[8,0,377,8],
-"dd/d4b/class_member_def_mutable.html#ab003e52e1320cf1245bfbbc53284e8df":[8,0,377,65]
+"dd/d4b/class_member_def_mutable.html#a8b1c18e7f7a27c2661cac096a24e2602":[8,0,377,34]
 };

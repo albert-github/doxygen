@@ -1,5 +1,13 @@
 var NAVTREEINDEX97 =
 {
+"dd/d0b/class_translator_slovene.html#ae190cb43aea468d2335744bb7c679a4f":[8,0,610,144],
+"dd/d0b/class_translator_slovene.html#ae26ecc1bf1bbe892497d347910bd930f":[8,0,610,123],
+"dd/d0b/class_translator_slovene.html#ae2e0905cf87e6c623e6495a1e16018bb":[8,0,610,49],
+"dd/d0b/class_translator_slovene.html#ae3805d7e3ec7bf127d08fa60f79d086f":[8,0,610,46],
+"dd/d0b/class_translator_slovene.html#ae413d59c14a430832a20678562beda83":[8,0,610,153],
+"dd/d0b/class_translator_slovene.html#ae699d7529cb4628eeb5ebb3b8182ee6d":[8,0,610,146],
+"dd/d0b/class_translator_slovene.html#ae7b3b762024f64c17cfc55fcdf6e501f":[8,0,610,134],
+"dd/d0b/class_translator_slovene.html#aec8bc99ae2e1aa19b8399c733f592ae5":[8,0,610,90],
 "dd/d0b/class_translator_slovene.html#aee285dc80c56037f4ea97e1380c9e689":[8,0,610,131],
 "dd/d0b/class_translator_slovene.html#af09cac9689015788da10a4a4bb057dd8":[8,0,610,179],
 "dd/d0b/class_translator_slovene.html#af48d02d2cc0307c8bbd577e38d0f22fa":[8,0,610,129],
@@ -241,13 +249,5 @@ var NAVTREEINDEX97 =
 "dd/d38/class_translator_norwegian.html#a1f1ff1719d5b3892d666abadeed6ee74":[8,0,601,69],
 "dd/d38/class_translator_norwegian.html#a20c1cbe69a1b8376cb5687597ca12f78":[8,0,601,82],
 "dd/d38/class_translator_norwegian.html#a25ce99a57816bd75886f407659c237e3":[8,0,601,47],
-"dd/d38/class_translator_norwegian.html#a274998ad1b62c49a131f7bd7a3d64e36":[8,0,601,123],
-"dd/d38/class_translator_norwegian.html#a2840deb96af0a279a2221cd35db242e7":[8,0,601,165],
-"dd/d38/class_translator_norwegian.html#a28824c22c658ed3f6d166de628d202c1":[8,0,601,101],
-"dd/d38/class_translator_norwegian.html#a29f0d7815f5545b1acfad460aa478cf2":[8,0,601,184],
-"dd/d38/class_translator_norwegian.html#a2b9e664b354be825117c1d2847f15e49":[8,0,601,85],
-"dd/d38/class_translator_norwegian.html#a2bc0fd474fcfe844892fea5e3c057b27":[8,0,601,89],
-"dd/d38/class_translator_norwegian.html#a2eaf23003da213d49b1faa922d4123fd":[8,0,601,15],
-"dd/d38/class_translator_norwegian.html#a2fce7ef1c3795aa2a3c6b6752feece19":[8,0,601,151],
-"dd/d38/class_translator_norwegian.html#a2fe4f0090ea4b14ab7624ea3ced45e64":[8,0,601,58]
+"dd/d38/class_translator_norwegian.html#a274998ad1b62c49a131f7bd7a3d64e36":[8,0,601,123]
 };
