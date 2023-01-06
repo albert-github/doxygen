@@ -1,6 +1,5 @@
 var NAVTREEINDEX122 =
 {
-"df/d20/class_translator_vietnamese.html#ad09691682e602a30fcf0f7fa140bb20e":[8,0,615,182],
 "df/d20/class_translator_vietnamese.html#ad0aa62f0b15578fa9e494ff273166438":[8,0,615,60],
 "df/d20/class_translator_vietnamese.html#ad11c072a404e5ecfebd28e02dc662621":[8,0,615,104],
 "df/d20/class_translator_vietnamese.html#ad1d04af6121febe4a12a59325064a944":[8,0,615,9],
@@ -249,5 +248,6 @@ var NAVTREEINDEX122 =
 "df/d2d/util_8cpp.html#a132c45f105898b2b997a624c80d8d373":[9,0,2,292,190],
 "df/d2d/util_8cpp.html#a14a1e77ab3d006209eae37323ea38df4":[9,0,2,292,53],
 "df/d2d/util_8cpp.html#a15f807d04ca6a15d183d7c05396bae30":[9,0,2,292,159],
-"df/d2d/util_8cpp.html#a18b9d603e23c950eaa22e7c625ef0f00":[9,0,2,292,144]
+"df/d2d/util_8cpp.html#a18b9d603e23c950eaa22e7c625ef0f00":[9,0,2,292,144],
+"df/d2d/util_8cpp.html#a195c37037adf1a2af69ad01cf8d72cac":[9,0,2,292,152]
 };

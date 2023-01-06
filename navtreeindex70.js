@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"d9/dc1/class_translator_catalan.html#a3e4fb08378d5131fc5190e99f4586ca4":[8,0,577,96],
 "d9/dc1/class_translator_catalan.html#a3fc7351ad41a6f8c906564c8e3a61986":[8,0,577,163],
 "d9/dc1/class_translator_catalan.html#a3fe629ad436510759e16b9b275803a9c":[8,0,577,102],
 "d9/dc1/class_translator_catalan.html#a40bc2a775f7e8f7e4aebc30ee5d0415a":[8,0,577,169],
@@ -248,6 +249,5 @@ var NAVTREEINDEX70 =
 "d9/dcc/structpyscanner_y_y__state.html#af7a4d5f5c5f8c9293d2a7e109bbf4994":[8,0,445,34],
 "d9/dcc/structpyscanner_y_y__state.html#af8167c3e120ae742f6f3f1ffc4694921":[8,0,445,38],
 "d9/dd0/lexscanner_8h.html":[9,0,2,157],
-"d9/dd0/lexscanner_8h_source.html":[9,0,2,157],
-"d9/dd2/class_doc_par_block.html":[8,0,167]
+"d9/dd0/lexscanner_8h_source.html":[9,0,2,157]
 };

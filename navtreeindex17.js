@@ -1,5 +1,6 @@
 var NAVTREEINDEX17 =
 {
+"d2/d4a/ftvhelp_8h.html":[9,0,2,126],
 "d2/d4a/ftvhelp_8h.html#a8a39a1a82ce3ac026350d5ab014d9393":[9,0,2,126,1],
 "d2/d4a/ftvhelp_8h_source.html":[9,0,2,126],
 "d2/d4a/struct_f_t_v_node.html":[8,0,295],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "d2/d4c/class_translator_brazilian.html#ac54b940d953e3db9c2403484af866baa":[8,0,575,43],
 "d2/d4c/class_translator_brazilian.html#ac88cfeed78415f9b403e3f0b7b9ee116":[8,0,575,242],
 "d2/d4c/class_translator_brazilian.html#ac9b77c3549f6537d9a02cc578773f141":[8,0,575,151],
-"d2/d4c/class_translator_brazilian.html#ac9c2a77cbdab96905dde4077a851a311":[8,0,575,138],
-"d2/d4c/class_translator_brazilian.html#acaecaff49a31e83740a9924f4daa488b":[8,0,575,291]
+"d2/d4c/class_translator_brazilian.html#ac9c2a77cbdab96905dde4077a851a311":[8,0,575,138]
 };

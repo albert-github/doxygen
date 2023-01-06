@@ -161,6 +161,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a644dfa222652fa561dc841838100115b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b8f6f300e6c8de9f20aa3eb9c1024be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d37/class_latex_code_generator.html#a5b8f6f300e6c8de9f20aa3eb9c1024be">setSourceFileName</a> (const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;sourceFileName)</td></tr>
 <tr class="separator:a5b8f6f300e6c8de9f20aa3eb9c1024be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22a237438e739e962bba1a51bf41b24a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d37/class_latex_code_generator.html#a22a237438e739e962bba1a51bf41b24a">setInsideTabbing</a> (bool b)</td></tr>
+<tr class="separator:a22a237438e739e962bba1a51bf41b24a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ac2521a9b24f1a783a729dde02f9bc4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d37/class_latex_code_generator.html#a2ac2521a9b24f1a783a729dde02f9bc4">insideTabbing</a> () const</td></tr>
+<tr class="separator:a2ac2521a9b24f1a783a729dde02f9bc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_code_output_interface"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_code_output_interface')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d5/d9c/class_code_output_interface.html">CodeOutputInterface</a></td></tr>
 <tr class="memitem:a3ab457349214e75f549fb2582cff00ef inherit pub_methods_class_code_output_interface"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d9c/class_code_output_interface.html#a3ab457349214e75f549fb2582cff00ef">CodeOutputInterface</a> ()=default</td></tr>
 <tr class="separator:a3ab457349214e75f549fb2582cff00ef inherit pub_methods_class_code_output_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -231,6 +235,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ae4ad9cdbf89db5b0fc4bcb3da17e6030"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76b404ceab074a0a056233427d993224"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d37/class_latex_code_generator.html#a76b404ceab074a0a056233427d993224">m_usedTableLevel</a> = 0</td></tr>
 <tr class="separator:a76b404ceab074a0a056233427d993224"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebc26b6a2b2da44df2ab22e1f4a336da"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d37/class_latex_code_generator.html#aebc26b6a2b2da44df2ab22e1f4a336da">m_insideTabbing</a> = false</td></tr>
+<tr class="separator:aebc26b6a2b2da44df2ab22e1f4a336da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Generator for LaTeX code fragments. </p>
@@ -273,9 +279,9 @@ Private Attributes</h2></td></tr>
 <div class="fragment"><div class="line"><span class="lineno">   53</span>  : <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a>(t), <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ade3eec74bf4332c6f238448049a1fb78">m_relPath</a>(relPath), <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#acc546ace986e41f11d76eb80ec753e04">m_sourceFileName</a>(sourceFileName)</div>
 <div class="line"><span class="lineno">   54</span>{</div>
 <div class="line"><span class="lineno">   55</span>}</div>
-<div class="ttc" id="aclass_latex_code_generator_html_ac71df0a557b1ac64ac20578084849a24"><div class="ttname"><a href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">LatexCodeGenerator::m_t</a></div><div class="ttdeci">TextStream &amp; m_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9c/latexgen_8h_source.html#l00073">latexgen.h:73</a></div></div>
-<div class="ttc" id="aclass_latex_code_generator_html_acc546ace986e41f11d76eb80ec753e04"><div class="ttname"><a href="../../d0/d37/class_latex_code_generator.html#acc546ace986e41f11d76eb80ec753e04">LatexCodeGenerator::m_sourceFileName</a></div><div class="ttdeci">QCString m_sourceFileName</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9c/latexgen_8h_source.html#l00075">latexgen.h:75</a></div></div>
-<div class="ttc" id="aclass_latex_code_generator_html_ade3eec74bf4332c6f238448049a1fb78"><div class="ttname"><a href="../../d0/d37/class_latex_code_generator.html#ade3eec74bf4332c6f238448049a1fb78">LatexCodeGenerator::m_relPath</a></div><div class="ttdeci">QCString m_relPath</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9c/latexgen_8h_source.html#l00074">latexgen.h:74</a></div></div>
+<div class="ttc" id="aclass_latex_code_generator_html_ac71df0a557b1ac64ac20578084849a24"><div class="ttname"><a href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">LatexCodeGenerator::m_t</a></div><div class="ttdeci">TextStream &amp; m_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9c/latexgen_8h_source.html#l00075">latexgen.h:75</a></div></div>
+<div class="ttc" id="aclass_latex_code_generator_html_acc546ace986e41f11d76eb80ec753e04"><div class="ttname"><a href="../../d0/d37/class_latex_code_generator.html#acc546ace986e41f11d76eb80ec753e04">LatexCodeGenerator::m_sourceFileName</a></div><div class="ttdeci">QCString m_sourceFileName</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9c/latexgen_8h_source.html#l00077">latexgen.h:77</a></div></div>
+<div class="ttc" id="aclass_latex_code_generator_html_ade3eec74bf4332c6f238448049a1fb78"><div class="ttname"><a href="../../d0/d37/class_latex_code_generator.html#ade3eec74bf4332c6f238448049a1fb78">LatexCodeGenerator::m_relPath</a></div><div class="ttdeci">QCString m_relPath</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9c/latexgen_8h_source.html#l00076">latexgen.h:76</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -455,7 +461,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  133</span>                   }</div>
 <div class="line"><span class="lineno">  134</span>                   result[i]=0; <span class="comment">// add terminator</span></div>
 <div class="line"><span class="lineno">  135</span>                   <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a96afd525d79a1a43fbaabae3483b2e6b">filterLatexString</a>(<a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a>,result,</div>
-<div class="line"><span class="lineno">  136</span>                                     <span class="keyword">false</span>, <span class="comment">// insideTabbing</span></div>
+<div class="line"><span class="lineno">  136</span>                                     <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#aebc26b6a2b2da44df2ab22e1f4a336da">m_insideTabbing</a>, <span class="comment">// insideTabbing</span></div>
 <div class="line"><span class="lineno">  137</span>                                     <span class="keyword">true</span>,  <span class="comment">// insidePre</span></div>
 <div class="line"><span class="lineno">  138</span>                                     <span class="keyword">false</span>, <span class="comment">// insideItem</span></div>
 <div class="line"><span class="lineno">  139</span>                                     <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#a76b404ceab074a0a056233427d993224">m_usedTableLevel</a>&gt;0, <span class="comment">// insideTable</span></div>
@@ -466,15 +472,16 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  144</span>    }</div>
 <div class="line"><span class="lineno">  145</span>  }</div>
 <div class="line"><span class="lineno">  146</span>}</div>
-<div class="ttc" id="aclass_latex_code_generator_html_a3013d255c1ed9829b0b12eb51fa4f35e"><div class="ttname"><a href="../../d0/d37/class_latex_code_generator.html#a3013d255c1ed9829b0b12eb51fa4f35e">LatexCodeGenerator::m_col</a></div><div class="ttdeci">int m_col</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9c/latexgen_8h_source.html#l00076">latexgen.h:76</a></div></div>
-<div class="ttc" id="aclass_latex_code_generator_html_a76b404ceab074a0a056233427d993224"><div class="ttname"><a href="../../d0/d37/class_latex_code_generator.html#a76b404ceab074a0a056233427d993224">LatexCodeGenerator::m_usedTableLevel</a></div><div class="ttdeci">int m_usedTableLevel</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9c/latexgen_8h_source.html#l00078">latexgen.h:78</a></div></div>
-<div class="ttc" id="aclass_latex_code_generator_html_ae4ad9cdbf89db5b0fc4bcb3da17e6030"><div class="ttname"><a href="../../d0/d37/class_latex_code_generator.html#ae4ad9cdbf89db5b0fc4bcb3da17e6030">LatexCodeGenerator::m_doxyCodeLineOpen</a></div><div class="ttdeci">bool m_doxyCodeLineOpen</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9c/latexgen_8h_source.html#l00077">latexgen.h:77</a></div></div>
+<div class="ttc" id="aclass_latex_code_generator_html_a3013d255c1ed9829b0b12eb51fa4f35e"><div class="ttname"><a href="../../d0/d37/class_latex_code_generator.html#a3013d255c1ed9829b0b12eb51fa4f35e">LatexCodeGenerator::m_col</a></div><div class="ttdeci">int m_col</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9c/latexgen_8h_source.html#l00078">latexgen.h:78</a></div></div>
+<div class="ttc" id="aclass_latex_code_generator_html_a76b404ceab074a0a056233427d993224"><div class="ttname"><a href="../../d0/d37/class_latex_code_generator.html#a76b404ceab074a0a056233427d993224">LatexCodeGenerator::m_usedTableLevel</a></div><div class="ttdeci">int m_usedTableLevel</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9c/latexgen_8h_source.html#l00080">latexgen.h:80</a></div></div>
+<div class="ttc" id="aclass_latex_code_generator_html_ae4ad9cdbf89db5b0fc4bcb3da17e6030"><div class="ttname"><a href="../../d0/d37/class_latex_code_generator.html#ae4ad9cdbf89db5b0fc4bcb3da17e6030">LatexCodeGenerator::m_doxyCodeLineOpen</a></div><div class="ttdeci">bool m_doxyCodeLineOpen</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9c/latexgen_8h_source.html#l00079">latexgen.h:79</a></div></div>
+<div class="ttc" id="aclass_latex_code_generator_html_aebc26b6a2b2da44df2ab22e1f4a336da"><div class="ttname"><a href="../../d0/d37/class_latex_code_generator.html#aebc26b6a2b2da44df2ab22e1f4a336da">LatexCodeGenerator::m_insideTabbing</a></div><div class="ttdeci">bool m_insideTabbing</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9c/latexgen_8h_source.html#l00081">latexgen.h:81</a></div></div>
 <div class="ttc" id="aconfig_8h_html_a06b59c3720174e9078f613095a89b295"><div class="ttname"><a href="../../db/d16/config_8h.html#a06b59c3720174e9078f613095a89b295">Config_getInt</a></div><div class="ttdeci">#define Config_getInt(name)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/config_8h_source.html#l00034">config.h:34</a></div></div>
 <div class="ttc" id="adoxygen_8h_html_af8556c37f3acfa45992b8697930c501b"><div class="ttname"><a href="../../d1/da1/doxygen_8h.html#af8556c37f3acfa45992b8697930c501b">THREAD_LOCAL</a></div><div class="ttdeci">#define THREAD_LOCAL</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da1/doxygen_8h_source.html#l00029">doxygen.h:29</a></div></div>
 <div class="ttc" id="alatexgen_8cpp_html_a9a7f04a1060dfff4cad9f82379053257"><div class="ttname"><a href="../../d4/d42/latexgen_8cpp.html#a9a7f04a1060dfff4cad9f82379053257">COPYCHAR</a></div><div class="ttdeci">#define COPYCHAR()</div></div>
 <div class="ttc" id="autil_8cpp_html_a96afd525d79a1a43fbaabae3483b2e6b"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a96afd525d79a1a43fbaabae3483b2e6b">filterLatexString</a></div><div class="ttdeci">void filterLatexString(TextStream &amp;t, const QCString &amp;str, bool insideTabbing, bool insidePre, bool insideItem, bool insideTable, bool keepSpaces, const bool retainNewline)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l05063">util.cpp:5063</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00034">Config_getInt</a>, <a class="el" href="../../d4/d42/latexgen_8cpp.html#a9a7f04a1060dfff4cad9f82379053257">COPYCHAR</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00153">QCString::data()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05063">filterLatexString()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00076">m_col</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00077">m_doxyCodeLineOpen</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00073">m_t</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00078">m_usedTableLevel</a>, and <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00029">THREAD_LOCAL</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00034">Config_getInt</a>, <a class="el" href="../../d4/d42/latexgen_8cpp.html#a9a7f04a1060dfff4cad9f82379053257">COPYCHAR</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00153">QCString::data()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05063">filterLatexString()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00078">m_col</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00079">m_doxyCodeLineOpen</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00081">m_insideTabbing</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00075">m_t</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00080">m_usedTableLevel</a>, and <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00029">THREAD_LOCAL</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00230">endCodeLine()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00149">writeCodeLink()</a>, and <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00174">writeLineNumber()</a>.</p>
 
@@ -506,9 +513,9 @@ Private Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00060">60</a> of file <a class="el" href="../../d6/d9c/latexgen_8h_source.html">latexgen.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   60</span>{ <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#a76b404ceab074a0a056233427d993224">m_usedTableLevel</a>--; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00078">m_usedTableLevel</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00080">m_usedTableLevel</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l01744">LatexGenerator::endDescTable()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l02093">LatexGenerator::endMemberDocSimple()</a>, and <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01572">LatexDocVisitor::operator()()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l01748">LatexGenerator::endDescTable()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l02096">LatexGenerator::endMemberDocSimple()</a>, and <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01572">LatexDocVisitor::operator()()</a>.</p>
 
 </div>
 </div>
@@ -574,7 +581,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  261</span>}</div>
 <div class="ttc" id="aclass_latex_code_generator_html_ad6a36878e0fde7d9d23711fd7487edb8"><div class="ttname"><a href="../../d0/d37/class_latex_code_generator.html#ad6a36878e0fde7d9d23711fd7487edb8">LatexCodeGenerator::endCodeLine</a></div><div class="ttdeci">void endCodeLine() override</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d42/latexgen_8cpp_source.html#l00230">latexgen.cpp:230</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00230">endCodeLine()</a>, and <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00073">m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00230">endCodeLine()</a>, and <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00075">m_t</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00382">LatexDocVisitor::operator()()</a>.</p>
 
@@ -618,7 +625,7 @@ Private Attributes</h2></td></tr>
 <div class="ttc" id="aclass_latex_code_generator_html_ace27d46d07e19112fc6ee3411915c8ea"><div class="ttname"><a href="../../d0/d37/class_latex_code_generator.html#ace27d46d07e19112fc6ee3411915c8ea">LatexCodeGenerator::codify</a></div><div class="ttdeci">void codify(const QCString &amp;text) override</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d42/latexgen_8cpp_source.html#l00071">latexgen.cpp:71</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_aa93f0eb578d23995850d61f7d61c55c1"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></div><div class="ttdeci">#define FALSE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00033">qcstring.h:33</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00071">codify()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00077">m_doxyCodeLineOpen</a>, and <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00073">m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00071">codify()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00079">m_doxyCodeLineOpen</a>, and <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00075">m_t</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00255">endCodeFragment()</a>.</p>
 
@@ -655,7 +662,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  247</span>  <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; <span class="stringliteral">&quot;}&quot;</span>;</div>
 <div class="line"><span class="lineno">  248</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00073">m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00075">m_t</a>.</p>
 
 </div>
 </div>
@@ -685,9 +692,74 @@ Private Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00059">59</a> of file <a class="el" href="../../d6/d9c/latexgen_8h_source.html">latexgen.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   59</span>{ <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#a76b404ceab074a0a056233427d993224">m_usedTableLevel</a>++; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00078">m_usedTableLevel</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00080">m_usedTableLevel</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01572">LatexDocVisitor::operator()()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l01738">LatexGenerator::startDescTable()</a>, and <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l02077">LatexGenerator::startMemberDocSimple()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01572">LatexDocVisitor::operator()()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l01742">LatexGenerator::startDescTable()</a>, and <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l02080">LatexGenerator::startMemberDocSimple()</a>.</p>
+
+</div>
+</div>
+<a id="a2ac2521a9b24f1a783a729dde02f9bc4" name="a2ac2521a9b24f1a783a729dde02f9bc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ac2521a9b24f1a783a729dde02f9bc4">&#9670;&#160;</a></span>insideTabbing()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool LatexCodeGenerator::insideTabbing </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00066">66</a> of file <a class="el" href="../../d6/d9c/latexgen_8h_source.html">latexgen.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   66</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#aebc26b6a2b2da44df2ab22e1f4a336da">m_insideTabbing</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00081">m_insideTabbing</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l01599">LatexGenerator::docify()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00905">LatexGenerator::endIndexSection()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l01701">LatexGenerator::endMemberDescription()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l01678">LatexGenerator::endMemberItem()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l01797">LatexGenerator::endMemberList()</a>, <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01773">LatexDocVisitor::filter()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l02068">LatexGenerator::lineBreak()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00750">LatexGenerator::startIndexSection()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l01688">LatexGenerator::startMemberDescription()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l01668">LatexGenerator::startMemberItem()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l01789">LatexGenerator::startMemberList()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l02155">LatexGenerator::writeInheritedSectionTitle()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l01715">LatexGenerator::writeNonBreakableSpace()</a>, and <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l01299">LatexGenerator::writeObjectLink()</a>.</p>
+
+</div>
+</div>
+<a id="a22a237438e739e962bba1a51bf41b24a" name="a22a237438e739e962bba1a51bf41b24a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22a237438e739e962bba1a51bf41b24a">&#9670;&#160;</a></span>setInsideTabbing()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LatexCodeGenerator::setInsideTabbing </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00065">65</a> of file <a class="el" href="../../d6/d9c/latexgen_8h_source.html">latexgen.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   65</span>{ <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#aebc26b6a2b2da44df2ab22e1f4a336da">m_insideTabbing</a>=b; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00081">m_insideTabbing</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l01642">LatexGenerator::endAnonTypeScope()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l02125">LatexGenerator::endInlineMemberName()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l02114">LatexGenerator::endInlineMemberType()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l01631">LatexGenerator::startAnonTypeScope()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l02120">LatexGenerator::startInlineMemberName()</a>, and <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l02109">LatexGenerator::startInlineMemberType()</a>.</p>
 
 </div>
 </div>
@@ -712,7 +784,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">   63</span>  <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ade3eec74bf4332c6f238448049a1fb78">m_relPath</a> = path;</div>
 <div class="line"><span class="lineno">   64</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00074">m_relPath</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00076">m_relPath</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00569">LatexGenerator::startFile()</a>.</p>
 
@@ -739,7 +811,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">   68</span>  <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#acc546ace986e41f11d76eb80ec753e04">m_sourceFileName</a> = name;</div>
 <div class="line"><span class="lineno">   69</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00075">m_sourceFileName</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00077">m_sourceFileName</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00582">LatexGenerator::endFile()</a>, and <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00569">LatexGenerator::startFile()</a>.</p>
 
@@ -782,7 +854,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  252</span>  <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\n\\begin{&quot;</span> &lt;&lt; style &lt;&lt; <span class="stringliteral">&quot;}{&quot;</span> &lt;&lt; <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#a76b404ceab074a0a056233427d993224">m_usedTableLevel</a> &lt;&lt; <span class="stringliteral">&quot;}\n&quot;</span>;</div>
 <div class="line"><span class="lineno">  253</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00073">m_t</a>, and <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00078">m_usedTableLevel</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00075">m_t</a>, and <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00080">m_usedTableLevel</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00382">LatexDocVisitor::operator()()</a>.</p>
 
@@ -825,7 +897,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  228</span>}</div>
 <div class="ttc" id="aqcstring_8h_html_aa8cecfc5c5c054d2875c03e77b7be15d"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a></div><div class="ttdeci">#define TRUE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00036">qcstring.h:36</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00076">m_col</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00077">m_doxyCodeLineOpen</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00073">m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00078">m_col</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00079">m_doxyCodeLineOpen</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00075">m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 </div>
 </div>
@@ -866,7 +938,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  242</span>  <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#ac71df0a557b1ac64ac20578084849a24">m_t</a> &lt;&lt; <span class="stringliteral">&quot;\\textcolor{&quot;</span> &lt;&lt; name &lt;&lt; <span class="stringliteral">&quot;}{&quot;</span>;</div>
 <div class="line"><span class="lineno">  243</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00073">m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00075">m_t</a>.</p>
 
 </div>
 </div>
@@ -926,9 +998,9 @@ Private Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00061">61</a> of file <a class="el" href="../../d6/d9c/latexgen_8h_source.html">latexgen.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   61</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/d37/class_latex_code_generator.html#a76b404ceab074a0a056233427d993224">m_usedTableLevel</a>; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00078">m_usedTableLevel</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00080">m_usedTableLevel</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l01595">LatexGenerator::docify()</a>, and <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01773">LatexDocVisitor::filter()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l01599">LatexGenerator::docify()</a>, and <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01773">LatexDocVisitor::filter()</a>.</p>
 
 </div>
 </div>
@@ -1065,9 +1137,9 @@ Private Attributes</h2></td></tr>
 <div class="ttc" id="aclass_q_c_string_html_ac52596733e9110b778019946d73fb268"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">QCString::length</a></div><div class="ttdeci">uint length() const</div><div class="ttdoc">Returns the length of the string, not counting the 0-terminator.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00147">qcstring.h:147</a></div></div>
 <div class="ttc" id="aconfig_8h_html_a5373d0332a31f16ad7a42037733e8c79"><div class="ttname"><a href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a></div><div class="ttdeci">#define Config_getBool(name)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/config_8h_source.html#l00033">config.h:33</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_a4d3943ddea65db7163a58e6c7e8df95a"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#a4d3943ddea65db7163a58e6c7e8df95a">uint</a></div><div class="ttdeci">unsigned uint</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00040">qcstring.h:40</a></div></div>
-<div class="ttc" id="autil_8cpp_html_a3d37ec79f266698bd836af54ba75e63e"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a3d37ec79f266698bd836af54ba75e63e">stripPath</a></div><div class="ttdeci">QCString stripPath(const QCString &amp;s)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l05450">util.cpp:5450</a></div></div>
+<div class="ttc" id="autil_8cpp_html_a3d37ec79f266698bd836af54ba75e63e"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a3d37ec79f266698bd836af54ba75e63e">stripPath</a></div><div class="ttdeci">QCString stripPath(const QCString &amp;s)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l05452">util.cpp:5452</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00071">codify()</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::length()</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00076">m_col</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00073">m_t</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l05450">stripPath()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00071">codify()</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::length()</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00078">m_col</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00075">m_t</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l05452">stripPath()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00174">writeLineNumber()</a>.</p>
 
@@ -1185,9 +1257,9 @@ Private Attributes</h2></td></tr>
 <div class="ttc" id="aclass_q_c_string_html"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html">QCString</a></div><div class="ttdoc">This is an alternative implementation of QCString.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00108">qcstring.h:109</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a0a6a8fe99e596b149ee15138fa8dcf0c"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a0a6a8fe99e596b149ee15138fa8dcf0c">QCString::prepend</a></div><div class="ttdeci">QCString &amp; prepend(const char *s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00369">qcstring.h:369</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_aa2dccf89cb25346c3ee81d75aa5859da"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#aa2dccf89cb25346c3ee81d75aa5859da">QCString::sprintf</a></div><div class="ttdeci">QCString &amp; sprintf(const char *format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d3e/qcstring_8cpp_source.html#l00029">qcstring.cpp:29</a></div></div>
-<div class="ttc" id="autil_8cpp_html_a73d2ea8014e5ac678dac39cfd56ba148"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a73d2ea8014e5ac678dac39cfd56ba148">stripExtensionGeneral</a></div><div class="ttdeci">QCString stripExtensionGeneral(const QCString &amp;fName, const QCString &amp;ext)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l05417">util.cpp:5417</a></div></div>
+<div class="ttc" id="autil_8cpp_html_a73d2ea8014e5ac678dac39cfd56ba148"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a73d2ea8014e5ac678dac39cfd56ba148">stripExtensionGeneral</a></div><div class="ttdeci">QCString stripExtensionGeneral(const QCString &amp;fName, const QCString &amp;ext)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l05419">util.cpp:5419</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00071">codify()</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00076">m_col</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00077">m_doxyCodeLineOpen</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00075">m_sourceFileName</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00073">m_t</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00369">QCString::prepend()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00029">QCString::sprintf()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05417">stripExtensionGeneral()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05450">stripPath()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>, and <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00149">writeCodeLink()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00071">codify()</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00078">m_col</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00079">m_doxyCodeLineOpen</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00077">m_sourceFileName</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00075">m_t</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00369">QCString::prepend()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00029">QCString::sprintf()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05419">stripExtensionGeneral()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05452">stripPath()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>, and <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00149">writeCodeLink()</a>.</p>
 
 </div>
 </div>
@@ -1288,7 +1360,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00076">76</a> of file <a class="el" href="../../d6/d9c/latexgen_8h_source.html">latexgen.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00078">78</a> of file <a class="el" href="../../d6/d9c/latexgen_8h_source.html">latexgen.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00071">codify()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00220">startCodeLine()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00149">writeCodeLink()</a>, and <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00174">writeLineNumber()</a>.</p>
 
@@ -1314,9 +1386,35 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00077">77</a> of file <a class="el" href="../../d6/d9c/latexgen_8h_source.html">latexgen.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00079">79</a> of file <a class="el" href="../../d6/d9c/latexgen_8h_source.html">latexgen.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00071">codify()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00230">endCodeLine()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00220">startCodeLine()</a>, and <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00174">writeLineNumber()</a>.</p>
+
+</div>
+</div>
+<a id="aebc26b6a2b2da44df2ab22e1f4a336da" name="aebc26b6a2b2da44df2ab22e1f4a336da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebc26b6a2b2da44df2ab22e1f4a336da">&#9670;&#160;</a></span>m_insideTabbing</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool LatexCodeGenerator::m_insideTabbing = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00081">81</a> of file <a class="el" href="../../d6/d9c/latexgen_8h_source.html">latexgen.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00071">codify()</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00066">insideTabbing()</a>, and <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00065">setInsideTabbing()</a>.</p>
 
 </div>
 </div>
@@ -1340,7 +1438,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00074">74</a> of file <a class="el" href="../../d6/d9c/latexgen_8h_source.html">latexgen.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00076">76</a> of file <a class="el" href="../../d6/d9c/latexgen_8h_source.html">latexgen.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00061">setRelativePath()</a>.</p>
 
@@ -1366,7 +1464,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00075">75</a> of file <a class="el" href="../../d6/d9c/latexgen_8h_source.html">latexgen.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00077">77</a> of file <a class="el" href="../../d6/d9c/latexgen_8h_source.html">latexgen.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00066">setSourceFileName()</a>, and <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00174">writeLineNumber()</a>.</p>
 
@@ -1392,7 +1490,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00072">72</a> of file <a class="el" href="../../d6/d9c/latexgen_8h_source.html">latexgen.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00074">74</a> of file <a class="el" href="../../d6/d9c/latexgen_8h_source.html">latexgen.h</a>.</p>
 
 </div>
 </div>
@@ -1416,7 +1514,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00073">73</a> of file <a class="el" href="../../d6/d9c/latexgen_8h_source.html">latexgen.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00075">75</a> of file <a class="el" href="../../d6/d9c/latexgen_8h_source.html">latexgen.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00071">codify()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00255">endCodeFragment()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00230">endCodeLine()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00245">endFontClass()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00250">startCodeFragment()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00220">startCodeLine()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00240">startFontClass()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00149">writeCodeLink()</a>, and <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00174">writeLineNumber()</a>.</p>
 
@@ -1442,7 +1540,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00078">78</a> of file <a class="el" href="../../d6/d9c/latexgen_8h_source.html">latexgen.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00080">80</a> of file <a class="el" href="../../d6/d9c/latexgen_8h_source.html">latexgen.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00071">codify()</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00060">decUsedTableLevel()</a>, <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00059">incUsedTableLevel()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00250">startCodeFragment()</a>, and <a class="el" href="../../d6/d9c/latexgen_8h_source.html#l00061">usedTableLevel()</a>.</p>
 

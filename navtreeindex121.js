@@ -1,10 +1,9 @@
 var NAVTREEINDEX121 =
 {
-"df/d0f/translator__ro_8h_source.html":[9,0,2,277],
 "df/d10/class_nav_index_entry_list.html":[8,0,411],
 "df/d11/class_member_group_list.html":[8,0,381],
-"df/d16/struct_search_index_methods_1_1write.html":[8,0,4,2],
 "df/d16/struct_search_index_methods_1_1write.html":[7,0,10,2],
+"df/d16/struct_search_index_methods_1_1write.html":[8,0,4,2],
 "df/d16/struct_search_index_methods_1_1write.html#a4dbf5282a839e3117cea02b27176c08d":[8,0,4,2,0],
 "df/d16/struct_search_index_methods_1_1write.html#a4dbf5282a839e3117cea02b27176c08d":[7,0,10,2,0],
 "df/d1b/struct_symbol_modifiers.html":[8,0,490],
@@ -249,5 +248,6 @@ var NAVTREEINDEX121 =
 "df/d20/class_translator_vietnamese.html#acb5897420e31256a19b1de52196e83e9":[8,0,615,44],
 "df/d20/class_translator_vietnamese.html#acbccbeae7500f1153d832267107be077":[8,0,615,137],
 "df/d20/class_translator_vietnamese.html#ace7bbd9c6165a19baf08816915bd857b":[8,0,615,42],
-"df/d20/class_translator_vietnamese.html#acebe0baec5bca7de66b2374e7f59fad1":[8,0,615,96]
+"df/d20/class_translator_vietnamese.html#acebe0baec5bca7de66b2374e7f59fad1":[8,0,615,96],
+"df/d20/class_translator_vietnamese.html#ad09691682e602a30fcf0f7fa140bb20e":[8,0,615,182]
 };

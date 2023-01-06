@@ -264,10 +264,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3d5d3051d5ddfe22ee6a2562e3287b71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a476f10eb8c3aec007c118d06529fef13"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/class_member_def_mutable.html#a476f10eb8c3aec007c118d06529fef13">writeTagFile</a> (<a class="el" href="../../d3/d30/class_text_stream.html">TextStream</a> &amp;, bool useQualifiedName) const =0</td></tr>
 <tr class="separator:a476f10eb8c3aec007c118d06529fef13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a193c336b13421641e9b85dc3f0826d30"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/class_member_def_mutable.html#a193c336b13421641e9b85dc3f0826d30">setAnonymousUsed</a> () const =0</td></tr>
-<tr class="separator:a193c336b13421641e9b85dc3f0826d30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1026656b64c52794d0b590115ff7abb9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/class_member_def_mutable.html#a1026656b64c52794d0b590115ff7abb9">setFromAnonymousScope</a> (bool b) const =0</td></tr>
-<tr class="separator:a1026656b64c52794d0b590115ff7abb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addab8233ce94a53e33f788e02e453790"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4b/class_member_def_mutable.html#addab8233ce94a53e33f788e02e453790">setFromAnonymousScope</a> (bool b)=0</td></tr>
+<tr class="separator:addab8233ce94a53e33f788e02e453790"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_definition_mutable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_definition_mutable')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d0/d46/class_definition_mutable.html">DefinitionMutable</a></td></tr>
 <tr class="memitem:a22b8c8f07db7eb0435d27a79d2d32655 inherit pub_methods_class_definition_mutable"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d46/class_definition_mutable.html#a22b8c8f07db7eb0435d27a79d2d32655">setName</a> (const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;name)=0</td></tr>
 <tr class="separator:a22b8c8f07db7eb0435d27a79d2d32655 inherit pub_methods_class_definition_mutable"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -646,8 +644,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a80cdb3bd4361d8b5d8dd91c0d7cfc083 inherit pub_methods_class_member_def"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b1e297724aaf4e8bca3424d72ae9129 inherit pub_methods_class_member_def"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/class_member_def.html#a2b1e297724aaf4e8bca3424d72ae9129">fromAnonymousScope</a> () const =0</td></tr>
 <tr class="separator:a2b1e297724aaf4e8bca3424d72ae9129 inherit pub_methods_class_member_def"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7c2b887c45e9b9073d3c4d0bde94b04 inherit pub_methods_class_member_def"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/class_member_def.html#ae7c2b887c45e9b9073d3c4d0bde94b04">anonymousDeclShown</a> () const =0</td></tr>
-<tr class="separator:ae7c2b887c45e9b9073d3c4d0bde94b04 inherit pub_methods_class_member_def"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a485884aca7071b99f7e0c8af2781a126 inherit pub_methods_class_member_def"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../da/d09/class_member_def.html">MemberDef</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/class_member_def.html#a485884aca7071b99f7e0c8af2781a126">fromAnonymousMember</a> () const =0</td></tr>
 <tr class="separator:a485884aca7071b99f7e0c8af2781a126 inherit pub_methods_class_member_def"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f8eeb9656c15d74956b893e5cef255d inherit pub_methods_class_member_def"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/class_member_def.html#a4f8eeb9656c15d74956b893e5cef255d">hasCallGraph</a> () const =0</td></tr>
@@ -874,7 +870,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d4/d46/memberdef_8h_source.html#l00303">303</a> of file <a class="el" href="../../d4/d46/memberdef_8h_source.html">memberdef.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/memberdef_8h_source.html#l00302">302</a> of file <a class="el" href="../../d4/d46/memberdef_8h_source.html">memberdef.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a858aa8a6b320fa1f8ed0a1d82903ce7b" name="a858aa8a6b320fa1f8ed0a1d82903ce7b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a858aa8a6b320fa1f8ed0a1d82903ce7b">&#9670;&#160;</a></span>addExample()</h2>
@@ -948,7 +944,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d7/d7e/class_member_def_impl.html#acb71cac9ef8fd2ab2fa743c54769a7fd">MemberDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d14/memberlist_8cpp_source.html#l00824">MemberList::addListReferences()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d14/memberlist_8cpp_source.html#l00799">MemberList::addListReferences()</a>.</p>
 
 </div>
 </div>
@@ -978,7 +974,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d7/d7e/class_member_def_impl.html#ad04939398754e7feac84f63622030de8">MemberDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05644">addLocalObjCMethod()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05124">addMemberDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06053">addMemberSpecialization()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06115">addOverloaded()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05921">combineDeclarationAndDefinition()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07046">findEnums()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06195">findMember()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05644">addLocalObjCMethod()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05124">addMemberDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06053">addMemberSpecialization()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06115">addOverloaded()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05876">combineDeclarationAndDefinition()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07046">findEnums()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06195">findMember()</a>.</p>
 
 </div>
 </div>
@@ -1084,7 +1080,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d7/d7e/class_member_def_impl.html#a66d949bc0e9c07c1bec624896b58e0d6">MemberDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05644">addLocalObjCMethod()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05124">addMemberDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06053">addMemberSpecialization()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06115">addOverloaded()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05921">combineDeclarationAndDefinition()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07046">findEnums()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06195">findMember()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05644">addLocalObjCMethod()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05124">addMemberDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06053">addMemberSpecialization()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06115">addOverloaded()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05876">combineDeclarationAndDefinition()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07046">findEnums()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06195">findMember()</a>.</p>
 
 </div>
 </div>
@@ -1114,7 +1110,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d7/d7e/class_member_def_impl.html#acd8fb4111c0379affe115b59b6aeb66f">MemberDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05644">addLocalObjCMethod()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05124">addMemberDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06053">addMemberSpecialization()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06115">addOverloaded()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05921">combineDeclarationAndDefinition()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07046">findEnums()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06195">findMember()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05644">addLocalObjCMethod()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05124">addMemberDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06053">addMemberSpecialization()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06115">addOverloaded()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05876">combineDeclarationAndDefinition()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07046">findEnums()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06195">findMember()</a>.</p>
 
 </div>
 </div>
@@ -1144,7 +1140,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d7/d7e/class_member_def_impl.html#a48b98875410a9cc5d07a9f8e64d5422c">MemberDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05644">addLocalObjCMethod()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05124">addMemberDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06053">addMemberSpecialization()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06115">addOverloaded()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05921">combineDeclarationAndDefinition()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07046">findEnums()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06195">findMember()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05644">addLocalObjCMethod()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05124">addMemberDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06053">addMemberSpecialization()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06115">addOverloaded()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05876">combineDeclarationAndDefinition()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07046">findEnums()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06195">findMember()</a>.</p>
 
 </div>
 </div>
@@ -1174,7 +1170,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d7/d7e/class_member_def_impl.html#adc0ec6b64c00ae27028c19a4e917dc9d">MemberDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05644">addLocalObjCMethod()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05124">addMemberDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06053">addMemberSpecialization()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06115">addOverloaded()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05921">combineDeclarationAndDefinition()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07046">findEnums()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06195">findMember()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05644">addLocalObjCMethod()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05124">addMemberDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06053">addMemberSpecialization()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06115">addOverloaded()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05876">combineDeclarationAndDefinition()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07046">findEnums()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06195">findMember()</a>.</p>
 
 </div>
 </div>
@@ -1203,7 +1199,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d7/d7e/class_member_def_impl.html#ae639ac718dfe498d77ddebe5f70d8b2c">MemberDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d14/memberlist_8cpp_source.html#l00854">MemberList::findSectionsInDocumentation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d14/memberlist_8cpp_source.html#l00829">MemberList::findSectionsInDocumentation()</a>.</p>
 
 </div>
 </div>
@@ -1321,7 +1317,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d7/d7e/class_member_def_impl.html#a667fd0a9a1e77eb5232e5d0ba474ad25">MemberDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07846">computeMemberRelations()</a>, and <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l01479">MemberDefImpl::insertReimplementedBy()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07846">computeMemberRelations()</a>, and <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l01473">MemberDefImpl::insertReimplementedBy()</a>.</p>
 
 </div>
 </div>
@@ -1496,7 +1492,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d7/d7e/class_member_def_impl.html#a5aff6f748eafbe210f6ed5076952f691">MemberDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05124">addMemberDocs()</a>, and <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05921">combineDeclarationAndDefinition()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05124">addMemberDocs()</a>, and <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05876">combineDeclarationAndDefinition()</a>.</p>
 
 </div>
 </div>
@@ -1526,7 +1522,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d7/d7e/class_member_def_impl.html#a2822596e72f9b114b8f98f8c04b2c118">MemberDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05699">addMemberFunction()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08298">buildDefineList()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05921">combineDeclarationAndDefinition()</a>, and <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04222">MemberDefImpl::createTemplateInstanceMember()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05699">addMemberFunction()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08298">buildDefineList()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05876">combineDeclarationAndDefinition()</a>, and <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04212">MemberDefImpl::createTemplateInstanceMember()</a>.</p>
 
 </div>
 </div>
@@ -1556,7 +1552,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d7/d7e/class_member_def_impl.html#aa1c209d54d829bd583212a0c73a24419">MemberDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05921">combineDeclarationAndDefinition()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05876">combineDeclarationAndDefinition()</a>.</p>
 
 </div>
 </div>
@@ -1586,7 +1582,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d7/d7e/class_member_def_impl.html#a83d2689a75415c64cff4029ba4d48579">MemberDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05921">combineDeclarationAndDefinition()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05876">combineDeclarationAndDefinition()</a>.</p>
 
 </div>
 </div>
@@ -1655,7 +1651,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d7/d7e/class_member_def_impl.html#a001f6e7c087bd4717e95f62a6f496353">MemberDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07217">addEnumValuesToEnums()</a>, and <a class="el" href="../../d0/d14/memberlist_8cpp_source.html#l00968">MemberList::setAnchors()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07217">addEnumValuesToEnums()</a>, and <a class="el" href="../../d0/d14/memberlist_8cpp_source.html#l00943">MemberList::setAnchors()</a>.</p>
 
 </div>
 </div>
@@ -1686,35 +1682,6 @@ Additional Inherited Members</h2></td></tr>
 <p>Implemented in <a class="el" href="../../d7/d7e/class_member_def_impl.html#a29353ea1775f843855e75f478f4bc0c8">MemberDefImpl</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d14/memberlist_8cpp_source.html#l00226">MemberList::setAnonymousEnumType()</a>.</p>
-
-</div>
-</div>
-<a id="a193c336b13421641e9b85dc3f0826d30" name="a193c336b13421641e9b85dc3f0826d30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a193c336b13421641e9b85dc3f0826d30">&#9670;&#160;</a></span>setAnonymousUsed()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void MemberDefMutable::setAnonymousUsed </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="../../d7/d7e/class_member_def_impl.html#a56b639bc890cedc12d3c67117a448afc">MemberDefImpl</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02085">MemberDefImpl::writeDeclaration()</a>.</p>
 
 </div>
 </div>
@@ -1821,7 +1788,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d7/d7e/class_member_def_impl.html#a0531f45be19a2ed8bbcc8b2617e90caa">MemberDefImpl</a>, and <a class="el" href="../../dd/d10/class_definition_mixin.html#ae7e97fa47aa3368149d8e0a9f492f2e3">DefinitionMixin&lt; MemberDefMutable &gt;</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07451">addEnumDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07217">addEnumValuesToEnums()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05644">addLocalObjCMethod()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05124">addMemberDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06053">addMemberSpecialization()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06115">addOverloaded()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05921">combineDeclarationAndDefinition()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01435">createTagLessInstance()</a>, <a class="el" href="../../d6/d18/membergroup_8cpp_source.html#l00215">MemberGroup::distributeMemberGroupDocumentation()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08914">findDefineDocumentation()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07046">findEnums()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06195">findMember()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08616">inheritDocumentation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07451">addEnumDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07217">addEnumValuesToEnums()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05644">addLocalObjCMethod()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05124">addMemberDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06053">addMemberSpecialization()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06115">addOverloaded()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05876">combineDeclarationAndDefinition()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01435">createTagLessInstance()</a>, <a class="el" href="../../d6/d18/membergroup_8cpp_source.html#l00215">MemberGroup::distributeMemberGroupDocumentation()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08914">findDefineDocumentation()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07046">findEnums()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06195">findMember()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08616">inheritDocumentation()</a>.</p>
 
 </div>
 </div>
@@ -1851,7 +1818,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d7/d7e/class_member_def_impl.html#a0823d432e9a9d94028bd11e0ac519747">MemberDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03717">ClassDefImpl::mergeCategory()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03718">ClassDefImpl::mergeCategory()</a>.</p>
 
 </div>
 </div>
@@ -1881,7 +1848,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d7/d7e/class_member_def_impl.html#a11cdbade7ad879dd279b1aa55e927ea1">MemberDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03717">ClassDefImpl::mergeCategory()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03718">ClassDefImpl::mergeCategory()</a>.</p>
 
 </div>
 </div>
@@ -1957,7 +1924,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d7/d7e/class_member_def_impl.html#a9bf4696bbd62a4f0f4f74bc08c4ff8ea">MemberDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05644">addLocalObjCMethod()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05124">addMemberDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06053">addMemberSpecialization()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06115">addOverloaded()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08298">buildDefineList()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04222">MemberDefImpl::createTemplateInstanceMember()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07046">findEnums()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06195">findMember()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05644">addLocalObjCMethod()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05124">addMemberDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06053">addMemberSpecialization()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06115">addOverloaded()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08298">buildDefineList()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04212">MemberDefImpl::createTemplateInstanceMember()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07046">findEnums()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06195">findMember()</a>.</p>
 
 </div>
 </div>
@@ -2017,7 +1984,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d7/d7e/class_member_def_impl.html#a6c205a46cec1c24d96510f4636f55261">MemberDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07451">addEnumDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05644">addLocalObjCMethod()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05124">addMemberDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06053">addMemberSpecialization()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06115">addOverloaded()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05921">combineDeclarationAndDefinition()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08914">findDefineDocumentation()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07046">findEnums()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06195">findMember()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08616">inheritDocumentation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07451">addEnumDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05644">addLocalObjCMethod()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05124">addMemberDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06053">addMemberSpecialization()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06115">addOverloaded()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05876">combineDeclarationAndDefinition()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08914">findDefineDocumentation()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07046">findEnums()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06195">findMember()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08616">inheritDocumentation()</a>.</p>
 
 </div>
 </div>
@@ -2072,7 +2039,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d7/d7e/class_member_def_impl.html#ab1ecbf76d89e6d9bb882056d6327b259">MemberDefImpl</a>, and <a class="el" href="../../dd/d10/class_definition_mixin.html#ad2929ad41ccc89bafab94869362a0845">DefinitionMixin&lt; MemberDefMutable &gt;</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07451">addEnumDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07217">addEnumValuesToEnums()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05644">addLocalObjCMethod()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05124">addMemberDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06053">addMemberSpecialization()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06115">addOverloaded()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05921">combineDeclarationAndDefinition()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01435">createTagLessInstance()</a>, <a class="el" href="../../d6/d18/membergroup_8cpp_source.html#l00215">MemberGroup::distributeMemberGroupDocumentation()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08914">findDefineDocumentation()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07046">findEnums()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06195">findMember()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08616">inheritDocumentation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07451">addEnumDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07217">addEnumValuesToEnums()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05644">addLocalObjCMethod()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05124">addMemberDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06053">addMemberSpecialization()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06115">addOverloaded()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05876">combineDeclarationAndDefinition()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01435">createTagLessInstance()</a>, <a class="el" href="../../d6/d18/membergroup_8cpp_source.html#l00215">MemberGroup::distributeMemberGroupDocumentation()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08914">findDefineDocumentation()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07046">findEnums()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06195">findMember()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08616">inheritDocumentation()</a>.</p>
 
 </div>
 </div>
@@ -2316,8 +2283,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a1026656b64c52794d0b590115ff7abb9" name="a1026656b64c52794d0b590115ff7abb9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1026656b64c52794d0b590115ff7abb9">&#9670;&#160;</a></span>setFromAnonymousScope()</h2>
+<a id="addab8233ce94a53e33f788e02e453790" name="addab8233ce94a53e33f788e02e453790"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addab8233ce94a53e33f788e02e453790">&#9670;&#160;</a></span>setFromAnonymousScope()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2330,7 +2297,7 @@ Additional Inherited Members</h2></td></tr>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>b</em></td><td>)</td>
-          <td> const</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -2340,9 +2307,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../d7/d7e/class_member_def_impl.html#aafc1e6960908f72e3761ab846e187f75">MemberDefImpl</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d0/d14/memberlist_8cpp_source.html#l00327">MemberList::writePlainDeclarations()</a>.</p>
+<p>Implemented in <a class="el" href="../../d7/d7e/class_member_def_impl.html#a284176ec3f2c3c47c5ff74c61a4f7134">MemberDefImpl</a>.</p>
 
 </div>
 </div>
@@ -2436,7 +2401,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d7/d7e/class_member_def_impl.html#a715024601cf5e696396ec2c80f43994d">MemberDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/d42/groupdef_8cpp_source.html#l01413">addMemberToGroups()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05921">combineDeclarationAndDefinition()</a>, <a class="el" href="../../d6/d18/membergroup_8cpp_source.html#l00048">MemberGroup::insertMember()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03985">ClassDefImpl::setGroupDefForAllMembers()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d42/groupdef_8cpp_source.html#l01413">addMemberToGroups()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05876">combineDeclarationAndDefinition()</a>, <a class="el" href="../../d6/d18/membergroup_8cpp_source.html#l00048">MemberGroup::insertMember()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l03986">ClassDefImpl::setGroupDefForAllMembers()</a>.</p>
 
 </div>
 </div>
@@ -2517,7 +2482,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d7/d7e/class_member_def_impl.html#a9c67810029f468eec2c6a81132fbdfd0">MemberDefImpl</a>, and <a class="el" href="../../dd/d10/class_definition_mixin.html#ae3bb6cbd3f79dd5e6b7c9763c2599322">DefinitionMixin&lt; MemberDefMutable &gt;</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07451">addEnumDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05644">addLocalObjCMethod()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05124">addMemberDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06053">addMemberSpecialization()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06115">addOverloaded()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05921">combineDeclarationAndDefinition()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01435">createTagLessInstance()</a>, <a class="el" href="../../d6/d18/membergroup_8cpp_source.html#l00215">MemberGroup::distributeMemberGroupDocumentation()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08914">findDefineDocumentation()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07046">findEnums()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06195">findMember()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08616">inheritDocumentation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07451">addEnumDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05644">addLocalObjCMethod()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05124">addMemberDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06053">addMemberSpecialization()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06115">addOverloaded()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05876">combineDeclarationAndDefinition()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01435">createTagLessInstance()</a>, <a class="el" href="../../d6/d18/membergroup_8cpp_source.html#l00215">MemberGroup::distributeMemberGroupDocumentation()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08914">findDefineDocumentation()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07046">findEnums()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06195">findMember()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08616">inheritDocumentation()</a>.</p>
 
 </div>
 </div>
@@ -2637,7 +2602,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d7/d7e/class_member_def_impl.html#a4b01931bcb4af8aef7c49eaf1f034022">MemberDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07217">addEnumValuesToEnums()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05644">addLocalObjCMethod()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06053">addMemberSpecialization()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l04088">ClassDefImpl::addMembersToTemplateInstance()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06115">addOverloaded()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01435">createTagLessInstance()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07046">findEnums()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06195">findMember()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l02050">findUsingDeclImports()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07217">addEnumValuesToEnums()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05644">addLocalObjCMethod()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06053">addMemberSpecialization()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l04089">ClassDefImpl::addMembersToTemplateInstance()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06115">addOverloaded()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01435">createTagLessInstance()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07046">findEnums()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06195">findMember()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l02050">findUsingDeclImports()</a>.</p>
 
 </div>
 </div>
@@ -2667,7 +2632,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d7/d7e/class_member_def_impl.html#aceb83100fbfc0324617fa7c40ad4f635">MemberDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05921">combineDeclarationAndDefinition()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05876">combineDeclarationAndDefinition()</a>.</p>
 
 </div>
 </div>
@@ -2697,7 +2662,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d7/d7e/class_member_def_impl.html#a4560b0b439e9866b21692024ed8c80cb">MemberDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05921">combineDeclarationAndDefinition()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05876">combineDeclarationAndDefinition()</a>.</p>
 
 </div>
 </div>
@@ -2787,7 +2752,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d7/d7e/class_member_def_impl.html#a08c811deafee256f66f9925646fe87a9">MemberDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l04852">ClassDefImpl::reclassifyMember()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l04853">ClassDefImpl::reclassifyMember()</a>.</p>
 
 </div>
 </div>
@@ -3057,7 +3022,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d7/d7e/class_member_def_impl.html#a017eca23203da6dafef9a8406f517f27">MemberDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l01582">FileDefImpl::addMemberToList()</a>, <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01396">NamespaceDefImpl::addMemberToList()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l04263">ClassDefImpl::addMemberToList()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l01582">FileDefImpl::addMemberToList()</a>, <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01396">NamespaceDefImpl::addMemberToList()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l04264">ClassDefImpl::addMemberToList()</a>.</p>
 
 </div>
 </div>
@@ -3315,7 +3280,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d7/d7e/class_member_def_impl.html#a46c1ca43358e755ed392b30423ca2e8c">MemberDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d14/memberlist_8cpp_source.html#l00651">MemberList::writeDocumentation()</a>, and <a class="el" href="../../d0/d14/memberlist_8cpp_source.html#l00742">MemberList::writeDocumentationPage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d14/memberlist_8cpp_source.html#l00626">MemberList::writeDocumentation()</a>, and <a class="el" href="../../d0/d14/memberlist_8cpp_source.html#l00717">MemberList::writeDocumentationPage()</a>.</p>
 
 </div>
 </div>
@@ -3355,7 +3320,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d7/d7e/class_member_def_impl.html#a363168f00876c69675f5613b9d2e63d1">MemberDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d14/memberlist_8cpp_source.html#l00718">MemberList::writeSimpleDocumentation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d14/memberlist_8cpp_source.html#l00693">MemberList::writeSimpleDocumentation()</a>.</p>
 
 </div>
 </div>
@@ -3395,7 +3360,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d7/d7e/class_member_def_impl.html#adba0607c4bfc5e212705045f1fbef8ef">MemberDefImpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d14/memberlist_8cpp_source.html#l00933">MemberList::writeTagFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d14/memberlist_8cpp_source.html#l00908">MemberList::writeTagFile()</a>.</p>
 
 </div>
 </div>

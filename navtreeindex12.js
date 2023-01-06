@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"d1/d7e/structxmlcode_y_y__state.html#a60d6e385c61e29eff2b675cc5b80d659":[8,0,633,19],
 "d1/d7e/structxmlcode_y_y__state.html#a7b51741681c072453537631385e96d52":[8,0,633,9],
 "d1/d7e/structxmlcode_y_y__state.html#a91ee27dd6d3710979a18ff4f5a265c0d":[8,0,633,15],
 "d1/d7e/structxmlcode_y_y__state.html#aa7fe459f2e519433cf68784b9a30d28d":[8,0,633,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "d1/d8a/class_translator_hindi.html#a98d341d20cf141a01f3b16257a95c1d8":[8,0,590,135],
 "d1/d8a/class_translator_hindi.html#a99a4ee901ed81779f3ad887f174dc2f9":[8,0,590,2],
 "d1/d8a/class_translator_hindi.html#a9a6dc9a116b00c16fc45aa1d1398bf3d":[8,0,590,275],
-"d1/d8a/class_translator_hindi.html#a9ab0f09f4c79348119ce9619ae95c37e":[8,0,590,273],
-"d1/d8a/class_translator_hindi.html#a9b85f40eceff2a2f5374eadca9b54daf":[8,0,590,21]
+"d1/d8a/class_translator_hindi.html#a9ab0f09f4c79348119ce9619ae95c37e":[8,0,590,273]
 };

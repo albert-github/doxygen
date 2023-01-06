@@ -1,5 +1,9 @@
 var NAVTREEINDEX51 =
 {
+"d7/d19/struct_lookup_info.html#a55af5dfe2282dcc19615ac1e0ace76ff":[8,0,363,3],
+"d7/d19/struct_lookup_info.html#a9421fd652d8b718b86eb095de4483146":[8,0,363,2],
+"d7/d19/struct_lookup_info.html#ab6109313beafe89f7d42431f8da344fb":[8,0,363,4],
+"d7/d19/struct_lookup_info.html#abae8ff1217132e626eeb3380cc700053":[8,0,363,5],
 "d7/d19/struct_lookup_info.html#aed425b34d67d2534d2751e81ce6ab410":[8,0,363,0],
 "d7/d1c/namespacedef_8cpp.html":[9,0,2,178],
 "d7/d1c/namespacedef_8cpp.html#a061ac5e55a8b63f2c06e1f4e272cb011":[9,0,2,178,8],
@@ -245,9 +249,5 @@ var NAVTREEINDEX51 =
 "d7/d21/class_translator_danish.html#ad668d61e95181ea0750d1e5359ce134f":[8,0,582,120],
 "d7/d21/class_translator_danish.html#ad7719d9271d6e6d9defb78f4c741070f":[8,0,582,94],
 "d7/d21/class_translator_danish.html#ad7767cd4646f24f42f1239d0fcebc633":[8,0,582,112],
-"d7/d21/class_translator_danish.html#ad824f35152e985879e8c48603393687b":[8,0,582,214],
-"d7/d21/class_translator_danish.html#adc3dc4dd23171bced014aafbd5593081":[8,0,582,65],
-"d7/d21/class_translator_danish.html#add31f1de5778df55b717465844a6dea1":[8,0,582,29],
-"d7/d21/class_translator_danish.html#ade8313084d14f2dac2cae5499a980000":[8,0,582,150],
-"d7/d21/class_translator_danish.html#ae0769889c19d2aea4666caf885cbf440":[8,0,582,30]
+"d7/d21/class_translator_danish.html#ad824f35152e985879e8c48603393687b":[8,0,582,214]
 };

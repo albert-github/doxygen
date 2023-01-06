@@ -1,6 +1,5 @@
 var NAVTREEINDEX128 =
 {
-"df/dcd/classreg_1_1_ex_1_1_private.html#a3d43ef3d3304bc786d75340eac860780":[8,0,3,0,0,4],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a3d43ef3d3304bc786d75340eac860780":[7,0,9,0,0,4],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a51e12007f0f7866ad4117c489e90cb8e":[8,0,3,0,0,0],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a51e12007f0f7866ad4117c489e90cb8e":[7,0,9,0,0,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX128 =
 "globals.html":[9,1,0,0],
 "globals_b.html":[9,1,0,1],
 "globals_c.html":[9,1,0,2],
-"globals_d.html":[9,1,0,3]
+"globals_d.html":[9,1,0,3],
+"globals_defs.html":[9,1,6]
 };

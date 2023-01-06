@@ -1,6 +1,5 @@
 var NAVTREEINDEX104 =
 {
-"dd/df6/class_translator_chinesetraditional.html#a9854b2d04ca29b03620b861fa4e68a47":[8,0,579,76],
 "dd/df6/class_translator_chinesetraditional.html#a986fde8083b58bef975adf8b94e40718":[8,0,579,232],
 "dd/df6/class_translator_chinesetraditional.html#a98a1eb93c4d1ab29d05afcdef3ec33bc":[8,0,579,4],
 "dd/df6/class_translator_chinesetraditional.html#a997a58bda3e61cb0c37257f338db6c51":[8,0,579,216],
@@ -226,8 +225,8 @@ var NAVTREEINDEX104 =
 "de/d04/markdown_8cpp_source.html":[9,0,2,165],
 "de/d05/structdetails_1_1_impl.html":[7,0,4,0],
 "de/d05/structdetails_1_1_impl.html":[8,0,1,0],
-"de/d05/structdetails_1_1_impl.html#a0fd4278ad6e530e3ed836849026072b6":[7,0,4,0,0],
 "de/d05/structdetails_1_1_impl.html#a0fd4278ad6e530e3ed836849026072b6":[8,0,1,0,0],
+"de/d05/structdetails_1_1_impl.html#a0fd4278ad6e530e3ed836849026072b6":[7,0,4,0,0],
 "de/d07/searchindex_8h.html":[9,0,2,220],
 "de/d07/searchindex_8h.html#a50d08832d359fc0cce18c3079d46eb9a":[9,0,2,220,14],
 "de/d07/searchindex_8h.html#ad28704628a5159a8fd5ea6f9bc5d2c49":[9,0,2,220,13],
@@ -249,5 +248,6 @@ var NAVTREEINDEX104 =
 "de/d0e/class_nav_path_elem_context_1_1_private.html#ad166cb449718f8178cbb141ef3ecea5d":[8,0,412,0,7],
 "de/d0e/class_nav_path_elem_context_1_1_private.html#ad45518876dc86e46d02b23c5d2127db2":[8,0,412,0,5],
 "de/d0e/class_nav_path_elem_context_1_1_private.html#ae2dfa9aee9dba4921ea949ce37210bad":[8,0,412,0,8],
-"de/d0e/class_nav_path_elem_context_1_1_private.html#ae2e9c52dc5b827cb0d9f41438ae4d730":[8,0,412,0,4]
+"de/d0e/class_nav_path_elem_context_1_1_private.html#ae2e9c52dc5b827cb0d9f41438ae4d730":[8,0,412,0,4],
+"de/d14/class_text_generator_factory.html":[8,0,545]
 };

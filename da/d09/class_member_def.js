@@ -2,7 +2,6 @@ var class_member_def =
 [
     [ "accessorClass", "da/d09/class_member_def.html#a19e35fd33e87d41ebfe413d9ec63a44b", null ],
     [ "anchor", "da/d09/class_member_def.html#a170c6221384447f7e2e9f5a529efef40", null ],
-    [ "anonymousDeclShown", "da/d09/class_member_def.html#ae7c2b887c45e9b9073d3c4d0bde94b04", null ],
     [ "argsString", "da/d09/class_member_def.html#adfae3b8f49644ba27669daa9412e14a3", null ],
     [ "argumentList", "da/d09/class_member_def.html#a515503656a6cffb2d27f60e93c3c780e", null ],
     [ "bitfieldString", "da/d09/class_member_def.html#a79b45e3c4c595bebe2c1e65e965c6d39", null ],

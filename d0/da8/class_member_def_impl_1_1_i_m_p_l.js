@@ -9,7 +9,6 @@ var class_member_def_impl_1_1_i_m_p_l =
     [ "annEnumType", "d0/da8/class_member_def_impl_1_1_i_m_p_l.html#ad9d3bc12ccfbc5f58ba964f6abfff478", null ],
     [ "annMemb", "d0/da8/class_member_def_impl_1_1_i_m_p_l.html#a194bd9eb97609051654a70c5c6980821", null ],
     [ "annScope", "d0/da8/class_member_def_impl_1_1_i_m_p_l.html#a0cc694de550775417d26b7062eeb0279", null ],
-    [ "annUsed", "d0/da8/class_member_def_impl_1_1_i_m_p_l.html#afb60092cb65374b85535fa1261adf8a0", null ],
     [ "args", "d0/da8/class_member_def_impl_1_1_i_m_p_l.html#a9a0db81726e7d965efb3661ad129d5b6", null ],
     [ "bitfields", "d0/da8/class_member_def_impl_1_1_i_m_p_l.html#adf1b686a03ca84b8f4a3b5516b8cbafe", null ],
     [ "cachedAnonymousType", "d0/da8/class_member_def_impl_1_1_i_m_p_l.html#a530c0bc9be077026aa372dc691774ed9", null ],

@@ -27,7 +27,7 @@ var util_8h =
     [ "convertToHtml", "d8/d3c/util_8h.html#a16e1d25fefcefa99036133fe4629f0d3", null ],
     [ "convertToId", "d8/d3c/util_8h.html#af333eebf6d2862cf38a30e084bc36e0d", null ],
     [ "convertToJSString", "d8/d3c/util_8h.html#a8f3e481e1b1d0260a8561aa16e19e62e", null ],
-    [ "convertToLaTeX", "d8/d3c/util_8h.html#a59cb13c6ee85afe54cab580fafc9516a", null ],
+    [ "convertToLaTeX", "d8/d3c/util_8h.html#a64192627e664ac6451165d77cbe28ea3", null ],
     [ "convertToPSString", "d8/d3c/util_8h.html#a2387fed870bd881eb6552bf8ea8d6677", null ],
     [ "convertToXML", "d8/d3c/util_8h.html#ada36e464c7e9d1d338d7c2be4fa4140c", null ],
     [ "copyFile", "d8/d3c/util_8h.html#ad35d4038b3882fdd09976d28f4a043bf", null ],

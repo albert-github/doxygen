@@ -1,5 +1,6 @@
 var NAVTREEINDEX9 =
 {
+"d1/d56/class_translator_ukrainian.html#a3039468143c6faba8d82259f797a117d":[8,0,614,83],
 "d1/d56/class_translator_ukrainian.html#a3305c29d17f65ccf59c75145963fa07d":[8,0,614,32],
 "d1/d56/class_translator_ukrainian.html#a34f8c086c9437d0d8e9b3f5853d7ec6d":[8,0,614,212],
 "d1/d56/class_translator_ukrainian.html#a37153ea18e7b6534a23fb4fa5fc5ed52":[8,0,614,188],
@@ -248,6 +249,5 @@ var NAVTREEINDEX9 =
 "d1/d6a/class_translator_japanese.html#a19a57945319cbc2bf83d26939c812517":[8,0,594,154],
 "d1/d6a/class_translator_japanese.html#a1ac54c351748990e35f5a3774e58216e":[8,0,594,128],
 "d1/d6a/class_translator_japanese.html#a1b92173cdae974a135306219625e2175":[8,0,594,223],
-"d1/d6a/class_translator_japanese.html#a1d20c21ed02a1ab2f4fb7b6db59a7e58":[8,0,594,11],
-"d1/d6a/class_translator_japanese.html#a1d3e75d8d22d0d3f04acd4339bba931d":[8,0,594,203]
+"d1/d6a/class_translator_japanese.html#a1d20c21ed02a1ab2f4fb7b6db59a7e58":[8,0,594,11]
 };
