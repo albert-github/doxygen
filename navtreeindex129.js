@@ -1,15 +1,5 @@
 var NAVTREEINDEX129 =
 {
-"functions_vars_u.html":[8,3,2,20],
-"functions_vars_v.html":[8,3,2,21],
-"functions_vars_w.html":[8,3,2,22],
-"functions_vars_x.html":[8,3,2,23],
-"functions_vars_y.html":[8,3,2,24],
-"functions_vars_z.html":[8,3,2,25],
-"functions_w.html":[8,3,0,23],
-"functions_x.html":[8,3,0,24],
-"functions_y.html":[8,3,0,25],
-"functions_z.html":[8,3,0,26],
 "functions_~.html":[8,3,0,27],
 "globals.html":[9,1,0],
 "globals.html":[9,1,0,0],

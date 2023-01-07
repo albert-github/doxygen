@@ -40,7 +40,6 @@ var class_translator_chinese =
     [ "trCompoundReferenceFortran", "d6/db6/class_translator_chinese.html#ab2146ba02cfc52998b733d381fcb2cf4", null ],
     [ "trCompoundReferenceSlice", "d6/db6/class_translator_chinese.html#a928ecb0c58720e0075d93af244db4ec3", null ],
     [ "trCompounds", "d6/db6/class_translator_chinese.html#a19c9dc872c0c350585e466340a3cd8f1", null ],
-    [ "trCompoundType", "d6/db6/class_translator_chinese.html#adc50ce2d7a6ae3903060fc8fa4258167", null ],
     [ "trConcept", "d6/db6/class_translator_chinese.html#aa7bcb0a2ee5caf2d002fdb3a8b29e267", null ],
     [ "trConceptDefinition", "d6/db6/class_translator_chinese.html#a59e716785e6651ce90f6c6e08b1ed5c8", null ],
     [ "trConceptDocumentation", "d6/db6/class_translator_chinese.html#aec334300ae190834060c4e43f373ebc9", null ],

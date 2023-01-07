@@ -36,7 +36,6 @@ var class_translator_brazilian =
     [ "trCompoundReferenceFortran", "d2/d4c/class_translator_brazilian.html#a8feeb91fb39c99ef3e7b0fc3f62b65c2", null ],
     [ "trCompoundReferenceSlice", "d2/d4c/class_translator_brazilian.html#ab323a75d2d418afd811f62bafb29ac81", null ],
     [ "trCompounds", "d2/d4c/class_translator_brazilian.html#a9cc45d726696646119bc3ad9639128c8", null ],
-    [ "trCompoundType", "d2/d4c/class_translator_brazilian.html#aa54c39463e99920d21ff728a502083e9", null ],
     [ "trConcept", "d2/d4c/class_translator_brazilian.html#ac1267394e0fc1f432d12f19c181fee70", null ],
     [ "trConceptDefinition", "d2/d4c/class_translator_brazilian.html#acec565c1dc191310110bad18f3fcc351", null ],
     [ "trConceptDocumentation", "d2/d4c/class_translator_brazilian.html#a686d6272df4b95d6d18d83d813b403cd", null ],

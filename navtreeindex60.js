@@ -1,9 +1,5 @@
 var NAVTREEINDEX60 =
 {
-"d8/d66/class_member_list_info_context_1_1_private.html#a4a6e0afb4cffc8e8addfc1f936e9e472":[8,0,389,0,6],
-"d8/d66/class_member_list_info_context_1_1_private.html#a4e9b508dbfdb835a94f65437b4490596":[8,0,389,0,1],
-"d8/d66/class_member_list_info_context_1_1_private.html#a595dedc0418395baab9e916668bf072c":[8,0,389,0,5],
-"d8/d66/class_member_list_info_context_1_1_private.html#a5ee859a963d1bb51e3fe42cdaeae0ee0":[8,0,389,0,4],
 "d8/d66/class_member_list_info_context_1_1_private.html#a80a951a539a5f3a5339bf76efeeb007e":[8,0,389,0,0],
 "d8/d66/class_member_list_info_context_1_1_private.html#a8706aeae239515b2101a27113b052b3d":[8,0,389,0,3],
 "d8/d66/class_member_list_info_context_1_1_private.html#a892f4f8faf3517dfe29c68b091f320da":[8,0,389,0,13],
@@ -124,8 +120,8 @@ var NAVTREEINDEX60 =
 "d8/d73/classvhdl_1_1parser_1_1_token_parser.html":[8,0,5,0,8],
 "d8/d73/classvhdl_1_1parser_1_1_token_parser.html#a686a5c4c377513d56ee5588f9727314a":[8,0,5,0,8,1],
 "d8/d73/classvhdl_1_1parser_1_1_token_parser.html#a686a5c4c377513d56ee5588f9727314a":[7,0,11,0,8,1],
-"d8/d73/classvhdl_1_1parser_1_1_token_parser.html#ac5cb74c3a7c9a7f4620c34d939da9fbc":[8,0,5,0,8,0],
 "d8/d73/classvhdl_1_1parser_1_1_token_parser.html#ac5cb74c3a7c9a7f4620c34d939da9fbc":[7,0,11,0,8,0],
+"d8/d73/classvhdl_1_1parser_1_1_token_parser.html#ac5cb74c3a7c9a7f4620c34d939da9fbc":[8,0,5,0,8,0],
 "d8/d77/class_inheritance_list_context.html":[8,0,331],
 "d8/d77/class_inheritance_list_context.html#a1c6a8e4e0e8a6ff3f51e9aa811657572":[8,0,331,3],
 "d8/d77/class_inheritance_list_context.html#a6e590e24ca8621809364a9cc95370e28":[8,0,331,1],
@@ -249,5 +245,9 @@ var NAVTREEINDEX60 =
 "d8/d83/class_definition_alias_mixin.html#a50fec39fe0c68d5e185b097d917d92e9":[8,0,99,13],
 "d8/d83/class_definition_alias_mixin.html#a5448ae20ffa69a2f9c1c70c037d5f1ee":[8,0,99,58],
 "d8/d83/class_definition_alias_mixin.html#a5dbab14251960d04c8361d8ee3de8052":[8,0,99,36],
-"d8/d83/class_definition_alias_mixin.html#a6516ef01f4000e0803ce19bc09c14758":[8,0,99,27]
+"d8/d83/class_definition_alias_mixin.html#a6516ef01f4000e0803ce19bc09c14758":[8,0,99,27],
+"d8/d83/class_definition_alias_mixin.html#a676c69ce70a1f30639296b187c26869e":[8,0,99,51],
+"d8/d83/class_definition_alias_mixin.html#a683de9cbe2e4b1ed81c4390a38d1a25d":[8,0,99,22],
+"d8/d83/class_definition_alias_mixin.html#a69970921105b4e7d6aebca0b297a9393":[8,0,99,14],
+"d8/d83/class_definition_alias_mixin.html#a6e5b5e488ff90d4c2fa39913239bda82":[8,0,99,25]
 };

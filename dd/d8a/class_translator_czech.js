@@ -36,7 +36,6 @@ var class_translator_czech =
     [ "trCompoundReferenceFortran", "dd/d8a/class_translator_czech.html#af340f7c5b07689ffa9707c1ace522996", null ],
     [ "trCompoundReferenceSlice", "dd/d8a/class_translator_czech.html#afb333e7e00357eeb596734f74d9c3d82", null ],
     [ "trCompounds", "dd/d8a/class_translator_czech.html#a638000ab0a52beab29a7346163d992c0", null ],
-    [ "trCompoundType", "dd/d8a/class_translator_czech.html#a8194d9f4b37859adda71264040d7949d", null ],
     [ "trConcept", "dd/d8a/class_translator_czech.html#aca14f92d5706e907bf54e9a9d60512fb", null ],
     [ "trConceptDefinition", "dd/d8a/class_translator_czech.html#ae1d35b4936dd0eab0b245e1cc164449f", null ],
     [ "trConceptDocumentation", "dd/d8a/class_translator_czech.html#a5df43b4ea2ce33ce24174c867b31bf33", null ],

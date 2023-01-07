@@ -1,14 +1,5 @@
 var NAVTREEINDEX117 =
 {
-"de/d82/class_translator_polish.html#a347895b3f2a13544f01310ca7bc03a00":[8,0,603,56],
-"de/d82/class_translator_polish.html#a35d361eaaeb396e2a4f622a0c4514f80":[8,0,603,212],
-"de/d82/class_translator_polish.html#a37a023216ee9cf2bfa8d59e669ea9c09":[8,0,603,167],
-"de/d82/class_translator_polish.html#a383494e2858ddb74722dd7dc5ca074a0":[8,0,603,223],
-"de/d82/class_translator_polish.html#a38f80f778fd5f49b9a46a725b8fea137":[8,0,603,55],
-"de/d82/class_translator_polish.html#a3a8f74b8c29e0b30a9141b8c429745c3":[8,0,603,143],
-"de/d82/class_translator_polish.html#a3a930e05e40b606dffdab1ab7c25d3e8":[8,0,603,48],
-"de/d82/class_translator_polish.html#a3a9406c85bbeccb8e01f6ea4faa88d6e":[8,0,603,71],
-"de/d82/class_translator_polish.html#a3aa24750d30c7cb91e001aa2a45d409a":[8,0,603,73],
 "de/d82/class_translator_polish.html#a3b236a99b6b4fb9dc86338841d13236a":[8,0,603,12],
 "de/d82/class_translator_polish.html#a3d8f160f91ae9317995c9cd3cfabb99e":[8,0,603,122],
 "de/d82/class_translator_polish.html#a3e61e27332d73b4aec9c1c924b2a9f78":[8,0,603,177],
@@ -249,5 +240,14 @@ var NAVTREEINDEX117 =
 "de/d9a/rtfdocvisitor_8cpp_source.html":[9,0,2,210],
 "de/d9c/docparser_8h.html":[9,0,2,69],
 "de/d9c/docparser_8h.html#a03066f1adfa357c8a7fa806069caa6ed":[9,0,2,69,2],
-"de/d9c/docparser_8h.html#a0fc0d3e4ca95dd0dc254d0efb1fd045a":[9,0,2,69,6]
+"de/d9c/docparser_8h.html#a0fc0d3e4ca95dd0dc254d0efb1fd045a":[9,0,2,69,6],
+"de/d9c/docparser_8h.html#a46dd0a995d5a164236b9264a86758622":[9,0,2,69,3],
+"de/d9c/docparser_8h.html#a5dfb72e79916df690eb9c6649ffb792d":[9,0,2,69,7],
+"de/d9c/docparser_8h.html#a7a169cbf0edeed85c90868675799b875":[9,0,2,69,4],
+"de/d9c/docparser_8h.html#ab2412def53ded0489897b64746be2045":[9,0,2,69,5],
+"de/d9c/docparser_8h.html#afd6219ce4bc112d331cd21cb79aefac7":[9,0,2,69,8],
+"de/d9c/docparser_8h_source.html":[9,0,2,69],
+"de/da0/class_call_context.html":[8,0,25],
+"de/da0/class_call_context.html#a07e1b8e1caa5f45e713f857e97389c3f":[8,0,25,5],
+"de/da0/class_call_context.html#a59fbf46a5795170aaea214c2a47c9553":[8,0,25,3]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX22 =
 {
-"d2/def/struct_layout_doc_entry_member_def.html#ad362098564d3956bc5f596021afd7464":[8,0,349,0],
 "d2/df7/class_r_t_f_code_generator.html":[8,0,458],
 "d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9":[8,0,458,21],
 "d2/df7/class_r_t_f_code_generator.html#a167d4b5df977d6a8f62569f2b8c343c4":[8,0,458,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX22 =
 "d2/df8/class_translator_italian.html#ae2cf28022bedf22c63e046c3b87689e5":[8,0,593,17],
 "d2/df8/class_translator_italian.html#ae5edc98e358cf8321111742bb82acb9c":[8,0,593,44],
 "d2/df8/class_translator_italian.html#ae87f35c3c0d43ba328a32fa20058b4c3":[8,0,593,74],
-"d2/df8/class_translator_italian.html#aea49d52a8a5fb2f7018bea9eb489f507":[8,0,593,168]
+"d2/df8/class_translator_italian.html#aea49d52a8a5fb2f7018bea9eb489f507":[8,0,593,168],
+"d2/df8/class_translator_italian.html#aea988204498931a93fec179446d44322":[8,0,593,187]
 };

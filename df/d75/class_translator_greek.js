@@ -39,7 +39,6 @@ var class_translator_greek =
     [ "trCompoundReferenceFortran", "df/d75/class_translator_greek.html#a111e5f4de3b88f06560451bc95749fd2", null ],
     [ "trCompoundReferenceSlice", "df/d75/class_translator_greek.html#a0331f489559170f9d5e4ed476e636c77", null ],
     [ "trCompounds", "df/d75/class_translator_greek.html#a086a20bfe04ebf6416da1c170b12defb", null ],
-    [ "trCompoundType", "df/d75/class_translator_greek.html#aac841d35de0bcd13570523debf8a423f", null ],
     [ "trConcept", "df/d75/class_translator_greek.html#af670e8d170d879eea2c19f6ea0399e8a", null ],
     [ "trConceptDefinition", "df/d75/class_translator_greek.html#afd0c7639c133b37d2df0ceb25e82ffde", null ],
     [ "trConceptDocumentation", "df/d75/class_translator_greek.html#ae85ecde0a7c17762d2b2c2ac560bda2b", null ],

@@ -1,12 +1,5 @@
 var NAVTREEINDEX87 =
 {
-"db/dcc/class_translator_korean.html#ad10a70724298842340ece3453ee2618f":[8,0,596,77],
-"db/dcc/class_translator_korean.html#ad12e30ffe7ac39eef326618ffbb63854":[8,0,596,219],
-"db/dcc/class_translator_korean.html#ad1751438305fb35e8f9f3186c325d7a9":[8,0,596,48],
-"db/dcc/class_translator_korean.html#ad43b7a8eaf87e6687c829e6bc4b5b81c":[8,0,596,218],
-"db/dcc/class_translator_korean.html#ad7520d47e583017a1bcbdce8e2864bb0":[8,0,596,41],
-"db/dcc/class_translator_korean.html#ad87384a8302368da89285245ac81e506":[8,0,596,84],
-"db/dcc/class_translator_korean.html#adb280dfe0d68931720084415a0acf4ce":[8,0,596,191],
 "db/dcc/class_translator_korean.html#adb482ae60c550ffdae208d91f2090ec4":[8,0,596,199],
 "db/dcc/class_translator_korean.html#adcc36a0092e43e6de666d8279594994a":[8,0,596,122],
 "db/dcc/class_translator_korean.html#ade2b771872af0732662d65985c5b7880":[8,0,596,49],
@@ -249,5 +242,12 @@ var NAVTREEINDEX87 =
 "dc/d03/class_translator_serbian_cyrillic.html#aac4241d628c4690403ace2a12bea128c":[8,0,608,71],
 "dc/d03/class_translator_serbian_cyrillic.html#aac60333c685f46fe9c49597e39d75c7b":[8,0,608,196],
 "dc/d03/class_translator_serbian_cyrillic.html#ab11fdbc7afd435a7d653f7c95ff7cf2d":[8,0,608,193],
-"dc/d03/class_translator_serbian_cyrillic.html#ab4fa3b34300ff2dd5b562548f2bf50ea":[8,0,608,143]
+"dc/d03/class_translator_serbian_cyrillic.html#ab4fa3b34300ff2dd5b562548f2bf50ea":[8,0,608,143],
+"dc/d03/class_translator_serbian_cyrillic.html#ab5becfb199889bb28e4d6807e0addead":[8,0,608,72],
+"dc/d03/class_translator_serbian_cyrillic.html#ab77024529d00aacffc057f64264c60ef":[8,0,608,85],
+"dc/d03/class_translator_serbian_cyrillic.html#ab7f39c42a0e790816df7723eef4fcc21":[8,0,608,100],
+"dc/d03/class_translator_serbian_cyrillic.html#ab9c7c32c3505482a0bf58bb69dede806":[8,0,608,95],
+"dc/d03/class_translator_serbian_cyrillic.html#ab9cbf7b65ec04f3ba87b8fd75644089f":[8,0,608,55],
+"dc/d03/class_translator_serbian_cyrillic.html#aba8a9441f333d4b798e1792422d22b87":[8,0,608,199],
+"dc/d03/class_translator_serbian_cyrillic.html#abc3fd58b381533dd2307f522dd992134":[8,0,608,92]
 };

@@ -1,12 +1,5 @@
 var NAVTREEINDEX91 =
 {
-"dc/d44/class_translator_spanish.html#a383353d3259701d97f5df7ebbfd6e578":[8,0,611,243],
-"dc/d44/class_translator_spanish.html#a38491bc51e912d2d12447395c37c03e1":[8,0,611,287],
-"dc/d44/class_translator_spanish.html#a38769423776bd30cc397423fea823b74":[8,0,611,125],
-"dc/d44/class_translator_spanish.html#a3909cfba65c60aea13702c9fe0c750d3":[8,0,611,288],
-"dc/d44/class_translator_spanish.html#a399fe98fd2d9fbeb14d0a9deaf8d4009":[8,0,611,132],
-"dc/d44/class_translator_spanish.html#a3b14d8595c2e4b43f68a995e55519ec5":[8,0,611,108],
-"dc/d44/class_translator_spanish.html#a3b9e880f8c83b27182db1c18b07a7cf4":[8,0,611,92],
 "dc/d44/class_translator_spanish.html#a3ba90809e4d240b2a041d12accf1d42f":[8,0,611,69],
 "dc/d44/class_translator_spanish.html#a3d059858b06ec8d1c10481bbf52057cb":[8,0,611,105],
 "dc/d44/class_translator_spanish.html#a3d6dcce7d4467ca39882451769bfcd46":[8,0,611,186],
@@ -249,5 +242,12 @@ var NAVTREEINDEX91 =
 "dc/d53/class_translator_lithuanian.html#a29935818e4b28d553241dcf1a104543a":[8,0,599,140],
 "dc/d53/class_translator_lithuanian.html#a29aec511ee3781952426d09d51cf4d93":[8,0,599,112],
 "dc/d53/class_translator_lithuanian.html#a2a5dee2b3aed0ccd03b824199d0692a2":[8,0,599,45],
-"dc/d53/class_translator_lithuanian.html#a2a6e94025b2d478ca9e09f2867a9bff2":[8,0,599,157]
+"dc/d53/class_translator_lithuanian.html#a2a6e94025b2d478ca9e09f2867a9bff2":[8,0,599,157],
+"dc/d53/class_translator_lithuanian.html#a2b4d3c436a517d9699d90210c84a988f":[8,0,599,158],
+"dc/d53/class_translator_lithuanian.html#a2ed1e6b2df5108882dcdbe0594b7f1e6":[8,0,599,172],
+"dc/d53/class_translator_lithuanian.html#a2f300c866e798e173b0a219bc2d3d261":[8,0,599,83],
+"dc/d53/class_translator_lithuanian.html#a310ef9363b1d7c486deedec275106150":[8,0,599,13],
+"dc/d53/class_translator_lithuanian.html#a32add55ffd8906b228479c3206883629":[8,0,599,29],
+"dc/d53/class_translator_lithuanian.html#a3489f3a96e610dbe5d135d4f7c3a4f38":[8,0,599,75],
+"dc/d53/class_translator_lithuanian.html#a349e50c0350633f59ef5d10da429882a":[8,0,599,3]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX41 =
 {
-"d5/d68/class_doc_ref.html#ae6fd639341aca7aa93aba2d50f0ff874":[8,0,170,8],
-"d5/d68/class_doc_ref.html#aeaa75ed0b76c034f70c898b7a3f58375":[8,0,170,15],
 "d5/d68/class_doc_ref.html#af54b6d5c031b011dd3877d68bce47455":[8,0,170,3],
 "d5/d6a/vhdlcode_8l.html":[9,0,2,295],
 "d5/d6a/vhdlcode_8l.html#a0b383c51c34a9021c909c10b848f0ca1":[9,0,2,295,26],
@@ -249,5 +247,7 @@ var NAVTREEINDEX41 =
 "d5/dc4/struct_class_context_1_1_private_1_1_cachable.html#a33e792ef180416187dcad4f20d0d3459":[8,0,33,0,0,1],
 "d5/dc4/struct_class_context_1_1_private_1_1_cachable.html#a3557b0dab425989b6f6dd8d0854b628a":[8,0,33,0,0,38],
 "d5/dc4/struct_class_context_1_1_private_1_1_cachable.html#a3c03adfc69b9c5bc8e43bed5381a6f9a":[8,0,33,0,0,37],
-"d5/dc4/struct_class_context_1_1_private_1_1_cachable.html#a3c873597ce86e0528980bd5ff19e18d4":[8,0,33,0,0,30]
+"d5/dc4/struct_class_context_1_1_private_1_1_cachable.html#a3c873597ce86e0528980bd5ff19e18d4":[8,0,33,0,0,30],
+"d5/dc4/struct_class_context_1_1_private_1_1_cachable.html#a3e9bcad8402153f1440083ab36b9221c":[8,0,33,0,0,49],
+"d5/dc4/struct_class_context_1_1_private_1_1_cachable.html#a4038b8ec93ac28b9d0c0f14bca76779b":[8,0,33,0,0,29]
 };
