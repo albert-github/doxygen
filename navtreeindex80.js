@@ -1,5 +1,14 @@
 var NAVTREEINDEX80 =
 {
+"da/dbb/class_translator_bulgarian.html#a9b874e79aa42e3bfc7d8bf76f7e77d8f":[8,0,576,3],
+"da/dbb/class_translator_bulgarian.html#a9b99b02a8403f0f26ceec51e2962a99f":[8,0,576,195],
+"da/dbb/class_translator_bulgarian.html#a9ccabc7f249835463dfb8c32c6e7880a":[8,0,576,77],
+"da/dbb/class_translator_bulgarian.html#a9da9c1c849df63c6617754da81a43cf6":[8,0,576,141],
+"da/dbb/class_translator_bulgarian.html#a9dd2862e0f1f92b8b9ed0f2812499c71":[8,0,576,253],
+"da/dbb/class_translator_bulgarian.html#a9de3b2d4dc1e3de05d983a53d168f611":[8,0,576,230],
+"da/dbb/class_translator_bulgarian.html#a9e6882e67c0af44a04aa2bbeadd11e08":[8,0,576,258],
+"da/dbb/class_translator_bulgarian.html#a9fa97f76a95ea87644f41b0e2abdbc1a":[8,0,576,226],
+"da/dbb/class_translator_bulgarian.html#a9fb21c1480a989c6f850a5aac38e52e5":[8,0,576,236],
 "da/dbb/class_translator_bulgarian.html#a9fe939bafd8a8cffb908ea90d65f286b":[8,0,576,199],
 "da/dbb/class_translator_bulgarian.html#aa053ae166d7dc94501b91b3254af9fd7":[8,0,576,125],
 "da/dbb/class_translator_bulgarian.html#aa10af4e2a6dfee3bdd5a1dbf6944c0d6":[8,0,576,242],
@@ -240,14 +249,5 @@ var NAVTREEINDEX80 =
 "da/dfc/class_doc_compound_node.html":[8,0,126],
 "da/dfc/class_doc_compound_node.html#aca6bc953ffff9a8773c2b4b0a866442c":[8,0,126,1],
 "da/dfc/class_doc_compound_node.html#ade87af16e14ffd54d1671f077430edf8":[8,0,126,2],
-"da/dfc/class_doc_compound_node.html#ae01ca6994447efab51eb155728e4f3f6":[8,0,126,0],
-"da/dfc/class_doc_compound_node.html#ae11721702e81310bfdc0c710dff02ea1":[8,0,126,3],
-"db/d0d/commentscan_8h.html":[9,0,2,19],
-"db/d0d/commentscan_8h_source.html":[9,0,2,19],
-"db/d11/image_8cpp.html":[9,0,2,142],
-"db/d11/image_8cpp.html#a0deb38d89dca0124fc08d960657d74ed":[9,0,2,142,5],
-"db/d11/image_8cpp.html#a1b6c376e48d9e19606ef8b24815321de":[9,0,2,142,7],
-"db/d11/image_8cpp.html#a1f62b9caff0302178d5a0d73ac720239":[9,0,2,142,8],
-"db/d11/image_8cpp.html#a7039c6d467143b65eee4688f35178297":[9,0,2,142,9],
-"db/d11/image_8cpp.html#ac01e29ec591af8444cb2cb5e9128d130":[9,0,2,142,4]
+"da/dfc/class_doc_compound_node.html#ae01ca6994447efab51eb155728e4f3f6":[8,0,126,0]
 };

@@ -253,6 +253,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/vhdldocgen.cpp"
   Node68 -> Node69 [color="steelblue1",style="solid"];
   Node69 [label="ctime",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
   Node68 -> Node8 [color="steelblue1",style="solid"];
+  Node67 -> Node61 [color="steelblue1",style="solid"];
   Node66 -> Node35 [color="steelblue1",style="solid"];
   Node1 -> Node70 [color="steelblue1",style="solid"];
   Node70 [label="commentscan.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d0d/commentscan_8h.html",tooltip="Interface for the comment block scanner."];

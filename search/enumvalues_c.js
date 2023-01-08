@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['namespace_0',['Namespace',['../dc/d1d/class_layout_doc_manager.html#aee13a925ea1f915c542ecd7f579ebc94ad342856294e002e934e11e0b7b1de590',1,'LayoutDocManager::Namespace()'],['../dc/d1e/context_8h.html#a74df7450438043c0c7b7a8aad44301b9ab3ba0fe968ce39dcfc6fe8cc0f1b02da',1,'Namespace():&#160;context.h'],['../d9/d49/types_8h.html#a6dc2e6c0ceaaa530cb9859af8d37449dab3ba0fe968ce39dcfc6fe8cc0f1b02da',1,'Namespace():&#160;types.h'],['../d9/d49/types_8h.html#a55cbcb91fc25e3a2e785b8a30309843cab3ba0fe968ce39dcfc6fe8cc0f1b02da',1,'Namespace():&#160;types.h']]],
-  ['namespace_1',['NAMESPACE',['../d5/dfa/class_namespace_def_impl.html#a9b67e0b4b15cbcae814e445c9c639f19a8397889054ee84a12aa0eb5f16be2364',1,'NamespaceDefImpl']]],
+  ['namespace_0',['NAMESPACE',['../d5/dfa/class_namespace_def_impl.html#a9b67e0b4b15cbcae814e445c9c639f19a8397889054ee84a12aa0eb5f16be2364',1,'NamespaceDefImpl']]],
+  ['namespace_1',['Namespace',['../dc/d1e/context_8h.html#a74df7450438043c0c7b7a8aad44301b9ab3ba0fe968ce39dcfc6fe8cc0f1b02da',1,'Namespace():&#160;context.h'],['../d9/d49/types_8h.html#a6dc2e6c0ceaaa530cb9859af8d37449dab3ba0fe968ce39dcfc6fe8cc0f1b02da',1,'Namespace():&#160;types.h'],['../d9/d49/types_8h.html#a55cbcb91fc25e3a2e785b8a30309843cab3ba0fe968ce39dcfc6fe8cc0f1b02da',1,'Namespace():&#160;types.h'],['../dc/d1d/class_layout_doc_manager.html#aee13a925ea1f915c542ecd7f579ebc94ad342856294e002e934e11e0b7b1de590',1,'LayoutDocManager::Namespace()']]],
   ['namespace_5fsec_2',['NAMESPACE_SEC',['../d4/dd7/class_entry.html#a1e615d53eb7db6d16c19fcb5788fbd9ea86229a756764e3d5f94ad24c19cd2ce1',1,'Entry']]],
   ['namespaceclasses_3',['NamespaceClasses',['../d9/dba/struct_layout_doc_entry.html#a89dcbe762ed7e7f7790d8c034cf8ea01ad9abcb1691f5dd7d5882ccc4039e2a09',1,'LayoutDocEntry']]],
   ['namespaceconcepts_4',['NamespaceConcepts',['../d9/dba/struct_layout_doc_entry.html#a89dcbe762ed7e7f7790d8c034cf8ea01a87fa4cbacaa1250a02c094a40bd0b203',1,'LayoutDocEntry']]],
@@ -27,8 +27,8 @@ var searchData=
   ['normal_24',['Normal',['../d3/d8e/class_output_generator.html#a94f2e5794dffec4be4d53d644f5e4dcba960b44c579bc2f6818d2daaf9e4c16f0',1,'OutputGenerator::Normal()'],['../d9/d49/types_8h.html#ab16236bdd10ddf4d73a9847350f0017ea960b44c579bc2f6818d2daaf9e4c16f0',1,'Normal():&#160;types.h']]],
   ['not_25',['Not',['../d0/d99/class_operator.html#adf562143104191264da67b4e6e1a1644a2389ec52ade691405dbfb0c507b070e7',1,'Operator']]],
   ['not_26',['NOT',['../d7/d21/class_cond_parser.html#a5aa74df7a6a3bdd9a8f5eecc10efa66ca3dd545603f097982a39111714ebd3cd3',1,'CondParser']]],
-  ['note_27',['Note',['../de/d65/class_doc_simple_sect.html#a3b9f9dd4952f3d819b347f74a6769a9bada884137c8ff6a93503a9c561d5c35d0',1,'DocSimpleSect']]],
-  ['note_28',['NOTE',['../d4/db3/class_html_help.html#a7fa2b031d786cb7a678e88809c2566caa8b971585ba93d8009a46a7e0303fefab',1,'HtmlHelp']]],
+  ['note_27',['NOTE',['../d4/db3/class_html_help.html#a7fa2b031d786cb7a678e88809c2566caa8b971585ba93d8009a46a7e0303fefab',1,'HtmlHelp']]],
+  ['note_28',['Note',['../de/d65/class_doc_simple_sect.html#a3b9f9dd4952f3d819b347f74a6769a9bada884137c8ff6a93503a9c561d5c35d0',1,'DocSimpleSect']]],
   ['note_5fnew_29',['NOTE_NEW',['../d4/db3/class_html_help.html#a7fa2b031d786cb7a678e88809c2566caa36c71b6fceea68ae4d0508af9c5b8fa9',1,'HtmlHelp']]],
   ['notequal_30',['NotEqual',['../d0/d99/class_operator.html#adf562143104191264da67b4e6e1a1644a83c166574a043b8bb32465002db3ad57',1,'Operator']]],
   ['notexplicit_31',['notExplicit',['../de/d04/markdown_8cpp.html#a32bd5ad1ca53505df49807d933ab3611aed049ce087485c91fc2610599aebd142',1,'markdown.cpp']]],

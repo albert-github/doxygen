@@ -1,5 +1,17 @@
 var NAVTREEINDEX117 =
 {
+"de/d82/class_translator_polish.html#a5ec821f6b6e87f5a446ef18e492aef23":[8,0,603,119],
+"de/d82/class_translator_polish.html#a609501559ed02c21bc28c58db50157b7":[8,0,603,213],
+"de/d82/class_translator_polish.html#a60d9c952465649cb2cd6113a942ac42e":[8,0,603,177],
+"de/d82/class_translator_polish.html#a61ee64087632405298cd2fd92615baa7":[8,0,603,82],
+"de/d82/class_translator_polish.html#a62f2f17d8585f65081cc9fd3f5091f4f":[8,0,603,90],
+"de/d82/class_translator_polish.html#a63e9aeebb9177fd3b4c2abab7e4696fc":[8,0,603,172],
+"de/d82/class_translator_polish.html#a64493b275b4674d073ab5b617c83d9df":[8,0,603,223],
+"de/d82/class_translator_polish.html#a64ed3d915abcab0248d06de14478c910":[8,0,603,189],
+"de/d82/class_translator_polish.html#a662e8766ea79fbb038bea786067d121c":[8,0,603,214],
+"de/d82/class_translator_polish.html#a675ae7842337be7efe61808e8a079ce8":[8,0,603,108],
+"de/d82/class_translator_polish.html#a68865adf71b369f41766250b65e9fbf3":[8,0,603,50],
+"de/d82/class_translator_polish.html#a68d0a4658390b9ae8e3f393dfd8a2251":[8,0,603,136],
 "de/d82/class_translator_polish.html#a697edf12618fcb9a30351ec15ec46aa7":[8,0,603,40],
 "de/d82/class_translator_polish.html#a6b8bc70d985ec1f4bdf38a23f95707e0":[8,0,603,127],
 "de/d82/class_translator_polish.html#a6c1c691bb7e8adf0623f93799e6e78b2":[8,0,603,80],
@@ -237,17 +249,5 @@ var NAVTREEINDEX117 =
 "de/da5/class_man_generator.html#a07935bb67407efb9031601f95b058f06":[8,0,366,90],
 "de/da5/class_man_generator.html#a08de61d7842d7920e0cffe03213f31fb":[8,0,366,75],
 "de/da5/class_man_generator.html#a0b197f55abd7fe194183ecee7aebe800":[8,0,366,115],
-"de/da5/class_man_generator.html#a0bc2a3123fa5aa3c5bfbdab3f4f2739c":[8,0,366,30],
-"de/da5/class_man_generator.html#a0d3eea58e70d7213f199e3ed11d490dc":[8,0,366,24],
-"de/da5/class_man_generator.html#a0de8bc4d17093fbfb77c00bef2a66181":[8,0,366,118],
-"de/da5/class_man_generator.html#a0e3edd731a18f4410530e8e32bbabb4f":[8,0,366,121],
-"de/da5/class_man_generator.html#a0ee830ccc307c8123fffe69bd869ee41":[8,0,366,66],
-"de/da5/class_man_generator.html#a1166eca73e3e9513b43ad0d22d8576c1":[8,0,366,87],
-"de/da5/class_man_generator.html#a1236b151443caa09305d328e31168cb7":[8,0,366,124],
-"de/da5/class_man_generator.html#a1509325b44397877e476ae3b04180bd7":[8,0,366,187],
-"de/da5/class_man_generator.html#a152c7b8bfb3eb827cb05fa8a72e03b2f":[8,0,366,178],
-"de/da5/class_man_generator.html#a15352d2d3122b7b9d24e9ea564026d9f":[8,0,366,156],
-"de/da5/class_man_generator.html#a15c31d2c71f0155387f7a94586e867ee":[8,0,366,33],
-"de/da5/class_man_generator.html#a16f70de61c6f196deefbb945eb70881b":[8,0,366,102],
-"de/da5/class_man_generator.html#a191fea63ea914de2be19c97b7a1d1fd6":[8,0,366,3]
+"de/da5/class_man_generator.html#a0bc2a3123fa5aa3c5bfbdab3f4f2739c":[8,0,366,30]
 };

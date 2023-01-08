@@ -256,6 +256,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/pyscanner.l"
   Node69 -> Node70 [color="steelblue1",style="solid"];
   Node70 [label="ctime",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
   Node69 -> Node14 [color="steelblue1",style="solid"];
+  Node68 -> Node61 [color="steelblue1",style="solid"];
   Node67 -> Node41 [color="steelblue1",style="solid"];
   Node1 -> Node71 [color="steelblue1",style="solid"];
   Node71 [label="commentscan.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d0d/commentscan_8h.html",tooltip="Interface for the comment block scanner."];

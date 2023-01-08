@@ -172,6 +172,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/latexdocvisitor.cpp"
   Node50 -> Node51 [color="steelblue1",style="solid"];
   Node51 [label="ctime",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
   Node50 -> Node5 [color="steelblue1",style="solid"];
+  Node41 -> Node35 [color="steelblue1",style="solid"];
   Node40 -> Node30 [color="steelblue1",style="solid"];
   Node1 -> Node52 [color="steelblue1",style="solid"];
   Node52 [label="doxygen.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/da1/doxygen_8h.html",tooltip=" "];

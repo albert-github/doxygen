@@ -1,5 +1,14 @@
 var NAVTREEINDEX70 =
 {
+"d9/dc1/class_translator_catalan.html#a304adf768f9a1bbac9dcea677aa0a210":[8,0,577,150],
+"d9/dc1/class_translator_catalan.html#a328ad6fb8c14c14f8501ce06b092d22d":[8,0,577,204],
+"d9/dc1/class_translator_catalan.html#a330e6e65105023d0cd584a3d676e5ff7":[8,0,577,133],
+"d9/dc1/class_translator_catalan.html#a35ee90edf120bd24a070d977fd796b8b":[8,0,577,51],
+"d9/dc1/class_translator_catalan.html#a360b272f195bf77a96b6379a0415d1bc":[8,0,577,220],
+"d9/dc1/class_translator_catalan.html#a39b60b3ec933098848fede7de9fbaf57":[8,0,577,58],
+"d9/dc1/class_translator_catalan.html#a3a1c4e918d811785acc9d9e9e8495430":[8,0,577,62],
+"d9/dc1/class_translator_catalan.html#a3a55b5efcc87b72b7d9f89a845059847":[8,0,577,1],
+"d9/dc1/class_translator_catalan.html#a3ae6ab40067e5d94df37e05aee24b002":[8,0,577,194],
 "d9/dc1/class_translator_catalan.html#a3c4cb64a4d58f972d71e0ead00c13ffd":[8,0,577,197],
 "d9/dc1/class_translator_catalan.html#a3e4fb08378d5131fc5190e99f4586ca4":[8,0,577,95],
 "d9/dc1/class_translator_catalan.html#a3fc7351ad41a6f8c906564c8e3a61986":[8,0,577,162],
@@ -240,14 +249,5 @@ var NAVTREEINDEX70 =
 "d9/dcc/structpyscanner_y_y__state.html#ad52aa3b5c97bed4134039682eaeade8e":[8,0,445,27],
 "d9/dcc/structpyscanner_y_y__state.html#adcc911d9ffe0822206f5ea8361cce165":[8,0,445,1],
 "d9/dcc/structpyscanner_y_y__state.html#adf6aa55b0f9f28fb4d0b681675b2f2e7":[8,0,445,29],
-"d9/dcc/structpyscanner_y_y__state.html#ae34bc1b7248c12d58308e440f6ee902a":[8,0,445,14],
-"d9/dcc/structpyscanner_y_y__state.html#ae6484243506b0cd75f042c13d6ece9e9":[8,0,445,30],
-"d9/dcc/structpyscanner_y_y__state.html#ae9ef4f0b2d2c95b1fdf71aa374234a66":[8,0,445,41],
-"d9/dcc/structpyscanner_y_y__state.html#aedd11124bd0148db972800a8844154ff":[8,0,445,9],
-"d9/dcc/structpyscanner_y_y__state.html#aee08c80950105ce448f49f9c6d279468":[8,0,445,12],
-"d9/dcc/structpyscanner_y_y__state.html#af4e8f7056a36252f2f82ea9c23b73993":[8,0,445,7],
-"d9/dcc/structpyscanner_y_y__state.html#af5480b94093d688826679b0d850e0bd5":[8,0,445,40],
-"d9/dcc/structpyscanner_y_y__state.html#af7a4d5f5c5f8c9293d2a7e109bbf4994":[8,0,445,34],
-"d9/dcc/structpyscanner_y_y__state.html#af8167c3e120ae742f6f3f1ffc4694921":[8,0,445,38],
-"d9/dd0/lexscanner_8h.html":[9,0,2,157]
+"d9/dcc/structpyscanner_y_y__state.html#ae34bc1b7248c12d58308e440f6ee902a":[8,0,445,14]
 };

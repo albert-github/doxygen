@@ -1,5 +1,17 @@
 var NAVTREEINDEX121 =
 {
+"df/d0f/translator__ro_8h_source.html":[9,0,2,277],
+"df/d10/class_nav_index_entry_list.html":[8,0,411],
+"df/d11/class_member_group_list.html":[8,0,381],
+"df/d16/struct_search_index_methods_1_1write.html":[7,0,10,2],
+"df/d16/struct_search_index_methods_1_1write.html":[8,0,4,2],
+"df/d16/struct_search_index_methods_1_1write.html#a4dbf5282a839e3117cea02b27176c08d":[7,0,10,2,0],
+"df/d16/struct_search_index_methods_1_1write.html#a4dbf5282a839e3117cea02b27176c08d":[8,0,4,2,0],
+"df/d1b/struct_symbol_modifiers.html":[8,0,490],
+"df/d1b/struct_symbol_modifiers.html#a10971e3ef27a2e20c71a769c6d237807":[8,0,490,24],
+"df/d1b/struct_symbol_modifiers.html#a1500769a8e0054bb142980765556c923":[8,0,490,13],
+"df/d1b/struct_symbol_modifiers.html#a18f0ffb7109d897a5ba0eb58ac3ace45":[8,0,490,26],
+"df/d1b/struct_symbol_modifiers.html#a25d1321a621eb7496f4e2e3ac99b0842":[8,0,490,23],
 "df/d1b/struct_symbol_modifiers.html#a2aad749396a02ead46410d78da584e9a":[8,0,490,8],
 "df/d1b/struct_symbol_modifiers.html#a3187a1ff0724dbcff6cf591cd815bd78":[8,0,490,11],
 "df/d1b/struct_symbol_modifiers.html#a3237efa8834ef0f47b9e14284e1db710":[8,0,490,16],
@@ -237,17 +249,5 @@ var NAVTREEINDEX121 =
 "df/d20/class_translator_vietnamese.html#acbccbeae7500f1153d832267107be077":[8,0,615,136],
 "df/d20/class_translator_vietnamese.html#ace7bbd9c6165a19baf08816915bd857b":[8,0,615,42],
 "df/d20/class_translator_vietnamese.html#acebe0baec5bca7de66b2374e7f59fad1":[8,0,615,95],
-"df/d20/class_translator_vietnamese.html#ad09691682e602a30fcf0f7fa140bb20e":[8,0,615,181],
-"df/d20/class_translator_vietnamese.html#ad0aa62f0b15578fa9e494ff273166438":[8,0,615,60],
-"df/d20/class_translator_vietnamese.html#ad11c072a404e5ecfebd28e02dc662621":[8,0,615,103],
-"df/d20/class_translator_vietnamese.html#ad1d04af6121febe4a12a59325064a944":[8,0,615,9],
-"df/d20/class_translator_vietnamese.html#ad1eaf8ebf07c624c8c5153d00931d424":[8,0,615,205],
-"df/d20/class_translator_vietnamese.html#ad57b00f8ca96f4f119dd7f28d709c683":[8,0,615,144],
-"df/d20/class_translator_vietnamese.html#ad5aef1dd351f93963dde41c3952e2155":[8,0,615,98],
-"df/d20/class_translator_vietnamese.html#ad7277ab44b1d901d98584544ee49f96f":[8,0,615,189],
-"df/d20/class_translator_vietnamese.html#ad76c05c852f9f1b2d67834da6733b8f7":[8,0,615,159],
-"df/d20/class_translator_vietnamese.html#ad898cb90aa2c9863c450fb86b20cfb4d":[8,0,615,0],
-"df/d20/class_translator_vietnamese.html#ada24396f485e9dd05e76adc721de5ba8":[8,0,615,86],
-"df/d20/class_translator_vietnamese.html#ade2f9cb0d07b7dbe26ebb76a8562562b":[8,0,615,211],
-"df/d20/class_translator_vietnamese.html#ade9b1d4088824bdd706311d861a66f6f":[8,0,615,92]
+"df/d20/class_translator_vietnamese.html#ad09691682e602a30fcf0f7fa140bb20e":[8,0,615,181]
 };
