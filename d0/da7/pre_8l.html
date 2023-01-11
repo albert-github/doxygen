@@ -136,8 +136,7 @@ $(document).ready(function(){initNavTree('d0/da7/pre_8l.html','../../'); initRes
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/d43/pre_8l__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/d43/pre_8l__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div>
 <p><a href="../../d0/da7/pre_8l_source.html">Go to the source code of this file.</a></p>
@@ -1519,7 +1518,7 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno"> 2028</span>  }</div>
 <div class="line"><span class="lineno"> 2029</span>  <span class="keywordflow">for</span> (<span class="keyword">auto</span> path : state-&gt;pathList)</div>
 <div class="line"><span class="lineno"> 2030</span>  {</div>
-<div class="line"><span class="lineno"> 2031</span>    std::string absName = (path+<span class="stringliteral">&quot;/&quot;</span>+fileName).<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>();</div>
+<div class="line"><span class="lineno"> 2031</span>    std::string absName = (path+<span class="stringliteral">&quot;/&quot;</span>+fileName).str();</div>
 <div class="line"><span class="lineno"> 2032</span>    <span class="comment">//printf(&quot;  Looking for %s in %s\n&quot;,fileName,path.c_str());</span></div>
 <div class="line"><span class="lineno"> 2033</span>    <a class="code hl_struct" href="../../d9/d9e/struct_file_state.html">FileState</a> *fs = <a class="code hl_function" href="../../d0/da7/pre_8l.html#a9f92e99948eee5876f56c21c144201cb">checkAndOpenFile</a>(yyscanner,absName.c_str(),alreadyProcessed);</div>
 <div class="line"><span class="lineno"> 2034</span>    <span class="keywordflow">if</span> (fs)</div>

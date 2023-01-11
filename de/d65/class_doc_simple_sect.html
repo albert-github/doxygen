@@ -109,16 +109,14 @@ $(document).ready(function(){initNavTree('de/d65/class_doc_simple_sect.html','..
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d34/class_doc_simple_sect__inherit__graph.svg" width="162" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d34/class_doc_simple_sect__inherit__graph.svg" width="162" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for DocSimpleSect:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/dc4/class_doc_simple_sect__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/dc4/class_doc_simple_sect__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
@@ -485,25 +483,23 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 2799</span>  {</div>
 <div class="line"><span class="lineno"> 2800</span>    par-&gt;<a class="code hl_function" href="../../d3/d01/class_doc_para.html#a849868e81af1e2ae0da511fa3e5a91b8">markFirst</a>();</div>
 <div class="line"><span class="lineno"> 2801</span>  }</div>
-<div class="line"><span class="lineno"> 2802</span>  par-&gt;<a class="code hl_function" href="../../d3/d01/class_doc_para.html#a569bc5841973bac45491c977814f62e0">markLast</a>();</div>
+<div class="line"><span class="lineno"> 2802</span>  par-&gt;markLast();</div>
 <div class="line"><span class="lineno"> 2803</span> </div>
 <div class="line"><span class="lineno"> 2804</span>  <span class="comment">// parse the contents of the paragraph</span></div>
-<div class="line"><span class="lineno"> 2805</span>  <span class="keywordtype">int</span> retval = par-&gt;<a class="code hl_function" href="../../d3/d01/class_doc_para.html#ad287572fb2dcdc4d2d8edde57aed54c7">parse</a>(vDocPara);</div>
+<div class="line"><span class="lineno"> 2805</span>  <span class="keywordtype">int</span> retval = par-&gt;parse(vDocPara);</div>
 <div class="line"><span class="lineno"> 2806</span> </div>
 <div class="line"><span class="lineno"> 2807</span>  <a class="code hl_define" href="../../d0/d2b/docnode_8cpp.html#a32adf79142f0a426b5e782fb7cd4cad3">DBG</a>((<span class="stringliteral">&quot;DocSimpleSect::parse() end retval=%d\n&quot;</span>,retval));</div>
 <div class="line"><span class="lineno"> 2808</span>  <span class="keywordflow">return</span> retval; <span class="comment">// 0==EOF, TK_NEWPARA, TK_LISTITEM, TK_ENDLIST, RetVal_SimpleSec</span></div>
 <div class="line"><span class="lineno"> 2809</span>}</div>
 <div class="ttc" id="aclass_auto_node_stack_html"><div class="ttname"><a href="../../d2/d29/class_auto_node_stack.html">AutoNodeStack</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc9/docparser__p_8h_source.html#l00141">docparser_p.h:142</a></div></div>
-<div class="ttc" id="aclass_doc_para_html_a569bc5841973bac45491c977814f62e0"><div class="ttname"><a href="../../d3/d01/class_doc_para.html#a569bc5841973bac45491c977814f62e0">DocPara::markLast</a></div><div class="ttdeci">void markLast(bool v=TRUE)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l01041">docnode.h:1041</a></div></div>
 <div class="ttc" id="aclass_doc_para_html_a849868e81af1e2ae0da511fa3e5a91b8"><div class="ttname"><a href="../../d3/d01/class_doc_para.html#a849868e81af1e2ae0da511fa3e5a91b8">DocPara::markFirst</a></div><div class="ttdeci">void markFirst(bool v=TRUE)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l01040">docnode.h:1040</a></div></div>
-<div class="ttc" id="aclass_doc_para_html_ad287572fb2dcdc4d2d8edde57aed54c7"><div class="ttname"><a href="../../d3/d01/class_doc_para.html#ad287572fb2dcdc4d2d8edde57aed54c7">DocPara::parse</a></div><div class="ttdeci">int parse(DocNodeVariant *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2b/docnode_8cpp_source.html#l05070">docnode.cpp:5070</a></div></div>
 <div class="ttc" id="aclass_doc_simple_sect_html_abbbcd2151b9e3b29fea64118e99b0b61"><div class="ttname"><a href="../../de/d65/class_doc_simple_sect.html#abbbcd2151b9e3b29fea64118e99b0b61">DocSimpleSect::title</a></div><div class="ttdeci">const DocNodeVariant * title() const</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l00988">docnode.h:988</a></div></div>
 <div class="ttc" id="aclass_doc_simple_sect_sep_html"><div class="ttname"><a href="../../db/dd0/class_doc_simple_sect_sep.html">DocSimpleSectSep</a></div><div class="ttdoc">Node representing a separator between two simple sections of the same type.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l00998">docnode.h:999</a></div></div>
 <div class="ttc" id="aclass_doc_title_html"><div class="ttname"><a href="../../d3/d1c/class_doc_title.html">DocTitle</a></div><div class="ttdoc">Node representing a simple section title.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l00573">docnode.h:574</a></div></div>
 <div class="ttc" id="aclass_grow_vector_html_a4e81684f665c9a1a38b5e16cfbe31d41"><div class="ttname"><a href="../../d0/d08/class_grow_vector.html#a4e81684f665c9a1a38b5e16cfbe31d41">GrowVector::empty</a></div><div class="ttdeci">bool empty() const</div><div class="ttdoc">checks whether the container is empty</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d50/growvector_8h_source.html#l00139">growvector.h:139</a></div></div>
 <div class="ttc" id="adocnode_8cpp_html_a32adf79142f0a426b5e782fb7cd4cad3"><div class="ttname"><a href="../../d0/d2b/docnode_8cpp.html#a32adf79142f0a426b5e782fb7cd4cad3">DBG</a></div><div class="ttdeci">#define DBG(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2b/docnode_8cpp_source.html#l00038">docnode.cpp:38</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/d2b/docnode_8h_source.html#l01330">DocNodeList::append()</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00137">DocCompoundNode::children()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00038">DBG</a>, <a class="el" href="../../d7/d50/growvector_8h_source.html#l00139">GrowVector&lt; T &gt;::empty()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l01346">DocNodeList::get_last()</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00992">m_title</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l01040">DocPara::markFirst()</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l01041">DocPara::markLast()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l05070">DocPara::parse()</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00093">DocNode::parser()</a>, and <a class="el" href="../../de/d2b/docnode_8h_source.html#l00988">title()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d2b/docnode_8h_source.html#l01330">DocNodeList::append()</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00137">DocCompoundNode::children()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00038">DBG</a>, <a class="el" href="../../d7/d50/growvector_8h_source.html#l00139">GrowVector&lt; T &gt;::empty()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l01346">DocNodeList::get_last()</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00992">m_title</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l01040">DocPara::markFirst()</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00093">DocNode::parser()</a>, and <a class="el" href="../../de/d2b/docnode_8h_source.html#l00988">title()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03111">DocPara::handleSimpleSection()</a>.</p>
 
@@ -552,8 +548,6 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../de/d2b/docnode_8h_source.html#l00137">DocCompoundNode::children()</a>, <a class="el" href="../../df/dc9/docparser__p_8h_source.html#l00134">DocParser::context</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00038">DBG</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01594">DocParser::internalValidatingParseDoc()</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00992">m_title</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00093">DocNode::parser()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00086">DocParser::popContext()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00072">DocParser::pushContext()</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00043">RetVal_OK</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00080">TokenInfo::text</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00988">title()</a>, and <a class="el" href="../../df/dc9/docparser__p_8h_source.html#l00086">DocParserContext::token</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l05070">DocPara::parse()</a>.</p>
-
 </div>
 </div>
 <a id="a7cc0c9317609c68cd5860bdb1fa7732b" name="a7cc0c9317609c68cd5860bdb1fa7732b"></a>
@@ -592,10 +586,10 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 2846</span>    {</div>
 <div class="line"><span class="lineno"> 2847</span>      par-&gt;<a class="code hl_function" href="../../d3/d01/class_doc_para.html#a849868e81af1e2ae0da511fa3e5a91b8">markFirst</a>();</div>
 <div class="line"><span class="lineno"> 2848</span>    }</div>
-<div class="line"><span class="lineno"> 2849</span>    par-&gt;<a class="code hl_function" href="../../d3/d01/class_doc_para.html#a569bc5841973bac45491c977814f62e0">markLast</a>();</div>
+<div class="line"><span class="lineno"> 2849</span>    par-&gt;markLast();</div>
 <div class="line"><span class="lineno"> 2850</span> </div>
 <div class="line"><span class="lineno"> 2851</span>    <span class="comment">// parse the contents of the paragraph</span></div>
-<div class="line"><span class="lineno"> 2852</span>    retval = par-&gt;<a class="code hl_function" href="../../d3/d01/class_doc_para.html#ad287572fb2dcdc4d2d8edde57aed54c7">parse</a>(vDocPara);</div>
+<div class="line"><span class="lineno"> 2852</span>    retval = par-&gt;parse(vDocPara);</div>
 <div class="line"><span class="lineno"> 2853</span>    <span class="keywordflow">if</span> (retval == 0) <span class="keywordflow">break</span>;</div>
 <div class="line"><span class="lineno"> 2854</span>    <span class="keywordflow">if</span> (retval == <a class="code hl_enumvalue" href="../../d0/d0c/doctokenizer_8h.html#a7722396ed46bc111e7b794948986f8afafc139569c8206cd797096ea9c8265c37">RetVal_CloseXml</a>)</div>
 <div class="line"><span class="lineno"> 2855</span>    {</div>
@@ -609,7 +603,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 2863</span>}</div>
 <div class="ttc" id="adoctokenizer_8h_html_a7722396ed46bc111e7b794948986f8afafc139569c8206cd797096ea9c8265c37"><div class="ttname"><a href="../../d0/d0c/doctokenizer_8h.html#a7722396ed46bc111e7b794948986f8afafc139569c8206cd797096ea9c8265c37">RetVal_CloseXml</a></div><div class="ttdeci">@ RetVal_CloseXml</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d0c/doctokenizer_8h_source.html#l00062">doctokenizer.h:62</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/d2b/docnode_8h_source.html#l01330">DocNodeList::append()</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00137">DocCompoundNode::children()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00038">DBG</a>, <a class="el" href="../../d7/d50/growvector_8h_source.html#l00139">GrowVector&lt; T &gt;::empty()</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l01346">DocNodeList::get_last()</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l01040">DocPara::markFirst()</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l01041">DocPara::markLast()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l05070">DocPara::parse()</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00093">DocNode::parser()</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00062">RetVal_CloseXml</a>, and <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00043">RetVal_OK</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d2b/docnode_8h_source.html#l01330">DocNodeList::append()</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00137">DocCompoundNode::children()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00038">DBG</a>, <a class="el" href="../../d7/d50/growvector_8h_source.html#l00139">GrowVector&lt; T &gt;::empty()</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l01346">DocNodeList::get_last()</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l01040">DocPara::markFirst()</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00093">DocNode::parser()</a>, <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00062">RetVal_CloseXml</a>, and <a class="el" href="../../d0/d0c/doctokenizer_8h_source.html#l00043">RetVal_OK</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03111">DocPara::handleSimpleSection()</a>.</p>
 
