@@ -4693,7 +4693,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1046</span>                                          yyextra-&gt;theCallContext.popScope(yyextra-&gt;name, yyextra-&gt;type);</div>
 <div class="line"><span class="lineno"> 1047</span>                                          yyextra-&gt;bracketCount--;</div>
 <div class="line"><span class="lineno"> 1048</span>                                          yyextra-&gt;parmType = yyextra-&gt;name;</div>
-<div class="line"><span class="lineno"> 1049</span>                                          BEGIN(FuncCall);</div>
+<div class="line"><span class="lineno"> 1049</span>                                          <span class="comment">//BEGIN(FuncCall);</span></div>
 <div class="line"><span class="lineno"> 1050</span>                                        }</div>
 <div class="line"><span class="lineno"> 1051</span>&lt;Body&gt;&quot;\\&zwj;)&quot;|&quot;\\&zwj;(&quot;                       {</div>
 <div class="line"><span class="lineno"> 1052</span>                                          yyextra-&gt;code-&gt;codify(yytext);</div>
@@ -4705,7 +4705,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1058</span>                                          {</div>
 <div class="line"><span class="lineno"> 1059</span>                                            yyextra-&gt;theCallContext.popScope(yyextra-&gt;name, yyextra-&gt;type);</div>
 <div class="line"><span class="lineno"> 1060</span>                                            yyextra-&gt;bracketCount--;</div>
-<div class="line"><span class="lineno"> 1061</span>                                            BEGIN(FuncCall);</div>
+<div class="line"><span class="lineno"> 1061</span>                                            <span class="comment">//BEGIN(FuncCall);</span></div>
 <div class="line"><span class="lineno"> 1062</span>                                          }</div>
 <div class="line"><span class="lineno"> 1063</span>                                        }</div>
 <div class="line"><span class="lineno"> 1064</span>&lt;Body,TemplDecl,ObjCMethod&gt;{TYPEKW}/{B}* {</div>

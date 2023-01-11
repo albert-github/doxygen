@@ -1519,7 +1519,7 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno"> 2028</span>  }</div>
 <div class="line"><span class="lineno"> 2029</span>  <span class="keywordflow">for</span> (<span class="keyword">auto</span> path : state-&gt;pathList)</div>
 <div class="line"><span class="lineno"> 2030</span>  {</div>
-<div class="line"><span class="lineno"> 2031</span>    std::string absName = (path+<span class="stringliteral">&quot;/&quot;</span>+fileName).str();</div>
+<div class="line"><span class="lineno"> 2031</span>    std::string absName = (path+<span class="stringliteral">&quot;/&quot;</span>+fileName).<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>();</div>
 <div class="line"><span class="lineno"> 2032</span>    <span class="comment">//printf(&quot;  Looking for %s in %s\n&quot;,fileName,path.c_str());</span></div>
 <div class="line"><span class="lineno"> 2033</span>    <a class="code hl_struct" href="../../d9/d9e/struct_file_state.html">FileState</a> *fs = <a class="code hl_function" href="../../d0/da7/pre_8l.html#a9f92e99948eee5876f56c21c144201cb">checkAndOpenFile</a>(yyscanner,absName.c_str(),alreadyProcessed);</div>
 <div class="line"><span class="lineno"> 2034</span>    <span class="keywordflow">if</span> (fs)</div>
