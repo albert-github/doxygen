@@ -243,6 +243,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/pre.l"
   Node1 -> Node66 [color="steelblue1",style="solid"];
   Node66 [label="debug.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d16/debug_8h.html",tooltip=" "];
   Node66 -> Node22 [color="steelblue1",style="solid"];
+  Node66 -> Node16 [color="steelblue1",style="solid"];
   Node1 -> Node67 [color="steelblue1",style="solid"];
   Node67 [label="bufstr.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/de5/bufstr_8h.html",tooltip=" "];
   Node67 -> Node21 [color="steelblue1",style="solid"];

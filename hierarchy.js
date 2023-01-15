@@ -393,6 +393,7 @@ var hierarchy =
     [ "CallContext::Ctx", "d0/d35/struct_call_context_1_1_ctx.html", null ],
     [ "DateTimeField", "df/dae/struct_date_time_field.html", null ],
     [ "Debug", "da/d7d/class_debug.html", null ],
+    [ "DebugLex", "d8/d00/class_debug_lex.html", null ],
     [ "IndexIntf::decContentsDepth< T >", "d6/d1d/struct_index_intf_1_1dec_contents_depth.html", null ],
     [ "declinfoYY_state", "da/d1f/structdeclinfo_y_y__state.html", null ],
     [ "defargsYY_state", "de/dcd/structdefargs_y_y__state.html", null ],

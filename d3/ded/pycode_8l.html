@@ -1508,15 +1508,15 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ded/pycode_8l_source.html#l01657">1657</a> of file <a class="el" href="../../d3/ded/pycode_8l_source.html">pycode.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1658</span>{</div>
-<div class="line"><span class="lineno"> 1659</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno"> 1660</span>  <span class="keywordflow">if</span> ( yyg-&gt;yy_start_stack_ptr &lt;= 0 )</div>
-<div class="line"><span class="lineno"> 1661</span>    <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#ab9900b0a7af62acd881e57901b0418a1">warn</a>(yyextra-&gt;fileName,yyextra-&gt;yyLineNr,<span class="stringliteral">&quot;Unexpected statement &#39;%s&#39;&quot;</span>,yytext );</div>
-<div class="line"><span class="lineno"> 1662</span>  <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno"> 1663</span>    yy_pop_state(yyscanner);</div>
+<p class="definition">Definition at line <a class="el" href="../../d3/ded/pycode_8l_source.html#l01656">1656</a> of file <a class="el" href="../../d3/ded/pycode_8l_source.html">pycode.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1657</span>{</div>
+<div class="line"><span class="lineno"> 1658</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno"> 1659</span>  <span class="keywordflow">if</span> ( yyg-&gt;yy_start_stack_ptr &lt;= 0 )</div>
+<div class="line"><span class="lineno"> 1660</span>    <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#ab9900b0a7af62acd881e57901b0418a1">warn</a>(yyextra-&gt;fileName,yyextra-&gt;yyLineNr,<span class="stringliteral">&quot;Unexpected statement &#39;%s&#39;&quot;</span>,yytext );</div>
+<div class="line"><span class="lineno"> 1661</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1662</span>    yy_pop_state(yyscanner);</div>
 <div class="ttc" id="amessage_8cpp_html_ab9900b0a7af62acd881e57901b0418a1"><div class="ttname"><a href="../../d8/d6a/message_8cpp.html#ab9900b0a7af62acd881e57901b0418a1">warn</a></div><div class="ttdeci">void warn(const QCString &amp;file, int line, const char *fmt,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6a/message_8cpp_source.html#l00179">message.cpp:179</a></div></div>
-<div class="line"><span class="lineno"> 1664</span>}</div>
+<div class="line"><span class="lineno"> 1663</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00179">warn()</a>.</p>
 
@@ -2382,7 +2382,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  763</span>                                      unput(*yytext);</div>
 <div class="line"><span class="lineno">  764</span>                                      <a class="code hl_function" href="../../d3/ded/pycode_8l.html#a84f9bfb00f12e8fc287ed97f3e1d693c">pop_state</a>(yyscanner);</div>
 <div class="line"><span class="lineno">  765</span>                                    }</div>
-<div class="ttc" id="apycode_8l_html_a84f9bfb00f12e8fc287ed97f3e1d693c"><div class="ttname"><a href="../../d3/ded/pycode_8l.html#a84f9bfb00f12e8fc287ed97f3e1d693c">pop_state</a></div><div class="ttdeci">static void pop_state(yyscan_t yyscanner)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/ded/pycode_8l_source.html#l01657">pycode.l:1657</a></div></div>
+<div class="ttc" id="apycode_8l_html_a84f9bfb00f12e8fc287ed97f3e1d693c"><div class="ttname"><a href="../../d3/ded/pycode_8l.html#a84f9bfb00f12e8fc287ed97f3e1d693c">pop_state</a></div><div class="ttdeci">static void pop_state(yyscan_t yyscanner)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/ded/pycode_8l_source.html#l01656">pycode.l:1656</a></div></div>
 <div class="line"><span class="lineno">  766</span>&lt;*&gt;{POUNDCOMMENT}.*                 {</div>
 <div class="line"><span class="lineno">  767</span>                                      <span class="keywordflow">if</span> (YY_START==SingleQuoteString ||</div>
 <div class="line"><span class="lineno">  768</span>                                         YY_START==DoubleQuoteString ||</div>

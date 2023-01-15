@@ -148,6 +148,7 @@ var annotated_dup =
     [ "CPPValue", "d2/d75/class_c_p_p_value.html", "d2/d75/class_c_p_p_value" ],
     [ "DateTimeField", "df/dae/struct_date_time_field.html", "df/dae/struct_date_time_field" ],
     [ "Debug", "da/d7d/class_debug.html", "da/d7d/class_debug" ],
+    [ "DebugLex", "d8/d00/class_debug_lex.html", "d8/d00/class_debug_lex" ],
     [ "declinfoYY_state", "da/d1f/structdeclinfo_y_y__state.html", "da/d1f/structdeclinfo_y_y__state" ],
     [ "defargsYY_state", "de/dcd/structdefargs_y_y__state.html", "de/dcd/structdefargs_y_y__state" ],
     [ "Define", "dc/d64/class_define.html", "dc/d64/class_define" ],

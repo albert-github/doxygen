@@ -102,6 +102,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/docparser.cpp"
   Node1 -> Node35 [color="steelblue1",style="solid"];
   Node35 [label="debug.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d16/debug_8h.html",tooltip=" "];
   Node35 -> Node18 [color="steelblue1",style="solid"];
+  Node35 -> Node14 [color="steelblue1",style="solid"];
   Node1 -> Node36 [color="steelblue1",style="solid"];
   Node36 [label="dir.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d9c/dir_8h.html",tooltip=" "];
   Node36 -> Node11 [color="steelblue1",style="solid"];

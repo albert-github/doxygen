@@ -185,6 +185,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/configimpl.l"
   Node1 -> Node60 [color="steelblue1",style="solid"];
   Node60 [label="debug.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d16/debug_8h.html",tooltip=" "];
   Node60 -> Node32 [color="steelblue1",style="solid"];
+  Node60 -> Node27 [color="steelblue1",style="solid"];
   Node1 -> Node61 [color="steelblue1",style="solid"];
   Node61 [label="doxygen_lex.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/da5/doxygen__lex_8h.html",tooltip=" "];
 }

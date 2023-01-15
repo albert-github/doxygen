@@ -6,7 +6,6 @@ var message_8h =
     [ "finishWarnExit", "d2/d0d/message_8h.html#ae3d3e3fe0dd73eb3fe463e99d2bd4a73", null ],
     [ "initWarningFormat", "d2/d0d/message_8h.html#aa0b7262dc94aba9476d8669db4f3920e", null ],
     [ "msg", "d2/d0d/message_8h.html#a256173d6ad99e62fc2f4afad5409933a", null ],
-    [ "printlex", "d2/d0d/message_8h.html#afeaf3cf484d932b2198498b3209f7e03", null ],
     [ "term", "d2/d0d/message_8h.html#a4610c4f07144bf7e2b4cc7288b014930", null ],
     [ "va_warn", "d2/d0d/message_8h.html#a3dd1fc83df965011daf3fc3a4dfb66fc", null ],
     [ "warn", "d2/d0d/message_8h.html#a98645a9007f170571a5865b92ceda5e3", null ],

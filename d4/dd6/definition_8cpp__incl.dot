@@ -319,6 +319,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/definition.cpp"
   Node1 -> Node84 [color="steelblue1",style="solid"];
   Node84 [label="debug.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d16/debug_8h.html",tooltip=" "];
   Node84 -> Node24 [color="steelblue1",style="solid"];
+  Node84 -> Node19 [color="steelblue1",style="solid"];
   Node1 -> Node85 [color="steelblue1",style="solid"];
   Node85 [label="vhdldocgen.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dec/vhdldocgen_8h.html",tooltip=" "];
   Node85 -> Node19 [color="steelblue1",style="solid"];

@@ -52,6 +52,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/constexp.l"
   Node1 -> Node20 [color="steelblue1",style="solid"];
   Node20 [label="debug.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d16/debug_8h.html",tooltip=" "];
   Node20 -> Node17 [color="steelblue1",style="solid"];
+  Node20 -> Node12 [color="steelblue1",style="solid"];
   Node1 -> Node21 [color="steelblue1",style="solid"];
   Node21 [label="doxygen_lex.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/da5/doxygen__lex_8h.html",tooltip=" "];
 }

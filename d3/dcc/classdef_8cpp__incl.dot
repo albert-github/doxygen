@@ -352,6 +352,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/classdef.cpp"
   Node1 -> Node92 [color="steelblue1",style="solid"];
   Node92 [label="debug.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d16/debug_8h.html",tooltip=" "];
   Node92 -> Node10 [color="steelblue1",style="solid"];
+  Node92 -> Node5 [color="steelblue1",style="solid"];
   Node1 -> Node53 [color="steelblue1",style="solid"];
   Node1 -> Node71 [color="steelblue1",style="solid"];
   Node1 -> Node93 [color="steelblue1",style="solid"];

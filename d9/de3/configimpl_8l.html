@@ -483,24 +483,24 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/de3/configimpl_8l_source.html#l01669">1669</a> of file <a class="el" href="../../d9/de3/configimpl_8l_source.html">configimpl.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1670</span>{</div>
-<div class="line"><span class="lineno"> 1671</span>  <span class="comment">// lookup option by name</span></div>
-<div class="line"><span class="lineno"> 1672</span>  <span class="keyword">const</span> ConfigValues::Info *option = ConfigValues::instance().get(optionName);</div>
-<div class="line"><span class="lineno"> 1673</span>  <span class="keywordflow">if</span> (option &amp;&amp; option-&gt;type==ConfigValues::Info::Bool) <span class="comment">// safety check</span></div>
-<div class="line"><span class="lineno"> 1674</span>  {</div>
-<div class="line"><span class="lineno"> 1675</span>    <span class="keywordflow">if</span> (ConfigValues::instance().*(option-&gt;value.b)!=expectedValue) <span class="comment">// current value differs from expectation</span></div>
-<div class="line"><span class="lineno"> 1676</span>    {</div>
-<div class="line"><span class="lineno"> 1677</span>      <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a>(<span class="stringliteral">&quot;When enabling %s the %s option should be disabled. I&#39;ll adjust it for you.\n&quot;</span>,depOption,optionName);</div>
-<div class="line"><span class="lineno"> 1678</span>      ConfigValues::instance().*(option-&gt;value.b)=expectedValue; <span class="comment">// adjust option</span></div>
-<div class="line"><span class="lineno"> 1679</span>    }</div>
-<div class="line"><span class="lineno"> 1680</span>  }</div>
+<p class="definition">Definition at line <a class="el" href="../../d9/de3/configimpl_8l_source.html#l01668">1668</a> of file <a class="el" href="../../d9/de3/configimpl_8l_source.html">configimpl.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1669</span>{</div>
+<div class="line"><span class="lineno"> 1670</span>  <span class="comment">// lookup option by name</span></div>
+<div class="line"><span class="lineno"> 1671</span>  <span class="keyword">const</span> ConfigValues::Info *option = ConfigValues::instance().get(optionName);</div>
+<div class="line"><span class="lineno"> 1672</span>  <span class="keywordflow">if</span> (option &amp;&amp; option-&gt;type==ConfigValues::Info::Bool) <span class="comment">// safety check</span></div>
+<div class="line"><span class="lineno"> 1673</span>  {</div>
+<div class="line"><span class="lineno"> 1674</span>    <span class="keywordflow">if</span> (ConfigValues::instance().*(option-&gt;value.b)!=expectedValue) <span class="comment">// current value differs from expectation</span></div>
+<div class="line"><span class="lineno"> 1675</span>    {</div>
+<div class="line"><span class="lineno"> 1676</span>      <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a>(<span class="stringliteral">&quot;When enabling %s the %s option should be disabled. I&#39;ll adjust it for you.\n&quot;</span>,depOption,optionName);</div>
+<div class="line"><span class="lineno"> 1677</span>      ConfigValues::instance().*(option-&gt;value.b)=expectedValue; <span class="comment">// adjust option</span></div>
+<div class="line"><span class="lineno"> 1678</span>    }</div>
+<div class="line"><span class="lineno"> 1679</span>  }</div>
 <div class="ttc" id="amessage_8cpp_html_aede5746344fdce99647541101eaa7f06"><div class="ttname"><a href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a></div><div class="ttdeci">void err(const char *fmt,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6a/message_8cpp_source.html#l00231">message.cpp:231</a></div></div>
-<div class="line"><span class="lineno"> 1681</span>}</div>
+<div class="line"><span class="lineno"> 1680</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00231">err()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/de3/configimpl_8l_source.html#l01725">Config::checkAndCorrect()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/de3/configimpl_8l_source.html#l01724">Config::checkAndCorrect()</a>.</p>
 
 </div>
 </div>
@@ -528,39 +528,39 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/de3/configimpl_8l_source.html#l01697">1697</a> of file <a class="el" href="../../d9/de3/configimpl_8l_source.html">configimpl.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1698</span>{</div>
-<div class="line"><span class="lineno"> 1699</span>  <span class="keyword">auto</span> updateColorStyle = [&amp;depOption](HTML_COLORSTYLE_t curStyle,HTML_COLORSTYLE_t newStyle)</div>
-<div class="line"><span class="lineno"> 1700</span>  {</div>
-<div class="line"><span class="lineno"> 1701</span>    <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a>(<span class="stringliteral">&quot;When enabling &#39;%s&#39; the &#39;HTML_COLORSTYLE&#39; option should be either &#39;LIGHT&#39; or &#39;DARK&#39; but has value &#39;%s&#39;. I&#39;ll adjust it for you to &#39;%s&#39;.\n&quot;</span>,</div>
-<div class="line"><span class="lineno"> 1702</span>        depOption,</div>
-<div class="line"><span class="lineno"> 1703</span>        <a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(HTML_COLORSTYLE_enum2str(curStyle)),</div>
-<div class="line"><span class="lineno"> 1704</span>        <a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(HTML_COLORSTYLE_enum2str(newStyle)));</div>
-<div class="line"><span class="lineno"> 1705</span>    <a class="code hl_define" href="../../db/d16/config_8h.html#a8c58e5a30ece3e745e1561edd00f6c68">Config_updateEnum</a>(HTML_COLORSTYLE,newStyle);</div>
-<div class="line"><span class="lineno"> 1706</span>  };</div>
-<div class="line"><span class="lineno"> 1707</span>  <span class="keyword">auto</span> colorStyle = <a class="code hl_define" href="../../db/d16/config_8h.html#afe899eec751dfb75a60c37ec3840e288">Config_getEnum</a>(HTML_COLORSTYLE);</div>
-<div class="line"><span class="lineno"> 1708</span>  <span class="keywordflow">switch</span> (colorStyle)</div>
-<div class="line"><span class="lineno"> 1709</span>  {</div>
-<div class="line"><span class="lineno"> 1710</span>    <span class="keywordflow">case</span> HTML_COLORSTYLE_t::LIGHT:</div>
-<div class="line"><span class="lineno"> 1711</span>    <span class="keywordflow">case</span> HTML_COLORSTYLE_t::DARK:</div>
-<div class="line"><span class="lineno"> 1712</span>      <span class="comment">// no adjustment needed</span></div>
-<div class="line"><span class="lineno"> 1713</span>      <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 1714</span>    <span class="keywordflow">case</span> HTML_COLORSTYLE_t::AUTO_LIGHT:</div>
-<div class="line"><span class="lineno"> 1715</span>    <span class="keywordflow">case</span> HTML_COLORSTYLE_t::TOGGLE:</div>
-<div class="line"><span class="lineno"> 1716</span>      updateColorStyle(colorStyle,HTML_COLORSTYLE_t::LIGHT);</div>
-<div class="line"><span class="lineno"> 1717</span>      <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 1718</span>    <span class="keywordflow">case</span> HTML_COLORSTYLE_t::AUTO_DARK:</div>
-<div class="line"><span class="lineno"> 1719</span>      updateColorStyle(colorStyle,HTML_COLORSTYLE_t::DARK);</div>
-<div class="line"><span class="lineno"> 1720</span>      <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 1721</span>  }</div>
+<p class="definition">Definition at line <a class="el" href="../../d9/de3/configimpl_8l_source.html#l01696">1696</a> of file <a class="el" href="../../d9/de3/configimpl_8l_source.html">configimpl.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1697</span>{</div>
+<div class="line"><span class="lineno"> 1698</span>  <span class="keyword">auto</span> updateColorStyle = [&amp;depOption](HTML_COLORSTYLE_t curStyle,HTML_COLORSTYLE_t newStyle)</div>
+<div class="line"><span class="lineno"> 1699</span>  {</div>
+<div class="line"><span class="lineno"> 1700</span>    <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a>(<span class="stringliteral">&quot;When enabling &#39;%s&#39; the &#39;HTML_COLORSTYLE&#39; option should be either &#39;LIGHT&#39; or &#39;DARK&#39; but has value &#39;%s&#39;. I&#39;ll adjust it for you to &#39;%s&#39;.\n&quot;</span>,</div>
+<div class="line"><span class="lineno"> 1701</span>        depOption,</div>
+<div class="line"><span class="lineno"> 1702</span>        <a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(HTML_COLORSTYLE_enum2str(curStyle)),</div>
+<div class="line"><span class="lineno"> 1703</span>        <a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(HTML_COLORSTYLE_enum2str(newStyle)));</div>
+<div class="line"><span class="lineno"> 1704</span>    <a class="code hl_define" href="../../db/d16/config_8h.html#a8c58e5a30ece3e745e1561edd00f6c68">Config_updateEnum</a>(HTML_COLORSTYLE,newStyle);</div>
+<div class="line"><span class="lineno"> 1705</span>  };</div>
+<div class="line"><span class="lineno"> 1706</span>  <span class="keyword">auto</span> colorStyle = <a class="code hl_define" href="../../db/d16/config_8h.html#afe899eec751dfb75a60c37ec3840e288">Config_getEnum</a>(HTML_COLORSTYLE);</div>
+<div class="line"><span class="lineno"> 1707</span>  <span class="keywordflow">switch</span> (colorStyle)</div>
+<div class="line"><span class="lineno"> 1708</span>  {</div>
+<div class="line"><span class="lineno"> 1709</span>    <span class="keywordflow">case</span> HTML_COLORSTYLE_t::LIGHT:</div>
+<div class="line"><span class="lineno"> 1710</span>    <span class="keywordflow">case</span> HTML_COLORSTYLE_t::DARK:</div>
+<div class="line"><span class="lineno"> 1711</span>      <span class="comment">// no adjustment needed</span></div>
+<div class="line"><span class="lineno"> 1712</span>      <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1713</span>    <span class="keywordflow">case</span> HTML_COLORSTYLE_t::AUTO_LIGHT:</div>
+<div class="line"><span class="lineno"> 1714</span>    <span class="keywordflow">case</span> HTML_COLORSTYLE_t::TOGGLE:</div>
+<div class="line"><span class="lineno"> 1715</span>      updateColorStyle(colorStyle,HTML_COLORSTYLE_t::LIGHT);</div>
+<div class="line"><span class="lineno"> 1716</span>      <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1717</span>    <span class="keywordflow">case</span> HTML_COLORSTYLE_t::AUTO_DARK:</div>
+<div class="line"><span class="lineno"> 1718</span>      updateColorStyle(colorStyle,HTML_COLORSTYLE_t::DARK);</div>
+<div class="line"><span class="lineno"> 1719</span>      <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1720</span>  }</div>
 <div class="ttc" id="aconfig_8h_html_a8c58e5a30ece3e745e1561edd00f6c68"><div class="ttname"><a href="../../db/d16/config_8h.html#a8c58e5a30ece3e745e1561edd00f6c68">Config_updateEnum</a></div><div class="ttdeci">#define Config_updateEnum(name, value)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/config_8h_source.html#l00041">config.h:41</a></div></div>
 <div class="ttc" id="aconfig_8h_html_afe899eec751dfb75a60c37ec3840e288"><div class="ttname"><a href="../../db/d16/config_8h.html#afe899eec751dfb75a60c37ec3840e288">Config_getEnum</a></div><div class="ttdeci">#define Config_getEnum(name)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/config_8h_source.html#l00035">config.h:35</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_a9851ebb5ae2f65b4d2b1d08421edbfd2"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a></div><div class="ttdeci">const char * qPrint(const char *s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00613">qcstring.h:613</a></div></div>
-<div class="line"><span class="lineno"> 1722</span>}</div>
+<div class="line"><span class="lineno"> 1721</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00035">Config_getEnum</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00041">Config_updateEnum</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00231">err()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00613">qPrint()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/de3/configimpl_8l_source.html#l01725">Config::checkAndCorrect()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/de3/configimpl_8l_source.html#l01724">Config::checkAndCorrect()</a>.</p>
 
 </div>
 </div>
@@ -604,23 +604,23 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/de3/configimpl_8l_source.html#l01683">1683</a> of file <a class="el" href="../../d9/de3/configimpl_8l_source.html">configimpl.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1684</span>{</div>
-<div class="line"><span class="lineno"> 1685</span>  <span class="comment">// lookup option by name</span></div>
-<div class="line"><span class="lineno"> 1686</span>  <span class="keyword">const</span> ConfigValues::Info *option = ConfigValues::instance().get(optionName);</div>
-<div class="line"><span class="lineno"> 1687</span>  <span class="keywordflow">if</span> (option &amp;&amp; option-&gt;type==ConfigValues::Info::String) <span class="comment">// safety check</span></div>
-<div class="line"><span class="lineno"> 1688</span>  {</div>
-<div class="line"><span class="lineno"> 1689</span>    <span class="keywordflow">if</span> (ConfigValues::instance().*(option-&gt;value.s)!=expectedValue) <span class="comment">// current value differs from expectation</span></div>
-<div class="line"><span class="lineno"> 1690</span>    {</div>
-<div class="line"><span class="lineno"> 1691</span>      <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a>(<span class="stringliteral">&quot;When enabling %s the %s option should have value &#39;%s&#39;. I&#39;ll adjust it for you.\n&quot;</span>,depOption,optionName,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(expectedValue));</div>
-<div class="line"><span class="lineno"> 1692</span>      ConfigValues::instance().*(option-&gt;value.s)=expectedValue; <span class="comment">// adjust option</span></div>
-<div class="line"><span class="lineno"> 1693</span>    }</div>
-<div class="line"><span class="lineno"> 1694</span>  }</div>
-<div class="line"><span class="lineno"> 1695</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d9/de3/configimpl_8l_source.html#l01682">1682</a> of file <a class="el" href="../../d9/de3/configimpl_8l_source.html">configimpl.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1683</span>{</div>
+<div class="line"><span class="lineno"> 1684</span>  <span class="comment">// lookup option by name</span></div>
+<div class="line"><span class="lineno"> 1685</span>  <span class="keyword">const</span> ConfigValues::Info *option = ConfigValues::instance().get(optionName);</div>
+<div class="line"><span class="lineno"> 1686</span>  <span class="keywordflow">if</span> (option &amp;&amp; option-&gt;type==ConfigValues::Info::String) <span class="comment">// safety check</span></div>
+<div class="line"><span class="lineno"> 1687</span>  {</div>
+<div class="line"><span class="lineno"> 1688</span>    <span class="keywordflow">if</span> (ConfigValues::instance().*(option-&gt;value.s)!=expectedValue) <span class="comment">// current value differs from expectation</span></div>
+<div class="line"><span class="lineno"> 1689</span>    {</div>
+<div class="line"><span class="lineno"> 1690</span>      <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a>(<span class="stringliteral">&quot;When enabling %s the %s option should have value &#39;%s&#39;. I&#39;ll adjust it for you.\n&quot;</span>,depOption,optionName,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(expectedValue));</div>
+<div class="line"><span class="lineno"> 1691</span>      ConfigValues::instance().*(option-&gt;value.s)=expectedValue; <span class="comment">// adjust option</span></div>
+<div class="line"><span class="lineno"> 1692</span>    }</div>
+<div class="line"><span class="lineno"> 1693</span>  }</div>
+<div class="line"><span class="lineno"> 1694</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00231">err()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00613">qPrint()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/de3/configimpl_8l_source.html#l01725">Config::checkAndCorrect()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/de3/configimpl_8l_source.html#l01724">Config::checkAndCorrect()</a>.</p>
 
 </div>
 </div>
@@ -698,24 +698,24 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/de3/configimpl_8l_source.html#l01621">1621</a> of file <a class="el" href="../../d9/de3/configimpl_8l_source.html">configimpl.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1622</span>{</div>
-<div class="line"><span class="lineno"> 1623</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> val = s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a66269a694d9e6961bfd145bb4ca72f42">stripWhiteSpace</a>().<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a33688239622e659cfb469fbd62c9cccb">lower</a>();</div>
-<div class="line"><span class="lineno"> 1624</span>  <span class="keywordflow">if</span> ((val==<span class="stringliteral">&quot;yes&quot;</span> || val==<span class="stringliteral">&quot;true&quot;</span>  || val==<span class="stringliteral">&quot;1&quot;</span> || val==<span class="stringliteral">&quot;all&quot;</span>) ||</div>
-<div class="line"><span class="lineno"> 1625</span>      (val==<span class="stringliteral">&quot;no&quot;</span>  || val==<span class="stringliteral">&quot;false&quot;</span> || val==<span class="stringliteral">&quot;0&quot;</span> || val==<span class="stringliteral">&quot;none&quot;</span>))</div>
-<div class="line"><span class="lineno"> 1626</span>  {</div>
-<div class="line"><span class="lineno"> 1627</span>    <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a>(<span class="stringliteral">&quot;file name expected for option %s, got %s instead. Ignoring...\n&quot;</span>,optionName,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(s));</div>
-<div class="line"><span class="lineno"> 1628</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno"> 1629</span>  }</div>
-<div class="line"><span class="lineno"> 1630</span>  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<p class="definition">Definition at line <a class="el" href="../../d9/de3/configimpl_8l_source.html#l01620">1620</a> of file <a class="el" href="../../d9/de3/configimpl_8l_source.html">configimpl.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1621</span>{</div>
+<div class="line"><span class="lineno"> 1622</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> val = s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a66269a694d9e6961bfd145bb4ca72f42">stripWhiteSpace</a>().<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a33688239622e659cfb469fbd62c9cccb">lower</a>();</div>
+<div class="line"><span class="lineno"> 1623</span>  <span class="keywordflow">if</span> ((val==<span class="stringliteral">&quot;yes&quot;</span> || val==<span class="stringliteral">&quot;true&quot;</span>  || val==<span class="stringliteral">&quot;1&quot;</span> || val==<span class="stringliteral">&quot;all&quot;</span>) ||</div>
+<div class="line"><span class="lineno"> 1624</span>      (val==<span class="stringliteral">&quot;no&quot;</span>  || val==<span class="stringliteral">&quot;false&quot;</span> || val==<span class="stringliteral">&quot;0&quot;</span> || val==<span class="stringliteral">&quot;none&quot;</span>))</div>
+<div class="line"><span class="lineno"> 1625</span>  {</div>
+<div class="line"><span class="lineno"> 1626</span>    <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a>(<span class="stringliteral">&quot;file name expected for option %s, got %s instead. Ignoring...\n&quot;</span>,optionName,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(s));</div>
+<div class="line"><span class="lineno"> 1627</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1628</span>  }</div>
+<div class="line"><span class="lineno"> 1629</span>  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="ttc" id="aclass_q_c_string_html"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html">QCString</a></div><div class="ttdoc">This is an alternative implementation of QCString.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00108">qcstring.h:109</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a33688239622e659cfb469fbd62c9cccb"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a33688239622e659cfb469fbd62c9cccb">QCString::lower</a></div><div class="ttdeci">QCString lower() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00235">qcstring.h:235</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a66269a694d9e6961bfd145bb4ca72f42"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a66269a694d9e6961bfd145bb4ca72f42">QCString::stripWhiteSpace</a></div><div class="ttdeci">QCString stripWhiteSpace() const</div><div class="ttdoc">returns a copy of this string with leading and trailing whitespace removed</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00246">qcstring.h:246</a></div></div>
-<div class="line"><span class="lineno"> 1631</span>}</div>
+<div class="line"><span class="lineno"> 1630</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00231">err()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00235">QCString::lower()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00613">qPrint()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00246">QCString::stripWhiteSpace()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/de3/configimpl_8l_source.html#l01725">Config::checkAndCorrect()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/de3/configimpl_8l_source.html#l01724">Config::checkAndCorrect()</a>.</p>
 
 </div>
 </div>
@@ -765,44 +765,44 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/de3/configimpl_8l_source.html#l01639">1639</a> of file <a class="el" href="../../d9/de3/configimpl_8l_source.html">configimpl.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1640</span>{</div>
-<div class="line"><span class="lineno"> 1641</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;s: list)</div>
-<div class="line"><span class="lineno"> 1642</span>  {</div>
-<div class="line"><span class="lineno"> 1643</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> item=s.c_str();</div>
-<div class="line"><span class="lineno"> 1644</span>    item=item.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a66269a694d9e6961bfd145bb4ca72f42">stripWhiteSpace</a>();</div>
-<div class="line"><span class="lineno"> 1645</span>    <span class="keywordtype">int</span> i=item.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0182ece6b76dad6475dafb53e2faaf10">find</a>(<span class="charliteral">&#39;=&#39;</span>);</div>
-<div class="line"><span class="lineno"> 1646</span>    <span class="keywordflow">if</span> (i==-1 &amp;&amp; equalRequired)</div>
-<div class="line"><span class="lineno"> 1647</span>    {</div>
-<div class="line"><span class="lineno"> 1648</span>      <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a>(<span class="stringliteral">&quot;Illegal format for option %s, no equal sign (&#39;=&#39;) specified for item &#39;%s&#39;\n&quot;</span>,name,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(item));</div>
-<div class="line"><span class="lineno"> 1649</span>    }</div>
-<div class="line"><span class="lineno"> 1650</span>    <span class="keywordflow">if</span> (i!=-1)</div>
-<div class="line"><span class="lineno"> 1651</span>    {</div>
-<div class="line"><span class="lineno"> 1652</span>      <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> myName=item.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">left</a>(i).<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a66269a694d9e6961bfd145bb4ca72f42">stripWhiteSpace</a>();</div>
-<div class="line"><span class="lineno"> 1653</span>      <span class="keywordflow">if</span> (myName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
-<div class="line"><span class="lineno"> 1654</span>      {</div>
-<div class="line"><span class="lineno"> 1655</span>        <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a>(<span class="stringliteral">&quot;Illegal format for option %s, no name specified for item &#39;%s&#39;\n&quot;</span>,name,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(item));</div>
-<div class="line"><span class="lineno"> 1656</span>      }</div>
-<div class="line"><span class="lineno"> 1657</span>      <span class="keywordflow">else</span> <span class="keywordflow">if</span> (valueRequired)</div>
-<div class="line"><span class="lineno"> 1658</span>      {</div>
-<div class="line"><span class="lineno"> 1659</span>        <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> myValue=item.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a8f4aa5417f6a834f28c7148a1fe262d5">right</a>(item.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">length</a>()-i-1).<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a66269a694d9e6961bfd145bb4ca72f42">stripWhiteSpace</a>();</div>
-<div class="line"><span class="lineno"> 1660</span>        <span class="keywordflow">if</span> (myValue.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
-<div class="line"><span class="lineno"> 1661</span>        {</div>
-<div class="line"><span class="lineno"> 1662</span>          <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a>(<span class="stringliteral">&quot;Illegal format for option %s, no value specified for item &#39;%s&#39;\n&quot;</span>,name,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(item));</div>
-<div class="line"><span class="lineno"> 1663</span>        }</div>
-<div class="line"><span class="lineno"> 1664</span>      }</div>
-<div class="line"><span class="lineno"> 1665</span>    }</div>
-<div class="line"><span class="lineno"> 1666</span>  }</div>
+<p class="definition">Definition at line <a class="el" href="../../d9/de3/configimpl_8l_source.html#l01638">1638</a> of file <a class="el" href="../../d9/de3/configimpl_8l_source.html">configimpl.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1639</span>{</div>
+<div class="line"><span class="lineno"> 1640</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;s: list)</div>
+<div class="line"><span class="lineno"> 1641</span>  {</div>
+<div class="line"><span class="lineno"> 1642</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> item=s.c_str();</div>
+<div class="line"><span class="lineno"> 1643</span>    item=item.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a66269a694d9e6961bfd145bb4ca72f42">stripWhiteSpace</a>();</div>
+<div class="line"><span class="lineno"> 1644</span>    <span class="keywordtype">int</span> i=item.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0182ece6b76dad6475dafb53e2faaf10">find</a>(<span class="charliteral">&#39;=&#39;</span>);</div>
+<div class="line"><span class="lineno"> 1645</span>    <span class="keywordflow">if</span> (i==-1 &amp;&amp; equalRequired)</div>
+<div class="line"><span class="lineno"> 1646</span>    {</div>
+<div class="line"><span class="lineno"> 1647</span>      <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a>(<span class="stringliteral">&quot;Illegal format for option %s, no equal sign (&#39;=&#39;) specified for item &#39;%s&#39;\n&quot;</span>,name,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(item));</div>
+<div class="line"><span class="lineno"> 1648</span>    }</div>
+<div class="line"><span class="lineno"> 1649</span>    <span class="keywordflow">if</span> (i!=-1)</div>
+<div class="line"><span class="lineno"> 1650</span>    {</div>
+<div class="line"><span class="lineno"> 1651</span>      <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> myName=item.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">left</a>(i).<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a66269a694d9e6961bfd145bb4ca72f42">stripWhiteSpace</a>();</div>
+<div class="line"><span class="lineno"> 1652</span>      <span class="keywordflow">if</span> (myName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
+<div class="line"><span class="lineno"> 1653</span>      {</div>
+<div class="line"><span class="lineno"> 1654</span>        <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a>(<span class="stringliteral">&quot;Illegal format for option %s, no name specified for item &#39;%s&#39;\n&quot;</span>,name,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(item));</div>
+<div class="line"><span class="lineno"> 1655</span>      }</div>
+<div class="line"><span class="lineno"> 1656</span>      <span class="keywordflow">else</span> <span class="keywordflow">if</span> (valueRequired)</div>
+<div class="line"><span class="lineno"> 1657</span>      {</div>
+<div class="line"><span class="lineno"> 1658</span>        <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> myValue=item.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a8f4aa5417f6a834f28c7148a1fe262d5">right</a>(item.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">length</a>()-i-1).<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a66269a694d9e6961bfd145bb4ca72f42">stripWhiteSpace</a>();</div>
+<div class="line"><span class="lineno"> 1659</span>        <span class="keywordflow">if</span> (myValue.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
+<div class="line"><span class="lineno"> 1660</span>        {</div>
+<div class="line"><span class="lineno"> 1661</span>          <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a>(<span class="stringliteral">&quot;Illegal format for option %s, no value specified for item &#39;%s&#39;\n&quot;</span>,name,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(item));</div>
+<div class="line"><span class="lineno"> 1662</span>        }</div>
+<div class="line"><span class="lineno"> 1663</span>      }</div>
+<div class="line"><span class="lineno"> 1664</span>    }</div>
+<div class="line"><span class="lineno"> 1665</span>  }</div>
 <div class="ttc" id="aclass_q_c_string_html_a0182ece6b76dad6475dafb53e2faaf10"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a0182ece6b76dad6475dafb53e2faaf10">QCString::find</a></div><div class="ttdeci">int find(char c, int index=0, bool cs=TRUE) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d3e/qcstring_8cpp_source.html#l00043">qcstring.cpp:43</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a621c4090d69ad7d05ef8e5234376c3d8"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">QCString::isEmpty</a></div><div class="ttdeci">bool isEmpty() const</div><div class="ttdoc">Returns TRUE iff the string is empty.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00144">qcstring.h:144</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a8f4aa5417f6a834f28c7148a1fe262d5"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a8f4aa5417f6a834f28c7148a1fe262d5">QCString::right</a></div><div class="ttdeci">QCString right(size_t len) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00220">qcstring.h:220</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_ac52596733e9110b778019946d73fb268"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">QCString::length</a></div><div class="ttdeci">uint length() const</div><div class="ttdoc">Returns the length of the string, not counting the 0-terminator.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00147">qcstring.h:147</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_aecf8b66312c4e97333219cc344c11a4f"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">QCString::left</a></div><div class="ttdeci">QCString left(size_t len) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00215">qcstring.h:215</a></div></div>
-<div class="line"><span class="lineno"> 1667</span>}</div>
+<div class="line"><span class="lineno"> 1666</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00231">err()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00043">QCString::find()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00215">QCString::left()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::length()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00613">qPrint()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00220">QCString::right()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00246">QCString::stripWhiteSpace()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/de3/configimpl_8l_source.html#l01725">Config::checkAndCorrect()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/de3/configimpl_8l_source.html#l01724">Config::checkAndCorrect()</a>.</p>
 
 </div>
 </div>
@@ -830,29 +830,29 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/de3/configimpl_8l_source.html#l01602">1602</a> of file <a class="el" href="../../d9/de3/configimpl_8l_source.html">configimpl.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1603</span>{</div>
-<div class="line"><span class="lineno"> 1604</span>  <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i=0;i&lt;str.size();i++)</div>
-<div class="line"><span class="lineno"> 1605</span>  {</div>
-<div class="line"><span class="lineno"> 1606</span>    std::string path = str[i];</div>
-<div class="line"><span class="lineno"> 1607</span>    std::replace(path.begin(),path.end(),<span class="charliteral">&#39;\\&#39;</span>,<span class="charliteral">&#39;/&#39;</span>);</div>
-<div class="line"><span class="lineno"> 1608</span>    <span class="keywordflow">if</span> ((path[0]!=<span class="charliteral">&#39;/&#39;</span> &amp;&amp; (path.size()&lt;=2 || path[1]!=<span class="charliteral">&#39;:&#39;</span>)) || path[path.size()-1]!=<span class="charliteral">&#39;/&#39;</span>)</div>
-<div class="line"><span class="lineno"> 1609</span>    {</div>
-<div class="line"><span class="lineno"> 1610</span>      <a class="code hl_class" href="../../d0/da1/class_file_info.html">FileInfo</a> fi(path);</div>
-<div class="line"><span class="lineno"> 1611</span>      <span class="keywordflow">if</span> (fi.exists() &amp;&amp; fi.isDir())</div>
-<div class="line"><span class="lineno"> 1612</span>      {</div>
-<div class="line"><span class="lineno"> 1613</span>        path = fi.absFilePath();</div>
-<div class="line"><span class="lineno"> 1614</span>        <span class="keywordflow">if</span> (path[path.size()-1]!=<span class="charliteral">&#39;/&#39;</span>) path+=<span class="charliteral">&#39;/&#39;</span>;</div>
-<div class="line"><span class="lineno"> 1615</span>      }</div>
-<div class="line"><span class="lineno"> 1616</span>    }</div>
-<div class="line"><span class="lineno"> 1617</span>    str[i]=path;</div>
-<div class="line"><span class="lineno"> 1618</span>  }</div>
+<p class="definition">Definition at line <a class="el" href="../../d9/de3/configimpl_8l_source.html#l01601">1601</a> of file <a class="el" href="../../d9/de3/configimpl_8l_source.html">configimpl.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1602</span>{</div>
+<div class="line"><span class="lineno"> 1603</span>  <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i=0;i&lt;str.size();i++)</div>
+<div class="line"><span class="lineno"> 1604</span>  {</div>
+<div class="line"><span class="lineno"> 1605</span>    std::string path = str[i];</div>
+<div class="line"><span class="lineno"> 1606</span>    std::replace(path.begin(),path.end(),<span class="charliteral">&#39;\\&#39;</span>,<span class="charliteral">&#39;/&#39;</span>);</div>
+<div class="line"><span class="lineno"> 1607</span>    <span class="keywordflow">if</span> ((path[0]!=<span class="charliteral">&#39;/&#39;</span> &amp;&amp; (path.size()&lt;=2 || path[1]!=<span class="charliteral">&#39;:&#39;</span>)) || path[path.size()-1]!=<span class="charliteral">&#39;/&#39;</span>)</div>
+<div class="line"><span class="lineno"> 1608</span>    {</div>
+<div class="line"><span class="lineno"> 1609</span>      <a class="code hl_class" href="../../d0/da1/class_file_info.html">FileInfo</a> fi(path);</div>
+<div class="line"><span class="lineno"> 1610</span>      <span class="keywordflow">if</span> (fi.exists() &amp;&amp; fi.isDir())</div>
+<div class="line"><span class="lineno"> 1611</span>      {</div>
+<div class="line"><span class="lineno"> 1612</span>        path = fi.absFilePath();</div>
+<div class="line"><span class="lineno"> 1613</span>        <span class="keywordflow">if</span> (path[path.size()-1]!=<span class="charliteral">&#39;/&#39;</span>) path+=<span class="charliteral">&#39;/&#39;</span>;</div>
+<div class="line"><span class="lineno"> 1614</span>      }</div>
+<div class="line"><span class="lineno"> 1615</span>    }</div>
+<div class="line"><span class="lineno"> 1616</span>    str[i]=path;</div>
+<div class="line"><span class="lineno"> 1617</span>  }</div>
 <div class="ttc" id="aclass_file_info_html"><div class="ttname"><a href="../../d0/da1/class_file_info.html">FileInfo</a></div><div class="ttdoc">Minimal replacement for QFileInfo.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d45/fileinfo_8h_source.html#l00022">fileinfo.h:23</a></div></div>
-<div class="line"><span class="lineno"> 1619</span>}</div>
+<div class="line"><span class="lineno"> 1618</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../db/dbc/fileinfo_8cpp_source.html#l00101">FileInfo::absFilePath()</a>, <a class="el" href="../../db/dbc/fileinfo_8cpp_source.html#l00030">FileInfo::exists()</a>, and <a class="el" href="../../db/dbc/fileinfo_8cpp_source.html#l00070">FileInfo::isDir()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/de3/configimpl_8l_source.html#l01725">Config::checkAndCorrect()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/de3/configimpl_8l_source.html#l01724">Config::checkAndCorrect()</a>.</p>
 
 </div>
 </div>
@@ -936,7 +936,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00061">error_str</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00613">qPrint()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/de3/configimpl_8l_source.html#l01725">Config::checkAndCorrect()</a>, <a class="el" href="../../d9/de3/configimpl_8l_source.html#l01539">configFileToString()</a>, <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00672">configStringRecode()</a>, <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00353">ConfigImpl::getBool()</a>, <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00325">ConfigImpl::getEnum()</a>, <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00339">ConfigImpl::getInt()</a>, <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00311">ConfigImpl::getList()</a>, <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00297">ConfigImpl::getString()</a>, <a class="el" href="../../d9/de3/configimpl_8l_source.html#l01509">ConfigImpl::init()</a>, and <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00939">readIncludeFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/de3/configimpl_8l_source.html#l01724">Config::checkAndCorrect()</a>, <a class="el" href="../../d9/de3/configimpl_8l_source.html#l01539">configFileToString()</a>, <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00672">configStringRecode()</a>, <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00353">ConfigImpl::getBool()</a>, <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00325">ConfigImpl::getEnum()</a>, <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00339">ConfigImpl::getInt()</a>, <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00311">ConfigImpl::getList()</a>, <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00297">ConfigImpl::getString()</a>, <a class="el" href="../../d9/de3/configimpl_8l_source.html#l01509">ConfigImpl::init()</a>, and <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00939">readIncludeFile()</a>.</p>
 
 </div>
 </div>
@@ -1227,7 +1227,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00235">QCString::lower()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00246">QCString::stripWhiteSpace()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00249">ConfigBool::convertStrToVal()</a>, and <a class="el" href="../../d9/de3/configimpl_8l_source.html#l02180">Config::updateObsolete()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00249">ConfigBool::convertStrToVal()</a>, and <a class="el" href="../../d9/de3/configimpl_8l_source.html#l02179">Config::updateObsolete()</a>.</p>
 
 </div>
 </div>
@@ -2058,16 +2058,16 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/de3/configimpl_8l_source.html#l02175">2175</a> of file <a class="el" href="../../d9/de3/configimpl_8l_source.html">configimpl.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2176</span>{</div>
-<div class="line"><span class="lineno"> 2177</span>  attr.<a class="code hl_function" href="../../d5/d84/class_dot_attributes.html#a379cba80b5c667d8d41d85426c4f5376">updateValue</a>(name,*value-&gt;<a class="code hl_function" href="../../d3/db9/class_config_obsolete.html#a5b2f5633d6d13cfe0c2873ab683db80e">valueStringRef</a>());</div>
+<p class="definition">Definition at line <a class="el" href="../../d9/de3/configimpl_8l_source.html#l02174">2174</a> of file <a class="el" href="../../d9/de3/configimpl_8l_source.html">configimpl.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 2175</span>{</div>
+<div class="line"><span class="lineno"> 2176</span>  attr.<a class="code hl_function" href="../../d5/d84/class_dot_attributes.html#a379cba80b5c667d8d41d85426c4f5376">updateValue</a>(name,*value-&gt;<a class="code hl_function" href="../../d3/db9/class_config_obsolete.html#a5b2f5633d6d13cfe0c2873ab683db80e">valueStringRef</a>());</div>
 <div class="ttc" id="aclass_config_obsolete_html_a5b2f5633d6d13cfe0c2873ab683db80e"><div class="ttname"><a href="../../d3/db9/class_config_obsolete.html#a5b2f5633d6d13cfe0c2873ab683db80e">ConfigObsolete::valueStringRef</a></div><div class="ttdeci">QCString * valueStringRef()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/db1/configimpl_8h_source.html#l00291">configimpl.h:291</a></div></div>
 <div class="ttc" id="aclass_dot_attributes_html_a379cba80b5c667d8d41d85426c4f5376"><div class="ttname"><a href="../../d5/d84/class_dot_attributes.html#a379cba80b5c667d8d41d85426c4f5376">DotAttributes::updateValue</a></div><div class="ttdeci">void updateValue(const QCString &amp;key, const QCString &amp;inpValue)</div><div class="ttdoc">update a given attribute with a new value.</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dfc/dotattributes_8h_source.html#l00037">dotattributes.h:37</a></div></div>
-<div class="line"><span class="lineno"> 2178</span>}</div>
+<div class="line"><span class="lineno"> 2177</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d6/dfc/dotattributes_8h_source.html#l00037">DotAttributes::updateValue()</a>, and <a class="el" href="../../db/db1/configimpl_8h_source.html#l00291">ConfigObsolete::valueStringRef()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/de3/configimpl_8l_source.html#l02180">Config::updateObsolete()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/de3/configimpl_8l_source.html#l02179">Config::updateObsolete()</a>.</p>
 
 </div>
 </div>
@@ -2540,7 +2540,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00636">636</a> of file <a class="el" href="../../d9/de3/configimpl_8l_source.html">configimpl.l</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/de3/configimpl_8l_source.html#l02249">Config::parse()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/de3/configimpl_8l_source.html#l02248">Config::parse()</a>.</p>
 
 </div>
 </div>
@@ -2566,7 +2566,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00635">635</a> of file <a class="el" href="../../d9/de3/configimpl_8l_source.html">configimpl.l</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00708">checkEncoding()</a>, <a class="el" href="../../d9/de3/configimpl_8l_source.html#l02249">Config::parse()</a>, <a class="el" href="../../d9/de3/configimpl_8l_source.html#l01570">ConfigImpl::parseString()</a>, and <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00714">stripComment()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00708">checkEncoding()</a>, <a class="el" href="../../d9/de3/configimpl_8l_source.html#l02248">Config::parse()</a>, <a class="el" href="../../d9/de3/configimpl_8l_source.html#l01570">ConfigImpl::parseString()</a>, and <a class="el" href="../../d9/de3/configimpl_8l_source.html#l00714">stripComment()</a>.</p>
 
 </div>
 </div>

@@ -271,6 +271,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/fortranscanner.l"
   Node1 -> Node73 [color="steelblue1",style="solid"];
   Node73 [label="debug.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d16/debug_8h.html",tooltip=" "];
   Node73 -> Node21 [color="steelblue1",style="solid"];
+  Node73 -> Node15 [color="steelblue1",style="solid"];
   Node1 -> Node74 [color="steelblue1",style="solid"];
   Node74 [label="markdown.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d0c/markdown_8h.html",tooltip=" "];
   Node74 -> Node11 [color="steelblue1",style="solid"];

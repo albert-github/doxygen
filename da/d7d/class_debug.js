@@ -41,7 +41,7 @@ var class_debug =
     ] ],
     [ "clearFlag", "da/d7d/class_debug.html#a8b6226d91e39828116b504b94e22b26b", null ],
     [ "elapsedTime", "da/d7d/class_debug.html#accc1a68a6e51b015caee0ab90ddb6e87", null ],
-    [ "isFlagSet", "da/d7d/class_debug.html#a92b0668ebfb43903d82ad112bf6c84e1", null ],
+    [ "isFlagSet", "da/d7d/class_debug.html#a96e9401783e852c91f341b3f98198061", null ],
     [ "print", "da/d7d/class_debug.html#a5d86ffebf96f9f75b6c957db5f831da3", null ],
     [ "printFlags", "da/d7d/class_debug.html#a2d8ac411144a380f838a1766118c6a03", null ],
     [ "setFlag", "da/d7d/class_debug.html#affb7c17adbcafb5ec252e95c70f12f53", null ],
