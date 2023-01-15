@@ -1,5 +1,7 @@
 var NAVTREEINDEX92 =
 {
+"dc/d44/class_translator_spanish.html#afb998e976e2db6209af008a62e16354e":[8,0,612,181],
+"dc/d44/class_translator_spanish.html#afc2466e86fec5063e6324c172d262a9c":[8,0,612,84],
 "dc/d44/class_translator_spanish.html#afe12ea704c8ac0900c3018ee64576f46":[8,0,612,62],
 "dc/d44/class_translator_spanish.html#afe520e8844f8e72cc724a29364cf3121":[8,0,612,80],
 "dc/d44/class_translator_spanish.html#afeff93e85b89d703be5e4ea8d5f8d458":[8,0,612,120],
@@ -247,7 +249,5 @@ var NAVTREEINDEX92 =
 "dc/d6f/class_class_tree_context.html#aa9018116562a4e05ce2d4f3ef760dd09":[8,0,49,4],
 "dc/d6f/class_class_tree_context.html#ad968e49122ae7353cce68f954a5d4e3b":[8,0,49,5],
 "dc/d6f/class_class_tree_context.html#aefee99bb762c07485c7c3e3f066a64f4":[8,0,49,2],
-"dc/d77/class_member_linked_ref_map.html":[8,0,388],
-"dc/d7c/struct_x_m_l_code_parser_1_1_private.html":[8,0,633,0],
-"dc/d7c/struct_x_m_l_code_parser_1_1_private.html#a6218feccae367303ec0adcb350a1b9bd":[8,0,633,0,1]
+"dc/d77/class_member_linked_ref_map.html":[8,0,388]
 };

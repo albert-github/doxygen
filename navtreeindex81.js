@@ -1,5 +1,7 @@
 var NAVTREEINDEX81 =
 {
+"da/dd8/struct_style_data.html#af5bfe4b887b11e7daba3c3648697e031":[8,0,484,4],
+"da/dd8/struct_style_data.html#af7b4270cec917791d56b70ff1c5606e3":[8,0,484,8],
 "da/dd8/struct_style_data.html#afa4e839cadb0aa89001d0a3b45845ce9":[8,0,484,1],
 "da/dd8/struct_style_data.html#afb8d293d6b6162f687f6d753e9221729":[8,0,484,6],
 "da/ddb/class_search_index_context.html":[8,0,467],
@@ -247,7 +249,5 @@ var NAVTREEINDEX81 =
 "db/d1e/class_flow_chart.html#a8dce4c5ff38314428145e71a788e5331":[8,0,284,33],
 "db/d1e/class_flow_chart.html#a948abd6948d3e24f3e9dec7eff2c3a18":[8,0,284,18],
 "db/d1e/class_flow_chart.html#a9b95266661529a9ec041d5e91f4c302f":[8,0,284,25],
-"db/d1e/class_flow_chart.html#a9ddf7f6aff23849c4bbb90afbabd38c1":[8,0,284,23],
-"db/d1e/class_flow_chart.html#aa01a87c51143a53315d534acc1340693":[8,0,284,20],
-"db/d1e/class_flow_chart.html#aa60f4f5059f25180b8c12f33db502a92":[8,0,284,40]
+"db/d1e/class_flow_chart.html#a9ddf7f6aff23849c4bbb90afbabd38c1":[8,0,284,23]
 };

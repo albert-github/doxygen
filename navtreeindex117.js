@@ -1,5 +1,7 @@
 var NAVTREEINDEX117 =
 {
+"de/d82/class_translator_polish.html#a2ee269237103a5832d56224baec80bef":[8,0,604,105],
+"de/d82/class_translator_polish.html#a2ee548d74d01e7b179d8d4d17a65fbd2":[8,0,604,208],
 "de/d82/class_translator_polish.html#a3240b7a231cbdf919ad2db0dac493482":[8,0,604,203],
 "de/d82/class_translator_polish.html#a3313d008a09e8c77fc6cbb43e5d438d2":[8,0,604,95],
 "de/d82/class_translator_polish.html#a338ca2e1ddddafaa41338ca875bee281":[8,0,604,77],
@@ -247,7 +249,5 @@ var NAVTREEINDEX117 =
 "de/d9a/commentcnv_8h_source.html":[9,0,2,17],
 "de/d9a/rtfdocvisitor_8cpp.html":[9,0,2,210],
 "de/d9a/rtfdocvisitor_8cpp.html#a1c683042be29f8f10d539f4a01a03237":[9,0,2,210,1],
-"de/d9a/rtfdocvisitor_8cpp.html#a8e937453cd49cd7e753fa4e9d77d3c38":[9,0,2,210,0],
-"de/d9a/rtfdocvisitor_8cpp_source.html":[9,0,2,210],
-"de/d9c/docparser_8h.html":[9,0,2,69]
+"de/d9a/rtfdocvisitor_8cpp.html#a8e937453cd49cd7e753fa4e9d77d3c38":[9,0,2,210,0]
 };

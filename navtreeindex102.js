@@ -1,5 +1,7 @@
 var NAVTREEINDEX102 =
 {
+"dd/d8a/class_translator_czech.html#aea4c9b20ea5461d0060e8396f9157422":[8,0,582,202],
+"dd/d8a/class_translator_czech.html#aebab1abf725031307c6182dfd88bd15f":[8,0,582,135],
 "dd/d8a/class_translator_czech.html#aebe8cad7bd80207a444b50188fcb3662":[8,0,582,85],
 "dd/d8a/class_translator_czech.html#aec2387a34264dc6e602bf2765ba797f8":[8,0,582,96],
 "dd/d8a/class_translator_czech.html#aece287473059fd31d4700daadc9d0b7b":[8,0,582,173],
@@ -213,10 +215,10 @@ var NAVTREEINDEX102 =
 "dd/dad/translator__gr_8h_source.html":[9,0,2,262],
 "dd/db2/class_fortran_outline_parser_fixed.html":[8,0,293],
 "dd/db2/class_fortran_outline_parser_fixed.html#a5f28fd868b92ae98d4dfced34475a874":[8,0,293,0],
-"dd/db2/structdetails_1_1_impl_3_01_t_01_4.html":[8,0,1,1],
 "dd/db2/structdetails_1_1_impl_3_01_t_01_4.html":[7,0,4,1],
-"dd/db2/structdetails_1_1_impl_3_01_t_01_4.html#a411ab39838b9727ee8bac81d3790fb11":[8,0,1,1,0],
+"dd/db2/structdetails_1_1_impl_3_01_t_01_4.html":[8,0,1,1],
 "dd/db2/structdetails_1_1_impl_3_01_t_01_4.html#a411ab39838b9727ee8bac81d3790fb11":[7,0,4,1,0],
+"dd/db2/structdetails_1_1_impl_3_01_t_01_4.html#a411ab39838b9727ee8bac81d3790fb11":[8,0,1,1,0],
 "dd/db6/xmldocvisitor_8cpp.html":[9,0,2,304],
 "dd/db6/xmldocvisitor_8cpp.html#a03eb2f5d208dcda707e4f2690645d593":[9,0,2,304,2],
 "dd/db6/xmldocvisitor_8cpp.html#a2d9403b8e90e26f54cf6502e7b23f0e8":[9,0,2,304,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX102 =
 "dd/dc7/struct_doc_diagram_file_base_1_1_private.html#a4e3b0716417dd834ecf5ee48dbdded00":[8,0,130,0,1],
 "dd/dc7/struct_doc_diagram_file_base_1_1_private.html#a51534100f2585cd16d4e4b91a36a2622":[8,0,130,0,7],
 "dd/dc7/struct_doc_diagram_file_base_1_1_private.html#a5c8e9a0373650f279a8ae408a9cff9d5":[8,0,130,0,0],
-"dd/dc7/struct_doc_diagram_file_base_1_1_private.html#a6382d6e6cf0d04a465741af8fea749b8":[8,0,130,0,6],
-"dd/dc7/struct_doc_diagram_file_base_1_1_private.html#a9f543c673365817924efd57194c8cdd8":[8,0,130,0,4],
-"dd/dc7/struct_doc_diagram_file_base_1_1_private.html#ae072b59d4648d6b0828b03c4a5287691":[8,0,130,0,5]
+"dd/dc7/struct_doc_diagram_file_base_1_1_private.html#a6382d6e6cf0d04a465741af8fea749b8":[8,0,130,0,6]
 };

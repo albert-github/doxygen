@@ -1,5 +1,7 @@
 var NAVTREEINDEX86 =
 {
+"db/daa/class_dot_file_patcher.html#a52738c3a25bf0b8a076ad4e0c301162a":[8,0,202,11],
+"db/daa/class_dot_file_patcher.html#a8a0183f93570ac3b1a8df3e0f7229a2b":[8,0,202,5],
 "db/daa/class_dot_file_patcher.html#aa53ad66e5d0c6a04f6d198aa030b63f3":[8,0,202,3],
 "db/daa/class_dot_file_patcher.html#aac97171a3985fd07e09fef2a25819a16":[8,0,202,4],
 "db/daa/class_dot_file_patcher.html#ae17984831f2efe1fab30c6ab5d9e36f0":[8,0,202,12],
@@ -11,10 +13,10 @@ var NAVTREEINDEX86 =
 "db/dab/struct_body_info.html#adf40ab79b5fe12c0e46fcd272a62cf44":[8,0,22,1],
 "db/dab/struct_body_info.html#af49dee4a07f48964799b97526d4375f0":[8,0,22,0],
 "db/dac/md_commands_history.html":[1],
-"db/dad/structfmt_1_1formatter_3_01_specifier_01_4.html":[8,0,2,7],
 "db/dad/structfmt_1_1formatter_3_01_specifier_01_4.html":[7,0,6,7],
-"db/dad/structfmt_1_1formatter_3_01_specifier_01_4.html#a1fb6b64c172d8a13b44e4d34d65da01c":[7,0,6,7,0],
+"db/dad/structfmt_1_1formatter_3_01_specifier_01_4.html":[8,0,2,7],
 "db/dad/structfmt_1_1formatter_3_01_specifier_01_4.html#a1fb6b64c172d8a13b44e4d34d65da01c":[8,0,2,7,0],
+"db/dad/structfmt_1_1formatter_3_01_specifier_01_4.html#a1fb6b64c172d8a13b44e4d34d65da01c":[7,0,6,7,0],
 "db/dae/struct_doc_link_info.html":[8,0,161],
 "db/dae/struct_doc_link_info.html#a2827af934ddee422d0f8711c9889f5e8":[8,0,161,0],
 "db/dae/struct_doc_link_info.html#a7607f6298e3e16dd3ef26d2f823bbb9c":[8,0,161,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX86 =
 "db/dcc/class_translator_korean.html#aadda5224341993ffe2162f6e59fdbc2e":[8,0,597,108],
 "db/dcc/class_translator_korean.html#aae94b4f8eff979fee43e96c596395bcb":[8,0,597,32],
 "db/dcc/class_translator_korean.html#aaf0b580274be3dbd8ef9450b59eaf66d":[8,0,597,232],
-"db/dcc/class_translator_korean.html#aaf735e849b61302e9546a94fb545ca0e":[8,0,597,60],
-"db/dcc/class_translator_korean.html#aaf78b1887bed900994e50ff139cb969d":[8,0,597,136],
-"db/dcc/class_translator_korean.html#ab144346dcb0d01e77740432b3715077d":[8,0,597,90]
+"db/dcc/class_translator_korean.html#aaf735e849b61302e9546a94fb545ca0e":[8,0,597,60]
 };
