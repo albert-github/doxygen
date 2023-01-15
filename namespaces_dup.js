@@ -47,6 +47,7 @@ var namespaces_dup =
         [ "Total", "d4/d3e/namespace_file_member_highlight.html#a399c1e21b2b7261ec5f1a5d7ec196550a7dfd6608e2a5d7755e8597463735a1f3", null ]
       ] ]
     ] ],
+    [ "fmt", "d4/d6d/namespacefmt.html", "d4/d6d/namespacefmt" ],
     [ "IndexIntf", "dc/d92/namespace_index_intf.html", "dc/d92/namespace_index_intf" ],
     [ "NamespaceMemberHighlight", "da/d4d/namespace_namespace_member_highlight.html", [
       [ "Enum", "da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7c", [
@@ -91,5 +92,8 @@ var namespaces_dup =
     ] ],
     [ "reg", "db/d35/namespacereg.html", "db/d35/namespacereg" ],
     [ "SearchIndexMethods", "d1/d43/namespace_search_index_methods.html", "d1/d43/namespace_search_index_methods" ],
+    [ "Trace", "d3/db9/namespace_trace.html", [
+      [ "trunc", "d3/db9/namespace_trace.html#a1859b0ba7161e012fecbd71dd4ec64d6", null ]
+    ] ],
     [ "vhdl", "d8/daf/namespacevhdl.html", "d8/daf/namespacevhdl" ]
 ];

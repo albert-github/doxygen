@@ -276,5 +276,11 @@ digraph "/home/runner/work/doxygen/doxygen/src/pre.l"
   Node73 [label="fileinfo.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d45/fileinfo_8h.html",tooltip=" "];
   Node73 -> Node7 [color="steelblue1",style="solid"];
   Node1 -> Node74 [color="steelblue1",style="solid"];
-  Node74 [label="doxygen_lex.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/da5/doxygen__lex_8h.html",tooltip=" "];
+  Node74 [label="trace.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d1b/trace_8h.html",tooltip=" "];
+  Node74 -> Node15 [color="steelblue1",style="solid"];
+  Node74 -> Node16 [color="steelblue1",style="solid"];
+  Node74 -> Node75 [color="steelblue1",style="solid"];
+  Node75 [label="spdlog/spdlog.h",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node1 -> Node76 [color="steelblue1",style="solid"];
+  Node76 [label="doxygen_lex.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/da5/doxygen__lex_8h.html",tooltip=" "];
 }

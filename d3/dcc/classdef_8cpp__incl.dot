@@ -394,4 +394,10 @@ digraph "/home/runner/work/doxygen/doxygen/src/classdef.cpp"
   Node98 -> Node5 [color="steelblue1",style="solid"];
   Node98 -> Node13 [color="steelblue1",style="solid"];
   Node1 -> Node82 [color="steelblue1",style="solid"];
+  Node1 -> Node99 [color="steelblue1",style="solid"];
+  Node99 [label="trace.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d1b/trace_8h.html",tooltip=" "];
+  Node99 -> Node4 [color="steelblue1",style="solid"];
+  Node99 -> Node5 [color="steelblue1",style="solid"];
+  Node99 -> Node100 [color="steelblue1",style="solid"];
+  Node100 [label="spdlog/spdlog.h",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
 }

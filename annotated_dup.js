@@ -9,6 +9,17 @@ var annotated_dup =
       [ "Impl", "de/d05/structdetails_1_1_impl.html", "de/d05/structdetails_1_1_impl" ],
       [ "Impl< T >", "dd/db2/structdetails_1_1_impl_3_01_t_01_4.html", "dd/db2/structdetails_1_1_impl_3_01_t_01_4" ]
     ] ],
+    [ "fmt", "d4/d6d/namespacefmt.html", [
+      [ "formatter", "db/d75/structfmt_1_1formatter.html", null ],
+      [ "formatter< MemberType >", "d9/d4a/structfmt_1_1formatter_3_01_member_type_01_4.html", "d9/d4a/structfmt_1_1formatter_3_01_member_type_01_4" ],
+      [ "formatter< MethodTypes >", "d2/d84/structfmt_1_1formatter_3_01_method_types_01_4.html", "d2/d84/structfmt_1_1formatter_3_01_method_types_01_4" ],
+      [ "formatter< Protection >", "d3/d53/structfmt_1_1formatter_3_01_protection_01_4.html", "d3/d53/structfmt_1_1formatter_3_01_protection_01_4" ],
+      [ "formatter< QCString >", "d1/dc4/structfmt_1_1formatter_3_01_q_c_string_01_4.html", "d1/dc4/structfmt_1_1formatter_3_01_q_c_string_01_4" ],
+      [ "formatter< RelatesType >", "db/dff/structfmt_1_1formatter_3_01_relates_type_01_4.html", "db/dff/structfmt_1_1formatter_3_01_relates_type_01_4" ],
+      [ "formatter< Relationship >", "db/db7/structfmt_1_1formatter_3_01_relationship_01_4.html", "db/db7/structfmt_1_1formatter_3_01_relationship_01_4" ],
+      [ "formatter< Specifier >", "db/dad/structfmt_1_1formatter_3_01_specifier_01_4.html", "db/dad/structfmt_1_1formatter_3_01_specifier_01_4" ],
+      [ "formatter< SrcLangExt >", "df/dca/structfmt_1_1formatter_3_01_src_lang_ext_01_4.html", "df/dca/structfmt_1_1formatter_3_01_src_lang_ext_01_4" ]
+    ] ],
     [ "IndexIntf", "dc/d92/namespace_index_intf.html", [
       [ "addContentsItem", "df/d1e/struct_index_intf_1_1add_contents_item.html", "df/d1e/struct_index_intf_1_1add_contents_item" ],
       [ "addImageFile", "d5/d8a/struct_index_intf_1_1add_image_file.html", "d5/d8a/struct_index_intf_1_1add_image_file" ],
@@ -60,6 +71,7 @@ var annotated_dup =
     [ "ArgumentListContext", "d3/d8a/class_argument_list_context.html", "d3/d8a/class_argument_list_context" ],
     [ "AutoNodeStack", "d2/d29/class_auto_node_stack.html", "d2/d29/class_auto_node_stack" ],
     [ "AutoTimeKeeper", "df/d45/class_auto_time_keeper.html", "df/d45/class_auto_time_keeper" ],
+    [ "AutoTrace", "d5/dca/class_auto_trace.html", "d5/dca/class_auto_trace" ],
     [ "BaseClassDef", "d1/d06/struct_base_class_def.html", "d1/d06/struct_base_class_def" ],
     [ "BaseInfo", "de/d64/struct_base_info.html", "de/d64/struct_base_info" ],
     [ "BaseOutputDocInterface", "df/d27/class_base_output_doc_interface.html", "df/d27/class_base_output_doc_interface" ],
@@ -599,7 +611,6 @@ var annotated_dup =
     [ "Timer", "d8/d08/class_timer.html", "d8/d08/class_timer" ],
     [ "TokenInfo", "d6/df4/struct_token_info.html", "d6/df4/struct_token_info" ],
     [ "TooltipManager", "d5/dae/class_tooltip_manager.html", "d5/dae/class_tooltip_manager" ],
-    [ "Trace", "dd/db7/class_trace.html", "dd/db7/class_trace" ],
     [ "TranslateContext", "d2/dbb/class_translate_context.html", "d2/dbb/class_translate_context" ],
     [ "Translator", "d8/dfb/class_translator.html", "d8/dfb/class_translator" ],
     [ "TranslatorAdapter_1_4_6", "d4/d2b/class_translator_adapter__1__4__6.html", "d4/d2b/class_translator_adapter__1__4__6" ],

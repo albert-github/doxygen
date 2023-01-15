@@ -7,7 +7,6 @@ var pre_8l =
     [ "DefineManager::DefinesPerFile", "dd/df4/class_define_manager_1_1_defines_per_file.html", "dd/df4/class_define_manager_1_1_defines_per_file" ],
     [ "preYY_state", "d3/d29/structpre_y_y__state.html", "d3/d29/structpre_y_y__state" ],
     [ "Preprocessor::Private", "d4/dd9/struct_preprocessor_1_1_private.html", "d4/dd9/struct_preprocessor_1_1_private" ],
-    [ "DBG_CTX", "d0/da7/pre_8l.html#a234e2efe67eececd88b140b46ea37463", null ],
     [ "MAX_EXPANSION_DEPTH", "d0/da7/pre_8l.html#a246c42ffcd2228031eb52e0de54b60d5", null ],
     [ "USE_STATE2STRING", "d0/da7/pre_8l.html#a1d0e1b21cfd1d3709de673b9a6e8a53b", null ],
     [ "YY_INPUT", "d0/da7/pre_8l.html#aacfdca45fa4beb8b06172525a53c424a", null ],

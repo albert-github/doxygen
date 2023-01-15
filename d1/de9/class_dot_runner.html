@@ -110,7 +110,8 @@ $(document).ready(function(){initNavTree('d1/de9/class_dot_runner.html','../../'
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/dee/class_dot_runner__coll__graph.svg" width="139" height="154"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/dee/class_dot_runner__coll__graph.svg" width="139" height="154"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
@@ -440,12 +441,12 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  183</span>      <span class="keywordtype">int</span> col=17;</div>
 <div class="line"><span class="lineno">  184</span>      i+=streamStart.length();</div>
 <div class="line"><span class="lineno">  185</span>      <span class="keyword">const</span> <span class="keywordtype">size_t</span> start=i;</div>
-<div class="line"><span class="lineno">  186</span>      <a class="code hl_define" href="../../d0/d2b/docnode_8cpp.html#a32adf79142f0a426b5e782fb7cd4cad3">DBG</a>((<span class="stringliteral">&quot;---- start stream at offset %08x\n&quot;</span>,(<span class="keywordtype">int</span>)i));</div>
+<div class="line"><span class="lineno">  186</span>      <a class="code hl_define" href="../../d1/dfe/dotrunner_8cpp.html#a32adf79142f0a426b5e782fb7cd4cad3">DBG</a>((<span class="stringliteral">&quot;---- start stream at offset %08x\n&quot;</span>,(<span class="keywordtype">int</span>)i));</div>
 <div class="line"><span class="lineno">  187</span>      <span class="keywordflow">while</span> (i&lt;l)</div>
 <div class="line"><span class="lineno">  188</span>      {</div>
 <div class="line"><span class="lineno">  189</span>        <span class="keywordflow">if</span> (contents[i]==<span class="charliteral">&#39;\n&#39;</span> &amp;&amp; strncmp(&amp;contents[i],streamEnd.c_str(),streamEnd.length())==0)</div>
 <div class="line"><span class="lineno">  190</span>        { <span class="comment">// compressed block found in range [start..i]</span></div>
-<div class="line"><span class="lineno">  191</span>          <a class="code hl_define" href="../../d0/d2b/docnode_8cpp.html#a32adf79142f0a426b5e782fb7cd4cad3">DBG</a>((<span class="stringliteral">&quot;\n---- end stream at offset %08x\n&quot;</span>,(<span class="keywordtype">int</span>)i));</div>
+<div class="line"><span class="lineno">  191</span>          <a class="code hl_define" href="../../d1/dfe/dotrunner_8cpp.html#a32adf79142f0a426b5e782fb7cd4cad3">DBG</a>((<span class="stringliteral">&quot;\n---- end stream at offset %08x\n&quot;</span>,(<span class="keywordtype">int</span>)i));</div>
 <div class="line"><span class="lineno">  192</span>          <span class="comment">// decompress it into decompressBuf</span></div>
 <div class="line"><span class="lineno">  193</span>          std::vector&lt;char&gt; decompressBuf;</div>
 <div class="line"><span class="lineno">  194</span>          <span class="keyword">const</span> <span class="keywordtype">char</span> *source = &amp;contents[start];</div>
@@ -461,7 +462,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  204</span>          Deflate(getter,putter);</div>
 <div class="line"><span class="lineno">  205</span>          <span class="comment">// convert decompression buffer to string</span></div>
 <div class="line"><span class="lineno">  206</span>          std::string s(decompressBuf.begin(), decompressBuf.end());</div>
-<div class="line"><span class="lineno">  207</span>          <a class="code hl_define" href="../../d0/d2b/docnode_8cpp.html#a32adf79142f0a426b5e782fb7cd4cad3">DBG</a>((<span class="stringliteral">&quot;decompressed_data=[[[\n%s\n]]]\n&quot;</span>,s.c_str()));</div>
+<div class="line"><span class="lineno">  207</span>          <a class="code hl_define" href="../../d1/dfe/dotrunner_8cpp.html#a32adf79142f0a426b5e782fb7cd4cad3">DBG</a>((<span class="stringliteral">&quot;decompressed_data=[[[\n%s\n]]]\n&quot;</span>,s.c_str()));</div>
 <div class="line"><span class="lineno">  208</span>          <span class="comment">// search for bounding box marker</span></div>
 <div class="line"><span class="lineno">  209</span>          <span class="keyword">const</span> <span class="keywordtype">size_t</span> idx = s.find(boundingBox);</div>
 <div class="line"><span class="lineno">  210</span>          <span class="keywordflow">if</span> (idx!=std::string::npos) <span class="comment">// found bounding box in uncompressed data</span></div>
@@ -474,8 +475,8 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  217</span>        }</div>
 <div class="line"><span class="lineno">  218</span>        <span class="keywordflow">else</span> <span class="comment">// compressed stream character</span></div>
 <div class="line"><span class="lineno">  219</span>        {</div>
-<div class="line"><span class="lineno">  220</span>          <span class="keywordflow">if</span> (col&gt;16) { col=0; <a class="code hl_define" href="../../d0/d2b/docnode_8cpp.html#a32adf79142f0a426b5e782fb7cd4cad3">DBG</a>((<span class="stringliteral">&quot;\n%08x: &quot;</span>,<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(i))); }</div>
-<div class="line"><span class="lineno">  221</span>          <a class="code hl_define" href="../../d0/d2b/docnode_8cpp.html#a32adf79142f0a426b5e782fb7cd4cad3">DBG</a>((<span class="stringliteral">&quot;%02x &quot;</span>,<span class="keyword">static_cast&lt;</span><span class="keywordtype">unsigned</span> <span class="keywordtype">char</span><span class="keyword">&gt;</span>(contents[i])));</div>
+<div class="line"><span class="lineno">  220</span>          <span class="keywordflow">if</span> (col&gt;16) { col=0; <a class="code hl_define" href="../../d1/dfe/dotrunner_8cpp.html#a32adf79142f0a426b5e782fb7cd4cad3">DBG</a>((<span class="stringliteral">&quot;\n%08x: &quot;</span>,<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(i))); }</div>
+<div class="line"><span class="lineno">  221</span>          <a class="code hl_define" href="../../d1/dfe/dotrunner_8cpp.html#a32adf79142f0a426b5e782fb7cd4cad3">DBG</a>((<span class="stringliteral">&quot;%02x &quot;</span>,<span class="keyword">static_cast&lt;</span><span class="keywordtype">unsigned</span> <span class="keywordtype">char</span><span class="keyword">&gt;</span>(contents[i])));</div>
 <div class="line"><span class="lineno">  222</span>          col++;</div>
 <div class="line"><span class="lineno">  223</span>          i++;</div>
 <div class="line"><span class="lineno">  224</span>        }</div>
@@ -495,13 +496,13 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  238</span>  <span class="comment">// nothing found</span></div>
 <div class="line"><span class="lineno">  239</span>  <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><span class="lineno">  240</span>}</div>
-<div class="ttc" id="adocnode_8cpp_html_a32adf79142f0a426b5e782fb7cd4cad3"><div class="ttname"><a href="../../d0/d2b/docnode_8cpp.html#a32adf79142f0a426b5e782fb7cd4cad3">DBG</a></div><div class="ttdeci">#define DBG(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2b/docnode_8cpp_source.html#l00038">docnode.cpp:38</a></div></div>
+<div class="ttc" id="adotrunner_8cpp_html_a32adf79142f0a426b5e782fb7cd4cad3"><div class="ttname"><a href="../../d1/dfe/dotrunner_8cpp.html#a32adf79142f0a426b5e782fb7cd4cad3">DBG</a></div><div class="ttdeci">#define DBG(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dfe/dotrunner_8cpp_source.html#l00047">dotrunner.cpp:47</a></div></div>
 <div class="ttc" id="aformula_8cpp_html_ac7978878c5e2989e9739423aa06f805a"><div class="ttname"><a href="../../d7/d5b/formula_8cpp.html#ac7978878c5e2989e9739423aa06f805a">extractBoundingBox</a></div><div class="ttdeci">static bool extractBoundingBox(const QCString &amp;formBase, int *x1, int *y1, int *x2, int *y2, double *x1hi, double *y1hi, double *x2hi, double *y2hi)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5b/formula_8cpp_source.html#l00304">formula.cpp:304</a></div></div>
 <div class="ttc" id="amessage_8cpp_html_aede5746344fdce99647541101eaa7f06"><div class="ttname"><a href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a></div><div class="ttdeci">void err(const char *fmt,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6a/message_8cpp_source.html#l00231">message.cpp:231</a></div></div>
 <div class="ttc" id="anamespace_portable_html_a0579eaf8c245a77f1e804a3cf1b0aa73"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#a0579eaf8c245a77f1e804a3cf1b0aa73">Portable::openInputStream</a></div><div class="ttdeci">std::ifstream openInputStream(const QCString &amp;name, bool binary=false, bool openAtEnd=false)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1c/portable_8cpp_source.html#l00659">portable.cpp:659</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_a9851ebb5ae2f65b4d2b1d08421edbfd2"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a></div><div class="ttdeci">const char * qPrint(const char *s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00613">qcstring.h:613</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00038">DBG</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00231">err()</a>, <a class="el" href="../../d7/d5b/formula_8cpp_source.html#l00304">extractBoundingBox()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00659">Portable::openInputStream()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00613">qPrint()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/dfe/dotrunner_8cpp_source.html#l00047">DBG</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00231">err()</a>, <a class="el" href="../../d7/d5b/formula_8cpp_source.html#l00304">extractBoundingBox()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00659">Portable::openInputStream()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00613">qPrint()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/dfe/dotrunner_8cpp_source.html#l00275">run()</a>, and <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00586">DotFilePatcher::writeVecGfxFigure()</a>.</p>
 

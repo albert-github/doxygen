@@ -104,14 +104,16 @@ $(document).ready(function(){initNavTree('d6/d78/class_translator_english.html',
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d0e/class_translator_english__inherit__graph.svg" width="344" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d0e/class_translator_english__inherit__graph.svg" width="344" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for TranslatorEnglish:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/dac/class_translator_english__coll__graph.svg" width="144" height="110"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/dac/class_translator_english__coll__graph.svg" width="144" height="110"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -2581,88 +2583,91 @@ Public Member Functions</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#ad6f0a606a70a842fc6bab2dc3a8087eb">Translator</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l02445">2445</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2446</span>    {</div>
-<div class="line"><span class="lineno"> 2447</span>      <span class="keywordtype">bool</span> extractAll = <a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(EXTRACT_ALL);</div>
-<div class="line"><span class="lineno"> 2448</span>      <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> result=<span class="stringliteral">&quot;Here is a list of all &quot;</span>;</div>
-<div class="line"><span class="lineno"> 2449</span>      <span class="keywordflow">if</span> (!extractAll)</div>
-<div class="line"><span class="lineno"> 2450</span>      {</div>
-<div class="line"><span class="lineno"> 2451</span>        result+=<span class="stringliteral">&quot;documented &quot;</span>;</div>
-<div class="line"><span class="lineno"> 2452</span>      }</div>
-<div class="line"><span class="lineno"> 2453</span> </div>
-<div class="line"><span class="lineno"> 2454</span>      <span class="keywordflow">switch</span> (hl)</div>
-<div class="line"><span class="lineno"> 2455</span>      {</div>
-<div class="line"><span class="lineno"> 2456</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/d71/namespace_class_member_highlight.html#a6048197e058a0592b709901a26fd5beba525098ea62cbd9b913ceea1265eade0d">ClassMemberHighlight::All</a>:</div>
-<div class="line"><span class="lineno"> 2457</span>          <span class="keywordflow">if</span> (<a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(OPTIMIZE_OUTPUT_FOR_C))</div>
-<div class="line"><span class="lineno"> 2458</span>          {</div>
-<div class="line"><span class="lineno"> 2459</span>            result+=<span class="stringliteral">&quot;struct and union fields&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2460</span>          }</div>
-<div class="line"><span class="lineno"> 2461</span>          <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno"> 2462</span>          {</div>
-<div class="line"><span class="lineno"> 2463</span>            result+=<span class="stringliteral">&quot;class members&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2464</span>          }</div>
-<div class="line"><span class="lineno"> 2465</span>          <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 2466</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/d71/namespace_class_member_highlight.html#a6048197e058a0592b709901a26fd5bebace63d3b887ff69dc23d3bcf921399f04">ClassMemberHighlight::Functions</a>:</div>
-<div class="line"><span class="lineno"> 2467</span>          result+=<span class="stringliteral">&quot;functions&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2468</span>          <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 2469</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/d71/namespace_class_member_highlight.html#a6048197e058a0592b709901a26fd5beba19d9a8f4e05df2e1a3475c55060fac6b">ClassMemberHighlight::Variables</a>:</div>
-<div class="line"><span class="lineno"> 2470</span>          result+=<span class="stringliteral">&quot;variables&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2471</span>          <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 2472</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/d71/namespace_class_member_highlight.html#a6048197e058a0592b709901a26fd5beba3032b799b82514421a73aa3c41963261">ClassMemberHighlight::Typedefs</a>:</div>
-<div class="line"><span class="lineno"> 2473</span>          result+=<span class="stringliteral">&quot;typedefs&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2474</span>          <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 2475</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/d71/namespace_class_member_highlight.html#a6048197e058a0592b709901a26fd5beba7046101c6dcadf2e24d1957e9f239554">ClassMemberHighlight::Enums</a>:</div>
-<div class="line"><span class="lineno"> 2476</span>          result+=<span class="stringliteral">&quot;enums&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2477</span>          <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 2478</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/d71/namespace_class_member_highlight.html#a6048197e058a0592b709901a26fd5beba373da1884065adefbae311305eb2db9b">ClassMemberHighlight::EnumValues</a>:</div>
-<div class="line"><span class="lineno"> 2479</span>          result+=<span class="stringliteral">&quot;enum values&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2480</span>          <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 2481</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/d71/namespace_class_member_highlight.html#a6048197e058a0592b709901a26fd5beba5ddbeed21dbb7628f833e7e6d8119cb6">ClassMemberHighlight::Properties</a>:</div>
-<div class="line"><span class="lineno"> 2482</span>          result+=<span class="stringliteral">&quot;properties&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2483</span>          <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 2484</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/d71/namespace_class_member_highlight.html#a6048197e058a0592b709901a26fd5bebad729fb1b23106e5472bec39ff0e8fa75">ClassMemberHighlight::Events</a>:</div>
-<div class="line"><span class="lineno"> 2485</span>          result+=<span class="stringliteral">&quot;events&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2486</span>          <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 2487</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/d71/namespace_class_member_highlight.html#a6048197e058a0592b709901a26fd5beba414351f516224ef9dc574636365547d1">ClassMemberHighlight::Related</a>:</div>
-<div class="line"><span class="lineno"> 2488</span>          result+=<span class="stringliteral">&quot;related symbols&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2489</span>          <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 2490</span>      }</div>
-<div class="line"><span class="lineno"> 2491</span>      result+=<span class="stringliteral">&quot; with links to &quot;</span>;</div>
-<div class="line"><span class="lineno"> 2492</span>      <span class="keywordflow">if</span> (!extractAll)</div>
-<div class="line"><span class="lineno"> 2493</span>      {</div>
-<div class="line"><span class="lineno"> 2494</span>        <span class="keywordflow">if</span> (<a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(OPTIMIZE_OUTPUT_FOR_C))</div>
-<div class="line"><span class="lineno"> 2495</span>        {</div>
-<div class="line"><span class="lineno"> 2496</span>          result+=<span class="stringliteral">&quot;the struct/union documentation for each field:&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2497</span>        }</div>
-<div class="line"><span class="lineno"> 2498</span>        <span class="keywordflow">else</span></div>
+<p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l02447">2447</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 2448</span>    {</div>
+<div class="line"><span class="lineno"> 2449</span>      <span class="keywordtype">bool</span> extractAll = <a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(EXTRACT_ALL);</div>
+<div class="line"><span class="lineno"> 2450</span>      <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> result=<span class="stringliteral">&quot;Here is a list of all &quot;</span>;</div>
+<div class="line"><span class="lineno"> 2451</span>      <span class="keywordflow">if</span> (!extractAll)</div>
+<div class="line"><span class="lineno"> 2452</span>      {</div>
+<div class="line"><span class="lineno"> 2453</span>        result+=<span class="stringliteral">&quot;documented &quot;</span>;</div>
+<div class="line"><span class="lineno"> 2454</span>      }</div>
+<div class="line"><span class="lineno"> 2455</span> </div>
+<div class="line"><span class="lineno"> 2456</span>      <span class="keywordflow">switch</span> (hl)</div>
+<div class="line"><span class="lineno"> 2457</span>      {</div>
+<div class="line"><span class="lineno"> 2458</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/d71/namespace_class_member_highlight.html#a6048197e058a0592b709901a26fd5beba525098ea62cbd9b913ceea1265eade0d">ClassMemberHighlight::All</a>:</div>
+<div class="line"><span class="lineno"> 2459</span>          <span class="keywordflow">if</span> (<a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(OPTIMIZE_OUTPUT_FOR_C))</div>
+<div class="line"><span class="lineno"> 2460</span>          {</div>
+<div class="line"><span class="lineno"> 2461</span>            result+=<span class="stringliteral">&quot;struct and union fields&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2462</span>          }</div>
+<div class="line"><span class="lineno"> 2463</span>          <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 2464</span>          {</div>
+<div class="line"><span class="lineno"> 2465</span>            result+=<span class="stringliteral">&quot;class members&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2466</span>          }</div>
+<div class="line"><span class="lineno"> 2467</span>          <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2468</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/d71/namespace_class_member_highlight.html#a6048197e058a0592b709901a26fd5bebace63d3b887ff69dc23d3bcf921399f04">ClassMemberHighlight::Functions</a>:</div>
+<div class="line"><span class="lineno"> 2469</span>          result+=<span class="stringliteral">&quot;functions&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2470</span>          <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2471</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/d71/namespace_class_member_highlight.html#a6048197e058a0592b709901a26fd5beba19d9a8f4e05df2e1a3475c55060fac6b">ClassMemberHighlight::Variables</a>:</div>
+<div class="line"><span class="lineno"> 2472</span>          result+=<span class="stringliteral">&quot;variables&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2473</span>          <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2474</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/d71/namespace_class_member_highlight.html#a6048197e058a0592b709901a26fd5beba3032b799b82514421a73aa3c41963261">ClassMemberHighlight::Typedefs</a>:</div>
+<div class="line"><span class="lineno"> 2475</span>          result+=<span class="stringliteral">&quot;typedefs&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2476</span>          <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2477</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/d71/namespace_class_member_highlight.html#a6048197e058a0592b709901a26fd5beba7046101c6dcadf2e24d1957e9f239554">ClassMemberHighlight::Enums</a>:</div>
+<div class="line"><span class="lineno"> 2478</span>          result+=<span class="stringliteral">&quot;enums&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2479</span>          <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2480</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/d71/namespace_class_member_highlight.html#a6048197e058a0592b709901a26fd5beba373da1884065adefbae311305eb2db9b">ClassMemberHighlight::EnumValues</a>:</div>
+<div class="line"><span class="lineno"> 2481</span>          result+=<span class="stringliteral">&quot;enum values&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2482</span>          <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2483</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/d71/namespace_class_member_highlight.html#a6048197e058a0592b709901a26fd5beba5ddbeed21dbb7628f833e7e6d8119cb6">ClassMemberHighlight::Properties</a>:</div>
+<div class="line"><span class="lineno"> 2484</span>          result+=<span class="stringliteral">&quot;properties&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2485</span>          <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2486</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/d71/namespace_class_member_highlight.html#a6048197e058a0592b709901a26fd5bebad729fb1b23106e5472bec39ff0e8fa75">ClassMemberHighlight::Events</a>:</div>
+<div class="line"><span class="lineno"> 2487</span>          result+=<span class="stringliteral">&quot;events&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2488</span>          <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2489</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/d71/namespace_class_member_highlight.html#a6048197e058a0592b709901a26fd5beba414351f516224ef9dc574636365547d1">ClassMemberHighlight::Related</a>:</div>
+<div class="line"><span class="lineno"> 2490</span>          result+=<span class="stringliteral">&quot;related symbols&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2491</span>          <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2492</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/d71/namespace_class_member_highlight.html#a6048197e058a0592b709901a26fd5beba499794d5799366ef962288af11c865b4">ClassMemberHighlight::Total</a>: <span class="comment">// for completeness</span></div>
+<div class="line"><span class="lineno"> 2493</span>          <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2494</span>      }</div>
+<div class="line"><span class="lineno"> 2495</span>      result+=<span class="stringliteral">&quot; with links to &quot;</span>;</div>
+<div class="line"><span class="lineno"> 2496</span>      <span class="keywordflow">if</span> (!extractAll)</div>
+<div class="line"><span class="lineno"> 2497</span>      {</div>
+<div class="line"><span class="lineno"> 2498</span>        <span class="keywordflow">if</span> (<a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(OPTIMIZE_OUTPUT_FOR_C))</div>
 <div class="line"><span class="lineno"> 2499</span>        {</div>
-<div class="line"><span class="lineno"> 2500</span>          result+=<span class="stringliteral">&quot;the class documentation for each member:&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2500</span>          result+=<span class="stringliteral">&quot;the struct/union documentation for each field:&quot;</span>;</div>
 <div class="line"><span class="lineno"> 2501</span>        }</div>
-<div class="line"><span class="lineno"> 2502</span>      }</div>
-<div class="line"><span class="lineno"> 2503</span>      <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno"> 2504</span>      {</div>
-<div class="line"><span class="lineno"> 2505</span>        <span class="keywordflow">if</span> (<a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(OPTIMIZE_OUTPUT_FOR_C))</div>
-<div class="line"><span class="lineno"> 2506</span>        {</div>
-<div class="line"><span class="lineno"> 2507</span>          result+=<span class="stringliteral">&quot;the structures/unions they belong to:&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2508</span>        }</div>
-<div class="line"><span class="lineno"> 2509</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 2502</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 2503</span>        {</div>
+<div class="line"><span class="lineno"> 2504</span>          result+=<span class="stringliteral">&quot;the class documentation for each member:&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2505</span>        }</div>
+<div class="line"><span class="lineno"> 2506</span>      }</div>
+<div class="line"><span class="lineno"> 2507</span>      <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 2508</span>      {</div>
+<div class="line"><span class="lineno"> 2509</span>        <span class="keywordflow">if</span> (<a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(OPTIMIZE_OUTPUT_FOR_C))</div>
 <div class="line"><span class="lineno"> 2510</span>        {</div>
-<div class="line"><span class="lineno"> 2511</span>          result+=<span class="stringliteral">&quot;the classes they belong to:&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2511</span>          result+=<span class="stringliteral">&quot;the structures/unions they belong to:&quot;</span>;</div>
 <div class="line"><span class="lineno"> 2512</span>        }</div>
-<div class="line"><span class="lineno"> 2513</span>      }</div>
-<div class="line"><span class="lineno"> 2514</span>      <span class="keywordflow">return</span> result;</div>
-<div class="line"><span class="lineno"> 2515</span>    }</div>
+<div class="line"><span class="lineno"> 2513</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 2514</span>        {</div>
+<div class="line"><span class="lineno"> 2515</span>          result+=<span class="stringliteral">&quot;the classes they belong to:&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2516</span>        }</div>
+<div class="line"><span class="lineno"> 2517</span>      }</div>
+<div class="line"><span class="lineno"> 2518</span>      <span class="keywordflow">return</span> result;</div>
+<div class="line"><span class="lineno"> 2519</span>    }</div>
 <div class="ttc" id="anamespace_class_member_highlight_html_a6048197e058a0592b709901a26fd5beba19d9a8f4e05df2e1a3475c55060fac6b"><div class="ttname"><a href="../../d0/d71/namespace_class_member_highlight.html#a6048197e058a0592b709901a26fd5beba19d9a8f4e05df2e1a3475c55060fac6b">ClassMemberHighlight::Variables</a></div><div class="ttdeci">@ Variables</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db5/index_8h_source.html#l00100">index.h:100</a></div></div>
 <div class="ttc" id="anamespace_class_member_highlight_html_a6048197e058a0592b709901a26fd5beba3032b799b82514421a73aa3c41963261"><div class="ttname"><a href="../../d0/d71/namespace_class_member_highlight.html#a6048197e058a0592b709901a26fd5beba3032b799b82514421a73aa3c41963261">ClassMemberHighlight::Typedefs</a></div><div class="ttdeci">@ Typedefs</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db5/index_8h_source.html#l00101">index.h:101</a></div></div>
 <div class="ttc" id="anamespace_class_member_highlight_html_a6048197e058a0592b709901a26fd5beba373da1884065adefbae311305eb2db9b"><div class="ttname"><a href="../../d0/d71/namespace_class_member_highlight.html#a6048197e058a0592b709901a26fd5beba373da1884065adefbae311305eb2db9b">ClassMemberHighlight::EnumValues</a></div><div class="ttdeci">@ EnumValues</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db5/index_8h_source.html#l00103">index.h:103</a></div></div>
 <div class="ttc" id="anamespace_class_member_highlight_html_a6048197e058a0592b709901a26fd5beba414351f516224ef9dc574636365547d1"><div class="ttname"><a href="../../d0/d71/namespace_class_member_highlight.html#a6048197e058a0592b709901a26fd5beba414351f516224ef9dc574636365547d1">ClassMemberHighlight::Related</a></div><div class="ttdeci">@ Related</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db5/index_8h_source.html#l00106">index.h:106</a></div></div>
+<div class="ttc" id="anamespace_class_member_highlight_html_a6048197e058a0592b709901a26fd5beba499794d5799366ef962288af11c865b4"><div class="ttname"><a href="../../d0/d71/namespace_class_member_highlight.html#a6048197e058a0592b709901a26fd5beba499794d5799366ef962288af11c865b4">ClassMemberHighlight::Total</a></div><div class="ttdeci">@ Total</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db5/index_8h_source.html#l00108">index.h:107</a></div></div>
 <div class="ttc" id="anamespace_class_member_highlight_html_a6048197e058a0592b709901a26fd5beba525098ea62cbd9b913ceea1265eade0d"><div class="ttname"><a href="../../d0/d71/namespace_class_member_highlight.html#a6048197e058a0592b709901a26fd5beba525098ea62cbd9b913ceea1265eade0d">ClassMemberHighlight::All</a></div><div class="ttdeci">@ All</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db5/index_8h_source.html#l00098">index.h:98</a></div></div>
 <div class="ttc" id="anamespace_class_member_highlight_html_a6048197e058a0592b709901a26fd5beba5ddbeed21dbb7628f833e7e6d8119cb6"><div class="ttname"><a href="../../d0/d71/namespace_class_member_highlight.html#a6048197e058a0592b709901a26fd5beba5ddbeed21dbb7628f833e7e6d8119cb6">ClassMemberHighlight::Properties</a></div><div class="ttdeci">@ Properties</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db5/index_8h_source.html#l00104">index.h:104</a></div></div>
 <div class="ttc" id="anamespace_class_member_highlight_html_a6048197e058a0592b709901a26fd5beba7046101c6dcadf2e24d1957e9f239554"><div class="ttname"><a href="../../d0/d71/namespace_class_member_highlight.html#a6048197e058a0592b709901a26fd5beba7046101c6dcadf2e24d1957e9f239554">ClassMemberHighlight::Enums</a></div><div class="ttdeci">@ Enums</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db5/index_8h_source.html#l00102">index.h:102</a></div></div>
 <div class="ttc" id="anamespace_class_member_highlight_html_a6048197e058a0592b709901a26fd5bebace63d3b887ff69dc23d3bcf921399f04"><div class="ttname"><a href="../../d0/d71/namespace_class_member_highlight.html#a6048197e058a0592b709901a26fd5bebace63d3b887ff69dc23d3bcf921399f04">ClassMemberHighlight::Functions</a></div><div class="ttdeci">@ Functions</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db5/index_8h_source.html#l00099">index.h:99</a></div></div>
 <div class="ttc" id="anamespace_class_member_highlight_html_a6048197e058a0592b709901a26fd5bebad729fb1b23106e5472bec39ff0e8fa75"><div class="ttname"><a href="../../d0/d71/namespace_class_member_highlight.html#a6048197e058a0592b709901a26fd5bebad729fb1b23106e5472bec39ff0e8fa75">ClassMemberHighlight::Events</a></div><div class="ttdeci">@ Events</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db5/index_8h_source.html#l00105">index.h:105</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/db5/index_8h_source.html#l00098">ClassMemberHighlight::All</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00102">ClassMemberHighlight::Enums</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00103">ClassMemberHighlight::EnumValues</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00105">ClassMemberHighlight::Events</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00099">ClassMemberHighlight::Functions</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00104">ClassMemberHighlight::Properties</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00106">ClassMemberHighlight::Related</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00101">ClassMemberHighlight::Typedefs</a>, and <a class="el" href="../../d1/db5/index_8h_source.html#l00100">ClassMemberHighlight::Variables</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/db5/index_8h_source.html#l00098">ClassMemberHighlight::All</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00102">ClassMemberHighlight::Enums</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00103">ClassMemberHighlight::EnumValues</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00105">ClassMemberHighlight::Events</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00099">ClassMemberHighlight::Functions</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00104">ClassMemberHighlight::Properties</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00106">ClassMemberHighlight::Related</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00107">ClassMemberHighlight::Total</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00101">ClassMemberHighlight::Typedefs</a>, and <a class="el" href="../../d1/db5/index_8h_source.html#l00100">ClassMemberHighlight::Variables</a>.</p>
 
 </div>
 </div>
@@ -5814,25 +5819,28 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 2434</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d3e/namespace_file_member_highlight.html#a399c1e21b2b7261ec5f1a5d7ec196550a59883aafd8f0fe50292a1c0b1e76a193">FileMemberHighlight::Defines</a>:</div>
 <div class="line"><span class="lineno"> 2435</span>          result+=<span class="stringliteral">&quot;macros&quot;</span>;</div>
 <div class="line"><span class="lineno"> 2436</span>          <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 2437</span>      }</div>
-<div class="line"><span class="lineno"> 2438</span>      result+=<span class="stringliteral">&quot; with links to &quot;</span>;</div>
-<div class="line"><span class="lineno"> 2439</span>      <span class="keywordflow">if</span> (extractAll)</div>
-<div class="line"><span class="lineno"> 2440</span>        result+=<span class="stringliteral">&quot;the files they belong to:&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2441</span>      <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno"> 2442</span>        result+=<span class="stringliteral">&quot;the documentation:&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2443</span>      <span class="keywordflow">return</span> result;</div>
-<div class="line"><span class="lineno"> 2444</span>    }</div>
+<div class="line"><span class="lineno"> 2437</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d3e/namespace_file_member_highlight.html#a399c1e21b2b7261ec5f1a5d7ec196550a7dfd6608e2a5d7755e8597463735a1f3">FileMemberHighlight::Total</a>: <span class="comment">// for completeness</span></div>
+<div class="line"><span class="lineno"> 2438</span>          <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2439</span>      }</div>
+<div class="line"><span class="lineno"> 2440</span>      result+=<span class="stringliteral">&quot; with links to &quot;</span>;</div>
+<div class="line"><span class="lineno"> 2441</span>      <span class="keywordflow">if</span> (extractAll)</div>
+<div class="line"><span class="lineno"> 2442</span>        result+=<span class="stringliteral">&quot;the files they belong to:&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2443</span>      <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 2444</span>        result+=<span class="stringliteral">&quot;the documentation:&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2445</span>      <span class="keywordflow">return</span> result;</div>
+<div class="line"><span class="lineno"> 2446</span>    }</div>
 <div class="ttc" id="anamespace_file_member_highlight_html_a399c1e21b2b7261ec5f1a5d7ec196550a0a64469e670acdb15c0e54f163442f23"><div class="ttname"><a href="../../d4/d3e/namespace_file_member_highlight.html#a399c1e21b2b7261ec5f1a5d7ec196550a0a64469e670acdb15c0e54f163442f23">FileMemberHighlight::Enums</a></div><div class="ttdeci">@ Enums</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db5/index_8h_source.html#l00121">index.h:121</a></div></div>
 <div class="ttc" id="anamespace_file_member_highlight_html_a399c1e21b2b7261ec5f1a5d7ec196550a54838102aa091836d1d3f2d8153a775b"><div class="ttname"><a href="../../d4/d3e/namespace_file_member_highlight.html#a399c1e21b2b7261ec5f1a5d7ec196550a54838102aa091836d1d3f2d8153a775b">FileMemberHighlight::All</a></div><div class="ttdeci">@ All</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db5/index_8h_source.html#l00115">index.h:115</a></div></div>
 <div class="ttc" id="anamespace_file_member_highlight_html_a399c1e21b2b7261ec5f1a5d7ec196550a55566e280dbc48c59582757eeffb0c66"><div class="ttname"><a href="../../d4/d3e/namespace_file_member_highlight.html#a399c1e21b2b7261ec5f1a5d7ec196550a55566e280dbc48c59582757eeffb0c66">FileMemberHighlight::Functions</a></div><div class="ttdeci">@ Functions</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db5/index_8h_source.html#l00116">index.h:116</a></div></div>
 <div class="ttc" id="anamespace_file_member_highlight_html_a399c1e21b2b7261ec5f1a5d7ec196550a59883aafd8f0fe50292a1c0b1e76a193"><div class="ttname"><a href="../../d4/d3e/namespace_file_member_highlight.html#a399c1e21b2b7261ec5f1a5d7ec196550a59883aafd8f0fe50292a1c0b1e76a193">FileMemberHighlight::Defines</a></div><div class="ttdeci">@ Defines</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db5/index_8h_source.html#l00123">index.h:123</a></div></div>
 <div class="ttc" id="anamespace_file_member_highlight_html_a399c1e21b2b7261ec5f1a5d7ec196550a6dd12687d93e22e14a20d351f9f3d74c"><div class="ttname"><a href="../../d4/d3e/namespace_file_member_highlight.html#a399c1e21b2b7261ec5f1a5d7ec196550a6dd12687d93e22e14a20d351f9f3d74c">FileMemberHighlight::Sequences</a></div><div class="ttdeci">@ Sequences</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db5/index_8h_source.html#l00119">index.h:119</a></div></div>
 <div class="ttc" id="anamespace_file_member_highlight_html_a399c1e21b2b7261ec5f1a5d7ec196550a7aca50dbdbeebcccc32785478c9839b2"><div class="ttname"><a href="../../d4/d3e/namespace_file_member_highlight.html#a399c1e21b2b7261ec5f1a5d7ec196550a7aca50dbdbeebcccc32785478c9839b2">FileMemberHighlight::Dictionaries</a></div><div class="ttdeci">@ Dictionaries</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db5/index_8h_source.html#l00120">index.h:120</a></div></div>
+<div class="ttc" id="anamespace_file_member_highlight_html_a399c1e21b2b7261ec5f1a5d7ec196550a7dfd6608e2a5d7755e8597463735a1f3"><div class="ttname"><a href="../../d4/d3e/namespace_file_member_highlight.html#a399c1e21b2b7261ec5f1a5d7ec196550a7dfd6608e2a5d7755e8597463735a1f3">FileMemberHighlight::Total</a></div><div class="ttdeci">@ Total</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db5/index_8h_source.html#l00125">index.h:124</a></div></div>
 <div class="ttc" id="anamespace_file_member_highlight_html_a399c1e21b2b7261ec5f1a5d7ec196550a848a73782770c7b91561c70630dc2616"><div class="ttname"><a href="../../d4/d3e/namespace_file_member_highlight.html#a399c1e21b2b7261ec5f1a5d7ec196550a848a73782770c7b91561c70630dc2616">FileMemberHighlight::EnumValues</a></div><div class="ttdeci">@ EnumValues</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db5/index_8h_source.html#l00122">index.h:122</a></div></div>
 <div class="ttc" id="anamespace_file_member_highlight_html_a399c1e21b2b7261ec5f1a5d7ec196550a8f2dc989544bd5a25930094ce51c05a3"><div class="ttname"><a href="../../d4/d3e/namespace_file_member_highlight.html#a399c1e21b2b7261ec5f1a5d7ec196550a8f2dc989544bd5a25930094ce51c05a3">FileMemberHighlight::Variables</a></div><div class="ttdeci">@ Variables</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db5/index_8h_source.html#l00117">index.h:117</a></div></div>
 <div class="ttc" id="anamespace_file_member_highlight_html_a399c1e21b2b7261ec5f1a5d7ec196550abb544fc0cd4889c5c428c9dfe186b4cb"><div class="ttname"><a href="../../d4/d3e/namespace_file_member_highlight.html#a399c1e21b2b7261ec5f1a5d7ec196550abb544fc0cd4889c5c428c9dfe186b4cb">FileMemberHighlight::Typedefs</a></div><div class="ttdeci">@ Typedefs</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db5/index_8h_source.html#l00118">index.h:118</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/db5/index_8h_source.html#l00115">FileMemberHighlight::All</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00123">FileMemberHighlight::Defines</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00120">FileMemberHighlight::Dictionaries</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00121">FileMemberHighlight::Enums</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00122">FileMemberHighlight::EnumValues</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00116">FileMemberHighlight::Functions</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00119">FileMemberHighlight::Sequences</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00118">FileMemberHighlight::Typedefs</a>, and <a class="el" href="../../d1/db5/index_8h_source.html#l00117">FileMemberHighlight::Variables</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/db5/index_8h_source.html#l00115">FileMemberHighlight::All</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00123">FileMemberHighlight::Defines</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00120">FileMemberHighlight::Dictionaries</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00121">FileMemberHighlight::Enums</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00122">FileMemberHighlight::EnumValues</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00116">FileMemberHighlight::Functions</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00119">FileMemberHighlight::Sequences</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00124">FileMemberHighlight::Total</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00118">FileMemberHighlight::Typedefs</a>, and <a class="el" href="../../d1/db5/index_8h_source.html#l00117">FileMemberHighlight::Variables</a>.</p>
 
 </div>
 </div>
@@ -8592,51 +8600,54 @@ Public Member Functions</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d8/dfb/class_translator.html#aa6d0f273ceeee79218b3f538b7f695a5">Translator</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l02516">2516</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2517</span>    {</div>
-<div class="line"><span class="lineno"> 2518</span>      <span class="keywordtype">bool</span> extractAll = <a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(EXTRACT_ALL);</div>
-<div class="line"><span class="lineno"> 2519</span>      <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> result=<span class="stringliteral">&quot;Here is a list of all &quot;</span>;</div>
-<div class="line"><span class="lineno"> 2520</span>      <span class="keywordflow">if</span> (!extractAll) result+=<span class="stringliteral">&quot;documented &quot;</span>;</div>
-<div class="line"><span class="lineno"> 2521</span>      result+=<span class="stringliteral">&quot;namespace &quot;</span>;</div>
-<div class="line"><span class="lineno"> 2522</span>      <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> singularResult = <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2523</span>      <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> pluralResult = <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2524</span>      <span class="keywordflow">switch</span> (hl)</div>
-<div class="line"><span class="lineno"> 2525</span>      {</div>
-<div class="line"><span class="lineno"> 2526</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca361bea90e10d43996b1baed4e51cbd62">NamespaceMemberHighlight::All</a>:</div>
-<div class="line"><span class="lineno"> 2527</span>          singularResult=<span class="stringliteral">&quot;member&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2528</span>          <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 2529</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca69da3a4829e3330851f4ca6d2828018f">NamespaceMemberHighlight::Functions</a>:</div>
-<div class="line"><span class="lineno"> 2530</span>          singularResult=<span class="stringliteral">&quot;function&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2531</span>          <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 2532</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca653b486e14d3775eff75c1fc3582557a">NamespaceMemberHighlight::Variables</a>:</div>
-<div class="line"><span class="lineno"> 2533</span>          singularResult=<span class="stringliteral">&quot;variable&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2534</span>          <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 2535</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca600a97f79b076618a0891f10352c0fdb">NamespaceMemberHighlight::Typedefs</a>:</div>
-<div class="line"><span class="lineno"> 2536</span>          singularResult=<span class="stringliteral">&quot;typedef&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2537</span>          <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 2538</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca612a9d9df61450edc5503a6bf328b3b1">NamespaceMemberHighlight::Sequences</a>:</div>
-<div class="line"><span class="lineno"> 2539</span>          singularResult=<span class="stringliteral">&quot;sequence&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2540</span>          <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 2541</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca058990972fd9b9f273438f613c9599c5">NamespaceMemberHighlight::Dictionaries</a>:</div>
-<div class="line"><span class="lineno"> 2542</span>          singularResult=<span class="stringliteral">&quot;dictionary&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2543</span>          pluralResult=<span class="stringliteral">&quot;dictionaries&quot;</span>;</div>
+<p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l02520">2520</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 2521</span>    {</div>
+<div class="line"><span class="lineno"> 2522</span>      <span class="keywordtype">bool</span> extractAll = <a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(EXTRACT_ALL);</div>
+<div class="line"><span class="lineno"> 2523</span>      <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> result=<span class="stringliteral">&quot;Here is a list of all &quot;</span>;</div>
+<div class="line"><span class="lineno"> 2524</span>      <span class="keywordflow">if</span> (!extractAll) result+=<span class="stringliteral">&quot;documented &quot;</span>;</div>
+<div class="line"><span class="lineno"> 2525</span>      result+=<span class="stringliteral">&quot;namespace &quot;</span>;</div>
+<div class="line"><span class="lineno"> 2526</span>      <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> singularResult = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2527</span>      <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> pluralResult = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2528</span>      <span class="keywordflow">switch</span> (hl)</div>
+<div class="line"><span class="lineno"> 2529</span>      {</div>
+<div class="line"><span class="lineno"> 2530</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca361bea90e10d43996b1baed4e51cbd62">NamespaceMemberHighlight::All</a>:</div>
+<div class="line"><span class="lineno"> 2531</span>          singularResult=<span class="stringliteral">&quot;member&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2532</span>          <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2533</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca69da3a4829e3330851f4ca6d2828018f">NamespaceMemberHighlight::Functions</a>:</div>
+<div class="line"><span class="lineno"> 2534</span>          singularResult=<span class="stringliteral">&quot;function&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2535</span>          <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2536</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca653b486e14d3775eff75c1fc3582557a">NamespaceMemberHighlight::Variables</a>:</div>
+<div class="line"><span class="lineno"> 2537</span>          singularResult=<span class="stringliteral">&quot;variable&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2538</span>          <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2539</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca600a97f79b076618a0891f10352c0fdb">NamespaceMemberHighlight::Typedefs</a>:</div>
+<div class="line"><span class="lineno"> 2540</span>          singularResult=<span class="stringliteral">&quot;typedef&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2541</span>          <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2542</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca612a9d9df61450edc5503a6bf328b3b1">NamespaceMemberHighlight::Sequences</a>:</div>
+<div class="line"><span class="lineno"> 2543</span>          singularResult=<span class="stringliteral">&quot;sequence&quot;</span>;</div>
 <div class="line"><span class="lineno"> 2544</span>          <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 2545</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca3c3fda61a1823a23e8c49f3c915859f3">NamespaceMemberHighlight::Enums</a>:</div>
-<div class="line"><span class="lineno"> 2546</span>          singularResult=<span class="stringliteral">&quot;enum&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2547</span>          <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 2548</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca2c419cf729051a9e2eef2743ccc9f84d">NamespaceMemberHighlight::EnumValues</a>:</div>
-<div class="line"><span class="lineno"> 2549</span>          singularResult=<span class="stringliteral">&quot;enum value&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2550</span>          <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 2551</span>      }</div>
-<div class="line"><span class="lineno"> 2552</span>      result+=(pluralResult.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>() ? singularResult+<span class="stringliteral">&quot;s&quot;</span> : pluralResult);</div>
-<div class="line"><span class="lineno"> 2553</span>      result+=<span class="stringliteral">&quot; with links to &quot;</span>;</div>
-<div class="line"><span class="lineno"> 2554</span>      <span class="keywordflow">if</span> (extractAll)</div>
-<div class="line"><span class="lineno"> 2555</span>        result+=<span class="stringliteral">&quot;the namespace documentation for each &quot;</span> + singularResult + <span class="stringliteral">&quot;:&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2556</span>      <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno"> 2557</span>        result+=<span class="stringliteral">&quot;the namespaces they belong to:&quot;</span>;</div>
-<div class="line"><span class="lineno"> 2558</span>      <span class="keywordflow">return</span> result;</div>
-<div class="line"><span class="lineno"> 2559</span>    }</div>
+<div class="line"><span class="lineno"> 2545</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca058990972fd9b9f273438f613c9599c5">NamespaceMemberHighlight::Dictionaries</a>:</div>
+<div class="line"><span class="lineno"> 2546</span>          singularResult=<span class="stringliteral">&quot;dictionary&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2547</span>          pluralResult=<span class="stringliteral">&quot;dictionaries&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2548</span>          <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2549</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca3c3fda61a1823a23e8c49f3c915859f3">NamespaceMemberHighlight::Enums</a>:</div>
+<div class="line"><span class="lineno"> 2550</span>          singularResult=<span class="stringliteral">&quot;enum&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2551</span>          <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2552</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca2c419cf729051a9e2eef2743ccc9f84d">NamespaceMemberHighlight::EnumValues</a>:</div>
+<div class="line"><span class="lineno"> 2553</span>          singularResult=<span class="stringliteral">&quot;enum value&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2554</span>          <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2555</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca0871415d5e1675ebcdb37b458fc8b67f">NamespaceMemberHighlight::Total</a>: <span class="comment">// for completeness</span></div>
+<div class="line"><span class="lineno"> 2556</span>          <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2557</span>      }</div>
+<div class="line"><span class="lineno"> 2558</span>      result+=(pluralResult.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>() ? singularResult+<span class="stringliteral">&quot;s&quot;</span> : pluralResult);</div>
+<div class="line"><span class="lineno"> 2559</span>      result+=<span class="stringliteral">&quot; with links to &quot;</span>;</div>
+<div class="line"><span class="lineno"> 2560</span>      <span class="keywordflow">if</span> (extractAll)</div>
+<div class="line"><span class="lineno"> 2561</span>        result+=<span class="stringliteral">&quot;the namespace documentation for each &quot;</span> + singularResult + <span class="stringliteral">&quot;:&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2562</span>      <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 2563</span>        result+=<span class="stringliteral">&quot;the namespaces they belong to:&quot;</span>;</div>
+<div class="line"><span class="lineno"> 2564</span>      <span class="keywordflow">return</span> result;</div>
+<div class="line"><span class="lineno"> 2565</span>    }</div>
 <div class="ttc" id="anamespace_namespace_member_highlight_html_a021f146e1894f62e142ba38537ccfb7ca058990972fd9b9f273438f613c9599c5"><div class="ttname"><a href="../../da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca058990972fd9b9f273438f613c9599c5">NamespaceMemberHighlight::Dictionaries</a></div><div class="ttdeci">@ Dictionaries</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db5/index_8h_source.html#l00137">index.h:137</a></div></div>
+<div class="ttc" id="anamespace_namespace_member_highlight_html_a021f146e1894f62e142ba38537ccfb7ca0871415d5e1675ebcdb37b458fc8b67f"><div class="ttname"><a href="../../da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca0871415d5e1675ebcdb37b458fc8b67f">NamespaceMemberHighlight::Total</a></div><div class="ttdeci">@ Total</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db5/index_8h_source.html#l00141">index.h:140</a></div></div>
 <div class="ttc" id="anamespace_namespace_member_highlight_html_a021f146e1894f62e142ba38537ccfb7ca2c419cf729051a9e2eef2743ccc9f84d"><div class="ttname"><a href="../../da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca2c419cf729051a9e2eef2743ccc9f84d">NamespaceMemberHighlight::EnumValues</a></div><div class="ttdeci">@ EnumValues</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db5/index_8h_source.html#l00139">index.h:139</a></div></div>
 <div class="ttc" id="anamespace_namespace_member_highlight_html_a021f146e1894f62e142ba38537ccfb7ca361bea90e10d43996b1baed4e51cbd62"><div class="ttname"><a href="../../da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca361bea90e10d43996b1baed4e51cbd62">NamespaceMemberHighlight::All</a></div><div class="ttdeci">@ All</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db5/index_8h_source.html#l00132">index.h:132</a></div></div>
 <div class="ttc" id="anamespace_namespace_member_highlight_html_a021f146e1894f62e142ba38537ccfb7ca3c3fda61a1823a23e8c49f3c915859f3"><div class="ttname"><a href="../../da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca3c3fda61a1823a23e8c49f3c915859f3">NamespaceMemberHighlight::Enums</a></div><div class="ttdeci">@ Enums</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db5/index_8h_source.html#l00138">index.h:138</a></div></div>
@@ -8645,7 +8656,7 @@ Public Member Functions</h2></td></tr>
 <div class="ttc" id="anamespace_namespace_member_highlight_html_a021f146e1894f62e142ba38537ccfb7ca653b486e14d3775eff75c1fc3582557a"><div class="ttname"><a href="../../da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca653b486e14d3775eff75c1fc3582557a">NamespaceMemberHighlight::Variables</a></div><div class="ttdeci">@ Variables</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db5/index_8h_source.html#l00134">index.h:134</a></div></div>
 <div class="ttc" id="anamespace_namespace_member_highlight_html_a021f146e1894f62e142ba38537ccfb7ca69da3a4829e3330851f4ca6d2828018f"><div class="ttname"><a href="../../da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca69da3a4829e3330851f4ca6d2828018f">NamespaceMemberHighlight::Functions</a></div><div class="ttdeci">@ Functions</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db5/index_8h_source.html#l00133">index.h:133</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/db5/index_8h_source.html#l00132">NamespaceMemberHighlight::All</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00137">NamespaceMemberHighlight::Dictionaries</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00138">NamespaceMemberHighlight::Enums</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00139">NamespaceMemberHighlight::EnumValues</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00133">NamespaceMemberHighlight::Functions</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00136">NamespaceMemberHighlight::Sequences</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00135">NamespaceMemberHighlight::Typedefs</a>, and <a class="el" href="../../d1/db5/index_8h_source.html#l00134">NamespaceMemberHighlight::Variables</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/db5/index_8h_source.html#l00132">NamespaceMemberHighlight::All</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00137">NamespaceMemberHighlight::Dictionaries</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00138">NamespaceMemberHighlight::Enums</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00139">NamespaceMemberHighlight::EnumValues</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00133">NamespaceMemberHighlight::Functions</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00136">NamespaceMemberHighlight::Sequences</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00140">NamespaceMemberHighlight::Total</a>, <a class="el" href="../../d1/db5/index_8h_source.html#l00135">NamespaceMemberHighlight::Typedefs</a>, and <a class="el" href="../../d1/db5/index_8h_source.html#l00134">NamespaceMemberHighlight::Variables</a>.</p>
 
 </div>
 </div>

@@ -93,7 +93,6 @@ $(document).ready(function(){initNavTree('df/d54/template_8cpp.html','../../'); 
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
@@ -115,12 +114,14 @@ $(document).ready(function(){initNavTree('df/d54/template_8cpp.html','../../'); 
 <code>#include &quot;<a class="el" href="../../df/d9c/dir_8h_source.html">dir.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../db/d7c/utf8_8h_source.html">utf8.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d6/d9c/latexgen_8h_source.html">latexgen.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/d1b/trace_8h_source.html">trace.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for template.cpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/d4d/template_8cpp__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/d4d/template_8cpp__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 </div>
 <p><a href="../../df/d54/template_8cpp_source.html">Go to the source code of this file.</a></p>
@@ -392,13 +393,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d8d/class_template_engine_1_1_private_1_1_include_entry.html">TemplateEngine::Private::IncludeEntry</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:ab1b100016578b875cd432e6b519ffc0b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d54/template_8cpp.html#ab1b100016578b875cd432e6b519ffc0b">ENABLE_TRACING</a>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:ab1b100016578b875cd432e6b519ffc0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a494d31903e7b0333dfa03b0778679113"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d54/template_8cpp.html#a494d31903e7b0333dfa03b0778679113">TRACE</a>(x)</td></tr>
-<tr class="separator:a494d31903e7b0333dfa03b0778679113"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:a9dacbf829f3ee810cab9b4c9fa42aa42"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d54/template_8cpp.html#a9dacbf829f3ee810cab9b4c9fa42aa42">TemplateStructPtr</a> = std::shared_ptr&lt; <a class="el" href="../../d8/d4b/class_template_struct.html">TemplateStruct</a> &gt;</td></tr>
@@ -531,43 +525,6 @@ Variables</h2></td></tr>
 <tr class="memitem:a25e706435257b51a90187e9ef2813252"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dd/d26/class_template_node_factory_1_1_auto_register.html">TemplateNodeFactory::AutoRegister</a>&lt; <a class="el" href="../../dd/dff/class_template_node_close_sub_index.html">TemplateNodeCloseSubIndex</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d54/template_8cpp.html#a25e706435257b51a90187e9ef2813252">autoRefCloseSubIndex</a> (&quot;closesubindex&quot;)</td></tr>
 <tr class="separator:a25e706435257b51a90187e9ef2813252"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ab1b100016578b875cd432e6b519ffc0b" name="ab1b100016578b875cd432e6b519ffc0b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1b100016578b875cd432e6b519ffc0b">&#9670;&#160;</a></span>ENABLE_TRACING</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ENABLE_TRACING&#160;&#160;&#160;0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l00034">34</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a494d31903e7b0333dfa03b0778679113" name="a494d31903e7b0333dfa03b0778679113"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a494d31903e7b0333dfa03b0778679113">&#9670;&#160;</a></span>TRACE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TRACE</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">x</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l00039">39</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
-
-</div>
-</div>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a2214bd11f3e3f4889db270420d0365a7" name="a2214bd11f3e3f4889db270420d0365a7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2214bd11f3e3f4889db270420d0365a7">&#9670;&#160;</a></span>ExprAstFilterPtr</h2>
@@ -581,7 +538,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01758">1758</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01738">1738</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
 
 </div>
 </div>
@@ -597,7 +554,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01669">1669</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01650">1650</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
 
 </div>
 </div>
@@ -613,7 +570,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01668">1668</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01649">1649</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
 
 </div>
 </div>
@@ -629,7 +586,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l00223">223</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l00204">204</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
 
 </div>
 </div>
@@ -645,7 +602,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01945">1945</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01925">1925</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
 
 </div>
 </div>
@@ -661,7 +618,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l00146">146</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l00127">127</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
 
 </div>
 </div>
@@ -677,7 +634,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01960">1960</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01940">1940</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
 
 </div>
 </div>
@@ -693,7 +650,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01961">1961</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01941">1941</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
 
 </div>
 </div>
@@ -722,19 +679,19 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l02844">2844</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2845</span>{</div>
-<div class="line"><span class="lineno"> 2846</span>  <a class="code hl_typedef" href="../../df/d54/template_8cpp.html#a73f99c5c02d86d4db5ac1e465da9de54">TemplateListPtr</a> result = <a class="code hl_function" href="../../de/dab/class_template_list.html#a6840730b8664bc08ef26924fa1cd76b9">TemplateList::alloc</a>();</div>
-<div class="line"><span class="lineno"> 2847</span>  <a class="code hl_function" href="../../df/d54/template_8cpp.html#ab83357707d9b7c0463ef22e9f345e445">getPathListFunc</a>(entryWeakRef.lock(),result);</div>
-<div class="line"><span class="lineno"> 2848</span>  <span class="keywordflow">return</span> std::static_pointer_cast&lt;TemplateListIntf&gt;(result);</div>
-<div class="line"><span class="lineno"> 2849</span>}</div>
-<div class="ttc" id="aclass_template_list_html_a6840730b8664bc08ef26924fa1cd76b9"><div class="ttname"><a href="../../de/dab/class_template_list.html#a6840730b8664bc08ef26924fa1cd76b9">TemplateList::alloc</a></div><div class="ttdeci">static TemplateListPtr alloc()</div><div class="ttdoc">Creates an instance and returns a shared pointer to it.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l00289">template.cpp:289</a></div></div>
-<div class="ttc" id="atemplate_8cpp_html_a73f99c5c02d86d4db5ac1e465da9de54"><div class="ttname"><a href="../../df/d54/template_8cpp.html#a73f99c5c02d86d4db5ac1e465da9de54">TemplateListPtr</a></div><div class="ttdeci">std::shared_ptr&lt; TemplateList &gt; TemplateListPtr</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l00223">template.cpp:223</a></div></div>
-<div class="ttc" id="atemplate_8cpp_html_ab83357707d9b7c0463ef22e9f345e445"><div class="ttname"><a href="../../df/d54/template_8cpp.html#ab83357707d9b7c0463ef22e9f345e445">getPathListFunc</a></div><div class="ttdeci">static void getPathListFunc(const TemplateStructIntfPtr entry, TemplateListPtr list)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l02831">template.cpp:2831</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l02812">2812</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 2813</span>{</div>
+<div class="line"><span class="lineno"> 2814</span>  <a class="code hl_typedef" href="../../df/d54/template_8cpp.html#a73f99c5c02d86d4db5ac1e465da9de54">TemplateListPtr</a> result = <a class="code hl_function" href="../../de/dab/class_template_list.html#a6840730b8664bc08ef26924fa1cd76b9">TemplateList::alloc</a>();</div>
+<div class="line"><span class="lineno"> 2815</span>  <a class="code hl_function" href="../../df/d54/template_8cpp.html#ab83357707d9b7c0463ef22e9f345e445">getPathListFunc</a>(entryWeakRef.lock(),result);</div>
+<div class="line"><span class="lineno"> 2816</span>  <span class="keywordflow">return</span> std::static_pointer_cast&lt;TemplateListIntf&gt;(result);</div>
+<div class="line"><span class="lineno"> 2817</span>}</div>
+<div class="ttc" id="aclass_template_list_html_a6840730b8664bc08ef26924fa1cd76b9"><div class="ttname"><a href="../../de/dab/class_template_list.html#a6840730b8664bc08ef26924fa1cd76b9">TemplateList::alloc</a></div><div class="ttdeci">static TemplateListPtr alloc()</div><div class="ttdoc">Creates an instance and returns a shared pointer to it.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l00270">template.cpp:270</a></div></div>
+<div class="ttc" id="atemplate_8cpp_html_a73f99c5c02d86d4db5ac1e465da9de54"><div class="ttname"><a href="../../df/d54/template_8cpp.html#a73f99c5c02d86d4db5ac1e465da9de54">TemplateListPtr</a></div><div class="ttdeci">std::shared_ptr&lt; TemplateList &gt; TemplateListPtr</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l00204">template.cpp:204</a></div></div>
+<div class="ttc" id="atemplate_8cpp_html_ab83357707d9b7c0463ef22e9f345e445"><div class="ttname"><a href="../../df/d54/template_8cpp.html#ab83357707d9b7c0463ef22e9f345e445">getPathListFunc</a></div><div class="ttdeci">static void getPathListFunc(const TemplateStructIntfPtr entry, TemplateListPtr list)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l02799">template.cpp:2799</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l00289">TemplateList::alloc()</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l02831">getPathListFunc()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l00270">TemplateList::alloc()</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l02799">getPathListFunc()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l02851">TemplateContextImpl::addIndexEntry()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l02819">TemplateContextImpl::addIndexEntry()</a>.</p>
 
 </div>
 </div>
@@ -772,24 +729,24 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l02831">2831</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2832</span>{</div>
-<div class="line"><span class="lineno"> 2833</span>  <span class="keywordflow">if</span> (entry)</div>
-<div class="line"><span class="lineno"> 2834</span>  {</div>
-<div class="line"><span class="lineno"> 2835</span>    <a class="code hl_class" href="../../d1/dba/class_template_variant.html">TemplateVariant</a> <a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">parent</a> = entry-&gt;get(<span class="stringliteral">&quot;parent&quot;</span>);</div>
-<div class="line"><span class="lineno"> 2836</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">parent</a>.isStruct() || <a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">parent</a>.isWeakStruct())</div>
-<div class="line"><span class="lineno"> 2837</span>    {</div>
-<div class="line"><span class="lineno"> 2838</span>      <a class="code hl_function" href="../../df/d54/template_8cpp.html#ab83357707d9b7c0463ef22e9f345e445">getPathListFunc</a>(<a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">parent</a>.toStruct(),list);</div>
-<div class="line"><span class="lineno"> 2839</span>    }</div>
-<div class="line"><span class="lineno"> 2840</span>    list-&gt;append(entry);</div>
-<div class="line"><span class="lineno"> 2841</span>  }</div>
-<div class="line"><span class="lineno"> 2842</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l02799">2799</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 2800</span>{</div>
+<div class="line"><span class="lineno"> 2801</span>  <span class="keywordflow">if</span> (entry)</div>
+<div class="line"><span class="lineno"> 2802</span>  {</div>
+<div class="line"><span class="lineno"> 2803</span>    <a class="code hl_class" href="../../d1/dba/class_template_variant.html">TemplateVariant</a> <a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">parent</a> = entry-&gt;get(<span class="stringliteral">&quot;parent&quot;</span>);</div>
+<div class="line"><span class="lineno"> 2804</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">parent</a>.isStruct() || <a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">parent</a>.isWeakStruct())</div>
+<div class="line"><span class="lineno"> 2805</span>    {</div>
+<div class="line"><span class="lineno"> 2806</span>      <a class="code hl_function" href="../../df/d54/template_8cpp.html#ab83357707d9b7c0463ef22e9f345e445">getPathListFunc</a>(<a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">parent</a>.toStruct(),list);</div>
+<div class="line"><span class="lineno"> 2807</span>    }</div>
+<div class="line"><span class="lineno"> 2808</span>    list-&gt;append(entry);</div>
+<div class="line"><span class="lineno"> 2809</span>  }</div>
+<div class="line"><span class="lineno"> 2810</span>}</div>
 <div class="ttc" id="aclass_template_variant_html"><div class="ttname"><a href="../../d1/dba/class_template_variant.html">TemplateVariant</a></div><div class="ttdoc">Variant type which can hold one value of a fixed set of types.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/db8/template_8h_source.html#l00098">template.h:99</a></div></div>
 <div class="ttc" id="adocnode_8h_html_aa08872da61afee56859056e5a0612633"><div class="ttname"><a href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">parent</a></div><div class="ttdeci">constexpr DocNodeVariant * parent(DocNodeVariant *n)</div><div class="ttdoc">returns the parent node of a given node n or 0 if the node has no parent.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l01286">docnode.h:1286</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l02831">getPathListFunc()</a>, and <a class="el" href="../../de/d2b/docnode_8h_source.html#l01286">parent()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l02799">getPathListFunc()</a>, and <a class="el" href="../../de/d2b/docnode_8h_source.html#l01286">parent()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l02844">getPathFunc()</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l02831">getPathListFunc()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l02812">getPathFunc()</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l02799">getPathListFunc()</a>.</p>
 
 </div>
 </div>
@@ -819,34 +776,34 @@ Variables</h2></td></tr>
 
 <p>Strips spaces surrounding <code>=</code> from string <em>in</em>, so &lsquo;foo = 10 bar=5 baz= 'hello&rsquo;<code>will become</code>foo=10 bar=5 baz='hello'`. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l00100">100</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  101</span>{</div>
-<div class="line"><span class="lineno">  102</span>  <span class="comment">//printf(&quot;&gt;removeSpacesAroundEquals(%s)\n&quot;,qPrint(s));</span></div>
-<div class="line"><span class="lineno">  103</span>  <a class="code hl_typedef" href="../../d7/d5c/qcstring_8h.html#a4d3943ddea65db7163a58e6c7e8df95a">uint</a> i=0, dstIdx=0, l=s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">length</a>();</div>
-<div class="line"><span class="lineno">  104</span>  <span class="keywordflow">while</span> (i&lt;l)</div>
-<div class="line"><span class="lineno">  105</span>  {</div>
-<div class="line"><span class="lineno">  106</span>    <span class="keywordtype">char</span> c = s[i++];</div>
-<div class="line"><span class="lineno">  107</span>    <span class="keywordflow">if</span> (c==<span class="charliteral">&#39; &#39;</span>)</div>
-<div class="line"><span class="lineno">  108</span>    {</div>
-<div class="line"><span class="lineno">  109</span>      <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>=<span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  110</span>      <span class="comment">// look ahead for space or &#39;=&#39;</span></div>
-<div class="line"><span class="lineno">  111</span>      <a class="code hl_typedef" href="../../d7/d5c/qcstring_8h.html#a4d3943ddea65db7163a58e6c7e8df95a">uint</a> j=i;</div>
-<div class="line"><span class="lineno">  112</span>      <span class="keywordflow">while</span> (j&lt;l &amp;&amp; (s[j]==<span class="charliteral">&#39; &#39;</span>|| s[j]==<span class="charliteral">&#39;=&#39;</span>))</div>
-<div class="line"><span class="lineno">  113</span>      {</div>
-<div class="line"><span class="lineno">  114</span>        <span class="keywordflow">if</span> (s[j]==<span class="charliteral">&#39;=&#39;</span>) <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>=<span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  115</span>        j++;</div>
-<div class="line"><span class="lineno">  116</span>      }</div>
-<div class="line"><span class="lineno">  117</span>      <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>) <span class="comment">// found a &#39;=&#39;, write it without spaces</span></div>
-<div class="line"><span class="lineno">  118</span>      {</div>
-<div class="line"><span class="lineno">  119</span>        c = <span class="charliteral">&#39;=&#39;</span>;</div>
-<div class="line"><span class="lineno">  120</span>        i=j;</div>
-<div class="line"><span class="lineno">  121</span>      }</div>
-<div class="line"><span class="lineno">  122</span>    }</div>
-<div class="line"><span class="lineno">  123</span>    s[dstIdx++]=c;</div>
-<div class="line"><span class="lineno">  124</span>  }</div>
-<div class="line"><span class="lineno">  125</span>  s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a993474e2da59141336e6105b8e154f2b">resize</a>(dstIdx+1);</div>
-<div class="line"><span class="lineno">  126</span>  <span class="comment">//printf(&quot;&lt;removeSpacesAroundEquals(%s)\n&quot;,qPrint(s));</span></div>
-<div class="line"><span class="lineno">  127</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l00093">93</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   94</span>{</div>
+<div class="line"><span class="lineno">   95</span>  <span class="comment">//printf(&quot;&gt;removeSpacesAroundEquals(%s)\n&quot;,qPrint(s));</span></div>
+<div class="line"><span class="lineno">   96</span>  <a class="code hl_typedef" href="../../d7/d5c/qcstring_8h.html#a4d3943ddea65db7163a58e6c7e8df95a">uint</a> i=0, dstIdx=0, l=s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">length</a>();</div>
+<div class="line"><span class="lineno">   97</span>  <span class="keywordflow">while</span> (i&lt;l)</div>
+<div class="line"><span class="lineno">   98</span>  {</div>
+<div class="line"><span class="lineno">   99</span>    <span class="keywordtype">char</span> c = s[i++];</div>
+<div class="line"><span class="lineno">  100</span>    <span class="keywordflow">if</span> (c==<span class="charliteral">&#39; &#39;</span>)</div>
+<div class="line"><span class="lineno">  101</span>    {</div>
+<div class="line"><span class="lineno">  102</span>      <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>=<span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  103</span>      <span class="comment">// look ahead for space or &#39;=&#39;</span></div>
+<div class="line"><span class="lineno">  104</span>      <a class="code hl_typedef" href="../../d7/d5c/qcstring_8h.html#a4d3943ddea65db7163a58e6c7e8df95a">uint</a> j=i;</div>
+<div class="line"><span class="lineno">  105</span>      <span class="keywordflow">while</span> (j&lt;l &amp;&amp; (s[j]==<span class="charliteral">&#39; &#39;</span>|| s[j]==<span class="charliteral">&#39;=&#39;</span>))</div>
+<div class="line"><span class="lineno">  106</span>      {</div>
+<div class="line"><span class="lineno">  107</span>        <span class="keywordflow">if</span> (s[j]==<span class="charliteral">&#39;=&#39;</span>) <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>=<span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  108</span>        j++;</div>
+<div class="line"><span class="lineno">  109</span>      }</div>
+<div class="line"><span class="lineno">  110</span>      <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>) <span class="comment">// found a &#39;=&#39;, write it without spaces</span></div>
+<div class="line"><span class="lineno">  111</span>      {</div>
+<div class="line"><span class="lineno">  112</span>        c = <span class="charliteral">&#39;=&#39;</span>;</div>
+<div class="line"><span class="lineno">  113</span>        i=j;</div>
+<div class="line"><span class="lineno">  114</span>      }</div>
+<div class="line"><span class="lineno">  115</span>    }</div>
+<div class="line"><span class="lineno">  116</span>    s[dstIdx++]=c;</div>
+<div class="line"><span class="lineno">  117</span>  }</div>
+<div class="line"><span class="lineno">  118</span>  s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a993474e2da59141336e6105b8e154f2b">resize</a>(dstIdx+1);</div>
+<div class="line"><span class="lineno">  119</span>  <span class="comment">//printf(&quot;&lt;removeSpacesAroundEquals(%s)\n&quot;,qPrint(s));</span></div>
+<div class="line"><span class="lineno">  120</span>}</div>
 <div class="ttc" id="aclass_q_c_string_html_a993474e2da59141336e6105b8e154f2b"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a993474e2da59141336e6105b8e154f2b">QCString::resize</a></div><div class="ttdeci">bool resize(size_t newlen)</div><div class="ttdoc">Resizes the string to hold newlen characters (this value should also count the 0-terminator).</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00164">qcstring.h:164</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_ac52596733e9110b778019946d73fb268"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">QCString::length</a></div><div class="ttdeci">uint length() const</div><div class="ttdoc">Returns the length of the string, not counting the 0-terminator.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00147">qcstring.h:147</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_a4d3943ddea65db7163a58e6c7e8df95a"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#a4d3943ddea65db7163a58e6c7e8df95a">uint</a></div><div class="ttdeci">unsigned uint</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00040">qcstring.h:40</a></div></div>
@@ -854,7 +811,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../df/d2d/util_8cpp_source.html#l00962">found</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::length()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00164">QCString::resize()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l04189">TemplateNodeWith::TemplateNodeWith()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l04155">TemplateNodeWith::TemplateNodeWith()</a>.</p>
 
 </div>
 </div>
@@ -904,60 +861,60 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l00046">46</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   48</span>{</div>
-<div class="line"><span class="lineno">   49</span>  std::vector&lt;QCString&gt; lst;</div>
-<div class="line"><span class="lineno">   50</span> </div>
-<div class="line"><span class="lineno">   51</span>  <span class="keywordtype">int</span> j = 0;</div>
-<div class="line"><span class="lineno">   52</span>  <span class="keywordtype">int</span> i = str.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0182ece6b76dad6475dafb53e2faaf10">find</a>( sep, j );</div>
-<div class="line"><span class="lineno">   53</span> </div>
-<div class="line"><span class="lineno">   54</span>  <span class="keywordflow">while</span> (i!=-1)</div>
-<div class="line"><span class="lineno">   55</span>  {</div>
-<div class="line"><span class="lineno">   56</span>    <span class="keywordflow">if</span> ( str.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(j,i-j).<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">length</a>() &gt; 0 )</div>
-<div class="line"><span class="lineno">   57</span>    {</div>
-<div class="line"><span class="lineno">   58</span>      <span class="keywordflow">if</span> (cleanup)</div>
-<div class="line"><span class="lineno">   59</span>      {</div>
-<div class="line"><span class="lineno">   60</span>        lst.push_back(str.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(j,i-j).<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a66269a694d9e6961bfd145bb4ca72f42">stripWhiteSpace</a>());</div>
-<div class="line"><span class="lineno">   61</span>      }</div>
-<div class="line"><span class="lineno">   62</span>      <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">   63</span>      {</div>
-<div class="line"><span class="lineno">   64</span>        lst.push_back(str.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(j,i-j));</div>
-<div class="line"><span class="lineno">   65</span>      }</div>
-<div class="line"><span class="lineno">   66</span>    }</div>
-<div class="line"><span class="lineno">   67</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (allowEmptyEntries)</div>
-<div class="line"><span class="lineno">   68</span>    {</div>
-<div class="line"><span class="lineno">   69</span>      lst.push_back(<span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><span class="lineno">   70</span>    }</div>
-<div class="line"><span class="lineno">   71</span>    j = i + sep.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">length</a>();</div>
-<div class="line"><span class="lineno">   72</span>    i = str.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0182ece6b76dad6475dafb53e2faaf10">find</a>(sep,j);</div>
-<div class="line"><span class="lineno">   73</span>  }</div>
-<div class="line"><span class="lineno">   74</span> </div>
-<div class="line"><span class="lineno">   75</span>  <span class="keywordtype">int</span> l = str.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">length</a>() - 1;</div>
-<div class="line"><span class="lineno">   76</span>  <span class="keywordflow">if</span> (str.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(j,l-j+1).<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">length</a>()&gt;0)</div>
-<div class="line"><span class="lineno">   77</span>  {</div>
-<div class="line"><span class="lineno">   78</span>    <span class="keywordflow">if</span> (cleanup)</div>
-<div class="line"><span class="lineno">   79</span>    {</div>
-<div class="line"><span class="lineno">   80</span>      lst.push_back(str.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(j,l-j+1).<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a66269a694d9e6961bfd145bb4ca72f42">stripWhiteSpace</a>());</div>
-<div class="line"><span class="lineno">   81</span>    }</div>
-<div class="line"><span class="lineno">   82</span>    <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">   83</span>    {</div>
-<div class="line"><span class="lineno">   84</span>      lst.push_back(str.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(j,l-j+1));</div>
-<div class="line"><span class="lineno">   85</span>    }</div>
-<div class="line"><span class="lineno">   86</span>  }</div>
-<div class="line"><span class="lineno">   87</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (allowEmptyEntries)</div>
-<div class="line"><span class="lineno">   88</span>  {</div>
-<div class="line"><span class="lineno">   89</span>    lst.push_back(<span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><span class="lineno">   90</span>  }</div>
-<div class="line"><span class="lineno">   91</span> </div>
-<div class="line"><span class="lineno">   92</span>  <span class="keywordflow">return</span> lst;</div>
-<div class="line"><span class="lineno">   93</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l00039">39</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   41</span>{</div>
+<div class="line"><span class="lineno">   42</span>  std::vector&lt;QCString&gt; lst;</div>
+<div class="line"><span class="lineno">   43</span> </div>
+<div class="line"><span class="lineno">   44</span>  <span class="keywordtype">int</span> j = 0;</div>
+<div class="line"><span class="lineno">   45</span>  <span class="keywordtype">int</span> i = str.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0182ece6b76dad6475dafb53e2faaf10">find</a>( sep, j );</div>
+<div class="line"><span class="lineno">   46</span> </div>
+<div class="line"><span class="lineno">   47</span>  <span class="keywordflow">while</span> (i!=-1)</div>
+<div class="line"><span class="lineno">   48</span>  {</div>
+<div class="line"><span class="lineno">   49</span>    <span class="keywordflow">if</span> ( str.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(j,i-j).<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">length</a>() &gt; 0 )</div>
+<div class="line"><span class="lineno">   50</span>    {</div>
+<div class="line"><span class="lineno">   51</span>      <span class="keywordflow">if</span> (cleanup)</div>
+<div class="line"><span class="lineno">   52</span>      {</div>
+<div class="line"><span class="lineno">   53</span>        lst.push_back(str.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(j,i-j).<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a66269a694d9e6961bfd145bb4ca72f42">stripWhiteSpace</a>());</div>
+<div class="line"><span class="lineno">   54</span>      }</div>
+<div class="line"><span class="lineno">   55</span>      <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   56</span>      {</div>
+<div class="line"><span class="lineno">   57</span>        lst.push_back(str.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(j,i-j));</div>
+<div class="line"><span class="lineno">   58</span>      }</div>
+<div class="line"><span class="lineno">   59</span>    }</div>
+<div class="line"><span class="lineno">   60</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (allowEmptyEntries)</div>
+<div class="line"><span class="lineno">   61</span>    {</div>
+<div class="line"><span class="lineno">   62</span>      lst.push_back(<span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><span class="lineno">   63</span>    }</div>
+<div class="line"><span class="lineno">   64</span>    j = i + sep.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">length</a>();</div>
+<div class="line"><span class="lineno">   65</span>    i = str.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0182ece6b76dad6475dafb53e2faaf10">find</a>(sep,j);</div>
+<div class="line"><span class="lineno">   66</span>  }</div>
+<div class="line"><span class="lineno">   67</span> </div>
+<div class="line"><span class="lineno">   68</span>  <span class="keywordtype">int</span> l = str.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">length</a>() - 1;</div>
+<div class="line"><span class="lineno">   69</span>  <span class="keywordflow">if</span> (str.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(j,l-j+1).<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">length</a>()&gt;0)</div>
+<div class="line"><span class="lineno">   70</span>  {</div>
+<div class="line"><span class="lineno">   71</span>    <span class="keywordflow">if</span> (cleanup)</div>
+<div class="line"><span class="lineno">   72</span>    {</div>
+<div class="line"><span class="lineno">   73</span>      lst.push_back(str.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(j,l-j+1).<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a66269a694d9e6961bfd145bb4ca72f42">stripWhiteSpace</a>());</div>
+<div class="line"><span class="lineno">   74</span>    }</div>
+<div class="line"><span class="lineno">   75</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   76</span>    {</div>
+<div class="line"><span class="lineno">   77</span>      lst.push_back(str.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(j,l-j+1));</div>
+<div class="line"><span class="lineno">   78</span>    }</div>
+<div class="line"><span class="lineno">   79</span>  }</div>
+<div class="line"><span class="lineno">   80</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (allowEmptyEntries)</div>
+<div class="line"><span class="lineno">   81</span>  {</div>
+<div class="line"><span class="lineno">   82</span>    lst.push_back(<span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><span class="lineno">   83</span>  }</div>
+<div class="line"><span class="lineno">   84</span> </div>
+<div class="line"><span class="lineno">   85</span>  <span class="keywordflow">return</span> lst;</div>
+<div class="line"><span class="lineno">   86</span>}</div>
 <div class="ttc" id="aclass_q_c_string_html_a0182ece6b76dad6475dafb53e2faaf10"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a0182ece6b76dad6475dafb53e2faaf10">QCString::find</a></div><div class="ttdeci">int find(char c, int index=0, bool cs=TRUE) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d3e/qcstring_8cpp_source.html#l00043">qcstring.cpp:43</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a27136caf9c0bc4daca574cda6f113551"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">QCString::mid</a></div><div class="ttdeci">QCString mid(size_t index, size_t len=static_cast&lt; size_t &gt;(-1)) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00227">qcstring.h:227</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a66269a694d9e6961bfd145bb4ca72f42"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a66269a694d9e6961bfd145bb4ca72f42">QCString::stripWhiteSpace</a></div><div class="ttdeci">QCString stripWhiteSpace() const</div><div class="ttdoc">returns a copy of this string with leading and trailing whitespace removed</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00246">qcstring.h:246</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00043">QCString::find()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::length()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00227">QCString::mid()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00246">QCString::stripWhiteSpace()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00627">VHDLOutlineParser::addProto()</a>, <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00512">VHDLOutlineParser::addVhdlType()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03068">FlowChart::alignCommentNode()</a>, <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00272">VHDLOutlineParser::checkInlineCode()</a>, <a class="el" href="../../d5/d6a/vhdlcode_8l_source.html#l00955">checkVhdlString()</a>, <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00550">VHDLOutlineParser::createFunction()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00922">VhdlDocGen::findArchitecture()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00273">formatBriefNote()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00360">getFilteredImageAttributes()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01040">VhdlDocGen::getIndexWord()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03751">DocPara::handleCommand()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01039">DocParser::handleImage()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03506">DocPara::handleInclude()</a>, <a class="el" href="../../d9/d45/qhp_8cpp_source.html#l00194">Qhp::initialize()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02442">VhdlDocGen::parseForBinding()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02409">VhdlDocGen::parseForConfig()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l04249">TemplateNodeCycle::TemplateNodeCycle()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03410">TemplateNodeFor::TemplateNodeFor()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l04048">TemplateNodeIndexEntry::TemplateNodeIndexEntry()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l04189">TemplateNodeWith::TemplateNodeWith()</a>, <a class="el" href="../../d5/d6a/vhdlcode_8l_source.html#l01499">writeFuncProto()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00828">VhdlDocGen::writeInlineClassLink()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02636">VhdlDocGen::writeRecUnitDocu()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00627">VHDLOutlineParser::addProto()</a>, <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00512">VHDLOutlineParser::addVhdlType()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03068">FlowChart::alignCommentNode()</a>, <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00272">VHDLOutlineParser::checkInlineCode()</a>, <a class="el" href="../../d5/d6a/vhdlcode_8l_source.html#l00955">checkVhdlString()</a>, <a class="el" href="../../d1/d86/vhdljjparser_8cpp_source.html#l00550">VHDLOutlineParser::createFunction()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00922">VhdlDocGen::findArchitecture()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00273">formatBriefNote()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00238">getFilteredImageAttributes()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01040">VhdlDocGen::getIndexWord()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03736">DocPara::handleCommand()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01038">DocParser::handleImage()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03486">DocPara::handleInclude()</a>, <a class="el" href="../../d9/d45/qhp_8cpp_source.html#l00194">Qhp::initialize()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02442">VhdlDocGen::parseForBinding()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02409">VhdlDocGen::parseForConfig()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l04215">TemplateNodeCycle::TemplateNodeCycle()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03378">TemplateNodeFor::TemplateNodeFor()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l04014">TemplateNodeIndexEntry::TemplateNodeIndexEntry()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l04155">TemplateNodeWith::TemplateNodeWith()</a>, <a class="el" href="../../d5/d6a/vhdlcode_8l_source.html#l01499">writeFuncProto()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00828">VhdlDocGen::writeInlineClassLink()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02636">VhdlDocGen::writeRecUnitDocu()</a>.</p>
 
 </div>
 </div>
@@ -985,26 +942,26 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l03805">3805</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 3806</span>{</div>
-<div class="line"><span class="lineno"> 3807</span>  <span class="keywordtype">bool</span> skipSpaces=<span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno"> 3808</span>  <span class="keyword">const</span> <span class="keywordtype">char</span> *src = s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>();</div>
-<div class="line"><span class="lineno"> 3809</span>  <span class="keywordtype">char</span> *dst = s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a5f5c9dc172d638c8d7b07010d100117a">rawData</a>();</div>
-<div class="line"><span class="lineno"> 3810</span>  <span class="keywordtype">char</span> c;</div>
-<div class="line"><span class="lineno"> 3811</span>  <span class="keywordflow">while</span> ((c=*src++))</div>
-<div class="line"><span class="lineno"> 3812</span>  {</div>
-<div class="line"><span class="lineno"> 3813</span>    <span class="keywordflow">if</span> (c==<span class="charliteral">&#39;\n&#39;</span>) { *dst++=c; skipSpaces=<span class="keyword">true</span>; }</div>
-<div class="line"><span class="lineno"> 3814</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (c==<span class="charliteral">&#39; &#39;</span> &amp;&amp; skipSpaces) {}</div>
-<div class="line"><span class="lineno"> 3815</span>    <span class="keywordflow">else</span> { *dst++ = c; skipSpaces=<span class="keyword">false</span>; }</div>
-<div class="line"><span class="lineno"> 3816</span>  }</div>
-<div class="line"><span class="lineno"> 3817</span>  s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a993474e2da59141336e6105b8e154f2b">resize</a>(dst-s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>()+1);</div>
-<div class="line"><span class="lineno"> 3818</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l03771">3771</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3772</span>{</div>
+<div class="line"><span class="lineno"> 3773</span>  <span class="keywordtype">bool</span> skipSpaces=<span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 3774</span>  <span class="keyword">const</span> <span class="keywordtype">char</span> *src = s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>();</div>
+<div class="line"><span class="lineno"> 3775</span>  <span class="keywordtype">char</span> *dst = s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a5f5c9dc172d638c8d7b07010d100117a">rawData</a>();</div>
+<div class="line"><span class="lineno"> 3776</span>  <span class="keywordtype">char</span> c;</div>
+<div class="line"><span class="lineno"> 3777</span>  <span class="keywordflow">while</span> ((c=*src++))</div>
+<div class="line"><span class="lineno"> 3778</span>  {</div>
+<div class="line"><span class="lineno"> 3779</span>    <span class="keywordflow">if</span> (c==<span class="charliteral">&#39;\n&#39;</span>) { *dst++=c; skipSpaces=<span class="keyword">true</span>; }</div>
+<div class="line"><span class="lineno"> 3780</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (c==<span class="charliteral">&#39; &#39;</span> &amp;&amp; skipSpaces) {}</div>
+<div class="line"><span class="lineno"> 3781</span>    <span class="keywordflow">else</span> { *dst++ = c; skipSpaces=<span class="keyword">false</span>; }</div>
+<div class="line"><span class="lineno"> 3782</span>  }</div>
+<div class="line"><span class="lineno"> 3783</span>  s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a993474e2da59141336e6105b8e154f2b">resize</a>(dst-s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>()+1);</div>
+<div class="line"><span class="lineno"> 3784</span>}</div>
 <div class="ttc" id="aclass_q_c_string_html_a5f5c9dc172d638c8d7b07010d100117a"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a5f5c9dc172d638c8d7b07010d100117a">QCString::rawData</a></div><div class="ttdeci">char * rawData()</div><div class="ttdoc">Returns a writable pointer to the data.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00157">qcstring.h:157</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_ac3aa3ac1a1c36d3305eba22a2eb0d098"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">QCString::data</a></div><div class="ttdeci">const char * data() const</div><div class="ttdoc">Returns a pointer to the contents of the string in the form of a 0-terminated C string.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00153">qcstring.h:153</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00153">QCString::data()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00157">QCString::rawData()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00164">QCString::resize()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l03855">TemplateNodeCreate::render()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l03821">TemplateNodeCreate::render()</a>.</p>
 
 </div>
 </div>

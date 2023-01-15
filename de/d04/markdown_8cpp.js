@@ -1,20 +1,12 @@
 var markdown_8cpp =
 [
-    [ "Trace", "dd/db7/class_trace.html", "dd/db7/class_trace" ],
     [ "TableCell", "d5/d9b/struct_table_cell.html", "d5/d9b/struct_table_cell" ],
     [ "MarkdownOutlineParser::Private", "d1/d53/struct_markdown_outline_parser_1_1_private.html", "d1/d53/struct_markdown_outline_parser_1_1_private" ],
-    [ "DATA_BUFSIZE", "de/d04/markdown_8cpp.html#a0b55304d97656b0dc4aba1723a099bb8", null ],
-    [ "ENABLE_TRACING", "de/d04/markdown_8cpp.html#ab1b100016578b875cd432e6b519ffc0b", null ],
     [ "extraChar", "de/d04/markdown_8cpp.html#ae5123abfeab113b1bfd10cc75e73b523", null ],
     [ "ignoreCloseEmphChar", "de/d04/markdown_8cpp.html#ae014e192391a150ed4f5d5baff1bda5a", null ],
-    [ "IOSTREAM", "de/d04/markdown_8cpp.html#a9076b4defb0a00583ea4006768d27605", null ],
     [ "isIdChar", "de/d04/markdown_8cpp.html#a9a0934c417cd4e7eb4175f8b67473ae0", null ],
     [ "isLiTag", "de/d04/markdown_8cpp.html#a8651540cb26651ce580fdc9504e7fdf2", null ],
     [ "isOpenEmphChar", "de/d04/markdown_8cpp.html#a40d3090d3cb97c1026a8828f308c765d", null ],
-    [ "PRETTY_FUNC", "de/d04/markdown_8cpp.html#a2f8599c4656a3716a2c45c746ed22033", null ],
-    [ "TRACE", "de/d04/markdown_8cpp.html#a9f1e2fd281728ca4f1a8875f8d10b603", null ],
-    [ "TRACE_MORE", "de/d04/markdown_8cpp.html#a6d673d4092b75bf2f2a20a74318f8db1", null ],
-    [ "TRACE_RESULT", "de/d04/markdown_8cpp.html#a2ab6e5971f341977a6e1781d5ffeeb75", null ],
     [ "Alignment", "de/d04/markdown_8cpp.html#acdfaca60ec19c0265bac2692d7982726", [
       [ "AlignNone", "de/d04/markdown_8cpp.html#acdfaca60ec19c0265bac2692d7982726a4258b9785acff3438d08d41ddb4439d9", null ],
       [ "AlignLeft", "de/d04/markdown_8cpp.html#acdfaca60ec19c0265bac2692d7982726a291bdf1a2284d5648efc75ee78fbeb4c", null ],

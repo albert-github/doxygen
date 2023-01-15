@@ -1,7 +1,6 @@
 var docparser_8cpp =
 [
     [ "CHECK_FOR_COMMAND", "da/d17/docparser_8cpp.html#ae818631ff5b78ea72bf803ddaf39e987", null ],
-    [ "DBG", "da/d17/docparser_8cpp.html#a32adf79142f0a426b5e782fb7cd4cad3", null ],
     [ "createDocParser", "da/d17/docparser_8cpp.html#a7a169cbf0edeed85c90868675799b875", null ],
     [ "createRef", "da/d17/docparser_8cpp.html#ae574ca326adc7355e1e2fcba2515a35e", null ],
     [ "docFindSections", "da/d17/docparser_8cpp.html#a0fc0d3e4ca95dd0dc254d0efb1fd045a", null ],

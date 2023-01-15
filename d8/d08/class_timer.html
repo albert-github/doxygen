@@ -113,7 +113,7 @@ Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00120">120</a> of file <a class="el" href="../../d1/d00/debug_8cpp_source.html">debug.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00116">116</a> of file <a class="el" href="../../d1/d00/debug_8cpp_source.html">debug.cpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a9b89127c8224e7fb787da4f11ef8d364" name="a9b89127c8224e7fb787da4f11ef8d364"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9b89127c8224e7fb787da4f11ef8d364">&#9670;&#160;</a></span>elapsedTimeS()</h2>
@@ -138,18 +138,18 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00127">127</a> of file <a class="el" href="../../d1/d00/debug_8cpp_source.html">debug.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  128</span>    {</div>
-<div class="line"><span class="lineno">  129</span>      <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(</div>
-<div class="line"><span class="lineno">  130</span>              std::chrono::duration_cast&lt;</div>
-<div class="line"><span class="lineno">  131</span>                  std::chrono::microseconds&gt;(</div>
-<div class="line"><span class="lineno">  132</span>                  std::chrono::steady_clock::now() - <a class="code hl_variable" href="../../d8/d08/class_timer.html#a4d1bd480e339ce43c46e0ccbad7fe0b6">m_startTime</a>).count()) / 1000000.0;</div>
-<div class="line"><span class="lineno">  133</span>    }</div>
-<div class="ttc" id="aclass_timer_html_a4d1bd480e339ce43c46e0ccbad7fe0b6"><div class="ttname"><a href="../../d8/d08/class_timer.html#a4d1bd480e339ce43c46e0ccbad7fe0b6">Timer::m_startTime</a></div><div class="ttdeci">std::chrono::time_point&lt; std::chrono::steady_clock &gt; m_startTime</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d00/debug_8cpp_source.html#l00135">debug.cpp:135</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00123">123</a> of file <a class="el" href="../../d1/d00/debug_8cpp_source.html">debug.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  124</span>    {</div>
+<div class="line"><span class="lineno">  125</span>      <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(</div>
+<div class="line"><span class="lineno">  126</span>              std::chrono::duration_cast&lt;</div>
+<div class="line"><span class="lineno">  127</span>                  std::chrono::microseconds&gt;(</div>
+<div class="line"><span class="lineno">  128</span>                  std::chrono::steady_clock::now() - <a class="code hl_variable" href="../../d8/d08/class_timer.html#a4d1bd480e339ce43c46e0ccbad7fe0b6">m_startTime</a>).count()) / 1000000.0;</div>
+<div class="line"><span class="lineno">  129</span>    }</div>
+<div class="ttc" id="aclass_timer_html_a4d1bd480e339ce43c46e0ccbad7fe0b6"><div class="ttname"><a href="../../d8/d08/class_timer.html#a4d1bd480e339ce43c46e0ccbad7fe0b6">Timer::m_startTime</a></div><div class="ttdeci">std::chrono::time_point&lt; std::chrono::steady_clock &gt; m_startTime</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d00/debug_8cpp_source.html#l00131">debug.cpp:131</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00135">m_startTime</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00131">m_startTime</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00145">Debug::elapsedTime()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00141">Debug::elapsedTime()</a>.</p>
 
 </div>
 </div>
@@ -176,14 +176,14 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00123">123</a> of file <a class="el" href="../../d1/d00/debug_8cpp_source.html">debug.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  124</span>    {</div>
-<div class="line"><span class="lineno">  125</span>      <a class="code hl_variable" href="../../d8/d08/class_timer.html#a4d1bd480e339ce43c46e0ccbad7fe0b6">m_startTime</a> = std::chrono::steady_clock::now();</div>
-<div class="line"><span class="lineno">  126</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00119">119</a> of file <a class="el" href="../../d1/d00/debug_8cpp_source.html">debug.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  120</span>    {</div>
+<div class="line"><span class="lineno">  121</span>      <a class="code hl_variable" href="../../d8/d08/class_timer.html#a4d1bd480e339ce43c46e0ccbad7fe0b6">m_startTime</a> = std::chrono::steady_clock::now();</div>
+<div class="line"><span class="lineno">  122</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00135">m_startTime</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00131">m_startTime</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00140">Debug::startTimer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00136">Debug::startTimer()</a>.</p>
 
 </div>
 </div>
@@ -208,9 +208,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00135">135</a> of file <a class="el" href="../../d1/d00/debug_8cpp_source.html">debug.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00131">131</a> of file <a class="el" href="../../d1/d00/debug_8cpp_source.html">debug.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00127">elapsedTimeS()</a>, and <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00123">start()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00123">elapsedTimeS()</a>, and <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00119">start()</a>.</p>
 
 </div>
 </div>

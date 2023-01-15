@@ -92,8 +92,6 @@ var template_8cpp =
     [ "TemplateLexer", "d6/d1f/class_template_lexer.html", "d6/d1f/class_template_lexer" ],
     [ "TemplateEngine::Private", "d5/d56/class_template_engine_1_1_private.html", "d5/d56/class_template_engine_1_1_private" ],
     [ "TemplateEngine::Private::IncludeEntry", "de/d8d/class_template_engine_1_1_private_1_1_include_entry.html", "de/d8d/class_template_engine_1_1_private_1_1_include_entry" ],
-    [ "ENABLE_TRACING", "df/d54/template_8cpp.html#ab1b100016578b875cd432e6b519ffc0b", null ],
-    [ "TRACE", "df/d54/template_8cpp.html#a494d31903e7b0333dfa03b0778679113", null ],
     [ "ExprAstFilterPtr", "df/d54/template_8cpp.html#a2214bd11f3e3f4889db270420d0365a7", null ],
     [ "ExprAstList", "df/d54/template_8cpp.html#ae263aa0dbe7bba97d089da5c96915d86", null ],
     [ "ExprAstPtr", "df/d54/template_8cpp.html#a1669783f8130ce10bceeaf5c7db6c26a", null ],

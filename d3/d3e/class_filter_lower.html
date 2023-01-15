@@ -109,7 +109,7 @@ Static Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The implementation of the "lower" filter. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01490">1490</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01471">1471</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a57c1ffcb4832408d18186abf3e15c5bc" name="a57c1ffcb4832408d18186abf3e15c5bc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a57c1ffcb4832408d18186abf3e15c5bc">&#9670;&#160;</a></span>apply()</h2>
@@ -145,20 +145,20 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01493">1493</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1494</span>    {</div>
-<div class="line"><span class="lineno"> 1495</span>      <span class="keywordflow">if</span> (v.<a class="code hl_function" href="../../d1/dba/class_template_variant.html#a0c6e3f3e625ca22ed2c567cf1ea98bdd">isValid</a>() &amp;&amp; v.<a class="code hl_function" href="../../d1/dba/class_template_variant.html#a58289f012fe2d5afa506ed4ce14e2b41">isString</a>())</div>
-<div class="line"><span class="lineno"> 1496</span>      {</div>
-<div class="line"><span class="lineno"> 1497</span>        <span class="keywordflow">return</span> v.<a class="code hl_function" href="../../d1/dba/class_template_variant.html#ab03869d8a226d83614fca23902b0facd">toString</a>().<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a33688239622e659cfb469fbd62c9cccb">lower</a>();</div>
-<div class="line"><span class="lineno"> 1498</span>      }</div>
-<div class="line"><span class="lineno"> 1499</span>      <span class="keywordflow">return</span> v;</div>
-<div class="line"><span class="lineno"> 1500</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01474">1474</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1475</span>    {</div>
+<div class="line"><span class="lineno"> 1476</span>      <span class="keywordflow">if</span> (v.<a class="code hl_function" href="../../d1/dba/class_template_variant.html#a0c6e3f3e625ca22ed2c567cf1ea98bdd">isValid</a>() &amp;&amp; v.<a class="code hl_function" href="../../d1/dba/class_template_variant.html#a58289f012fe2d5afa506ed4ce14e2b41">isString</a>())</div>
+<div class="line"><span class="lineno"> 1477</span>      {</div>
+<div class="line"><span class="lineno"> 1478</span>        <span class="keywordflow">return</span> v.<a class="code hl_function" href="../../d1/dba/class_template_variant.html#ab03869d8a226d83614fca23902b0facd">toString</a>().<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a33688239622e659cfb469fbd62c9cccb">lower</a>();</div>
+<div class="line"><span class="lineno"> 1479</span>      }</div>
+<div class="line"><span class="lineno"> 1480</span>      <span class="keywordflow">return</span> v;</div>
+<div class="line"><span class="lineno"> 1481</span>    }</div>
 <div class="ttc" id="aclass_q_c_string_html_a33688239622e659cfb469fbd62c9cccb"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a33688239622e659cfb469fbd62c9cccb">QCString::lower</a></div><div class="ttdeci">QCString lower() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00235">qcstring.h:235</a></div></div>
 <div class="ttc" id="aclass_template_variant_html_a0c6e3f3e625ca22ed2c567cf1ea98bdd"><div class="ttname"><a href="../../d1/dba/class_template_variant.html#a0c6e3f3e625ca22ed2c567cf1ea98bdd">TemplateVariant::isValid</a></div><div class="ttdeci">constexpr bool isValid() const</div><div class="ttdoc">Returns TRUE if the variant holds a valid value, or FALSE otherwise.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/db8/template_8h_source.html#l00215">template.h:215</a></div></div>
 <div class="ttc" id="aclass_template_variant_html_a58289f012fe2d5afa506ed4ce14e2b41"><div class="ttname"><a href="../../d1/dba/class_template_variant.html#a58289f012fe2d5afa506ed4ce14e2b41">TemplateVariant::isString</a></div><div class="ttdeci">constexpr bool isString() const</div><div class="ttdoc">Returns TRUE if the variant holds a string value.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/db8/template_8h_source.html#l00221">template.h:221</a></div></div>
-<div class="ttc" id="aclass_template_variant_html_ab03869d8a226d83614fca23902b0facd"><div class="ttname"><a href="../../d1/dba/class_template_variant.html#ab03869d8a226d83614fca23902b0facd">TemplateVariant::toString</a></div><div class="ttdeci">QCString toString() const</div><div class="ttdoc">Returns the variant as a string.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l00397">template.cpp:397</a></div></div>
+<div class="ttc" id="aclass_template_variant_html_ab03869d8a226d83614fca23902b0facd"><div class="ttname"><a href="../../d1/dba/class_template_variant.html#ab03869d8a226d83614fca23902b0facd">TemplateVariant::toString</a></div><div class="ttdeci">QCString toString() const</div><div class="ttdoc">Returns the variant as a string.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l00378">template.cpp:378</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/db8/template_8h_source.html#l00221">TemplateVariant::isString()</a>, <a class="el" href="../../de/db8/template_8h_source.html#l00215">TemplateVariant::isValid()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00235">QCString::lower()</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l00397">TemplateVariant::toString()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/db8/template_8h_source.html#l00221">TemplateVariant::isString()</a>, <a class="el" href="../../de/db8/template_8h_source.html#l00215">TemplateVariant::isValid()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00235">QCString::lower()</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l00378">TemplateVariant::toString()</a>.</p>
 
 </div>
 </div>

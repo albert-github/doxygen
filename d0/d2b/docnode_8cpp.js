@@ -1,7 +1,6 @@
 var docnode_8cpp =
 [
     [ "ActiveRowSpan", "d6/d2e/struct_active_row_span.html", "d6/d2e/struct_active_row_span" ],
-    [ "DBG", "d0/d2b/docnode_8cpp.html#a32adf79142f0a426b5e782fb7cd4cad3", null ],
     [ "INTERNAL_ASSERT", "d0/d2b/docnode_8cpp.html#a70e94735e6ecdae48725e0c4254a2689", null ],
     [ "RowSpanList", "d0/d2b/docnode_8cpp.html#a8ebd411a505f41da49085559bdc9685e", null ],
     [ "findAttribute", "d0/d2b/docnode_8cpp.html#a89a9f35c62c2ef88e116f4edea12c038", null ],

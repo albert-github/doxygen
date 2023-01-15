@@ -243,6 +243,8 @@ var dir_68267d1309a1af8e8297ef4c3efbcdba =
     [ "threadpool.h", "d3/d40/threadpool_8h.html", "d3/d40/threadpool_8h" ],
     [ "tooltip.cpp", "d7/d56/tooltip_8cpp.html", "d7/d56/tooltip_8cpp" ],
     [ "tooltip.h", "db/d83/tooltip_8h.html", "db/d83/tooltip_8h" ],
+    [ "trace.cpp", "d9/d55/trace_8cpp.html", "d9/d55/trace_8cpp" ],
+    [ "trace.h", "d1/d1b/trace_8h.html", "d1/d1b/trace_8h" ],
     [ "translator.h", "d9/df1/translator_8h.html", "d9/df1/translator_8h" ],
     [ "translator_adapter.h", "da/de6/translator__adapter_8h.html", "da/de6/translator__adapter_8h" ],
     [ "translator_am.h", "d8/d0a/translator__am_8h.html", "d8/d0a/translator__am_8h" ],

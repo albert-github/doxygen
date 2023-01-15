@@ -18,6 +18,7 @@ var hierarchy =
     [ "TemplateFilterFactory::AutoRegister< T >", "d4/d67/class_template_filter_factory_1_1_auto_register.html", null ],
     [ "TemplateNodeFactory::AutoRegister< T >", "dd/d26/class_template_node_factory_1_1_auto_register.html", null ],
     [ "AutoTimeKeeper", "df/d45/class_auto_time_keeper.html", null ],
+    [ "AutoTrace", "d5/dca/class_auto_trace.html", null ],
     [ "Base", null, [
       [ "DefinitionAliasMixin< Base >", "d8/d83/class_definition_alias_mixin.html", null ],
       [ "DefinitionMixin< Base >", "dd/d10/class_definition_mixin.html", null ]
@@ -676,6 +677,17 @@ var hierarchy =
     [ "FindFileCacheElem", "d4/d2f/struct_find_file_cache_elem.html", null ],
     [ "FlowChart", "db/d1e/class_flow_chart.html", null ],
     [ "FmhlInfo", "d9/de4/struct_fmhl_info.html", null ],
+    [ "fmt::formatter< T >", "db/d75/structfmt_1_1formatter.html", null ],
+    [ "fmt::formatter< std::string >", "db/d75/structfmt_1_1formatter.html", [
+      [ "fmt::formatter< MemberType >", "d9/d4a/structfmt_1_1formatter_3_01_member_type_01_4.html", null ],
+      [ "fmt::formatter< MethodTypes >", "d2/d84/structfmt_1_1formatter_3_01_method_types_01_4.html", null ],
+      [ "fmt::formatter< Protection >", "d3/d53/structfmt_1_1formatter_3_01_protection_01_4.html", null ],
+      [ "fmt::formatter< QCString >", "d1/dc4/structfmt_1_1formatter_3_01_q_c_string_01_4.html", null ],
+      [ "fmt::formatter< RelatesType >", "db/dff/structfmt_1_1formatter_3_01_relates_type_01_4.html", null ],
+      [ "fmt::formatter< Relationship >", "db/db7/structfmt_1_1formatter_3_01_relationship_01_4.html", null ],
+      [ "fmt::formatter< Specifier >", "db/dad/structfmt_1_1formatter_3_01_specifier_01_4.html", null ],
+      [ "fmt::formatter< SrcLangExt >", "df/dca/structfmt_1_1formatter_3_01_src_lang_ext_01_4.html", null ]
+    ] ],
     [ "Formula", "d2/db0/class_formula.html", null ],
     [ "FormulaManager", "d0/d6c/class_formula_manager.html", null ],
     [ "fortrancodeYY_state", "d9/de9/structfortrancode_y_y__state.html", null ],
@@ -1244,7 +1256,6 @@ var hierarchy =
       [ "vhdl::parser::VhdlParserTokenManager", "d4/d48/classvhdl_1_1parser_1_1_vhdl_parser_token_manager.html", null ]
     ] ],
     [ "TooltipManager", "d5/dae/class_tooltip_manager.html", null ],
-    [ "Trace", "dd/db7/class_trace.html", null ],
     [ "Translator", "d8/dfb/class_translator.html", [
       [ "TranslatorAdapterBase", "db/d6c/class_translator_adapter_base.html", [
         [ "TranslatorAdapter_1_9_6", "db/d71/class_translator_adapter__1__9__6.html", [

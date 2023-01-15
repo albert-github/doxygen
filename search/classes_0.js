@@ -18,5 +18,6 @@ var searchData=
   ['argumentlistcontext_15',['ArgumentListContext',['../d3/d8a/class_argument_list_context.html',1,'']]],
   ['autonodestack_16',['AutoNodeStack',['../d2/d29/class_auto_node_stack.html',1,'']]],
   ['autoregister_17',['AutoRegister',['../d4/d67/class_template_filter_factory_1_1_auto_register.html',1,'TemplateFilterFactory::AutoRegister&lt; T &gt;'],['../dd/d26/class_template_node_factory_1_1_auto_register.html',1,'TemplateNodeFactory::AutoRegister&lt; T &gt;']]],
-  ['autotimekeeper_18',['AutoTimeKeeper',['../df/d45/class_auto_time_keeper.html',1,'']]]
+  ['autotimekeeper_18',['AutoTimeKeeper',['../df/d45/class_auto_time_keeper.html',1,'']]],
+  ['autotrace_19',['AutoTrace',['../d5/dca/class_auto_trace.html',1,'']]]
 ];

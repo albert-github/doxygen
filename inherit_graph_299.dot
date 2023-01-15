@@ -6,5 +6,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [label="ColoredImage",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/da6/class_colored_image.html",tooltip="Class representing a bitmap image colored based on hue/sat/gamma settings."];
+  Node0 [label="Color",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d44/struct_color.html",tooltip="Helper struct representing a RGBA color."];
 }

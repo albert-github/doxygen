@@ -105,14 +105,16 @@ $(document).ready(function(){initNavTree('df/daf/class_template_node_list.html',
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d76/class_template_node_list__inherit__graph.svg" width="211" height="124"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d76/class_template_node_list__inherit__graph.svg" width="211" height="124"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for TemplateNodeList:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/de5/class_template_node_list__coll__graph.svg" width="211" height="124"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/de5/class_template_node_list__coll__graph.svg" width="211" height="124"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -123,7 +125,7 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class representing a list of AST nodes in a template. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01966">1966</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01946">1946</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ae5b2f603e5180c15115a141784f0ae6c" name="ae5b2f603e5180c15115a141784f0ae6c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae5b2f603e5180c15115a141784f0ae6c">&#9670;&#160;</a></span>render()</h2>
@@ -159,20 +161,19 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01969">1969</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1970</span>    {</div>
-<div class="line"><span class="lineno"> 1971</span>      <a class="code hl_define" href="../../df/d54/template_8cpp.html#a494d31903e7b0333dfa03b0778679113">TRACE</a>((<span class="stringliteral">&quot;{TemplateNodeList::render\n&quot;</span>));</div>
-<div class="line"><span class="lineno"> 1972</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;tn : *<span class="keyword">this</span>)</div>
-<div class="line"><span class="lineno"> 1973</span>      {</div>
-<div class="line"><span class="lineno"> 1974</span>        tn-&gt;render(ts,c);</div>
-<div class="line"><span class="lineno"> 1975</span>      }</div>
-<div class="line"><span class="lineno"> 1976</span>      <a class="code hl_define" href="../../df/d54/template_8cpp.html#a494d31903e7b0333dfa03b0778679113">TRACE</a>((<span class="stringliteral">&quot;}TemplateNodeList::render\n&quot;</span>));</div>
-<div class="line"><span class="lineno"> 1977</span>    }</div>
-<div class="ttc" id="atemplate_8cpp_html_a494d31903e7b0333dfa03b0778679113"><div class="ttname"><a href="../../df/d54/template_8cpp.html#a494d31903e7b0333dfa03b0778679113">TRACE</a></div><div class="ttdeci">#define TRACE(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l00039">template.cpp:39</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../df/d54/template_8cpp_source.html#l01949">1949</a> of file <a class="el" href="../../df/d54/template_8cpp_source.html">template.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1950</span>    {</div>
+<div class="line"><span class="lineno"> 1951</span>      <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a210042a14f3a393be09c743c219126ae">AUTO_TRACE</a>();</div>
+<div class="line"><span class="lineno"> 1952</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;tn : *<span class="keyword">this</span>)</div>
+<div class="line"><span class="lineno"> 1953</span>      {</div>
+<div class="line"><span class="lineno"> 1954</span>        tn-&gt;render(ts,c);</div>
+<div class="line"><span class="lineno"> 1955</span>      }</div>
+<div class="line"><span class="lineno"> 1956</span>    }</div>
+<div class="ttc" id="atrace_8h_html_a210042a14f3a393be09c743c219126ae"><div class="ttname"><a href="../../d1/d1b/trace_8h.html#a210042a14f3a393be09c743c219126ae">AUTO_TRACE</a></div><div class="ttdeci">#define AUTO_TRACE(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d1b/trace_8h_source.html#l00133">trace.h:133</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d54/template_8cpp_source.html#l00039">TRACE</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d1b/trace_8h_source.html#l00133">AUTO_TRACE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l03572">TemplateNodeMsg::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l05198">TemplateImpl::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03151">TemplateNodeIf::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03208">TemplateNodeRepeat::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03314">TemplateNodeRange::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03467">TemplateNodeFor::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03616">TemplateNodeBlock::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l04224">TemplateNodeWith::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l04376">TemplateNodeSpaceless::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l04418">TemplateNodeMarkers::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l04519">TemplateNodeTabbing::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l04635">TemplateNodeEncoding::render()</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l03959">TemplateNodeTree::renderChildren()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l03539">TemplateNodeMsg::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l05163">TemplateImpl::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03118">TemplateNodeIf::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03175">TemplateNodeRepeat::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03281">TemplateNodeRange::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03434">TemplateNodeFor::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03581">TemplateNodeBlock::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l04189">TemplateNodeWith::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l04341">TemplateNodeSpaceless::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l04383">TemplateNodeMarkers::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l04484">TemplateNodeTabbing::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l04600">TemplateNodeEncoding::render()</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l03923">TemplateNodeTree::renderChildren()</a>.</p>
 
 </div>
 </div>
