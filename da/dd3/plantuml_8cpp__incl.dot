@@ -230,6 +230,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/plantuml.cpp"
   Node61 -> Node11 [color="steelblue1",style="solid"];
   Node1 -> Node63 [color="steelblue1",style="solid"];
   Node63 [label="debug.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d16/debug_8h.html",tooltip=" "];
+  Node63 -> Node17 [color="steelblue1",style="solid"];
   Node1 -> Node64 [color="steelblue1",style="solid"];
   Node64 [label="fileinfo.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d45/fileinfo_8h.html",tooltip=" "];
   Node64 -> Node4 [color="steelblue1",style="solid"];

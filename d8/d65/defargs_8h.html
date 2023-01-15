@@ -163,42 +163,44 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../de/df3/defargs_8l_source.html#l00814">814</a> of file <a class="el" href="../../de/df3/defargs_8l_source.html">defargs.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  815</span>{</div>
-<div class="line"><span class="lineno">  816</span>  std::unique_ptr&lt;ArgumentList&gt; al = std::make_unique&lt;ArgumentList&gt;();</div>
-<div class="line"><span class="lineno">  817</span>  <span class="keywordflow">if</span> (argsString.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>()) <span class="keywordflow">return</span> al;</div>
-<div class="line"><span class="lineno">  818</span> </div>
-<div class="line"><span class="lineno">  819</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner;</div>
-<div class="line"><span class="lineno">  820</span>  <a class="code hl_struct" href="../../de/dcd/structdefargs_y_y__state.html">defargsYY_state</a> extra(argsString.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>(),al,lang);</div>
-<div class="line"><span class="lineno">  821</span>  defargsYYlex_init_extra(&amp;extra,&amp;yyscanner);</div>
-<div class="line"><span class="lineno">  822</span><span class="preprocessor">#ifdef FLEX_DEBUG</span></div>
-<div class="line"><span class="lineno">  823</span>  defargsYYset_debug(1,yyscanner);</div>
-<div class="line"><span class="lineno">  824</span><span class="preprocessor">#endif</span></div>
-<div class="line"><span class="lineno">  825</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno">  826</span>  <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#afeaf3cf484d932b2198498b3209f7e03">printlex</a>(yy_flex_debug, <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>, __FILE__, NULL);</div>
-<div class="line"><span class="lineno">  827</span> </div>
-<div class="line"><span class="lineno">  828</span>  defargsYYrestart( 0, yyscanner );</div>
-<div class="line"><span class="lineno">  829</span>  BEGIN( Start );</div>
-<div class="line"><span class="lineno">  830</span>  defargsYYlex(yyscanner);</div>
-<div class="line"><span class="lineno">  831</span>  <span class="keywordflow">if</span> (yyextra-&gt;argList-&gt;empty())</div>
-<div class="line"><span class="lineno">  832</span>  {</div>
-<div class="line"><span class="lineno">  833</span>    yyextra-&gt;argList-&gt;setNoParameters(<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>);</div>
-<div class="line"><span class="lineno">  834</span>  }</div>
-<div class="line"><span class="lineno">  835</span>  <span class="keywordflow">if</span> (extraTypeChars) *extraTypeChars=yyextra-&gt;extraTypeChars;</div>
-<div class="line"><span class="lineno">  836</span>  <span class="comment">//printf(&quot;stringToArgumentList(%s) result=%s\n&quot;,argsString,qPrint(argListToString(*al)));</span></div>
-<div class="line"><span class="lineno">  837</span>  <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#afeaf3cf484d932b2198498b3209f7e03">printlex</a>(yy_flex_debug, <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>, __FILE__, NULL);</div>
-<div class="line"><span class="lineno">  838</span>  defargsYYlex_destroy(yyscanner);</div>
-<div class="line"><span class="lineno">  839</span>  <span class="keywordflow">return</span> al;</div>
-<div class="line"><span class="lineno">  840</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../de/df3/defargs_8l_source.html#l00815">815</a> of file <a class="el" href="../../de/df3/defargs_8l_source.html">defargs.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  816</span>{</div>
+<div class="line"><span class="lineno">  817</span>  std::unique_ptr&lt;ArgumentList&gt; al = std::make_unique&lt;ArgumentList&gt;();</div>
+<div class="line"><span class="lineno">  818</span>  <span class="keywordflow">if</span> (argsString.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>()) <span class="keywordflow">return</span> al;</div>
+<div class="line"><span class="lineno">  819</span> </div>
+<div class="line"><span class="lineno">  820</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner;</div>
+<div class="line"><span class="lineno">  821</span>  <a class="code hl_struct" href="../../de/dcd/structdefargs_y_y__state.html">defargsYY_state</a> extra(argsString.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>(),al,lang);</div>
+<div class="line"><span class="lineno">  822</span>  defargsYYlex_init_extra(&amp;extra,&amp;yyscanner);</div>
+<div class="line"><span class="lineno">  823</span><span class="preprocessor">#ifdef FLEX_DEBUG</span></div>
+<div class="line"><span class="lineno">  824</span>  defargsYYset_debug(<a class="code hl_function" href="../../da/d7d/class_debug.html#a92b0668ebfb43903d82ad112bf6c84e1">Debug::isFlagSet</a>(<a class="code hl_enumvalue" href="../../da/d7d/class_debug.html#a1c3f4696cf44a23f41e034323c426f7da2dbbd7c420176dca999210d256d1e223">Debug::Lex_defargs</a>)?1:0,yyscanner);</div>
+<div class="line"><span class="lineno">  825</span><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="lineno">  826</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno">  827</span>  <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#afeaf3cf484d932b2198498b3209f7e03">printlex</a>(yy_flex_debug, <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>, __FILE__, NULL);</div>
+<div class="line"><span class="lineno">  828</span> </div>
+<div class="line"><span class="lineno">  829</span>  defargsYYrestart( 0, yyscanner );</div>
+<div class="line"><span class="lineno">  830</span>  BEGIN( Start );</div>
+<div class="line"><span class="lineno">  831</span>  defargsYYlex(yyscanner);</div>
+<div class="line"><span class="lineno">  832</span>  <span class="keywordflow">if</span> (yyextra-&gt;argList-&gt;empty())</div>
+<div class="line"><span class="lineno">  833</span>  {</div>
+<div class="line"><span class="lineno">  834</span>    yyextra-&gt;argList-&gt;setNoParameters(<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>);</div>
+<div class="line"><span class="lineno">  835</span>  }</div>
+<div class="line"><span class="lineno">  836</span>  <span class="keywordflow">if</span> (extraTypeChars) *extraTypeChars=yyextra-&gt;extraTypeChars;</div>
+<div class="line"><span class="lineno">  837</span>  <span class="comment">//printf(&quot;stringToArgumentList(%s) result=%s\n&quot;,argsString,qPrint(argListToString(*al)));</span></div>
+<div class="line"><span class="lineno">  838</span>  <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#afeaf3cf484d932b2198498b3209f7e03">printlex</a>(yy_flex_debug, <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>, __FILE__, NULL);</div>
+<div class="line"><span class="lineno">  839</span>  defargsYYlex_destroy(yyscanner);</div>
+<div class="line"><span class="lineno">  840</span>  <span class="keywordflow">return</span> al;</div>
+<div class="line"><span class="lineno">  841</span>}</div>
+<div class="ttc" id="aclass_debug_html_a1c3f4696cf44a23f41e034323c426f7da2dbbd7c420176dca999210d256d1e223"><div class="ttname"><a href="../../da/d7d/class_debug.html#a1c3f4696cf44a23f41e034323c426f7da2dbbd7c420176dca999210d256d1e223">Debug::Lex_defargs</a></div><div class="ttdeci">@ Lex_defargs</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00051">debug.h:51</a></div></div>
+<div class="ttc" id="aclass_debug_html_a92b0668ebfb43903d82ad112bf6c84e1"><div class="ttname"><a href="../../da/d7d/class_debug.html#a92b0668ebfb43903d82ad112bf6c84e1">Debug::isFlagSet</a></div><div class="ttdeci">static bool isFlagSet(DebugMask mask)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d00/debug_8cpp_source.html#l00121">debug.cpp:121</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a621c4090d69ad7d05ef8e5234376c3d8"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">QCString::isEmpty</a></div><div class="ttdeci">bool isEmpty() const</div><div class="ttdoc">Returns TRUE iff the string is empty.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00144">qcstring.h:144</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_ac3aa3ac1a1c36d3305eba22a2eb0d098"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">QCString::data</a></div><div class="ttdeci">const char * data() const</div><div class="ttdoc">Returns a pointer to the contents of the string in the form of a 0-terminated C string.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00153">qcstring.h:153</a></div></div>
 <div class="ttc" id="acode_8l_html_a9484188abbc459dafcbd4c96425fa70b"><div class="ttname"><a href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a></div><div class="ttdeci">yyguts_t * yyscan_t</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d1f/code_8l_source.html#l00024">code.l:24</a></div></div>
-<div class="ttc" id="amessage_8cpp_html_afeaf3cf484d932b2198498b3209f7e03"><div class="ttname"><a href="../../d8/d6a/message_8cpp.html#afeaf3cf484d932b2198498b3209f7e03">printlex</a></div><div class="ttdeci">void printlex(int dbg, bool enter, const char *lexName, const char *fileName)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6a/message_8cpp_source.html#l00281">message.cpp:281</a></div></div>
+<div class="ttc" id="amessage_8cpp_html_afeaf3cf484d932b2198498b3209f7e03"><div class="ttname"><a href="../../d8/d6a/message_8cpp.html#afeaf3cf484d932b2198498b3209f7e03">printlex</a></div><div class="ttdeci">void printlex(int dbg, bool enter, const char *lexName, const char *fileName)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6a/message_8cpp_source.html#l00273">message.cpp:273</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_aa8cecfc5c5c054d2875c03e77b7be15d"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a></div><div class="ttdeci">#define TRUE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00036">qcstring.h:36</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_aa93f0eb578d23995850d61f7d61c55c1"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></div><div class="ttdeci">#define FALSE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00033">qcstring.h:33</a></div></div>
-<div class="ttc" id="astructdefargs_y_y__state_html"><div class="ttname"><a href="../../de/dcd/structdefargs_y_y__state.html">defargsYY_state</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/df3/defargs_8l_source.html#l00078">defargs.l:79</a></div></div>
+<div class="ttc" id="astructdefargs_y_y__state_html"><div class="ttname"><a href="../../de/dcd/structdefargs_y_y__state.html">defargsYY_state</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/df3/defargs_8l_source.html#l00079">defargs.l:80</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00153">QCString::data()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00281">printlex()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00153">QCString::data()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00121">Debug::isFlagSet()</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00051">Debug::Lex_defargs</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00273">printlex()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l00907">addClassToContext()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l04091">ClassDefImpl::addMembersToTemplateInstance()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08135">buildDefineList()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05877">combineDeclarationAndDefinition()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04823">computeTemplateClassRelations()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l02089">findMembersWithSpecificName()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04188">findTemplateInstanceRelation()</a>, <a class="el" href="../../d3/d17/defgen_8cpp_source.html#l00059">generateDEFForMember()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l02198">getDefsOld()</a>, <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html#l00670">SymbolResolver::Private::getResolvedSymbol()</a>, <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html#l00340">SymbolResolver::Private::getResolvedSymbolRec()</a>, <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html#l00191">SymbolResolver::Private::getResolvedTypeRec()</a>, and <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l01298">MemberDefImpl::IMPL::init()</a>.</p>
 

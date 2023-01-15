@@ -299,5 +299,8 @@ digraph "/home/runner/work/doxygen/doxygen/src/vhdlcode.l"
   Node77 -> Node11 [color="steelblue1",style="solid"];
   Node1 -> Node69 [color="steelblue1",style="solid"];
   Node1 -> Node78 [color="steelblue1",style="solid"];
-  Node78 [label="doxygen_lex.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/da5/doxygen__lex_8h.html",tooltip=" "];
+  Node78 [label="debug.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d16/debug_8h.html",tooltip=" "];
+  Node78 -> Node20 [color="steelblue1",style="solid"];
+  Node1 -> Node79 [color="steelblue1",style="solid"];
+  Node79 [label="doxygen_lex.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/da5/doxygen__lex_8h.html",tooltip=" "];
 }

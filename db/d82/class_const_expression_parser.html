@@ -144,11 +144,11 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dee/constexp_8l_source.html#l00132">132</a> of file <a class="el" href="../../dc/dee/constexp_8l_source.html">constexp.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  132</span>                                             : <a class="code hl_variable" href="../../db/d82/class_const_expression_parser.html#abe72cc2c562c86799c620f8852a79045">p</a>(std::make_unique&lt;Private&gt;())</div>
-<div class="line"><span class="lineno">  133</span>{</div>
-<div class="line"><span class="lineno">  134</span>  constexpYYlex_init_extra(&amp;<a class="code hl_variable" href="../../db/d82/class_const_expression_parser.html#abe72cc2c562c86799c620f8852a79045">p</a>-&gt;constexpYY_extra, &amp;<a class="code hl_variable" href="../../db/d82/class_const_expression_parser.html#abe72cc2c562c86799c620f8852a79045">p</a>-&gt;yyscanner);</div>
-<div class="line"><span class="lineno">  135</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dee/constexp_8l_source.html#l00133">133</a> of file <a class="el" href="../../dc/dee/constexp_8l_source.html">constexp.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  133</span>                                             : <a class="code hl_variable" href="../../db/d82/class_const_expression_parser.html#abe72cc2c562c86799c620f8852a79045">p</a>(std::make_unique&lt;Private&gt;())</div>
+<div class="line"><span class="lineno">  134</span>{</div>
+<div class="line"><span class="lineno">  135</span>  constexpYYlex_init_extra(&amp;<a class="code hl_variable" href="../../db/d82/class_const_expression_parser.html#abe72cc2c562c86799c620f8852a79045">p</a>-&gt;constexpYY_extra, &amp;<a class="code hl_variable" href="../../db/d82/class_const_expression_parser.html#abe72cc2c562c86799c620f8852a79045">p</a>-&gt;yyscanner);</div>
+<div class="line"><span class="lineno">  136</span>}</div>
 <div class="ttc" id="aclass_const_expression_parser_html_abe72cc2c562c86799c620f8852a79045"><div class="ttname"><a href="../../db/d82/class_const_expression_parser.html#abe72cc2c562c86799c620f8852a79045">ConstExpressionParser::p</a></div><div class="ttdeci">std::unique_ptr&lt; Private &gt; p</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd8/constexp_8h_source.html#l00031">constexp.h:31</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d6/dd8/constexp_8h_source.html#l00031">p</a>.</p>
@@ -170,10 +170,10 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dee/constexp_8l_source.html#l00137">137</a> of file <a class="el" href="../../dc/dee/constexp_8l_source.html">constexp.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  138</span>{</div>
-<div class="line"><span class="lineno">  139</span>  constexpYYlex_destroy(<a class="code hl_variable" href="../../db/d82/class_const_expression_parser.html#abe72cc2c562c86799c620f8852a79045">p</a>-&gt;yyscanner);</div>
-<div class="line"><span class="lineno">  140</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dee/constexp_8l_source.html#l00138">138</a> of file <a class="el" href="../../dc/dee/constexp_8l_source.html">constexp.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  139</span>{</div>
+<div class="line"><span class="lineno">  140</span>  constexpYYlex_destroy(<a class="code hl_variable" href="../../db/d82/class_const_expression_parser.html#abe72cc2c562c86799c620f8852a79045">p</a>-&gt;yyscanner);</div>
+<div class="line"><span class="lineno">  141</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d6/dd8/constexp_8h_source.html#l00031">p</a>.</p>
 
@@ -212,35 +212,37 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dee/constexp_8l_source.html#l00142">142</a> of file <a class="el" href="../../dc/dee/constexp_8l_source.html">constexp.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  143</span>{</div>
-<div class="line"><span class="lineno">  144</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)<a class="code hl_variable" href="../../db/d82/class_const_expression_parser.html#abe72cc2c562c86799c620f8852a79045">p</a>-&gt;yyscanner;</div>
-<div class="line"><span class="lineno">  145</span> </div>
-<div class="line"><span class="lineno">  146</span>#ifdef FLEX_DEBUG</div>
-<div class="line"><span class="lineno">  147</span>  constexpYYset_debug(1,<a class="code hl_variable" href="../../db/d82/class_const_expression_parser.html#abe72cc2c562c86799c620f8852a79045">p</a>-&gt;yyscanner);</div>
-<div class="line"><span class="lineno">  148</span><span class="preprocessor">#endif</span></div>
-<div class="line"><span class="lineno">  149</span> </div>
-<div class="line"><span class="lineno">  150</span>  yyextra-&gt;constExpFileName = fileName;</div>
-<div class="line"><span class="lineno">  151</span>  yyextra-&gt;constExpLineNr = lineNr;</div>
-<div class="line"><span class="lineno">  152</span>  yyextra-&gt;inputString = s;</div>
-<div class="line"><span class="lineno">  153</span>  yyextra-&gt;inputPosition = 0;</div>
-<div class="line"><span class="lineno">  154</span>  constexpYYrestart( yyin, <a class="code hl_variable" href="../../db/d82/class_const_expression_parser.html#abe72cc2c562c86799c620f8852a79045">p</a>-&gt;yyscanner );</div>
-<div class="line"><span class="lineno">  155</span> </div>
-<div class="line"><span class="lineno">  156</span>  <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#afeaf3cf484d932b2198498b3209f7e03">printlex</a>(yy_flex_debug, <span class="keyword">true</span>, __FILE__, fileName);</div>
-<div class="line"><span class="lineno">  157</span>  <span class="comment">//printf(&quot;Expression: &#39;%s&#39;\n&quot;,qPrint(s));</span></div>
-<div class="line"><span class="lineno">  158</span> </div>
-<div class="line"><span class="lineno">  159</span>  <a class="code hl_function" href="../../da/d12/constexp__p_8h.html#a84d0b91d2043b65d26cf1fb530541965">constexpYYparse</a>(<a class="code hl_variable" href="../../db/d82/class_const_expression_parser.html#abe72cc2c562c86799c620f8852a79045">p</a>-&gt;yyscanner);</div>
-<div class="line"><span class="lineno">  160</span> </div>
-<div class="line"><span class="lineno">  161</span>  <span class="comment">//printf(&quot;Result: %ld\n&quot;,(long)g_resultValue);</span></div>
-<div class="line"><span class="lineno">  162</span>  <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#afeaf3cf484d932b2198498b3209f7e03">printlex</a>(yy_flex_debug, <span class="keyword">false</span>, __FILE__, fileName);</div>
-<div class="line"><span class="lineno">  163</span>  <span class="keywordtype">bool</span> result = <span class="keyword">static_cast&lt;</span><span class="keywordtype">long</span><span class="keyword">&gt;</span>(yyextra-&gt;resultValue)!=0;</div>
-<div class="line"><span class="lineno">  164</span> </div>
-<div class="line"><span class="lineno">  165</span>  <span class="keywordflow">return</span> result;</div>
-<div class="line"><span class="lineno">  166</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dee/constexp_8l_source.html#l00143">143</a> of file <a class="el" href="../../dc/dee/constexp_8l_source.html">constexp.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  144</span>{</div>
+<div class="line"><span class="lineno">  145</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)<a class="code hl_variable" href="../../db/d82/class_const_expression_parser.html#abe72cc2c562c86799c620f8852a79045">p</a>-&gt;yyscanner;</div>
+<div class="line"><span class="lineno">  146</span> </div>
+<div class="line"><span class="lineno">  147</span>#ifdef FLEX_DEBUG</div>
+<div class="line"><span class="lineno">  148</span>  constexpYYset_debug(<a class="code hl_function" href="../../da/d7d/class_debug.html#a92b0668ebfb43903d82ad112bf6c84e1">Debug::isFlagSet</a>(<a class="code hl_enumvalue" href="../../da/d7d/class_debug.html#a1c3f4696cf44a23f41e034323c426f7dabb929f64e4a2c8c41e79fa5bc4d763f3">Debug::Lex_constexp</a>)?1:0,<a class="code hl_variable" href="../../db/d82/class_const_expression_parser.html#abe72cc2c562c86799c620f8852a79045">p</a>-&gt;yyscanner);</div>
+<div class="line"><span class="lineno">  149</span><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="lineno">  150</span> </div>
+<div class="line"><span class="lineno">  151</span>  yyextra-&gt;constExpFileName = fileName;</div>
+<div class="line"><span class="lineno">  152</span>  yyextra-&gt;constExpLineNr = lineNr;</div>
+<div class="line"><span class="lineno">  153</span>  yyextra-&gt;inputString = s;</div>
+<div class="line"><span class="lineno">  154</span>  yyextra-&gt;inputPosition = 0;</div>
+<div class="line"><span class="lineno">  155</span>  constexpYYrestart( yyin, <a class="code hl_variable" href="../../db/d82/class_const_expression_parser.html#abe72cc2c562c86799c620f8852a79045">p</a>-&gt;yyscanner );</div>
+<div class="line"><span class="lineno">  156</span> </div>
+<div class="line"><span class="lineno">  157</span>  <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#afeaf3cf484d932b2198498b3209f7e03">printlex</a>(yy_flex_debug, <span class="keyword">true</span>, __FILE__, fileName);</div>
+<div class="line"><span class="lineno">  158</span>  <span class="comment">//printf(&quot;Expression: &#39;%s&#39;\n&quot;,qPrint(s));</span></div>
+<div class="line"><span class="lineno">  159</span> </div>
+<div class="line"><span class="lineno">  160</span>  <a class="code hl_function" href="../../da/d12/constexp__p_8h.html#a84d0b91d2043b65d26cf1fb530541965">constexpYYparse</a>(<a class="code hl_variable" href="../../db/d82/class_const_expression_parser.html#abe72cc2c562c86799c620f8852a79045">p</a>-&gt;yyscanner);</div>
+<div class="line"><span class="lineno">  161</span> </div>
+<div class="line"><span class="lineno">  162</span>  <span class="comment">//printf(&quot;Result: %ld\n&quot;,(long)g_resultValue);</span></div>
+<div class="line"><span class="lineno">  163</span>  <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#afeaf3cf484d932b2198498b3209f7e03">printlex</a>(yy_flex_debug, <span class="keyword">false</span>, __FILE__, fileName);</div>
+<div class="line"><span class="lineno">  164</span>  <span class="keywordtype">bool</span> result = <span class="keyword">static_cast&lt;</span><span class="keywordtype">long</span><span class="keyword">&gt;</span>(yyextra-&gt;resultValue)!=0;</div>
+<div class="line"><span class="lineno">  165</span> </div>
+<div class="line"><span class="lineno">  166</span>  <span class="keywordflow">return</span> result;</div>
+<div class="line"><span class="lineno">  167</span>}</div>
+<div class="ttc" id="aclass_debug_html_a1c3f4696cf44a23f41e034323c426f7dabb929f64e4a2c8c41e79fa5bc4d763f3"><div class="ttname"><a href="../../da/d7d/class_debug.html#a1c3f4696cf44a23f41e034323c426f7dabb929f64e4a2c8c41e79fa5bc4d763f3">Debug::Lex_constexp</a></div><div class="ttdeci">@ Lex_constexp</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00049">debug.h:49</a></div></div>
+<div class="ttc" id="aclass_debug_html_a92b0668ebfb43903d82ad112bf6c84e1"><div class="ttname"><a href="../../da/d7d/class_debug.html#a92b0668ebfb43903d82ad112bf6c84e1">Debug::isFlagSet</a></div><div class="ttdeci">static bool isFlagSet(DebugMask mask)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d00/debug_8cpp_source.html#l00121">debug.cpp:121</a></div></div>
 <div class="ttc" id="aconstexp__p_8h_html_a84d0b91d2043b65d26cf1fb530541965"><div class="ttname"><a href="../../da/d12/constexp__p_8h.html#a84d0b91d2043b65d26cf1fb530541965">constexpYYparse</a></div><div class="ttdeci">int constexpYYparse(yyscan_t)</div></div>
-<div class="ttc" id="amessage_8cpp_html_afeaf3cf484d932b2198498b3209f7e03"><div class="ttname"><a href="../../d8/d6a/message_8cpp.html#afeaf3cf484d932b2198498b3209f7e03">printlex</a></div><div class="ttdeci">void printlex(int dbg, bool enter, const char *lexName, const char *fileName)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6a/message_8cpp_source.html#l00281">message.cpp:281</a></div></div>
+<div class="ttc" id="amessage_8cpp_html_afeaf3cf484d932b2198498b3209f7e03"><div class="ttname"><a href="../../d8/d6a/message_8cpp.html#afeaf3cf484d932b2198498b3209f7e03">printlex</a></div><div class="ttdeci">void printlex(int dbg, bool enter, const char *lexName, const char *fileName)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6a/message_8cpp_source.html#l00273">message.cpp:273</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/d12/constexp__p_8h.html#a84d0b91d2043b65d26cf1fb530541965">constexpYYparse()</a>, <a class="el" href="../../d6/dd8/constexp_8h_source.html#l00031">p</a>, and <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00281">printlex()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/d12/constexp__p_8h.html#a84d0b91d2043b65d26cf1fb530541965">constexpYYparse()</a>, <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00121">Debug::isFlagSet()</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00049">Debug::Lex_constexp</a>, <a class="el" href="../../d6/dd8/constexp_8h_source.html#l00031">p</a>, and <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00273">printlex()</a>.</p>
 
 </div>
 </div>
@@ -267,7 +269,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/dd8/constexp_8h_source.html#l00031">31</a> of file <a class="el" href="../../d6/dd8/constexp_8h_source.html">constexp.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/dee/constexp_8l_source.html#l00132">ConstExpressionParser()</a>, <a class="el" href="../../dc/dee/constexp_8l_source.html#l00142">parse()</a>, and <a class="el" href="../../dc/dee/constexp_8l_source.html#l00137">~ConstExpressionParser()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/dee/constexp_8l_source.html#l00133">ConstExpressionParser()</a>, <a class="el" href="../../dc/dee/constexp_8l_source.html#l00143">parse()</a>, and <a class="el" href="../../dc/dee/constexp_8l_source.html#l00138">~ConstExpressionParser()</a>.</p>
 
 </div>
 </div>

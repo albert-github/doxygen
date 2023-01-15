@@ -75,6 +75,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/markdown.cpp"
   Node1 -> Node26 [color="steelblue1",style="solid"];
   Node1 -> Node30 [color="steelblue1",style="solid"];
   Node30 [label="debug.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d16/debug_8h.html",tooltip=" "];
+  Node30 -> Node14 [color="steelblue1",style="solid"];
   Node1 -> Node31 [color="steelblue1",style="solid"];
   Node31 [label="util.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d3c/util_8h.html",tooltip="A bunch of utility functions."];
   Node31 -> Node18 [color="steelblue1",style="solid"];

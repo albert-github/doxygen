@@ -305,5 +305,8 @@ digraph "/home/runner/work/doxygen/doxygen/src/fortrancode.l"
   Node80 -> Node79 [color="steelblue1",style="solid"];
   Node1 -> Node8 [color="steelblue1",style="solid"];
   Node1 -> Node81 [color="steelblue1",style="solid"];
-  Node81 [label="doxygen_lex.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/da5/doxygen__lex_8h.html",tooltip=" "];
+  Node81 [label="debug.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d16/debug_8h.html",tooltip=" "];
+  Node81 -> Node25 [color="steelblue1",style="solid"];
+  Node1 -> Node82 [color="steelblue1",style="solid"];
+  Node82 [label="doxygen_lex.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/da5/doxygen__lex_8h.html",tooltip=" "];
 }

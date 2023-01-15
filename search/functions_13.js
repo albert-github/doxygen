@@ -117,7 +117,7 @@ var searchData=
   ['setfilescope_114',['setFileScope',['../d9/dc5/struct_symbol_resolver_1_1_private.html#aa553c3d55ea82c85ce0f8a65861f32f7',1,'SymbolResolver::Private::setFileScope()'],['../da/d0c/class_symbol_resolver.html#accc9cb1dfddba4432265a175e5875d55',1,'SymbolResolver::setFileScope()']]],
   ['setfirstrow_115',['setFirstRow',['../d3/df4/class_latex_doc_visitor.html#a1d60974e8552037cb12627d282df3392',1,'LatexDocVisitor']]],
   ['setflag_116',['setFlag',['../da/d7d/class_debug.html#affb7c17adbcafb5ec252e95c70f12f53',1,'Debug']]],
-  ['setflagstr_117',['setFlagStr',['../da/d7d/class_debug.html#ad83f482831b8bfce798aea81ba44f111',1,'Debug']]],
+  ['setflagstr_117',['setFlagStr',['../da/d7d/class_debug.html#a62b1205d2a43ed2261482f77e2461c55',1,'Debug']]],
   ['setflowmember_118',['setFlowMember',['../d6/d98/class_vhdl_doc_gen.html#a7808cdf56c299daceed3212b65b8a031',1,'VhdlDocGen']]],
   ['setfromanonymousmember_119',['setFromAnonymousMember',['../dd/d4b/class_member_def_mutable.html#a1eb20ffe6518980b72843a48fcdd3010',1,'MemberDefMutable::setFromAnonymousMember()'],['../d7/d7e/class_member_def_impl.html#ac3e11105127942ed47fca3bafc1a64ff',1,'MemberDefImpl::setFromAnonymousMember()']]],
   ['setfromanonymousscope_120',['setFromAnonymousScope',['../dd/d4b/class_member_def_mutable.html#addab8233ce94a53e33f788e02e453790',1,'MemberDefMutable::setFromAnonymousScope()'],['../d7/d7e/class_member_def_impl.html#a284176ec3f2c3c47c5ff74c61a4f7134',1,'MemberDefImpl::setFromAnonymousScope()']]],

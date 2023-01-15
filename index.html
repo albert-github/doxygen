@@ -95,7 +95,7 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="mainpage"></a></p>
-<p>Generated on Sunday, January 15, 2023 at 2:21 PM</p>
+<p>Generated on Sunday, January 15, 2023 at 2:48 PM</p>
 <h1><a class="anchor" id="autotoc_md0"></a>
 Introduction</h1>
 <p>This page provides a high-level overview of the internals of doxygen, with links to the relevant parts of the code. This document is intended for developers who want to work on doxygen. Users of doxygen are referred to the <a href="https://www.doxygen.nl/manual/index.html">User Manual</a>.</p>
@@ -135,43 +135,12 @@ Resolving relations</h1>
 </ul>
 <p>Finally the data for members of classes, namespaces, and files is stored in the subclass <a class="el" href="da/d09/class_member_def.html" title="A model of a class/file/namespace member symbol.">MemberDef</a>. This class is used for functions, variables, enums, etc, as indicated by <a class="el" href="da/d09/class_member_def.html#abbdaf88716807e7ff82ed7502cde51fc">MemberDef::memberType()</a>.</p>
 <h1><a class="anchor" id="autotoc_md5"></a>
-Producing debug output</h1>
-<p>Within doxygen there are a number of ways to obtain debug output. Besides the invasive method of putting print statements in the code there are a number of easy ways to get debug information.</p>
+Producing tracing and debug output</h1>
+<p>Within doxygen there are a number of ways to obtain debug output. Besides the invasive method of putting print statements in the code there are a number of easier ways to get debug information.</p>
+<p>For a debug build (build option <code>-DCMAKE_BUILD_TYPE=<a class="el" href="da/d7d/class_debug.html" title="Class containing a print function for diagnostics.">Debug</a></code>) these options are always available, but for a release build some debug capabilities have to be enabled explicitly (see build options <code>-Denable_tracing=YES</code> and <code>-Denable_lex_debug=YES</code>).</p>
+<p>To enable tracing use the <code>-t</code> option. You can optionally specify a name of a trace file, if omitted <code>trace.txt</code> will be used. When running doxygen with tracing enabled, doxygen will write a lot of internal information to the trace file, which can be used (by experts) to diagnose problems.</p>
+<p>During a run of doxygen it is possible to specify the <code>-d</code> command line option with one of the following values (each option has to be preceded by <code>-d</code>):</p>
 <ul>
-<li>Compilation of <code>.l</code> files<br  />
- This is also an invasive method but it will be automatically done by the <code>flex / lex</code> command. The result is that of each input line the (lex) rule(s) that are applied on it are shown.<ul>
-<li>windows<ul>
-<li>in the Visual C++ GUI<ul>
-<li>find the required <code>.l</code> file</li>
-<li>select the <code>Properties</code> of this file</li>
-<li>set the item <code>Write used lex rules</code> to <code>Yes</code></li>
-<li>see to it that the <code>.l</code> file is newer than the corresponding <code>.cpp</code> file or remove the corresponding <code>.cpp</code> file</li>
-</ul>
-</li>
-<li>when using <code>nmake</code> the same possibilities exist as described with "unices".</li>
-</ul>
-</li>
-<li>unices<ul>
-<li>global change<br  />
- In the chapter "Doxygen's internals" a <code>perl</code> script is given to toggle the possibility of having the rules debug information.</li>
-<li>command line change<br  />
- It is possible to the option <code>LEX_FLAGS="-d"</code> with the <code>make</code> command on the command line. In this case the <code>.l</code> that are converted to the corresponding <code>.cpp</code> files during this <code>make</code> get the rules debug information.<br  />
- To undo the rules debug information output just recompile the file with just <code>make</code>.<br  />
- Note this method applies for all the <code>.l</code> files that are rebuild to <code>.cpp</code> files so be sure that only the <code>.l</code> files(s) of which you want to have the rules debug information is (are) newer than the corresponding <code>.cpp</code> file(s).</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Running doxygen<br  />
- During a run of doxygen it is possible to specify the <code>-d</code> option with the following possibilities (each option has to be preceded by <code>-d</code>):<ul>
-<li>findmembers<br  />
- Gives of global, class, module members its scope, arguments and other relevant information.</li>
-<li>functions<br  />
- Gives of functions its scope, arguments and other relevant information.</li>
-<li>variables<br  />
- Gives of variables its scope and other relevant information.</li>
-<li>classes<br  />
- Gives of classes en modules its scope and other relevant information.</li>
 <li>preprocessor<br  />
  Shows the results of the preprocessing phase, i.e. results from include files, <code>#define</code> statements etc., definitions in the doxygen configuration file like: <code>EXPAND_ONLY_PREDEF</code>, <code>PREDEFINED</code> and <code>MACRO_EXPANSION</code>.</li>
 <li>nolineno<br  />
@@ -197,8 +166,6 @@ Producing debug output</h1>
  Gives the output of the output as result of the filter command (when a filter command is specified)</li>
 <li>validate<br  />
  Currently not used</li>
-<li>lex<br  />
- Provide output of the <code>lex</code> files used. When a lexer is started and when a lexer ends the name of the <code>lex</code> file is given so it is possible to see in which lexer the problem occurs. This makes it easier to select the file to be compiled in <code>lex</code> debug mode.</li>
 <li>cite<br  />
  Retains the temporary files as created and used for the non LaTeX output results of the generation of the bibliographical references.</li>
 <li>fortranfixed2free<br  />
@@ -219,8 +186,10 @@ Producing debug output</h1>
 </li>
 <li>tag<br  />
  Shows the results of reading the tag files.</li>
-</ul>
-</li>
+<li>lex<br  />
+ Provide output of the <code>lex</code> files used. When a lexer is started and when a lexer ends the name of the <code>lex</code> file is given so it is possible to see in which lexer the problem occurs. This makes it easier to select the file to be compiled in <code>lex</code> debug mode.</li>
+<li>lex:lexer<br  />
+ Enables output for a specific lexer only, where <code>lexer</code> should be replaced by the name of the specific lexer.</li>
 </ul>
 <h1><a class="anchor" id="autotoc_md6"></a>
 Producing output</h1>

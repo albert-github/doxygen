@@ -279,5 +279,8 @@ digraph "/home/runner/work/doxygen/doxygen/src/pyscanner.l"
   Node75 [label="fileinfo.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d45/fileinfo_8h.html",tooltip=" "];
   Node75 -> Node12 [color="steelblue1",style="solid"];
   Node1 -> Node76 [color="steelblue1",style="solid"];
-  Node76 [label="doxygen_lex.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/da5/doxygen__lex_8h.html",tooltip=" "];
+  Node76 [label="debug.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d16/debug_8h.html",tooltip=" "];
+  Node76 -> Node20 [color="steelblue1",style="solid"];
+  Node1 -> Node77 [color="steelblue1",style="solid"];
+  Node77 [label="doxygen_lex.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/da5/doxygen__lex_8h.html",tooltip=" "];
 }
