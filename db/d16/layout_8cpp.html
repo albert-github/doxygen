@@ -667,26 +667,26 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d16/layout_8cpp_source.html#l01647">1647</a> of file <a class="el" href="../../db/d16/layout_8cpp_source.html">layout.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1648</span>{</div>
-<div class="line"><span class="lineno"> 1649</span>  <span class="keywordtype">int</span> i,s=0,e=input.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0182ece6b76dad6475dafb53e2faaf10">find</a>(<span class="charliteral">&#39;|&#39;</span>);</div>
-<div class="line"><span class="lineno"> 1650</span>  <span class="keywordflow">if</span> (e==-1) <span class="keywordflow">return</span> input; <span class="comment">// simple title case</span></div>
-<div class="line"><span class="lineno"> 1651</span>  <span class="keywordtype">int</span> e1=e;</div>
-<div class="line"><span class="lineno"> 1652</span>  <span class="keywordflow">while</span> (e!=-1) <span class="comment">// look for &#39;number=title&#39; pattern separated by &#39;|&#39;</span></div>
-<div class="line"><span class="lineno"> 1653</span>  {</div>
-<div class="line"><span class="lineno"> 1654</span>    s=e+1;</div>
-<div class="line"><span class="lineno"> 1655</span>    e=input.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0182ece6b76dad6475dafb53e2faaf10">find</a>(<span class="charliteral">&#39;|&#39;</span>,s);</div>
-<div class="line"><span class="lineno"> 1656</span>    i=input.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0182ece6b76dad6475dafb53e2faaf10">find</a>(<span class="charliteral">&#39;=&#39;</span>,s);</div>
-<div class="line"><span class="lineno"> 1657</span>    assert(i&gt;s);</div>
-<div class="line"><span class="lineno"> 1658</span>    <a class="code hl_enumeration" href="../../d9/d49/types_8h.html#a9974623ce72fc23df5d64426b9178bf2">SrcLangExt</a> key= <span class="keyword">static_cast&lt;</span><a class="code hl_enumeration" href="../../d9/d49/types_8h.html#a9974623ce72fc23df5d64426b9178bf2">SrcLangExt</a><span class="keyword">&gt;</span>(input.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(s,i-s).<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a6021caef1848cb349467bc969be95966">toUInt</a>());</div>
-<div class="line"><span class="lineno"> 1659</span>    <span class="keywordflow">if</span> (key==lang) <span class="comment">// found matching key</span></div>
-<div class="line"><span class="lineno"> 1660</span>    {</div>
-<div class="line"><span class="lineno"> 1661</span>      <span class="keywordflow">if</span> (e==-1) e=input.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">length</a>();</div>
-<div class="line"><span class="lineno"> 1662</span>      <span class="keywordflow">return</span> input.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(i+1,e-i-1);</div>
-<div class="line"><span class="lineno"> 1663</span>    }</div>
-<div class="line"><span class="lineno"> 1664</span>  }</div>
-<div class="line"><span class="lineno"> 1665</span>  <span class="keywordflow">return</span> input.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">left</a>(e1); <span class="comment">// fallback, no explicit language key found</span></div>
-<div class="line"><span class="lineno"> 1666</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d16/layout_8cpp_source.html#l01654">1654</a> of file <a class="el" href="../../db/d16/layout_8cpp_source.html">layout.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1655</span>{</div>
+<div class="line"><span class="lineno"> 1656</span>  <span class="keywordtype">int</span> i,s=0,e=input.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0182ece6b76dad6475dafb53e2faaf10">find</a>(<span class="charliteral">&#39;|&#39;</span>);</div>
+<div class="line"><span class="lineno"> 1657</span>  <span class="keywordflow">if</span> (e==-1) <span class="keywordflow">return</span> input; <span class="comment">// simple title case</span></div>
+<div class="line"><span class="lineno"> 1658</span>  <span class="keywordtype">int</span> e1=e;</div>
+<div class="line"><span class="lineno"> 1659</span>  <span class="keywordflow">while</span> (e!=-1) <span class="comment">// look for &#39;number=title&#39; pattern separated by &#39;|&#39;</span></div>
+<div class="line"><span class="lineno"> 1660</span>  {</div>
+<div class="line"><span class="lineno"> 1661</span>    s=e+1;</div>
+<div class="line"><span class="lineno"> 1662</span>    e=input.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0182ece6b76dad6475dafb53e2faaf10">find</a>(<span class="charliteral">&#39;|&#39;</span>,s);</div>
+<div class="line"><span class="lineno"> 1663</span>    i=input.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0182ece6b76dad6475dafb53e2faaf10">find</a>(<span class="charliteral">&#39;=&#39;</span>,s);</div>
+<div class="line"><span class="lineno"> 1664</span>    assert(i&gt;s);</div>
+<div class="line"><span class="lineno"> 1665</span>    <a class="code hl_enumeration" href="../../d9/d49/types_8h.html#a9974623ce72fc23df5d64426b9178bf2">SrcLangExt</a> key= <span class="keyword">static_cast&lt;</span><a class="code hl_enumeration" href="../../d9/d49/types_8h.html#a9974623ce72fc23df5d64426b9178bf2">SrcLangExt</a><span class="keyword">&gt;</span>(input.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(s,i-s).<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a6021caef1848cb349467bc969be95966">toUInt</a>());</div>
+<div class="line"><span class="lineno"> 1666</span>    <span class="keywordflow">if</span> (key==lang) <span class="comment">// found matching key</span></div>
+<div class="line"><span class="lineno"> 1667</span>    {</div>
+<div class="line"><span class="lineno"> 1668</span>      <span class="keywordflow">if</span> (e==-1) e=input.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">length</a>();</div>
+<div class="line"><span class="lineno"> 1669</span>      <span class="keywordflow">return</span> input.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(i+1,e-i-1);</div>
+<div class="line"><span class="lineno"> 1670</span>    }</div>
+<div class="line"><span class="lineno"> 1671</span>  }</div>
+<div class="line"><span class="lineno"> 1672</span>  <span class="keywordflow">return</span> input.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">left</a>(e1); <span class="comment">// fallback, no explicit language key found</span></div>
+<div class="line"><span class="lineno"> 1673</span>}</div>
 <div class="ttc" id="aclass_q_c_string_html_a0182ece6b76dad6475dafb53e2faaf10"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a0182ece6b76dad6475dafb53e2faaf10">QCString::find</a></div><div class="ttdeci">int find(char c, int index=0, bool cs=TRUE) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d3e/qcstring_8cpp_source.html#l00043">qcstring.cpp:43</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a6021caef1848cb349467bc969be95966"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a6021caef1848cb349467bc969be95966">QCString::toUInt</a></div><div class="ttdeci">uint toUInt(bool *ok=0, int base=10) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d3e/qcstring_8cpp_source.html#l00254">qcstring.cpp:254</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_aecf8b66312c4e97333219cc344c11a4f"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">QCString::left</a></div><div class="ttdeci">QCString left(size_t len) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00215">qcstring.h:215</a></div></div>
@@ -694,7 +694,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00043">QCString::find()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00215">QCString::left()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::length()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00227">QCString::mid()</a>, and <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00254">QCString::toUInt()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d16/layout_8cpp_source.html#l01682">LayoutDocEntryMemberDecl::subtitle()</a>, <a class="el" href="../../db/d16/layout_8cpp_source.html#l01670">LayoutDocEntrySection::title()</a>, <a class="el" href="../../db/d16/layout_8cpp_source.html#l01677">LayoutDocEntryMemberDecl::title()</a>, and <a class="el" href="../../db/d16/layout_8cpp_source.html#l01689">LayoutDocEntryMemberDef::title()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d16/layout_8cpp_source.html#l01689">LayoutDocEntryMemberDecl::subtitle()</a>, <a class="el" href="../../db/d16/layout_8cpp_source.html#l01677">LayoutDocEntrySection::title()</a>, <a class="el" href="../../db/d16/layout_8cpp_source.html#l01684">LayoutDocEntryMemberDecl::title()</a>, and <a class="el" href="../../db/d16/layout_8cpp_source.html#l01696">LayoutDocEntryMemberDef::title()</a>.</p>
 
 </div>
 </div>
@@ -750,22 +750,22 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d16/layout_8cpp_source.html#l01623">1623</a> of file <a class="el" href="../../db/d16/layout_8cpp_source.html">layout.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1624</span>{</div>
-<div class="line"><span class="lineno"> 1625</span>  std::ofstream f;</div>
-<div class="line"><span class="lineno"> 1626</span>  <span class="keywordflow">if</span> (<a class="code hl_function" href="../../df/d2d/util_8cpp.html#a5c6662051d765cb0a355382ab05c14a1">openOutputFile</a>(fileName,f))</div>
-<div class="line"><span class="lineno"> 1627</span>  {</div>
-<div class="line"><span class="lineno"> 1628</span>    <a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a> t(&amp;f);</div>
-<div class="line"><span class="lineno"> 1629</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> layout_default = <a class="code hl_function" href="../../d6/d12/class_resource_mgr.html#a02fb3176893696eaf659d680c8b08064">ResourceMgr::instance</a>().<a class="code hl_function" href="../../d6/d12/class_resource_mgr.html#aa60ef164e79a11cfa31de29221db11aa">getAsString</a>(<span class="stringliteral">&quot;layout_default.xml&quot;</span>);</div>
-<div class="line"><span class="lineno"> 1630</span>    t &lt;&lt; <a class="code hl_function" href="../../d5/d3e/qcstring_8cpp.html#a99187f0723aa35b7f06be3a5506b1285">substitute</a>(layout_default,<span class="stringliteral">&quot;$doxygenversion&quot;</span>,getDoxygenVersion());</div>
-<div class="line"><span class="lineno"> 1631</span>  }</div>
-<div class="line"><span class="lineno"> 1632</span>  <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno"> 1633</span>  {</div>
-<div class="line"><span class="lineno"> 1634</span>    <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a>(<span class="stringliteral">&quot;Failed to open file %s for writing!\n&quot;</span>,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(fileName));</div>
-<div class="line"><span class="lineno"> 1635</span>    <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno"> 1636</span>  }</div>
-<div class="line"><span class="lineno"> 1637</span>  f.close();</div>
-<div class="line"><span class="lineno"> 1638</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d16/layout_8cpp_source.html#l01630">1630</a> of file <a class="el" href="../../db/d16/layout_8cpp_source.html">layout.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1631</span>{</div>
+<div class="line"><span class="lineno"> 1632</span>  std::ofstream f;</div>
+<div class="line"><span class="lineno"> 1633</span>  <span class="keywordflow">if</span> (<a class="code hl_function" href="../../df/d2d/util_8cpp.html#a5c6662051d765cb0a355382ab05c14a1">openOutputFile</a>(fileName,f))</div>
+<div class="line"><span class="lineno"> 1634</span>  {</div>
+<div class="line"><span class="lineno"> 1635</span>    <a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a> t(&amp;f);</div>
+<div class="line"><span class="lineno"> 1636</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> layout_default = <a class="code hl_function" href="../../d6/d12/class_resource_mgr.html#a02fb3176893696eaf659d680c8b08064">ResourceMgr::instance</a>().<a class="code hl_function" href="../../d6/d12/class_resource_mgr.html#aa60ef164e79a11cfa31de29221db11aa">getAsString</a>(<span class="stringliteral">&quot;layout_default.xml&quot;</span>);</div>
+<div class="line"><span class="lineno"> 1637</span>    t &lt;&lt; <a class="code hl_function" href="../../d5/d3e/qcstring_8cpp.html#a99187f0723aa35b7f06be3a5506b1285">substitute</a>(layout_default,<span class="stringliteral">&quot;$doxygenversion&quot;</span>,getDoxygenVersion());</div>
+<div class="line"><span class="lineno"> 1638</span>  }</div>
+<div class="line"><span class="lineno"> 1639</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1640</span>  {</div>
+<div class="line"><span class="lineno"> 1641</span>    <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a>(<span class="stringliteral">&quot;Failed to open file %s for writing!\n&quot;</span>,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(fileName));</div>
+<div class="line"><span class="lineno"> 1642</span>    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1643</span>  }</div>
+<div class="line"><span class="lineno"> 1644</span>  f.close();</div>
+<div class="line"><span class="lineno"> 1645</span>}</div>
 <div class="ttc" id="aclass_resource_mgr_html_a02fb3176893696eaf659d680c8b08064"><div class="ttname"><a href="../../d6/d12/class_resource_mgr.html#a02fb3176893696eaf659d680c8b08064">ResourceMgr::instance</a></div><div class="ttdeci">static ResourceMgr &amp; instance()</div><div class="ttdoc">Returns the one and only instance of this class.</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dde/resourcemgr_8cpp_source.html#l00032">resourcemgr.cpp:32</a></div></div>
 <div class="ttc" id="aclass_resource_mgr_html_aa60ef164e79a11cfa31de29221db11aa"><div class="ttname"><a href="../../d6/d12/class_resource_mgr.html#aa60ef164e79a11cfa31de29221db11aa">ResourceMgr::getAsString</a></div><div class="ttdeci">QCString getAsString(const QCString &amp;name) const</div><div class="ttdoc">Gets the resource data as a C string.</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dde/resourcemgr_8cpp_source.html#l00190">resourcemgr.cpp:190</a></div></div>
 <div class="ttc" id="aclass_text_stream_html"><div class="ttname"><a href="../../d3/d30/class_text_stream.html">TextStream</a></div><div class="ttdoc">Text streaming class that buffers data.</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d7d/textstream_8h_source.html#l00034">textstream.h:35</a></div></div>

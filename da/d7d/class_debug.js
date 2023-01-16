@@ -45,7 +45,7 @@ var class_debug =
     [ "print", "da/d7d/class_debug.html#a5d86ffebf96f9f75b6c957db5f831da3", null ],
     [ "printFlags", "da/d7d/class_debug.html#a2d8ac411144a380f838a1766118c6a03", null ],
     [ "setFlag", "da/d7d/class_debug.html#affb7c17adbcafb5ec252e95c70f12f53", null ],
-    [ "setFlagStr", "da/d7d/class_debug.html#a62b1205d2a43ed2261482f77e2461c55", null ],
+    [ "setFlagStr", "da/d7d/class_debug.html#ae37b8f08c49a5d316b436e1849dffb9c", null ],
     [ "setPriority", "da/d7d/class_debug.html#a666b610770dd7b7c0a87f2415aefe7d9", null ],
     [ "startTimer", "da/d7d/class_debug.html#ad34e8ad3d814a4cf8b29ce98fd7a96f5", null ],
     [ "curMask", "da/d7d/class_debug.html#a4d585549eed6b188844447b6149c576e", null ],

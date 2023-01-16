@@ -220,8 +220,8 @@ digraph "/home/runner/work/doxygen/doxygen/src/template.cpp"
   Node59 -> Node34 [color="steelblue1",style="solid"];
   Node1 -> Node62 [color="steelblue1",style="solid"];
   Node62 [label="trace.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d1b/trace_8h.html",tooltip=" "];
-  Node62 -> Node29 [color="steelblue1",style="solid"];
-  Node62 -> Node7 [color="steelblue1",style="solid"];
   Node62 -> Node63 [color="steelblue1",style="solid"];
   Node63 [label="spdlog/spdlog.h",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node62 -> Node29 [color="steelblue1",style="solid"];
+  Node62 -> Node7 [color="steelblue1",style="solid"];
 }

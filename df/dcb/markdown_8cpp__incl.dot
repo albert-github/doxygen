@@ -275,8 +275,8 @@ digraph "/home/runner/work/doxygen/doxygen/src/markdown.cpp"
   Node1 -> Node16 [color="steelblue1",style="solid"];
   Node1 -> Node73 [color="steelblue1",style="solid"];
   Node73 [label="trace.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d1b/trace_8h.html",tooltip=" "];
-  Node73 -> Node20 [color="steelblue1",style="solid"];
-  Node73 -> Node7 [color="steelblue1",style="solid"];
   Node73 -> Node74 [color="steelblue1",style="solid"];
   Node74 [label="spdlog/spdlog.h",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node73 -> Node20 [color="steelblue1",style="solid"];
+  Node73 -> Node7 [color="steelblue1",style="solid"];
 }
