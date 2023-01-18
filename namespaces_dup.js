@@ -79,7 +79,7 @@ var namespaces_dup =
       [ "pathListSeparator", "d7/d6f/namespace_portable.html#a33ec52ac55c4d58e0748239920ee3e14", null ],
       [ "pathSeparator", "d7/d6f/namespace_portable.html#a0f30be3f0aed0b88804816f3e6310ee4", null ],
       [ "pclose", "d7/d6f/namespace_portable.html#a6cde8cab8c3dc3397ea5c6030fbf6e84", null ],
-      [ "pid", "d7/d6f/namespace_portable.html#a5944f5ca01ff6e756c447e11583b73a0", null ],
+      [ "pid", "d7/d6f/namespace_portable.html#a4e8eda17264bc9f97c4d106882c8d874", null ],
       [ "popen", "d7/d6f/namespace_portable.html#a15b92ac03be9e8f4d95d5e881342d83c", null ],
       [ "recodeUtf8StringToW", "d7/d6f/namespace_portable.html#a724f5508f1314342da28cc51b867431b", null ],
       [ "setenv", "d7/d6f/namespace_portable.html#abd244447df22d110ad410b69c357fdf3", null ],

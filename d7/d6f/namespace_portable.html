@@ -101,8 +101,8 @@ $(document).ready(function(){initNavTree('d7/d6f/namespace_portable.html','../..
 Functions</h2></td></tr>
 <tr class="memitem:ab30a636186b72a67d57e9f7f1e917e99"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6f/namespace_portable.html#ab30a636186b72a67d57e9f7f1e917e99">system</a> (const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;command, const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;args, bool commandHasConsole=true)</td></tr>
 <tr class="separator:ab30a636186b72a67d57e9f7f1e917e99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5944f5ca01ff6e756c447e11583b73a0"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6f/namespace_portable.html#a5944f5ca01ff6e756c447e11583b73a0">pid</a> ()</td></tr>
-<tr class="separator:a5944f5ca01ff6e756c447e11583b73a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e8eda17264bc9f97c4d106882c8d874"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6f/namespace_portable.html#a4e8eda17264bc9f97c4d106882c8d874">pid</a> ()</td></tr>
+<tr class="separator:a4e8eda17264bc9f97c4d106882c8d874"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1a7516287ca7c75eebc3fa7aa12e970"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6f/namespace_portable.html#ae1a7516287ca7c75eebc3fa7aa12e970">getenv</a> (const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;variable)</td></tr>
 <tr class="separator:ae1a7516287ca7c75eebc3fa7aa12e970"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd244447df22d110ad410b69c357fdf3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6f/namespace_portable.html#abd244447df22d110ad410b69c357fdf3">setenv</a> (const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;variable, const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;value)</td></tr>
@@ -732,14 +732,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a5944f5ca01ff6e756c447e11583b73a0" name="a5944f5ca01ff6e756c447e11583b73a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5944f5ca01ff6e756c447e11583b73a0">&#9670;&#160;</a></span>pid()</h2>
+<a id="a4e8eda17264bc9f97c4d106882c8d874" name="a4e8eda17264bc9f97c4d106882c8d874"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e8eda17264bc9f97c4d106882c8d874">&#9670;&#160;</a></span>pid()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned int Portable::pid </td>
+          <td class="memname">uint32_t Portable::pid </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -749,15 +749,15 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00265">265</a> of file <a class="el" href="../../d0/d1c/portable_8cpp_source.html">portable.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  266</span>{</div>
-<div class="line"><span class="lineno">  267</span>  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a5944f5ca01ff6e756c447e11583b73a0">pid</a>;</div>
+<div class="line"><span class="lineno">  267</span>  uint32_t <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a4e8eda17264bc9f97c4d106882c8d874">pid</a>;</div>
 <div class="line"><span class="lineno">  268</span><span class="preprocessor">#if !defined(_WIN32) || defined(__CYGWIN__)</span></div>
-<div class="line"><span class="lineno">  269</span>  <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a5944f5ca01ff6e756c447e11583b73a0">pid</a> = <span class="keyword">static_cast&lt;</span><span class="keywordtype">unsigned</span> <span class="keywordtype">int</span><span class="keyword">&gt;</span>(getpid());</div>
+<div class="line"><span class="lineno">  269</span>  <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a4e8eda17264bc9f97c4d106882c8d874">pid</a> = <span class="keyword">static_cast&lt;</span>uint32_t<span class="keyword">&gt;</span>(getpid());</div>
 <div class="line"><span class="lineno">  270</span><span class="preprocessor">#else</span></div>
-<div class="line"><span class="lineno">  271</span>  <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a5944f5ca01ff6e756c447e11583b73a0">pid</a> = <span class="keyword">static_cast&lt;</span><span class="keywordtype">unsigned</span> <span class="keywordtype">int</span><span class="keyword">&gt;</span>(GetCurrentProcessId());</div>
+<div class="line"><span class="lineno">  271</span>  <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a4e8eda17264bc9f97c4d106882c8d874">pid</a> = <span class="keyword">static_cast&lt;</span>uint32_t<span class="keyword">&gt;</span>(GetCurrentProcessId());</div>
 <div class="line"><span class="lineno">  272</span><span class="preprocessor">#endif</span></div>
-<div class="line"><span class="lineno">  273</span>  <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a5944f5ca01ff6e756c447e11583b73a0">pid</a>;</div>
+<div class="line"><span class="lineno">  273</span>  <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a4e8eda17264bc9f97c4d106882c8d874">pid</a>;</div>
 <div class="line"><span class="lineno">  274</span>}</div>
-<div class="ttc" id="anamespace_portable_html_a5944f5ca01ff6e756c447e11583b73a0"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#a5944f5ca01ff6e756c447e11583b73a0">Portable::pid</a></div><div class="ttdeci">unsigned int pid()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1c/portable_8cpp_source.html#l00265">portable.cpp:265</a></div></div>
+<div class="ttc" id="anamespace_portable_html_a4e8eda17264bc9f97c4d106882c8d874"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#a4e8eda17264bc9f97c4d106882c8d874">Portable::pid</a></div><div class="ttdeci">uint32_t pid()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1c/portable_8cpp_source.html#l00265">portable.cpp:265</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00265">pid()</a>.</p>
 
@@ -1118,7 +1118,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  161</span> </div>
 <div class="line"><span class="lineno">  162</span><span class="preprocessor">#else  </span><span class="comment">// Other Unices just use fork</span></div>
 <div class="line"><span class="lineno">  163</span> </div>
-<div class="line"><span class="lineno">  164</span>  <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a5944f5ca01ff6e756c447e11583b73a0">pid</a> = fork();</div>
+<div class="line"><span class="lineno">  164</span>  <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a4e8eda17264bc9f97c4d106882c8d874">pid</a> = fork();</div>
 <div class="line"><span class="lineno">  165</span>  <span class="keywordflow">if</span> (pid==-1)</div>
 <div class="line"><span class="lineno">  166</span>  {</div>
 <div class="line"><span class="lineno">  167</span>    perror(<span class="stringliteral">&quot;fork error&quot;</span>);</div>
