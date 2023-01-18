@@ -37,6 +37,6 @@ var class_translator_adapter__1__8__15 =
     [ "trStructList", "d4/d2e/class_translator_adapter__1__8__15.html#adf8a9d99515e8c046a6d1ada5fcd457e", null ],
     [ "trStructListDescription", "d4/d2e/class_translator_adapter__1__8__15.html#abd974bb881e4dc02dd640c9adf14eecf", null ],
     [ "trStructs", "d4/d2e/class_translator_adapter__1__8__15.html#a543106f6298883d2e832dfdeb9484e47", null ],
-    [ "trVhdlType", "d4/d2e/class_translator_adapter__1__8__15.html#a124a2b8df3f2a88930ab99a20c519799", null ],
+    [ "trVhdlType", "d4/d2e/class_translator_adapter__1__8__15.html#a1395beb7691730816d28a49e9facf4c0", null ],
     [ "updateNeededMessage", "d4/d2e/class_translator_adapter__1__8__15.html#a80d2ab2af345124fee8267ad82ac51ed", null ]
 ];

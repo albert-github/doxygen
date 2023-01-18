@@ -340,7 +340,8 @@ digraph "/home/runner/work/doxygen/doxygen/src/htmlgen.cpp"
   Node1 -> Node33 [color="steelblue1",style="solid"];
   Node1 -> Node89 [color="steelblue1",style="solid"];
   Node89 [label="docnode.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d2b/docnode_8h.html",tooltip=" "];
-  Node89 -> Node34 [color="steelblue1",style="solid"];
+  Node89 -> Node12 [color="steelblue1",style="solid"];
+  Node89 -> Node14 [color="steelblue1",style="solid"];
   Node89 -> Node25 [color="steelblue1",style="solid"];
   Node89 -> Node19 [color="steelblue1",style="solid"];
   Node89 -> Node90 [color="steelblue1",style="solid"];
@@ -419,6 +420,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/htmlgen.cpp"
   Node1 -> Node105 [color="steelblue1",style="solid"];
   Node105 [label="image.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/db2/image_8h.html",tooltip=" "];
   Node105 -> Node19 [color="steelblue1",style="solid"];
+  Node105 -> Node14 [color="steelblue1",style="solid"];
   Node105 -> Node23 [color="steelblue1",style="solid"];
   Node105 -> Node7 [color="steelblue1",style="solid"];
   Node1 -> Node106 [color="steelblue1",style="solid"];

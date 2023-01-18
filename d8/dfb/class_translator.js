@@ -302,7 +302,7 @@ var class_translator =
     [ "trVariableDocumentation", "d8/dfb/class_translator.html#a637b04555eedd43402fe240760f302ea", null ],
     [ "trVariables", "d8/dfb/class_translator.html#a436fe2e6f0ba8c4cdb544dd72a6e72a2", null ],
     [ "trVersion", "d8/dfb/class_translator.html#a5969dae9422940f4675aa18304b16087", null ],
-    [ "trVhdlType", "d8/dfb/class_translator.html#a39d71540a7d5037f03c633fdcad785f6", null ],
+    [ "trVhdlType", "d8/dfb/class_translator.html#a6d9c8cf632e5795324696c2228900fad", null ],
     [ "trWarning", "d8/dfb/class_translator.html#ad00b8ff1d576631ed24b1aaf81f21b82", null ],
     [ "trWriteList", "d8/dfb/class_translator.html#a31e719b4e290a359ddbb78132bf3f494", null ],
     [ "updateNeededMessage", "d8/dfb/class_translator.html#a8841e027d8a0e661d0cef7e06d75c22a", null ]

@@ -290,7 +290,7 @@ var class_translator_greek =
     [ "trVariableDocumentation", "df/d75/class_translator_greek.html#a5de7ff594f0fa5e5c9ca9d87ede6b0f3", null ],
     [ "trVariables", "df/d75/class_translator_greek.html#ac66d1f4971d580d34fa95c8f5429bc8b", null ],
     [ "trVersion", "df/d75/class_translator_greek.html#a32b03703244deaf8a9221b5428f41f57", null ],
-    [ "trVhdlType", "df/d75/class_translator_greek.html#a490ddb8345625b64ffcc1a3ed3bebd44", null ],
+    [ "trVhdlType", "df/d75/class_translator_greek.html#a6b5a356603074813eefe660c41c5f947", null ],
     [ "trWarning", "df/d75/class_translator_greek.html#a82cf5aab5f2ce247f5911eba5ddce2fb", null ],
     [ "trWriteList", "df/d75/class_translator_greek.html#afb975a900ede5cf426effbd69025ba9a", null ]
 ];

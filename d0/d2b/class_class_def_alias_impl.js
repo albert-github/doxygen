@@ -70,7 +70,7 @@ var class_class_def_alias_impl =
     [ "isVisibleInHierarchy", "d0/d2b/class_class_def_alias_impl.html#a90f33233315866b412ac8573c9f0c583", null ],
     [ "memberNameInfoLinkedMap", "d0/d2b/class_class_def_alias_impl.html#a0bcabe265cae72e63addac5357670246", null ],
     [ "protection", "d0/d2b/class_class_def_alias_impl.html#a6649f63f795daf76a3c80747d20d3e94", null ],
-    [ "qualifiedNameWithTemplateParameters", "d0/d2b/class_class_def_alias_impl.html#a79e996c7943696de1f8133e5e1b7e96b", null ],
+    [ "qualifiedNameWithTemplateParameters", "d0/d2b/class_class_def_alias_impl.html#afc8590f621f17d83c63d0336c6f00bac", null ],
     [ "requiresClause", "d0/d2b/class_class_def_alias_impl.html#a3f17cb2e5f614a9ad439ae0118cc4b7c", null ],
     [ "resolveAlias", "d0/d2b/class_class_def_alias_impl.html#a7d72509797bb77585310b64c11b7533c", null ],
     [ "subClasses", "d0/d2b/class_class_def_alias_impl.html#ac319aad2837839d3dc7703ef6b5f5230", null ],

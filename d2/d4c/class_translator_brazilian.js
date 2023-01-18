@@ -289,7 +289,7 @@ var class_translator_brazilian =
     [ "trVariableDocumentation", "d2/d4c/class_translator_brazilian.html#a190f58095888ba21251372961e6cd428", null ],
     [ "trVariables", "d2/d4c/class_translator_brazilian.html#ad7ad3b249c9fa289fdd910ecc5c64669", null ],
     [ "trVersion", "d2/d4c/class_translator_brazilian.html#a9afd12cbe1654a177cf3607a29489061", null ],
-    [ "trVhdlType", "d2/d4c/class_translator_brazilian.html#a8cfd7c0ac4952835ab2ca311aa32f74e", null ],
+    [ "trVhdlType", "d2/d4c/class_translator_brazilian.html#aa3ae29046bcd67ab49ec719fbb9e7d3b", null ],
     [ "trWarning", "d2/d4c/class_translator_brazilian.html#a0df8d947cded269c31eebe27eed02a0c", null ],
     [ "trWriteList", "d2/d4c/class_translator_brazilian.html#acaecaff49a31e83740a9924f4daa488b", null ]
 ];

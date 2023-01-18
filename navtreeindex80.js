@@ -1,9 +1,5 @@
 var NAVTREEINDEX80 =
 {
-"da/dbb/class_translator_bulgarian.html#a6e04c76e83d9cf650a331998e7ffeace":[8,0,578,239],
-"da/dbb/class_translator_bulgarian.html#a6f3732ba3b71485540b821231ea02527":[8,0,578,233],
-"da/dbb/class_translator_bulgarian.html#a70975aecbe3b7420cb82fca1916d49cb":[8,0,578,162],
-"da/dbb/class_translator_bulgarian.html#a7177f76bee1460d400014f4b94d5234b":[8,0,578,133],
 "da/dbb/class_translator_bulgarian.html#a71bdbf0f744d3d9d94a67683d8a7f664":[8,0,578,229],
 "da/dbb/class_translator_bulgarian.html#a726f1fa07f0ac2b91cca4e2ed463937d":[8,0,578,214],
 "da/dbb/class_translator_bulgarian.html#a7276cc9abc70983b7e05f2e21f484965":[8,0,578,49],
@@ -23,7 +19,6 @@ var NAVTREEINDEX80 =
 "da/dbb/class_translator_bulgarian.html#a7b99418dcec1b9ee6e38d863930699d9":[8,0,578,82],
 "da/dbb/class_translator_bulgarian.html#a7c5881e844a130df492c3aa16771f34d":[8,0,578,177],
 "da/dbb/class_translator_bulgarian.html#a7c6b09b5df95f1c049cad5f768030553":[8,0,578,21],
-"da/dbb/class_translator_bulgarian.html#a7dac9893f9eace7e8cb9435ab31af1ad":[8,0,578,286],
 "da/dbb/class_translator_bulgarian.html#a7ec7dc8fac74f8e9d7f3fa99f7bd9789":[8,0,578,176],
 "da/dbb/class_translator_bulgarian.html#a7f94baa80729d6e5225a32af4ab1fb0b":[8,0,578,245],
 "da/dbb/class_translator_bulgarian.html#a7fd3d64048f6f5e228a7563007b322b9":[8,0,578,272],
@@ -105,6 +100,7 @@ var NAVTREEINDEX80 =
 "da/dbb/class_translator_bulgarian.html#abaa73837b546836166157e6689a8a07c":[8,0,578,151],
 "da/dbb/class_translator_bulgarian.html#abbbbdfd019df9b8cf0f2547fcefc1dec":[8,0,578,251],
 "da/dbb/class_translator_bulgarian.html#abcfaeeb0951786f0ff7a5c20c1fba761":[8,0,578,257],
+"da/dbb/class_translator_bulgarian.html#abd0af23f3a47322481c53f308f6c234b":[8,0,578,286],
 "da/dbb/class_translator_bulgarian.html#abdd35d00945d92145242484a019a24ab":[8,0,578,81],
 "da/dbb/class_translator_bulgarian.html#abe2b8fad40fcf42298e1862c964d8d59":[8,0,578,260],
 "da/dbb/class_translator_bulgarian.html#abebfbad857526531e555f57dadd16552":[8,0,578,94],
@@ -249,5 +245,9 @@ var NAVTREEINDEX80 =
 "da/dc5/class_clang_parser.html#afeda45c0fa8d3bd57ead3c5827552bb8":[8,0,33,6],
 "da/dce/clangparser_8cpp.html":[9,0,2,7],
 "da/dce/clangparser_8cpp.html#a2d3ea1645a5e51e8da5f98432bb06cb8":[9,0,2,7,2],
-"da/dce/clangparser_8cpp_source.html":[9,0,2,7]
+"da/dce/clangparser_8cpp_source.html":[9,0,2,7],
+"da/dd3/class_latex_escaper.html":[8,0,347],
+"da/dd3/class_latex_escaper.html#a224cb832481438f57b24c2a8159ab67f":[8,0,347,2],
+"da/dd3/class_latex_escaper.html#a8953a4af47c1a91933e3e7896c02c3c8":[8,0,347,1],
+"da/dd3/class_latex_escaper.html#ac6db140f510d46ce4f169546adbc5cb6":[8,0,347,3]
 };

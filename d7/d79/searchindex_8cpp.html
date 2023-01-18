@@ -176,9 +176,9 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno">  168</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>.length()&lt;2) <span class="keywordflow">return</span> -1;</div>
 <div class="line"><span class="lineno">  169</span> </div>
 <div class="line"><span class="lineno">  170</span>  <span class="comment">// Fast string hashing algorithm</span></div>
-<div class="line"><span class="lineno">  171</span>  <span class="comment">//register ushort h=0;</span></div>
+<div class="line"><span class="lineno">  171</span>  <span class="comment">//register uint16_t h=0;</span></div>
 <div class="line"><span class="lineno">  172</span>  <span class="comment">//const char *k = word;</span></div>
-<div class="line"><span class="lineno">  173</span>  <span class="comment">//ushort mask=0xfc00;</span></div>
+<div class="line"><span class="lineno">  173</span>  <span class="comment">//uint16_t mask=0xfc00;</span></div>
 <div class="line"><span class="lineno">  174</span>  <span class="comment">//while ( *k )</span></div>
 <div class="line"><span class="lineno">  175</span>  <span class="comment">//{</span></div>
 <div class="line"><span class="lineno">  176</span>  <span class="comment">//  h = (h&amp;mask)^(h&lt;&lt;6)^(*k++);</span></div>
@@ -186,12 +186,10 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno">  178</span>  <span class="comment">//return h;</span></div>
 <div class="line"><span class="lineno">  179</span> </div>
 <div class="line"><span class="lineno">  180</span>  <span class="comment">// Simple hashing that allows for substring searching</span></div>
-<div class="line"><span class="lineno">  181</span>  <a class="code hl_typedef" href="../../d7/d5c/qcstring_8h.html#a4d3943ddea65db7163a58e6c7e8df95a">uint</a> c1=<span class="keyword">static_cast&lt;</span><a class="code hl_typedef" href="../../d7/d5c/qcstring_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a><span class="keyword">&gt;</span>(<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>[0]);</div>
-<div class="line"><span class="lineno">  182</span>  <a class="code hl_typedef" href="../../d7/d5c/qcstring_8h.html#a4d3943ddea65db7163a58e6c7e8df95a">uint</a> c2=<span class="keyword">static_cast&lt;</span><a class="code hl_typedef" href="../../d7/d5c/qcstring_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a><span class="keyword">&gt;</span>(<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>[1]);</div>
+<div class="line"><span class="lineno">  181</span>  uint32_t c1=<span class="keyword">static_cast&lt;</span>uint8_t<span class="keyword">&gt;</span>(<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>[0]);</div>
+<div class="line"><span class="lineno">  182</span>  uint32_t c2=<span class="keyword">static_cast&lt;</span>uint8_t<span class="keyword">&gt;</span>(<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>[1]);</div>
 <div class="line"><span class="lineno">  183</span>  <span class="keywordflow">return</span> c1*256+c2;</div>
 <div class="line"><span class="lineno">  184</span>}</div>
-<div class="ttc" id="aqcstring_8h_html_a4d3943ddea65db7163a58e6c7e8df95a"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#a4d3943ddea65db7163a58e6c7e8df95a">uint</a></div><div class="ttdeci">unsigned uint</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00040">qcstring.h:40</a></div></div>
-<div class="ttc" id="aqcstring_8h_html_a65f85814a8290f9797005d3b28e7e5fc"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a></div><div class="ttdeci">unsigned char uchar</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00038">qcstring.h:38</a></div></div>
 <div class="ttc" id="autil_8cpp_html_a5ee566002626114272def590e5eecf76"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a></div><div class="ttdeci">std::string word</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l00958">util.cpp:958</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../df/d2d/util_8cpp_source.html#l00958">word</a>.</p>
@@ -464,13 +462,13 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00241">241</a> of file <a class="el" href="../../d7/d79/searchindex_8cpp_source.html">searchindex.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  242</span>{</div>
-<div class="line"><span class="lineno">  243</span>  <a class="code hl_typedef" href="../../d7/d5c/qcstring_8h.html#a4d3943ddea65db7163a58e6c7e8df95a">uint</a> l = s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">length</a>();</div>
-<div class="line"><span class="lineno">  244</span>  <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d7/d5c/qcstring_8h.html#a4d3943ddea65db7163a58e6c7e8df95a">uint</a> i=0;i&lt;l;i++) f.put(s[i]);</div>
+<div class="line"><span class="lineno">  243</span>  uint32_t l = s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>();</div>
+<div class="line"><span class="lineno">  244</span>  <span class="keywordflow">for</span> (uint32_t i=0;i&lt;l;i++) f.put(s[i]);</div>
 <div class="line"><span class="lineno">  245</span>  f.put(0);</div>
 <div class="line"><span class="lineno">  246</span>}</div>
-<div class="ttc" id="aclass_q_c_string_html_ac52596733e9110b778019946d73fb268"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#ac52596733e9110b778019946d73fb268">QCString::length</a></div><div class="ttdeci">uint length() const</div><div class="ttdoc">Returns the length of the string, not counting the 0-terminator.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00147">qcstring.h:147</a></div></div>
+<div class="ttc" id="aclass_q_c_string_html_acc50f8bef7d726d5c9d42bab4d89f7c7"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">QCString::length</a></div><div class="ttdeci">uint32_t length() const</div><div class="ttdoc">Returns the length of the string, not counting the 0-terminator.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00141">qcstring.h:141</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::length()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00141">QCString::length()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00248">SearchIndex::write()</a>.</p>
 

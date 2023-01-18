@@ -25,5 +25,7 @@ var message_8cpp =
     [ "g_warnFormat", "d8/d6a/message_8cpp.html#aad4ae1643bcdbcff1680a322e5bbae8d", null ],
     [ "g_warningStr", "d8/d6a/message_8cpp.html#a9d34be93b99045d723b7edc562d10ce4", null ],
     [ "g_warnLineFormat", "d8/d6a/message_8cpp.html#a7a6bddc99419347af9c2d3569bada867", null ],
+    [ "g_warnlogFile", "d8/d6a/message_8cpp.html#aef140dc11e587afb68a5b902eef06241", null ],
+    [ "g_warnlogTemp", "d8/d6a/message_8cpp.html#a74c872d0bf5eb507f454aaa810973144", null ],
     [ "g_warnStat", "d8/d6a/message_8cpp.html#a807b8e20fe24490244de4bfdaf531bef", null ]
 ];

@@ -40,6 +40,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/diagram.cpp"
   Node1 -> Node16 [color="steelblue1",style="solid"];
   Node16 [label="image.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/db2/image_8h.html",tooltip=" "];
   Node16 -> Node6 [color="steelblue1",style="solid"];
+  Node16 -> Node13 [color="steelblue1",style="solid"];
   Node16 -> Node17 [color="steelblue1",style="solid"];
   Node17 [label="types.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d49/types_8h.html",tooltip="This file contains a number of basic enums and types."];
   Node17 -> Node7 [color="steelblue1",style="solid"];

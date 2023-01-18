@@ -24,7 +24,7 @@ var class_doc_parser =
     [ "handleUnclosedStyleCommands", "da/d02/class_doc_parser.html#af097a0f67abbe29e09a9956e88eb7642", null ],
     [ "internalValidatingParseDoc", "da/d02/class_doc_parser.html#adcee51530523db48093915382f1694fb", null ],
     [ "popContext", "da/d02/class_doc_parser.html#aa05ab8dc59dfa50633146bdba08db5f0", null ],
-    [ "processCopyDoc", "da/d02/class_doc_parser.html#a0926310306bc7a703878d9dec9c73160", null ],
+    [ "processCopyDoc", "da/d02/class_doc_parser.html#ae1000a7d2584ccdf6e22e22ecaf494ea", null ],
     [ "pushContext", "da/d02/class_doc_parser.html#af278dab51b58124b32a625d709a29d97", null ],
     [ "readTextFileByName", "da/d02/class_doc_parser.html#a5340de5ad1c86c5c2d03b02e721b51e0", null ],
     [ "context", "da/d02/class_doc_parser.html#ad6738a87a82c364cedd836a084394960", null ],

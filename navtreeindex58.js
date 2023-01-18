@@ -1,11 +1,5 @@
 var NAVTREEINDEX58 =
 {
-"d7/de7/mangen_8cpp.html#af1fe3d297ea470a43021b734cd9add94":[9,0,2,163,4],
-"d7/de7/mangen_8cpp.html#af6acf966d7ed7500f4ab36fbdce70db0":[9,0,2,163,0],
-"d7/de7/mangen_8cpp_source.html":[9,0,2,163],
-"d7/de8/class_ref_list.html":[8,0,456],
-"d7/de8/class_ref_list.html#a17bc1029e261db1d27fc066485b28a4d":[8,0,456,13],
-"d7/de8/class_ref_list.html#a1b8f629582102465bc198cb011537408":[8,0,456,12],
 "d7/de8/class_ref_list.html#a1fb6f991a5826241faab676ba08fb5e3":[8,0,456,4],
 "d7/de8/class_ref_list.html#a256f77e4a8638c72df0883eb07d3dd3f":[8,0,456,15],
 "d7/de8/class_ref_list.html#a3627ab8d4a351f058aa31a2b70440b2f":[8,0,456,9],
@@ -249,5 +243,11 @@ var NAVTREEINDEX58 =
 "d8/d31/class_template_node_tree.html#a9e003555c8ce1065a8446e3a26b64888":[8,0,538,3],
 "d8/d31/class_template_node_tree.html#aaf1686db480ef63a2c79ed63e27d9e25":[8,0,538,5],
 "d8/d32/class_dot_node_deque.html":[8,0,211],
-"d8/d33/class_grow_buf.html":[8,0,307]
+"d8/d33/class_grow_buf.html":[8,0,307],
+"d8/d33/class_grow_buf.html#a1a0ecc7a79837ed02005befe12d49994":[8,0,307,16],
+"d8/d33/class_grow_buf.html#a2c1af45fdd1c692684b38dd54fcf1a6b":[8,0,307,22],
+"d8/d33/class_grow_buf.html#a30ef5583d31934cffabff4fa837a9e84":[8,0,307,17],
+"d8/d33/class_grow_buf.html#a3c84320a57fe98375add64ad01e9bf3b":[8,0,307,6],
+"d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda":[8,0,307,5],
+"d8/d33/class_grow_buf.html#a471132290014798c89965dd36b51e5bc":[8,0,307,4]
 };

@@ -129,11 +129,13 @@ digraph "/home/runner/work/doxygen/doxygen/src/docparser.cpp"
   Node41 -> Node9 [color="steelblue1",style="solid"];
   Node41 -> Node42 [color="steelblue1",style="solid"];
   Node42 [label="deque",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node41 -> Node18 [color="steelblue1",style="solid"];
   Node41 -> Node23 [color="steelblue1",style="solid"];
   Node41 -> Node38 [color="steelblue1",style="solid"];
   Node41 -> Node43 [color="steelblue1",style="solid"];
   Node43 [label="docnode.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d2b/docnode_8h.html",tooltip=" "];
-  Node43 -> Node2 [color="steelblue1",style="solid"];
+  Node43 -> Node16 [color="steelblue1",style="solid"];
+  Node43 -> Node18 [color="steelblue1",style="solid"];
   Node43 -> Node9 [color="steelblue1",style="solid"];
   Node43 -> Node10 [color="steelblue1",style="solid"];
   Node43 -> Node44 [color="steelblue1",style="solid"];

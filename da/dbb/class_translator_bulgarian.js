@@ -286,7 +286,7 @@ var class_translator_bulgarian =
     [ "trVariableDocumentation", "da/dbb/class_translator_bulgarian.html#ad6475836c4931f936e8e34401dc6bd16", null ],
     [ "trVariables", "da/dbb/class_translator_bulgarian.html#ab054c0db61aad563096f98f9ee7de1fa", null ],
     [ "trVersion", "da/dbb/class_translator_bulgarian.html#affb540f040f25da5e6c0c282bf28518d", null ],
-    [ "trVhdlType", "da/dbb/class_translator_bulgarian.html#a7dac9893f9eace7e8cb9435ab31af1ad", null ],
+    [ "trVhdlType", "da/dbb/class_translator_bulgarian.html#abd0af23f3a47322481c53f308f6c234b", null ],
     [ "trWarning", "da/dbb/class_translator_bulgarian.html#ae764b0a68466173ba0bb2203d89e96ce", null ],
     [ "trWriteList", "da/dbb/class_translator_bulgarian.html#ad6d43e5c3267fc8b2e08c697bfb3a4fb", null ]
 ];

@@ -102,7 +102,7 @@ var util_8cpp =
     [ "matchArguments2", "df/d2d/util_8cpp.html#a78739b1ab728bbecd4d3e54ae90bbbce", null ],
     [ "mergeArguments", "df/d2d/util_8cpp.html#abfa0499109cd76100ecdad2fa752ed3b", null ],
     [ "mergeScopes", "df/d2d/util_8cpp.html#a0baa021dae80e22593292b12ef2f721f", null ],
-    [ "nextUTF8CharPosition", "df/d2d/util_8cpp.html#a6827fda16c02c3a91052572ed7cf9fff", null ],
+    [ "nextUTF8CharPosition", "df/d2d/util_8cpp.html#aaffed37cb5d8467824e24fe6132ec1b6", null ],
     [ "normalizeNonTemplateArgumentsInString", "df/d2d/util_8cpp.html#a11601f7b8b08cb9600482e5dc3bc51c5", null ],
     [ "openOutputFile", "df/d2d/util_8cpp.html#a5c6662051d765cb0a355382ab05c14a1", null ],
     [ "parseCommentAsText", "df/d2d/util_8cpp.html#a336a6313626a3a3931e2086fd507bedc", null ],

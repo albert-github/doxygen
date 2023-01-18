@@ -1,9 +1,5 @@
 var NAVTREEINDEX91 =
 {
-"dc/d44/class_translator_spanish.html#a0997ca187fe07496d1e2a36dec5de44e":[8,0,613,122],
-"dc/d44/class_translator_spanish.html#a09cc25d12f3fc6de7a9ffd2762a016d9":[8,0,613,204],
-"dc/d44/class_translator_spanish.html#a0aefafafb0f650370fe9d18c6b9190b3":[8,0,613,44],
-"dc/d44/class_translator_spanish.html#a0bc9727d19dc8649eae3efb1c25be841":[8,0,613,271],
 "dc/d44/class_translator_spanish.html#a0c8a591372838ed2e79b15a64576967e":[8,0,613,118],
 "dc/d44/class_translator_spanish.html#a0cda5a310298779a495b8892ea0c8394":[8,0,613,270],
 "dc/d44/class_translator_spanish.html#a10305e731f47fc0d7712a52deb9588b7":[8,0,613,65],
@@ -141,6 +137,7 @@ var NAVTREEINDEX91 =
 "dc/d44/class_translator_spanish.html#a75a375e4c400b4a2db04c3c7538b7367":[8,0,613,169],
 "dc/d44/class_translator_spanish.html#a764fcb355a0ad62cf34447377d470d32":[8,0,613,233],
 "dc/d44/class_translator_spanish.html#a7725eac9f3c7849e4ea0918f68e6abbb":[8,0,613,140],
+"dc/d44/class_translator_spanish.html#a77c24d1e110c64b01aedd5448eb111f2":[8,0,613,288],
 "dc/d44/class_translator_spanish.html#a7854d7de03b13c779f4327db8b85fce1":[8,0,613,36],
 "dc/d44/class_translator_spanish.html#a796c325a21a61fc35a1b63c34ab7a269":[8,0,613,290],
 "dc/d44/class_translator_spanish.html#a79769337ce6b480ebb4ec40506ebd217":[8,0,613,184],
@@ -249,5 +246,8 @@ var NAVTREEINDEX91 =
 "dc/d44/class_translator_spanish.html#ae4d06420c39ed2c65dd70727772b3650":[8,0,613,138],
 "dc/d44/class_translator_spanish.html#ae520843848c76c9e0df1a49ba878b1f0":[8,0,613,253],
 "dc/d44/class_translator_spanish.html#ae5b95ec531a38b4037b813aebe30680b":[8,0,613,222],
-"dc/d44/class_translator_spanish.html#ae5d86a659a60b040ddc479168aa8ed8d":[8,0,613,116]
+"dc/d44/class_translator_spanish.html#ae5d86a659a60b040ddc479168aa8ed8d":[8,0,613,116],
+"dc/d44/class_translator_spanish.html#ae5f87400149e3a1cd0019c9869846235":[8,0,613,224],
+"dc/d44/class_translator_spanish.html#ae6aefc68ac9cc9d9bad28de74a89a329":[8,0,613,29],
+"dc/d44/class_translator_spanish.html#ae864e7c990ef4daf847ce2349f1e9a0a":[8,0,613,54]
 };

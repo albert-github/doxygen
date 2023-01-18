@@ -71,7 +71,8 @@ digraph "/home/runner/work/doxygen/doxygen/src/dotfilepatcher.cpp"
   Node28 [label="iterator",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
   Node1 -> Node29 [color="steelblue1",style="solid"];
   Node29 [label="docnode.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d2b/docnode_8h.html",tooltip=" "];
-  Node29 -> Node26 [color="steelblue1",style="solid"];
+  Node29 -> Node9 [color="steelblue1",style="solid"];
+  Node29 -> Node11 [color="steelblue1",style="solid"];
   Node29 -> Node3 [color="steelblue1",style="solid"];
   Node29 -> Node20 [color="steelblue1",style="solid"];
   Node29 -> Node30 [color="steelblue1",style="solid"];

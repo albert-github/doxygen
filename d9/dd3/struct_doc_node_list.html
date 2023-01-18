@@ -189,7 +189,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../de/d2b/docnode_8h_source.html#l00112">112</a> of file <a class="el" href="../../de/d2b/docnode_8h_source.html">docnode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d2b/docnode_8h_source.html#l00113">113</a> of file <a class="el" href="../../de/d2b/docnode_8h_source.html">docnode.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a30311044775646ed646865f8423402fd" name="a30311044775646ed646865f8423402fd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a30311044775646ed646865f8423402fd">&#9670;&#160;</a></span>append()</h2>
@@ -219,11 +219,11 @@ template&lt;class T , class... Args&gt; </div>
 
 <p>Append a new DocNodeVariant to the list by constructing it with type T and parameters Args. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d2b/docnode_8h_source.html#l01330">1330</a> of file <a class="el" href="../../de/d2b/docnode_8h_source.html">docnode.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1331</span>{</div>
-<div class="line"><span class="lineno"> 1332</span>  <a class="code hl_function" href="../../d0/d08/class_grow_vector.html#a7a92b9894590a7470f2f9ebd2d7cda7b">emplace_back</a>(T(std::forward&lt;Args&gt;(args)...));</div>
-<div class="line"><span class="lineno"> 1333</span>  <span class="keywordflow">return</span> &amp;<a class="code hl_function" href="../../d0/d08/class_grow_vector.html#a32ffacabb2c328729f4e6ead6d96a4ad">back</a>();</div>
-<div class="line"><span class="lineno"> 1334</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../de/d2b/docnode_8h_source.html#l01331">1331</a> of file <a class="el" href="../../de/d2b/docnode_8h_source.html">docnode.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1332</span>{</div>
+<div class="line"><span class="lineno"> 1333</span>  <a class="code hl_function" href="../../d0/d08/class_grow_vector.html#a7a92b9894590a7470f2f9ebd2d7cda7b">emplace_back</a>(T(std::forward&lt;Args&gt;(args)...));</div>
+<div class="line"><span class="lineno"> 1334</span>  <span class="keywordflow">return</span> &amp;<a class="code hl_function" href="../../d0/d08/class_grow_vector.html#a32ffacabb2c328729f4e6ead6d96a4ad">back</a>();</div>
+<div class="line"><span class="lineno"> 1335</span>}</div>
 <div class="ttc" id="aclass_grow_vector_html_a32ffacabb2c328729f4e6ead6d96a4ad"><div class="ttname"><a href="../../d0/d08/class_grow_vector.html#a32ffacabb2c328729f4e6ead6d96a4ad">GrowVector&lt; DocNodeVariant &gt;::back</a></div><div class="ttdeci">DocNodeVariant &amp; back()</div><div class="ttdoc">access the last element</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d50/growvector_8h_source.html#l00134">growvector.h:134</a></div></div>
 <div class="ttc" id="aclass_grow_vector_html_a7a92b9894590a7470f2f9ebd2d7cda7b"><div class="ttname"><a href="../../d0/d08/class_grow_vector.html#a7a92b9894590a7470f2f9ebd2d7cda7b">GrowVector&lt; DocNodeVariant &gt;::emplace_back</a></div><div class="ttdeci">void emplace_back(Args &amp;&amp;...args)</div><div class="ttdoc">constructs an element in-place at the end</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d50/growvector_8h_source.html#l00107">growvector.h:107</a></div></div>
 </div><!-- fragment -->
@@ -257,10 +257,10 @@ template&lt;class T &gt; </div>
 
 <p>Returns a pointer to the last element in the list if that element exists and holds a T, otherwise nullptr is returned. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d2b/docnode_8h_source.html#l01346">1346</a> of file <a class="el" href="../../de/d2b/docnode_8h_source.html">docnode.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1347</span>{</div>
-<div class="line"><span class="lineno"> 1348</span>  <span class="keywordflow">return</span> std::get_if&lt;T&gt;(&amp;<a class="code hl_function" href="../../d0/d08/class_grow_vector.html#a32ffacabb2c328729f4e6ead6d96a4ad">back</a>());</div>
-<div class="line"><span class="lineno"> 1349</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../de/d2b/docnode_8h_source.html#l01347">1347</a> of file <a class="el" href="../../de/d2b/docnode_8h_source.html">docnode.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1348</span>{</div>
+<div class="line"><span class="lineno"> 1349</span>  <span class="keywordflow">return</span> std::get_if&lt;T&gt;(&amp;<a class="code hl_function" href="../../d0/d08/class_grow_vector.html#a32ffacabb2c328729f4e6ead6d96a4ad">back</a>());</div>
+<div class="line"><span class="lineno"> 1350</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d7/d50/growvector_8h_source.html#l00134">GrowVector&lt; DocNodeVariant &gt;::back()</a>.</p>
 
@@ -295,14 +295,14 @@ template&lt;class T &gt; </div>
 <p>moves the element of list <em>l</em> at the end of this list. </p>
 <p>List <em>l</em> will become empty. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d2b/docnode_8h_source.html#l01336">1336</a> of file <a class="el" href="../../de/d2b/docnode_8h_source.html">docnode.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1337</span>{</div>
-<div class="line"><span class="lineno"> 1338</span>  <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;&amp;elem : elements)</div>
-<div class="line"><span class="lineno"> 1339</span>  {</div>
-<div class="line"><span class="lineno"> 1340</span>    <a class="code hl_function" href="../../d0/d08/class_grow_vector.html#a7a92b9894590a7470f2f9ebd2d7cda7b">emplace_back</a>(std::move(elem));</div>
-<div class="line"><span class="lineno"> 1341</span>  }</div>
-<div class="line"><span class="lineno"> 1342</span>  elements.clear();</div>
-<div class="line"><span class="lineno"> 1343</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../de/d2b/docnode_8h_source.html#l01337">1337</a> of file <a class="el" href="../../de/d2b/docnode_8h_source.html">docnode.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1338</span>{</div>
+<div class="line"><span class="lineno"> 1339</span>  <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;&amp;elem : elements)</div>
+<div class="line"><span class="lineno"> 1340</span>  {</div>
+<div class="line"><span class="lineno"> 1341</span>    <a class="code hl_function" href="../../d0/d08/class_grow_vector.html#a7a92b9894590a7470f2f9ebd2d7cda7b">emplace_back</a>(std::move(elem));</div>
+<div class="line"><span class="lineno"> 1342</span>  }</div>
+<div class="line"><span class="lineno"> 1343</span>  elements.clear();</div>
+<div class="line"><span class="lineno"> 1344</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d7/d50/growvector_8h_source.html#l00142">GrowVector&lt; T &gt;::clear()</a>, and <a class="el" href="../../d7/d50/growvector_8h_source.html#l00107">GrowVector&lt; DocNodeVariant &gt;::emplace_back()</a>.</p>
 

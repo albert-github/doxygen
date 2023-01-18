@@ -50,10 +50,11 @@ digraph "/home/runner/work/doxygen/doxygen/src/clangparser.cpp"
   Node2 -> Node21 [color="steelblue1",style="solid"];
   Node21 [label="memory",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
   Node2 -> Node5 [color="steelblue1",style="solid"];
+  Node2 -> Node18 [color="steelblue1",style="solid"];
   Node1 -> Node22 [color="steelblue1",style="solid"];
   Node22 [label="settings.h",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node1 -> Node16 [color="steelblue1",style="solid"];
+  Node1 -> Node18 [color="steelblue1",style="solid"];
   Node1 -> Node23 [color="steelblue1",style="solid"];
-  Node23 [label="stdio.h",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
-  Node1 -> Node24 [color="steelblue1",style="solid"];
-  Node24 [label="mutex",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node23 [label="mutex",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
 }

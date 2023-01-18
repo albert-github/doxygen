@@ -289,7 +289,7 @@ var class_translator_swedish =
     [ "trVariableDocumentation", "d5/d5c/class_translator_swedish.html#aeaaf52241c6aacbda48a523ead89bc55", null ],
     [ "trVariables", "d5/d5c/class_translator_swedish.html#aa387d5c89e380291cf300b9dc2012534", null ],
     [ "trVersion", "d5/d5c/class_translator_swedish.html#a104841ffa19eac540a8d0371013ebdd0", null ],
-    [ "trVhdlType", "d5/d5c/class_translator_swedish.html#a68e8525cb711f33811849b7f32ca1b61", null ],
+    [ "trVhdlType", "d5/d5c/class_translator_swedish.html#a75d5600006c7f12a772b76ba3305cf00", null ],
     [ "trWarning", "d5/d5c/class_translator_swedish.html#ab3a7c0acd97949464cc3423dce3a6d01", null ],
     [ "trWriteList", "d5/d5c/class_translator_swedish.html#af64d122e4a2911cb572c601f8b84cb38", null ]
 ];

@@ -49,7 +49,8 @@ digraph "/home/runner/work/doxygen/doxygen/src/perlmodgen.cpp"
   Node20 [label="iterator",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
   Node1 -> Node21 [color="steelblue1",style="solid"];
   Node21 [label="docnode.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d2b/docnode_8h.html",tooltip=" "];
-  Node21 -> Node6 [color="steelblue1",style="solid"];
+  Node21 -> Node13 [color="steelblue1",style="solid"];
+  Node21 -> Node15 [color="steelblue1",style="solid"];
   Node21 -> Node19 [color="steelblue1",style="solid"];
   Node21 -> Node7 [color="steelblue1",style="solid"];
   Node21 -> Node22 [color="steelblue1",style="solid"];

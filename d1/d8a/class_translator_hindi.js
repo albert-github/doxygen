@@ -286,7 +286,7 @@ var class_translator_hindi =
     [ "trVariableDocumentation", "d1/d8a/class_translator_hindi.html#a5ee70ec0db4852af0a92b82995fd5f91", null ],
     [ "trVariables", "d1/d8a/class_translator_hindi.html#a6b5b0dd9c160a9164bef94ed8f5e2c67", null ],
     [ "trVersion", "d1/d8a/class_translator_hindi.html#a67cbef888b0e6321718d4ce37bac7e1c", null ],
-    [ "trVhdlType", "d1/d8a/class_translator_hindi.html#a81703e5b00202c8f98a9d6f7312ae1b2", null ],
+    [ "trVhdlType", "d1/d8a/class_translator_hindi.html#ab0a8675d0d0c31a894fb6e0c75ed843b", null ],
     [ "trWarning", "d1/d8a/class_translator_hindi.html#a24c7b88852341c4f1930dd58135d4646", null ],
     [ "trWriteList", "d1/d8a/class_translator_hindi.html#a3ee6799b8006e975b86f2343c5313a88", null ]
 ];

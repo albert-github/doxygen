@@ -306,7 +306,8 @@ digraph "/home/runner/work/doxygen/doxygen/src/xmlgen.cpp"
   Node81 -> Node11 [color="steelblue1",style="solid"];
   Node80 -> Node82 [color="steelblue1",style="solid"];
   Node82 [label="docnode.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d2b/docnode_8h.html",tooltip=" "];
-  Node82 -> Node30 [color="steelblue1",style="solid"];
+  Node82 -> Node8 [color="steelblue1",style="solid"];
+  Node82 -> Node7 [color="steelblue1",style="solid"];
   Node82 -> Node24 [color="steelblue1",style="solid"];
   Node82 -> Node20 [color="steelblue1",style="solid"];
   Node82 -> Node83 [color="steelblue1",style="solid"];

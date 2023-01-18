@@ -291,7 +291,7 @@ var class_translator_chinese =
     [ "trVariableDocumentation", "d6/db6/class_translator_chinese.html#aa6c82d423d650d67d66bf2e41fecedd4", null ],
     [ "trVariables", "d6/db6/class_translator_chinese.html#aa8382105fb4bf476af35c99eab73671d", null ],
     [ "trVersion", "d6/db6/class_translator_chinese.html#a42f90a67384ca5199dde2a5773d364fd", null ],
-    [ "trVhdlType", "d6/db6/class_translator_chinese.html#adaf2aa3093db37c099d67b61aa5ee5d4", null ],
+    [ "trVhdlType", "d6/db6/class_translator_chinese.html#a6e3f49e9a225584da023b9b00645e8d7", null ],
     [ "trWarning", "d6/db6/class_translator_chinese.html#a2dac895831b7daf21ef915aebeb79df7", null ],
     [ "trWriteList", "d6/db6/class_translator_chinese.html#a3868f38015e02414b1b112099129770c", null ]
 ];

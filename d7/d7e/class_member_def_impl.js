@@ -86,7 +86,7 @@ var class_member_def_impl =
     [ "getLabels", "d7/d7e/class_member_def_impl.html#a48ba98377d0ed470657e858a6d84337a", null ],
     [ "getMemberGroup", "d7/d7e/class_member_def_impl.html#ac756dc345666f961e5b4be48db35f359", null ],
     [ "getMemberGroupId", "d7/d7e/class_member_def_impl.html#acc74f8c347b9769f5e0dfe4b612952af", null ],
-    [ "getMemberSpecifiers", "d7/d7e/class_member_def_impl.html#a18ba9477e306fc7855e439c794aa359d", null ],
+    [ "getMemberSpecifiers", "d7/d7e/class_member_def_impl.html#ae9b7277c60d3ced377bd27633faf70f1", null ],
     [ "getNamespaceDef", "d7/d7e/class_member_def_impl.html#a0d57faf569b51e386359dd359df8ad07", null ],
     [ "getNamespaceDef", "d7/d7e/class_member_def_impl.html#a2fd5cc82b163bff11cdacd030aa76d82", null ],
     [ "getOutputFileBase", "d7/d7e/class_member_def_impl.html#a7b86e9da0a84d58850c06d6b9a9eb175", null ],
@@ -211,7 +211,7 @@ var class_member_def_impl =
     [ "memberDefinition", "d7/d7e/class_member_def_impl.html#a959a5f1683be741794e1d363e3064c8f", null ],
     [ "memberType", "d7/d7e/class_member_def_impl.html#a500d775897f72e5967bcabf214114790", null ],
     [ "memberTypeName", "d7/d7e/class_member_def_impl.html#ad419001af44edd3087bce4098d247771", null ],
-    [ "mergeMemberSpecifiers", "d7/d7e/class_member_def_impl.html#a5aff6f748eafbe210f6ed5076952f691", null ],
+    [ "mergeMemberSpecifiers", "d7/d7e/class_member_def_impl.html#a9cb88e18e1d4710ec60ee05639d5da2b", null ],
     [ "moveArgumentList", "d7/d7e/class_member_def_impl.html#a2822596e72f9b114b8f98f8c04b2c118", null ],
     [ "moveDeclArgumentList", "d7/d7e/class_member_def_impl.html#aa1c209d54d829bd583212a0c73a24419", null ],
     [ "moveTo", "d7/d7e/class_member_def_impl.html#a41f49c20c1bbd70604da66d740bd17c0", null ],
@@ -260,7 +260,7 @@ var class_member_def_impl =
     [ "setMemberDefinition", "d7/d7e/class_member_def_impl.html#a4560b0b439e9866b21692024ed8c80cb", null ],
     [ "setMemberGroup", "d7/d7e/class_member_def_impl.html#ae0c7462ef42e26772f10688948ae39c1", null ],
     [ "setMemberGroupId", "d7/d7e/class_member_def_impl.html#a9c24f20c8025ea0033ba9c41b9eab410", null ],
-    [ "setMemberSpecifiers", "d7/d7e/class_member_def_impl.html#a282064fdf1bce7fb59ca98f9ee19299c", null ],
+    [ "setMemberSpecifiers", "d7/d7e/class_member_def_impl.html#acc98a975459992f5f53e6e1175f513d2", null ],
     [ "setMemberType", "d7/d7e/class_member_def_impl.html#a08c811deafee256f66f9925646fe87a9", null ],
     [ "setNamespace", "d7/d7e/class_member_def_impl.html#a5a06f8127765bf6024aa3a1c49e5294e", null ],
     [ "setProtection", "d7/d7e/class_member_def_impl.html#a73dbdfb71258f2d94bcb219b85b1fba1", null ],
@@ -292,7 +292,7 @@ var class_member_def_impl =
     [ "writeMemberDocSimple", "d7/d7e/class_member_def_impl.html#a363168f00876c69675f5613b9d2e63d1", null ],
     [ "writeTagFile", "d7/d7e/class_member_def_impl.html#adba0607c4bfc5e212705045f1fbef8ef", null ],
     [ "m_impl", "d7/d7e/class_member_def_impl.html#a5c5c37bcf4eca1ad44d1bb3ced43724d", null ],
-    [ "m_isConstructorCached", "d7/d7e/class_member_def_impl.html#a12f04a6210caf6e83e9a408e21aea649", null ],
-    [ "m_isDestructorCached", "d7/d7e/class_member_def_impl.html#a169089f4142cddca115afd0d519c1a0c", null ],
-    [ "m_isLinkableCached", "d7/d7e/class_member_def_impl.html#a3d726aaa6239eef772a1fafef7de7171", null ]
+    [ "m_isConstructorCached", "d7/d7e/class_member_def_impl.html#a3a269aad6bd889099851cf5d5cc5e8b3", null ],
+    [ "m_isDestructorCached", "d7/d7e/class_member_def_impl.html#a7f74ded6d42abcf77beb3bbd65618fdc", null ],
+    [ "m_isLinkableCached", "d7/d7e/class_member_def_impl.html#aef5ec26bd41e9a6a828d99accd2503be", null ]
 ];

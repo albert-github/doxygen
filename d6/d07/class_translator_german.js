@@ -250,7 +250,7 @@ var class_translator_german =
     [ "trVariableDocumentation", "d6/d07/class_translator_german.html#aa39112aaf2cf48b97fd460a8abce541e", null ],
     [ "trVariables", "d6/d07/class_translator_german.html#acf2415c174b045d970640d2ee059b76a", null ],
     [ "trVersion", "d6/d07/class_translator_german.html#a28bf9600f4d382a47492b08f71995fe4", null ],
-    [ "trVhdlType", "d6/d07/class_translator_german.html#aaf491e95c9b30b1a99025c8287c42029", null ],
+    [ "trVhdlType", "d6/d07/class_translator_german.html#a5d844764c982e26b59293f03effea5db", null ],
     [ "trWarning", "d6/d07/class_translator_german.html#aee79ab416d3067077976eda0ec2fe9e6", null ],
     [ "trWriteList", "d6/d07/class_translator_german.html#ad5fec4eb2e9d641fc19a4cd6e212a5d7", null ]
 ];

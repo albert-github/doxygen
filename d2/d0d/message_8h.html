@@ -271,19 +271,54 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00274">274</a> of file <a class="el" href="../../d8/d6a/message_8cpp_source.html">message.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  275</span>{</div>
-<div class="line"><span class="lineno">  276</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#a807b8e20fe24490244de4bfdaf531bef">g_warnStat</a> &amp;&amp; <a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#a8e1d65011b82b41029cea922b7b3c298">g_warnBehavior</a> == WARN_AS_ERROR_t::FAIL_ON_WARNINGS)</div>
-<div class="line"><span class="lineno">  277</span>  {</div>
-<div class="line"><span class="lineno">  278</span>    <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a0c32291fd8284fb3e27e06d7f6394d54">Doxygen::terminating</a>=<span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  279</span>    exit(1);</div>
-<div class="line"><span class="lineno">  280</span>  }</div>
-<div class="line"><span class="lineno">  281</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00282">282</a> of file <a class="el" href="../../d8/d6a/message_8cpp_source.html">message.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  283</span>{</div>
+<div class="line"><span class="lineno">  284</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#a8e1d65011b82b41029cea922b7b3c298">g_warnBehavior</a> == WARN_AS_ERROR_t::FAIL_ON_WARNINGS_PRINT &amp;&amp; <a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#aef140dc11e587afb68a5b902eef06241">g_warnlogFile</a> != <span class="stringliteral">&quot;-&quot;</span>)</div>
+<div class="line"><span class="lineno">  285</span>  {</div>
+<div class="line"><span class="lineno">  286</span>    <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#af099fa6239b4961887192d8eadfd2a44">Portable::fclose</a>(<a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#abfb684889b2b27eb72e96af8478b5f85">g_warnFile</a>);</div>
+<div class="line"><span class="lineno">  287</span>  }</div>
+<div class="line"><span class="lineno">  288</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#a807b8e20fe24490244de4bfdaf531bef">g_warnStat</a> &amp;&amp; <a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#a8e1d65011b82b41029cea922b7b3c298">g_warnBehavior</a> == WARN_AS_ERROR_t::FAIL_ON_WARNINGS_PRINT &amp;&amp; <a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#aef140dc11e587afb68a5b902eef06241">g_warnlogFile</a> != <span class="stringliteral">&quot;-&quot;</span>)</div>
+<div class="line"><span class="lineno">  289</span>  {</div>
+<div class="line"><span class="lineno">  290</span> </div>
+<div class="line"><span class="lineno">  291</span>    std::ifstream warnFile = <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a0579eaf8c245a77f1e804a3cf1b0aa73">Portable::openInputStream</a>(<a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#aef140dc11e587afb68a5b902eef06241">g_warnlogFile</a>);</div>
+<div class="line"><span class="lineno">  292</span>    <span class="keywordflow">if</span> (!warnFile.is_open())</div>
+<div class="line"><span class="lineno">  293</span>    {</div>
+<div class="line"><span class="lineno">  294</span>      <a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#abfb684889b2b27eb72e96af8478b5f85">g_warnFile</a> = stderr;</div>
+<div class="line"><span class="lineno">  295</span>      <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a>(<span class="stringliteral">&quot;Cannot open warnings file &#39;%s&#39; for reading\n&quot;</span>,<a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#aef140dc11e587afb68a5b902eef06241">g_warnlogFile</a>.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>());</div>
+<div class="line"><span class="lineno">  296</span>    }</div>
+<div class="line"><span class="lineno">  297</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  298</span>    {</div>
+<div class="line"><span class="lineno">  299</span>      std::string line;</div>
+<div class="line"><span class="lineno">  300</span>      <span class="keywordflow">while</span> (getline(warnFile,line))</div>
+<div class="line"><span class="lineno">  301</span>      {</div>
+<div class="line"><span class="lineno">  302</span>        fprintf(stderr,<span class="stringliteral">&quot;%s\n&quot;</span>,line.c_str());</div>
+<div class="line"><span class="lineno">  303</span>      }</div>
+<div class="line"><span class="lineno">  304</span>      warnFile.close();</div>
+<div class="line"><span class="lineno">  305</span>    }</div>
+<div class="line"><span class="lineno">  306</span>  }</div>
+<div class="line"><span class="lineno">  307</span> </div>
+<div class="line"><span class="lineno">  308</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#a74c872d0bf5eb507f454aaa810973144">g_warnlogTemp</a>) <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a394e935b6fd1899b26f8987f89a4cbfb">Portable::unlink</a>(<a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#aef140dc11e587afb68a5b902eef06241">g_warnlogFile</a>);</div>
+<div class="line"><span class="lineno">  309</span> </div>
+<div class="line"><span class="lineno">  310</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#a807b8e20fe24490244de4bfdaf531bef">g_warnStat</a> &amp;&amp; (<a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#a8e1d65011b82b41029cea922b7b3c298">g_warnBehavior</a> == WARN_AS_ERROR_t::FAIL_ON_WARNINGS ||</div>
+<div class="line"><span class="lineno">  311</span>                     <a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#a8e1d65011b82b41029cea922b7b3c298">g_warnBehavior</a> == WARN_AS_ERROR_t::FAIL_ON_WARNINGS_PRINT))</div>
+<div class="line"><span class="lineno">  312</span>  {</div>
+<div class="line"><span class="lineno">  313</span>    <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a0c32291fd8284fb3e27e06d7f6394d54">Doxygen::terminating</a>=<span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  314</span>    exit(1);</div>
+<div class="line"><span class="lineno">  315</span>  }</div>
+<div class="line"><span class="lineno">  316</span>}</div>
 <div class="ttc" id="aclass_doxygen_html_a0c32291fd8284fb3e27e06d7f6394d54"><div class="ttname"><a href="../../de/d6a/class_doxygen.html#a0c32291fd8284fb3e27e06d7f6394d54">Doxygen::terminating</a></div><div class="ttdeci">static volatile bool terminating</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da1/doxygen_8h_source.html#l00134">doxygen.h:134</a></div></div>
-<div class="ttc" id="amessage_8cpp_html_a807b8e20fe24490244de4bfdaf531bef"><div class="ttname"><a href="../../d8/d6a/message_8cpp.html#a807b8e20fe24490244de4bfdaf531bef">g_warnStat</a></div><div class="ttdeci">static std::atomic_bool g_warnStat</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6a/message_8cpp_source.html#l00033">message.cpp:33</a></div></div>
+<div class="ttc" id="aclass_q_c_string_html_ac3aa3ac1a1c36d3305eba22a2eb0d098"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">QCString::data</a></div><div class="ttdeci">const char * data() const</div><div class="ttdoc">Returns a pointer to the contents of the string in the form of a 0-terminated C string.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00147">qcstring.h:147</a></div></div>
+<div class="ttc" id="amessage_8cpp_html_a74c872d0bf5eb507f454aaa810973144"><div class="ttname"><a href="../../d8/d6a/message_8cpp.html#a74c872d0bf5eb507f454aaa810973144">g_warnlogTemp</a></div><div class="ttdeci">static bool g_warnlogTemp</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6a/message_8cpp_source.html#l00034">message.cpp:34</a></div></div>
+<div class="ttc" id="amessage_8cpp_html_a807b8e20fe24490244de4bfdaf531bef"><div class="ttname"><a href="../../d8/d6a/message_8cpp.html#a807b8e20fe24490244de4bfdaf531bef">g_warnStat</a></div><div class="ttdeci">static std::atomic_bool g_warnStat</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6a/message_8cpp_source.html#l00035">message.cpp:35</a></div></div>
 <div class="ttc" id="amessage_8cpp_html_a8e1d65011b82b41029cea922b7b3c298"><div class="ttname"><a href="../../d8/d6a/message_8cpp.html#a8e1d65011b82b41029cea922b7b3c298">g_warnBehavior</a></div><div class="ttdeci">static WARN_AS_ERROR_t g_warnBehavior</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6a/message_8cpp_source.html#l00032">message.cpp:32</a></div></div>
+<div class="ttc" id="amessage_8cpp_html_abfb684889b2b27eb72e96af8478b5f85"><div class="ttname"><a href="../../d8/d6a/message_8cpp.html#abfb684889b2b27eb72e96af8478b5f85">g_warnFile</a></div><div class="ttdeci">static FILE * g_warnFile</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6a/message_8cpp_source.html#l00031">message.cpp:31</a></div></div>
+<div class="ttc" id="amessage_8cpp_html_aede5746344fdce99647541101eaa7f06"><div class="ttname"><a href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a></div><div class="ttdeci">void err(const char *fmt,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6a/message_8cpp_source.html#l00239">message.cpp:239</a></div></div>
+<div class="ttc" id="amessage_8cpp_html_aef140dc11e587afb68a5b902eef06241"><div class="ttname"><a href="../../d8/d6a/message_8cpp.html#aef140dc11e587afb68a5b902eef06241">g_warnlogFile</a></div><div class="ttdeci">static QCString g_warnlogFile</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6a/message_8cpp_source.html#l00033">message.cpp:33</a></div></div>
+<div class="ttc" id="anamespace_portable_html_a0579eaf8c245a77f1e804a3cf1b0aa73"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#a0579eaf8c245a77f1e804a3cf1b0aa73">Portable::openInputStream</a></div><div class="ttdeci">std::ifstream openInputStream(const QCString &amp;name, bool binary=false, bool openAtEnd=false)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1c/portable_8cpp_source.html#l00659">portable.cpp:659</a></div></div>
+<div class="ttc" id="anamespace_portable_html_a394e935b6fd1899b26f8987f89a4cbfb"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#a394e935b6fd1899b26f8987f89a4cbfb">Portable::unlink</a></div><div class="ttdeci">void unlink(const QCString &amp;fileName)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1c/portable_8cpp_source.html#l00544">portable.cpp:544</a></div></div>
+<div class="ttc" id="anamespace_portable_html_af099fa6239b4961887192d8eadfd2a44"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#af099fa6239b4961887192d8eadfd2a44">Portable::fclose</a></div><div class="ttdeci">int fclose(FILE *f)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1c/portable_8cpp_source.html#l00378">portable.cpp:378</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00032">g_warnBehavior</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00033">g_warnStat</a>, and <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00134">Doxygen::terminating</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::data()</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00239">err()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00378">Portable::fclose()</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00032">g_warnBehavior</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00031">g_warnFile</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00033">g_warnlogFile</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00034">g_warnlogTemp</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00035">g_warnStat</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00659">Portable::openInputStream()</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00134">Doxygen::terminating</a>, and <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00544">Portable::unlink()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l12257">generateOutput()</a>.</p>
 
@@ -304,49 +339,53 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00036">36</a> of file <a class="el" href="../../d8/d6a/message_8cpp_source.html">message.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   37</span>{</div>
-<div class="line"><span class="lineno">   38</span>  <a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#aad4ae1643bcdbcff1680a322e5bbae8d">g_warnFormat</a> = <a class="code hl_define" href="../../db/d16/config_8h.html#a737741e6991bdb5694a50075437a9d89">Config_getString</a>(WARN_FORMAT);</div>
-<div class="line"><span class="lineno">   39</span>  <a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#a7a6bddc99419347af9c2d3569bada867">g_warnLineFormat</a> = <a class="code hl_define" href="../../db/d16/config_8h.html#a737741e6991bdb5694a50075437a9d89">Config_getString</a>(WARN_LINE_FORMAT);</div>
-<div class="line"><span class="lineno">   40</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> logFile = <a class="code hl_define" href="../../db/d16/config_8h.html#a737741e6991bdb5694a50075437a9d89">Config_getString</a>(WARN_LOGFILE);</div>
-<div class="line"><span class="lineno">   41</span> </div>
-<div class="line"><span class="lineno">   42</span>  <span class="keywordflow">if</span> (!logFile.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
-<div class="line"><span class="lineno">   43</span>  {</div>
-<div class="line"><span class="lineno">   44</span>    <span class="keywordflow">if</span> (logFile == <span class="stringliteral">&quot;-&quot;</span>)</div>
-<div class="line"><span class="lineno">   45</span>    {</div>
-<div class="line"><span class="lineno">   46</span>      <a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#abfb684889b2b27eb72e96af8478b5f85">g_warnFile</a> = stdout;</div>
-<div class="line"><span class="lineno">   47</span>    }</div>
-<div class="line"><span class="lineno">   48</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (!(<a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#abfb684889b2b27eb72e96af8478b5f85">g_warnFile</a> = <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a4dbb08c3de409bd1a73be3da6d93ac57">Portable::fopen</a>(logFile,<span class="stringliteral">&quot;w&quot;</span>)))</div>
-<div class="line"><span class="lineno">   49</span>    {</div>
-<div class="line"><span class="lineno">   50</span>      <span class="comment">// point it to something valid, because warn() relies on it</span></div>
-<div class="line"><span class="lineno">   51</span>      <a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#abfb684889b2b27eb72e96af8478b5f85">g_warnFile</a> = stderr;</div>
-<div class="line"><span class="lineno">   52</span>      <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a>(<span class="stringliteral">&quot;Cannot open &#39;%s&#39; for writing, redirecting &#39;WARN_LOGFILE&#39; output to &#39;stderr&#39;\n&quot;</span>,logFile.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>());</div>
-<div class="line"><span class="lineno">   53</span>    }</div>
-<div class="line"><span class="lineno">   54</span>  }</div>
-<div class="line"><span class="lineno">   55</span>  <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">   56</span>  {</div>
-<div class="line"><span class="lineno">   57</span>    <a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#abfb684889b2b27eb72e96af8478b5f85">g_warnFile</a> = stderr;</div>
-<div class="line"><span class="lineno">   58</span>  }</div>
-<div class="line"><span class="lineno">   59</span>  <a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#a8e1d65011b82b41029cea922b7b3c298">g_warnBehavior</a> = <a class="code hl_define" href="../../db/d16/config_8h.html#afe899eec751dfb75a60c37ec3840e288">Config_getEnum</a>(WARN_AS_ERROR);</div>
-<div class="line"><span class="lineno">   60</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#a8e1d65011b82b41029cea922b7b3c298">g_warnBehavior</a> != WARN_AS_ERROR_t::NO)</div>
-<div class="line"><span class="lineno">   61</span>  {</div>
-<div class="line"><span class="lineno">   62</span>    <a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#a9d34be93b99045d723b7edc562d10ce4">g_warningStr</a> = <a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#a8a0504f5cfc80ac9db15736e27d04554">g_errorStr</a>;</div>
+<p class="definition">Definition at line <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00038">38</a> of file <a class="el" href="../../d8/d6a/message_8cpp_source.html">message.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   39</span>{</div>
+<div class="line"><span class="lineno">   40</span>  <a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#aad4ae1643bcdbcff1680a322e5bbae8d">g_warnFormat</a> = <a class="code hl_define" href="../../db/d16/config_8h.html#a737741e6991bdb5694a50075437a9d89">Config_getString</a>(WARN_FORMAT);</div>
+<div class="line"><span class="lineno">   41</span>  <a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#a7a6bddc99419347af9c2d3569bada867">g_warnLineFormat</a> = <a class="code hl_define" href="../../db/d16/config_8h.html#a737741e6991bdb5694a50075437a9d89">Config_getString</a>(WARN_LINE_FORMAT);</div>
+<div class="line"><span class="lineno">   42</span>  <a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#a8e1d65011b82b41029cea922b7b3c298">g_warnBehavior</a> = <a class="code hl_define" href="../../db/d16/config_8h.html#afe899eec751dfb75a60c37ec3840e288">Config_getEnum</a>(WARN_AS_ERROR);</div>
+<div class="line"><span class="lineno">   43</span>  <a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#aef140dc11e587afb68a5b902eef06241">g_warnlogFile</a> = <a class="code hl_define" href="../../db/d16/config_8h.html#a737741e6991bdb5694a50075437a9d89">Config_getString</a>(WARN_LOGFILE);</div>
+<div class="line"><span class="lineno">   44</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#aef140dc11e587afb68a5b902eef06241">g_warnlogFile</a>.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>() &amp;&amp; <a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#a8e1d65011b82b41029cea922b7b3c298">g_warnBehavior</a> == WARN_AS_ERROR_t::FAIL_ON_WARNINGS_PRINT)</div>
+<div class="line"><span class="lineno">   45</span>  {</div>
+<div class="line"><span class="lineno">   46</span>    uint32_t <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a5944f5ca01ff6e756c447e11583b73a0">pid</a> = <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a5944f5ca01ff6e756c447e11583b73a0">Portable::pid</a>();</div>
+<div class="line"><span class="lineno">   47</span>    <a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#aef140dc11e587afb68a5b902eef06241">g_warnlogFile</a>.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aa2dccf89cb25346c3ee81d75aa5859da">sprintf</a>(<span class="stringliteral">&quot;doxygen_warnings_temp_%d.tmp&quot;</span>,pid);</div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#a74c872d0bf5eb507f454aaa810973144">g_warnlogTemp</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   49</span>  }</div>
+<div class="line"><span class="lineno">   50</span> </div>
+<div class="line"><span class="lineno">   51</span>  <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#aef140dc11e587afb68a5b902eef06241">g_warnlogFile</a>.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
+<div class="line"><span class="lineno">   52</span>  {</div>
+<div class="line"><span class="lineno">   53</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#aef140dc11e587afb68a5b902eef06241">g_warnlogFile</a> == <span class="stringliteral">&quot;-&quot;</span>)</div>
+<div class="line"><span class="lineno">   54</span>    {</div>
+<div class="line"><span class="lineno">   55</span>      <a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#abfb684889b2b27eb72e96af8478b5f85">g_warnFile</a> = stdout;</div>
+<div class="line"><span class="lineno">   56</span>    }</div>
+<div class="line"><span class="lineno">   57</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (!(<a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#abfb684889b2b27eb72e96af8478b5f85">g_warnFile</a> = <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a4dbb08c3de409bd1a73be3da6d93ac57">Portable::fopen</a>(<a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#aef140dc11e587afb68a5b902eef06241">g_warnlogFile</a>,<span class="stringliteral">&quot;w&quot;</span>)))</div>
+<div class="line"><span class="lineno">   58</span>    {</div>
+<div class="line"><span class="lineno">   59</span>      <span class="comment">// point it to something valid, because warn() relies on it</span></div>
+<div class="line"><span class="lineno">   60</span>      <a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#abfb684889b2b27eb72e96af8478b5f85">g_warnFile</a> = stderr;</div>
+<div class="line"><span class="lineno">   61</span>      <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a>(<span class="stringliteral">&quot;Cannot open &#39;%s&#39; for writing, redirecting &#39;WARN_LOGFILE&#39; output to &#39;stderr&#39;\n&quot;</span>,<a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#aef140dc11e587afb68a5b902eef06241">g_warnlogFile</a>.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>());</div>
+<div class="line"><span class="lineno">   62</span>    }</div>
 <div class="line"><span class="lineno">   63</span>  }</div>
-<div class="line"><span class="lineno">   64</span>}</div>
-<div class="ttc" id="aclass_q_c_string_html"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html">QCString</a></div><div class="ttdoc">This is an alternative implementation of QCString.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00108">qcstring.h:109</a></div></div>
-<div class="ttc" id="aclass_q_c_string_html_a621c4090d69ad7d05ef8e5234376c3d8"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">QCString::isEmpty</a></div><div class="ttdeci">bool isEmpty() const</div><div class="ttdoc">Returns TRUE iff the string is empty.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00144">qcstring.h:144</a></div></div>
-<div class="ttc" id="aclass_q_c_string_html_ac3aa3ac1a1c36d3305eba22a2eb0d098"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">QCString::data</a></div><div class="ttdeci">const char * data() const</div><div class="ttdoc">Returns a pointer to the contents of the string in the form of a 0-terminated C string.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00153">qcstring.h:153</a></div></div>
+<div class="line"><span class="lineno">   64</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   65</span>  {</div>
+<div class="line"><span class="lineno">   66</span>    <a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#abfb684889b2b27eb72e96af8478b5f85">g_warnFile</a> = stderr;</div>
+<div class="line"><span class="lineno">   67</span>  }</div>
+<div class="line"><span class="lineno">   68</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#a8e1d65011b82b41029cea922b7b3c298">g_warnBehavior</a> != WARN_AS_ERROR_t::NO)</div>
+<div class="line"><span class="lineno">   69</span>  {</div>
+<div class="line"><span class="lineno">   70</span>    <a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#a9d34be93b99045d723b7edc562d10ce4">g_warningStr</a> = <a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#a8a0504f5cfc80ac9db15736e27d04554">g_errorStr</a>;</div>
+<div class="line"><span class="lineno">   71</span>  }</div>
+<div class="line"><span class="lineno">   72</span>}</div>
+<div class="ttc" id="aclass_q_c_string_html_a621c4090d69ad7d05ef8e5234376c3d8"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">QCString::isEmpty</a></div><div class="ttdeci">bool isEmpty() const</div><div class="ttdoc">Returns TRUE iff the string is empty.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00138">qcstring.h:138</a></div></div>
+<div class="ttc" id="aclass_q_c_string_html_aa2dccf89cb25346c3ee81d75aa5859da"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#aa2dccf89cb25346c3ee81d75aa5859da">QCString::sprintf</a></div><div class="ttdeci">QCString &amp; sprintf(const char *format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d3e/qcstring_8cpp_source.html#l00029">qcstring.cpp:29</a></div></div>
 <div class="ttc" id="aconfig_8h_html_a737741e6991bdb5694a50075437a9d89"><div class="ttname"><a href="../../db/d16/config_8h.html#a737741e6991bdb5694a50075437a9d89">Config_getString</a></div><div class="ttdeci">#define Config_getString(name)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/config_8h_source.html#l00032">config.h:32</a></div></div>
 <div class="ttc" id="aconfig_8h_html_afe899eec751dfb75a60c37ec3840e288"><div class="ttname"><a href="../../db/d16/config_8h.html#afe899eec751dfb75a60c37ec3840e288">Config_getEnum</a></div><div class="ttdeci">#define Config_getEnum(name)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/config_8h_source.html#l00035">config.h:35</a></div></div>
 <div class="ttc" id="amessage_8cpp_html_a7a6bddc99419347af9c2d3569bada867"><div class="ttname"><a href="../../d8/d6a/message_8cpp.html#a7a6bddc99419347af9c2d3569bada867">g_warnLineFormat</a></div><div class="ttdeci">static QCString g_warnLineFormat</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6a/message_8cpp_source.html#l00028">message.cpp:28</a></div></div>
 <div class="ttc" id="amessage_8cpp_html_a8a0504f5cfc80ac9db15736e27d04554"><div class="ttname"><a href="../../d8/d6a/message_8cpp.html#a8a0504f5cfc80ac9db15736e27d04554">g_errorStr</a></div><div class="ttdeci">static const char * g_errorStr</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6a/message_8cpp_source.html#l00030">message.cpp:30</a></div></div>
 <div class="ttc" id="amessage_8cpp_html_a9d34be93b99045d723b7edc562d10ce4"><div class="ttname"><a href="../../d8/d6a/message_8cpp.html#a9d34be93b99045d723b7edc562d10ce4">g_warningStr</a></div><div class="ttdeci">static const char * g_warningStr</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6a/message_8cpp_source.html#l00029">message.cpp:29</a></div></div>
 <div class="ttc" id="amessage_8cpp_html_aad4ae1643bcdbcff1680a322e5bbae8d"><div class="ttname"><a href="../../d8/d6a/message_8cpp.html#aad4ae1643bcdbcff1680a322e5bbae8d">g_warnFormat</a></div><div class="ttdeci">static QCString g_warnFormat</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6a/message_8cpp_source.html#l00027">message.cpp:27</a></div></div>
-<div class="ttc" id="amessage_8cpp_html_abfb684889b2b27eb72e96af8478b5f85"><div class="ttname"><a href="../../d8/d6a/message_8cpp.html#abfb684889b2b27eb72e96af8478b5f85">g_warnFile</a></div><div class="ttdeci">static FILE * g_warnFile</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6a/message_8cpp_source.html#l00031">message.cpp:31</a></div></div>
-<div class="ttc" id="amessage_8cpp_html_aede5746344fdce99647541101eaa7f06"><div class="ttname"><a href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a></div><div class="ttdeci">void err(const char *fmt,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6a/message_8cpp_source.html#l00231">message.cpp:231</a></div></div>
 <div class="ttc" id="anamespace_portable_html_a4dbb08c3de409bd1a73be3da6d93ac57"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#a4dbb08c3de409bd1a73be3da6d93ac57">Portable::fopen</a></div><div class="ttdeci">FILE * fopen(const QCString &amp;fileName, const QCString &amp;mode)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1c/portable_8cpp_source.html#l00358">portable.cpp:358</a></div></div>
+<div class="ttc" id="anamespace_portable_html_a5944f5ca01ff6e756c447e11583b73a0"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#a5944f5ca01ff6e756c447e11583b73a0">Portable::pid</a></div><div class="ttdeci">unsigned int pid()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1c/portable_8cpp_source.html#l00265">portable.cpp:265</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00035">Config_getEnum</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00032">Config_getString</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00153">QCString::data()</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00231">err()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00358">Portable::fopen()</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00030">g_errorStr</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00032">g_warnBehavior</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00031">g_warnFile</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00027">g_warnFormat</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00029">g_warningStr</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00028">g_warnLineFormat</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00035">Config_getEnum</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00032">Config_getString</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::data()</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00239">err()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00358">Portable::fopen()</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00030">g_errorStr</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00032">g_warnBehavior</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00031">g_warnFile</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00027">g_warnFormat</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00029">g_warningStr</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00028">g_warnLineFormat</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00033">g_warnlogFile</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00034">g_warnlogTemp</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00138">QCString::isEmpty()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00265">Portable::pid()</a>, and <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00029">QCString::sprintf()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l11190">checkConfiguration()</a>.</p>
 
@@ -446,15 +485,15 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00187">187</a> of file <a class="el" href="../../d8/d6a/message_8cpp_source.html">message.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  188</span>{</div>
-<div class="line"><span class="lineno">  189</span>  <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#afeff7d8537701b1e84b31a724be98a3e">do_warn</a>(<a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(WARNINGS), file, line, <a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#a9d34be93b99045d723b7edc562d10ce4">g_warningStr</a>, <a class="code hl_namespace" href="../../d4/d6d/namespacefmt.html">fmt</a>, args);</div>
-<div class="line"><span class="lineno">  190</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00195">195</a> of file <a class="el" href="../../d8/d6a/message_8cpp_source.html">message.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  196</span>{</div>
+<div class="line"><span class="lineno">  197</span>  <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#afeff7d8537701b1e84b31a724be98a3e">do_warn</a>(<a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(WARNINGS), file, line, <a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#a9d34be93b99045d723b7edc562d10ce4">g_warningStr</a>, <a class="code hl_namespace" href="../../d4/d6d/namespacefmt.html">fmt</a>, args);</div>
+<div class="line"><span class="lineno">  198</span>}</div>
 <div class="ttc" id="aconfig_8h_html_a5373d0332a31f16ad7a42037733e8c79"><div class="ttname"><a href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a></div><div class="ttdeci">#define Config_getBool(name)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/config_8h_source.html#l00033">config.h:33</a></div></div>
-<div class="ttc" id="amessage_8cpp_html_afeff7d8537701b1e84b31a724be98a3e"><div class="ttname"><a href="../../d8/d6a/message_8cpp.html#afeff7d8537701b1e84b31a724be98a3e">do_warn</a></div><div class="ttdeci">static void do_warn(bool enabled, const QCString &amp;file, int line, const char *prefix, const char *fmt, va_list args)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6a/message_8cpp_source.html#l00138">message.cpp:138</a></div></div>
+<div class="ttc" id="amessage_8cpp_html_afeff7d8537701b1e84b31a724be98a3e"><div class="ttname"><a href="../../d8/d6a/message_8cpp.html#afeff7d8537701b1e84b31a724be98a3e">do_warn</a></div><div class="ttdeci">static void do_warn(bool enabled, const QCString &amp;file, int line, const char *prefix, const char *fmt, va_list args)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6a/message_8cpp_source.html#l00146">message.cpp:146</a></div></div>
 <div class="ttc" id="anamespacefmt_html"><div class="ttname"><a href="../../d4/d6d/namespacefmt.html">fmt</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d1b/trace_8h_source.html#l00139">trace.h:139</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00138">do_warn()</a>, and <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00029">g_warningStr</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00146">do_warn()</a>, and <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00029">g_warningStr</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l02739">TemplateContextImpl::warn()</a>, and <a class="el" href="../../df/d54/template_8cpp_source.html#l05126">TemplateParser::warn()</a>.</p>
 
@@ -555,10 +594,10 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00267">267</a> of file <a class="el" href="../../d8/d6a/message_8cpp_source.html">message.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  268</span>{</div>
-<div class="line"><span class="lineno">  269</span>  fflush(<a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#abfb684889b2b27eb72e96af8478b5f85">g_warnFile</a>);</div>
-<div class="line"><span class="lineno">  270</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00275">275</a> of file <a class="el" href="../../d8/d6a/message_8cpp_source.html">message.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  276</span>{</div>
+<div class="line"><span class="lineno">  277</span>  fflush(<a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#abfb684889b2b27eb72e96af8478b5f85">g_warnFile</a>);</div>
+<div class="line"><span class="lineno">  278</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00031">g_warnFile</a>.</p>
 
@@ -632,22 +671,23 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00167">167</a> of file <a class="el" href="../../d8/d6a/message_8cpp_source.html">message.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  168</span>{</div>
-<div class="line"><span class="lineno">  169</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> fileSubst = file.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>() ? <span class="stringliteral">&quot;&lt;unknown&gt;&quot;</span> : file;</div>
-<div class="line"><span class="lineno">  170</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> lineSubst; lineSubst.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a87d2bfa3fcbf407c32fab784df368b2d">setNum</a>(line);</div>
-<div class="line"><span class="lineno">  171</span>  <span class="keywordflow">return</span>  <a class="code hl_function" href="../../d5/d3e/qcstring_8cpp.html#a99187f0723aa35b7f06be3a5506b1285">substitute</a>(</div>
-<div class="line"><span class="lineno">  172</span>            <a class="code hl_function" href="../../d5/d3e/qcstring_8cpp.html#a99187f0723aa35b7f06be3a5506b1285">substitute</a>(</div>
-<div class="line"><span class="lineno">  173</span>              <a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#a7a6bddc99419347af9c2d3569bada867">g_warnLineFormat</a>,</div>
-<div class="line"><span class="lineno">  174</span>              <span class="stringliteral">&quot;$file&quot;</span>,fileSubst</div>
-<div class="line"><span class="lineno">  175</span>            ),</div>
-<div class="line"><span class="lineno">  176</span>            <span class="stringliteral">&quot;$line&quot;</span>,lineSubst</div>
-<div class="line"><span class="lineno">  177</span>          );</div>
-<div class="line"><span class="lineno">  178</span>}</div>
-<div class="ttc" id="aclass_q_c_string_html_a87d2bfa3fcbf407c32fab784df368b2d"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a87d2bfa3fcbf407c32fab784df368b2d">QCString::setNum</a></div><div class="ttdeci">QCString &amp; setNum(short n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00402">qcstring.h:402</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00175">175</a> of file <a class="el" href="../../d8/d6a/message_8cpp_source.html">message.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  176</span>{</div>
+<div class="line"><span class="lineno">  177</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> fileSubst = file.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>() ? <span class="stringliteral">&quot;&lt;unknown&gt;&quot;</span> : file;</div>
+<div class="line"><span class="lineno">  178</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> lineSubst; lineSubst.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a87d2bfa3fcbf407c32fab784df368b2d">setNum</a>(line);</div>
+<div class="line"><span class="lineno">  179</span>  <span class="keywordflow">return</span>  <a class="code hl_function" href="../../d5/d3e/qcstring_8cpp.html#a99187f0723aa35b7f06be3a5506b1285">substitute</a>(</div>
+<div class="line"><span class="lineno">  180</span>            <a class="code hl_function" href="../../d5/d3e/qcstring_8cpp.html#a99187f0723aa35b7f06be3a5506b1285">substitute</a>(</div>
+<div class="line"><span class="lineno">  181</span>              <a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#a7a6bddc99419347af9c2d3569bada867">g_warnLineFormat</a>,</div>
+<div class="line"><span class="lineno">  182</span>              <span class="stringliteral">&quot;$file&quot;</span>,fileSubst</div>
+<div class="line"><span class="lineno">  183</span>            ),</div>
+<div class="line"><span class="lineno">  184</span>            <span class="stringliteral">&quot;$line&quot;</span>,lineSubst</div>
+<div class="line"><span class="lineno">  185</span>          );</div>
+<div class="line"><span class="lineno">  186</span>}</div>
+<div class="ttc" id="aclass_q_c_string_html"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html">QCString</a></div><div class="ttdoc">This is an alternative implementation of QCString.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00102">qcstring.h:103</a></div></div>
+<div class="ttc" id="aclass_q_c_string_html_a87d2bfa3fcbf407c32fab784df368b2d"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a87d2bfa3fcbf407c32fab784df368b2d">QCString::setNum</a></div><div class="ttdeci">QCString &amp; setNum(short n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00396">qcstring.h:396</a></div></div>
 <div class="ttc" id="aqcstring_8cpp_html_a99187f0723aa35b7f06be3a5506b1285"><div class="ttname"><a href="../../d5/d3e/qcstring_8cpp.html#a99187f0723aa35b7f06be3a5506b1285">substitute</a></div><div class="ttdeci">QCString substitute(const QCString &amp;s, const QCString &amp;src, const QCString &amp;dst)</div><div class="ttdoc">substitute all occurrences of src in s by dst</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d3e/qcstring_8cpp_source.html#l00473">qcstring.cpp:473</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00028">g_warnLineFormat</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::isEmpty()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00402">QCString::setNum()</a>, and <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00473">substitute()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00028">g_warnLineFormat</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00138">QCString::isEmpty()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00396">QCString::setNum()</a>, and <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00473">substitute()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05579">addMemberFunction()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l09079">checkPageRelations()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l09045">computePageRelations()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05176">findGlobalMember()</a>.</p>
 
@@ -685,14 +725,14 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00192">192</a> of file <a class="el" href="../../d8/d6a/message_8cpp_source.html">message.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  193</span>{</div>
-<div class="line"><span class="lineno">  194</span>  <span class="keywordflow">if</span> (!<a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(WARNINGS)) <span class="keywordflow">return</span>; <span class="comment">// warning type disabled</span></div>
-<div class="line"><span class="lineno">  195</span>  <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#ad150b78be80374eb1373be71e75a67b0">format_warn</a>(file,line,<a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>(<a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#a9d34be93b99045d723b7edc562d10ce4">g_warningStr</a>) + text);</div>
-<div class="line"><span class="lineno">  196</span>}</div>
-<div class="ttc" id="amessage_8cpp_html_ad150b78be80374eb1373be71e75a67b0"><div class="ttname"><a href="../../d8/d6a/message_8cpp.html#ad150b78be80374eb1373be71e75a67b0">format_warn</a></div><div class="ttdeci">static void format_warn(const QCString &amp;file, int line, const QCString &amp;text)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6a/message_8cpp_source.html#l00083">message.cpp:83</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00200">200</a> of file <a class="el" href="../../d8/d6a/message_8cpp_source.html">message.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  201</span>{</div>
+<div class="line"><span class="lineno">  202</span>  <span class="keywordflow">if</span> (!<a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(WARNINGS)) <span class="keywordflow">return</span>; <span class="comment">// warning type disabled</span></div>
+<div class="line"><span class="lineno">  203</span>  <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#ad150b78be80374eb1373be71e75a67b0">format_warn</a>(file,line,<a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>(<a class="code hl_variable" href="../../d8/d6a/message_8cpp.html#a9d34be93b99045d723b7edc562d10ce4">g_warningStr</a>) + text);</div>
+<div class="line"><span class="lineno">  204</span>}</div>
+<div class="ttc" id="amessage_8cpp_html_ad150b78be80374eb1373be71e75a67b0"><div class="ttname"><a href="../../d8/d6a/message_8cpp.html#ad150b78be80374eb1373be71e75a67b0">format_warn</a></div><div class="ttdeci">static void format_warn(const QCString &amp;file, int line, const QCString &amp;text)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6a/message_8cpp_source.html#l00091">message.cpp:91</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00083">format_warn()</a>, and <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00029">g_warningStr</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00091">format_warn()</a>, and <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00029">g_warningStr</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05579">addMemberFunction()</a>.</p>
 

@@ -289,7 +289,7 @@ var class_translator_portuguese =
     [ "trVariableDocumentation", "dc/df2/class_translator_portuguese.html#a20cc092c5f3ceeb96718275d57bf807c", null ],
     [ "trVariables", "dc/df2/class_translator_portuguese.html#a7863f5711f87ec7863e5e77914cfa0d8", null ],
     [ "trVersion", "dc/df2/class_translator_portuguese.html#a6026e4f3c598b15748761d53cc48914f", null ],
-    [ "trVhdlType", "dc/df2/class_translator_portuguese.html#a6325d2a54184a560be92f926eecbe323", null ],
+    [ "trVhdlType", "dc/df2/class_translator_portuguese.html#a43785dedea5eb5ebe6be7e1dab3f15f4", null ],
     [ "trWarning", "dc/df2/class_translator_portuguese.html#af7a7513d569c37b9133bb8c63e9b6420", null ],
     [ "trWriteList", "dc/df2/class_translator_portuguese.html#a771f788b30c419b14172504ca0299ce7", null ]
 ];

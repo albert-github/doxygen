@@ -24,7 +24,7 @@ var vhdldocgen_8cpp =
     [ "formatBriefNote", "de/dea/vhdldocgen_8cpp.html#abf933f7f0042ad158eb6412b57026925", null ],
     [ "getPorts", "de/dea/vhdldocgen_8cpp.html#a91d8400928600009038edb42acba3d05", null ],
     [ "initUCF", "de/dea/vhdldocgen_8cpp.html#a17c0d52cf3683a329ebcc7417519b310", null ],
-    [ "membersHaveSpecificType", "de/dea/vhdldocgen_8cpp.html#a6716f18f0514d852937faae85612e5bf", null ],
+    [ "membersHaveSpecificType", "de/dea/vhdldocgen_8cpp.html#a88e5ae566dee10de1d2aacf7edd1bd20", null ],
     [ "splitString", "de/dea/vhdldocgen_8cpp.html#a67e22ceaa05ae493f2f3892681aec351", null ],
     [ "startDot", "de/dea/vhdldocgen_8cpp.html#aa5042d00d2c28e2da22a6c613774b1f9", null ],
     [ "startFonts", "de/dea/vhdldocgen_8cpp.html#a443391a41c8ca5dd93aa555beeb1955d", null ],

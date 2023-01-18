@@ -295,7 +295,7 @@ var class_translator_dutch =
     [ "trVariableDocumentation", "d9/d1b/class_translator_dutch.html#a1f0c2e1bfb07ca8b9f05b106b3708ccc", null ],
     [ "trVariables", "d9/d1b/class_translator_dutch.html#a31ecd777b6fdf83ea149ff7e39e97288", null ],
     [ "trVersion", "d9/d1b/class_translator_dutch.html#a4f6843a0a3c8510867025aaf98a936c7", null ],
-    [ "trVhdlType", "d9/d1b/class_translator_dutch.html#a9fc04b8d764381f52d9c54bf17cffb3b", null ],
+    [ "trVhdlType", "d9/d1b/class_translator_dutch.html#a48efca5db43aac8c86bde4db16509c9e", null ],
     [ "trWarning", "d9/d1b/class_translator_dutch.html#a0f0e242d6738d0eb779aa55eeab133f0", null ],
     [ "trWriteList", "d9/d1b/class_translator_dutch.html#aa1506536e6b506bd806900326a92cde2", null ]
 ];

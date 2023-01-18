@@ -25,7 +25,7 @@ var class_class_def_mutable =
     [ "setAnonymousEnumType", "d0/dc2/class_class_def_mutable.html#abb17571af31f200efe39466c2e96dd30", null ],
     [ "setCategoryOf", "d0/dc2/class_class_def_mutable.html#aa29fd7952f1c8eb27ec028f721752ef2", null ],
     [ "setClassName", "d0/dc2/class_class_def_mutable.html#a0eed3eca2f487ea375047fa77f3fe322", null ],
-    [ "setClassSpecifier", "d0/dc2/class_class_def_mutable.html#a75509a25871fd66cd880bff396a086fd", null ],
+    [ "setClassSpecifier", "d0/dc2/class_class_def_mutable.html#a6caf080e1f4b33541b47a454c9ae4e96", null ],
     [ "setCompoundType", "d0/dc2/class_class_def_mutable.html#abd16aabc699670ad3d110122f710d944", null ],
     [ "setFileDef", "d0/dc2/class_class_def_mutable.html#a433e1fc2bf9d074747f0e7479d1c9653", null ],
     [ "setGroupDefForAllMembers", "d0/dc2/class_class_def_mutable.html#a587dbea5e2811999a97fcedbb5619eff", null ],

@@ -82,7 +82,7 @@ var util_8h =
     [ "matchArguments2", "d8/d3c/util_8h.html#a78739b1ab728bbecd4d3e54ae90bbbce", null ],
     [ "mergeArguments", "d8/d3c/util_8h.html#af23214b35948032362f6b857d2edfe97", null ],
     [ "mergeScopes", "d8/d3c/util_8h.html#a0baa021dae80e22593292b12ef2f721f", null ],
-    [ "nextUtf8CharPosition", "d8/d3c/util_8h.html#adb69e097d773db9a2fb9d5050b0ceb56", null ],
+    [ "nextUtf8CharPosition", "d8/d3c/util_8h.html#a526d2170163c6436ceaa34f788554299", null ],
     [ "normalizeNonTemplateArgumentsInString", "d8/d3c/util_8h.html#a11601f7b8b08cb9600482e5dc3bc51c5", null ],
     [ "openOutputFile", "d8/d3c/util_8h.html#a5c6662051d765cb0a355382ab05c14a1", null ],
     [ "parseCommentAsText", "d8/d3c/util_8h.html#a89d1fb33b634f5c6dd86bbe5adba342d", null ],

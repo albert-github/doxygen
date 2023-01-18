@@ -6,12 +6,12 @@ var class_doc_html_row =
     [ "numCells", "d3/d16/class_doc_html_row.html#ac8411351d60c38dd457f0d118b1a3ab3", null ],
     [ "parse", "d3/d16/class_doc_html_row.html#a3ce36d0ebbf4daab80a263ff326bfde6", null ],
     [ "parseXml", "d3/d16/class_doc_html_row.html#a31be2781f87ba9d86a722e8a92338f6d", null ],
-    [ "rowIndex", "d3/d16/class_doc_html_row.html#a552ba0ee9a48a77b458dc39136f1d260", null ],
-    [ "setRowIndex", "d3/d16/class_doc_html_row.html#a88c1951bb0ba306defdd6702a809f28e", null ],
-    [ "setVisibleCells", "d3/d16/class_doc_html_row.html#a8ff2822de0f8fe5311b524ccf1cdb602", null ],
-    [ "visibleCells", "d3/d16/class_doc_html_row.html#a1923ee9928b24abf8f38dd2d19a3a2b6", null ],
+    [ "rowIndex", "d3/d16/class_doc_html_row.html#ad5d8f2862d007316b579b1fcd475136e", null ],
+    [ "setRowIndex", "d3/d16/class_doc_html_row.html#aded7defbf854f8c8f0049d92e96aea13", null ],
+    [ "setVisibleCells", "d3/d16/class_doc_html_row.html#a1ed44cd8dbe113a2a8180613487261f0", null ],
+    [ "visibleCells", "d3/d16/class_doc_html_row.html#aed83e07255b1fac974973feb27810501", null ],
     [ "DocHtmlTable", "d3/d16/class_doc_html_row.html#a1f7413118a8c0d90c891a2695a7cb90d", null ],
     [ "m_attribs", "d3/d16/class_doc_html_row.html#ac015bde980b2d2460a8af57acd7e87b4", null ],
-    [ "m_rowIdx", "d3/d16/class_doc_html_row.html#a6c45955d4aef2458725eb0bdcdc1bf35", null ],
-    [ "m_visibleCells", "d3/d16/class_doc_html_row.html#af8d6189302170509cae8a88ebc574bed", null ]
+    [ "m_rowIdx", "d3/d16/class_doc_html_row.html#a11d68ba69ea55c4acb2b39ad1744a6fd", null ],
+    [ "m_visibleCells", "d3/d16/class_doc_html_row.html#ac9e35e477ecd7c395451d51de7e86c57", null ]
 ];

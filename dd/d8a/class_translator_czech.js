@@ -289,7 +289,7 @@ var class_translator_czech =
     [ "trVariableDocumentation", "dd/d8a/class_translator_czech.html#a38ce49b486e7b3035be083f33287d65c", null ],
     [ "trVariables", "dd/d8a/class_translator_czech.html#a3dc668d74216cc62f14c9166702f5d95", null ],
     [ "trVersion", "dd/d8a/class_translator_czech.html#a74c2788ae879fbf24882f83c23ab3d4a", null ],
-    [ "trVhdlType", "dd/d8a/class_translator_czech.html#a7771749fe0751b96abb2ebf57ddf6d8f", null ],
+    [ "trVhdlType", "dd/d8a/class_translator_czech.html#a00f1354e19cecb1593c49e5b4d51fbb4", null ],
     [ "trWarning", "dd/d8a/class_translator_czech.html#a90945b94973b4e5da0af7019dfa0c40f", null ],
     [ "trWriteList", "dd/d8a/class_translator_czech.html#a76990cacd056f67d91d4fe784c7bcfca", null ]
 ];

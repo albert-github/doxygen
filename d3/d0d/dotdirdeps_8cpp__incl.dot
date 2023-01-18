@@ -228,6 +228,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/dotdirdeps.cpp"
   Node1 -> Node62 [color="steelblue1",style="solid"];
   Node62 [label="image.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/db2/image_8h.html",tooltip=" "];
   Node62 -> Node3 [color="steelblue1",style="solid"];
+  Node62 -> Node14 [color="steelblue1",style="solid"];
   Node62 -> Node24 [color="steelblue1",style="solid"];
   Node62 -> Node7 [color="steelblue1",style="solid"];
   Node1 -> Node63 [color="steelblue1",style="solid"];

@@ -232,7 +232,8 @@ digraph "/home/runner/work/doxygen/doxygen/src/mangen.cpp"
   Node64 -> Node6 [color="steelblue1",style="solid"];
   Node63 -> Node65 [color="steelblue1",style="solid"];
   Node65 [label="docnode.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d2b/docnode_8h.html",tooltip=" "];
-  Node65 -> Node33 [color="steelblue1",style="solid"];
+  Node65 -> Node11 [color="steelblue1",style="solid"];
+  Node65 -> Node13 [color="steelblue1",style="solid"];
   Node65 -> Node24 [color="steelblue1",style="solid"];
   Node65 -> Node18 [color="steelblue1",style="solid"];
   Node65 -> Node66 [color="steelblue1",style="solid"];

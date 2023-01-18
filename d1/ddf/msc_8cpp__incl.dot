@@ -64,7 +64,8 @@ digraph "/home/runner/work/doxygen/doxygen/src/msc.cpp"
   Node26 [label="iterator",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
   Node1 -> Node27 [color="steelblue1",style="solid"];
   Node27 [label="docnode.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d2b/docnode_8h.html",tooltip=" "];
-  Node27 -> Node4 [color="steelblue1",style="solid"];
+  Node27 -> Node13 [color="steelblue1",style="solid"];
+  Node27 -> Node15 [color="steelblue1",style="solid"];
   Node27 -> Node25 [color="steelblue1",style="solid"];
   Node27 -> Node23 [color="steelblue1",style="solid"];
   Node27 -> Node28 [color="steelblue1",style="solid"];
