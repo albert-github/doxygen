@@ -52,6 +52,7 @@ var fortranscanner_8l =
     [ "prepassFixedForm", "dd/d00/fortranscanner_8l.html#a3318a36567de3b1f36059e387a801863", null ],
     [ "pushBuffer", "dd/d00/fortranscanner_8l.html#ab536b3c2ec35df931a4fce0dbf2e1420", null ],
     [ "resolveModuleProcedures", "dd/d00/fortranscanner_8l.html#a117a119a3d5a5d0dc330e3d6eade5c04", null ],
+    [ "resolveTypeBoundProcedures", "dd/d00/fortranscanner_8l.html#a8e6aba48ce1a2e82d0401f666a45c1d3", null ],
     [ "scanner_abort", "dd/d00/fortranscanner_8l.html#a7b2ca28396c488d5a08ead21731ed2c2", null ],
     [ "startCommentBlock", "dd/d00/fortranscanner_8l.html#a3f8584604e877b6eb570db94e3692a92", null ],
     [ "startScope", "dd/d00/fortranscanner_8l.html#a49e7bafaa071ffbe937ec1a85c484828", null ],

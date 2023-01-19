@@ -1,5 +1,6 @@
 var NAVTREEINDEX98 =
 {
+"dd/d16/struct_command_map.html":[8,0,57],
 "dd/d16/struct_command_map.html#a62c848e39548451d6aa2641791e2b33a":[8,0,57,0],
 "dd/d16/struct_command_map.html#ac7eaac8a09da90b4f6e7dfae554cf46e":[8,0,57,1],
 "dd/d1b/struct_index_field.html":[8,0,331],
@@ -248,6 +249,5 @@ var NAVTREEINDEX98 =
 "dd/d48/translator__fr_8h.html":[9,0,2,261],
 "dd/d48/translator__fr_8h_source.html":[9,0,2,261],
 "dd/d49/class_python_outline_parser.html":[8,0,450],
-"dd/d49/class_python_outline_parser.html#a5bdb60eb490e5775ef03811344532e98":[8,0,450,6],
-"dd/d49/class_python_outline_parser.html#a82b613d877eb78866fe172fbf85fc667":[8,0,450,4]
+"dd/d49/class_python_outline_parser.html#a5bdb60eb490e5775ef03811344532e98":[8,0,450,6]
 };

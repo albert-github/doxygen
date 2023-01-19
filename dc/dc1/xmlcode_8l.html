@@ -751,7 +751,7 @@ Functions</h2></td></tr>
 <div class="ttc" id="aclass_q_c_string_html_aa2dccf89cb25346c3ee81d75aa5859da"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#aa2dccf89cb25346c3ee81d75aa5859da">QCString::sprintf</a></div><div class="ttdeci">QCString &amp; sprintf(const char *format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d3e/qcstring_8cpp_source.html#l00029">qcstring.cpp:29</a></div></div>
 <div class="ttc" id="axmlcode_8l_html_adbfcafb48c794e6885763cd94da51375"><div class="ttname"><a href="../../dc/dc1/xmlcode_8l.html#adbfcafb48c794e6885763cd94da51375">setCurrentDoc</a></div><div class="ttdeci">static void setCurrentDoc(yyscan_t yyscanner, const QCString &amp;anchor)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc1/xmlcode_8l_source.html#l00229">xmlcode.l:229</a></div></div>
 <div class="line"><span class="lineno">  287</span> </div>
-<div class="line"><span class="lineno">  288</span>  yyextra-&gt;code-&gt;startCodeLine(yyextra-&gt;sourceFileDef);</div>
+<div class="line"><span class="lineno">  288</span>  yyextra-&gt;code-&gt;startCodeLine(yyextra-&gt;sourceFileDef!=0);</div>
 <div class="line"><span class="lineno">  289</span>  yyextra-&gt;insideCodeLine = <span class="keyword">true</span>;</div>
 <div class="line"><span class="lineno">  290</span> </div>
 <div class="line"><span class="lineno">  291</span>  <span class="keywordflow">if</span> (yyextra-&gt;currentFontClass)</div>

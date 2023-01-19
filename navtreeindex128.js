@@ -1,5 +1,6 @@
 var NAVTREEINDEX128 =
 {
+"df/dc8/class_translator_indonesian.html#aeccf407583487a91e90781f7009ddb81":[8,0,594,36],
 "df/dc8/class_translator_indonesian.html#aed150873d2ebf9ff9c81a7194ed87c4b":[8,0,594,28],
 "df/dc8/class_translator_indonesian.html#aefb6a631ffcb9092d6006e2c87f75595":[8,0,594,108],
 "df/dc8/class_translator_indonesian.html#af16e6b3c8f9597ae61965c14f4562ab5":[8,0,594,185],
@@ -248,6 +249,5 @@ var NAVTREEINDEX128 =
 "functions_s.html":[8,3,0,19],
 "functions_t.html":[8,3,0,20],
 "functions_type.html":[8,3,3],
-"functions_u.html":[8,3,0,21],
-"functions_v.html":[8,3,0,22]
+"functions_u.html":[8,3,0,21]
 };
