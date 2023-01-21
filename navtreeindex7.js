@@ -1,5 +1,6 @@
 var NAVTREEINDEX7 =
 {
+"d1/d1b/trace_8h.html#adeafa8266193d68981662b41121d51ac":[9,0,2,244,14],
 "d1/d1b/trace_8h_source.html":[9,0,2,244],
 "d1/d1f/class_dot_gfx_hierarchy_table.html":[8,0,204],
 "d1/d1f/class_dot_gfx_hierarchy_table.html#a12cd9c4ea2e895b0a789e7480f9dae60":[8,0,204,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "d1/d39/doctokenizer_8l.html#a86da2f5e3360caa90276fc24433d9512":[9,0,2,74,5],
 "d1/d39/doctokenizer_8l.html#a93254599b6550533edd446faac434b5d":[9,0,2,74,4],
 "d1/d39/doctokenizer_8l.html#a9484188abbc459dafcbd4c96425fa70b":[9,0,2,74,11],
-"d1/d39/doctokenizer_8l.html#a9b60e3bdd311d784431944cfc85f19c9":[9,0,2,74,15],
-"d1/d39/doctokenizer_8l.html#aacfdca45fa4beb8b06172525a53c424a":[9,0,2,74,7]
+"d1/d39/doctokenizer_8l.html#a9b60e3bdd311d784431944cfc85f19c9":[9,0,2,74,15]
 };

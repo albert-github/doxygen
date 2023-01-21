@@ -37,7 +37,7 @@ var class_translator_swedish =
     [ "trCompoundReferenceSlice", "d5/d5c/class_translator_swedish.html#ab1713b6ae5a8871f262806b3a6c39403", null ],
     [ "trCompounds", "d5/d5c/class_translator_swedish.html#a500a641eb775f0671a651e7abd28c19e", null ],
     [ "trCompoundType", "d5/d5c/class_translator_swedish.html#a949be7181e438e3cd4b4980f1f528bed", null ],
-    [ "trConcept", "d5/d5c/class_translator_swedish.html#a8d7d18f779fdbcddb8c180a7d5a5b2e6", null ],
+    [ "trConcept", "d5/d5c/class_translator_swedish.html#ac1edef35797a745577aec42af30042ff", null ],
     [ "trConceptDefinition", "d5/d5c/class_translator_swedish.html#a09e2b12c718f8a27254d2add77bf0509", null ],
     [ "trConceptDocumentation", "d5/d5c/class_translator_swedish.html#a4699ea0b5507f4b0afa5560926bf02b4", null ],
     [ "trConceptIndex", "d5/d5c/class_translator_swedish.html#aa010d0651d983cad7d074ae7cab78d79", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX77 =
 {
+"da/d32/class_translator_romanian.html#ac01f36fb606f0020f36dde8de1a65d06":[8,0,607,65],
 "da/d32/class_translator_romanian.html#ac0d4575f79ec22ab5e4ab169cdeca88d":[8,0,607,135],
 "da/d32/class_translator_romanian.html#ac1f3a2ccaf9bc8a17d17f757b39fa125":[8,0,607,137],
 "da/d32/class_translator_romanian.html#ac258cbced506e3079a216c58909b819b":[8,0,607,49],
@@ -202,11 +203,11 @@ var NAVTREEINDEX77 =
 "da/d73/dispatcher_8h_source.html":[9,0,2,59],
 "da/d7b/class_lex_outline_parser.html":[8,0,360],
 "da/d7b/class_lex_outline_parser.html#a1c3dd92666badfafa45cb0e5295cd511":[8,0,360,1],
+"da/d7b/class_lex_outline_parser.html#a3bf81ea753ad82a279a2c48acd666bd9":[8,0,360,3],
 "da/d7b/class_lex_outline_parser.html#a63d579cc2b0db08ab8057e022146b7d9":[8,0,360,6],
 "da/d7b/class_lex_outline_parser.html#a6e0a6fa3a2647d040c2b6c721466ce4f":[8,0,360,2],
-"da/d7b/class_lex_outline_parser.html#a782b38f035cf7512ecc2333b5e69593c":[8,0,360,3],
-"da/d7b/class_lex_outline_parser.html#a8818d630e579cdc7827fd5f26c14a74d":[8,0,360,5],
 "da/d7b/class_lex_outline_parser.html#aa15a62641b1eea32bfb8e3e2c88e03a6":[8,0,360,4],
+"da/d7b/class_lex_outline_parser.html#ad381cb1e25cb3fc68a0d639c85fff348":[8,0,360,5],
 "da/d7b/structsqlcode_y_y__state.html":[8,0,482],
 "da/d7b/structsqlcode_y_y__state.html#a09cad7f457d87dca777352aaa7d9e872":[8,0,482,3],
 "da/d7b/structsqlcode_y_y__state.html#a12ff3617a457baf82d69ccf1e7b5ccc6":[8,0,482,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX77 =
 "da/d7d/class_debug.html#a1c3f4696cf44a23f41e034323c426f7da9cbd5d3516ffd3fe86238779edb2f7c5":[8,0,94,0,5],
 "da/d7d/class_debug.html#a1c3f4696cf44a23f41e034323c426f7daa1079d9a4345660aa3e283c322fd12f3":[8,0,94,0,0],
 "da/d7d/class_debug.html#a1c3f4696cf44a23f41e034323c426f7daa212cad6fd21d6eb9f0cbc82c1a14e97":[8,0,94,0,35],
-"da/d7d/class_debug.html#a1c3f4696cf44a23f41e034323c426f7daa8db983f0b8626bee7c3f012c8b5d566":[8,0,94,0,9],
-"da/d7d/class_debug.html#a1c3f4696cf44a23f41e034323c426f7daaec9b8e3dfee836d4621c2cca9514037":[8,0,94,0,18]
+"da/d7d/class_debug.html#a1c3f4696cf44a23f41e034323c426f7daa8db983f0b8626bee7c3f012c8b5d566":[8,0,94,0,9]
 };

@@ -151,10 +151,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2b8ac05a391dae36793aa3aa8714a0f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a105e266cb867b82304546901dd65c25d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d9c/class_code_output_interface.html#a105e266cb867b82304546901dd65c25d">writeCodeAnchor</a> (const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;name)=0</td></tr>
 <tr class="separator:a105e266cb867b82304546901dd65c25d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d6baff88d7ed851e7f3774ef18de631"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d9c/class_code_output_interface.html#a7d6baff88d7ed851e7f3774ef18de631">setCurrentDoc</a> (const <a class="el" href="../../d5/dcc/class_definition.html">Definition</a> *, const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;, bool)</td></tr>
-<tr class="separator:a7d6baff88d7ed851e7f3774ef18de631"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada98bdae60786f6d7c3fbbd8591d2fb9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d9c/class_code_output_interface.html#ada98bdae60786f6d7c3fbbd8591d2fb9">addWord</a> (const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;, bool)</td></tr>
-<tr class="separator:ada98bdae60786f6d7c3fbbd8591d2fb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a576938481ac878da1ea80af36c69358e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d9c/class_code_output_interface.html#a576938481ac878da1ea80af36c69358e">setCurrentDoc</a> (const <a class="el" href="../../d5/dcc/class_definition.html">Definition</a> *context, const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;anchor, bool isSourceFile)</td></tr>
+<tr class="separator:a576938481ac878da1ea80af36c69358e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5776e90169cee37e62ac848967cc0c3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d9c/class_code_output_interface.html#aa5776e90169cee37e62ac848967cc0c3">addWord</a> (const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;<a class="el" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>, bool hiPriority)</td></tr>
+<tr class="separator:aa5776e90169cee37e62ac848967cc0c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8bfe3442097c1cba7701050c9a07e559"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d9c/class_code_output_interface.html#a8bfe3442097c1cba7701050c9a07e559">startCodeFragment</a> (const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;style)=0</td></tr>
 <tr class="separator:a8bfe3442097c1cba7701050c9a07e559"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9647197ce79f900eacb4c9330728796"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d9c/class_code_output_interface.html#ac9647197ce79f900eacb4c9330728796">endCodeFragment</a> (const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;style)=0</td></tr>
@@ -249,8 +249,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ada98bdae60786f6d7c3fbbd8591d2fb9" name="ada98bdae60786f6d7c3fbbd8591d2fb9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada98bdae60786f6d7c3fbbd8591d2fb9">&#9670;&#160;</a></span>addWord()</h2>
+<a id="aa5776e90169cee37e62ac848967cc0c3" name="aa5776e90169cee37e62ac848967cc0c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5776e90169cee37e62ac848967cc0c3">&#9670;&#160;</a></span>addWord()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -262,13 +262,13 @@ Private Attributes</h2></td></tr>
           <td class="memname">virtual void CodeOutputInterface::addWord </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>word</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramname"><em>hiPriority</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -504,8 +504,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7d6baff88d7ed851e7f3774ef18de631" name="a7d6baff88d7ed851e7f3774ef18de631"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d6baff88d7ed851e7f3774ef18de631">&#9670;&#160;</a></span>setCurrentDoc()</h2>
+<a id="a576938481ac878da1ea80af36c69358e" name="a576938481ac878da1ea80af36c69358e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a576938481ac878da1ea80af36c69358e">&#9670;&#160;</a></span>setCurrentDoc()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -517,19 +517,19 @@ Private Attributes</h2></td></tr>
           <td class="memname">virtual void CodeOutputInterface::setCurrentDoc </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../d5/dcc/class_definition.html">Definition</a> *&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>context</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>anchor</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramname"><em>isSourceFile</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

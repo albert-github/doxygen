@@ -1,5 +1,6 @@
 var NAVTREEINDEX22 =
 {
+"d2/de2/portable_8h.html#af099fa6239b4961887192d8eadfd2a44":[9,0,2,192,4],
 "d2/de2/portable_8h.html#aff6714c1d9aaed257fc48a7a535b1fd5":[9,0,2,192,23],
 "d2/de2/portable_8h_source.html":[9,0,2,192],
 "d2/de7/dotgfxhierarchytable_8h.html":[9,0,2,89],
@@ -248,6 +249,5 @@ var NAVTREEINDEX22 =
 "d2/df8/class_translator_italian.html#ad75cbe5e77bf89cbea9f2363363d72f7":[8,0,595,133],
 "d2/df8/class_translator_italian.html#ad87f9c040ad9cd778a70fbf929002f6c":[8,0,595,191],
 "d2/df8/class_translator_italian.html#ad964d826780fc1c39d0235a96b1a8544":[8,0,595,224],
-"d2/df8/class_translator_italian.html#ad97c677662c4d82af62a056c74c02438":[8,0,595,150],
-"d2/df8/class_translator_italian.html#adb2d1bc1a5ebcd81bdf45c6a32830d21":[8,0,595,204]
+"d2/df8/class_translator_italian.html#ad97c677662c4d82af62a056c74c02438":[8,0,595,150]
 };

@@ -21,6 +21,7 @@ var pre_8l =
     [ "computeExpression", "d0/da7/pre_8l.html#ae3133546e20fd36ac3b7568349ce5285", null ],
     [ "decrLevel", "d0/da7/pre_8l.html#a1917523a9eee16ade8021a9135d5e1da", null ],
     [ "determineAbsoluteIncludeName", "d0/da7/pre_8l.html#ac6999bd4aada4888e445a81ae953d9be", null ],
+    [ "determineBlockName", "d0/da7/pre_8l.html#a20e87c94c55f270beb04921ae491a309", null ],
     [ "endCondSection", "d0/da7/pre_8l.html#a34860cedec3675010f3293403abd9bd3", null ],
     [ "escapeAt", "d0/da7/pre_8l.html#ad860c94401483cee6345e6dd71bab597", null ],
     [ "expandExpression", "d0/da7/pre_8l.html#a1bc8b7f200b9267b0c7b842ecd1f25b0", null ],

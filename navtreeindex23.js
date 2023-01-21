@@ -1,5 +1,6 @@
 var NAVTREEINDEX23 =
 {
+"d2/df8/class_translator_italian.html#adb2d1bc1a5ebcd81bdf45c6a32830d21":[8,0,595,204],
 "d2/df8/class_translator_italian.html#adb8ad11a5f174e4540487bad78e4ca31":[8,0,595,144],
 "d2/df8/class_translator_italian.html#adfc5d01cf997c3c181d84b45f7ad9e45":[8,0,595,59],
 "d2/df8/class_translator_italian.html#adfe55c608e4381bb3d3c8056ab5ceeed":[8,0,595,69],
@@ -220,10 +221,10 @@ var NAVTREEINDEX23 =
 "d3/d2a/class_expression_parser_1_1_expr_token.html#acc4354682e74feca908571da86cdaeb9":[8,0,240,0,4],
 "d3/d2c/classvhdl_1_1parser_1_1_token_manager.html":[7,0,13,0,5],
 "d3/d2c/classvhdl_1_1parser_1_1_token_manager.html":[8,0,6,0,5],
-"d3/d2c/classvhdl_1_1parser_1_1_token_manager.html#a07c59d061a25f0349a8bd1a17b05b42b":[8,0,6,0,5,2],
 "d3/d2c/classvhdl_1_1parser_1_1_token_manager.html#a07c59d061a25f0349a8bd1a17b05b42b":[7,0,13,0,5,2],
-"d3/d2c/classvhdl_1_1parser_1_1_token_manager.html#a116b81f14babf26eccaba85331ef702b":[8,0,6,0,5,0],
+"d3/d2c/classvhdl_1_1parser_1_1_token_manager.html#a07c59d061a25f0349a8bd1a17b05b42b":[8,0,6,0,5,2],
 "d3/d2c/classvhdl_1_1parser_1_1_token_manager.html#a116b81f14babf26eccaba85331ef702b":[7,0,13,0,5,0],
+"d3/d2c/classvhdl_1_1parser_1_1_token_manager.html#a116b81f14babf26eccaba85331ef702b":[8,0,6,0,5,0],
 "d3/d2c/classvhdl_1_1parser_1_1_token_manager.html#a22fec50d884708a36c2e736c64c7bd29":[7,0,13,0,5,1],
 "d3/d2c/classvhdl_1_1parser_1_1_token_manager.html#a22fec50d884708a36c2e736c64c7bd29":[8,0,6,0,5,1],
 "d3/d2c/classvhdl_1_1parser_1_1_token_manager.html#abe30e20923be9582b26c238ce7387a8b":[7,0,13,0,5,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX23 =
 "d3/d30/class_text_stream.html#a2b7107b1c22e3ec8488216d91aaeeeab":[8,0,554,14],
 "d3/d30/class_text_stream.html#a2c5bb0c9e5ebab3bef398d1e3ae3026b":[8,0,554,21],
 "d3/d30/class_text_stream.html#a42463de0e3fa4777714f8e8fc4f9355c":[8,0,554,24],
-"d3/d30/class_text_stream.html#a4efd56716095f7c011ce6f5981446af9":[8,0,554,15],
-"d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab":[8,0,554,33]
+"d3/d30/class_text_stream.html#a4efd56716095f7c011ce6f5981446af9":[8,0,554,15]
 };

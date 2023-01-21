@@ -1,5 +1,6 @@
 var NAVTREEINDEX47 =
 {
+"d6/d73/class_template_immutable_struct.html#a9eaf2eea1790a2e10b5fc6c73bd4af32":[6,0,4,4],
 "d6/d73/class_template_immutable_struct.html#aa30f7f2520d1ace48aeff4b79c2c17cd":[6,0,4,5],
 "d6/d73/class_template_immutable_struct.html#ad8132c68d876472b2a133865d5c997c4":[6,0,4,3],
 "d6/d73/class_template_immutable_struct.html#ae4b88627bc20869c01ed8b1e070ed6fc":[6,0,4,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX47 =
 "d6/d78/class_translator_english.html#acce21c9d9f62c5a7d4377585cc4cf5a8":[8,0,586,216],
 "d6/d78/class_translator_english.html#acd7521b982ea3b5116b65e7fb387c1f8":[8,0,586,107],
 "d6/d78/class_translator_english.html#ad01c7ed356144248ddc89631c2c36964":[8,0,586,257],
-"d6/d78/class_translator_english.html#ad0a6275052626da15e03aa0b3c30ae2d":[8,0,586,56],
-"d6/d78/class_translator_english.html#ad0ba06ac7670728785bbba6a54eeb7fd":[8,0,586,116]
+"d6/d78/class_translator_english.html#ad0a6275052626da15e03aa0b3c30ae2d":[8,0,586,56]
 };

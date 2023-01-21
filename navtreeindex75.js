@@ -1,5 +1,6 @@
 var NAVTREEINDEX75 =
 {
+"da/d1a/class_translator_french.html#ad020221dbf1ba15d73adb06458bd473b":[8,0,589,110],
 "da/d1a/class_translator_french.html#ad0c617a48e315f8fc741458a573bf122":[8,0,589,168],
 "da/d1a/class_translator_french.html#ad1d0e98cedeedad4d9304136dba9313a":[8,0,589,190],
 "da/d1a/class_translator_french.html#ad269ac85f148854cc36b48693a18ab6b":[8,0,589,187],
@@ -248,6 +249,5 @@ var NAVTREEINDEX75 =
 "da/d28/structcode_y_y__state.html#ab61f29af851598e0c5c37aa4f92330bf":[8,0,53,69],
 "da/d28/structcode_y_y__state.html#ab7b6a29415739b45a630844e58fe77b1":[8,0,53,24],
 "da/d28/structcode_y_y__state.html#ab8917013c8b8fbcf3324eafb9334cbdd":[8,0,53,25],
-"da/d28/structcode_y_y__state.html#ab8de2ad884a23c165467f490bf3be4aa":[8,0,53,45],
-"da/d28/structcode_y_y__state.html#abc0f912d483d1542dd4912eb5bfb2fbe":[8,0,53,2]
+"da/d28/structcode_y_y__state.html#ab8de2ad884a23c165467f490bf3be4aa":[8,0,53,45]
 };
