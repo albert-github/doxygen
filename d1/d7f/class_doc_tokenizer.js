@@ -7,7 +7,7 @@ var class_doc_tokenizer =
     [ "endAutoList", "d1/d7f/class_doc_tokenizer.html#a41327ee370bdbdf5e367328e8e83a23b", null ],
     [ "findSections", "d1/d7f/class_doc_tokenizer.html#a640bce791d53e83dcbd47f7ab01620e8", null ],
     [ "getLineNr", "d1/d7f/class_doc_tokenizer.html#ae5366d3fa4095f81903bcc38ca7c88c7", null ],
-    [ "init", "d1/d7f/class_doc_tokenizer.html#af12e04557e3425c3af6534c25b16e583", null ],
+    [ "init", "d1/d7f/class_doc_tokenizer.html#a3f57fdb1ede7f89d6834a3a2158714ed", null ],
     [ "lex", "d1/d7f/class_doc_tokenizer.html#a8986c06e98f6abf4c375fc8a3629a3b8", null ],
     [ "newToken", "d1/d7f/class_doc_tokenizer.html#a159392684d28427405729197970bbe6f", null ],
     [ "popContext", "d1/d7f/class_doc_tokenizer.html#ae2407880f57f0b80f4f803d369776189", null ],
