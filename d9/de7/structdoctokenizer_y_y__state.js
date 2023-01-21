@@ -7,7 +7,6 @@ var structdoctokenizer_y_y__state =
     [ "fileName", "d9/de7/structdoctokenizer_y_y__state.html#a7170cbc062016f60385235963072cdbe", null ],
     [ "inputPos", "d9/de7/structdoctokenizer_y_y__state.html#a951e7dfababa622a3c37f69c49094434", null ],
     [ "inputString", "d9/de7/structdoctokenizer_y_y__state.html#ae9ec9c108aa1f400f39f2708ab64299d", null ],
-    [ "insideHtmlLink", "d9/de7/structdoctokenizer_y_y__state.html#a08b3aef295d9ae8d85e7c7394173e57b", null ],
     [ "insidePre", "d9/de7/structdoctokenizer_y_y__state.html#a27c265bda0a26bd922229c9a029315ce", null ],
     [ "lexerStack", "d9/de7/structdoctokenizer_y_y__state.html#af9c9bc722176dff3682bc370b8579070", null ],
     [ "markdownSupport", "d9/de7/structdoctokenizer_y_y__state.html#a6f946eb2647af4e3492d0c05a965c940", null ],
