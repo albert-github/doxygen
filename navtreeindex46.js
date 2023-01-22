@@ -1,5 +1,11 @@
 var NAVTREEINDEX46 =
 {
+"d6/d07/class_translator_german.html#afa0c2c427bb4da28b214853d71ce3e7f":[8,0,590,196],
+"d6/d07/class_translator_german.html#afcbef729ffa8da59b8f67d6d61b0624e":[8,0,590,174],
+"d6/d07/class_translator_german.html#afecd964fa6ca8a7d8553032df3762894":[8,0,590,14],
+"d6/d07/resourcemgr_8h.html":[9,0,2,209],
+"d6/d07/resourcemgr_8h_source.html":[9,0,2,209],
+"d6/d10/class_all_members_list_context.html":[8,0,9],
 "d6/d10/class_all_members_list_context.html#a51d8263a7ce3a54867ddfe3fbbefa8c9":[8,0,9,6],
 "d6/d10/class_all_members_list_context.html#a7e309a8431c58c63229a64370c6dda1f":[8,0,9,7],
 "d6/d10/class_all_members_list_context.html#aafe1e8294ce4147004903c5f44949e4f":[8,0,9,5],
@@ -54,8 +60,8 @@ var NAVTREEINDEX46 =
 "d6/d1c/struct_comment_in_prepass.html#a121d4cd80b9102d3c562acbef48952ca":[8,0,61,2],
 "d6/d1c/struct_comment_in_prepass.html#a84b0d18b00f30aa819ec490f79e24018":[8,0,61,1],
 "d6/d1c/struct_comment_in_prepass.html#adeb00c14514e8550c06a5622ecec7298":[8,0,61,0],
-"d6/d1d/struct_index_intf_1_1dec_contents_depth.html":[8,0,3,5],
 "d6/d1d/struct_index_intf_1_1dec_contents_depth.html":[7,0,7,5],
+"d6/d1d/struct_index_intf_1_1dec_contents_depth.html":[8,0,3,5],
 "d6/d1d/struct_index_intf_1_1dec_contents_depth.html#a3020f024c4f382333ee3b522e7b85a09":[7,0,7,5,0],
 "d6/d1d/struct_index_intf_1_1dec_contents_depth.html#a3020f024c4f382333ee3b522e7b85a09":[8,0,3,5,0],
 "d6/d1f/class_template_lexer.html":[8,0,510],
@@ -243,11 +249,5 @@ var NAVTREEINDEX46 =
 "d6/d67/translator__kr_8h_source.html":[9,0,2,271],
 "d6/d69/class_constraint_class_list.html":[8,0,89],
 "d6/d6e/mandocvisitor_8h.html":[9,0,2,162],
-"d6/d6e/mandocvisitor_8h.html#a1f3a5437345b77a74c9c47e7375a863f":[9,0,2,162,2],
-"d6/d6e/mandocvisitor_8h.html#aa69b3884b5bbf1943d0aa75dde843000":[9,0,2,162,3],
-"d6/d6e/mandocvisitor_8h_source.html":[9,0,2,162],
-"d6/d73/class_template_immutable_struct.html":[6,0,4],
-"d6/d73/class_template_immutable_struct.html#a17d7bad840da65d9f4e2b79b8621b9f5":[6,0,4,2],
-"d6/d73/class_template_immutable_struct.html#a5c618fb5f13c1d6c8c56cb24e3bc443b":[6,0,4,7],
-"d6/d73/class_template_immutable_struct.html#a7678cce92f1addd156bad8574e033859":[6,0,4,1]
+"d6/d6e/mandocvisitor_8h.html#a1f3a5437345b77a74c9c47e7375a863f":[9,0,2,162,2]
 };

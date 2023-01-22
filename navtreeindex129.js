@@ -1,5 +1,11 @@
 var NAVTREEINDEX129 =
 {
+"functions_p.html":[8,3,0,16],
+"functions_q.html":[8,3,0,17],
+"functions_r.html":[8,3,0,18],
+"functions_rela.html":[8,3,6],
+"functions_s.html":[8,3,0,19],
+"functions_t.html":[8,3,0,20],
 "functions_type.html":[8,3,3],
 "functions_u.html":[8,3,0,21],
 "functions_v.html":[8,3,0,22],

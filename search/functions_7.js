@@ -381,6 +381,6 @@ var searchData=
   ['growbuf_378',['GrowBuf',['../d8/d33/class_grow_buf.html#a471132290014798c89965dd36b51e5bc',1,'GrowBuf::GrowBuf(GrowBuf &amp;&amp;other)'],['../d8/d33/class_grow_buf.html#ab7adf8adf049747895150afb7c539d71',1,'GrowBuf::GrowBuf(const GrowBuf &amp;other)'],['../d8/d33/class_grow_buf.html#af49b662ca5d8163601b91ad7f201e460',1,'GrowBuf::GrowBuf(size_t initialSize)'],['../d8/d33/class_grow_buf.html#a7868767b69ab7f10f3a36da73e2f5e5f',1,'GrowBuf::GrowBuf()']]],
   ['guarded_5fsignal_5fspecificatio_379',['guarded_signal_specificatio',['../de/d32/classvhdl_1_1parser_1_1_vhdl_parser.html#ae059bbe83ad53b3fa4afa30ff14f99d2',1,'vhdl::parser::VhdlParser']]],
   ['guarded_5fsignal_5fspecification_380',['guarded_signal_specification',['../de/d32/classvhdl_1_1parser_1_1_vhdl_parser.html#a38e3e2af85ac4ce21f7150f22e68a14c',1,'vhdl::parser::VhdlParser']]],
-  ['guardedsection_381',['GuardedSection',['../d5/d19/class_guarded_section.html#a705b980ef9c030f19686634b3f0c01a2',1,'GuardedSection']]],
+  ['guardedsection_381',['GuardedSection',['../d5/d19/class_guarded_section.html#abaa485184e30168ef682c9b19861319e',1,'GuardedSection']]],
   ['guesssection_382',['guessSection',['../df/d2d/util_8cpp.html#adfac1d990e027ce0011573d537066ee6',1,'guessSection(const QCString &amp;name):&#160;util.cpp'],['../d8/d3c/util_8h.html#adfac1d990e027ce0011573d537066ee6',1,'guessSection(const QCString &amp;name):&#160;util.cpp']]]
 ];

@@ -22,7 +22,7 @@ var commentscan_8l =
     [ "GuardType", "d7/d5f/commentscan_8l.html#a83faa6554b2d8d0f095551b84f726c7f", [
       [ "Guard_If", "d7/d5f/commentscan_8l.html#a83faa6554b2d8d0f095551b84f726c7fa516af97241cebc813e221d2cff34aee3", null ],
       [ "Guard_IfNot", "d7/d5f/commentscan_8l.html#a83faa6554b2d8d0f095551b84f726c7fa81117f2b12c03ae4546521b5bf7c8ac5", null ],
-      [ "Guard_Skip", "d7/d5f/commentscan_8l.html#a83faa6554b2d8d0f095551b84f726c7fa05f0ba790ed71e77b4064fb2b8350e9a", null ]
+      [ "Guard_ElseIf", "d7/d5f/commentscan_8l.html#a83faa6554b2d8d0f095551b84f726c7fa7d832af919ed50ad24d7594b7a5f20b6", null ]
     ] ],
     [ "OutputContext", "d7/d5f/commentscan_8l.html#acc0f0d2f60038c5acff5f6480bc80e45", [
       [ "OutputDoc", "d7/d5f/commentscan_8l.html#acc0f0d2f60038c5acff5f6480bc80e45a7798ee65e8ba26c91dcea378c28347a6", null ],

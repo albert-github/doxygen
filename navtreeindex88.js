@@ -1,5 +1,11 @@
 var NAVTREEINDEX88 =
 {
+"dc/d03/class_translator_serbian_cyrillic.html#a6f8eae9fd2733bcb479035f320fb2b9a":[8,0,610,29],
+"dc/d03/class_translator_serbian_cyrillic.html#a702ebd41ff43cba4154a980781c43eea":[8,0,610,6],
+"dc/d03/class_translator_serbian_cyrillic.html#a719a5ada410d48c70c06e7aed5e5bc7d":[8,0,610,12],
+"dc/d03/class_translator_serbian_cyrillic.html#a73d5b165d77c02369bc70a69f01c937a":[8,0,610,52],
+"dc/d03/class_translator_serbian_cyrillic.html#a75182d535aa97bc820e764a5cec03509":[8,0,610,8],
+"dc/d03/class_translator_serbian_cyrillic.html#a752841f3a2514a9fa1c47244903e4712":[8,0,610,109],
 "dc/d03/class_translator_serbian_cyrillic.html#a756f6eff8bb5841f2723a80a013a2e83":[8,0,610,39],
 "dc/d03/class_translator_serbian_cyrillic.html#a75d750ec709bd32814486d1a62e7d2bc":[8,0,610,98],
 "dc/d03/class_translator_serbian_cyrillic.html#a78813cc3fbc32c707117e55d55c73849":[8,0,610,150],
@@ -243,11 +249,5 @@ var NAVTREEINDEX88 =
 "dc/d21/_vhdl_parser_constants_8h.html#a0fe91f5fe6b1ffc59dc84ddaa3bc7182":[9,0,3,8,126],
 "dc/d21/_vhdl_parser_constants_8h.html#a100ab9f73276cad278a4f30b8c2045fb":[9,0,3,8,274],
 "dc/d21/_vhdl_parser_constants_8h.html#a107d7e4ce00272ff998f7f79d82240d7":[9,0,3,8,65],
-"dc/d21/_vhdl_parser_constants_8h.html#a110a175e842ce85d4ec0973695519f54":[9,0,3,8,101],
-"dc/d21/_vhdl_parser_constants_8h.html#a13447ac3d014d951e2b635e78b12ce9d":[9,0,3,8,354],
-"dc/d21/_vhdl_parser_constants_8h.html#a14113b88321f63608120d92395f04445":[9,0,3,8,248],
-"dc/d21/_vhdl_parser_constants_8h.html#a152be4059c1abc1a95900881e4013d67":[9,0,3,8,301],
-"dc/d21/_vhdl_parser_constants_8h.html#a152fb89cf3ad6ac5afd55b6cf1d64075":[9,0,3,8,347],
-"dc/d21/_vhdl_parser_constants_8h.html#a17fb9c0c8e1c746abc3c919535d067ee":[9,0,3,8,171],
-"dc/d21/_vhdl_parser_constants_8h.html#a1a70a02a2df065530094d44bfb55adbd":[9,0,3,8,348]
+"dc/d21/_vhdl_parser_constants_8h.html#a110a175e842ce85d4ec0973695519f54":[9,0,3,8,101]
 };
