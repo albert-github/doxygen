@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"d9/dba/struct_layout_doc_entry.html#a89dcbe762ed7e7f7790d8c034cf8ea01afc9d8ac1ff8091c91414b286fdf5fcb5":[8,0,350,0,25],
 "d9/dbc/struct_pre_include_info.html":[8,0,441],
 "d9/dbc/struct_pre_include_info.html#a15f1159eaf981c7035b440feb08c9097":[8,0,441,1],
 "d9/dbc/struct_pre_include_info.html#a19fae3f028e545eaa6e9b79e376188b8":[8,0,441,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX70 =
 "d9/dc5/struct_symbol_resolver_1_1_private.html#aa553c3d55ea82c85ce0f8a65861f32f7":[8,0,494,0,13],
 "d9/dc5/struct_symbol_resolver_1_1_private.html#ab01c8bb71a27205b862142b2c049f9a6":[8,0,494,0,12],
 "d9/dc5/struct_symbol_resolver_1_1_private.html#ab82f55d87ac3417ae78a0ddf4806b263":[8,0,494,0,5],
-"d9/dc5/struct_symbol_resolver_1_1_private.html#ac446c39cc6dcbdda4dd7532c0e8e695d":[8,0,494,0,18],
-"d9/dc5/struct_symbol_resolver_1_1_private.html#ad7af4e916211ea5af0a6d86560c7216e":[8,0,494,0,17]
+"d9/dc5/struct_symbol_resolver_1_1_private.html#ac446c39cc6dcbdda4dd7532c0e8e695d":[8,0,494,0,18]
 };

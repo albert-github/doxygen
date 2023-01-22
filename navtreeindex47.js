@@ -1,5 +1,6 @@
 var NAVTREEINDEX47 =
 {
+"d6/d6e/mandocvisitor_8h.html#a1f3a5437345b77a74c9c47e7375a863f":[9,0,2,162,2],
 "d6/d6e/mandocvisitor_8h.html#aa69b3884b5bbf1943d0aa75dde843000":[9,0,2,162,3],
 "d6/d6e/mandocvisitor_8h_source.html":[9,0,2,162],
 "d6/d73/class_template_immutable_struct.html":[6,0,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX47 =
 "d6/d78/class_translator_english.html#abf72c3e55194afb6f6805b31ebdf182f":[8,0,586,273],
 "d6/d78/class_translator_english.html#abfddc291a8ee42dd055bad517b5b2ea7":[8,0,586,112],
 "d6/d78/class_translator_english.html#ac2bdc856383d60a10444ecd475fa00f7":[8,0,586,67],
-"d6/d78/class_translator_english.html#ac95ef3bd6ff33eacb95b5a8215a37805":[8,0,586,86],
-"d6/d78/class_translator_english.html#acb974c437237f2bfda363b62afc050cd":[8,0,586,225]
+"d6/d78/class_translator_english.html#ac95ef3bd6ff33eacb95b5a8215a37805":[8,0,586,86]
 };

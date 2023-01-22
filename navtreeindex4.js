@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"d0/da4/class_r_t_f_generator.html#ae6b11735b033c3b568ab56b53e148df7":[8,0,463,210],
 "d0/da4/class_r_t_f_generator.html#ae83e7d998c1bae062c0d0ac838a4227b":[8,0,463,151],
 "d0/da4/class_r_t_f_generator.html#ae8b39bb99367d13410a574ef93cae773":[8,0,463,83],
 "d0/da4/class_r_t_f_generator.html#ae91c2a65ed12a3deb00353aaa00501c8":[8,0,463,163],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "d0/dab/class_translator_russian.html#a3afca6623fa568fd6434608272a0b2e3":[8,0,608,202],
 "d0/dab/class_translator_russian.html#a3c4bc1f2d0beb9b381537ea209b1a9b4":[8,0,608,181],
 "d0/dab/class_translator_russian.html#a3c9b6607c87e4112ece637c8e87d3cc8":[8,0,608,113],
-"d0/dab/class_translator_russian.html#a3d1cd8d10fe1bbe3763151f5d2780e2b":[8,0,608,196],
-"d0/dab/class_translator_russian.html#a3d87287f0c4e4f09081dd983558a68a0":[8,0,608,144]
+"d0/dab/class_translator_russian.html#a3d1cd8d10fe1bbe3763151f5d2780e2b":[8,0,608,196]
 };

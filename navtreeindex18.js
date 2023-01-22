@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"d2/d4c/class_translator_brazilian.html#ab9641535d93b2466a272ace7e85d4a3a":[8,0,577,27],
 "d2/d4c/class_translator_brazilian.html#abacecea922d60b117f2b63999287ad8a":[8,0,577,144],
 "d2/d4c/class_translator_brazilian.html#abad14e1187559f1e9dbf1a9889c53c96":[8,0,577,224],
 "d2/d4c/class_translator_brazilian.html#abb2987b46908dcc2deb9fa6e094e6fb7":[8,0,577,201],
@@ -81,8 +82,8 @@ var NAVTREEINDEX18 =
 "d2/d4c/class_translator_brazilian.html#afd4e628abefc4376423d3faeb66e78e8":[8,0,577,232],
 "d2/d4c/class_translator_brazilian.html#afdc810dfc452029722c7b3307a9e683f":[8,0,577,129],
 "d2/d4c/class_translator_brazilian.html#afe7e05ce6fac9cd006e48c9919557147":[8,0,577,281],
-"d2/d4d/struct_search_index_methods_1_1add_word.html":[7,0,11,0],
 "d2/d4d/struct_search_index_methods_1_1add_word.html":[8,0,5,0],
+"d2/d4d/struct_search_index_methods_1_1add_word.html":[7,0,11,0],
 "d2/d4d/struct_search_index_methods_1_1add_word.html#ae2cc802c4b0ac5beeba2c2a1d4e52114":[7,0,11,0,0],
 "d2/d4d/struct_search_index_methods_1_1add_word.html#ae2cc802c4b0ac5beeba2c2a1d4e52114":[8,0,5,0,0],
 "d2/d4d/translator__sk_8h.html":[9,0,2,283],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "d2/d53/class_translator_slovak.html#a97796a1c09bc0c0a3054dc980e3b1a68":[8,0,611,177],
 "d2/d53/class_translator_slovak.html#a98aa0fcd101d50f6b3f7dbae1f0bce15":[8,0,611,80],
 "d2/d53/class_translator_slovak.html#a99baf933b1b90949314e0ec14d57a319":[8,0,611,133],
-"d2/d53/class_translator_slovak.html#a9a30c678c62285be7d97245762a3e2d1":[8,0,611,94],
-"d2/d53/class_translator_slovak.html#a9b61323be2bc3fc6a71942e8b6a44d9b":[8,0,611,90]
+"d2/d53/class_translator_slovak.html#a9a30c678c62285be7d97245762a3e2d1":[8,0,611,94]
 };

@@ -5,6 +5,7 @@ var memberdef_8cpp =
     [ "MemberDefImpl::IMPL", "d0/da8/class_member_def_impl_1_1_i_m_p_l.html", "d0/da8/class_member_def_impl_1_1_i_m_p_l" ],
     [ "addDocCrossReference", "d0/d72/memberdef_8cpp.html#a91959a7c929a76adaaa2d342fea73126", null ],
     [ "addTemplateNames", "d0/d72/memberdef_8cpp.html#ac66cc6a4e1d7c053d396a641dfe15d93", null ],
+    [ "combineArgsAndException", "d0/d72/memberdef_8cpp.html#a422d9b60fc7fc0a5e71595c715fa944e", null ],
     [ "combineDeclarationAndDefinition", "d0/d72/memberdef_8cpp.html#abaf3303e28a7a9e34bdcfbe4bfc893cb", null ],
     [ "createMemberDef", "d0/d72/memberdef_8cpp.html#a2739629cdf19249dcf7cd08f8c9491e7", null ],
     [ "createMemberDefAlias", "d0/d72/memberdef_8cpp.html#ae281f621b63827b091af77cc24c025fd", null ],

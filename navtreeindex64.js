@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"d8/dfb/class_translator.html#a7702dae5014c8f51767c12eb540d34e0":[8,0,560,186],
 "d8/dfb/class_translator.html#a7730d91c3386c4fc59bb19ad63fcb600":[8,0,560,44],
 "d8/dfb/class_translator.html#a7951a0dfe5173b444a0bf464148c5961":[8,0,560,170],
 "d8/dfb/class_translator.html#a79f4a5405cc412a027d7d35dd9b3d2d9":[8,0,560,152],
@@ -158,16 +159,16 @@ var NAVTREEINDEX64 =
 "d8/dfb/class_translator.html#afad391f3cbfb5ce6332b7239f8e2049a":[8,0,560,252],
 "d8/dfb/class_translator.html#afcd2ee932660156f0d368863391e1c90":[8,0,560,297],
 "d8/dfb/class_translator.html#afe1d9b3dcd74bb8fb8c116c2c0e86e2e":[8,0,560,70],
-"d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html":[7,0,13,0,6],
 "d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html":[8,0,6,0,6],
+"d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html":[7,0,13,0,6],
 "d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#a0afc3cb894583ee40c53a3a5c54495dc":[7,0,13,0,6,0],
 "d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#a0afc3cb894583ee40c53a3a5c54495dc":[8,0,6,0,6,0],
 "d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#a27aa05445202b2d20d5cd95983d8fd86":[8,0,6,0,6,1],
 "d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#a27aa05445202b2d20d5cd95983d8fd86":[7,0,13,0,6,1],
-"d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#a6d2fbf9bff5de1775a78dc4872ccdca5":[8,0,6,0,6,4],
 "d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#a6d2fbf9bff5de1775a78dc4872ccdca5":[7,0,13,0,6,4],
-"d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#af0dffd5c5809a0bf16881b19c5786fc3":[7,0,13,0,6,2],
+"d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#a6d2fbf9bff5de1775a78dc4872ccdca5":[8,0,6,0,6,4],
 "d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#af0dffd5c5809a0bf16881b19c5786fc3":[8,0,6,0,6,2],
+"d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#af0dffd5c5809a0bf16881b19c5786fc3":[7,0,13,0,6,2],
 "d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#aff28441094086f5cbf8ee8f34a8bc9a4":[8,0,6,0,6,3],
 "d9/d04/classvhdl_1_1parser_1_1_token_manager_error_handler.html#aff28441094086f5cbf8ee8f34a8bc9a4":[7,0,13,0,6,3],
 "d9/d06/class_template_node_variable.html":[8,0,539],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "d9/d1b/class_translator_dutch.html#a0a6b9d26f411dece9f54f6e7677e555e":[8,0,585,279],
 "d9/d1b/class_translator_dutch.html#a0c1d024ff5cdb6be37e4a0e11c3ee167":[8,0,585,24],
 "d9/d1b/class_translator_dutch.html#a0c2f67455d6f6c3ff7da3fed8ba90071":[8,0,585,187],
-"d9/d1b/class_translator_dutch.html#a0de6a3b474ef693c87d1fbad82918c32":[8,0,585,181],
-"d9/d1b/class_translator_dutch.html#a0f0e242d6738d0eb779aa55eeab133f0":[8,0,585,296]
+"d9/d1b/class_translator_dutch.html#a0de6a3b474ef693c87d1fbad82918c32":[8,0,585,181]
 };

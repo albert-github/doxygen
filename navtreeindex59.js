@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"d8/d32/class_dot_node_deque.html":[8,0,211],
 "d8/d33/class_grow_buf.html":[8,0,307],
 "d8/d33/class_grow_buf.html#a1a0ecc7a79837ed02005befe12d49994":[8,0,307,16],
 "d8/d33/class_grow_buf.html#a2c1af45fdd1c692684b38dd54fcf1a6b":[8,0,307,22],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "d8/d57/class_template_node_resource.html#ab4b340ee844ed38c081dfedd825b1b46":[8,0,533,0],
 "d8/d57/class_template_node_resource.html#ac36dfcb45a5a52ceb6d76f2076823f25":[8,0,533,4],
 "d8/d57/class_template_node_resource.html#ad3b011a4d9431df8d4f59b6c41c47ea6":[8,0,533,1],
-"d8/d61/class_concept_context_1_1_private.html":[8,0,64,0],
-"d8/d61/class_concept_context_1_1_private.html#a2b6fb7355d34002be6fdce4507d454a7":[8,0,64,0,16]
+"d8/d61/class_concept_context_1_1_private.html":[8,0,64,0]
 };
