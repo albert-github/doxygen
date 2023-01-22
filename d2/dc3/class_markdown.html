@@ -877,7 +877,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno"> 2748</span>    }</div>
 <div class="line"><span class="lineno"> 2749</span>  }</div>
 <div class="line"><span class="lineno"> 2750</span>  <span class="keywordflow">if</span> (j&gt;0) <a class="code hl_function" href="../../d3/d48/dir_8cpp.html#abb4720f72b574f81dc4f7aea0e653a64">end</a>+=j-1;</div>
-<div class="line"><span class="lineno"> 2751</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a81912d2a3d12aab7a9e546e5299e2e09">AUTO_TRACE_EXIT</a>(<span class="stringliteral">&quot;pi={} i={} end={}&quot;</span>,pi,i,<a class="code hl_function" href="../../d3/d48/dir_8cpp.html#abb4720f72b574f81dc4f7aea0e653a64">end</a>);</div>
+<div class="line"><span class="lineno"> 2751</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a81912d2a3d12aab7a9e546e5299e2e09">AUTO_TRACE_EXIT</a>(<span class="stringliteral">&quot;i={} end={}&quot;</span>,i,<a class="code hl_function" href="../../d3/d48/dir_8cpp.html#abb4720f72b574f81dc4f7aea0e653a64">end</a>);</div>
 <div class="line"><span class="lineno"> 2752</span>}</div>
 <div class="ttc" id="aclass_markdown_html_a3e84087b2a4f2088259e60a06fe934d8"><div class="ttname"><a href="../../d2/dc3/class_markdown.html#a3e84087b2a4f2088259e60a06fe934d8">Markdown::processHtmlTagWrite</a></div><div class="ttdeci">int processHtmlTagWrite(const char *data, int offset, int size, bool doWrite)</div><div class="ttdoc">Process a HTML tag.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d04/markdown_8cpp_source.html#l00858">markdown.cpp:858</a></div></div>
 <div class="ttc" id="adir_8cpp_html_abb4720f72b574f81dc4f7aea0e653a64"><div class="ttname"><a href="../../d3/d48/dir_8cpp.html#abb4720f72b574f81dc4f7aea0e653a64">end</a></div><div class="ttdeci">DirIterator end(const DirIterator &amp;) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d48/dir_8cpp_source.html#l00129">dir.cpp:129</a></div></div>
@@ -1064,11 +1064,11 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  296</span>  {</div>
 <div class="line"><span class="lineno">  297</span>    <span class="keywordflow">return</span> openBracket ? <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>(<span class="stringliteral">&quot;}&quot;</span>) : <span class="stringliteral">&quot;end&quot;</span>+blockName;</div>
 <div class="line"><span class="lineno">  298</span>  };</div>
-<div class="line"><span class="lineno">  299</span>  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keyword">auto</span> getEndUml     = [](<span class="keyword">const</span> std::string &amp;blockName,bool,char) -&gt; <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a></div>
+<div class="line"><span class="lineno">  299</span>  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keyword">auto</span> getEndUml     = [](<span class="keyword">const</span> std::string &amp;<span class="comment">/* blockName */</span>,bool,char) -&gt; <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a></div>
 <div class="line"><span class="lineno">  300</span>  {</div>
 <div class="line"><span class="lineno">  301</span>    <span class="keywordflow">return</span> <span class="stringliteral">&quot;enduml&quot;</span>;</div>
 <div class="line"><span class="lineno">  302</span>  };</div>
-<div class="line"><span class="lineno">  303</span>  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keyword">auto</span> getEndFormula = [](<span class="keyword">const</span> std::string &amp;blockName,bool,<span class="keywordtype">char</span> nextChar) -&gt; <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a></div>
+<div class="line"><span class="lineno">  303</span>  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keyword">auto</span> getEndFormula = [](<span class="keyword">const</span> std::string &amp;<span class="comment">/* blockName */</span>,bool,<span class="keywordtype">char</span> nextChar) -&gt; <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a></div>
 <div class="line"><span class="lineno">  304</span>  {</div>
 <div class="line"><span class="lineno">  305</span>    <span class="keywordflow">switch</span> (nextChar)</div>
 <div class="line"><span class="lineno">  306</span>    {</div>
