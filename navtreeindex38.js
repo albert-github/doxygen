@@ -1,5 +1,6 @@
 var NAVTREEINDEX38 =
 {
+"d5/d3e/class_python_code_parser.html":[8,0,449],
 "d5/d3e/class_python_code_parser.html#a599fd4b7c99ba6112bb058d79f6a141d":[8,0,449,2],
 "d5/d3e/class_python_code_parser.html#a7104fd0fa8b8761e10dc96c4b053b1f5":[8,0,449,1],
 "d5/d3e/class_python_code_parser.html#abed83d092b10728ca89b4807f7ffdd37":[8,0,449,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX38 =
 "d5/d43/class_translator_persian.html#af3012bb59a2f8fe6600ebc8fde9bf9f9":[8,0,604,120],
 "d5/d43/class_translator_persian.html#af3070534573f75203e392eeb738886e1":[8,0,604,152],
 "d5/d43/class_translator_persian.html#af4f8bb66b2100cc0d3d97cd516919a72":[8,0,604,109],
-"d5/d43/class_translator_persian.html#af5c8699a8b0145943768b40867049c1d":[8,0,604,124],
-"d5/d43/class_translator_persian.html#af887fdfd3839b41c2a906e60a0d308b0":[8,0,604,115]
+"d5/d43/class_translator_persian.html#af5c8699a8b0145943768b40867049c1d":[8,0,604,124]
 };

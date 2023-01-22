@@ -1,5 +1,6 @@
 var NAVTREEINDEX50 =
 {
+"d6/db6/class_translator_chinese.html#a9f06d07379aa4f92170e5cc3a1f9ca04":[8,0,580,189],
 "d6/db6/class_translator_chinese.html#aa01255ece3b24f857760bd23e37b2d93":[8,0,580,92],
 "d6/db6/class_translator_chinese.html#aa11d57b205557658c5ab3851b28590d8":[8,0,580,180],
 "d6/db6/class_translator_chinese.html#aa16824b1d5d30feeae80382d3ec01875":[8,0,580,147],
@@ -248,6 +249,5 @@ var NAVTREEINDEX50 =
 "d6/df4/struct_token_info.html#ad01df4cf228c63091fd14007b7331b8e":[8,0,557,11],
 "d6/df4/struct_token_info.html#adc9d20fd04d516b19428a840755cf0de":[8,0,557,3],
 "d6/df4/struct_token_info.html#aea756802b18b2753726cbea140961282":[8,0,557,9],
-"d6/df4/struct_token_info.html#af3c275c68061c64ea6b5fb513a6d118b":[8,0,557,14],
-"d6/df4/struct_token_info.html#afc2259af930fe0364268ed684b558629":[8,0,557,5]
+"d6/df4/struct_token_info.html#af3c275c68061c64ea6b5fb513a6d118b":[8,0,557,14]
 };
