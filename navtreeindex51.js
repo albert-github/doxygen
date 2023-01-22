@@ -1,6 +1,5 @@
 var NAVTREEINDEX51 =
 {
-"d6/df4/struct_token_info.html#afc2259af930fe0364268ed684b558629":[8,0,557,5],
 "d6/df7/class_template_node_with.html":[8,0,540],
 "d6/df7/class_template_node_with.html#a339377f89490fe8c1e9e7b2dad34e11b":[8,0,540,3],
 "d6/df7/class_template_node_with.html#a4cd20377ca697bc0b7cfac78ea388ad5":[8,0,540,4],
@@ -249,5 +248,6 @@ var NAVTREEINDEX51 =
 "d7/d21/class_translator_danish.html#a96dcc5dd9e7b1ee7bdcf140b78eee43d":[8,0,584,192],
 "d7/d21/class_translator_danish.html#a98a043616876ae3979cf60a4872393ef":[8,0,584,202],
 "d7/d21/class_translator_danish.html#a9a2de5b46f1ec6faed8208e7c15c1670":[8,0,584,129],
-"d7/d21/class_translator_danish.html#a9a79ab8cb2b324ba59a0c995d6da83dd":[8,0,584,2]
+"d7/d21/class_translator_danish.html#a9a79ab8cb2b324ba59a0c995d6da83dd":[8,0,584,2],
+"d7/d21/class_translator_danish.html#a9b88bbcfc4fcb0a2bb39ef9a0f57d71a":[8,0,584,154]
 };

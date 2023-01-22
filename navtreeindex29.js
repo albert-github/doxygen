@@ -1,6 +1,5 @@
 var NAVTREEINDEX29 =
 {
-"d3/ddf/class_definition_impl.html#af8538fc61fb952e7681b9804247edc13":[8,0,104,69],
 "d3/ddf/class_definition_impl.html#afabecc292dfd3dbff6aca98c2b299259":[8,0,104,28],
 "d3/ddf/class_definition_impl.html#afb345aa34e196b7b55760a065f6c5ac4":[8,0,104,32],
 "d3/ddf/class_definition_impl.html#afb6a683a89f794ddafb8f8fd1cb55fc9":[8,0,104,87],
@@ -249,5 +248,6 @@ var NAVTREEINDEX29 =
 "d3/de9/class_translator_arabic.html#ad54045b56a939c9ed9fb492335907cfd":[8,0,575,116],
 "d3/de9/class_translator_arabic.html#ad5854bdd3b6033cf97a3bb49b8476ee4":[8,0,575,10],
 "d3/de9/class_translator_arabic.html#ad66d22bab94edf3ea99999c5348e8ab0":[8,0,575,162],
-"d3/de9/class_translator_arabic.html#ad8811a0183622b8db263162e4b9e8094":[8,0,575,46]
+"d3/de9/class_translator_arabic.html#ad8811a0183622b8db263162e4b9e8094":[8,0,575,46],
+"d3/de9/class_translator_arabic.html#ada3a7c9f4dbbe8ba03053d7686e1355c":[8,0,575,19]
 };
