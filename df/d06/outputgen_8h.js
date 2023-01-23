@@ -3,7 +3,6 @@ var outputgen_8h =
     [ "DocLinkInfo", "db/dae/struct_doc_link_info.html", "db/dae/struct_doc_link_info" ],
     [ "SourceLinkInfo", "dc/dc2/struct_source_link_info.html", "dc/dc2/struct_source_link_info" ],
     [ "CodeOutputInterface", "d5/d9c/class_code_output_interface.html", "d5/d9c/class_code_output_interface" ],
-    [ "BaseOutputDocInterface", "df/d27/class_base_output_doc_interface.html", "df/d27/class_base_output_doc_interface" ],
     [ "OutputGenerator", "d3/d8e/class_output_generator.html", "d3/d8e/class_output_generator" ],
     [ "OutputType", "df/d06/outputgen_8h.html#a4e0517338e6c4a31a2addafc06d4f3a3", [
       [ "List", "df/d06/outputgen_8h.html#a4e0517338e6c4a31a2addafc06d4f3a3a4ee29ca12c7d126654bd0e5275de6135", null ],

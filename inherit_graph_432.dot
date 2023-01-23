@@ -6,5 +6,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [label="FilterGet",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d53/class_filter_get.html",tooltip="The implementation of the \"get\" filter."];
+  Node0 [label="FilterGroupBy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d38/class_filter_group_by.html",tooltip="The implementation of the \"groupBy\" filter."];
 }

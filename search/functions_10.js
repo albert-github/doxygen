@@ -87,7 +87,7 @@ var searchData=
   ['parsestring_84',['parseString',['../dd/d0d/class_config_impl.html#a574ffab8ab91f47f27b9f142cbf1bdc4',1,'ConfigImpl']]],
   ['parsesummary_85',['parseSummary',['../dc/dcc/class_doc_html_details.html#a7f705aecadc99bf342402a00f7c7fc38',1,'DocHtmlDetails']]],
   ['parsetagfile_86',['parseTagFile',['../d5/d61/tagreader_8h.html#a15d32e92baab895d320ba31f78751673',1,'parseTagFile(const std::shared_ptr&lt; Entry &gt; &amp;root, const char *fullPathName):&#160;tagreader.cpp'],['../d4/d7b/tagreader_8cpp.html#a1cb67a3965d52e8078507f0bfd354337',1,'parseTagFile(const std::shared_ptr&lt; Entry &gt; &amp;root, const char *fullName):&#160;tagreader.cpp']]],
-  ['parsetext_87',['parseText',['../df/dc8/class_output_list.html#adfdcf2ba925f05be8beb8cf43deb168a',1,'OutputList::parseText()'],['../df/d27/class_base_output_doc_interface.html#a411c2b8bda671f699de43efcddf0c043',1,'BaseOutputDocInterface::parseText()']]],
+  ['parsetext_87',['parseText',['../df/dc8/class_output_list.html#adfdcf2ba925f05be8beb8cf43deb168a',1,'OutputList::parseText()'],['../d3/d8e/class_output_generator.html#af0534d9b5ff511c06a0139894f2af2ee',1,'OutputGenerator::parseText()']]],
   ['parseucf_88',['parseUCF',['../d6/d98/class_vhdl_doc_gen.html#a51c5847b18dcbf1006b7edf507438d03',1,'VhdlDocGen']]],
   ['parseunaryexpression_89',['parseUnaryExpression',['../da/d46/class_expression_parser.html#a84987cb4bd840706a2604938a81a2cb7',1,'ExpressionParser']]],
   ['parsevar_90',['parseVar',['../d7/d21/class_cond_parser.html#ae984d41f533dbf4306ddbffe725e272e',1,'CondParser']]],

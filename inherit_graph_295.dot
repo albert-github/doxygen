@@ -6,5 +6,21 @@ digraph "Graphical Class Hierarchy"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [label="CmhlInfo",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d48/struct_cmhl_info.html",tooltip="Helper class representing a class member in the navigation menu."];
+  Node0 [label="CodeOutputInterface",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d9c/class_code_output_interface.html",tooltip="Output interface for code parser."];
+  Node0 -> Node1 [dir="back",color="steelblue1",style="solid"];
+  Node1 [label="DevNullCodeDocInterface",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d8a/class_dev_null_code_doc_interface.html",tooltip="Class implementing CodeOutputInterface by throwing away everything."];
+  Node0 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="DocbookCodeGenerator",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d80/class_docbook_code_generator.html",tooltip=" "];
+  Node0 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="HtmlCodeGenerator",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/db6/class_html_code_generator.html",tooltip="Generator for HTML code fragments."];
+  Node0 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node4 [label="LatexCodeGenerator",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d37/class_latex_code_generator.html",tooltip="Generator for LaTeX code fragments."];
+  Node0 -> Node5 [dir="back",color="steelblue1",style="solid"];
+  Node5 [label="ManCodeGenerator",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d92/class_man_code_generator.html",tooltip="Generator for Man page code fragments."];
+  Node0 -> Node6 [dir="back",color="steelblue1",style="solid"];
+  Node6 [label="OutputCodeList",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d8e/class_output_code_list.html",tooltip=" "];
+  Node0 -> Node7 [dir="back",color="steelblue1",style="solid"];
+  Node7 [label="RTFCodeGenerator",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/df7/class_r_t_f_code_generator.html",tooltip="Generator for RTF code fragments."];
+  Node0 -> Node8 [dir="back",color="steelblue1",style="solid"];
+  Node8 [label="XMLCodeGenerator",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d66/class_x_m_l_code_generator.html",tooltip=" "];
 }
