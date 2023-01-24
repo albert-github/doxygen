@@ -183,6 +183,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/doctokenizer.l"
   Node1 -> Node52 [color="steelblue1",style="solid"];
   Node52 [label="cite.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d69/cite_8h.html",tooltip=" "];
   Node52 -> Node9 [color="steelblue1",style="solid"];
+  Node52 -> Node22 [color="steelblue1",style="solid"];
   Node52 -> Node12 [color="steelblue1",style="solid"];
   Node1 -> Node53 [color="steelblue1",style="solid"];
   Node53 [label="regex.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d21/regex_8h.html",tooltip=" "];
