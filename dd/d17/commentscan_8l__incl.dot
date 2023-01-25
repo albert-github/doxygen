@@ -56,7 +56,6 @@ digraph "/home/runner/work/doxygen/doxygen/src/commentscan.l"
   Node23 [label="cite.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d69/cite_8h.html",tooltip=" "];
   Node23 -> Node24 [color="steelblue1",style="solid"];
   Node24 [label="memory",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
-  Node23 -> Node3 [color="steelblue1",style="solid"];
   Node23 -> Node13 [color="steelblue1",style="solid"];
   Node1 -> Node25 [color="steelblue1",style="solid"];
   Node25 [label="commentscan.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d0d/commentscan_8h.html",tooltip="Interface for the comment block scanner."];
