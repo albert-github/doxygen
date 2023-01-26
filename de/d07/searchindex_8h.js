@@ -2,7 +2,6 @@ var searchindex_8h =
 [
     [ "SIData_CurrentDoc", "d0/d9d/struct_s_i_data___current_doc.html", "d0/d9d/struct_s_i_data___current_doc" ],
     [ "SIData_Word", "d7/def/struct_s_i_data___word.html", "d7/def/struct_s_i_data___word" ],
-    [ "SIDataCollection", "d2/dc1/class_s_i_data_collection.html", "d2/dc1/class_s_i_data_collection" ],
     [ "SearchIndex", "da/d36/class_search_index.html", "da/d36/class_search_index" ],
     [ "SearchIndex::URL", "d6/dc5/struct_search_index_1_1_u_r_l.html", "d6/dc5/struct_search_index_1_1_u_r_l" ],
     [ "SearchIndex::URLInfo", "d9/d5e/struct_search_index_1_1_u_r_l_info.html", "d9/d5e/struct_search_index_1_1_u_r_l_info" ],

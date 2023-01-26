@@ -41,13 +41,11 @@ digraph "DocHtmlBlockQuote"
   Node16 [label="std::vector\< HtmlAttrib \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",tooltip=" "];
   Node17 -> Node4 [dir="back",color="darkorchid3",style="dashed",label=" tokenizer",fontcolor="grey" ];
   Node17 [label="DocTokenizer",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d1/d7f/class_doc_tokenizer.html",tooltip=" "];
-  Node18 -> Node4 [dir="back",color="darkorchid3",style="dashed",label=" searchData",fontcolor="grey" ];
-  Node18 [label="SIDataCollection",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d2/dc1/class_s_i_data_collection.html",tooltip=" "];
-  Node19 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" m_children",fontcolor="grey" ];
-  Node19 [label="DocNodeList",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d9/dd3/struct_doc_node_list.html",tooltip=" "];
-  Node20 -> Node19 [dir="back",color="steelblue1",style="solid"];
-  Node20 [label="GrowVector\< DocNodeVariant \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d0/d08/class_grow_vector.html",tooltip=" "];
-  Node21 -> Node20 [dir="back",color="orange",style="dashed",label=" \< DocNodeVariant \>",fontcolor="grey" ];
-  Node21 [label="GrowVector\< T \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d0/d08/class_grow_vector.html",tooltip="std::vector like container optimised for pushing elements to the back."];
+  Node18 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" m_children",fontcolor="grey" ];
+  Node18 [label="DocNodeList",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d9/dd3/struct_doc_node_list.html",tooltip=" "];
+  Node19 -> Node18 [dir="back",color="steelblue1",style="solid"];
+  Node19 [label="GrowVector\< DocNodeVariant \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d0/d08/class_grow_vector.html",tooltip=" "];
+  Node20 -> Node19 [dir="back",color="orange",style="dashed",label=" \< DocNodeVariant \>",fontcolor="grey" ];
+  Node20 [label="GrowVector\< T \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d0/d08/class_grow_vector.html",tooltip="std::vector like container optimised for pushing elements to the back."];
   Node15 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" m_attribs",fontcolor="grey" ];
 }

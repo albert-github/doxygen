@@ -530,7 +530,6 @@ var annotated_dup =
     [ "SectionRefs", "d1/df9/class_section_refs.html", "d1/df9/class_section_refs" ],
     [ "SIData_CurrentDoc", "d0/d9d/struct_s_i_data___current_doc.html", "d0/d9d/struct_s_i_data___current_doc" ],
     [ "SIData_Word", "d7/def/struct_s_i_data___word.html", "d7/def/struct_s_i_data___word" ],
-    [ "SIDataCollection", "d2/dc1/class_s_i_data_collection.html", "d2/dc1/class_s_i_data_collection" ],
     [ "SourceLinkInfo", "dc/dc2/struct_source_link_info.html", "dc/dc2/struct_source_link_info" ],
     [ "SpecFormat", "d5/dfd/struct_spec_format.html", "d5/dfd/struct_spec_format" ],
     [ "SQLCodeParser", "d1/d05/class_s_q_l_code_parser.html", "d1/d05/class_s_q_l_code_parser" ],

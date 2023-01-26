@@ -39,7 +39,6 @@ var class_doxygen =
     [ "parserManager", "de/d6a/class_doxygen.html#a3882f6ce51621c77d409060e46cae378", null ],
     [ "parseSourcesNeeded", "de/d6a/class_doxygen.html#a19687ee2473747b1c587aa6c033daa6c", null ],
     [ "searchIndex", "de/d6a/class_doxygen.html#a806fe73b71f926356bf12291778769b6", null ],
-    [ "searchIndexMutex", "de/d6a/class_doxygen.html#a955cf9130142661a4649d5ff4247866d", null ],
     [ "spaces", "de/d6a/class_doxygen.html#a89b66309f30c63ea1a7b5d5d17bf12bf", null ],
     [ "subpageNestingLevel", "de/d6a/class_doxygen.html#a6a2eb84be879cca04e934c86d7b0cd94", null ],
     [ "suppressDocWarnings", "de/d6a/class_doxygen.html#a0f0f967e0b97a2292ba58f22b8a1e817", null ],

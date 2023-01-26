@@ -618,17 +618,18 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  217</span>  {</div>
 <div class="line"><span class="lineno">  218</span>    <span class="keywordflow">if</span> (yyextra-&gt;searchCtx)</div>
 <div class="line"><span class="lineno">  219</span>    {</div>
-<div class="line"><span class="lineno">  220</span>      yyextra-&gt;code-&gt;setCurrentDoc(yyextra-&gt;searchCtx,yyextra-&gt;searchCtx-&gt;anchor(),<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  220</span>      <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a806fe73b71f926356bf12291778769b6">Doxygen::searchIndex</a>-&gt;<a class="code hl_function" href="../../d8/d4d/class_search_index_intf.html#a5aa7df3f4440a0b3adf710fd312195e5">setCurrentDoc</a>(yyextra-&gt;searchCtx,yyextra-&gt;searchCtx-&gt;anchor(),<span class="keyword">false</span>);</div>
 <div class="line"><span class="lineno">  221</span>    }</div>
 <div class="line"><span class="lineno">  222</span>    <span class="keywordflow">else</span></div>
 <div class="line"><span class="lineno">  223</span>    {</div>
-<div class="line"><span class="lineno">  224</span>      yyextra-&gt;code-&gt;setCurrentDoc(yyextra-&gt;sourceFileDef,anchor,<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  224</span>      <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a806fe73b71f926356bf12291778769b6">Doxygen::searchIndex</a>-&gt;<a class="code hl_function" href="../../d8/d4d/class_search_index_intf.html#a5aa7df3f4440a0b3adf710fd312195e5">setCurrentDoc</a>(yyextra-&gt;sourceFileDef,anchor,<span class="keyword">true</span>);</div>
 <div class="line"><span class="lineno">  225</span>    }</div>
 <div class="line"><span class="lineno">  226</span>  }</div>
 <div class="ttc" id="aclass_doxygen_html_a806fe73b71f926356bf12291778769b6"><div class="ttname"><a href="../../de/d6a/class_doxygen.html#a806fe73b71f926356bf12291778769b6">Doxygen::searchIndex</a></div><div class="ttdeci">static SearchIndexIntf * searchIndex</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da1/doxygen_8h_source.html#l00117">doxygen.h:117</a></div></div>
+<div class="ttc" id="aclass_search_index_intf_html_a5aa7df3f4440a0b3adf710fd312195e5"><div class="ttname"><a href="../../d8/d4d/class_search_index_intf.html#a5aa7df3f4440a0b3adf710fd312195e5">SearchIndexIntf::setCurrentDoc</a></div><div class="ttdeci">void setCurrentDoc(const Definition *ctx, const QCString &amp;anchor, bool isSourceFile)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d07/searchindex_8h_source.html#l00156">searchindex.h:156</a></div></div>
 <div class="line"><span class="lineno">  227</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00117">Doxygen::searchIndex</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00117">Doxygen::searchIndex</a>, and <a class="el" href="../../de/d07/searchindex_8h_source.html#l00156">SearchIndexIntf::setCurrentDoc()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d2/dda/sqlcode_8l_source.html#l00233">startCodeLine()</a>.</p>
 

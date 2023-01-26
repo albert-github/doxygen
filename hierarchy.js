@@ -1025,7 +1025,6 @@ var hierarchy =
     [ "vhdl::parser::VhdlParser::SharedState", "d9/da2/structvhdl_1_1parser_1_1_vhdl_parser_1_1_shared_state.html", null ],
     [ "SIData_CurrentDoc", "d0/d9d/struct_s_i_data___current_doc.html", null ],
     [ "SIData_Word", "d7/def/struct_s_i_data___word.html", null ],
-    [ "SIDataCollection", "d2/dc1/class_s_i_data_collection.html", null ],
     [ "SourceLinkInfo", "dc/dc2/struct_source_link_info.html", null ],
     [ "SpecFormat", "d5/dfd/struct_spec_format.html", null ],
     [ "sqlcodeYY_state", "da/d7b/structsqlcode_y_y__state.html", null ],

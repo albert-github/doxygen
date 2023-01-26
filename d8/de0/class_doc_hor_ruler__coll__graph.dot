@@ -39,7 +39,5 @@ digraph "DocHorRuler"
   Node15 [label="std::vector\< HtmlAttrib \>",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",tooltip=" "];
   Node16 -> Node3 [dir="back",color="darkorchid3",style="dashed",label=" tokenizer",fontcolor="grey" ];
   Node16 [label="DocTokenizer",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d1/d7f/class_doc_tokenizer.html",tooltip=" "];
-  Node17 -> Node3 [dir="back",color="darkorchid3",style="dashed",label=" searchData",fontcolor="grey" ];
-  Node17 [label="SIDataCollection",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d2/dc1/class_s_i_data_collection.html",tooltip=" "];
   Node14 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" m_attribs",fontcolor="grey" ];
 }

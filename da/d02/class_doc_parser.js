@@ -29,6 +29,5 @@ var class_doc_parser =
     [ "readTextFileByName", "da/d02/class_doc_parser.html#a5340de5ad1c86c5c2d03b02e721b51e0", null ],
     [ "context", "da/d02/class_doc_parser.html#ad6738a87a82c364cedd836a084394960", null ],
     [ "contextStack", "da/d02/class_doc_parser.html#a15a2a88e43e50fa4d28b5675c97ec137", null ],
-    [ "searchData", "da/d02/class_doc_parser.html#a445ff0d9d658c1e21b2cb4c5bfea722f", null ],
     [ "tokenizer", "da/d02/class_doc_parser.html#a31ff77e4308ae2b7691a8381736201d1", null ]
 ];
