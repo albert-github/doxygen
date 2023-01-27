@@ -123,6 +123,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
+<tr class="memitem:aa4eb9cb7a39f85ad28ff04175ba71eb7"><td class="memTemplParams" colspan="2">template&lt;typename ... Args&gt; </td></tr>
+<tr class="memitem:aa4eb9cb7a39f85ad28ff04175ba71eb7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/df5/class_thread_pool.html#aa4eb9cb7a39f85ad28ff04175ba71eb7">unused_variable</a> (Args &amp;&amp;...args)</td></tr>
+<tr class="separator:aa4eb9cb7a39f85ad28ff04175ba71eb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a630a5230a8d6a8ba5c11b88ccc91c32b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/df5/class_thread_pool.html#a630a5230a8d6a8ba5c11b88ccc91c32b">threadTask</a> ()</td></tr>
 <tr class="separator:a630a5230a8d6a8ba5c11b88ccc91c32b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -194,10 +197,10 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">   61</span>            );</div>
 <div class="line"><span class="lineno">   62</span>      }</div>
 <div class="line"><span class="lineno">   63</span>    }</div>
-<div class="ttc" id="aclass_thread_pool_html_a630a5230a8d6a8ba5c11b88ccc91c32b"><div class="ttname"><a href="../../d9/df5/class_thread_pool.html#a630a5230a8d6a8ba5c11b88ccc91c32b">ThreadPool::threadTask</a></div><div class="ttdeci">void threadTask()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d40/threadpool_8h_source.html#l00112">threadpool.h:112</a></div></div>
-<div class="ttc" id="aclass_thread_pool_html_aa297cb723c1d6d8ac4fad073fd9ccfa0"><div class="ttname"><a href="../../d9/df5/class_thread_pool.html#aa297cb723c1d6d8ac4fad073fd9ccfa0">ThreadPool::m_finished</a></div><div class="ttdeci">std::vector&lt; std::future&lt; void &gt; &gt; m_finished</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d40/threadpool_8h_source.html#l00144">threadpool.h:144</a></div></div>
+<div class="ttc" id="aclass_thread_pool_html_a630a5230a8d6a8ba5c11b88ccc91c32b"><div class="ttname"><a href="../../d9/df5/class_thread_pool.html#a630a5230a8d6a8ba5c11b88ccc91c32b">ThreadPool::threadTask</a></div><div class="ttdeci">void threadTask()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d40/threadpool_8h_source.html#l00116">threadpool.h:116</a></div></div>
+<div class="ttc" id="aclass_thread_pool_html_aa297cb723c1d6d8ac4fad073fd9ccfa0"><div class="ttname"><a href="../../d9/df5/class_thread_pool.html#aa297cb723c1d6d8ac4fad073fd9ccfa0">ThreadPool::m_finished</a></div><div class="ttdeci">std::vector&lt; std::future&lt; void &gt; &gt; m_finished</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d40/threadpool_8h_source.html#l00148">threadpool.h:148</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00144">m_finished</a>, and <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00112">threadTask()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00148">m_finished</a>, and <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00116">threadTask()</a>.</p>
 
 </div>
 </div>
@@ -268,18 +271,19 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">   99</span>        std::unique_lock&lt;std::mutex&gt; l(<a class="code hl_variable" href="../../d9/df5/class_thread_pool.html#a8111098c66bef75793ca4f954c46b7c2">m_mutex</a>);</div>
 <div class="line"><span class="lineno">  100</span>        <span class="keywordflow">for</span>(<span class="keyword">auto</span>&amp;&amp; u : <a class="code hl_variable" href="../../d9/df5/class_thread_pool.html#aa297cb723c1d6d8ac4fad073fd9ccfa0">m_finished</a>)</div>
 <div class="line"><span class="lineno">  101</span>        {</div>
-<div class="line"><span class="lineno">  102</span>          (void)u; <span class="comment">//unused_variable, to silence the compiler warning about unused variables</span></div>
+<div class="line"><span class="lineno">  102</span>          <a class="code hl_function" href="../../d9/df5/class_thread_pool.html#aa4eb9cb7a39f85ad28ff04175ba71eb7">unused_variable</a>(u);</div>
 <div class="line"><span class="lineno">  103</span>          <a class="code hl_variable" href="../../d9/df5/class_thread_pool.html#a7779e4d1698359b2057d696a7d162f57">m_work</a>.push_back({}); <span class="comment">// insert empty function object to signal abort</span></div>
 <div class="line"><span class="lineno">  104</span>        }</div>
 <div class="line"><span class="lineno">  105</span>      }</div>
 <div class="line"><span class="lineno">  106</span>      <a class="code hl_variable" href="../../d9/df5/class_thread_pool.html#aea3e5ca7e471639fdd30c8bde0670616">m_cond</a>.notify_all();</div>
 <div class="line"><span class="lineno">  107</span>      <a class="code hl_variable" href="../../d9/df5/class_thread_pool.html#aa297cb723c1d6d8ac4fad073fd9ccfa0">m_finished</a>.clear();</div>
 <div class="line"><span class="lineno">  108</span>    }</div>
-<div class="ttc" id="aclass_thread_pool_html_a7779e4d1698359b2057d696a7d162f57"><div class="ttname"><a href="../../d9/df5/class_thread_pool.html#a7779e4d1698359b2057d696a7d162f57">ThreadPool::m_work</a></div><div class="ttdeci">std::deque&lt; std::function&lt; void()&gt; &gt; m_work</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d40/threadpool_8h_source.html#l00141">threadpool.h:141</a></div></div>
-<div class="ttc" id="aclass_thread_pool_html_a8111098c66bef75793ca4f954c46b7c2"><div class="ttname"><a href="../../d9/df5/class_thread_pool.html#a8111098c66bef75793ca4f954c46b7c2">ThreadPool::m_mutex</a></div><div class="ttdeci">std::mutex m_mutex</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d40/threadpool_8h_source.html#l00137">threadpool.h:137</a></div></div>
-<div class="ttc" id="aclass_thread_pool_html_aea3e5ca7e471639fdd30c8bde0670616"><div class="ttname"><a href="../../d9/df5/class_thread_pool.html#aea3e5ca7e471639fdd30c8bde0670616">ThreadPool::m_cond</a></div><div class="ttdeci">std::condition_variable m_cond</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d40/threadpool_8h_source.html#l00138">threadpool.h:138</a></div></div>
+<div class="ttc" id="aclass_thread_pool_html_a7779e4d1698359b2057d696a7d162f57"><div class="ttname"><a href="../../d9/df5/class_thread_pool.html#a7779e4d1698359b2057d696a7d162f57">ThreadPool::m_work</a></div><div class="ttdeci">std::deque&lt; std::function&lt; void()&gt; &gt; m_work</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d40/threadpool_8h_source.html#l00145">threadpool.h:145</a></div></div>
+<div class="ttc" id="aclass_thread_pool_html_a8111098c66bef75793ca4f954c46b7c2"><div class="ttname"><a href="../../d9/df5/class_thread_pool.html#a8111098c66bef75793ca4f954c46b7c2">ThreadPool::m_mutex</a></div><div class="ttdeci">std::mutex m_mutex</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d40/threadpool_8h_source.html#l00141">threadpool.h:141</a></div></div>
+<div class="ttc" id="aclass_thread_pool_html_aa4eb9cb7a39f85ad28ff04175ba71eb7"><div class="ttname"><a href="../../d9/df5/class_thread_pool.html#aa4eb9cb7a39f85ad28ff04175ba71eb7">ThreadPool::unused_variable</a></div><div class="ttdeci">void unused_variable(Args &amp;&amp;...args)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d40/threadpool_8h_source.html#l00113">threadpool.h:113</a></div></div>
+<div class="ttc" id="aclass_thread_pool_html_aea3e5ca7e471639fdd30c8bde0670616"><div class="ttname"><a href="../../d9/df5/class_thread_pool.html#aea3e5ca7e471639fdd30c8bde0670616">ThreadPool::m_cond</a></div><div class="ttdeci">std::condition_variable m_cond</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d40/threadpool_8h_source.html#l00142">threadpool.h:142</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00138">m_cond</a>, <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00144">m_finished</a>, <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00137">m_mutex</a>, and <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00141">m_work</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00142">m_cond</a>, <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00148">m_finished</a>, <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00141">m_mutex</a>, <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00145">m_work</a>, and <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00113">unused_variable()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00065">~ThreadPool()</a>.</p>
 
@@ -346,7 +350,7 @@ template&lt;class F , typename ... Args&gt; </div>
 <div class="line"><span class="lineno">   91</span>      <span class="keywordflow">return</span> r; <span class="comment">// return the future result of the task</span></div>
 <div class="line"><span class="lineno">   92</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00138">m_cond</a>, <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00137">m_mutex</a>, and <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00141">m_work</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00142">m_cond</a>, <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00141">m_mutex</a>, and <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00145">m_work</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08217">computeTooltipTexts()</a>, <a class="el" href="../../d7/d5b/formula_8cpp_source.html#l00553">FormulaManager::createFormulasTexFile()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08315">generateDocsForClassList()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07993">generateFileDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07827">generateFileSources()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l09289">generateNamespaceClassDocs()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l09887">parseFilesMultiThreading()</a>.</p>
 
@@ -375,32 +379,65 @@ template&lt;class F , typename ... Args&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00112">112</a> of file <a class="el" href="../../d3/d40/threadpool_8h_source.html">threadpool.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  113</span>    {</div>
-<div class="line"><span class="lineno">  114</span>      <span class="keywordflow">while</span>(<span class="keyword">true</span>)</div>
-<div class="line"><span class="lineno">  115</span>      {</div>
-<div class="line"><span class="lineno">  116</span>        <span class="comment">// pop a task off the queue:</span></div>
-<div class="line"><span class="lineno">  117</span>        std::function&lt;void()&gt; f;</div>
-<div class="line"><span class="lineno">  118</span>        {</div>
-<div class="line"><span class="lineno">  119</span>          <span class="comment">// usual thread-safe queue code:</span></div>
-<div class="line"><span class="lineno">  120</span>          std::unique_lock&lt;std::mutex&gt; l(<a class="code hl_variable" href="../../d9/df5/class_thread_pool.html#a8111098c66bef75793ca4f954c46b7c2">m_mutex</a>);</div>
-<div class="line"><span class="lineno">  121</span>          <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d9/df5/class_thread_pool.html#a7779e4d1698359b2057d696a7d162f57">m_work</a>.empty())</div>
-<div class="line"><span class="lineno">  122</span>          {</div>
-<div class="line"><span class="lineno">  123</span>            <a class="code hl_variable" href="../../d9/df5/class_thread_pool.html#aea3e5ca7e471639fdd30c8bde0670616">m_cond</a>.wait(l,[&amp;]{<span class="keywordflow">return</span> !<a class="code hl_variable" href="../../d9/df5/class_thread_pool.html#a7779e4d1698359b2057d696a7d162f57">m_work</a>.empty();});</div>
-<div class="line"><span class="lineno">  124</span>          }</div>
-<div class="line"><span class="lineno">  125</span>          f = std::move(<a class="code hl_variable" href="../../d9/df5/class_thread_pool.html#a7779e4d1698359b2057d696a7d162f57">m_work</a>.front());</div>
-<div class="line"><span class="lineno">  126</span>          <a class="code hl_variable" href="../../d9/df5/class_thread_pool.html#a7779e4d1698359b2057d696a7d162f57">m_work</a>.pop_front();</div>
-<div class="line"><span class="lineno">  127</span>        }</div>
-<div class="line"><span class="lineno">  128</span>        <span class="comment">// if the function is empty, it means we are asked to abort</span></div>
-<div class="line"><span class="lineno">  129</span>        <span class="keywordflow">if</span> (!f) <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  130</span>        <span class="comment">// run the task</span></div>
-<div class="line"><span class="lineno">  131</span>        f();</div>
-<div class="line"><span class="lineno">  132</span>      }</div>
-<div class="line"><span class="lineno">  133</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00116">116</a> of file <a class="el" href="../../d3/d40/threadpool_8h_source.html">threadpool.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  117</span>    {</div>
+<div class="line"><span class="lineno">  118</span>      <span class="keywordflow">while</span>(<span class="keyword">true</span>)</div>
+<div class="line"><span class="lineno">  119</span>      {</div>
+<div class="line"><span class="lineno">  120</span>        <span class="comment">// pop a task off the queue:</span></div>
+<div class="line"><span class="lineno">  121</span>        std::function&lt;void()&gt; f;</div>
+<div class="line"><span class="lineno">  122</span>        {</div>
+<div class="line"><span class="lineno">  123</span>          <span class="comment">// usual thread-safe queue code:</span></div>
+<div class="line"><span class="lineno">  124</span>          std::unique_lock&lt;std::mutex&gt; l(<a class="code hl_variable" href="../../d9/df5/class_thread_pool.html#a8111098c66bef75793ca4f954c46b7c2">m_mutex</a>);</div>
+<div class="line"><span class="lineno">  125</span>          <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d9/df5/class_thread_pool.html#a7779e4d1698359b2057d696a7d162f57">m_work</a>.empty())</div>
+<div class="line"><span class="lineno">  126</span>          {</div>
+<div class="line"><span class="lineno">  127</span>            <a class="code hl_variable" href="../../d9/df5/class_thread_pool.html#aea3e5ca7e471639fdd30c8bde0670616">m_cond</a>.wait(l,[&amp;]{<span class="keywordflow">return</span> !<a class="code hl_variable" href="../../d9/df5/class_thread_pool.html#a7779e4d1698359b2057d696a7d162f57">m_work</a>.empty();});</div>
+<div class="line"><span class="lineno">  128</span>          }</div>
+<div class="line"><span class="lineno">  129</span>          f = std::move(<a class="code hl_variable" href="../../d9/df5/class_thread_pool.html#a7779e4d1698359b2057d696a7d162f57">m_work</a>.front());</div>
+<div class="line"><span class="lineno">  130</span>          <a class="code hl_variable" href="../../d9/df5/class_thread_pool.html#a7779e4d1698359b2057d696a7d162f57">m_work</a>.pop_front();</div>
+<div class="line"><span class="lineno">  131</span>        }</div>
+<div class="line"><span class="lineno">  132</span>        <span class="comment">// if the function is empty, it means we are asked to abort</span></div>
+<div class="line"><span class="lineno">  133</span>        <span class="keywordflow">if</span> (!f) <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  134</span>        <span class="comment">// run the task</span></div>
+<div class="line"><span class="lineno">  135</span>        f();</div>
+<div class="line"><span class="lineno">  136</span>      }</div>
+<div class="line"><span class="lineno">  137</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00138">m_cond</a>, <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00137">m_mutex</a>, and <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00141">m_work</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00142">m_cond</a>, <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00141">m_mutex</a>, and <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00145">m_work</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00051">ThreadPool()</a>.</p>
+
+</div>
+</div>
+<a id="aa4eb9cb7a39f85ad28ff04175ba71eb7" name="aa4eb9cb7a39f85ad28ff04175ba71eb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4eb9cb7a39f85ad28ff04175ba71eb7">&#9670;&#160;</a></span>unused_variable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ... Args&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ThreadPool::unused_variable </td>
+          <td>(</td>
+          <td class="paramtype">Args &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00113">113</a> of file <a class="el" href="../../d3/d40/threadpool_8h_source.html">threadpool.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  113</span>{ (void)(<span class="keyword">sizeof</span>...(args)); }</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00096">finish()</a>.</p>
 
 </div>
 </div>
@@ -425,9 +462,9 @@ template&lt;class F , typename ... Args&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00138">138</a> of file <a class="el" href="../../d3/d40/threadpool_8h_source.html">threadpool.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00142">142</a> of file <a class="el" href="../../d3/d40/threadpool_8h_source.html">threadpool.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00096">finish()</a>, <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00073">queue()</a>, and <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00112">threadTask()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00096">finish()</a>, <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00073">queue()</a>, and <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00116">threadTask()</a>.</p>
 
 </div>
 </div>
@@ -451,7 +488,7 @@ template&lt;class F , typename ... Args&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00144">144</a> of file <a class="el" href="../../d3/d40/threadpool_8h_source.html">threadpool.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00148">148</a> of file <a class="el" href="../../d3/d40/threadpool_8h_source.html">threadpool.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00096">finish()</a>, and <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00051">ThreadPool()</a>.</p>
 
@@ -477,9 +514,9 @@ template&lt;class F , typename ... Args&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00137">137</a> of file <a class="el" href="../../d3/d40/threadpool_8h_source.html">threadpool.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00141">141</a> of file <a class="el" href="../../d3/d40/threadpool_8h_source.html">threadpool.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00096">finish()</a>, <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00073">queue()</a>, and <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00112">threadTask()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00096">finish()</a>, <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00073">queue()</a>, and <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00116">threadTask()</a>.</p>
 
 </div>
 </div>
@@ -503,9 +540,9 @@ template&lt;class F , typename ... Args&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00141">141</a> of file <a class="el" href="../../d3/d40/threadpool_8h_source.html">threadpool.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00145">145</a> of file <a class="el" href="../../d3/d40/threadpool_8h_source.html">threadpool.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00096">finish()</a>, <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00073">queue()</a>, and <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00112">threadTask()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00096">finish()</a>, <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00073">queue()</a>, and <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00116">threadTask()</a>.</p>
 
 </div>
 </div>
