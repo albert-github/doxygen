@@ -5,6 +5,7 @@ var class_thread_pool =
     [ "finish", "d9/df5/class_thread_pool.html#a1fc76489de6e11c259ccf8f072fe135d", null ],
     [ "queue", "d9/df5/class_thread_pool.html#a90398abffcd9d81901195160315b1bc9", null ],
     [ "threadTask", "d9/df5/class_thread_pool.html#a630a5230a8d6a8ba5c11b88ccc91c32b", null ],
+    [ "unused_variable", "d9/df5/class_thread_pool.html#aa4eb9cb7a39f85ad28ff04175ba71eb7", null ],
     [ "m_cond", "d9/df5/class_thread_pool.html#aea3e5ca7e471639fdd30c8bde0670616", null ],
     [ "m_finished", "d9/df5/class_thread_pool.html#aa297cb723c1d6d8ac4fad073fd9ccfa0", null ],
     [ "m_mutex", "d9/df5/class_thread_pool.html#a8111098c66bef75793ca4f954c46b7c2", null ],
