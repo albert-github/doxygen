@@ -1,11 +1,5 @@
 var NAVTREEINDEX128 =
 {
-"df/dc8/class_translator_indonesian.html#af1e251ffec041e91a4aae107ded06676":[8,0,592,59],
-"df/dc8/class_translator_indonesian.html#af24eae2d60a660582df69ac0e19d5a3b":[8,0,592,119],
-"df/dc8/class_translator_indonesian.html#af25346c99ac7a9f69cb104209d2b941b":[8,0,592,205],
-"df/dc8/class_translator_indonesian.html#af595203553ea2b4ad1fa441e693d5bba":[8,0,592,189],
-"df/dc8/class_translator_indonesian.html#af601679d277dbc3ad6c83a7db1eb4a2f":[8,0,592,147],
-"df/dc8/class_translator_indonesian.html#af77f21958ac919bab82fa34dbbe2f4d6":[8,0,592,192],
 "df/dc8/class_translator_indonesian.html#af8f992e202326b8c3eaf109db296d575":[8,0,592,141],
 "df/dc8/class_translator_indonesian.html#af9a802d17c33026f81392a41d4d1bd99":[8,0,592,128],
 "df/dc8/class_translator_indonesian.html#afc31e80ecc28e81348280a64422a8103":[8,0,592,197],
@@ -249,5 +243,11 @@ var NAVTREEINDEX128 =
 "functions_v.html":[8,3,0,22],
 "functions_vars.html":[8,3,2,0],
 "functions_vars.html":[8,3,2],
-"functions_vars_b.html":[8,3,2,1]
+"functions_vars_b.html":[8,3,2,1],
+"functions_vars_c.html":[8,3,2,2],
+"functions_vars_d.html":[8,3,2,3],
+"functions_vars_e.html":[8,3,2,4],
+"functions_vars_f.html":[8,3,2,5],
+"functions_vars_g.html":[8,3,2,6],
+"functions_vars_h.html":[8,3,2,7]
 };
