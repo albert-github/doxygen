@@ -3,6 +3,7 @@ var config_8h =
     [ "Config_getBool", "db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79", null ],
     [ "Config_getEnum", "db/d16/config_8h.html#afe899eec751dfb75a60c37ec3840e288", null ],
     [ "Config_getEnumAsString", "db/d16/config_8h.html#a251399cde30dd4c356bbd5634c6eb472", null ],
+    [ "Config_getEnumListSet", "db/d16/config_8h.html#ad05da988f3a57aa94bbfbd3ca40e12f4", null ],
     [ "Config_getInt", "db/d16/config_8h.html#a06b59c3720174e9078f613095a89b295", null ],
     [ "Config_getList", "db/d16/config_8h.html#a15e896ce0b99792d1344b66af98928e7", null ],
     [ "Config_getString", "db/d16/config_8h.html#a737741e6991bdb5694a50075437a9d89", null ],

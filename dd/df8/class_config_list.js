@@ -4,11 +4,14 @@ var class_config_list =
       [ "String", "dd/df8/class_config_list.html#a562e3dbe5fc70f1af7ed4e748dae0ae9aa9954588024495126e9800e6a8fe6609", null ],
       [ "File", "dd/df8/class_config_list.html#a562e3dbe5fc70f1af7ed4e748dae0ae9ad849531b1086e92d907f6eaeca605d19", null ],
       [ "Dir", "dd/df8/class_config_list.html#a562e3dbe5fc70f1af7ed4e748dae0ae9af9f869ef1f20f387f022bc6a95362f36", null ],
-      [ "FileAndDir", "dd/df8/class_config_list.html#a562e3dbe5fc70f1af7ed4e748dae0ae9a6e2af7234864ed6dede734bc8fd09003", null ]
+      [ "FileAndDir", "dd/df8/class_config_list.html#a562e3dbe5fc70f1af7ed4e748dae0ae9a6e2af7234864ed6dede734bc8fd09003", null ],
+      [ "Enum", "dd/df8/class_config_list.html#a562e3dbe5fc70f1af7ed4e748dae0ae9a2b45823abf24863234768677443cf485", null ]
     ] ],
     [ "ConfigList", "dd/df8/class_config_list.html#aae0b9ca88cb622aec4b31270c1c1f944", null ],
+    [ "addListEnumValue", "dd/df8/class_config_list.html#a8835272fba4439b4674e2b370d3c15c3", null ],
     [ "addValue", "dd/df8/class_config_list.html#a708f7e2019c42d2d1d8957ee33b94518", null ],
     [ "compareDoxyfile", "dd/df8/class_config_list.html#a84d53853cda5f08e92f50a693f619760", null ],
+    [ "convertStrToVal", "dd/df8/class_config_list.html#ab6b16399808cfffd6e9e08c4676c517c", null ],
     [ "emptyValueToDefault", "dd/df8/class_config_list.html#a3122ec1f15da9b4bce1bdb5396c3a8ae", null ],
     [ "getDefault", "dd/df8/class_config_list.html#a9855bd9a3bb810cd78b1ea8300c9e712", null ],
     [ "init", "dd/df8/class_config_list.html#a48019d23edc37549f47d41ce41c43298", null ],
@@ -21,5 +24,6 @@ var class_config_list =
     [ "writeXMLDoxyfile", "dd/df8/class_config_list.html#acccd31cfc102c38f707d2faaef2579e6", null ],
     [ "m_defaultValue", "dd/df8/class_config_list.html#ac891461c95c5610e707552d13d95f1a9", null ],
     [ "m_value", "dd/df8/class_config_list.html#ad0577351cb9e27fa5d9c574921f787bd", null ],
+    [ "m_valueRange", "dd/df8/class_config_list.html#ade642adee4b4b447eb2f3b8f548566f1", null ],
     [ "m_widgetType", "dd/df8/class_config_list.html#a0d100aaab0bece85fb79333f1f6ce850", null ]
 ];
