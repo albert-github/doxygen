@@ -37,7 +37,7 @@ var util_8h =
     [ "externalLinkTarget", "d8/d3c/util_8h.html#a7b4f4d4a0585f32acf5571174075e6c2", null ],
     [ "externalRef", "d8/d3c/util_8h.html#a06ba0c2593b3fd5f103151bd342e206f", null ],
     [ "extractAliasArgs", "d8/d3c/util_8h.html#a49ff3b428e46c164d7b29bd7b0cd1f25", null ],
-    [ "extractBlock", "d8/d3c/util_8h.html#a8f603e8c8b2cba7e1871a31b1d931d16", null ],
+    [ "extractBlock", "d8/d3c/util_8h.html#a5aeb2f2a393f78bb37d02fddd5c229c8", null ],
     [ "extractClassNameFromType", "d8/d3c/util_8h.html#a53d4b12851bc6508815f5770d89c3792", null ],
     [ "extractDirection", "d8/d3c/util_8h.html#a0a8ffacc302979f9f812ab6608967287", null ],
     [ "extractNamespaceName", "d8/d3c/util_8h.html#a183a6b55ac831219c83e2a175d7a2e7a", null ],

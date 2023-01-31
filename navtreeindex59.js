@@ -1,6 +1,5 @@
 var NAVTREEINDEX59 =
 {
-"d8/d10/struct_obj_c_call_ctx.html#ac9b9308abf0175ea0cee4cba208868aa":[8,0,420,7],
 "d8/d10/struct_obj_c_call_ctx.html#ad77bc16112b96dd40ecb41523fc3ef5f":[8,0,420,2],
 "d8/d1d/class_argument_context_1_1_private.html":[8,0,13,0],
 "d8/d1d/class_argument_context_1_1_private.html#a02d96363c2f9ce074173086a208e0b0b":[8,0,13,0,18],
@@ -156,6 +155,7 @@ var NAVTREEINDEX59 =
 "d8/d3c/util_8h.html#a5499df1f291fa1ad70e96e2848e78e2c":[9,0,2,295,86],
 "d8/d3c/util_8h.html#a5530a73bd518581ac62e4eee5bc2f6db":[9,0,2,295,51],
 "d8/d3c/util_8h.html#a5624b0f55050b4f205a8b63fd0d84f9d":[9,0,2,295,104],
+"d8/d3c/util_8h.html#a5aeb2f2a393f78bb37d02fddd5c229c8":[9,0,2,295,37],
 "d8/d3c/util_8h.html#a5c3775d3cb6b3776c441a4451d49bb2c":[9,0,2,295,91],
 "d8/d3c/util_8h.html#a5c6662051d765cb0a355382ab05c14a1":[9,0,2,295,84],
 "d8/d3c/util_8h.html#a629f6fc7b319c74df28381ca2e009d0b":[9,0,2,295,9],
@@ -192,7 +192,6 @@ var NAVTREEINDEX59 =
 "d8/d3c/util_8h.html#a89d1fb33b634f5c6dd86bbe5adba342d":[9,0,2,295,85],
 "d8/d3c/util_8h.html#a89e3223c827bdd608e639021f3b8b8aa":[9,0,2,295,67],
 "d8/d3c/util_8h.html#a8f3e481e1b1d0260a8561aa16e19e62e":[9,0,2,295,25],
-"d8/d3c/util_8h.html#a8f603e8c8b2cba7e1871a31b1d931d16":[9,0,2,295,37],
 "d8/d3c/util_8h.html#a935473c61bbd971d8da7f14920918c27":[9,0,2,295,68],
 "d8/d3c/util_8h.html#a969690ca9b1155540d43631f499b3880":[9,0,2,295,73],
 "d8/d3c/util_8h.html#a9e0fe44ccf81e40c85f4b2233fac9ca2":[9,0,2,295,41],
@@ -249,5 +248,6 @@ var NAVTREEINDEX59 =
 "d8/d48/struct_dot_group_collaboration_1_1_edge.html#a72ac56ac966b6ab1f983c728e99f9608":[8,0,205,0,0],
 "d8/d48/struct_dot_group_collaboration_1_1_edge.html#a76a2ba25cd605e65eece591f41706626":[8,0,205,0,2],
 "d8/d48/struct_dot_group_collaboration_1_1_edge.html#a9ed0c7836e3036d92d9bf35be0ee1477":[8,0,205,0,3],
-"d8/d48/struct_dot_group_collaboration_1_1_edge.html#aaa1b8e53e4a95e63acde11b161331e11":[8,0,205,0,4]
+"d8/d48/struct_dot_group_collaboration_1_1_edge.html#aaa1b8e53e4a95e63acde11b161331e11":[8,0,205,0,4],
+"d8/d49/class_scope.html":[8,0,464]
 };
