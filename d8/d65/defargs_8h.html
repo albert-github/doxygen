@@ -161,32 +161,32 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../de/df3/defargs_8l_source.html#l00815">815</a> of file <a class="el" href="../../de/df3/defargs_8l_source.html">defargs.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  816</span>{</div>
-<div class="line"><span class="lineno">  817</span>  std::unique_ptr&lt;ArgumentList&gt; al = std::make_unique&lt;ArgumentList&gt;();</div>
-<div class="line"><span class="lineno">  818</span>  <span class="keywordflow">if</span> (argsString.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>()) <span class="keywordflow">return</span> al;</div>
-<div class="line"><span class="lineno">  819</span> </div>
-<div class="line"><span class="lineno">  820</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner;</div>
-<div class="line"><span class="lineno">  821</span>  <a class="code hl_struct" href="../../de/dcd/structdefargs_y_y__state.html">defargsYY_state</a> extra(argsString.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>(),al,lang);</div>
-<div class="line"><span class="lineno">  822</span>  defargsYYlex_init_extra(&amp;extra,&amp;yyscanner);</div>
-<div class="line"><span class="lineno">  823</span><span class="preprocessor">#ifdef FLEX_DEBUG</span></div>
-<div class="line"><span class="lineno">  824</span>  defargsYYset_debug(<a class="code hl_function" href="../../da/d7d/class_debug.html#a96e9401783e852c91f341b3f98198061">Debug::isFlagSet</a>(<a class="code hl_enumvalue" href="../../da/d7d/class_debug.html#a1c3f4696cf44a23f41e034323c426f7da2dbbd7c420176dca999210d256d1e223">Debug::Lex_defargs</a>)?1:0,yyscanner);</div>
-<div class="line"><span class="lineno">  825</span><span class="preprocessor">#endif</span></div>
-<div class="line"><span class="lineno">  826</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno">  827</span>  <a class="code hl_class" href="../../d8/d00/class_debug_lex.html">DebugLex</a> debugLex(<a class="code hl_enumvalue" href="../../da/d7d/class_debug.html#a1c3f4696cf44a23f41e034323c426f7da2dbbd7c420176dca999210d256d1e223">Debug::Lex_defargs</a>, __FILE__, NULL);</div>
-<div class="line"><span class="lineno">  828</span> </div>
-<div class="line"><span class="lineno">  829</span>  defargsYYrestart( 0, yyscanner );</div>
-<div class="line"><span class="lineno">  830</span>  BEGIN( Start );</div>
-<div class="line"><span class="lineno">  831</span>  defargsYYlex(yyscanner);</div>
-<div class="line"><span class="lineno">  832</span>  <span class="keywordflow">if</span> (yyextra-&gt;argList-&gt;empty())</div>
-<div class="line"><span class="lineno">  833</span>  {</div>
-<div class="line"><span class="lineno">  834</span>    yyextra-&gt;argList-&gt;setNoParameters(<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>);</div>
-<div class="line"><span class="lineno">  835</span>  }</div>
-<div class="line"><span class="lineno">  836</span>  <span class="keywordflow">if</span> (extraTypeChars) *extraTypeChars=yyextra-&gt;extraTypeChars;</div>
-<div class="line"><span class="lineno">  837</span>  <span class="comment">//printf(&quot;stringToArgumentList(%s) result=%s\n&quot;,argsString,qPrint(argListToString(*al)));</span></div>
-<div class="line"><span class="lineno">  838</span>  defargsYYlex_destroy(yyscanner);</div>
-<div class="line"><span class="lineno">  839</span>  <span class="keywordflow">return</span> al;</div>
-<div class="line"><span class="lineno">  840</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../de/df3/defargs_8l_source.html#l00817">817</a> of file <a class="el" href="../../de/df3/defargs_8l_source.html">defargs.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  818</span>{</div>
+<div class="line"><span class="lineno">  819</span>  std::unique_ptr&lt;ArgumentList&gt; al = std::make_unique&lt;ArgumentList&gt;();</div>
+<div class="line"><span class="lineno">  820</span>  <span class="keywordflow">if</span> (argsString.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>()) <span class="keywordflow">return</span> al;</div>
+<div class="line"><span class="lineno">  821</span> </div>
+<div class="line"><span class="lineno">  822</span>  <a class="code hl_typedef" href="../../da/d1f/code_8l.html#a9484188abbc459dafcbd4c96425fa70b">yyscan_t</a> yyscanner;</div>
+<div class="line"><span class="lineno">  823</span>  <a class="code hl_struct" href="../../de/dcd/structdefargs_y_y__state.html">defargsYY_state</a> extra(argsString.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>(),al,lang);</div>
+<div class="line"><span class="lineno">  824</span>  defargsYYlex_init_extra(&amp;extra,&amp;yyscanner);</div>
+<div class="line"><span class="lineno">  825</span><span class="preprocessor">#ifdef FLEX_DEBUG</span></div>
+<div class="line"><span class="lineno">  826</span>  defargsYYset_debug(<a class="code hl_function" href="../../da/d7d/class_debug.html#a96e9401783e852c91f341b3f98198061">Debug::isFlagSet</a>(<a class="code hl_enumvalue" href="../../da/d7d/class_debug.html#a1c3f4696cf44a23f41e034323c426f7da2dbbd7c420176dca999210d256d1e223">Debug::Lex_defargs</a>)?1:0,yyscanner);</div>
+<div class="line"><span class="lineno">  827</span><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="lineno">  828</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno">  829</span>  <a class="code hl_class" href="../../d8/d00/class_debug_lex.html">DebugLex</a> debugLex(<a class="code hl_enumvalue" href="../../da/d7d/class_debug.html#a1c3f4696cf44a23f41e034323c426f7da2dbbd7c420176dca999210d256d1e223">Debug::Lex_defargs</a>, __FILE__, NULL);</div>
+<div class="line"><span class="lineno">  830</span> </div>
+<div class="line"><span class="lineno">  831</span>  defargsYYrestart( 0, yyscanner );</div>
+<div class="line"><span class="lineno">  832</span>  BEGIN( Start );</div>
+<div class="line"><span class="lineno">  833</span>  defargsYYlex(yyscanner);</div>
+<div class="line"><span class="lineno">  834</span>  <span class="keywordflow">if</span> (yyextra-&gt;argList-&gt;empty())</div>
+<div class="line"><span class="lineno">  835</span>  {</div>
+<div class="line"><span class="lineno">  836</span>    yyextra-&gt;argList-&gt;setNoParameters(<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>);</div>
+<div class="line"><span class="lineno">  837</span>  }</div>
+<div class="line"><span class="lineno">  838</span>  <span class="keywordflow">if</span> (extraTypeChars) *extraTypeChars=yyextra-&gt;extraTypeChars;</div>
+<div class="line"><span class="lineno">  839</span>  <span class="comment">//printf(&quot;stringToArgumentList(%s) result=%s\n&quot;,argsString,qPrint(argListToString(*al)));</span></div>
+<div class="line"><span class="lineno">  840</span>  defargsYYlex_destroy(yyscanner);</div>
+<div class="line"><span class="lineno">  841</span>  <span class="keywordflow">return</span> al;</div>
+<div class="line"><span class="lineno">  842</span>}</div>
 <div class="ttc" id="aclass_debug_html_a1c3f4696cf44a23f41e034323c426f7da2dbbd7c420176dca999210d256d1e223"><div class="ttname"><a href="../../da/d7d/class_debug.html#a1c3f4696cf44a23f41e034323c426f7da2dbbd7c420176dca999210d256d1e223">Debug::Lex_defargs</a></div><div class="ttdeci">@ Lex_defargs</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00050">debug.h:50</a></div></div>
 <div class="ttc" id="aclass_debug_html_a96e9401783e852c91f341b3f98198061"><div class="ttname"><a href="../../da/d7d/class_debug.html#a96e9401783e852c91f341b3f98198061">Debug::isFlagSet</a></div><div class="ttdeci">static bool isFlagSet(const DebugMask mask)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d00/debug_8cpp_source.html#l00121">debug.cpp:121</a></div></div>
 <div class="ttc" id="aclass_debug_lex_html"><div class="ttname"><a href="../../d8/d00/class_debug_lex.html">DebugLex</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00082">debug.h:83</a></div></div>
