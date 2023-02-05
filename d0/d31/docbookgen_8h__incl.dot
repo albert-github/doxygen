@@ -7,18 +7,18 @@ digraph "/home/runner/work/doxygen/doxygen/src/docbookgen.h"
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   Node1 [label="/home/runner/work/doxygen\l/doxygen/src/docbookgen.h",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
   Node1 -> Node2 [color="steelblue1",style="solid"];
-  Node2 [label="iostream",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node2 [label="memory",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
   Node1 -> Node3 [color="steelblue1",style="solid"];
   Node3 [label="config.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d16/config_8h.html",tooltip=" "];
   Node3 -> Node4 [color="steelblue1",style="solid"];
   Node4 [label="configvalues.h",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
   Node1 -> Node5 [color="steelblue1",style="solid"];
   Node5 [label="outputgen.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d06/outputgen_8h.html",tooltip=" "];
-  Node5 -> Node6 [color="steelblue1",style="solid"];
-  Node6 [label="memory",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
-  Node5 -> Node7 [color="steelblue1",style="solid"];
-  Node7 [label="stack",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
   Node5 -> Node2 [color="steelblue1",style="solid"];
+  Node5 -> Node6 [color="steelblue1",style="solid"];
+  Node6 [label="stack",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node5 -> Node7 [color="steelblue1",style="solid"];
+  Node7 [label="iostream",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
   Node5 -> Node8 [color="steelblue1",style="solid"];
   Node8 [label="fstream",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
   Node5 -> Node9 [color="steelblue1",style="solid"];
@@ -47,7 +47,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/docbookgen.h"
   Node19 -> Node11 [color="steelblue1",style="solid"];
   Node5 -> Node20 [color="steelblue1",style="solid"];
   Node20 [label="index.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/db5/index_8h.html",tooltip=" "];
-  Node20 -> Node6 [color="steelblue1",style="solid"];
+  Node20 -> Node2 [color="steelblue1",style="solid"];
   Node20 -> Node21 [color="steelblue1",style="solid"];
   Node21 [label="vector",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
   Node20 -> Node22 [color="steelblue1",style="solid"];
@@ -63,7 +63,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/docbookgen.h"
   Node25 [label="linkedmap.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/de1/linkedmap_8h.html",tooltip=" "];
   Node25 -> Node24 [color="steelblue1",style="solid"];
   Node25 -> Node21 [color="steelblue1",style="solid"];
-  Node25 -> Node6 [color="steelblue1",style="solid"];
+  Node25 -> Node2 [color="steelblue1",style="solid"];
   Node25 -> Node11 [color="steelblue1",style="solid"];
   Node25 -> Node12 [color="steelblue1",style="solid"];
   Node25 -> Node13 [color="steelblue1",style="solid"];
@@ -71,7 +71,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/docbookgen.h"
   Node5 -> Node26 [color="steelblue1",style="solid"];
   Node26 [label="textstream.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d7d/textstream_8h.html",tooltip=" "];
   Node26 -> Node11 [color="steelblue1",style="solid"];
-  Node26 -> Node2 [color="steelblue1",style="solid"];
+  Node26 -> Node7 [color="steelblue1",style="solid"];
   Node26 -> Node27 [color="steelblue1",style="solid"];
   Node27 [label="sstream",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
   Node26 -> Node17 [color="steelblue1",style="solid"];
@@ -84,12 +84,12 @@ digraph "/home/runner/work/doxygen/doxygen/src/docbookgen.h"
   Node29 [label="docparser.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d9c/docparser_8h.html",tooltip=" "];
   Node29 -> Node30 [color="steelblue1",style="solid"];
   Node30 [label="stdio.h",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
-  Node29 -> Node6 [color="steelblue1",style="solid"];
+  Node29 -> Node2 [color="steelblue1",style="solid"];
   Node29 -> Node10 [color="steelblue1",style="solid"];
   Node29 -> Node31 [color="steelblue1",style="solid"];
   Node31 [label="growvector.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d50/growvector_8h.html",tooltip=" "];
   Node31 -> Node21 [color="steelblue1",style="solid"];
-  Node31 -> Node6 [color="steelblue1",style="solid"];
+  Node31 -> Node2 [color="steelblue1",style="solid"];
   Node31 -> Node32 [color="steelblue1",style="solid"];
   Node32 [label="iterator",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
 }

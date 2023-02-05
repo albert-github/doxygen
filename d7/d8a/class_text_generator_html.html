@@ -142,7 +142,7 @@ Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l03392">3392</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l03399">3399</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad0dc93176bead59bb1673d061182c3b1" name="ad0dc93176bead59bb1673d061182c3b1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad0dc93176bead59bb1673d061182c3b1">&#9670;&#160;</a></span>TextGeneratorHtml()</h2>
@@ -178,10 +178,10 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l03395">3395</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 3396</span>       : <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a>(ts), <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#a2b301cd9018d92417ab08e380541e57e">m_relPath</a>(relPath) {}</div>
-<div class="ttc" id="aclass_text_generator_html_html_a2b301cd9018d92417ab08e380541e57e"><div class="ttname"><a href="../../d7/d8a/class_text_generator_html.html#a2b301cd9018d92417ab08e380541e57e">TextGeneratorHtml::m_relPath</a></div><div class="ttdeci">QCString m_relPath</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l03470">context.cpp:3470</a></div></div>
-<div class="ttc" id="aclass_text_generator_html_html_af6434f30a7e45d40674ee51ad44079aa"><div class="ttname"><a href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">TextGeneratorHtml::m_ts</a></div><div class="ttdeci">TextStream &amp; m_ts</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l03469">context.cpp:3469</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l03402">3402</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3403</span>       : <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a>(ts), <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#a2b301cd9018d92417ab08e380541e57e">m_relPath</a>(relPath) {}</div>
+<div class="ttc" id="aclass_text_generator_html_html_a2b301cd9018d92417ab08e380541e57e"><div class="ttname"><a href="../../d7/d8a/class_text_generator_html.html#a2b301cd9018d92417ab08e380541e57e">TextGeneratorHtml::m_relPath</a></div><div class="ttdeci">QCString m_relPath</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l03477">context.cpp:3477</a></div></div>
+<div class="ttc" id="aclass_text_generator_html_html_af6434f30a7e45d40674ee51ad44079aa"><div class="ttname"><a href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">TextGeneratorHtml::m_ts</a></div><div class="ttdeci">TextStream &amp; m_ts</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l03476">context.cpp:3476</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -212,16 +212,16 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d0/dcf/class_text_generator_intf.html#a5367063112c94eece527eddf1cd9b978">TextGeneratorIntf</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l03437">3437</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 3438</span>    {</div>
-<div class="line"><span class="lineno"> 3439</span>      <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <span class="stringliteral">&quot;&lt;br /&gt;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 3440</span>      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=0;i&lt;indent;i++)</div>
-<div class="line"><span class="lineno"> 3441</span>      {</div>
-<div class="line"><span class="lineno"> 3442</span>        <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <span class="stringliteral">&quot;&amp;#160;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 3443</span>      }</div>
-<div class="line"><span class="lineno"> 3444</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l03444">3444</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3445</span>    {</div>
+<div class="line"><span class="lineno"> 3446</span>      <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <span class="stringliteral">&quot;&lt;br /&gt;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 3447</span>      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=0;i&lt;indent;i++)</div>
+<div class="line"><span class="lineno"> 3448</span>      {</div>
+<div class="line"><span class="lineno"> 3449</span>        <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <span class="stringliteral">&quot;&amp;#160;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 3450</span>      }</div>
+<div class="line"><span class="lineno"> 3451</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d12/context_8cpp_source.html#l03469">m_ts</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d12/context_8cpp_source.html#l03476">m_ts</a>.</p>
 
 </div>
 </div>
@@ -273,25 +273,25 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d0/dcf/class_text_generator_intf.html#a4bba0e588ea1fec68ded334a44a288b9">TextGeneratorIntf</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l03446">3446</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 3449</span>    {</div>
-<div class="line"><span class="lineno"> 3450</span>      <span class="keywordflow">if</span> (!ref.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
-<div class="line"><span class="lineno"> 3451</span>      {</div>
-<div class="line"><span class="lineno"> 3452</span>        <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <span class="stringliteral">&quot;&lt;a class=\&quot;elRef\&quot; &quot;</span>;</div>
-<div class="line"><span class="lineno"> 3453</span>        <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#ad3f3c94bc6e432d34fa1a51db3b7d5e2">externalLinkTarget</a>();</div>
-<div class="line"><span class="lineno"> 3454</span>      }</div>
-<div class="line"><span class="lineno"> 3455</span>      <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno"> 3456</span>      {</div>
-<div class="line"><span class="lineno"> 3457</span>        <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <span class="stringliteral">&quot;&lt;a class=\&quot;el\&quot; &quot;</span>;</div>
-<div class="line"><span class="lineno"> 3458</span>      }</div>
-<div class="line"><span class="lineno"> 3459</span>      <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <span class="stringliteral">&quot;href=\&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 3460</span>      <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a06ba0c2593b3fd5f103151bd342e206f">externalRef</a>(<a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#a2b301cd9018d92417ab08e380541e57e">m_relPath</a>,ref,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>);</div>
-<div class="line"><span class="lineno"> 3461</span>      <span class="keywordflow">if</span> (!f.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>()) <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a36c74291c5a9adc05d5cb6c0932f6b82">addHtmlExtensionIfMissing</a>(f);</div>
-<div class="line"><span class="lineno"> 3462</span>      <span class="keywordflow">if</span> (!anchor.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>()) <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <span class="stringliteral">&quot;#&quot;</span> &lt;&lt; anchor;</div>
-<div class="line"><span class="lineno"> 3463</span>      <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <span class="stringliteral">&quot;\&quot;&gt;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 3464</span>      <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a2a3368111f86b401c8f223cd7374b5ac">convertToHtml</a>(name);</div>
-<div class="line"><span class="lineno"> 3465</span>      <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <span class="stringliteral">&quot;&lt;/a&gt;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 3466</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l03453">3453</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3456</span>    {</div>
+<div class="line"><span class="lineno"> 3457</span>      <span class="keywordflow">if</span> (!ref.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
+<div class="line"><span class="lineno"> 3458</span>      {</div>
+<div class="line"><span class="lineno"> 3459</span>        <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <span class="stringliteral">&quot;&lt;a class=\&quot;elRef\&quot; &quot;</span>;</div>
+<div class="line"><span class="lineno"> 3460</span>        <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#ad3f3c94bc6e432d34fa1a51db3b7d5e2">externalLinkTarget</a>();</div>
+<div class="line"><span class="lineno"> 3461</span>      }</div>
+<div class="line"><span class="lineno"> 3462</span>      <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 3463</span>      {</div>
+<div class="line"><span class="lineno"> 3464</span>        <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <span class="stringliteral">&quot;&lt;a class=\&quot;el\&quot; &quot;</span>;</div>
+<div class="line"><span class="lineno"> 3465</span>      }</div>
+<div class="line"><span class="lineno"> 3466</span>      <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <span class="stringliteral">&quot;href=\&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 3467</span>      <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a06ba0c2593b3fd5f103151bd342e206f">externalRef</a>(<a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#a2b301cd9018d92417ab08e380541e57e">m_relPath</a>,ref,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>);</div>
+<div class="line"><span class="lineno"> 3468</span>      <span class="keywordflow">if</span> (!f.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>()) <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a36c74291c5a9adc05d5cb6c0932f6b82">addHtmlExtensionIfMissing</a>(f);</div>
+<div class="line"><span class="lineno"> 3469</span>      <span class="keywordflow">if</span> (!anchor.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>()) <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <span class="stringliteral">&quot;#&quot;</span> &lt;&lt; anchor;</div>
+<div class="line"><span class="lineno"> 3470</span>      <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <span class="stringliteral">&quot;\&quot;&gt;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 3471</span>      <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a2a3368111f86b401c8f223cd7374b5ac">convertToHtml</a>(name);</div>
+<div class="line"><span class="lineno"> 3472</span>      <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <span class="stringliteral">&quot;&lt;/a&gt;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 3473</span>    }</div>
 <div class="ttc" id="aclass_q_c_string_html_a621c4090d69ad7d05ef8e5234376c3d8"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">QCString::isEmpty</a></div><div class="ttdeci">bool isEmpty() const</div><div class="ttdoc">Returns TRUE iff the string is empty.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00138">qcstring.h:138</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_aa8cecfc5c5c054d2875c03e77b7be15d"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a></div><div class="ttdeci">#define TRUE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00036">qcstring.h:36</a></div></div>
 <div class="ttc" id="autil_8cpp_html_a06ba0c2593b3fd5f103151bd342e206f"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a06ba0c2593b3fd5f103151bd342e206f">externalRef</a></div><div class="ttdeci">QCString externalRef(const QCString &amp;relPath, const QCString &amp;ref, bool href)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l06008">util.cpp:6008</a></div></div>
@@ -299,7 +299,7 @@ Private Attributes</h2></td></tr>
 <div class="ttc" id="autil_8cpp_html_a36c74291c5a9adc05d5cb6c0932f6b82"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a36c74291c5a9adc05d5cb6c0932f6b82">addHtmlExtensionIfMissing</a></div><div class="ttdeci">QCString addHtmlExtensionIfMissing(const QCString &amp;fName)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l04906">util.cpp:4906</a></div></div>
 <div class="ttc" id="autil_8cpp_html_ad3f3c94bc6e432d34fa1a51db3b7d5e2"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#ad3f3c94bc6e432d34fa1a51db3b7d5e2">externalLinkTarget</a></div><div class="ttdeci">QCString externalLinkTarget(const bool parent)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l05997">util.cpp:5997</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d2d/util_8cpp_source.html#l04906">addHtmlExtensionIfMissing()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04058">convertToHtml()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05997">externalLinkTarget()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l06008">externalRef()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00138">QCString::isEmpty()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l03470">m_relPath</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l03469">m_ts</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d2d/util_8cpp_source.html#l04906">addHtmlExtensionIfMissing()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04058">convertToHtml()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05997">externalLinkTarget()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l06008">externalRef()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00138">QCString::isEmpty()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l03477">m_relPath</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l03476">m_ts</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 </div>
 </div>
@@ -339,49 +339,49 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d0/dcf/class_text_generator_intf.html#a6b9a9ffd63b239ea93049d0c11c4efc4">TextGeneratorIntf</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l03397">3397</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 3398</span>    {</div>
-<div class="line"><span class="lineno"> 3399</span>      <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code hl_variable" href="../../d8/d29/docbookgen_8cpp.html#a1748a7403991604b7f600589b77f9937">hex</a>=<span class="stringliteral">&quot;0123456789ABCDEF&quot;</span>;</div>
-<div class="line"><span class="lineno"> 3400</span>      <span class="keywordflow">if</span> (s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>()) <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno"> 3401</span>      <span class="keywordflow">if</span> (keepSpaces)</div>
-<div class="line"><span class="lineno"> 3402</span>      {</div>
-<div class="line"><span class="lineno"> 3403</span>        <span class="keyword">const</span> <span class="keywordtype">char</span> *p=s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>();</div>
-<div class="line"><span class="lineno"> 3404</span>        <span class="keywordtype">char</span> c;</div>
-<div class="line"><span class="lineno"> 3405</span>        <span class="keywordflow">while</span> ((c=*p++))</div>
-<div class="line"><span class="lineno"> 3406</span>        {</div>
-<div class="line"><span class="lineno"> 3407</span>          <span class="keywordflow">switch</span>(c)</div>
-<div class="line"><span class="lineno"> 3408</span>          {</div>
-<div class="line"><span class="lineno"> 3409</span>            <span class="keywordflow">case</span> <span class="charliteral">&#39;&lt;&#39;</span>:  <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <span class="stringliteral">&quot;&amp;lt;&quot;</span>; <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 3410</span>            <span class="keywordflow">case</span> <span class="charliteral">&#39;&gt;&#39;</span>:  <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <span class="stringliteral">&quot;&amp;gt;&quot;</span>; <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 3411</span>            <span class="keywordflow">case</span> <span class="charliteral">&#39;\&#39;&#39;</span>: <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <span class="stringliteral">&quot;&amp;#39;&quot;</span>; <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 3412</span>            <span class="keywordflow">case</span> <span class="charliteral">&#39;&quot;&#39;</span>:  <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <span class="stringliteral">&quot;&amp;quot;&quot;</span>; <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 3413</span>            <span class="keywordflow">case</span> <span class="charliteral">&#39;&amp;&#39;</span>:  <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <span class="stringliteral">&quot;&amp;amp;&quot;</span>; <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 3414</span>            <span class="keywordflow">case</span> <span class="charliteral">&#39; &#39;</span>:  <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <span class="stringliteral">&quot;&amp;#160;&quot;</span>; <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 3415</span>            <span class="keywordflow">default</span>:</div>
-<div class="line"><span class="lineno"> 3416</span>              {</div>
-<div class="line"><span class="lineno"> 3417</span>                uint8_t uc = <span class="keyword">static_cast&lt;</span>uint8_t<span class="keyword">&gt;</span>(c);</div>
-<div class="line"><span class="lineno"> 3418</span>                <span class="keywordflow">if</span> (uc&lt;32 &amp;&amp; !isspace(c)) <span class="comment">// non-printable control characters</span></div>
-<div class="line"><span class="lineno"> 3419</span>                {</div>
-<div class="line"><span class="lineno"> 3420</span>                  <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <span class="stringliteral">&quot;&amp;#x24&quot;</span> &lt;&lt; <a class="code hl_variable" href="../../d8/d29/docbookgen_8cpp.html#a1748a7403991604b7f600589b77f9937">hex</a>[uc&gt;&gt;4] &lt;&lt; <a class="code hl_variable" href="../../d8/d29/docbookgen_8cpp.html#a1748a7403991604b7f600589b77f9937">hex</a>[uc&amp;0xF] &lt;&lt; <span class="stringliteral">&quot;;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 3421</span>                }</div>
-<div class="line"><span class="lineno"> 3422</span>                <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno"> 3423</span>                {</div>
-<div class="line"><span class="lineno"> 3424</span>                  <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; c;</div>
-<div class="line"><span class="lineno"> 3425</span>                }</div>
-<div class="line"><span class="lineno"> 3426</span>              }</div>
-<div class="line"><span class="lineno"> 3427</span>              <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 3428</span>          }</div>
-<div class="line"><span class="lineno"> 3429</span>        }</div>
-<div class="line"><span class="lineno"> 3430</span>      }</div>
-<div class="line"><span class="lineno"> 3431</span>      <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno"> 3432</span>      {</div>
-<div class="line"><span class="lineno"> 3433</span>        <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a2a3368111f86b401c8f223cd7374b5ac">convertToHtml</a>(s);</div>
-<div class="line"><span class="lineno"> 3434</span>      }</div>
-<div class="line"><span class="lineno"> 3435</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l03404">3404</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3405</span>    {</div>
+<div class="line"><span class="lineno"> 3406</span>      <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code hl_variable" href="../../d8/d29/docbookgen_8cpp.html#a1748a7403991604b7f600589b77f9937">hex</a>=<span class="stringliteral">&quot;0123456789ABCDEF&quot;</span>;</div>
+<div class="line"><span class="lineno"> 3407</span>      <span class="keywordflow">if</span> (s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>()) <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 3408</span>      <span class="keywordflow">if</span> (keepSpaces)</div>
+<div class="line"><span class="lineno"> 3409</span>      {</div>
+<div class="line"><span class="lineno"> 3410</span>        <span class="keyword">const</span> <span class="keywordtype">char</span> *p=s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>();</div>
+<div class="line"><span class="lineno"> 3411</span>        <span class="keywordtype">char</span> c;</div>
+<div class="line"><span class="lineno"> 3412</span>        <span class="keywordflow">while</span> ((c=*p++))</div>
+<div class="line"><span class="lineno"> 3413</span>        {</div>
+<div class="line"><span class="lineno"> 3414</span>          <span class="keywordflow">switch</span>(c)</div>
+<div class="line"><span class="lineno"> 3415</span>          {</div>
+<div class="line"><span class="lineno"> 3416</span>            <span class="keywordflow">case</span> <span class="charliteral">&#39;&lt;&#39;</span>:  <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <span class="stringliteral">&quot;&amp;lt;&quot;</span>; <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 3417</span>            <span class="keywordflow">case</span> <span class="charliteral">&#39;&gt;&#39;</span>:  <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <span class="stringliteral">&quot;&amp;gt;&quot;</span>; <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 3418</span>            <span class="keywordflow">case</span> <span class="charliteral">&#39;\&#39;&#39;</span>: <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <span class="stringliteral">&quot;&amp;#39;&quot;</span>; <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 3419</span>            <span class="keywordflow">case</span> <span class="charliteral">&#39;&quot;&#39;</span>:  <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <span class="stringliteral">&quot;&amp;quot;&quot;</span>; <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 3420</span>            <span class="keywordflow">case</span> <span class="charliteral">&#39;&amp;&#39;</span>:  <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <span class="stringliteral">&quot;&amp;amp;&quot;</span>; <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 3421</span>            <span class="keywordflow">case</span> <span class="charliteral">&#39; &#39;</span>:  <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <span class="stringliteral">&quot;&amp;#160;&quot;</span>; <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 3422</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno"> 3423</span>              {</div>
+<div class="line"><span class="lineno"> 3424</span>                uint8_t uc = <span class="keyword">static_cast&lt;</span>uint8_t<span class="keyword">&gt;</span>(c);</div>
+<div class="line"><span class="lineno"> 3425</span>                <span class="keywordflow">if</span> (uc&lt;32 &amp;&amp; !isspace(c)) <span class="comment">// non-printable control characters</span></div>
+<div class="line"><span class="lineno"> 3426</span>                {</div>
+<div class="line"><span class="lineno"> 3427</span>                  <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <span class="stringliteral">&quot;&amp;#x24&quot;</span> &lt;&lt; <a class="code hl_variable" href="../../d8/d29/docbookgen_8cpp.html#a1748a7403991604b7f600589b77f9937">hex</a>[uc&gt;&gt;4] &lt;&lt; <a class="code hl_variable" href="../../d8/d29/docbookgen_8cpp.html#a1748a7403991604b7f600589b77f9937">hex</a>[uc&amp;0xF] &lt;&lt; <span class="stringliteral">&quot;;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 3428</span>                }</div>
+<div class="line"><span class="lineno"> 3429</span>                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 3430</span>                {</div>
+<div class="line"><span class="lineno"> 3431</span>                  <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; c;</div>
+<div class="line"><span class="lineno"> 3432</span>                }</div>
+<div class="line"><span class="lineno"> 3433</span>              }</div>
+<div class="line"><span class="lineno"> 3434</span>              <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 3435</span>          }</div>
+<div class="line"><span class="lineno"> 3436</span>        }</div>
+<div class="line"><span class="lineno"> 3437</span>      }</div>
+<div class="line"><span class="lineno"> 3438</span>      <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 3439</span>      {</div>
+<div class="line"><span class="lineno"> 3440</span>        <a class="code hl_variable" href="../../d7/d8a/class_text_generator_html.html#af6434f30a7e45d40674ee51ad44079aa">m_ts</a> &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a2a3368111f86b401c8f223cd7374b5ac">convertToHtml</a>(s);</div>
+<div class="line"><span class="lineno"> 3441</span>      }</div>
+<div class="line"><span class="lineno"> 3442</span>    }</div>
 <div class="ttc" id="aclass_q_c_string_html_ac3aa3ac1a1c36d3305eba22a2eb0d098"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">QCString::data</a></div><div class="ttdeci">const char * data() const</div><div class="ttdoc">Returns a pointer to the contents of the string in the form of a 0-terminated C string.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00147">qcstring.h:147</a></div></div>
-<div class="ttc" id="adocbookgen_8cpp_html_a1748a7403991604b7f600589b77f9937"><div class="ttname"><a href="../../d8/d29/docbookgen_8cpp.html#a1748a7403991604b7f600589b77f9937">hex</a></div><div class="ttdeci">static constexpr auto hex</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d29/docbookgen_8cpp_source.html#l01331">docbookgen.cpp:1331</a></div></div>
+<div class="ttc" id="adocbookgen_8cpp_html_a1748a7403991604b7f600589b77f9937"><div class="ttname"><a href="../../d8/d29/docbookgen_8cpp.html#a1748a7403991604b7f600589b77f9937">hex</a></div><div class="ttdeci">static constexpr auto hex</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d29/docbookgen_8cpp_source.html#l01330">docbookgen.cpp:1330</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d2d/util_8cpp_source.html#l04058">convertToHtml()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::data()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l01331">hex</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00138">QCString::isEmpty()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l03469">m_ts</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d2d/util_8cpp_source.html#l04058">convertToHtml()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::data()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l01330">hex</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00138">QCString::isEmpty()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l03476">m_ts</a>.</p>
 
 </div>
 </div>
@@ -406,9 +406,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l03470">3470</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l03477">3477</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l03446">writeLink()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l03453">writeLink()</a>.</p>
 
 </div>
 </div>
@@ -432,9 +432,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l03469">3469</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l03476">3476</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l03437">writeBreak()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l03446">writeLink()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l03397">writeString()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l03444">writeBreak()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l03453">writeLink()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l03404">writeString()</a>.</p>
 
 </div>
 </div>

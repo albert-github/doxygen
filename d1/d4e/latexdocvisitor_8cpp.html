@@ -105,6 +105,7 @@ $(document).ready(function(){initNavTree('d1/d4e/latexdocvisitor_8cpp.html','../
 <code>#include &quot;<a class="el" href="../../d8/dce/language_8h_source.html">language.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d1/da1/doxygen_8h_source.html">doxygen.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../df/d06/outputgen_8h_source.html">outputgen.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d2/db9/outputlist_8h_source.html">outputlist.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d6/d4a/dot_8h_source.html">dot.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d8/d3c/util_8h_source.html">util.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d2/d0d/message_8h_source.html">message.h</a>&quot;</code><br />
@@ -183,20 +184,20 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01038">1038</a> of file <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html">latexdocvisitor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1039</span>{</div>
-<div class="line"><span class="lineno"> 1040</span>  <a class="code hl_class" href="../../db/d4d/class_html_attrib_list.html">HtmlAttribList</a> attrs = dl.<a class="code hl_function" href="../../df/d6f/class_doc_html_desc_list.html#a61e9f129da095600d9eb7c382cf15d01">attribs</a>();</div>
-<div class="line"><span class="lineno"> 1041</span>  <span class="keyword">auto</span> it = std::find_if(attrs.begin(),attrs.end(),</div>
-<div class="line"><span class="lineno"> 1042</span>                      [](<span class="keyword">const</span> <span class="keyword">auto</span> &amp;att) { return att.name==<span class="stringliteral">&quot;class&quot;</span>; });</div>
-<div class="line"><span class="lineno"> 1043</span>  <span class="keywordflow">if</span> (it!=attrs.end() &amp;&amp; it-&gt;value == <span class="stringliteral">&quot;reflist&quot;</span>) <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno"> 1044</span>  <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno"> 1045</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01039">1039</a> of file <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html">latexdocvisitor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1040</span>{</div>
+<div class="line"><span class="lineno"> 1041</span>  <a class="code hl_class" href="../../db/d4d/class_html_attrib_list.html">HtmlAttribList</a> attrs = dl.<a class="code hl_function" href="../../df/d6f/class_doc_html_desc_list.html#a61e9f129da095600d9eb7c382cf15d01">attribs</a>();</div>
+<div class="line"><span class="lineno"> 1042</span>  <span class="keyword">auto</span> it = std::find_if(attrs.begin(),attrs.end(),</div>
+<div class="line"><span class="lineno"> 1043</span>                      [](<span class="keyword">const</span> <span class="keyword">auto</span> &amp;att) { return att.name==<span class="stringliteral">&quot;class&quot;</span>; });</div>
+<div class="line"><span class="lineno"> 1044</span>  <span class="keywordflow">if</span> (it!=attrs.end() &amp;&amp; it-&gt;value == <span class="stringliteral">&quot;reflist&quot;</span>) <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1045</span>  <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1046</span>}</div>
 <div class="ttc" id="aclass_doc_html_desc_list_html_a61e9f129da095600d9eb7c382cf15d01"><div class="ttname"><a href="../../df/d6f/class_doc_html_desc_list.html#a61e9f129da095600d9eb7c382cf15d01">DocHtmlDescList::attribs</a></div><div class="ttdeci">const HtmlAttribList &amp; attribs() const</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l00862">docnode.h:862</a></div></div>
 <div class="ttc" id="aclass_html_attrib_list_html"><div class="ttname"><a href="../../db/d4d/class_html_attrib_list.html">HtmlAttribList</a></div><div class="ttdoc">Class representing a list of HTML attributes.</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d73/htmlattrib_8h_source.html#l00030">htmlattrib.h:31</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../de/d2b/docnode_8h_source.html#l00862">DocHtmlDescList::attribs()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01047">listIsNested()</a>, and <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01062">LatexDocVisitor::operator()()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01048">listIsNested()</a>, and <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01063">LatexDocVisitor::operator()()</a>.</p>
 
 </div>
 </div>
@@ -224,22 +225,22 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00045">45</a> of file <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html">latexdocvisitor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   46</span>{</div>
-<div class="line"><span class="lineno">   47</span>  <span class="keywordtype">bool</span> compactLatex = <a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(COMPACT_LATEX);</div>
-<div class="line"><span class="lineno">   48</span>  <span class="keywordtype">int</span> l = level;</div>
-<div class="line"><span class="lineno">   49</span>  <span class="keywordflow">if</span> (compactLatex) l++;</div>
-<div class="line"><span class="lineno">   50</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a419b27a523ea0261e58103f998c68a12">Doxygen::insideMainPage</a>) l--;</div>
-<div class="line"><span class="lineno">   51</span>  <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d1/d4e/latexdocvisitor_8cpp.html#a26981dc5985af76550ab2c2443b47bbc">secLabels</a>[std::min(<a class="code hl_variable" href="../../d1/d4e/latexdocvisitor_8cpp.html#af1c06db51ef168324d954a4051bb1f83">maxLevels</a>-1,l)];</div>
-<div class="line"><span class="lineno">   52</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00046">46</a> of file <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html">latexdocvisitor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   47</span>{</div>
+<div class="line"><span class="lineno">   48</span>  <span class="keywordtype">bool</span> compactLatex = <a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(COMPACT_LATEX);</div>
+<div class="line"><span class="lineno">   49</span>  <span class="keywordtype">int</span> l = level;</div>
+<div class="line"><span class="lineno">   50</span>  <span class="keywordflow">if</span> (compactLatex) l++;</div>
+<div class="line"><span class="lineno">   51</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a419b27a523ea0261e58103f998c68a12">Doxygen::insideMainPage</a>) l--;</div>
+<div class="line"><span class="lineno">   52</span>  <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d1/d4e/latexdocvisitor_8cpp.html#a26981dc5985af76550ab2c2443b47bbc">secLabels</a>[std::min(<a class="code hl_variable" href="../../d1/d4e/latexdocvisitor_8cpp.html#af1c06db51ef168324d954a4051bb1f83">maxLevels</a>-1,l)];</div>
+<div class="line"><span class="lineno">   53</span>}</div>
 <div class="ttc" id="aclass_doxygen_html_a419b27a523ea0261e58103f998c68a12"><div class="ttname"><a href="../../de/d6a/class_doxygen.html#a419b27a523ea0261e58103f998c68a12">Doxygen::insideMainPage</a></div><div class="ttdeci">static bool insideMainPage</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da1/doxygen_8h_source.html#l00096">doxygen.h:96</a></div></div>
 <div class="ttc" id="aconfig_8h_html_a5373d0332a31f16ad7a42037733e8c79"><div class="ttname"><a href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a></div><div class="ttdeci">#define Config_getBool(name)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/config_8h_source.html#l00033">config.h:33</a></div></div>
-<div class="ttc" id="alatexdocvisitor_8cpp_html_a26981dc5985af76550ab2c2443b47bbc"><div class="ttname"><a href="../../d1/d4e/latexdocvisitor_8cpp.html#a26981dc5985af76550ab2c2443b47bbc">secLabels</a></div><div class="ttdeci">static const char * secLabels[maxLevels]</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00042">latexdocvisitor.cpp:42</a></div></div>
-<div class="ttc" id="alatexdocvisitor_8cpp_html_af1c06db51ef168324d954a4051bb1f83"><div class="ttname"><a href="../../d1/d4e/latexdocvisitor_8cpp.html#af1c06db51ef168324d954a4051bb1f83">maxLevels</a></div><div class="ttdeci">const int maxLevels</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00041">latexdocvisitor.cpp:41</a></div></div>
+<div class="ttc" id="alatexdocvisitor_8cpp_html_a26981dc5985af76550ab2c2443b47bbc"><div class="ttname"><a href="../../d1/d4e/latexdocvisitor_8cpp.html#a26981dc5985af76550ab2c2443b47bbc">secLabels</a></div><div class="ttdeci">static const char * secLabels[maxLevels]</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00043">latexdocvisitor.cpp:43</a></div></div>
+<div class="ttc" id="alatexdocvisitor_8cpp_html_af1c06db51ef168324d954a4051bb1f83"><div class="ttname"><a href="../../d1/d4e/latexdocvisitor_8cpp.html#af1c06db51ef168324d954a4051bb1f83">maxLevels</a></div><div class="ttdeci">const int maxLevels</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00042">latexdocvisitor.cpp:42</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00096">Doxygen::insideMainPage</a>, <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00041">maxLevels</a>, and <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00042">secLabels</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00096">Doxygen::insideMainPage</a>, <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00042">maxLevels</a>, and <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00043">secLabels</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00933">LatexDocVisitor::operator()()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00934">LatexDocVisitor::operator()()</a>.</p>
 
 </div>
 </div>
@@ -283,25 +284,25 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00054">54</a> of file <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html">latexdocvisitor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   55</span>{</div>
-<div class="line"><span class="lineno">   56</span>  <span class="comment">// dimensions for latex images can be a percentage, in this case they need some extra</span></div>
-<div class="line"><span class="lineno">   57</span>  <span class="comment">// handling as the % symbol is used for comments</span></div>
-<div class="line"><span class="lineno">   58</span>  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code hl_class" href="../../d2/dd8/classreg_1_1_ex.html">reg::Ex</a> re(R<span class="stringliteral">&quot;((\d+)%)&quot;);</span></div>
-<div class="line"><span class="lineno">   59</span><span class="stringliteral">  std::string s = dimension.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>();</span></div>
-<div class="line"><span class="lineno">   60</span><span class="stringliteral">  <a class="code hl_class" href="../../d2/ddf/classreg_1_1_match.html">reg::Match</a> <a class="code hl_function" href="../../db/d35/namespacereg.html#a1a29dcc7e2ccf462503adc5d496881ae">match</a>;</span></div>
-<div class="line"><span class="lineno">   61</span><span class="stringliteral">  </span><span class="keywordflow">if</span> (<a class="code hl_function" href="../../db/d35/namespacereg.html#a0af12d3e92e774639befbdf774606e52">reg::search</a>(s,match,re))</div>
-<div class="line"><span class="lineno">   62</span>  {</div>
-<div class="line"><span class="lineno">   63</span>    <span class="keywordtype">bool</span> ok;</div>
-<div class="line"><span class="lineno">   64</span>    <span class="keywordtype">double</span> percent = <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>(match[1].str()).<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a8ab7ce60a26cdd29e1cf743664d0f6be">toInt</a>(&amp;ok);</div>
-<div class="line"><span class="lineno">   65</span>    <span class="keywordflow">if</span> (ok)</div>
-<div class="line"><span class="lineno">   66</span>    {</div>
-<div class="line"><span class="lineno">   67</span>      t &lt;&lt; percent/100.0 &lt;&lt; <span class="stringliteral">&quot;\\text&quot;</span> &lt;&lt; orientationString;</div>
-<div class="line"><span class="lineno">   68</span>      <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">   69</span>    }</div>
-<div class="line"><span class="lineno">   70</span>  }</div>
-<div class="line"><span class="lineno">   71</span>  t &lt;&lt; dimension;</div>
-<div class="line"><span class="lineno">   72</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00055">55</a> of file <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html">latexdocvisitor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   56</span>{</div>
+<div class="line"><span class="lineno">   57</span>  <span class="comment">// dimensions for latex images can be a percentage, in this case they need some extra</span></div>
+<div class="line"><span class="lineno">   58</span>  <span class="comment">// handling as the % symbol is used for comments</span></div>
+<div class="line"><span class="lineno">   59</span>  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code hl_class" href="../../d2/dd8/classreg_1_1_ex.html">reg::Ex</a> re(R<span class="stringliteral">&quot;((\d+)%)&quot;);</span></div>
+<div class="line"><span class="lineno">   60</span><span class="stringliteral">  std::string s = dimension.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>();</span></div>
+<div class="line"><span class="lineno">   61</span><span class="stringliteral">  <a class="code hl_class" href="../../d2/ddf/classreg_1_1_match.html">reg::Match</a> <a class="code hl_function" href="../../db/d35/namespacereg.html#a1a29dcc7e2ccf462503adc5d496881ae">match</a>;</span></div>
+<div class="line"><span class="lineno">   62</span><span class="stringliteral">  </span><span class="keywordflow">if</span> (<a class="code hl_function" href="../../db/d35/namespacereg.html#a0af12d3e92e774639befbdf774606e52">reg::search</a>(s,match,re))</div>
+<div class="line"><span class="lineno">   63</span>  {</div>
+<div class="line"><span class="lineno">   64</span>    <span class="keywordtype">bool</span> ok;</div>
+<div class="line"><span class="lineno">   65</span>    <span class="keywordtype">double</span> percent = <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>(match[1].str()).<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a8ab7ce60a26cdd29e1cf743664d0f6be">toInt</a>(&amp;ok);</div>
+<div class="line"><span class="lineno">   66</span>    <span class="keywordflow">if</span> (ok)</div>
+<div class="line"><span class="lineno">   67</span>    {</div>
+<div class="line"><span class="lineno">   68</span>      t &lt;&lt; percent/100.0 &lt;&lt; <span class="stringliteral">&quot;\\text&quot;</span> &lt;&lt; orientationString;</div>
+<div class="line"><span class="lineno">   69</span>      <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   70</span>    }</div>
+<div class="line"><span class="lineno">   71</span>  }</div>
+<div class="line"><span class="lineno">   72</span>  t &lt;&lt; dimension;</div>
+<div class="line"><span class="lineno">   73</span>}</div>
 <div class="ttc" id="aclass_q_c_string_html"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html">QCString</a></div><div class="ttdoc">This is an alternative implementation of QCString.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00102">qcstring.h:103</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a875e9ad762554ef12f3ed69b015bb245"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">QCString::str</a></div><div class="ttdeci">const std::string &amp; str() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00478">qcstring.h:478</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a8ab7ce60a26cdd29e1cf743664d0f6be"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a8ab7ce60a26cdd29e1cf743664d0f6be">QCString::toInt</a></div><div class="ttdeci">int toInt(bool *ok=0, int base=10) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d3e/qcstring_8cpp_source.html#l00249">qcstring.cpp:249</a></div></div>
@@ -312,7 +313,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d6/d85/regex_8cpp_source.html#l00749">reg::search()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00478">QCString::str()</a>, and <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00249">QCString::toInt()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00074">visitPreStart()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00075">visitPreStart()</a>.</p>
 
 </div>
 </div>
@@ -340,28 +341,28 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01047">1047</a> of file <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html">latexdocvisitor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1048</span>{</div>
-<div class="line"><span class="lineno"> 1049</span>  <span class="keywordtype">bool</span> isNested=<span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno"> 1050</span>  <span class="keyword">const</span> <a class="code hl_typedef" href="../../de/d2b/docnode_8h.html#afad5b9fbe2e475f242fe258914b6a4a0">DocNodeVariant</a> *n = dl.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>();</div>
-<div class="line"><span class="lineno"> 1051</span>  <span class="keywordflow">while</span> (n &amp;&amp; !isNested)</div>
-<div class="line"><span class="lineno"> 1052</span>  {</div>
-<div class="line"><span class="lineno"> 1053</span>    <span class="keywordflow">if</span> (std::get_if&lt;DocHtmlDescList&gt;(n))</div>
-<div class="line"><span class="lineno"> 1054</span>    {</div>
-<div class="line"><span class="lineno"> 1055</span>      isNested = !<a class="code hl_function" href="../../d1/d4e/latexdocvisitor_8cpp.html#abe535965a6e52ac2b1328232b014c0d7">classEqualsReflist</a>(std::get&lt;DocHtmlDescList&gt;(*n));</div>
-<div class="line"><span class="lineno"> 1056</span>    }</div>
-<div class="line"><span class="lineno"> 1057</span>    n = <a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">::parent</a>(n);</div>
-<div class="line"><span class="lineno"> 1058</span>  }</div>
-<div class="line"><span class="lineno"> 1059</span>  <span class="keywordflow">return</span> isNested;</div>
-<div class="line"><span class="lineno"> 1060</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01048">1048</a> of file <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html">latexdocvisitor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1049</span>{</div>
+<div class="line"><span class="lineno"> 1050</span>  <span class="keywordtype">bool</span> isNested=<span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1051</span>  <span class="keyword">const</span> <a class="code hl_typedef" href="../../de/d2b/docnode_8h.html#afad5b9fbe2e475f242fe258914b6a4a0">DocNodeVariant</a> *n = dl.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>();</div>
+<div class="line"><span class="lineno"> 1052</span>  <span class="keywordflow">while</span> (n &amp;&amp; !isNested)</div>
+<div class="line"><span class="lineno"> 1053</span>  {</div>
+<div class="line"><span class="lineno"> 1054</span>    <span class="keywordflow">if</span> (std::get_if&lt;DocHtmlDescList&gt;(n))</div>
+<div class="line"><span class="lineno"> 1055</span>    {</div>
+<div class="line"><span class="lineno"> 1056</span>      isNested = !<a class="code hl_function" href="../../d1/d4e/latexdocvisitor_8cpp.html#abe535965a6e52ac2b1328232b014c0d7">classEqualsReflist</a>(std::get&lt;DocHtmlDescList&gt;(*n));</div>
+<div class="line"><span class="lineno"> 1057</span>    }</div>
+<div class="line"><span class="lineno"> 1058</span>    n = <a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">::parent</a>(n);</div>
+<div class="line"><span class="lineno"> 1059</span>  }</div>
+<div class="line"><span class="lineno"> 1060</span>  <span class="keywordflow">return</span> isNested;</div>
+<div class="line"><span class="lineno"> 1061</span>}</div>
 <div class="ttc" id="aclass_doc_node_html_a9217c40d6d74f2b78928b3d8131dd7f0"><div class="ttname"><a href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">DocNode::parent</a></div><div class="ttdeci">DocNodeVariant * parent()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l00091">docnode.h:91</a></div></div>
 <div class="ttc" id="adocnode_8h_html_aa08872da61afee56859056e5a0612633"><div class="ttname"><a href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">parent</a></div><div class="ttdeci">constexpr DocNodeVariant * parent(DocNodeVariant *n)</div><div class="ttdoc">returns the parent node of a given node n or 0 if the node has no parent.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l01287">docnode.h:1287</a></div></div>
 <div class="ttc" id="adocnode_8h_html_afad5b9fbe2e475f242fe258914b6a4a0"><div class="ttname"><a href="../../de/d2b/docnode_8h.html#afad5b9fbe2e475f242fe258914b6a4a0">DocNodeVariant</a></div><div class="ttdeci">std::variant&lt; DocWord, DocLinkedWord, DocURL, DocLineBreak, DocHorRuler, DocAnchor, DocCite, DocStyleChange, DocSymbol, DocEmoji, DocWhiteSpace, DocSeparator, DocVerbatim, DocInclude, DocIncOperator, DocFormula, DocIndexEntry, DocAutoList, DocAutoListItem, DocTitle, DocXRefItem, DocImage, DocDotFile, DocMscFile, DocDiaFile, DocVhdlFlow, DocLink, DocRef, DocInternalRef, DocHRef, DocHtmlHeader, DocHtmlDescTitle, DocHtmlDescList, DocSection, DocSecRefItem, DocSecRefList, DocInternal, DocParBlock, DocSimpleList, DocHtmlList, DocSimpleSect, DocSimpleSectSep, DocParamSect, DocPara, DocParamList, DocSimpleListItem, DocHtmlListItem, DocHtmlDescData, DocHtmlCell, DocHtmlCaption, DocHtmlRow, DocHtmlTable, DocHtmlBlockQuote, DocText, DocRoot, DocHtmlDetails, DocHtmlSummary &gt; DocNodeVariant</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l00063">docnode.h:65</a></div></div>
-<div class="ttc" id="alatexdocvisitor_8cpp_html_abe535965a6e52ac2b1328232b014c0d7"><div class="ttname"><a href="../../d1/d4e/latexdocvisitor_8cpp.html#abe535965a6e52ac2b1328232b014c0d7">classEqualsReflist</a></div><div class="ttdeci">static bool classEqualsReflist(const DocHtmlDescList &amp;dl)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01038">latexdocvisitor.cpp:1038</a></div></div>
+<div class="ttc" id="alatexdocvisitor_8cpp_html_abe535965a6e52ac2b1328232b014c0d7"><div class="ttname"><a href="../../d1/d4e/latexdocvisitor_8cpp.html#abe535965a6e52ac2b1328232b014c0d7">classEqualsReflist</a></div><div class="ttdeci">static bool classEqualsReflist(const DocHtmlDescList &amp;dl)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01039">latexdocvisitor.cpp:1039</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01038">classEqualsReflist()</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00091">DocNode::parent()</a>, and <a class="el" href="../../de/d2b/docnode_8h_source.html#l01287">parent()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01039">classEqualsReflist()</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00091">DocNode::parent()</a>, and <a class="el" href="../../de/d2b/docnode_8h_source.html#l01287">parent()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01062">LatexDocVisitor::operator()()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01063">LatexDocVisitor::operator()()</a>.</p>
 
 </div>
 </div>
@@ -389,21 +390,21 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01103">1103</a> of file <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html">latexdocvisitor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1104</span>{</div>
-<div class="line"><span class="lineno"> 1105</span>  <span class="keywordtype">bool</span> isNested=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="line"><span class="lineno"> 1106</span>  <span class="keywordflow">while</span> (n &amp;&amp; !isNested)</div>
-<div class="line"><span class="lineno"> 1107</span>  {</div>
-<div class="line"><span class="lineno"> 1108</span>    isNested = holds_one_of_alternatives&lt;DocHtmlTable,DocParamSect&gt;(*n);</div>
-<div class="line"><span class="lineno"> 1109</span>    n = <a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">::parent</a>(n);</div>
-<div class="line"><span class="lineno"> 1110</span>  }</div>
-<div class="line"><span class="lineno"> 1111</span>  <span class="keywordflow">return</span> isNested;</div>
-<div class="line"><span class="lineno"> 1112</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01104">1104</a> of file <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html">latexdocvisitor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1105</span>{</div>
+<div class="line"><span class="lineno"> 1106</span>  <span class="keywordtype">bool</span> isNested=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
+<div class="line"><span class="lineno"> 1107</span>  <span class="keywordflow">while</span> (n &amp;&amp; !isNested)</div>
+<div class="line"><span class="lineno"> 1108</span>  {</div>
+<div class="line"><span class="lineno"> 1109</span>    isNested = holds_one_of_alternatives&lt;DocHtmlTable,DocParamSect&gt;(*n);</div>
+<div class="line"><span class="lineno"> 1110</span>    n = <a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">::parent</a>(n);</div>
+<div class="line"><span class="lineno"> 1111</span>  }</div>
+<div class="line"><span class="lineno"> 1112</span>  <span class="keywordflow">return</span> isNested;</div>
+<div class="line"><span class="lineno"> 1113</span>}</div>
 <div class="ttc" id="aqcstring_8h_html_aa93f0eb578d23995850d61f7d61c55c1"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></div><div class="ttdeci">#define FALSE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00033">qcstring.h:33</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, and <a class="el" href="../../de/d2b/docnode_8h_source.html#l01287">parent()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01140">LatexDocVisitor::operator()()</a>, <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01127">writeEndTableCommand()</a>, and <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01114">writeStartTableCommand()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01141">LatexDocVisitor::operator()()</a>, <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01128">writeEndTableCommand()</a>, and <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01115">writeStartTableCommand()</a>.</p>
 
 </div>
 </div>
@@ -447,27 +448,27 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00146">146</a> of file <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html">latexdocvisitor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  147</span>{</div>
-<div class="line"><span class="lineno">  148</span>    <span class="keywordflow">if</span> (inlineImage)</div>
-<div class="line"><span class="lineno">  149</span>    {</div>
-<div class="line"><span class="lineno">  150</span>      t &lt;&lt; <span class="stringliteral">&quot;\n\\end{DoxyInlineImage}\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  151</span>    }</div>
-<div class="line"><span class="lineno">  152</span>    <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  153</span>    {</div>
-<div class="line"><span class="lineno">  154</span>      t &lt;&lt; <span class="stringliteral">&quot;}\n&quot;</span>; <span class="comment">// end mbox or caption</span></div>
-<div class="line"><span class="lineno">  155</span>      <span class="keywordflow">if</span> (hasCaption)</div>
-<div class="line"><span class="lineno">  156</span>      {</div>
-<div class="line"><span class="lineno">  157</span>        t &lt;&lt; <span class="stringliteral">&quot;\\end{DoxyImage}\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  158</span>      }</div>
-<div class="line"><span class="lineno">  159</span>      <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  160</span>      {</div>
-<div class="line"><span class="lineno">  161</span>        t &lt;&lt; <span class="stringliteral">&quot;\\end{DoxyImageNoCaption}\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  162</span>      }</div>
-<div class="line"><span class="lineno">  163</span>    }</div>
-<div class="line"><span class="lineno">  164</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00147">147</a> of file <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html">latexdocvisitor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  148</span>{</div>
+<div class="line"><span class="lineno">  149</span>    <span class="keywordflow">if</span> (inlineImage)</div>
+<div class="line"><span class="lineno">  150</span>    {</div>
+<div class="line"><span class="lineno">  151</span>      t &lt;&lt; <span class="stringliteral">&quot;\n\\end{DoxyInlineImage}\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  152</span>    }</div>
+<div class="line"><span class="lineno">  153</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  154</span>    {</div>
+<div class="line"><span class="lineno">  155</span>      t &lt;&lt; <span class="stringliteral">&quot;}\n&quot;</span>; <span class="comment">// end mbox or caption</span></div>
+<div class="line"><span class="lineno">  156</span>      <span class="keywordflow">if</span> (hasCaption)</div>
+<div class="line"><span class="lineno">  157</span>      {</div>
+<div class="line"><span class="lineno">  158</span>        t &lt;&lt; <span class="stringliteral">&quot;\\end{DoxyImage}\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  159</span>      }</div>
+<div class="line"><span class="lineno">  160</span>      <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  161</span>      {</div>
+<div class="line"><span class="lineno">  162</span>        t &lt;&lt; <span class="stringliteral">&quot;\\end{DoxyImageNoCaption}\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  163</span>      }</div>
+<div class="line"><span class="lineno">  164</span>    }</div>
+<div class="line"><span class="lineno">  165</span>}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01955">LatexDocVisitor::endDiaFile()</a>, <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01876">LatexDocVisitor::endDotFile()</a>, <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01907">LatexDocVisitor::endMscFile()</a>, <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01444">LatexDocVisitor::operator()()</a>, <a class="el" href="../../dd/db6/xmldocvisitor_8cpp_source.html#l00300">XmlDocVisitor::operator()()</a>, <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01962">LatexDocVisitor::writeDiaFile()</a>, <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01914">LatexDocVisitor::writeMscFile()</a>, and <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01977">LatexDocVisitor::writePlantUMLFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01956">LatexDocVisitor::endDiaFile()</a>, <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01877">LatexDocVisitor::endDotFile()</a>, <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01908">LatexDocVisitor::endMscFile()</a>, <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01445">LatexDocVisitor::operator()()</a>, <a class="el" href="../../dd/db6/xmldocvisitor_8cpp_source.html#l00300">XmlDocVisitor::operator()()</a>, <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01963">LatexDocVisitor::writeDiaFile()</a>, <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01915">LatexDocVisitor::writeMscFile()</a>, and <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01978">LatexDocVisitor::writePlantUMLFile()</a>.</p>
 
 </div>
 </div>
@@ -529,81 +530,81 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00074">74</a> of file <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html">latexdocvisitor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   75</span>{</div>
-<div class="line"><span class="lineno">   76</span>    <span class="keywordflow">if</span> (inlineImage)</div>
-<div class="line"><span class="lineno">   77</span>    {</div>
-<div class="line"><span class="lineno">   78</span>      t &lt;&lt; <span class="stringliteral">&quot;\n\\begin{DoxyInlineImage}\n&quot;</span>;</div>
-<div class="line"><span class="lineno">   79</span>    }</div>
-<div class="line"><span class="lineno">   80</span>    <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">   81</span>    {</div>
-<div class="line"><span class="lineno">   82</span>      <span class="keywordflow">if</span> (hasCaption)</div>
-<div class="line"><span class="lineno">   83</span>      {</div>
-<div class="line"><span class="lineno">   84</span>        t &lt;&lt; <span class="stringliteral">&quot;\n\\begin{DoxyImage}\n&quot;</span>;</div>
-<div class="line"><span class="lineno">   85</span>      }</div>
-<div class="line"><span class="lineno">   86</span>      <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">   87</span>      {</div>
-<div class="line"><span class="lineno">   88</span>        t &lt;&lt; <span class="stringliteral">&quot;\n\\begin{DoxyImageNoCaption}\n&quot;</span></div>
-<div class="line"><span class="lineno">   89</span>               <span class="stringliteral">&quot;  \\mbox{&quot;</span>;</div>
-<div class="line"><span class="lineno">   90</span>      }</div>
-<div class="line"><span class="lineno">   91</span>    }</div>
-<div class="line"><span class="lineno">   92</span> </div>
-<div class="line"><span class="lineno">   93</span>    t &lt;&lt; <span class="stringliteral">&quot;\\includegraphics&quot;</span>;</div>
-<div class="line"><span class="lineno">   94</span>    <span class="keywordflow">if</span> (!width.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>() || !height.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
-<div class="line"><span class="lineno">   95</span>    {</div>
-<div class="line"><span class="lineno">   96</span>      t &lt;&lt; <span class="stringliteral">&quot;[&quot;</span>;</div>
-<div class="line"><span class="lineno">   97</span>    }</div>
-<div class="line"><span class="lineno">   98</span>    <span class="keywordflow">if</span> (!width.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
-<div class="line"><span class="lineno">   99</span>    {</div>
-<div class="line"><span class="lineno">  100</span>      t &lt;&lt; <span class="stringliteral">&quot;width=&quot;</span>;</div>
-<div class="line"><span class="lineno">  101</span>      <a class="code hl_function" href="../../d1/d4e/latexdocvisitor_8cpp.html#ab17d77238a46be34e30fc71ed51db35a">insertDimension</a>(t, width, <span class="stringliteral">&quot;width&quot;</span>);</div>
-<div class="line"><span class="lineno">  102</span>    }</div>
-<div class="line"><span class="lineno">  103</span>    <span class="keywordflow">if</span> (!width.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>() &amp;&amp; !height.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
-<div class="line"><span class="lineno">  104</span>    {</div>
-<div class="line"><span class="lineno">  105</span>      t &lt;&lt; <span class="stringliteral">&quot;,&quot;</span>;</div>
-<div class="line"><span class="lineno">  106</span>    }</div>
-<div class="line"><span class="lineno">  107</span>    <span class="keywordflow">if</span> (!height.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
-<div class="line"><span class="lineno">  108</span>    {</div>
-<div class="line"><span class="lineno">  109</span>      t &lt;&lt; <span class="stringliteral">&quot;height=&quot;</span>;</div>
-<div class="line"><span class="lineno">  110</span>      <a class="code hl_function" href="../../d1/d4e/latexdocvisitor_8cpp.html#ab17d77238a46be34e30fc71ed51db35a">insertDimension</a>(t, height, <span class="stringliteral">&quot;height&quot;</span>);</div>
-<div class="line"><span class="lineno">  111</span>    }</div>
-<div class="line"><span class="lineno">  112</span>    <span class="keywordflow">if</span> (width.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>() &amp;&amp; height.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
-<div class="line"><span class="lineno">  113</span>    {</div>
-<div class="line"><span class="lineno">  114</span>      <span class="comment">/* default setting */</span></div>
-<div class="line"><span class="lineno">  115</span>      <span class="keywordflow">if</span> (inlineImage)</div>
-<div class="line"><span class="lineno">  116</span>      {</div>
-<div class="line"><span class="lineno">  117</span>        t &lt;&lt; <span class="stringliteral">&quot;[height=\\baselineskip,keepaspectratio=true]&quot;</span>;</div>
-<div class="line"><span class="lineno">  118</span>      }</div>
-<div class="line"><span class="lineno">  119</span>      <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  120</span>      {</div>
-<div class="line"><span class="lineno">  121</span>        t &lt;&lt; <span class="stringliteral">&quot;[width=\\textwidth,height=\\textheight/2,keepaspectratio=true]&quot;</span>;</div>
-<div class="line"><span class="lineno">  122</span>      }</div>
-<div class="line"><span class="lineno">  123</span>    }</div>
-<div class="line"><span class="lineno">  124</span>    <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  125</span>    {</div>
-<div class="line"><span class="lineno">  126</span>      t &lt;&lt; <span class="stringliteral">&quot;]&quot;</span>;</div>
-<div class="line"><span class="lineno">  127</span>    }</div>
-<div class="line"><span class="lineno">  128</span> </div>
-<div class="line"><span class="lineno">  129</span>    t &lt;&lt; <span class="stringliteral">&quot;{&quot;</span> &lt;&lt; name &lt;&lt; <span class="stringliteral">&quot;}&quot;</span>;</div>
-<div class="line"><span class="lineno">  130</span> </div>
-<div class="line"><span class="lineno">  131</span>    <span class="keywordflow">if</span> (hasCaption)</div>
-<div class="line"><span class="lineno">  132</span>    {</div>
-<div class="line"><span class="lineno">  133</span>      <span class="keywordflow">if</span> (!inlineImage)</div>
-<div class="line"><span class="lineno">  134</span>      {</div>
-<div class="line"><span class="lineno">  135</span>        t &lt;&lt; <span class="stringliteral">&quot;\n\\doxyfigcaption{&quot;</span>;</div>
-<div class="line"><span class="lineno">  136</span>      }</div>
-<div class="line"><span class="lineno">  137</span>      <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  138</span>      {</div>
-<div class="line"><span class="lineno">  139</span>        t &lt;&lt; <span class="stringliteral">&quot;%&quot;</span>; <span class="comment">// to catch the caption</span></div>
-<div class="line"><span class="lineno">  140</span>      }</div>
-<div class="line"><span class="lineno">  141</span>    }</div>
-<div class="line"><span class="lineno">  142</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00075">75</a> of file <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html">latexdocvisitor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   76</span>{</div>
+<div class="line"><span class="lineno">   77</span>    <span class="keywordflow">if</span> (inlineImage)</div>
+<div class="line"><span class="lineno">   78</span>    {</div>
+<div class="line"><span class="lineno">   79</span>      t &lt;&lt; <span class="stringliteral">&quot;\n\\begin{DoxyInlineImage}\n&quot;</span>;</div>
+<div class="line"><span class="lineno">   80</span>    }</div>
+<div class="line"><span class="lineno">   81</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   82</span>    {</div>
+<div class="line"><span class="lineno">   83</span>      <span class="keywordflow">if</span> (hasCaption)</div>
+<div class="line"><span class="lineno">   84</span>      {</div>
+<div class="line"><span class="lineno">   85</span>        t &lt;&lt; <span class="stringliteral">&quot;\n\\begin{DoxyImage}\n&quot;</span>;</div>
+<div class="line"><span class="lineno">   86</span>      }</div>
+<div class="line"><span class="lineno">   87</span>      <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   88</span>      {</div>
+<div class="line"><span class="lineno">   89</span>        t &lt;&lt; <span class="stringliteral">&quot;\n\\begin{DoxyImageNoCaption}\n&quot;</span></div>
+<div class="line"><span class="lineno">   90</span>               <span class="stringliteral">&quot;  \\mbox{&quot;</span>;</div>
+<div class="line"><span class="lineno">   91</span>      }</div>
+<div class="line"><span class="lineno">   92</span>    }</div>
+<div class="line"><span class="lineno">   93</span> </div>
+<div class="line"><span class="lineno">   94</span>    t &lt;&lt; <span class="stringliteral">&quot;\\includegraphics&quot;</span>;</div>
+<div class="line"><span class="lineno">   95</span>    <span class="keywordflow">if</span> (!width.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>() || !height.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
+<div class="line"><span class="lineno">   96</span>    {</div>
+<div class="line"><span class="lineno">   97</span>      t &lt;&lt; <span class="stringliteral">&quot;[&quot;</span>;</div>
+<div class="line"><span class="lineno">   98</span>    }</div>
+<div class="line"><span class="lineno">   99</span>    <span class="keywordflow">if</span> (!width.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
+<div class="line"><span class="lineno">  100</span>    {</div>
+<div class="line"><span class="lineno">  101</span>      t &lt;&lt; <span class="stringliteral">&quot;width=&quot;</span>;</div>
+<div class="line"><span class="lineno">  102</span>      <a class="code hl_function" href="../../d1/d4e/latexdocvisitor_8cpp.html#ab17d77238a46be34e30fc71ed51db35a">insertDimension</a>(t, width, <span class="stringliteral">&quot;width&quot;</span>);</div>
+<div class="line"><span class="lineno">  103</span>    }</div>
+<div class="line"><span class="lineno">  104</span>    <span class="keywordflow">if</span> (!width.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>() &amp;&amp; !height.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
+<div class="line"><span class="lineno">  105</span>    {</div>
+<div class="line"><span class="lineno">  106</span>      t &lt;&lt; <span class="stringliteral">&quot;,&quot;</span>;</div>
+<div class="line"><span class="lineno">  107</span>    }</div>
+<div class="line"><span class="lineno">  108</span>    <span class="keywordflow">if</span> (!height.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
+<div class="line"><span class="lineno">  109</span>    {</div>
+<div class="line"><span class="lineno">  110</span>      t &lt;&lt; <span class="stringliteral">&quot;height=&quot;</span>;</div>
+<div class="line"><span class="lineno">  111</span>      <a class="code hl_function" href="../../d1/d4e/latexdocvisitor_8cpp.html#ab17d77238a46be34e30fc71ed51db35a">insertDimension</a>(t, height, <span class="stringliteral">&quot;height&quot;</span>);</div>
+<div class="line"><span class="lineno">  112</span>    }</div>
+<div class="line"><span class="lineno">  113</span>    <span class="keywordflow">if</span> (width.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>() &amp;&amp; height.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
+<div class="line"><span class="lineno">  114</span>    {</div>
+<div class="line"><span class="lineno">  115</span>      <span class="comment">/* default setting */</span></div>
+<div class="line"><span class="lineno">  116</span>      <span class="keywordflow">if</span> (inlineImage)</div>
+<div class="line"><span class="lineno">  117</span>      {</div>
+<div class="line"><span class="lineno">  118</span>        t &lt;&lt; <span class="stringliteral">&quot;[height=\\baselineskip,keepaspectratio=true]&quot;</span>;</div>
+<div class="line"><span class="lineno">  119</span>      }</div>
+<div class="line"><span class="lineno">  120</span>      <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  121</span>      {</div>
+<div class="line"><span class="lineno">  122</span>        t &lt;&lt; <span class="stringliteral">&quot;[width=\\textwidth,height=\\textheight/2,keepaspectratio=true]&quot;</span>;</div>
+<div class="line"><span class="lineno">  123</span>      }</div>
+<div class="line"><span class="lineno">  124</span>    }</div>
+<div class="line"><span class="lineno">  125</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  126</span>    {</div>
+<div class="line"><span class="lineno">  127</span>      t &lt;&lt; <span class="stringliteral">&quot;]&quot;</span>;</div>
+<div class="line"><span class="lineno">  128</span>    }</div>
+<div class="line"><span class="lineno">  129</span> </div>
+<div class="line"><span class="lineno">  130</span>    t &lt;&lt; <span class="stringliteral">&quot;{&quot;</span> &lt;&lt; name &lt;&lt; <span class="stringliteral">&quot;}&quot;</span>;</div>
+<div class="line"><span class="lineno">  131</span> </div>
+<div class="line"><span class="lineno">  132</span>    <span class="keywordflow">if</span> (hasCaption)</div>
+<div class="line"><span class="lineno">  133</span>    {</div>
+<div class="line"><span class="lineno">  134</span>      <span class="keywordflow">if</span> (!inlineImage)</div>
+<div class="line"><span class="lineno">  135</span>      {</div>
+<div class="line"><span class="lineno">  136</span>        t &lt;&lt; <span class="stringliteral">&quot;\n\\doxyfigcaption{&quot;</span>;</div>
+<div class="line"><span class="lineno">  137</span>      }</div>
+<div class="line"><span class="lineno">  138</span>      <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  139</span>      {</div>
+<div class="line"><span class="lineno">  140</span>        t &lt;&lt; <span class="stringliteral">&quot;%&quot;</span>; <span class="comment">// to catch the caption</span></div>
+<div class="line"><span class="lineno">  141</span>      }</div>
+<div class="line"><span class="lineno">  142</span>    }</div>
+<div class="line"><span class="lineno">  143</span>}</div>
 <div class="ttc" id="aclass_q_c_string_html_a621c4090d69ad7d05ef8e5234376c3d8"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">QCString::isEmpty</a></div><div class="ttdeci">bool isEmpty() const</div><div class="ttdoc">Returns TRUE iff the string is empty.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00138">qcstring.h:138</a></div></div>
-<div class="ttc" id="alatexdocvisitor_8cpp_html_ab17d77238a46be34e30fc71ed51db35a"><div class="ttname"><a href="../../d1/d4e/latexdocvisitor_8cpp.html#ab17d77238a46be34e30fc71ed51db35a">insertDimension</a></div><div class="ttdeci">static void insertDimension(TextStream &amp;t, QCString dimension, const char *orientationString)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00054">latexdocvisitor.cpp:54</a></div></div>
+<div class="ttc" id="alatexdocvisitor_8cpp_html_ab17d77238a46be34e30fc71ed51db35a"><div class="ttname"><a href="../../d1/d4e/latexdocvisitor_8cpp.html#ab17d77238a46be34e30fc71ed51db35a">insertDimension</a></div><div class="ttdeci">static void insertDimension(TextStream &amp;t, QCString dimension, const char *orientationString)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00055">latexdocvisitor.cpp:55</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00054">insertDimension()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00138">QCString::isEmpty()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00055">insertDimension()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00138">QCString::isEmpty()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01444">LatexDocVisitor::operator()()</a>, <a class="el" href="../../dd/db6/xmldocvisitor_8cpp_source.html#l00300">XmlDocVisitor::operator()()</a>, <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01930">LatexDocVisitor::startDiaFile()</a>, <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01851">LatexDocVisitor::startDotFile()</a>, <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01882">LatexDocVisitor::startMscFile()</a>, <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01962">LatexDocVisitor::writeDiaFile()</a>, <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01914">LatexDocVisitor::writeMscFile()</a>, and <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01977">LatexDocVisitor::writePlantUMLFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01445">LatexDocVisitor::operator()()</a>, <a class="el" href="../../dd/db6/xmldocvisitor_8cpp_source.html#l00300">XmlDocVisitor::operator()()</a>, <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01931">LatexDocVisitor::startDiaFile()</a>, <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01852">LatexDocVisitor::startDotFile()</a>, <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01883">LatexDocVisitor::startMscFile()</a>, <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01963">LatexDocVisitor::writeDiaFile()</a>, <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01915">LatexDocVisitor::writeMscFile()</a>, and <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01978">LatexDocVisitor::writePlantUMLFile()</a>.</p>
 
 </div>
 </div>
@@ -641,23 +642,23 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01127">1127</a> of file <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html">latexdocvisitor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1128</span>{</div>
-<div class="line"><span class="lineno"> 1129</span>  <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d1/d4e/latexdocvisitor_8cpp.html#a7483e4d318a25aa19df6e101e1df1235">tableIsNested</a>(n))</div>
-<div class="line"><span class="lineno"> 1130</span>  {</div>
-<div class="line"><span class="lineno"> 1131</span>    t &lt;&lt; <span class="stringliteral">&quot;\\end{tabularx}}\n&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1132</span>  }</div>
-<div class="line"><span class="lineno"> 1133</span>  <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno"> 1134</span>  {</div>
-<div class="line"><span class="lineno"> 1135</span>    t &lt;&lt; <span class="stringliteral">&quot;\\end{longtabu}\n&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1136</span>  }</div>
-<div class="line"><span class="lineno"> 1137</span>  <span class="comment">//return isNested ? &quot;TabularNC&quot; : &quot;TabularC&quot;;</span></div>
-<div class="line"><span class="lineno"> 1138</span>}</div>
-<div class="ttc" id="alatexdocvisitor_8cpp_html_a7483e4d318a25aa19df6e101e1df1235"><div class="ttname"><a href="../../d1/d4e/latexdocvisitor_8cpp.html#a7483e4d318a25aa19df6e101e1df1235">tableIsNested</a></div><div class="ttdeci">static bool tableIsNested(const DocNodeVariant *n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01103">latexdocvisitor.cpp:1103</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01128">1128</a> of file <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html">latexdocvisitor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1129</span>{</div>
+<div class="line"><span class="lineno"> 1130</span>  <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d1/d4e/latexdocvisitor_8cpp.html#a7483e4d318a25aa19df6e101e1df1235">tableIsNested</a>(n))</div>
+<div class="line"><span class="lineno"> 1131</span>  {</div>
+<div class="line"><span class="lineno"> 1132</span>    t &lt;&lt; <span class="stringliteral">&quot;\\end{tabularx}}\n&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1133</span>  }</div>
+<div class="line"><span class="lineno"> 1134</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1135</span>  {</div>
+<div class="line"><span class="lineno"> 1136</span>    t &lt;&lt; <span class="stringliteral">&quot;\\end{longtabu}\n&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1137</span>  }</div>
+<div class="line"><span class="lineno"> 1138</span>  <span class="comment">//return isNested ? &quot;TabularNC&quot; : &quot;TabularC&quot;;</span></div>
+<div class="line"><span class="lineno"> 1139</span>}</div>
+<div class="ttc" id="alatexdocvisitor_8cpp_html_a7483e4d318a25aa19df6e101e1df1235"><div class="ttname"><a href="../../d1/d4e/latexdocvisitor_8cpp.html#a7483e4d318a25aa19df6e101e1df1235">tableIsNested</a></div><div class="ttdeci">static bool tableIsNested(const DocNodeVariant *n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01104">latexdocvisitor.cpp:1104</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01103">tableIsNested()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01104">tableIsNested()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01140">LatexDocVisitor::operator()()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01141">LatexDocVisitor::operator()()</a>.</p>
 
 </div>
 </div>
@@ -701,22 +702,22 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01114">1114</a> of file <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html">latexdocvisitor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1115</span>{</div>
-<div class="line"><span class="lineno"> 1116</span>  <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d1/d4e/latexdocvisitor_8cpp.html#a7483e4d318a25aa19df6e101e1df1235">tableIsNested</a>(n))</div>
-<div class="line"><span class="lineno"> 1117</span>  {</div>
-<div class="line"><span class="lineno"> 1118</span>    t &lt;&lt; <span class="stringliteral">&quot;{\\begin{tabularx}{\\linewidth}{|*{&quot;</span> &lt;&lt; cols &lt;&lt; <span class="stringliteral">&quot;}{&gt;{\\raggedright\\arraybackslash}X|}}&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1119</span>  }</div>
-<div class="line"><span class="lineno"> 1120</span>  <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno"> 1121</span>  {</div>
-<div class="line"><span class="lineno"> 1122</span>    t &lt;&lt; <span class="stringliteral">&quot;\\tabulinesep=1mm\n\\begin{longtabu}spread 0pt [c]{*{&quot;</span> &lt;&lt; cols &lt;&lt; <span class="stringliteral">&quot;}{|X[-1]}|}\n&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1123</span>  }</div>
-<div class="line"><span class="lineno"> 1124</span>  <span class="comment">//return isNested ? &quot;TabularNC&quot; : &quot;TabularC&quot;;</span></div>
-<div class="line"><span class="lineno"> 1125</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01115">1115</a> of file <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html">latexdocvisitor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1116</span>{</div>
+<div class="line"><span class="lineno"> 1117</span>  <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d1/d4e/latexdocvisitor_8cpp.html#a7483e4d318a25aa19df6e101e1df1235">tableIsNested</a>(n))</div>
+<div class="line"><span class="lineno"> 1118</span>  {</div>
+<div class="line"><span class="lineno"> 1119</span>    t &lt;&lt; <span class="stringliteral">&quot;{\\begin{tabularx}{\\linewidth}{|*{&quot;</span> &lt;&lt; cols &lt;&lt; <span class="stringliteral">&quot;}{&gt;{\\raggedright\\arraybackslash}X|}}&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1120</span>  }</div>
+<div class="line"><span class="lineno"> 1121</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1122</span>  {</div>
+<div class="line"><span class="lineno"> 1123</span>    t &lt;&lt; <span class="stringliteral">&quot;\\tabulinesep=1mm\n\\begin{longtabu}spread 0pt [c]{*{&quot;</span> &lt;&lt; cols &lt;&lt; <span class="stringliteral">&quot;}{|X[-1]}|}\n&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1124</span>  }</div>
+<div class="line"><span class="lineno"> 1125</span>  <span class="comment">//return isNested ? &quot;TabularNC&quot; : &quot;TabularC&quot;;</span></div>
+<div class="line"><span class="lineno"> 1126</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01103">tableIsNested()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01104">tableIsNested()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01140">LatexDocVisitor::operator()()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l01141">LatexDocVisitor::operator()()</a>.</p>
 
 </div>
 </div>
@@ -733,9 +734,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00041">41</a> of file <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html">latexdocvisitor.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00042">42</a> of file <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html">latexdocvisitor.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00045">getSectionName()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00046">getSectionName()</a>.</p>
 
 </div>
 </div>
@@ -761,9 +762,9 @@ Variables</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line">=</div>
 <div class="line">   { <span class="stringliteral">&quot;doxysection&quot;</span>,<span class="stringliteral">&quot;doxysubsection&quot;</span>,<span class="stringliteral">&quot;doxysubsubsection&quot;</span>,<span class="stringliteral">&quot;doxyparagraph&quot;</span>,<span class="stringliteral">&quot;doxysubparagraph&quot;</span> }</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00042">42</a> of file <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html">latexdocvisitor.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00043">43</a> of file <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html">latexdocvisitor.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00045">getSectionName()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d4e/latexdocvisitor_8cpp_source.html#l00046">getSectionName()</a>.</p>
 
 </div>
 </div>

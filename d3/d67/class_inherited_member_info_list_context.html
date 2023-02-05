@@ -188,10 +188,10 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l08168">8168</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 8168</span>                                                               : <a class="code hl_variable" href="../../d3/d67/class_inherited_member_info_list_context.html#a365679990dd9ab6d93fbbf3503c9129a">p</a>(std::make_unique&lt;Private&gt;())</div>
-<div class="line"><span class="lineno"> 8169</span>{</div>
-<div class="line"><span class="lineno"> 8170</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l08175">8175</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 8175</span>                                                               : <a class="code hl_variable" href="../../d3/d67/class_inherited_member_info_list_context.html#a365679990dd9ab6d93fbbf3503c9129a">p</a>(std::make_unique&lt;Private&gt;())</div>
+<div class="line"><span class="lineno"> 8176</span>{</div>
+<div class="line"><span class="lineno"> 8177</span>}</div>
 <div class="ttc" id="aclass_inherited_member_info_list_context_html_a365679990dd9ab6d93fbbf3503c9129a"><div class="ttname"><a href="../../d3/d67/class_inherited_member_info_list_context.html#a365679990dd9ab6d93fbbf3503c9129a">InheritedMemberInfoListContext::p</a></div><div class="ttdeci">std::unique_ptr&lt; Private &gt; p</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d1e/context_8h_source.html#l01157">context.h:1157</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -219,9 +219,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l08186">8186</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 8187</span>{</div>
-<div class="line"><span class="lineno"> 8188</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l08193">8193</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 8194</span>{</div>
+<div class="line"><span class="lineno"> 8195</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -264,18 +264,18 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l08172">8172</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 8174</span>{</div>
-<div class="line"><span class="lineno"> 8175</span>  <a class="code hl_typedef" href="../../d1/da6/classdef_8h.html#a6a57c19877e781003273aacd8c7b18fe">ClassDefSet</a> visited;</div>
-<div class="line"><span class="lineno"> 8176</span>  <span class="keywordtype">bool</span> memberInSection = cd-&gt;<a class="code hl_function" href="../../d1/dcf/class_class_def.html#aa08a21c84b7e1718d8f2701bc3af6291">countMembersIncludingGrouped</a>(lt,cd,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>)&gt;0;</div>
-<div class="line"><span class="lineno"> 8177</span>  <span class="keywordtype">bool</span> show = (additionalList &amp;&amp; !memberInSection) || <span class="comment">// inherited member to show in the additional inherited members list</span></div>
-<div class="line"><span class="lineno"> 8178</span>              (!additionalList &amp;&amp; memberInSection);   <span class="comment">// inherited member to show in a member list of the class</span></div>
-<div class="line"><span class="lineno"> 8179</span>  <span class="comment">//printf(&quot;%s:%s show=%d\n&quot;,qPrint(cd-&gt;name()),qPrint(MemberList::listTypeAsString(lt)),show);</span></div>
-<div class="line"><span class="lineno"> 8180</span>  <span class="keywordflow">if</span> (show)</div>
-<div class="line"><span class="lineno"> 8181</span>  {</div>
-<div class="line"><span class="lineno"> 8182</span>    <a class="code hl_variable" href="../../d3/d67/class_inherited_member_info_list_context.html#a365679990dd9ab6d93fbbf3503c9129a">p</a>-&gt;findInheritedMembers(cd,cd,lt,-1,title,additionalList,visited);</div>
-<div class="line"><span class="lineno"> 8183</span>  }</div>
-<div class="line"><span class="lineno"> 8184</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l08179">8179</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 8181</span>{</div>
+<div class="line"><span class="lineno"> 8182</span>  <a class="code hl_typedef" href="../../d1/da6/classdef_8h.html#a6a57c19877e781003273aacd8c7b18fe">ClassDefSet</a> visited;</div>
+<div class="line"><span class="lineno"> 8183</span>  <span class="keywordtype">bool</span> memberInSection = cd-&gt;<a class="code hl_function" href="../../d1/dcf/class_class_def.html#aa08a21c84b7e1718d8f2701bc3af6291">countMembersIncludingGrouped</a>(lt,cd,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>)&gt;0;</div>
+<div class="line"><span class="lineno"> 8184</span>  <span class="keywordtype">bool</span> show = (additionalList &amp;&amp; !memberInSection) || <span class="comment">// inherited member to show in the additional inherited members list</span></div>
+<div class="line"><span class="lineno"> 8185</span>              (!additionalList &amp;&amp; memberInSection);   <span class="comment">// inherited member to show in a member list of the class</span></div>
+<div class="line"><span class="lineno"> 8186</span>  <span class="comment">//printf(&quot;%s:%s show=%d\n&quot;,qPrint(cd-&gt;name()),qPrint(MemberList::listTypeAsString(lt)),show);</span></div>
+<div class="line"><span class="lineno"> 8187</span>  <span class="keywordflow">if</span> (show)</div>
+<div class="line"><span class="lineno"> 8188</span>  {</div>
+<div class="line"><span class="lineno"> 8189</span>    <a class="code hl_variable" href="../../d3/d67/class_inherited_member_info_list_context.html#a365679990dd9ab6d93fbbf3503c9129a">p</a>-&gt;findInheritedMembers(cd,cd,lt,-1,title,additionalList,visited);</div>
+<div class="line"><span class="lineno"> 8190</span>  }</div>
+<div class="line"><span class="lineno"> 8191</span>}</div>
 <div class="ttc" id="aclass_class_def_html_aa08a21c84b7e1718d8f2701bc3af6291"><div class="ttname"><a href="../../d1/dcf/class_class_def.html#aa08a21c84b7e1718d8f2701bc3af6291">ClassDef::countMembersIncludingGrouped</a></div><div class="ttdeci">virtual int countMembersIncludingGrouped(MemberListType lt, const ClassDef *inheritedFrom, bool additional) const =0</div></div>
 <div class="ttc" id="aclassdef_8h_html_a6a57c19877e781003273aacd8c7b18fe"><div class="ttname"><a href="../../d1/da6/classdef_8h.html#a6a57c19877e781003273aacd8c7b18fe">ClassDefSet</a></div><div class="ttdeci">std::set&lt; const ClassDef * &gt; ClassDefSet</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da6/classdef_8h_source.html#l00093">classdef.h:93</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_aa93f0eb578d23995850d61f7d61c55c1"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></div><div class="ttdeci">#define FALSE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00033">qcstring.h:33</a></div></div>
@@ -310,7 +310,7 @@ Additional Inherited Members</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../dc/d1e/context_8h_source.html#l01143">1143</a> of file <a class="el" href="../../dc/d1e/context_8h_source.html">context.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 1144</span>    { <span class="keywordflow">return</span> std::static_pointer_cast&lt;TemplateListIntf&gt;(std::make_shared&lt;InheritedMemberInfoListContext&gt;()); }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l02231">ClassContext::Private::createAdditionalInheritedMembers()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l07937">MemberListInfoContext::Private::createInherited()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l02238">ClassContext::Private::createAdditionalInheritedMembers()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l07944">MemberListInfoContext::Private::createInherited()</a>.</p>
 
 </div>
 </div>
@@ -342,10 +342,10 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d6/d88/class_template_list_intf.html#aa46eadcf3f36d77491fa3a694cd1afd9">TemplateListIntf</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l08196">8196</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 8197</span>{</div>
-<div class="line"><span class="lineno"> 8198</span>  <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d3/d67/class_inherited_member_info_list_context.html#a365679990dd9ab6d93fbbf3503c9129a">p</a>-&gt;at(index);</div>
-<div class="line"><span class="lineno"> 8199</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l08203">8203</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 8204</span>{</div>
+<div class="line"><span class="lineno"> 8205</span>  <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d3/d67/class_inherited_member_info_list_context.html#a365679990dd9ab6d93fbbf3503c9129a">p</a>-&gt;at(index);</div>
+<div class="line"><span class="lineno"> 8206</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../dc/d1e/context_8h_source.html#l01157">p</a>.</p>
 
@@ -378,10 +378,10 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d6/d88/class_template_list_intf.html#a9dc30d3e9dd847c11050c7a6b8666470">TemplateListIntf</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l08191">8191</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 8192</span>{</div>
-<div class="line"><span class="lineno"> 8193</span>  <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d3/d67/class_inherited_member_info_list_context.html#a365679990dd9ab6d93fbbf3503c9129a">p</a>-&gt;count();</div>
-<div class="line"><span class="lineno"> 8194</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l08198">8198</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 8199</span>{</div>
+<div class="line"><span class="lineno"> 8200</span>  <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d3/d67/class_inherited_member_info_list_context.html#a365679990dd9ab6d93fbbf3503c9129a">p</a>-&gt;count();</div>
+<div class="line"><span class="lineno"> 8201</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../dc/d1e/context_8h_source.html#l01157">p</a>.</p>
 
@@ -415,10 +415,10 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d6/d88/class_template_list_intf.html#a012fed2bd9d1c19de95e98418a56fc2a">TemplateListIntf</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l08201">8201</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 8202</span>{</div>
-<div class="line"><span class="lineno"> 8203</span>  <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d3/d67/class_inherited_member_info_list_context.html#a365679990dd9ab6d93fbbf3503c9129a">p</a>-&gt;createIterator();</div>
-<div class="line"><span class="lineno"> 8204</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l08208">8208</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 8209</span>{</div>
+<div class="line"><span class="lineno"> 8210</span>  <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d3/d67/class_inherited_member_info_list_context.html#a365679990dd9ab6d93fbbf3503c9129a">p</a>-&gt;createIterator();</div>
+<div class="line"><span class="lineno"> 8211</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../dc/d1e/context_8h_source.html#l01157">p</a>.</p>
 
@@ -447,7 +447,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d1e/context_8h_source.html#l01157">1157</a> of file <a class="el" href="../../dc/d1e/context_8h_source.html">context.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l08172">addMemberList()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l08196">at()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l08191">count()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l08201">createIterator()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l08179">addMemberList()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l08203">at()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l08198">count()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l08208">createIterator()</a>.</p>
 
 </div>
 </div>

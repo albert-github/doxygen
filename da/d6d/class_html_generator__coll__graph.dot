@@ -15,8 +15,6 @@ digraph "HtmlGenerator"
   Node4 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" m_lastFile\nm_lastTitle\nm_relPath",fontcolor="grey" ];
   Node5 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" m_codeGen",fontcolor="grey" ];
   Node5 [label="HtmlCodeGenerator",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$da/db6/class_html_code_generator.html",tooltip="Generator for HTML code fragments."];
-  Node6 -> Node5 [dir="back",color="steelblue1",style="solid"];
-  Node6 [label="CodeOutputInterface",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d5/d9c/class_code_output_interface.html",tooltip="Output interface for code parser."];
   Node3 -> Node5 [dir="back",color="darkorchid3",style="dashed",label=" m_t",fontcolor="grey" ];
   Node4 -> Node5 [dir="back",color="darkorchid3",style="dashed",label=" m_relPath",fontcolor="grey" ];
 }

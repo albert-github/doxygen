@@ -6,5 +6,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [label="TokenInfo",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/df4/struct_token_info.html",tooltip="Data associated with a token used by the comment block parser."];
+  Node0 [label="TemplateLexer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d1f/class_template_lexer.html",tooltip="Lexer class for turning a template into a list of tokens."];
 }
