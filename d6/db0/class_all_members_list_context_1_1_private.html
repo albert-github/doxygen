@@ -157,7 +157,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l07727">7727</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l07720">7720</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a89e20f4cff30eec421f3a31a587d51fc" name="a89e20f4cff30eec421f3a31a587d51fc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a89e20f4cff30eec421f3a31a587d51fc">&#9670;&#160;</a></span>Private()</h2>
@@ -183,34 +183,34 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l07730">7730</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 7731</span>    {</div>
-<div class="line"><span class="lineno"> 7732</span>      <span class="keywordtype">bool</span> hideUndocMembers = <a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(HIDE_UNDOC_MEMBERS);</div>
-<div class="line"><span class="lineno"> 7733</span>      <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;mni : ml)</div>
-<div class="line"><span class="lineno"> 7734</span>      {</div>
-<div class="line"><span class="lineno"> 7735</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;mi : *mni)</div>
-<div class="line"><span class="lineno"> 7736</span>        {</div>
-<div class="line"><span class="lineno"> 7737</span>          <span class="keyword">const</span> <a class="code hl_class" href="../../da/d09/class_member_def.html">MemberDef</a> *md=mi-&gt;memberDef();</div>
-<div class="line"><span class="lineno"> 7738</span>          <span class="keyword">const</span> <a class="code hl_class" href="../../d1/dcf/class_class_def.html">ClassDef</a>  *cd=md-&gt;<a class="code hl_function" href="../../da/d09/class_member_def.html#a33ff70edee6691aacaeecf40a1146995">getClassDef</a>();</div>
-<div class="line"><span class="lineno"> 7739</span>          <span class="keywordflow">if</span> (cd &amp;&amp; !md-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#a8f18141678a6bf5fb86e8de29bc0f1cd">isAnonymous</a>())</div>
-<div class="line"><span class="lineno"> 7740</span>          {</div>
-<div class="line"><span class="lineno"> 7741</span>            <span class="keywordflow">if</span> ((cd-&gt;<a class="code hl_function" href="../../d1/dcf/class_class_def.html#a659ebf886a21ea56b51354c22b91b0dc">isLinkable</a>() &amp;&amp; md-&gt;<a class="code hl_function" href="../../da/d09/class_member_def.html#aa0a9d4db2b1fbdd5c728f4b2e4c2694d">isLinkable</a>()) ||</div>
-<div class="line"><span class="lineno"> 7742</span>                (!cd-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#ac74ba7e23ad9695f7ac03add58038243">isArtificial</a>() &amp;&amp; !hideUndocMembers &amp;&amp;</div>
-<div class="line"><span class="lineno"> 7743</span>                 (<a class="code hl_function" href="../../df/d2d/util_8cpp.html#a1e07db76938eb8a2bb8c79b2d0ec4980">protectionLevelVisible</a>(md-&gt;<a class="code hl_function" href="../../da/d09/class_member_def.html#ab266b88c02dd8d5089b29d501b412c5d">protection</a>()) || md-&gt;<a class="code hl_function" href="../../da/d09/class_member_def.html#a19a22a7e9394cf6e49ab6156274461d3">isFriend</a>())</div>
-<div class="line"><span class="lineno"> 7744</span>                )</div>
-<div class="line"><span class="lineno"> 7745</span>               )</div>
-<div class="line"><span class="lineno"> 7746</span>            {</div>
-<div class="line"><span class="lineno"> 7747</span>              <a class="code hl_function" href="../../d6/dcb/class_generic_node_list_context.html#a1e3defa7bc050ae33e2fbabba7a20643">append</a>(<a class="code hl_function" href="../../d4/d22/class_member_info_context.html#ae978a5b979e6501dfba4a447e1691d4e">MemberInfoContext::alloc</a>(mi.get()));</div>
-<div class="line"><span class="lineno"> 7748</span>            }</div>
-<div class="line"><span class="lineno"> 7749</span>          }</div>
-<div class="line"><span class="lineno"> 7750</span>        }</div>
-<div class="line"><span class="lineno"> 7751</span>      }</div>
-<div class="line"><span class="lineno"> 7752</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l07723">7723</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 7724</span>    {</div>
+<div class="line"><span class="lineno"> 7725</span>      <span class="keywordtype">bool</span> hideUndocMembers = <a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(HIDE_UNDOC_MEMBERS);</div>
+<div class="line"><span class="lineno"> 7726</span>      <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;mni : ml)</div>
+<div class="line"><span class="lineno"> 7727</span>      {</div>
+<div class="line"><span class="lineno"> 7728</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;mi : *mni)</div>
+<div class="line"><span class="lineno"> 7729</span>        {</div>
+<div class="line"><span class="lineno"> 7730</span>          <span class="keyword">const</span> <a class="code hl_class" href="../../da/d09/class_member_def.html">MemberDef</a> *md=mi-&gt;memberDef();</div>
+<div class="line"><span class="lineno"> 7731</span>          <span class="keyword">const</span> <a class="code hl_class" href="../../d1/dcf/class_class_def.html">ClassDef</a>  *cd=md-&gt;<a class="code hl_function" href="../../da/d09/class_member_def.html#a33ff70edee6691aacaeecf40a1146995">getClassDef</a>();</div>
+<div class="line"><span class="lineno"> 7732</span>          <span class="keywordflow">if</span> (cd &amp;&amp; !md-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#a8f18141678a6bf5fb86e8de29bc0f1cd">isAnonymous</a>())</div>
+<div class="line"><span class="lineno"> 7733</span>          {</div>
+<div class="line"><span class="lineno"> 7734</span>            <span class="keywordflow">if</span> ((cd-&gt;<a class="code hl_function" href="../../d1/dcf/class_class_def.html#a659ebf886a21ea56b51354c22b91b0dc">isLinkable</a>() &amp;&amp; md-&gt;<a class="code hl_function" href="../../da/d09/class_member_def.html#aa0a9d4db2b1fbdd5c728f4b2e4c2694d">isLinkable</a>()) ||</div>
+<div class="line"><span class="lineno"> 7735</span>                (!cd-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#ac74ba7e23ad9695f7ac03add58038243">isArtificial</a>() &amp;&amp; !hideUndocMembers &amp;&amp;</div>
+<div class="line"><span class="lineno"> 7736</span>                 (<a class="code hl_function" href="../../df/d2d/util_8cpp.html#a1e07db76938eb8a2bb8c79b2d0ec4980">protectionLevelVisible</a>(md-&gt;<a class="code hl_function" href="../../da/d09/class_member_def.html#ab266b88c02dd8d5089b29d501b412c5d">protection</a>()) || md-&gt;<a class="code hl_function" href="../../da/d09/class_member_def.html#a19a22a7e9394cf6e49ab6156274461d3">isFriend</a>())</div>
+<div class="line"><span class="lineno"> 7737</span>                )</div>
+<div class="line"><span class="lineno"> 7738</span>               )</div>
+<div class="line"><span class="lineno"> 7739</span>            {</div>
+<div class="line"><span class="lineno"> 7740</span>              <a class="code hl_function" href="../../d6/dcb/class_generic_node_list_context.html#a1e3defa7bc050ae33e2fbabba7a20643">append</a>(<a class="code hl_function" href="../../d4/d22/class_member_info_context.html#ae978a5b979e6501dfba4a447e1691d4e">MemberInfoContext::alloc</a>(mi.get()));</div>
+<div class="line"><span class="lineno"> 7741</span>            }</div>
+<div class="line"><span class="lineno"> 7742</span>          }</div>
+<div class="line"><span class="lineno"> 7743</span>        }</div>
+<div class="line"><span class="lineno"> 7744</span>      }</div>
+<div class="line"><span class="lineno"> 7745</span>    }</div>
 <div class="ttc" id="aclass_class_def_html"><div class="ttname"><a href="../../d1/dcf/class_class_def.html">ClassDef</a></div><div class="ttdoc">A abstract class representing of a compound symbol.</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da6/classdef_8h_source.html#l00101">classdef.h:102</a></div></div>
 <div class="ttc" id="aclass_class_def_html_a659ebf886a21ea56b51354c22b91b0dc"><div class="ttname"><a href="../../d1/dcf/class_class_def.html#a659ebf886a21ea56b51354c22b91b0dc">ClassDef::isLinkable</a></div><div class="ttdeci">virtual bool isLinkable() const =0</div><div class="ttdoc">return TRUE iff a link to this class is possible (either within this project, or as a cross-reference...</div></div>
 <div class="ttc" id="aclass_definition_html_a8f18141678a6bf5fb86e8de29bc0f1cd"><div class="ttname"><a href="../../d5/dcc/class_definition.html#a8f18141678a6bf5fb86e8de29bc0f1cd">Definition::isAnonymous</a></div><div class="ttdeci">virtual bool isAnonymous() const =0</div></div>
 <div class="ttc" id="aclass_definition_html_ac74ba7e23ad9695f7ac03add58038243"><div class="ttname"><a href="../../d5/dcc/class_definition.html#ac74ba7e23ad9695f7ac03add58038243">Definition::isArtificial</a></div><div class="ttdeci">virtual bool isArtificial() const =0</div></div>
-<div class="ttc" id="aclass_generic_node_list_context_html_a1e3defa7bc050ae33e2fbabba7a20643"><div class="ttname"><a href="../../d6/dcb/class_generic_node_list_context.html#a1e3defa7bc050ae33e2fbabba7a20643">GenericNodeListContext::append</a></div><div class="ttdeci">void append(const TemplateVariant &amp;ctn)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l00221">context.cpp:221</a></div></div>
+<div class="ttc" id="aclass_generic_node_list_context_html_a1e3defa7bc050ae33e2fbabba7a20643"><div class="ttname"><a href="../../d6/dcb/class_generic_node_list_context.html#a1e3defa7bc050ae33e2fbabba7a20643">GenericNodeListContext::append</a></div><div class="ttdeci">void append(const TemplateVariant &amp;ctn)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l00220">context.cpp:220</a></div></div>
 <div class="ttc" id="aclass_member_def_html"><div class="ttname"><a href="../../da/d09/class_member_def.html">MemberDef</a></div><div class="ttdoc">A model of a class/file/namespace member symbol.</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d46/memberdef_8h_source.html#l00045">memberdef.h:46</a></div></div>
 <div class="ttc" id="aclass_member_def_html_a19a22a7e9394cf6e49ab6156274461d3"><div class="ttname"><a href="../../da/d09/class_member_def.html#a19a22a7e9394cf6e49ab6156274461d3">MemberDef::isFriend</a></div><div class="ttdeci">virtual bool isFriend() const =0</div></div>
 <div class="ttc" id="aclass_member_def_html_a33ff70edee6691aacaeecf40a1146995"><div class="ttname"><a href="../../da/d09/class_member_def.html#a33ff70edee6691aacaeecf40a1146995">MemberDef::getClassDef</a></div><div class="ttdeci">virtual const ClassDef * getClassDef() const =0</div></div>
@@ -220,7 +220,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="aconfig_8h_html_a5373d0332a31f16ad7a42037733e8c79"><div class="ttname"><a href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a></div><div class="ttdeci">#define Config_getBool(name)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/config_8h_source.html#l00033">config.h:33</a></div></div>
 <div class="ttc" id="autil_8cpp_html_a1e07db76938eb8a2bb8c79b2d0ec4980"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a1e07db76938eb8a2bb8c79b2d0ec4980">protectionLevelVisible</a></div><div class="ttdeci">bool protectionLevelVisible(Protection prot)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l06259">util.cpp:6259</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/d1e/context_8h_source.html#l01103">MemberInfoContext::alloc()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l00221">GenericNodeListContext::append()</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../da/d09/class_member_def.html#a33ff70edee6691aacaeecf40a1146995">MemberDef::getClassDef()</a>, <a class="el" href="../../d5/dcc/class_definition.html#a8f18141678a6bf5fb86e8de29bc0f1cd">Definition::isAnonymous()</a>, <a class="el" href="../../d5/dcc/class_definition.html#ac74ba7e23ad9695f7ac03add58038243">Definition::isArtificial()</a>, <a class="el" href="../../da/d09/class_member_def.html#a19a22a7e9394cf6e49ab6156274461d3">MemberDef::isFriend()</a>, <a class="el" href="../../d1/dcf/class_class_def.html#a659ebf886a21ea56b51354c22b91b0dc">ClassDef::isLinkable()</a>, <a class="el" href="../../da/d09/class_member_def.html#aa0a9d4db2b1fbdd5c728f4b2e4c2694d">MemberDef::isLinkable()</a>, <a class="el" href="../../da/d09/class_member_def.html#ab266b88c02dd8d5089b29d501b412c5d">MemberDef::protection()</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l06259">protectionLevelVisible()</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d1e/context_8h_source.html#l01103">MemberInfoContext::alloc()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l00220">GenericNodeListContext::append()</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../da/d09/class_member_def.html#a33ff70edee6691aacaeecf40a1146995">MemberDef::getClassDef()</a>, <a class="el" href="../../d5/dcc/class_definition.html#a8f18141678a6bf5fb86e8de29bc0f1cd">Definition::isAnonymous()</a>, <a class="el" href="../../d5/dcc/class_definition.html#ac74ba7e23ad9695f7ac03add58038243">Definition::isArtificial()</a>, <a class="el" href="../../da/d09/class_member_def.html#a19a22a7e9394cf6e49ab6156274461d3">MemberDef::isFriend()</a>, <a class="el" href="../../d1/dcf/class_class_def.html#a659ebf886a21ea56b51354c22b91b0dc">ClassDef::isLinkable()</a>, <a class="el" href="../../da/d09/class_member_def.html#aa0a9d4db2b1fbdd5c728f4b2e4c2694d">MemberDef::isLinkable()</a>, <a class="el" href="../../da/d09/class_member_def.html#ab266b88c02dd8d5089b29d501b412c5d">MemberDef::protection()</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l06259">protectionLevelVisible()</a>.</p>
 
 </div>
 </div>

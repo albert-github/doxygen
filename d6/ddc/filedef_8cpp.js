@@ -1,6 +1,7 @@
 var filedef_8cpp =
 [
     [ "FileDefImpl", "d5/d14/class_file_def_impl.html", "d5/d14/class_file_def_impl" ],
+    [ "DevNullCodeDocInterface", "dd/d8a/class_dev_null_code_doc_interface.html", "dd/d8a/class_dev_null_code_doc_interface" ],
     [ "DefinitionLineMap", "d6/ddc/filedef_8cpp.html#a299fa68e1d48096ee904ecaaad31e6a8", null ],
     [ "IncludeInfoMap", "d6/ddc/filedef_8cpp.html#a04f6e8bf724164f1e1444d3787c3a90e", null ],
     [ "MemberDefLineMap", "d6/ddc/filedef_8cpp.html#a621b4779f68a069952d208cb712ef697", null ],

@@ -14,5 +14,7 @@ digraph "ManGenerator"
   Node4 [label="QCString",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d9/d45/class_q_c_string.html",tooltip="This is an alternative implementation of QCString."];
   Node5 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" m_codeGen",fontcolor="grey" ];
   Node5 [label="ManCodeGenerator",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$db/d92/class_man_code_generator.html",tooltip="Generator for Man page code fragments."];
+  Node6 -> Node5 [dir="back",color="steelblue1",style="solid"];
+  Node6 [label="CodeOutputInterface",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d5/d9c/class_code_output_interface.html",tooltip="Output interface for code parser."];
   Node3 -> Node5 [dir="back",color="darkorchid3",style="dashed",label=" m_t",fontcolor="grey" ];
 }

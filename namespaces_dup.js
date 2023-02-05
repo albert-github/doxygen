@@ -62,7 +62,6 @@ var namespaces_dup =
         [ "Total", "da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca0871415d5e1675ebcdb37b458fc8b67f", null ]
       ] ]
     ] ],
-    [ "OutputCodeIntf", "d5/de5/namespace_output_code_intf.html", "d5/de5/namespace_output_code_intf" ],
     [ "Portable", "d7/d6f/namespace_portable.html", [
       [ "checkForExecutable", "d7/d6f/namespace_portable.html#a39228795dec07d8121645b0348e91712", null ],
       [ "commandExtension", "d7/d6f/namespace_portable.html#acf75def6ec394875d4a3c380ffc301b7", null ],

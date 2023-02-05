@@ -157,7 +157,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06346">6346</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06339">6339</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a869f1cba6933b5732cef01d6d557e1e2" name="a869f1cba6933b5732cef01d6d557e1e2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a869f1cba6933b5732cef01d6d557e1e2">&#9670;&#160;</a></span>addFiles()</h2>
@@ -183,27 +183,27 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06349">6349</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 6350</span>    {</div>
-<div class="line"><span class="lineno"> 6351</span>      <span class="comment">// TODO: if FULL_PATH_NAMES is enabled, the ordering should be dir+file</span></div>
-<div class="line"><span class="lineno"> 6352</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;fn : fnMap)</div>
-<div class="line"><span class="lineno"> 6353</span>      {</div>
-<div class="line"><span class="lineno"> 6354</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;fd : *fn)</div>
-<div class="line"><span class="lineno"> 6355</span>        {</div>
-<div class="line"><span class="lineno"> 6356</span>          <span class="keywordtype">bool</span> doc = fd-&gt;isLinkableInProject();</div>
-<div class="line"><span class="lineno"> 6357</span>          <span class="keywordtype">bool</span> src = fd-&gt;generateSourceFile();</div>
-<div class="line"><span class="lineno"> 6358</span>          <span class="keywordtype">bool</span> nameOk = !fd-&gt;isDocumentationFile();</div>
-<div class="line"><span class="lineno"> 6359</span>          <span class="keywordflow">if</span> (nameOk &amp;&amp; (doc || src) &amp;&amp; !fd-&gt;isReference())</div>
-<div class="line"><span class="lineno"> 6360</span>          {</div>
-<div class="line"><span class="lineno"> 6361</span>            <a class="code hl_function" href="../../d6/dcb/class_generic_node_list_context.html#a1e3defa7bc050ae33e2fbabba7a20643">append</a>(<a class="code hl_function" href="../../d3/db7/class_file_context.html#aba2fe05cd43c591a894840482ed32e79">FileContext::alloc</a>(fd.get()));</div>
-<div class="line"><span class="lineno"> 6362</span>          }</div>
-<div class="line"><span class="lineno"> 6363</span>        }</div>
-<div class="line"><span class="lineno"> 6364</span>      }</div>
-<div class="line"><span class="lineno"> 6365</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06342">6342</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 6343</span>    {</div>
+<div class="line"><span class="lineno"> 6344</span>      <span class="comment">// TODO: if FULL_PATH_NAMES is enabled, the ordering should be dir+file</span></div>
+<div class="line"><span class="lineno"> 6345</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;fn : fnMap)</div>
+<div class="line"><span class="lineno"> 6346</span>      {</div>
+<div class="line"><span class="lineno"> 6347</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;fd : *fn)</div>
+<div class="line"><span class="lineno"> 6348</span>        {</div>
+<div class="line"><span class="lineno"> 6349</span>          <span class="keywordtype">bool</span> doc = fd-&gt;isLinkableInProject();</div>
+<div class="line"><span class="lineno"> 6350</span>          <span class="keywordtype">bool</span> src = fd-&gt;generateSourceFile();</div>
+<div class="line"><span class="lineno"> 6351</span>          <span class="keywordtype">bool</span> nameOk = !fd-&gt;isDocumentationFile();</div>
+<div class="line"><span class="lineno"> 6352</span>          <span class="keywordflow">if</span> (nameOk &amp;&amp; (doc || src) &amp;&amp; !fd-&gt;isReference())</div>
+<div class="line"><span class="lineno"> 6353</span>          {</div>
+<div class="line"><span class="lineno"> 6354</span>            <a class="code hl_function" href="../../d6/dcb/class_generic_node_list_context.html#a1e3defa7bc050ae33e2fbabba7a20643">append</a>(<a class="code hl_function" href="../../d3/db7/class_file_context.html#aba2fe05cd43c591a894840482ed32e79">FileContext::alloc</a>(fd.get()));</div>
+<div class="line"><span class="lineno"> 6355</span>          }</div>
+<div class="line"><span class="lineno"> 6356</span>        }</div>
+<div class="line"><span class="lineno"> 6357</span>      }</div>
+<div class="line"><span class="lineno"> 6358</span>    }</div>
 <div class="ttc" id="aclass_file_context_html_aba2fe05cd43c591a894840482ed32e79"><div class="ttname"><a href="../../d3/db7/class_file_context.html#aba2fe05cd43c591a894840482ed32e79">FileContext::alloc</a></div><div class="ttdeci">static TemplateStructIntfPtr alloc(const FileDef *fd)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d1e/context_8h_source.html#l00260">context.h:260</a></div></div>
-<div class="ttc" id="aclass_generic_node_list_context_html_a1e3defa7bc050ae33e2fbabba7a20643"><div class="ttname"><a href="../../d6/dcb/class_generic_node_list_context.html#a1e3defa7bc050ae33e2fbabba7a20643">GenericNodeListContext::append</a></div><div class="ttdeci">void append(const TemplateVariant &amp;ctn)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l00221">context.cpp:221</a></div></div>
+<div class="ttc" id="aclass_generic_node_list_context_html_a1e3defa7bc050ae33e2fbabba7a20643"><div class="ttname"><a href="../../d6/dcb/class_generic_node_list_context.html#a1e3defa7bc050ae33e2fbabba7a20643">GenericNodeListContext::append</a></div><div class="ttdeci">void append(const TemplateVariant &amp;ctn)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l00220">context.cpp:220</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/d1e/context_8h_source.html#l00260">FileContext::alloc()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l00221">GenericNodeListContext::append()</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d1e/context_8h_source.html#l00260">FileContext::alloc()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l00220">GenericNodeListContext::append()</a>.</p>
 
 </div>
 </div>

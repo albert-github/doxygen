@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 516;
+var viewWidth = 542;
 var viewHeight = 240;
 var sectionId = 'dynsection-0';
 </script>
@@ -58,8 +58,8 @@ var sectionId = 'dynsection-0';
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title=" ">
-<polygon fill="#999999" stroke="#666666" points="301.5,-19 170.5,-19 170.5,0 301.5,0 301.5,-19"/>
-<text text-anchor="middle" x="236" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">SQLCodeParser::Private</text>
+<polygon fill="#999999" stroke="#666666" points="327.5,-19 196.5,-19 196.5,0 327.5,0 327.5,-19"/>
+<text text-anchor="middle" x="262" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">SQLCodeParser::Private</text>
 </a>
 </g>
 </g>
@@ -67,127 +67,127 @@ var sectionId = 'dynsection-0';
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="../../da/d7b/structsqlcode_y_y__state.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="284,-85 188,-85 188,-66 284,-66 284,-85"/>
-<text text-anchor="middle" x="236" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">sqlcodeYY_state</text>
+<polygon fill="white" stroke="#666666" points="310,-85 214,-85 214,-66 310,-66 310,-85"/>
+<text text-anchor="middle" x="262" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">sqlcodeYY_state</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M236,-55.58C236,-43.63 236,-28.72 236,-19.41"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="232.5,-55.87 236,-65.87 239.5,-55.87 232.5,-55.87"/>
-<text text-anchor="middle" x="250" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> state</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M262,-55.58C262,-43.63 262,-28.72 262,-19.41"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="258.5,-55.87 262,-65.87 265.5,-55.87 258.5,-55.87"/>
+<text text-anchor="middle" x="276" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> state</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../db/d8e/class_output_code_list.html" target="_top" xlink:title="Class representing a list of different code generators.">
-<polygon fill="white" stroke="#666666" points="92,-174.5 0,-174.5 0,-155.5 92,-155.5 92,-174.5"/>
-<text text-anchor="middle" x="46" y="-162.5" font-family="Helvetica,sans-Serif" font-size="10.00">OutputCodeList</text>
+<g id="a_node3"><a xlink:href="../../d5/d9c/class_code_output_interface.html" target="_top" xlink:title="Output interface for code parser.">
+<polygon fill="white" stroke="#666666" points="118,-174.5 0,-174.5 0,-155.5 118,-155.5 118,-174.5"/>
+<text text-anchor="middle" x="59" y="-162.5" font-family="Helvetica,sans-Serif" font-size="10.00">CodeOutputInterface</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node2 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node2</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M59.57,-147.5C72.01,-133.49 91.69,-113.97 113,-103 136.11,-91.1 164.32,-84.54 187.88,-80.92"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="56.66,-145.51 52.81,-155.38 61.98,-150.07 56.66,-145.51"/>
-<text text-anchor="middle" x="126.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> code</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M74.98,-148.37C90.19,-134.37 114.37,-114.35 139,-103 162.41,-92.21 190.37,-85.74 213.72,-81.89"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="72.36,-146.02 67.5,-155.43 77.17,-151.11 72.36,-146.02"/>
+<text text-anchor="middle" x="152.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> code</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="../../d9/d45/class_q_c_string.html" target="_top" xlink:title="This is an alternative implementation of QCString.">
-<polygon fill="white" stroke="#666666" points="169.5,-174.5 110.5,-174.5 110.5,-155.5 169.5,-155.5 169.5,-174.5"/>
-<text text-anchor="middle" x="140" y="-162.5" font-family="Helvetica,sans-Serif" font-size="10.00">QCString</text>
+<polygon fill="white" stroke="#666666" points="195.5,-174.5 136.5,-174.5 136.5,-155.5 195.5,-155.5 195.5,-174.5"/>
+<text text-anchor="middle" x="166" y="-162.5" font-family="Helvetica,sans-Serif" font-size="10.00">QCString</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node2 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node2</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M141.41,-145.26C143.37,-131.88 148.01,-114.32 159,-103 167.08,-94.68 177.88,-88.97 188.83,-85.06"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="137.92,-144.97 140.32,-155.29 144.88,-145.72 137.92,-144.97"/>
-<text text-anchor="middle" x="195.5" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> classScope</text>
-<text text-anchor="middle" x="195.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">exampleName</text>
-<text text-anchor="middle" x="195.5" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">fileName</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M167.41,-145.26C169.37,-131.88 174.01,-114.32 185,-103 193.08,-94.68 203.88,-88.97 214.83,-85.06"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="163.92,-144.97 166.32,-155.29 170.88,-145.72 163.92,-144.97"/>
+<text text-anchor="middle" x="221.5" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> classScope</text>
+<text text-anchor="middle" x="221.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">exampleName</text>
+<text text-anchor="middle" x="221.5" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">fileName</text>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="../../d5/dcc/class_definition.html" target="_top" xlink:title="The common base class of all entity definitions found in the sources.">
-<polygon fill="white" stroke="#666666" points="366,-232 302,-232 302,-213 366,-213 366,-232"/>
-<text text-anchor="middle" x="334" y="-220" font-family="Helvetica,sans-Serif" font-size="10.00">Definition</text>
+<polygon fill="white" stroke="#666666" points="392,-232 328,-232 328,-213 392,-213 392,-232"/>
+<text text-anchor="middle" x="360" y="-220" font-family="Helvetica,sans-Serif" font-size="10.00">Definition</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node2 -->
 <g id="edge4" class="edge">
 <title>Node5&#45;&gt;Node2</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M358.21,-207.68C394.75,-185.12 456.54,-139.27 425,-103 407.12,-82.44 334.18,-77.36 284.32,-76.35"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="356.3,-204.74 349.53,-212.89 359.91,-210.74 356.3,-204.74"/>
-<text text-anchor="middle" x="465.5" y="-168" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> currentDefinition</text>
-<text text-anchor="middle" x="465.5" y="-157" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">searchCtx</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M384.21,-207.68C420.75,-185.12 482.54,-139.27 451,-103 433.12,-82.44 360.18,-77.36 310.32,-76.35"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="382.3,-204.74 375.53,-212.89 385.91,-210.74 382.3,-204.74"/>
+<text text-anchor="middle" x="491.5" y="-168" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> currentDefinition</text>
+<text text-anchor="middle" x="491.5" y="-157" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">searchCtx</text>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="../../de/db0/class_file_def.html" target="_top" xlink:title="A model of a file symbol.">
-<polygon fill="white" stroke="#666666" points="261.5,-174.5 210.5,-174.5 210.5,-155.5 261.5,-155.5 261.5,-174.5"/>
-<text text-anchor="middle" x="236" y="-162.5" font-family="Helvetica,sans-Serif" font-size="10.00">FileDef</text>
+<polygon fill="white" stroke="#666666" points="287.5,-174.5 236.5,-174.5 236.5,-155.5 287.5,-155.5 287.5,-174.5"/>
+<text text-anchor="middle" x="262" y="-162.5" font-family="Helvetica,sans-Serif" font-size="10.00">FileDef</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node6 -->
 <g id="edge7" class="edge">
 <title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="#63b8ff" d="M309.76,-207.77C291.43,-197.39 266.84,-183.47 251.2,-174.61"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="308.26,-210.95 318.69,-212.83 311.71,-204.85 308.26,-210.95"/>
+<path fill="none" stroke="#63b8ff" d="M335.76,-207.77C317.43,-197.39 292.84,-183.47 277.2,-174.61"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="334.26,-210.95 344.69,-212.83 337.71,-204.85 334.26,-210.95"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
 <g id="a_node8"><a xlink:href="../../da/d09/class_member_def.html" target="_top" xlink:title="A model of a class/file/namespace member symbol.">
-<polygon fill="white" stroke="#666666" points="368,-174.5 294,-174.5 294,-155.5 368,-155.5 368,-174.5"/>
-<text text-anchor="middle" x="331" y="-162.5" font-family="Helvetica,sans-Serif" font-size="10.00">MemberDef</text>
+<polygon fill="white" stroke="#666666" points="394,-174.5 320,-174.5 320,-155.5 394,-155.5 394,-174.5"/>
+<text text-anchor="middle" x="357" y="-162.5" font-family="Helvetica,sans-Serif" font-size="10.00">MemberDef</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node8 -->
 <g id="edge9" class="edge">
 <title>Node5&#45;&gt;Node8</title>
-<path fill="none" stroke="#63b8ff" d="M332.99,-202.75C332.48,-193.3 331.88,-182.28 331.48,-174.79"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="329.5,-203.03 333.53,-212.83 336.49,-202.65 329.5,-203.03"/>
+<path fill="none" stroke="#63b8ff" d="M358.99,-202.75C358.48,-193.3 357.88,-182.28 357.48,-174.79"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="355.5,-203.03 359.53,-212.83 362.49,-202.65 355.5,-203.03"/>
 </g>
 <!-- Node6&#45;&gt;Node2 -->
 <g id="edge5" class="edge">
 <title>Node6&#45;&gt;Node2</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M236,-145.09C236,-126.52 236,-99.04 236,-85.17"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="232.5,-145.29 236,-155.29 239.5,-145.29 232.5,-145.29"/>
-<text text-anchor="middle" x="271" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> sourceFileDef</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M262,-145.09C262,-126.52 262,-99.04 262,-85.17"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="258.5,-145.29 262,-155.29 265.5,-145.29 258.5,-145.29"/>
+<text text-anchor="middle" x="297" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> sourceFileDef</text>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="../../d0/d46/class_definition_mutable.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="284,-232 180,-232 180,-213 284,-213 284,-232"/>
-<text text-anchor="middle" x="232" y="-220" font-family="Helvetica,sans-Serif" font-size="10.00">DefinitionMutable</text>
+<polygon fill="white" stroke="#666666" points="310,-232 206,-232 206,-213 310,-213 310,-232"/>
+<text text-anchor="middle" x="258" y="-220" font-family="Helvetica,sans-Serif" font-size="10.00">DefinitionMutable</text>
 </a>
 </g>
 </g>
 <!-- Node7&#45;&gt;Node6 -->
 <g id="edge6" class="edge">
 <title>Node7&#45;&gt;Node6</title>
-<path fill="none" stroke="#63b8ff" d="M233.35,-202.75C234.03,-193.3 234.83,-182.28 235.37,-174.79"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="229.85,-202.6 232.62,-212.83 236.83,-203.11 229.85,-202.6"/>
+<path fill="none" stroke="#63b8ff" d="M259.35,-202.75C260.03,-193.3 260.83,-182.28 261.37,-174.79"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="255.85,-202.6 258.62,-212.83 262.83,-203.11 255.85,-202.6"/>
 </g>
 <!-- Node8&#45;&gt;Node2 -->
 <g id="edge8" class="edge">
 <title>Node8&#45;&gt;Node2</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M327.83,-145.27C324.67,-131.9 318.54,-114.34 307,-103 298.55,-94.7 287.27,-88.96 276.19,-85.01"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="324.44,-146.18 329.85,-155.29 331.31,-144.8 324.44,-146.18"/>
-<text text-anchor="middle" x="373" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> currentMemberDef</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M353.83,-145.27C350.67,-131.9 344.54,-114.34 333,-103 324.55,-94.7 313.27,-88.96 302.19,-85.01"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="350.44,-146.18 355.85,-155.29 357.31,-144.8 350.44,-146.18"/>
+<text text-anchor="middle" x="399" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> currentMemberDef</text>
 </g>
 </g>
 </svg>

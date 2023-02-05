@@ -6,5 +6,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [label="LatexDocVisitor::LatexList\lItemInfo",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/dc3/struct_latex_doc_visitor_1_1_latex_list_item_info.html",tooltip=" "];
+  Node0 [label="LayoutDocManager",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d1d/class_layout_doc_manager.html",tooltip="Singleton providing access to the (user configurable) layout of the documentation."];
 }

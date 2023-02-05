@@ -1,7 +1,7 @@
 var structvhdlcode_y_y__state =
 [
     [ "braceCount", "db/d50/structvhdlcode_y_y__state.html#a8ad7c23669dc71d1655eed9b34417bfa", null ],
-    [ "code", "db/d50/structvhdlcode_y_y__state.html#a5ca501bbc918c0233448f03753cb1821", null ],
+    [ "code", "db/d50/structvhdlcode_y_y__state.html#a634f67e86406baf2cfadb2a5cd794d34", null ],
     [ "currArch", "db/d50/structvhdlcode_y_y__state.html#ae627b6d6d8f44833f8f6ee2c826c4b33", null ],
     [ "currClass", "db/d50/structvhdlcode_y_y__state.html#a92cda5971affc2aba465ada98386c73c", null ],
     [ "currentDefinition", "db/d50/structvhdlcode_y_y__state.html#a7f02c4af0df87bf5de5de79375a26304", null ],

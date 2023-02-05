@@ -157,7 +157,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06643">6643</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06636">6636</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a385ffeb5dbbe91eeb413bafd1d0c815f" name="a385ffeb5dbbe91eeb413bafd1d0c815f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a385ffeb5dbbe91eeb413bafd1d0c815f">&#9670;&#160;</a></span>addPages()</h2>
@@ -183,21 +183,21 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06646">6646</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 6647</span>    {</div>
-<div class="line"><span class="lineno"> 6648</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;pd : pages)</div>
-<div class="line"><span class="lineno"> 6649</span>      {</div>
-<div class="line"><span class="lineno"> 6650</span>        <span class="keywordflow">if</span> (!pd-&gt;getGroupDef() &amp;&amp; !pd-&gt;isReference())</div>
-<div class="line"><span class="lineno"> 6651</span>        {</div>
-<div class="line"><span class="lineno"> 6652</span>          <a class="code hl_function" href="../../d6/dcb/class_generic_node_list_context.html#a1e3defa7bc050ae33e2fbabba7a20643">append</a>(<a class="code hl_function" href="../../db/dc8/class_page_context.html#a428d9546525e916035785da72f540df1">PageContext::alloc</a>(pd.get(),<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>));</div>
-<div class="line"><span class="lineno"> 6653</span>        }</div>
-<div class="line"><span class="lineno"> 6654</span>      }</div>
-<div class="line"><span class="lineno"> 6655</span>    }</div>
-<div class="ttc" id="aclass_generic_node_list_context_html_a1e3defa7bc050ae33e2fbabba7a20643"><div class="ttname"><a href="../../d6/dcb/class_generic_node_list_context.html#a1e3defa7bc050ae33e2fbabba7a20643">GenericNodeListContext::append</a></div><div class="ttdeci">void append(const TemplateVariant &amp;ctn)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l00221">context.cpp:221</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06639">6639</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 6640</span>    {</div>
+<div class="line"><span class="lineno"> 6641</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;pd : pages)</div>
+<div class="line"><span class="lineno"> 6642</span>      {</div>
+<div class="line"><span class="lineno"> 6643</span>        <span class="keywordflow">if</span> (!pd-&gt;getGroupDef() &amp;&amp; !pd-&gt;isReference())</div>
+<div class="line"><span class="lineno"> 6644</span>        {</div>
+<div class="line"><span class="lineno"> 6645</span>          <a class="code hl_function" href="../../d6/dcb/class_generic_node_list_context.html#a1e3defa7bc050ae33e2fbabba7a20643">append</a>(<a class="code hl_function" href="../../db/dc8/class_page_context.html#a428d9546525e916035785da72f540df1">PageContext::alloc</a>(pd.get(),<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>));</div>
+<div class="line"><span class="lineno"> 6646</span>        }</div>
+<div class="line"><span class="lineno"> 6647</span>      }</div>
+<div class="line"><span class="lineno"> 6648</span>    }</div>
+<div class="ttc" id="aclass_generic_node_list_context_html_a1e3defa7bc050ae33e2fbabba7a20643"><div class="ttname"><a href="../../d6/dcb/class_generic_node_list_context.html#a1e3defa7bc050ae33e2fbabba7a20643">GenericNodeListContext::append</a></div><div class="ttdeci">void append(const TemplateVariant &amp;ctn)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l00220">context.cpp:220</a></div></div>
 <div class="ttc" id="aclass_page_context_html_a428d9546525e916035785da72f540df1"><div class="ttname"><a href="../../db/dc8/class_page_context.html#a428d9546525e916035785da72f540df1">PageContext::alloc</a></div><div class="ttdeci">static TemplateStructIntfPtr alloc(const PageDef *pd, bool isMainPage, bool isExample)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d1e/context_8h_source.html#l00300">context.h:300</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_aa93f0eb578d23995850d61f7d61c55c1"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></div><div class="ttdeci">#define FALSE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00033">qcstring.h:33</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/d1e/context_8h_source.html#l00300">PageContext::alloc()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l00221">GenericNodeListContext::append()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d1e/context_8h_source.html#l00300">PageContext::alloc()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l00220">GenericNodeListContext::append()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>.</p>
 
 </div>
 </div>

@@ -12,7 +12,7 @@ digraph "PythonCodeParser::Private"
   Node3 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" classScope\ncurClassName\ndocBlock\nexampleName\nfileName\nname\nrealScope\ntype",fontcolor="grey" ];
   Node3 [label="QCString",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d9/d45/class_q_c_string.html",tooltip="This is an alternative implementation of QCString."];
   Node4 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" code",fontcolor="grey" ];
-  Node4 [label="OutputCodeList",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$db/d8e/class_output_code_list.html",tooltip="Class representing a list of different code generators."];
+  Node4 [label="CodeOutputInterface",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d5/d9c/class_code_output_interface.html",tooltip="Output interface for code parser."];
   Node5 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" currentDefinition\nsearchCtx",fontcolor="grey" ];
   Node5 [label="Definition",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d5/dcc/class_definition.html",tooltip="The common base class of all entity definitions found in the sources."];
   Node6 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" sourceFileDef",fontcolor="grey" ];

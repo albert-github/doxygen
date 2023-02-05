@@ -324,6 +324,16 @@ var hierarchy =
     [ "ClangTUParser", "dd/df8/class_clang_t_u_parser.html", null ],
     [ "ClassDiagram", "d1/d97/class_class_diagram.html", null ],
     [ "CmhlInfo", "d5/d48/struct_cmhl_info.html", null ],
+    [ "CodeOutputInterface", "d5/d9c/class_code_output_interface.html", [
+      [ "DevNullCodeDocInterface", "dd/d8a/class_dev_null_code_doc_interface.html", null ],
+      [ "DocbookCodeGenerator", "d7/d80/class_docbook_code_generator.html", null ],
+      [ "HtmlCodeGenerator", "da/db6/class_html_code_generator.html", null ],
+      [ "LatexCodeGenerator", "d0/d37/class_latex_code_generator.html", null ],
+      [ "ManCodeGenerator", "db/d92/class_man_code_generator.html", null ],
+      [ "OutputCodeList", "db/d8e/class_output_code_list.html", null ],
+      [ "RTFCodeGenerator", "d2/df7/class_r_t_f_code_generator.html", null ],
+      [ "XMLCodeGenerator", "dd/d66/class_x_m_l_code_generator.html", null ]
+    ] ],
     [ "CodeParserInterface", "d4/d65/class_code_parser_interface.html", [
       [ "CCodeParser", "d0/d53/class_c_code_parser.html", null ],
       [ "FileCodeParser", "da/d02/class_file_code_parser.html", null ],
@@ -338,7 +348,6 @@ var hierarchy =
       [ "XMLCodeParser", "d7/db4/class_x_m_l_code_parser.html", null ]
     ] ],
     [ "codeYY_state", "da/d28/structcode_y_y__state.html", null ],
-    [ "OutputCodeIntf::codify< T >", "d8/d58/struct_output_code_intf_1_1codify.html", null ],
     [ "Color", "d9/d44/struct_color.html", null ],
     [ "ColoredImage", "dc/da6/class_colored_image.html", null ],
     [ "ColoredImgDataItem", "da/d06/struct_colored_img_data_item.html", null ],
@@ -483,7 +492,6 @@ var hierarchy =
     [ "std::deque", null, [
       [ "DotNodeDeque", "d8/d32/class_dot_node_deque.html", null ]
     ] ],
-    [ "DevNullCodeGenerator", "d0/d4a/class_dev_null_code_generator.html", null ],
     [ "DiagramItem", "d0/d78/class_diagram_item.html", null ],
     [ "DiagramRow", "d4/d34/class_diagram_row.html", null ],
     [ "Dir", "d2/dc2/class_dir.html", null ],
@@ -493,7 +501,6 @@ var hierarchy =
     [ "detail::Dispatcher< valid >", "da/d98/structdetail_1_1_dispatcher.html", null ],
     [ "detail::Dispatcher< false >", "da/d2e/structdetail_1_1_dispatcher_3_01false_01_4.html", null ],
     [ "detail::Dispatcher< true >", "d4/d96/structdetail_1_1_dispatcher_3_01true_01_4.html", null ],
-    [ "DocbookCodeGenerator", "d7/d80/class_docbook_code_generator.html", null ],
     [ "DocCmdMap", "d6/dab/struct_doc_cmd_map.html", null ],
     [ "DocGroup", "d1/d05/class_doc_group.html", null ],
     [ "DocInfo", "d7/dd5/struct_doc_info.html", null ],
@@ -604,9 +611,6 @@ var hierarchy =
     [ "emojiEntityCompatibility", "df/d20/structemoji_entity_compatibility.html", null ],
     [ "emojiEntityInfo", "d4/dde/structemoji_entity_info.html", null ],
     [ "EmojiEntityMapper", "de/dd8/class_emoji_entity_mapper.html", null ],
-    [ "OutputCodeIntf::endCodeFragment< T >", "d5/d9e/struct_output_code_intf_1_1end_code_fragment.html", null ],
-    [ "OutputCodeIntf::endCodeLine< T >", "db/dfb/struct_output_code_intf_1_1end_code_line.html", null ],
-    [ "OutputCodeIntf::endFontClass< T >", "d5/d6e/struct_output_code_intf_1_1end_font_class.html", null ],
     [ "Entry", "d4/dd7/class_entry.html", null ],
     [ "vhdl::parser::ErrorHandler", "df/d0f/classvhdl_1_1parser_1_1_error_handler.html", [
       [ "vhdl::parser::VhdlErrorHandler", "d6/da7/classvhdl_1_1parser_1_1_vhdl_error_handler.html", null ]
@@ -691,7 +695,6 @@ var hierarchy =
     [ "GuardedSection", "d5/d19/class_guarded_section.html", null ],
     [ "Htags", "d4/db0/struct_htags.html", null ],
     [ "HtmlAttrib", "d0/db2/struct_html_attrib.html", null ],
-    [ "HtmlCodeGenerator", "da/db6/class_html_code_generator.html", null ],
     [ "HtmlEntityInfo", "da/dd4/struct_html_entity_info.html", null ],
     [ "HtmlEntityMapper", "db/d5f/class_html_entity_mapper.html", null ],
     [ "HtmlHelp", "d4/db3/class_html_help.html", null ],
@@ -726,7 +729,6 @@ var hierarchy =
     [ "KeywordHash", "d4/d10/class_keyword_hash.html", null ],
     [ "KeywordSubstitution", "d0/d3b/struct_keyword_substitution.html", null ],
     [ "Lang2ExtMap", "d8/def/struct_lang2_ext_map.html", null ],
-    [ "LatexCodeGenerator", "d0/d37/class_latex_code_generator.html", null ],
     [ "LatexDocVisitor::LatexListItemInfo", "da/dc3/struct_latex_doc_visitor_1_1_latex_list_item_info.html", null ],
     [ "LayoutDocEntry", "d9/dba/struct_layout_doc_entry.html", [
       [ "LayoutDocEntryMemberDecl", "df/df4/struct_layout_doc_entry_member_decl.html", null ],
@@ -812,7 +814,6 @@ var hierarchy =
     [ "LocalDef", "dc/db8/class_local_def.html", null ],
     [ "LocalToc", "da/d1d/class_local_toc.html", null ],
     [ "LookupInfo", "d7/d19/struct_lookup_info.html", null ],
-    [ "ManCodeGenerator", "db/d92/class_man_code_generator.html", null ],
     [ "ManListItemInfo", "d3/d04/struct_man_list_item_info.html", null ],
     [ "DotFilePatcher::Map", "dd/d6e/struct_dot_file_patcher_1_1_map.html", null ],
     [ "std::map", null, [
@@ -853,10 +854,6 @@ var hierarchy =
       [ "PythonOutlineParser", "dd/d49/class_python_outline_parser.html", null ],
       [ "VHDLOutlineParser", "df/d4b/class_v_h_d_l_outline_parser.html", null ]
     ] ],
-    [ "OutputCodeDefer< OutputCodeGen >", "dd/d41/class_output_code_defer.html", null ],
-    [ "OutputCodeList::OutputCodeElem", "da/d33/struct_output_code_list_1_1_output_code_elem.html", null ],
-    [ "OutputCodeExtension", "d7/d22/class_output_code_extension.html", null ],
-    [ "OutputCodeList", "db/d8e/class_output_code_list.html", null ],
     [ "OutputGenerator", "d3/d8e/class_output_generator.html", [
       [ "DocbookGenerator", "d1/d72/class_docbook_generator.html", null ],
       [ "HtmlGenerator", "d7/d41/class_html_generator.html", null ],
@@ -1012,7 +1009,6 @@ var hierarchy =
     [ "Resource", "d5/d2a/struct_resource.html", null ],
     [ "ResourceMgr", "d6/d12/class_resource_mgr.html", null ],
     [ "Rtf_Style_Default", "d3/d40/struct_rtf___style___default.html", null ],
-    [ "RTFCodeGenerator", "d2/df7/class_r_t_f_code_generator.html", null ],
     [ "RTFDocVisitor::RTFListItemInfo", "d9/d88/struct_r_t_f_doc_visitor_1_1_r_t_f_list_item_info.html", null ],
     [ "RTFGenerator::RTFListItemInfo", "d3/d18/struct_r_t_f_generator_1_1_r_t_f_list_item_info.html", null ],
     [ "scannerYY_state", "d4/dfb/structscanner_y_y__state.html", null ],
@@ -1036,9 +1032,6 @@ var hierarchy =
       [ "IterableStack< const DocNodeVariant * >", "d9/d82/class_iterable_stack.html", null ],
       [ "IterableStack< T, Container >", "d9/d82/class_iterable_stack.html", null ]
     ] ],
-    [ "OutputCodeIntf::startCodeFragment< T >", "d2/d8a/struct_output_code_intf_1_1start_code_fragment.html", null ],
-    [ "OutputCodeIntf::startCodeLine< T >", "df/d6d/struct_output_code_intf_1_1start_code_line.html", null ],
-    [ "OutputCodeIntf::startFontClass< T >", "d0/d4f/struct_output_code_intf_1_1start_font_class.html", null ],
     [ "Statistics::stat", "d4/da6/struct_statistics_1_1stat.html", null ],
     [ "Statistics", "d8/da8/class_statistics.html", null ],
     [ "STLInfo", "d5/dc7/struct_s_t_l_info.html", null ],
@@ -1365,11 +1358,6 @@ var hierarchy =
     [ "vhdl::parser::VhdlParser", "de/d32/classvhdl_1_1parser_1_1_vhdl_parser.html", null ],
     [ "VhdlString", "d3/d6c/class_vhdl_string.html", null ],
     [ "SearchIndexMethods::write< T >", "df/d16/struct_search_index_methods_1_1write.html", null ],
-    [ "OutputCodeIntf::writeCodeAnchor< T >", "dd/d58/struct_output_code_intf_1_1write_code_anchor.html", null ],
-    [ "OutputCodeIntf::writeCodeLink< T >", "d4/dba/struct_output_code_intf_1_1write_code_link.html", null ],
-    [ "OutputCodeIntf::writeLineNumber< T >", "d4/de0/struct_output_code_intf_1_1write_line_number.html", null ],
-    [ "OutputCodeIntf::writeTooltip< T >", "d8/dab/struct_output_code_intf_1_1write_tooltip.html", null ],
-    [ "XMLCodeGenerator", "dd/d66/class_x_m_l_code_generator.html", null ],
     [ "xmlcodeYY_state", "d1/d7e/structxmlcode_y_y__state.html", null ],
     [ "XMLHandlers", "dc/dea/class_x_m_l_handlers.html", null ],
     [ "XMLLocator", "d3/d7e/class_x_m_l_locator.html", [
