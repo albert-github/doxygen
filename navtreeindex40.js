@@ -1,6 +1,5 @@
 var NAVTREEINDEX40 =
 {
-"d5/d54/translator__sv_8h.html":[9,0,2,286],
 "d5/d54/translator__sv_8h_source.html":[9,0,2,286],
 "d5/d55/translator__br_8h.html":[9,0,2,251],
 "d5/d55/translator__br_8h_source.html":[9,0,2,251],
@@ -249,5 +248,6 @@ var NAVTREEINDEX40 =
 "d5/d5c/class_translator_swedish.html#acafb8de68bedaa70485675f91b01c377":[8,0,614,213],
 "d5/d5c/class_translator_swedish.html#acc94531a56e349bb2ea509470b5e2e88":[8,0,614,110],
 "d5/d5c/class_translator_swedish.html#acd899397b02f8a3dd1125dcaa8966a1d":[8,0,614,282],
-"d5/d5c/class_translator_swedish.html#acdcf34dd7e1fd843df53f4f24e75d94b":[8,0,614,226]
+"d5/d5c/class_translator_swedish.html#acdcf34dd7e1fd843df53f4f24e75d94b":[8,0,614,226],
+"d5/d5c/class_translator_swedish.html#ace3d057b3ca47baa8ca65dbad18070fe":[8,0,614,45]
 };

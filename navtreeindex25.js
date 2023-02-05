@@ -1,6 +1,5 @@
 var NAVTREEINDEX25 =
 {
-"d3/d42/cmdmapper_8h.html#a91be16b8342aa3130a4374d78cf42273ab26b52ed0aa1da4e9c891102f25bd477":[9,0,2,14,3,29],
 "d3/d42/cmdmapper_8h.html#a91be16b8342aa3130a4374d78cf42273ab33821a069d677ced94c2d9b5b95cfdf":[9,0,2,14,3,9],
 "d3/d42/cmdmapper_8h.html#a91be16b8342aa3130a4374d78cf42273ab8f1bc95822a1243cf1cf1ccc49a757e":[9,0,2,14,3,27],
 "d3/d42/cmdmapper_8h.html#a91be16b8342aa3130a4374d78cf42273ac192733ecef2b440a2912e131b199297":[9,0,2,14,3,1],
@@ -115,8 +114,8 @@ var NAVTREEINDEX25 =
 "d3/d4b/htmlhelp_8cpp.html":[9,0,2,141],
 "d3/d4b/htmlhelp_8cpp.html#aa9dc1225d5dff26cbdf7521f3d2d5ebe":[9,0,2,141,4],
 "d3/d4b/htmlhelp_8cpp_source.html":[9,0,2,141],
-"d3/d53/structfmt_1_1formatter_3_01_protection_01_4.html":[8,0,2,3],
 "d3/d53/structfmt_1_1formatter_3_01_protection_01_4.html":[7,0,6,3],
+"d3/d53/structfmt_1_1formatter_3_01_protection_01_4.html":[8,0,2,3],
 "d3/d53/structfmt_1_1formatter_3_01_protection_01_4.html#ab60039bc2f568d9c0f4a3bdc4df7294d":[8,0,2,3,0],
 "d3/d53/structfmt_1_1formatter_3_01_protection_01_4.html#ab60039bc2f568d9c0f4a3bdc4df7294d":[7,0,6,3,0],
 "d3/d57/class_include_info_list_context.html":[8,0,328],
@@ -249,5 +248,6 @@ var NAVTREEINDEX25 =
 "d3/d65/class_translator_afrikaans.html#a7e9431e746e5e97fb4caedaf7c727152":[8,0,574,152],
 "d3/d65/class_translator_afrikaans.html#a7f2c4e84058e1c5edc89c2f580d01938":[8,0,574,107],
 "d3/d65/class_translator_afrikaans.html#a7f98c3d9f5a3dc7bfdfdcc033424b4a8":[8,0,574,78],
-"d3/d65/class_translator_afrikaans.html#a8012cece3fd5112829218417bc758eb7":[8,0,574,157]
+"d3/d65/class_translator_afrikaans.html#a8012cece3fd5112829218417bc758eb7":[8,0,574,157],
+"d3/d65/class_translator_afrikaans.html#a81821711e8aea758d8a2fe17c2ac31bf":[8,0,574,146]
 };

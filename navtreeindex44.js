@@ -1,6 +1,5 @@
 var NAVTREEINDEX44 =
 {
-"d5/df4/namespacevhdl_1_1parser.html#a7384f097d32dc82008d18de82670a90f":[7,0,14,0,365],
 "d5/df4/namespacevhdl_1_1parser.html#a73b062eb8a386e123b733da7cc6b9c32":[7,0,14,0,324],
 "d5/df4/namespacevhdl_1_1parser.html#a73f7fb766dda4d4f0e76a388c96aabfe":[7,0,14,0,154],
 "d5/df4/namespacevhdl_1_1parser.html#a7444eb687b16f815a6a5f22b57ce49a6":[7,0,14,0,99],
@@ -249,5 +248,6 @@ var NAVTREEINDEX44 =
 "d5/dfa/class_namespace_def_impl.html#a48a607055d5fd28fc8d9147edb150dad":[8,0,405,54],
 "d5/dfa/class_namespace_def_impl.html#a49466b05d151a48a45ee181bf34450ea":[8,0,405,91],
 "d5/dfa/class_namespace_def_impl.html#a4c4bfe146ecd653c8d9ed6b93825bc40":[8,0,405,58],
-"d5/dfa/class_namespace_def_impl.html#a4db9f2bd68ed096fd03c6896e93dc1ce":[8,0,405,39]
+"d5/dfa/class_namespace_def_impl.html#a4db9f2bd68ed096fd03c6896e93dc1ce":[8,0,405,39],
+"d5/dfa/class_namespace_def_impl.html#a52184dbf57cd588aa1e21f4cd3267abe":[8,0,405,60]
 };

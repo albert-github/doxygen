@@ -1,5 +1,7 @@
 var NAVTREEINDEX130 =
 {
+"namespacemembers_v.html":[7,1,0,19],
+"namespacemembers_vars.html":[7,1,2],
 "namespacemembers_vars.html":[7,1,2,0],
 "namespacemembers_vars_a.html":[7,1,2,1],
 "namespacemembers_vars_b.html":[7,1,2,2],

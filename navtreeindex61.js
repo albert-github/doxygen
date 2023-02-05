@@ -1,10 +1,11 @@
 var NAVTREEINDEX61 =
 {
 "d8/d73/classvhdl_1_1parser_1_1_token_parser.html":[7,0,14,0,8],
-"d8/d73/classvhdl_1_1parser_1_1_token_parser.html#a686a5c4c377513d56ee5588f9727314a":[8,0,7,0,8,1],
+"d8/d73/classvhdl_1_1parser_1_1_token_parser.html":[8,0,7,0,8],
 "d8/d73/classvhdl_1_1parser_1_1_token_parser.html#a686a5c4c377513d56ee5588f9727314a":[7,0,14,0,8,1],
-"d8/d73/classvhdl_1_1parser_1_1_token_parser.html#ac5cb74c3a7c9a7f4620c34d939da9fbc":[8,0,7,0,8,0],
+"d8/d73/classvhdl_1_1parser_1_1_token_parser.html#a686a5c4c377513d56ee5588f9727314a":[8,0,7,0,8,1],
 "d8/d73/classvhdl_1_1parser_1_1_token_parser.html#ac5cb74c3a7c9a7f4620c34d939da9fbc":[7,0,14,0,8,0],
+"d8/d73/classvhdl_1_1parser_1_1_token_parser.html#ac5cb74c3a7c9a7f4620c34d939da9fbc":[8,0,7,0,8,0],
 "d8/d77/class_inheritance_list_context.html":[8,0,333],
 "d8/d77/class_inheritance_list_context.html#a1c6a8e4e0e8a6ff3f51e9aa811657572":[8,0,333,3],
 "d8/d77/class_inheritance_list_context.html#a6e590e24ca8621809364a9cc95370e28":[8,0,333,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "d8/d83/class_translator_latvian.html#a4e8ba1c05e816e2e1a877ce7855d4465":[8,0,600,88],
 "d8/d83/class_translator_latvian.html#a4f886fc5fded9d2b5dede74285944272":[8,0,600,45],
 "d8/d83/class_translator_latvian.html#a501c727651fc8bb2b8e5574b0f00e9db":[8,0,600,169],
-"d8/d83/class_translator_latvian.html#a52e7f4601ccc1f81ea5af757985b8877":[8,0,600,14],
-"d8/d83/class_translator_latvian.html#a53cbb9447c4b98a1c035901bc5d0c5fb":[8,0,600,21]
+"d8/d83/class_translator_latvian.html#a52e7f4601ccc1f81ea5af757985b8877":[8,0,600,14]
 };

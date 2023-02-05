@@ -4,7 +4,6 @@ var class_markdown =
     [ "Action_t", "d2/dc3/class_markdown.html#aba6211472340d93f623a54a797493b4f", null ],
     [ "Markdown", "d2/dc3/class_markdown.html#acb219dbca88da9e2c914070e1adc443d", null ],
     [ "addStrEscapeUtf8Nbsp", "d2/dc3/class_markdown.html#ad76d901223c31d1f0e0a0b3302f8072d", null ],
-    [ "detab", "d2/dc3/class_markdown.html#aa8c55f794ab09ebdf20b2ccbb2e2b1c8", null ],
     [ "extractPageTitle", "d2/dc3/class_markdown.html#a18a440a25d4a02fa5aa72d85f16aa1e5", null ],
     [ "findEmphasisChar", "d2/dc3/class_markdown.html#adff842087f95ae4875b95d320149370e", null ],
     [ "findEndOfLine", "d2/dc3/class_markdown.html#a16a3d2de7ba958038548208c379824d8", null ],

@@ -1,6 +1,5 @@
 var NAVTREEINDEX31 =
 {
-"d3/df4/class_latex_doc_visitor.html#ac11bc06b22732d6e550dc8382badd38f":[8,0,345,33],
 "d3/df4/class_latex_doc_visitor.html#ac8faec71974f8983332aa0e11a946276":[8,0,345,28],
 "d3/df4/class_latex_doc_visitor.html#aca420728eca4e37947593db6a96eadd3":[8,0,345,56],
 "d3/df4/class_latex_doc_visitor.html#ad0e9d73e9adb9aac3732cee17a4c67db":[8,0,345,37],
@@ -249,5 +248,6 @@ var NAVTREEINDEX31 =
 "d4/d42/latexgen_8cpp.html#ab02ed8a64b15dea3af44838d67a039a5":[9,0,2,152,15],
 "d4/d42/latexgen_8cpp.html#ac7339dc7ff25bcb7a9fbea1d671a16da":[9,0,2,152,11],
 "d4/d42/latexgen_8cpp.html#ace2411e2a91d0794515d7319a05a96e4":[9,0,2,152,12],
-"d4/d42/latexgen_8cpp.html#ad32126ac958c2ac22491a47f6957935c":[9,0,2,152,4]
+"d4/d42/latexgen_8cpp.html#ad32126ac958c2ac22491a47f6957935c":[9,0,2,152,4],
+"d4/d42/latexgen_8cpp.html#ada58cb886cb5f74b40a96749a59eb8b3":[9,0,2,152,9]
 };

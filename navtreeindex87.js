@@ -1,5 +1,6 @@
 var NAVTREEINDEX87 =
 {
+"db/dcc/class_translator_korean.html#a16909409dbd4cb56727c3667cd98f76e":[8,0,598,36],
 "db/dcc/class_translator_korean.html#a16e71cfc77963d54b0b3c94c66e7a786":[8,0,598,123],
 "db/dcc/class_translator_korean.html#a175c5e72074b65d712e075d0cde1589c":[8,0,598,172],
 "db/dcc/class_translator_korean.html#a1b5025112fd90610ece7596edf0ae5c2":[8,0,598,209],
@@ -248,6 +249,5 @@ var NAVTREEINDEX87 =
 "db/dfb/class_clang_parser_1_1_private.html":[8,0,33,0],
 "db/dfb/struct_output_code_intf_1_1end_code_line.html":[8,0,4,2],
 "db/dfb/struct_output_code_intf_1_1end_code_line.html":[7,0,9,2],
-"db/dfb/struct_output_code_intf_1_1end_code_line.html#a5d1fc85d69d0f3c5b5cb6d82ae6d7a8f":[7,0,9,2,0],
-"db/dfb/struct_output_code_intf_1_1end_code_line.html#a5d1fc85d69d0f3c5b5cb6d82ae6d7a8f":[8,0,4,2,0]
+"db/dfb/struct_output_code_intf_1_1end_code_line.html#a5d1fc85d69d0f3c5b5cb6d82ae6d7a8f":[7,0,9,2,0]
 };

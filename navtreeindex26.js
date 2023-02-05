@@ -1,6 +1,5 @@
 var NAVTREEINDEX26 =
 {
-"d3/d65/class_translator_afrikaans.html#a81821711e8aea758d8a2fe17c2ac31bf":[8,0,574,146],
 "d3/d65/class_translator_afrikaans.html#a84688dc04c1a80457bc86bb947d66f16":[8,0,574,53],
 "d3/d65/class_translator_afrikaans.html#a855fcec8cae7e3b6cd9ce8ed0d1d8994":[8,0,574,171],
 "d3/d65/class_translator_afrikaans.html#a85987e9fa41b4daa6790876127cda212":[8,0,574,64],
@@ -149,12 +148,12 @@ var NAVTREEINDEX26 =
 "d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#a17a5265b1c68b955c03c15e142346250":[8,0,7,0,7,3],
 "d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#a4dd946e2e5c74b2c9bcf818e66dd60e0":[8,0,7,0,7,6],
 "d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#a4dd946e2e5c74b2c9bcf818e66dd60e0":[7,0,14,0,7,6],
-"d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#a50f498a288427b988cd7021a977378f8":[8,0,7,0,7,4],
 "d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#a50f498a288427b988cd7021a977378f8":[7,0,14,0,7,4],
+"d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#a50f498a288427b988cd7021a977378f8":[8,0,7,0,7,4],
 "d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#a73f6a2866b37dc073293f43eaafafdbf":[8,0,7,0,7,2],
 "d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#a73f6a2866b37dc073293f43eaafafdbf":[7,0,14,0,7,2],
-"d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#a860806ee07d5e8223004cc4dae5386e9":[8,0,7,0,7,0],
 "d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#a860806ee07d5e8223004cc4dae5386e9":[7,0,14,0,7,0],
+"d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#a860806ee07d5e8223004cc4dae5386e9":[8,0,7,0,7,0],
 "d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#aa58e9b420bb0e53d5944cc96e8a8b349":[8,0,7,0,7,1],
 "d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#aa58e9b420bb0e53d5944cc96e8a8b349":[7,0,14,0,7,1],
 "d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#ac142542be128305d21d59277db52eb93":[8,0,7,0,7,5],
@@ -249,5 +248,6 @@ var NAVTREEINDEX26 =
 "d3/d77/class_latex_generator.html#a5bd03c7e1a88abb8d5445bec8581b2aa":[8,0,347,91],
 "d3/d77/class_latex_generator.html#a5c30558c76737f89920fe2394bbe851b":[8,0,347,206],
 "d3/d77/class_latex_generator.html#a5e472c9aacb7d71ac64c6d6c71fdf1a0":[8,0,347,123],
-"d3/d77/class_latex_generator.html#a5e671bec2d4436bc8dd7577ac925eaac":[8,0,347,188]
+"d3/d77/class_latex_generator.html#a5e671bec2d4436bc8dd7577ac925eaac":[8,0,347,188],
+"d3/d77/class_latex_generator.html#a6349b068a50527a15833b95d33dbd5ce":[8,0,347,169]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX23 =
 {
-"d2/df8/class_translator_italian.html#ac29baf0cffb2425dafd6203b18b9ede7":[8,0,595,70],
 "d2/df8/class_translator_italian.html#ac30fa7efb37b2022ec9952e0e1c3ba0a":[8,0,595,110],
 "d2/df8/class_translator_italian.html#ac376bb383b9b382bbd768e838c9d94e8":[8,0,595,136],
 "d2/df8/class_translator_italian.html#ac3f003e5c0bbf155e120662d20888800":[8,0,595,108],
@@ -249,5 +248,6 @@ var NAVTREEINDEX23 =
 "d3/d2c/classvhdl_1_1parser_1_1_token_manager.html#a07c59d061a25f0349a8bd1a17b05b42b":[8,0,7,0,5,2],
 "d3/d2c/classvhdl_1_1parser_1_1_token_manager.html#a116b81f14babf26eccaba85331ef702b":[7,0,14,0,5,0],
 "d3/d2c/classvhdl_1_1parser_1_1_token_manager.html#a116b81f14babf26eccaba85331ef702b":[8,0,7,0,5,0],
-"d3/d2c/classvhdl_1_1parser_1_1_token_manager.html#a22fec50d884708a36c2e736c64c7bd29":[7,0,14,0,5,1]
+"d3/d2c/classvhdl_1_1parser_1_1_token_manager.html#a22fec50d884708a36c2e736c64c7bd29":[7,0,14,0,5,1],
+"d3/d2c/classvhdl_1_1parser_1_1_token_manager.html#a22fec50d884708a36c2e736c64c7bd29":[8,0,7,0,5,1]
 };

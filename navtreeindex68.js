@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"d9/d49/types_8h.html#abe8ad5992f8938a28f918f51b199aa19a73d02094d1a59a7309cee06da77df796":[9,0,2,292,5,44],
 "d9/d49/types_8h.html#abe8ad5992f8938a28f918f51b199aa19a740d8f85be04db4b469bee11a0393498":[9,0,2,292,5,58],
 "d9/d49/types_8h.html#abe8ad5992f8938a28f918f51b199aa19a7538ca1accbab01f0dc30e983d1c3897":[9,0,2,292,5,11],
 "d9/d49/types_8h.html#abe8ad5992f8938a28f918f51b199aa19a832d025b342dd1fec72104e5454d4acb":[9,0,2,292,5,40],
@@ -54,8 +55,8 @@ var NAVTREEINDEX68 =
 "d9/d49/types_8h_source.html":[9,0,2,292],
 "d9/d4a/structfmt_1_1formatter_3_01_member_type_01_4.html":[7,0,6,1],
 "d9/d4a/structfmt_1_1formatter_3_01_member_type_01_4.html":[8,0,2,1],
-"d9/d4a/structfmt_1_1formatter_3_01_member_type_01_4.html#af247884da292a20610ffd1b5d130235c":[7,0,6,1,0],
 "d9/d4a/structfmt_1_1formatter_3_01_member_type_01_4.html#af247884da292a20610ffd1b5d130235c":[8,0,2,1,0],
+"d9/d4a/structfmt_1_1formatter_3_01_member_type_01_4.html#af247884da292a20610ffd1b5d130235c":[7,0,6,1,0],
 "d9/d55/trace_8cpp.html":[9,0,2,244],
 "d9/d55/trace_8cpp.html#a2654f31d3e6657458883d0efb1a474c5":[9,0,2,244,0],
 "d9/d55/trace_8cpp.html#a5cba80b7682f3c7fb87a3a34c9b9cef8":[9,0,2,244,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "d9/d82/class_translator_croatian.html#a570d826f15efb5bda206077852bb439b":[8,0,582,62],
 "d9/d82/class_translator_croatian.html#a572147fea971bc56a1d9119ae2aee3d6":[8,0,582,32],
 "d9/d82/class_translator_croatian.html#a58cd4560321cd127b3f665df73281eea":[8,0,582,208],
-"d9/d82/class_translator_croatian.html#a5ab45a4e65dc72ce370d261618ca8d0b":[8,0,582,110],
-"d9/d82/class_translator_croatian.html#a5b32ebbdd47c24385e792daac18a887f":[8,0,582,176]
+"d9/d82/class_translator_croatian.html#a5ab45a4e65dc72ce370d261618ca8d0b":[8,0,582,110]
 };
