@@ -352,8 +352,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3e6a8bb62775f61d034e4f7124865b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab890aa8335779822c7f6ac7136308c12"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7e/class_member_def_impl.html#ab890aa8335779822c7f6ac7136308c12">hasMultiLineInitializer</a> () const</td></tr>
 <tr class="separator:ab890aa8335779822c7f6ac7136308c12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb315536b9b357a9c42ae002180e60fb"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7e/class_member_def_impl.html#afb315536b9b357a9c42ae002180e60fb">showInCallGraph</a> () const</td></tr>
-<tr class="separator:afb315536b9b357a9c42ae002180e60fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3281e2c0be7db10fe866a1441dd82f34"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7e/class_member_def_impl.html#a3281e2c0be7db10fe866a1441dd82f34">isCallable</a> () const</td></tr>
+<tr class="separator:a3281e2c0be7db10fe866a1441dd82f34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc3c702818cf2300c71e5b3999c7b3aa"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7e/class_member_def_impl.html#abc3c702818cf2300c71e5b3999c7b3aa">isStrongEnumValue</a> () const</td></tr>
 <tr class="separator:abc3c702818cf2300c71e5b3999c7b3aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad82d3a5ac0c5bd48a026e18a009a549e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7e/class_member_def_impl.html#ad82d3a5ac0c5bd48a026e18a009a549e">livesInsideEnum</a> () const</td></tr>
@@ -1288,8 +1288,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa7bcaaff6e07e660a124d779a1300218"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0edc949c11ffd04ae0f79b8850b1586"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/class_member_def.html#ab0edc949c11ffd04ae0f79b8850b1586">hasMultiLineInitializer</a> () const =0</td></tr>
 <tr class="separator:ab0edc949c11ffd04ae0f79b8850b1586"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1577e50f40eaa0d6ef26187713fd33c6"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/class_member_def.html#a1577e50f40eaa0d6ef26187713fd33c6">showInCallGraph</a> () const =0</td></tr>
-<tr class="separator:a1577e50f40eaa0d6ef26187713fd33c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af589ca13a0dec56fb92038c9b2488208"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/class_member_def.html#af589ca13a0dec56fb92038c9b2488208">isCallable</a> () const =0</td></tr>
+<tr class="separator:af589ca13a0dec56fb92038c9b2488208"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b99e725308ea15248722f69611844aa"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/class_member_def.html#a5b99e725308ea15248722f69611844aa">isStrongEnumValue</a> () const =0</td></tr>
 <tr class="separator:a5b99e725308ea15248722f69611844aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a746d9cacb5bd7eed7e99697ad6c8314b"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/class_member_def.html#a746d9cacb5bd7eed7e99697ad6c8314b">livesInsideEnum</a> () const =0</td></tr>
@@ -7842,6 +7842,44 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a3281e2c0be7db10fe866a1441dd82f34" name="a3281e2c0be7db10fe866a1441dd82f34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3281e2c0be7db10fe866a1441dd82f34">&#9670;&#160;</a></span>isCallable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MemberDefImpl::isCallable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="../../da/d09/class_member_def.html#af589ca13a0dec56fb92038c9b2488208">MemberDef</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05256">5256</a> of file <a class="el" href="../../d0/d72/memberdef_8cpp_source.html">memberdef.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 5257</span>{</div>
+<div class="line"><span class="lineno"> 5258</span>  <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/d7e/class_member_def_impl.html#a9ed9e89f52f39d80215747a938d077c3">isFunction</a>() ||</div>
+<div class="line"><span class="lineno"> 5259</span>         <a class="code hl_function" href="../../d7/d7e/class_member_def_impl.html#a21502d6bca673b9ffd6169ad2e57d6ca">isSlot</a>() ||</div>
+<div class="line"><span class="lineno"> 5260</span>         <a class="code hl_function" href="../../d7/d7e/class_member_def_impl.html#a53258a3284bb542525db4cbf32f64fa2">isConstructor</a>() ||</div>
+<div class="line"><span class="lineno"> 5261</span>         <a class="code hl_function" href="../../d7/d7e/class_member_def_impl.html#a33e3f398ae49a3523e57177b4d96157e">isDestructor</a>() ||</div>
+<div class="line"><span class="lineno"> 5262</span>         <a class="code hl_function" href="../../d7/d7e/class_member_def_impl.html#a9e5dd8922eb92569bd93db719a50598a">isObjCMethod</a>();</div>
+<div class="line"><span class="lineno"> 5263</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04485">isConstructor()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04526">isDestructor()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04963">isFunction()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04723">isObjCMethod()</a>, and <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04928">isSlot()</a>.</p>
+
+</div>
+</div>
 <a id="a2d719c93969db26f5b96740950b98c31" name="a2d719c93969db26f5b96740950b98c31"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2d719c93969db26f5b96740950b98c31">&#9670;&#160;</a></span>isConstExpr()</h2>
 
@@ -7957,7 +7995,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04447">_computeIsConstructor()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00038">ASSERT</a>, and <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l00374">m_isConstructorCached</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l01897">isBriefSectionVisible()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05256">showInCallGraph()</a>, and <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04044">warnIfUndocumentedParams()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l01897">isBriefSectionVisible()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05256">isCallable()</a>, and <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04044">warnIfUndocumentedParams()</a>.</p>
 
 </div>
 </div>
@@ -8254,7 +8292,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04497">_computeIsDestructor()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00038">ASSERT</a>, and <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l00375">m_isDestructorCached</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04497">_computeIsDestructor()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l01897">isBriefSectionVisible()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05256">showInCallGraph()</a>, and <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04044">warnIfUndocumentedParams()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04497">_computeIsDestructor()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l01897">isBriefSectionVisible()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05256">isCallable()</a>, and <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04044">warnIfUndocumentedParams()</a>.</p>
 
 </div>
 </div>
@@ -8860,7 +8898,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l00372">m_impl</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00279">MemberType_Function</a>, and <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l01212">MemberDefImpl::IMPL::mtype</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05431">_hasVisibleCallerGraph()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05413">_hasVisibleCallGraph()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l06065">isFunctionOrSignalSlot()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04723">isObjCMethod()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05256">showInCallGraph()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04044">warnIfUndocumentedParams()</a>, and <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l03255">writeDocumentation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05431">_hasVisibleCallerGraph()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05413">_hasVisibleCallGraph()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05256">isCallable()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l06065">isFunctionOrSignalSlot()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04723">isObjCMethod()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04044">warnIfUndocumentedParams()</a>, and <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l03255">writeDocumentation()</a>.</p>
 
 </div>
 </div>
@@ -9493,7 +9531,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04843">getClassDef()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04963">isFunction()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04284">addListReference()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02000">getDeclType()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02640">getLabels()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04741">qualifiedName()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05256">showInCallGraph()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02088">writeDeclaration()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l03255">writeDocumentation()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l01787">writeLink()</a>, and <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l03762">writeMemberDocSimple()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04284">addListReference()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02000">getDeclType()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02640">getLabels()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05256">isCallable()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04741">qualifiedName()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02088">writeDeclaration()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l03255">writeDocumentation()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l01787">writeLink()</a>, and <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l03762">writeMemberDocSimple()</a>.</p>
 
 </div>
 </div>
@@ -10460,7 +10498,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l00372">m_impl</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00285">MemberType_Slot</a>, and <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l01212">MemberDefImpl::IMPL::mtype</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05431">_hasVisibleCallerGraph()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05413">_hasVisibleCallGraph()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02640">getLabels()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l06065">isFunctionOrSignalSlot()</a>, and <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05256">showInCallGraph()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05431">_hasVisibleCallerGraph()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05413">_hasVisibleCallGraph()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02640">getLabels()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05256">isCallable()</a>, and <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l06065">isFunctionOrSignalSlot()</a>.</p>
 
 </div>
 </div>
@@ -13913,44 +13951,6 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 5591</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l00372">m_impl</a>, and <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l01203">MemberDefImpl::IMPL::write</a>.</p>
-
-</div>
-</div>
-<a id="afb315536b9b357a9c42ae002180e60fb" name="afb315536b9b357a9c42ae002180e60fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb315536b9b357a9c42ae002180e60fb">&#9670;&#160;</a></span>showInCallGraph()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MemberDefImpl::showInCallGraph </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="../../da/d09/class_member_def.html#a1577e50f40eaa0d6ef26187713fd33c6">MemberDef</a>.</p>
-
-<p class="definition">Definition at line <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l05256">5256</a> of file <a class="el" href="../../d0/d72/memberdef_8cpp_source.html">memberdef.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 5257</span>{</div>
-<div class="line"><span class="lineno"> 5258</span>  <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/d7e/class_member_def_impl.html#a9ed9e89f52f39d80215747a938d077c3">isFunction</a>() ||</div>
-<div class="line"><span class="lineno"> 5259</span>         <a class="code hl_function" href="../../d7/d7e/class_member_def_impl.html#a21502d6bca673b9ffd6169ad2e57d6ca">isSlot</a>() ||</div>
-<div class="line"><span class="lineno"> 5260</span>         <a class="code hl_function" href="../../d7/d7e/class_member_def_impl.html#a53258a3284bb542525db4cbf32f64fa2">isConstructor</a>() ||</div>
-<div class="line"><span class="lineno"> 5261</span>         <a class="code hl_function" href="../../d7/d7e/class_member_def_impl.html#a33e3f398ae49a3523e57177b4d96157e">isDestructor</a>() ||</div>
-<div class="line"><span class="lineno"> 5262</span>         <a class="code hl_function" href="../../d7/d7e/class_member_def_impl.html#a9e5dd8922eb92569bd93db719a50598a">isObjCMethod</a>();</div>
-<div class="line"><span class="lineno"> 5263</span>}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04485">isConstructor()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04526">isDestructor()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04963">isFunction()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04723">isObjCMethod()</a>, and <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l04928">isSlot()</a>.</p>
 
 </div>
 </div>

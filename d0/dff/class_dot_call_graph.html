@@ -412,7 +412,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">   35</span>  <span class="keyword">auto</span> refs = <a class="code hl_variable" href="../../d0/dff/class_dot_call_graph.html#a65f12160a5000391308b49812f6fb719">m_inverse</a> ? md-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#ad3359130ee4ef83bdf7ce453fb3d1525">getReferencedByMembers</a>() : md-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#af21ed7be937dbdb153d5ccab3d9abf12">getReferencesMembers</a>();</div>
 <div class="line"><span class="lineno">   36</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;rmd : refs)</div>
 <div class="line"><span class="lineno">   37</span>  {</div>
-<div class="line"><span class="lineno">   38</span>    <span class="keywordflow">if</span> (rmd-&gt;showInCallGraph())</div>
+<div class="line"><span class="lineno">   38</span>    <span class="keywordflow">if</span> (rmd-&gt;isCallable())</div>
 <div class="line"><span class="lineno">   39</span>    {</div>
 <div class="line"><span class="lineno">   40</span>      <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> uniqueId = <a class="code hl_function" href="../../d4/dd5/dotcallgraph_8cpp.html#a8162981adf82bd139a6f62da022783bf">getUniqueId</a>(rmd);</div>
 <div class="line"><span class="lineno">   41</span>      <span class="keyword">auto</span> it = <a class="code hl_variable" href="../../d0/dff/class_dot_call_graph.html#aa0ffff1435fecbdd5b6c730dbfcbbf18">m_usedNodes</a>.find(uniqueId.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>());</div>
@@ -791,7 +791,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  214</span>  <span class="keyword">auto</span> refs = inverse ? md-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#ad3359130ee4ef83bdf7ce453fb3d1525">getReferencedByMembers</a>() : md-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#af21ed7be937dbdb153d5ccab3d9abf12">getReferencesMembers</a>();</div>
 <div class="line"><span class="lineno">  215</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;rmd : refs)</div>
 <div class="line"><span class="lineno">  216</span>  {</div>
-<div class="line"><span class="lineno">  217</span>    <span class="keywordflow">if</span> (rmd-&gt;showInCallGraph())</div>
+<div class="line"><span class="lineno">  217</span>    <span class="keywordflow">if</span> (rmd-&gt;isCallable())</div>
 <div class="line"><span class="lineno">  218</span>    {</div>
 <div class="line"><span class="lineno">  219</span>      <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
 <div class="line"><span class="lineno">  220</span>    }</div>

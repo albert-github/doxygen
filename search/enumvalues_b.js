@@ -124,7 +124,7 @@ var searchData=
   ['miscellaneous_121',['MISCELLANEOUS',['../d6/d98/class_vhdl_doc_gen.html#a3f46a86d0561edb71388774696f6cea6aff47a9945ac0d2a4d504f95904173750',1,'VhdlDocGen']]],
   ['module_122',['MODULE',['../d5/dfa/class_namespace_def_impl.html#a9b67e0b4b15cbcae814e445c9c639f19acfc12b21335159f7a5db523fddf808b2',1,'NamespaceDefImpl']]],
   ['module_123',['Module',['../dc/d1e/context_8h.html#a74df7450438043c0c7b7a8aad44301b9ae55f75a29310d7b60f7ac1d390c8ae42',1,'context.h']]],
-  ['modules_124',['Modules',['../d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09abf17ac149e2e7a530c677e9bd51d3fd2',1,'Modules():&#160;index.h'],['../df/de7/struct_layout_nav_entry.html#aef36305dd829f7cde87ca203ae647c7ca7ec847f42f630b812ad30b4b12430270',1,'LayoutNavEntry::Modules()']]],
+  ['modules_124',['Modules',['../d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09abf17ac149e2e7a530c677e9bd51d3fd2',1,'Modules:&#160;index.h'],['../df/de7/struct_layout_nav_entry.html#aef36305dd829f7cde87ca203ae647c7ca7ec847f42f630b812ad30b4b12430270',1,'LayoutNavEntry::Modules']]],
   ['modulo_125',['Modulo',['../d0/d99/class_operator.html#adf562143104191264da67b4e6e1a1644ad1cd8d9a017e127743a6488522452a9e',1,'Operator']]],
   ['msc_126',['Msc',['../dc/d12/class_doc_verbatim.html#ad8c770dcf2e62369b95f4e34fb11fa36aa841d77afafe62444561766f255fda8b',1,'DocVerbatim']]],
   ['msc_5fbitmap_127',['MSC_BITMAP',['../dc/d66/msc_8h.html#a6cf71dda84c5602c6239cca31028f656a764c2d4059b2c0b3664ae4f9ed7767d2',1,'msc.h']]],

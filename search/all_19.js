@@ -2,8 +2,8 @@ var searchData=
 [
   ['xfpos_0',['xfPos',['../d0/d78/class_diagram_item.html#ab10397c2aeb1007eff18ca2d715041c3',1,'DiagramItem']]],
   ['xml_1',['XML',['../df/d06/outputgen_8h.html#a4e0517338e6c4a31a2addafc06d4f3a3a3501bb093d363810b671059b9cfed3f8',1,'outputgen.h']]],
-  ['xml_2',['xml',['../db/d5f/class_html_entity_mapper.html#a6359802a6779aa5f0245357d974c3bd1',1,'HtmlEntityMapper::xml()'],['../da/dd4/struct_html_entity_info.html#a3e6dbec155dc9ddb912ed9f5b1be8dc3',1,'HtmlEntityInfo::xml()']]],
-  ['xml_3',['Xml',['../da/d1d/class_local_toc.html#a665c661f92a4de013f9c54ad52a330eca0435bb97f551dc7353ddb940de458128',1,'LocalToc::Xml()'],['../db/dc8/class_doc_image.html#aaa49d1dad195745ff9d470c5335be93ead2e9647950376dfa87071aa9913b703f',1,'DocImage::Xml()']]],
+  ['xml_2',['xml',['../db/d5f/class_html_entity_mapper.html#a6359802a6779aa5f0245357d974c3bd1',1,'HtmlEntityMapper::xml()'],['../da/dd4/struct_html_entity_info.html#a3e6dbec155dc9ddb912ed9f5b1be8dc3',1,'HtmlEntityInfo::xml']]],
+  ['xml_3',['Xml',['../da/d1d/class_local_toc.html#a665c661f92a4de013f9c54ad52a330eca0435bb97f551dc7353ddb940de458128',1,'LocalToc::Xml'],['../db/dc8/class_doc_image.html#aaa49d1dad195745ff9d470c5335be93ead2e9647950376dfa87071aa9913b703f',1,'DocImage::Xml']]],
   ['xml_2eh_4',['xml.h',['../d0/d62/xml_8h.html',1,'']]],
   ['xml_2el_5',['xml.l',['../dc/d30/xml_8l.html',1,'']]],
   ['xml_5fc_6',['XML_C',['../d3/d42/cmdmapper_8h.html#a91be16b8342aa3130a4374d78cf42273a5ce9f148d97c638bc2c457bfe13d249a',1,'cmdmapper.h']]],
@@ -67,6 +67,6 @@ var searchData=
   ['xrefitemtitle_64',['xrefItemTitle',['../d4/de8/structcommentscan_y_y__state.html#a705bb872a25bf2f1c2b314f108069711',1,'commentscanYY_state']]],
   ['xrefkind_65',['XRefKind',['../d7/d5f/commentscan_8l.html#a30f370adb2525f6629a44ad8fb972186',1,'commentscan.l']]],
   ['xrefkind_66',['xrefKind',['../d4/de8/structcommentscan_y_y__state.html#a6f3f2332768cd8c0091fb0e6be30a59f',1,'commentscanYY_state']]],
-  ['xreflistitems_67',['xrefListItems',['../d8/d83/class_definition_alias_mixin.html#a3c09c9e9c3612adff6a44bf4aff2abf0',1,'DefinitionAliasMixin::xrefListItems()'],['../dd/d10/class_definition_mixin.html#a8170faab6bcbcdbd0dbcde859993e10a',1,'DefinitionMixin::xrefListItems()'],['../d3/ddf/class_definition_impl.html#a1c6e9e9e720e83c4d05172aa1f83a550',1,'DefinitionImpl::xrefListItems()'],['../d5/dcc/class_definition.html#a294644eed6c10ad8789d6d8fdbf6da58',1,'Definition::xrefListItems()'],['../dd/d50/class_definition_impl_1_1_i_m_p_l.html#aff024874a648f9ab442f5e1b5d5b7a47',1,'DefinitionImpl::IMPL::xrefListItems()']]],
+  ['xreflistitems_67',['xrefListItems',['../d8/d83/class_definition_alias_mixin.html#a3c09c9e9c3612adff6a44bf4aff2abf0',1,'DefinitionAliasMixin::xrefListItems()'],['../dd/d10/class_definition_mixin.html#a8170faab6bcbcdbd0dbcde859993e10a',1,'DefinitionMixin::xrefListItems()'],['../d3/ddf/class_definition_impl.html#a1c6e9e9e720e83c4d05172aa1f83a550',1,'DefinitionImpl::xrefListItems()'],['../d5/dcc/class_definition.html#a294644eed6c10ad8789d6d8fdbf6da58',1,'Definition::xrefListItems()'],['../dd/d50/class_definition_impl_1_1_i_m_p_l.html#aff024874a648f9ab442f5e1b5d5b7a47',1,'DefinitionImpl::IMPL::xrefListItems']]],
   ['xreflisttitle_68',['xrefListTitle',['../d4/de8/structcommentscan_y_y__state.html#a53b62ca89ce6447802ba72ddd8b0e99a',1,'commentscanYY_state']]]
 ];
