@@ -123,9 +123,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6fdb262f6dcf3dc188a8c91814e9cba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2ca8e5197d97fe6e8650a1949457ac0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/class_output_code_list.html#ac2ca8e5197d97fe6e8650a1949457ac0">setId</a> (int <a class="el" href="../../db/d8e/class_output_code_list.html#a6fdb262f6dcf3dc188a8c91814e9cba4">id</a>)</td></tr>
 <tr class="separator:ac2ca8e5197d97fe6e8650a1949457ac0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a93c7f7668d5f948d705177558f1f7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/class_output_code_list.html#a9a93c7f7668d5f948d705177558f1f7e">add</a> (<a class="el" href="../../db/d8e/class_output_code_list.html#aa89f21f6b6cadba08a63a15b7fbd0744">OutputCodeVariant</a> v)</td></tr>
-<tr class="memdesc:a9a93c7f7668d5f948d705177558f1f7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a code generator already wrapped in a variant type.  <br /></td></tr>
-<tr class="separator:a9a93c7f7668d5f948d705177558f1f7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca0c543c1da67fd362801edafe76c5f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/class_output_code_list.html#aca0c543c1da67fd362801edafe76c5f0">add</a> (<a class="el" href="../../db/d8e/class_output_code_list.html#aa89f21f6b6cadba08a63a15b7fbd0744">OutputCodeVariant</a> &amp;&amp;v)</td></tr>
+<tr class="memdesc:aca0c543c1da67fd362801edafe76c5f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a code generator already wrapped in a variant type.  <br /></td></tr>
+<tr class="separator:aca0c543c1da67fd362801edafe76c5f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad29d3ac21b0edc1077ed71c2bd958514"><td class="memTemplParams" colspan="2">template&lt;class T , class... As&gt; </td></tr>
 <tr class="memitem:ad29d3ac21b0edc1077ed71c2bd958514"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d8e/class_output_code_list.html#ad29d3ac21b0edc1077ed71c2bd958514">add</a> (As &amp;&amp;... args)</td></tr>
 <tr class="memdesc:ad29d3ac21b0edc1077ed71c2bd958514"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a code generator to the list, using a syntax similar to std::make_unique&lt;T&gt;()  <br /></td></tr>
@@ -226,17 +226,17 @@ template&lt;class T , class... As&gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/db9/outputlist_8h_source.html#l00177">177</a> of file <a class="el" href="../../d2/db9/outputlist_8h_source.html">outputlist.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  178</span>    {</div>
-<div class="line"><span class="lineno">  179</span>      <a class="code hl_function" href="../../db/d8e/class_output_code_list.html#a9a93c7f7668d5f948d705177558f1f7e">add</a>(<a class="code hl_typedef" href="../../db/d8e/class_output_code_list.html#aa89f21f6b6cadba08a63a15b7fbd0744">OutputCodeVariant</a>{std::in_place_type&lt;T&gt;,std::forward&lt;As&gt;(args)...});</div>
+<div class="line"><span class="lineno">  179</span>      <a class="code hl_function" href="../../db/d8e/class_output_code_list.html#aca0c543c1da67fd362801edafe76c5f0">add</a>(<a class="code hl_typedef" href="../../db/d8e/class_output_code_list.html#aa89f21f6b6cadba08a63a15b7fbd0744">OutputCodeVariant</a>{std::in_place_type&lt;T&gt;,std::forward&lt;As&gt;(args)...});</div>
 <div class="line"><span class="lineno">  180</span>    }</div>
-<div class="ttc" id="aclass_output_code_list_html_a9a93c7f7668d5f948d705177558f1f7e"><div class="ttname"><a href="../../db/d8e/class_output_code_list.html#a9a93c7f7668d5f948d705177558f1f7e">OutputCodeList::add</a></div><div class="ttdeci">void add(OutputCodeVariant v)</div><div class="ttdoc">Add a code generator already wrapped in a variant type.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db9/outputlist_8h_source.html#l00170">outputlist.h:170</a></div></div>
 <div class="ttc" id="aclass_output_code_list_html_aa89f21f6b6cadba08a63a15b7fbd0744"><div class="ttname"><a href="../../db/d8e/class_output_code_list.html#aa89f21f6b6cadba08a63a15b7fbd0744">OutputCodeList::OutputCodeVariant</a></div><div class="ttdeci">std::variant&lt; HtmlCodeGenerator, LatexCodeGenerator, RTFCodeGenerator, ManCodeGenerator, XMLCodeGenerator, DocbookCodeGenerator, DevNullCodeGenerator, OutputCodeDeferHtml, OutputCodeDeferLatex, OutputCodeDeferRTF, OutputCodeDeferMan, OutputCodeDeferDocbook, OutputCodeDeferExtension &gt; OutputCodeVariant</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db9/outputlist_8h_source.html#l00151">outputlist.h:164</a></div></div>
+<div class="ttc" id="aclass_output_code_list_html_aca0c543c1da67fd362801edafe76c5f0"><div class="ttname"><a href="../../db/d8e/class_output_code_list.html#aca0c543c1da67fd362801edafe76c5f0">OutputCodeList::add</a></div><div class="ttdeci">void add(OutputCodeVariant &amp;&amp;v)</div><div class="ttdoc">Add a code generator already wrapped in a variant type.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db9/outputlist_8h_source.html#l00170">outputlist.h:170</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/db9/outputlist_8h_source.html#l00170">add()</a>.</p>
 
 </div>
 </div>
-<a id="a9a93c7f7668d5f948d705177558f1f7e" name="a9a93c7f7668d5f948d705177558f1f7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a93c7f7668d5f948d705177558f1f7e">&#9670;&#160;</a></span>add() <span class="overload">[2/2]</span></h2>
+<a id="aca0c543c1da67fd362801edafe76c5f0" name="aca0c543c1da67fd362801edafe76c5f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca0c543c1da67fd362801edafe76c5f0">&#9670;&#160;</a></span>add() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -247,7 +247,7 @@ template&lt;class T , class... As&gt; </div>
         <tr>
           <td class="memname">void OutputCodeList::add </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d8e/class_output_code_list.html#aa89f21f6b6cadba08a63a15b7fbd0744">OutputCodeVariant</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../db/d8e/class_output_code_list.html#aa89f21f6b6cadba08a63a15b7fbd0744">OutputCodeVariant</a> &amp;&amp;&#160;</td>
           <td class="paramname"><em>v</em></td><td>)</td>
           <td></td>
         </tr>
@@ -263,7 +263,7 @@ template&lt;class T , class... As&gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/db9/outputlist_8h_source.html#l00170">170</a> of file <a class="el" href="../../d2/db9/outputlist_8h_source.html">outputlist.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  171</span>    {</div>
-<div class="line"><span class="lineno">  172</span>      <a class="code hl_variable" href="../../db/d8e/class_output_code_list.html#a1b66e22d9c49abb5cec665038904357b">m_outputCodeList</a>.push_back(OutputCodeElem(v,<span class="keyword">true</span>));</div>
+<div class="line"><span class="lineno">  172</span>      <a class="code hl_variable" href="../../db/d8e/class_output_code_list.html#a1b66e22d9c49abb5cec665038904357b">m_outputCodeList</a>.push_back(OutputCodeElem(std::move(v),<span class="keyword">true</span>));</div>
 <div class="line"><span class="lineno">  173</span>    }</div>
 <div class="ttc" id="aclass_output_code_list_html_a1b66e22d9c49abb5cec665038904357b"><div class="ttname"><a href="../../db/d8e/class_output_code_list.html#a1b66e22d9c49abb5cec665038904357b">OutputCodeList::m_outputCodeList</a></div><div class="ttdeci">std::vector&lt; OutputCodeElem &gt; m_outputCodeList</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db9/outputlist_8h_source.html#l00263">outputlist.h:263</a></div></div>
 </div><!-- fragment -->
