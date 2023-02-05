@@ -2,7 +2,7 @@ var structxmlcode_y_y__state =
 [
     [ "args", "d1/d7e/structxmlcode_y_y__state.html#a0ab2a119ef0eb5e535d2b9789ff7a82b", null ],
     [ "classScope", "d1/d7e/structxmlcode_y_y__state.html#aa7fe459f2e519433cf68784b9a30d28d", null ],
-    [ "code", "d1/d7e/structxmlcode_y_y__state.html#a1da54f504b2b4dde0f55347899a24844", null ],
+    [ "code", "d1/d7e/structxmlcode_y_y__state.html#a250bc69c2cb435291ecb9550005e90ae", null ],
     [ "curClassName", "d1/d7e/structxmlcode_y_y__state.html#ae66462f6986db79bc523a7d5e37d4cac", null ],
     [ "currentDefinition", "d1/d7e/structxmlcode_y_y__state.html#a368c7d460967526ed8122368f40218e4", null ],
     [ "currentFontClass", "d1/d7e/structxmlcode_y_y__state.html#a241ec521afadbc3a5e786012d06123e8", null ],

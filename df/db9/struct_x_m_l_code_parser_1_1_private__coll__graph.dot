@@ -9,7 +9,7 @@ digraph "XMLCodeParser::Private"
   Node2 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" state",fontcolor="grey" ];
   Node2 [label="xmlcodeYY_state",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d1/d7e/structxmlcode_y_y__state.html",tooltip=" "];
   Node3 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" code",fontcolor="grey" ];
-  Node3 [label="CodeOutputInterface",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d5/d9c/class_code_output_interface.html",tooltip="Output interface for code parser."];
+  Node3 [label="OutputCodeList",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$db/d8e/class_output_code_list.html",tooltip="Class representing a list of different code generators."];
   Node4 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" CurrScope\nargs\nclassScope\ncurClassName\nexampleFile\nexampleName\nfileName\nname\nparmName\nparmType\n...",fontcolor="grey" ];
   Node4 [label="QCString",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d9/d45/class_q_c_string.html",tooltip="This is an alternative implementation of QCString."];
   Node5 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" currentDefinition\nsearchCtx",fontcolor="grey" ];

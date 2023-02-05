@@ -156,7 +156,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06476">6476</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06483">6483</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="acf2c241d8fa1202b646dd37888123067" name="acf2c241d8fa1202b646dd37888123067"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acf2c241d8fa1202b646dd37888123067">&#9670;&#160;</a></span>Private()</h2>
@@ -181,25 +181,25 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06479">6479</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 6480</span>    {</div>
-<div class="line"><span class="lineno"> 6481</span>      <span class="comment">// Add dirs tree</span></div>
-<div class="line"><span class="lineno"> 6482</span>      <a class="code hl_variable" href="../../dc/d3a/class_file_tree_context_1_1_private.html#a2e812efde46c2a27a40b25369fa34914">m_dirFileTree</a> = <a class="code hl_function" href="../../db/d7e/class_nesting_context.html#a034e06d9ea3df71185b59c193ea87d9f">NestingContext::alloc</a>(0,ContextTreeType::File,0);</div>
-<div class="line"><span class="lineno"> 6483</span>      <span class="keyword">auto</span> ctx = std::dynamic_pointer_cast&lt;NestingContext&gt;(<a class="code hl_variable" href="../../dc/d3a/class_file_tree_context_1_1_private.html#a2e812efde46c2a27a40b25369fa34914">m_dirFileTree</a>);</div>
-<div class="line"><span class="lineno"> 6484</span>      <a class="code hl_typedef" href="../../d1/da6/classdef_8h.html#a6a57c19877e781003273aacd8c7b18fe">ClassDefSet</a> visitedClasses;</div>
-<div class="line"><span class="lineno"> 6485</span>      ctx-&gt;addDirs(*<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#ad179803c33ab064adfd6adf681a0a805">Doxygen::dirLinkedMap</a>,visitedClasses);</div>
-<div class="line"><span class="lineno"> 6486</span>      <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a31a5a5856417ba3f05eccaf1f85e9958">Doxygen::inputNameLinkedMap</a>)</div>
-<div class="line"><span class="lineno"> 6487</span>      {</div>
-<div class="line"><span class="lineno"> 6488</span>        ctx-&gt;addFiles(*<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a31a5a5856417ba3f05eccaf1f85e9958">Doxygen::inputNameLinkedMap</a>,visitedClasses);</div>
-<div class="line"><span class="lineno"> 6489</span>      }</div>
-<div class="line"><span class="lineno"> 6490</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06486">6486</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 6487</span>    {</div>
+<div class="line"><span class="lineno"> 6488</span>      <span class="comment">// Add dirs tree</span></div>
+<div class="line"><span class="lineno"> 6489</span>      <a class="code hl_variable" href="../../dc/d3a/class_file_tree_context_1_1_private.html#a2e812efde46c2a27a40b25369fa34914">m_dirFileTree</a> = <a class="code hl_function" href="../../db/d7e/class_nesting_context.html#a034e06d9ea3df71185b59c193ea87d9f">NestingContext::alloc</a>(0,ContextTreeType::File,0);</div>
+<div class="line"><span class="lineno"> 6490</span>      <span class="keyword">auto</span> ctx = std::dynamic_pointer_cast&lt;NestingContext&gt;(<a class="code hl_variable" href="../../dc/d3a/class_file_tree_context_1_1_private.html#a2e812efde46c2a27a40b25369fa34914">m_dirFileTree</a>);</div>
+<div class="line"><span class="lineno"> 6491</span>      <a class="code hl_typedef" href="../../d1/da6/classdef_8h.html#a6a57c19877e781003273aacd8c7b18fe">ClassDefSet</a> visitedClasses;</div>
+<div class="line"><span class="lineno"> 6492</span>      ctx-&gt;addDirs(*<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#ad179803c33ab064adfd6adf681a0a805">Doxygen::dirLinkedMap</a>,visitedClasses);</div>
+<div class="line"><span class="lineno"> 6493</span>      <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a31a5a5856417ba3f05eccaf1f85e9958">Doxygen::inputNameLinkedMap</a>)</div>
+<div class="line"><span class="lineno"> 6494</span>      {</div>
+<div class="line"><span class="lineno"> 6495</span>        ctx-&gt;addFiles(*<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a31a5a5856417ba3f05eccaf1f85e9958">Doxygen::inputNameLinkedMap</a>,visitedClasses);</div>
+<div class="line"><span class="lineno"> 6496</span>      }</div>
+<div class="line"><span class="lineno"> 6497</span>    }</div>
 <div class="ttc" id="aclass_doxygen_html_a31a5a5856417ba3f05eccaf1f85e9958"><div class="ttname"><a href="../../de/d6a/class_doxygen.html#a31a5a5856417ba3f05eccaf1f85e9958">Doxygen::inputNameLinkedMap</a></div><div class="ttdeci">static FileNameLinkedMap * inputNameLinkedMap</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da1/doxygen_8h_source.html#l00100">doxygen.h:100</a></div></div>
 <div class="ttc" id="aclass_doxygen_html_ad179803c33ab064adfd6adf681a0a805"><div class="ttname"><a href="../../de/d6a/class_doxygen.html#ad179803c33ab064adfd6adf681a0a805">Doxygen::dirLinkedMap</a></div><div class="ttdeci">static DirLinkedMap * dirLinkedMap</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da1/doxygen_8h_source.html#l00122">doxygen.h:122</a></div></div>
-<div class="ttc" id="aclass_file_tree_context_1_1_private_html_a2e812efde46c2a27a40b25369fa34914"><div class="ttname"><a href="../../dc/d3a/class_file_tree_context_1_1_private.html#a2e812efde46c2a27a40b25369fa34914">FileTreeContext::Private::m_dirFileTree</a></div><div class="ttdeci">TemplateListIntfPtr m_dirFileTree</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l06516">context.cpp:6516</a></div></div>
+<div class="ttc" id="aclass_file_tree_context_1_1_private_html_a2e812efde46c2a27a40b25369fa34914"><div class="ttname"><a href="../../dc/d3a/class_file_tree_context_1_1_private.html#a2e812efde46c2a27a40b25369fa34914">FileTreeContext::Private::m_dirFileTree</a></div><div class="ttdeci">TemplateListIntfPtr m_dirFileTree</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l06523">context.cpp:6523</a></div></div>
 <div class="ttc" id="aclass_nesting_context_html_a034e06d9ea3df71185b59c193ea87d9f"><div class="ttname"><a href="../../db/d7e/class_nesting_context.html#a034e06d9ea3df71185b59c193ea87d9f">NestingContext::alloc</a></div><div class="ttdeci">static TemplateListIntfPtr alloc(const NestingNodeContext *parent, ContextTreeType type, int level)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d1e/context_8h_source.html#l00530">context.h:530</a></div></div>
 <div class="ttc" id="aclassdef_8h_html_a6a57c19877e781003273aacd8c7b18fe"><div class="ttname"><a href="../../d1/da6/classdef_8h.html#a6a57c19877e781003273aacd8c7b18fe">ClassDefSet</a></div><div class="ttdeci">std::set&lt; const ClassDef * &gt; ClassDefSet</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da6/classdef_8h_source.html#l00093">classdef.h:93</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/d1e/context_8h_source.html#l00530">NestingContext::alloc()</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00122">Doxygen::dirLinkedMap</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00100">Doxygen::inputNameLinkedMap</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l06516">m_dirFileTree</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d1e/context_8h_source.html#l00530">NestingContext::alloc()</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00122">Doxygen::dirLinkedMap</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00100">Doxygen::inputNameLinkedMap</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l06523">m_dirFileTree</a>.</p>
 
 </div>
 </div>
@@ -227,13 +227,13 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06508">6508</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 6509</span>    {</div>
-<div class="line"><span class="lineno"> 6510</span>      <span class="keywordflow">return</span> <a class="code hl_function" href="../../db/d12/context_8cpp.html#afd9ae2cfa752d7d2f61eaf406b360128">computeMaxDepth</a>(<a class="code hl_variable" href="../../dc/d3a/class_file_tree_context_1_1_private.html#a2e812efde46c2a27a40b25369fa34914">m_dirFileTree</a>);</div>
-<div class="line"><span class="lineno"> 6511</span>    }</div>
-<div class="ttc" id="acontext_8cpp_html_afd9ae2cfa752d7d2f61eaf406b360128"><div class="ttname"><a href="../../db/d12/context_8cpp.html#afd9ae2cfa752d7d2f61eaf406b360128">computeMaxDepth</a></div><div class="ttdeci">static int computeMaxDepth(const TemplateListIntfPtr list)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l05127">context.cpp:5127</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06515">6515</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 6516</span>    {</div>
+<div class="line"><span class="lineno"> 6517</span>      <span class="keywordflow">return</span> <a class="code hl_function" href="../../db/d12/context_8cpp.html#afd9ae2cfa752d7d2f61eaf406b360128">computeMaxDepth</a>(<a class="code hl_variable" href="../../dc/d3a/class_file_tree_context_1_1_private.html#a2e812efde46c2a27a40b25369fa34914">m_dirFileTree</a>);</div>
+<div class="line"><span class="lineno"> 6518</span>    }</div>
+<div class="ttc" id="acontext_8cpp_html_afd9ae2cfa752d7d2f61eaf406b360128"><div class="ttname"><a href="../../db/d12/context_8cpp.html#afd9ae2cfa752d7d2f61eaf406b360128">computeMaxDepth</a></div><div class="ttdeci">static int computeMaxDepth(const TemplateListIntfPtr list)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l05134">context.cpp:5134</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d12/context_8cpp_source.html#l05127">computeMaxDepth()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l06516">m_dirFileTree</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d12/context_8cpp_source.html#l05134">computeMaxDepth()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l06523">m_dirFileTree</a>.</p>
 
 </div>
 </div>
@@ -260,14 +260,14 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06512">6512</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 6513</span>    {</div>
-<div class="line"><span class="lineno"> 6514</span>      <span class="keywordflow">return</span> <a class="code hl_function" href="../../db/d12/context_8cpp.html#a016a7ed22aabc382dd161f0082fe2b23">computePreferredDepth</a>(<a class="code hl_variable" href="../../dc/d3a/class_file_tree_context_1_1_private.html#a2e812efde46c2a27a40b25369fa34914">m_dirFileTree</a>,<a class="code hl_variable" href="../../dc/d3a/class_file_tree_context_1_1_private.html#ac8dfd9479f727911d9d508ea274544ce">m_maxDepth</a>.get(<span class="keyword">this</span>));</div>
-<div class="line"><span class="lineno"> 6515</span>    }</div>
-<div class="ttc" id="aclass_file_tree_context_1_1_private_html_ac8dfd9479f727911d9d508ea274544ce"><div class="ttname"><a href="../../dc/d3a/class_file_tree_context_1_1_private.html#ac8dfd9479f727911d9d508ea274544ce">FileTreeContext::Private::m_maxDepth</a></div><div class="ttdeci">CachedItem&lt; int, Private, &amp;Private::createMaxDepth &gt; m_maxDepth</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l06517">context.cpp:6517</a></div></div>
-<div class="ttc" id="acontext_8cpp_html_a016a7ed22aabc382dd161f0082fe2b23"><div class="ttname"><a href="../../db/d12/context_8cpp.html#a016a7ed22aabc382dd161f0082fe2b23">computePreferredDepth</a></div><div class="ttdeci">static int computePreferredDepth(const TemplateListIntfPtr list, int maxDepth)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l05165">context.cpp:5165</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06519">6519</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 6520</span>    {</div>
+<div class="line"><span class="lineno"> 6521</span>      <span class="keywordflow">return</span> <a class="code hl_function" href="../../db/d12/context_8cpp.html#a016a7ed22aabc382dd161f0082fe2b23">computePreferredDepth</a>(<a class="code hl_variable" href="../../dc/d3a/class_file_tree_context_1_1_private.html#a2e812efde46c2a27a40b25369fa34914">m_dirFileTree</a>,<a class="code hl_variable" href="../../dc/d3a/class_file_tree_context_1_1_private.html#ac8dfd9479f727911d9d508ea274544ce">m_maxDepth</a>.get(<span class="keyword">this</span>));</div>
+<div class="line"><span class="lineno"> 6522</span>    }</div>
+<div class="ttc" id="aclass_file_tree_context_1_1_private_html_ac8dfd9479f727911d9d508ea274544ce"><div class="ttname"><a href="../../dc/d3a/class_file_tree_context_1_1_private.html#ac8dfd9479f727911d9d508ea274544ce">FileTreeContext::Private::m_maxDepth</a></div><div class="ttdeci">CachedItem&lt; int, Private, &amp;Private::createMaxDepth &gt; m_maxDepth</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l06524">context.cpp:6524</a></div></div>
+<div class="ttc" id="acontext_8cpp_html_a016a7ed22aabc382dd161f0082fe2b23"><div class="ttname"><a href="../../db/d12/context_8cpp.html#a016a7ed22aabc382dd161f0082fe2b23">computePreferredDepth</a></div><div class="ttdeci">static int computePreferredDepth(const TemplateListIntfPtr list, int maxDepth)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l05172">context.cpp:5172</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d12/context_8cpp_source.html#l05165">computePreferredDepth()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l06516">m_dirFileTree</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l06517">m_maxDepth</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d12/context_8cpp_source.html#l05172">computePreferredDepth()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l06523">m_dirFileTree</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l06524">m_maxDepth</a>.</p>
 
 </div>
 </div>
@@ -294,12 +294,12 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06494">6494</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 6494</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d3a/class_file_tree_context_1_1_private.html#a1e3756c07a8f61e827e5e61a3f6ec279">s_inst</a>.<a class="code hl_function" href="../../d5/dbf/class_property_map.html#a3856fea26e3db9d03a4e3e9f3095ecdf">fields</a>(); }</div>
-<div class="ttc" id="aclass_file_tree_context_1_1_private_html_a1e3756c07a8f61e827e5e61a3f6ec279"><div class="ttname"><a href="../../dc/d3a/class_file_tree_context_1_1_private.html#a1e3756c07a8f61e827e5e61a3f6ec279">FileTreeContext::Private::s_inst</a></div><div class="ttdeci">static const PropertyMap&lt; FileTreeContext::Private &gt; s_inst</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l06519">context.cpp:6519</a></div></div>
-<div class="ttc" id="aclass_property_map_html_a3856fea26e3db9d03a4e3e9f3095ecdf"><div class="ttname"><a href="../../d5/dbf/class_property_map.html#a3856fea26e3db9d03a4e3e9f3095ecdf">PropertyMap::fields</a></div><div class="ttdeci">StringVector fields() const</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l00132">context.cpp:132</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06501">6501</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 6501</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d3a/class_file_tree_context_1_1_private.html#a1e3756c07a8f61e827e5e61a3f6ec279">s_inst</a>.<a class="code hl_function" href="../../d5/dbf/class_property_map.html#a3856fea26e3db9d03a4e3e9f3095ecdf">fields</a>(); }</div>
+<div class="ttc" id="aclass_file_tree_context_1_1_private_html_a1e3756c07a8f61e827e5e61a3f6ec279"><div class="ttname"><a href="../../dc/d3a/class_file_tree_context_1_1_private.html#a1e3756c07a8f61e827e5e61a3f6ec279">FileTreeContext::Private::s_inst</a></div><div class="ttdeci">static const PropertyMap&lt; FileTreeContext::Private &gt; s_inst</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l06526">context.cpp:6526</a></div></div>
+<div class="ttc" id="aclass_property_map_html_a3856fea26e3db9d03a4e3e9f3095ecdf"><div class="ttname"><a href="../../d5/dbf/class_property_map.html#a3856fea26e3db9d03a4e3e9f3095ecdf">PropertyMap::fields</a></div><div class="ttdeci">StringVector fields() const</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l00133">context.cpp:133</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d12/context_8cpp_source.html#l00132">PropertyMap&lt; T &gt;::fields()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l06519">s_inst</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d12/context_8cpp_source.html#l00133">PropertyMap&lt; T &gt;::fields()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l06526">s_inst</a>.</p>
 
 </div>
 </div>
@@ -326,8 +326,8 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06499">6499</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 6499</span>{ <span class="keywordflow">return</span> <span class="stringliteral">&quot;files&quot;</span>; }</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06506">6506</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 6506</span>{ <span class="keywordflow">return</span> <span class="stringliteral">&quot;files&quot;</span>; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -355,11 +355,11 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06493">6493</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 6493</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d3a/class_file_tree_context_1_1_private.html#a1e3756c07a8f61e827e5e61a3f6ec279">s_inst</a>.<a class="code hl_function" href="../../d5/dbf/class_property_map.html#a86b07001deb22ba4324af820b34aed79">get</a>(<span class="keyword">this</span>,n); }</div>
-<div class="ttc" id="aclass_property_map_html_a86b07001deb22ba4324af820b34aed79"><div class="ttname"><a href="../../d5/dbf/class_property_map.html#a86b07001deb22ba4324af820b34aed79">PropertyMap::get</a></div><div class="ttdeci">TemplateVariant get(const T *obj, const QCString &amp;n) const</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l00127">context.cpp:127</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06500">6500</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 6500</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d3a/class_file_tree_context_1_1_private.html#a1e3756c07a8f61e827e5e61a3f6ec279">s_inst</a>.<a class="code hl_function" href="../../d5/dbf/class_property_map.html#a86b07001deb22ba4324af820b34aed79">get</a>(<span class="keyword">this</span>,n); }</div>
+<div class="ttc" id="aclass_property_map_html_a86b07001deb22ba4324af820b34aed79"><div class="ttname"><a href="../../d5/dbf/class_property_map.html#a86b07001deb22ba4324af820b34aed79">PropertyMap::get</a></div><div class="ttdeci">TemplateVariant get(const T *obj, const QCString &amp;n) const</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l00128">context.cpp:128</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d12/context_8cpp_source.html#l00127">PropertyMap&lt; T &gt;::get()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l06519">s_inst</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d12/context_8cpp_source.html#l00128">PropertyMap&lt; T &gt;::get()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l06526">s_inst</a>.</p>
 
 </div>
 </div>
@@ -386,8 +386,8 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06501">6501</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 6501</span>{ <span class="keywordflow">return</span> <span class="stringliteral">&quot;files&quot;</span>; }</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06508">6508</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 6508</span>{ <span class="keywordflow">return</span> <span class="stringliteral">&quot;files&quot;</span>; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -414,10 +414,10 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06503">6503</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 6503</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d3a/class_file_tree_context_1_1_private.html#ac8dfd9479f727911d9d508ea274544ce">m_maxDepth</a>.get(<span class="keyword">this</span>); }</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06510">6510</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 6510</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d3a/class_file_tree_context_1_1_private.html#ac8dfd9479f727911d9d508ea274544ce">m_maxDepth</a>.get(<span class="keyword">this</span>); }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d12/context_8cpp_source.html#l06517">m_maxDepth</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d12/context_8cpp_source.html#l06524">m_maxDepth</a>.</p>
 
 </div>
 </div>
@@ -444,11 +444,11 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06504">6504</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 6504</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d3a/class_file_tree_context_1_1_private.html#a9496dd5bcdcf57972d3e01c791670c65">m_preferredDepth</a>.get(<span class="keyword">this</span>); }</div>
-<div class="ttc" id="aclass_file_tree_context_1_1_private_html_a9496dd5bcdcf57972d3e01c791670c65"><div class="ttname"><a href="../../dc/d3a/class_file_tree_context_1_1_private.html#a9496dd5bcdcf57972d3e01c791670c65">FileTreeContext::Private::m_preferredDepth</a></div><div class="ttdeci">CachedItem&lt; int, Private, &amp;Private::createPreferredDepth &gt; m_preferredDepth</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l06518">context.cpp:6518</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06511">6511</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 6511</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d3a/class_file_tree_context_1_1_private.html#a9496dd5bcdcf57972d3e01c791670c65">m_preferredDepth</a>.get(<span class="keyword">this</span>); }</div>
+<div class="ttc" id="aclass_file_tree_context_1_1_private_html_a9496dd5bcdcf57972d3e01c791670c65"><div class="ttname"><a href="../../dc/d3a/class_file_tree_context_1_1_private.html#a9496dd5bcdcf57972d3e01c791670c65">FileTreeContext::Private::m_preferredDepth</a></div><div class="ttdeci">CachedItem&lt; int, Private, &amp;Private::createPreferredDepth &gt; m_preferredDepth</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l06525">context.cpp:6525</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d12/context_8cpp_source.html#l06518">m_preferredDepth</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d12/context_8cpp_source.html#l06525">m_preferredDepth</a>.</p>
 
 </div>
 </div>
@@ -475,8 +475,8 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06500">6500</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 6500</span>{ <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>; }</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06507">6507</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 6507</span>{ <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -503,8 +503,8 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06502">6502</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 6502</span>{ <span class="keywordflow">return</span> <span class="stringliteral">&quot;filelist&quot;</span>; }</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06509">6509</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 6509</span>{ <span class="keywordflow">return</span> <span class="stringliteral">&quot;filelist&quot;</span>; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -531,8 +531,8 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06505">6505</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 6505</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d48/language_8cpp.html#a07b18e39f7c5156cd370829e7e6f8534">theTranslator</a>-&gt;<a class="code hl_function" href="../../d8/dfb/class_translator.html#ac461556d9c97028bde87745fdc97b3cb">trFileList</a>(); }</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06512">6512</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 6512</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d48/language_8cpp.html#a07b18e39f7c5156cd370829e7e6f8534">theTranslator</a>-&gt;<a class="code hl_function" href="../../d8/dfb/class_translator.html#ac461556d9c97028bde87745fdc97b3cb">trFileList</a>(); }</div>
 <div class="ttc" id="aclass_translator_html_ac461556d9c97028bde87745fdc97b3cb"><div class="ttname"><a href="../../d8/dfb/class_translator.html#ac461556d9c97028bde87745fdc97b3cb">Translator::trFileList</a></div><div class="ttdeci">virtual QCString trFileList()=0</div></div>
 <div class="ttc" id="alanguage_8cpp_html_a07b18e39f7c5156cd370829e7e6f8534"><div class="ttname"><a href="../../d2/d48/language_8cpp.html#a07b18e39f7c5156cd370829e7e6f8534">theTranslator</a></div><div class="ttdeci">Translator * theTranslator</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d48/language_8cpp_source.html#l00070">language.cpp:70</a></div></div>
 </div><!-- fragment -->
@@ -563,11 +563,11 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06498">6498</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 6498</span>{ <span class="keywordflow">return</span> <a class="code hl_class" href="../../d1/dba/class_template_variant.html">TemplateVariant</a>(<a class="code hl_variable" href="../../dc/d3a/class_file_tree_context_1_1_private.html#a2e812efde46c2a27a40b25369fa34914">m_dirFileTree</a>); }</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06505">6505</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 6505</span>{ <span class="keywordflow">return</span> <a class="code hl_class" href="../../d1/dba/class_template_variant.html">TemplateVariant</a>(<a class="code hl_variable" href="../../dc/d3a/class_file_tree_context_1_1_private.html#a2e812efde46c2a27a40b25369fa34914">m_dirFileTree</a>); }</div>
 <div class="ttc" id="aclass_template_variant_html"><div class="ttname"><a href="../../d1/dba/class_template_variant.html">TemplateVariant</a></div><div class="ttdoc">Variant type which can hold one value of a fixed set of types.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/db8/template_8h_source.html#l00098">template.h:99</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d12/context_8cpp_source.html#l06516">m_dirFileTree</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d12/context_8cpp_source.html#l06523">m_dirFileTree</a>.</p>
 
 </div>
 </div>
@@ -592,9 +592,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06516">6516</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06523">6523</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l06508">createMaxDepth()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l06512">createPreferredDepth()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l06479">Private()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l06498">tree()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l06515">createMaxDepth()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l06519">createPreferredDepth()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l06486">Private()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l06505">tree()</a>.</p>
 
 </div>
 </div>
@@ -618,9 +618,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06517">6517</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06524">6524</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l06512">createPreferredDepth()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l06503">maxDepth()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l06519">createPreferredDepth()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l06510">maxDepth()</a>.</p>
 
 </div>
 </div>
@@ -644,9 +644,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06518">6518</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06525">6525</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l06504">preferredDepth()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l06511">preferredDepth()</a>.</p>
 
 </div>
 </div>
@@ -679,18 +679,18 @@ Static Private Attributes</h2></td></tr>
 <div class="line">  {  <span class="stringliteral">&quot;preferredDepth&quot;</span>,&amp;<a class="code hl_function" href="../../dc/d3a/class_file_tree_context_1_1_private.html#a275726205ed25ac933b9f95cb6138f0b">Private::preferredDepth</a> },</div>
 <div class="line">  {  <span class="stringliteral">&quot;maxDepth&quot;</span>,      &amp;<a class="code hl_function" href="../../dc/d3a/class_file_tree_context_1_1_private.html#a69049fee360d79926673b87570afbf15">Private::maxDepth</a> }</div>
 <div class="line">}</div>
-<div class="ttc" id="aclass_file_tree_context_1_1_private_html_a088c13f31974a648949aaba0fc76cfa1"><div class="ttname"><a href="../../dc/d3a/class_file_tree_context_1_1_private.html#a088c13f31974a648949aaba0fc76cfa1">FileTreeContext::Private::highlight</a></div><div class="ttdeci">TemplateVariant highlight() const</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l06501">context.cpp:6501</a></div></div>
-<div class="ttc" id="aclass_file_tree_context_1_1_private_html_a275726205ed25ac933b9f95cb6138f0b"><div class="ttname"><a href="../../dc/d3a/class_file_tree_context_1_1_private.html#a275726205ed25ac933b9f95cb6138f0b">FileTreeContext::Private::preferredDepth</a></div><div class="ttdeci">TemplateVariant preferredDepth() const</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l06504">context.cpp:6504</a></div></div>
-<div class="ttc" id="aclass_file_tree_context_1_1_private_html_a3816e208bd9e906ebad87251e63af51d"><div class="ttname"><a href="../../dc/d3a/class_file_tree_context_1_1_private.html#a3816e208bd9e906ebad87251e63af51d">FileTreeContext::Private::tree</a></div><div class="ttdeci">TemplateVariant tree() const</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l06498">context.cpp:6498</a></div></div>
-<div class="ttc" id="aclass_file_tree_context_1_1_private_html_a44b9e5488692c9b441c27e75de0c3a8d"><div class="ttname"><a href="../../dc/d3a/class_file_tree_context_1_1_private.html#a44b9e5488692c9b441c27e75de0c3a8d">FileTreeContext::Private::relPath</a></div><div class="ttdeci">TemplateVariant relPath() const</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l06500">context.cpp:6500</a></div></div>
-<div class="ttc" id="aclass_file_tree_context_1_1_private_html_a69049fee360d79926673b87570afbf15"><div class="ttname"><a href="../../dc/d3a/class_file_tree_context_1_1_private.html#a69049fee360d79926673b87570afbf15">FileTreeContext::Private::maxDepth</a></div><div class="ttdeci">TemplateVariant maxDepth() const</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l06503">context.cpp:6503</a></div></div>
-<div class="ttc" id="aclass_file_tree_context_1_1_private_html_a9970b6ea4e51d62f2c9d8cd923d6121d"><div class="ttname"><a href="../../dc/d3a/class_file_tree_context_1_1_private.html#a9970b6ea4e51d62f2c9d8cd923d6121d">FileTreeContext::Private::title</a></div><div class="ttdeci">TemplateVariant title() const</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l06505">context.cpp:6505</a></div></div>
-<div class="ttc" id="aclass_file_tree_context_1_1_private_html_ac8b5160a5f81eaf3726d664ca00240ef"><div class="ttname"><a href="../../dc/d3a/class_file_tree_context_1_1_private.html#ac8b5160a5f81eaf3726d664ca00240ef">FileTreeContext::Private::subhighlight</a></div><div class="ttdeci">TemplateVariant subhighlight() const</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l06502">context.cpp:6502</a></div></div>
-<div class="ttc" id="aclass_file_tree_context_1_1_private_html_ae3af7f0710d967aafd8b6cbf1a2a7039"><div class="ttname"><a href="../../dc/d3a/class_file_tree_context_1_1_private.html#ae3af7f0710d967aafd8b6cbf1a2a7039">FileTreeContext::Private::fileName</a></div><div class="ttdeci">TemplateVariant fileName() const</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l06499">context.cpp:6499</a></div></div>
+<div class="ttc" id="aclass_file_tree_context_1_1_private_html_a088c13f31974a648949aaba0fc76cfa1"><div class="ttname"><a href="../../dc/d3a/class_file_tree_context_1_1_private.html#a088c13f31974a648949aaba0fc76cfa1">FileTreeContext::Private::highlight</a></div><div class="ttdeci">TemplateVariant highlight() const</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l06508">context.cpp:6508</a></div></div>
+<div class="ttc" id="aclass_file_tree_context_1_1_private_html_a275726205ed25ac933b9f95cb6138f0b"><div class="ttname"><a href="../../dc/d3a/class_file_tree_context_1_1_private.html#a275726205ed25ac933b9f95cb6138f0b">FileTreeContext::Private::preferredDepth</a></div><div class="ttdeci">TemplateVariant preferredDepth() const</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l06511">context.cpp:6511</a></div></div>
+<div class="ttc" id="aclass_file_tree_context_1_1_private_html_a3816e208bd9e906ebad87251e63af51d"><div class="ttname"><a href="../../dc/d3a/class_file_tree_context_1_1_private.html#a3816e208bd9e906ebad87251e63af51d">FileTreeContext::Private::tree</a></div><div class="ttdeci">TemplateVariant tree() const</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l06505">context.cpp:6505</a></div></div>
+<div class="ttc" id="aclass_file_tree_context_1_1_private_html_a44b9e5488692c9b441c27e75de0c3a8d"><div class="ttname"><a href="../../dc/d3a/class_file_tree_context_1_1_private.html#a44b9e5488692c9b441c27e75de0c3a8d">FileTreeContext::Private::relPath</a></div><div class="ttdeci">TemplateVariant relPath() const</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l06507">context.cpp:6507</a></div></div>
+<div class="ttc" id="aclass_file_tree_context_1_1_private_html_a69049fee360d79926673b87570afbf15"><div class="ttname"><a href="../../dc/d3a/class_file_tree_context_1_1_private.html#a69049fee360d79926673b87570afbf15">FileTreeContext::Private::maxDepth</a></div><div class="ttdeci">TemplateVariant maxDepth() const</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l06510">context.cpp:6510</a></div></div>
+<div class="ttc" id="aclass_file_tree_context_1_1_private_html_a9970b6ea4e51d62f2c9d8cd923d6121d"><div class="ttname"><a href="../../dc/d3a/class_file_tree_context_1_1_private.html#a9970b6ea4e51d62f2c9d8cd923d6121d">FileTreeContext::Private::title</a></div><div class="ttdeci">TemplateVariant title() const</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l06512">context.cpp:6512</a></div></div>
+<div class="ttc" id="aclass_file_tree_context_1_1_private_html_ac8b5160a5f81eaf3726d664ca00240ef"><div class="ttname"><a href="../../dc/d3a/class_file_tree_context_1_1_private.html#ac8b5160a5f81eaf3726d664ca00240ef">FileTreeContext::Private::subhighlight</a></div><div class="ttdeci">TemplateVariant subhighlight() const</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l06509">context.cpp:6509</a></div></div>
+<div class="ttc" id="aclass_file_tree_context_1_1_private_html_ae3af7f0710d967aafd8b6cbf1a2a7039"><div class="ttname"><a href="../../dc/d3a/class_file_tree_context_1_1_private.html#ae3af7f0710d967aafd8b6cbf1a2a7039">FileTreeContext::Private::fileName</a></div><div class="ttdeci">TemplateVariant fileName() const</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l06506">context.cpp:6506</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06519">6519</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l06526">6526</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l06494">fields()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l06493">get()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l06501">fields()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l06500">get()</a>.</p>
 
 </div>
 </div>

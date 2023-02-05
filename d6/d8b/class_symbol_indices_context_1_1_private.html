@@ -157,7 +157,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l08719">8719</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l08726">8726</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae3d1b53b276b134f5b6e1fed23e6cfe9" name="ae3d1b53b276b134f5b6e1fed23e6cfe9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae3d1b53b276b134f5b6e1fed23e6cfe9">&#9670;&#160;</a></span>Private()</h2>
@@ -183,20 +183,20 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l08722">8722</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 8723</span>    {</div>
-<div class="line"><span class="lineno"> 8724</span>      <span class="comment">// use info-&gt;symbolList to populate the list</span></div>
-<div class="line"><span class="lineno"> 8725</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;kv : info.<a class="code hl_variable" href="../../d4/db6/struct_search_index_info.html#aab250a5688a170b30a64030a2139f529">symbolMap</a>)</div>
-<div class="line"><span class="lineno"> 8726</span>      {</div>
-<div class="line"><span class="lineno"> 8727</span>        <a class="code hl_function" href="../../d6/dcb/class_generic_node_list_context.html#a1e3defa7bc050ae33e2fbabba7a20643">append</a>(<a class="code hl_function" href="../../d3/db8/class_symbol_index_context.html#a5b2e235bada2e36c8e239624e65603b8">SymbolIndexContext::alloc</a>(kv.first,kv.second,info.<a class="code hl_variable" href="../../d4/db6/struct_search_index_info.html#aad2e21c710b230a1844ed96560bd3659">name</a>));</div>
-<div class="line"><span class="lineno"> 8728</span>      }</div>
-<div class="line"><span class="lineno"> 8729</span>    }</div>
-<div class="ttc" id="aclass_generic_node_list_context_html_a1e3defa7bc050ae33e2fbabba7a20643"><div class="ttname"><a href="../../d6/dcb/class_generic_node_list_context.html#a1e3defa7bc050ae33e2fbabba7a20643">GenericNodeListContext::append</a></div><div class="ttdeci">void append(const TemplateVariant &amp;ctn)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l00220">context.cpp:220</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../db/d12/context_8cpp_source.html#l08729">8729</a> of file <a class="el" href="../../db/d12/context_8cpp_source.html">context.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 8730</span>    {</div>
+<div class="line"><span class="lineno"> 8731</span>      <span class="comment">// use info-&gt;symbolList to populate the list</span></div>
+<div class="line"><span class="lineno"> 8732</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;kv : info.<a class="code hl_variable" href="../../d4/db6/struct_search_index_info.html#aab250a5688a170b30a64030a2139f529">symbolMap</a>)</div>
+<div class="line"><span class="lineno"> 8733</span>      {</div>
+<div class="line"><span class="lineno"> 8734</span>        <a class="code hl_function" href="../../d6/dcb/class_generic_node_list_context.html#a1e3defa7bc050ae33e2fbabba7a20643">append</a>(<a class="code hl_function" href="../../d3/db8/class_symbol_index_context.html#a5b2e235bada2e36c8e239624e65603b8">SymbolIndexContext::alloc</a>(kv.first,kv.second,info.<a class="code hl_variable" href="../../d4/db6/struct_search_index_info.html#aad2e21c710b230a1844ed96560bd3659">name</a>));</div>
+<div class="line"><span class="lineno"> 8735</span>      }</div>
+<div class="line"><span class="lineno"> 8736</span>    }</div>
+<div class="ttc" id="aclass_generic_node_list_context_html_a1e3defa7bc050ae33e2fbabba7a20643"><div class="ttname"><a href="../../d6/dcb/class_generic_node_list_context.html#a1e3defa7bc050ae33e2fbabba7a20643">GenericNodeListContext::append</a></div><div class="ttdeci">void append(const TemplateVariant &amp;ctn)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d12/context_8cpp_source.html#l00221">context.cpp:221</a></div></div>
 <div class="ttc" id="aclass_symbol_index_context_html_a5b2e235bada2e36c8e239624e65603b8"><div class="ttname"><a href="../../d3/db8/class_symbol_index_context.html#a5b2e235bada2e36c8e239624e65603b8">SymbolIndexContext::alloc</a></div><div class="ttdeci">static TemplateStructIntfPtr alloc(const std::string &amp;letter, const SearchIndexList &amp;sl, const QCString &amp;name)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d1e/context_8h_source.html#l01316">context.h:1316</a></div></div>
 <div class="ttc" id="astruct_search_index_info_html_aab250a5688a170b30a64030a2139f529"><div class="ttname"><a href="../../d4/db6/struct_search_index_info.html#aab250a5688a170b30a64030a2139f529">SearchIndexInfo::symbolMap</a></div><div class="ttdeci">SearchIndexMap symbolMap</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de5/searchindex__js_8h_source.html#l00046">searchindex_js.h:46</a></div></div>
 <div class="ttc" id="astruct_search_index_info_html_aad2e21c710b230a1844ed96560bd3659"><div class="ttname"><a href="../../d4/db6/struct_search_index_info.html#aad2e21c710b230a1844ed96560bd3659">SearchIndexInfo::name</a></div><div class="ttdeci">QCString name</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de5/searchindex__js_8h_source.html#l00044">searchindex_js.h:44</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/d1e/context_8h_source.html#l01316">SymbolIndexContext::alloc()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l00220">GenericNodeListContext::append()</a>, <a class="el" href="../../dd/de5/searchindex__js_8h_source.html#l00044">SearchIndexInfo::name</a>, and <a class="el" href="../../dd/de5/searchindex__js_8h_source.html#l00046">SearchIndexInfo::symbolMap</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d1e/context_8h_source.html#l01316">SymbolIndexContext::alloc()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l00221">GenericNodeListContext::append()</a>, <a class="el" href="../../dd/de5/searchindex__js_8h_source.html#l00044">SearchIndexInfo::name</a>, and <a class="el" href="../../dd/de5/searchindex__js_8h_source.html#l00046">SearchIndexInfo::symbolMap</a>.</p>
 
 </div>
 </div>

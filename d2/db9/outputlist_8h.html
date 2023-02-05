@@ -92,15 +92,26 @@ $(document).ready(function(){initNavTree('d2/db9/outputlist_8h.html','../../'); 
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a>  </div>
   <div class="headertitle"><div class="title">outputlist.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;utility&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;memory&gt;</code><br />
+<code>#include &lt;variant&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../df/d06/outputgen_8h_source.html">outputgen.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d1/da1/doxygen_8h_source.html">doxygen.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/d73/dispatcher_8h_source.html">dispatcher.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d8/d56/htmlgen_8h_source.html">htmlgen.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/d9c/latexgen_8h_source.html">latexgen.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/daa/rtfgen_8h_source.html">rtfgen.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/dc0/mangen_8h_source.html">mangen.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../de/dea/docbookgen_8h_source.html">docbookgen.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/d67/xmlgen_8h_source.html">xmlgen.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d8/de5/devnullgen_8h_source.html">devnullgen.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for outputlist.h:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -120,12 +131,161 @@ $(document).ready(function(){initNavTree('d2/db9/outputlist_8h.html','../../'); 
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d58/struct_output_code_intf_1_1codify.html">OutputCodeIntf::codify&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dba/struct_output_code_intf_1_1write_code_link.html">OutputCodeIntf::writeCodeLink&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de0/struct_output_code_intf_1_1write_line_number.html">OutputCodeIntf::writeLineNumber&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dab/struct_output_code_intf_1_1write_tooltip.html">OutputCodeIntf::writeTooltip&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d6d/struct_output_code_intf_1_1start_code_line.html">OutputCodeIntf::startCodeLine&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dfb/struct_output_code_intf_1_1end_code_line.html">OutputCodeIntf::endCodeLine&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d4f/struct_output_code_intf_1_1start_font_class.html">OutputCodeIntf::startFontClass&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6e/struct_output_code_intf_1_1end_font_class.html">OutputCodeIntf::endFontClass&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d58/struct_output_code_intf_1_1write_code_anchor.html">OutputCodeIntf::writeCodeAnchor&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d8a/struct_output_code_intf_1_1start_code_fragment.html">OutputCodeIntf::startCodeFragment&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d9e/struct_output_code_intf_1_1end_code_fragment.html">OutputCodeIntf::endCodeFragment&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d41/class_output_code_defer.html">OutputCodeDefer&lt; OutputCodeGen &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper template class which defers all methods of <a class="el" href="../../d5/de5/namespace_output_code_intf.html" title="Namespace containing typed wrappers to refer to member functions using a fixed method name and fixed ...">OutputCodeIntf</a> to an existing object of the templated type.  <a href="../../dd/d41/class_output_code_defer.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d22/class_output_code_extension.html">OutputCodeExtension</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class that allows alternative implementations outside of the fixed set supported by <a class="el" href="../../db/d8e/class_output_code_list.html" title="Class representing a list of different code generators.">OutputCodeList</a>.  <a href="../../d7/d22/class_output_code_extension.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/class_output_code_list.html">OutputCodeList</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class representing a list of different code generators.  <a href="../../db/d8e/class_output_code_list.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d33/struct_output_code_list_1_1_output_code_elem.html">OutputCodeList::OutputCodeElem</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dc8/class_output_list.html">OutputList</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class representing a list of output generators that are written to in parallel.  <a href="../../df/dc8/class_output_list.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:d5/de5/namespace_output_code_intf"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de5/namespace_output_code_intf.html">OutputCodeIntf</a></td></tr>
+<tr class="memdesc:d5/de5/namespace_output_code_intf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Namespace containing typed wrappers to refer to member functions using a fixed method name and fixed condition function. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a5a0eb82e98dacac47bb0fe989cda8cbb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db9/outputlist_8h.html#a5a0eb82e98dacac47bb0fe989cda8cbb">OutputCodeDeferHtml</a> = <a class="el" href="../../dd/d41/class_output_code_defer.html">OutputCodeDefer</a>&lt; <a class="el" href="../../da/db6/class_html_code_generator.html">HtmlCodeGenerator</a> &gt;</td></tr>
+<tr class="separator:a5a0eb82e98dacac47bb0fe989cda8cbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea7bf0fb9810948ba1b6aca4ccd60394"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db9/outputlist_8h.html#aea7bf0fb9810948ba1b6aca4ccd60394">OutputCodeDeferLatex</a> = <a class="el" href="../../dd/d41/class_output_code_defer.html">OutputCodeDefer</a>&lt; <a class="el" href="../../d0/d37/class_latex_code_generator.html">LatexCodeGenerator</a> &gt;</td></tr>
+<tr class="separator:aea7bf0fb9810948ba1b6aca4ccd60394"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2f92cb612426984d11cc84fa9d4dad1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db9/outputlist_8h.html#ab2f92cb612426984d11cc84fa9d4dad1">OutputCodeDeferRTF</a> = <a class="el" href="../../dd/d41/class_output_code_defer.html">OutputCodeDefer</a>&lt; <a class="el" href="../../d2/df7/class_r_t_f_code_generator.html">RTFCodeGenerator</a> &gt;</td></tr>
+<tr class="separator:ab2f92cb612426984d11cc84fa9d4dad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3133e30545d020f7602fb5df0ffe997"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db9/outputlist_8h.html#ad3133e30545d020f7602fb5df0ffe997">OutputCodeDeferMan</a> = <a class="el" href="../../dd/d41/class_output_code_defer.html">OutputCodeDefer</a>&lt; <a class="el" href="../../db/d92/class_man_code_generator.html">ManCodeGenerator</a> &gt;</td></tr>
+<tr class="separator:ad3133e30545d020f7602fb5df0ffe997"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a83344f92eaac1e1fe596bd41f65576"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db9/outputlist_8h.html#a7a83344f92eaac1e1fe596bd41f65576">OutputCodeDeferDocbook</a> = <a class="el" href="../../dd/d41/class_output_code_defer.html">OutputCodeDefer</a>&lt; <a class="el" href="../../d7/d80/class_docbook_code_generator.html">DocbookCodeGenerator</a> &gt;</td></tr>
+<tr class="separator:a7a83344f92eaac1e1fe596bd41f65576"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79bbab37c963d25dfc04b1e349e7946e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db9/outputlist_8h.html#a79bbab37c963d25dfc04b1e349e7946e">OutputCodeDeferExtension</a> = <a class="el" href="../../dd/d41/class_output_code_defer.html">OutputCodeDefer</a>&lt; <a class="el" href="../../d7/d22/class_output_code_extension.html">OutputCodeExtension</a> &gt;</td></tr>
+<tr class="separator:a79bbab37c963d25dfc04b1e349e7946e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a7a83344f92eaac1e1fe596bd41f65576" name="a7a83344f92eaac1e1fe596bd41f65576"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a83344f92eaac1e1fe596bd41f65576">&#9670;&#160;</a></span>OutputCodeDeferDocbook</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d2/db9/outputlist_8h.html#a7a83344f92eaac1e1fe596bd41f65576">OutputCodeDeferDocbook</a> =  <a class="el" href="../../dd/d41/class_output_code_defer.html">OutputCodeDefer</a>&lt;<a class="el" href="../../d7/d80/class_docbook_code_generator.html">DocbookCodeGenerator</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/db9/outputlist_8h_source.html#l00141">141</a> of file <a class="el" href="../../d2/db9/outputlist_8h_source.html">outputlist.h</a>.</p>
+
+</div>
+</div>
+<a id="a79bbab37c963d25dfc04b1e349e7946e" name="a79bbab37c963d25dfc04b1e349e7946e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79bbab37c963d25dfc04b1e349e7946e">&#9670;&#160;</a></span>OutputCodeDeferExtension</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d2/db9/outputlist_8h.html#a79bbab37c963d25dfc04b1e349e7946e">OutputCodeDeferExtension</a> =  <a class="el" href="../../dd/d41/class_output_code_defer.html">OutputCodeDefer</a>&lt;<a class="el" href="../../d7/d22/class_output_code_extension.html">OutputCodeExtension</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/db9/outputlist_8h_source.html#l00142">142</a> of file <a class="el" href="../../d2/db9/outputlist_8h_source.html">outputlist.h</a>.</p>
+
+</div>
+</div>
+<a id="a5a0eb82e98dacac47bb0fe989cda8cbb" name="a5a0eb82e98dacac47bb0fe989cda8cbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a0eb82e98dacac47bb0fe989cda8cbb">&#9670;&#160;</a></span>OutputCodeDeferHtml</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d2/db9/outputlist_8h.html#a5a0eb82e98dacac47bb0fe989cda8cbb">OutputCodeDeferHtml</a> =  <a class="el" href="../../dd/d41/class_output_code_defer.html">OutputCodeDefer</a>&lt;<a class="el" href="../../da/db6/class_html_code_generator.html">HtmlCodeGenerator</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/db9/outputlist_8h_source.html#l00137">137</a> of file <a class="el" href="../../d2/db9/outputlist_8h_source.html">outputlist.h</a>.</p>
+
+</div>
+</div>
+<a id="aea7bf0fb9810948ba1b6aca4ccd60394" name="aea7bf0fb9810948ba1b6aca4ccd60394"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea7bf0fb9810948ba1b6aca4ccd60394">&#9670;&#160;</a></span>OutputCodeDeferLatex</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d2/db9/outputlist_8h.html#aea7bf0fb9810948ba1b6aca4ccd60394">OutputCodeDeferLatex</a> =  <a class="el" href="../../dd/d41/class_output_code_defer.html">OutputCodeDefer</a>&lt;<a class="el" href="../../d0/d37/class_latex_code_generator.html">LatexCodeGenerator</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/db9/outputlist_8h_source.html#l00138">138</a> of file <a class="el" href="../../d2/db9/outputlist_8h_source.html">outputlist.h</a>.</p>
+
+</div>
+</div>
+<a id="ad3133e30545d020f7602fb5df0ffe997" name="ad3133e30545d020f7602fb5df0ffe997"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3133e30545d020f7602fb5df0ffe997">&#9670;&#160;</a></span>OutputCodeDeferMan</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d2/db9/outputlist_8h.html#ad3133e30545d020f7602fb5df0ffe997">OutputCodeDeferMan</a> =  <a class="el" href="../../dd/d41/class_output_code_defer.html">OutputCodeDefer</a>&lt;<a class="el" href="../../db/d92/class_man_code_generator.html">ManCodeGenerator</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/db9/outputlist_8h_source.html#l00140">140</a> of file <a class="el" href="../../d2/db9/outputlist_8h_source.html">outputlist.h</a>.</p>
+
+</div>
+</div>
+<a id="ab2f92cb612426984d11cc84fa9d4dad1" name="ab2f92cb612426984d11cc84fa9d4dad1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2f92cb612426984d11cc84fa9d4dad1">&#9670;&#160;</a></span>OutputCodeDeferRTF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d2/db9/outputlist_8h.html#ab2f92cb612426984d11cc84fa9d4dad1">OutputCodeDeferRTF</a> =  <a class="el" href="../../dd/d41/class_output_code_defer.html">OutputCodeDefer</a>&lt;<a class="el" href="../../d2/df7/class_r_t_f_code_generator.html">RTFCodeGenerator</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/db9/outputlist_8h_source.html#l00139">139</a> of file <a class="el" href="../../d2/db9/outputlist_8h_source.html">outputlist.h</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

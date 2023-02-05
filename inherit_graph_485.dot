@@ -6,7 +6,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [label="IDocParser",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dad/class_i_doc_parser.html",tooltip="opaque parser interface"];
-  Node0 -> Node1 [dir="back",color="steelblue1",style="solid"];
-  Node1 [label="DocParser",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d02/class_doc_parser.html",tooltip=" "];
+  Node0 [label="HtmlHelpRecoder",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d26/class_html_help_recoder.html",tooltip="Helper class to deal with recoding the UTF8 encoded text back to the native encoding specified by CHM..."];
 }

@@ -1,6 +1,6 @@
 var class_xml_doc_visitor =
 [
-    [ "XmlDocVisitor", "d4/dc8/class_xml_doc_visitor.html#a9d9b283114aa5b3bd8331857ce7415f8", null ],
+    [ "XmlDocVisitor", "d4/dc8/class_xml_doc_visitor.html#a7c793fb726834b10d3a13071c6279374", null ],
     [ "endLink", "d4/dc8/class_xml_doc_visitor.html#ac5ee6a7eb44019dd88204ef3e54765a7", null ],
     [ "filter", "d4/dc8/class_xml_doc_visitor.html#a4a0b1cce6594e65ae0d43c46dfcf52d5", null ],
     [ "operator()", "d4/dc8/class_xml_doc_visitor.html#ac971dec0f2cd21a3975be1cbd00b34a8", null ],
@@ -62,7 +62,7 @@ var class_xml_doc_visitor =
     [ "operator()", "d4/dc8/class_xml_doc_visitor.html#acd694108a8abefd6d6d7be9c7bba21cc", null ],
     [ "startLink", "d4/dc8/class_xml_doc_visitor.html#a5fa013b821ca9681befa4786b6877709", null ],
     [ "visitChildren", "d4/dc8/class_xml_doc_visitor.html#a29cc174e4c321c6cbdf5ef4ffa64b22c", null ],
-    [ "m_ci", "d4/dc8/class_xml_doc_visitor.html#a846b025497d1e49cfdd9fb426e986e75", null ],
+    [ "m_ci", "d4/dc8/class_xml_doc_visitor.html#a1317518664d2d196ec25409c3c1b1594", null ],
     [ "m_hide", "d4/dc8/class_xml_doc_visitor.html#a324135bddac33bb920baba94345f7d25", null ],
     [ "m_insidePre", "d4/dc8/class_xml_doc_visitor.html#a48ac7a76821c488eb48b95378d783b9f", null ],
     [ "m_langExt", "d4/dc8/class_xml_doc_visitor.html#adaa97b8389a3089ca4c94973d76d35e7", null ],
