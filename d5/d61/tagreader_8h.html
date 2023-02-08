@@ -161,7 +161,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1701</span>  tagFileParser.setDocumentLocator(&amp;parser);</div>
 <div class="line"><span class="lineno"> 1702</span>  parser.parse(fullName,inputStr.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>(),<a class="code hl_function" href="../../da/d7d/class_debug.html#a96e9401783e852c91f341b3f98198061">Debug::isFlagSet</a>(<a class="code hl_enumvalue" href="../../da/d7d/class_debug.html#a1c3f4696cf44a23f41e034323c426f7daa212cad6fd21d6eb9f0cbc82c1a14e97">Debug::Lex_xml</a>),</div>
 <div class="line"><span class="lineno"> 1703</span>               [&amp;]() { DebugLex::print(Debug::Lex_xml,<span class="stringliteral">&quot;Entering&quot;</span>,<span class="stringliteral">&quot;libxml/xml.l&quot;</span>,fullName); },</div>
-<div class="line"><span class="lineno"> 1704</span>               [&amp;]() { DebugLex::print(Debug::Lex_xml,<span class="stringliteral">&quot;Leaving&quot;</span>, <span class="stringliteral">&quot;libxml/xml.l&quot;</span>,fullName); }</div>
+<div class="line"><span class="lineno"> 1704</span>               [&amp;]() { DebugLex::print(Debug::Lex_xml,<span class="stringliteral">&quot;Finished&quot;</span>, <span class="stringliteral">&quot;libxml/xml.l&quot;</span>,fullName); }</div>
 <div class="line"><span class="lineno"> 1705</span>              );</div>
 <div class="line"><span class="lineno"> 1706</span>  tagFileParser.buildLists(root);</div>
 <div class="line"><span class="lineno"> 1707</span>  tagFileParser.addIncludes();</div>
