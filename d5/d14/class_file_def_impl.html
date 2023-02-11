@@ -2250,14 +2250,14 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 1426</span>  <span class="keywordtype">bool</span> verbatimHeaders = <a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(VERBATIM_HEADERS);</div>
 <div class="line"><span class="lineno"> 1427</span>  <span class="keywordflow">return</span> !<a class="code hl_function" href="../../dd/d10/class_definition_mixin.html#a4255a2bb5ac1e9f4f2cbe910c2c229ce">isReference</a>() &amp;&amp;</div>
 <div class="line"><span class="lineno"> 1428</span>         (sourceBrowser ||</div>
-<div class="line"><span class="lineno"> 1429</span>           (verbatimHeaders &amp;&amp; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#adfac1d990e027ce0011573d537066ee6">guessSection</a>(<a class="code hl_function" href="../../d5/d14/class_file_def_impl.html#af09750b8bb362bd1a5c4be32991ee20b">name</a>())==<a class="code hl_enumvalue" href="../../d4/dd7/class_entry.html#a1e615d53eb7db6d16c19fcb5788fbd9ea61b2174c7ae58ea3a495d75b187db937">Entry::HEADER_SEC</a>)</div>
+<div class="line"><span class="lineno"> 1429</span>           (verbatimHeaders &amp;&amp; (<a class="code hl_function" href="../../df/d2d/util_8cpp.html#adfac1d990e027ce0011573d537066ee6">guessSection</a>(<a class="code hl_function" href="../../d5/d14/class_file_def_impl.html#af09750b8bb362bd1a5c4be32991ee20b">name</a>())==<a class="code hl_enumvalue" href="../../d4/dd7/class_entry.html#a1e615d53eb7db6d16c19fcb5788fbd9ea61b2174c7ae58ea3a495d75b187db937">Entry::HEADER_SEC</a> || !<a class="code hl_variable" href="../../d5/d14/class_file_def_impl.html#a6c2b7b34022aafac62bbb755fb84ed15">m_includedByMap</a>.empty()))</div>
 <div class="line"><span class="lineno"> 1430</span>         ) &amp;&amp;</div>
 <div class="line"><span class="lineno"> 1431</span>         !<a class="code hl_function" href="../../d5/d14/class_file_def_impl.html#af06893d6d6432670f271b34fa9678e4a">isDocumentationFile</a>();</div>
 <div class="line"><span class="lineno"> 1432</span>}</div>
 <div class="ttc" id="aclass_entry_html_a1e615d53eb7db6d16c19fcb5788fbd9ea61b2174c7ae58ea3a495d75b187db937"><div class="ttname"><a href="../../d4/dd7/class_entry.html#a1e615d53eb7db6d16c19fcb5788fbd9ea61b2174c7ae58ea3a495d75b187db937">Entry::HEADER_SEC</a></div><div class="ttdeci">@ HEADER_SEC</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dc6/entry_8h_source.html#l00089">entry.h:89</a></div></div>
 <div class="ttc" id="aclass_file_def_impl_html_af06893d6d6432670f271b34fa9678e4a"><div class="ttname"><a href="../../d5/d14/class_file_def_impl.html#af06893d6d6432670f271b34fa9678e4a">FileDefImpl::isDocumentationFile</a></div><div class="ttdeci">virtual bool isDocumentationFile() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddc/filedef_8cpp_source.html#l01490">filedef.cpp:1490</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l00333">guessSection()</a>, <a class="el" href="../../d1/dc6/entry_8h_source.html#l00089">Entry::HEADER_SEC</a>, <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l01490">isDocumentationFile()</a>, <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00183">DefinitionMixin&lt; FileDef &gt;::isReference()</a>, and <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l01294">name()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l00333">guessSection()</a>, <a class="el" href="../../d1/dc6/entry_8h_source.html#l00089">Entry::HEADER_SEC</a>, <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l01490">isDocumentationFile()</a>, <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00183">DefinitionMixin&lt; FileDef &gt;::isReference()</a>, <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l00165">m_includedByMap</a>, and <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l01294">name()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l01040">writeSourceHeader()</a>, and <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l00621">writeSourceLink()</a>.</p>
 
@@ -6195,7 +6195,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l00165">165</a> of file <a class="el" href="../../d6/ddc/filedef_8cpp_source.html">filedef.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l01405">addIncludedByDependency()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l01405">addIncludedByDependency()</a>, and <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l01423">generateSourceFile()</a>.</p>
 
 </div>
 </div>
