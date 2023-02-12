@@ -143,6 +143,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a2d410345f7d657bb9d6a1ba014f09560"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40461e0e23f44bd6c1ec8fd42fd3a54e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d36/class_search_index.html#a40461e0e23f44bd6c1ec8fd42fd3a54e">m_urlIndex</a> = -1</td></tr>
 <tr class="separator:a40461e0e23f44bd6c1ec8fd42fd3a54e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac48958318e80356f3dd535cdf564dbe3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d36/class_search_index.html#ac48958318e80356f3dd535cdf564dbe3">m_urlMaxIndex</a> = 0</td></tr>
+<tr class="separator:ac48958318e80356f3dd535cdf564dbe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Writes search index for doxygen provided server based search engine that uses PHP. </p>
@@ -202,17 +204,17 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00231">231</a> of file <a class="el" href="../../d7/d79/searchindex_8cpp_source.html">searchindex.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  232</span>{</div>
-<div class="line"><span class="lineno">  233</span>  std::lock_guard&lt;std::mutex&gt; lock(<a class="code hl_variable" href="../../d7/d79/searchindex_8cpp.html#a327880ec7a71c2658cfa974939ddef30">g_searchIndexMutex</a>);</div>
-<div class="line"><span class="lineno">  234</span>  <a class="code hl_function" href="../../da/d36/class_search_index.html#a32913d63f72fe21010e49b4f77bc5cfd">addWordRec</a>(<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>,hiPriority,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>);</div>
-<div class="line"><span class="lineno">  235</span>}</div>
-<div class="ttc" id="aclass_search_index_html_a32913d63f72fe21010e49b4f77bc5cfd"><div class="ttname"><a href="../../da/d36/class_search_index.html#a32913d63f72fe21010e49b4f77bc5cfd">SearchIndex::addWordRec</a></div><div class="ttdeci">void addWordRec(const QCString &amp;word, bool hiPrio, bool recurse)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d79/searchindex_8cpp_source.html#l00189">searchindex.cpp:189</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00232">232</a> of file <a class="el" href="../../d7/d79/searchindex_8cpp_source.html">searchindex.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  233</span>{</div>
+<div class="line"><span class="lineno">  234</span>  std::lock_guard&lt;std::mutex&gt; lock(<a class="code hl_variable" href="../../d7/d79/searchindex_8cpp.html#a327880ec7a71c2658cfa974939ddef30">g_searchIndexMutex</a>);</div>
+<div class="line"><span class="lineno">  235</span>  <a class="code hl_function" href="../../da/d36/class_search_index.html#a32913d63f72fe21010e49b4f77bc5cfd">addWordRec</a>(<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>,hiPriority,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>);</div>
+<div class="line"><span class="lineno">  236</span>}</div>
+<div class="ttc" id="aclass_search_index_html_a32913d63f72fe21010e49b4f77bc5cfd"><div class="ttname"><a href="../../da/d36/class_search_index.html#a32913d63f72fe21010e49b4f77bc5cfd">SearchIndex::addWordRec</a></div><div class="ttdeci">void addWordRec(const QCString &amp;word, bool hiPrio, bool recurse)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d79/searchindex_8cpp_source.html#l00190">searchindex.cpp:190</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_aa93f0eb578d23995850d61f7d61c55c1"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></div><div class="ttdeci">#define FALSE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00033">qcstring.h:33</a></div></div>
 <div class="ttc" id="asearchindex_8cpp_html_a327880ec7a71c2658cfa974939ddef30"><div class="ttname"><a href="../../d7/d79/searchindex_8cpp.html#a327880ec7a71c2658cfa974939ddef30">g_searchIndexMutex</a></div><div class="ttdeci">static std::mutex g_searchIndexMutex</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d79/searchindex_8cpp_source.html#l00050">searchindex.cpp:50</a></div></div>
 <div class="ttc" id="autil_8cpp_html_a5ee566002626114272def590e5eecf76"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a></div><div class="ttdeci">std::string word</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l00958">util.cpp:958</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00189">addWordRec()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00050">g_searchIndexMutex</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l00958">word</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00190">addWordRec()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00050">g_searchIndexMutex</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l00958">word</a>.</p>
 
 </div>
 </div>
@@ -256,60 +258,60 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00189">189</a> of file <a class="el" href="../../d7/d79/searchindex_8cpp_source.html">searchindex.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  190</span>{</div>
-<div class="line"><span class="lineno">  191</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>.isEmpty()) <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  192</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> wStr = <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>(<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>).<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a33688239622e659cfb469fbd62c9cccb">lower</a>();</div>
-<div class="line"><span class="lineno">  193</span>  <span class="comment">//printf(&quot;SearchIndex::addWord(%s,%d) wStr=%s\n&quot;,word,hiPriority,qPrint(wStr));</span></div>
-<div class="line"><span class="lineno">  194</span>  <span class="keywordtype">int</span> idx=<a class="code hl_function" href="../../d7/d79/searchindex_8cpp.html#a7d789071ce6a6464fb8ce89eb65083d3">charsToIndex</a>(wStr);</div>
-<div class="line"><span class="lineno">  195</span>  <span class="keywordflow">if</span> (idx&lt;0 || idx&gt;=<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code hl_variable" href="../../da/d36/class_search_index.html#a7d3b63b57ca232db7b18b1a5d9861101">m_index</a>.size())) <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  196</span>  <span class="keyword">auto</span> it = <a class="code hl_variable" href="../../da/d36/class_search_index.html#a94c8476a68e3394f72ffe2d0dea68518">m_words</a>.find(wStr.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>());</div>
-<div class="line"><span class="lineno">  197</span>  <span class="keywordflow">if</span> (it==<a class="code hl_variable" href="../../da/d36/class_search_index.html#a94c8476a68e3394f72ffe2d0dea68518">m_words</a>.end())</div>
-<div class="line"><span class="lineno">  198</span>  {</div>
-<div class="line"><span class="lineno">  199</span>    <span class="comment">//fprintf(stderr,&quot;addWord(%s) at index %d\n&quot;,word,idx);</span></div>
-<div class="line"><span class="lineno">  200</span>    <a class="code hl_variable" href="../../da/d36/class_search_index.html#a7d3b63b57ca232db7b18b1a5d9861101">m_index</a>[idx].push_back(IndexWord(wStr));</div>
-<div class="line"><span class="lineno">  201</span>    it = <a class="code hl_variable" href="../../da/d36/class_search_index.html#a94c8476a68e3394f72ffe2d0dea68518">m_words</a>.insert({ wStr.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>(), <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code hl_variable" href="../../da/d36/class_search_index.html#a7d3b63b57ca232db7b18b1a5d9861101">m_index</a>[idx].size())-1 }).first;</div>
-<div class="line"><span class="lineno">  202</span>  }</div>
-<div class="line"><span class="lineno">  203</span>  <a class="code hl_variable" href="../../da/d36/class_search_index.html#a7d3b63b57ca232db7b18b1a5d9861101">m_index</a>[idx][it-&gt;second].addUrlIndex(<a class="code hl_variable" href="../../da/d36/class_search_index.html#a40461e0e23f44bd6c1ec8fd42fd3a54e">m_urlIndex</a>,hiPriority);</div>
-<div class="line"><span class="lineno">  204</span>  <span class="keywordtype">int</span> i;</div>
-<div class="line"><span class="lineno">  205</span>  <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="line"><span class="lineno">  206</span>  <span class="keywordflow">if</span> (!recurse) <span class="comment">// the first time we check if we can strip the prefix</span></div>
-<div class="line"><span class="lineno">  207</span>  {</div>
-<div class="line"><span class="lineno">  208</span>    i=<a class="code hl_function" href="../../df/d2d/util_8cpp.html#ae052d7dcea3289dd204d8d425cf9d4c9">getPrefixIndex</a>(<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>);</div>
-<div class="line"><span class="lineno">  209</span>    <span class="keywordflow">if</span> (i&gt;0)</div>
-<div class="line"><span class="lineno">  210</span>    {</div>
-<div class="line"><span class="lineno">  211</span>      <a class="code hl_function" href="../../da/d36/class_search_index.html#a32913d63f72fe21010e49b4f77bc5cfd">addWordRec</a>(<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>.data()+i,hiPriority,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>);</div>
-<div class="line"><span class="lineno">  212</span>      <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno">  213</span>    }</div>
-<div class="line"><span class="lineno">  214</span>  }</div>
-<div class="line"><span class="lineno">  215</span>  <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>) <span class="comment">// no prefix stripped</span></div>
-<div class="line"><span class="lineno">  216</span>  {</div>
-<div class="line"><span class="lineno">  217</span>    i=0;</div>
-<div class="line"><span class="lineno">  218</span>    <span class="keywordflow">while</span> (<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>[i]!=0 &amp;&amp;</div>
-<div class="line"><span class="lineno">  219</span>           !((<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>[i]==<span class="charliteral">&#39;_&#39;</span> || <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>[i]==<span class="charliteral">&#39;:&#39;</span> || (<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>[i]&gt;=<span class="charliteral">&#39;a&#39;</span> &amp;&amp; <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>[i]&lt;=<span class="charliteral">&#39;z&#39;</span>)) &amp;&amp;  <span class="comment">// [_a-z:]</span></div>
-<div class="line"><span class="lineno">  220</span>             (<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>[i+1]&gt;=<span class="charliteral">&#39;A&#39;</span> &amp;&amp; <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>[i+1]&lt;=<span class="charliteral">&#39;Z&#39;</span>)))                                 <span class="comment">// [A-Z]</span></div>
-<div class="line"><span class="lineno">  221</span>    {</div>
-<div class="line"><span class="lineno">  222</span>      i++;</div>
-<div class="line"><span class="lineno">  223</span>    }</div>
-<div class="line"><span class="lineno">  224</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>[i]!=0 &amp;&amp; i&gt;=1)</div>
-<div class="line"><span class="lineno">  225</span>    {</div>
-<div class="line"><span class="lineno">  226</span>      <a class="code hl_function" href="../../da/d36/class_search_index.html#a32913d63f72fe21010e49b4f77bc5cfd">addWordRec</a>(<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>.data()+i+1,hiPriority,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>);</div>
-<div class="line"><span class="lineno">  227</span>    }</div>
-<div class="line"><span class="lineno">  228</span>  }</div>
-<div class="line"><span class="lineno">  229</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00190">190</a> of file <a class="el" href="../../d7/d79/searchindex_8cpp_source.html">searchindex.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  191</span>{</div>
+<div class="line"><span class="lineno">  192</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>.isEmpty()) <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  193</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> wStr = <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>(<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>).<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a33688239622e659cfb469fbd62c9cccb">lower</a>();</div>
+<div class="line"><span class="lineno">  194</span>  <span class="comment">//printf(&quot;SearchIndex::addWord(%s,%d) wStr=%s\n&quot;,word,hiPriority,qPrint(wStr));</span></div>
+<div class="line"><span class="lineno">  195</span>  <span class="keywordtype">int</span> idx=<a class="code hl_function" href="../../d7/d79/searchindex_8cpp.html#a7d789071ce6a6464fb8ce89eb65083d3">charsToIndex</a>(wStr);</div>
+<div class="line"><span class="lineno">  196</span>  <span class="keywordflow">if</span> (idx&lt;0 || idx&gt;=<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code hl_variable" href="../../da/d36/class_search_index.html#a7d3b63b57ca232db7b18b1a5d9861101">m_index</a>.size())) <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  197</span>  <span class="keyword">auto</span> it = <a class="code hl_variable" href="../../da/d36/class_search_index.html#a94c8476a68e3394f72ffe2d0dea68518">m_words</a>.find(wStr.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>());</div>
+<div class="line"><span class="lineno">  198</span>  <span class="keywordflow">if</span> (it==<a class="code hl_variable" href="../../da/d36/class_search_index.html#a94c8476a68e3394f72ffe2d0dea68518">m_words</a>.end())</div>
+<div class="line"><span class="lineno">  199</span>  {</div>
+<div class="line"><span class="lineno">  200</span>    <span class="comment">//fprintf(stderr,&quot;addWord(%s) at index %d\n&quot;,word,idx);</span></div>
+<div class="line"><span class="lineno">  201</span>    <a class="code hl_variable" href="../../da/d36/class_search_index.html#a7d3b63b57ca232db7b18b1a5d9861101">m_index</a>[idx].push_back(IndexWord(wStr));</div>
+<div class="line"><span class="lineno">  202</span>    it = <a class="code hl_variable" href="../../da/d36/class_search_index.html#a94c8476a68e3394f72ffe2d0dea68518">m_words</a>.insert({ wStr.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>(), <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code hl_variable" href="../../da/d36/class_search_index.html#a7d3b63b57ca232db7b18b1a5d9861101">m_index</a>[idx].size())-1 }).first;</div>
+<div class="line"><span class="lineno">  203</span>  }</div>
+<div class="line"><span class="lineno">  204</span>  <a class="code hl_variable" href="../../da/d36/class_search_index.html#a7d3b63b57ca232db7b18b1a5d9861101">m_index</a>[idx][it-&gt;second].addUrlIndex(<a class="code hl_variable" href="../../da/d36/class_search_index.html#a40461e0e23f44bd6c1ec8fd42fd3a54e">m_urlIndex</a>,hiPriority);</div>
+<div class="line"><span class="lineno">  205</span>  <span class="keywordtype">int</span> i;</div>
+<div class="line"><span class="lineno">  206</span>  <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
+<div class="line"><span class="lineno">  207</span>  <span class="keywordflow">if</span> (!recurse) <span class="comment">// the first time we check if we can strip the prefix</span></div>
+<div class="line"><span class="lineno">  208</span>  {</div>
+<div class="line"><span class="lineno">  209</span>    i=<a class="code hl_function" href="../../df/d2d/util_8cpp.html#ae052d7dcea3289dd204d8d425cf9d4c9">getPrefixIndex</a>(<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>);</div>
+<div class="line"><span class="lineno">  210</span>    <span class="keywordflow">if</span> (i&gt;0)</div>
+<div class="line"><span class="lineno">  211</span>    {</div>
+<div class="line"><span class="lineno">  212</span>      <a class="code hl_function" href="../../da/d36/class_search_index.html#a32913d63f72fe21010e49b4f77bc5cfd">addWordRec</a>(<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>.data()+i,hiPriority,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>);</div>
+<div class="line"><span class="lineno">  213</span>      <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno">  214</span>    }</div>
+<div class="line"><span class="lineno">  215</span>  }</div>
+<div class="line"><span class="lineno">  216</span>  <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>) <span class="comment">// no prefix stripped</span></div>
+<div class="line"><span class="lineno">  217</span>  {</div>
+<div class="line"><span class="lineno">  218</span>    i=0;</div>
+<div class="line"><span class="lineno">  219</span>    <span class="keywordflow">while</span> (<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>[i]!=0 &amp;&amp;</div>
+<div class="line"><span class="lineno">  220</span>           !((<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>[i]==<span class="charliteral">&#39;_&#39;</span> || <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>[i]==<span class="charliteral">&#39;:&#39;</span> || (<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>[i]&gt;=<span class="charliteral">&#39;a&#39;</span> &amp;&amp; <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>[i]&lt;=<span class="charliteral">&#39;z&#39;</span>)) &amp;&amp;  <span class="comment">// [_a-z:]</span></div>
+<div class="line"><span class="lineno">  221</span>             (<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>[i+1]&gt;=<span class="charliteral">&#39;A&#39;</span> &amp;&amp; <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>[i+1]&lt;=<span class="charliteral">&#39;Z&#39;</span>)))                                 <span class="comment">// [A-Z]</span></div>
+<div class="line"><span class="lineno">  222</span>    {</div>
+<div class="line"><span class="lineno">  223</span>      i++;</div>
+<div class="line"><span class="lineno">  224</span>    }</div>
+<div class="line"><span class="lineno">  225</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>[i]!=0 &amp;&amp; i&gt;=1)</div>
+<div class="line"><span class="lineno">  226</span>    {</div>
+<div class="line"><span class="lineno">  227</span>      <a class="code hl_function" href="../../da/d36/class_search_index.html#a32913d63f72fe21010e49b4f77bc5cfd">addWordRec</a>(<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a5ee566002626114272def590e5eecf76">word</a>.data()+i+1,hiPriority,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>);</div>
+<div class="line"><span class="lineno">  228</span>    }</div>
+<div class="line"><span class="lineno">  229</span>  }</div>
+<div class="line"><span class="lineno">  230</span>}</div>
 <div class="ttc" id="aclass_q_c_string_html"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html">QCString</a></div><div class="ttdoc">This is an alternative implementation of QCString.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00102">qcstring.h:103</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a33688239622e659cfb469fbd62c9cccb"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a33688239622e659cfb469fbd62c9cccb">QCString::lower</a></div><div class="ttdeci">QCString lower() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00229">qcstring.h:229</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a875e9ad762554ef12f3ed69b015bb245"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">QCString::str</a></div><div class="ttdeci">const std::string &amp; str() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00478">qcstring.h:478</a></div></div>
 <div class="ttc" id="aclass_search_index_html_a40461e0e23f44bd6c1ec8fd42fd3a54e"><div class="ttname"><a href="../../da/d36/class_search_index.html#a40461e0e23f44bd6c1ec8fd42fd3a54e">SearchIndex::m_urlIndex</a></div><div class="ttdeci">int m_urlIndex</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d07/searchindex_8h_source.html#l00108">searchindex.h:108</a></div></div>
 <div class="ttc" id="aclass_search_index_html_a94c8476a68e3394f72ffe2d0dea68518"><div class="ttname"><a href="../../da/d36/class_search_index.html#a94c8476a68e3394f72ffe2d0dea68518">SearchIndex::m_words</a></div><div class="ttdeci">std::unordered_map&lt; std::string, int &gt; m_words</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d07/searchindex_8h_source.html#l00104">searchindex.h:104</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_aa8cecfc5c5c054d2875c03e77b7be15d"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a></div><div class="ttdeci">#define TRUE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00036">qcstring.h:36</a></div></div>
-<div class="ttc" id="asearchindex_8cpp_html_a7d789071ce6a6464fb8ce89eb65083d3"><div class="ttname"><a href="../../d7/d79/searchindex_8cpp.html#a7d789071ce6a6464fb8ce89eb65083d3">charsToIndex</a></div><div class="ttdeci">static int charsToIndex(const QCString &amp;word)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d79/searchindex_8cpp_source.html#l00169">searchindex.cpp:169</a></div></div>
+<div class="ttc" id="asearchindex_8cpp_html_a7d789071ce6a6464fb8ce89eb65083d3"><div class="ttname"><a href="../../d7/d79/searchindex_8cpp.html#a7d789071ce6a6464fb8ce89eb65083d3">charsToIndex</a></div><div class="ttdeci">static int charsToIndex(const QCString &amp;word)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d79/searchindex_8cpp_source.html#l00170">searchindex.cpp:170</a></div></div>
 <div class="ttc" id="autil_8cpp_html_a7141f237b2648c631ce5b73215683565"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a></div><div class="ttdeci">bool found</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l00962">util.cpp:962</a></div></div>
 <div class="ttc" id="autil_8cpp_html_ae052d7dcea3289dd204d8d425cf9d4c9"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#ae052d7dcea3289dd204d8d425cf9d4c9">getPrefixIndex</a></div><div class="ttdeci">int getPrefixIndex(const QCString &amp;name)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l03401">util.cpp:3401</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00189">addWordRec()</a>, <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00169">charsToIndex()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l00962">found</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l03401">getPrefixIndex()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00229">QCString::lower()</a>, <a class="el" href="../../de/d07/searchindex_8h_source.html#l00105">m_index</a>, <a class="el" href="../../de/d07/searchindex_8h_source.html#l00108">m_urlIndex</a>, <a class="el" href="../../de/d07/searchindex_8h_source.html#l00104">m_words</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00478">QCString::str()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l00958">word</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00190">addWordRec()</a>, <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00170">charsToIndex()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l00962">found</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l03401">getPrefixIndex()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00229">QCString::lower()</a>, <a class="el" href="../../de/d07/searchindex_8h_source.html#l00105">m_index</a>, <a class="el" href="../../de/d07/searchindex_8h_source.html#l00108">m_urlIndex</a>, <a class="el" href="../../de/d07/searchindex_8h_source.html#l00104">m_words</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00478">QCString::str()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l00958">word</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00231">addWord()</a>, and <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00189">addWordRec()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00232">addWord()</a>, and <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00190">addWordRec()</a>.</p>
 
 </div>
 </div>
@@ -428,17 +430,18 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  154</span>  }</div>
 <div class="line"><span class="lineno">  155</span> </div>
 <div class="line"><span class="lineno">  156</span>  <span class="keyword">auto</span> it = <a class="code hl_variable" href="../../da/d36/class_search_index.html#aa06f7bb4f5d2ed2dee01f390446be6c2">m_url2IdMap</a>.find(baseUrl.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>());</div>
-<div class="line"><span class="lineno">  157</span>  <span class="keywordflow">if</span> (it == <a class="code hl_variable" href="../../da/d36/class_search_index.html#aa06f7bb4f5d2ed2dee01f390446be6c2">m_url2IdMap</a>.end())</div>
+<div class="line"><span class="lineno">  157</span>  <span class="keywordflow">if</span> (it == <a class="code hl_variable" href="../../da/d36/class_search_index.html#aa06f7bb4f5d2ed2dee01f390446be6c2">m_url2IdMap</a>.end()) <span class="comment">// new entry</span></div>
 <div class="line"><span class="lineno">  158</span>  {</div>
-<div class="line"><span class="lineno">  159</span>    ++<a class="code hl_variable" href="../../da/d36/class_search_index.html#a40461e0e23f44bd6c1ec8fd42fd3a54e">m_urlIndex</a>;</div>
+<div class="line"><span class="lineno">  159</span>    <a class="code hl_variable" href="../../da/d36/class_search_index.html#a40461e0e23f44bd6c1ec8fd42fd3a54e">m_urlIndex</a> = <a class="code hl_variable" href="../../da/d36/class_search_index.html#ac48958318e80356f3dd535cdf564dbe3">m_urlMaxIndex</a>++;</div>
 <div class="line"><span class="lineno">  160</span>    <a class="code hl_variable" href="../../da/d36/class_search_index.html#aa06f7bb4f5d2ed2dee01f390446be6c2">m_url2IdMap</a>.insert(std::make_pair(baseUrl.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>(),<a class="code hl_variable" href="../../da/d36/class_search_index.html#a40461e0e23f44bd6c1ec8fd42fd3a54e">m_urlIndex</a>));</div>
 <div class="line"><span class="lineno">  161</span>    <a class="code hl_variable" href="../../da/d36/class_search_index.html#a2d410345f7d657bb9d6a1ba014f09560">m_urls</a>.insert(std::make_pair(<a class="code hl_variable" href="../../da/d36/class_search_index.html#a40461e0e23f44bd6c1ec8fd42fd3a54e">m_urlIndex</a>,URL(name,url)));</div>
 <div class="line"><span class="lineno">  162</span>  }</div>
-<div class="line"><span class="lineno">  163</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  163</span>  <span class="keywordflow">else</span> <span class="comment">// existing entry</span></div>
 <div class="line"><span class="lineno">  164</span>  {</div>
-<div class="line"><span class="lineno">  165</span>    <a class="code hl_variable" href="../../da/d36/class_search_index.html#a2d410345f7d657bb9d6a1ba014f09560">m_urls</a>.insert(std::make_pair(it-&gt;second,URL(name,url)));</div>
-<div class="line"><span class="lineno">  166</span>  }</div>
-<div class="line"><span class="lineno">  167</span>}</div>
+<div class="line"><span class="lineno">  165</span>    <a class="code hl_variable" href="../../da/d36/class_search_index.html#a40461e0e23f44bd6c1ec8fd42fd3a54e">m_urlIndex</a>=it-&gt;second;</div>
+<div class="line"><span class="lineno">  166</span>    <a class="code hl_variable" href="../../da/d36/class_search_index.html#a2d410345f7d657bb9d6a1ba014f09560">m_urls</a>.insert(std::make_pair(it-&gt;second,URL(name,url)));</div>
+<div class="line"><span class="lineno">  167</span>  }</div>
+<div class="line"><span class="lineno">  168</span>}</div>
 <div class="ttc" id="aclass_class_def_html"><div class="ttname"><a href="../../d1/dcf/class_class_def.html">ClassDef</a></div><div class="ttdoc">A abstract class representing of a compound symbol.</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da6/classdef_8h_source.html#l00101">classdef.h:102</a></div></div>
 <div class="ttc" id="aclass_class_def_html_a239fe977638806153345cd2411c28062"><div class="ttname"><a href="../../d1/dcf/class_class_def.html#a239fe977638806153345cd2411c28062">ClassDef::compoundTypeString</a></div><div class="ttdeci">virtual QCString compoundTypeString() const =0</div><div class="ttdoc">Returns the type of compound as a string.</div></div>
 <div class="ttc" id="aclass_definition_html_a0dda9f50f2f9754e6341a10373eafec7"><div class="ttname"><a href="../../d5/dcc/class_definition.html#a0dda9f50f2f9754e6341a10373eafec7">Definition::getLanguage</a></div><div class="ttdeci">virtual SrcLangExt getLanguage() const =0</div><div class="ttdoc">Returns the programming language this definition was written in.</div></div>
@@ -461,6 +464,7 @@ Private Attributes</h2></td></tr>
 <div class="ttc" id="aclass_q_c_string_html_a621c4090d69ad7d05ef8e5234376c3d8"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">QCString::isEmpty</a></div><div class="ttdeci">bool isEmpty() const</div><div class="ttdoc">Returns TRUE iff the string is empty.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00138">qcstring.h:138</a></div></div>
 <div class="ttc" id="aclass_search_index_html_a2d410345f7d657bb9d6a1ba014f09560"><div class="ttname"><a href="../../da/d36/class_search_index.html#a2d410345f7d657bb9d6a1ba014f09560">SearchIndex::m_urls</a></div><div class="ttdeci">std::map&lt; int, URL &gt; m_urls</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d07/searchindex_8h_source.html#l00107">searchindex.h:107</a></div></div>
 <div class="ttc" id="aclass_search_index_html_aa06f7bb4f5d2ed2dee01f390446be6c2"><div class="ttname"><a href="../../da/d36/class_search_index.html#aa06f7bb4f5d2ed2dee01f390446be6c2">SearchIndex::m_url2IdMap</a></div><div class="ttdeci">std::unordered_map&lt; std::string, int &gt; m_url2IdMap</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d07/searchindex_8h_source.html#l00106">searchindex.h:106</a></div></div>
+<div class="ttc" id="aclass_search_index_html_ac48958318e80356f3dd535cdf564dbe3"><div class="ttname"><a href="../../da/d36/class_search_index.html#ac48958318e80356f3dd535cdf564dbe3">SearchIndex::m_urlMaxIndex</a></div><div class="ttdeci">int m_urlMaxIndex</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d07/searchindex_8h_source.html#l00109">searchindex.h:109</a></div></div>
 <div class="ttc" id="aclass_translator_html_a098564ddace843a7b8699cf38c662173"><div class="ttname"><a href="../../d8/dfb/class_translator.html#a098564ddace843a7b8699cf38c662173">Translator::trPackage</a></div><div class="ttdeci">virtual QCString trPackage(const QCString &amp;name)=0</div></div>
 <div class="ttc" id="aclass_translator_html_a3e440062dda08d55c8f9f99d572f6af0"><div class="ttname"><a href="../../d8/dfb/class_translator.html#a3e440062dda08d55c8f9f99d572f6af0">Translator::trGroup</a></div><div class="ttdeci">virtual QCString trGroup(bool first_capital, bool singular)=0</div></div>
 <div class="ttc" id="aclass_translator_html_a4a3ca0198450342adb8599f00531a881"><div class="ttname"><a href="../../d8/dfb/class_translator.html#a4a3ca0198450342adb8599f00531a881">Translator::trNamespace</a></div><div class="ttdeci">virtual QCString trNamespace(bool first_capital, bool singular)=0</div></div>
@@ -482,7 +486,7 @@ Private Attributes</h2></td></tr>
 <div class="ttc" id="atypes_8h_html_a9974623ce72fc23df5d64426b9178bf2abc7c7944bb4e705c9e1812b02c89c346"><div class="ttname"><a href="../../d9/d49/types_8h.html#a9974623ce72fc23df5d64426b9178bf2abc7c7944bb4e705c9e1812b02c89c346">SrcLangExt_Fortran</a></div><div class="ttdeci">@ SrcLangExt_Fortran</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00053">types.h:53</a></div></div>
 <div class="ttc" id="autil_8cpp_html_aab590e3dd52a9375bb3afe31dc6f8609"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#aab590e3dd52a9375bb3afe31dc6f8609">getLanguageSpecificSeparator</a></div><div class="ttdeci">QCString getLanguageSpecificSeparator(SrcLangExt lang, bool classScope)</div><div class="ttdoc">Returns the scope separator to use given the programming language lang.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l06253">util.cpp:6253</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/dcf/class_class_def.html#a239fe977638806153345cd2411c28062">ClassDef::compoundTypeString()</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00032">Config_getString</a>, <a class="el" href="../../d5/dcc/class_definition.html#a526c39074637d4b17a3f67df56d961ff">Definition::definitionType()</a>, <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00050">g_searchIndexMutex</a>, <a class="el" href="../../d5/dcc/class_definition.html#a0dda9f50f2f9754e6341a10373eafec7">Definition::getLanguage()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l06253">getLanguageSpecificSeparator()</a>, <a class="el" href="../../d5/dcc/class_definition.html#acabecdc6bfda2015811eed5f3436322d">Definition::getOutputFileBase()</a>, <a class="el" href="../../d8/d09/class_group_def.html#a2caedefd187d92eb8c4afe01d403456e">GroupDef::groupTitle()</a>, <a class="el" href="../../dd/d41/class_page_def.html#a73c07c74e91e201e5c9dc6f60528f229">PageDef::hasTitle()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00138">QCString::isEmpty()</a>, <a class="el" href="../../de/d07/searchindex_8h_source.html#l00106">m_url2IdMap</a>, <a class="el" href="../../de/d07/searchindex_8h_source.html#l00108">m_urlIndex</a>, <a class="el" href="../../de/d07/searchindex_8h_source.html#l00107">m_urls</a>, <a class="el" href="../../d5/dcc/class_definition.html#a9374fedd7f64fea7e0e164302d1a9e61">Definition::name()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00363">QCString::prepend()</a>, <a class="el" href="../../d5/dcc/class_definition.html#ac3bc44bb9d5b4c8d1957f06222a5e0d7">Definition::qualifiedName()</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00046">SrcLangExt_CSharp</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00053">SrcLangExt_Fortran</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00045">SrcLangExt_Java</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00478">QCString::str()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00473">substitute()</a>, <a class="el" href="../../d2/d48/language_8cpp_source.html#l00070">theTranslator</a>, <a class="el" href="../../dd/d41/class_page_def.html#aae487f3fd3ce36b104cb6b82e287cfaa">PageDef::title()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l05030">toClassDef()</a>, <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l01734">toFileDef()</a>, <a class="el" href="../../d6/d42/groupdef_8cpp_source.html#l01759">toGroupDef()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l06155">toMemberDef()</a>, <a class="el" href="../../d9/db4/pagedef_8cpp_source.html#l00408">toPageDef()</a>, <a class="el" href="../../d8/dfb/class_translator.html#a3e440062dda08d55c8f9f99d572f6af0">Translator::trGroup()</a>, <a class="el" href="../../d8/dfb/class_translator.html#aa8a315987247035ab2aed48303716535">Translator::trMember()</a>, <a class="el" href="../../d8/dfb/class_translator.html#aacb52f5a80d2ad3e47b983a8d34c4371">Translator::trModule()</a>, <a class="el" href="../../d8/dfb/class_translator.html#a4a3ca0198450342adb8599f00531a881">Translator::trNamespace()</a>, <a class="el" href="../../d8/dfb/class_translator.html#a098564ddace843a7b8699cf38c662173">Translator::trPackage()</a>, <a class="el" href="../../d8/dfb/class_translator.html#a6cf8494079dacb3504df0b71f1bd62f8">Translator::trPage()</a>, <a class="el" href="../../d8/dfb/class_translator.html#a8afff623bf7e3a0e950ed28df4abd482">Translator::trSubprogram()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>, <a class="el" href="../../df/da1/definition_8h_source.html#l00082">Definition::TypeClass</a>, <a class="el" href="../../df/da1/definition_8h_source.html#l00083">Definition::TypeFile</a>, <a class="el" href="../../df/da1/definition_8h_source.html#l00086">Definition::TypeGroup</a>, <a class="el" href="../../df/da1/definition_8h_source.html#l00085">Definition::TypeMember</a>, <a class="el" href="../../df/da1/definition_8h_source.html#l00084">Definition::TypeNamespace</a>, and <a class="el" href="../../df/da1/definition_8h_source.html#l00088">Definition::TypePage</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/dcf/class_class_def.html#a239fe977638806153345cd2411c28062">ClassDef::compoundTypeString()</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00032">Config_getString</a>, <a class="el" href="../../d5/dcc/class_definition.html#a526c39074637d4b17a3f67df56d961ff">Definition::definitionType()</a>, <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00050">g_searchIndexMutex</a>, <a class="el" href="../../d5/dcc/class_definition.html#a0dda9f50f2f9754e6341a10373eafec7">Definition::getLanguage()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l06253">getLanguageSpecificSeparator()</a>, <a class="el" href="../../d5/dcc/class_definition.html#acabecdc6bfda2015811eed5f3436322d">Definition::getOutputFileBase()</a>, <a class="el" href="../../d8/d09/class_group_def.html#a2caedefd187d92eb8c4afe01d403456e">GroupDef::groupTitle()</a>, <a class="el" href="../../dd/d41/class_page_def.html#a73c07c74e91e201e5c9dc6f60528f229">PageDef::hasTitle()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00138">QCString::isEmpty()</a>, <a class="el" href="../../de/d07/searchindex_8h_source.html#l00106">m_url2IdMap</a>, <a class="el" href="../../de/d07/searchindex_8h_source.html#l00108">m_urlIndex</a>, <a class="el" href="../../de/d07/searchindex_8h_source.html#l00109">m_urlMaxIndex</a>, <a class="el" href="../../de/d07/searchindex_8h_source.html#l00107">m_urls</a>, <a class="el" href="../../d5/dcc/class_definition.html#a9374fedd7f64fea7e0e164302d1a9e61">Definition::name()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00363">QCString::prepend()</a>, <a class="el" href="../../d5/dcc/class_definition.html#ac3bc44bb9d5b4c8d1957f06222a5e0d7">Definition::qualifiedName()</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00046">SrcLangExt_CSharp</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00053">SrcLangExt_Fortran</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00045">SrcLangExt_Java</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00478">QCString::str()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00473">substitute()</a>, <a class="el" href="../../d2/d48/language_8cpp_source.html#l00070">theTranslator</a>, <a class="el" href="../../dd/d41/class_page_def.html#aae487f3fd3ce36b104cb6b82e287cfaa">PageDef::title()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l05030">toClassDef()</a>, <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l01734">toFileDef()</a>, <a class="el" href="../../d6/d42/groupdef_8cpp_source.html#l01759">toGroupDef()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l06155">toMemberDef()</a>, <a class="el" href="../../d9/db4/pagedef_8cpp_source.html#l00408">toPageDef()</a>, <a class="el" href="../../d8/dfb/class_translator.html#a3e440062dda08d55c8f9f99d572f6af0">Translator::trGroup()</a>, <a class="el" href="../../d8/dfb/class_translator.html#aa8a315987247035ab2aed48303716535">Translator::trMember()</a>, <a class="el" href="../../d8/dfb/class_translator.html#aacb52f5a80d2ad3e47b983a8d34c4371">Translator::trModule()</a>, <a class="el" href="../../d8/dfb/class_translator.html#a4a3ca0198450342adb8599f00531a881">Translator::trNamespace()</a>, <a class="el" href="../../d8/dfb/class_translator.html#a098564ddace843a7b8699cf38c662173">Translator::trPackage()</a>, <a class="el" href="../../d8/dfb/class_translator.html#a6cf8494079dacb3504df0b71f1bd62f8">Translator::trPage()</a>, <a class="el" href="../../d8/dfb/class_translator.html#a8afff623bf7e3a0e950ed28df4abd482">Translator::trSubprogram()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>, <a class="el" href="../../df/da1/definition_8h_source.html#l00082">Definition::TypeClass</a>, <a class="el" href="../../df/da1/definition_8h_source.html#l00083">Definition::TypeFile</a>, <a class="el" href="../../df/da1/definition_8h_source.html#l00086">Definition::TypeGroup</a>, <a class="el" href="../../df/da1/definition_8h_source.html#l00085">Definition::TypeMember</a>, <a class="el" href="../../df/da1/definition_8h_source.html#l00084">Definition::TypeNamespace</a>, and <a class="el" href="../../df/da1/definition_8h_source.html#l00088">Definition::TypePage</a>.</p>
 
 </div>
 </div>
@@ -502,138 +506,138 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00252">252</a> of file <a class="el" href="../../d7/d79/searchindex_8cpp_source.html">searchindex.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  253</span>{</div>
-<div class="line"><span class="lineno">  254</span>  <span class="keywordtype">size_t</span> i;</div>
-<div class="line"><span class="lineno">  255</span>  <span class="keywordtype">size_t</span> size=4; <span class="comment">// for the header</span></div>
-<div class="line"><span class="lineno">  256</span>  size+=4*<a class="code hl_variable" href="../../d7/d79/searchindex_8cpp.html#a99ffca8320d09c3e2c5ce800855f1469">numIndexEntries</a>; <span class="comment">// for the index</span></div>
-<div class="line"><span class="lineno">  257</span>  <span class="keywordtype">size_t</span> wordsOffset = size;</div>
-<div class="line"><span class="lineno">  258</span>  <span class="comment">// first pass: compute the size of the wordlist</span></div>
-<div class="line"><span class="lineno">  259</span>  <span class="keywordflow">for</span> (i=0;i&lt;<a class="code hl_variable" href="../../d7/d79/searchindex_8cpp.html#a99ffca8320d09c3e2c5ce800855f1469">numIndexEntries</a>;i++)</div>
-<div class="line"><span class="lineno">  260</span>  {</div>
-<div class="line"><span class="lineno">  261</span>    <span class="keyword">const</span> <span class="keyword">auto</span> &amp;wlist = <a class="code hl_variable" href="../../da/d36/class_search_index.html#a7d3b63b57ca232db7b18b1a5d9861101">m_index</a>[i];</div>
-<div class="line"><span class="lineno">  262</span>    <span class="keywordflow">if</span> (!wlist.empty())</div>
-<div class="line"><span class="lineno">  263</span>    {</div>
-<div class="line"><span class="lineno">  264</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;iw : wlist)</div>
-<div class="line"><span class="lineno">  265</span>      {</div>
-<div class="line"><span class="lineno">  266</span>        <span class="keywordtype">int</span> ws = iw.word().length()+1;</div>
-<div class="line"><span class="lineno">  267</span>        size+=ws+4; <span class="comment">// word + url info list offset</span></div>
-<div class="line"><span class="lineno">  268</span>      }</div>
-<div class="line"><span class="lineno">  269</span>      size+=1; <span class="comment">// zero list terminator</span></div>
-<div class="line"><span class="lineno">  270</span>    }</div>
-<div class="line"><span class="lineno">  271</span>  }</div>
-<div class="line"><span class="lineno">  272</span> </div>
-<div class="line"><span class="lineno">  273</span>  <span class="comment">// second pass: compute the offsets in the index</span></div>
-<div class="line"><span class="lineno">  274</span>  <span class="keywordtype">size_t</span> indexOffsets[<a class="code hl_variable" href="../../d7/d79/searchindex_8cpp.html#a99ffca8320d09c3e2c5ce800855f1469">numIndexEntries</a>];</div>
-<div class="line"><span class="lineno">  275</span>  <span class="keywordtype">size_t</span> offset=wordsOffset;</div>
-<div class="line"><span class="lineno">  276</span>  <span class="keywordflow">for</span> (i=0;i&lt;<a class="code hl_variable" href="../../d7/d79/searchindex_8cpp.html#a99ffca8320d09c3e2c5ce800855f1469">numIndexEntries</a>;i++)</div>
-<div class="line"><span class="lineno">  277</span>  {</div>
-<div class="line"><span class="lineno">  278</span>    <span class="keyword">const</span> <span class="keyword">auto</span> &amp;wlist = <a class="code hl_variable" href="../../da/d36/class_search_index.html#a7d3b63b57ca232db7b18b1a5d9861101">m_index</a>[i];</div>
-<div class="line"><span class="lineno">  279</span>    <span class="keywordflow">if</span> (!wlist.empty())</div>
-<div class="line"><span class="lineno">  280</span>    {</div>
-<div class="line"><span class="lineno">  281</span>      indexOffsets[i]=offset;</div>
-<div class="line"><span class="lineno">  282</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;iw : wlist)</div>
-<div class="line"><span class="lineno">  283</span>      {</div>
-<div class="line"><span class="lineno">  284</span>        offset+= iw.word().length()+1;</div>
-<div class="line"><span class="lineno">  285</span>        offset+=4; <span class="comment">// word + offset to url info array</span></div>
-<div class="line"><span class="lineno">  286</span>      }</div>
-<div class="line"><span class="lineno">  287</span>      offset+=1; <span class="comment">// zero list terminator</span></div>
-<div class="line"><span class="lineno">  288</span>    }</div>
-<div class="line"><span class="lineno">  289</span>    <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  290</span>    {</div>
-<div class="line"><span class="lineno">  291</span>      indexOffsets[i]=0;</div>
-<div class="line"><span class="lineno">  292</span>    }</div>
-<div class="line"><span class="lineno">  293</span>  }</div>
-<div class="line"><span class="lineno">  294</span>  <span class="keywordtype">size_t</span> padding = size;</div>
-<div class="line"><span class="lineno">  295</span>  size = (size+3)&amp;~3; <span class="comment">// round up to 4 byte boundary</span></div>
-<div class="line"><span class="lineno">  296</span>  padding = size - padding;</div>
-<div class="line"><span class="lineno">  297</span> </div>
-<div class="line"><span class="lineno">  298</span>  std::vector&lt;size_t&gt; wordStatOffsets(<a class="code hl_variable" href="../../da/d36/class_search_index.html#a94c8476a68e3394f72ffe2d0dea68518">m_words</a>.size());</div>
-<div class="line"><span class="lineno">  299</span> </div>
-<div class="line"><span class="lineno">  300</span>  <span class="keywordtype">int</span> count=0;</div>
-<div class="line"><span class="lineno">  301</span> </div>
-<div class="line"><span class="lineno">  302</span>  <span class="comment">// third pass: compute offset to stats info for each word</span></div>
-<div class="line"><span class="lineno">  303</span>  <span class="keywordflow">for</span> (i=0;i&lt;<a class="code hl_variable" href="../../d7/d79/searchindex_8cpp.html#a99ffca8320d09c3e2c5ce800855f1469">numIndexEntries</a>;i++)</div>
-<div class="line"><span class="lineno">  304</span>  {</div>
-<div class="line"><span class="lineno">  305</span>    <span class="keyword">const</span> <span class="keyword">auto</span> &amp;wlist = <a class="code hl_variable" href="../../da/d36/class_search_index.html#a7d3b63b57ca232db7b18b1a5d9861101">m_index</a>[i];</div>
-<div class="line"><span class="lineno">  306</span>    <span class="keywordflow">if</span> (!wlist.empty())</div>
-<div class="line"><span class="lineno">  307</span>    {</div>
-<div class="line"><span class="lineno">  308</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;iw : wlist)</div>
-<div class="line"><span class="lineno">  309</span>      {</div>
-<div class="line"><span class="lineno">  310</span>        <span class="comment">//printf(&quot;wordStatOffsets[%d]=%d\n&quot;,count,size);</span></div>
-<div class="line"><span class="lineno">  311</span>        wordStatOffsets[count++] = size;</div>
-<div class="line"><span class="lineno">  312</span>        size+=4 + iw.urls().size() * 8; <span class="comment">// count + (url_index,freq) per url</span></div>
-<div class="line"><span class="lineno">  313</span>      }</div>
-<div class="line"><span class="lineno">  314</span>    }</div>
-<div class="line"><span class="lineno">  315</span>  }</div>
-<div class="line"><span class="lineno">  316</span>  std::vector&lt;size_t&gt; urlOffsets(<a class="code hl_variable" href="../../da/d36/class_search_index.html#a2d410345f7d657bb9d6a1ba014f09560">m_urls</a>.size());</div>
-<div class="line"><span class="lineno">  317</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;udi : <a class="code hl_variable" href="../../da/d36/class_search_index.html#a2d410345f7d657bb9d6a1ba014f09560">m_urls</a>)</div>
-<div class="line"><span class="lineno">  318</span>  {</div>
-<div class="line"><span class="lineno">  319</span>    urlOffsets[udi.first]=size;</div>
-<div class="line"><span class="lineno">  320</span>    size+=udi.second.name.length()+1+</div>
-<div class="line"><span class="lineno">  321</span>          udi.second.url.length()+1;</div>
-<div class="line"><span class="lineno">  322</span>  }</div>
-<div class="line"><span class="lineno">  323</span> </div>
-<div class="line"><span class="lineno">  324</span>  <span class="comment">//printf(&quot;Total size %x bytes (word=%x stats=%x urls=%x)\n&quot;,size,wordsOffset,statsOffset,urlsOffset);</span></div>
-<div class="line"><span class="lineno">  325</span>  std::ofstream f = <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a230fceefc8f9abd1e8d4be71d7eef281">Portable::openOutputStream</a>(fileName);</div>
-<div class="line"><span class="lineno">  326</span>  <span class="keywordflow">if</span> (f.is_open())</div>
-<div class="line"><span class="lineno">  327</span>  {</div>
-<div class="line"><span class="lineno">  328</span>    <span class="comment">// write header</span></div>
-<div class="line"><span class="lineno">  329</span>    f.put(<span class="charliteral">&#39;D&#39;</span>); f.put(<span class="charliteral">&#39;O&#39;</span>); f.put(<span class="charliteral">&#39;X&#39;</span>); f.put(<span class="charliteral">&#39;S&#39;</span>);</div>
-<div class="line"><span class="lineno">  330</span>    <span class="comment">// write index</span></div>
-<div class="line"><span class="lineno">  331</span>    <span class="keywordflow">for</span> (i=0;i&lt;<a class="code hl_variable" href="../../d7/d79/searchindex_8cpp.html#a99ffca8320d09c3e2c5ce800855f1469">numIndexEntries</a>;i++)</div>
-<div class="line"><span class="lineno">  332</span>    {</div>
-<div class="line"><span class="lineno">  333</span>      <a class="code hl_function" href="../../d7/d79/searchindex_8cpp.html#a61aa3a8c310a432e4925f68741d9bb21">writeInt</a>(f,indexOffsets[i]);</div>
-<div class="line"><span class="lineno">  334</span>    }</div>
-<div class="line"><span class="lineno">  335</span>    <span class="comment">// write word lists</span></div>
-<div class="line"><span class="lineno">  336</span>    count=0;</div>
-<div class="line"><span class="lineno">  337</span>    <span class="keywordflow">for</span> (i=0;i&lt;<a class="code hl_variable" href="../../d7/d79/searchindex_8cpp.html#a99ffca8320d09c3e2c5ce800855f1469">numIndexEntries</a>;i++)</div>
-<div class="line"><span class="lineno">  338</span>    {</div>
-<div class="line"><span class="lineno">  339</span>      <span class="keyword">const</span> <span class="keyword">auto</span> &amp;wlist = <a class="code hl_variable" href="../../da/d36/class_search_index.html#a7d3b63b57ca232db7b18b1a5d9861101">m_index</a>[i];</div>
-<div class="line"><span class="lineno">  340</span>      <span class="keywordflow">if</span> (!wlist.empty())</div>
-<div class="line"><span class="lineno">  341</span>      {</div>
-<div class="line"><span class="lineno">  342</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;iw : wlist)</div>
-<div class="line"><span class="lineno">  343</span>        {</div>
-<div class="line"><span class="lineno">  344</span>          <a class="code hl_function" href="../../d7/d79/searchindex_8cpp.html#a0b6667c7bad976edc1ef63202c87defe">writeString</a>(f,iw.word());</div>
-<div class="line"><span class="lineno">  345</span>          <a class="code hl_function" href="../../d7/d79/searchindex_8cpp.html#a61aa3a8c310a432e4925f68741d9bb21">writeInt</a>(f,wordStatOffsets[count++]);</div>
-<div class="line"><span class="lineno">  346</span>        }</div>
-<div class="line"><span class="lineno">  347</span>        f.put(0);</div>
-<div class="line"><span class="lineno">  348</span>      }</div>
-<div class="line"><span class="lineno">  349</span>    }</div>
-<div class="line"><span class="lineno">  350</span>    <span class="comment">// write extra padding bytes</span></div>
-<div class="line"><span class="lineno">  351</span>    <span class="keywordflow">for</span> (i=0;i&lt;padding;i++) f.put(0);</div>
-<div class="line"><span class="lineno">  352</span>    <span class="comment">// write word statistics</span></div>
-<div class="line"><span class="lineno">  353</span>    <span class="keywordflow">for</span> (i=0;i&lt;<a class="code hl_variable" href="../../d7/d79/searchindex_8cpp.html#a99ffca8320d09c3e2c5ce800855f1469">numIndexEntries</a>;i++)</div>
-<div class="line"><span class="lineno">  354</span>    {</div>
-<div class="line"><span class="lineno">  355</span>      <span class="keyword">const</span> <span class="keyword">auto</span> &amp;wlist = <a class="code hl_variable" href="../../da/d36/class_search_index.html#a7d3b63b57ca232db7b18b1a5d9861101">m_index</a>[i];</div>
-<div class="line"><span class="lineno">  356</span>      <span class="keywordflow">if</span> (!wlist.empty())</div>
-<div class="line"><span class="lineno">  357</span>      {</div>
-<div class="line"><span class="lineno">  358</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;iw : wlist)</div>
-<div class="line"><span class="lineno">  359</span>        {</div>
-<div class="line"><span class="lineno">  360</span>          <span class="keywordtype">size_t</span> numUrls = iw.urls().size();</div>
-<div class="line"><span class="lineno">  361</span>          <a class="code hl_function" href="../../d7/d79/searchindex_8cpp.html#a61aa3a8c310a432e4925f68741d9bb21">writeInt</a>(f,numUrls);</div>
-<div class="line"><span class="lineno">  362</span>          <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;ui : iw.urls())</div>
-<div class="line"><span class="lineno">  363</span>          {</div>
-<div class="line"><span class="lineno">  364</span>            <a class="code hl_function" href="../../d7/d79/searchindex_8cpp.html#a61aa3a8c310a432e4925f68741d9bb21">writeInt</a>(f,urlOffsets[ui.second.urlIdx]);</div>
-<div class="line"><span class="lineno">  365</span>            <a class="code hl_function" href="../../d7/d79/searchindex_8cpp.html#a61aa3a8c310a432e4925f68741d9bb21">writeInt</a>(f,ui.second.freq);</div>
-<div class="line"><span class="lineno">  366</span>          }</div>
-<div class="line"><span class="lineno">  367</span>        }</div>
-<div class="line"><span class="lineno">  368</span>      }</div>
-<div class="line"><span class="lineno">  369</span>    }</div>
-<div class="line"><span class="lineno">  370</span>    <span class="comment">// write urls</span></div>
-<div class="line"><span class="lineno">  371</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;udi : <a class="code hl_variable" href="../../da/d36/class_search_index.html#a2d410345f7d657bb9d6a1ba014f09560">m_urls</a>)</div>
-<div class="line"><span class="lineno">  372</span>    {</div>
-<div class="line"><span class="lineno">  373</span>      <a class="code hl_function" href="../../d7/d79/searchindex_8cpp.html#a0b6667c7bad976edc1ef63202c87defe">writeString</a>(f,udi.second.name);</div>
-<div class="line"><span class="lineno">  374</span>      <a class="code hl_function" href="../../d7/d79/searchindex_8cpp.html#a0b6667c7bad976edc1ef63202c87defe">writeString</a>(f,udi.second.url);</div>
-<div class="line"><span class="lineno">  375</span>    }</div>
-<div class="line"><span class="lineno">  376</span>  }</div>
-<div class="line"><span class="lineno">  377</span> </div>
-<div class="line"><span class="lineno">  378</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00253">253</a> of file <a class="el" href="../../d7/d79/searchindex_8cpp_source.html">searchindex.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  254</span>{</div>
+<div class="line"><span class="lineno">  255</span>  <span class="keywordtype">size_t</span> i;</div>
+<div class="line"><span class="lineno">  256</span>  <span class="keywordtype">size_t</span> size=4; <span class="comment">// for the header</span></div>
+<div class="line"><span class="lineno">  257</span>  size+=4*<a class="code hl_variable" href="../../d7/d79/searchindex_8cpp.html#a99ffca8320d09c3e2c5ce800855f1469">numIndexEntries</a>; <span class="comment">// for the index</span></div>
+<div class="line"><span class="lineno">  258</span>  <span class="keywordtype">size_t</span> wordsOffset = size;</div>
+<div class="line"><span class="lineno">  259</span>  <span class="comment">// first pass: compute the size of the wordlist</span></div>
+<div class="line"><span class="lineno">  260</span>  <span class="keywordflow">for</span> (i=0;i&lt;<a class="code hl_variable" href="../../d7/d79/searchindex_8cpp.html#a99ffca8320d09c3e2c5ce800855f1469">numIndexEntries</a>;i++)</div>
+<div class="line"><span class="lineno">  261</span>  {</div>
+<div class="line"><span class="lineno">  262</span>    <span class="keyword">const</span> <span class="keyword">auto</span> &amp;wlist = <a class="code hl_variable" href="../../da/d36/class_search_index.html#a7d3b63b57ca232db7b18b1a5d9861101">m_index</a>[i];</div>
+<div class="line"><span class="lineno">  263</span>    <span class="keywordflow">if</span> (!wlist.empty())</div>
+<div class="line"><span class="lineno">  264</span>    {</div>
+<div class="line"><span class="lineno">  265</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;iw : wlist)</div>
+<div class="line"><span class="lineno">  266</span>      {</div>
+<div class="line"><span class="lineno">  267</span>        <span class="keywordtype">int</span> ws = iw.word().length()+1;</div>
+<div class="line"><span class="lineno">  268</span>        size+=ws+4; <span class="comment">// word + url info list offset</span></div>
+<div class="line"><span class="lineno">  269</span>      }</div>
+<div class="line"><span class="lineno">  270</span>      size+=1; <span class="comment">// zero list terminator</span></div>
+<div class="line"><span class="lineno">  271</span>    }</div>
+<div class="line"><span class="lineno">  272</span>  }</div>
+<div class="line"><span class="lineno">  273</span> </div>
+<div class="line"><span class="lineno">  274</span>  <span class="comment">// second pass: compute the offsets in the index</span></div>
+<div class="line"><span class="lineno">  275</span>  <span class="keywordtype">size_t</span> indexOffsets[<a class="code hl_variable" href="../../d7/d79/searchindex_8cpp.html#a99ffca8320d09c3e2c5ce800855f1469">numIndexEntries</a>];</div>
+<div class="line"><span class="lineno">  276</span>  <span class="keywordtype">size_t</span> offset=wordsOffset;</div>
+<div class="line"><span class="lineno">  277</span>  <span class="keywordflow">for</span> (i=0;i&lt;<a class="code hl_variable" href="../../d7/d79/searchindex_8cpp.html#a99ffca8320d09c3e2c5ce800855f1469">numIndexEntries</a>;i++)</div>
+<div class="line"><span class="lineno">  278</span>  {</div>
+<div class="line"><span class="lineno">  279</span>    <span class="keyword">const</span> <span class="keyword">auto</span> &amp;wlist = <a class="code hl_variable" href="../../da/d36/class_search_index.html#a7d3b63b57ca232db7b18b1a5d9861101">m_index</a>[i];</div>
+<div class="line"><span class="lineno">  280</span>    <span class="keywordflow">if</span> (!wlist.empty())</div>
+<div class="line"><span class="lineno">  281</span>    {</div>
+<div class="line"><span class="lineno">  282</span>      indexOffsets[i]=offset;</div>
+<div class="line"><span class="lineno">  283</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;iw : wlist)</div>
+<div class="line"><span class="lineno">  284</span>      {</div>
+<div class="line"><span class="lineno">  285</span>        offset+= iw.word().length()+1;</div>
+<div class="line"><span class="lineno">  286</span>        offset+=4; <span class="comment">// word + offset to url info array</span></div>
+<div class="line"><span class="lineno">  287</span>      }</div>
+<div class="line"><span class="lineno">  288</span>      offset+=1; <span class="comment">// zero list terminator</span></div>
+<div class="line"><span class="lineno">  289</span>    }</div>
+<div class="line"><span class="lineno">  290</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  291</span>    {</div>
+<div class="line"><span class="lineno">  292</span>      indexOffsets[i]=0;</div>
+<div class="line"><span class="lineno">  293</span>    }</div>
+<div class="line"><span class="lineno">  294</span>  }</div>
+<div class="line"><span class="lineno">  295</span>  <span class="keywordtype">size_t</span> padding = size;</div>
+<div class="line"><span class="lineno">  296</span>  size = (size+3)&amp;~3; <span class="comment">// round up to 4 byte boundary</span></div>
+<div class="line"><span class="lineno">  297</span>  padding = size - padding;</div>
+<div class="line"><span class="lineno">  298</span> </div>
+<div class="line"><span class="lineno">  299</span>  std::vector&lt;size_t&gt; wordStatOffsets(<a class="code hl_variable" href="../../da/d36/class_search_index.html#a94c8476a68e3394f72ffe2d0dea68518">m_words</a>.size());</div>
+<div class="line"><span class="lineno">  300</span> </div>
+<div class="line"><span class="lineno">  301</span>  <span class="keywordtype">int</span> count=0;</div>
+<div class="line"><span class="lineno">  302</span> </div>
+<div class="line"><span class="lineno">  303</span>  <span class="comment">// third pass: compute offset to stats info for each word</span></div>
+<div class="line"><span class="lineno">  304</span>  <span class="keywordflow">for</span> (i=0;i&lt;<a class="code hl_variable" href="../../d7/d79/searchindex_8cpp.html#a99ffca8320d09c3e2c5ce800855f1469">numIndexEntries</a>;i++)</div>
+<div class="line"><span class="lineno">  305</span>  {</div>
+<div class="line"><span class="lineno">  306</span>    <span class="keyword">const</span> <span class="keyword">auto</span> &amp;wlist = <a class="code hl_variable" href="../../da/d36/class_search_index.html#a7d3b63b57ca232db7b18b1a5d9861101">m_index</a>[i];</div>
+<div class="line"><span class="lineno">  307</span>    <span class="keywordflow">if</span> (!wlist.empty())</div>
+<div class="line"><span class="lineno">  308</span>    {</div>
+<div class="line"><span class="lineno">  309</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;iw : wlist)</div>
+<div class="line"><span class="lineno">  310</span>      {</div>
+<div class="line"><span class="lineno">  311</span>        <span class="comment">//printf(&quot;wordStatOffsets[%d]=%d\n&quot;,count,size);</span></div>
+<div class="line"><span class="lineno">  312</span>        wordStatOffsets[count++] = size;</div>
+<div class="line"><span class="lineno">  313</span>        size+=4 + iw.urls().size() * 8; <span class="comment">// count + (url_index,freq) per url</span></div>
+<div class="line"><span class="lineno">  314</span>      }</div>
+<div class="line"><span class="lineno">  315</span>    }</div>
+<div class="line"><span class="lineno">  316</span>  }</div>
+<div class="line"><span class="lineno">  317</span>  std::vector&lt;size_t&gt; urlOffsets(<a class="code hl_variable" href="../../da/d36/class_search_index.html#a2d410345f7d657bb9d6a1ba014f09560">m_urls</a>.size());</div>
+<div class="line"><span class="lineno">  318</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;udi : <a class="code hl_variable" href="../../da/d36/class_search_index.html#a2d410345f7d657bb9d6a1ba014f09560">m_urls</a>)</div>
+<div class="line"><span class="lineno">  319</span>  {</div>
+<div class="line"><span class="lineno">  320</span>    urlOffsets[udi.first]=size;</div>
+<div class="line"><span class="lineno">  321</span>    size+=udi.second.name.length()+1+</div>
+<div class="line"><span class="lineno">  322</span>          udi.second.url.length()+1;</div>
+<div class="line"><span class="lineno">  323</span>  }</div>
+<div class="line"><span class="lineno">  324</span> </div>
+<div class="line"><span class="lineno">  325</span>  <span class="comment">//printf(&quot;Total size %x bytes (word=%x stats=%x urls=%x)\n&quot;,size,wordsOffset,statsOffset,urlsOffset);</span></div>
+<div class="line"><span class="lineno">  326</span>  std::ofstream f = <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a230fceefc8f9abd1e8d4be71d7eef281">Portable::openOutputStream</a>(fileName);</div>
+<div class="line"><span class="lineno">  327</span>  <span class="keywordflow">if</span> (f.is_open())</div>
+<div class="line"><span class="lineno">  328</span>  {</div>
+<div class="line"><span class="lineno">  329</span>    <span class="comment">// write header</span></div>
+<div class="line"><span class="lineno">  330</span>    f.put(<span class="charliteral">&#39;D&#39;</span>); f.put(<span class="charliteral">&#39;O&#39;</span>); f.put(<span class="charliteral">&#39;X&#39;</span>); f.put(<span class="charliteral">&#39;S&#39;</span>);</div>
+<div class="line"><span class="lineno">  331</span>    <span class="comment">// write index</span></div>
+<div class="line"><span class="lineno">  332</span>    <span class="keywordflow">for</span> (i=0;i&lt;<a class="code hl_variable" href="../../d7/d79/searchindex_8cpp.html#a99ffca8320d09c3e2c5ce800855f1469">numIndexEntries</a>;i++)</div>
+<div class="line"><span class="lineno">  333</span>    {</div>
+<div class="line"><span class="lineno">  334</span>      <a class="code hl_function" href="../../d7/d79/searchindex_8cpp.html#a61aa3a8c310a432e4925f68741d9bb21">writeInt</a>(f,indexOffsets[i]);</div>
+<div class="line"><span class="lineno">  335</span>    }</div>
+<div class="line"><span class="lineno">  336</span>    <span class="comment">// write word lists</span></div>
+<div class="line"><span class="lineno">  337</span>    count=0;</div>
+<div class="line"><span class="lineno">  338</span>    <span class="keywordflow">for</span> (i=0;i&lt;<a class="code hl_variable" href="../../d7/d79/searchindex_8cpp.html#a99ffca8320d09c3e2c5ce800855f1469">numIndexEntries</a>;i++)</div>
+<div class="line"><span class="lineno">  339</span>    {</div>
+<div class="line"><span class="lineno">  340</span>      <span class="keyword">const</span> <span class="keyword">auto</span> &amp;wlist = <a class="code hl_variable" href="../../da/d36/class_search_index.html#a7d3b63b57ca232db7b18b1a5d9861101">m_index</a>[i];</div>
+<div class="line"><span class="lineno">  341</span>      <span class="keywordflow">if</span> (!wlist.empty())</div>
+<div class="line"><span class="lineno">  342</span>      {</div>
+<div class="line"><span class="lineno">  343</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;iw : wlist)</div>
+<div class="line"><span class="lineno">  344</span>        {</div>
+<div class="line"><span class="lineno">  345</span>          <a class="code hl_function" href="../../d7/d79/searchindex_8cpp.html#a0b6667c7bad976edc1ef63202c87defe">writeString</a>(f,iw.word());</div>
+<div class="line"><span class="lineno">  346</span>          <a class="code hl_function" href="../../d7/d79/searchindex_8cpp.html#a61aa3a8c310a432e4925f68741d9bb21">writeInt</a>(f,wordStatOffsets[count++]);</div>
+<div class="line"><span class="lineno">  347</span>        }</div>
+<div class="line"><span class="lineno">  348</span>        f.put(0);</div>
+<div class="line"><span class="lineno">  349</span>      }</div>
+<div class="line"><span class="lineno">  350</span>    }</div>
+<div class="line"><span class="lineno">  351</span>    <span class="comment">// write extra padding bytes</span></div>
+<div class="line"><span class="lineno">  352</span>    <span class="keywordflow">for</span> (i=0;i&lt;padding;i++) f.put(0);</div>
+<div class="line"><span class="lineno">  353</span>    <span class="comment">// write word statistics</span></div>
+<div class="line"><span class="lineno">  354</span>    <span class="keywordflow">for</span> (i=0;i&lt;<a class="code hl_variable" href="../../d7/d79/searchindex_8cpp.html#a99ffca8320d09c3e2c5ce800855f1469">numIndexEntries</a>;i++)</div>
+<div class="line"><span class="lineno">  355</span>    {</div>
+<div class="line"><span class="lineno">  356</span>      <span class="keyword">const</span> <span class="keyword">auto</span> &amp;wlist = <a class="code hl_variable" href="../../da/d36/class_search_index.html#a7d3b63b57ca232db7b18b1a5d9861101">m_index</a>[i];</div>
+<div class="line"><span class="lineno">  357</span>      <span class="keywordflow">if</span> (!wlist.empty())</div>
+<div class="line"><span class="lineno">  358</span>      {</div>
+<div class="line"><span class="lineno">  359</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;iw : wlist)</div>
+<div class="line"><span class="lineno">  360</span>        {</div>
+<div class="line"><span class="lineno">  361</span>          <span class="keywordtype">size_t</span> numUrls = iw.urls().size();</div>
+<div class="line"><span class="lineno">  362</span>          <a class="code hl_function" href="../../d7/d79/searchindex_8cpp.html#a61aa3a8c310a432e4925f68741d9bb21">writeInt</a>(f,numUrls);</div>
+<div class="line"><span class="lineno">  363</span>          <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;ui : iw.urls())</div>
+<div class="line"><span class="lineno">  364</span>          {</div>
+<div class="line"><span class="lineno">  365</span>            <a class="code hl_function" href="../../d7/d79/searchindex_8cpp.html#a61aa3a8c310a432e4925f68741d9bb21">writeInt</a>(f,urlOffsets[ui.second.urlIdx]);</div>
+<div class="line"><span class="lineno">  366</span>            <a class="code hl_function" href="../../d7/d79/searchindex_8cpp.html#a61aa3a8c310a432e4925f68741d9bb21">writeInt</a>(f,ui.second.freq);</div>
+<div class="line"><span class="lineno">  367</span>          }</div>
+<div class="line"><span class="lineno">  368</span>        }</div>
+<div class="line"><span class="lineno">  369</span>      }</div>
+<div class="line"><span class="lineno">  370</span>    }</div>
+<div class="line"><span class="lineno">  371</span>    <span class="comment">// write urls</span></div>
+<div class="line"><span class="lineno">  372</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;udi : <a class="code hl_variable" href="../../da/d36/class_search_index.html#a2d410345f7d657bb9d6a1ba014f09560">m_urls</a>)</div>
+<div class="line"><span class="lineno">  373</span>    {</div>
+<div class="line"><span class="lineno">  374</span>      <a class="code hl_function" href="../../d7/d79/searchindex_8cpp.html#a0b6667c7bad976edc1ef63202c87defe">writeString</a>(f,udi.second.name);</div>
+<div class="line"><span class="lineno">  375</span>      <a class="code hl_function" href="../../d7/d79/searchindex_8cpp.html#a0b6667c7bad976edc1ef63202c87defe">writeString</a>(f,udi.second.url);</div>
+<div class="line"><span class="lineno">  376</span>    }</div>
+<div class="line"><span class="lineno">  377</span>  }</div>
+<div class="line"><span class="lineno">  378</span> </div>
+<div class="line"><span class="lineno">  379</span>}</div>
 <div class="ttc" id="anamespace_portable_html_a230fceefc8f9abd1e8d4be71d7eef281"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#a230fceefc8f9abd1e8d4be71d7eef281">Portable::openOutputStream</a></div><div class="ttdeci">std::ofstream openOutputStream(const QCString &amp;name, bool append=false)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1c/portable_8cpp_source.html#l00648">portable.cpp:648</a></div></div>
-<div class="ttc" id="asearchindex_8cpp_html_a0b6667c7bad976edc1ef63202c87defe"><div class="ttname"><a href="../../d7/d79/searchindex_8cpp.html#a0b6667c7bad976edc1ef63202c87defe">writeString</a></div><div class="ttdeci">static void writeString(std::ostream &amp;f, const QCString &amp;s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d79/searchindex_8cpp_source.html#l00245">searchindex.cpp:245</a></div></div>
-<div class="ttc" id="asearchindex_8cpp_html_a61aa3a8c310a432e4925f68741d9bb21"><div class="ttname"><a href="../../d7/d79/searchindex_8cpp.html#a61aa3a8c310a432e4925f68741d9bb21">writeInt</a></div><div class="ttdeci">static void writeInt(std::ostream &amp;f, size_t index)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d79/searchindex_8cpp_source.html#l00237">searchindex.cpp:237</a></div></div>
+<div class="ttc" id="asearchindex_8cpp_html_a0b6667c7bad976edc1ef63202c87defe"><div class="ttname"><a href="../../d7/d79/searchindex_8cpp.html#a0b6667c7bad976edc1ef63202c87defe">writeString</a></div><div class="ttdeci">static void writeString(std::ostream &amp;f, const QCString &amp;s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d79/searchindex_8cpp_source.html#l00246">searchindex.cpp:246</a></div></div>
+<div class="ttc" id="asearchindex_8cpp_html_a61aa3a8c310a432e4925f68741d9bb21"><div class="ttname"><a href="../../d7/d79/searchindex_8cpp.html#a61aa3a8c310a432e4925f68741d9bb21">writeInt</a></div><div class="ttdeci">static void writeInt(std::ostream &amp;f, size_t index)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d79/searchindex_8cpp_source.html#l00238">searchindex.cpp:238</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/d07/searchindex_8h_source.html#l00105">m_index</a>, <a class="el" href="../../de/d07/searchindex_8h_source.html#l00107">m_urls</a>, <a class="el" href="../../de/d07/searchindex_8h_source.html#l00104">m_words</a>, <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00048">numIndexEntries</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00648">Portable::openOutputStream()</a>, <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00237">writeInt()</a>, and <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00245">writeString()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d07/searchindex_8h_source.html#l00105">m_index</a>, <a class="el" href="../../de/d07/searchindex_8h_source.html#l00107">m_urls</a>, <a class="el" href="../../de/d07/searchindex_8h_source.html#l00104">m_words</a>, <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00048">numIndexEntries</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00648">Portable::openOutputStream()</a>, <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00238">writeInt()</a>, and <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00246">writeString()</a>.</p>
 
 </div>
 </div>
@@ -660,7 +664,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/d07/searchindex_8h_source.html#l00105">105</a> of file <a class="el" href="../../de/d07/searchindex_8h_source.html">searchindex.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00189">addWordRec()</a>, <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00069">SearchIndex()</a>, and <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00252">write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00190">addWordRec()</a>, <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00069">SearchIndex()</a>, and <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00253">write()</a>.</p>
 
 </div>
 </div>
@@ -712,7 +716,33 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/d07/searchindex_8h_source.html#l00108">108</a> of file <a class="el" href="../../de/d07/searchindex_8h_source.html">searchindex.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00189">addWordRec()</a>, and <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00074">setCurrentDoc()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00190">addWordRec()</a>, and <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00074">setCurrentDoc()</a>.</p>
+
+</div>
+</div>
+<a id="ac48958318e80356f3dd535cdf564dbe3" name="ac48958318e80356f3dd535cdf564dbe3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac48958318e80356f3dd535cdf564dbe3">&#9670;&#160;</a></span>m_urlMaxIndex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int SearchIndex::m_urlMaxIndex = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d07/searchindex_8h_source.html#l00109">109</a> of file <a class="el" href="../../de/d07/searchindex_8h_source.html">searchindex.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00074">setCurrentDoc()</a>.</p>
 
 </div>
 </div>
@@ -738,7 +768,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/d07/searchindex_8h_source.html#l00107">107</a> of file <a class="el" href="../../de/d07/searchindex_8h_source.html">searchindex.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00074">setCurrentDoc()</a>, and <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00252">write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00074">setCurrentDoc()</a>, and <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00253">write()</a>.</p>
 
 </div>
 </div>
@@ -764,7 +794,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/d07/searchindex_8h_source.html#l00104">104</a> of file <a class="el" href="../../de/d07/searchindex_8h_source.html">searchindex.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00189">addWordRec()</a>, and <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00252">write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00190">addWordRec()</a>, and <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00253">write()</a>.</p>
 
 </div>
 </div>
