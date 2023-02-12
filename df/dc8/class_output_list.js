@@ -1,15 +1,15 @@
 var class_output_list =
 [
+    [ "OutputGenElem", "df/de0/struct_output_list_1_1_output_gen_elem.html", "df/de0/struct_output_list_1_1_output_gen_elem" ],
+    [ "OutputGenVariant", "df/dc8/class_output_list.html#a027ce76de66f53596ed2c87986e1288b", null ],
     [ "OutputList", "df/dc8/class_output_list.html#a9c57688bca34e8437f691c7c0a6fae3e", null ],
     [ "OutputList", "df/dc8/class_output_list.html#af39f7d4abc52b7b869bfb783fcac7315", null ],
-    [ "~OutputList", "df/dc8/class_output_list.html#aad71749c21aab2432b4fef32cf122b79", null ],
+    [ "OutputList", "df/dc8/class_output_list.html#a3abb58f0059d4992f261fc45ed4d8af2", null ],
     [ "add", "df/dc8/class_output_list.html#a2ffd4b500e651b8ec1a47acb46e2456c", null ],
     [ "addIndexItem", "df/dc8/class_output_list.html#a6a14eebaf70a50055e47c6738c56de13", null ],
     [ "cleanup", "df/dc8/class_output_list.html#ac5e2f6ef346a21e513ea4bd3f53616ba", null ],
-    [ "clear", "df/dc8/class_output_list.html#a358e92eaef6a5d332ee2bc1d505fc7fa", null ],
     [ "codeGenerators", "df/dc8/class_output_list.html#a4700ac2ba9ae6445eb7f862502472f35", null ],
     [ "codeGenerators", "df/dc8/class_output_list.html#a284458e4baf27869eb5bbb9776407e6c", null ],
-    [ "debug", "df/dc8/class_output_list.html#aaa2f73dc68a100c126d87e21e735bca0", null ],
     [ "disable", "df/dc8/class_output_list.html#a192e28bf96098f41db170be0680d5375", null ],
     [ "disableAll", "df/dc8/class_output_list.html#a6a75284d21a037302ea3d7dc6e1558d4", null ],
     [ "disableAllBut", "df/dc8/class_output_list.html#a91f9afddff1974d7805c3d022b754ddf", null ],
@@ -95,7 +95,7 @@ var class_output_list =
     [ "endTitleHead", "df/dc8/class_output_list.html#a0d24b8d36374b773ce723e4b3ae650e7", null ],
     [ "endTypewriter", "df/dc8/class_output_list.html#ad83302c45e73f387c9dc13789df012f7", null ],
     [ "exceptionEntry", "df/dc8/class_output_list.html#a60a7f30e2f0edb92bd5ce06d1259340f", null ],
-    [ "forall", "df/dc8/class_output_list.html#ab0cf4f139ff4e716943f76b3f5b6c08f", null ],
+    [ "foreach", "df/dc8/class_output_list.html#af8808713dfd32c9ae146965691b14639", null ],
     [ "generateDoc", "df/dc8/class_output_list.html#a877c62aba09007547061b82a62e8c6dd", null ],
     [ "insertMemberAlign", "df/dc8/class_output_list.html#a8a0967d0442047bfe07a5644505c2d68", null ],
     [ "insertMemberAlignLeft", "df/dc8/class_output_list.html#a1d117e436431c6c8976e8e1e3167b20c", null ],
@@ -104,9 +104,11 @@ var class_output_list =
     [ "lineBreak", "df/dc8/class_output_list.html#adfbaf25ba726ceec65db99fec11ec2ef", null ],
     [ "newId", "df/dc8/class_output_list.html#a67839ba61ba53161ae6c0ff75029e6ab", null ],
     [ "operator=", "df/dc8/class_output_list.html#a4d5653dcc37e333f00ce357d2440fe6e", null ],
+    [ "operator=", "df/dc8/class_output_list.html#add10a6827dd128c3222952ce2b74a233", null ],
     [ "parseText", "df/dc8/class_output_list.html#adfdcf2ba925f05be8beb8cf43deb168a", null ],
     [ "popGeneratorState", "df/dc8/class_output_list.html#a94eb1af2ea07425ef1faa539d24adcf8", null ],
     [ "pushGeneratorState", "df/dc8/class_output_list.html#a885957a64f7d87aefb663c4ec903188f", null ],
+    [ "refreshCodeGenerators", "df/dc8/class_output_list.html#ae02018298c4bb64b600a8d0225a31302", null ],
     [ "size", "df/dc8/class_output_list.html#a38c3477fea42348693927abc9b16d209", null ],
     [ "startAnonTypeScope", "df/dc8/class_output_list.html#a74d52604537a67d666ce88405c23dc49", null ],
     [ "startBold", "df/dc8/class_output_list.html#a796018ee85949771252f36fea9a288d0", null ],
@@ -213,5 +215,5 @@ var class_output_list =
     [ "writeSynopsis", "df/dc8/class_output_list.html#a7d9096a6b81f3183e6f3dc01e4e093f5", null ],
     [ "m_codeGenList", "df/dc8/class_output_list.html#a1d563c5f1a2af94aef565f881aefe5f2", null ],
     [ "m_id", "df/dc8/class_output_list.html#a81b1124e7c81f2a183262222801460a8", null ],
-    [ "m_outputs", "df/dc8/class_output_list.html#aad538183e06860cd27642de96737aff8", null ]
+    [ "m_outputGenList", "df/dc8/class_output_list.html#a364810832675cec0a041288594b2251e", null ]
 ];

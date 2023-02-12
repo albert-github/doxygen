@@ -14,6 +14,7 @@ var class_latex_code_generator =
     [ "setInsideTabbing", "d0/d37/class_latex_code_generator.html#a22a237438e739e962bba1a51bf41b24a", null ],
     [ "setRelativePath", "d0/d37/class_latex_code_generator.html#a644dfa222652fa561dc841838100115b", null ],
     [ "setSourceFileName", "d0/d37/class_latex_code_generator.html#a5b8f6f300e6c8de9f20aa3eb9c1024be", null ],
+    [ "setTextStream", "d0/d37/class_latex_code_generator.html#a54d30e5bd138f1f19515130f7c723abc", null ],
     [ "startCodeFragment", "d0/d37/class_latex_code_generator.html#a5c41f5e7888e5bf217bc27d07a95b85d", null ],
     [ "startCodeLine", "d0/d37/class_latex_code_generator.html#abad76eebb986e192639b09878d46ce49", null ],
     [ "startFontClass", "d0/d37/class_latex_code_generator.html#adb7866fdd0b7f5623dd61f72901b750f", null ],

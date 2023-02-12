@@ -310,6 +310,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/vhdljjparser.cpp"
   Node79 -> Node13 [color="steelblue1",style="solid"];
   Node79 -> Node20 [color="steelblue1",style="solid"];
   Node79 -> Node74 [color="steelblue1",style="solid"];
+  Node79 -> Node18 [color="steelblue1",style="solid"];
   Node79 -> Node45 [color="steelblue1",style="solid"];
   Node79 -> Node59 [color="steelblue1",style="solid"];
   Node79 -> Node77 [color="steelblue1",style="solid"];
@@ -322,6 +323,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/vhdljjparser.cpp"
   Node81 -> Node45 [color="steelblue1",style="solid"];
   Node79 -> Node82 [color="steelblue1",style="solid"];
   Node82 [label="rtfgen.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/daa/rtfgen_8h.html",tooltip=" "];
+  Node82 -> Node73 [color="steelblue1",style="solid"];
   Node82 -> Node39 [color="steelblue1",style="solid"];
   Node82 -> Node45 [color="steelblue1",style="solid"];
   Node79 -> Node83 [color="steelblue1",style="solid"];
@@ -330,6 +332,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/vhdljjparser.cpp"
   Node79 -> Node84 [color="steelblue1",style="solid"];
   Node84 [label="docbookgen.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dea/docbookgen_8h.html",tooltip=" "];
   Node84 -> Node20 [color="steelblue1",style="solid"];
+  Node84 -> Node73 [color="steelblue1",style="solid"];
   Node84 -> Node39 [color="steelblue1",style="solid"];
   Node84 -> Node45 [color="steelblue1",style="solid"];
   Node79 -> Node85 [color="steelblue1",style="solid"];

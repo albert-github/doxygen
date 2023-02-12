@@ -1,6 +1,7 @@
 var class_x_m_l_code_generator =
 [
     [ "XMLCodeGenerator", "dd/d66/class_x_m_l_code_generator.html#ae566a902bea279e24182706618efa6a1", null ],
+    [ "~XMLCodeGenerator", "dd/d66/class_x_m_l_code_generator.html#a4de78e55a543bb16cd9b6dc8672955c4", null ],
     [ "codify", "dd/d66/class_x_m_l_code_generator.html#a48781943326d4fe4cf9580e10b07bbd3", null ],
     [ "endCodeFragment", "dd/d66/class_x_m_l_code_generator.html#ac733772080cf548eff3ef3789f712b64", null ],
     [ "endCodeLine", "dd/d66/class_x_m_l_code_generator.html#a47927ff273870cc7713f2d20e8c2beb3", null ],

@@ -6,7 +6,7 @@ var searchData=
   ['addcontentsitem_3',['addContentsItem',['../df/d1e/struct_index_intf_1_1add_contents_item.html',1,'IndexIntf']]],
   ['addimagefile_4',['addImageFile',['../d5/d8a/struct_index_intf_1_1add_image_file.html',1,'IndexIntf']]],
   ['addindexfile_5',['addIndexFile',['../d4/d2c/struct_index_intf_1_1add_index_file.html',1,'IndexIntf']]],
-  ['addindexitem_6',['addIndexItem',['../d9/d42/struct_index_intf_1_1add_index_item.html',1,'IndexIntf']]],
+  ['addindexitem_6',['addIndexItem',['../d9/d42/struct_index_intf_1_1add_index_item.html',1,'IndexIntf::addIndexItem&lt; T &gt;'],['../d7/d6c/struct_output_gen_intf_1_1add_index_item.html',1,'OutputGenIntf::addIndexItem&lt; T &gt;']]],
   ['addstylesheetfile_7',['addStyleSheetFile',['../d5/df2/struct_index_intf_1_1add_style_sheet_file.html',1,'IndexIntf']]],
   ['addword_8',['addWord',['../d2/d4d/struct_search_index_methods_1_1add_word.html',1,'SearchIndexMethods']]],
   ['allmemberslistcontext_9',['AllMembersListContext',['../d6/d10/class_all_members_list_context.html',1,'']]],

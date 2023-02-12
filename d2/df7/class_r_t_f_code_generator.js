@@ -8,6 +8,7 @@ var class_r_t_f_code_generator =
     [ "rtf_Code_DepthStyle", "d2/df7/class_r_t_f_code_generator.html#a5b9f9d4a335e0e68bad617fdceb9e318", null ],
     [ "setIndentLevel", "d2/df7/class_r_t_f_code_generator.html#a8f35cbfdc0b306326588c24eb4d10a35", null ],
     [ "setSourceFileName", "d2/df7/class_r_t_f_code_generator.html#ac302b174a0b6cd7df8b60723547a5ce0", null ],
+    [ "setTextStream", "d2/df7/class_r_t_f_code_generator.html#ab9e521914ea828acf5b5850541d643c8", null ],
     [ "startCodeFragment", "d2/df7/class_r_t_f_code_generator.html#a65bc8d9bed014069bec5fe556835a7d3", null ],
     [ "startCodeLine", "d2/df7/class_r_t_f_code_generator.html#ab41928bd43fcd499c2f0205c13ebeb3f", null ],
     [ "startFontClass", "d2/df7/class_r_t_f_code_generator.html#a79a64f81689c0e34071c17b53ab06e4b", null ],

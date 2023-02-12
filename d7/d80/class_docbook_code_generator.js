@@ -8,6 +8,7 @@ var class_docbook_code_generator =
     [ "finish", "d7/d80/class_docbook_code_generator.html#ab587badbb22f04c80d79fd6bf0b69b9a", null ],
     [ "setRelativePath", "d7/d80/class_docbook_code_generator.html#a831a2985374b5c317e9778c12f4fc7b4", null ],
     [ "setSourceFileName", "d7/d80/class_docbook_code_generator.html#ab6e2bf360ffa9f8f14c457405273d4c0", null ],
+    [ "setTextStream", "d7/d80/class_docbook_code_generator.html#adf393050531556f10b6f1f56bc418555", null ],
     [ "sourceFileName", "d7/d80/class_docbook_code_generator.html#ab495ebcb45b5e583da811c8d7d02599a", null ],
     [ "startCodeFragment", "d7/d80/class_docbook_code_generator.html#a018ddd66c24ec1a42421b3d29de16401", null ],
     [ "startCodeLine", "d7/d80/class_docbook_code_generator.html#aa6af9297cbb2be8c975d0d123cf6d3b1", null ],

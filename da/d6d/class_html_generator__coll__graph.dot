@@ -7,7 +7,7 @@ digraph "HtmlGenerator"
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   Node1 [label="HtmlGenerator",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Generator for HTML output."];
   Node2 -> Node1 [dir="back",color="steelblue1",style="solid"];
-  Node2 [label="OutputGenerator",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d3/d8e/class_output_generator.html",tooltip="Abstract output generator."];
+  Node2 [label="OutputGenerator",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d3/d8e/class_output_generator.html",tooltip="Base class for specific output generators."];
   Node3 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" m_t",fontcolor="grey" ];
   Node3 [label="TextStream",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d3/d30/class_text_stream.html",tooltip="Text streaming class that buffers data."];
   Node4 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" m_dir\nm_fileName",fontcolor="grey" ];

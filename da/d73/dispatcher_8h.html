@@ -137,7 +137,7 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ac489b080b3b1dc91b38198c09dac4882"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a>(n)&#160;&#160;&#160;case n: <a class="el" href="../../da/d98/structdetail_1_1_dispatcher.html">detail::Dispatcher</a>&lt; ((n)&lt;size) &gt;::template case_&lt;W,n&gt;(v,std::forward&lt;As&gt;(args)...); break;</td></tr>
+<tr class="memitem:ac489b080b3b1dc91b38198c09dac4882"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a>(n)&#160;&#160;&#160;    case n: <a class="el" href="../../da/d98/structdetail_1_1_dispatcher.html">detail::Dispatcher</a>&lt; ((n)&lt;size) &gt;::template case_&lt;W,n&gt;(v,std::forward&lt;As&gt;(args)...); break;</td></tr>
 <tr class="separator:ac489b080b3b1dc91b38198c09dac4882"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -162,7 +162,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">n</td><td>)</td>
-          <td>&#160;&#160;&#160;case n: <a class="el" href="../../da/d98/structdetail_1_1_dispatcher.html">detail::Dispatcher</a>&lt; ((n)&lt;size) &gt;::template case_&lt;W,n&gt;(v,std::forward&lt;As&gt;(args)...); break;</td>
+          <td>&#160;&#160;&#160;    case n: <a class="el" href="../../da/d98/structdetail_1_1_dispatcher.html">detail::Dispatcher</a>&lt; ((n)&lt;size) &gt;::template case_&lt;W,n&gt;(v,std::forward&lt;As&gt;(args)...); break;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -232,21 +232,33 @@ template&lt;template&lt; class &gt; class W, class V , class... As&gt; </div>
 <div class="line"><span class="lineno">   83</span>  <span class="comment">// fills in an unreachable branch for indices equal or higher than size.</span></div>
 <div class="line"><span class="lineno">   84</span>  <span class="keywordflow">switch</span> (v.index())</div>
 <div class="line"><span class="lineno">   85</span>  {</div>
-<div class="line"><span class="lineno">   86</span><span class="preprocessor">#define DISPATCH_AT(n) case n: detail::Dispatcher&lt; ((n)&lt;size) &gt;::template case_&lt;W,n&gt;(v,std::forward&lt;As&gt;(args)...); break;</span></div>
-<div class="line"><span class="lineno">   87</span>    <a class="code hl_define" href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a>(0)</div>
-<div class="line"><span class="lineno">   88</span>    <a class="code hl_define" href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a>(1)</div>
-<div class="line"><span class="lineno">   89</span>    <a class="code hl_define" href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a>(2)</div>
-<div class="line"><span class="lineno">   90</span>    <a class="code hl_define" href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a>(3)</div>
-<div class="line"><span class="lineno">   91</span>    <a class="code hl_define" href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a>(4)</div>
-<div class="line"><span class="lineno">   92</span>    <a class="code hl_define" href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a>(5)</div>
-<div class="line"><span class="lineno">   93</span>    <a class="code hl_define" href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a>(6)</div>
-<div class="line"><span class="lineno">   94</span>    <a class="code hl_define" href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a>(7)</div>
-<div class="line"><span class="lineno">   95</span>    <a class="code hl_define" href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a>(8)</div>
-<div class="line"><span class="lineno">   96</span>    <a class="code hl_define" href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a>(9)</div>
-<div class="line"><span class="lineno">   97</span>    <a class="code hl_define" href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a>(10)</div>
-<div class="line"><span class="lineno">   98</span><span class="preprocessor">#undef DISPATCH_AT</span></div>
-<div class="line"><span class="lineno">   99</span>  }</div>
-<div class="line"><span class="lineno">  100</span>}</div>
+<div class="line"><span class="lineno">   86</span><span class="preprocessor">#define DISPATCH_AT(n)            \</span></div>
+<div class="line"><span class="lineno">   87</span><span class="preprocessor">    case n: detail::Dispatcher&lt; ((n)&lt;size) &gt;::template case_&lt;W,n&gt;(v,std::forward&lt;As&gt;(args)...); break;</span></div>
+<div class="line"><span class="lineno">   88</span> </div>
+<div class="line"><span class="lineno">   89</span>    <a class="code hl_define" href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a>(0)</div>
+<div class="line"><span class="lineno">   90</span>    <a class="code hl_define" href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a>(1)</div>
+<div class="line"><span class="lineno">   91</span>    <a class="code hl_define" href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a>(2)</div>
+<div class="line"><span class="lineno">   92</span>    <a class="code hl_define" href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a>(3)</div>
+<div class="line"><span class="lineno">   93</span>    <a class="code hl_define" href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a>(4)</div>
+<div class="line"><span class="lineno">   94</span>    <a class="code hl_define" href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a>(5)</div>
+<div class="line"><span class="lineno">   95</span>    <a class="code hl_define" href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a>(6)</div>
+<div class="line"><span class="lineno">   96</span>    <a class="code hl_define" href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a>(7)</div>
+<div class="line"><span class="lineno">   97</span>    <a class="code hl_define" href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a>(8)</div>
+<div class="line"><span class="lineno">   98</span>    <a class="code hl_define" href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a>(9)</div>
+<div class="line"><span class="lineno">   99</span>    <a class="code hl_define" href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a>(10)</div>
+<div class="line"><span class="lineno">  100</span>    <a class="code hl_define" href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a>(11)</div>
+<div class="line"><span class="lineno">  101</span>    <a class="code hl_define" href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a>(12)</div>
+<div class="line"><span class="lineno">  102</span>    <a class="code hl_define" href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a>(13)</div>
+<div class="line"><span class="lineno">  103</span>    <a class="code hl_define" href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a>(14)</div>
+<div class="line"><span class="lineno">  104</span>    <a class="code hl_define" href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a>(15)</div>
+<div class="line"><span class="lineno">  105</span>    <a class="code hl_define" href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a>(16)</div>
+<div class="line"><span class="lineno">  106</span>    <a class="code hl_define" href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a>(17)</div>
+<div class="line"><span class="lineno">  107</span>    <a class="code hl_define" href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a>(18)</div>
+<div class="line"><span class="lineno">  108</span>    <a class="code hl_define" href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a>(19)</div>
+<div class="line"><span class="lineno">  109</span> </div>
+<div class="line"><span class="lineno">  110</span><span class="preprocessor">#undef DISPATCH_AT</span></div>
+<div class="line"><span class="lineno">  111</span>  }</div>
+<div class="line"><span class="lineno">  112</span>}</div>
 <div class="ttc" id="adispatcher_8h_html_ac489b080b3b1dc91b38198c09dac4882"><div class="ttname"><a href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a></div><div class="ttdeci">#define DISPATCH_AT(n)</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../da/d73/dispatcher_8h.html#ac489b080b3b1dc91b38198c09dac4882">DISPATCH_AT</a>.</p>

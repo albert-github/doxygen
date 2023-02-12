@@ -1,19 +1,8 @@
 var searchData=
 [
-  ['scope_0',['Scope',['../d4/df2/class_variable_context.html#acaf108f97a14c38cfcc698654e947e7d',1,'VariableContext']]],
-  ['searchindexlist_1',['SearchIndexList',['../dd/de5/searchindex__js_8h.html#aa8e98984f8edbf9500ef5f6172a4a369',1,'searchindex_js.h']]],
-  ['searchindexmap_2',['SearchIndexMap',['../dd/de5/searchindex__js_8h.html#a6fe653d20eef95da0fd767e131b796b7',1,'searchindex_js.h']]],
-  ['searchindexvariant_3',['SearchIndexVariant',['../d8/d4d/class_search_index_intf.html#a46d7403ced815126c0bfa372f94abdeb',1,'SearchIndexIntf']]],
-  ['sectioninfovec_4',['SectionInfoVec',['../d1/df9/class_section_refs.html#a9204a780b875d8cf0964e52ba795aa14',1,'SectionRefs']]],
-  ['size_5ftype_5',['size_type',['../d1/d7d/class_member_vector.html#a50361ae2e3c9cdc4d28f47a65b2d264a',1,'MemberVector']]],
-  ['startdoctype_6',['StartDocType',['../dc/dea/class_x_m_l_handlers.html#a9e5f0a29ad7b6d7b436ee85f91489928',1,'XMLHandlers']]],
-  ['startelementtype_7',['StartElementType',['../dc/dea/class_x_m_l_handlers.html#a64536885798db372a91fd0cda75cf79a',1,'XMLHandlers']]],
-  ['stringmap_8',['StringMap',['../d5/d75/containers_8h.html#a873c44d3c59f807466bccf9641063c6f',1,'containers.h']]],
-  ['stringmultiset_9',['StringMultiSet',['../d5/d75/containers_8h.html#a860ea1d5175a1046be745f7e18c9e356',1,'containers.h']]],
-  ['stringset_10',['StringSet',['../d5/d75/containers_8h.html#a0bc125fc346e538d66d5ea1c33428f00',1,'containers.h']]],
-  ['stringunorderedmap_11',['StringUnorderedMap',['../d5/d75/containers_8h.html#ae9221c0a3b5a2b23e4d7d2cbb8e0d66e',1,'containers.h']]],
-  ['stringunorderedset_12',['StringUnorderedSet',['../d5/d75/containers_8h.html#a68c09b08e1fafb7be76584846eebe628',1,'containers.h']]],
-  ['stringvector_13',['StringVector',['../d5/d75/containers_8h.html#ac8d53003529fb2d062d614077fe6857c',1,'containers.h']]],
-  ['structfield_14',['StructField',['../d6/d73/class_template_immutable_struct.html#a7678cce92f1addd156bad8574e033859',1,'TemplateImmutableStruct']]],
-  ['styledatamap_15',['StyleDataMap',['../d4/df3/rtfstyle_8h.html#a1bdbbe05f0332d6cc81776723ad75332',1,'rtfstyle.h']]]
+  ['reference_0',['reference',['../da/da3/class_dir_iterator.html#a2715f06935759c6e7996c6cc26691514',1,'DirIterator::reference'],['../d5/dca/class_grow_vector_1_1_iterator.html#ac0c88db900f588226a06c2d0670c9ef0',1,'GrowVector::Iterator::reference'],['../d1/d7d/class_member_vector.html#afdccb511e90a5c1a443670e242647681',1,'MemberVector::reference'],['../d4/d72/classreg_1_1_iterator.html#a17a0714961a7aaf703925fb2c2c2cede',1,'reg::Iterator::reference']]],
+  ['refitemvector_1',['RefItemVector',['../d1/d02/reflist_8h.html#a51b03784d48079baab06a4d5c8b08c42',1,'reflist.h']]],
+  ['reverse_5fiterator_2',['reverse_iterator',['../d4/d34/class_diagram_row.html#a34cb1ca03889cd1f2ed7366e05009148',1,'DiagramRow::reverse_iterator'],['../d0/d2c/class_linked_map.html#a3f1e6d91dde39b1a948a67f401a5afaa',1,'LinkedMap::reverse_iterator'],['../d2/db7/class_linked_ref_map.html#a7c63027ad3bccd9ba3a87b2818ecf12a',1,'LinkedRefMap::reverse_iterator'],['../da/d7e/class_member_name.html#a3a8551b9581fe623d7ea811aad96953d',1,'MemberName::reverse_iterator']]],
+  ['rowspanlist_3',['RowSpanList',['../d3/df4/class_latex_doc_visitor.html#ab64e4305bbc1a654dc064dcc253ba005',1,'LatexDocVisitor::RowSpanList'],['../d0/d2b/docnode_8cpp.html#a8ebd411a505f41da49085559bdc9685e',1,'RowSpanList:&#160;docnode.cpp']]],
+  ['rtfcodegeneratordefer_4',['RTFCodeGeneratorDefer',['../d2/db9/outputlist_8h.html#a56745c55d69bd82e3e154c66fb576518',1,'outputlist.h']]]
 ];

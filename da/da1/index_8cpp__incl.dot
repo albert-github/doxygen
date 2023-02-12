@@ -205,6 +205,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/index.cpp"
   Node58 -> Node18 [color="steelblue1",style="solid"];
   Node58 -> Node17 [color="steelblue1",style="solid"];
   Node58 -> Node23 [color="steelblue1",style="solid"];
+  Node58 -> Node38 [color="steelblue1",style="solid"];
   Node58 -> Node59 [color="steelblue1",style="solid"];
   Node59 [label="outputgen.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d06/outputgen_8h.html",tooltip=" "];
   Node59 -> Node17 [color="steelblue1",style="solid"];
@@ -255,6 +256,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/index.cpp"
   Node70 -> Node59 [color="steelblue1",style="solid"];
   Node58 -> Node71 [color="steelblue1",style="solid"];
   Node71 [label="rtfgen.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/daa/rtfgen_8h.html",tooltip=" "];
+  Node71 -> Node3 [color="steelblue1",style="solid"];
   Node71 -> Node55 [color="steelblue1",style="solid"];
   Node71 -> Node59 [color="steelblue1",style="solid"];
   Node58 -> Node72 [color="steelblue1",style="solid"];
@@ -263,6 +265,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/index.cpp"
   Node58 -> Node73 [color="steelblue1",style="solid"];
   Node73 [label="docbookgen.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dea/docbookgen_8h.html",tooltip=" "];
   Node73 -> Node17 [color="steelblue1",style="solid"];
+  Node73 -> Node3 [color="steelblue1",style="solid"];
   Node73 -> Node55 [color="steelblue1",style="solid"];
   Node73 -> Node59 [color="steelblue1",style="solid"];
   Node58 -> Node74 [color="steelblue1",style="solid"];

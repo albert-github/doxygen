@@ -5,6 +5,7 @@ var class_man_code_generator =
     [ "endCodeFragment", "db/d92/class_man_code_generator.html#a8c31e6ce8fb8469840ac8e45569a888d", null ],
     [ "endCodeLine", "db/d92/class_man_code_generator.html#acf2c9a2fb0471acf21c67bb977b2728f", null ],
     [ "endFontClass", "db/d92/class_man_code_generator.html#ad9d9c80530c46bd81daeb1193664f213", null ],
+    [ "setTextStream", "db/d92/class_man_code_generator.html#ac7bef4888be0f970adfe7b2f436b3510", null ],
     [ "startCodeFragment", "db/d92/class_man_code_generator.html#a5667309cea8a9ecfa8ac30a6da408c4d", null ],
     [ "startCodeLine", "db/d92/class_man_code_generator.html#a19853fdbedc347af4be7766a6f02a194", null ],
     [ "startFontClass", "db/d92/class_man_code_generator.html#a2d4328ed1935c03487f543893998c369", null ],

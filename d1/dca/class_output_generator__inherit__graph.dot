@@ -5,7 +5,7 @@ digraph "OutputGenerator"
   bgcolor="transparent";
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
-  Node1 [label="OutputGenerator",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Abstract output generator."];
+  Node1 [label="OutputGenerator",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Base class for specific output generators."];
   Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
   Node2 [label="DocbookGenerator",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d1/d72/class_docbook_generator.html",tooltip=" "];
   Node1 -> Node3 [dir="back",color="steelblue1",style="solid"];

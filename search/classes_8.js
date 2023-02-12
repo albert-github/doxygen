@@ -24,7 +24,9 @@ var searchData=
   ['inheritedmemberinfolistcontext_21',['InheritedMemberInfoListContext',['../d3/d67/class_inherited_member_info_list_context.html',1,'']]],
   ['initialize_22',['initialize',['../d9/d0e/struct_index_intf_1_1initialize.html',1,'IndexIntf']]],
   ['inputfileencoding_23',['InputFileEncoding',['../db/d30/struct_input_file_encoding.html',1,'']]],
-  ['iterablestack_24',['IterableStack',['../d9/d82/class_iterable_stack.html',1,'']]],
-  ['iterablestack_3c_20const_20docnodevariant_20_2a_20_3e_25',['IterableStack&lt; const DocNodeVariant * &gt;',['../d9/d82/class_iterable_stack.html',1,'']]],
-  ['iterator_26',['Iterator',['../d5/dca/class_grow_vector_1_1_iterator.html',1,'GrowVector&lt; T &gt;::Iterator&lt; C, I &gt;'],['../d4/d72/classreg_1_1_iterator.html',1,'reg::Iterator']]]
+  ['insertmemberalign_24',['insertMemberAlign',['../d4/d45/struct_output_gen_intf_1_1insert_member_align.html',1,'OutputGenIntf']]],
+  ['insertmemberalignleft_25',['insertMemberAlignLeft',['../d4/dfe/struct_output_gen_intf_1_1insert_member_align_left.html',1,'OutputGenIntf']]],
+  ['iterablestack_26',['IterableStack',['../d9/d82/class_iterable_stack.html',1,'']]],
+  ['iterablestack_3c_20const_20docnodevariant_20_2a_20_3e_27',['IterableStack&lt; const DocNodeVariant * &gt;',['../d9/d82/class_iterable_stack.html',1,'']]],
+  ['iterator_28',['Iterator',['../d5/dca/class_grow_vector_1_1_iterator.html',1,'GrowVector&lt; T &gt;::Iterator&lt; C, I &gt;'],['../d4/d72/classreg_1_1_iterator.html',1,'reg::Iterator']]]
 ];

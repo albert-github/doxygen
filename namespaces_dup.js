@@ -63,6 +63,7 @@ var namespaces_dup =
       ] ]
     ] ],
     [ "OutputCodeIntf", "d5/de5/namespace_output_code_intf.html", "d5/de5/namespace_output_code_intf" ],
+    [ "OutputGenIntf", "dc/df5/namespace_output_gen_intf.html", "dc/df5/namespace_output_gen_intf" ],
     [ "Portable", "d7/d6f/namespace_portable.html", [
       [ "checkForExecutable", "d7/d6f/namespace_portable.html#a39228795dec07d8121645b0348e91712", null ],
       [ "commandExtension", "d7/d6f/namespace_portable.html#acf75def6ec394875d4a3c380ffc301b7", null ],

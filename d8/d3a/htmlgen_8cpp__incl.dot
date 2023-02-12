@@ -484,6 +484,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/htmlgen.cpp"
   Node117 -> Node25 [color="steelblue1",style="solid"];
   Node117 -> Node19 [color="steelblue1",style="solid"];
   Node117 -> Node90 [color="steelblue1",style="solid"];
+  Node117 -> Node20 [color="steelblue1",style="solid"];
   Node117 -> Node18 [color="steelblue1",style="solid"];
   Node117 -> Node56 [color="steelblue1",style="solid"];
   Node117 -> Node99 [color="steelblue1",style="solid"];
@@ -494,6 +495,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/htmlgen.cpp"
   Node118 -> Node18 [color="steelblue1",style="solid"];
   Node117 -> Node119 [color="steelblue1",style="solid"];
   Node119 [label="rtfgen.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/daa/rtfgen_8h.html",tooltip=" "];
+  Node119 -> Node96 [color="steelblue1",style="solid"];
   Node119 -> Node37 [color="steelblue1",style="solid"];
   Node119 -> Node18 [color="steelblue1",style="solid"];
   Node117 -> Node120 [color="steelblue1",style="solid"];
@@ -502,6 +504,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/htmlgen.cpp"
   Node117 -> Node121 [color="steelblue1",style="solid"];
   Node121 [label="docbookgen.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dea/docbookgen_8h.html",tooltip=" "];
   Node121 -> Node19 [color="steelblue1",style="solid"];
+  Node121 -> Node96 [color="steelblue1",style="solid"];
   Node121 -> Node37 [color="steelblue1",style="solid"];
   Node121 -> Node18 [color="steelblue1",style="solid"];
   Node117 -> Node122 [color="steelblue1",style="solid"];

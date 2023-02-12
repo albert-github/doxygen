@@ -113,6 +113,8 @@ $(document).ready(function(){initNavTree('d7/d80/class_docbook_code_generator.ht
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a4431643d4f46ebaeac457c97972501d6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d80/class_docbook_code_generator.html#a4431643d4f46ebaeac457c97972501d6">DocbookCodeGenerator</a> (<a class="el" href="../../d3/d30/class_text_stream.html">TextStream</a> *t)</td></tr>
 <tr class="separator:a4431643d4f46ebaeac457c97972501d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf393050531556f10b6f1f56bc418555"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d80/class_docbook_code_generator.html#adf393050531556f10b6f1f56bc418555">setTextStream</a> (<a class="el" href="../../d3/d30/class_text_stream.html">TextStream</a> *t)</td></tr>
+<tr class="separator:adf393050531556f10b6f1f56bc418555"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afefd0132b848c5bae57dd46c97a3a2ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d06/outputgen_8h.html#a4e0517338e6c4a31a2addafc06d4f3a3">OutputType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d80/class_docbook_code_generator.html#afefd0132b848c5bae57dd46c97a3a2ed">type</a> () const</td></tr>
 <tr class="separator:afefd0132b848c5bae57dd46c97a3a2ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad63f9cef6fc2021527c1ace7d908fc7c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d80/class_docbook_code_generator.html#ad63f9cef6fc2021527c1ace7d908fc7c">codify</a> (const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;text)</td></tr>
@@ -174,7 +176,7 @@ Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00046">46</a> of file <a class="el" href="../../de/dea/docbookgen_8h_source.html">docbookgen.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00047">47</a> of file <a class="el" href="../../de/dea/docbookgen_8h_source.html">docbookgen.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4431643d4f46ebaeac457c97972501d6" name="a4431643d4f46ebaeac457c97972501d6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4431643d4f46ebaeac457c97972501d6">&#9670;&#160;</a></span>DocbookCodeGenerator()</h2>
@@ -196,7 +198,7 @@ Private Attributes</h2></td></tr>
 <div class="fragment"><div class="line"><span class="lineno">  148</span>                                                        : <a class="code hl_variable" href="../../d7/d80/class_docbook_code_generator.html#a6e99049cce2532fbf0c2779e599d744c">m_t</a>(t)</div>
 <div class="line"><span class="lineno">  149</span>{</div>
 <div class="line"><span class="lineno">  150</span>}</div>
-<div class="ttc" id="aclass_docbook_code_generator_html_a6e99049cce2532fbf0c2779e599d744c"><div class="ttname"><a href="../../d7/d80/class_docbook_code_generator.html#a6e99049cce2532fbf0c2779e599d744c">DocbookCodeGenerator::m_t</a></div><div class="ttdeci">TextStream * m_t</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/docbookgen_8h_source.html#l00081">docbookgen.h:81</a></div></div>
+<div class="ttc" id="aclass_docbook_code_generator_html_a6e99049cce2532fbf0c2779e599d744c"><div class="ttname"><a href="../../d7/d80/class_docbook_code_generator.html#a6e99049cce2532fbf0c2779e599d744c">DocbookCodeGenerator::m_t</a></div><div class="ttdeci">TextStream * m_t</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/docbookgen_8h_source.html#l00083">docbookgen.h:83</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -222,11 +224,11 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  154</span>  <a class="code hl_define" href="../../d8/d29/docbookgen_8cpp.html#a72e66067731a340037c60b0774b24ef4">Docbook_DB</a>((<span class="stringliteral">&quot;(codify \&quot;%s\&quot;)\n&quot;</span>,text));</div>
 <div class="line"><span class="lineno">  155</span>  <a class="code hl_function" href="../../d8/d29/docbookgen_8cpp.html#ab577267901e65dac0690326ef512f9d4">writeDocbookCodeString</a>(*<a class="code hl_variable" href="../../d7/d80/class_docbook_code_generator.html#a6e99049cce2532fbf0c2779e599d744c">m_t</a>,text,<a class="code hl_variable" href="../../d7/d80/class_docbook_code_generator.html#a4dc38ee2d3d649bfcbc5e5b0658f421a">m_col</a>);</div>
 <div class="line"><span class="lineno">  156</span>}</div>
-<div class="ttc" id="aclass_docbook_code_generator_html_a4dc38ee2d3d649bfcbc5e5b0658f421a"><div class="ttname"><a href="../../d7/d80/class_docbook_code_generator.html#a4dc38ee2d3d649bfcbc5e5b0658f421a">DocbookCodeGenerator::m_col</a></div><div class="ttdeci">int m_col</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/docbookgen_8h_source.html#l00085">docbookgen.h:85</a></div></div>
+<div class="ttc" id="aclass_docbook_code_generator_html_a4dc38ee2d3d649bfcbc5e5b0658f421a"><div class="ttname"><a href="../../d7/d80/class_docbook_code_generator.html#a4dc38ee2d3d649bfcbc5e5b0658f421a">DocbookCodeGenerator::m_col</a></div><div class="ttdeci">int m_col</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/docbookgen_8h_source.html#l00087">docbookgen.h:87</a></div></div>
 <div class="ttc" id="adocbookgen_8cpp_html_a72e66067731a340037c60b0774b24ef4"><div class="ttname"><a href="../../d8/d29/docbookgen_8cpp.html#a72e66067731a340037c60b0774b24ef4">Docbook_DB</a></div><div class="ttdeci">#define Docbook_DB(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d29/docbookgen_8cpp_source.html#l00057">docbookgen.cpp:57</a></div></div>
 <div class="ttc" id="adocbookgen_8cpp_html_ab577267901e65dac0690326ef512f9d4"><div class="ttname"><a href="../../d8/d29/docbookgen_8cpp.html#ab577267901e65dac0690326ef512f9d4">writeDocbookCodeString</a></div><div class="ttdeci">void writeDocbookCodeString(TextStream &amp;t, const QCString &amp;str, int &amp;col)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d29/docbookgen_8cpp_source.html#l00082">docbookgen.cpp:82</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00057">Docbook_DB</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00085">m_col</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00081">m_t</a>, and <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00082">writeDocbookCodeString()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00057">Docbook_DB</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00087">m_col</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00083">m_t</a>, and <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00082">writeDocbookCodeString()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00225">writeLineNumber()</a>.</p>
 
@@ -259,7 +261,7 @@ Private Attributes</h2></td></tr>
 <div class="ttc" id="aclass_docbook_code_generator_html_ab457dd3ab8b99073d9d2cc6f566bb712"><div class="ttname"><a href="../../d7/d80/class_docbook_code_generator.html#ab457dd3ab8b99073d9d2cc6f566bb712">DocbookCodeGenerator::endCodeLine</a></div><div class="ttdeci">void endCodeLine()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d29/docbookgen_8cpp_source.html#l00196">docbookgen.cpp:196</a></div></div>
 <div class="ttc" id="adocbookgen_8cpp_html_aad86f7a60609e9852bce76f5a1626d5a"><div class="ttname"><a href="../../d8/d29/docbookgen_8cpp.html#aad86f7a60609e9852bce76f5a1626d5a">DB_GEN_C1</a></div><div class="ttdeci">#define DB_GEN_C1(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d29/docbookgen_8cpp_source.html#l00070">docbookgen.cpp:70</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00070">DB_GEN_C1</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00196">endCodeLine()</a>, and <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00081">m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00070">DB_GEN_C1</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00196">endCodeLine()</a>, and <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00083">m_t</a>.</p>
 
 </div>
 </div>
@@ -287,14 +289,14 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  202</span>  <a class="code hl_variable" href="../../d7/d80/class_docbook_code_generator.html#a0ac00ed89685c510a7a0c97366ba1c40">m_external</a>.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a993474e2da59141336e6105b8e154f2b">resize</a>(0);</div>
 <div class="line"><span class="lineno">  203</span>  <a class="code hl_variable" href="../../d7/d80/class_docbook_code_generator.html#ac67a3dfb9373872b5ae97f7a9ae6873f">m_insideCodeLine</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
 <div class="line"><span class="lineno">  204</span>}</div>
-<div class="ttc" id="aclass_docbook_code_generator_html_a0ac00ed89685c510a7a0c97366ba1c40"><div class="ttname"><a href="../../d7/d80/class_docbook_code_generator.html#a0ac00ed89685c510a7a0c97366ba1c40">DocbookCodeGenerator::m_external</a></div><div class="ttdeci">QCString m_external</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/docbookgen_8h_source.html#l00083">docbookgen.h:83</a></div></div>
-<div class="ttc" id="aclass_docbook_code_generator_html_a370944cca11dccabf9887d3bd6c00a9b"><div class="ttname"><a href="../../d7/d80/class_docbook_code_generator.html#a370944cca11dccabf9887d3bd6c00a9b">DocbookCodeGenerator::m_lineNumber</a></div><div class="ttdeci">int m_lineNumber</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/docbookgen_8h_source.html#l00084">docbookgen.h:84</a></div></div>
-<div class="ttc" id="aclass_docbook_code_generator_html_a46241908135ae139616266510f569d75"><div class="ttname"><a href="../../d7/d80/class_docbook_code_generator.html#a46241908135ae139616266510f569d75">DocbookCodeGenerator::m_refId</a></div><div class="ttdeci">QCString m_refId</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/docbookgen_8h_source.html#l00082">docbookgen.h:82</a></div></div>
-<div class="ttc" id="aclass_docbook_code_generator_html_ac67a3dfb9373872b5ae97f7a9ae6873f"><div class="ttname"><a href="../../d7/d80/class_docbook_code_generator.html#ac67a3dfb9373872b5ae97f7a9ae6873f">DocbookCodeGenerator::m_insideCodeLine</a></div><div class="ttdeci">bool m_insideCodeLine</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/docbookgen_8h_source.html#l00086">docbookgen.h:86</a></div></div>
+<div class="ttc" id="aclass_docbook_code_generator_html_a0ac00ed89685c510a7a0c97366ba1c40"><div class="ttname"><a href="../../d7/d80/class_docbook_code_generator.html#a0ac00ed89685c510a7a0c97366ba1c40">DocbookCodeGenerator::m_external</a></div><div class="ttdeci">QCString m_external</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/docbookgen_8h_source.html#l00085">docbookgen.h:85</a></div></div>
+<div class="ttc" id="aclass_docbook_code_generator_html_a370944cca11dccabf9887d3bd6c00a9b"><div class="ttname"><a href="../../d7/d80/class_docbook_code_generator.html#a370944cca11dccabf9887d3bd6c00a9b">DocbookCodeGenerator::m_lineNumber</a></div><div class="ttdeci">int m_lineNumber</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/docbookgen_8h_source.html#l00086">docbookgen.h:86</a></div></div>
+<div class="ttc" id="aclass_docbook_code_generator_html_a46241908135ae139616266510f569d75"><div class="ttname"><a href="../../d7/d80/class_docbook_code_generator.html#a46241908135ae139616266510f569d75">DocbookCodeGenerator::m_refId</a></div><div class="ttdeci">QCString m_refId</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/docbookgen_8h_source.html#l00084">docbookgen.h:84</a></div></div>
+<div class="ttc" id="aclass_docbook_code_generator_html_ac67a3dfb9373872b5ae97f7a9ae6873f"><div class="ttname"><a href="../../d7/d80/class_docbook_code_generator.html#ac67a3dfb9373872b5ae97f7a9ae6873f">DocbookCodeGenerator::m_insideCodeLine</a></div><div class="ttdeci">bool m_insideCodeLine</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/docbookgen_8h_source.html#l00088">docbookgen.h:88</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a993474e2da59141336e6105b8e154f2b"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a993474e2da59141336e6105b8e154f2b">QCString::resize</a></div><div class="ttdeci">bool resize(size_t newlen)</div><div class="ttdoc">Resizes the string to hold newlen characters (this value should also count the 0-terminator).</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00158">qcstring.h:158</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_aa93f0eb578d23995850d61f7d61c55c1"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></div><div class="ttdeci">#define FALSE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00033">qcstring.h:33</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00057">Docbook_DB</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00083">m_external</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00086">m_insideCodeLine</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00084">m_lineNumber</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00082">m_refId</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00081">m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00158">QCString::resize()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00057">Docbook_DB</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00085">m_external</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00088">m_insideCodeLine</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00086">m_lineNumber</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00084">m_refId</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00083">m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00158">QCString::resize()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00267">endCodeFragment()</a>, and <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00256">finish()</a>.</p>
 
@@ -321,9 +323,9 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  216</span>  *<a class="code hl_variable" href="../../d7/d80/class_docbook_code_generator.html#a6e99049cce2532fbf0c2779e599d744c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;/emphasis&gt;&quot;</span>; <span class="comment">// non DocBook</span></div>
 <div class="line"><span class="lineno">  217</span>  <a class="code hl_variable" href="../../d7/d80/class_docbook_code_generator.html#af499b4de75488065fce50243bc944fd2">m_insideSpecialHL</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
 <div class="line"><span class="lineno">  218</span>}</div>
-<div class="ttc" id="aclass_docbook_code_generator_html_af499b4de75488065fce50243bc944fd2"><div class="ttname"><a href="../../d7/d80/class_docbook_code_generator.html#af499b4de75488065fce50243bc944fd2">DocbookCodeGenerator::m_insideSpecialHL</a></div><div class="ttdeci">bool m_insideSpecialHL</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/docbookgen_8h_source.html#l00087">docbookgen.h:87</a></div></div>
+<div class="ttc" id="aclass_docbook_code_generator_html_af499b4de75488065fce50243bc944fd2"><div class="ttname"><a href="../../d7/d80/class_docbook_code_generator.html#af499b4de75488065fce50243bc944fd2">DocbookCodeGenerator::m_insideSpecialHL</a></div><div class="ttdeci">bool m_insideSpecialHL</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/docbookgen_8h_source.html#l00089">docbookgen.h:89</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00057">Docbook_DB</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00087">m_insideSpecialHL</a>, and <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00081">m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00057">Docbook_DB</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00089">m_insideSpecialHL</a>, and <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00083">m_t</a>.</p>
 
 </div>
 </div>
@@ -375,13 +377,13 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00071">71</a> of file <a class="el" href="../../de/dea/docbookgen_8h_source.html">docbookgen.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   71</span>{ <a class="code hl_variable" href="../../d7/d80/class_docbook_code_generator.html#a4a0a45a3c1f211abf95b25311db49b84">m_relPath</a> = path; }</div>
-<div class="ttc" id="aclass_docbook_code_generator_html_a4a0a45a3c1f211abf95b25311db49b84"><div class="ttname"><a href="../../d7/d80/class_docbook_code_generator.html#a4a0a45a3c1f211abf95b25311db49b84">DocbookCodeGenerator::m_relPath</a></div><div class="ttdeci">QCString m_relPath</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/docbookgen_8h_source.html#l00088">docbookgen.h:88</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00073">73</a> of file <a class="el" href="../../de/dea/docbookgen_8h_source.html">docbookgen.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   73</span>{ <a class="code hl_variable" href="../../d7/d80/class_docbook_code_generator.html#a4a0a45a3c1f211abf95b25311db49b84">m_relPath</a> = path; }</div>
+<div class="ttc" id="aclass_docbook_code_generator_html_a4a0a45a3c1f211abf95b25311db49b84"><div class="ttname"><a href="../../d7/d80/class_docbook_code_generator.html#a4a0a45a3c1f211abf95b25311db49b84">DocbookCodeGenerator::m_relPath</a></div><div class="ttdeci">QCString m_relPath</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/docbookgen_8h_source.html#l00090">docbookgen.h:90</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00088">m_relPath</a>.</p>
+<p class="reference">References <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00090">m_relPath</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00324">DocbookGenerator::startFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00371">DocbookGenerator::startFile()</a>.</p>
 
 </div>
 </div>
@@ -409,14 +411,47 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00072">72</a> of file <a class="el" href="../../de/dea/docbookgen_8h_source.html">docbookgen.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   72</span>{ <a class="code hl_variable" href="../../d7/d80/class_docbook_code_generator.html#af923797762d09a952aee6ee016867ead">m_sourceFileName</a> = <a class="code hl_function" href="../../d7/d80/class_docbook_code_generator.html#ab495ebcb45b5e583da811c8d7d02599a">sourceFileName</a>; }</div>
-<div class="ttc" id="aclass_docbook_code_generator_html_ab495ebcb45b5e583da811c8d7d02599a"><div class="ttname"><a href="../../d7/d80/class_docbook_code_generator.html#ab495ebcb45b5e583da811c8d7d02599a">DocbookCodeGenerator::sourceFileName</a></div><div class="ttdeci">QCString sourceFileName()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/docbookgen_8h_source.html#l00073">docbookgen.h:73</a></div></div>
-<div class="ttc" id="aclass_docbook_code_generator_html_af923797762d09a952aee6ee016867ead"><div class="ttname"><a href="../../d7/d80/class_docbook_code_generator.html#af923797762d09a952aee6ee016867ead">DocbookCodeGenerator::m_sourceFileName</a></div><div class="ttdeci">QCString m_sourceFileName</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/docbookgen_8h_source.html#l00089">docbookgen.h:89</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00074">74</a> of file <a class="el" href="../../de/dea/docbookgen_8h_source.html">docbookgen.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   74</span>{ <a class="code hl_variable" href="../../d7/d80/class_docbook_code_generator.html#af923797762d09a952aee6ee016867ead">m_sourceFileName</a> = <a class="code hl_function" href="../../d7/d80/class_docbook_code_generator.html#ab495ebcb45b5e583da811c8d7d02599a">sourceFileName</a>; }</div>
+<div class="ttc" id="aclass_docbook_code_generator_html_ab495ebcb45b5e583da811c8d7d02599a"><div class="ttname"><a href="../../d7/d80/class_docbook_code_generator.html#ab495ebcb45b5e583da811c8d7d02599a">DocbookCodeGenerator::sourceFileName</a></div><div class="ttdeci">QCString sourceFileName()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/docbookgen_8h_source.html#l00075">docbookgen.h:75</a></div></div>
+<div class="ttc" id="aclass_docbook_code_generator_html_af923797762d09a952aee6ee016867ead"><div class="ttname"><a href="../../d7/d80/class_docbook_code_generator.html#af923797762d09a952aee6ee016867ead">DocbookCodeGenerator::m_sourceFileName</a></div><div class="ttdeci">QCString m_sourceFileName</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/docbookgen_8h_source.html#l00091">docbookgen.h:91</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00089">m_sourceFileName</a>, and <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00073">sourceFileName()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00091">m_sourceFileName</a>, and <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00075">sourceFileName()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00354">DocbookGenerator::endFile()</a>, and <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00324">DocbookGenerator::startFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00401">DocbookGenerator::endFile()</a>, and <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00371">DocbookGenerator::startFile()</a>.</p>
+
+</div>
+</div>
+<a id="adf393050531556f10b6f1f56bc418555" name="adf393050531556f10b6f1f56bc418555"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf393050531556f10b6f1f56bc418555">&#9670;&#160;</a></span>setTextStream()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DocbookCodeGenerator::setTextStream </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d3/d30/class_text_stream.html">TextStream</a> *&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00051">51</a> of file <a class="el" href="../../de/dea/docbookgen_8h_source.html">docbookgen.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   51</span>{ <a class="code hl_variable" href="../../d7/d80/class_docbook_code_generator.html#a6e99049cce2532fbf0c2779e599d744c">m_t</a> = t; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00083">m_t</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00286">DocbookGenerator::DocbookGenerator()</a>, and <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00303">DocbookGenerator::operator=()</a>.</p>
 
 </div>
 </div>
@@ -443,12 +478,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00073">73</a> of file <a class="el" href="../../de/dea/docbookgen_8h_source.html">docbookgen.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   73</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d7/d80/class_docbook_code_generator.html#af923797762d09a952aee6ee016867ead">m_sourceFileName</a>; }</div>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00075">75</a> of file <a class="el" href="../../de/dea/docbookgen_8h_source.html">docbookgen.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   75</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d7/d80/class_docbook_code_generator.html#af923797762d09a952aee6ee016867ead">m_sourceFileName</a>; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00089">m_sourceFileName</a>.</p>
+<p class="reference">References <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00091">m_sourceFileName</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00354">DocbookGenerator::endFile()</a>, and <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00072">setSourceFileName()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00401">DocbookGenerator::endFile()</a>, and <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00074">setSourceFileName()</a>.</p>
 
 </div>
 </div>
@@ -474,7 +509,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  264</span>  *<a class="code hl_variable" href="../../d7/d80/class_docbook_code_generator.html#a6e99049cce2532fbf0c2779e599d744c">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;programlisting linenumbering=\&quot;unnumbered\&quot;&gt;&quot;</span>;</div>
 <div class="line"><span class="lineno">  265</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00070">DB_GEN_C1</a>, and <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00081">m_t</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00070">DB_GEN_C1</a>, and <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00083">m_t</a>.</p>
 
 </div>
 </div>
@@ -502,7 +537,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  194</span>}</div>
 <div class="ttc" id="aqcstring_8h_html_aa8cecfc5c5c054d2875c03e77b7be15d"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a></div><div class="ttdeci">#define TRUE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00036">qcstring.h:36</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00057">Docbook_DB</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00085">m_col</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00086">m_insideCodeLine</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00057">Docbook_DB</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00087">m_col</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00088">m_insideCodeLine</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 </div>
 </div>
@@ -529,7 +564,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  210</span>  <a class="code hl_variable" href="../../d7/d80/class_docbook_code_generator.html#af499b4de75488065fce50243bc944fd2">m_insideSpecialHL</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
 <div class="line"><span class="lineno">  211</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00057">Docbook_DB</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00087">m_insideSpecialHL</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00081">m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00057">Docbook_DB</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00089">m_insideSpecialHL</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00083">m_t</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 </div>
 </div>
@@ -556,8 +591,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00051">51</a> of file <a class="el" href="../../de/dea/docbookgen_8h_source.html">docbookgen.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   51</span>{ <span class="keywordflow">return</span> OutputType::Docbook; }</div>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00053">53</a> of file <a class="el" href="../../de/dea/docbookgen_8h_source.html">docbookgen.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   53</span>{ <span class="keywordflow">return</span> OutputType::Docbook; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -645,7 +680,7 @@ Private Attributes</h2></td></tr>
 <div class="ttc" id="aclass_q_c_string_html_acc50f8bef7d726d5c9d42bab4d89f7c7"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">QCString::length</a></div><div class="ttdeci">uint32_t length() const</div><div class="ttdoc">Returns the length of the string, not counting the 0-terminator.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00141">qcstring.h:141</a></div></div>
 <div class="ttc" id="adocbookgen_8cpp_html_a748b4a218a6a5cd91bd9fdcf939b9c3c"><div class="ttname"><a href="../../d8/d29/docbookgen_8cpp.html#a748b4a218a6a5cd91bd9fdcf939b9c3c">writeDocbookLink</a></div><div class="ttdeci">void writeDocbookLink(TextStream &amp;t, const QCString &amp;, const QCString &amp;compoundId, const QCString &amp;anchorId, const QCString &amp;text, const QCString &amp;)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d29/docbookgen_8cpp_source.html#l00137">docbookgen.cpp:137</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00057">Docbook_DB</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00141">QCString::length()</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00085">m_col</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00081">m_t</a>, and <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00137">writeDocbookLink()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00057">Docbook_DB</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00141">QCString::length()</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00087">m_col</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00083">m_t</a>, and <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00137">writeDocbookLink()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00225">writeLineNumber()</a>.</p>
 
@@ -729,7 +764,7 @@ Private Attributes</h2></td></tr>
 <div class="ttc" id="autil_8cpp_html_a3d37ec79f266698bd836af54ba75e63e"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a3d37ec79f266698bd836af54ba75e63e">stripPath</a></div><div class="ttdeci">QCString stripPath(const QCString &amp;s)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l04948">util.cpp:4948</a></div></div>
 <div class="ttc" id="autil_8cpp_html_a73d2ea8014e5ac678dac39cfd56ba148"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a73d2ea8014e5ac678dac39cfd56ba148">stripExtensionGeneral</a></div><div class="ttdeci">QCString stripExtensionGeneral(const QCString &amp;fName, const QCString &amp;ext)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l04915">util.cpp:4915</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00057">Docbook_DB</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00141">QCString::length()</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00085">m_col</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00081">m_t</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04915">stripExtensionGeneral()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04948">stripPath()</a>, and <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00077">writeDocbookString()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00057">Docbook_DB</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00141">QCString::length()</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00087">m_col</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00083">m_t</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04915">stripExtensionGeneral()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04948">stripPath()</a>, and <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00077">writeDocbookString()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00225">writeLineNumber()</a>.</p>
 
@@ -816,7 +851,7 @@ Private Attributes</h2></td></tr>
 <div class="ttc" id="aclass_q_c_string_html_aa2dccf89cb25346c3ee81d75aa5859da"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#aa2dccf89cb25346c3ee81d75aa5859da">QCString::sprintf</a></div><div class="ttdeci">QCString &amp; sprintf(const char *format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d3e/qcstring_8cpp_source.html#l00029">qcstring.cpp:29</a></div></div>
 <div class="ttc" id="aconfig_8h_html_a5373d0332a31f16ad7a42037733e8c79"><div class="ttname"><a href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a></div><div class="ttdeci">#define Config_getBool(name)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/config_8h_source.html#l00033">config.h:33</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00152">codify()</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00057">Docbook_DB</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00138">QCString::isEmpty()</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00085">m_col</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00086">m_insideCodeLine</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00089">m_sourceFileName</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00081">m_t</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00029">QCString::sprintf()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00158">writeCodeLink()</a>, and <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00168">writeCodeLinkLine()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00152">codify()</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00057">Docbook_DB</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00138">QCString::isEmpty()</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00087">m_col</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00088">m_insideCodeLine</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00091">m_sourceFileName</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00083">m_t</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00029">QCString::sprintf()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00158">writeCodeLink()</a>, and <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00168">writeCodeLinkLine()</a>.</p>
 
 </div>
 </div>
@@ -900,7 +935,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00085">85</a> of file <a class="el" href="../../de/dea/docbookgen_8h_source.html">docbookgen.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00087">87</a> of file <a class="el" href="../../de/dea/docbookgen_8h_source.html">docbookgen.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00152">codify()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00189">startCodeLine()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00158">writeCodeLink()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00168">writeCodeLinkLine()</a>, and <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00225">writeLineNumber()</a>.</p>
 
@@ -926,7 +961,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00083">83</a> of file <a class="el" href="../../de/dea/docbookgen_8h_source.html">docbookgen.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00085">85</a> of file <a class="el" href="../../de/dea/docbookgen_8h_source.html">docbookgen.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00196">endCodeLine()</a>.</p>
 
@@ -952,7 +987,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00086">86</a> of file <a class="el" href="../../de/dea/docbookgen_8h_source.html">docbookgen.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00088">88</a> of file <a class="el" href="../../de/dea/docbookgen_8h_source.html">docbookgen.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00196">endCodeLine()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00189">startCodeLine()</a>, and <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00225">writeLineNumber()</a>.</p>
 
@@ -978,7 +1013,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00087">87</a> of file <a class="el" href="../../de/dea/docbookgen_8h_source.html">docbookgen.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00089">89</a> of file <a class="el" href="../../de/dea/docbookgen_8h_source.html">docbookgen.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00213">endFontClass()</a>, and <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00206">startFontClass()</a>.</p>
 
@@ -1004,7 +1039,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00084">84</a> of file <a class="el" href="../../de/dea/docbookgen_8h_source.html">docbookgen.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00086">86</a> of file <a class="el" href="../../de/dea/docbookgen_8h_source.html">docbookgen.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00196">endCodeLine()</a>.</p>
 
@@ -1030,7 +1065,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00082">82</a> of file <a class="el" href="../../de/dea/docbookgen_8h_source.html">docbookgen.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00084">84</a> of file <a class="el" href="../../de/dea/docbookgen_8h_source.html">docbookgen.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00196">endCodeLine()</a>.</p>
 
@@ -1056,9 +1091,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00088">88</a> of file <a class="el" href="../../de/dea/docbookgen_8h_source.html">docbookgen.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00090">90</a> of file <a class="el" href="../../de/dea/docbookgen_8h_source.html">docbookgen.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00071">setRelativePath()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00073">setRelativePath()</a>.</p>
 
 </div>
 </div>
@@ -1082,9 +1117,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00089">89</a> of file <a class="el" href="../../de/dea/docbookgen_8h_source.html">docbookgen.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00091">91</a> of file <a class="el" href="../../de/dea/docbookgen_8h_source.html">docbookgen.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00072">setSourceFileName()</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00073">sourceFileName()</a>, and <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00225">writeLineNumber()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00074">setSourceFileName()</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00075">sourceFileName()</a>, and <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00225">writeLineNumber()</a>.</p>
 
 </div>
 </div>
@@ -1108,9 +1143,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00081">81</a> of file <a class="el" href="../../de/dea/docbookgen_8h_source.html">docbookgen.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00083">83</a> of file <a class="el" href="../../de/dea/docbookgen_8h_source.html">docbookgen.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00152">codify()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00267">endCodeFragment()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00196">endCodeLine()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00213">endFontClass()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00261">startCodeFragment()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00206">startFontClass()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00158">writeCodeLink()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00168">writeCodeLinkLine()</a>, and <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00225">writeLineNumber()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00152">codify()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00267">endCodeFragment()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00196">endCodeLine()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00213">endFontClass()</a>, <a class="el" href="../../de/dea/docbookgen_8h_source.html#l00051">setTextStream()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00261">startCodeFragment()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00206">startFontClass()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00158">writeCodeLink()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00168">writeCodeLinkLine()</a>, and <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l00225">writeLineNumber()</a>.</p>
 
 </div>
 </div>

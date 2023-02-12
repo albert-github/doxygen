@@ -124,6 +124,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a762f81997bfbae5d77b5e34f06b66941"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee9ead205d5ad7a2ace457bd3586e1b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d30/class_text_stream.html">TextStream</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d30/class_text_stream.html#aee9ead205d5ad7a2ace457bd3586e1b5">operator=</a> (const <a class="el" href="../../d3/d30/class_text_stream.html">TextStream</a> &amp;)=delete</td></tr>
 <tr class="separator:aee9ead205d5ad7a2ace457bd3586e1b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84542cd8c0c5b09b9296d096fa67b651"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d30/class_text_stream.html#a84542cd8c0c5b09b9296d096fa67b651">TextStream</a> (<a class="el" href="../../d3/d30/class_text_stream.html">TextStream</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a84542cd8c0c5b09b9296d096fa67b651"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50771bab73ab9c12fb5f1e3a3df5c550"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d30/class_text_stream.html">TextStream</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d30/class_text_stream.html#a50771bab73ab9c12fb5f1e3a3df5c550">operator=</a> (<a class="el" href="../../d3/d30/class_text_stream.html">TextStream</a> &amp;&amp;)=delete</td></tr>
+<tr class="separator:a50771bab73ab9c12fb5f1e3a3df5c550"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18a4ee87242fc2b8e31941a71e622fd2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d30/class_text_stream.html#a18a4ee87242fc2b8e31941a71e622fd2">setStream</a> (std::ostream *s)</td></tr>
 <tr class="memdesc:a18a4ee87242fc2b8e31941a71e622fd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets or changes the std::ostream to write to.  <br /></td></tr>
 <tr class="separator:a18a4ee87242fc2b8e31941a71e622fd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -225,7 +229,7 @@ Static Private Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00034">34</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a19208bde949dfeaef287d8cb4f247fea" name="a19208bde949dfeaef287d8cb4f247fea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19208bde949dfeaef287d8cb4f247fea">&#9670;&#160;</a></span>TextStream() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a19208bde949dfeaef287d8cb4f247fea">&#9670;&#160;</a></span>TextStream() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -253,15 +257,15 @@ Static Private Attributes</h2></td></tr>
 <div class="fragment"><div class="line"><span class="lineno">   41</span>    {</div>
 <div class="line"><span class="lineno">   42</span>      <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>.reserve(<a class="code hl_variable" href="../../d3/d30/class_text_stream.html#aed326642b4edbab68d47dbd9c2f7901f">INITIAL_CAPACITY</a>);</div>
 <div class="line"><span class="lineno">   43</span>    }</div>
-<div class="ttc" id="aclass_text_stream_html_a588661b14e0e238906c63ee414a232ab"><div class="ttname"><a href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">TextStream::m_buffer</a></div><div class="ttdeci">std::string m_buffer</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d7d/textstream_8h_source.html#l00282">textstream.h:282</a></div></div>
+<div class="ttc" id="aclass_text_stream_html_a588661b14e0e238906c63ee414a232ab"><div class="ttname"><a href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">TextStream::m_buffer</a></div><div class="ttdeci">std::string m_buffer</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d7d/textstream_8h_source.html#l00284">textstream.h:284</a></div></div>
 <div class="ttc" id="aclass_text_stream_html_aed326642b4edbab68d47dbd9c2f7901f"><div class="ttname"><a href="../../d3/d30/class_text_stream.html#aed326642b4edbab68d47dbd9c2f7901f">TextStream::INITIAL_CAPACITY</a></div><div class="ttdeci">static const int INITIAL_CAPACITY</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d7d/textstream_8h_source.html#l00036">textstream.h:36</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00036">INITIAL_CAPACITY</a>, and <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00282">m_buffer</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00036">INITIAL_CAPACITY</a>, and <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00284">m_buffer</a>.</p>
 
 </div>
 </div>
 <a id="aa22b5c028814c2e880c258caff567184" name="aa22b5c028814c2e880c258caff567184"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa22b5c028814c2e880c258caff567184">&#9670;&#160;</a></span>TextStream() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa22b5c028814c2e880c258caff567184">&#9670;&#160;</a></span>TextStream() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -292,14 +296,14 @@ Static Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">   48</span>    {</div>
 <div class="line"><span class="lineno">   49</span>      <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>.reserve(<a class="code hl_variable" href="../../d3/d30/class_text_stream.html#aed326642b4edbab68d47dbd9c2f7901f">INITIAL_CAPACITY</a>);</div>
 <div class="line"><span class="lineno">   50</span>    }</div>
-<div class="ttc" id="aclass_text_stream_html_aa2cc389f03492be4163601478f0d9118"><div class="ttname"><a href="../../d3/d30/class_text_stream.html#aa2cc389f03492be4163601478f0d9118">TextStream::m_s</a></div><div class="ttdeci">std::ostream * m_s</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d7d/textstream_8h_source.html#l00283">textstream.h:283</a></div></div>
+<div class="ttc" id="aclass_text_stream_html_aa2cc389f03492be4163601478f0d9118"><div class="ttname"><a href="../../d3/d30/class_text_stream.html#aa2cc389f03492be4163601478f0d9118">TextStream::m_s</a></div><div class="ttdeci">std::ostream * m_s</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d7d/textstream_8h_source.html#l00285">textstream.h:285</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00036">INITIAL_CAPACITY</a>, and <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00282">m_buffer</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00036">INITIAL_CAPACITY</a>, and <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00284">m_buffer</a>.</p>
 
 </div>
 </div>
 <a id="a6c4167493d760a72984d1de542d12a9a" name="a6c4167493d760a72984d1de542d12a9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c4167493d760a72984d1de542d12a9a">&#9670;&#160;</a></span>TextStream() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c4167493d760a72984d1de542d12a9a">&#9670;&#160;</a></span>TextStream() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -330,7 +334,7 @@ Static Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">   55</span>      <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>.reserve(s.length()+<a class="code hl_variable" href="../../d3/d30/class_text_stream.html#aed326642b4edbab68d47dbd9c2f7901f">INITIAL_CAPACITY</a>);</div>
 <div class="line"><span class="lineno">   56</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00036">INITIAL_CAPACITY</a>, and <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00282">m_buffer</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00036">INITIAL_CAPACITY</a>, and <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00284">m_buffer</a>.</p>
 
 </div>
 </div>
@@ -361,14 +365,14 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00059">59</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   59</span>{ <a class="code hl_function" href="../../d3/d30/class_text_stream.html#a907937b613a56aa4124608b3a092b820">flush</a>(); }</div>
-<div class="ttc" id="aclass_text_stream_html_a907937b613a56aa4124608b3a092b820"><div class="ttname"><a href="../../d3/d30/class_text_stream.html#a907937b613a56aa4124608b3a092b820">TextStream::flush</a></div><div class="ttdeci">void flush()</div><div class="ttdoc">Flushes the buffer.</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d7d/textstream_8h_source.html#l00209">textstream.h:209</a></div></div>
+<div class="ttc" id="aclass_text_stream_html_a907937b613a56aa4124608b3a092b820"><div class="ttname"><a href="../../d3/d30/class_text_stream.html#a907937b613a56aa4124608b3a092b820">TextStream::flush</a></div><div class="ttdeci">void flush()</div><div class="ttdoc">Flushes the buffer.</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d7d/textstream_8h_source.html#l00211">textstream.h:211</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00209">flush()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00211">flush()</a>.</p>
 
 </div>
 </div>
 <a id="a762f81997bfbae5d77b5e34f06b66941" name="a762f81997bfbae5d77b5e34f06b66941"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a762f81997bfbae5d77b5e34f06b66941">&#9670;&#160;</a></span>TextStream() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a762f81997bfbae5d77b5e34f06b66941">&#9670;&#160;</a></span>TextStream() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -387,6 +391,32 @@ Static Private Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a84542cd8c0c5b09b9296d096fa67b651" name="a84542cd8c0c5b09b9296d096fa67b651"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84542cd8c0c5b09b9296d096fa67b651">&#9670;&#160;</a></span>TextStream() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextStream::TextStream </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d3/d30/class_text_stream.html">TextStream</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -419,12 +449,12 @@ Static Private Attributes</h2></td></tr>
 
 <p>Clears any buffered data. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00223">223</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  224</span>    {</div>
-<div class="line"><span class="lineno">  225</span>      <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>.clear();</div>
-<div class="line"><span class="lineno">  226</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00225">225</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  226</span>    {</div>
+<div class="line"><span class="lineno">  227</span>      <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>.clear();</div>
+<div class="line"><span class="lineno">  228</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00282">m_buffer</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00284">m_buffer</a>.</p>
 
 </div>
 </div>
@@ -453,14 +483,14 @@ Static Private Attributes</h2></td></tr>
 
 <p>Returns true iff the buffer is empty. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00253">253</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  254</span>    {</div>
-<div class="line"><span class="lineno">  255</span>      <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>.empty();</div>
-<div class="line"><span class="lineno">  256</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00255">255</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  256</span>    {</div>
+<div class="line"><span class="lineno">  257</span>      <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>.empty();</div>
+<div class="line"><span class="lineno">  258</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00282">m_buffer</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00284">m_buffer</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l01853">HtmlGenerator::endClassDiagram()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l01819">ClassContext::Private::inheritanceDiagram()</a>, <a class="el" href="../../de/d45/dotgraph_8cpp_source.html#l00086">insertMapFile()</a>, <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00302">DotFilePatcher::run()</a>, and <a class="el" href="../../de/daa/dot_8cpp_source.html#l00317">writeDotImageMapFromFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l01892">HtmlGenerator::endClassDiagram()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l01819">ClassContext::Private::inheritanceDiagram()</a>, <a class="el" href="../../de/d45/dotgraph_8cpp_source.html#l00086">insertMapFile()</a>, <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00302">DotFilePatcher::run()</a>, and <a class="el" href="../../de/daa/dot_8cpp_source.html#l00317">writeDotImageMapFromFile()</a>.</p>
 
 </div>
 </div>
@@ -487,13 +517,13 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00089">89</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   90</span>    {</div>
-<div class="line"><span class="lineno">   91</span>      <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a88c5744dd7d51305aa75034481a9baab">m_f</a>;</div>
-<div class="line"><span class="lineno">   92</span>    }</div>
-<div class="ttc" id="aclass_text_stream_html_a88c5744dd7d51305aa75034481a9baab"><div class="ttname"><a href="../../d3/d30/class_text_stream.html#a88c5744dd7d51305aa75034481a9baab">TextStream::m_f</a></div><div class="ttdeci">FILE * m_f</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d7d/textstream_8h_source.html#l00284">textstream.h:284</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00091">91</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   92</span>    {</div>
+<div class="line"><span class="lineno">   93</span>      <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a88c5744dd7d51305aa75034481a9baab">m_f</a>;</div>
+<div class="line"><span class="lineno">   94</span>    }</div>
+<div class="ttc" id="aclass_text_stream_html_a88c5744dd7d51305aa75034481a9baab"><div class="ttname"><a href="../../d3/d30/class_text_stream.html#a88c5744dd7d51305aa75034481a9baab">TextStream::m_f</a></div><div class="ttdeci">FILE * m_f</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d7d/textstream_8h_source.html#l00286">textstream.h:286</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00284">m_f</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00286">m_f</a>.</p>
 
 </div>
 </div>
@@ -523,22 +553,22 @@ Static Private Attributes</h2></td></tr>
 <p>Flushes the buffer. </p>
 <p>If a std::ostream is attached, the buffer's contents will be written to the stream. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00209">209</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  210</span>    {</div>
-<div class="line"><span class="lineno">  211</span>      <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/d30/class_text_stream.html#aa2cc389f03492be4163601478f0d9118">m_s</a>)</div>
-<div class="line"><span class="lineno">  212</span>      {</div>
-<div class="line"><span class="lineno">  213</span>        <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#aa2cc389f03492be4163601478f0d9118">m_s</a>-&gt;write(<a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>.c_str(),<a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>.length());</div>
-<div class="line"><span class="lineno">  214</span>      }</div>
-<div class="line"><span class="lineno">  215</span>      <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a88c5744dd7d51305aa75034481a9baab">m_f</a>)</div>
-<div class="line"><span class="lineno">  216</span>      {</div>
-<div class="line"><span class="lineno">  217</span>        fwrite(<a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>.c_str(),1,<a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>.length(),<a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a88c5744dd7d51305aa75034481a9baab">m_f</a>);</div>
-<div class="line"><span class="lineno">  218</span>      }</div>
-<div class="line"><span class="lineno">  219</span>      <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>.clear();</div>
-<div class="line"><span class="lineno">  220</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00211">211</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  212</span>    {</div>
+<div class="line"><span class="lineno">  213</span>      <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/d30/class_text_stream.html#aa2cc389f03492be4163601478f0d9118">m_s</a>)</div>
+<div class="line"><span class="lineno">  214</span>      {</div>
+<div class="line"><span class="lineno">  215</span>        <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#aa2cc389f03492be4163601478f0d9118">m_s</a>-&gt;write(<a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>.c_str(),<a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>.length());</div>
+<div class="line"><span class="lineno">  216</span>      }</div>
+<div class="line"><span class="lineno">  217</span>      <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a88c5744dd7d51305aa75034481a9baab">m_f</a>)</div>
+<div class="line"><span class="lineno">  218</span>      {</div>
+<div class="line"><span class="lineno">  219</span>        fwrite(<a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>.c_str(),1,<a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>.length(),<a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a88c5744dd7d51305aa75034481a9baab">m_f</a>);</div>
+<div class="line"><span class="lineno">  220</span>      }</div>
+<div class="line"><span class="lineno">  221</span>      <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>.clear();</div>
+<div class="line"><span class="lineno">  222</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00282">m_buffer</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00284">m_f</a>, and <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00283">m_s</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00284">m_buffer</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00286">m_f</a>, and <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00285">m_s</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d5b/formula_8cpp_source.html#l00188">FormulaManager::createLatexFile()</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00072">OutputGenerator::endPlainFile()</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l02377">RTFGenerator::preProcessFileInplace()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03539">TemplateNodeMsg::render()</a>, <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00302">DotFilePatcher::run()</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00074">setFile()</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00067">setStream()</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00237">str()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03437">FlowChart::writeFlowChart()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00175">VhdlDocGen::writeOverview()</a>, and <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00059">~TextStream()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d5b/formula_8cpp_source.html#l00188">FormulaManager::createLatexFile()</a>, <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00044">OutputGenerator::endPlainFile()</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l02412">RTFGenerator::preProcessFileInplace()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03539">TemplateNodeMsg::render()</a>, <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00302">DotFilePatcher::run()</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00076">setFile()</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00069">setStream()</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00239">str()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03437">FlowChart::writeFlowChart()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00175">VhdlDocGen::writeOverview()</a>, and <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00059">~TextStream()</a>.</p>
 
 </div>
 </div>
@@ -568,14 +598,14 @@ Static Private Attributes</h2></td></tr>
 
 <p>Adds a character to the stream. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00095">95</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   96</span>    {</div>
-<div class="line"><span class="lineno">   97</span>      <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>+=c;</div>
-<div class="line"><span class="lineno">   98</span>      <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a>&amp;<span class="keyword">&gt;</span>(*this);</div>
-<div class="line"><span class="lineno">   99</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00097">97</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   98</span>    {</div>
+<div class="line"><span class="lineno">   99</span>      <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>+=c;</div>
+<div class="line"><span class="lineno">  100</span>      <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a>&amp;<span class="keyword">&gt;</span>(*this);</div>
+<div class="line"><span class="lineno">  101</span>    }</div>
 <div class="ttc" id="aclass_text_stream_html"><div class="ttname"><a href="../../d3/d30/class_text_stream.html">TextStream</a></div><div class="ttdoc">Text streaming class that buffers data.</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d7d/textstream_8h_source.html#l00034">textstream.h:35</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00282">m_buffer</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00284">m_buffer</a>.</p>
 
 </div>
 </div>
@@ -605,13 +635,13 @@ Static Private Attributes</h2></td></tr>
 
 <p>Adds a C-style string to the stream. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00123">123</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  124</span>    {</div>
-<div class="line"><span class="lineno">  125</span>      <span class="keywordflow">if</span> (s) <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>+=s;</div>
-<div class="line"><span class="lineno">  126</span>      <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a>&amp;<span class="keyword">&gt;</span>(*this);</div>
-<div class="line"><span class="lineno">  127</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00125">125</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  126</span>    {</div>
+<div class="line"><span class="lineno">  127</span>      <span class="keywordflow">if</span> (s) <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>+=s;</div>
+<div class="line"><span class="lineno">  128</span>      <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a>&amp;<span class="keyword">&gt;</span>(*this);</div>
+<div class="line"><span class="lineno">  129</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00282">m_buffer</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00284">m_buffer</a>.</p>
 
 </div>
 </div>
@@ -641,14 +671,14 @@ Static Private Attributes</h2></td></tr>
 
 <p>Adds a <a class="el" href="../../d9/d45/class_q_c_string.html" title="This is an alternative implementation of QCString.">QCString</a> to the stream. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00130">130</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  131</span>    {</div>
-<div class="line"><span class="lineno">  132</span>      <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>+=s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>();</div>
-<div class="line"><span class="lineno">  133</span>      <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a>&amp;<span class="keyword">&gt;</span>(*this);</div>
-<div class="line"><span class="lineno">  134</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00132">132</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  133</span>    {</div>
+<div class="line"><span class="lineno">  134</span>      <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>+=s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>();</div>
+<div class="line"><span class="lineno">  135</span>      <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a>&amp;<span class="keyword">&gt;</span>(*this);</div>
+<div class="line"><span class="lineno">  136</span>    }</div>
 <div class="ttc" id="aclass_q_c_string_html_a875e9ad762554ef12f3ed69b015bb245"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">QCString::str</a></div><div class="ttdeci">const std::string &amp; str() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00478">qcstring.h:478</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00282">m_buffer</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00478">QCString::str()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00284">m_buffer</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00478">QCString::str()</a>.</p>
 
 </div>
 </div>
@@ -678,13 +708,13 @@ Static Private Attributes</h2></td></tr>
 
 <p>Adds a std::string to the stream. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00137">137</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  138</span>    {</div>
-<div class="line"><span class="lineno">  139</span>      <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>+=s;</div>
-<div class="line"><span class="lineno">  140</span>      <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a>&amp;<span class="keyword">&gt;</span>(*this);</div>
-<div class="line"><span class="lineno">  141</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00139">139</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  140</span>    {</div>
+<div class="line"><span class="lineno">  141</span>      <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>+=s;</div>
+<div class="line"><span class="lineno">  142</span>      <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a>&amp;<span class="keyword">&gt;</span>(*this);</div>
+<div class="line"><span class="lineno">  143</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00282">m_buffer</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00284">m_buffer</a>.</p>
 
 </div>
 </div>
@@ -714,14 +744,14 @@ Static Private Attributes</h2></td></tr>
 
 <p>Adds a double to the stream. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00191">191</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  192</span>    {</div>
-<div class="line"><span class="lineno">  193</span>      <a class="code hl_function" href="../../d3/d30/class_text_stream.html#a2626411e76cafb7b0cc97ad259f37615">output_double</a>(d);</div>
-<div class="line"><span class="lineno">  194</span>      <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a>&amp;<span class="keyword">&gt;</span>(*this);</div>
-<div class="line"><span class="lineno">  195</span>    }</div>
-<div class="ttc" id="aclass_text_stream_html_a2626411e76cafb7b0cc97ad259f37615"><div class="ttname"><a href="../../d3/d30/class_text_stream.html#a2626411e76cafb7b0cc97ad259f37615">TextStream::output_double</a></div><div class="ttdeci">void output_double(double d)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d7d/textstream_8h_source.html#l00276">textstream.h:276</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00193">193</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  194</span>    {</div>
+<div class="line"><span class="lineno">  195</span>      <a class="code hl_function" href="../../d3/d30/class_text_stream.html#a2626411e76cafb7b0cc97ad259f37615">output_double</a>(d);</div>
+<div class="line"><span class="lineno">  196</span>      <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a>&amp;<span class="keyword">&gt;</span>(*this);</div>
+<div class="line"><span class="lineno">  197</span>    }</div>
+<div class="ttc" id="aclass_text_stream_html_a2626411e76cafb7b0cc97ad259f37615"><div class="ttname"><a href="../../d3/d30/class_text_stream.html#a2626411e76cafb7b0cc97ad259f37615">TextStream::output_double</a></div><div class="ttdeci">void output_double(double d)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d7d/textstream_8h_source.html#l00278">textstream.h:278</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00276">output_double()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00278">output_double()</a>.</p>
 
 </div>
 </div>
@@ -751,13 +781,13 @@ Static Private Attributes</h2></td></tr>
 
 <p>Adds a float to the stream. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00184">184</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  185</span>    {</div>
-<div class="line"><span class="lineno">  186</span>      <a class="code hl_function" href="../../d3/d30/class_text_stream.html#a2626411e76cafb7b0cc97ad259f37615">output_double</a>(<span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(f));</div>
-<div class="line"><span class="lineno">  187</span>      <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a>&amp;<span class="keyword">&gt;</span>(*this);</div>
-<div class="line"><span class="lineno">  188</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00186">186</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  187</span>    {</div>
+<div class="line"><span class="lineno">  188</span>      <a class="code hl_function" href="../../d3/d30/class_text_stream.html#a2626411e76cafb7b0cc97ad259f37615">output_double</a>(<span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(f));</div>
+<div class="line"><span class="lineno">  189</span>      <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a>&amp;<span class="keyword">&gt;</span>(*this);</div>
+<div class="line"><span class="lineno">  190</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00276">output_double()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00278">output_double()</a>.</p>
 
 </div>
 </div>
@@ -787,14 +817,14 @@ Static Private Attributes</h2></td></tr>
 
 <p>Adds a signed integer to the stream. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00158">158</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  159</span>    {</div>
-<div class="line"><span class="lineno">  160</span>      <a class="code hl_function" href="../../d3/d30/class_text_stream.html#a42463de0e3fa4777714f8e8fc4f9355c">output_int32</a>(i,i&lt;0);</div>
-<div class="line"><span class="lineno">  161</span>      <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a>&amp;<span class="keyword">&gt;</span>(*this);</div>
-<div class="line"><span class="lineno">  162</span>    }</div>
-<div class="ttc" id="aclass_text_stream_html_a42463de0e3fa4777714f8e8fc4f9355c"><div class="ttname"><a href="../../d3/d30/class_text_stream.html#a42463de0e3fa4777714f8e8fc4f9355c">TextStream::output_int32</a></div><div class="ttdeci">void output_int32(uint32_t n, bool neg)</div><div class="ttdoc">Writes a string representation of an integer to the buffer.</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d7d/textstream_8h_source.html#l00263">textstream.h:263</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00160">160</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  161</span>    {</div>
+<div class="line"><span class="lineno">  162</span>      <a class="code hl_function" href="../../d3/d30/class_text_stream.html#a42463de0e3fa4777714f8e8fc4f9355c">output_int32</a>(i,i&lt;0);</div>
+<div class="line"><span class="lineno">  163</span>      <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a>&amp;<span class="keyword">&gt;</span>(*this);</div>
+<div class="line"><span class="lineno">  164</span>    }</div>
+<div class="ttc" id="aclass_text_stream_html_a42463de0e3fa4777714f8e8fc4f9355c"><div class="ttname"><a href="../../d3/d30/class_text_stream.html#a42463de0e3fa4777714f8e8fc4f9355c">TextStream::output_int32</a></div><div class="ttdeci">void output_int32(uint32_t n, bool neg)</div><div class="ttdoc">Writes a string representation of an integer to the buffer.</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d7d/textstream_8h_source.html#l00265">textstream.h:265</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00263">output_int32()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00265">output_int32()</a>.</p>
 
 </div>
 </div>
@@ -824,13 +854,13 @@ Static Private Attributes</h2></td></tr>
 
 <p>Adds a signed short integer to the stream. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00144">144</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  145</span>    {</div>
-<div class="line"><span class="lineno">  146</span>      <a class="code hl_function" href="../../d3/d30/class_text_stream.html#a42463de0e3fa4777714f8e8fc4f9355c">output_int32</a>(i,i&lt;0);</div>
-<div class="line"><span class="lineno">  147</span>      <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a>&amp;<span class="keyword">&gt;</span>(*this);</div>
-<div class="line"><span class="lineno">  148</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00146">146</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  147</span>    {</div>
+<div class="line"><span class="lineno">  148</span>      <a class="code hl_function" href="../../d3/d30/class_text_stream.html#a42463de0e3fa4777714f8e8fc4f9355c">output_int32</a>(i,i&lt;0);</div>
+<div class="line"><span class="lineno">  149</span>      <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a>&amp;<span class="keyword">&gt;</span>(*this);</div>
+<div class="line"><span class="lineno">  150</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00263">output_int32()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00265">output_int32()</a>.</p>
 
 </div>
 </div>
@@ -863,13 +893,13 @@ template&lt;typename T , typename std::enable_if&lt; std::is_same&lt; T, size_t 
 <p>Adds a size_t integer to the stream. </p>
 <p>We use SFINAE to avoid a compiler error in case size_t already matches the 'unsigned int' overload. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00177">177</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  178</span>    {</div>
-<div class="line"><span class="lineno">  179</span>      <a class="code hl_function" href="../../d3/d30/class_text_stream.html#a42463de0e3fa4777714f8e8fc4f9355c">output_int32</a>(<span class="keyword">static_cast&lt;</span>uint32_t<span class="keyword">&gt;</span>(i),<span class="keyword">false</span>);</div>
-<div class="line"><span class="lineno">  180</span>      <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a>&amp;<span class="keyword">&gt;</span>(*this);</div>
-<div class="line"><span class="lineno">  181</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00179">179</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  180</span>    {</div>
+<div class="line"><span class="lineno">  181</span>      <a class="code hl_function" href="../../d3/d30/class_text_stream.html#a42463de0e3fa4777714f8e8fc4f9355c">output_int32</a>(<span class="keyword">static_cast&lt;</span>uint32_t<span class="keyword">&gt;</span>(i),<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  182</span>      <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a>&amp;<span class="keyword">&gt;</span>(*this);</div>
+<div class="line"><span class="lineno">  183</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00263">output_int32()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00265">output_int32()</a>.</p>
 
 </div>
 </div>
@@ -899,21 +929,21 @@ template&lt;typename T , typename std::enable_if&lt; std::is_same&lt; T, size_t 
 
 <p>Adds an unsigned character string to the stream. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00108">108</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  109</span>    {</div>
-<div class="line"><span class="lineno">  110</span>      <span class="keywordflow">if</span> (s)</div>
-<div class="line"><span class="lineno">  111</span>      {</div>
-<div class="line"><span class="lineno">  112</span>        <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *p = s;</div>
-<div class="line"><span class="lineno">  113</span>        <span class="keywordflow">while</span>(*p)</div>
-<div class="line"><span class="lineno">  114</span>        {</div>
-<div class="line"><span class="lineno">  115</span>          <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>+=*p;</div>
-<div class="line"><span class="lineno">  116</span>          p++;</div>
-<div class="line"><span class="lineno">  117</span>        }</div>
-<div class="line"><span class="lineno">  118</span>      }</div>
-<div class="line"><span class="lineno">  119</span>      <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a>&amp;<span class="keyword">&gt;</span>(*this);</div>
-<div class="line"><span class="lineno">  120</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00110">110</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  111</span>    {</div>
+<div class="line"><span class="lineno">  112</span>      <span class="keywordflow">if</span> (s)</div>
+<div class="line"><span class="lineno">  113</span>      {</div>
+<div class="line"><span class="lineno">  114</span>        <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *p = s;</div>
+<div class="line"><span class="lineno">  115</span>        <span class="keywordflow">while</span>(*p)</div>
+<div class="line"><span class="lineno">  116</span>        {</div>
+<div class="line"><span class="lineno">  117</span>          <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>+=*p;</div>
+<div class="line"><span class="lineno">  118</span>          p++;</div>
+<div class="line"><span class="lineno">  119</span>        }</div>
+<div class="line"><span class="lineno">  120</span>      }</div>
+<div class="line"><span class="lineno">  121</span>      <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a>&amp;<span class="keyword">&gt;</span>(*this);</div>
+<div class="line"><span class="lineno">  122</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00282">m_buffer</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00284">m_buffer</a>.</p>
 
 </div>
 </div>
@@ -943,13 +973,13 @@ template&lt;typename T , typename std::enable_if&lt; std::is_same&lt; T, size_t 
 
 <p>Adds an unsigned character to the stream. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00101">101</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  102</span>    {</div>
-<div class="line"><span class="lineno">  103</span>      <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>+=c;</div>
-<div class="line"><span class="lineno">  104</span>      <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a>&amp;<span class="keyword">&gt;</span>(*this);</div>
-<div class="line"><span class="lineno">  105</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00103">103</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  104</span>    {</div>
+<div class="line"><span class="lineno">  105</span>      <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>+=c;</div>
+<div class="line"><span class="lineno">  106</span>      <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a>&amp;<span class="keyword">&gt;</span>(*this);</div>
+<div class="line"><span class="lineno">  107</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00282">m_buffer</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00284">m_buffer</a>.</p>
 
 </div>
 </div>
@@ -979,13 +1009,13 @@ template&lt;typename T , typename std::enable_if&lt; std::is_same&lt; T, size_t 
 
 <p>Adds a unsigned integer to the stream. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00165">165</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  166</span>    {</div>
-<div class="line"><span class="lineno">  167</span>      <a class="code hl_function" href="../../d3/d30/class_text_stream.html#a42463de0e3fa4777714f8e8fc4f9355c">output_int32</a>(i,<span class="keyword">false</span>);</div>
-<div class="line"><span class="lineno">  168</span>      <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a>&amp;<span class="keyword">&gt;</span>(*this);</div>
-<div class="line"><span class="lineno">  169</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00167">167</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  168</span>    {</div>
+<div class="line"><span class="lineno">  169</span>      <a class="code hl_function" href="../../d3/d30/class_text_stream.html#a42463de0e3fa4777714f8e8fc4f9355c">output_int32</a>(i,<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  170</span>      <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a>&amp;<span class="keyword">&gt;</span>(*this);</div>
+<div class="line"><span class="lineno">  171</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00263">output_int32()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00265">output_int32()</a>.</p>
 
 </div>
 </div>
@@ -1015,18 +1045,18 @@ template&lt;typename T , typename std::enable_if&lt; std::is_same&lt; T, size_t 
 
 <p>Adds a unsigned short integer to the stream. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00151">151</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  152</span>    {</div>
-<div class="line"><span class="lineno">  153</span>      <a class="code hl_function" href="../../d3/d30/class_text_stream.html#a42463de0e3fa4777714f8e8fc4f9355c">output_int32</a>(i,<span class="keyword">false</span>);</div>
-<div class="line"><span class="lineno">  154</span>      <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a>&amp;<span class="keyword">&gt;</span>(*this);</div>
-<div class="line"><span class="lineno">  155</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00153">153</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  154</span>    {</div>
+<div class="line"><span class="lineno">  155</span>      <a class="code hl_function" href="../../d3/d30/class_text_stream.html#a42463de0e3fa4777714f8e8fc4f9355c">output_int32</a>(i,<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  156</span>      <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a>&amp;<span class="keyword">&gt;</span>(*this);</div>
+<div class="line"><span class="lineno">  157</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00263">output_int32()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00265">output_int32()</a>.</p>
 
 </div>
 </div>
 <a id="aee9ead205d5ad7a2ace457bd3586e1b5" name="aee9ead205d5ad7a2ace457bd3586e1b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee9ead205d5ad7a2ace457bd3586e1b5">&#9670;&#160;</a></span>operator=()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aee9ead205d5ad7a2ace457bd3586e1b5">&#9670;&#160;</a></span>operator=() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1038,6 +1068,32 @@ template&lt;typename T , typename std::enable_if&lt; std::is_same&lt; T, size_t 
           <td class="memname"><a class="el" href="../../d3/d30/class_text_stream.html">TextStream</a> &amp; TextStream::operator= </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../d3/d30/class_text_stream.html">TextStream</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a50771bab73ab9c12fb5f1e3a3df5c550" name="a50771bab73ab9c12fb5f1e3a3df5c550"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50771bab73ab9c12fb5f1e3a3df5c550">&#9670;&#160;</a></span>operator=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/d30/class_text_stream.html">TextStream</a> &amp; TextStream::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d3/d30/class_text_stream.html">TextStream</a> &amp;&amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1075,16 +1131,16 @@ template&lt;typename T , typename std::enable_if&lt; std::is_same&lt; T, size_t 
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00276">276</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  277</span>    {</div>
-<div class="line"><span class="lineno">  278</span>      <span class="keywordtype">char</span> buf[64];</div>
-<div class="line"><span class="lineno">  279</span>      snprintf(buf,64,<span class="stringliteral">&quot;%f&quot;</span>,d);</div>
-<div class="line"><span class="lineno">  280</span>      <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>+=buf;</div>
-<div class="line"><span class="lineno">  281</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00278">278</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  279</span>    {</div>
+<div class="line"><span class="lineno">  280</span>      <span class="keywordtype">char</span> buf[64];</div>
+<div class="line"><span class="lineno">  281</span>      snprintf(buf,64,<span class="stringliteral">&quot;%f&quot;</span>,d);</div>
+<div class="line"><span class="lineno">  282</span>      <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>+=buf;</div>
+<div class="line"><span class="lineno">  283</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00282">m_buffer</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00284">m_buffer</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00184">operator&lt;&lt;()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00186">operator&lt;&lt;()</a>.</p>
 
 </div>
 </div>
@@ -1131,23 +1187,23 @@ template&lt;typename T , typename std::enable_if&lt; std::is_same&lt; T, size_t 
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00263">263</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  264</span>    {</div>
-<div class="line"><span class="lineno">  265</span>      <span class="keywordtype">char</span> buf[20];</div>
-<div class="line"><span class="lineno">  266</span>      <span class="keywordtype">char</span> *p = &amp;buf[19];</div>
-<div class="line"><span class="lineno">  267</span>      *p = <span class="charliteral">&#39;\0&#39;</span>;</div>
-<div class="line"><span class="lineno">  268</span>      <span class="keywordflow">if</span> ( neg )</div>
-<div class="line"><span class="lineno">  269</span>      {</div>
-<div class="line"><span class="lineno">  270</span>        n = <span class="keyword">static_cast&lt;</span>uint32_t<span class="keyword">&gt;</span>(-<span class="keyword">static_cast&lt;</span>int32_t<span class="keyword">&gt;</span>(n));</div>
-<div class="line"><span class="lineno">  271</span>      }</div>
-<div class="line"><span class="lineno">  272</span>      <span class="keywordflow">do</span> { *--p = (<span class="keyword">static_cast&lt;</span><span class="keywordtype">char</span><span class="keyword">&gt;</span>(n%10)) + <span class="charliteral">&#39;0&#39;</span>; n /= 10; } <span class="keywordflow">while</span> ( n );</div>
-<div class="line"><span class="lineno">  273</span>      <span class="keywordflow">if</span> ( neg ) *--p = <span class="charliteral">&#39;-&#39;</span>;</div>
-<div class="line"><span class="lineno">  274</span>      <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>+=p;</div>
-<div class="line"><span class="lineno">  275</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00265">265</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  266</span>    {</div>
+<div class="line"><span class="lineno">  267</span>      <span class="keywordtype">char</span> buf[20];</div>
+<div class="line"><span class="lineno">  268</span>      <span class="keywordtype">char</span> *p = &amp;buf[19];</div>
+<div class="line"><span class="lineno">  269</span>      *p = <span class="charliteral">&#39;\0&#39;</span>;</div>
+<div class="line"><span class="lineno">  270</span>      <span class="keywordflow">if</span> ( neg )</div>
+<div class="line"><span class="lineno">  271</span>      {</div>
+<div class="line"><span class="lineno">  272</span>        n = <span class="keyword">static_cast&lt;</span>uint32_t<span class="keyword">&gt;</span>(-<span class="keyword">static_cast&lt;</span>int32_t<span class="keyword">&gt;</span>(n));</div>
+<div class="line"><span class="lineno">  273</span>      }</div>
+<div class="line"><span class="lineno">  274</span>      <span class="keywordflow">do</span> { *--p = (<span class="keyword">static_cast&lt;</span><span class="keywordtype">char</span><span class="keyword">&gt;</span>(n%10)) + <span class="charliteral">&#39;0&#39;</span>; n /= 10; } <span class="keywordflow">while</span> ( n );</div>
+<div class="line"><span class="lineno">  275</span>      <span class="keywordflow">if</span> ( neg ) *--p = <span class="charliteral">&#39;-&#39;</span>;</div>
+<div class="line"><span class="lineno">  276</span>      <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>+=p;</div>
+<div class="line"><span class="lineno">  277</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00282">m_buffer</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00284">m_buffer</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00144">operator&lt;&lt;()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00146">operator&lt;&lt;()</a>.</p>
 
 </div>
 </div>
@@ -1175,16 +1231,16 @@ template&lt;typename T , typename std::enable_if&lt; std::is_same&lt; T, size_t 
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00074">74</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   75</span>    {</div>
-<div class="line"><span class="lineno">   76</span>      <a class="code hl_function" href="../../d3/d30/class_text_stream.html#a907937b613a56aa4124608b3a092b820">flush</a>();</div>
-<div class="line"><span class="lineno">   77</span>      <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#aa2cc389f03492be4163601478f0d9118">m_s</a> = <span class="keyword">nullptr</span>;</div>
-<div class="line"><span class="lineno">   78</span>      <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a88c5744dd7d51305aa75034481a9baab">m_f</a> = f;</div>
-<div class="line"><span class="lineno">   79</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00076">76</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   77</span>    {</div>
+<div class="line"><span class="lineno">   78</span>      <a class="code hl_function" href="../../d3/d30/class_text_stream.html#a907937b613a56aa4124608b3a092b820">flush</a>();</div>
+<div class="line"><span class="lineno">   79</span>      <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#aa2cc389f03492be4163601478f0d9118">m_s</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   80</span>      <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a88c5744dd7d51305aa75034481a9baab">m_f</a> = f;</div>
+<div class="line"><span class="lineno">   81</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00209">flush()</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00284">m_f</a>, and <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00283">m_s</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00211">flush()</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00286">m_f</a>, and <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00285">m_s</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00060">OutputGenerator::startPlainFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00032">OutputGenerator::startPlainFile()</a>.</p>
 
 </div>
 </div>
@@ -1215,16 +1271,16 @@ template&lt;typename T , typename std::enable_if&lt; std::is_same&lt; T, size_t 
 <p>Sets or changes the std::ostream to write to. </p>
 <dl class="section note"><dt>Note</dt><dd>Any data already buffered will be flushed. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00067">67</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   68</span>    {</div>
-<div class="line"><span class="lineno">   69</span>      <a class="code hl_function" href="../../d3/d30/class_text_stream.html#a907937b613a56aa4124608b3a092b820">flush</a>();</div>
-<div class="line"><span class="lineno">   70</span>      <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#aa2cc389f03492be4163601478f0d9118">m_s</a> = s;</div>
-<div class="line"><span class="lineno">   71</span>      <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a88c5744dd7d51305aa75034481a9baab">m_f</a> = <span class="keyword">nullptr</span>;</div>
-<div class="line"><span class="lineno">   72</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00069">69</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   70</span>    {</div>
+<div class="line"><span class="lineno">   71</span>      <a class="code hl_function" href="../../d3/d30/class_text_stream.html#a907937b613a56aa4124608b3a092b820">flush</a>();</div>
+<div class="line"><span class="lineno">   72</span>      <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#aa2cc389f03492be4163601478f0d9118">m_s</a> = s;</div>
+<div class="line"><span class="lineno">   73</span>      <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a88c5744dd7d51305aa75034481a9baab">m_f</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   74</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00209">flush()</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00284">m_f</a>, and <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00283">m_s</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00211">flush()</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00286">m_f</a>, and <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00285">m_s</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00072">OutputGenerator::endPlainFile()</a>, and <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00302">DotFilePatcher::run()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00044">OutputGenerator::endPlainFile()</a>, and <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00302">DotFilePatcher::run()</a>.</p>
 
 </div>
 </div>
@@ -1253,14 +1309,14 @@ template&lt;typename T , typename std::enable_if&lt; std::is_same&lt; T, size_t 
 
 <p>Return the contents of the buffer as a std::string object. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00229">229</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  230</span>    {</div>
-<div class="line"><span class="lineno">  231</span>      <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>;</div>
-<div class="line"><span class="lineno">  232</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00231">231</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  232</span>    {</div>
+<div class="line"><span class="lineno">  233</span>      <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>;</div>
+<div class="line"><span class="lineno">  234</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00282">m_buffer</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00284">m_buffer</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01112">addConceptToContext()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05007">addMemberDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l02146">addVariableToClass()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l02302">addVariableToFile()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l03801">MemberContext::Private::callerGraph()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l03743">MemberContext::Private::callGraph()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l01913">ClassContext::Private::collaborationDiagram()</a>, <a class="el" href="../../de/d45/dotgraph_8cpp_source.html#l00306">DotGraph::computeGraph()</a>, <a class="el" href="../../da/d45/dotdirdeps_8cpp_source.html#l00412">DotDirDeps::computeTheGraph()</a>, <a class="el" href="../../d4/d09/dotgfxhierarchytable_8cpp_source.html#l00037">DotGfxHierarchyTable::computeTheGraph()</a>, <a class="el" href="../../d1/d86/dotgroupcollaboration_8cpp_source.html#l00209">DotGroupCollaboration::computeTheGraph()</a>, <a class="el" href="../../d4/d33/dotlegendgraph_8cpp_source.html#l00045">DotLegendGraph::computeTheGraph()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l02381">convertToLaTeX()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l07422">InheritanceGraphContext::Private::createGraph()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l03566">createLinkedText()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l03157">DirContext::Private::dirGraph()</a>, <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l01853">HtmlGenerator::endClassDiagram()</a>, <a class="el" href="../../d2/dd2/entry_8cpp_source.html#l00048">Entry::Entry()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05544">escapeCommas()</a>, <a class="el" href="../../db/d33/msc_8cpp_source.html#l00145">getMscImageMapFromFile()</a>, <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l00304">getSearchBox()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l04607">ModuleContext::Private::groupGraph()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l02839">FileContext::Private::includedByGraph()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l02797">FileContext::Private::includeGraph()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l01819">ClassContext::Private::inheritanceDiagram()</a>, <a class="el" href="../../de/d45/dotgraph_8cpp_source.html#l00086">insertMapFile()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l02432">latexEscapeIndexChars()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l02388">latexEscapeLabelName()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l02477">latexEscapePDFString()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l02501">latexFilterURL()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00879">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l01286">parseCode()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05367">parseCommentAsText()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l01242">parseDoc()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l08886">LatexSpaceless::remove()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l08924">HtmlSpaceless::remove()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03821">TemplateNodeCreate::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03581">TemplateNodeBlock::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03923">TemplateNodeTree::renderChildren()</a>, <a class="el" href="../../d2/dd2/entry_8cpp_source.html#l00184">Entry::reset()</a>, <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00302">DotFilePatcher::run()</a>, <a class="el" href="../../d9/d2f/searchindex__js_8cpp_source.html#l00044">searchId()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l06305">stripIndentation()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00643">substituteLatexKeywords()</a>, <a class="el" href="../../d8/d0a/conceptdef_8cpp_source.html#l00379">templateSpec()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l02465">writeAnnotatedIndexGeneric()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l04145">writeConceptIndex()</a>, <a class="el" href="../../d8/d0a/conceptdef_8cpp_source.html#l00412">ConceptDefImpl::writeDefinition()</a>, <a class="el" href="../../de/daa/dot_8cpp_source.html#l00317">writeDotImageMapFromFile()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l01486">writeFileIndex()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l03973">writeGroupIndex()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l01278">writeHierarchicalExceptionIndex()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l01064">writeHierarchicalIndex()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l01172">writeHierarchicalInterfaceIndex()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l01907">writeNamespaceIndex()</a>, and <a class="el" href="../../db/d14/index_8cpp_source.html#l03592">writePageIndex()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01112">addConceptToContext()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05007">addMemberDocs()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l02146">addVariableToClass()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l02302">addVariableToFile()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l03801">MemberContext::Private::callerGraph()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l03743">MemberContext::Private::callGraph()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l01913">ClassContext::Private::collaborationDiagram()</a>, <a class="el" href="../../de/d45/dotgraph_8cpp_source.html#l00306">DotGraph::computeGraph()</a>, <a class="el" href="../../da/d45/dotdirdeps_8cpp_source.html#l00412">DotDirDeps::computeTheGraph()</a>, <a class="el" href="../../d4/d09/dotgfxhierarchytable_8cpp_source.html#l00037">DotGfxHierarchyTable::computeTheGraph()</a>, <a class="el" href="../../d1/d86/dotgroupcollaboration_8cpp_source.html#l00209">DotGroupCollaboration::computeTheGraph()</a>, <a class="el" href="../../d4/d33/dotlegendgraph_8cpp_source.html#l00045">DotLegendGraph::computeTheGraph()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l02413">convertToLaTeX()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l07422">InheritanceGraphContext::Private::createGraph()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l03566">createLinkedText()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l03157">DirContext::Private::dirGraph()</a>, <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l01892">HtmlGenerator::endClassDiagram()</a>, <a class="el" href="../../d2/dd2/entry_8cpp_source.html#l00048">Entry::Entry()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05544">escapeCommas()</a>, <a class="el" href="../../db/d33/msc_8cpp_source.html#l00145">getMscImageMapFromFile()</a>, <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l00304">getSearchBox()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l04607">ModuleContext::Private::groupGraph()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l02839">FileContext::Private::includedByGraph()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l02797">FileContext::Private::includeGraph()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l01819">ClassContext::Private::inheritanceDiagram()</a>, <a class="el" href="../../de/d45/dotgraph_8cpp_source.html#l00086">insertMapFile()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l02464">latexEscapeIndexChars()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l02420">latexEscapeLabelName()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l02509">latexEscapePDFString()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l02533">latexFilterURL()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00879">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l01286">parseCode()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05367">parseCommentAsText()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l01242">parseDoc()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l08886">LatexSpaceless::remove()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l08924">HtmlSpaceless::remove()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03821">TemplateNodeCreate::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03581">TemplateNodeBlock::render()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l03923">TemplateNodeTree::renderChildren()</a>, <a class="el" href="../../d2/dd2/entry_8cpp_source.html#l00184">Entry::reset()</a>, <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00302">DotFilePatcher::run()</a>, <a class="el" href="../../d9/d2f/searchindex__js_8cpp_source.html#l00044">searchId()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l06305">stripIndentation()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00675">substituteLatexKeywords()</a>, <a class="el" href="../../d8/d0a/conceptdef_8cpp_source.html#l00379">templateSpec()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l02465">writeAnnotatedIndexGeneric()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l04145">writeConceptIndex()</a>, <a class="el" href="../../d8/d0a/conceptdef_8cpp_source.html#l00412">ConceptDefImpl::writeDefinition()</a>, <a class="el" href="../../de/daa/dot_8cpp_source.html#l00317">writeDotImageMapFromFile()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l01486">writeFileIndex()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l03973">writeGroupIndex()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l01278">writeHierarchicalExceptionIndex()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l01064">writeHierarchicalIndex()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l01172">writeHierarchicalInterfaceIndex()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l01907">writeNamespaceIndex()</a>, and <a class="el" href="../../db/d14/index_8cpp_source.html#l03592">writePageIndex()</a>.</p>
 
 </div>
 </div>
@@ -1290,13 +1346,13 @@ template&lt;typename T , typename std::enable_if&lt; std::is_same&lt; T, size_t 
 
 <p>Sets the buffer's contents to string <em>s</em> Any data already in the buffer will be flushed. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00246">246</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  247</span>    {</div>
-<div class="line"><span class="lineno">  248</span>      <a class="code hl_function" href="../../d3/d30/class_text_stream.html#a907937b613a56aa4124608b3a092b820">flush</a>();</div>
-<div class="line"><span class="lineno">  249</span>      <span class="keywordflow">if</span> (s) <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>=s;</div>
-<div class="line"><span class="lineno">  250</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00248">248</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  249</span>    {</div>
+<div class="line"><span class="lineno">  250</span>      <a class="code hl_function" href="../../d3/d30/class_text_stream.html#a907937b613a56aa4124608b3a092b820">flush</a>();</div>
+<div class="line"><span class="lineno">  251</span>      <span class="keywordflow">if</span> (s) <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>=s;</div>
+<div class="line"><span class="lineno">  252</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00209">flush()</a>, and <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00282">m_buffer</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00211">flush()</a>, and <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00284">m_buffer</a>.</p>
 
 </div>
 </div>
@@ -1327,13 +1383,13 @@ template&lt;typename T , typename std::enable_if&lt; std::is_same&lt; T, size_t 
 <p>Sets the buffer's contents to string <em>s</em>. </p>
 <p>Any data already in the buffer will be flushed. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00237">237</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  238</span>    {</div>
-<div class="line"><span class="lineno">  239</span>      <a class="code hl_function" href="../../d3/d30/class_text_stream.html#a907937b613a56aa4124608b3a092b820">flush</a>();</div>
-<div class="line"><span class="lineno">  240</span>      <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>=s;</div>
-<div class="line"><span class="lineno">  241</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00239">239</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  240</span>    {</div>
+<div class="line"><span class="lineno">  241</span>      <a class="code hl_function" href="../../d3/d30/class_text_stream.html#a907937b613a56aa4124608b3a092b820">flush</a>();</div>
+<div class="line"><span class="lineno">  242</span>      <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>=s;</div>
+<div class="line"><span class="lineno">  243</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00209">flush()</a>, and <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00282">m_buffer</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00211">flush()</a>, and <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00284">m_buffer</a>.</p>
 
 </div>
 </div>
@@ -1363,14 +1419,12 @@ template&lt;typename T , typename std::enable_if&lt; std::is_same&lt; T, size_t 
 <p>Returns the attached std::ostream object. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d3/d30/class_text_stream.html#a18a4ee87242fc2b8e31941a71e622fd2" title="Sets or changes the std::ostream to write to.">setStream()</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00084">84</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   85</span>    {</div>
-<div class="line"><span class="lineno">   86</span>      <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#aa2cc389f03492be4163601478f0d9118">m_s</a>;</div>
-<div class="line"><span class="lineno">   87</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00086">86</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   87</span>    {</div>
+<div class="line"><span class="lineno">   88</span>      <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#aa2cc389f03492be4163601478f0d9118">m_s</a>;</div>
+<div class="line"><span class="lineno">   89</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00283">m_s</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00048">OutputGenerator::operator=()</a>, and <a class="el" href="../../d0/d17/outputgen_8cpp_source.html#l00037">OutputGenerator::OutputGenerator()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00285">m_s</a>.</p>
 
 </div>
 </div>
@@ -1417,14 +1471,14 @@ template&lt;typename T , typename std::enable_if&lt; std::is_same&lt; T, size_t 
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00201">201</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  202</span>    {</div>
-<div class="line"><span class="lineno">  203</span>      <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>.append(buf,len);</div>
-<div class="line"><span class="lineno">  204</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00203">203</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  204</span>    {</div>
+<div class="line"><span class="lineno">  205</span>      <a class="code hl_variable" href="../../d3/d30/class_text_stream.html#a588661b14e0e238906c63ee414a232ab">m_buffer</a>.append(buf,len);</div>
+<div class="line"><span class="lineno">  206</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00282">m_buffer</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00284">m_buffer</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d09/dotgfxhierarchytable_8cpp_source.html#l00037">DotGfxHierarchyTable::computeTheGraph()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01930">generateXML()</a>, and <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00197">writeUTF8Char()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d09/dotgfxhierarchytable_8cpp_source.html#l00037">DotGfxHierarchyTable::computeTheGraph()</a>, <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l01934">generateXML()</a>, and <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00197">writeUTF8Char()</a>.</p>
 
 </div>
 </div>
@@ -1475,9 +1529,9 @@ template&lt;typename T , typename std::enable_if&lt; std::is_same&lt; T, size_t 
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00282">282</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00284">284</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00223">clear()</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00253">empty()</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00209">flush()</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00095">operator&lt;&lt;()</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00276">output_double()</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00263">output_int32()</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00229">str()</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00040">TextStream()</a>, and <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00201">write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00225">clear()</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00255">empty()</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00211">flush()</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00097">operator&lt;&lt;()</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00278">output_double()</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00265">output_int32()</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00231">str()</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00040">TextStream()</a>, and <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00203">write()</a>.</p>
 
 </div>
 </div>
@@ -1501,9 +1555,9 @@ template&lt;typename T , typename std::enable_if&lt; std::is_same&lt; T, size_t 
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00284">284</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00286">286</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00089">file()</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00209">flush()</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00074">setFile()</a>, and <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00067">setStream()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00091">file()</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00211">flush()</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00076">setFile()</a>, and <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00069">setStream()</a>.</p>
 
 </div>
 </div>
@@ -1527,9 +1581,9 @@ template&lt;typename T , typename std::enable_if&lt; std::is_same&lt; T, size_t 
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00283">283</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00285">285</a> of file <a class="el" href="../../d4/d7d/textstream_8h_source.html">textstream.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00209">flush()</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00074">setFile()</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00067">setStream()</a>, and <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00084">stream()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00211">flush()</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00076">setFile()</a>, <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00069">setStream()</a>, and <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00086">stream()</a>.</p>
 
 </div>
 </div>

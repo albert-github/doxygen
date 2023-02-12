@@ -889,10 +889,10 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1532</span>  yyextra-&gt;current-&gt;protection = yyextra-&gt;protection ;</div>
 <div class="line"><span class="lineno"> 1533</span>  yyextra-&gt;current-&gt;mtype      = yyextra-&gt;mtype;</div>
 <div class="line"><span class="lineno"> 1534</span>  yyextra-&gt;current-&gt;virt       = yyextra-&gt;virt;</div>
-<div class="line"><span class="lineno"> 1535</span>  yyextra-&gt;current-&gt;stat       = yyextra-&gt;stat;</div>
+<div class="line"><span class="lineno"> 1535</span>  yyextra-&gt;current-&gt;isStatic   = yyextra-&gt;isStatic;</div>
 <div class="line"><span class="lineno"> 1536</span>  yyextra-&gt;current-&gt;lang       = <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a9974623ce72fc23df5d64426b9178bf2a57c0fb9de98cdad12bc30c80cf96bd53">SrcLangExt_Python</a>;</div>
 <div class="line"><span class="lineno"> 1537</span>  yyextra-&gt;commentScanner.initGroupInfo(yyextra-&gt;current.get());</div>
-<div class="line"><span class="lineno"> 1538</span>  yyextra-&gt;stat = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
+<div class="line"><span class="lineno"> 1538</span>  yyextra-&gt;isStatic = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
 <div class="ttc" id="atypes_8h_html_a9974623ce72fc23df5d64426b9178bf2a57c0fb9de98cdad12bc30c80cf96bd53"><div class="ttname"><a href="../../d9/d49/types_8h.html#a9974623ce72fc23df5d64426b9178bf2a57c0fb9de98cdad12bc30c80cf96bd53">SrcLangExt_Python</a></div><div class="ttdeci">@ SrcLangExt_Python</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00052">types.h:52</a></div></div>
 <div class="line"><span class="lineno"> 1539</span>}</div>
 </div><!-- fragment -->
@@ -931,7 +931,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1519</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
 <div class="line"><span class="lineno"> 1520</span>  yyextra-&gt;protection = <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda3d067bedfe2f4677470dd6ccf64d05ed">Protection::Public</a>;</div>
 <div class="line"><span class="lineno"> 1521</span>  yyextra-&gt;mtype = <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a0872178db42722c310fe6117189ed441a4c3880bb027f159e801041b1021e88e8">MethodTypes::Method</a>;</div>
-<div class="line"><span class="lineno"> 1522</span>  yyextra-&gt;stat = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
+<div class="line"><span class="lineno"> 1522</span>  yyextra-&gt;isStatic = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
 <div class="line"><span class="lineno"> 1523</span>  yyextra-&gt;virt = <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#ab16236bdd10ddf4d73a9847350f0017ea960b44c579bc2f6818d2daaf9e4c16f0">Specifier::Normal</a>;</div>
 <div class="line"><span class="lineno"> 1524</span>  yyextra-&gt;previous = 0;</div>
 <div class="line"><span class="lineno"> 1525</span>  yyextra-&gt;packageCommentAllowed = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
@@ -1245,7 +1245,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1561</span>  }</div>
 <div class="line"><span class="lineno"> 1562</span>  <span class="keywordflow">if</span> (yyextra-&gt;current_root-&gt;section&amp;<a class="code hl_enumvalue" href="../../d4/dd7/class_entry.html#a1e615d53eb7db6d16c19fcb5788fbd9ea0fbc29ab81cad1713e5b59f04a6866fb">Entry::COMPOUND_MASK</a>) <span class="comment">// mark as class variable</span></div>
 <div class="line"><span class="lineno"> 1563</span>  {</div>
-<div class="line"><span class="lineno"> 1564</span>    yyextra-&gt;current-&gt;stat = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno"> 1564</span>    yyextra-&gt;current-&gt;isStatic = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
 <div class="line"><span class="lineno"> 1565</span>  }</div>
 <div class="line"><span class="lineno"> 1566</span>  <a class="code hl_function" href="../../de/d2b/pyscanner_8l.html#a04219d02c56369b619778a94f19fd58f">newEntry</a>(yyscanner);</div>
 <div class="ttc" id="aclass_entry_html_a1e615d53eb7db6d16c19fcb5788fbd9ea0fbc29ab81cad1713e5b59f04a6866fb"><div class="ttname"><a href="../../d4/dd7/class_entry.html#a1e615d53eb7db6d16c19fcb5788fbd9ea0fbc29ab81cad1713e5b59f04a6866fb">Entry::COMPOUND_MASK</a></div><div class="ttdeci">@ COMPOUND_MASK</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dc6/entry_8h_source.html#l00070">entry.h:70</a></div></div>
@@ -1406,7 +1406,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1897</span> </div>
 <div class="line"><span class="lineno"> 1898</span>  yyextra-&gt;protection    = <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4deda3d067bedfe2f4677470dd6ccf64d05ed">Protection::Public</a>;</div>
 <div class="line"><span class="lineno"> 1899</span>  yyextra-&gt;mtype         = <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a0872178db42722c310fe6117189ed441a4c3880bb027f159e801041b1021e88e8">MethodTypes::Method</a>;</div>
-<div class="line"><span class="lineno"> 1900</span>  yyextra-&gt;stat          = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1900</span>  yyextra-&gt;isStatic      = <span class="keyword">false</span>;</div>
 <div class="line"><span class="lineno"> 1901</span>  yyextra-&gt;virt          = <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#ab16236bdd10ddf4d73a9847350f0017ea960b44c579bc2f6818d2daaf9e4c16f0">Specifier::Normal</a>;</div>
 <div class="line"><span class="lineno"> 1902</span>  yyextra-&gt;current_root  = rt;</div>
 <div class="line"><span class="lineno"> 1903</span>  yyextra-&gt;specialBlock  = <span class="keyword">false</span>;</div>
@@ -1642,14 +1642,14 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1807</span>  yyextra-&gt;current-&gt;section = <a class="code hl_enumvalue" href="../../d4/dd7/class_entry.html#a1e615d53eb7db6d16c19fcb5788fbd9ea0a9b5e033a271b5e44491c2c8277d12e">Entry::FUNCTION_SEC</a>;</div>
 <div class="line"><span class="lineno"> 1808</span>  yyextra-&gt;current-&gt;lang = <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a9974623ce72fc23df5d64426b9178bf2a57c0fb9de98cdad12bc30c80cf96bd53">SrcLangExt_Python</a>;</div>
 <div class="line"><span class="lineno"> 1809</span>  yyextra-&gt;current-&gt;virt = <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#ab16236bdd10ddf4d73a9847350f0017ea960b44c579bc2f6818d2daaf9e4c16f0">Specifier::Normal</a>;</div>
-<div class="line"><span class="lineno"> 1810</span>  yyextra-&gt;current-&gt;stat = yyextra-&gt;stat;</div>
+<div class="line"><span class="lineno"> 1810</span>  yyextra-&gt;current-&gt;isStatic = yyextra-&gt;isStatic;</div>
 <div class="line"><span class="lineno"> 1811</span>  yyextra-&gt;current-&gt;mtype = yyextra-&gt;mtype = <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a0872178db42722c310fe6117189ed441a4c3880bb027f159e801041b1021e88e8">MethodTypes::Method</a>;</div>
 <div class="line"><span class="lineno"> 1812</span>  yyextra-&gt;current-&gt;type.resize(0);</div>
 <div class="line"><span class="lineno"> 1813</span>  yyextra-&gt;current-&gt;name.resize(0);</div>
 <div class="line"><span class="lineno"> 1814</span>  yyextra-&gt;current-&gt;args.resize(0);</div>
 <div class="line"><span class="lineno"> 1815</span>  yyextra-&gt;current-&gt;argList.clear();</div>
 <div class="line"><span class="lineno"> 1816</span>  yyextra-&gt;packageCommentAllowed = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="line"><span class="lineno"> 1817</span>  yyextra-&gt;stat=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
+<div class="line"><span class="lineno"> 1817</span>  yyextra-&gt;isStatic=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
 <div class="line"><span class="lineno"> 1818</span>  <span class="comment">//printf(&quot;searchFoundDef at=%d\n&quot;,yyextra-&gt;yyLineNr);</span></div>
 <div class="ttc" id="aclass_entry_html_a1e615d53eb7db6d16c19fcb5788fbd9ea0a9b5e033a271b5e44491c2c8277d12e"><div class="ttname"><a href="../../d4/dd7/class_entry.html#a1e615d53eb7db6d16c19fcb5788fbd9ea0a9b5e033a271b5e44491c2c8277d12e">Entry::FUNCTION_SEC</a></div><div class="ttdeci">@ FUNCTION_SEC</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dc6/entry_8h_source.html#l00097">entry.h:97</a></div></div>
 <div class="line"><span class="lineno"> 1819</span>}</div>
@@ -1824,7 +1824,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  349</span>                        BEGIN( DoubleQuoteString );</div>
 <div class="line"><span class="lineno">  350</span>                      }</div>
 <div class="line"><span class="lineno">  351</span>    <span class="stringliteral">&quot;@staticmethod&quot;</span>  {</div>
-<div class="line"><span class="lineno">  352</span>                        yyextra-&gt;stat=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno">  352</span>                        yyextra-&gt;isStatic=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
 <div class="line"><span class="lineno">  353</span>                      }</div>
 <div class="line"><span class="lineno">  354</span>    <span class="stringliteral">&quot;@&quot;</span>{SCOPE}{CALL}? { <span class="comment">// decorator</span></div>
 <div class="line"><span class="lineno">  355</span>                        <a class="code hl_define" href="../../d1/d39/doctokenizer_8l.html#a6256e57feb94db36e0dd7c3c83c9180a">lineCount</a>(yyscanner);</div>

@@ -9,6 +9,7 @@ var class_html_code_generator =
     [ "endCodeLine", "da/db6/class_html_code_generator.html#ab0909b2a97301c8da4fcbf83831c84b3", null ],
     [ "endFontClass", "da/db6/class_html_code_generator.html#a8efe5c697dc169b24b5e7da7cf54305e", null ],
     [ "setRelativePath", "da/db6/class_html_code_generator.html#a9bc120e267a5830b05030cf6c74a3d41", null ],
+    [ "setTextStream", "da/db6/class_html_code_generator.html#ad9589e0f726aa6dcd23464bcf609a8fb", null ],
     [ "startCodeFragment", "da/db6/class_html_code_generator.html#a4b6daa1fd74c7b0840c8e19ca9b74af9", null ],
     [ "startCodeLine", "da/db6/class_html_code_generator.html#afbc2414a5387b977150b015dfbd16c10", null ],
     [ "startFontClass", "da/db6/class_html_code_generator.html#a45f7acb5bda9a7225b6091f9a38ee93b", null ],

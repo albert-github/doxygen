@@ -1,16 +1,19 @@
 var searchData=
 [
-  ['t_0',['T',['../d1/d7d/class_member_vector.html#a9a8fb1498502d4146281d030c5fba9a4',1,'MemberVector']]],
-  ['templateinstancelist_1',['TemplateInstanceList',['../d1/da6/classdef_8h.html#ac6ced1c572e645da3d141b20bad3aeb4',1,'classdef.h']]],
-  ['templatelistintfptr_2',['TemplateListIntfPtr',['../de/db8/template_8h.html#ae5beb53f70c1a65115b28f16df375128',1,'template.h']]],
-  ['templatelistptr_3',['TemplateListPtr',['../df/d54/template_8cpp.html#a73f99c5c02d86d4db5ac1e465da9de54',1,'template.cpp']]],
-  ['templatenamemap_4',['TemplateNameMap',['../d1/da6/classdef_8h.html#a52c06547a303385be1dc01559096a3d9',1,'classdef.h']]],
-  ['templatenodeptr_5',['TemplateNodePtr',['../df/d54/template_8cpp.html#ad5d56cc4dda53b50c03b0a20b67be469',1,'template.cpp']]],
-  ['templatestructintfptr_6',['TemplateStructIntfPtr',['../de/db8/template_8h.html#affdade7103de096c55af606a9522ae2a',1,'template.h']]],
-  ['templatestructintfweakptr_7',['TemplateStructIntfWeakPtr',['../de/db8/template_8h.html#a2ad685f88d387eec8d96ab2b532a07e7',1,'template.h']]],
-  ['templatestructptr_8',['TemplateStructPtr',['../df/d54/template_8cpp.html#a9dacbf829f3ee810cab9b4c9fa42aa42',1,'template.cpp']]],
-  ['templatetokenptr_9',['TemplateTokenPtr',['../df/d54/template_8cpp.html#a215d827df329cace362367d29c028e04',1,'template.cpp']]],
-  ['templatetokenstream_10',['TemplateTokenStream',['../df/d54/template_8cpp.html#a2c233adb0784d2ab5020eaab2614c572',1,'template.cpp']]],
-  ['templatevariantlist_11',['TemplateVariantList',['../d0/db8/group__template__api.html#ga721a09a9636793ccb7ae9db5aeef5751',1,'template.h']]],
-  ['tmfieldassigner_12',['TMFieldAssigner',['../d7/d14/datetime_8cpp.html#a6cdae8db18c51bf35a3a227df2a2d211',1,'datetime.cpp']]]
+  ['scope_0',['Scope',['../d4/df2/class_variable_context.html#acaf108f97a14c38cfcc698654e947e7d',1,'VariableContext']]],
+  ['searchindexlist_1',['SearchIndexList',['../dd/de5/searchindex__js_8h.html#aa8e98984f8edbf9500ef5f6172a4a369',1,'searchindex_js.h']]],
+  ['searchindexmap_2',['SearchIndexMap',['../dd/de5/searchindex__js_8h.html#a6fe653d20eef95da0fd767e131b796b7',1,'searchindex_js.h']]],
+  ['searchindexvariant_3',['SearchIndexVariant',['../d8/d4d/class_search_index_intf.html#a46d7403ced815126c0bfa372f94abdeb',1,'SearchIndexIntf']]],
+  ['sectioninfovec_4',['SectionInfoVec',['../d1/df9/class_section_refs.html#a9204a780b875d8cf0964e52ba795aa14',1,'SectionRefs']]],
+  ['size_5ftype_5',['size_type',['../d1/d7d/class_member_vector.html#a50361ae2e3c9cdc4d28f47a65b2d264a',1,'MemberVector']]],
+  ['startdoctype_6',['StartDocType',['../dc/dea/class_x_m_l_handlers.html#a9e5f0a29ad7b6d7b436ee85f91489928',1,'XMLHandlers']]],
+  ['startelementtype_7',['StartElementType',['../dc/dea/class_x_m_l_handlers.html#a64536885798db372a91fd0cda75cf79a',1,'XMLHandlers']]],
+  ['stringmap_8',['StringMap',['../d5/d75/containers_8h.html#a873c44d3c59f807466bccf9641063c6f',1,'containers.h']]],
+  ['stringmultiset_9',['StringMultiSet',['../d5/d75/containers_8h.html#a860ea1d5175a1046be745f7e18c9e356',1,'containers.h']]],
+  ['stringset_10',['StringSet',['../d5/d75/containers_8h.html#a0bc125fc346e538d66d5ea1c33428f00',1,'containers.h']]],
+  ['stringunorderedmap_11',['StringUnorderedMap',['../d5/d75/containers_8h.html#ae9221c0a3b5a2b23e4d7d2cbb8e0d66e',1,'containers.h']]],
+  ['stringunorderedset_12',['StringUnorderedSet',['../d5/d75/containers_8h.html#a68c09b08e1fafb7be76584846eebe628',1,'containers.h']]],
+  ['stringvector_13',['StringVector',['../d5/d75/containers_8h.html#ac8d53003529fb2d062d614077fe6857c',1,'containers.h']]],
+  ['structfield_14',['StructField',['../d6/d73/class_template_immutable_struct.html#a7678cce92f1addd156bad8574e033859',1,'TemplateImmutableStruct']]],
+  ['styledatamap_15',['StyleDataMap',['../d4/df3/rtfstyle_8h.html#a1bdbbe05f0332d6cc81776723ad75332',1,'rtfstyle.h']]]
 ];
