@@ -217,35 +217,35 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01540">1540</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1541</span>{</div>
-<div class="line"><span class="lineno"> 1542</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> scopelessName=name;</div>
-<div class="line"><span class="lineno"> 1543</span>  <span class="keywordtype">int</span> i=scopelessName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ab47a6435c16d61d04fb448f1080b4e26">findRev</a>(<span class="stringliteral">&quot;::&quot;</span>);</div>
-<div class="line"><span class="lineno"> 1544</span>  <span class="keywordflow">if</span> (i!=-1) scopelessName=scopelessName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(i+2);</div>
-<div class="line"><span class="lineno"> 1545</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> result=s;</div>
-<div class="line"><span class="lineno"> 1546</span>  result=result.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a66269a694d9e6961bfd145bb4ca72f42">stripWhiteSpace</a>();</div>
-<div class="line"><span class="lineno"> 1547</span>  <span class="comment">// strip trailing .</span></div>
-<div class="line"><span class="lineno"> 1548</span>  <span class="keywordflow">if</span> (!result.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>() &amp;&amp; result.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a4c8be5d062cc14919b53ff0a3c8f9a4f">at</a>(result.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>()-1)==<span class="charliteral">&#39;.&#39;</span>)</div>
-<div class="line"><span class="lineno"> 1549</span>    result=result.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">left</a>(result.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>()-1);</div>
-<div class="line"><span class="lineno"> 1550</span> </div>
-<div class="line"><span class="lineno"> 1551</span>  <span class="comment">// strip any predefined prefix</span></div>
-<div class="line"><span class="lineno"> 1552</span>  <span class="keyword">const</span> <a class="code hl_typedef" href="../../d5/d75/containers_8h.html#ac8d53003529fb2d062d614077fe6857c">StringVector</a> &amp;briefDescAbbrev = <a class="code hl_define" href="../../db/d16/config_8h.html#a15e896ce0b99792d1344b66af98928e7">Config_getList</a>(ABBREVIATE_BRIEF);</div>
-<div class="line"><span class="lineno"> 1553</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;p : briefDescAbbrev)</div>
-<div class="line"><span class="lineno"> 1554</span>  {</div>
-<div class="line"><span class="lineno"> 1555</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> str = <a class="code hl_function" href="../../d5/d3e/qcstring_8cpp.html#a99187f0723aa35b7f06be3a5506b1285">substitute</a>(p.c_str(),<span class="stringliteral">&quot;$name&quot;</span>,scopelessName); <span class="comment">// replace $name with entity name</span></div>
-<div class="line"><span class="lineno"> 1556</span>    str += <span class="stringliteral">&quot; &quot;</span>;</div>
-<div class="line"><span class="lineno"> 1557</span>    <a class="code hl_function" href="../../d3/dea/definition_8cpp.html#af14d495cc8aa43bd9a23c357e56b4454">stripWord</a>(result,str);</div>
-<div class="line"><span class="lineno"> 1558</span>  }</div>
-<div class="line"><span class="lineno"> 1559</span> </div>
-<div class="line"><span class="lineno"> 1560</span>  <span class="comment">// capitalize first word</span></div>
-<div class="line"><span class="lineno"> 1561</span>  <span class="keywordflow">if</span> (!result.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
+<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01548">1548</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1549</span>{</div>
+<div class="line"><span class="lineno"> 1550</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> scopelessName=name;</div>
+<div class="line"><span class="lineno"> 1551</span>  <span class="keywordtype">int</span> i=scopelessName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ab47a6435c16d61d04fb448f1080b4e26">findRev</a>(<span class="stringliteral">&quot;::&quot;</span>);</div>
+<div class="line"><span class="lineno"> 1552</span>  <span class="keywordflow">if</span> (i!=-1) scopelessName=scopelessName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(i+2);</div>
+<div class="line"><span class="lineno"> 1553</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> result=s;</div>
+<div class="line"><span class="lineno"> 1554</span>  result=result.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a66269a694d9e6961bfd145bb4ca72f42">stripWhiteSpace</a>();</div>
+<div class="line"><span class="lineno"> 1555</span>  <span class="comment">// strip trailing .</span></div>
+<div class="line"><span class="lineno"> 1556</span>  <span class="keywordflow">if</span> (!result.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>() &amp;&amp; result.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a4c8be5d062cc14919b53ff0a3c8f9a4f">at</a>(result.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>()-1)==<span class="charliteral">&#39;.&#39;</span>)</div>
+<div class="line"><span class="lineno"> 1557</span>    result=result.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">left</a>(result.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>()-1);</div>
+<div class="line"><span class="lineno"> 1558</span> </div>
+<div class="line"><span class="lineno"> 1559</span>  <span class="comment">// strip any predefined prefix</span></div>
+<div class="line"><span class="lineno"> 1560</span>  <span class="keyword">const</span> <a class="code hl_typedef" href="../../d5/d75/containers_8h.html#ac8d53003529fb2d062d614077fe6857c">StringVector</a> &amp;briefDescAbbrev = <a class="code hl_define" href="../../db/d16/config_8h.html#a15e896ce0b99792d1344b66af98928e7">Config_getList</a>(ABBREVIATE_BRIEF);</div>
+<div class="line"><span class="lineno"> 1561</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;p : briefDescAbbrev)</div>
 <div class="line"><span class="lineno"> 1562</span>  {</div>
-<div class="line"><span class="lineno"> 1563</span>    <span class="keywordtype">char</span> c=result[0];</div>
-<div class="line"><span class="lineno"> 1564</span>    <span class="keywordflow">if</span> (c&gt;=<span class="charliteral">&#39;a&#39;</span> &amp;&amp; c&lt;=<span class="charliteral">&#39;z&#39;</span>) c+=<span class="charliteral">&#39;A&#39;</span>-<span class="charliteral">&#39;a&#39;</span>;</div>
-<div class="line"><span class="lineno"> 1565</span>    result[0]=c;</div>
+<div class="line"><span class="lineno"> 1563</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> str = <a class="code hl_function" href="../../d5/d3e/qcstring_8cpp.html#a99187f0723aa35b7f06be3a5506b1285">substitute</a>(p.c_str(),<span class="stringliteral">&quot;$name&quot;</span>,scopelessName); <span class="comment">// replace $name with entity name</span></div>
+<div class="line"><span class="lineno"> 1564</span>    str += <span class="stringliteral">&quot; &quot;</span>;</div>
+<div class="line"><span class="lineno"> 1565</span>    <a class="code hl_function" href="../../d3/dea/definition_8cpp.html#af14d495cc8aa43bd9a23c357e56b4454">stripWord</a>(result,str);</div>
 <div class="line"><span class="lineno"> 1566</span>  }</div>
-<div class="line"><span class="lineno"> 1567</span>  <span class="keywordflow">return</span> result;</div>
-<div class="line"><span class="lineno"> 1568</span>}</div>
+<div class="line"><span class="lineno"> 1567</span> </div>
+<div class="line"><span class="lineno"> 1568</span>  <span class="comment">// capitalize first word</span></div>
+<div class="line"><span class="lineno"> 1569</span>  <span class="keywordflow">if</span> (!result.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
+<div class="line"><span class="lineno"> 1570</span>  {</div>
+<div class="line"><span class="lineno"> 1571</span>    <span class="keywordtype">char</span> c=result[0];</div>
+<div class="line"><span class="lineno"> 1572</span>    <span class="keywordflow">if</span> (c&gt;=<span class="charliteral">&#39;a&#39;</span> &amp;&amp; c&lt;=<span class="charliteral">&#39;z&#39;</span>) c+=<span class="charliteral">&#39;A&#39;</span>-<span class="charliteral">&#39;a&#39;</span>;</div>
+<div class="line"><span class="lineno"> 1573</span>    result[0]=c;</div>
+<div class="line"><span class="lineno"> 1574</span>  }</div>
+<div class="line"><span class="lineno"> 1575</span>  <span class="keywordflow">return</span> result;</div>
+<div class="line"><span class="lineno"> 1576</span>}</div>
 <div class="ttc" id="aclass_q_c_string_html"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html">QCString</a></div><div class="ttdoc">This is an alternative implementation of QCString.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00102">qcstring.h:103</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a27136caf9c0bc4daca574cda6f113551"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">QCString::mid</a></div><div class="ttdeci">QCString mid(size_t index, size_t len=static_cast&lt; size_t &gt;(-1)) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00221">qcstring.h:221</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a4c8be5d062cc14919b53ff0a3c8f9a4f"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a4c8be5d062cc14919b53ff0a3c8f9a4f">QCString::at</a></div><div class="ttdeci">char &amp; at(size_t i)</div><div class="ttdoc">Returns a reference to the character at index i.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00513">qcstring.h:513</a></div></div>
@@ -256,12 +256,12 @@ Variables</h2></td></tr>
 <div class="ttc" id="aclass_q_c_string_html_aecf8b66312c4e97333219cc344c11a4f"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">QCString::left</a></div><div class="ttdeci">QCString left(size_t len) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00209">qcstring.h:209</a></div></div>
 <div class="ttc" id="aconfig_8h_html_a15e896ce0b99792d1344b66af98928e7"><div class="ttname"><a href="../../db/d16/config_8h.html#a15e896ce0b99792d1344b66af98928e7">Config_getList</a></div><div class="ttdeci">#define Config_getList(name)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/config_8h_source.html#l00037">config.h:37</a></div></div>
 <div class="ttc" id="acontainers_8h_html_ac8d53003529fb2d062d614077fe6857c"><div class="ttname"><a href="../../d5/d75/containers_8h.html#ac8d53003529fb2d062d614077fe6857c">StringVector</a></div><div class="ttdeci">std::vector&lt; std::string &gt; StringVector</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d75/containers_8h_source.html#l00032">containers.h:32</a></div></div>
-<div class="ttc" id="adefinition_8cpp_html_af14d495cc8aa43bd9a23c357e56b4454"><div class="ttname"><a href="../../d3/dea/definition_8cpp.html#af14d495cc8aa43bd9a23c357e56b4454">stripWord</a></div><div class="ttdeci">static bool stripWord(QCString &amp;s, QCString w)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l01527">definition.cpp:1527</a></div></div>
+<div class="ttc" id="adefinition_8cpp_html_af14d495cc8aa43bd9a23c357e56b4454"><div class="ttname"><a href="../../d3/dea/definition_8cpp.html#af14d495cc8aa43bd9a23c357e56b4454">stripWord</a></div><div class="ttdeci">static bool stripWord(QCString &amp;s, QCString w)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l01535">definition.cpp:1535</a></div></div>
 <div class="ttc" id="aqcstring_8cpp_html_a99187f0723aa35b7f06be3a5506b1285"><div class="ttname"><a href="../../d5/d3e/qcstring_8cpp.html#a99187f0723aa35b7f06be3a5506b1285">substitute</a></div><div class="ttdeci">QCString substitute(const QCString &amp;s, const QCString &amp;src, const QCString &amp;dst)</div><div class="ttdoc">substitute all occurrences of src in s by dst</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d3e/qcstring_8cpp_source.html#l00473">qcstring.cpp:473</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00513">QCString::at()</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00037">Config_getList</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00091">QCString::findRev()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00138">QCString::isEmpty()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00209">QCString::left()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00141">QCString::length()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00221">QCString::mid()</a>, <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01830">DefinitionImpl::name()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00240">QCString::stripWhiteSpace()</a>, <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01527">stripWord()</a>, and <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00473">substitute()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00513">QCString::at()</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00037">Config_getList</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00091">QCString::findRev()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00138">QCString::isEmpty()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00209">QCString::left()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00141">QCString::length()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00221">QCString::mid()</a>, <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01838">DefinitionImpl::name()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00240">QCString::stripWhiteSpace()</a>, <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01535">stripWord()</a>, and <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00473">substitute()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01573">DefinitionImpl::briefDescription()</a>, <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00165">DefinitionMixin&lt; Base &gt;::briefDescription()</a>, and <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00346">DefinitionAliasMixin&lt; Base &gt;::briefDescription()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01581">DefinitionImpl::briefDescription()</a>, <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00165">DefinitionMixin&lt; Base &gt;::briefDescription()</a>, and <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00346">DefinitionAliasMixin&lt; Base &gt;::briefDescription()</a>.</p>
 
 </div>
 </div>
@@ -319,9 +319,9 @@ Variables</h2></td></tr>
 <div class="ttc" id="aconfig_8h_html_a5373d0332a31f16ad7a42037733e8c79"><div class="ttname"><a href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a></div><div class="ttdeci">#define Config_getBool(name)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/config_8h_source.html#l00033">config.h:33</a></div></div>
 <div class="ttc" id="autil_8h_html_a84e80a5dfaa2db05ad8b5d2e8d0f58f7"><div class="ttname"><a href="../../d8/d3c/util_8h.html#a84e80a5dfaa2db05ad8b5d2e8d0f58f7">computeQualifiedIndex</a></div><div class="ttdeci">int computeQualifiedIndex(const QCString &amp;name)</div><div class="ttdoc">Return the index of the last :: in the string name that is still before the first &lt;.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d3c/util_8h_source.html#l00307">util.h:307</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/dcc/class_definition.html#ab0059012da8842e6a1768b0448f32867">Definition::_setSymbolName()</a>, <a class="el" href="../../d7/ddd/symbolmap_8h_source.html#l00040">SymbolMap&lt; T &gt;::add()</a>, <a class="el" href="../../d8/d3c/util_8h_source.html#l00307">computeQualifiedIndex()</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00138">QCString::isEmpty()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00221">QCString::mid()</a>, <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01830">DefinitionImpl::name()</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00118">Doxygen::symbolMap</a>, and <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01503">DefinitionImpl::symbolName()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/dcc/class_definition.html#ab0059012da8842e6a1768b0448f32867">Definition::_setSymbolName()</a>, <a class="el" href="../../d7/ddd/symbolmap_8h_source.html#l00040">SymbolMap&lt; T &gt;::add()</a>, <a class="el" href="../../d8/d3c/util_8h_source.html#l00307">computeQualifiedIndex()</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00138">QCString::isEmpty()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00221">QCString::mid()</a>, <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01838">DefinitionImpl::name()</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00118">Doxygen::symbolMap</a>, and <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01511">DefinitionImpl::symbolName()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00225">DefinitionImpl::DefinitionImpl()</a>, and <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01869">DefinitionAliasImpl::init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00246">DefinitionImpl::DefinitionImpl()</a>, <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00225">DefinitionImpl::DefinitionImpl()</a>, and <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01877">DefinitionAliasImpl::init()</a>.</p>
 
 </div>
 </div>
@@ -413,7 +413,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="aqcstring_8h_html_aa93f0eb578d23995850d61f7d61c55c1"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></div><div class="ttdeci">#define FALSE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00033">qcstring.h:33</a></div></div>
 <div class="ttc" id="autil_8h_html_ae320c88a8522836f00095d566529046f"><div class="ttname"><a href="../../d8/d3c/util_8h.html#ae320c88a8522836f00095d566529046f">isId</a></div><div class="ttdeci">bool isId(int c)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d3c/util_8h_source.html#l00169">util.h:169</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00513">QCString::at()</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00037">Config_getList</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00043">QCString::find()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00138">QCString::isEmpty()</a>, <a class="el" href="../../d8/d3c/util_8h_source.html#l00169">isId()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00209">QCString::left()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00141">QCString::length()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00221">QCString::mid()</a>, <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01830">DefinitionImpl::name()</a>, <a class="el" href="../../d6/d85/regex_8cpp_source.html#l00749">reg::search()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00478">QCString::str()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00473">substitute()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00513">QCString::at()</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00037">Config_getList</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00043">QCString::find()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00138">QCString::isEmpty()</a>, <a class="el" href="../../d8/d3c/util_8h_source.html#l00169">isId()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00209">QCString::left()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00141">QCString::length()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00221">QCString::mid()</a>, <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01838">DefinitionImpl::name()</a>, <a class="el" href="../../d6/d85/regex_8cpp_source.html#l00749">reg::search()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00478">QCString::str()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00473">substitute()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00225">DefinitionImpl::DefinitionImpl()</a>.</p>
 
@@ -661,7 +661,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../dd/d78/memberlist_8h_source.html#l00052">MemberVector::begin()</a>, and <a class="el" href="../../dd/d78/memberlist_8h_source.html#l00054">MemberVector::end()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01102">DefinitionImpl::_writeSourceRefList()</a>, <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01718">DefinitionImpl::getReferencedByMembers()</a>, and <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01708">DefinitionImpl::getReferencesMembers()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01102">DefinitionImpl::_writeSourceRefList()</a>, <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01726">DefinitionImpl::getReferencedByMembers()</a>, and <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01716">DefinitionImpl::getReferencesMembers()</a>.</p>
 
 </div>
 </div>
@@ -705,9 +705,9 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno">  223</span>}</div>
 <div class="ttc" id="aclass_symbol_map_html_a36b000d1d74ec4820b0d1c3a57dd645c"><div class="ttname"><a href="../../d4/d85/class_symbol_map.html#a36b000d1d74ec4820b0d1c3a57dd645c">SymbolMap::remove</a></div><div class="ttdeci">void remove(const QCString &amp;name, Ptr def)</div><div class="ttdoc">Remove a symbol def from the map that was stored under key name.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/ddd/symbolmap_8h_source.html#l00054">symbolmap.h:54</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01830">DefinitionImpl::name()</a>, <a class="el" href="../../d7/ddd/symbolmap_8h_source.html#l00054">SymbolMap&lt; T &gt;::remove()</a>, and <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00118">Doxygen::symbolMap</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01838">DefinitionImpl::name()</a>, <a class="el" href="../../d7/ddd/symbolmap_8h_source.html#l00054">SymbolMap&lt; T &gt;::remove()</a>, and <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00118">Doxygen::symbolMap</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01875">DefinitionAliasImpl::deinit()</a>, and <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00274">DefinitionImpl::~DefinitionImpl()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01883">DefinitionAliasImpl::deinit()</a>, and <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00274">DefinitionImpl::~DefinitionImpl()</a>.</p>
 
 </div>
 </div>
@@ -745,21 +745,21 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01527">1527</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1528</span>{</div>
-<div class="line"><span class="lineno"> 1529</span>  <span class="keywordtype">bool</span> success=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="line"><span class="lineno"> 1530</span>  <span class="keywordflow">if</span> (s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">left</a>(w.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>())==w)</div>
-<div class="line"><span class="lineno"> 1531</span>  {</div>
-<div class="line"><span class="lineno"> 1532</span>    success=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno"> 1533</span>    s=s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a8f4aa5417f6a834f28c7148a1fe262d5">right</a>(s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>()-w.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>());</div>
-<div class="line"><span class="lineno"> 1534</span>  }</div>
-<div class="line"><span class="lineno"> 1535</span>  <span class="keywordflow">return</span> success;</div>
-<div class="line"><span class="lineno"> 1536</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01535">1535</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1536</span>{</div>
+<div class="line"><span class="lineno"> 1537</span>  <span class="keywordtype">bool</span> success=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
+<div class="line"><span class="lineno"> 1538</span>  <span class="keywordflow">if</span> (s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">left</a>(w.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>())==w)</div>
+<div class="line"><span class="lineno"> 1539</span>  {</div>
+<div class="line"><span class="lineno"> 1540</span>    success=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno"> 1541</span>    s=s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a8f4aa5417f6a834f28c7148a1fe262d5">right</a>(s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>()-w.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>());</div>
+<div class="line"><span class="lineno"> 1542</span>  }</div>
+<div class="line"><span class="lineno"> 1543</span>  <span class="keywordflow">return</span> success;</div>
+<div class="line"><span class="lineno"> 1544</span>}</div>
 <div class="ttc" id="aclass_q_c_string_html_a8f4aa5417f6a834f28c7148a1fe262d5"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a8f4aa5417f6a834f28c7148a1fe262d5">QCString::right</a></div><div class="ttdeci">QCString right(size_t len) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00214">qcstring.h:214</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00209">QCString::left()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00141">QCString::length()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00214">QCString::right()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01540">abbreviate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01548">abbreviate()</a>.</p>
 
 </div>
 </div>
@@ -779,11 +779,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01902">1902</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1903</span>{</div>
-<div class="line"><span class="lineno"> 1904</span>  <span class="keywordflow">if</span> (dm==0) <span class="keywordflow">return</span> 0;</div>
-<div class="line"><span class="lineno"> 1905</span>  <span class="keywordflow">return</span> dm-&gt;<a class="code hl_function" href="../../d0/d46/class_definition_mutable.html#a648211c215471d74b9b7330c856bce35">toDefinition_</a>();</div>
-<div class="line"><span class="lineno"> 1906</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01910">1910</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1911</span>{</div>
+<div class="line"><span class="lineno"> 1912</span>  <span class="keywordflow">if</span> (dm==0) <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno"> 1913</span>  <span class="keywordflow">return</span> dm-&gt;<a class="code hl_function" href="../../d0/d46/class_definition_mutable.html#a648211c215471d74b9b7330c856bce35">toDefinition_</a>();</div>
+<div class="line"><span class="lineno"> 1914</span>}</div>
 <div class="ttc" id="aclass_definition_mutable_html_a648211c215471d74b9b7330c856bce35"><div class="ttname"><a href="../../d0/d46/class_definition_mutable.html#a648211c215471d74b9b7330c856bce35">DefinitionMutable::toDefinition_</a></div><div class="ttdeci">virtual Definition * toDefinition_()=0</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d5/d61/indexlist_8h_source.html#l00108">IndexList::decContentsDepth()</a>, and <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00127">Doxygen::indexList</a>.</p>
@@ -808,11 +808,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01908">1908</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1909</span>{</div>
-<div class="line"><span class="lineno"> 1910</span>  <span class="keywordflow">if</span> (d==0) <span class="keywordflow">return</span> 0;</div>
-<div class="line"><span class="lineno"> 1911</span>  <span class="keywordflow">return</span> d-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#a79aff03392a397ddc87e8147d10d5959">toDefinitionMutable_</a>();</div>
-<div class="line"><span class="lineno"> 1912</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01916">1916</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1917</span>{</div>
+<div class="line"><span class="lineno"> 1918</span>  <span class="keywordflow">if</span> (d==0) <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno"> 1919</span>  <span class="keywordflow">return</span> d-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#a79aff03392a397ddc87e8147d10d5959">toDefinitionMutable_</a>();</div>
+<div class="line"><span class="lineno"> 1920</span>}</div>
 <div class="ttc" id="aclass_definition_html_a79aff03392a397ddc87e8147d10d5959"><div class="ttname"><a href="../../d5/dcc/class_definition.html#a79aff03392a397ddc87e8147d10d5959">Definition::toDefinitionMutable_</a></div><div class="ttdeci">virtual DefinitionMutable * toDefinitionMutable_()=0</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00119">Doxygen::clangUsrMap</a>, <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00050">DefinitionImpl::IMPL::def</a>, and <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00138">DefinitionImpl::m_impl</a>.</p>
@@ -842,9 +842,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01706">1706</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01714">1714</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01718">DefinitionImpl::getReferencedByMembers()</a>, and <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01708">DefinitionImpl::getReferencesMembers()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01726">DefinitionImpl::getReferencedByMembers()</a>, and <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01716">DefinitionImpl::getReferencesMembers()</a>.</p>
 
 </div>
 </div>
@@ -868,9 +868,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01265">1265</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01273">1273</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01267">DefinitionImpl::qualifiedName()</a>, and <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01303">DefinitionImpl::setOuterScope()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01275">DefinitionImpl::qualifiedName()</a>, and <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01311">DefinitionImpl::setOuterScope()</a>.</p>
 
 </div>
 </div>
