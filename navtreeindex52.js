@@ -1,5 +1,12 @@
 var NAVTREEINDEX52 =
 {
+"d6/df4/struct_token_info.html#afc2259af930fe0364268ed684b558629":[8,0,558,5],
+"d6/df7/class_template_node_with.html":[8,0,541],
+"d6/df7/class_template_node_with.html#a339377f89490fe8c1e9e7b2dad34e11b":[8,0,541,3],
+"d6/df7/class_template_node_with.html#a4cd20377ca697bc0b7cfac78ea388ad5":[8,0,541,4],
+"d6/df7/class_template_node_with.html#a7353fc9b4a478775f38813da0508032e":[8,0,541,5],
+"d6/df7/class_template_node_with.html#ac68d1a07a595112d971a6f07056d120b":[8,0,541,2],
+"d6/df7/class_template_node_with.html#afc4fcb9701bd7c780587f80ef43f14b9":[8,0,541,1],
 "d6/df9/struct_latex_doc_visitor_1_1_table_state.html":[8,0,346,2],
 "d6/df9/struct_latex_doc_visitor_1_1_table_state.html#a0b0074263ea40013eaf49269413ca41f":[8,0,346,2,5],
 "d6/df9/struct_latex_doc_visitor_1_1_table_state.html#a518c7aed7642687c872cbcee3bbf97c2":[8,0,346,2,3],
@@ -68,6 +75,7 @@ var NAVTREEINDEX52 =
 "d7/d1c/namespacedef_8cpp.html#ae65b26c6bacb105ce782802c1036547b":[9,0,2,179,3],
 "d7/d1c/namespacedef_8cpp.html#af84e6fea0b6f07072eab35b1569fd357":[9,0,2,179,7],
 "d7/d1c/namespacedef_8cpp_source.html":[9,0,2,179],
+"d7/d1f/md_tags__history.html":[4],
 "d7/d21/class_cond_parser.html":[8,0,73],
 "d7/d21/class_cond_parser.html#a28282ad4ee865a4601722ae5c4f7ea97":[8,0,73,2],
 "d7/d21/class_cond_parser.html#a34b7c2efbc206f720c384413f2630790":[8,0,73,15],
@@ -241,13 +249,5 @@ var NAVTREEINDEX52 =
 "d7/d21/class_translator_danish.html#a9679ae0a7c5ef5f5af45a372b2710934":[8,0,585,77],
 "d7/d21/class_translator_danish.html#a96dcc5dd9e7b1ee7bdcf140b78eee43d":[8,0,585,192],
 "d7/d21/class_translator_danish.html#a98a043616876ae3979cf60a4872393ef":[8,0,585,202],
-"d7/d21/class_translator_danish.html#a9a2de5b46f1ec6faed8208e7c15c1670":[8,0,585,129],
-"d7/d21/class_translator_danish.html#a9a79ab8cb2b324ba59a0c995d6da83dd":[8,0,585,2],
-"d7/d21/class_translator_danish.html#a9b88bbcfc4fcb0a2bb39ef9a0f57d71a":[8,0,585,154],
-"d7/d21/class_translator_danish.html#a9cf5b54f0fd396d56eefece30a584721":[8,0,585,219],
-"d7/d21/class_translator_danish.html#a9d0bca8f89d36acc016338d4fec90df1":[8,0,585,95],
-"d7/d21/class_translator_danish.html#a9ec3d7448d274bc46d1be1509c1edfb5":[8,0,585,209],
-"d7/d21/class_translator_danish.html#aa03472bb661eb4e2926f0f874bed355e":[8,0,585,181],
-"d7/d21/class_translator_danish.html#aa17e2218848b1810def3b63ea85c5ae7":[8,0,585,152],
-"d7/d21/class_translator_danish.html#aa26e0b1eca8077c9c59712c5f09887fb":[8,0,585,128]
+"d7/d21/class_translator_danish.html#a9a2de5b46f1ec6faed8208e7c15c1670":[8,0,585,129]
 };

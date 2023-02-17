@@ -1,8 +1,5 @@
 var NAVTREEINDEX72 =
 {
-"d9/dc1/class_translator_catalan.html#a74eaf438b0f84919715636ebeeda04f2":[8,0,580,179],
-"d9/dc1/class_translator_catalan.html#a756bb5cc093b5b1786fc0f7bb82ad7d4":[8,0,580,9],
-"d9/dc1/class_translator_catalan.html#a7630b9b388daad151c69d076a943e068":[8,0,580,57],
 "d9/dc1/class_translator_catalan.html#a763447f104738c8f0ec0aef0e08aa026":[8,0,580,167],
 "d9/dc1/class_translator_catalan.html#a7757e6e81cbd7f64a542061b8c67daf3":[8,0,580,30],
 "d9/dc1/class_translator_catalan.html#a78158239235bd6d47ed412d70e6067c9":[8,0,580,72],
@@ -198,8 +195,8 @@ var NAVTREEINDEX72 =
 "d9/dcc/structpyscanner_y_y__state.html#af5480b94093d688826679b0d850e0bd5":[8,0,450,40],
 "d9/dcc/structpyscanner_y_y__state.html#af7a4d5f5c5f8c9293d2a7e109bbf4994":[8,0,450,35],
 "d9/dcc/structpyscanner_y_y__state.html#af8167c3e120ae742f6f3f1ffc4694921":[8,0,450,39],
-"d9/dcd/struct_output_gen_intf_1_1start_typewriter.html":[8,0,5,164],
 "d9/dcd/struct_output_gen_intf_1_1start_typewriter.html":[7,0,10,164],
+"d9/dcd/struct_output_gen_intf_1_1start_typewriter.html":[8,0,5,164],
 "d9/dcd/struct_output_gen_intf_1_1start_typewriter.html#af7b9b58a4aebf3e83f7e4eb7a621628c":[7,0,10,164,0],
 "d9/dcd/struct_output_gen_intf_1_1start_typewriter.html#af7b9b58a4aebf3e83f7e4eb7a621628c":[8,0,5,164,0],
 "d9/dd0/lexscanner_8h.html":[9,0,2,158],
@@ -249,5 +246,8 @@ var NAVTREEINDEX72 =
 "d9/ddf/class_translator_macedonian.html#a1409a1d2fe6e580a1ccd6f950bfa2652":[8,0,603,106],
 "d9/ddf/class_translator_macedonian.html#a141299579a7ae8b7cd7129365b0b716b":[8,0,603,97],
 "d9/ddf/class_translator_macedonian.html#a169794fb791c6dde04441d08ed533dc7":[8,0,603,88],
-"d9/ddf/class_translator_macedonian.html#a196e4698019efb3bdd935f13a6f5b1cb":[8,0,603,54]
+"d9/ddf/class_translator_macedonian.html#a196e4698019efb3bdd935f13a6f5b1cb":[8,0,603,54],
+"d9/ddf/class_translator_macedonian.html#a1a56272f649a80155cbf3ced93cf9f1d":[8,0,603,17],
+"d9/ddf/class_translator_macedonian.html#a2177fa2711935d8d91e5daa8c47c5cd9":[8,0,603,45],
+"d9/ddf/class_translator_macedonian.html#a2230f71a04ada8241a13b69816030b8d":[8,0,603,92]
 };

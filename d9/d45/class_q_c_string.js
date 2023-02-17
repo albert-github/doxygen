@@ -47,7 +47,7 @@ var class_q_c_string =
     [ "prepend", "d9/d45/class_q_c_string.html#a0a6a8fe99e596b149ee15138fa8dcf0c", null ],
     [ "prepend", "d9/d45/class_q_c_string.html#acffefc809c8b24e32df929c2985bdf48", null ],
     [ "prepend", "d9/d45/class_q_c_string.html#a792b11db11f131e280229450e9ad4fba", null ],
-    [ "quoted", "d9/d45/class_q_c_string.html#ae4c655b407a0500e3fdf91f182e4880f", null ],
+    [ "quoted", "d9/d45/class_q_c_string.html#af428b9307683dc2c090f7d837138b438", null ],
     [ "rawData", "d9/d45/class_q_c_string.html#a5f5c9dc172d638c8d7b07010d100117a", null ],
     [ "remove", "d9/d45/class_q_c_string.html#a66f15f4dde9edaf0aac741fa7d57bae8", null ],
     [ "removeWhiteSpace", "d9/d45/class_q_c_string.html#ae5612f003ab58972eb5769811876c5e3", null ],

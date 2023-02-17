@@ -1,9 +1,5 @@
 var NAVTREEINDEX98 =
 {
-"dc/df2/class_translator_portuguese.html#aa974995ae597bf8818937c9e00a4c103":[8,0,607,35],
-"dc/df2/class_translator_portuguese.html#aab7cba8ddd3a003584bdd079877c314a":[8,0,607,82],
-"dc/df2/class_translator_portuguese.html#aabd1229a0c0c935ba7703e0e52ac303a":[8,0,607,272],
-"dc/df2/class_translator_portuguese.html#aabde76a5a9e8d21c289609f9b7f7065b":[8,0,607,29],
 "dc/df2/class_translator_portuguese.html#aac07d78d215361ef314789f636c44031":[8,0,607,213],
 "dc/df2/class_translator_portuguese.html#aaccdc9a1d69bc4ffdb6763556d50dc1a":[8,0,607,34],
 "dc/df2/class_translator_portuguese.html#aad36da2e231ef9d4d77c852fcfbd3755":[8,0,607,40],
@@ -116,8 +112,8 @@ var NAVTREEINDEX98 =
 "dc/dfb/class_class_index_context.html#a5f48bdbdb7eee86a1f8967667a083fdc":[8,0,43,6],
 "dc/dfb/class_class_index_context.html#a8413738a251eb50de31f2b4c5dda0816":[8,0,43,4],
 "dc/dfb/class_class_index_context.html#abae1fbf0934b50f01d86cdc33165d8ae":[8,0,43,2],
-"dc/dff/struct_output_gen_intf_1_1end_dot_graph.html":[8,0,5,23],
 "dc/dff/struct_output_gen_intf_1_1end_dot_graph.html":[7,0,10,23],
+"dc/dff/struct_output_gen_intf_1_1end_dot_graph.html":[8,0,5,23],
 "dc/dff/struct_output_gen_intf_1_1end_dot_graph.html#ad57896e3e27c1ac701e64a641e528673":[8,0,5,23,0],
 "dc/dff/struct_output_gen_intf_1_1end_dot_graph.html#ad57896e3e27c1ac701e64a641e528673":[7,0,10,23,0],
 "dd/d00/fortranscanner_8l.html":[9,0,2,125],
@@ -249,5 +245,9 @@ var NAVTREEINDEX98 =
 "dd/d0b/class_translator_slovene.html#a47ef8896ddf5f3b9cf3efcd64481a670":[8,0,613,127],
 "dd/d0b/class_translator_slovene.html#a49065c4a9a2eec3961a47bc069f8fcd7":[8,0,613,92],
 "dd/d0b/class_translator_slovene.html#a4b597bdfaccb86e4da31115dab513886":[8,0,613,10],
-"dd/d0b/class_translator_slovene.html#a4f9c88a5ce08e4ad3a12d6aa7b2cd03a":[8,0,613,126]
+"dd/d0b/class_translator_slovene.html#a4f9c88a5ce08e4ad3a12d6aa7b2cd03a":[8,0,613,126],
+"dd/d0b/class_translator_slovene.html#a5073661e6c1e1a571c60e575cd9e1d8f":[8,0,613,182],
+"dd/d0b/class_translator_slovene.html#a507d05124e24474e3a2d3ff47327956c":[8,0,613,21],
+"dd/d0b/class_translator_slovene.html#a5175a933e1744c2a370071678650ac6f":[8,0,613,74],
+"dd/d0b/class_translator_slovene.html#a51b891d12c8e21a3b675ceee05f050ac":[8,0,613,60]
 };

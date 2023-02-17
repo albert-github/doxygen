@@ -31,7 +31,6 @@ var class_doc_tokenizer =
     [ "setStateILiteral", "d1/d7f/class_doc_tokenizer.html#a176080102d22a57cf6b954cd0fd800ed", null ],
     [ "setStateILiteralOpt", "d1/d7f/class_doc_tokenizer.html#a146a51289b61c4a07eae63f20a70c47c", null ],
     [ "setStateInternalRef", "d1/d7f/class_doc_tokenizer.html#ac3823e30efb8777b24236bf28c1fac52", null ],
-    [ "setStateIRef", "d1/d7f/class_doc_tokenizer.html#a902b9d37f7e985353e974064238367f2", null ],
     [ "setStateIVerbatim", "d1/d7f/class_doc_tokenizer.html#aeb2eaeb1ff17b18714dba1df124638e0", null ],
     [ "setStateLatexOnly", "d1/d7f/class_doc_tokenizer.html#a809628767bfb37617b67e8909177c379", null ],
     [ "setStateLink", "d1/d7f/class_doc_tokenizer.html#a75e912a405a74470ff41c7cd66dd7d8d", null ],
