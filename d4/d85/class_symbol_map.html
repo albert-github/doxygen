@@ -305,11 +305,11 @@ template&lt;class T &gt; </div>
 <div class="line"><span class="lineno">   49</span>        <a class="code hl_variable" href="../../d4/d85/class_symbol_map.html#adb4e4e42ab3d988f61ab9e6a3f057bcf">m_map</a>.emplace(std::make_pair(name.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>(),<a class="code hl_typedef" href="../../d4/d85/class_symbol_map.html#a9051b6931ae769df892b5755f5c0a0e7">VectorPtr</a>({def})));</div>
 <div class="line"><span class="lineno">   50</span>      }</div>
 <div class="line"><span class="lineno">   51</span>    }</div>
-<div class="ttc" id="aclass_q_c_string_html_a875e9ad762554ef12f3ed69b015bb245"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">QCString::str</a></div><div class="ttdeci">const std::string &amp; str() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00478">qcstring.h:478</a></div></div>
+<div class="ttc" id="aclass_q_c_string_html_a875e9ad762554ef12f3ed69b015bb245"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">QCString::str</a></div><div class="ttdeci">const std::string &amp; str() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00488">qcstring.h:488</a></div></div>
 <div class="ttc" id="aclass_symbol_map_html_a9051b6931ae769df892b5755f5c0a0e7"><div class="ttname"><a href="../../d4/d85/class_symbol_map.html#a9051b6931ae769df892b5755f5c0a0e7">SymbolMap::VectorPtr</a></div><div class="ttdeci">std::vector&lt; Ptr &gt; VectorPtr</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/ddd/symbolmap_8h_source.html#l00034">symbolmap.h:34</a></div></div>
 <div class="ttc" id="aclass_symbol_map_html_adb4e4e42ab3d988f61ab9e6a3f057bcf"><div class="ttname"><a href="../../d4/d85/class_symbol_map.html#adb4e4e42ab3d988f61ab9e6a3f057bcf">SymbolMap::m_map</a></div><div class="ttdeci">Map m_map</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/ddd/symbolmap_8h_source.html#l00091">symbolmap.h:91</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/ddd/symbolmap_8h_source.html#l00091">SymbolMap&lt; T &gt;::m_map</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00478">QCString::str()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/ddd/symbolmap_8h_source.html#l00091">SymbolMap&lt; T &gt;::m_map</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00488">QCString::str()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00205">addToMap()</a>.</p>
 
@@ -510,7 +510,7 @@ template&lt;class T &gt; </div>
 <div class="line"><span class="lineno">   82</span>    }</div>
 <div class="ttc" id="aclass_symbol_map_html_a44148f88041734dd12f69521dc25e174"><div class="ttname"><a href="../../d4/d85/class_symbol_map.html#a44148f88041734dd12f69521dc25e174">SymbolMap::m_noMatch</a></div><div class="ttdeci">VectorPtr m_noMatch</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/ddd/symbolmap_8h_source.html#l00092">symbolmap.h:92</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/ddd/symbolmap_8h_source.html#l00091">SymbolMap&lt; T &gt;::m_map</a>, <a class="el" href="../../d7/ddd/symbolmap_8h_source.html#l00092">SymbolMap&lt; T &gt;::m_noMatch</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00478">QCString::str()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/ddd/symbolmap_8h_source.html#l00091">SymbolMap&lt; T &gt;::m_map</a>, <a class="el" href="../../d7/ddd/symbolmap_8h_source.html#l00092">SymbolMap&lt; T &gt;::m_noMatch</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00488">QCString::str()</a>.</p>
 
 </div>
 </div>
@@ -548,7 +548,7 @@ template&lt;class T &gt; </div>
 <div class="line"><span class="lineno">   73</span>      <span class="keywordflow">return</span> it==<a class="code hl_variable" href="../../d4/d85/class_symbol_map.html#adb4e4e42ab3d988f61ab9e6a3f057bcf">m_map</a>.end() ? <a class="code hl_variable" href="../../d4/d85/class_symbol_map.html#a44148f88041734dd12f69521dc25e174">m_noMatch</a> : it-&gt;second;</div>
 <div class="line"><span class="lineno">   74</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/ddd/symbolmap_8h_source.html#l00091">SymbolMap&lt; T &gt;::m_map</a>, <a class="el" href="../../d7/ddd/symbolmap_8h_source.html#l00092">SymbolMap&lt; T &gt;::m_noMatch</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00478">QCString::str()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/ddd/symbolmap_8h_source.html#l00091">SymbolMap&lt; T &gt;::m_map</a>, <a class="el" href="../../d7/ddd/symbolmap_8h_source.html#l00092">SymbolMap&lt; T &gt;::m_noMatch</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00488">QCString::str()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d3/ded/pycode_8l_source.html#l01496">findMemberLink()</a>, <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html#l01096">SymbolResolver::Private::followPath()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05261">getMemberFromSymbol()</a>, <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html#l00340">SymbolResolver::Private::getResolvedSymbolRec()</a>, <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html#l00191">SymbolResolver::Private::getResolvedTypeRec()</a>, <a class="el" href="../../d7/ddd/symbolmap_8h_source.html#l00054">SymbolMap&lt; T &gt;::remove()</a>, and <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html#l01408">SymbolResolver::Private::substTypedef()</a>.</p>
 
@@ -607,7 +607,7 @@ template&lt;class T &gt; </div>
 <div class="line"><span class="lineno">   66</span>    }</div>
 <div class="ttc" id="aclass_symbol_map_html_a7f278648058288ad501bdb8d6d10c223"><div class="ttname"><a href="../../d4/d85/class_symbol_map.html#a7f278648058288ad501bdb8d6d10c223">SymbolMap::find</a></div><div class="ttdeci">const VectorPtr &amp; find(const QCString &amp;name) const</div><div class="ttdoc">Find the list of symbols stored under key name Returns a pair of iterators pointing to the start and ...</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/ddd/symbolmap_8h_source.html#l00070">symbolmap.h:70</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/ddd/symbolmap_8h_source.html#l00070">SymbolMap&lt; T &gt;::find()</a>, <a class="el" href="../../d7/ddd/symbolmap_8h_source.html#l00091">SymbolMap&lt; T &gt;::m_map</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00478">QCString::str()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/ddd/symbolmap_8h_source.html#l00070">SymbolMap&lt; T &gt;::find()</a>, <a class="el" href="../../d7/ddd/symbolmap_8h_source.html#l00091">SymbolMap&lt; T &gt;::m_map</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00488">QCString::str()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00220">removeFromMap()</a>.</p>
 

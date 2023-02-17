@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"d1/d8a/class_translator_hindi.html#a41b402d475c2546674a0257179ae1a4c":[8,0,593,233],
 "d1/d8a/class_translator_hindi.html#a41d658949fdfbc6fd7e6000b9c15cdd6":[8,0,593,240],
 "d1/d8a/class_translator_hindi.html#a42d9dcfaefdc7fc235b53ead14843088":[8,0,593,4],
 "d1/d8a/class_translator_hindi.html#a434adf6a06551fc577975e1f30b3f7e5":[8,0,593,237],
@@ -242,12 +243,11 @@ var NAVTREEINDEX13 =
 "d1/d8e/struct_file_context_1_1_private_1_1_cachable.html#aebfea9cec22f896674b9c8615efb2c3a":[8,0,242,0,0,1],
 "d1/d8e/struct_file_context_1_1_private_1_1_cachable.html#af1c028af8eeb88e8e1e8f37306cdec4e":[8,0,242,0,0,12],
 "d1/d8e/struct_file_context_1_1_private_1_1_cachable.html#afc88b4f8a4cd2761efbc755c47e274c8":[8,0,242,0,0,19],
-"d1/d8f/struct_output_gen_intf_1_1write_label.html":[7,0,10,172],
 "d1/d8f/struct_output_gen_intf_1_1write_label.html":[8,0,5,172],
+"d1/d8f/struct_output_gen_intf_1_1write_label.html":[7,0,10,172],
 "d1/d8f/struct_output_gen_intf_1_1write_label.html#a852ce1b95952642229ac7ca9599dfb98":[7,0,10,172,0],
 "d1/d8f/struct_output_gen_intf_1_1write_label.html#a852ce1b95952642229ac7ca9599dfb98":[8,0,5,172,0],
 "d1/d93/class_doc_linked_word.html":[8,0,161],
 "d1/d93/class_doc_linked_word.html#a0cec9bb208fb98650153ec7d2285a749":[8,0,161,12],
-"d1/d93/class_doc_linked_word.html#a65238e5e80d6cd0f50ee7bdbec984479":[8,0,161,7],
-"d1/d93/class_doc_linked_word.html#a87a6514222a5dc65f0fe4420c916d3be":[8,0,161,2]
+"d1/d93/class_doc_linked_word.html#a65238e5e80d6cd0f50ee7bdbec984479":[8,0,161,7]
 };

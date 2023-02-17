@@ -1,5 +1,8 @@
 var NAVTREEINDEX78 =
 {
+"da/d32/class_translator_romanian.html#a15f8eb826cceac0f2b32fa758d960200":[8,0,608,61],
+"da/d32/class_translator_romanian.html#a161f8e0193f7477b1d1802dea863eab9":[8,0,608,95],
+"da/d32/class_translator_romanian.html#a189c2b3624259d0503b3ac1cdc48826b":[8,0,608,165],
 "da/d32/class_translator_romanian.html#a18d22981e97a7d67e6d4175aba2ea564":[8,0,608,21],
 "da/d32/class_translator_romanian.html#a1caa6f99f1b63130a0210f369bbe6b9f":[8,0,608,15],
 "da/d32/class_translator_romanian.html#a1e1020e3c36eb8e92073fc8a6e4c4436":[8,0,608,81],
@@ -246,8 +249,5 @@ var NAVTREEINDEX78 =
 "da/d39/docvisitor_8cpp.html":[9,0,2,76],
 "da/d39/docvisitor_8cpp_source.html":[9,0,2,76],
 "da/d3d/class_member_name_linked_map.html":[8,0,397],
-"da/d45/dotdirdeps_8cpp.html":[9,0,2,85],
-"da/d45/dotdirdeps_8cpp.html#a0540771f72e56700a0d30f72580d0065":[9,0,2,85,3],
-"da/d45/dotdirdeps_8cpp.html#a120714f9fe392105dac20e1759dcb1d6":[9,0,2,85,5],
-"da/d45/dotdirdeps_8cpp.html#a20837cde372c359b1ce5070096d472e0":[9,0,2,85,13]
+"da/d45/dotdirdeps_8cpp.html":[9,0,2,85]
 };

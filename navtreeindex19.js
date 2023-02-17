@@ -1,5 +1,6 @@
 var NAVTREEINDEX19 =
 {
+"d2/d53/class_translator_slovak.html#a3e4a72bf72dfcf0c3e852eed2cc038a4":[8,0,612,151],
 "d2/d53/class_translator_slovak.html#a3e52c6d85346a640161541af78759b92":[8,0,612,199],
 "d2/d53/class_translator_slovak.html#a3f2025f9a0a51a68059f17bd3787b90a":[8,0,612,169],
 "d2/d53/class_translator_slovak.html#a3f97d93199302c66d6cc1118ae63deaf":[8,0,612,224],
@@ -248,6 +249,5 @@ var NAVTREEINDEX19 =
 "d2/d63/class_text_doc_visitor.html#a99aa0dd7813f8bd767c48d8f22b34a36":[8,0,548,54],
 "d2/d63/class_text_doc_visitor.html#a9b77a7ccc8480a9bd10c29ad36578183":[8,0,548,19],
 "d2/d63/class_text_doc_visitor.html#a9d74fee058c638cb165e029e5c6bd609":[8,0,548,42],
-"d2/d63/class_text_doc_visitor.html#a9fbe0884bd203117011fccf02423100c":[8,0,548,22],
-"d2/d63/class_text_doc_visitor.html#ab05566775448465866dbb3c63d4779ac":[8,0,548,43]
+"d2/d63/class_text_doc_visitor.html#a9fbe0884bd203117011fccf02423100c":[8,0,548,22]
 };
