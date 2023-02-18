@@ -679,6 +679,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/utf8.h"
   Node26 -> Node73 [dir="back",color="steelblue1",style="solid"];
   Node26 -> Node131 [dir="back",color="steelblue1",style="solid"];
   Node131 [label="/home/runner/work/doxygen\l/doxygen/src/entry.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/dc6/entry_8h.html",tooltip=" "];
+  Node131 -> Node103 [dir="back",color="steelblue1",style="solid"];
   Node131 -> Node28 [dir="back",color="steelblue1",style="solid"];
   Node131 -> Node4 [dir="back",color="steelblue1",style="solid"];
   Node131 -> Node56 [dir="back",color="steelblue1",style="solid"];
@@ -1605,6 +1606,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/utf8.h"
   Node218 -> Node28 [dir="back",color="steelblue1",style="solid"];
   Node218 -> Node221 [dir="back",color="steelblue1",style="solid"];
   Node221 [label="/home/runner/work/doxygen\l/doxygen/src/commentscan.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d0d/commentscan_8h.html",tooltip="Interface for the comment block scanner."];
+  Node221 -> Node103 [dir="back",color="steelblue1",style="solid"];
   Node221 -> Node56 [dir="back",color="steelblue1",style="solid"];
   Node221 -> Node75 [dir="back",color="steelblue1",style="solid"];
   Node221 -> Node24 [dir="back",color="steelblue1",style="solid"];
