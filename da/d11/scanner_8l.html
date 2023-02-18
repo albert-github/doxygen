@@ -3167,7 +3167,7 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno"> 1723</span>                                          <a class="code hl_define" href="../../d1/d39/doctokenizer_8l.html#a6256e57feb94db36e0dd7c3c83c9180a">lineCount</a>(yyscanner);</div>
 <div class="line"><span class="lineno"> 1724</span>                                          yyextra-&gt;current-&gt;name += *yytext ;</div>
 <div class="line"><span class="lineno"> 1725</span>                                        }</div>
-<div class="line"><span class="lineno"> 1726</span>&lt;Operator&gt;&quot;&lt;&gt;&quot;                          { /* skip guided templ specifiers */ }</div>
+<div class="line"><span class="lineno"> 1726</span>&lt;Operator&gt;&quot;&lt;&quot;({B}*{ID}{B}*(&quot;,&quot;{B}*{BN})*{B}*)?&quot;&gt;&quot; { /* skip guided templ specifiers */ }</div>
 <div class="line"><span class="lineno"> 1727</span>&lt;Operator&gt;&quot;(&quot;                           {</div>
 <div class="line"><span class="lineno"> 1728</span>                                          yyextra-&gt;current-&gt;name = yyextra-&gt;current-&gt;name.simplifyWhiteSpace();</div>
 <div class="line"><span class="lineno"> 1729</span>                                          unput(*yytext);</div>
