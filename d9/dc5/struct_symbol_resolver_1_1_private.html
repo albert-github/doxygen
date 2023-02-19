@@ -1757,7 +1757,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno"> 1011</span>        <span class="comment">// in A via a using directive.</span></div>
 <div class="line"><span class="lineno"> 1012</span>        <span class="comment">//printf(&quot;newScope is a namespace: %s!\n&quot;,qPrint(newScope-&gt;name()));</span></div>
 <div class="line"><span class="lineno"> 1013</span>        <span class="keyword">const</span> <a class="code hl_class" href="../../d0/d07/class_namespace_def.html">NamespaceDef</a> *nscope = <a class="code hl_function" href="../../d7/d1c/namespacedef_8cpp.html#ae303e4de18684cb3d0c72d936cc0654f">toNamespaceDef</a>(newScope);</div>
-<div class="line"><span class="lineno"> 1014</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;cd : nscope-&gt;<a class="code hl_function" href="../../d0/d07/class_namespace_def.html#ae3683ff30910e9c61512a39997fa8581">getUsedClasses</a>())</div>
+<div class="line"><span class="lineno"> 1014</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;cd : nscope-&gt;getUsedClasses())</div>
 <div class="line"><span class="lineno"> 1015</span>        {</div>
 <div class="line"><span class="lineno"> 1016</span>          <span class="comment">//printf(&quot;Trying for class %s\n&quot;,qPrint(cd-&gt;name()));</span></div>
 <div class="line"><span class="lineno"> 1017</span>          <span class="keywordflow">if</span> (cd==item)</div>
@@ -1765,7 +1765,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno"> 1019</span>            <span class="keywordflow">goto</span> done;</div>
 <div class="line"><span class="lineno"> 1020</span>          }</div>
 <div class="line"><span class="lineno"> 1021</span>        }</div>
-<div class="line"><span class="lineno"> 1022</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;nd : nscope-&gt;<a class="code hl_function" href="../../d0/d07/class_namespace_def.html#a742c3ca27e3383a1495dd972aaf6b43b">getUsedNamespaces</a>())</div>
+<div class="line"><span class="lineno"> 1022</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;nd : nscope-&gt;getUsedNamespaces())</div>
 <div class="line"><span class="lineno"> 1023</span>        {</div>
 <div class="line"><span class="lineno"> 1024</span>          <span class="keywordflow">if</span> (visitedNamespaces.find(nd-&gt;name().str())==visitedNamespaces.end())</div>
 <div class="line"><span class="lineno"> 1025</span>          {</div>

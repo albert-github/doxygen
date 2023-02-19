@@ -351,15 +351,12 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno">  275</span>  <span class="comment">//       qPrint(yyextra-&gt;type),qPrint(yyextra-&gt;scope),qPrint(yyextra-&gt;name));</span></div>
 <div class="line"><span class="lineno">  276</span>  <span class="keywordflow">if</span> (yyextra-&gt;name.isEmpty() &amp;&amp; yyextra-&gt;scope.isEmpty()) <span class="keywordflow">return</span>;</div>
 <div class="line"><span class="lineno">  277</span>  <span class="keywordflow">if</span> (!yyextra-&gt;type.isEmpty()) yyextra-&gt;type+=<span class="stringliteral">&quot; &quot;</span>;</div>
-<div class="line"><span class="lineno">  278</span>  <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a9bd5d1d4153b093ee14042c7982b6dff">if</a> (!yyextra-&gt;scope.isEmpty()) yyextra-&gt;type+=yyextra-&gt;scope+<span class="stringliteral">&quot;::&quot;</span>;</div>
+<div class="line"><span class="lineno">  278</span>  <span class="keywordflow">if</span> (!yyextra-&gt;scope.isEmpty()) yyextra-&gt;type+=yyextra-&gt;scope+<span class="stringliteral">&quot;::&quot;</span>;</div>
 <div class="line"><span class="lineno">  279</span>  yyextra-&gt;type+=yyextra-&gt;name;</div>
 <div class="line"><span class="lineno">  280</span>  yyextra-&gt;scope.resize(0);</div>
 <div class="line"><span class="lineno">  281</span>  yyextra-&gt;name.resize(0);</div>
-<div class="ttc" id="autil_8cpp_html_a9bd5d1d4153b093ee14042c7982b6dff"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a9bd5d1d4153b093ee14042c7982b6dff">if</a></div><div class="ttdeci">if(strLen &gt;35 &amp;&amp;floatingIndex &gt;30 &amp;&amp;autoBreak)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l00927">util.cpp:927</a></div></div>
 <div class="line"><span class="lineno">  282</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d2d/util_8cpp_source.html#l00927">if()</a>.</p>
-
 </div>
 </div>
 <a id="a46306330ca4e9148e9f7f76a56cfc991" name="a46306330ca4e9148e9f7f76a56cfc991"></a>

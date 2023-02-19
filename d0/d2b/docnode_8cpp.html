@@ -319,8 +319,8 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno">  783</span>  }</div>
 <div class="line"><span class="lineno">  784</span> </div>
 <div class="line"><span class="lineno">  785</span>  <span class="comment">// replace the children list by the newChildren list</span></div>
-<div class="line"><span class="lineno">  786</span>  children.clear();</div>
-<div class="line"><span class="lineno">  787</span>  children.move_append(newChildren);</div>
+<div class="line"><span class="lineno">  786</span>  children.<a class="code hl_function" href="../../d0/d08/class_grow_vector.html#a198715b8f95bc34cb020ae11170470f7">clear</a>();</div>
+<div class="line"><span class="lineno">  787</span>  children.<a class="code hl_function" href="../../d9/dd3/struct_doc_node_list.html#a6bb13c84c8ad84d77584f6a3ec24a2a9">move_append</a>(newChildren);</div>
 <div class="line"><span class="lineno">  788</span>  <span class="comment">// reparent the children</span></div>
 <div class="line"><span class="lineno">  789</span>  <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;cn : children)</div>
 <div class="line"><span class="lineno">  790</span>  {</div>
@@ -329,6 +329,7 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno">  793</span>}</div>
 <div class="ttc" id="aclass_doc_compound_node_html_aca6bc953ffff9a8773c2b4b0a866442c"><div class="ttname"><a href="../../da/dfc/class_doc_compound_node.html#aca6bc953ffff9a8773c2b4b0a866442c">DocCompoundNode::children</a></div><div class="ttdeci">DocNodeList &amp; children()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l00138">docnode.h:138</a></div></div>
 <div class="ttc" id="aclass_doc_para_html"><div class="ttname"><a href="../../d3/d01/class_doc_para.html">DocPara</a></div><div class="ttdoc">Node representing a paragraph in the documentation tree.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l01036">docnode.h:1037</a></div></div>
+<div class="ttc" id="aclass_grow_vector_html_a198715b8f95bc34cb020ae11170470f7"><div class="ttname"><a href="../../d0/d08/class_grow_vector.html#a198715b8f95bc34cb020ae11170470f7">GrowVector::clear</a></div><div class="ttdeci">void clear()</div><div class="ttdoc">clears the contents</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d50/growvector_8h_source.html#l00142">growvector.h:142</a></div></div>
 <div class="ttc" id="adocnode_8cpp_html_a91f244300da7fd232ca1e4a858c12df3"><div class="ttname"><a href="../../d0/d2b/docnode_8cpp.html#a91f244300da7fd232ca1e4a858c12df3">setParent</a></div><div class="ttdeci">static void setParent(DocNodeVariant *n, DocNodeVariant *newParent)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2b/docnode_8cpp_source.html#l00104">docnode.cpp:104</a></div></div>
 <div class="ttc" id="astruct_doc_node_list_html"><div class="ttname"><a href="../../d9/dd3/struct_doc_node_list.html">DocNodeList</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l00113">docnode.h:114</a></div></div>
 <div class="ttc" id="astruct_doc_node_list_html_a6bb13c84c8ad84d77584f6a3ec24a2a9"><div class="ttname"><a href="../../d9/dd3/struct_doc_node_list.html#a6bb13c84c8ad84d77584f6a3ec24a2a9">DocNodeList::move_append</a></div><div class="ttdeci">void move_append(DocNodeList &amp;l)</div><div class="ttdoc">moves the element of list l at the end of this list.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l01338">docnode.h:1338</a></div></div>

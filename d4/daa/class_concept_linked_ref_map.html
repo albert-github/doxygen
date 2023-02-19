@@ -218,7 +218,7 @@ Additional Inherited Members</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d8/d0a/conceptdef_8cpp_source.html#l00662">662</a> of file <a class="el" href="../../d8/d0a/conceptdef_8cpp_source.html">conceptdef.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  663</span>{</div>
 <div class="line"><span class="lineno">  664</span>  <span class="keywordtype">bool</span> hideUndocClasses = <a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(HIDE_UNDOC_CLASSES);</div>
-<div class="line"><span class="lineno">  665</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;cd : *<span class="keyword">this</span>)</div>
+<div class="line"><span class="lineno">  665</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;cd : *this)</div>
 <div class="line"><span class="lineno">  666</span>  {</div>
 <div class="line"><span class="lineno">  667</span>    <span class="keywordtype">bool</span> isLink = cd-&gt;isLinkable();</div>
 <div class="line"><span class="lineno">  668</span>    <span class="keywordflow">if</span> (isLink || !hideUndocClasses)</div>
@@ -271,7 +271,7 @@ Additional Inherited Members</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d8/d0a/conceptdef_8cpp_source.html#l00676">676</a> of file <a class="el" href="../../d8/d0a/conceptdef_8cpp_source.html">conceptdef.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  677</span>{</div>
 <div class="line"><span class="lineno">  678</span>  <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="line"><span class="lineno">  679</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;cd : *<span class="keyword">this</span>)</div>
+<div class="line"><span class="lineno">  679</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;cd : *this)</div>
 <div class="line"><span class="lineno">  680</span>  {</div>
 <div class="line"><span class="lineno">  681</span>    cd-&gt;writeDeclarationLink(ol,<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>,header,localNames);</div>
 <div class="line"><span class="lineno">  682</span>  }</div>

@@ -231,8 +231,8 @@ Public Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  238</span>            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=0;i&lt;2 &amp;&amp; (cs=(*(ps+1)));i++) <span class="comment">// 2 hex digits</span></div>
 <div class="line"><span class="lineno">  239</span>            {</div>
 <div class="line"><span class="lineno">  240</span>              <span class="keywordtype">int</span> d = (cs&gt;=<span class="charliteral">&#39;a&#39;</span> &amp;&amp; cs&lt;=<span class="charliteral">&#39;f&#39;</span>) ? cs-<span class="charliteral">&#39;a&#39;</span>+10 :</div>
-<div class="line"><span class="lineno">  241</span>                      (cs&gt;=<span class="charliteral">&#39;A&#39;</span> &amp;&amp; cs&lt;=<span class="charliteral">&#39;F&#39;</span>) ? cs-<span class="charliteral">&#39;A&#39;</span>+10 :</div>
-<div class="line"><span class="lineno">  242</span>                      (cs&gt;=<span class="charliteral">&#39;0&#39;</span> &amp;&amp; cs&lt;=<span class="charliteral">&#39;9&#39;</span>) ? cs-<span class="charliteral">&#39;0&#39;</span>    :</div>
+<div class="line"><span class="lineno">  241</span>                      (cs&gt;=<span class="stringliteral">&#39;A&#39;</span> &amp;&amp; cs&lt;=<span class="stringliteral">&#39;F&#39;</span>) ? cs-<span class="stringliteral">&#39;A&#39;</span>+10 :</div>
+<div class="line"><span class="lineno">  242</span>                      (cs&gt;=<span class="stringliteral">&#39;0&#39;</span> &amp;&amp; cs&lt;=<span class="stringliteral">&#39;9&#39;</span>) ? cs-<span class="stringliteral">&#39;0&#39;</span>    :</div>
 <div class="line"><span class="lineno">  243</span>                      -1;</div>
 <div class="line"><span class="lineno">  244</span>              <span class="keywordflow">if</span> (d&gt;=0) { v&lt;&lt;=4; v|=d; ps++; } <span class="keywordflow">else</span> <span class="keywordflow">break</span>;</div>
 <div class="line"><span class="lineno">  245</span>            }</div>
@@ -380,7 +380,7 @@ Public Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  387</span>            }</div>
 <div class="line"><span class="lineno">  388</span>          }</div>
 <div class="line"><span class="lineno">  389</span>          <a class="code hl_variable" href="../../df/dcd/classreg_1_1_ex_1_1_private.html#afd98016e2bda56b81308bdc907569ead">data</a>.insert(<a class="code hl_variable" href="../../df/dcd/classreg_1_1_ex_1_1_private.html#afd98016e2bda56b81308bdc907569ead">data</a>.begin()+prevTokenPos,</div>
-<div class="line"><span class="lineno">  390</span>                      c==<span class="charliteral">&#39;?&#39;</span> ? PToken(<a class="code hl_enumvalue" href="../../d7/d49/classreg_1_1_p_token.html#a9649bb8ecf7bd3f7faf60b56c6fa72f0aebb061953c0454b2c8ee7b0ac615ebcd">PToken::Kind::Optional</a>) : PToken(<a class="code hl_enumvalue" href="../../d7/d49/classreg_1_1_p_token.html#a9649bb8ecf7bd3f7faf60b56c6fa72f0a26f93e6e68e28a698377e941cb59f29a">PToken::Kind::Star</a>));</div>
+<div class="line"><span class="lineno">  390</span>                      c==<span class="charliteral">&#39;?&#39;</span> ? PToken(<a class="code hl_enumvalue" href="../../d7/d49/classreg_1_1_p_token.html#a9649bb8ecf7bd3f7faf60b56c6fa72f0aebb061953c0454b2c8ee7b0ac615ebcd">PToken::Kind::Optional</a>) : PToken(PToken::Kind::Star));</div>
 <div class="line"><span class="lineno">  391</span>          tokenPos++;</div>
 <div class="line"><span class="lineno">  392</span>          addToken(PToken(<a class="code hl_enumvalue" href="../../d7/d49/classreg_1_1_p_token.html#a9649bb8ecf7bd3f7faf60b56c6fa72f0a87557f11575c0ad78e4e28abedc13b6e">PToken::Kind::End</a>));</div>
 <div class="line"><span class="lineno">  393</span>          <span class="comment">// turn a sequence of tokens [T1 T2 T3] followed by &#39;T*&#39; or into [T* T1 T2 T3 TEND]</span></div>

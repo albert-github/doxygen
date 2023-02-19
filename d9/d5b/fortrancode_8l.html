@@ -906,13 +906,12 @@ Variables</h2></td></tr>
 <div class="ttc" id="afortrancode_8l_html_a234e2efe67eececd88b140b46ea37463"><div class="ttname"><a href="../../d9/d5b/fortrancode_8l.html#a234e2efe67eececd88b140b46ea37463">DBG_CTX</a></div><div class="ttdeci">#define DBG_CTX(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d5b/fortrancode_8l_source.html#l00070">fortrancode.l:70</a></div></div>
 <div class="line"><span class="lineno"> 1342</span> </div>
 <div class="line"><span class="lineno"> 1343</span>  <a class="code hl_class" href="../../d8/d49/class_scope.html">Scope</a> &amp;scope = yyextra-&gt;scopeStack.back();</div>
-<div class="line"><span class="lineno"> 1344</span>  <span class="keywordflow">for</span> ( <span class="keyword">const</span> <span class="keyword">auto</span> &amp;name : scope.<a class="code hl_variable" href="../../d8/d49/class_scope.html#ae1f8159aa48746bb58e6724ff4a36619">useNames</a>)</div>
+<div class="line"><span class="lineno"> 1344</span>  <span class="keywordflow">for</span> ( <span class="keyword">const</span> <span class="keyword">auto</span> &amp;name : scope.useNames)</div>
 <div class="line"><span class="lineno"> 1345</span>  {</div>
 <div class="line"><span class="lineno"> 1346</span>    yyextra-&gt;useMembers.erase(name.str());</div>
 <div class="line"><span class="lineno"> 1347</span>  }</div>
 <div class="line"><span class="lineno"> 1348</span>  yyextra-&gt;scopeStack.pop_back();</div>
 <div class="ttc" id="aclass_scope_html"><div class="ttname"><a href="../../d8/d49/class_scope.html">Scope</a></div><div class="ttdoc">Contains names of used modules and names of local variables.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d5b/fortrancode_8l_source.html#l00115">fortrancode.l:116</a></div></div>
-<div class="ttc" id="aclass_scope_html_ae1f8159aa48746bb58e6724ff4a36619"><div class="ttname"><a href="../../d8/d49/class_scope.html#ae1f8159aa48746bb58e6724ff4a36619">Scope::useNames</a></div><div class="ttdeci">std::vector&lt; QCString &gt; useNames</div><div class="ttdoc">contains names of used modules</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d5b/fortrancode_8l_source.html#l00118">fortrancode.l:118</a></div></div>
 <div class="line"><span class="lineno"> 1349</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d9/d5b/fortrancode_8l_source.html#l00070">DBG_CTX</a>, and <a class="el" href="../../d9/d5b/fortrancode_8l_source.html#l00118">Scope::useNames</a>.</p>
@@ -1206,7 +1205,7 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno"> 1191</span>            }</div>
 <div class="line"><span class="lineno"> 1192</span>            <span class="keywordflow">else</span></div>
 <div class="line"><span class="lineno"> 1193</span>            {</div>
-<div class="line"><span class="lineno"> 1194</span>              <span class="keywordflow">for</span> ( <span class="keyword">const</span> <span class="keyword">auto</span> &amp;name : ue.<a class="code hl_variable" href="../../de/dd6/class_use_entry.html#a68218c0795c329b96c69d1bf3825f6bc">onlyNames</a>)</div>
+<div class="line"><span class="lineno"> 1194</span>              <span class="keywordflow">for</span> ( <span class="keyword">const</span> <span class="keyword">auto</span> &amp;name : ue.onlyNames)</div>
 <div class="line"><span class="lineno"> 1195</span>              {</div>
 <div class="line"><span class="lineno"> 1196</span>                <span class="comment">//cout &lt;&lt; &quot; search in only: &quot; &lt;&lt; usedModuleName &lt;&lt; &quot;:: &quot; &lt;&lt; memberName &lt;&lt; &quot;==&quot; &lt;&lt; (*it)&lt;&lt;  endl;</span></div>
 <div class="line"><span class="lineno"> 1197</span>                <span class="keywordflow">if</span> (memberName == name)</div>

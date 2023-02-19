@@ -175,7 +175,7 @@ Functions</h2></td></tr>
 <div class="fragment"><div class="line"><span class="lineno"> 1025</span>{</div>
 <div class="line"><span class="lineno"> 1026</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a210042a14f3a393be09c743c219126ae">AUTO_TRACE</a>();</div>
 <div class="line"><span class="lineno"> 1027</span>  <span class="comment">// for each input file</span></div>
-<div class="line"><span class="lineno"> 1028</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;fn : *<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a31a5a5856417ba3f05eccaf1f85e9958">Doxygen::inputNameLinkedMap</a>)</div>
+<div class="line"><span class="lineno"> 1028</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;fn : *<a class="code hl_class" href="../../de/d6a/class_doxygen.html">Doxygen</a>::inputNameLinkedMap)</div>
 <div class="line"><span class="lineno"> 1029</span>  {</div>
 <div class="line"><span class="lineno"> 1030</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;fd : *fn)</div>
 <div class="line"><span class="lineno"> 1031</span>    {</div>
@@ -196,7 +196,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1046</span>  }</div>
 <div class="line"><span class="lineno"> 1047</span> </div>
 <div class="line"><span class="lineno"> 1048</span>  <span class="comment">// compute relations between directories =&gt; introduce container dirs.</span></div>
-<div class="line"><span class="lineno"> 1049</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;dir : *<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#ad179803c33ab064adfd6adf681a0a805">Doxygen::dirLinkedMap</a>)</div>
+<div class="line"><span class="lineno"> 1049</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;dir : *<a class="code hl_class" href="../../de/d6a/class_doxygen.html">Doxygen</a>::dirLinkedMap)</div>
 <div class="line"><span class="lineno"> 1050</span>  {</div>
 <div class="line"><span class="lineno"> 1051</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> name = dir-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#a9374fedd7f64fea7e0e164302d1a9e61">name</a>();</div>
 <div class="line"><span class="lineno"> 1052</span>    <span class="keywordtype">int</span> i=name.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ab47a6435c16d61d04fb448f1080b4e26">findRev</a>(<span class="charliteral">&#39;/&#39;</span>,name.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>()-2);</div>
@@ -214,7 +214,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1064</span>  }</div>
 <div class="line"><span class="lineno"> 1065</span> </div>
 <div class="line"><span class="lineno"> 1066</span>  <span class="comment">// sort the directory contents</span></div>
-<div class="line"><span class="lineno"> 1067</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;dir : *<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#ad179803c33ab064adfd6adf681a0a805">Doxygen::dirLinkedMap</a>)</div>
+<div class="line"><span class="lineno"> 1067</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;dir : *<a class="code hl_class" href="../../de/d6a/class_doxygen.html">Doxygen</a>::dirLinkedMap)</div>
 <div class="line"><span class="lineno"> 1068</span>  {</div>
 <div class="line"><span class="lineno"> 1069</span>    dir-&gt;<a class="code hl_function" href="../../d4/dd4/class_dir_def.html#a04a8557aa86a9e48a43f8d323263ed77">sort</a>();</div>
 <div class="line"><span class="lineno"> 1070</span>  }</div>
@@ -237,7 +237,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1087</span> </div>
 <div class="line"><span class="lineno"> 1088</span>  <span class="comment">// set the directory count identifier</span></div>
 <div class="line"><span class="lineno"> 1089</span>  <span class="keywordtype">int</span> dirCount=0;</div>
-<div class="line"><span class="lineno"> 1090</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;dir : *<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#ad179803c33ab064adfd6adf681a0a805">Doxygen::dirLinkedMap</a>)</div>
+<div class="line"><span class="lineno"> 1090</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;dir : *<a class="code hl_class" href="../../de/d6a/class_doxygen.html">Doxygen</a>::dirLinkedMap)</div>
 <div class="line"><span class="lineno"> 1091</span>  {</div>
 <div class="line"><span class="lineno"> 1092</span>    dir-&gt;<a class="code hl_function" href="../../d4/dd4/class_dir_def.html#abb0f2798cf135ad4439b8b5bb3c8a3d8">setDirCount</a>(dirCount++);</div>
 <div class="line"><span class="lineno"> 1093</span>  }</div>
@@ -251,7 +251,7 @@ Functions</h2></td></tr>
 <div class="ttc" id="aclass_dir_def_html_abb0f2798cf135ad4439b8b5bb3c8a3d8"><div class="ttname"><a href="../../d4/dd4/class_dir_def.html#abb0f2798cf135ad4439b8b5bb3c8a3d8">DirDef::setDirCount</a></div><div class="ttdeci">virtual void setDirCount(int count)=0</div></div>
 <div class="ttc" id="aclass_dir_def_html_af3fcefaea98b00aff4c81b7fb9fc65c2"><div class="ttname"><a href="../../d4/dd4/class_dir_def.html#af3fcefaea98b00aff4c81b7fb9fc65c2">DirDef::displayName</a></div><div class="ttdeci">virtual QCString displayName(bool=TRUE) const =0</div></div>
 <div class="ttc" id="aclass_dir_def_impl_html_abc751e8cc79b9f7cc8040ba7ecce6e1f"><div class="ttname"><a href="../../d8/db7/class_dir_def_impl.html#abc751e8cc79b9f7cc8040ba7ecce6e1f">DirDefImpl::mergeDirectoryInTree</a></div><div class="ttdeci">static DirDef * mergeDirectoryInTree(const QCString &amp;path)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d52/dirdef_8cpp_source.html#l00834">dirdef.cpp:834</a></div></div>
-<div class="ttc" id="aclass_doxygen_html_a31a5a5856417ba3f05eccaf1f85e9958"><div class="ttname"><a href="../../de/d6a/class_doxygen.html#a31a5a5856417ba3f05eccaf1f85e9958">Doxygen::inputNameLinkedMap</a></div><div class="ttdeci">static FileNameLinkedMap * inputNameLinkedMap</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da1/doxygen_8h_source.html#l00100">doxygen.h:100</a></div></div>
+<div class="ttc" id="aclass_doxygen_html"><div class="ttname"><a href="../../de/d6a/class_doxygen.html">Doxygen</a></div><div class="ttdoc">This class serves as a namespace for global variables used by doxygen.</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da1/doxygen_8h_source.html#l00087">doxygen.h:88</a></div></div>
 <div class="ttc" id="aclass_doxygen_html_ad179803c33ab064adfd6adf681a0a805"><div class="ttname"><a href="../../de/d6a/class_doxygen.html#ad179803c33ab064adfd6adf681a0a805">Doxygen::dirLinkedMap</a></div><div class="ttdeci">static DirLinkedMap * dirLinkedMap</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da1/doxygen_8h_source.html#l00122">doxygen.h:122</a></div></div>
 <div class="ttc" id="aclass_linked_map_html_ad7659775b7de962b4fe0921456baf4f4"><div class="ttname"><a href="../../d0/d2c/class_linked_map.html#ad7659775b7de962b4fe0921456baf4f4">LinkedMap::find</a></div><div class="ttdeci">const T * find(const std::string &amp;key) const</div><div class="ttdoc">Find an object given the key.</div><div class="ttdef"><b>Definition:</b> <a href="../../da/de1/linkedmap_8h_source.html#l00047">linkedmap.h:47</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html">QCString</a></div><div class="ttdoc">This is an alternative implementation of QCString.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00102">qcstring.h:103</a></div></div>
@@ -357,7 +357,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  967</span>      {</div>
 <div class="line"><span class="lineno">  968</span>        uint32_t l = path.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>();</div>
 <div class="line"><span class="lineno">  969</span>        <span class="keywordtype">size_t</span> count=0;</div>
-<div class="line"><span class="lineno">  970</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;dir : *<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#ad179803c33ab064adfd6adf681a0a805">Doxygen::dirLinkedMap</a>)</div>
+<div class="line"><span class="lineno">  970</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;dir : *<a class="code hl_class" href="../../de/d6a/class_doxygen.html">Doxygen</a>::dirLinkedMap)</div>
 <div class="line"><span class="lineno">  971</span>        {</div>
 <div class="line"><span class="lineno">  972</span>          <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> dirName = dir-&gt;name();</div>
 <div class="line"><span class="lineno">  973</span>          <span class="keywordflow">if</span> (dirName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>()&gt;path.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>())</div>
@@ -403,7 +403,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1013</span>      }</div>
 <div class="line"><span class="lineno"> 1014</span>    }</div>
 <div class="line"><span class="lineno"> 1015</span>  }</div>
-<div class="line"><span class="lineno"> 1016</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;dir : *<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#ad179803c33ab064adfd6adf681a0a805">Doxygen::dirLinkedMap</a>)</div>
+<div class="line"><span class="lineno"> 1016</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;dir : *<a class="code hl_class" href="../../de/d6a/class_doxygen.html">Doxygen</a>::dirLinkedMap)</div>
 <div class="line"><span class="lineno"> 1017</span>  {</div>
 <div class="line"><span class="lineno"> 1018</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> diskName = dir-&gt;name().<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a8f4aa5417f6a834f28c7148a1fe262d5">right</a>(dir-&gt;name().length()-path.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>());</div>
 <div class="line"><span class="lineno"> 1019</span>    dir-&gt;setDiskName(diskName);</div>
@@ -440,13 +440,13 @@ Functions</h2></td></tr>
 <div class="fragment"><div class="line"><span class="lineno"> 1099</span>{</div>
 <div class="line"><span class="lineno"> 1100</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a210042a14f3a393be09c743c219126ae">AUTO_TRACE</a>();</div>
 <div class="line"><span class="lineno"> 1101</span>  <span class="comment">// compute nesting level for each directory</span></div>
-<div class="line"><span class="lineno"> 1102</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;dir : *<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#ad179803c33ab064adfd6adf681a0a805">Doxygen::dirLinkedMap</a>)</div>
+<div class="line"><span class="lineno"> 1102</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;dir : *<a class="code hl_class" href="../../de/d6a/class_doxygen.html">Doxygen</a>::dirLinkedMap)</div>
 <div class="line"><span class="lineno"> 1103</span>  {</div>
 <div class="line"><span class="lineno"> 1104</span>    dir-&gt;setLevel();</div>
 <div class="line"><span class="lineno"> 1105</span>  }</div>
 <div class="line"><span class="lineno"> 1106</span> </div>
 <div class="line"><span class="lineno"> 1107</span>  <span class="comment">// compute uses dependencies between directories</span></div>
-<div class="line"><span class="lineno"> 1108</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;dir : *<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#ad179803c33ab064adfd6adf681a0a805">Doxygen::dirLinkedMap</a>)</div>
+<div class="line"><span class="lineno"> 1108</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;dir : *<a class="code hl_class" href="../../de/d6a/class_doxygen.html">Doxygen</a>::dirLinkedMap)</div>
 <div class="line"><span class="lineno"> 1109</span>  {</div>
 <div class="line"><span class="lineno"> 1110</span>    <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a05be586784f268b947ad777aa316c4e6">AUTO_TRACE_ADD</a>(<span class="stringliteral">&quot;computeDependencies for {}: #dirs={}&quot;</span>,dir-&gt;name(),<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#ad179803c33ab064adfd6adf681a0a805">Doxygen::dirLinkedMap</a>-&gt;<a class="code hl_function" href="../../d0/d2c/class_linked_map.html#ac1237f7ce32427ef9f9f334d0b97b1fb">size</a>());</div>
 <div class="line"><span class="lineno"> 1111</span>    dir-&gt;computeDependencies();</div>
@@ -571,7 +571,7 @@ Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d8/d52/dirdef_8cpp_source.html#l01115">1115</a> of file <a class="el" href="../../d8/d52/dirdef_8cpp_source.html">dirdef.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 1116</span>{</div>
 <div class="line"><span class="lineno"> 1117</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a210042a14f3a393be09c743c219126ae">AUTO_TRACE</a>();</div>
-<div class="line"><span class="lineno"> 1118</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;dir : *<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#ad179803c33ab064adfd6adf681a0a805">Doxygen::dirLinkedMap</a>)</div>
+<div class="line"><span class="lineno"> 1118</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;dir : *<a class="code hl_class" href="../../de/d6a/class_doxygen.html">Doxygen</a>::dirLinkedMap)</div>
 <div class="line"><span class="lineno"> 1119</span>  {</div>
 <div class="line"><span class="lineno"> 1120</span>    ol.<a class="code hl_function" href="../../df/dc8/class_output_list.html#a885957a64f7d87aefb663c4ec903188f">pushGeneratorState</a>();</div>
 <div class="line"><span class="lineno"> 1121</span>    <span class="keywordflow">if</span> (!dir-&gt;hasDocumentation())</div>
@@ -583,13 +583,12 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1127</span>  }</div>
 <div class="line"><span class="lineno"> 1128</span>  <span class="keywordflow">if</span> (<a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(DIRECTORY_GRAPH))</div>
 <div class="line"><span class="lineno"> 1129</span>  {</div>
-<div class="line"><span class="lineno"> 1130</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;dr : <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#aeb009dfd4eca1e806843a68765b975db">Doxygen::dirRelations</a>)</div>
+<div class="line"><span class="lineno"> 1130</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;dr : <a class="code hl_class" href="../../de/d6a/class_doxygen.html">Doxygen</a>::dirRelations)</div>
 <div class="line"><span class="lineno"> 1131</span>    {</div>
 <div class="line"><span class="lineno"> 1132</span>      dr-&gt;writeDocumentation(ol);</div>
 <div class="line"><span class="lineno"> 1133</span>    }</div>
 <div class="line"><span class="lineno"> 1134</span>  }</div>
 <div class="line"><span class="lineno"> 1135</span>}</div>
-<div class="ttc" id="aclass_doxygen_html_aeb009dfd4eca1e806843a68765b975db"><div class="ttname"><a href="../../de/d6a/class_doxygen.html#aeb009dfd4eca1e806843a68765b975db">Doxygen::dirRelations</a></div><div class="ttdeci">static DirRelationLinkedMap dirRelations</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da1/doxygen_8h_source.html#l00123">doxygen.h:123</a></div></div>
 <div class="ttc" id="aclass_output_list_html_a885957a64f7d87aefb663c4ec903188f"><div class="ttname"><a href="../../df/dc8/class_output_list.html#a885957a64f7d87aefb663c4ec903188f">OutputList::pushGeneratorState</a></div><div class="ttdeci">void pushGeneratorState()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/outputlist_8cpp_source.html#l00149">outputlist.cpp:149</a></div></div>
 <div class="ttc" id="aclass_output_list_html_a91f9afddff1974d7805c3d022b754ddf"><div class="ttname"><a href="../../df/dc8/class_output_list.html#a91f9afddff1974d7805c3d022b754ddf">OutputList::disableAllBut</a></div><div class="ttdeci">void disableAllBut(OutputType o)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/outputlist_8cpp_source.html#l00085">outputlist.cpp:85</a></div></div>
 <div class="ttc" id="aclass_output_list_html_a94eb1af2ea07425ef1faa539d24adcf8"><div class="ttname"><a href="../../df/dc8/class_output_list.html#a94eb1af2ea07425ef1faa539d24adcf8">OutputList::popGeneratorState</a></div><div class="ttdeci">void popGeneratorState()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/outputlist_8cpp_source.html#l00159">outputlist.cpp:159</a></div></div>

@@ -1032,7 +1032,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno"> 1084</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d7/dc4/class_docbook_doc_visitor.html#ae883ef6f0124054b0c9bafb1ab5206b9">m_hide</a>) <span class="keywordflow">return</span>;</div>
 <div class="line"><span class="lineno"> 1085</span>  <a class="code hl_variable" href="../../d7/dc4/class_docbook_doc_visitor.html#af24830382b069d6de946df1d470b96b9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;entry&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1086</span> </div>
-<div class="line"><span class="lineno"> 1087</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;opt : c.<a class="code hl_function" href="../../d1/d56/class_doc_html_cell.html#ad42711394b311bbb450073c2206da8c8">attribs</a>())</div>
+<div class="line"><span class="lineno"> 1087</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;opt : c.attribs())</div>
 <div class="line"><span class="lineno"> 1088</span>  {</div>
 <div class="line"><span class="lineno"> 1089</span>    <span class="keywordflow">if</span> (opt.name==<span class="stringliteral">&quot;colspan&quot;</span>)</div>
 <div class="line"><span class="lineno"> 1090</span>    {</div>
@@ -1079,7 +1079,6 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno"> 1131</span>  <a class="code hl_function" href="../../d7/dc4/class_docbook_doc_visitor.html#a2cff69b37e830b8dba2fb54085606c5d">visitChildren</a>(c);</div>
 <div class="line"><span class="lineno"> 1132</span>  <a class="code hl_variable" href="../../d7/dc4/class_docbook_doc_visitor.html#af24830382b069d6de946df1d470b96b9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;/entry&gt;&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1133</span>}</div>
-<div class="ttc" id="aclass_doc_html_cell_html_ad42711394b311bbb450073c2206da8c8"><div class="ttname"><a href="../../d1/d56/class_doc_html_cell.html#ad42711394b311bbb450073c2206da8c8">DocHtmlCell::attribs</a></div><div class="ttdeci">const HtmlAttribList &amp; attribs() const</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l01163">docnode.h:1163</a></div></div>
 <div class="ttc" id="aclass_docbook_doc_visitor_html_a01aadb154b00bb7962d61a8c016800aa"><div class="ttname"><a href="../../d7/dc4/class_docbook_doc_visitor.html#a01aadb154b00bb7962d61a8c016800aa">DocbookDocVisitor::m_colCnt</a></div><div class="ttdeci">int m_colCnt</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcd/docbookvisitor_8h_source.html#l00151">docbookvisitor.h:151</a></div></div>
 <div class="ttc" id="adocbookvisitor_8cpp_html_a9e2036260f430686eab1509bb5087359"><div class="ttname"><a href="../../dc/d05/docbookvisitor_8cpp.html#a9e2036260f430686eab1509bb5087359">supportedHtmlAttribute</a></div><div class="ttdeci">static bool supportedHtmlAttribute(const QCString &amp;name)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d05/docbookvisitor_8cpp_source.html#l00069">docbookvisitor.cpp:69</a></div></div>
 </div><!-- fragment -->
@@ -1305,7 +1304,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  936</span>    <span class="keywordtype">bool</span> isFirst = &amp;std::get&lt;DocHtmlListItem&gt;(l-&gt;<a class="code hl_function" href="../../da/dfc/class_doc_compound_node.html#aca6bc953ffff9a8773c2b4b0a866442c">children</a>().<a class="code hl_function" href="../../d0/d08/class_grow_vector.html#ad097d3d024ed9fa293f9099352309a25">front</a>())==&amp;s;</div>
 <div class="line"><span class="lineno">  937</span>    <span class="keywordtype">int</span> value = 0;</div>
 <div class="line"><span class="lineno">  938</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> type;</div>
-<div class="line"><span class="lineno">  939</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;opt : s.<a class="code hl_function" href="../../df/da8/class_doc_html_list_item.html#a2c0badd651aa4cebd3711ee5a0aaa7a7">attribs</a>())</div>
+<div class="line"><span class="lineno">  939</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;opt : s.attribs())</div>
 <div class="line"><span class="lineno">  940</span>    {</div>
 <div class="line"><span class="lineno">  941</span>      <span class="keywordflow">if</span> (opt.name==<span class="stringliteral">&quot;value&quot;</span>)</div>
 <div class="line"><span class="lineno">  942</span>      {</div>
@@ -1317,7 +1316,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  948</span> </div>
 <div class="line"><span class="lineno">  949</span>    <span class="keywordflow">if</span> (value&gt;0 || isFirst)</div>
 <div class="line"><span class="lineno">  950</span>    {</div>
-<div class="line"><span class="lineno">  951</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;opt : l-&gt;<a class="code hl_function" href="../../d5/d42/class_doc_html_list.html#a5bd8c9fdf0acc981eb3207a150f6781f">attribs</a>())</div>
+<div class="line"><span class="lineno">  951</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;opt : l-&gt;attribs())</div>
 <div class="line"><span class="lineno">  952</span>      {</div>
 <div class="line"><span class="lineno">  953</span>        <span class="keywordflow">if</span> (opt.name==<span class="stringliteral">&quot;type&quot;</span>)</div>
 <div class="line"><span class="lineno">  954</span>        {</div>
@@ -1358,8 +1357,6 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  989</span>  <a class="code hl_variable" href="../../d7/dc4/class_docbook_doc_visitor.html#af24830382b069d6de946df1d470b96b9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;/listitem&gt;\n&quot;</span>;</div>
 <div class="line"><span class="lineno">  990</span>}</div>
 <div class="ttc" id="aclass_doc_html_list_html"><div class="ttname"><a href="../../d5/d42/class_doc_html_list.html">DocHtmlList</a></div><div class="ttdoc">Node representing a Html list.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l00957">docnode.h:958</a></div></div>
-<div class="ttc" id="aclass_doc_html_list_html_a5bd8c9fdf0acc981eb3207a150f6781f"><div class="ttname"><a href="../../d5/d42/class_doc_html_list.html#a5bd8c9fdf0acc981eb3207a150f6781f">DocHtmlList::attribs</a></div><div class="ttdeci">const HtmlAttribList &amp; attribs() const</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l00964">docnode.h:964</a></div></div>
-<div class="ttc" id="aclass_doc_html_list_item_html_a2c0badd651aa4cebd3711ee5a0aaa7a7"><div class="ttname"><a href="../../df/da8/class_doc_html_list_item.html#a2c0badd651aa4cebd3711ee5a0aaa7a7">DocHtmlListItem::attribs</a></div><div class="ttdeci">const HtmlAttribList &amp; attribs() const</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l01128">docnode.h:1128</a></div></div>
 <div class="ttc" id="aclass_doc_node_html_a9217c40d6d74f2b78928b3d8131dd7f0"><div class="ttname"><a href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">DocNode::parent</a></div><div class="ttdeci">DocNodeVariant * parent()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l00091">docnode.h:91</a></div></div>
 <div class="ttc" id="aclass_grow_vector_html_ad097d3d024ed9fa293f9099352309a25"><div class="ttname"><a href="../../d0/d08/class_grow_vector.html#ad097d3d024ed9fa293f9099352309a25">GrowVector::front</a></div><div class="ttdeci">T &amp; front()</div><div class="ttdoc">access the first element</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d50/growvector_8h_source.html#l00129">growvector.h:129</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html">QCString</a></div><div class="ttdoc">This is an alternative implementation of QCString.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00102">qcstring.h:103</a></div></div>
@@ -1406,7 +1403,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno"> 1059</span> </div>
 <div class="line"><span class="lineno"> 1060</span>  <a class="code hl_variable" href="../../d7/dc4/class_docbook_doc_visitor.html#af24830382b069d6de946df1d470b96b9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;      &lt;row &quot;</span>;</div>
 <div class="line"><span class="lineno"> 1061</span> </div>
-<div class="line"><span class="lineno"> 1062</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;opt : tr.<a class="code hl_function" href="../../d3/d16/class_doc_html_row.html#ad696d912e61803ae0ffe3b862a92a9f1">attribs</a>())</div>
+<div class="line"><span class="lineno"> 1062</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;opt : tr.attribs())</div>
 <div class="line"><span class="lineno"> 1063</span>  {</div>
 <div class="line"><span class="lineno"> 1064</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../dc/d05/docbookvisitor_8cpp.html#a9e2036260f430686eab1509bb5087359">supportedHtmlAttribute</a>(opt.name))</div>
 <div class="line"><span class="lineno"> 1065</span>    {</div>
@@ -1424,7 +1421,6 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno"> 1077</span>  }</div>
 <div class="line"><span class="lineno"> 1078</span>}</div>
 <div class="ttc" id="aclass_doc_html_row_html_ac231c8ffe50ea474d33cacd7c3d14b77"><div class="ttname"><a href="../../d3/d16/class_doc_html_row.html#ac231c8ffe50ea474d33cacd7c3d14b77">DocHtmlRow::isHeading</a></div><div class="ttdeci">bool isHeading() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2b/docnode_8cpp_source.html#l01767">docnode.cpp:1767</a></div></div>
-<div class="ttc" id="aclass_doc_html_row_html_ad696d912e61803ae0ffe3b862a92a9f1"><div class="ttname"><a href="../../d3/d16/class_doc_html_row.html#ad696d912e61803ae0ffe3b862a92a9f1">DocHtmlRow::attribs</a></div><div class="ttdeci">const HtmlAttribList &amp; attribs() const</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l01210">docnode.h:1210</a></div></div>
 <div class="ttc" id="aclass_docbook_doc_visitor_html_a1b8d240d1bf94c09bdca5cea6fce0a9c"><div class="ttname"><a href="../../d7/dc4/class_docbook_doc_visitor.html#a1b8d240d1bf94c09bdca5cea6fce0a9c">DocbookDocVisitor::m_bodySet</a></div><div class="ttdeci">BoolStack m_bodySet</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcd/docbookvisitor_8h_source.html#l00152">docbookvisitor.h:152</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../de/d2b/docnode_8h_source.html#l01210">DocHtmlRow::attribs()</a>, <a class="el" href="../../d8/d29/docbookgen_8cpp_source.html#l01380">convertToDocBook()</a>, <a class="el" href="../../dc/d05/docbookvisitor_8cpp_source.html#l00044">DB_VIS_C</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l01767">DocHtmlRow::isHeading()</a>, <a class="el" href="../../de/dcd/docbookvisitor_8h_source.html#l00152">m_bodySet</a>, <a class="el" href="../../de/dcd/docbookvisitor_8h_source.html#l00151">m_colCnt</a>, <a class="el" href="../../de/dcd/docbookvisitor_8h_source.html#l00148">m_hide</a>, <a class="el" href="../../de/dcd/docbookvisitor_8h_source.html#l00145">m_t</a>, <a class="el" href="../../dc/d05/docbookvisitor_8cpp_source.html#l00069">supportedHtmlAttribute()</a>, and <a class="el" href="../../de/dcd/docbookvisitor_8h_source.html#l00038">visitChildren()</a>.</p>
@@ -2093,7 +2089,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno"> 1389</span>  <span class="keywordflow">if</span> (sect &amp;&amp; sect-&gt;<a class="code hl_function" href="../../d1/d01/class_doc_param_sect.html#ae994d0e9cc1d360aaa8d653042c929af">hasTypeSpecifier</a>())</div>
 <div class="line"><span class="lineno"> 1390</span>  {</div>
 <div class="line"><span class="lineno"> 1391</span>    <a class="code hl_variable" href="../../d7/dc4/class_docbook_doc_visitor.html#af24830382b069d6de946df1d470b96b9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;entry&gt;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1392</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;type : pl.<a class="code hl_function" href="../../d9/d8d/class_doc_param_list.html#a66138e258fb9547bd85e0b9227c48ebf">paramTypes</a>())</div>
+<div class="line"><span class="lineno"> 1392</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;type : pl.paramTypes())</div>
 <div class="line"><span class="lineno"> 1393</span>    {</div>
 <div class="line"><span class="lineno"> 1394</span>      std::visit(*<span class="keyword">this</span>,type);</div>
 <div class="line"><span class="lineno"> 1395</span>    }</div>
@@ -2108,7 +2104,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno"> 1404</span>  {</div>
 <div class="line"><span class="lineno"> 1405</span>    <a class="code hl_variable" href="../../d7/dc4/class_docbook_doc_visitor.html#af24830382b069d6de946df1d470b96b9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;entry&gt;&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1406</span>    <span class="keywordtype">int</span> cnt = 0;</div>
-<div class="line"><span class="lineno"> 1407</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;param : pl.<a class="code hl_function" href="../../d9/d8d/class_doc_param_list.html#a543cac8da19b4edaa5eb0c7deeba2455">parameters</a>())</div>
+<div class="line"><span class="lineno"> 1407</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;param : pl.parameters())</div>
 <div class="line"><span class="lineno"> 1408</span>    {</div>
 <div class="line"><span class="lineno"> 1409</span>      <span class="keywordflow">if</span> (cnt)</div>
 <div class="line"><span class="lineno"> 1410</span>      {</div>
@@ -2120,7 +2116,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno"> 1416</span>    <a class="code hl_variable" href="../../d7/dc4/class_docbook_doc_visitor.html#af24830382b069d6de946df1d470b96b9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;/entry&gt;&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1417</span>  }</div>
 <div class="line"><span class="lineno"> 1418</span>  <a class="code hl_variable" href="../../d7/dc4/class_docbook_doc_visitor.html#af24830382b069d6de946df1d470b96b9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;entry&gt;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1419</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;par : pl.<a class="code hl_function" href="../../d9/d8d/class_doc_param_list.html#aea61e6129350589c862ceb0f75d5f9a9">paragraphs</a>())</div>
+<div class="line"><span class="lineno"> 1419</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;par : pl.paragraphs())</div>
 <div class="line"><span class="lineno"> 1420</span>  {</div>
 <div class="line"><span class="lineno"> 1421</span>    std::visit(*<span class="keyword">this</span>,par);</div>
 <div class="line"><span class="lineno"> 1422</span>  }</div>
@@ -2128,9 +2124,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno"> 1424</span>  <a class="code hl_variable" href="../../d7/dc4/class_docbook_doc_visitor.html#af24830382b069d6de946df1d470b96b9">m_t</a> &lt;&lt; <span class="stringliteral">&quot;                            &lt;/row&gt;\n&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1425</span>}</div>
 <div class="ttc" id="aclass_doc_param_list_html_a543cac8da19b4edaa5eb0c7deeba2455"><div class="ttname"><a href="../../d9/d8d/class_doc_param_list.html#a543cac8da19b4edaa5eb0c7deeba2455">DocParamList::parameters</a></div><div class="ttdeci">const DocNodeList &amp; parameters() const</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l01087">docnode.h:1087</a></div></div>
-<div class="ttc" id="aclass_doc_param_list_html_a66138e258fb9547bd85e0b9227c48ebf"><div class="ttname"><a href="../../d9/d8d/class_doc_param_list.html#a66138e258fb9547bd85e0b9227c48ebf">DocParamList::paramTypes</a></div><div class="ttdeci">const DocNodeList &amp; paramTypes() const</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l01088">docnode.h:1088</a></div></div>
 <div class="ttc" id="aclass_doc_param_list_html_ac45275b55efab9d6a60049f6d6dc7679"><div class="ttname"><a href="../../d9/d8d/class_doc_param_list.html#ac45275b55efab9d6a60049f6d6dc7679">DocParamList::direction</a></div><div class="ttdeci">DocParamSect::Direction direction() const</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l01091">docnode.h:1091</a></div></div>
-<div class="ttc" id="aclass_doc_param_list_html_aea61e6129350589c862ceb0f75d5f9a9"><div class="ttname"><a href="../../d9/d8d/class_doc_param_list.html#aea61e6129350589c862ceb0f75d5f9a9">DocParamList::paragraphs</a></div><div class="ttdeci">const DocNodeList &amp; paragraphs() const</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l01089">docnode.h:1089</a></div></div>
 <div class="ttc" id="aclass_doc_param_sect_html"><div class="ttname"><a href="../../d1/d01/class_doc_param_sect.html">DocParamSect</a></div><div class="ttdoc">Node representing a parameter section.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l01009">docnode.h:1010</a></div></div>
 <div class="ttc" id="aclass_doc_param_sect_html_a7ec7b05c44ebac263741f2983cb4f6b3"><div class="ttname"><a href="../../d1/d01/class_doc_param_sect.html#a7ec7b05c44ebac263741f2983cb4f6b3">DocParamSect::hasInOutSpecifier</a></div><div class="ttdeci">bool hasInOutSpecifier() const</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l01026">docnode.h:1026</a></div></div>
 <div class="ttc" id="aclass_doc_param_sect_html_ad5e3f053f03f8c333a69208521075c66a6f4ea16fe4731fee90a5ed69933b34e5"><div class="ttname"><a href="../../d1/d01/class_doc_param_sect.html#ad5e3f053f03f8c333a69208521075c66a6f4ea16fe4731fee90a5ed69933b34e5">DocParamSect::Out</a></div><div class="ttdeci">@ Out</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l01019">docnode.h:1019</a></div></div>

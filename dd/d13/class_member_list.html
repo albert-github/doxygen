@@ -889,7 +889,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../dd/d78/memberlist_8h_source.html#l00143">m_memberGroupRefList</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l08095">InheritedMemberInfoListContext::Private::addMemberListIncludingGrouped()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l07940">MemberListInfoContext::Private::createMemberGroups()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02078">membersHaveSpecificType()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02098">VhdlDocGen::writeVHDLDeclarations()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l08095">InheritedMemberInfoListContext::Private::addMemberListIncludingGrouped()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l07940">MemberListInfoContext::Private::createMemberGroups()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02078">membersHaveSpecificType()</a>, <a class="el" href="../../df/d58/dotnode_8cpp_source.html#l00117">writeBoxMemberList()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02098">VhdlDocGen::writeVHDLDeclarations()</a>.</p>
 
 </div>
 </div>
@@ -2206,7 +2206,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  917</span>        md-&gt;<a class="code hl_function" href="../../dd/d4b/class_member_def_mutable.html#a476f10eb8c3aec007c118d06529fef13">writeTagFile</a>(tagFile,useQualifiedName);</div>
 <div class="line"><span class="lineno">  918</span>        <span class="keywordflow">if</span> (md-&gt;<a class="code hl_function" href="../../da/d09/class_member_def.html#abbdaf88716807e7ff82ed7502cde51fc">memberType</a>()==<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a63e3de542c5d38de617ab78c8c8f5a41a57bf5866557a9b8913c19a2600e59031">MemberType_Enumeration</a> &amp;&amp; !md-&gt;<a class="code hl_function" href="../../da/d09/class_member_def.html#adbdbd0e3d3630af579a02e97e162a328">isStrong</a>())</div>
 <div class="line"><span class="lineno">  919</span>        {</div>
-<div class="line"><span class="lineno">  920</span>          <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;ivmd : md-&gt;<a class="code hl_function" href="../../da/d09/class_member_def.html#a4df0bef52b6d1d15a4b12a187c8a90ca">enumFieldList</a>())</div>
+<div class="line"><span class="lineno">  920</span>          <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;ivmd : md-&gt;enumFieldList())</div>
 <div class="line"><span class="lineno">  921</span>          {</div>
 <div class="line"><span class="lineno">  922</span>            <a class="code hl_class" href="../../dd/d4b/class_member_def_mutable.html">MemberDefMutable</a> *vmd = <a class="code hl_function" href="../../d0/d72/memberdef_8cpp.html#a9ea80ba313803ae565f05ce1c8eb6bb5">toMemberDefMutable</a>(ivmd);</div>
 <div class="line"><span class="lineno">  923</span>            <span class="keywordflow">if</span> (vmd)</div>

@@ -497,7 +497,7 @@ Additional Inherited Members</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d4/d09/dotgfxhierarchytable_8cpp_source.html#l00105">105</a> of file <a class="el" href="../../d4/d09/dotgfxhierarchytable_8cpp_source.html">dotgfxhierarchytable.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  106</span>{</div>
 <div class="line"><span class="lineno">  107</span>  <span class="comment">//printf(&quot;addHierarchy &#39;%s&#39; baseClasses=%d\n&quot;,qPrint(cd-&gt;name()),cd-&gt;baseClasses()-&gt;count());</span></div>
-<div class="line"><span class="lineno">  108</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;bcd : cd-&gt;<a class="code hl_function" href="../../d1/dcf/class_class_def.html#afdeec11149bf831c4c6dd297f7c4e34d">subClasses</a>())</div>
+<div class="line"><span class="lineno">  108</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;bcd : cd-&gt;subClasses())</div>
 <div class="line"><span class="lineno">  109</span>  {</div>
 <div class="line"><span class="lineno">  110</span>    <a class="code hl_class" href="../../d1/dcf/class_class_def.html">ClassDef</a> *bClass=bcd.classDef;</div>
 <div class="line"><span class="lineno">  111</span>    <span class="comment">//printf(&quot;  Trying sub class=&#39;%s&#39; usedNodes=%d\n&quot;,qPrint(bClass-&gt;name()),m_usedNodes-&gt;count());</span></div>

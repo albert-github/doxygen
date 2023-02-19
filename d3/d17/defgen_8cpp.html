@@ -211,18 +211,18 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  546</span>      <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a31a5a5856417ba3f05eccaf1f85e9958">Doxygen::inputNameLinkedMap</a>-&gt;size()+</div>
 <div class="line"><span class="lineno">  547</span>      <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a033b4829afda05c5eef5cd54749b19bf">Doxygen::namespaceLinkedMap</a>-&gt;size()&gt;0)</div>
 <div class="line"><span class="lineno">  548</span>  {</div>
-<div class="line"><span class="lineno">  549</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;cd : *<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a5f4b7acdd27a42865b4832e4e7ffe82c">Doxygen::classLinkedMap</a>)</div>
+<div class="line"><span class="lineno">  549</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;cd : *<a class="code hl_class" href="../../de/d6a/class_doxygen.html">Doxygen</a>::classLinkedMap)</div>
 <div class="line"><span class="lineno">  550</span>    {</div>
 <div class="line"><span class="lineno">  551</span>      <a class="code hl_function" href="../../d3/d17/defgen_8cpp.html#a3dbc9c08f8cf61bdd6a98fce028ae320">generateDEFForClass</a>(cd.get(),t);</div>
 <div class="line"><span class="lineno">  552</span>    }</div>
-<div class="line"><span class="lineno">  553</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;fn : *<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a31a5a5856417ba3f05eccaf1f85e9958">Doxygen::inputNameLinkedMap</a>)</div>
+<div class="line"><span class="lineno">  553</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;fn : *<a class="code hl_class" href="../../de/d6a/class_doxygen.html">Doxygen</a>::inputNameLinkedMap)</div>
 <div class="line"><span class="lineno">  554</span>    {</div>
 <div class="line"><span class="lineno">  555</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;fd : *fn)</div>
 <div class="line"><span class="lineno">  556</span>      {</div>
 <div class="line"><span class="lineno">  557</span>        <a class="code hl_function" href="../../d3/d17/defgen_8cpp.html#ae1923bdab69f09adecb356bed8d869f0">generateDEFForFile</a>(fd.get(),t);</div>
 <div class="line"><span class="lineno">  558</span>      }</div>
 <div class="line"><span class="lineno">  559</span>    }</div>
-<div class="line"><span class="lineno">  560</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;nd : *<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a033b4829afda05c5eef5cd54749b19bf">Doxygen::namespaceLinkedMap</a>)</div>
+<div class="line"><span class="lineno">  560</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;nd : *<a class="code hl_class" href="../../de/d6a/class_doxygen.html">Doxygen</a>::namespaceLinkedMap)</div>
 <div class="line"><span class="lineno">  561</span>    {</div>
 <div class="line"><span class="lineno">  562</span>      <a class="code hl_function" href="../../d3/d17/defgen_8cpp.html#af7618d7d3aeddf3aae435cd00b9293e9">generateDEFForNamespace</a>(nd.get(),t);</div>
 <div class="line"><span class="lineno">  563</span>    }</div>
@@ -233,6 +233,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  568</span>  }</div>
 <div class="line"><span class="lineno">  569</span>}</div>
 <div class="ttc" id="aclass_dir_html"><div class="ttname"><a href="../../d2/dc2/class_dir.html">Dir</a></div><div class="ttdoc">Class representing a directory in the file system.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d9c/dir_8h_source.html#l00068">dir.h:69</a></div></div>
+<div class="ttc" id="aclass_doxygen_html"><div class="ttname"><a href="../../de/d6a/class_doxygen.html">Doxygen</a></div><div class="ttdoc">This class serves as a namespace for global variables used by doxygen.</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da1/doxygen_8h_source.html#l00087">doxygen.h:88</a></div></div>
 <div class="ttc" id="aclass_doxygen_html_a033b4829afda05c5eef5cd54749b19bf"><div class="ttname"><a href="../../de/d6a/class_doxygen.html#a033b4829afda05c5eef5cd54749b19bf">Doxygen::namespaceLinkedMap</a></div><div class="ttdeci">static NamespaceLinkedMap * namespaceLinkedMap</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da1/doxygen_8h_source.html#l00109">doxygen.h:109</a></div></div>
 <div class="ttc" id="aclass_doxygen_html_a31a5a5856417ba3f05eccaf1f85e9958"><div class="ttname"><a href="../../de/d6a/class_doxygen.html#a31a5a5856417ba3f05eccaf1f85e9958">Doxygen::inputNameLinkedMap</a></div><div class="ttdeci">static FileNameLinkedMap * inputNameLinkedMap</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da1/doxygen_8h_source.html#l00100">doxygen.h:100</a></div></div>
 <div class="ttc" id="aclass_doxygen_html_a5f4b7acdd27a42865b4832e4e7ffe82c"><div class="ttname"><a href="../../de/d6a/class_doxygen.html#a5f4b7acdd27a42865b4832e4e7ffe82c">Doxygen::classLinkedMap</a></div><div class="ttdeci">static ClassLinkedMap * classLinkedMap</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da1/doxygen_8h_source.html#l00090">doxygen.h:90</a></div></div>
@@ -380,7 +381,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  338</span>  t &lt;&lt; <span class="stringliteral">&quot;  cp-id     = &#39;&quot;</span> &lt;&lt; cd-&gt;<a class="code hl_function" href="../../d1/dcf/class_class_def.html#a12a8f241e90a0cb0bdf19c27bf2025b0">getOutputFileBase</a>() &lt;&lt; <span class="stringliteral">&quot;&#39;;\n&quot;</span>;</div>
 <div class="line"><span class="lineno">  339</span>  t &lt;&lt; <span class="stringliteral">&quot;  cp-name   = &#39;&quot;</span> &lt;&lt; cd-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#a9374fedd7f64fea7e0e164302d1a9e61">name</a>() &lt;&lt; <span class="stringliteral">&quot;&#39;;\n&quot;</span>;</div>
 <div class="line"><span class="lineno">  340</span> </div>
-<div class="line"><span class="lineno">  341</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;bcd : cd-&gt;<a class="code hl_function" href="../../d1/dcf/class_class_def.html#a38001a11a297629e363c0db5b1968ab3">baseClasses</a>())</div>
+<div class="line"><span class="lineno">  341</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;bcd : cd-&gt;baseClasses())</div>
 <div class="line"><span class="lineno">  342</span>  {</div>
 <div class="line"><span class="lineno">  343</span>    t &lt;&lt; <span class="stringliteral">&quot;  cp-ref     = {\n&quot;</span> &lt;&lt; <span class="stringliteral">&quot;    ref-type = base;\n&quot;</span>;</div>
 <div class="line"><span class="lineno">  344</span>    t &lt;&lt; <span class="stringliteral">&quot;    ref-id   = &#39;&quot;</span></div>
@@ -403,7 +404,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  361</span>    t &lt;&lt; <span class="stringliteral">&quot;\n  };\n&quot;</span>;</div>
 <div class="line"><span class="lineno">  362</span>  }</div>
 <div class="line"><span class="lineno">  363</span> </div>
-<div class="line"><span class="lineno">  364</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;bcd : cd-&gt;<a class="code hl_function" href="../../d1/dcf/class_class_def.html#afdeec11149bf831c4c6dd297f7c4e34d">subClasses</a>())</div>
+<div class="line"><span class="lineno">  364</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;bcd : cd-&gt;subClasses())</div>
 <div class="line"><span class="lineno">  365</span>  {</div>
 <div class="line"><span class="lineno">  366</span>    t &lt;&lt; <span class="stringliteral">&quot;  cp-ref     = {\n&quot;</span> &lt;&lt; <span class="stringliteral">&quot;    ref-type = derived;\n&quot;</span>;</div>
 <div class="line"><span class="lineno">  367</span>    t &lt;&lt; <span class="stringliteral">&quot;    ref-id   = &#39;&quot;</span></div>
@@ -427,7 +428,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  385</span>  }</div>
 <div class="line"><span class="lineno">  386</span> </div>
 <div class="line"><span class="lineno">  387</span>  <span class="keywordtype">size_t</span> numMembers = 0;</div>
-<div class="line"><span class="lineno">  388</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;ml : cd-&gt;<a class="code hl_function" href="../../d1/dcf/class_class_def.html#a283e841b3eb34d0ba2e0e106a4e3ad59">getMemberLists</a>())</div>
+<div class="line"><span class="lineno">  388</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;ml : cd-&gt;getMemberLists())</div>
 <div class="line"><span class="lineno">  389</span>  {</div>
 <div class="line"><span class="lineno">  390</span>    <span class="keywordflow">if</span> ((ml-&gt;listType()&amp;<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#abe8ad5992f8938a28f918f51b199aa19a8f7cd8ff838619bf4261c06ef5c48410">MemberListType_detailedLists</a>)==0)</div>
 <div class="line"><span class="lineno">  391</span>    {</div>
@@ -489,12 +490,9 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  447</span>}</div>
 <div class="ttc" id="aclass_class_def_html_a12a8f241e90a0cb0bdf19c27bf2025b0"><div class="ttname"><a href="../../d1/dcf/class_class_def.html#a12a8f241e90a0cb0bdf19c27bf2025b0">ClassDef::getOutputFileBase</a></div><div class="ttdeci">virtual QCString getOutputFileBase() const =0</div><div class="ttdoc">Returns the unique base name (without extension) of the class's file on disk.</div></div>
 <div class="ttc" id="aclass_class_def_html_a239fe977638806153345cd2411c28062"><div class="ttname"><a href="../../d1/dcf/class_class_def.html#a239fe977638806153345cd2411c28062">ClassDef::compoundTypeString</a></div><div class="ttdeci">virtual QCString compoundTypeString() const =0</div><div class="ttdoc">Returns the type of compound as a string.</div></div>
-<div class="ttc" id="aclass_class_def_html_a283e841b3eb34d0ba2e0e106a4e3ad59"><div class="ttname"><a href="../../d1/dcf/class_class_def.html#a283e841b3eb34d0ba2e0e106a4e3ad59">ClassDef::getMemberLists</a></div><div class="ttdeci">virtual const MemberLists &amp; getMemberLists() const =0</div><div class="ttdoc">Returns the list containing the list of members sorted per type.</div></div>
-<div class="ttc" id="aclass_class_def_html_a38001a11a297629e363c0db5b1968ab3"><div class="ttname"><a href="../../d1/dcf/class_class_def.html#a38001a11a297629e363c0db5b1968ab3">ClassDef::baseClasses</a></div><div class="ttdeci">virtual const BaseClassList &amp; baseClasses() const =0</div><div class="ttdoc">Returns the list of base classes from which this class directly inherits.</div></div>
 <div class="ttc" id="aclass_class_def_html_a7d2f9d08207ecf5b227c11f8b4ea6d9f"><div class="ttname"><a href="../../d1/dcf/class_class_def.html#a7d2f9d08207ecf5b227c11f8b4ea6d9f">ClassDef::getMemberList</a></div><div class="ttdeci">virtual MemberList * getMemberList(MemberListType lt) const =0</div><div class="ttdoc">Returns the members in the list identified by lt.</div></div>
 <div class="ttc" id="aclass_class_def_html_acf7bae107b28803a3e61764be26b7351"><div class="ttname"><a href="../../d1/dcf/class_class_def.html#acf7bae107b28803a3e61764be26b7351">ClassDef::isReference</a></div><div class="ttdeci">virtual bool isReference() const =0</div><div class="ttdoc">Returns TRUE if this class is imported via a tag file.</div></div>
 <div class="ttc" id="aclass_class_def_html_ae587759f556ea0d641b92a30e923a7c9"><div class="ttname"><a href="../../d1/dcf/class_class_def.html#ae587759f556ea0d641b92a30e923a7c9">ClassDef::templateMaster</a></div><div class="ttdeci">virtual const ClassDef * templateMaster() const =0</div><div class="ttdoc">Returns the template master of which this class is an instance.</div></div>
-<div class="ttc" id="aclass_class_def_html_afdeec11149bf831c4c6dd297f7c4e34d"><div class="ttname"><a href="../../d1/dcf/class_class_def.html#afdeec11149bf831c4c6dd297f7c4e34d">ClassDef::subClasses</a></div><div class="ttdeci">virtual const BaseClassList &amp; subClasses() const =0</div><div class="ttdoc">Returns the list of sub classes that directly derive from this class.</div></div>
 <div class="ttc" id="aclass_definition_html_a33fee836f24f8205eedbd21dd9d282e6"><div class="ttname"><a href="../../d5/dcc/class_definition.html#a33fee836f24f8205eedbd21dd9d282e6">Definition::getDefFileName</a></div><div class="ttdeci">virtual QCString getDefFileName() const =0</div></div>
 <div class="ttc" id="aclass_definition_html_a47e34774622704853e238ee2e7ef2334"><div class="ttname"><a href="../../d5/dcc/class_definition.html#a47e34774622704853e238ee2e7ef2334">Definition::getDefLine</a></div><div class="ttdeci">virtual int getDefLine() const =0</div></div>
 <div class="ttc" id="aclass_definition_html_a8ca2bb51665eab1ffd981a38c2b5f188"><div class="ttname"><a href="../../d5/dcc/class_definition.html#a8ca2bb51665eab1ffd981a38c2b5f188">Definition::briefDescription</a></div><div class="ttdeci">virtual QCString briefDescription(bool abbreviate=FALSE) const =0</div></div>
@@ -817,7 +815,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  200</span>      &amp;&amp; md-&gt;<a class="code hl_function" href="../../da/d09/class_member_def.html#adfae3b8f49644ba27669daa9412e14a3">argsString</a>()!=0)</div>
 <div class="line"><span class="lineno">  201</span>  {</div>
 <div class="line"><span class="lineno">  202</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> defPrefix = <span class="stringliteral">&quot;  &quot;</span> + memPrefix + <span class="stringliteral">&quot;def-&quot;</span>;</div>
-<div class="line"><span class="lineno">  203</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <a class="code hl_struct" href="../../d1/dee/struct_argument.html">Argument</a> &amp;a : md-&gt;<a class="code hl_function" href="../../da/d09/class_member_def.html#a515503656a6cffb2d27f60e93c3c780e">argumentList</a>())</div>
+<div class="line"><span class="lineno">  203</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <a class="code hl_struct" href="../../d1/dee/struct_argument.html">Argument</a> &amp;a : md-&gt;argumentList())</div>
 <div class="line"><span class="lineno">  204</span>    {</div>
 <div class="line"><span class="lineno">  205</span>      t &lt;&lt; memPrefix &lt;&lt; <span class="stringliteral">&quot;param  = {\n&quot;</span>;</div>
 <div class="line"><span class="lineno">  206</span>      t &lt;&lt; defPrefix &lt;&lt; <span class="stringliteral">&quot;name = &#39;&quot;</span> &lt;&lt; a.type &lt;&lt; <span class="stringliteral">&quot;&#39;;\n&quot;</span>;</div>
@@ -833,7 +831,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  216</span>  <span class="comment">// TODO: exceptions, const volatile</span></div>
 <div class="line"><span class="lineno">  217</span>  <span class="keywordflow">if</span> (md-&gt;<a class="code hl_function" href="../../da/d09/class_member_def.html#abbdaf88716807e7ff82ed7502cde51fc">memberType</a>()==<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a63e3de542c5d38de617ab78c8c8f5a41a57bf5866557a9b8913c19a2600e59031">MemberType_Enumeration</a>) <span class="comment">// enum</span></div>
 <div class="line"><span class="lineno">  218</span>  {</div>
-<div class="line"><span class="lineno">  219</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;emd : md-&gt;<a class="code hl_function" href="../../da/d09/class_member_def.html#a4df0bef52b6d1d15a4b12a187c8a90ca">enumFieldList</a>())</div>
+<div class="line"><span class="lineno">  219</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;emd : md-&gt;enumFieldList())</div>
 <div class="line"><span class="lineno">  220</span>    {</div>
 <div class="line"><span class="lineno">  221</span>      t &lt;&lt; memPrefix &lt;&lt; <span class="stringliteral">&quot;enum = { enum-name = &quot;</span> &lt;&lt; emd-&gt;name() &lt;&lt; <span class="charliteral">&#39;;&#39;</span>;</div>
 <div class="line"><span class="lineno">  222</span>      <span class="keywordflow">if</span> (!emd-&gt;initializer().isEmpty())</div>
@@ -921,7 +919,6 @@ Functions</h2></td></tr>
 <div class="ttc" id="aclass_member_def_html_a1691f8cc2d90978d091a7d7aae11dd8d"><div class="ttname"><a href="../../da/d09/class_member_def.html#a1691f8cc2d90978d091a7d7aae11dd8d">MemberDef::getOutputFileBase</a></div><div class="ttdeci">virtual QCString getOutputFileBase() const =0</div></div>
 <div class="ttc" id="aclass_member_def_html_a170c6221384447f7e2e9f5a529efef40"><div class="ttname"><a href="../../da/d09/class_member_def.html#a170c6221384447f7e2e9f5a529efef40">MemberDef::anchor</a></div><div class="ttdeci">virtual QCString anchor() const =0</div></div>
 <div class="ttc" id="aclass_member_def_html_a33ff70edee6691aacaeecf40a1146995"><div class="ttname"><a href="../../da/d09/class_member_def.html#a33ff70edee6691aacaeecf40a1146995">MemberDef::getClassDef</a></div><div class="ttdeci">virtual const ClassDef * getClassDef() const =0</div></div>
-<div class="ttc" id="aclass_member_def_html_a4df0bef52b6d1d15a4b12a187c8a90ca"><div class="ttname"><a href="../../da/d09/class_member_def.html#a4df0bef52b6d1d15a4b12a187c8a90ca">MemberDef::enumFieldList</a></div><div class="ttdeci">virtual const MemberVector &amp; enumFieldList() const =0</div></div>
 <div class="ttc" id="aclass_member_def_html_a515503656a6cffb2d27f60e93c3c780e"><div class="ttname"><a href="../../da/d09/class_member_def.html#a515503656a6cffb2d27f60e93c3c780e">MemberDef::argumentList</a></div><div class="ttdeci">virtual const ArgumentList &amp; argumentList() const =0</div></div>
 <div class="ttc" id="aclass_member_def_html_a73bd9bd31dab22a689e342abb99f4362"><div class="ttname"><a href="../../da/d09/class_member_def.html#a73bd9bd31dab22a689e342abb99f4362">MemberDef::briefDescription</a></div><div class="ttdeci">virtual QCString briefDescription(bool abbr=FALSE) const =0</div></div>
 <div class="ttc" id="aclass_member_def_html_a900cace4959b6cad9e6aa58e8283195f"><div class="ttname"><a href="../../da/d09/class_member_def.html#a900cace4959b6cad9e6aa58e8283195f">MemberDef::getNamespaceDef</a></div><div class="ttdeci">virtual const NamespaceDef * getNamespaceDef() const =0</div></div>
