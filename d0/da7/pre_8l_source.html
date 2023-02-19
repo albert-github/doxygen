@@ -2608,7 +2608,7 @@ $(document).ready(function(){initNavTree('d0/da7/pre_8l_source.html','../../'); 
 <div class="line"><a id="l02311" name="l02311"></a><span class="lineno"> 2311</span>  len=0;</div>
 <div class="line"><a id="l02312" name="l02312"></a><span class="lineno"> 2312</span>  result.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a993474e2da59141336e6105b8e154f2b">resize</a>(0);</div>
 <div class="line"><a id="l02313" name="l02313"></a><span class="lineno"> 2313</span>  <span class="keywordtype">int</span> cc;</div>
-<div class="line"><a id="l02314" name="l02314"></a><span class="lineno"> 2314</span>  <span class="keywordflow">while</span> ((cc=<a class="code hl_function" href="../../d0/da7/pre_8l.html#a1706fe9365c74e213edf9f291a23f473">getCurrentChar</a>(yyscanner,expr,rest,j))!=EOF &amp;&amp; isspace(cc))</div>
+<div class="line"><a id="l02314" name="l02314"></a><span class="lineno"> 2314</span>  <span class="keywordflow">while</span> ((cc=<a class="code hl_function" href="../../d0/da7/pre_8l.html#a1706fe9365c74e213edf9f291a23f473">getCurrentChar</a>(yyscanner,expr,rest,j))!=EOF &amp;&amp; cc!=<span class="charliteral">&#39;\n&#39;</span> &amp;&amp; isspace(cc))</div>
 <div class="line"><a id="l02315" name="l02315"></a><span class="lineno"> 2315</span>  {</div>
 <div class="line"><a id="l02316" name="l02316"></a><span class="lineno"> 2316</span>    len++;</div>
 <div class="line"><a id="l02317" name="l02317"></a><span class="lineno"> 2317</span>    <a class="code hl_function" href="../../d0/da7/pre_8l.html#a28d316d115be97fa510e349537535baf">getNextChar</a>(yyscanner,expr,rest,j);</div>
