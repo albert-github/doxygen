@@ -1,6 +1,5 @@
 var NAVTREEINDEX96 =
 {
-"dc/d98/doxygen_8cpp.html#afe5f7e6498fa0fb5d155c4c0a86e46de":[9,0,2,103,36],
 "dc/d98/doxygen_8cpp.html#aff249bf83e917168b7df82e9d1c31152":[9,0,2,103,173],
 "dc/d98/doxygen_8cpp_source.html":[9,0,2,103],
 "dc/da3/class_class_inheritance_node_context.html":[8,0,45],
@@ -249,5 +248,6 @@ var NAVTREEINDEX96 =
 "dc/de7/classvhdl_1_1parser_1_1_token.html":[7,0,15,0,4],
 "dc/de7/classvhdl_1_1parser_1_1_token.html":[8,0,8,0,4],
 "dc/de7/classvhdl_1_1parser_1_1_token.html#a021bfae89b9eec39a87db9577508916c":[7,0,15,0,4,13],
-"dc/de7/classvhdl_1_1parser_1_1_token.html#a021bfae89b9eec39a87db9577508916c":[8,0,8,0,4,13]
+"dc/de7/classvhdl_1_1parser_1_1_token.html#a021bfae89b9eec39a87db9577508916c":[8,0,8,0,4,13],
+"dc/de7/classvhdl_1_1parser_1_1_token.html#a3111dc253c0e2eb0a0cf128914ec4a44":[8,0,8,0,4,1]
 };

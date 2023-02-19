@@ -1,6 +1,5 @@
 var NAVTREEINDEX87 =
 {
-"db/d5f/class_translator_hungarian.html#ae2b6f1fbb7b36839e1011a20bed0239b":[8,0,594,182],
 "db/d5f/class_translator_hungarian.html#ae5406366dfc15f47880db0263d1e9ce8":[8,0,594,162],
 "db/d5f/class_translator_hungarian.html#ae55a500b580399d6ad2676eba47173b8":[8,0,594,29],
 "db/d5f/class_translator_hungarian.html#ae753aff4068b68d25b1df5bb96059a44":[8,0,594,155],
@@ -249,5 +248,6 @@ var NAVTREEINDEX87 =
 "db/dab/struct_body_info.html#af49dee4a07f48964799b97526d4375f0":[8,0,23,0],
 "db/dac/md_commands_history.html":[1],
 "db/dad/structfmt_1_1formatter_3_01_specifier_01_4.html":[8,0,2,7],
-"db/dad/structfmt_1_1formatter_3_01_specifier_01_4.html":[7,0,6,7]
+"db/dad/structfmt_1_1formatter_3_01_specifier_01_4.html":[7,0,6,7],
+"db/dad/structfmt_1_1formatter_3_01_specifier_01_4.html#a1fb6b64c172d8a13b44e4d34d65da01c":[8,0,2,7,0]
 };

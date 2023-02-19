@@ -1,6 +1,5 @@
 var NAVTREEINDEX89 =
 {
-"db/dcc/class_translator_korean.html#abd327cbf4d2620a8d3a3d9e4d9ed5b55":[8,0,599,17],
 "db/dcc/class_translator_korean.html#abdcbd4a1e70026701d32b4523e0a0c73":[8,0,599,224],
 "db/dcc/class_translator_korean.html#abf952f790cd6c685829d07330b4d3414":[8,0,599,186],
 "db/dcc/class_translator_korean.html#abfd2acd5bfd7852b8184b7a9c630ffc4":[8,0,599,7],
@@ -249,5 +248,6 @@ var NAVTREEINDEX89 =
 "dc/d03/class_translator_serbian_cyrillic.html#a8178707506520839986ec5fb9c0ed15c":[8,0,611,107],
 "dc/d03/class_translator_serbian_cyrillic.html#a8210c715c99c3d7292ac0912ffa988f2":[8,0,611,182],
 "dc/d03/class_translator_serbian_cyrillic.html#a8224dae70fc7f4d7e72d0865cc917096":[8,0,611,159],
-"dc/d03/class_translator_serbian_cyrillic.html#a82e680dbbdf1d8d0ccc1a14a809551d6":[8,0,611,168]
+"dc/d03/class_translator_serbian_cyrillic.html#a82e680dbbdf1d8d0ccc1a14a809551d6":[8,0,611,168],
+"dc/d03/class_translator_serbian_cyrillic.html#a8331ad7b47ba949ad9f7540c63d954c0":[8,0,611,27]
 };

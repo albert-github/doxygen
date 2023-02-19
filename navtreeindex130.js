@@ -1,6 +1,5 @@
 var NAVTREEINDEX130 =
 {
-"df/dc8/class_translator_indonesian.html#a3f15b9d74f5e720309a09ffe1fb163d8":[8,0,595,182],
 "df/dc8/class_translator_indonesian.html#a3fef9ad8e0c41aa8d97590fae297742a":[8,0,595,87],
 "df/dc8/class_translator_indonesian.html#a42765dd0e1348f21a4b6ecfb635bd709":[8,0,595,4],
 "df/dc8/class_translator_indonesian.html#a4318dda4cefe54d46ef765d389a62577":[8,0,595,83],
@@ -249,5 +248,6 @@ var NAVTREEINDEX130 =
 "df/de7/struct_layout_nav_entry.html#a61a2adf7ec0abb42e49fa07b77eb1690":[8,0,356,10],
 "df/de7/struct_layout_nav_entry.html#a62bd340ca3c463af9f42796bcfe25ebb":[8,0,356,1],
 "df/de7/struct_layout_nav_entry.html#a842ec2b1a900497bae809ca674b58d81":[8,0,356,2],
-"df/de7/struct_layout_nav_entry.html#a8571d270987ea810865731be72feeda8":[8,0,356,16]
+"df/de7/struct_layout_nav_entry.html#a8571d270987ea810865731be72feeda8":[8,0,356,16],
+"df/de7/struct_layout_nav_entry.html#a8b391ae8382d6679ed4497b9b07b990c":[8,0,356,19]
 };
