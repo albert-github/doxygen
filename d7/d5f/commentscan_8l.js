@@ -38,7 +38,7 @@ var commentscan_8l =
       [ "XRef_Deprecated", "d7/d5f/commentscan_8l.html#a30f370adb2525f6629a44ad8fb972186a5b64b43dd14f6ef0daa85168b4240917", null ],
       [ "XRef_None", "d7/d5f/commentscan_8l.html#a30f370adb2525f6629a44ad8fb972186ae309e5d84833a7111c361e657e75bc88", null ]
     ] ],
-    [ "addAnchor", "d7/d5f/commentscan_8l.html#a8434c9661a3265c761a4fc2f08248507", null ],
+    [ "addAnchor", "d7/d5f/commentscan_8l.html#a8111356e211d82aed6baea53cda91872", null ],
     [ "addCite", "d7/d5f/commentscan_8l.html#a2b8e4d926adebd224807ed5d9f0e3192", null ],
     [ "addFormula", "d7/d5f/commentscan_8l.html#ad7328f0606e5f8d93daecd7d5babee1d", null ],
     [ "addIline", "d7/d5f/commentscan_8l.html#af2998873ea2f67f5127f7efd25e947df", null ],

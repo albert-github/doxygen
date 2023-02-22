@@ -337,19 +337,19 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno"> 3314</span>           <a class="code hl_class" href="../../d0/da1/class_file_info.html">FileInfo</a>(mdfileAsMainPage.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>()).<a class="code hl_function" href="../../d0/da1/class_file_info.html#af69e3949475014dcdbd504d742bdf270">absFilePath</a>()) <span class="comment">// file reference with path</span></div>
 <div class="line"><span class="lineno"> 3315</span>         )</div>
 <div class="line"><span class="lineno"> 3316</span>      {</div>
-<div class="line"><span class="lineno"> 3317</span>        docs.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0a6a8fe99e596b149ee15138fa8dcf0c">prepend</a>(<span class="stringliteral">&quot;@anchor &quot;</span> + <span class="keywordtype">id</span> + <span class="stringliteral">&quot;\\ilinebr &quot;</span>);</div>
+<div class="line"><span class="lineno"> 3317</span>        docs.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0a6a8fe99e596b149ee15138fa8dcf0c">prepend</a>(<span class="stringliteral">&quot;@ianchor{&quot;</span> + title + <span class="stringliteral">&quot;} &quot;</span> + <span class="keywordtype">id</span> + <span class="stringliteral">&quot;\\ilinebr &quot;</span>);</div>
 <div class="line"><span class="lineno"> 3318</span>        docs.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0a6a8fe99e596b149ee15138fa8dcf0c">prepend</a>(<span class="stringliteral">&quot;@mainpage &quot;</span>+title+<span class="stringliteral">&quot;\\ilinebr &quot;</span>);</div>
 <div class="line"><span class="lineno"> 3319</span>      }</div>
 <div class="line"><span class="lineno"> 3320</span>      <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<span class="keywordtype">id</span>==<span class="stringliteral">&quot;mainpage&quot;</span> || <span class="keywordtype">id</span>==<span class="stringliteral">&quot;index&quot;</span>)</div>
 <div class="line"><span class="lineno"> 3321</span>      {</div>
 <div class="line"><span class="lineno"> 3322</span>        <span class="keywordflow">if</span> (title.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>()) title = titleFn;</div>
-<div class="line"><span class="lineno"> 3323</span>        docs.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0a6a8fe99e596b149ee15138fa8dcf0c">prepend</a>(<span class="stringliteral">&quot;@anchor &quot;</span> + <span class="keywordtype">id</span> + <span class="stringliteral">&quot;\\ilinebr &quot;</span>);</div>
+<div class="line"><span class="lineno"> 3323</span>        docs.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0a6a8fe99e596b149ee15138fa8dcf0c">prepend</a>(<span class="stringliteral">&quot;@ianchor{&quot;</span> + title + <span class="stringliteral">&quot;} &quot;</span> + <span class="keywordtype">id</span> + <span class="stringliteral">&quot;\\ilinebr &quot;</span>);</div>
 <div class="line"><span class="lineno"> 3324</span>        docs.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0a6a8fe99e596b149ee15138fa8dcf0c">prepend</a>(<span class="stringliteral">&quot;@mainpage &quot;</span>+title+<span class="stringliteral">&quot;\\ilinebr &quot;</span>);</div>
 <div class="line"><span class="lineno"> 3325</span>      }</div>
 <div class="line"><span class="lineno"> 3326</span>      <span class="keywordflow">else</span></div>
 <div class="line"><span class="lineno"> 3327</span>      {</div>
 <div class="line"><span class="lineno"> 3328</span>        <span class="keywordflow">if</span> (title.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>()) {title = titleFn;prepend=0;}</div>
-<div class="line"><span class="lineno"> 3329</span>        <span class="keywordflow">if</span> (!wasEmpty) docs.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0a6a8fe99e596b149ee15138fa8dcf0c">prepend</a>(<span class="stringliteral">&quot;@anchor &quot;</span> +  <a class="code hl_function" href="../../d2/d0c/markdown_8h.html#a0a158f67dd586087dac0e968ea384f09">markdownFileNameToId</a>(fileName) + <span class="stringliteral">&quot;\\ilinebr &quot;</span>);</div>
+<div class="line"><span class="lineno"> 3329</span>        <span class="keywordflow">if</span> (!wasEmpty) docs.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0a6a8fe99e596b149ee15138fa8dcf0c">prepend</a>(<span class="stringliteral">&quot;@ianchor{&quot;</span> + title + <span class="stringliteral">&quot;} &quot;</span> +  <a class="code hl_function" href="../../d2/d0c/markdown_8h.html#a0a158f67dd586087dac0e968ea384f09">markdownFileNameToId</a>(fileName) + <span class="stringliteral">&quot;\\ilinebr &quot;</span>);</div>
 <div class="line"><span class="lineno"> 3330</span>        docs.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0a6a8fe99e596b149ee15138fa8dcf0c">prepend</a>(<span class="stringliteral">&quot;@page &quot;</span>+<span class="keywordtype">id</span>+<span class="stringliteral">&quot; &quot;</span>+title+<span class="stringliteral">&quot;\\ilinebr &quot;</span>);</div>
 <div class="line"><span class="lineno"> 3331</span>      }</div>
 <div class="line"><span class="lineno"> 3332</span>      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; prepend; i++) docs.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0a6a8fe99e596b149ee15138fa8dcf0c">prepend</a>(<span class="stringliteral">&quot;\n&quot;</span>);</div>
@@ -363,54 +363,56 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno"> 3340</span><span class="stringliteral">        </span><span class="keywordflow">if</span> (<a class="code hl_function" href="../../db/d35/namespacereg.html#a0af12d3e92e774639befbdf774606e52">reg::search</a>(s,match,re))</div>
 <div class="line"><span class="lineno"> 3341</span>        {</div>
 <div class="line"><span class="lineno"> 3342</span>          <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> orgLabel    = <a class="code hl_function" href="../../db/d35/namespacereg.html#a1a29dcc7e2ccf462503adc5d496881ae">match</a>[1].str();</div>
-<div class="line"><span class="lineno"> 3343</span>          <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> newLabel    = <a class="code hl_function" href="../../d2/d0c/markdown_8h.html#a0a158f67dd586087dac0e968ea384f09">markdownFileNameToId</a>(fileName);</div>
-<div class="line"><span class="lineno"> 3344</span>          docs = docs.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">left</a>(match[1].position())+               <span class="comment">// part before label</span></div>
-<div class="line"><span class="lineno"> 3345</span>                 newLabel+                                     <span class="comment">// new label</span></div>
-<div class="line"><span class="lineno"> 3346</span>                 <a class="code hl_function" href="../../db/d35/namespacereg.html#a1a29dcc7e2ccf462503adc5d496881ae">match</a>[2].str()+                               <span class="comment">// part between orgLabel and \n</span></div>
-<div class="line"><span class="lineno"> 3347</span>                 <span class="stringliteral">&quot;\\ilinebr @anchor &quot;</span>+orgLabel+<span class="stringliteral">&quot;\n&quot;</span>+           <span class="comment">// add original anchor plus \n of above</span></div>
-<div class="line"><span class="lineno"> 3348</span>                 docs.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a8f4aa5417f6a834f28c7148a1fe262d5">right</a>(docs.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>()-<a class="code hl_function" href="../../db/d35/namespacereg.html#a1a29dcc7e2ccf462503adc5d496881ae">match</a>.length());     <span class="comment">// add remainder of docs</span></div>
-<div class="line"><span class="lineno"> 3349</span>        }</div>
-<div class="line"><span class="lineno"> 3350</span>      }</div>
-<div class="line"><span class="lineno"> 3351</span>      <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 3352</span>    <span class="keywordflow">case</span> ExplicitPageResult::explicitMainPage:</div>
+<div class="line"><span class="lineno"> 3343</span>          <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> orgTitle    = <a class="code hl_function" href="../../db/d35/namespacereg.html#a1a29dcc7e2ccf462503adc5d496881ae">match</a>[2].str();</div>
+<div class="line"><span class="lineno"> 3344</span>          orgTitle = orgTitle.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a66269a694d9e6961bfd145bb4ca72f42">stripWhiteSpace</a>();</div>
+<div class="line"><span class="lineno"> 3345</span>          <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> newLabel    = <a class="code hl_function" href="../../d2/d0c/markdown_8h.html#a0a158f67dd586087dac0e968ea384f09">markdownFileNameToId</a>(fileName);</div>
+<div class="line"><span class="lineno"> 3346</span>          docs = docs.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">left</a>(match[1].position())+               <span class="comment">// part before label</span></div>
+<div class="line"><span class="lineno"> 3347</span>                 newLabel+                                     <span class="comment">// new label</span></div>
+<div class="line"><span class="lineno"> 3348</span>                 <a class="code hl_function" href="../../db/d35/namespacereg.html#a1a29dcc7e2ccf462503adc5d496881ae">match</a>[2].str()+                               <span class="comment">// part between orgLabel and \n</span></div>
+<div class="line"><span class="lineno"> 3349</span>                 <span class="stringliteral">&quot;\\ilinebr @ianchor{&quot;</span> + orgTitle + <span class="stringliteral">&quot;} &quot;</span>+orgLabel+<span class="stringliteral">&quot;\n&quot;</span>+           <span class="comment">// add original anchor plus \n of above</span></div>
+<div class="line"><span class="lineno"> 3350</span>                 docs.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a8f4aa5417f6a834f28c7148a1fe262d5">right</a>(docs.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>()-<a class="code hl_function" href="../../db/d35/namespacereg.html#a1a29dcc7e2ccf462503adc5d496881ae">match</a>.length());     <span class="comment">// add remainder of docs</span></div>
+<div class="line"><span class="lineno"> 3351</span>        }</div>
+<div class="line"><span class="lineno"> 3352</span>      }</div>
 <div class="line"><span class="lineno"> 3353</span>      <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 3354</span>  }</div>
-<div class="line"><span class="lineno"> 3355</span>  <span class="keywordtype">int</span> lineNr=1;</div>
-<div class="line"><span class="lineno"> 3356</span> </div>
-<div class="line"><span class="lineno"> 3357</span>  <a class="code hl_variable" href="../../d4/d77/class_markdown_outline_parser.html#ae7e3150da2e63dfdddf40fbec779b9b5">p</a>-&gt;commentScanner.enterFile(fileName,lineNr);</div>
-<div class="line"><span class="lineno"> 3358</span>  <a class="code hl_enumeration" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4ded">Protection</a> prot = Protection::Public;</div>
-<div class="line"><span class="lineno"> 3359</span>  <span class="keywordtype">bool</span> needsEntry = <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno"> 3360</span>  <span class="keywordtype">int</span> position=0;</div>
-<div class="line"><span class="lineno"> 3361</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> processedDocs = markdown.process(docs,lineNr,<span class="keyword">true</span>);</div>
-<div class="line"><span class="lineno"> 3362</span>  <span class="keywordflow">while</span> (<a class="code hl_variable" href="../../d4/d77/class_markdown_outline_parser.html#ae7e3150da2e63dfdddf40fbec779b9b5">p</a>-&gt;commentScanner.parseCommentBlock(</div>
-<div class="line"><span class="lineno"> 3363</span>        <span class="keyword">this</span>,</div>
-<div class="line"><span class="lineno"> 3364</span>        current.get(),</div>
-<div class="line"><span class="lineno"> 3365</span>        processedDocs,</div>
-<div class="line"><span class="lineno"> 3366</span>        fileName,</div>
-<div class="line"><span class="lineno"> 3367</span>        lineNr,</div>
-<div class="line"><span class="lineno"> 3368</span>        <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>,     <span class="comment">// isBrief</span></div>
-<div class="line"><span class="lineno"> 3369</span>        <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>,     <span class="comment">// javadoc autobrief</span></div>
-<div class="line"><span class="lineno"> 3370</span>        <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>,     <span class="comment">// inBodyDocs</span></div>
-<div class="line"><span class="lineno"> 3371</span>        prot,      <span class="comment">// protection</span></div>
-<div class="line"><span class="lineno"> 3372</span>        position,</div>
-<div class="line"><span class="lineno"> 3373</span>        needsEntry,</div>
-<div class="line"><span class="lineno"> 3374</span>        <span class="keyword">true</span>))</div>
-<div class="line"><span class="lineno"> 3375</span>  {</div>
-<div class="line"><span class="lineno"> 3376</span>    <span class="keywordflow">if</span> (needsEntry)</div>
-<div class="line"><span class="lineno"> 3377</span>    {</div>
-<div class="line"><span class="lineno"> 3378</span>      <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> docFile = current-&gt;docFile;</div>
-<div class="line"><span class="lineno"> 3379</span>      root-&gt;moveToSubEntryAndRefresh(current);</div>
-<div class="line"><span class="lineno"> 3380</span>      current-&gt;lang = <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a9974623ce72fc23df5d64426b9178bf2ae5521f6417755a3ff021e5601c9d688d">SrcLangExt_Markdown</a>;</div>
-<div class="line"><span class="lineno"> 3381</span>      current-&gt;docFile = docFile;</div>
-<div class="line"><span class="lineno"> 3382</span>      current-&gt;docLine = lineNr;</div>
-<div class="line"><span class="lineno"> 3383</span>    }</div>
-<div class="line"><span class="lineno"> 3384</span>  }</div>
-<div class="line"><span class="lineno"> 3385</span>  <span class="keywordflow">if</span> (needsEntry)</div>
-<div class="line"><span class="lineno"> 3386</span>  {</div>
-<div class="line"><span class="lineno"> 3387</span>    root-&gt;moveToSubEntryAndKeep(current);</div>
-<div class="line"><span class="lineno"> 3388</span>  }</div>
-<div class="line"><span class="lineno"> 3389</span>  <a class="code hl_variable" href="../../d4/d77/class_markdown_outline_parser.html#ae7e3150da2e63dfdddf40fbec779b9b5">p</a>-&gt;commentScanner.leaveFile(fileName,lineNr);</div>
-<div class="line"><span class="lineno"> 3390</span>}</div>
+<div class="line"><span class="lineno"> 3354</span>    <span class="keywordflow">case</span> ExplicitPageResult::explicitMainPage:</div>
+<div class="line"><span class="lineno"> 3355</span>      <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 3356</span>  }</div>
+<div class="line"><span class="lineno"> 3357</span>  <span class="keywordtype">int</span> lineNr=1;</div>
+<div class="line"><span class="lineno"> 3358</span> </div>
+<div class="line"><span class="lineno"> 3359</span>  <a class="code hl_variable" href="../../d4/d77/class_markdown_outline_parser.html#ae7e3150da2e63dfdddf40fbec779b9b5">p</a>-&gt;commentScanner.enterFile(fileName,lineNr);</div>
+<div class="line"><span class="lineno"> 3360</span>  <a class="code hl_enumeration" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4ded">Protection</a> prot = Protection::Public;</div>
+<div class="line"><span class="lineno"> 3361</span>  <span class="keywordtype">bool</span> needsEntry = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 3362</span>  <span class="keywordtype">int</span> position=0;</div>
+<div class="line"><span class="lineno"> 3363</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> processedDocs = markdown.process(docs,lineNr,<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 3364</span>  <span class="keywordflow">while</span> (<a class="code hl_variable" href="../../d4/d77/class_markdown_outline_parser.html#ae7e3150da2e63dfdddf40fbec779b9b5">p</a>-&gt;commentScanner.parseCommentBlock(</div>
+<div class="line"><span class="lineno"> 3365</span>        <span class="keyword">this</span>,</div>
+<div class="line"><span class="lineno"> 3366</span>        current.get(),</div>
+<div class="line"><span class="lineno"> 3367</span>        processedDocs,</div>
+<div class="line"><span class="lineno"> 3368</span>        fileName,</div>
+<div class="line"><span class="lineno"> 3369</span>        lineNr,</div>
+<div class="line"><span class="lineno"> 3370</span>        <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>,     <span class="comment">// isBrief</span></div>
+<div class="line"><span class="lineno"> 3371</span>        <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>,     <span class="comment">// javadoc autobrief</span></div>
+<div class="line"><span class="lineno"> 3372</span>        <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>,     <span class="comment">// inBodyDocs</span></div>
+<div class="line"><span class="lineno"> 3373</span>        prot,      <span class="comment">// protection</span></div>
+<div class="line"><span class="lineno"> 3374</span>        position,</div>
+<div class="line"><span class="lineno"> 3375</span>        needsEntry,</div>
+<div class="line"><span class="lineno"> 3376</span>        <span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno"> 3377</span>  {</div>
+<div class="line"><span class="lineno"> 3378</span>    <span class="keywordflow">if</span> (needsEntry)</div>
+<div class="line"><span class="lineno"> 3379</span>    {</div>
+<div class="line"><span class="lineno"> 3380</span>      <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> docFile = current-&gt;docFile;</div>
+<div class="line"><span class="lineno"> 3381</span>      root-&gt;moveToSubEntryAndRefresh(current);</div>
+<div class="line"><span class="lineno"> 3382</span>      current-&gt;lang = <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a9974623ce72fc23df5d64426b9178bf2ae5521f6417755a3ff021e5601c9d688d">SrcLangExt_Markdown</a>;</div>
+<div class="line"><span class="lineno"> 3383</span>      current-&gt;docFile = docFile;</div>
+<div class="line"><span class="lineno"> 3384</span>      current-&gt;docLine = lineNr;</div>
+<div class="line"><span class="lineno"> 3385</span>    }</div>
+<div class="line"><span class="lineno"> 3386</span>  }</div>
+<div class="line"><span class="lineno"> 3387</span>  <span class="keywordflow">if</span> (needsEntry)</div>
+<div class="line"><span class="lineno"> 3388</span>  {</div>
+<div class="line"><span class="lineno"> 3389</span>    root-&gt;moveToSubEntryAndKeep(current);</div>
+<div class="line"><span class="lineno"> 3390</span>  }</div>
+<div class="line"><span class="lineno"> 3391</span>  <a class="code hl_variable" href="../../d4/d77/class_markdown_outline_parser.html#ae7e3150da2e63dfdddf40fbec779b9b5">p</a>-&gt;commentScanner.leaveFile(fileName,lineNr);</div>
+<div class="line"><span class="lineno"> 3392</span>}</div>
 <div class="ttc" id="aclass_debug_html_a1c3f4696cf44a23f41e034323c426f7da4e7a964cec1d0423c74ab7045c1f6f6d"><div class="ttname"><a href="../../da/d7d/class_debug.html#a1c3f4696cf44a23f41e034323c426f7da4e7a964cec1d0423c74ab7045c1f6f6d">Debug::Markdown</a></div><div class="ttdeci">@ Markdown</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00034">debug.h:34</a></div></div>
 <div class="ttc" id="aclass_debug_html_a5d86ffebf96f9f75b6c957db5f831da3"><div class="ttname"><a href="../../da/d7d/class_debug.html#a5d86ffebf96f9f75b6c957db5f831da3">Debug::print</a></div><div class="ttdeci">static void print(DebugMask mask, int prio, const char *fmt,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d00/debug_8cpp_source.html#l00074">debug.cpp:74</a></div></div>
 <div class="ttc" id="aclass_file_info_html"><div class="ttname"><a href="../../d0/da1/class_file_info.html">FileInfo</a></div><div class="ttdoc">Minimal replacement for QFileInfo.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d45/fileinfo_8h_source.html#l00022">fileinfo.h:23</a></div></div>
@@ -471,10 +473,10 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d5/d79/class_outline_parser_interface.html#a69a5b6af5318cae09594b6a48d6b0d99">OutlineParserInterface</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03392">3392</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 3393</span>{</div>
-<div class="line"><span class="lineno"> 3394</span>  <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a3882f6ce51621c77d409060e46cae378">Doxygen::parserManager</a>-&gt;<a class="code hl_function" href="../../d4/d0d/class_parser_manager.html#a44739ad6424de118f9cb2ccae8ea68b9">getOutlineParser</a>(<span class="stringliteral">&quot;*.cpp&quot;</span>)-&gt;parsePrototype(text);</div>
-<div class="line"><span class="lineno"> 3395</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03394">3394</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3395</span>{</div>
+<div class="line"><span class="lineno"> 3396</span>  <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a3882f6ce51621c77d409060e46cae378">Doxygen::parserManager</a>-&gt;<a class="code hl_function" href="../../d4/d0d/class_parser_manager.html#a44739ad6424de118f9cb2ccae8ea68b9">getOutlineParser</a>(<span class="stringliteral">&quot;*.cpp&quot;</span>)-&gt;parsePrototype(text);</div>
+<div class="line"><span class="lineno"> 3397</span>}</div>
 <div class="ttc" id="aclass_doxygen_html_a3882f6ce51621c77d409060e46cae378"><div class="ttname"><a href="../../de/d6a/class_doxygen.html#a3882f6ce51621c77d409060e46cae378">Doxygen::parserManager</a></div><div class="ttdeci">static ParserManager * parserManager</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da1/doxygen_8h_source.html#l00124">doxygen.h:124</a></div></div>
 <div class="ttc" id="aclass_parser_manager_html_a44739ad6424de118f9cb2ccae8ea68b9"><div class="ttname"><a href="../../d4/d0d/class_parser_manager.html#a44739ad6424de118f9cb2ccae8ea68b9">ParserManager::getOutlineParser</a></div><div class="ttdeci">std::unique_ptr&lt; OutlineParserInterface &gt; getOutlineParser(const QCString &amp;extension)</div><div class="ttdoc">Gets the interface to the parser associated with a given extension.</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d55/parserintf_8h_source.html#l00208">parserintf.h:208</a></div></div>
 </div><!-- fragment -->

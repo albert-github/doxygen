@@ -10,7 +10,7 @@ digraph "CommentScanner::Private"
   Node2 [label="commentscanYY_state",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d4/de8/structcommentscan_y_y__state.html",tooltip=" "];
   Node3 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" langParser",fontcolor="grey" ];
   Node3 [label="OutlineParserInterface",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d5/d79/class_outline_parser_interface.html",tooltip="Abstract interface for outline parsers."];
-  Node4 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" blockName\ncopyDocArg\ncurrentCmd\nfileName\nformulaEnv\nformulaText\nfunctionProto\nguardExpr\nhtmlAnchorStr\ninputString\n...",fontcolor="grey" ];
+  Node4 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" anchorTitle\nblockName\ncopyDocArg\ncurrentCmd\nfileName\nformulaEnv\nformulaText\nfunctionProto\nguardExpr\nhtmlAnchorStr\n...",fontcolor="grey" ];
   Node4 [label="QCString",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d9/d45/class_q_c_string.html",tooltip="This is an alternative implementation of QCString."];
   Node5 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" current",fontcolor="grey" ];
   Node5 [label="Entry",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d4/dd7/class_entry.html",tooltip="Represents an unstructured piece of information, about an entity found in the sources."];
