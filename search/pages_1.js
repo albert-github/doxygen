@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['in_20markdown_20files_2e_20unlike_20_3ctt_3e_5c_5canchor_3c_2ftt_3e_20it_20has_20an_20additional_20_27title_27_20option_20that_0',['in markdown files. Unlike &lt;tt&gt;\\anchor&lt;/tt&gt; it has an additional &apos;title&apos; option that',['../d0/d6f/command.html',1,'']]]
+  ['overview_20of_20doxygen_20release_20dates_0',['Overview of doxygen release dates',['../d8/d14/md__2home_2runner_2work_2doxygen_2doxygen_2doc__internal_2releases.html',1,'']]],
+  ['overview_20of_20introduction_20of_20doxygen_20configuration_20settings_1',['Overview of introduction of doxygen configuration settings',['../d7/d1f/md_tags__history.html',1,'']]],
+  ['overview_20of_20introduction_20of_20internal_20special_20commands_2',['Overview of introduction of internal special commands',['../d2/d53/md__2home_2runner_2work_2doxygen_2doxygen_2doc__internal_2commands__internal.html',1,'']]],
+  ['overview_20of_20introduction_20of_20special_20commands_3',['Overview of introduction of special commands',['../dd/dfe/md_commands__history.html',1,'']]]
 ];
