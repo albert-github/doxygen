@@ -1,5 +1,6 @@
 var NAVTREEINDEX124 =
 {
+"df/d0f/translator__ro_8h.html":[9,0,2,282],
 "df/d0f/translator__ro_8h_source.html":[9,0,2,282],
 "df/d10/class_nav_index_entry_list.html":[8,0,415],
 "df/d11/class_member_group_list.html":[8,0,385],
@@ -67,10 +68,10 @@ var NAVTREEINDEX124 =
 "df/d1c/class_dot_class_graph.html#ac5d14ce11b024e3595c0bc9ed47c14aa":[8,0,200,13],
 "df/d1c/class_dot_class_graph.html#acda218b5772f482d137ab17020b96431":[8,0,200,3],
 "df/d1c/class_dot_class_graph.html#afbec9c0d10e03e32941d97cf70f86de5":[8,0,200,17],
-"df/d1e/struct_index_intf_1_1add_contents_item.html":[7,0,7,0],
 "df/d1e/struct_index_intf_1_1add_contents_item.html":[8,0,3,0],
-"df/d1e/struct_index_intf_1_1add_contents_item.html#aeb5cba6e407e5ea1c40a4c890d785a78":[7,0,7,0,0],
+"df/d1e/struct_index_intf_1_1add_contents_item.html":[7,0,7,0],
 "df/d1e/struct_index_intf_1_1add_contents_item.html#aeb5cba6e407e5ea1c40a4c890d785a78":[8,0,3,0,0],
+"df/d1e/struct_index_intf_1_1add_contents_item.html#aeb5cba6e407e5ea1c40a4c890d785a78":[7,0,7,0,0],
 "df/d20/class_doc_html_summary.html":[8,0,150],
 "df/d20/class_doc_html_summary.html#a1ed7df1e844ba1aabe4919ed41e784bf":[8,0,150,1],
 "df/d20/class_doc_html_summary.html#a49c7fb0151a3d88242763ce15e9ef586":[8,0,150,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX124 =
 "df/d20/class_translator_vietnamese.html#acb5897420e31256a19b1de52196e83e9":[8,0,619,44],
 "df/d20/class_translator_vietnamese.html#acbccbeae7500f1153d832267107be077":[8,0,619,136],
 "df/d20/class_translator_vietnamese.html#ace7bbd9c6165a19baf08816915bd857b":[8,0,619,42],
-"df/d20/class_translator_vietnamese.html#acebe0baec5bca7de66b2374e7f59fad1":[8,0,619,95],
-"df/d20/class_translator_vietnamese.html#ad09691682e602a30fcf0f7fa140bb20e":[8,0,619,181]
+"df/d20/class_translator_vietnamese.html#acebe0baec5bca7de66b2374e7f59fad1":[8,0,619,95]
 };

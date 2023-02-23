@@ -1,5 +1,6 @@
 var NAVTREEINDEX94 =
 {
+"dc/d44/class_translator_spanish.html#ac57e621e923ddae56708f5d0fbaf82a8":[8,0,615,22],
 "dc/d44/class_translator_spanish.html#ac68a672026f4329fc911dec0b41c37ef":[8,0,615,177],
 "dc/d44/class_translator_spanish.html#ac7b93c48a7778629add48283033da40c":[8,0,615,265],
 "dc/d44/class_translator_spanish.html#ac9310a5e42bd38523f3ae8ef4051c04e":[8,0,615,168],
@@ -248,6 +249,5 @@ var NAVTREEINDEX94 =
 "dc/d53/class_translator_lithuanian.html#affba1050665c411e2911b41246e0b370":[8,0,603,40],
 "dc/d54/struct_output_gen_intf_1_1end_parameter_list.html":[8,0,5,66],
 "dc/d54/struct_output_gen_intf_1_1end_parameter_list.html":[7,0,10,66],
-"dc/d54/struct_output_gen_intf_1_1end_parameter_list.html#a511c4e81037b6f1222571fb711fb3874":[8,0,5,66,0],
 "dc/d54/struct_output_gen_intf_1_1end_parameter_list.html#a511c4e81037b6f1222571fb711fb3874":[7,0,10,66,0]
 };

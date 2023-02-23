@@ -1,5 +1,6 @@
 var NAVTREEINDEX120 =
 {
+"de/d82/class_translator_polish.html#a7a2c4092e039a8154d249301433e65b0":[8,0,607,157],
 "de/d82/class_translator_polish.html#a7c51709c279dfd97434d2ad5e0dc7ee9":[8,0,607,26],
 "de/d82/class_translator_polish.html#a7c68aacd10a2ac5583af8e22f9da94b1":[8,0,607,5],
 "de/d82/class_translator_polish.html#a7d1f6166319d89187e41c0173765e4fe":[8,0,607,154],
@@ -181,10 +182,10 @@ var NAVTREEINDEX120 =
 "de/d96/struct_filter_group_by_1_1_list_elem.html#a33c40a33c7840dc0dbefd2f6a3ad9bf0":[8,0,267,0,2],
 "de/d96/struct_filter_group_by_1_1_list_elem.html#a6ddb11d2f97e878d4268206d5a5913a4":[8,0,267,0,0],
 "de/d96/struct_filter_group_by_1_1_list_elem.html#a9f238ff84b6da7c82ed7974e4a137cd1":[8,0,267,0,1],
-"de/d96/struct_output_gen_intf_1_1start_section.html":[7,0,10,156],
 "de/d96/struct_output_gen_intf_1_1start_section.html":[8,0,5,156],
-"de/d96/struct_output_gen_intf_1_1start_section.html#a1c4b2944def8ee9dca8b259b16462982":[8,0,5,156,0],
+"de/d96/struct_output_gen_intf_1_1start_section.html":[7,0,10,156],
 "de/d96/struct_output_gen_intf_1_1start_section.html#a1c4b2944def8ee9dca8b259b16462982":[7,0,10,156,0],
+"de/d96/struct_output_gen_intf_1_1start_section.html#a1c4b2944def8ee9dca8b259b16462982":[8,0,5,156,0],
 "de/d99/struct_template_node_tree_1_1_tree_context.html":[8,0,540,0],
 "de/d99/struct_template_node_tree_1_1_tree_context.html#a367bad26a18577642f8a0c838d9063fb":[8,0,540,0,0],
 "de/d99/struct_template_node_tree_1_1_tree_context.html#a695f724c09696c175add24eceee42a18":[8,0,540,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX120 =
 "de/da5/class_man_generator.html#a1fa72926874fc25ba5e1f460c7570281":[8,0,370,201],
 "de/da5/class_man_generator.html#a20a2522333b26065dd45251026189ba0":[8,0,370,92],
 "de/da5/class_man_generator.html#a2269ac68c06f0006836ee3b271384cbb":[8,0,370,17],
-"de/da5/class_man_generator.html#a2338bc0695c2c43e905266bd6178db98":[8,0,370,68],
-"de/da5/class_man_generator.html#a26b16290ff4b2da3c60752d92f69b772":[8,0,370,182]
+"de/da5/class_man_generator.html#a2338bc0695c2c43e905266bd6178db98":[8,0,370,68]
 };
