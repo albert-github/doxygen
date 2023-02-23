@@ -160,7 +160,7 @@ Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="../../dc/d67/class_cache.html">Cache</a> for storing the result of filtering a file </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00581">581</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00596">596</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a125fac6149a9636b3f8343b05ca24ea9" name="a125fac6149a9636b3f8343b05ca24ea9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a125fac6149a9636b3f8343b05ca24ea9">&#9670;&#160;</a></span>LineOffsets</h2>
@@ -182,7 +182,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00589">589</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00604">604</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
 
 </div>
 </div>
@@ -210,9 +210,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00774">774</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  774</span>: <a class="code hl_variable" href="../../d8/d80/class_filter_cache.html#a9330d2904c228992b599ec62cf3442e0">m_endPos</a>(0) { }</div>
-<div class="ttc" id="aclass_filter_cache_html_a9330d2904c228992b599ec62cf3442e0"><div class="ttname"><a href="../../d8/d80/class_filter_cache.html#a9330d2904c228992b599ec62cf3442e0">FilterCache::m_endPos</a></div><div class="ttdeci">size_t m_endPos</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l00778">definition.cpp:778</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00789">789</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  789</span>: <a class="code hl_variable" href="../../d8/d80/class_filter_cache.html#a9330d2904c228992b599ec62cf3442e0">m_endPos</a>(0) { }</div>
+<div class="ttc" id="aclass_filter_cache_html_a9330d2904c228992b599ec62cf3442e0"><div class="ttname"><a href="../../d8/d80/class_filter_cache.html#a9330d2904c228992b599ec62cf3442e0">FilterCache::m_endPos</a></div><div class="ttdeci">size_t m_endPos</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l00793">definition.cpp:793</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -253,22 +253,22 @@ Private Attributes</h2></td></tr>
 
 <p>computes the starting offset for each line for file <em>fileName</em>, whose contents should already be stored in buffer <em>str</em>. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00718">718</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  719</span>    {</div>
-<div class="line"><span class="lineno">  720</span>      <span class="keyword">const</span> <span class="keywordtype">char</span> *p=str.<a class="code hl_function" href="../../d5/d64/class_buf_str.html#a3de05f43cf7f3f18c49622fc0827e63d">data</a>();</div>
-<div class="line"><span class="lineno">  721</span>      <span class="comment">// line 1 (index 0) is at offset 0</span></div>
-<div class="line"><span class="lineno">  722</span>      <span class="keyword">auto</span> it = <a class="code hl_variable" href="../../d8/d80/class_filter_cache.html#a3772d8fa456dcd1aa7fa7719552d06e1">m_lineOffsets</a>.insert(std::make_pair(fileName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>(),<a class="code hl_typedef" href="../../d8/d80/class_filter_cache.html#a125fac6149a9636b3f8343b05ca24ea9">LineOffsets</a>{0})).first;</div>
-<div class="line"><span class="lineno">  723</span>      <span class="keywordflow">while</span> (*p)</div>
-<div class="line"><span class="lineno">  724</span>      {</div>
-<div class="line"><span class="lineno">  725</span>        <span class="keywordtype">char</span> c;</div>
-<div class="line"><span class="lineno">  726</span>        <span class="keywordflow">while</span> ((c=*p)!=<span class="charliteral">&#39;\n&#39;</span> &amp;&amp; c!=0) p++; <span class="comment">// search until end of the line</span></div>
-<div class="line"><span class="lineno">  727</span>        p++;</div>
-<div class="line"><span class="lineno">  728</span>        it-&gt;second.push_back(p-str.<a class="code hl_function" href="../../d5/d64/class_buf_str.html#a3de05f43cf7f3f18c49622fc0827e63d">data</a>());</div>
-<div class="line"><span class="lineno">  729</span>      }</div>
-<div class="line"><span class="lineno">  730</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00733">733</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  734</span>    {</div>
+<div class="line"><span class="lineno">  735</span>      <span class="keyword">const</span> <span class="keywordtype">char</span> *p=str.<a class="code hl_function" href="../../d5/d64/class_buf_str.html#a3de05f43cf7f3f18c49622fc0827e63d">data</a>();</div>
+<div class="line"><span class="lineno">  736</span>      <span class="comment">// line 1 (index 0) is at offset 0</span></div>
+<div class="line"><span class="lineno">  737</span>      <span class="keyword">auto</span> it = <a class="code hl_variable" href="../../d8/d80/class_filter_cache.html#a3772d8fa456dcd1aa7fa7719552d06e1">m_lineOffsets</a>.insert(std::make_pair(fileName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>(),<a class="code hl_typedef" href="../../d8/d80/class_filter_cache.html#a125fac6149a9636b3f8343b05ca24ea9">LineOffsets</a>{0})).first;</div>
+<div class="line"><span class="lineno">  738</span>      <span class="keywordflow">while</span> (*p)</div>
+<div class="line"><span class="lineno">  739</span>      {</div>
+<div class="line"><span class="lineno">  740</span>        <span class="keywordtype">char</span> c;</div>
+<div class="line"><span class="lineno">  741</span>        <span class="keywordflow">while</span> ((c=*p)!=<span class="charliteral">&#39;\n&#39;</span> &amp;&amp; c!=0) p++; <span class="comment">// search until end of the line</span></div>
+<div class="line"><span class="lineno">  742</span>        p++;</div>
+<div class="line"><span class="lineno">  743</span>        it-&gt;second.push_back(p-str.<a class="code hl_function" href="../../d5/d64/class_buf_str.html#a3de05f43cf7f3f18c49622fc0827e63d">data</a>());</div>
+<div class="line"><span class="lineno">  744</span>      }</div>
+<div class="line"><span class="lineno">  745</span>    }</div>
 <div class="ttc" id="aclass_buf_str_html_a3de05f43cf7f3f18c49622fc0827e63d"><div class="ttname"><a href="../../d5/d64/class_buf_str.html#a3de05f43cf7f3f18c49622fc0827e63d">BufStr::data</a></div><div class="ttdeci">const char * data() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de5/bufstr_8h_source.html#l00080">bufstr.h:80</a></div></div>
-<div class="ttc" id="aclass_filter_cache_html_a125fac6149a9636b3f8343b05ca24ea9"><div class="ttname"><a href="../../d8/d80/class_filter_cache.html#a125fac6149a9636b3f8343b05ca24ea9">FilterCache::LineOffsets</a></div><div class="ttdeci">std::vector&lt; size_t &gt; LineOffsets</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l00589">definition.cpp:589</a></div></div>
-<div class="ttc" id="aclass_filter_cache_html_a3772d8fa456dcd1aa7fa7719552d06e1"><div class="ttname"><a href="../../d8/d80/class_filter_cache.html#a3772d8fa456dcd1aa7fa7719552d06e1">FilterCache::m_lineOffsets</a></div><div class="ttdeci">std::unordered_map&lt; std::string, LineOffsets &gt; m_lineOffsets</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l00776">definition.cpp:776</a></div></div>
+<div class="ttc" id="aclass_filter_cache_html_a125fac6149a9636b3f8343b05ca24ea9"><div class="ttname"><a href="../../d8/d80/class_filter_cache.html#a125fac6149a9636b3f8343b05ca24ea9">FilterCache::LineOffsets</a></div><div class="ttdeci">std::vector&lt; size_t &gt; LineOffsets</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l00604">definition.cpp:604</a></div></div>
+<div class="ttc" id="aclass_filter_cache_html_a3772d8fa456dcd1aa7fa7719552d06e1"><div class="ttname"><a href="../../d8/d80/class_filter_cache.html#a3772d8fa456dcd1aa7fa7719552d06e1">FilterCache::m_lineOffsets</a></div><div class="ttdeci">std::unordered_map&lt; std::string, LineOffsets &gt; m_lineOffsets</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l00791">definition.cpp:791</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_ac3aa3ac1a1c36d3305eba22a2eb0d098"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">QCString::data</a></div><div class="ttdeci">const char * data() const</div><div class="ttdoc">Returns a pointer to the contents of the string in the form of a 0-terminated C string.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00147">qcstring.h:147</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d4/de5/bufstr_8h_source.html#l00080">BufStr::data()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::data()</a>.</p>
@@ -324,18 +324,18 @@ Private Attributes</h2></td></tr>
 <p>collects the part of file <em>fileName</em> starting at <em>startLine</em> and ending at <em>endLine</em> into buffer <em>str</em>. </p>
 <p>Applies filtering if FILTER_SOURCE_FILES is enabled and the file extension matches a filter. Caches file information so that subsequent extraction of blocks from the same file can be performed efficiently </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00598">598</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  599</span>    {</div>
-<div class="line"><span class="lineno">  600</span>      std::lock_guard&lt;std::mutex&gt; lock(<a class="code hl_variable" href="../../d8/d80/class_filter_cache.html#afd73c9ef7ca1d08c6c051f3076b44a1f">m_mutex</a>);</div>
-<div class="line"><span class="lineno">  601</span>      <span class="keywordtype">bool</span> filterSourceFiles = <a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(FILTER_SOURCE_FILES);</div>
-<div class="line"><span class="lineno">  602</span>      <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> filter = <a class="code hl_function" href="../../df/d2d/util_8cpp.html#ad4426e053bb11589c58bd5c6828817e2">getFileFilter</a>(fileName,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>);</div>
-<div class="line"><span class="lineno">  603</span>      <span class="keywordtype">bool</span> usePipe = !filter.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>() &amp;&amp; filterSourceFiles;</div>
-<div class="line"><span class="lineno">  604</span>      <span class="keywordflow">return</span> usePipe ? <a class="code hl_function" href="../../d8/d80/class_filter_cache.html#a93b6b31d6da500cbf95b88f21fc8169b">getFileContentsPipe</a>(fileName,filter,startLine,endLine,str)</div>
-<div class="line"><span class="lineno">  605</span>                     : <a class="code hl_function" href="../../d8/d80/class_filter_cache.html#a46bf0e51ab2d516cd7b5198c03a53914">getFileContentsDisk</a>(fileName,startLine,endLine,str);</div>
-<div class="line"><span class="lineno">  606</span>    }</div>
-<div class="ttc" id="aclass_filter_cache_html_a46bf0e51ab2d516cd7b5198c03a53914"><div class="ttname"><a href="../../d8/d80/class_filter_cache.html#a46bf0e51ab2d516cd7b5198c03a53914">FilterCache::getFileContentsDisk</a></div><div class="ttdeci">bool getFileContentsDisk(const QCString &amp;fileName, size_t startLine, size_t endLine, BufStr &amp;str)</div><div class="ttdoc">reads the fragment start at startLine and ending at endLine from file fileName into buffer str</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l00694">definition.cpp:694</a></div></div>
-<div class="ttc" id="aclass_filter_cache_html_a93b6b31d6da500cbf95b88f21fc8169b"><div class="ttname"><a href="../../d8/d80/class_filter_cache.html#a93b6b31d6da500cbf95b88f21fc8169b">FilterCache::getFileContentsPipe</a></div><div class="ttdeci">bool getFileContentsPipe(const QCString &amp;fileName, const QCString &amp;filter, size_t startLine, size_t endLine, BufStr &amp;str)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l00608">definition.cpp:608</a></div></div>
-<div class="ttc" id="aclass_filter_cache_html_afd73c9ef7ca1d08c6c051f3076b44a1f"><div class="ttname"><a href="../../d8/d80/class_filter_cache.html#afd73c9ef7ca1d08c6c051f3076b44a1f">FilterCache::m_mutex</a></div><div class="ttdeci">std::mutex m_mutex</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l00777">definition.cpp:777</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00613">613</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  614</span>    {</div>
+<div class="line"><span class="lineno">  615</span>      std::lock_guard&lt;std::mutex&gt; lock(<a class="code hl_variable" href="../../d8/d80/class_filter_cache.html#afd73c9ef7ca1d08c6c051f3076b44a1f">m_mutex</a>);</div>
+<div class="line"><span class="lineno">  616</span>      <span class="keywordtype">bool</span> filterSourceFiles = <a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(FILTER_SOURCE_FILES);</div>
+<div class="line"><span class="lineno">  617</span>      <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> filter = <a class="code hl_function" href="../../df/d2d/util_8cpp.html#ad4426e053bb11589c58bd5c6828817e2">getFileFilter</a>(fileName,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>);</div>
+<div class="line"><span class="lineno">  618</span>      <span class="keywordtype">bool</span> usePipe = !filter.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>() &amp;&amp; filterSourceFiles;</div>
+<div class="line"><span class="lineno">  619</span>      <span class="keywordflow">return</span> usePipe ? <a class="code hl_function" href="../../d8/d80/class_filter_cache.html#a93b6b31d6da500cbf95b88f21fc8169b">getFileContentsPipe</a>(fileName,filter,startLine,endLine,str)</div>
+<div class="line"><span class="lineno">  620</span>                     : <a class="code hl_function" href="../../d8/d80/class_filter_cache.html#a46bf0e51ab2d516cd7b5198c03a53914">getFileContentsDisk</a>(fileName,startLine,endLine,str);</div>
+<div class="line"><span class="lineno">  621</span>    }</div>
+<div class="ttc" id="aclass_filter_cache_html_a46bf0e51ab2d516cd7b5198c03a53914"><div class="ttname"><a href="../../d8/d80/class_filter_cache.html#a46bf0e51ab2d516cd7b5198c03a53914">FilterCache::getFileContentsDisk</a></div><div class="ttdeci">bool getFileContentsDisk(const QCString &amp;fileName, size_t startLine, size_t endLine, BufStr &amp;str)</div><div class="ttdoc">reads the fragment start at startLine and ending at endLine from file fileName into buffer str</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l00709">definition.cpp:709</a></div></div>
+<div class="ttc" id="aclass_filter_cache_html_a93b6b31d6da500cbf95b88f21fc8169b"><div class="ttname"><a href="../../d8/d80/class_filter_cache.html#a93b6b31d6da500cbf95b88f21fc8169b">FilterCache::getFileContentsPipe</a></div><div class="ttdeci">bool getFileContentsPipe(const QCString &amp;fileName, const QCString &amp;filter, size_t startLine, size_t endLine, BufStr &amp;str)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l00623">definition.cpp:623</a></div></div>
+<div class="ttc" id="aclass_filter_cache_html_afd73c9ef7ca1d08c6c051f3076b44a1f"><div class="ttname"><a href="../../d8/d80/class_filter_cache.html#afd73c9ef7ca1d08c6c051f3076b44a1f">FilterCache::m_mutex</a></div><div class="ttdeci">std::mutex m_mutex</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l00792">definition.cpp:792</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html">QCString</a></div><div class="ttdoc">This is an alternative implementation of QCString.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00102">qcstring.h:103</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a621c4090d69ad7d05ef8e5234376c3d8"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">QCString::isEmpty</a></div><div class="ttdeci">bool isEmpty() const</div><div class="ttdoc">Returns TRUE iff the string is empty.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00138">qcstring.h:138</a></div></div>
 <div class="ttc" id="aconfig_8h_html_a5373d0332a31f16ad7a42037733e8c79"><div class="ttname"><a href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a></div><div class="ttdeci">#define Config_getBool(name)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/config_8h_source.html#l00033">config.h:33</a></div></div>
@@ -344,7 +344,7 @@ Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l01312">getFileFilter()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00138">QCString::isEmpty()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00801">readCodeFragment()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00816">readCodeFragment()</a>.</p>
 
 </div>
 </div>
@@ -396,30 +396,30 @@ Private Attributes</h2></td></tr>
 
 <p>reads the fragment start at <em>startLine</em> and ending at <em>endLine</em> from file <em>fileName</em> into buffer <em>str</em> </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00694">694</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  695</span>    {</div>
-<div class="line"><span class="lineno">  696</span>      <span class="comment">// normal file</span></div>
-<div class="line"><span class="lineno">  697</span>      <span class="comment">//printf(&quot;getFileContents(%s): no filter\n&quot;,qPrint(fileName));</span></div>
-<div class="line"><span class="lineno">  698</span>      <span class="keyword">auto</span> it = <a class="code hl_variable" href="../../d8/d80/class_filter_cache.html#a3772d8fa456dcd1aa7fa7719552d06e1">m_lineOffsets</a>.find(fileName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>());</div>
-<div class="line"><span class="lineno">  699</span>      <span class="keywordflow">if</span> (it == <a class="code hl_variable" href="../../d8/d80/class_filter_cache.html#a3772d8fa456dcd1aa7fa7719552d06e1">m_lineOffsets</a>.end()) <span class="comment">// new file</span></div>
-<div class="line"><span class="lineno">  700</span>      {</div>
-<div class="line"><span class="lineno">  701</span>        <span class="comment">// read file completely into str buffer</span></div>
-<div class="line"><span class="lineno">  702</span>        <a class="code hl_function" href="../../d8/d80/class_filter_cache.html#a561aed69f8328ab8f425802023f8a502">readFragmentFromFile</a>(str,fileName,0);</div>
-<div class="line"><span class="lineno">  703</span>        <span class="comment">// shrink buffer to [startLine..endLine] part</span></div>
-<div class="line"><span class="lineno">  704</span>        <a class="code hl_function" href="../../d8/d80/class_filter_cache.html#a83dda63454ddae5c6979c308b4094bf5">shrinkBuffer</a>(str,fileName,startLine,endLine);</div>
-<div class="line"><span class="lineno">  705</span>      }</div>
-<div class="line"><span class="lineno">  706</span>      <span class="keywordflow">else</span> <span class="comment">// file already processed before</span></div>
-<div class="line"><span class="lineno">  707</span>      {</div>
-<div class="line"><span class="lineno">  708</span>        <span class="keyword">auto</span> [ startLineOffset, fragmentSize] = <a class="code hl_function" href="../../d8/d80/class_filter_cache.html#a2b04ae61006aa3e9ac0d44ded23f246d">getFragmentLocation</a>(it-&gt;second,startLine,endLine);</div>
-<div class="line"><span class="lineno">  709</span>        <span class="comment">//printf(&quot;%s: existing file [%zu-%zu] -&gt; start=%zu size=%zu\n&quot;,</span></div>
-<div class="line"><span class="lineno">  710</span>        <span class="comment">//    qPrint(fileName),startLine,endLine,startLineOffset,fragmentSize);</span></div>
-<div class="line"><span class="lineno">  711</span>        <a class="code hl_function" href="../../d8/d80/class_filter_cache.html#a561aed69f8328ab8f425802023f8a502">readFragmentFromFile</a>(str,fileName,startLineOffset,fragmentSize);</div>
-<div class="line"><span class="lineno">  712</span>      }</div>
-<div class="line"><span class="lineno">  713</span>      <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  714</span>    }</div>
-<div class="ttc" id="aclass_filter_cache_html_a2b04ae61006aa3e9ac0d44ded23f246d"><div class="ttname"><a href="../../d8/d80/class_filter_cache.html#a2b04ae61006aa3e9ac0d44ded23f246d">FilterCache::getFragmentLocation</a></div><div class="ttdeci">auto getFragmentLocation(const LineOffsets &amp;lineOffsets, size_t startLine, size_t endLine) -&gt; std::tuple&lt; size_t, size_t &gt;</div><div class="ttdoc">Returns the byte offset and size within a file of a fragment given the array of line offsets and the ...</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l00734">definition.cpp:734</a></div></div>
-<div class="ttc" id="aclass_filter_cache_html_a561aed69f8328ab8f425802023f8a502"><div class="ttname"><a href="../../d8/d80/class_filter_cache.html#a561aed69f8328ab8f425802023f8a502">FilterCache::readFragmentFromFile</a></div><div class="ttdeci">void readFragmentFromFile(BufStr &amp;str, const QCString &amp;fileName, size_t startOffset, size_t size=0)</div><div class="ttdoc">Reads the fragment start at byte offset startOffset of file fileName into buffer str.</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l00763">definition.cpp:763</a></div></div>
-<div class="ttc" id="aclass_filter_cache_html_a83dda63454ddae5c6979c308b4094bf5"><div class="ttname"><a href="../../d8/d80/class_filter_cache.html#a83dda63454ddae5c6979c308b4094bf5">FilterCache::shrinkBuffer</a></div><div class="ttdeci">void shrinkBuffer(BufStr &amp;str, const QCString &amp;fileName, size_t startLine, size_t endLine)</div><div class="ttdoc">Shrinks buffer str which should hold the contents of fileName to the fragment starting a line startLi...</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l00745">definition.cpp:745</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00709">709</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  710</span>    {</div>
+<div class="line"><span class="lineno">  711</span>      <span class="comment">// normal file</span></div>
+<div class="line"><span class="lineno">  712</span>      <span class="comment">//printf(&quot;getFileContents(%s): no filter\n&quot;,qPrint(fileName));</span></div>
+<div class="line"><span class="lineno">  713</span>      <span class="keyword">auto</span> it = <a class="code hl_variable" href="../../d8/d80/class_filter_cache.html#a3772d8fa456dcd1aa7fa7719552d06e1">m_lineOffsets</a>.find(fileName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>());</div>
+<div class="line"><span class="lineno">  714</span>      <span class="keywordflow">if</span> (it == <a class="code hl_variable" href="../../d8/d80/class_filter_cache.html#a3772d8fa456dcd1aa7fa7719552d06e1">m_lineOffsets</a>.end()) <span class="comment">// new file</span></div>
+<div class="line"><span class="lineno">  715</span>      {</div>
+<div class="line"><span class="lineno">  716</span>        <span class="comment">// read file completely into str buffer</span></div>
+<div class="line"><span class="lineno">  717</span>        <a class="code hl_function" href="../../d8/d80/class_filter_cache.html#a561aed69f8328ab8f425802023f8a502">readFragmentFromFile</a>(str,fileName,0);</div>
+<div class="line"><span class="lineno">  718</span>        <span class="comment">// shrink buffer to [startLine..endLine] part</span></div>
+<div class="line"><span class="lineno">  719</span>        <a class="code hl_function" href="../../d8/d80/class_filter_cache.html#a83dda63454ddae5c6979c308b4094bf5">shrinkBuffer</a>(str,fileName,startLine,endLine);</div>
+<div class="line"><span class="lineno">  720</span>      }</div>
+<div class="line"><span class="lineno">  721</span>      <span class="keywordflow">else</span> <span class="comment">// file already processed before</span></div>
+<div class="line"><span class="lineno">  722</span>      {</div>
+<div class="line"><span class="lineno">  723</span>        <span class="keyword">auto</span> [ startLineOffset, fragmentSize] = <a class="code hl_function" href="../../d8/d80/class_filter_cache.html#a2b04ae61006aa3e9ac0d44ded23f246d">getFragmentLocation</a>(it-&gt;second,startLine,endLine);</div>
+<div class="line"><span class="lineno">  724</span>        <span class="comment">//printf(&quot;%s: existing file [%zu-%zu] -&gt; start=%zu size=%zu\n&quot;,</span></div>
+<div class="line"><span class="lineno">  725</span>        <span class="comment">//    qPrint(fileName),startLine,endLine,startLineOffset,fragmentSize);</span></div>
+<div class="line"><span class="lineno">  726</span>        <a class="code hl_function" href="../../d8/d80/class_filter_cache.html#a561aed69f8328ab8f425802023f8a502">readFragmentFromFile</a>(str,fileName,startLineOffset,fragmentSize);</div>
+<div class="line"><span class="lineno">  727</span>      }</div>
+<div class="line"><span class="lineno">  728</span>      <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  729</span>    }</div>
+<div class="ttc" id="aclass_filter_cache_html_a2b04ae61006aa3e9ac0d44ded23f246d"><div class="ttname"><a href="../../d8/d80/class_filter_cache.html#a2b04ae61006aa3e9ac0d44ded23f246d">FilterCache::getFragmentLocation</a></div><div class="ttdeci">auto getFragmentLocation(const LineOffsets &amp;lineOffsets, size_t startLine, size_t endLine) -&gt; std::tuple&lt; size_t, size_t &gt;</div><div class="ttdoc">Returns the byte offset and size within a file of a fragment given the array of line offsets and the ...</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l00749">definition.cpp:749</a></div></div>
+<div class="ttc" id="aclass_filter_cache_html_a561aed69f8328ab8f425802023f8a502"><div class="ttname"><a href="../../d8/d80/class_filter_cache.html#a561aed69f8328ab8f425802023f8a502">FilterCache::readFragmentFromFile</a></div><div class="ttdeci">void readFragmentFromFile(BufStr &amp;str, const QCString &amp;fileName, size_t startOffset, size_t size=0)</div><div class="ttdoc">Reads the fragment start at byte offset startOffset of file fileName into buffer str.</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l00778">definition.cpp:778</a></div></div>
+<div class="ttc" id="aclass_filter_cache_html_a83dda63454ddae5c6979c308b4094bf5"><div class="ttname"><a href="../../d8/d80/class_filter_cache.html#a83dda63454ddae5c6979c308b4094bf5">FilterCache::shrinkBuffer</a></div><div class="ttdeci">void shrinkBuffer(BufStr &amp;str, const QCString &amp;fileName, size_t startLine, size_t endLine)</div><div class="ttdoc">Shrinks buffer str which should hold the contents of fileName to the fragment starting a line startLi...</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l00760">definition.cpp:760</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a875e9ad762554ef12f3ed69b015bb245"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">QCString::str</a></div><div class="ttdeci">const std::string &amp; str() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00478">qcstring.h:478</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00478">QCString::str()</a>.</p>
@@ -478,95 +478,95 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00608">608</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  610</span>    {</div>
-<div class="line"><span class="lineno">  611</span>      <span class="keyword">auto</span> it = <a class="code hl_variable" href="../../d8/d80/class_filter_cache.html#ad92cbee1c6a87517ee25ce8fc5fa9657">m_cache</a>.find(fileName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>());</div>
-<div class="line"><span class="lineno">  612</span>      <span class="keywordflow">if</span> (it!=<a class="code hl_variable" href="../../d8/d80/class_filter_cache.html#ad92cbee1c6a87517ee25ce8fc5fa9657">m_cache</a>.end()) <span class="comment">// cache hit: reuse stored result</span></div>
-<div class="line"><span class="lineno">  613</span>      {</div>
-<div class="line"><span class="lineno">  614</span>        <span class="keyword">auto</span> item = it-&gt;second;</div>
-<div class="line"><span class="lineno">  615</span>        <span class="comment">//printf(&quot;getFileContents(%s): cache hit\n&quot;,qPrint(fileName));</span></div>
-<div class="line"><span class="lineno">  616</span>        <span class="comment">// file already processed, get the results after filtering from the tmp file</span></div>
-<div class="line"><span class="lineno">  617</span>        <a class="code hl_function" href="../../da/d7d/class_debug.html#a5d86ffebf96f9f75b6c957db5f831da3">Debug::print</a>(<a class="code hl_enumvalue" href="../../da/d7d/class_debug.html#a1c3f4696cf44a23f41e034323c426f7da5e47cf9df9552fe30480288b70288d72">Debug::FilterOutput</a>,0,<span class="stringliteral">&quot;Reusing filter result for %s from %s at offset=%lld size=%zu\n&quot;</span>,</div>
-<div class="line"><span class="lineno">  618</span>               <a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(fileName),<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#ab044e0b3e178d1ba542e38a9c206d57a">Doxygen::filterDBFileName</a>),item.filePos,item.fileSize);</div>
-<div class="line"><span class="lineno">  619</span> </div>
-<div class="line"><span class="lineno">  620</span>        <span class="keyword">auto</span> it_off = <a class="code hl_variable" href="../../d8/d80/class_filter_cache.html#a3772d8fa456dcd1aa7fa7719552d06e1">m_lineOffsets</a>.find(fileName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>());</div>
-<div class="line"><span class="lineno">  621</span>        assert(it_off!=<a class="code hl_variable" href="../../d8/d80/class_filter_cache.html#a3772d8fa456dcd1aa7fa7719552d06e1">m_lineOffsets</a>.end());</div>
-<div class="line"><span class="lineno">  622</span>        <span class="keyword">auto</span> [ startLineOffset, fragmentSize] = <a class="code hl_function" href="../../d8/d80/class_filter_cache.html#a2b04ae61006aa3e9ac0d44ded23f246d">getFragmentLocation</a>(it_off-&gt;second,startLine,endLine);</div>
-<div class="line"><span class="lineno">  623</span>        <span class="comment">//printf(&quot;%s: existing file [%zu-%zu]-&gt;[%zu-%zu] size=%zu\n&quot;,</span></div>
-<div class="line"><span class="lineno">  624</span>        <span class="comment">//    qPrint(fileName),startLine,endLine,startLineOffset,endLineOffset,fragmentSize);</span></div>
-<div class="line"><span class="lineno">  625</span>        <a class="code hl_function" href="../../d8/d80/class_filter_cache.html#a561aed69f8328ab8f425802023f8a502">readFragmentFromFile</a>(str, <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#ab044e0b3e178d1ba542e38a9c206d57a">Doxygen::filterDBFileName</a>.data(),</div>
-<div class="line"><span class="lineno">  626</span>                             item.filePos+startLineOffset, fragmentSize);</div>
-<div class="line"><span class="lineno">  627</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  628</span>      }</div>
-<div class="line"><span class="lineno">  629</span>      <span class="keywordflow">else</span> <span class="comment">// cache miss: filter active but file not previously processed</span></div>
-<div class="line"><span class="lineno">  630</span>      {</div>
-<div class="line"><span class="lineno">  631</span>        <span class="comment">//printf(&quot;getFileContents(%s): cache miss\n&quot;,qPrint(fileName));</span></div>
-<div class="line"><span class="lineno">  632</span>        <span class="comment">// filter file</span></div>
-<div class="line"><span class="lineno">  633</span>        <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> cmd=filter+<span class="stringliteral">&quot; \&quot;&quot;</span>+fileName+<span class="stringliteral">&quot;\&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno">  634</span>        <a class="code hl_function" href="../../da/d7d/class_debug.html#a5d86ffebf96f9f75b6c957db5f831da3">Debug::print</a>(<a class="code hl_enumvalue" href="../../da/d7d/class_debug.html#a1c3f4696cf44a23f41e034323c426f7da8dbe64e9ab683833c1ea7252649058a3">Debug::ExtCmd</a>,0,<span class="stringliteral">&quot;Executing popen(`%s`)\n&quot;</span>,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(cmd));</div>
-<div class="line"><span class="lineno">  635</span>        FILE *f = <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a15b92ac03be9e8f4d95d5e881342d83c">Portable::popen</a>(cmd,<span class="stringliteral">&quot;r&quot;</span>);</div>
-<div class="line"><span class="lineno">  636</span>        <span class="keywordflow">if</span> (f==0)</div>
-<div class="line"><span class="lineno">  637</span>        {</div>
-<div class="line"><span class="lineno">  638</span>          <span class="comment">// handle error</span></div>
-<div class="line"><span class="lineno">  639</span>          <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a>(<span class="stringliteral">&quot;Error opening filter pipe command &#39;%s&#39;\n&quot;</span>,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(cmd));</div>
-<div class="line"><span class="lineno">  640</span>          str.<a class="code hl_function" href="../../d5/d64/class_buf_str.html#a36ec062edea86b33b794eeab37f32b1c">addChar</a>(<span class="charliteral">&#39;\0&#39;</span>);</div>
-<div class="line"><span class="lineno">  641</span>          <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  642</span>        }</div>
-<div class="line"><span class="lineno">  643</span>        FILE *bf = <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a4dbb08c3de409bd1a73be3da6d93ac57">Portable::fopen</a>(<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#ab044e0b3e178d1ba542e38a9c206d57a">Doxygen::filterDBFileName</a>,<span class="stringliteral">&quot;a+b&quot;</span>);</div>
-<div class="line"><span class="lineno">  644</span>        FilterCacheItem item;</div>
-<div class="line"><span class="lineno">  645</span>        item.filePos = <a class="code hl_variable" href="../../d8/d80/class_filter_cache.html#a9330d2904c228992b599ec62cf3442e0">m_endPos</a>;</div>
-<div class="line"><span class="lineno">  646</span>        <span class="keywordflow">if</span> (bf==0)</div>
-<div class="line"><span class="lineno">  647</span>        {</div>
-<div class="line"><span class="lineno">  648</span>          <span class="comment">// handle error</span></div>
-<div class="line"><span class="lineno">  649</span>          <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a>(<span class="stringliteral">&quot;Error opening filter database file %s\n&quot;</span>,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#ab044e0b3e178d1ba542e38a9c206d57a">Doxygen::filterDBFileName</a>));</div>
-<div class="line"><span class="lineno">  650</span>          str.<a class="code hl_function" href="../../d5/d64/class_buf_str.html#a36ec062edea86b33b794eeab37f32b1c">addChar</a>(<span class="charliteral">&#39;\0&#39;</span>);</div>
-<div class="line"><span class="lineno">  651</span>          <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a6cde8cab8c3dc3397ea5c6030fbf6e84">Portable::pclose</a>(f);</div>
-<div class="line"><span class="lineno">  652</span>          <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  653</span>        }</div>
-<div class="line"><span class="lineno">  654</span>        <span class="comment">// append the filtered output to the database file</span></div>
-<div class="line"><span class="lineno">  655</span>        <span class="keywordtype">size_t</span> size=0;</div>
-<div class="line"><span class="lineno">  656</span>        <span class="keywordflow">while</span> (!feof(f))</div>
-<div class="line"><span class="lineno">  657</span>        {</div>
-<div class="line"><span class="lineno">  658</span>          <span class="keyword">const</span> <span class="keywordtype">int</span> blockSize = 4096;</div>
-<div class="line"><span class="lineno">  659</span>          <span class="keywordtype">char</span> buf[blockSize];</div>
-<div class="line"><span class="lineno">  660</span>          <span class="keywordtype">size_t</span> bytesRead = fread(buf,1,blockSize,f);</div>
-<div class="line"><span class="lineno">  661</span>          <span class="keywordtype">size_t</span> bytesWritten = fwrite(buf,1,bytesRead,bf);</div>
-<div class="line"><span class="lineno">  662</span>          <span class="keywordflow">if</span> (bytesRead!=bytesWritten)</div>
-<div class="line"><span class="lineno">  663</span>          {</div>
-<div class="line"><span class="lineno">  664</span>            <span class="comment">// handle error</span></div>
-<div class="line"><span class="lineno">  665</span>            <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a>(<span class="stringliteral">&quot;Failed to write to filter database %s. Wrote %zu out of %zu bytes\n&quot;</span>,</div>
-<div class="line"><span class="lineno">  666</span>                <a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#ab044e0b3e178d1ba542e38a9c206d57a">Doxygen::filterDBFileName</a>),bytesWritten,bytesRead);</div>
-<div class="line"><span class="lineno">  667</span>            str.<a class="code hl_function" href="../../d5/d64/class_buf_str.html#a36ec062edea86b33b794eeab37f32b1c">addChar</a>(<span class="charliteral">&#39;\0&#39;</span>);</div>
-<div class="line"><span class="lineno">  668</span>            <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a6cde8cab8c3dc3397ea5c6030fbf6e84">Portable::pclose</a>(f);</div>
-<div class="line"><span class="lineno">  669</span>            <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#af099fa6239b4961887192d8eadfd2a44">fclose</a>(bf);</div>
-<div class="line"><span class="lineno">  670</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  671</span>          }</div>
-<div class="line"><span class="lineno">  672</span>          size+=bytesWritten;</div>
-<div class="line"><span class="lineno">  673</span>          str.<a class="code hl_function" href="../../d5/d64/class_buf_str.html#a1b51ff3c6cd8c69cd32992570ef109d4">addArray</a>(buf,<span class="keyword">static_cast&lt;</span>uint32_t<span class="keyword">&gt;</span>(bytesWritten));</div>
-<div class="line"><span class="lineno">  674</span>        }</div>
-<div class="line"><span class="lineno">  675</span>        str.<a class="code hl_function" href="../../d5/d64/class_buf_str.html#a36ec062edea86b33b794eeab37f32b1c">addChar</a>(<span class="charliteral">&#39;\0&#39;</span>);</div>
-<div class="line"><span class="lineno">  676</span>        item.fileSize = size;</div>
-<div class="line"><span class="lineno">  677</span>        <span class="comment">// add location entry to the dictionary</span></div>
-<div class="line"><span class="lineno">  678</span>        <a class="code hl_variable" href="../../d8/d80/class_filter_cache.html#ad92cbee1c6a87517ee25ce8fc5fa9657">m_cache</a>.insert(std::make_pair(fileName.str(),item));</div>
-<div class="line"><span class="lineno">  679</span>        <a class="code hl_function" href="../../da/d7d/class_debug.html#a5d86ffebf96f9f75b6c957db5f831da3">Debug::print</a>(<a class="code hl_enumvalue" href="../../da/d7d/class_debug.html#a1c3f4696cf44a23f41e034323c426f7da5e47cf9df9552fe30480288b70288d72">Debug::FilterOutput</a>,0,<span class="stringliteral">&quot;Storing new filter result for %s in %s at offset=%lld size=%zu\n&quot;</span>,</div>
-<div class="line"><span class="lineno">  680</span>               <a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(fileName),<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#ab044e0b3e178d1ba542e38a9c206d57a">Doxygen::filterDBFileName</a>),item.filePos,item.fileSize);</div>
-<div class="line"><span class="lineno">  681</span>        <span class="comment">// update end of file position</span></div>
-<div class="line"><span class="lineno">  682</span>        <a class="code hl_variable" href="../../d8/d80/class_filter_cache.html#a9330d2904c228992b599ec62cf3442e0">m_endPos</a> += size;</div>
-<div class="line"><span class="lineno">  683</span>        <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a6cde8cab8c3dc3397ea5c6030fbf6e84">Portable::pclose</a>(f);</div>
-<div class="line"><span class="lineno">  684</span>        <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#af099fa6239b4961887192d8eadfd2a44">fclose</a>(bf);</div>
-<div class="line"><span class="lineno">  685</span> </div>
-<div class="line"><span class="lineno">  686</span>        <span class="comment">// shrink buffer to [startLine..endLine] part</span></div>
-<div class="line"><span class="lineno">  687</span>        <a class="code hl_function" href="../../d8/d80/class_filter_cache.html#a83dda63454ddae5c6979c308b4094bf5">shrinkBuffer</a>(str,fileName,startLine,endLine);</div>
-<div class="line"><span class="lineno">  688</span>      }</div>
-<div class="line"><span class="lineno">  689</span>      <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  690</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00623">623</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  625</span>    {</div>
+<div class="line"><span class="lineno">  626</span>      <span class="keyword">auto</span> it = <a class="code hl_variable" href="../../d8/d80/class_filter_cache.html#ad92cbee1c6a87517ee25ce8fc5fa9657">m_cache</a>.find(fileName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>());</div>
+<div class="line"><span class="lineno">  627</span>      <span class="keywordflow">if</span> (it!=<a class="code hl_variable" href="../../d8/d80/class_filter_cache.html#ad92cbee1c6a87517ee25ce8fc5fa9657">m_cache</a>.end()) <span class="comment">// cache hit: reuse stored result</span></div>
+<div class="line"><span class="lineno">  628</span>      {</div>
+<div class="line"><span class="lineno">  629</span>        <span class="keyword">auto</span> item = it-&gt;second;</div>
+<div class="line"><span class="lineno">  630</span>        <span class="comment">//printf(&quot;getFileContents(%s): cache hit\n&quot;,qPrint(fileName));</span></div>
+<div class="line"><span class="lineno">  631</span>        <span class="comment">// file already processed, get the results after filtering from the tmp file</span></div>
+<div class="line"><span class="lineno">  632</span>        <a class="code hl_function" href="../../da/d7d/class_debug.html#a5d86ffebf96f9f75b6c957db5f831da3">Debug::print</a>(<a class="code hl_enumvalue" href="../../da/d7d/class_debug.html#a1c3f4696cf44a23f41e034323c426f7da5e47cf9df9552fe30480288b70288d72">Debug::FilterOutput</a>,0,<span class="stringliteral">&quot;Reusing filter result for %s from %s at offset=%lld size=%zu\n&quot;</span>,</div>
+<div class="line"><span class="lineno">  633</span>               <a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(fileName),<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#ab044e0b3e178d1ba542e38a9c206d57a">Doxygen::filterDBFileName</a>),item.filePos,item.fileSize);</div>
+<div class="line"><span class="lineno">  634</span> </div>
+<div class="line"><span class="lineno">  635</span>        <span class="keyword">auto</span> it_off = <a class="code hl_variable" href="../../d8/d80/class_filter_cache.html#a3772d8fa456dcd1aa7fa7719552d06e1">m_lineOffsets</a>.find(fileName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>());</div>
+<div class="line"><span class="lineno">  636</span>        assert(it_off!=<a class="code hl_variable" href="../../d8/d80/class_filter_cache.html#a3772d8fa456dcd1aa7fa7719552d06e1">m_lineOffsets</a>.end());</div>
+<div class="line"><span class="lineno">  637</span>        <span class="keyword">auto</span> [ startLineOffset, fragmentSize] = <a class="code hl_function" href="../../d8/d80/class_filter_cache.html#a2b04ae61006aa3e9ac0d44ded23f246d">getFragmentLocation</a>(it_off-&gt;second,startLine,endLine);</div>
+<div class="line"><span class="lineno">  638</span>        <span class="comment">//printf(&quot;%s: existing file [%zu-%zu]-&gt;[%zu-%zu] size=%zu\n&quot;,</span></div>
+<div class="line"><span class="lineno">  639</span>        <span class="comment">//    qPrint(fileName),startLine,endLine,startLineOffset,endLineOffset,fragmentSize);</span></div>
+<div class="line"><span class="lineno">  640</span>        <a class="code hl_function" href="../../d8/d80/class_filter_cache.html#a561aed69f8328ab8f425802023f8a502">readFragmentFromFile</a>(str, <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#ab044e0b3e178d1ba542e38a9c206d57a">Doxygen::filterDBFileName</a>.data(),</div>
+<div class="line"><span class="lineno">  641</span>                             item.filePos+startLineOffset, fragmentSize);</div>
+<div class="line"><span class="lineno">  642</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  643</span>      }</div>
+<div class="line"><span class="lineno">  644</span>      <span class="keywordflow">else</span> <span class="comment">// cache miss: filter active but file not previously processed</span></div>
+<div class="line"><span class="lineno">  645</span>      {</div>
+<div class="line"><span class="lineno">  646</span>        <span class="comment">//printf(&quot;getFileContents(%s): cache miss\n&quot;,qPrint(fileName));</span></div>
+<div class="line"><span class="lineno">  647</span>        <span class="comment">// filter file</span></div>
+<div class="line"><span class="lineno">  648</span>        <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> cmd=filter+<span class="stringliteral">&quot; \&quot;&quot;</span>+fileName+<span class="stringliteral">&quot;\&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno">  649</span>        <a class="code hl_function" href="../../da/d7d/class_debug.html#a5d86ffebf96f9f75b6c957db5f831da3">Debug::print</a>(<a class="code hl_enumvalue" href="../../da/d7d/class_debug.html#a1c3f4696cf44a23f41e034323c426f7da8dbe64e9ab683833c1ea7252649058a3">Debug::ExtCmd</a>,0,<span class="stringliteral">&quot;Executing popen(`%s`)\n&quot;</span>,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(cmd));</div>
+<div class="line"><span class="lineno">  650</span>        FILE *f = <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a15b92ac03be9e8f4d95d5e881342d83c">Portable::popen</a>(cmd,<span class="stringliteral">&quot;r&quot;</span>);</div>
+<div class="line"><span class="lineno">  651</span>        <span class="keywordflow">if</span> (f==0)</div>
+<div class="line"><span class="lineno">  652</span>        {</div>
+<div class="line"><span class="lineno">  653</span>          <span class="comment">// handle error</span></div>
+<div class="line"><span class="lineno">  654</span>          <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a>(<span class="stringliteral">&quot;Error opening filter pipe command &#39;%s&#39;\n&quot;</span>,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(cmd));</div>
+<div class="line"><span class="lineno">  655</span>          str.<a class="code hl_function" href="../../d5/d64/class_buf_str.html#a36ec062edea86b33b794eeab37f32b1c">addChar</a>(<span class="charliteral">&#39;\0&#39;</span>);</div>
+<div class="line"><span class="lineno">  656</span>          <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  657</span>        }</div>
+<div class="line"><span class="lineno">  658</span>        FILE *bf = <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a4dbb08c3de409bd1a73be3da6d93ac57">Portable::fopen</a>(<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#ab044e0b3e178d1ba542e38a9c206d57a">Doxygen::filterDBFileName</a>,<span class="stringliteral">&quot;a+b&quot;</span>);</div>
+<div class="line"><span class="lineno">  659</span>        FilterCacheItem item;</div>
+<div class="line"><span class="lineno">  660</span>        item.filePos = <a class="code hl_variable" href="../../d8/d80/class_filter_cache.html#a9330d2904c228992b599ec62cf3442e0">m_endPos</a>;</div>
+<div class="line"><span class="lineno">  661</span>        <span class="keywordflow">if</span> (bf==0)</div>
+<div class="line"><span class="lineno">  662</span>        {</div>
+<div class="line"><span class="lineno">  663</span>          <span class="comment">// handle error</span></div>
+<div class="line"><span class="lineno">  664</span>          <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a>(<span class="stringliteral">&quot;Error opening filter database file %s\n&quot;</span>,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#ab044e0b3e178d1ba542e38a9c206d57a">Doxygen::filterDBFileName</a>));</div>
+<div class="line"><span class="lineno">  665</span>          str.<a class="code hl_function" href="../../d5/d64/class_buf_str.html#a36ec062edea86b33b794eeab37f32b1c">addChar</a>(<span class="charliteral">&#39;\0&#39;</span>);</div>
+<div class="line"><span class="lineno">  666</span>          <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a6cde8cab8c3dc3397ea5c6030fbf6e84">Portable::pclose</a>(f);</div>
+<div class="line"><span class="lineno">  667</span>          <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  668</span>        }</div>
+<div class="line"><span class="lineno">  669</span>        <span class="comment">// append the filtered output to the database file</span></div>
+<div class="line"><span class="lineno">  670</span>        <span class="keywordtype">size_t</span> size=0;</div>
+<div class="line"><span class="lineno">  671</span>        <span class="keywordflow">while</span> (!feof(f))</div>
+<div class="line"><span class="lineno">  672</span>        {</div>
+<div class="line"><span class="lineno">  673</span>          <span class="keyword">const</span> <span class="keywordtype">int</span> blockSize = 4096;</div>
+<div class="line"><span class="lineno">  674</span>          <span class="keywordtype">char</span> buf[blockSize];</div>
+<div class="line"><span class="lineno">  675</span>          <span class="keywordtype">size_t</span> bytesRead = fread(buf,1,blockSize,f);</div>
+<div class="line"><span class="lineno">  676</span>          <span class="keywordtype">size_t</span> bytesWritten = fwrite(buf,1,bytesRead,bf);</div>
+<div class="line"><span class="lineno">  677</span>          <span class="keywordflow">if</span> (bytesRead!=bytesWritten)</div>
+<div class="line"><span class="lineno">  678</span>          {</div>
+<div class="line"><span class="lineno">  679</span>            <span class="comment">// handle error</span></div>
+<div class="line"><span class="lineno">  680</span>            <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a>(<span class="stringliteral">&quot;Failed to write to filter database %s. Wrote %zu out of %zu bytes\n&quot;</span>,</div>
+<div class="line"><span class="lineno">  681</span>                <a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#ab044e0b3e178d1ba542e38a9c206d57a">Doxygen::filterDBFileName</a>),bytesWritten,bytesRead);</div>
+<div class="line"><span class="lineno">  682</span>            str.<a class="code hl_function" href="../../d5/d64/class_buf_str.html#a36ec062edea86b33b794eeab37f32b1c">addChar</a>(<span class="charliteral">&#39;\0&#39;</span>);</div>
+<div class="line"><span class="lineno">  683</span>            <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a6cde8cab8c3dc3397ea5c6030fbf6e84">Portable::pclose</a>(f);</div>
+<div class="line"><span class="lineno">  684</span>            <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#af099fa6239b4961887192d8eadfd2a44">fclose</a>(bf);</div>
+<div class="line"><span class="lineno">  685</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  686</span>          }</div>
+<div class="line"><span class="lineno">  687</span>          size+=bytesWritten;</div>
+<div class="line"><span class="lineno">  688</span>          str.<a class="code hl_function" href="../../d5/d64/class_buf_str.html#a1b51ff3c6cd8c69cd32992570ef109d4">addArray</a>(buf,<span class="keyword">static_cast&lt;</span>uint32_t<span class="keyword">&gt;</span>(bytesWritten));</div>
+<div class="line"><span class="lineno">  689</span>        }</div>
+<div class="line"><span class="lineno">  690</span>        str.<a class="code hl_function" href="../../d5/d64/class_buf_str.html#a36ec062edea86b33b794eeab37f32b1c">addChar</a>(<span class="charliteral">&#39;\0&#39;</span>);</div>
+<div class="line"><span class="lineno">  691</span>        item.fileSize = size;</div>
+<div class="line"><span class="lineno">  692</span>        <span class="comment">// add location entry to the dictionary</span></div>
+<div class="line"><span class="lineno">  693</span>        <a class="code hl_variable" href="../../d8/d80/class_filter_cache.html#ad92cbee1c6a87517ee25ce8fc5fa9657">m_cache</a>.insert(std::make_pair(fileName.str(),item));</div>
+<div class="line"><span class="lineno">  694</span>        <a class="code hl_function" href="../../da/d7d/class_debug.html#a5d86ffebf96f9f75b6c957db5f831da3">Debug::print</a>(<a class="code hl_enumvalue" href="../../da/d7d/class_debug.html#a1c3f4696cf44a23f41e034323c426f7da5e47cf9df9552fe30480288b70288d72">Debug::FilterOutput</a>,0,<span class="stringliteral">&quot;Storing new filter result for %s in %s at offset=%lld size=%zu\n&quot;</span>,</div>
+<div class="line"><span class="lineno">  695</span>               <a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(fileName),<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#ab044e0b3e178d1ba542e38a9c206d57a">Doxygen::filterDBFileName</a>),item.filePos,item.fileSize);</div>
+<div class="line"><span class="lineno">  696</span>        <span class="comment">// update end of file position</span></div>
+<div class="line"><span class="lineno">  697</span>        <a class="code hl_variable" href="../../d8/d80/class_filter_cache.html#a9330d2904c228992b599ec62cf3442e0">m_endPos</a> += size;</div>
+<div class="line"><span class="lineno">  698</span>        <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a6cde8cab8c3dc3397ea5c6030fbf6e84">Portable::pclose</a>(f);</div>
+<div class="line"><span class="lineno">  699</span>        <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#af099fa6239b4961887192d8eadfd2a44">fclose</a>(bf);</div>
+<div class="line"><span class="lineno">  700</span> </div>
+<div class="line"><span class="lineno">  701</span>        <span class="comment">// shrink buffer to [startLine..endLine] part</span></div>
+<div class="line"><span class="lineno">  702</span>        <a class="code hl_function" href="../../d8/d80/class_filter_cache.html#a83dda63454ddae5c6979c308b4094bf5">shrinkBuffer</a>(str,fileName,startLine,endLine);</div>
+<div class="line"><span class="lineno">  703</span>      }</div>
+<div class="line"><span class="lineno">  704</span>      <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  705</span>    }</div>
 <div class="ttc" id="aclass_buf_str_html_a1b51ff3c6cd8c69cd32992570ef109d4"><div class="ttname"><a href="../../d5/d64/class_buf_str.html#a1b51ff3c6cd8c69cd32992570ef109d4">BufStr::addArray</a></div><div class="ttdeci">void addArray(const char *a, size_t len)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de5/bufstr_8h_source.html#l00046">bufstr.h:46</a></div></div>
 <div class="ttc" id="aclass_buf_str_html_a36ec062edea86b33b794eeab37f32b1c"><div class="ttname"><a href="../../d5/d64/class_buf_str.html#a36ec062edea86b33b794eeab37f32b1c">BufStr::addChar</a></div><div class="ttdeci">void addChar(char c)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de5/bufstr_8h_source.html#l00041">bufstr.h:41</a></div></div>
 <div class="ttc" id="aclass_debug_html_a1c3f4696cf44a23f41e034323c426f7da5e47cf9df9552fe30480288b70288d72"><div class="ttname"><a href="../../da/d7d/class_debug.html#a1c3f4696cf44a23f41e034323c426f7da5e47cf9df9552fe30480288b70288d72">Debug::FilterOutput</a></div><div class="ttdeci">@ FilterOutput</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00035">debug.h:35</a></div></div>
 <div class="ttc" id="aclass_debug_html_a1c3f4696cf44a23f41e034323c426f7da8dbe64e9ab683833c1ea7252649058a3"><div class="ttname"><a href="../../da/d7d/class_debug.html#a1c3f4696cf44a23f41e034323c426f7da8dbe64e9ab683833c1ea7252649058a3">Debug::ExtCmd</a></div><div class="ttdeci">@ ExtCmd</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00033">debug.h:33</a></div></div>
 <div class="ttc" id="aclass_debug_html_a5d86ffebf96f9f75b6c957db5f831da3"><div class="ttname"><a href="../../da/d7d/class_debug.html#a5d86ffebf96f9f75b6c957db5f831da3">Debug::print</a></div><div class="ttdeci">static void print(DebugMask mask, int prio, const char *fmt,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d00/debug_8cpp_source.html#l00074">debug.cpp:74</a></div></div>
 <div class="ttc" id="aclass_doxygen_html_ab044e0b3e178d1ba542e38a9c206d57a"><div class="ttname"><a href="../../de/d6a/class_doxygen.html#ab044e0b3e178d1ba542e38a9c206d57a">Doxygen::filterDBFileName</a></div><div class="ttdeci">static QCString filterDBFileName</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da1/doxygen_8h_source.html#l00126">doxygen.h:126</a></div></div>
-<div class="ttc" id="aclass_filter_cache_html_ad92cbee1c6a87517ee25ce8fc5fa9657"><div class="ttname"><a href="../../d8/d80/class_filter_cache.html#ad92cbee1c6a87517ee25ce8fc5fa9657">FilterCache::m_cache</a></div><div class="ttdeci">std::unordered_map&lt; std::string, FilterCacheItem &gt; m_cache</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l00775">definition.cpp:775</a></div></div>
+<div class="ttc" id="aclass_filter_cache_html_ad92cbee1c6a87517ee25ce8fc5fa9657"><div class="ttname"><a href="../../d8/d80/class_filter_cache.html#ad92cbee1c6a87517ee25ce8fc5fa9657">FilterCache::m_cache</a></div><div class="ttdeci">std::unordered_map&lt; std::string, FilterCacheItem &gt; m_cache</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l00790">definition.cpp:790</a></div></div>
 <div class="ttc" id="amessage_8cpp_html_aede5746344fdce99647541101eaa7f06"><div class="ttname"><a href="../../d8/d6a/message_8cpp.html#aede5746344fdce99647541101eaa7f06">err</a></div><div class="ttdeci">void err(const char *fmt,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6a/message_8cpp_source.html#l00239">message.cpp:239</a></div></div>
 <div class="ttc" id="anamespace_portable_html_a15b92ac03be9e8f4d95d5e881342d83c"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#a15b92ac03be9e8f4d95d5e881342d83c">Portable::popen</a></div><div class="ttdeci">FILE * popen(const QCString &amp;name, const QCString &amp;type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1c/portable_8cpp_source.html#l00488">portable.cpp:488</a></div></div>
 <div class="ttc" id="anamespace_portable_html_a4dbb08c3de409bd1a73be3da6d93ac57"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#a4dbb08c3de409bd1a73be3da6d93ac57">Portable::fopen</a></div><div class="ttdeci">FILE * fopen(const QCString &amp;fileName, const QCString &amp;mode)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1c/portable_8cpp_source.html#l00358">portable.cpp:358</a></div></div>
@@ -574,7 +574,7 @@ Private Attributes</h2></td></tr>
 <div class="ttc" id="anamespace_portable_html_af099fa6239b4961887192d8eadfd2a44"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#af099fa6239b4961887192d8eadfd2a44">Portable::fclose</a></div><div class="ttdeci">int fclose(FILE *f)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1c/portable_8cpp_source.html#l00378">portable.cpp:378</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_a9851ebb5ae2f65b4d2b1d08421edbfd2"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a></div><div class="ttdeci">const char * qPrint(const char *s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00607">qcstring.h:607</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/de5/bufstr_8h_source.html#l00046">BufStr::addArray()</a>, <a class="el" href="../../d4/de5/bufstr_8h_source.html#l00041">BufStr::addChar()</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00239">err()</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00033">Debug::ExtCmd</a>, <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00586">FilterCache::FilterCacheItem::filePos</a>, <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00587">FilterCache::FilterCacheItem::fileSize</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00126">Doxygen::filterDBFileName</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00035">Debug::FilterOutput</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00358">Portable::fopen()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00497">Portable::pclose()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00488">Portable::popen()</a>, <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00074">Debug::print()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00607">qPrint()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00478">QCString::str()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/de5/bufstr_8h_source.html#l00046">BufStr::addArray()</a>, <a class="el" href="../../d4/de5/bufstr_8h_source.html#l00041">BufStr::addChar()</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00239">err()</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00033">Debug::ExtCmd</a>, <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00601">FilterCache::FilterCacheItem::filePos</a>, <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00602">FilterCache::FilterCacheItem::fileSize</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00126">Doxygen::filterDBFileName</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00035">Debug::FilterOutput</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00358">Portable::fopen()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00497">Portable::pclose()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00488">Portable::popen()</a>, <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00074">Debug::print()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00607">qPrint()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00478">QCString::str()</a>.</p>
 
 </div>
 </div>
@@ -621,13 +621,13 @@ Private Attributes</h2></td></tr>
 
 <p>Returns the byte offset and size within a file of a fragment given the array of line offsets and the start emd end line of the fragment. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00734">734</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  736</span>    {</div>
-<div class="line"><span class="lineno">  737</span>      <span class="keywordtype">size_t</span> startLineOffset = lineOffsets[std::min(startLine-1,lineOffsets.size()-1)];</div>
-<div class="line"><span class="lineno">  738</span>      <span class="keywordtype">size_t</span> endLineOffset   = lineOffsets[std::min(endLine,    lineOffsets.size()-1)];</div>
-<div class="line"><span class="lineno">  739</span>      <span class="keywordtype">size_t</span> fragmentSize = endLineOffset-startLineOffset;</div>
-<div class="line"><span class="lineno">  740</span>      <span class="keywordflow">return</span> std::tie(startLineOffset,fragmentSize);</div>
-<div class="line"><span class="lineno">  741</span>    };</div>
+<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00749">749</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  751</span>    {</div>
+<div class="line"><span class="lineno">  752</span>      <span class="keywordtype">size_t</span> startLineOffset = lineOffsets[std::min(startLine-1,lineOffsets.size()-1)];</div>
+<div class="line"><span class="lineno">  753</span>      <span class="keywordtype">size_t</span> endLineOffset   = lineOffsets[std::min(endLine,    lineOffsets.size()-1)];</div>
+<div class="line"><span class="lineno">  754</span>      <span class="keywordtype">size_t</span> fragmentSize = endLineOffset-startLineOffset;</div>
+<div class="line"><span class="lineno">  755</span>      <span class="keywordflow">return</span> std::tie(startLineOffset,fragmentSize);</div>
+<div class="line"><span class="lineno">  756</span>    };</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -654,14 +654,14 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00781">781</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  782</span>{</div>
-<div class="line"><span class="lineno">  783</span>  <span class="keyword">static</span> <a class="code hl_class" href="../../d8/d80/class_filter_cache.html">FilterCache</a> theInstance;</div>
-<div class="line"><span class="lineno">  784</span>  <span class="keywordflow">return</span> theInstance;</div>
-<div class="line"><span class="lineno">  785</span>}</div>
-<div class="ttc" id="aclass_filter_cache_html"><div class="ttname"><a href="../../d8/d80/class_filter_cache.html">FilterCache</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l00581">definition.cpp:582</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00796">796</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  797</span>{</div>
+<div class="line"><span class="lineno">  798</span>  <span class="keyword">static</span> <a class="code hl_class" href="../../d8/d80/class_filter_cache.html">FilterCache</a> theInstance;</div>
+<div class="line"><span class="lineno">  799</span>  <span class="keywordflow">return</span> theInstance;</div>
+<div class="line"><span class="lineno">  800</span>}</div>
+<div class="ttc" id="aclass_filter_cache_html"><div class="ttname"><a href="../../d8/d80/class_filter_cache.html">FilterCache</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l00596">definition.cpp:597</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00801">readCodeFragment()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00816">readCodeFragment()</a>.</p>
 
 </div>
 </div>
@@ -714,16 +714,16 @@ Private Attributes</h2></td></tr>
 <p>Reads the fragment start at byte offset <em>startOffset</em> of file <em>fileName</em> into buffer <em>str</em>. </p>
 <p>Result will be a null terminated. If size==0 the whole file will be read and startOffset is ignored. If size&gt;0, size bytes will be read. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00763">763</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  764</span>    {</div>
-<div class="line"><span class="lineno">  765</span>      std::ifstream ifs = <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a0579eaf8c245a77f1e804a3cf1b0aa73">Portable::openInputStream</a>(fileName,<span class="keyword">true</span>,<span class="keyword">true</span>);</div>
-<div class="line"><span class="lineno">  766</span>      <span class="keywordflow">if</span> (size==0) { startOffset=0; size = <span class="keyword">static_cast&lt;</span><span class="keywordtype">size_t</span><span class="keyword">&gt;</span>(ifs.tellg()); }</div>
-<div class="line"><span class="lineno">  767</span>      ifs.seekg(startOffset, std::ios::beg);</div>
-<div class="line"><span class="lineno">  768</span>      str.<a class="code hl_function" href="../../d5/d64/class_buf_str.html#af4bda58a1b9cbf4f33fe3d247502e1f4">resize</a>(size+1);</div>
-<div class="line"><span class="lineno">  769</span>      ifs.read(str.<a class="code hl_function" href="../../d5/d64/class_buf_str.html#a3de05f43cf7f3f18c49622fc0827e63d">data</a>(), size);</div>
-<div class="line"><span class="lineno">  770</span>      str.<a class="code hl_function" href="../../d5/d64/class_buf_str.html#af3a94f59f1f7326281202943ed631518">skip</a>(size);</div>
-<div class="line"><span class="lineno">  771</span>      str.<a class="code hl_function" href="../../d5/d64/class_buf_str.html#a36ec062edea86b33b794eeab37f32b1c">addChar</a>(<span class="charliteral">&#39;\0&#39;</span>);</div>
-<div class="line"><span class="lineno">  772</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00778">778</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  779</span>    {</div>
+<div class="line"><span class="lineno">  780</span>      std::ifstream ifs = <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a0579eaf8c245a77f1e804a3cf1b0aa73">Portable::openInputStream</a>(fileName,<span class="keyword">true</span>,<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  781</span>      <span class="keywordflow">if</span> (size==0) { startOffset=0; size = <span class="keyword">static_cast&lt;</span><span class="keywordtype">size_t</span><span class="keyword">&gt;</span>(ifs.tellg()); }</div>
+<div class="line"><span class="lineno">  782</span>      ifs.seekg(startOffset, std::ios::beg);</div>
+<div class="line"><span class="lineno">  783</span>      str.<a class="code hl_function" href="../../d5/d64/class_buf_str.html#af4bda58a1b9cbf4f33fe3d247502e1f4">resize</a>(size+1);</div>
+<div class="line"><span class="lineno">  784</span>      ifs.read(str.<a class="code hl_function" href="../../d5/d64/class_buf_str.html#a3de05f43cf7f3f18c49622fc0827e63d">data</a>(), size);</div>
+<div class="line"><span class="lineno">  785</span>      str.<a class="code hl_function" href="../../d5/d64/class_buf_str.html#af3a94f59f1f7326281202943ed631518">skip</a>(size);</div>
+<div class="line"><span class="lineno">  786</span>      str.<a class="code hl_function" href="../../d5/d64/class_buf_str.html#a36ec062edea86b33b794eeab37f32b1c">addChar</a>(<span class="charliteral">&#39;\0&#39;</span>);</div>
+<div class="line"><span class="lineno">  787</span>    }</div>
 <div class="ttc" id="aclass_buf_str_html_af3a94f59f1f7326281202943ed631518"><div class="ttname"><a href="../../d5/d64/class_buf_str.html#af3a94f59f1f7326281202943ed631518">BufStr::skip</a></div><div class="ttdeci">void skip(size_t s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de5/bufstr_8h_source.html#l00052">bufstr.h:52</a></div></div>
 <div class="ttc" id="aclass_buf_str_html_af4bda58a1b9cbf4f33fe3d247502e1f4"><div class="ttname"><a href="../../d5/d64/class_buf_str.html#af4bda58a1b9cbf4f33fe3d247502e1f4">BufStr::resize</a></div><div class="ttdeci">void resize(size_t newlen)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de5/bufstr_8h_source.html#l00062">bufstr.h:62</a></div></div>
 <div class="ttc" id="anamespace_portable_html_a0579eaf8c245a77f1e804a3cf1b0aa73"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#a0579eaf8c245a77f1e804a3cf1b0aa73">Portable::openInputStream</a></div><div class="ttdeci">std::ifstream openInputStream(const QCString &amp;name, bool binary=false, bool openAtEnd=false)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1c/portable_8cpp_source.html#l00659">portable.cpp:659</a></div></div>
@@ -780,23 +780,23 @@ Private Attributes</h2></td></tr>
 
 <p>Shrinks buffer <em>str</em> which should hold the contents of <em>fileName</em> to the fragment starting a line <em>startLine</em> and ending at line <em>endLine</em>. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00745">745</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  746</span>    {</div>
-<div class="line"><span class="lineno">  747</span>      <span class="comment">// compute offsets from start for each line</span></div>
-<div class="line"><span class="lineno">  748</span>      <a class="code hl_function" href="../../d8/d80/class_filter_cache.html#aaf8b9f6b1250f8c49648fb876d08ab45">compileLineOffsets</a>(fileName,str);</div>
-<div class="line"><span class="lineno">  749</span>      <span class="keyword">auto</span> it = <a class="code hl_variable" href="../../d8/d80/class_filter_cache.html#a3772d8fa456dcd1aa7fa7719552d06e1">m_lineOffsets</a>.find(fileName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>());</div>
-<div class="line"><span class="lineno">  750</span>      assert(it!=<a class="code hl_variable" href="../../d8/d80/class_filter_cache.html#a3772d8fa456dcd1aa7fa7719552d06e1">m_lineOffsets</a>.end());</div>
-<div class="line"><span class="lineno">  751</span>      <span class="keyword">const</span> <a class="code hl_typedef" href="../../d8/d80/class_filter_cache.html#a125fac6149a9636b3f8343b05ca24ea9">LineOffsets</a> &amp;lineOffsets = it-&gt;second;</div>
-<div class="line"><span class="lineno">  752</span>      <span class="keyword">auto</span> [ startLineOffset, fragmentSize] = <a class="code hl_function" href="../../d8/d80/class_filter_cache.html#a2b04ae61006aa3e9ac0d44ded23f246d">getFragmentLocation</a>(lineOffsets,startLine,endLine);</div>
-<div class="line"><span class="lineno">  753</span>      <span class="comment">//printf(&quot;%s: new file [%zu-%zu]-&gt;[%zu-%zu] size=%zu\n&quot;,</span></div>
-<div class="line"><span class="lineno">  754</span>      <span class="comment">//    qPrint(fileName),startLine,endLine,startLineOffset,endLineOffset,fragmentSize);</span></div>
-<div class="line"><span class="lineno">  755</span>      str.<a class="code hl_function" href="../../d5/d64/class_buf_str.html#a301e1d54d3d97f819e2c08d0350f3b7f">dropFromStart</a>(startLineOffset);</div>
-<div class="line"><span class="lineno">  756</span>      str.<a class="code hl_function" href="../../d5/d64/class_buf_str.html#af4bda58a1b9cbf4f33fe3d247502e1f4">resize</a>(fragmentSize+1);</div>
-<div class="line"><span class="lineno">  757</span>      str.<a class="code hl_function" href="../../d5/d64/class_buf_str.html#a0e7869798fc5e8278287a15cba0d0e54">at</a>(fragmentSize)=<span class="charliteral">&#39;\0&#39;</span>;</div>
-<div class="line"><span class="lineno">  758</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00760">760</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  761</span>    {</div>
+<div class="line"><span class="lineno">  762</span>      <span class="comment">// compute offsets from start for each line</span></div>
+<div class="line"><span class="lineno">  763</span>      <a class="code hl_function" href="../../d8/d80/class_filter_cache.html#aaf8b9f6b1250f8c49648fb876d08ab45">compileLineOffsets</a>(fileName,str);</div>
+<div class="line"><span class="lineno">  764</span>      <span class="keyword">auto</span> it = <a class="code hl_variable" href="../../d8/d80/class_filter_cache.html#a3772d8fa456dcd1aa7fa7719552d06e1">m_lineOffsets</a>.find(fileName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>());</div>
+<div class="line"><span class="lineno">  765</span>      assert(it!=<a class="code hl_variable" href="../../d8/d80/class_filter_cache.html#a3772d8fa456dcd1aa7fa7719552d06e1">m_lineOffsets</a>.end());</div>
+<div class="line"><span class="lineno">  766</span>      <span class="keyword">const</span> <a class="code hl_typedef" href="../../d8/d80/class_filter_cache.html#a125fac6149a9636b3f8343b05ca24ea9">LineOffsets</a> &amp;lineOffsets = it-&gt;second;</div>
+<div class="line"><span class="lineno">  767</span>      <span class="keyword">auto</span> [ startLineOffset, fragmentSize] = <a class="code hl_function" href="../../d8/d80/class_filter_cache.html#a2b04ae61006aa3e9ac0d44ded23f246d">getFragmentLocation</a>(lineOffsets,startLine,endLine);</div>
+<div class="line"><span class="lineno">  768</span>      <span class="comment">//printf(&quot;%s: new file [%zu-%zu]-&gt;[%zu-%zu] size=%zu\n&quot;,</span></div>
+<div class="line"><span class="lineno">  769</span>      <span class="comment">//    qPrint(fileName),startLine,endLine,startLineOffset,endLineOffset,fragmentSize);</span></div>
+<div class="line"><span class="lineno">  770</span>      str.<a class="code hl_function" href="../../d5/d64/class_buf_str.html#a301e1d54d3d97f819e2c08d0350f3b7f">dropFromStart</a>(startLineOffset);</div>
+<div class="line"><span class="lineno">  771</span>      str.<a class="code hl_function" href="../../d5/d64/class_buf_str.html#af4bda58a1b9cbf4f33fe3d247502e1f4">resize</a>(fragmentSize+1);</div>
+<div class="line"><span class="lineno">  772</span>      str.<a class="code hl_function" href="../../d5/d64/class_buf_str.html#a0e7869798fc5e8278287a15cba0d0e54">at</a>(fragmentSize)=<span class="charliteral">&#39;\0&#39;</span>;</div>
+<div class="line"><span class="lineno">  773</span>    }</div>
 <div class="ttc" id="aclass_buf_str_html_a0e7869798fc5e8278287a15cba0d0e54"><div class="ttname"><a href="../../d5/d64/class_buf_str.html#a0e7869798fc5e8278287a15cba0d0e54">BufStr::at</a></div><div class="ttdeci">const char &amp; at(size_t i) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de5/bufstr_8h_source.html#l00088">bufstr.h:88</a></div></div>
 <div class="ttc" id="aclass_buf_str_html_a301e1d54d3d97f819e2c08d0350f3b7f"><div class="ttname"><a href="../../d5/d64/class_buf_str.html#a301e1d54d3d97f819e2c08d0350f3b7f">BufStr::dropFromStart</a></div><div class="ttdeci">void dropFromStart(size_t bytes)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de5/bufstr_8h_source.html#l00108">bufstr.h:108</a></div></div>
-<div class="ttc" id="aclass_filter_cache_html_aaf8b9f6b1250f8c49648fb876d08ab45"><div class="ttname"><a href="../../d8/d80/class_filter_cache.html#aaf8b9f6b1250f8c49648fb876d08ab45">FilterCache::compileLineOffsets</a></div><div class="ttdeci">void compileLineOffsets(const QCString &amp;fileName, const BufStr &amp;str)</div><div class="ttdoc">computes the starting offset for each line for file fileName, whose contents should already be stored...</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l00718">definition.cpp:718</a></div></div>
+<div class="ttc" id="aclass_filter_cache_html_aaf8b9f6b1250f8c49648fb876d08ab45"><div class="ttname"><a href="../../d8/d80/class_filter_cache.html#aaf8b9f6b1250f8c49648fb876d08ab45">FilterCache::compileLineOffsets</a></div><div class="ttdeci">void compileLineOffsets(const QCString &amp;fileName, const BufStr &amp;str)</div><div class="ttdoc">computes the starting offset for each line for file fileName, whose contents should already be stored...</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l00733">definition.cpp:733</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d4/de5/bufstr_8h_source.html#l00088">BufStr::at()</a>, <a class="el" href="../../d4/de5/bufstr_8h_source.html#l00108">BufStr::dropFromStart()</a>, <a class="el" href="../../d4/de5/bufstr_8h_source.html#l00062">BufStr::resize()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00478">QCString::str()</a>.</p>
 
@@ -823,7 +823,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00775">775</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00790">790</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
 
 </div>
 </div>
@@ -847,7 +847,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00778">778</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00793">793</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
 
 </div>
 </div>
@@ -871,7 +871,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00776">776</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00791">791</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
 
 </div>
 </div>
@@ -895,7 +895,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00777">777</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00792">792</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
 
 </div>
 </div>

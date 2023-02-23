@@ -22,7 +22,6 @@ var markdown_8cpp =
     [ "convertStringFragment", "de/d04/markdown_8cpp.html#adc84c573d677e387555fa1a7b16b9001", null ],
     [ "escapeDoubleQuotes", "de/d04/markdown_8cpp.html#a3d4cb7f7e85f41df2eab7827e3bec33e", null ],
     [ "escapeSpecialChars", "de/d04/markdown_8cpp.html#a5ba50f3a46a2d635f06fbc600356ee4a", null ],
-    [ "extractTitleId", "de/d04/markdown_8cpp.html#ac64b17dcaff93b5da2a386dba68b3c13", null ],
     [ "findTableColumns", "de/d04/markdown_8cpp.html#ac3bb1789abc2534eb3826e810df324d5", null ],
     [ "getFilteredImageAttributes", "de/d04/markdown_8cpp.html#a260b69149a067d7717aedfc9b93bf5f2", null ],
     [ "hasLineBreak", "de/d04/markdown_8cpp.html#a83af9b7f7b7b74f5bcb46edbf94c6ff7", null ],

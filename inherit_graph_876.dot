@@ -6,5 +6,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [label="RTFGenerator::RTFListItemInfo",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d18/struct_r_t_f_generator_1_1_r_t_f_list_item_info.html",tooltip=" "];
+  Node0 [label="RTFCodeGenerator",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/df7/class_r_t_f_code_generator.html",tooltip="Generator for RTF code fragments."];
 }

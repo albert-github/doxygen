@@ -268,6 +268,7 @@ var annotated_dup =
     [ "ActiveRowSpan", "d6/d2e/struct_active_row_span.html", "d6/d2e/struct_active_row_span" ],
     [ "AllMembersListContext", "d6/d10/class_all_members_list_context.html", "d6/d10/class_all_members_list_context" ],
     [ "AlphaIndexTableCell", "de/d3e/class_alpha_index_table_cell.html", "de/d3e/class_alpha_index_table_cell" ],
+    [ "AnchorGenerator", "db/dd9/class_anchor_generator.html", "db/dd9/class_anchor_generator" ],
     [ "AnnotatedIndexContext", "da/d67/struct_annotated_index_context.html", "da/d67/struct_annotated_index_context" ],
     [ "Argument", "d1/dee/struct_argument.html", "d1/dee/struct_argument" ],
     [ "ArgumentContext", "d4/d24/class_argument_context.html", "d4/d24/class_argument_context" ],

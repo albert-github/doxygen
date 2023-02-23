@@ -111,15 +111,13 @@ $(document).ready(function(){initNavTree('de/d04/markdown_8cpp.html','../../'); 
 <code>#include &quot;<a class="el" href="../../d1/da1/doxygen_8h_source.html">doxygen.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../db/d0d/commentscan_8h_source.html">commentscan.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d1/dc6/entry_8h_source.html">entry.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../de/d9a/commentcnv_8h_source.html">commentcnv.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../db/d16/config_8h_source.html">config.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d2a/section_8h_source.html">section.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d2/d0d/message_8h_source.html">message.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d2/de2/portable_8h_source.html">portable.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d1/d21/regex_8h_source.html">regex.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../df/d45/fileinfo_8h_source.html">fileinfo.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d7c/utf8_8h_source.html">utf8.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d1/d1b/trace_8h_source.html">trace.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/df8/anchor_8h_source.html">anchor.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for markdown.cpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -188,8 +186,6 @@ Functions</h2></td></tr>
 <tr class="separator:a6176da9f2e728d030a2b1ab9868f1b6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a305b628a23a606df4cbbc8bb36bdb64d"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d04/markdown_8cpp.html#a305b628a23a606df4cbbc8bb36bdb64d">isHRuler</a> (const char *data, int size)</td></tr>
 <tr class="separator:a305b628a23a606df4cbbc8bb36bdb64d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac64b17dcaff93b5da2a386dba68b3c13"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d04/markdown_8cpp.html#ac64b17dcaff93b5da2a386dba68b3c13">extractTitleId</a> (<a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;title, int level)</td></tr>
-<tr class="separator:ac64b17dcaff93b5da2a386dba68b3c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a804fe07123f57c6681fd19a3e1003c"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d04/markdown_8cpp.html#a3a804fe07123f57c6681fd19a3e1003c">isEmptyLine</a> (const char *data, int size)</td></tr>
 <tr class="separator:a3a804fe07123f57c6681fd19a3e1003c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff1401435a72ba6f4ad22d5c21d67aab"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d04/markdown_8cpp.html#aff1401435a72ba6f4ad22d5c21d67aab">computeIndentExcludingListMarkers</a> (const char *data, int size)</td></tr>
@@ -245,7 +241,7 @@ Variables</h2></td></tr>
 <div class="line">   data[i]==<span class="charliteral">&#39;?&#39;</span> || data[i]==<span class="charliteral">&#39;$&#39;</span> || data[i]==<span class="charliteral">&#39;@&#39;</span> || \</div>
 <div class="line">   data[i]==<span class="charliteral">&#39;&amp;&#39;</span> || data[i]==<span class="charliteral">&#39;*&#39;</span> || data[i]==<span class="charliteral">&#39;%&#39;</span>)</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00073">73</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00071">71</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
 
 </div>
 </div>
@@ -268,7 +264,7 @@ Variables</h2></td></tr>
 <div class="line">   data[i]==<span class="charliteral">&#39;\\&#39;</span> || \</div>
 <div class="line">   data[i]==<span class="charliteral">&#39;@&#39;</span>)</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00086">86</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00084">84</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
 
 </div>
 </div>
@@ -292,7 +288,7 @@ Variables</h2></td></tr>
 <div class="line">   (data[i]&gt;=<span class="charliteral">&#39;0&#39;</span> &amp;&amp; data[i]&lt;=<span class="charliteral">&#39;9&#39;</span>) || \</div>
 <div class="line">   (<span class="keyword">static_cast&lt;</span><span class="keywordtype">unsigned</span> <span class="keywordtype">char</span><span class="keyword">&gt;</span>(data[i])&gt;=0x80))</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00067">67</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00065">65</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
 
 </div>
 </div>
@@ -339,7 +335,7 @@ Variables</h2></td></tr>
 <div class="line">   data[i]==<span class="charliteral">&#39;&gt;&#39;</span>  || data[i]==<span class="charliteral">&#39;{&#39;</span> || data[i]==<span class="charliteral">&#39;(&#39;</span>  || data[i]==<span class="charliteral">&#39;[&#39;</span> || \</div>
 <div class="line">   data[i]==<span class="charliteral">&#39;,&#39;</span>  || data[i]==<span class="charliteral">&#39;:&#39;</span> || data[i]==<span class="charliteral">&#39;;&#39;</span>)</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00079">79</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00077">77</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
 
 </div>
 </div>
@@ -362,12 +358,12 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="acdfaca60ec19c0265bac2692d7982726a4758d977046d9c084a0eaf7434fd29e1" name="acdfaca60ec19c0265bac2692d7982726a4758d977046d9c084a0eaf7434fd29e1"></a>AlignRight&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00118">118</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  118</span>{ <a class="code hl_enumvalue" href="../../de/d04/markdown_8cpp.html#acdfaca60ec19c0265bac2692d7982726a4258b9785acff3438d08d41ddb4439d9">AlignNone</a>, <a class="code hl_enumvalue" href="../../de/d04/markdown_8cpp.html#acdfaca60ec19c0265bac2692d7982726a291bdf1a2284d5648efc75ee78fbeb4c">AlignLeft</a>, <a class="code hl_enumvalue" href="../../de/d04/markdown_8cpp.html#acdfaca60ec19c0265bac2692d7982726afed76d6718c0a44a25c5e19ae8fb51d1">AlignCenter</a>, <a class="code hl_enumvalue" href="../../de/d04/markdown_8cpp.html#acdfaca60ec19c0265bac2692d7982726a4758d977046d9c084a0eaf7434fd29e1">AlignRight</a> };</div>
-<div class="ttc" id="amarkdown_8cpp_html_acdfaca60ec19c0265bac2692d7982726a291bdf1a2284d5648efc75ee78fbeb4c"><div class="ttname"><a href="../../de/d04/markdown_8cpp.html#acdfaca60ec19c0265bac2692d7982726a291bdf1a2284d5648efc75ee78fbeb4c">AlignLeft</a></div><div class="ttdeci">@ AlignLeft</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d04/markdown_8cpp_source.html#l00118">markdown.cpp:118</a></div></div>
-<div class="ttc" id="amarkdown_8cpp_html_acdfaca60ec19c0265bac2692d7982726a4258b9785acff3438d08d41ddb4439d9"><div class="ttname"><a href="../../de/d04/markdown_8cpp.html#acdfaca60ec19c0265bac2692d7982726a4258b9785acff3438d08d41ddb4439d9">AlignNone</a></div><div class="ttdeci">@ AlignNone</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d04/markdown_8cpp_source.html#l00118">markdown.cpp:118</a></div></div>
-<div class="ttc" id="amarkdown_8cpp_html_acdfaca60ec19c0265bac2692d7982726a4758d977046d9c084a0eaf7434fd29e1"><div class="ttname"><a href="../../de/d04/markdown_8cpp.html#acdfaca60ec19c0265bac2692d7982726a4758d977046d9c084a0eaf7434fd29e1">AlignRight</a></div><div class="ttdeci">@ AlignRight</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d04/markdown_8cpp_source.html#l00118">markdown.cpp:118</a></div></div>
-<div class="ttc" id="amarkdown_8cpp_html_acdfaca60ec19c0265bac2692d7982726afed76d6718c0a44a25c5e19ae8fb51d1"><div class="ttname"><a href="../../de/d04/markdown_8cpp.html#acdfaca60ec19c0265bac2692d7982726afed76d6718c0a44a25c5e19ae8fb51d1">AlignCenter</a></div><div class="ttdeci">@ AlignCenter</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d04/markdown_8cpp_source.html#l00118">markdown.cpp:118</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00116">116</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  116</span>{ <a class="code hl_enumvalue" href="../../de/d04/markdown_8cpp.html#acdfaca60ec19c0265bac2692d7982726a4258b9785acff3438d08d41ddb4439d9">AlignNone</a>, <a class="code hl_enumvalue" href="../../de/d04/markdown_8cpp.html#acdfaca60ec19c0265bac2692d7982726a291bdf1a2284d5648efc75ee78fbeb4c">AlignLeft</a>, <a class="code hl_enumvalue" href="../../de/d04/markdown_8cpp.html#acdfaca60ec19c0265bac2692d7982726afed76d6718c0a44a25c5e19ae8fb51d1">AlignCenter</a>, <a class="code hl_enumvalue" href="../../de/d04/markdown_8cpp.html#acdfaca60ec19c0265bac2692d7982726a4758d977046d9c084a0eaf7434fd29e1">AlignRight</a> };</div>
+<div class="ttc" id="amarkdown_8cpp_html_acdfaca60ec19c0265bac2692d7982726a291bdf1a2284d5648efc75ee78fbeb4c"><div class="ttname"><a href="../../de/d04/markdown_8cpp.html#acdfaca60ec19c0265bac2692d7982726a291bdf1a2284d5648efc75ee78fbeb4c">AlignLeft</a></div><div class="ttdeci">@ AlignLeft</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d04/markdown_8cpp_source.html#l00116">markdown.cpp:116</a></div></div>
+<div class="ttc" id="amarkdown_8cpp_html_acdfaca60ec19c0265bac2692d7982726a4258b9785acff3438d08d41ddb4439d9"><div class="ttname"><a href="../../de/d04/markdown_8cpp.html#acdfaca60ec19c0265bac2692d7982726a4258b9785acff3438d08d41ddb4439d9">AlignNone</a></div><div class="ttdeci">@ AlignNone</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d04/markdown_8cpp_source.html#l00116">markdown.cpp:116</a></div></div>
+<div class="ttc" id="amarkdown_8cpp_html_acdfaca60ec19c0265bac2692d7982726a4758d977046d9c084a0eaf7434fd29e1"><div class="ttname"><a href="../../de/d04/markdown_8cpp.html#acdfaca60ec19c0265bac2692d7982726a4758d977046d9c084a0eaf7434fd29e1">AlignRight</a></div><div class="ttdeci">@ AlignRight</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d04/markdown_8cpp_source.html#l00116">markdown.cpp:116</a></div></div>
+<div class="ttc" id="amarkdown_8cpp_html_acdfaca60ec19c0265bac2692d7982726afed76d6718c0a44a25c5e19ae8fb51d1"><div class="ttname"><a href="../../de/d04/markdown_8cpp.html#acdfaca60ec19c0265bac2692d7982726afed76d6718c0a44a25c5e19ae8fb51d1">AlignCenter</a></div><div class="ttdeci">@ AlignCenter</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d04/markdown_8cpp_source.html#l00116">markdown.cpp:116</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -399,12 +395,12 @@ Variables</h2></td></tr>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00057">57</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   58</span>{</div>
-<div class="line"><span class="lineno">   59</span>  <a class="code hl_enumvalue" href="../../de/d04/markdown_8cpp.html#a32bd5ad1ca53505df49807d933ab3611ae2813323b951a15b22babe5224d9dabe">explicitPage</a>,      <span class="comment">/**&lt; docs start with a page command */</span></div>
-<div class="line"><span class="lineno">   60</span>  <a class="code hl_enumvalue" href="../../de/d04/markdown_8cpp.html#a32bd5ad1ca53505df49807d933ab3611a7e256e56ac82ab7e84c0a827a6f87530">explicitMainPage</a>,  <span class="comment">/**&lt; docs start with a mainpage command */</span></div>
-<div class="line"><span class="lineno">   61</span>  <a class="code hl_enumvalue" href="../../de/d04/markdown_8cpp.html#a32bd5ad1ca53505df49807d933ab3611aed049ce087485c91fc2610599aebd142">notExplicit</a>        <span class="comment">/**&lt; docs doesn&#39;t start with either page or mainpage */</span></div>
-<div class="line"><span class="lineno">   62</span>};</div>
+<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00055">55</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   56</span>{</div>
+<div class="line"><span class="lineno">   57</span>  <a class="code hl_enumvalue" href="../../de/d04/markdown_8cpp.html#a32bd5ad1ca53505df49807d933ab3611ae2813323b951a15b22babe5224d9dabe">explicitPage</a>,      <span class="comment">/**&lt; docs start with a page command */</span></div>
+<div class="line"><span class="lineno">   58</span>  <a class="code hl_enumvalue" href="../../de/d04/markdown_8cpp.html#a32bd5ad1ca53505df49807d933ab3611a7e256e56ac82ab7e84c0a827a6f87530">explicitMainPage</a>,  <span class="comment">/**&lt; docs start with a mainpage command */</span></div>
+<div class="line"><span class="lineno">   59</span>  <a class="code hl_enumvalue" href="../../de/d04/markdown_8cpp.html#a32bd5ad1ca53505df49807d933ab3611aed049ce087485c91fc2610599aebd142">notExplicit</a>        <span class="comment">/**&lt; docs doesn&#39;t start with either page or mainpage */</span></div>
+<div class="line"><span class="lineno">   60</span>};</div>
 <div class="ttc" id="amarkdown_8cpp_html_a32bd5ad1ca53505df49807d933ab3611a7e256e56ac82ab7e84c0a827a6f87530"><div class="ttname"><a href="../../de/d04/markdown_8cpp.html#a32bd5ad1ca53505df49807d933ab3611a7e256e56ac82ab7e84c0a827a6f87530">ExplicitPageResult::explicitMainPage</a></div><div class="ttdeci">@ explicitMainPage</div><div class="ttdoc">docs start with a mainpage command</div></div>
 <div class="ttc" id="amarkdown_8cpp_html_a32bd5ad1ca53505df49807d933ab3611ae2813323b951a15b22babe5224d9dabe"><div class="ttname"><a href="../../de/d04/markdown_8cpp.html#a32bd5ad1ca53505df49807d933ab3611ae2813323b951a15b22babe5224d9dabe">ExplicitPageResult::explicitPage</a></div><div class="ttdeci">@ explicitPage</div><div class="ttdoc">docs start with a page command</div></div>
 <div class="ttc" id="amarkdown_8cpp_html_a32bd5ad1ca53505df49807d933ab3611aed049ce087485c91fc2610599aebd142"><div class="ttname"><a href="../../de/d04/markdown_8cpp.html#a32bd5ad1ca53505df49807d933ab3611aed049ce087485c91fc2610599aebd142">ExplicitPageResult::notExplicit</a></div><div class="ttdeci">@ notExplicit</div><div class="ttdoc">docs doesn't start with either page or mainpage</div></div>
@@ -566,14 +562,14 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00208">208</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  209</span>{</div>
-<div class="line"><span class="lineno">  210</span>  <span class="keywordflow">if</span> (size&lt;0) size=0;</div>
-<div class="line"><span class="lineno">  211</span>  result = <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>(data,<span class="keyword">static_cast&lt;</span><span class="keywordtype">size_t</span><span class="keyword">&gt;</span>(size));</div>
-<div class="line"><span class="lineno">  212</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00206">206</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  207</span>{</div>
+<div class="line"><span class="lineno">  208</span>  <span class="keywordflow">if</span> (size&lt;0) size=0;</div>
+<div class="line"><span class="lineno">  209</span>  result = <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>(data,<span class="keyword">static_cast&lt;</span><span class="keywordtype">size_t</span><span class="keyword">&gt;</span>(size));</div>
+<div class="line"><span class="lineno">  210</span>}</div>
 <div class="ttc" id="aclass_q_c_string_html"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html">QCString</a></div><div class="ttdoc">This is an alternative implementation of QCString.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00102">qcstring.h:103</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03151">Markdown::extractPageTitle()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01881">Markdown::isAtxHeader()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02071">isFencedCodeBlock()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01730">isLinkRef()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02911">Markdown::processBlocks()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01476">Markdown::processCodeSpan()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00858">Markdown::processHtmlTagWrite()</a>, and <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01041">Markdown::processLink()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03151">Markdown::extractPageTitle()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01881">Markdown::isAtxHeader()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02071">isFencedCodeBlock()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01728">isLinkRef()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02911">Markdown::processBlocks()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01474">Markdown::processCodeSpan()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00856">Markdown::processHtmlTagWrite()</a>, and <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01039">Markdown::processLink()</a>.</p>
 
 </div>
 </div>
@@ -601,26 +597,26 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00141">141</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  142</span>{</div>
-<div class="line"><span class="lineno">  143</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a210042a14f3a393be09c743c219126ae">AUTO_TRACE</a>(<span class="stringliteral">&quot;s={}&quot;</span>,<a class="code hl_function" href="../../d3/db9/namespace_trace.html#a1859b0ba7161e012fecbd71dd4ec64d6">Trace::trunc</a>(s));</div>
-<div class="line"><span class="lineno">  144</span>  <span class="keywordflow">if</span> (s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>()) <span class="keywordflow">return</span> s;</div>
-<div class="line"><span class="lineno">  145</span>  <a class="code hl_class" href="../../d8/d33/class_grow_buf.html">GrowBuf</a> growBuf;</div>
-<div class="line"><span class="lineno">  146</span>  <span class="keyword">const</span> <span class="keywordtype">char</span> *p=s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>();</div>
-<div class="line"><span class="lineno">  147</span>  <span class="keywordtype">char</span> c,pc=<span class="charliteral">&#39;\0&#39;</span>;</div>
-<div class="line"><span class="lineno">  148</span>  <span class="keywordflow">while</span> ((c=*p++))</div>
-<div class="line"><span class="lineno">  149</span>  {</div>
-<div class="line"><span class="lineno">  150</span>    <span class="keywordflow">switch</span> (c)</div>
-<div class="line"><span class="lineno">  151</span>    {</div>
-<div class="line"><span class="lineno">  152</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;&quot;&#39;</span>:  <span class="keywordflow">if</span> (pc!=<span class="charliteral">&#39;\\&#39;</span>)  { growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(<span class="charliteral">&#39;\\&#39;</span>); } growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(c);   <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  153</span>      <span class="keywordflow">default</span>:   growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(c); <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  154</span>    }</div>
-<div class="line"><span class="lineno">  155</span>    pc=c;</div>
-<div class="line"><span class="lineno">  156</span>  }</div>
-<div class="line"><span class="lineno">  157</span>  growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(0);</div>
-<div class="line"><span class="lineno">  158</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a81912d2a3d12aab7a9e546e5299e2e09">AUTO_TRACE_EXIT</a>(<span class="stringliteral">&quot;result={}&quot;</span>,growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a88d6408723b8c1a58187f24da81dfd5e">get</a>());</div>
-<div class="line"><span class="lineno">  159</span>  <span class="keywordflow">return</span> growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a88d6408723b8c1a58187f24da81dfd5e">get</a>();</div>
-<div class="line"><span class="lineno">  160</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00139">139</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  140</span>{</div>
+<div class="line"><span class="lineno">  141</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a210042a14f3a393be09c743c219126ae">AUTO_TRACE</a>(<span class="stringliteral">&quot;s={}&quot;</span>,<a class="code hl_function" href="../../d3/db9/namespace_trace.html#a1859b0ba7161e012fecbd71dd4ec64d6">Trace::trunc</a>(s));</div>
+<div class="line"><span class="lineno">  142</span>  <span class="keywordflow">if</span> (s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>()) <span class="keywordflow">return</span> s;</div>
+<div class="line"><span class="lineno">  143</span>  <a class="code hl_class" href="../../d8/d33/class_grow_buf.html">GrowBuf</a> growBuf;</div>
+<div class="line"><span class="lineno">  144</span>  <span class="keyword">const</span> <span class="keywordtype">char</span> *p=s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>();</div>
+<div class="line"><span class="lineno">  145</span>  <span class="keywordtype">char</span> c,pc=<span class="charliteral">&#39;\0&#39;</span>;</div>
+<div class="line"><span class="lineno">  146</span>  <span class="keywordflow">while</span> ((c=*p++))</div>
+<div class="line"><span class="lineno">  147</span>  {</div>
+<div class="line"><span class="lineno">  148</span>    <span class="keywordflow">switch</span> (c)</div>
+<div class="line"><span class="lineno">  149</span>    {</div>
+<div class="line"><span class="lineno">  150</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;&quot;&#39;</span>:  <span class="keywordflow">if</span> (pc!=<span class="charliteral">&#39;\\&#39;</span>)  { growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(<span class="charliteral">&#39;\\&#39;</span>); } growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(c);   <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  151</span>      <span class="keywordflow">default</span>:   growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(c); <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  152</span>    }</div>
+<div class="line"><span class="lineno">  153</span>    pc=c;</div>
+<div class="line"><span class="lineno">  154</span>  }</div>
+<div class="line"><span class="lineno">  155</span>  growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(0);</div>
+<div class="line"><span class="lineno">  156</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a81912d2a3d12aab7a9e546e5299e2e09">AUTO_TRACE_EXIT</a>(<span class="stringliteral">&quot;result={}&quot;</span>,growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a88d6408723b8c1a58187f24da81dfd5e">get</a>());</div>
+<div class="line"><span class="lineno">  157</span>  <span class="keywordflow">return</span> growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a88d6408723b8c1a58187f24da81dfd5e">get</a>();</div>
+<div class="line"><span class="lineno">  158</span>}</div>
 <div class="ttc" id="aclass_grow_buf_html"><div class="ttname"><a href="../../d8/d33/class_grow_buf.html">GrowBuf</a></div><div class="ttdoc">Class representing a string buffer optimised for growing.</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d72/growbuf_8h_source.html#l00027">growbuf.h:28</a></div></div>
 <div class="ttc" id="aclass_grow_buf_html_a46b4677f555d2abc718f26e71a59efda"><div class="ttname"><a href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">GrowBuf::addChar</a></div><div class="ttdeci">void addChar(char c)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d72/growbuf_8h_source.html#l00069">growbuf.h:69</a></div></div>
 <div class="ttc" id="aclass_grow_buf_html_a88d6408723b8c1a58187f24da81dfd5e"><div class="ttname"><a href="../../d8/d33/class_grow_buf.html#a88d6408723b8c1a58187f24da81dfd5e">GrowBuf::get</a></div><div class="ttdeci">char * get()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d72/growbuf_8h_source.html#l00114">growbuf.h:114</a></div></div>
@@ -629,7 +625,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00069">GrowBuf::addChar()</a>, <a class="el" href="../../d1/d1b/trace_8h_source.html#l00133">AUTO_TRACE</a>, <a class="el" href="../../d1/d1b/trace_8h_source.html#l00135">AUTO_TRACE_EXIT</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::data()</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00114">GrowBuf::get()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00138">QCString::isEmpty()</a>, and <a class="el" href="../../d1/d1b/trace_8h_source.html#l00044">Trace::trunc()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00999">Markdown::writeMarkdownImage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00997">Markdown::writeMarkdownImage()</a>.</p>
 
 </div>
 </div>
@@ -657,132 +653,55 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00162">162</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  163</span>{</div>
-<div class="line"><span class="lineno">  164</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a210042a14f3a393be09c743c219126ae">AUTO_TRACE</a>(<span class="stringliteral">&quot;s={}&quot;</span>,<a class="code hl_function" href="../../d3/db9/namespace_trace.html#a1859b0ba7161e012fecbd71dd4ec64d6">Trace::trunc</a>(s));</div>
-<div class="line"><span class="lineno">  165</span>  <span class="keywordflow">if</span> (s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>()) <span class="keywordflow">return</span> s;</div>
-<div class="line"><span class="lineno">  166</span>  <span class="keywordtype">bool</span> insideQuote=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="line"><span class="lineno">  167</span>  <a class="code hl_class" href="../../d8/d33/class_grow_buf.html">GrowBuf</a> growBuf;</div>
-<div class="line"><span class="lineno">  168</span>  <span class="keyword">const</span> <span class="keywordtype">char</span> *p=s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>();</div>
-<div class="line"><span class="lineno">  169</span>  <span class="keywordtype">char</span> c,pc=<span class="charliteral">&#39;\0&#39;</span>;</div>
-<div class="line"><span class="lineno">  170</span>  <span class="keywordflow">while</span> ((c=*p++))</div>
-<div class="line"><span class="lineno">  171</span>  {</div>
-<div class="line"><span class="lineno">  172</span>    <span class="keywordflow">switch</span> (c)</div>
-<div class="line"><span class="lineno">  173</span>    {</div>
-<div class="line"><span class="lineno">  174</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;&quot;&#39;</span>:  <span class="keywordflow">if</span> (pc!=<span class="charliteral">&#39;\\&#39;</span>)  { insideQuote=!insideQuote; } growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(c);   <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  175</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;&lt;&#39;</span>:</div>
-<div class="line"><span class="lineno">  176</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;&gt;&#39;</span>:  <span class="keywordflow">if</span> (!insideQuote)</div>
-<div class="line"><span class="lineno">  177</span>                 {</div>
-<div class="line"><span class="lineno">  178</span>                   growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(<span class="charliteral">&#39;\\&#39;</span>);</div>
-<div class="line"><span class="lineno">  179</span>                   growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(c);</div>
-<div class="line"><span class="lineno">  180</span>                   <span class="keywordflow">if</span> ((p[0] == <span class="charliteral">&#39;:&#39;</span>) &amp;&amp; (p[1] == <span class="charliteral">&#39;:&#39;</span>))</div>
-<div class="line"><span class="lineno">  181</span>                   {</div>
-<div class="line"><span class="lineno">  182</span>                     growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(<span class="charliteral">&#39;\\&#39;</span>);</div>
-<div class="line"><span class="lineno">  183</span>                     growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(<span class="charliteral">&#39;:&#39;</span>);</div>
-<div class="line"><span class="lineno">  184</span>                     p++;</div>
-<div class="line"><span class="lineno">  185</span>                   }</div>
-<div class="line"><span class="lineno">  186</span>                 }</div>
-<div class="line"><span class="lineno">  187</span>                 <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  188</span>                 {</div>
-<div class="line"><span class="lineno">  189</span>                   growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(c);</div>
-<div class="line"><span class="lineno">  190</span>                 }</div>
-<div class="line"><span class="lineno">  191</span>                 <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  192</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;\\&#39;</span>: <span class="keywordflow">if</span> (!insideQuote) { growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(<span class="charliteral">&#39;\\&#39;</span>); } growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(<span class="charliteral">&#39;\\&#39;</span>); <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  193</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;@&#39;</span>:  <span class="keywordflow">if</span> (!insideQuote) { growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(<span class="charliteral">&#39;\\&#39;</span>); } growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(<span class="charliteral">&#39;@&#39;</span>); <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  194</span>      <span class="comment">// commented out next line due to regression when using % to suppress a link</span></div>
-<div class="line"><span class="lineno">  195</span>      <span class="comment">//case &#39;%&#39;:  if (!insideQuote) { growBuf.addChar(&#39;\\&#39;); } growBuf.addChar(&#39;%&#39;); break;</span></div>
-<div class="line"><span class="lineno">  196</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;#&#39;</span>:  <span class="keywordflow">if</span> (!insideQuote) { growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(<span class="charliteral">&#39;\\&#39;</span>); } growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(<span class="charliteral">&#39;#&#39;</span>); <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  197</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;$&#39;</span>:  <span class="keywordflow">if</span> (!insideQuote) { growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(<span class="charliteral">&#39;\\&#39;</span>); } growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(<span class="charliteral">&#39;$&#39;</span>); <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  198</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;&amp;&#39;</span>:  <span class="keywordflow">if</span> (!insideQuote) { growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(<span class="charliteral">&#39;\\&#39;</span>); } growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(<span class="charliteral">&#39;&amp;&#39;</span>); <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  199</span>      <span class="keywordflow">default</span>:   growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(c); <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  200</span>    }</div>
-<div class="line"><span class="lineno">  201</span>    pc=c;</div>
-<div class="line"><span class="lineno">  202</span>  }</div>
-<div class="line"><span class="lineno">  203</span>  growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(0);</div>
-<div class="line"><span class="lineno">  204</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a81912d2a3d12aab7a9e546e5299e2e09">AUTO_TRACE_EXIT</a>(<span class="stringliteral">&quot;result={}&quot;</span>,growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a88d6408723b8c1a58187f24da81dfd5e">get</a>());</div>
-<div class="line"><span class="lineno">  205</span>  <span class="keywordflow">return</span> growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a88d6408723b8c1a58187f24da81dfd5e">get</a>();</div>
-<div class="line"><span class="lineno">  206</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00160">160</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  161</span>{</div>
+<div class="line"><span class="lineno">  162</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a210042a14f3a393be09c743c219126ae">AUTO_TRACE</a>(<span class="stringliteral">&quot;s={}&quot;</span>,<a class="code hl_function" href="../../d3/db9/namespace_trace.html#a1859b0ba7161e012fecbd71dd4ec64d6">Trace::trunc</a>(s));</div>
+<div class="line"><span class="lineno">  163</span>  <span class="keywordflow">if</span> (s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>()) <span class="keywordflow">return</span> s;</div>
+<div class="line"><span class="lineno">  164</span>  <span class="keywordtype">bool</span> insideQuote=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
+<div class="line"><span class="lineno">  165</span>  <a class="code hl_class" href="../../d8/d33/class_grow_buf.html">GrowBuf</a> growBuf;</div>
+<div class="line"><span class="lineno">  166</span>  <span class="keyword">const</span> <span class="keywordtype">char</span> *p=s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>();</div>
+<div class="line"><span class="lineno">  167</span>  <span class="keywordtype">char</span> c,pc=<span class="charliteral">&#39;\0&#39;</span>;</div>
+<div class="line"><span class="lineno">  168</span>  <span class="keywordflow">while</span> ((c=*p++))</div>
+<div class="line"><span class="lineno">  169</span>  {</div>
+<div class="line"><span class="lineno">  170</span>    <span class="keywordflow">switch</span> (c)</div>
+<div class="line"><span class="lineno">  171</span>    {</div>
+<div class="line"><span class="lineno">  172</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;&quot;&#39;</span>:  <span class="keywordflow">if</span> (pc!=<span class="charliteral">&#39;\\&#39;</span>)  { insideQuote=!insideQuote; } growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(c);   <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  173</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;&lt;&#39;</span>:</div>
+<div class="line"><span class="lineno">  174</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;&gt;&#39;</span>:  <span class="keywordflow">if</span> (!insideQuote)</div>
+<div class="line"><span class="lineno">  175</span>                 {</div>
+<div class="line"><span class="lineno">  176</span>                   growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(<span class="charliteral">&#39;\\&#39;</span>);</div>
+<div class="line"><span class="lineno">  177</span>                   growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(c);</div>
+<div class="line"><span class="lineno">  178</span>                   <span class="keywordflow">if</span> ((p[0] == <span class="charliteral">&#39;:&#39;</span>) &amp;&amp; (p[1] == <span class="charliteral">&#39;:&#39;</span>))</div>
+<div class="line"><span class="lineno">  179</span>                   {</div>
+<div class="line"><span class="lineno">  180</span>                     growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(<span class="charliteral">&#39;\\&#39;</span>);</div>
+<div class="line"><span class="lineno">  181</span>                     growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(<span class="charliteral">&#39;:&#39;</span>);</div>
+<div class="line"><span class="lineno">  182</span>                     p++;</div>
+<div class="line"><span class="lineno">  183</span>                   }</div>
+<div class="line"><span class="lineno">  184</span>                 }</div>
+<div class="line"><span class="lineno">  185</span>                 <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  186</span>                 {</div>
+<div class="line"><span class="lineno">  187</span>                   growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(c);</div>
+<div class="line"><span class="lineno">  188</span>                 }</div>
+<div class="line"><span class="lineno">  189</span>                 <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  190</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;\\&#39;</span>: <span class="keywordflow">if</span> (!insideQuote) { growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(<span class="charliteral">&#39;\\&#39;</span>); } growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(<span class="charliteral">&#39;\\&#39;</span>); <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  191</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;@&#39;</span>:  <span class="keywordflow">if</span> (!insideQuote) { growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(<span class="charliteral">&#39;\\&#39;</span>); } growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(<span class="charliteral">&#39;@&#39;</span>); <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  192</span>      <span class="comment">// commented out next line due to regression when using % to suppress a link</span></div>
+<div class="line"><span class="lineno">  193</span>      <span class="comment">//case &#39;%&#39;:  if (!insideQuote) { growBuf.addChar(&#39;\\&#39;); } growBuf.addChar(&#39;%&#39;); break;</span></div>
+<div class="line"><span class="lineno">  194</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;#&#39;</span>:  <span class="keywordflow">if</span> (!insideQuote) { growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(<span class="charliteral">&#39;\\&#39;</span>); } growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(<span class="charliteral">&#39;#&#39;</span>); <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  195</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;$&#39;</span>:  <span class="keywordflow">if</span> (!insideQuote) { growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(<span class="charliteral">&#39;\\&#39;</span>); } growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(<span class="charliteral">&#39;$&#39;</span>); <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  196</span>      <span class="keywordflow">case</span> <span class="charliteral">&#39;&amp;&#39;</span>:  <span class="keywordflow">if</span> (!insideQuote) { growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(<span class="charliteral">&#39;\\&#39;</span>); } growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(<span class="charliteral">&#39;&amp;&#39;</span>); <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  197</span>      <span class="keywordflow">default</span>:   growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(c); <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  198</span>    }</div>
+<div class="line"><span class="lineno">  199</span>    pc=c;</div>
+<div class="line"><span class="lineno">  200</span>  }</div>
+<div class="line"><span class="lineno">  201</span>  growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a46b4677f555d2abc718f26e71a59efda">addChar</a>(0);</div>
+<div class="line"><span class="lineno">  202</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a81912d2a3d12aab7a9e546e5299e2e09">AUTO_TRACE_EXIT</a>(<span class="stringliteral">&quot;result={}&quot;</span>,growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a88d6408723b8c1a58187f24da81dfd5e">get</a>());</div>
+<div class="line"><span class="lineno">  203</span>  <span class="keywordflow">return</span> growBuf.<a class="code hl_function" href="../../d8/d33/class_grow_buf.html#a88d6408723b8c1a58187f24da81dfd5e">get</a>();</div>
+<div class="line"><span class="lineno">  204</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00069">GrowBuf::addChar()</a>, <a class="el" href="../../d1/d1b/trace_8h_source.html#l00133">AUTO_TRACE</a>, <a class="el" href="../../d1/d1b/trace_8h_source.html#l00135">AUTO_TRACE_EXIT</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::data()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../dd/d72/growbuf_8h_source.html#l00114">GrowBuf::get()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00138">QCString::isEmpty()</a>, and <a class="el" href="../../d1/d1b/trace_8h_source.html#l00044">Trace::trunc()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01476">Markdown::processCodeSpan()</a>.</p>
-
-</div>
-</div>
-<a id="ac64b17dcaff93b5da2a386dba68b3c13" name="ac64b17dcaff93b5da2a386dba68b3c13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac64b17dcaff93b5da2a386dba68b3c13">&#9670;&#160;</a></span>extractTitleId()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> extractTitleId </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;&#160;</td>
-          <td class="paramname"><em>title</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>level</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01852">1852</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1853</span>{</div>
-<div class="line"><span class="lineno"> 1854</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a210042a14f3a393be09c743c219126ae">AUTO_TRACE</a>(<span class="stringliteral">&quot;title={} level={}&quot;</span>,<a class="code hl_function" href="../../d3/db9/namespace_trace.html#a1859b0ba7161e012fecbd71dd4ec64d6">Trace::trunc</a>(title),level);</div>
-<div class="line"><span class="lineno"> 1855</span>  <span class="comment">// match e.g. &#39;{#id-b11} &#39; and capture &#39;id-b11&#39;</span></div>
-<div class="line"><span class="lineno"> 1856</span>  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code hl_class" href="../../d2/dd8/classreg_1_1_ex.html">reg::Ex</a> r2(R<span class="stringliteral">&quot;({#(\a[\w-]*)}\s*$)&quot;);</span></div>
-<div class="line"><span class="lineno"> 1857</span><span class="stringliteral">  <a class="code hl_class" href="../../d2/ddf/classreg_1_1_match.html">reg::Match</a> <a class="code hl_function" href="../../db/d35/namespacereg.html#a1a29dcc7e2ccf462503adc5d496881ae">match</a>;</span></div>
-<div class="line"><span class="lineno"> 1858</span><span class="stringliteral">  std::string ti = title.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>();</span></div>
-<div class="line"><span class="lineno"> 1859</span><span class="stringliteral">  </span><span class="keywordflow">if</span> (<a class="code hl_function" href="../../db/d35/namespacereg.html#a0af12d3e92e774639befbdf774606e52">reg::search</a>(ti,match,r2))</div>
-<div class="line"><span class="lineno"> 1860</span>  {</div>
-<div class="line"><span class="lineno"> 1861</span>    std::string <span class="keywordtype">id</span> = <a class="code hl_function" href="../../db/d35/namespacereg.html#a1a29dcc7e2ccf462503adc5d496881ae">match</a>[1].str();</div>
-<div class="line"><span class="lineno"> 1862</span>    title = title.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">left</a>(<a class="code hl_function" href="../../db/d35/namespacereg.html#a1a29dcc7e2ccf462503adc5d496881ae">match</a>.position());</div>
-<div class="line"><span class="lineno"> 1863</span>    <span class="comment">//printf(&quot;found match id=&#39;%s&#39; title=%s\n&quot;,id.c_str(),qPrint(title));</span></div>
-<div class="line"><span class="lineno"> 1864</span>    <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a81912d2a3d12aab7a9e546e5299e2e09">AUTO_TRACE_EXIT</a>(<span class="stringliteral">&quot;id={}&quot;</span>,<span class="keywordtype">id</span>);</div>
-<div class="line"><span class="lineno"> 1865</span>    <span class="keywordflow">return</span> <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>(<span class="keywordtype">id</span>);</div>
-<div class="line"><span class="lineno"> 1866</span>  }</div>
-<div class="line"><span class="lineno"> 1867</span>  <span class="keywordflow">if</span> ((level &gt; 0) &amp;&amp; (level &lt;= <a class="code hl_define" href="../../db/d16/config_8h.html#a06b59c3720174e9078f613095a89b295">Config_getInt</a>(TOC_INCLUDE_HEADINGS)))</div>
-<div class="line"><span class="lineno"> 1868</span>  {</div>
-<div class="line"><span class="lineno"> 1869</span>    <span class="keyword">static</span> <a class="code hl_define" href="../../d1/da1/doxygen_8h.html#a5169be8a2e53cfcdfe027b9e06a63281">AtomicInt</a> autoId { 0 };</div>
-<div class="line"><span class="lineno"> 1870</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> id;</div>
-<div class="line"><span class="lineno"> 1871</span>    <span class="keywordtype">id</span>.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aa2dccf89cb25346c3ee81d75aa5859da">sprintf</a>(<span class="stringliteral">&quot;autotoc_md%d&quot;</span>,autoId++);</div>
-<div class="line"><span class="lineno"> 1872</span>    <span class="comment">//printf(&quot;auto-generated id=&#39;%s&#39; title=&#39;%s&#39;\n&quot;,qPrint(id),qPrint(title));</span></div>
-<div class="line"><span class="lineno"> 1873</span>    <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a81912d2a3d12aab7a9e546e5299e2e09">AUTO_TRACE_EXIT</a>(<span class="stringliteral">&quot;id={}&quot;</span>,<span class="keywordtype">id</span>);</div>
-<div class="line"><span class="lineno"> 1874</span>    <span class="keywordflow">return</span> id;</div>
-<div class="line"><span class="lineno"> 1875</span>  }</div>
-<div class="line"><span class="lineno"> 1876</span>  <span class="comment">//printf(&quot;no id found in title &#39;%s&#39;\n&quot;,qPrint(title));</span></div>
-<div class="line"><span class="lineno"> 1877</span>  <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno"> 1878</span>}</div>
-<div class="ttc" id="aclass_q_c_string_html_a875e9ad762554ef12f3ed69b015bb245"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">QCString::str</a></div><div class="ttdeci">const std::string &amp; str() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00478">qcstring.h:478</a></div></div>
-<div class="ttc" id="aclass_q_c_string_html_aa2dccf89cb25346c3ee81d75aa5859da"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#aa2dccf89cb25346c3ee81d75aa5859da">QCString::sprintf</a></div><div class="ttdeci">QCString &amp; sprintf(const char *format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d3e/qcstring_8cpp_source.html#l00029">qcstring.cpp:29</a></div></div>
-<div class="ttc" id="aclass_q_c_string_html_aecf8b66312c4e97333219cc344c11a4f"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">QCString::left</a></div><div class="ttdeci">QCString left(size_t len) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00209">qcstring.h:209</a></div></div>
-<div class="ttc" id="aclassreg_1_1_ex_html"><div class="ttname"><a href="../../d2/dd8/classreg_1_1_ex.html">reg::Ex</a></div><div class="ttdoc">Class representing a regular expression.</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d21/regex_8h_source.html#l00035">regex.h:36</a></div></div>
-<div class="ttc" id="aclassreg_1_1_match_html"><div class="ttname"><a href="../../d2/ddf/classreg_1_1_match.html">reg::Match</a></div><div class="ttdoc">Object representing the matching results.</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d21/regex_8h_source.html#l00150">regex.h:151</a></div></div>
-<div class="ttc" id="aconfig_8h_html_a06b59c3720174e9078f613095a89b295"><div class="ttname"><a href="../../db/d16/config_8h.html#a06b59c3720174e9078f613095a89b295">Config_getInt</a></div><div class="ttdeci">#define Config_getInt(name)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/config_8h_source.html#l00034">config.h:34</a></div></div>
-<div class="ttc" id="adoxygen_8h_html_a5169be8a2e53cfcdfe027b9e06a63281"><div class="ttname"><a href="../../d1/da1/doxygen_8h.html#a5169be8a2e53cfcdfe027b9e06a63281">AtomicInt</a></div><div class="ttdeci">#define AtomicInt</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da1/doxygen_8h_source.html#l00030">doxygen.h:30</a></div></div>
-<div class="ttc" id="anamespacereg_html_a0af12d3e92e774639befbdf774606e52"><div class="ttname"><a href="../../db/d35/namespacereg.html#a0af12d3e92e774639befbdf774606e52">reg::search</a></div><div class="ttdeci">bool search(const std::string &amp;str, Match &amp;match, const Ex &amp;re, size_t pos)</div><div class="ttdoc">Search in a given string str starting at position pos for a match against regular expression re.</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d85/regex_8cpp_source.html#l00749">regex.cpp:749</a></div></div>
-<div class="ttc" id="anamespacereg_html_a1a29dcc7e2ccf462503adc5d496881ae"><div class="ttname"><a href="../../db/d35/namespacereg.html#a1a29dcc7e2ccf462503adc5d496881ae">reg::match</a></div><div class="ttdeci">bool match(const std::string &amp;str, Match &amp;match, const Ex &amp;re)</div><div class="ttdoc">Matches a given string str for a match against regular expression re.</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d85/regex_8cpp_source.html#l00760">regex.cpp:760</a></div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00030">AtomicInt</a>, <a class="el" href="../../d1/d1b/trace_8h_source.html#l00133">AUTO_TRACE</a>, <a class="el" href="../../d1/d1b/trace_8h_source.html#l00135">AUTO_TRACE_EXIT</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00034">Config_getInt</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00209">QCString::left()</a>, <a class="el" href="../../d6/d85/regex_8cpp_source.html#l00749">reg::search()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00029">QCString::sprintf()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00478">QCString::str()</a>, and <a class="el" href="../../d1/d1b/trace_8h_source.html#l00044">Trace::trunc()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03151">Markdown::extractPageTitle()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01881">Markdown::isAtxHeader()</a>, and <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02911">Markdown::processBlocks()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01474">Markdown::processCodeSpan()</a>.</p>
 
 </div>
 </div>
@@ -886,9 +805,9 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno"> 2251</span>}</div>
 <div class="ttc" id="a_parse_exception_8h_html_a55b81f273444186ad83e1087f9a3706d"><div class="ttname"><a href="../../d7/de0/_parse_exception_8h.html#a55b81f273444186ad83e1087f9a3706d">eol</a></div><div class="ttdeci">#define eol</div><div class="ttdoc">The end of line string for this machine.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/de0/_parse_exception_8h_source.html#l00086">ParseException.h:86</a></div></div>
 <div class="ttc" id="adir_8cpp_html_abb4720f72b574f81dc4f7aea0e653a64"><div class="ttname"><a href="../../d3/d48/dir_8cpp.html#abb4720f72b574f81dc4f7aea0e653a64">end</a></div><div class="ttdeci">DirIterator end(const DirIterator &amp;) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d48/dir_8cpp_source.html#l00129">dir.cpp:129</a></div></div>
-<div class="ttc" id="amarkdown_8cpp_html_a07ac1979bb5e5eda88291fe7f1d9adf4"><div class="ttname"><a href="../../de/d04/markdown_8cpp.html#a07ac1979bb5e5eda88291fe7f1d9adf4">isNewline</a></div><div class="ttdeci">int isNewline(const char *data)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d04/markdown_8cpp_source.html#l00131">markdown.cpp:131</a></div></div>
+<div class="ttc" id="amarkdown_8cpp_html_a07ac1979bb5e5eda88291fe7f1d9adf4"><div class="ttname"><a href="../../de/d04/markdown_8cpp.html#a07ac1979bb5e5eda88291fe7f1d9adf4">isNewline</a></div><div class="ttdeci">int isNewline(const char *data)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d04/markdown_8cpp_source.html#l00129">markdown.cpp:129</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d1b/trace_8h_source.html#l00133">AUTO_TRACE</a>, <a class="el" href="../../d1/d1b/trace_8h_source.html#l00135">AUTO_TRACE_EXIT</a>, <a class="el" href="../../d3/d48/dir_8cpp_source.html#l00129">end()</a>, <a class="el" href="../../d7/de0/_parse_exception_8h_source.html#l00086">eol</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00131">isNewline()</a>, and <a class="el" href="../../d1/d1b/trace_8h_source.html#l00044">Trace::trunc()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d1b/trace_8h_source.html#l00133">AUTO_TRACE</a>, <a class="el" href="../../d1/d1b/trace_8h_source.html#l00135">AUTO_TRACE_EXIT</a>, <a class="el" href="../../d3/d48/dir_8cpp_source.html#l00129">end()</a>, <a class="el" href="../../d7/de0/_parse_exception_8h_source.html#l00086">eol</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00129">isNewline()</a>, and <a class="el" href="../../d1/d1b/trace_8h_source.html#l00044">Trace::trunc()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02254">isTableBlock()</a>, and <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02294">Markdown::writeTableBlock()</a>.</p>
 
@@ -930,42 +849,44 @@ Variables</h2></td></tr>
 
 <p>parse the image attributes and return attributes for given format </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00238">238</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  239</span>{</div>
-<div class="line"><span class="lineno">  240</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a210042a14f3a393be09c743c219126ae">AUTO_TRACE</a>(<span class="stringliteral">&quot;fmt={} attrs={}&quot;</span>,<a class="code hl_namespace" href="../../d4/d6d/namespacefmt.html">fmt</a>,attrs);</div>
-<div class="line"><span class="lineno">  241</span>  <a class="code hl_typedef" href="../../d5/d75/containers_8h.html#ac8d53003529fb2d062d614077fe6857c">StringVector</a> attrList = <a class="code hl_function" href="../../df/d54/template_8cpp.html#a8624741268e62217f73c2d84c18bf659">split</a>(attrs.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>(),<span class="stringliteral">&quot;,&quot;</span>);</div>
-<div class="line"><span class="lineno">  242</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;attr_ : attrList)</div>
-<div class="line"><span class="lineno">  243</span>  {</div>
-<div class="line"><span class="lineno">  244</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> attr = <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>(attr_).<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a66269a694d9e6961bfd145bb4ca72f42">stripWhiteSpace</a>();</div>
-<div class="line"><span class="lineno">  245</span>    <span class="keywordtype">int</span> i = attr.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0182ece6b76dad6475dafb53e2faaf10">find</a>(<span class="charliteral">&#39;:&#39;</span>);</div>
-<div class="line"><span class="lineno">  246</span>    <span class="keywordflow">if</span> (i&gt;0) <span class="comment">// has format</span></div>
-<div class="line"><span class="lineno">  247</span>    {</div>
-<div class="line"><span class="lineno">  248</span>      <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> format = attr.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">left</a>(i).<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a66269a694d9e6961bfd145bb4ca72f42">stripWhiteSpace</a>().<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a33688239622e659cfb469fbd62c9cccb">lower</a>();</div>
-<div class="line"><span class="lineno">  249</span>      <span class="keywordflow">if</span> (format == <a class="code hl_namespace" href="../../d4/d6d/namespacefmt.html">fmt</a>) <span class="comment">// matching format</span></div>
-<div class="line"><span class="lineno">  250</span>      {</div>
-<div class="line"><span class="lineno">  251</span>        <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a81912d2a3d12aab7a9e546e5299e2e09">AUTO_TRACE_EXIT</a>(<span class="stringliteral">&quot;result={}&quot;</span>,attr.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(i+1));</div>
-<div class="line"><span class="lineno">  252</span>        <span class="keywordflow">return</span> attr.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(i+1); <span class="comment">// keep part after :</span></div>
-<div class="line"><span class="lineno">  253</span>      }</div>
-<div class="line"><span class="lineno">  254</span>    }</div>
-<div class="line"><span class="lineno">  255</span>    <span class="keywordflow">else</span> <span class="comment">// option that applies to all formats</span></div>
-<div class="line"><span class="lineno">  256</span>    {</div>
-<div class="line"><span class="lineno">  257</span>      <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a81912d2a3d12aab7a9e546e5299e2e09">AUTO_TRACE_EXIT</a>(<span class="stringliteral">&quot;result={}&quot;</span>,attr);</div>
-<div class="line"><span class="lineno">  258</span>      <span class="keywordflow">return</span> attr;</div>
-<div class="line"><span class="lineno">  259</span>    }</div>
-<div class="line"><span class="lineno">  260</span>  }</div>
-<div class="line"><span class="lineno">  261</span>  <span class="keywordflow">return</span> <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>();</div>
-<div class="line"><span class="lineno">  262</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00236">236</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  237</span>{</div>
+<div class="line"><span class="lineno">  238</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a210042a14f3a393be09c743c219126ae">AUTO_TRACE</a>(<span class="stringliteral">&quot;fmt={} attrs={}&quot;</span>,<a class="code hl_namespace" href="../../d4/d6d/namespacefmt.html">fmt</a>,attrs);</div>
+<div class="line"><span class="lineno">  239</span>  <a class="code hl_typedef" href="../../d5/d75/containers_8h.html#ac8d53003529fb2d062d614077fe6857c">StringVector</a> attrList = <a class="code hl_function" href="../../df/d54/template_8cpp.html#a8624741268e62217f73c2d84c18bf659">split</a>(attrs.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>(),<span class="stringliteral">&quot;,&quot;</span>);</div>
+<div class="line"><span class="lineno">  240</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;attr_ : attrList)</div>
+<div class="line"><span class="lineno">  241</span>  {</div>
+<div class="line"><span class="lineno">  242</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> attr = <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>(attr_).<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a66269a694d9e6961bfd145bb4ca72f42">stripWhiteSpace</a>();</div>
+<div class="line"><span class="lineno">  243</span>    <span class="keywordtype">int</span> i = attr.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0182ece6b76dad6475dafb53e2faaf10">find</a>(<span class="charliteral">&#39;:&#39;</span>);</div>
+<div class="line"><span class="lineno">  244</span>    <span class="keywordflow">if</span> (i&gt;0) <span class="comment">// has format</span></div>
+<div class="line"><span class="lineno">  245</span>    {</div>
+<div class="line"><span class="lineno">  246</span>      <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> format = attr.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">left</a>(i).<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a66269a694d9e6961bfd145bb4ca72f42">stripWhiteSpace</a>().<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a33688239622e659cfb469fbd62c9cccb">lower</a>();</div>
+<div class="line"><span class="lineno">  247</span>      <span class="keywordflow">if</span> (format == <a class="code hl_namespace" href="../../d4/d6d/namespacefmt.html">fmt</a>) <span class="comment">// matching format</span></div>
+<div class="line"><span class="lineno">  248</span>      {</div>
+<div class="line"><span class="lineno">  249</span>        <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a81912d2a3d12aab7a9e546e5299e2e09">AUTO_TRACE_EXIT</a>(<span class="stringliteral">&quot;result={}&quot;</span>,attr.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(i+1));</div>
+<div class="line"><span class="lineno">  250</span>        <span class="keywordflow">return</span> attr.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(i+1); <span class="comment">// keep part after :</span></div>
+<div class="line"><span class="lineno">  251</span>      }</div>
+<div class="line"><span class="lineno">  252</span>    }</div>
+<div class="line"><span class="lineno">  253</span>    <span class="keywordflow">else</span> <span class="comment">// option that applies to all formats</span></div>
+<div class="line"><span class="lineno">  254</span>    {</div>
+<div class="line"><span class="lineno">  255</span>      <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a81912d2a3d12aab7a9e546e5299e2e09">AUTO_TRACE_EXIT</a>(<span class="stringliteral">&quot;result={}&quot;</span>,attr);</div>
+<div class="line"><span class="lineno">  256</span>      <span class="keywordflow">return</span> attr;</div>
+<div class="line"><span class="lineno">  257</span>    }</div>
+<div class="line"><span class="lineno">  258</span>  }</div>
+<div class="line"><span class="lineno">  259</span>  <span class="keywordflow">return</span> <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>();</div>
+<div class="line"><span class="lineno">  260</span>}</div>
 <div class="ttc" id="aclass_q_c_string_html_a0182ece6b76dad6475dafb53e2faaf10"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a0182ece6b76dad6475dafb53e2faaf10">QCString::find</a></div><div class="ttdeci">int find(char c, int index=0, bool cs=TRUE) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d3e/qcstring_8cpp_source.html#l00043">qcstring.cpp:43</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a27136caf9c0bc4daca574cda6f113551"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">QCString::mid</a></div><div class="ttdeci">QCString mid(size_t index, size_t len=static_cast&lt; size_t &gt;(-1)) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00221">qcstring.h:221</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a33688239622e659cfb469fbd62c9cccb"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a33688239622e659cfb469fbd62c9cccb">QCString::lower</a></div><div class="ttdeci">QCString lower() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00229">qcstring.h:229</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a66269a694d9e6961bfd145bb4ca72f42"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a66269a694d9e6961bfd145bb4ca72f42">QCString::stripWhiteSpace</a></div><div class="ttdeci">QCString stripWhiteSpace() const</div><div class="ttdoc">returns a copy of this string with leading and trailing whitespace removed</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00240">qcstring.h:240</a></div></div>
+<div class="ttc" id="aclass_q_c_string_html_a875e9ad762554ef12f3ed69b015bb245"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">QCString::str</a></div><div class="ttdeci">const std::string &amp; str() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00478">qcstring.h:478</a></div></div>
+<div class="ttc" id="aclass_q_c_string_html_aecf8b66312c4e97333219cc344c11a4f"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">QCString::left</a></div><div class="ttdeci">QCString left(size_t len) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00209">qcstring.h:209</a></div></div>
 <div class="ttc" id="acontainers_8h_html_ac8d53003529fb2d062d614077fe6857c"><div class="ttname"><a href="../../d5/d75/containers_8h.html#ac8d53003529fb2d062d614077fe6857c">StringVector</a></div><div class="ttdeci">std::vector&lt; std::string &gt; StringVector</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d75/containers_8h_source.html#l00032">containers.h:32</a></div></div>
 <div class="ttc" id="anamespacefmt_html"><div class="ttname"><a href="../../d4/d6d/namespacefmt.html">fmt</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d1b/trace_8h_source.html#l00139">trace.h:139</a></div></div>
 <div class="ttc" id="atemplate_8cpp_html_a8624741268e62217f73c2d84c18bf659"><div class="ttname"><a href="../../df/d54/template_8cpp.html#a8624741268e62217f73c2d84c18bf659">split</a></div><div class="ttdeci">static std::vector&lt; QCString &gt; split(const QCString &amp;str, const QCString &amp;sep, bool allowEmptyEntries=FALSE, bool cleanup=TRUE)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d54/template_8cpp_source.html#l00039">template.cpp:39</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d1/d1b/trace_8h_source.html#l00133">AUTO_TRACE</a>, <a class="el" href="../../d1/d1b/trace_8h_source.html#l00135">AUTO_TRACE_EXIT</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00043">QCString::find()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00209">QCString::left()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00229">QCString::lower()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00221">QCString::mid()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l00039">split()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00478">QCString::str()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00240">QCString::stripWhiteSpace()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00999">Markdown::writeMarkdownImage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00997">Markdown::writeMarkdownImage()</a>.</p>
 
 </div>
 </div>
@@ -1061,35 +982,35 @@ Variables</h2></td></tr>
 
 <p>returns TRUE if this line starts a block quote </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01702">1702</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1703</span>{</div>
-<div class="line"><span class="lineno"> 1704</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a210042a14f3a393be09c743c219126ae">AUTO_TRACE</a>(<span class="stringliteral">&quot;data=&#39;{}&#39; size={} indent={}&quot;</span>,<a class="code hl_function" href="../../d3/db9/namespace_trace.html#a1859b0ba7161e012fecbd71dd4ec64d6">Trace::trunc</a>(data),size,indent);</div>
-<div class="line"><span class="lineno"> 1705</span>  <span class="keywordtype">int</span> i = 0;</div>
-<div class="line"><span class="lineno"> 1706</span>  <span class="keywordflow">while</span> (i&lt;size &amp;&amp; data[i]==<span class="charliteral">&#39; &#39;</span>) i++;</div>
-<div class="line"><span class="lineno"> 1707</span>  <span class="keywordflow">if</span> (i&lt;indent+<a class="code hl_variable" href="../../de/d04/markdown_8cpp.html#ade474436ee7fd57bc2ed66945290d4d2">codeBlockIndent</a>) <span class="comment">// could be a quotation</span></div>
-<div class="line"><span class="lineno"> 1708</span>  {</div>
-<div class="line"><span class="lineno"> 1709</span>    <span class="comment">// count &gt;&#39;s and skip spaces</span></div>
-<div class="line"><span class="lineno"> 1710</span>    <span class="keywordtype">int</span> level=0;</div>
-<div class="line"><span class="lineno"> 1711</span>    <span class="keywordflow">while</span> (i&lt;size &amp;&amp; (data[i]==<span class="charliteral">&#39;&gt;&#39;</span> || data[i]==<span class="charliteral">&#39; &#39;</span>))</div>
-<div class="line"><span class="lineno"> 1712</span>    {</div>
-<div class="line"><span class="lineno"> 1713</span>      <span class="keywordflow">if</span> (data[i]==<span class="charliteral">&#39;&gt;&#39;</span>) level++;</div>
-<div class="line"><span class="lineno"> 1714</span>      i++;</div>
-<div class="line"><span class="lineno"> 1715</span>    }</div>
-<div class="line"><span class="lineno"> 1716</span>    <span class="comment">// last characters should be a space or newline,</span></div>
-<div class="line"><span class="lineno"> 1717</span>    <span class="comment">// so a line starting with &gt;= does not match, but only when level equals 1</span></div>
-<div class="line"><span class="lineno"> 1718</span>    <span class="keywordtype">bool</span> res = (level&gt;0 &amp;&amp; i&lt;size &amp;&amp; ((data[i-1]==<span class="charliteral">&#39; &#39;</span>) || data[i]==<span class="charliteral">&#39;\n&#39;</span>)) || (level &gt; 1);</div>
-<div class="line"><span class="lineno"> 1719</span>    <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a81912d2a3d12aab7a9e546e5299e2e09">AUTO_TRACE_EXIT</a>(<span class="stringliteral">&quot;result={}&quot;</span>,res);</div>
-<div class="line"><span class="lineno"> 1720</span>    <span class="keywordflow">return</span> res;</div>
-<div class="line"><span class="lineno"> 1721</span>  }</div>
-<div class="line"><span class="lineno"> 1722</span>  <span class="keywordflow">else</span> <span class="comment">// too much indentation -&gt; code block</span></div>
-<div class="line"><span class="lineno"> 1723</span>  {</div>
-<div class="line"><span class="lineno"> 1724</span>    <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a81912d2a3d12aab7a9e546e5299e2e09">AUTO_TRACE_EXIT</a>(<span class="stringliteral">&quot;result=false: too much indentation&quot;</span>);</div>
-<div class="line"><span class="lineno"> 1725</span>    <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="line"><span class="lineno"> 1726</span>  }</div>
-<div class="line"><span class="lineno"> 1727</span>}</div>
-<div class="ttc" id="amarkdown_8cpp_html_ade474436ee7fd57bc2ed66945290d4d2"><div class="ttname"><a href="../../de/d04/markdown_8cpp.html#ade474436ee7fd57bc2ed66945290d4d2">codeBlockIndent</a></div><div class="ttdeci">const int codeBlockIndent</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d04/markdown_8cpp_source.html#l00125">markdown.cpp:125</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01700">1700</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1701</span>{</div>
+<div class="line"><span class="lineno"> 1702</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a210042a14f3a393be09c743c219126ae">AUTO_TRACE</a>(<span class="stringliteral">&quot;data=&#39;{}&#39; size={} indent={}&quot;</span>,<a class="code hl_function" href="../../d3/db9/namespace_trace.html#a1859b0ba7161e012fecbd71dd4ec64d6">Trace::trunc</a>(data),size,indent);</div>
+<div class="line"><span class="lineno"> 1703</span>  <span class="keywordtype">int</span> i = 0;</div>
+<div class="line"><span class="lineno"> 1704</span>  <span class="keywordflow">while</span> (i&lt;size &amp;&amp; data[i]==<span class="charliteral">&#39; &#39;</span>) i++;</div>
+<div class="line"><span class="lineno"> 1705</span>  <span class="keywordflow">if</span> (i&lt;indent+<a class="code hl_variable" href="../../de/d04/markdown_8cpp.html#ade474436ee7fd57bc2ed66945290d4d2">codeBlockIndent</a>) <span class="comment">// could be a quotation</span></div>
+<div class="line"><span class="lineno"> 1706</span>  {</div>
+<div class="line"><span class="lineno"> 1707</span>    <span class="comment">// count &gt;&#39;s and skip spaces</span></div>
+<div class="line"><span class="lineno"> 1708</span>    <span class="keywordtype">int</span> level=0;</div>
+<div class="line"><span class="lineno"> 1709</span>    <span class="keywordflow">while</span> (i&lt;size &amp;&amp; (data[i]==<span class="charliteral">&#39;&gt;&#39;</span> || data[i]==<span class="charliteral">&#39; &#39;</span>))</div>
+<div class="line"><span class="lineno"> 1710</span>    {</div>
+<div class="line"><span class="lineno"> 1711</span>      <span class="keywordflow">if</span> (data[i]==<span class="charliteral">&#39;&gt;&#39;</span>) level++;</div>
+<div class="line"><span class="lineno"> 1712</span>      i++;</div>
+<div class="line"><span class="lineno"> 1713</span>    }</div>
+<div class="line"><span class="lineno"> 1714</span>    <span class="comment">// last characters should be a space or newline,</span></div>
+<div class="line"><span class="lineno"> 1715</span>    <span class="comment">// so a line starting with &gt;= does not match, but only when level equals 1</span></div>
+<div class="line"><span class="lineno"> 1716</span>    <span class="keywordtype">bool</span> res = (level&gt;0 &amp;&amp; i&lt;size &amp;&amp; ((data[i-1]==<span class="charliteral">&#39; &#39;</span>) || data[i]==<span class="charliteral">&#39;\n&#39;</span>)) || (level &gt; 1);</div>
+<div class="line"><span class="lineno"> 1717</span>    <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a81912d2a3d12aab7a9e546e5299e2e09">AUTO_TRACE_EXIT</a>(<span class="stringliteral">&quot;result={}&quot;</span>,res);</div>
+<div class="line"><span class="lineno"> 1718</span>    <span class="keywordflow">return</span> res;</div>
+<div class="line"><span class="lineno"> 1719</span>  }</div>
+<div class="line"><span class="lineno"> 1720</span>  <span class="keywordflow">else</span> <span class="comment">// too much indentation -&gt; code block</span></div>
+<div class="line"><span class="lineno"> 1721</span>  {</div>
+<div class="line"><span class="lineno"> 1722</span>    <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a81912d2a3d12aab7a9e546e5299e2e09">AUTO_TRACE_EXIT</a>(<span class="stringliteral">&quot;result=false: too much indentation&quot;</span>);</div>
+<div class="line"><span class="lineno"> 1723</span>    <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
+<div class="line"><span class="lineno"> 1724</span>  }</div>
+<div class="line"><span class="lineno"> 1725</span>}</div>
+<div class="ttc" id="amarkdown_8cpp_html_ade474436ee7fd57bc2ed66945290d4d2"><div class="ttname"><a href="../../de/d04/markdown_8cpp.html#ade474436ee7fd57bc2ed66945290d4d2">codeBlockIndent</a></div><div class="ttdeci">const int codeBlockIndent</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d04/markdown_8cpp_source.html#l00123">markdown.cpp:123</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d1b/trace_8h_source.html#l00133">AUTO_TRACE</a>, <a class="el" href="../../d1/d1b/trace_8h_source.html#l00135">AUTO_TRACE_EXIT</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00125">codeBlockIndent</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, and <a class="el" href="../../d1/d1b/trace_8h_source.html#l00044">Trace::trunc()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d1b/trace_8h_source.html#l00133">AUTO_TRACE</a>, <a class="el" href="../../d1/d1b/trace_8h_source.html#l00135">AUTO_TRACE_EXIT</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00123">codeBlockIndent</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, and <a class="el" href="../../d1/d1b/trace_8h_source.html#l00044">Trace::trunc()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02779">Markdown::processQuotations()</a>.</p>
 
@@ -1221,7 +1142,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="amarkdown_8cpp_html_a3a804fe07123f57c6681fd19a3e1003c"><div class="ttname"><a href="../../de/d04/markdown_8cpp.html#a3a804fe07123f57c6681fd19a3e1003c">isEmptyLine</a></div><div class="ttdeci">static bool isEmptyLine(const char *data, int size)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d04/markdown_8cpp_source.html#l01943">markdown.cpp:1943</a></div></div>
 <div class="ttc" id="amarkdown_8cpp_html_aff1401435a72ba6f4ad22d5c21d67aab"><div class="ttname"><a href="../../de/d04/markdown_8cpp.html#aff1401435a72ba6f4ad22d5c21d67aab">computeIndentExcludingListMarkers</a></div><div class="ttdeci">static int computeIndentExcludingListMarkers(const char *data, int size)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d04/markdown_8cpp_source.html#l01965">markdown.cpp:1965</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d1b/trace_8h_source.html#l00133">AUTO_TRACE</a>, <a class="el" href="../../d1/d1b/trace_8h_source.html#l00135">AUTO_TRACE_EXIT</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00125">codeBlockIndent</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01965">computeIndentExcludingListMarkers()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01943">isEmptyLine()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00131">isNewline()</a>, and <a class="el" href="../../d1/d1b/trace_8h_source.html#l00044">Trace::trunc()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d1b/trace_8h_source.html#l00133">AUTO_TRACE</a>, <a class="el" href="../../d1/d1b/trace_8h_source.html#l00135">AUTO_TRACE_EXIT</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00123">codeBlockIndent</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01965">computeIndentExcludingListMarkers()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01943">isEmptyLine()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00129">isNewline()</a>, and <a class="el" href="../../d1/d1b/trace_8h_source.html#l00044">Trace::trunc()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02911">Markdown::processBlocks()</a>.</p>
 
@@ -1409,7 +1330,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d1/d1b/trace_8h_source.html#l00133">AUTO_TRACE</a>, <a class="el" href="../../d1/d1b/trace_8h_source.html#l00135">AUTO_TRACE_EXIT</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::data()</a>, <a class="el" href="../../de/d04/markdown_8cpp.html#a32bd5ad1ca53505df49807d933ab3611a7e256e56ac82ab7e84c0a827a6f87530">explicitMainPage</a>, <a class="el" href="../../de/d04/markdown_8cpp.html#a32bd5ad1ca53505df49807d933ab3611ae2813323b951a15b22babe5224d9dabe">explicitPage</a>, <a class="el" href="../../de/d04/markdown_8cpp.html#a32bd5ad1ca53505df49807d933ab3611aed049ce087485c91fc2610599aebd142">notExplicit</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00085">qstrncmp()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::size()</a>, and <a class="el" href="../../d1/d1b/trace_8h_source.html#l00044">Trace::trunc()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03284">MarkdownOutlineParser::parseInput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03286">MarkdownOutlineParser::parseInput()</a>.</p>
 
 </div>
 </div>
@@ -1528,9 +1449,9 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno"> 2120</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a81912d2a3d12aab7a9e546e5299e2e09">AUTO_TRACE_EXIT</a>(<span class="stringliteral">&quot;result=false: no end marker found&quot;</span>);</div>
 <div class="line"><span class="lineno"> 2121</span>  <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
 <div class="line"><span class="lineno"> 2122</span>}</div>
-<div class="ttc" id="amarkdown_8cpp_html_adc84c573d677e387555fa1a7b16b9001"><div class="ttname"><a href="../../de/d04/markdown_8cpp.html#adc84c573d677e387555fa1a7b16b9001">convertStringFragment</a></div><div class="ttdeci">static void convertStringFragment(QCString &amp;result, const char *data, int size)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d04/markdown_8cpp_source.html#l00208">markdown.cpp:208</a></div></div>
+<div class="ttc" id="amarkdown_8cpp_html_adc84c573d677e387555fa1a7b16b9001"><div class="ttname"><a href="../../de/d04/markdown_8cpp.html#adc84c573d677e387555fa1a7b16b9001">convertStringFragment</a></div><div class="ttdeci">static void convertStringFragment(QCString &amp;result, const char *data, int size)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d04/markdown_8cpp_source.html#l00206">markdown.cpp:206</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d1b/trace_8h_source.html#l00133">AUTO_TRACE</a>, <a class="el" href="../../d1/d1b/trace_8h_source.html#l00135">AUTO_TRACE_EXIT</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00208">convertStringFragment()</a>, <a class="el" href="../../d3/d48/dir_8cpp_source.html#l00129">end()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>, and <a class="el" href="../../d1/d1b/trace_8h_source.html#l00044">Trace::trunc()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d1b/trace_8h_source.html#l00133">AUTO_TRACE</a>, <a class="el" href="../../d1/d1b/trace_8h_source.html#l00135">AUTO_TRACE_EXIT</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00206">convertStringFragment()</a>, <a class="el" href="../../d3/d48/dir_8cpp_source.html#l00129">end()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>, and <a class="el" href="../../d1/d1b/trace_8h_source.html#l00044">Trace::trunc()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02911">Markdown::processBlocks()</a>, and <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02779">Markdown::processQuotations()</a>.</p>
 
@@ -1570,36 +1491,36 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01821">1821</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1822</span>{</div>
-<div class="line"><span class="lineno"> 1823</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a210042a14f3a393be09c743c219126ae">AUTO_TRACE</a>(<span class="stringliteral">&quot;data=&#39;{}&#39; size={}&quot;</span>,<a class="code hl_function" href="../../d3/db9/namespace_trace.html#a1859b0ba7161e012fecbd71dd4ec64d6">Trace::trunc</a>(data),size);</div>
-<div class="line"><span class="lineno"> 1824</span>  <span class="keywordtype">int</span> i=0;</div>
-<div class="line"><span class="lineno"> 1825</span>  <span class="keywordflow">if</span> (size&gt;0 &amp;&amp; data[size-1]==<span class="charliteral">&#39;\n&#39;</span>) size--; <span class="comment">// ignore newline character</span></div>
-<div class="line"><span class="lineno"> 1826</span>  <span class="keywordflow">while</span> (i&lt;size &amp;&amp; data[i]==<span class="charliteral">&#39; &#39;</span>) i++;</div>
-<div class="line"><span class="lineno"> 1827</span>  <span class="keywordflow">if</span> (i&gt;=size) { <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a81912d2a3d12aab7a9e546e5299e2e09">AUTO_TRACE_EXIT</a>(<span class="stringliteral">&quot;result=false: empty line&quot;</span>); <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>; } <span class="comment">// empty line</span></div>
-<div class="line"><span class="lineno"> 1828</span>  <span class="keywordtype">char</span> c=data[i];</div>
-<div class="line"><span class="lineno"> 1829</span>  <span class="keywordflow">if</span> (c!=<span class="charliteral">&#39;*&#39;</span> &amp;&amp; c!=<span class="charliteral">&#39;-&#39;</span> &amp;&amp; c!=<span class="charliteral">&#39;_&#39;</span>)</div>
-<div class="line"><span class="lineno"> 1830</span>  {</div>
-<div class="line"><span class="lineno"> 1831</span>    <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a81912d2a3d12aab7a9e546e5299e2e09">AUTO_TRACE_EXIT</a>(<span class="stringliteral">&quot;result=false: {} is not a hrule character&quot;</span>,c);</div>
-<div class="line"><span class="lineno"> 1832</span>    <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>; <span class="comment">// not a hrule character</span></div>
-<div class="line"><span class="lineno"> 1833</span>  }</div>
-<div class="line"><span class="lineno"> 1834</span>  <span class="keywordtype">int</span> n=0;</div>
-<div class="line"><span class="lineno"> 1835</span>  <span class="keywordflow">while</span> (i&lt;size)</div>
-<div class="line"><span class="lineno"> 1836</span>  {</div>
-<div class="line"><span class="lineno"> 1837</span>    <span class="keywordflow">if</span> (data[i]==c)</div>
-<div class="line"><span class="lineno"> 1838</span>    {</div>
-<div class="line"><span class="lineno"> 1839</span>      n++; <span class="comment">// count rule character</span></div>
-<div class="line"><span class="lineno"> 1840</span>    }</div>
-<div class="line"><span class="lineno"> 1841</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (data[i]!=<span class="charliteral">&#39; &#39;</span>)</div>
-<div class="line"><span class="lineno"> 1842</span>    {</div>
-<div class="line"><span class="lineno"> 1843</span>      <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a81912d2a3d12aab7a9e546e5299e2e09">AUTO_TRACE_EXIT</a>(<span class="stringliteral">&quot;result=false: line contains non hruler characters&quot;</span>);</div>
-<div class="line"><span class="lineno"> 1844</span>      <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>; <span class="comment">// line contains non hruler characters</span></div>
-<div class="line"><span class="lineno"> 1845</span>    }</div>
-<div class="line"><span class="lineno"> 1846</span>    i++;</div>
-<div class="line"><span class="lineno"> 1847</span>  }</div>
-<div class="line"><span class="lineno"> 1848</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a81912d2a3d12aab7a9e546e5299e2e09">AUTO_TRACE_EXIT</a>(<span class="stringliteral">&quot;result={}&quot;</span>,n&gt;=3);</div>
-<div class="line"><span class="lineno"> 1849</span>  <span class="keywordflow">return</span> n&gt;=3; <span class="comment">// at least 3 characters needed for a hruler</span></div>
-<div class="line"><span class="lineno"> 1850</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01819">1819</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1820</span>{</div>
+<div class="line"><span class="lineno"> 1821</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a210042a14f3a393be09c743c219126ae">AUTO_TRACE</a>(<span class="stringliteral">&quot;data=&#39;{}&#39; size={}&quot;</span>,<a class="code hl_function" href="../../d3/db9/namespace_trace.html#a1859b0ba7161e012fecbd71dd4ec64d6">Trace::trunc</a>(data),size);</div>
+<div class="line"><span class="lineno"> 1822</span>  <span class="keywordtype">int</span> i=0;</div>
+<div class="line"><span class="lineno"> 1823</span>  <span class="keywordflow">if</span> (size&gt;0 &amp;&amp; data[size-1]==<span class="charliteral">&#39;\n&#39;</span>) size--; <span class="comment">// ignore newline character</span></div>
+<div class="line"><span class="lineno"> 1824</span>  <span class="keywordflow">while</span> (i&lt;size &amp;&amp; data[i]==<span class="charliteral">&#39; &#39;</span>) i++;</div>
+<div class="line"><span class="lineno"> 1825</span>  <span class="keywordflow">if</span> (i&gt;=size) { <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a81912d2a3d12aab7a9e546e5299e2e09">AUTO_TRACE_EXIT</a>(<span class="stringliteral">&quot;result=false: empty line&quot;</span>); <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>; } <span class="comment">// empty line</span></div>
+<div class="line"><span class="lineno"> 1826</span>  <span class="keywordtype">char</span> c=data[i];</div>
+<div class="line"><span class="lineno"> 1827</span>  <span class="keywordflow">if</span> (c!=<span class="charliteral">&#39;*&#39;</span> &amp;&amp; c!=<span class="charliteral">&#39;-&#39;</span> &amp;&amp; c!=<span class="charliteral">&#39;_&#39;</span>)</div>
+<div class="line"><span class="lineno"> 1828</span>  {</div>
+<div class="line"><span class="lineno"> 1829</span>    <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a81912d2a3d12aab7a9e546e5299e2e09">AUTO_TRACE_EXIT</a>(<span class="stringliteral">&quot;result=false: {} is not a hrule character&quot;</span>,c);</div>
+<div class="line"><span class="lineno"> 1830</span>    <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>; <span class="comment">// not a hrule character</span></div>
+<div class="line"><span class="lineno"> 1831</span>  }</div>
+<div class="line"><span class="lineno"> 1832</span>  <span class="keywordtype">int</span> n=0;</div>
+<div class="line"><span class="lineno"> 1833</span>  <span class="keywordflow">while</span> (i&lt;size)</div>
+<div class="line"><span class="lineno"> 1834</span>  {</div>
+<div class="line"><span class="lineno"> 1835</span>    <span class="keywordflow">if</span> (data[i]==c)</div>
+<div class="line"><span class="lineno"> 1836</span>    {</div>
+<div class="line"><span class="lineno"> 1837</span>      n++; <span class="comment">// count rule character</span></div>
+<div class="line"><span class="lineno"> 1838</span>    }</div>
+<div class="line"><span class="lineno"> 1839</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (data[i]!=<span class="charliteral">&#39; &#39;</span>)</div>
+<div class="line"><span class="lineno"> 1840</span>    {</div>
+<div class="line"><span class="lineno"> 1841</span>      <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a81912d2a3d12aab7a9e546e5299e2e09">AUTO_TRACE_EXIT</a>(<span class="stringliteral">&quot;result=false: line contains non hruler characters&quot;</span>);</div>
+<div class="line"><span class="lineno"> 1842</span>      <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>; <span class="comment">// line contains non hruler characters</span></div>
+<div class="line"><span class="lineno"> 1843</span>    }</div>
+<div class="line"><span class="lineno"> 1844</span>    i++;</div>
+<div class="line"><span class="lineno"> 1845</span>  }</div>
+<div class="line"><span class="lineno"> 1846</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a81912d2a3d12aab7a9e546e5299e2e09">AUTO_TRACE_EXIT</a>(<span class="stringliteral">&quot;result={}&quot;</span>,n&gt;=3);</div>
+<div class="line"><span class="lineno"> 1847</span>  <span class="keywordflow">return</span> n&gt;=3; <span class="comment">// at least 3 characters needed for a hruler</span></div>
+<div class="line"><span class="lineno"> 1848</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d1/d1b/trace_8h_source.html#l00133">AUTO_TRACE</a>, <a class="el" href="../../d1/d1b/trace_8h_source.html#l00135">AUTO_TRACE_EXIT</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, and <a class="el" href="../../d1/d1b/trace_8h_source.html#l00044">Trace::trunc()</a>.</p>
 
@@ -1661,99 +1582,99 @@ Variables</h2></td></tr>
 
 <p>returns end of the link ref if this is indeed a link reference. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01730">1730</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1732</span>{</div>
-<div class="line"><span class="lineno"> 1733</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a210042a14f3a393be09c743c219126ae">AUTO_TRACE</a>(<span class="stringliteral">&quot;data=&#39;{}&#39; size={}&quot;</span>,<a class="code hl_function" href="../../d3/db9/namespace_trace.html#a1859b0ba7161e012fecbd71dd4ec64d6">Trace::trunc</a>(data),size);</div>
-<div class="line"><span class="lineno"> 1734</span>  <span class="comment">// format: start with [some text]:</span></div>
-<div class="line"><span class="lineno"> 1735</span>  <span class="keywordtype">int</span> i = 0;</div>
-<div class="line"><span class="lineno"> 1736</span>  <span class="keywordflow">while</span> (i&lt;size &amp;&amp; data[i]==<span class="charliteral">&#39; &#39;</span>) i++;</div>
-<div class="line"><span class="lineno"> 1737</span>  <span class="keywordflow">if</span> (i&gt;=size || data[i]!=<span class="charliteral">&#39;[&#39;</span>) { <span class="keywordflow">return</span> 0; }</div>
-<div class="line"><span class="lineno"> 1738</span>  i++;</div>
-<div class="line"><span class="lineno"> 1739</span>  <span class="keywordtype">int</span> refIdStart=i;</div>
-<div class="line"><span class="lineno"> 1740</span>  <span class="keywordflow">while</span> (i&lt;size &amp;&amp; data[i]!=<span class="charliteral">&#39;\n&#39;</span> &amp;&amp; data[i]!=<span class="charliteral">&#39;]&#39;</span>) i++;</div>
-<div class="line"><span class="lineno"> 1741</span>  <span class="keywordflow">if</span> (i&gt;=size || data[i]!=<span class="charliteral">&#39;]&#39;</span>) { <span class="keywordflow">return</span> 0; }</div>
-<div class="line"><span class="lineno"> 1742</span>  <a class="code hl_function" href="../../de/d04/markdown_8cpp.html#adc84c573d677e387555fa1a7b16b9001">convertStringFragment</a>(refid,data+refIdStart,i-refIdStart);</div>
-<div class="line"><span class="lineno"> 1743</span>  <span class="keywordflow">if</span> (refid.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>()) { <span class="keywordflow">return</span> 0; }</div>
-<div class="line"><span class="lineno"> 1744</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a05be586784f268b947ad777aa316c4e6">AUTO_TRACE_ADD</a>(<span class="stringliteral">&quot;refid found {}&quot;</span>,refid);</div>
-<div class="line"><span class="lineno"> 1745</span>  <span class="comment">//printf(&quot;  isLinkRef: found refid=&#39;%s&#39;\n&quot;,qPrint(refid));</span></div>
+<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01728">1728</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1730</span>{</div>
+<div class="line"><span class="lineno"> 1731</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a210042a14f3a393be09c743c219126ae">AUTO_TRACE</a>(<span class="stringliteral">&quot;data=&#39;{}&#39; size={}&quot;</span>,<a class="code hl_function" href="../../d3/db9/namespace_trace.html#a1859b0ba7161e012fecbd71dd4ec64d6">Trace::trunc</a>(data),size);</div>
+<div class="line"><span class="lineno"> 1732</span>  <span class="comment">// format: start with [some text]:</span></div>
+<div class="line"><span class="lineno"> 1733</span>  <span class="keywordtype">int</span> i = 0;</div>
+<div class="line"><span class="lineno"> 1734</span>  <span class="keywordflow">while</span> (i&lt;size &amp;&amp; data[i]==<span class="charliteral">&#39; &#39;</span>) i++;</div>
+<div class="line"><span class="lineno"> 1735</span>  <span class="keywordflow">if</span> (i&gt;=size || data[i]!=<span class="charliteral">&#39;[&#39;</span>) { <span class="keywordflow">return</span> 0; }</div>
+<div class="line"><span class="lineno"> 1736</span>  i++;</div>
+<div class="line"><span class="lineno"> 1737</span>  <span class="keywordtype">int</span> refIdStart=i;</div>
+<div class="line"><span class="lineno"> 1738</span>  <span class="keywordflow">while</span> (i&lt;size &amp;&amp; data[i]!=<span class="charliteral">&#39;\n&#39;</span> &amp;&amp; data[i]!=<span class="charliteral">&#39;]&#39;</span>) i++;</div>
+<div class="line"><span class="lineno"> 1739</span>  <span class="keywordflow">if</span> (i&gt;=size || data[i]!=<span class="charliteral">&#39;]&#39;</span>) { <span class="keywordflow">return</span> 0; }</div>
+<div class="line"><span class="lineno"> 1740</span>  <a class="code hl_function" href="../../de/d04/markdown_8cpp.html#adc84c573d677e387555fa1a7b16b9001">convertStringFragment</a>(refid,data+refIdStart,i-refIdStart);</div>
+<div class="line"><span class="lineno"> 1741</span>  <span class="keywordflow">if</span> (refid.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>()) { <span class="keywordflow">return</span> 0; }</div>
+<div class="line"><span class="lineno"> 1742</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a05be586784f268b947ad777aa316c4e6">AUTO_TRACE_ADD</a>(<span class="stringliteral">&quot;refid found {}&quot;</span>,refid);</div>
+<div class="line"><span class="lineno"> 1743</span>  <span class="comment">//printf(&quot;  isLinkRef: found refid=&#39;%s&#39;\n&quot;,qPrint(refid));</span></div>
+<div class="line"><span class="lineno"> 1744</span>  i++;</div>
+<div class="line"><span class="lineno"> 1745</span>  <span class="keywordflow">if</span> (i&gt;=size || data[i]!=<span class="charliteral">&#39;:&#39;</span>) { <span class="keywordflow">return</span> 0; }</div>
 <div class="line"><span class="lineno"> 1746</span>  i++;</div>
-<div class="line"><span class="lineno"> 1747</span>  <span class="keywordflow">if</span> (i&gt;=size || data[i]!=<span class="charliteral">&#39;:&#39;</span>) { <span class="keywordflow">return</span> 0; }</div>
-<div class="line"><span class="lineno"> 1748</span>  i++;</div>
-<div class="line"><span class="lineno"> 1749</span> </div>
-<div class="line"><span class="lineno"> 1750</span>  <span class="comment">// format: whitespace* \n? whitespace* (&lt;url&gt; | url)</span></div>
-<div class="line"><span class="lineno"> 1751</span>  <span class="keywordflow">while</span> (i&lt;size &amp;&amp; data[i]==<span class="charliteral">&#39; &#39;</span>) i++;</div>
-<div class="line"><span class="lineno"> 1752</span>  <span class="keywordflow">if</span> (i&lt;size &amp;&amp; data[i]==<span class="charliteral">&#39;\n&#39;</span>)</div>
-<div class="line"><span class="lineno"> 1753</span>  {</div>
-<div class="line"><span class="lineno"> 1754</span>    i++;</div>
-<div class="line"><span class="lineno"> 1755</span>    <span class="keywordflow">while</span> (i&lt;size &amp;&amp; data[i]==<span class="charliteral">&#39; &#39;</span>) i++;</div>
-<div class="line"><span class="lineno"> 1756</span>  }</div>
-<div class="line"><span class="lineno"> 1757</span>  <span class="keywordflow">if</span> (i&gt;=size) { <span class="keywordflow">return</span> 0; }</div>
-<div class="line"><span class="lineno"> 1758</span> </div>
-<div class="line"><span class="lineno"> 1759</span>  <span class="keywordflow">if</span> (i&lt;size &amp;&amp; data[i]==<span class="charliteral">&#39;&lt;&#39;</span>) i++;</div>
-<div class="line"><span class="lineno"> 1760</span>  <span class="keywordtype">int</span> linkStart=i;</div>
-<div class="line"><span class="lineno"> 1761</span>  <span class="keywordflow">while</span> (i&lt;size &amp;&amp; data[i]!=<span class="charliteral">&#39; &#39;</span> &amp;&amp; data[i]!=<span class="charliteral">&#39;\n&#39;</span>) i++;</div>
-<div class="line"><span class="lineno"> 1762</span>  <span class="keywordtype">int</span> linkEnd=i;</div>
-<div class="line"><span class="lineno"> 1763</span>  <span class="keywordflow">if</span> (i&lt;size &amp;&amp; data[i]==<span class="charliteral">&#39;&gt;&#39;</span>) i++;</div>
-<div class="line"><span class="lineno"> 1764</span>  <span class="keywordflow">if</span> (linkStart==linkEnd) { <span class="keywordflow">return</span> 0; } <span class="comment">// empty link</span></div>
-<div class="line"><span class="lineno"> 1765</span>  <a class="code hl_function" href="../../de/d04/markdown_8cpp.html#adc84c573d677e387555fa1a7b16b9001">convertStringFragment</a>(link,data+linkStart,linkEnd-linkStart);</div>
-<div class="line"><span class="lineno"> 1766</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a05be586784f268b947ad777aa316c4e6">AUTO_TRACE_ADD</a>(<span class="stringliteral">&quot;link found {}&quot;</span>,<a class="code hl_function" href="../../d3/db9/namespace_trace.html#a1859b0ba7161e012fecbd71dd4ec64d6">Trace::trunc</a>(link));</div>
-<div class="line"><span class="lineno"> 1767</span>  <span class="keywordflow">if</span> (link==<span class="stringliteral">&quot;@ref&quot;</span> || link==<span class="stringliteral">&quot;\\ref&quot;</span>)</div>
-<div class="line"><span class="lineno"> 1768</span>  {</div>
-<div class="line"><span class="lineno"> 1769</span>    <span class="keywordtype">int</span> argStart=i;</div>
-<div class="line"><span class="lineno"> 1770</span>    <span class="keywordflow">while</span> (i&lt;size &amp;&amp; data[i]!=<span class="charliteral">&#39;\n&#39;</span> &amp;&amp; data[i]!=<span class="charliteral">&#39;&quot;&#39;</span>) i++;</div>
-<div class="line"><span class="lineno"> 1771</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> refArg;</div>
-<div class="line"><span class="lineno"> 1772</span>    <a class="code hl_function" href="../../de/d04/markdown_8cpp.html#adc84c573d677e387555fa1a7b16b9001">convertStringFragment</a>(refArg,data+argStart,i-argStart);</div>
-<div class="line"><span class="lineno"> 1773</span>    link+=refArg;</div>
-<div class="line"><span class="lineno"> 1774</span>  }</div>
+<div class="line"><span class="lineno"> 1747</span> </div>
+<div class="line"><span class="lineno"> 1748</span>  <span class="comment">// format: whitespace* \n? whitespace* (&lt;url&gt; | url)</span></div>
+<div class="line"><span class="lineno"> 1749</span>  <span class="keywordflow">while</span> (i&lt;size &amp;&amp; data[i]==<span class="charliteral">&#39; &#39;</span>) i++;</div>
+<div class="line"><span class="lineno"> 1750</span>  <span class="keywordflow">if</span> (i&lt;size &amp;&amp; data[i]==<span class="charliteral">&#39;\n&#39;</span>)</div>
+<div class="line"><span class="lineno"> 1751</span>  {</div>
+<div class="line"><span class="lineno"> 1752</span>    i++;</div>
+<div class="line"><span class="lineno"> 1753</span>    <span class="keywordflow">while</span> (i&lt;size &amp;&amp; data[i]==<span class="charliteral">&#39; &#39;</span>) i++;</div>
+<div class="line"><span class="lineno"> 1754</span>  }</div>
+<div class="line"><span class="lineno"> 1755</span>  <span class="keywordflow">if</span> (i&gt;=size) { <span class="keywordflow">return</span> 0; }</div>
+<div class="line"><span class="lineno"> 1756</span> </div>
+<div class="line"><span class="lineno"> 1757</span>  <span class="keywordflow">if</span> (i&lt;size &amp;&amp; data[i]==<span class="charliteral">&#39;&lt;&#39;</span>) i++;</div>
+<div class="line"><span class="lineno"> 1758</span>  <span class="keywordtype">int</span> linkStart=i;</div>
+<div class="line"><span class="lineno"> 1759</span>  <span class="keywordflow">while</span> (i&lt;size &amp;&amp; data[i]!=<span class="charliteral">&#39; &#39;</span> &amp;&amp; data[i]!=<span class="charliteral">&#39;\n&#39;</span>) i++;</div>
+<div class="line"><span class="lineno"> 1760</span>  <span class="keywordtype">int</span> linkEnd=i;</div>
+<div class="line"><span class="lineno"> 1761</span>  <span class="keywordflow">if</span> (i&lt;size &amp;&amp; data[i]==<span class="charliteral">&#39;&gt;&#39;</span>) i++;</div>
+<div class="line"><span class="lineno"> 1762</span>  <span class="keywordflow">if</span> (linkStart==linkEnd) { <span class="keywordflow">return</span> 0; } <span class="comment">// empty link</span></div>
+<div class="line"><span class="lineno"> 1763</span>  <a class="code hl_function" href="../../de/d04/markdown_8cpp.html#adc84c573d677e387555fa1a7b16b9001">convertStringFragment</a>(link,data+linkStart,linkEnd-linkStart);</div>
+<div class="line"><span class="lineno"> 1764</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a05be586784f268b947ad777aa316c4e6">AUTO_TRACE_ADD</a>(<span class="stringliteral">&quot;link found {}&quot;</span>,<a class="code hl_function" href="../../d3/db9/namespace_trace.html#a1859b0ba7161e012fecbd71dd4ec64d6">Trace::trunc</a>(link));</div>
+<div class="line"><span class="lineno"> 1765</span>  <span class="keywordflow">if</span> (link==<span class="stringliteral">&quot;@ref&quot;</span> || link==<span class="stringliteral">&quot;\\ref&quot;</span>)</div>
+<div class="line"><span class="lineno"> 1766</span>  {</div>
+<div class="line"><span class="lineno"> 1767</span>    <span class="keywordtype">int</span> argStart=i;</div>
+<div class="line"><span class="lineno"> 1768</span>    <span class="keywordflow">while</span> (i&lt;size &amp;&amp; data[i]!=<span class="charliteral">&#39;\n&#39;</span> &amp;&amp; data[i]!=<span class="charliteral">&#39;&quot;&#39;</span>) i++;</div>
+<div class="line"><span class="lineno"> 1769</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> refArg;</div>
+<div class="line"><span class="lineno"> 1770</span>    <a class="code hl_function" href="../../de/d04/markdown_8cpp.html#adc84c573d677e387555fa1a7b16b9001">convertStringFragment</a>(refArg,data+argStart,i-argStart);</div>
+<div class="line"><span class="lineno"> 1771</span>    link+=refArg;</div>
+<div class="line"><span class="lineno"> 1772</span>  }</div>
+<div class="line"><span class="lineno"> 1773</span> </div>
+<div class="line"><span class="lineno"> 1774</span>  title.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a993474e2da59141336e6105b8e154f2b">resize</a>(0);</div>
 <div class="line"><span class="lineno"> 1775</span> </div>
-<div class="line"><span class="lineno"> 1776</span>  title.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a993474e2da59141336e6105b8e154f2b">resize</a>(0);</div>
-<div class="line"><span class="lineno"> 1777</span> </div>
-<div class="line"><span class="lineno"> 1778</span>  <span class="comment">// format: (whitespace* \n? whitespace* ( &#39;title&#39; | &quot;title&quot; | (title) ))?</span></div>
-<div class="line"><span class="lineno"> 1779</span>  <span class="keywordtype">int</span> <a class="code hl_define" href="../../d7/de0/_parse_exception_8h.html#a55b81f273444186ad83e1087f9a3706d">eol</a>=0;</div>
-<div class="line"><span class="lineno"> 1780</span>  <span class="keywordflow">while</span> (i&lt;size &amp;&amp; data[i]==<span class="charliteral">&#39; &#39;</span>) i++;</div>
-<div class="line"><span class="lineno"> 1781</span>  <span class="keywordflow">if</span> (i&lt;size &amp;&amp; data[i]==<span class="charliteral">&#39;\n&#39;</span>)</div>
-<div class="line"><span class="lineno"> 1782</span>  {</div>
-<div class="line"><span class="lineno"> 1783</span>    <a class="code hl_define" href="../../d7/de0/_parse_exception_8h.html#a55b81f273444186ad83e1087f9a3706d">eol</a>=i;</div>
-<div class="line"><span class="lineno"> 1784</span>    i++;</div>
-<div class="line"><span class="lineno"> 1785</span>    <span class="keywordflow">while</span> (i&lt;size &amp;&amp; data[i]==<span class="charliteral">&#39; &#39;</span>) i++;</div>
-<div class="line"><span class="lineno"> 1786</span>  }</div>
-<div class="line"><span class="lineno"> 1787</span>  <span class="keywordflow">if</span> (i&gt;=size)</div>
-<div class="line"><span class="lineno"> 1788</span>  {</div>
-<div class="line"><span class="lineno"> 1789</span>    <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a81912d2a3d12aab7a9e546e5299e2e09">AUTO_TRACE_EXIT</a>(<span class="stringliteral">&quot;result={}: end of isLinkRef while looking for title&quot;</span>,i);</div>
-<div class="line"><span class="lineno"> 1790</span>    <span class="keywordflow">return</span> i; <span class="comment">// end of buffer while looking for the optional title</span></div>
-<div class="line"><span class="lineno"> 1791</span>  }</div>
-<div class="line"><span class="lineno"> 1792</span> </div>
-<div class="line"><span class="lineno"> 1793</span>  <span class="keywordtype">char</span> c = data[i];</div>
-<div class="line"><span class="lineno"> 1794</span>  <span class="keywordflow">if</span> (c==<span class="charliteral">&#39;\&#39;&#39;</span> || c==<span class="charliteral">&#39;&quot;&#39;</span> || c==<span class="charliteral">&#39;(&#39;</span>) <span class="comment">// optional title present?</span></div>
-<div class="line"><span class="lineno"> 1795</span>  {</div>
-<div class="line"><span class="lineno"> 1796</span>    <span class="comment">//printf(&quot;  start of title found! char=&#39;%c&#39;\n&quot;,c);</span></div>
-<div class="line"><span class="lineno"> 1797</span>    i++;</div>
-<div class="line"><span class="lineno"> 1798</span>    <span class="keywordflow">if</span> (c==<span class="charliteral">&#39;(&#39;</span>) c=<span class="charliteral">&#39;)&#39;</span>; <span class="comment">// replace c by end character</span></div>
-<div class="line"><span class="lineno"> 1799</span>    <span class="keywordtype">int</span> titleStart=i;</div>
-<div class="line"><span class="lineno"> 1800</span>    <span class="comment">// search for end of the line</span></div>
-<div class="line"><span class="lineno"> 1801</span>    <span class="keywordflow">while</span> (i&lt;size &amp;&amp; data[i]!=<span class="charliteral">&#39;\n&#39;</span>) i++;</div>
-<div class="line"><span class="lineno"> 1802</span>    <a class="code hl_define" href="../../d7/de0/_parse_exception_8h.html#a55b81f273444186ad83e1087f9a3706d">eol</a> = i;</div>
-<div class="line"><span class="lineno"> 1803</span> </div>
-<div class="line"><span class="lineno"> 1804</span>    <span class="comment">// search back to matching character</span></div>
-<div class="line"><span class="lineno"> 1805</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="../../d3/d48/dir_8cpp.html#abb4720f72b574f81dc4f7aea0e653a64">end</a>=i-1;</div>
-<div class="line"><span class="lineno"> 1806</span>    <span class="keywordflow">while</span> (<a class="code hl_function" href="../../d3/d48/dir_8cpp.html#abb4720f72b574f81dc4f7aea0e653a64">end</a>&gt;titleStart &amp;&amp; data[<a class="code hl_function" href="../../d3/d48/dir_8cpp.html#abb4720f72b574f81dc4f7aea0e653a64">end</a>]!=c) <a class="code hl_function" href="../../d3/d48/dir_8cpp.html#abb4720f72b574f81dc4f7aea0e653a64">end</a>--;</div>
-<div class="line"><span class="lineno"> 1807</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d3/d48/dir_8cpp.html#abb4720f72b574f81dc4f7aea0e653a64">end</a>&gt;titleStart)</div>
-<div class="line"><span class="lineno"> 1808</span>    {</div>
-<div class="line"><span class="lineno"> 1809</span>      <a class="code hl_function" href="../../de/d04/markdown_8cpp.html#adc84c573d677e387555fa1a7b16b9001">convertStringFragment</a>(title,data+titleStart,<a class="code hl_function" href="../../d3/d48/dir_8cpp.html#abb4720f72b574f81dc4f7aea0e653a64">end</a>-titleStart);</div>
-<div class="line"><span class="lineno"> 1810</span>    }</div>
-<div class="line"><span class="lineno"> 1811</span>    <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a05be586784f268b947ad777aa316c4e6">AUTO_TRACE_ADD</a>(<span class="stringliteral">&quot;title found {}&quot;</span>,<a class="code hl_function" href="../../d3/db9/namespace_trace.html#a1859b0ba7161e012fecbd71dd4ec64d6">Trace::trunc</a>(title));</div>
-<div class="line"><span class="lineno"> 1812</span>  }</div>
-<div class="line"><span class="lineno"> 1813</span>  <span class="keywordflow">while</span> (i&lt;size &amp;&amp; data[i]==<span class="charliteral">&#39; &#39;</span>) i++;</div>
-<div class="line"><span class="lineno"> 1814</span>  <span class="comment">//printf(&quot;end of isLinkRef: i=%d size=%d data[i]=&#39;%c&#39; eol=%d\n&quot;,</span></div>
-<div class="line"><span class="lineno"> 1815</span>  <span class="comment">//    i,size,data[i],eol);</span></div>
-<div class="line"><span class="lineno"> 1816</span>  <span class="keywordflow">if</span>      (i&gt;=size)       { <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a81912d2a3d12aab7a9e546e5299e2e09">AUTO_TRACE_EXIT</a>(<span class="stringliteral">&quot;result={}&quot;</span>,i);   <span class="keywordflow">return</span> i; }    <span class="comment">// end of buffer while ref id was found</span></div>
-<div class="line"><span class="lineno"> 1817</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_define" href="../../d7/de0/_parse_exception_8h.html#a55b81f273444186ad83e1087f9a3706d">eol</a>)           { <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a81912d2a3d12aab7a9e546e5299e2e09">AUTO_TRACE_EXIT</a>(<span class="stringliteral">&quot;result={}&quot;</span>,<a class="code hl_define" href="../../d7/de0/_parse_exception_8h.html#a55b81f273444186ad83e1087f9a3706d">eol</a>); <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/de0/_parse_exception_8h.html#a55b81f273444186ad83e1087f9a3706d">eol</a>; }  <span class="comment">// end of line while ref id was found</span></div>
-<div class="line"><span class="lineno"> 1818</span>  <span class="keywordflow">return</span> 0;                            <span class="comment">// invalid link ref</span></div>
-<div class="line"><span class="lineno"> 1819</span>}</div>
+<div class="line"><span class="lineno"> 1776</span>  <span class="comment">// format: (whitespace* \n? whitespace* ( &#39;title&#39; | &quot;title&quot; | (title) ))?</span></div>
+<div class="line"><span class="lineno"> 1777</span>  <span class="keywordtype">int</span> <a class="code hl_define" href="../../d7/de0/_parse_exception_8h.html#a55b81f273444186ad83e1087f9a3706d">eol</a>=0;</div>
+<div class="line"><span class="lineno"> 1778</span>  <span class="keywordflow">while</span> (i&lt;size &amp;&amp; data[i]==<span class="charliteral">&#39; &#39;</span>) i++;</div>
+<div class="line"><span class="lineno"> 1779</span>  <span class="keywordflow">if</span> (i&lt;size &amp;&amp; data[i]==<span class="charliteral">&#39;\n&#39;</span>)</div>
+<div class="line"><span class="lineno"> 1780</span>  {</div>
+<div class="line"><span class="lineno"> 1781</span>    <a class="code hl_define" href="../../d7/de0/_parse_exception_8h.html#a55b81f273444186ad83e1087f9a3706d">eol</a>=i;</div>
+<div class="line"><span class="lineno"> 1782</span>    i++;</div>
+<div class="line"><span class="lineno"> 1783</span>    <span class="keywordflow">while</span> (i&lt;size &amp;&amp; data[i]==<span class="charliteral">&#39; &#39;</span>) i++;</div>
+<div class="line"><span class="lineno"> 1784</span>  }</div>
+<div class="line"><span class="lineno"> 1785</span>  <span class="keywordflow">if</span> (i&gt;=size)</div>
+<div class="line"><span class="lineno"> 1786</span>  {</div>
+<div class="line"><span class="lineno"> 1787</span>    <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a81912d2a3d12aab7a9e546e5299e2e09">AUTO_TRACE_EXIT</a>(<span class="stringliteral">&quot;result={}: end of isLinkRef while looking for title&quot;</span>,i);</div>
+<div class="line"><span class="lineno"> 1788</span>    <span class="keywordflow">return</span> i; <span class="comment">// end of buffer while looking for the optional title</span></div>
+<div class="line"><span class="lineno"> 1789</span>  }</div>
+<div class="line"><span class="lineno"> 1790</span> </div>
+<div class="line"><span class="lineno"> 1791</span>  <span class="keywordtype">char</span> c = data[i];</div>
+<div class="line"><span class="lineno"> 1792</span>  <span class="keywordflow">if</span> (c==<span class="charliteral">&#39;\&#39;&#39;</span> || c==<span class="charliteral">&#39;&quot;&#39;</span> || c==<span class="charliteral">&#39;(&#39;</span>) <span class="comment">// optional title present?</span></div>
+<div class="line"><span class="lineno"> 1793</span>  {</div>
+<div class="line"><span class="lineno"> 1794</span>    <span class="comment">//printf(&quot;  start of title found! char=&#39;%c&#39;\n&quot;,c);</span></div>
+<div class="line"><span class="lineno"> 1795</span>    i++;</div>
+<div class="line"><span class="lineno"> 1796</span>    <span class="keywordflow">if</span> (c==<span class="charliteral">&#39;(&#39;</span>) c=<span class="charliteral">&#39;)&#39;</span>; <span class="comment">// replace c by end character</span></div>
+<div class="line"><span class="lineno"> 1797</span>    <span class="keywordtype">int</span> titleStart=i;</div>
+<div class="line"><span class="lineno"> 1798</span>    <span class="comment">// search for end of the line</span></div>
+<div class="line"><span class="lineno"> 1799</span>    <span class="keywordflow">while</span> (i&lt;size &amp;&amp; data[i]!=<span class="charliteral">&#39;\n&#39;</span>) i++;</div>
+<div class="line"><span class="lineno"> 1800</span>    <a class="code hl_define" href="../../d7/de0/_parse_exception_8h.html#a55b81f273444186ad83e1087f9a3706d">eol</a> = i;</div>
+<div class="line"><span class="lineno"> 1801</span> </div>
+<div class="line"><span class="lineno"> 1802</span>    <span class="comment">// search back to matching character</span></div>
+<div class="line"><span class="lineno"> 1803</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="../../d3/d48/dir_8cpp.html#abb4720f72b574f81dc4f7aea0e653a64">end</a>=i-1;</div>
+<div class="line"><span class="lineno"> 1804</span>    <span class="keywordflow">while</span> (<a class="code hl_function" href="../../d3/d48/dir_8cpp.html#abb4720f72b574f81dc4f7aea0e653a64">end</a>&gt;titleStart &amp;&amp; data[<a class="code hl_function" href="../../d3/d48/dir_8cpp.html#abb4720f72b574f81dc4f7aea0e653a64">end</a>]!=c) <a class="code hl_function" href="../../d3/d48/dir_8cpp.html#abb4720f72b574f81dc4f7aea0e653a64">end</a>--;</div>
+<div class="line"><span class="lineno"> 1805</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d3/d48/dir_8cpp.html#abb4720f72b574f81dc4f7aea0e653a64">end</a>&gt;titleStart)</div>
+<div class="line"><span class="lineno"> 1806</span>    {</div>
+<div class="line"><span class="lineno"> 1807</span>      <a class="code hl_function" href="../../de/d04/markdown_8cpp.html#adc84c573d677e387555fa1a7b16b9001">convertStringFragment</a>(title,data+titleStart,<a class="code hl_function" href="../../d3/d48/dir_8cpp.html#abb4720f72b574f81dc4f7aea0e653a64">end</a>-titleStart);</div>
+<div class="line"><span class="lineno"> 1808</span>    }</div>
+<div class="line"><span class="lineno"> 1809</span>    <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a05be586784f268b947ad777aa316c4e6">AUTO_TRACE_ADD</a>(<span class="stringliteral">&quot;title found {}&quot;</span>,<a class="code hl_function" href="../../d3/db9/namespace_trace.html#a1859b0ba7161e012fecbd71dd4ec64d6">Trace::trunc</a>(title));</div>
+<div class="line"><span class="lineno"> 1810</span>  }</div>
+<div class="line"><span class="lineno"> 1811</span>  <span class="keywordflow">while</span> (i&lt;size &amp;&amp; data[i]==<span class="charliteral">&#39; &#39;</span>) i++;</div>
+<div class="line"><span class="lineno"> 1812</span>  <span class="comment">//printf(&quot;end of isLinkRef: i=%d size=%d data[i]=&#39;%c&#39; eol=%d\n&quot;,</span></div>
+<div class="line"><span class="lineno"> 1813</span>  <span class="comment">//    i,size,data[i],eol);</span></div>
+<div class="line"><span class="lineno"> 1814</span>  <span class="keywordflow">if</span>      (i&gt;=size)       { <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a81912d2a3d12aab7a9e546e5299e2e09">AUTO_TRACE_EXIT</a>(<span class="stringliteral">&quot;result={}&quot;</span>,i);   <span class="keywordflow">return</span> i; }    <span class="comment">// end of buffer while ref id was found</span></div>
+<div class="line"><span class="lineno"> 1815</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_define" href="../../d7/de0/_parse_exception_8h.html#a55b81f273444186ad83e1087f9a3706d">eol</a>)           { <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a81912d2a3d12aab7a9e546e5299e2e09">AUTO_TRACE_EXIT</a>(<span class="stringliteral">&quot;result={}&quot;</span>,<a class="code hl_define" href="../../d7/de0/_parse_exception_8h.html#a55b81f273444186ad83e1087f9a3706d">eol</a>); <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/de0/_parse_exception_8h.html#a55b81f273444186ad83e1087f9a3706d">eol</a>; }  <span class="comment">// end of line while ref id was found</span></div>
+<div class="line"><span class="lineno"> 1816</span>  <span class="keywordflow">return</span> 0;                            <span class="comment">// invalid link ref</span></div>
+<div class="line"><span class="lineno"> 1817</span>}</div>
 <div class="ttc" id="aclass_q_c_string_html_a993474e2da59141336e6105b8e154f2b"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a993474e2da59141336e6105b8e154f2b">QCString::resize</a></div><div class="ttdeci">bool resize(size_t newlen)</div><div class="ttdoc">Resizes the string to hold newlen characters (this value should also count the 0-terminator).</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00158">qcstring.h:158</a></div></div>
 <div class="ttc" id="atrace_8h_html_a05be586784f268b947ad777aa316c4e6"><div class="ttname"><a href="../../d1/d1b/trace_8h.html#a05be586784f268b947ad777aa316c4e6">AUTO_TRACE_ADD</a></div><div class="ttdeci">#define AUTO_TRACE_ADD(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d1b/trace_8h_source.html#l00134">trace.h:134</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d1b/trace_8h_source.html#l00133">AUTO_TRACE</a>, <a class="el" href="../../d1/d1b/trace_8h_source.html#l00134">AUTO_TRACE_ADD</a>, <a class="el" href="../../d1/d1b/trace_8h_source.html#l00135">AUTO_TRACE_EXIT</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00208">convertStringFragment()</a>, <a class="el" href="../../d3/d48/dir_8cpp_source.html#l00129">end()</a>, <a class="el" href="../../d7/de0/_parse_exception_8h_source.html#l00086">eol</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00138">QCString::isEmpty()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00158">QCString::resize()</a>, and <a class="el" href="../../d1/d1b/trace_8h_source.html#l00044">Trace::trunc()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d1b/trace_8h_source.html#l00133">AUTO_TRACE</a>, <a class="el" href="../../d1/d1b/trace_8h_source.html#l00134">AUTO_TRACE_ADD</a>, <a class="el" href="../../d1/d1b/trace_8h_source.html#l00135">AUTO_TRACE_EXIT</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00206">convertStringFragment()</a>, <a class="el" href="../../d3/d48/dir_8cpp_source.html#l00129">end()</a>, <a class="el" href="../../d7/de0/_parse_exception_8h_source.html#l00086">eol</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00138">QCString::isEmpty()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00158">QCString::resize()</a>, and <a class="el" href="../../d1/d1b/trace_8h_source.html#l00044">Trace::trunc()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02911">Markdown::processBlocks()</a>.</p>
 
@@ -1834,14 +1755,14 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00131">131</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  132</span>{</div>
-<div class="line"><span class="lineno">  133</span>  <span class="comment">// normal newline</span></div>
-<div class="line"><span class="lineno">  134</span>  <span class="keywordflow">if</span> (data[0] == <span class="charliteral">&#39;\n&#39;</span>) <span class="keywordflow">return</span> 1;</div>
-<div class="line"><span class="lineno">  135</span>  <span class="comment">// artificial new line from ^^ in ALIASES</span></div>
-<div class="line"><span class="lineno">  136</span>  <span class="keywordflow">if</span> (data[0] == <span class="charliteral">&#39;\\&#39;</span> &amp;&amp; <a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a19faae287d13ccea75b1d5a0eb110d97">qstrncmp</a>(data+1,<span class="stringliteral">&quot;ilinebr &quot;</span>,7)==0) <span class="keywordflow">return</span> data[8]==<span class="charliteral">&#39; &#39;</span> ? 9 : 8;</div>
-<div class="line"><span class="lineno">  137</span>  <span class="keywordflow">return</span> 0;</div>
-<div class="line"><span class="lineno">  138</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00129">129</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  130</span>{</div>
+<div class="line"><span class="lineno">  131</span>  <span class="comment">// normal newline</span></div>
+<div class="line"><span class="lineno">  132</span>  <span class="keywordflow">if</span> (data[0] == <span class="charliteral">&#39;\n&#39;</span>) <span class="keywordflow">return</span> 1;</div>
+<div class="line"><span class="lineno">  133</span>  <span class="comment">// artificial new line from ^^ in ALIASES</span></div>
+<div class="line"><span class="lineno">  134</span>  <span class="keywordflow">if</span> (data[0] == <span class="charliteral">&#39;\\&#39;</span> &amp;&amp; <a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a19faae287d13ccea75b1d5a0eb110d97">qstrncmp</a>(data+1,<span class="stringliteral">&quot;ilinebr &quot;</span>,7)==0) <span class="keywordflow">return</span> data[8]==<span class="charliteral">&#39; &#39;</span> ? 9 : 8;</div>
+<div class="line"><span class="lineno">  135</span>  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  136</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00085">qstrncmp()</a>.</p>
 
@@ -1950,19 +1871,19 @@ Variables</h2></td></tr>
 
 <p>processes string <em>s</em> and converts markdown into doxygen/html commands. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03255">3255</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 3256</span>{</div>
-<div class="line"><span class="lineno"> 3257</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a210042a14f3a393be09c743c219126ae">AUTO_TRACE</a>(<span class="stringliteral">&quot;fileName={}&quot;</span>,fileName);</div>
-<div class="line"><span class="lineno"> 3258</span>  std::string absFileName = <a class="code hl_class" href="../../d0/da1/class_file_info.html">FileInfo</a>(fileName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>()).<a class="code hl_function" href="../../d0/da1/class_file_info.html#af69e3949475014dcdbd504d742bdf270">absFilePath</a>();</div>
-<div class="line"><span class="lineno"> 3259</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> baseFn  = <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a18b9d603e23c950eaa22e7c625ef0f00">stripFromPath</a>(absFileName.c_str());</div>
-<div class="line"><span class="lineno"> 3260</span>  <span class="keywordtype">int</span> i = baseFn.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ab47a6435c16d61d04fb448f1080b4e26">findRev</a>(<span class="charliteral">&#39;.&#39;</span>);</div>
-<div class="line"><span class="lineno"> 3261</span>  <span class="keywordflow">if</span> (i!=-1) baseFn = baseFn.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">left</a>(i);</div>
-<div class="line"><span class="lineno"> 3262</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> baseName = <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a588c599deed30414ade1ed583a11827d">escapeCharsInString</a>(baseFn,<span class="keyword">false</span>,<span class="keyword">false</span>);</div>
-<div class="line"><span class="lineno"> 3263</span>  <span class="comment">//printf(&quot;markdownFileNameToId(%s)=md_%s\n&quot;,qPrint(fileName),qPrint(baseName));</span></div>
-<div class="line"><span class="lineno"> 3264</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> res = <span class="stringliteral">&quot;md_&quot;</span>+baseName;</div>
-<div class="line"><span class="lineno"> 3265</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a81912d2a3d12aab7a9e546e5299e2e09">AUTO_TRACE_EXIT</a>(<span class="stringliteral">&quot;result={}&quot;</span>,res);</div>
-<div class="line"><span class="lineno"> 3266</span>  <span class="keywordflow">return</span> res;</div>
-<div class="line"><span class="lineno"> 3267</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03257">3257</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3258</span>{</div>
+<div class="line"><span class="lineno"> 3259</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a210042a14f3a393be09c743c219126ae">AUTO_TRACE</a>(<span class="stringliteral">&quot;fileName={}&quot;</span>,fileName);</div>
+<div class="line"><span class="lineno"> 3260</span>  std::string absFileName = <a class="code hl_class" href="../../d0/da1/class_file_info.html">FileInfo</a>(fileName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>()).<a class="code hl_function" href="../../d0/da1/class_file_info.html#af69e3949475014dcdbd504d742bdf270">absFilePath</a>();</div>
+<div class="line"><span class="lineno"> 3261</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> baseFn  = <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a18b9d603e23c950eaa22e7c625ef0f00">stripFromPath</a>(absFileName.c_str());</div>
+<div class="line"><span class="lineno"> 3262</span>  <span class="keywordtype">int</span> i = baseFn.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ab47a6435c16d61d04fb448f1080b4e26">findRev</a>(<span class="charliteral">&#39;.&#39;</span>);</div>
+<div class="line"><span class="lineno"> 3263</span>  <span class="keywordflow">if</span> (i!=-1) baseFn = baseFn.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">left</a>(i);</div>
+<div class="line"><span class="lineno"> 3264</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> baseName = <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a588c599deed30414ade1ed583a11827d">escapeCharsInString</a>(baseFn,<span class="keyword">false</span>,<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno"> 3265</span>  <span class="comment">//printf(&quot;markdownFileNameToId(%s)=md_%s\n&quot;,qPrint(fileName),qPrint(baseName));</span></div>
+<div class="line"><span class="lineno"> 3266</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> res = <span class="stringliteral">&quot;md_&quot;</span>+baseName;</div>
+<div class="line"><span class="lineno"> 3267</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a81912d2a3d12aab7a9e546e5299e2e09">AUTO_TRACE_EXIT</a>(<span class="stringliteral">&quot;result={}&quot;</span>,res);</div>
+<div class="line"><span class="lineno"> 3268</span>  <span class="keywordflow">return</span> res;</div>
+<div class="line"><span class="lineno"> 3269</span>}</div>
 <div class="ttc" id="aclass_file_info_html"><div class="ttname"><a href="../../d0/da1/class_file_info.html">FileInfo</a></div><div class="ttdoc">Minimal replacement for QFileInfo.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d45/fileinfo_8h_source.html#l00022">fileinfo.h:23</a></div></div>
 <div class="ttc" id="aclass_file_info_html_af69e3949475014dcdbd504d742bdf270"><div class="ttname"><a href="../../d0/da1/class_file_info.html#af69e3949475014dcdbd504d742bdf270">FileInfo::absFilePath</a></div><div class="ttdeci">std::string absFilePath() const</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dbc/fileinfo_8cpp_source.html#l00101">fileinfo.cpp:101</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_ab47a6435c16d61d04fb448f1080b4e26"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#ab47a6435c16d61d04fb448f1080b4e26">QCString::findRev</a></div><div class="ttdeci">int findRev(char c, int index=-1, bool cs=TRUE) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d3e/qcstring_8cpp_source.html#l00091">qcstring.cpp:91</a></div></div>
@@ -1971,7 +1892,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../db/dbc/fileinfo_8cpp_source.html#l00101">FileInfo::absFilePath()</a>, <a class="el" href="../../d1/d1b/trace_8h_source.html#l00133">AUTO_TRACE</a>, <a class="el" href="../../d1/d1b/trace_8h_source.html#l00135">AUTO_TRACE_EXIT</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l03495">escapeCharsInString()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00091">QCString::findRev()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00209">QCString::left()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00478">QCString::str()</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l00294">stripFromPath()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00681">DocRef::DocRef()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00514">DocSecRefItem::parse()</a>, and <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03284">MarkdownOutlineParser::parseInput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00682">DocRef::DocRef()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00515">DocSecRefItem::parse()</a>, and <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03286">MarkdownOutlineParser::parseInput()</a>.</p>
 
 </div>
 </div>
@@ -2011,27 +1932,27 @@ Variables</h2></td></tr>
 
 <p>helper function to convert presence of left and/or right alignment markers to a alignment value </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00217">217</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  218</span>{</div>
-<div class="line"><span class="lineno">  219</span>  <span class="keywordflow">if</span> (leftMarker &amp;&amp; rightMarker)</div>
-<div class="line"><span class="lineno">  220</span>  {</div>
-<div class="line"><span class="lineno">  221</span>    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../de/d04/markdown_8cpp.html#acdfaca60ec19c0265bac2692d7982726afed76d6718c0a44a25c5e19ae8fb51d1">AlignCenter</a>;</div>
-<div class="line"><span class="lineno">  222</span>  }</div>
-<div class="line"><span class="lineno">  223</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (leftMarker)</div>
-<div class="line"><span class="lineno">  224</span>  {</div>
-<div class="line"><span class="lineno">  225</span>    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../de/d04/markdown_8cpp.html#acdfaca60ec19c0265bac2692d7982726a291bdf1a2284d5648efc75ee78fbeb4c">AlignLeft</a>;</div>
-<div class="line"><span class="lineno">  226</span>  }</div>
-<div class="line"><span class="lineno">  227</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (rightMarker)</div>
-<div class="line"><span class="lineno">  228</span>  {</div>
-<div class="line"><span class="lineno">  229</span>    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../de/d04/markdown_8cpp.html#acdfaca60ec19c0265bac2692d7982726a4758d977046d9c084a0eaf7434fd29e1">AlignRight</a>;</div>
-<div class="line"><span class="lineno">  230</span>  }</div>
-<div class="line"><span class="lineno">  231</span>  <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  232</span>  {</div>
-<div class="line"><span class="lineno">  233</span>    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../de/d04/markdown_8cpp.html#acdfaca60ec19c0265bac2692d7982726a4258b9785acff3438d08d41ddb4439d9">AlignNone</a>;</div>
-<div class="line"><span class="lineno">  234</span>  }</div>
-<div class="line"><span class="lineno">  235</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00215">215</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  216</span>{</div>
+<div class="line"><span class="lineno">  217</span>  <span class="keywordflow">if</span> (leftMarker &amp;&amp; rightMarker)</div>
+<div class="line"><span class="lineno">  218</span>  {</div>
+<div class="line"><span class="lineno">  219</span>    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../de/d04/markdown_8cpp.html#acdfaca60ec19c0265bac2692d7982726afed76d6718c0a44a25c5e19ae8fb51d1">AlignCenter</a>;</div>
+<div class="line"><span class="lineno">  220</span>  }</div>
+<div class="line"><span class="lineno">  221</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (leftMarker)</div>
+<div class="line"><span class="lineno">  222</span>  {</div>
+<div class="line"><span class="lineno">  223</span>    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../de/d04/markdown_8cpp.html#acdfaca60ec19c0265bac2692d7982726a291bdf1a2284d5648efc75ee78fbeb4c">AlignLeft</a>;</div>
+<div class="line"><span class="lineno">  224</span>  }</div>
+<div class="line"><span class="lineno">  225</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (rightMarker)</div>
+<div class="line"><span class="lineno">  226</span>  {</div>
+<div class="line"><span class="lineno">  227</span>    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../de/d04/markdown_8cpp.html#acdfaca60ec19c0265bac2692d7982726a4758d977046d9c084a0eaf7434fd29e1">AlignRight</a>;</div>
+<div class="line"><span class="lineno">  228</span>  }</div>
+<div class="line"><span class="lineno">  229</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  230</span>  {</div>
+<div class="line"><span class="lineno">  231</span>    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../de/d04/markdown_8cpp.html#acdfaca60ec19c0265bac2692d7982726a4258b9785acff3438d08d41ddb4439d9">AlignNone</a>;</div>
+<div class="line"><span class="lineno">  232</span>  }</div>
+<div class="line"><span class="lineno">  233</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00118">AlignCenter</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00118">AlignLeft</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00118">AlignNone</a>, and <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00118">AlignRight</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00116">AlignCenter</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00116">AlignLeft</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00116">AlignNone</a>, and <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00116">AlignRight</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02294">Markdown::writeTableBlock()</a>.</p>
 
@@ -2050,9 +1971,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00125">125</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00123">123</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01702">isBlockQuote()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02124">isCodeBlock()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02911">Markdown::processBlocks()</a>, and <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02632">Markdown::writeCodeBlock()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01700">isBlockQuote()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02124">isCodeBlock()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02911">Markdown::processBlocks()</a>, and <a class="el" href="../../de/d04/markdown_8cpp_source.html#l02632">Markdown::writeCodeBlock()</a>.</p>
 
 </div>
 </div>
@@ -2068,9 +1989,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00124">124</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00122">122</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01552">Markdown::addStrEscapeUtf8Nbsp()</a>, and <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03204">Markdown::process()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01550">Markdown::addStrEscapeUtf8Nbsp()</a>, and <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03206">Markdown::process()</a>.</p>
 
 </div>
 </div>
@@ -2086,9 +2007,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00123">123</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d04/markdown_8cpp_source.html#l00121">121</a> of file <a class="el" href="../../de/d04/markdown_8cpp_source.html">markdown.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01552">Markdown::addStrEscapeUtf8Nbsp()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01550">Markdown::addStrEscapeUtf8Nbsp()</a>.</p>
 
 </div>
 </div>

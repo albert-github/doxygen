@@ -258,4 +258,8 @@ digraph "/home/runner/work/doxygen/doxygen/src/tagreader.cpp"
   Node66 [label="debug.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d16/debug_8h.html",tooltip=" "];
   Node66 -> Node24 [color="steelblue1",style="solid"];
   Node66 -> Node19 [color="steelblue1",style="solid"];
+  Node1 -> Node67 [color="steelblue1",style="solid"];
+  Node67 [label="anchor.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/df8/anchor_8h.html",tooltip=" "];
+  Node67 -> Node3 [color="steelblue1",style="solid"];
+  Node67 -> Node13 [color="steelblue1",style="solid"];
 }

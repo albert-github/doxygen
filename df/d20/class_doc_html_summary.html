@@ -282,30 +282,30 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l01272">1272</a> of file <a class="el" href="../../d0/d2b/docnode_8cpp_source.html">docnode.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1273</span>{</div>
-<div class="line"><span class="lineno"> 1274</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a210042a14f3a393be09c743c219126ae">AUTO_TRACE</a>();</div>
-<div class="line"><span class="lineno"> 1275</span>  <span class="keyword">auto</span> ns = <a class="code hl_class" href="../../d2/d29/class_auto_node_stack.html">AutoNodeStack</a>(<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a82847109f245ad8e8fe6102cf875fcd1">parser</a>(),thisVariant);</div>
-<div class="line"><span class="lineno"> 1276</span>  <a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a82847109f245ad8e8fe6102cf875fcd1">parser</a>()-&gt;<a class="code hl_variable" href="../../da/d02/class_doc_parser.html#a31ff77e4308ae2b7691a8381736201d1">tokenizer</a>.<a class="code hl_function" href="../../d1/d7f/class_doc_tokenizer.html#a7b9c9df4ada21e5fb5c5a7d5eac0fbd2">setStateTitle</a>();</div>
-<div class="line"><span class="lineno"> 1277</span>  <span class="keywordtype">int</span> tok;</div>
-<div class="line"><span class="lineno"> 1278</span>  <span class="keywordflow">while</span> ((tok=<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a82847109f245ad8e8fe6102cf875fcd1">parser</a>()-&gt;tokenizer.lex()))</div>
-<div class="line"><span class="lineno"> 1279</span>  {</div>
-<div class="line"><span class="lineno"> 1280</span>    <span class="keywordtype">int</span> tagId;</div>
-<div class="line"><span class="lineno"> 1281</span>    <span class="comment">// check of &lt;/summary&gt;</span></div>
-<div class="line"><span class="lineno"> 1282</span>    <span class="keywordflow">if</span> (tok==<a class="code hl_enumvalue" href="../../d0/d0c/doctokenizer_8h.html#a7722396ed46bc111e7b794948986f8afa2a09cfd5ad8d861688a05908a8dea5ff">TK_HTMLTAG</a> &amp;&amp;</div>
-<div class="line"><span class="lineno"> 1283</span>        (tagId=<a class="code hl_variable" href="../../dd/dc6/struct_mappers.html#abeeec7950ae00f874c06bee2f04337ff">Mappers::htmlTagMapper</a>-&gt;map(<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a82847109f245ad8e8fe6102cf875fcd1">parser</a>()-&gt;context.token-&gt;name)) &amp;&amp; tagId==<a class="code hl_enumvalue" href="../../d3/d42/cmdmapper_8h.html#a91be16b8342aa3130a4374d78cf42273a5e0188b366e11cbaaa19dde14e7f2ad8">XML_SUMMARY</a> &amp;&amp;</div>
-<div class="line"><span class="lineno"> 1284</span>        <a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a82847109f245ad8e8fe6102cf875fcd1">parser</a>()-&gt;context.token-&gt;endTag</div>
-<div class="line"><span class="lineno"> 1285</span>       )</div>
-<div class="line"><span class="lineno"> 1286</span>    {</div>
-<div class="line"><span class="lineno"> 1287</span>      <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 1288</span>    }</div>
-<div class="line"><span class="lineno"> 1289</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a82847109f245ad8e8fe6102cf875fcd1">parser</a>()-&gt;defaultHandleToken(thisVariant,tok,<a class="code hl_function" href="../../da/dfc/class_doc_compound_node.html#aca6bc953ffff9a8773c2b4b0a866442c">children</a>()))</div>
-<div class="line"><span class="lineno"> 1290</span>    {</div>
-<div class="line"><span class="lineno"> 1291</span>      <a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a82847109f245ad8e8fe6102cf875fcd1">parser</a>()-&gt;<a class="code hl_function" href="../../da/d02/class_doc_parser.html#ada630dcb3cc7694c5298293b6741f3a1">errorHandleDefaultToken</a>(thisVariant,tok,<a class="code hl_function" href="../../da/dfc/class_doc_compound_node.html#aca6bc953ffff9a8773c2b4b0a866442c">children</a>(),<span class="stringliteral">&quot;summary section&quot;</span>);</div>
-<div class="line"><span class="lineno"> 1292</span>    }</div>
-<div class="line"><span class="lineno"> 1293</span>  }</div>
-<div class="line"><span class="lineno"> 1294</span>  <a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a82847109f245ad8e8fe6102cf875fcd1">parser</a>()-&gt;<a class="code hl_variable" href="../../da/d02/class_doc_parser.html#a31ff77e4308ae2b7691a8381736201d1">tokenizer</a>.<a class="code hl_function" href="../../d1/d7f/class_doc_tokenizer.html#ae3c97a1c50f2345ed8a821b064752e4c">setStatePara</a>();</div>
-<div class="line"><span class="lineno"> 1295</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l01273">1273</a> of file <a class="el" href="../../d0/d2b/docnode_8cpp_source.html">docnode.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1274</span>{</div>
+<div class="line"><span class="lineno"> 1275</span>  <a class="code hl_define" href="../../d1/d1b/trace_8h.html#a210042a14f3a393be09c743c219126ae">AUTO_TRACE</a>();</div>
+<div class="line"><span class="lineno"> 1276</span>  <span class="keyword">auto</span> ns = <a class="code hl_class" href="../../d2/d29/class_auto_node_stack.html">AutoNodeStack</a>(<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a82847109f245ad8e8fe6102cf875fcd1">parser</a>(),thisVariant);</div>
+<div class="line"><span class="lineno"> 1277</span>  <a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a82847109f245ad8e8fe6102cf875fcd1">parser</a>()-&gt;<a class="code hl_variable" href="../../da/d02/class_doc_parser.html#a31ff77e4308ae2b7691a8381736201d1">tokenizer</a>.<a class="code hl_function" href="../../d1/d7f/class_doc_tokenizer.html#a7b9c9df4ada21e5fb5c5a7d5eac0fbd2">setStateTitle</a>();</div>
+<div class="line"><span class="lineno"> 1278</span>  <span class="keywordtype">int</span> tok;</div>
+<div class="line"><span class="lineno"> 1279</span>  <span class="keywordflow">while</span> ((tok=<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a82847109f245ad8e8fe6102cf875fcd1">parser</a>()-&gt;tokenizer.lex()))</div>
+<div class="line"><span class="lineno"> 1280</span>  {</div>
+<div class="line"><span class="lineno"> 1281</span>    <span class="keywordtype">int</span> tagId;</div>
+<div class="line"><span class="lineno"> 1282</span>    <span class="comment">// check of &lt;/summary&gt;</span></div>
+<div class="line"><span class="lineno"> 1283</span>    <span class="keywordflow">if</span> (tok==<a class="code hl_enumvalue" href="../../d0/d0c/doctokenizer_8h.html#a7722396ed46bc111e7b794948986f8afa2a09cfd5ad8d861688a05908a8dea5ff">TK_HTMLTAG</a> &amp;&amp;</div>
+<div class="line"><span class="lineno"> 1284</span>        (tagId=<a class="code hl_variable" href="../../dd/dc6/struct_mappers.html#abeeec7950ae00f874c06bee2f04337ff">Mappers::htmlTagMapper</a>-&gt;map(<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a82847109f245ad8e8fe6102cf875fcd1">parser</a>()-&gt;context.token-&gt;name)) &amp;&amp; tagId==<a class="code hl_enumvalue" href="../../d3/d42/cmdmapper_8h.html#a91be16b8342aa3130a4374d78cf42273a5e0188b366e11cbaaa19dde14e7f2ad8">XML_SUMMARY</a> &amp;&amp;</div>
+<div class="line"><span class="lineno"> 1285</span>        <a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a82847109f245ad8e8fe6102cf875fcd1">parser</a>()-&gt;context.token-&gt;endTag</div>
+<div class="line"><span class="lineno"> 1286</span>       )</div>
+<div class="line"><span class="lineno"> 1287</span>    {</div>
+<div class="line"><span class="lineno"> 1288</span>      <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1289</span>    }</div>
+<div class="line"><span class="lineno"> 1290</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a82847109f245ad8e8fe6102cf875fcd1">parser</a>()-&gt;defaultHandleToken(thisVariant,tok,<a class="code hl_function" href="../../da/dfc/class_doc_compound_node.html#aca6bc953ffff9a8773c2b4b0a866442c">children</a>()))</div>
+<div class="line"><span class="lineno"> 1291</span>    {</div>
+<div class="line"><span class="lineno"> 1292</span>      <a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a82847109f245ad8e8fe6102cf875fcd1">parser</a>()-&gt;<a class="code hl_function" href="../../da/d02/class_doc_parser.html#ada630dcb3cc7694c5298293b6741f3a1">errorHandleDefaultToken</a>(thisVariant,tok,<a class="code hl_function" href="../../da/dfc/class_doc_compound_node.html#aca6bc953ffff9a8773c2b4b0a866442c">children</a>(),<span class="stringliteral">&quot;summary section&quot;</span>);</div>
+<div class="line"><span class="lineno"> 1293</span>    }</div>
+<div class="line"><span class="lineno"> 1294</span>  }</div>
+<div class="line"><span class="lineno"> 1295</span>  <a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a82847109f245ad8e8fe6102cf875fcd1">parser</a>()-&gt;<a class="code hl_variable" href="../../da/d02/class_doc_parser.html#a31ff77e4308ae2b7691a8381736201d1">tokenizer</a>.<a class="code hl_function" href="../../d1/d7f/class_doc_tokenizer.html#ae3c97a1c50f2345ed8a821b064752e4c">setStatePara</a>();</div>
+<div class="line"><span class="lineno"> 1296</span>}</div>
 <div class="ttc" id="aclass_auto_node_stack_html"><div class="ttname"><a href="../../d2/d29/class_auto_node_stack.html">AutoNodeStack</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc9/docparser__p_8h_source.html#l00141">docparser_p.h:142</a></div></div>
 <div class="ttc" id="aclass_doc_compound_node_html_aca6bc953ffff9a8773c2b4b0a866442c"><div class="ttname"><a href="../../da/dfc/class_doc_compound_node.html#aca6bc953ffff9a8773c2b4b0a866442c">DocCompoundNode::children</a></div><div class="ttdeci">DocNodeList &amp; children()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l00138">docnode.h:138</a></div></div>
 <div class="ttc" id="aclass_doc_parser_html_a31ff77e4308ae2b7691a8381736201d1"><div class="ttname"><a href="../../da/d02/class_doc_parser.html#a31ff77e4308ae2b7691a8381736201d1">DocParser::tokenizer</a></div><div class="ttdeci">DocTokenizer tokenizer</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc9/docparser__p_8h_source.html#l00136">docparser_p.h:136</a></div></div>
