@@ -1,6 +1,5 @@
 var NAVTREEINDEX78 =
 {
-"da/d32/class_translator_romanian.html#a0451289c1343f0f1f40b7720db1f9ec0":[8,0,609,14],
 "da/d32/class_translator_romanian.html#a07de29822cde7d96bf057faa87cea30a":[8,0,609,204],
 "da/d32/class_translator_romanian.html#a0860562484f31dc3d02e75d3481c69b7":[8,0,609,187],
 "da/d32/class_translator_romanian.html#a0a8d062d8ca88dea27427d2286cbe975":[8,0,609,67],
@@ -249,5 +248,6 @@ var NAVTREEINDEX78 =
 "da/d36/class_search_index.html#a32913d63f72fe21010e49b4f77bc5cfd":[8,0,470,5],
 "da/d36/class_search_index.html#a3682b0b970d4422622723a8abe4d35ca":[8,0,470,4],
 "da/d36/class_search_index.html#a40461e0e23f44bd6c1ec8fd42fd3a54e":[8,0,470,10],
-"da/d36/class_search_index.html#a7d3b63b57ca232db7b18b1a5d9861101":[8,0,470,8]
+"da/d36/class_search_index.html#a7d3b63b57ca232db7b18b1a5d9861101":[8,0,470,8],
+"da/d36/class_search_index.html#a8204a0f9ad5a7f7ecfbe5d4617613294":[8,0,470,3]
 };

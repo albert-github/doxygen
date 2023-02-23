@@ -17,7 +17,6 @@ var scanner_8l =
     [ "handleCommentBlock", "da/d11/scanner_8l.html#aa6551ba715391111267db3d5e8a3ead4", null ],
     [ "handleParametersCommentBlocks", "da/d11/scanner_8l.html#aae0b93eceac30fcc7b8bbb6795b588a2", null ],
     [ "initEntry", "da/d11/scanner_8l.html#affe329b2bcd94b04290e03afad9c97c5", null ],
-    [ "initMethodProtection", "da/d11/scanner_8l.html#a60f7798b2a14de4350512176374a2228", null ],
     [ "initParser", "da/d11/scanner_8l.html#a451cff71879d11897907cc8c2102bdcb", null ],
     [ "lineCount", "da/d11/scanner_8l.html#a6e782ca00a48833dff52b4b5f0a1a147", null ],
     [ "nameIsOperator", "da/d11/scanner_8l.html#acca4ea7f41c631ad64fc467e7bb24615", null ],

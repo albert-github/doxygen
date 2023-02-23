@@ -1,6 +1,5 @@
 var NAVTREEINDEX106 =
 {
-"dd/de8/class_page_def_impl.html#afae34d255ca141ad35050b3d43c692c5":[8,0,432,36],
 "dd/de8/class_page_def_impl.html#afec090c8c58a94c7f324df753c3fa6d5":[8,0,432,19],
 "dd/deb/struct_output_gen_intf_1_1start_member_doc_name.html":[7,0,10,134],
 "dd/deb/struct_output_gen_intf_1_1start_member_doc_name.html":[8,0,5,134],
@@ -9,8 +8,8 @@ var NAVTREEINDEX106 =
 "dd/dec/vhdldocgen_8h.html":[9,0,2,302],
 "dd/dec/vhdldocgen_8h.html#a58b3784e26a172c464443fb55a30364d":[9,0,2,302,3],
 "dd/dec/vhdldocgen_8h_source.html":[9,0,2,302],
-"dd/df0/struct_output_gen_intf_1_1end_index_list_item.html":[7,0,10,37],
 "dd/df0/struct_output_gen_intf_1_1end_index_list_item.html":[8,0,5,37],
+"dd/df0/struct_output_gen_intf_1_1end_index_list_item.html":[7,0,10,37],
 "dd/df0/struct_output_gen_intf_1_1end_index_list_item.html#a0c4ffdd58a9e13c36e8cfa2a52a77cf5":[7,0,10,37,0],
 "dd/df0/struct_output_gen_intf_1_1end_index_list_item.html#a0c4ffdd58a9e13c36e8cfa2a52a77cf5":[8,0,5,37,0],
 "dd/df3/class_concept_def_alias_impl.html":[8,0,67],
@@ -249,5 +248,6 @@ var NAVTREEINDEX106 =
 "dd/df6/class_translator_chinesetraditional.html#acae97e9ea166c1f631442ef734cca58b":[8,0,583,223],
 "dd/df6/class_translator_chinesetraditional.html#acb9d7439fe778168a28ceb5fc8804657":[8,0,583,186],
 "dd/df6/class_translator_chinesetraditional.html#acf06113451a4b7429244afb10279857a":[8,0,583,165],
-"dd/df6/class_translator_chinesetraditional.html#ad0cd759b12e0438aa93db58352555760":[8,0,583,86]
+"dd/df6/class_translator_chinesetraditional.html#ad0cd759b12e0438aa93db58352555760":[8,0,583,86],
+"dd/df6/class_translator_chinesetraditional.html#ad24c0dcf0138acddae4d8ecf43f4717d":[8,0,583,78]
 };
