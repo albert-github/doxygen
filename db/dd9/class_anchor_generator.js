@@ -7,5 +7,6 @@ var class_anchor_generator =
     [ "instance", "db/dd9/class_anchor_generator.html#a282543ddcf48b1b7cf7d2921573d453d", null ],
     [ "isGenerated", "db/dd9/class_anchor_generator.html#a16179e60383f1fbeb2f4c4950501f6ce", null ],
     [ "looksGenerated", "db/dd9/class_anchor_generator.html#a8d3ac23f544142e96ccf645831743432", null ],
+    [ "reserve", "db/dd9/class_anchor_generator.html#a87ae2bfecf788b4815f1cd7fa2276436", null ],
     [ "p", "db/dd9/class_anchor_generator.html#ab02a0dfd52baab313191a848b306c476", null ]
 ];

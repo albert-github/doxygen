@@ -1,14 +1,5 @@
 var NAVTREEINDEX78 =
 {
-"da/d32/class_translator_romanian.html#a07de29822cde7d96bf057faa87cea30a":[8,0,609,204],
-"da/d32/class_translator_romanian.html#a0860562484f31dc3d02e75d3481c69b7":[8,0,609,187],
-"da/d32/class_translator_romanian.html#a0a8d062d8ca88dea27427d2286cbe975":[8,0,609,67],
-"da/d32/class_translator_romanian.html#a0adb4edf516aa09ddc81c9345c4f85d7":[8,0,609,180],
-"da/d32/class_translator_romanian.html#a0b465aca37f2924b9c60151a6b3d058c":[8,0,609,84],
-"da/d32/class_translator_romanian.html#a0bc46b162c060a802dd21e8f576c6eef":[8,0,609,220],
-"da/d32/class_translator_romanian.html#a0d500fe045b756710f7646b204920d18":[8,0,609,185],
-"da/d32/class_translator_romanian.html#a0dd0cf11c67a6b928df16f2e59d519f5":[8,0,609,60],
-"da/d32/class_translator_romanian.html#a0e7c7af257a232113d6f1e1f1bbc9500":[8,0,609,112],
 "da/d32/class_translator_romanian.html#a10d728158fa6de1ed4ef0ba51b712393":[8,0,609,80],
 "da/d32/class_translator_romanian.html#a10fdbb644a9d11975faad59dd27542d4":[8,0,609,231],
 "da/d32/class_translator_romanian.html#a1365c5271c033fa63bebdaf259dd51fe":[8,0,609,118],
@@ -249,5 +240,14 @@ var NAVTREEINDEX78 =
 "da/d36/class_search_index.html#a3682b0b970d4422622723a8abe4d35ca":[8,0,470,4],
 "da/d36/class_search_index.html#a40461e0e23f44bd6c1ec8fd42fd3a54e":[8,0,470,10],
 "da/d36/class_search_index.html#a7d3b63b57ca232db7b18b1a5d9861101":[8,0,470,8],
-"da/d36/class_search_index.html#a8204a0f9ad5a7f7ecfbe5d4617613294":[8,0,470,3]
+"da/d36/class_search_index.html#a8204a0f9ad5a7f7ecfbe5d4617613294":[8,0,470,3],
+"da/d36/class_search_index.html#a94c8476a68e3394f72ffe2d0dea68518":[8,0,470,13],
+"da/d36/class_search_index.html#aa06f7bb4f5d2ed2dee01f390446be6c2":[8,0,470,9],
+"da/d36/class_search_index.html#ac48958318e80356f3dd535cdf564dbe3":[8,0,470,11],
+"da/d36/class_search_index.html#ac64814075d6e3f962df64b5f13ecff32":[8,0,470,7],
+"da/d36/class_search_index.html#ac8f6bb104126c1406d2d6e5ad368822c":[8,0,470,6],
+"da/d36/class_symbol_list_context_1_1_private.html":[8,0,493,0],
+"da/d36/class_symbol_list_context_1_1_private.html#a0bb6c758fde50eaad408c84bb970aefe":[8,0,493,0,0],
+"da/d36/translator__it_8h.html":[9,0,2,270],
+"da/d36/translator__it_8h_source.html":[9,0,2,270]
 };

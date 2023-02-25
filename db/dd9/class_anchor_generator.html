@@ -120,6 +120,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a16179e60383f1fbeb2f4c4950501f6ce"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dd9/class_anchor_generator.html#a16179e60383f1fbeb2f4c4950501f6ce">isGenerated</a> (const std::string &amp;anchor) const</td></tr>
 <tr class="memdesc:a16179e60383f1fbeb2f4c4950501f6ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff <em>anchor</em> is one of the generated anchors.  <br /></td></tr>
 <tr class="separator:a16179e60383f1fbeb2f4c4950501f6ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87ae2bfecf788b4815f1cd7fa2276436"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dd9/class_anchor_generator.html#a87ae2bfecf788b4815f1cd7fa2276436">reserve</a> (const std::string &amp;anchor)</td></tr>
+<tr class="memdesc:a87ae2bfecf788b4815f1cd7fa2276436"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reserves a non-generated anchor.  <br /></td></tr>
+<tr class="separator:a87ae2bfecf788b4815f1cd7fa2276436"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -172,7 +175,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/dd7/anchor_8cpp_source.html#l00034">34</a> of file <a class="el" href="../../dd/dd7/anchor_8cpp_source.html">anchor.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   34</span>: <a class="code hl_variable" href="../../db/dd9/class_anchor_generator.html#ab02a0dfd52baab313191a848b306c476">p</a>(std::make_unique&lt;Private&gt;()) {}</div>
-<div class="ttc" id="aclass_anchor_generator_html_ab02a0dfd52baab313191a848b306c476"><div class="ttname"><a href="../../db/dd9/class_anchor_generator.html#ab02a0dfd52baab313191a848b306c476">AnchorGenerator::p</a></div><div class="ttdeci">std::unique_ptr&lt; Private &gt; p</div><div class="ttdef"><b>Definition:</b> <a href="../../df/df8/anchor_8h_source.html#l00046">anchor.h:46</a></div></div>
+<div class="ttc" id="aclass_anchor_generator_html_ab02a0dfd52baab313191a848b306c476"><div class="ttname"><a href="../../db/dd9/class_anchor_generator.html#ab02a0dfd52baab313191a848b306c476">AnchorGenerator::p</a></div><div class="ttdeci">std::unique_ptr&lt; Private &gt; p</div><div class="ttdef"><b>Definition:</b> <a href="../../df/df8/anchor_8h_source.html#l00049">anchor.h:49</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -274,7 +277,7 @@ Private Attributes</h2></td></tr>
 <div class="ttc" id="aconfig_8h_html_afe899eec751dfb75a60c37ec3840e288"><div class="ttname"><a href="../../db/d16/config_8h.html#afe899eec751dfb75a60c37ec3840e288">Config_getEnum</a></div><div class="ttdeci">#define Config_getEnum(name)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/config_8h_source.html#l00035">config.h:35</a></div></div>
 <div class="ttc" id="autf8_8cpp_html_a90000b3876f8ff0fed72d2c31ecdfe11"><div class="ttname"><a href="../../d2/db5/utf8_8cpp.html#a90000b3876f8ff0fed72d2c31ecdfe11">convertUTF8ToLower</a></div><div class="ttdeci">std::string convertUTF8ToLower(const std::string &amp;input)</div><div class="ttdoc">Converts the input string into a lower case version, also taking into account non-ASCII characters th...</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db5/utf8_8cpp_source.html#l00187">utf8.cpp:187</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00035">Config_getEnum</a>, <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00187">convertUTF8ToLower()</a>, and <a class="el" href="../../df/df8/anchor_8h_source.html#l00046">p</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00035">Config_getEnum</a>, <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00187">convertUTF8ToLower()</a>, and <a class="el" href="../../df/df8/anchor_8h_source.html#l00049">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01850">Markdown::extractTitleId()</a>.</p>
 
@@ -340,7 +343,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">   98</span>  <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/dd9/class_anchor_generator.html#ab02a0dfd52baab313191a848b306c476">p</a>-&gt;anchorsUsed.find(anchor)!=<a class="code hl_variable" href="../../db/dd9/class_anchor_generator.html#ab02a0dfd52baab313191a848b306c476">p</a>-&gt;anchorsUsed.end();</div>
 <div class="line"><span class="lineno">   99</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/df8/anchor_8h_source.html#l00046">p</a>.</p>
+<p class="reference">References <a class="el" href="../../df/df8/anchor_8h_source.html#l00049">p</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00411">DefinitionImpl::writeDocAnchorsToTagFile()</a>.</p>
 
@@ -373,15 +376,43 @@ Private Attributes</h2></td></tr>
 <p>Returns true if <em>anchor</em> is a potentially generated anchor. </p>
 <p>Note this is a much weaker check than <a class="el" href="../../db/dd9/class_anchor_generator.html#a16179e60383f1fbeb2f4c4950501f6ce" title="Returns true iff anchor is one of the generated anchors.">isGenerated()</a> and may not always work. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/dd7/anchor_8cpp_source.html#l00101">101</a> of file <a class="el" href="../../dd/dd7/anchor_8cpp_source.html">anchor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  102</span>{</div>
-<div class="line"><span class="lineno">  103</span>  <span class="keywordflow">return</span> <a class="code hl_define" href="../../db/d16/config_8h.html#afe899eec751dfb75a60c37ec3840e288">Config_getEnum</a>(MARKDOWN_ID_STYLE)==MARKDOWN_ID_STYLE_t::DOXYGEN &amp;&amp;</div>
-<div class="line"><span class="lineno">  104</span>         <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>(anchor).<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a1f43c0a4958cf17f086dc0e3a4b13a68">startsWith</a>(<span class="stringliteral">&quot;autotoc_md&quot;</span>);</div>
-<div class="line"><span class="lineno">  105</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../dd/dd7/anchor_8cpp_source.html#l00107">107</a> of file <a class="el" href="../../dd/dd7/anchor_8cpp_source.html">anchor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  108</span>{</div>
+<div class="line"><span class="lineno">  109</span>  <span class="keywordflow">return</span> <a class="code hl_define" href="../../db/d16/config_8h.html#afe899eec751dfb75a60c37ec3840e288">Config_getEnum</a>(MARKDOWN_ID_STYLE)==MARKDOWN_ID_STYLE_t::DOXYGEN &amp;&amp;</div>
+<div class="line"><span class="lineno">  110</span>         <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>(anchor).<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a1f43c0a4958cf17f086dc0e3a4b13a68">startsWith</a>(<span class="stringliteral">&quot;autotoc_md&quot;</span>);</div>
+<div class="line"><span class="lineno">  111</span>}</div>
 <div class="ttc" id="aclass_q_c_string_html"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html">QCString</a></div><div class="ttdoc">This is an alternative implementation of QCString.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00102">qcstring.h:103</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a1f43c0a4958cf17f086dc0e3a4b13a68"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a1f43c0a4958cf17f086dc0e3a4b13a68">QCString::startsWith</a></div><div class="ttdeci">bool startsWith(const char *s) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00444">qcstring.h:444</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00035">Config_getEnum</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00444">QCString::startsWith()</a>.</p>
+
+</div>
+</div>
+<a id="a87ae2bfecf788b4815f1cd7fa2276436" name="a87ae2bfecf788b4815f1cd7fa2276436"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87ae2bfecf788b4815f1cd7fa2276436">&#9670;&#160;</a></span>reserve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int AnchorGenerator::reserve </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>anchor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reserves a non-generated anchor. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../dd/dd7/anchor_8cpp_source.html#l00101">101</a> of file <a class="el" href="../../dd/dd7/anchor_8cpp_source.html">anchor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  102</span>{</div>
+<div class="line"><span class="lineno">  103</span>  std::lock_guard lock(<a class="code hl_variable" href="../../db/dd9/class_anchor_generator.html#ab02a0dfd52baab313191a848b306c476">p</a>-&gt;mutex);</div>
+<div class="line"><span class="lineno">  104</span>  <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/dd9/class_anchor_generator.html#ab02a0dfd52baab313191a848b306c476">p</a>-&gt;idCount[anchor]++;</div>
+<div class="line"><span class="lineno">  105</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../df/df8/anchor_8h_source.html#l00049">p</a>.</p>
 
 </div>
 </div>
@@ -406,9 +437,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/df8/anchor_8h_source.html#l00046">46</a> of file <a class="el" href="../../df/df8/anchor_8h_source.html">anchor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/df8/anchor_8h_source.html#l00049">49</a> of file <a class="el" href="../../df/df8/anchor_8h_source.html">anchor.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/dd7/anchor_8cpp_source.html#l00044">generate()</a>, and <a class="el" href="../../dd/dd7/anchor_8cpp_source.html#l00095">isGenerated()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/dd7/anchor_8cpp_source.html#l00044">generate()</a>, <a class="el" href="../../dd/dd7/anchor_8cpp_source.html#l00095">isGenerated()</a>, and <a class="el" href="../../dd/dd7/anchor_8cpp_source.html#l00101">reserve()</a>.</p>
 
 </div>
 </div>

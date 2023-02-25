@@ -1,14 +1,5 @@
 var NAVTREEINDEX82 =
 {
-"da/dbb/class_translator_bulgarian.html#a8da83e21434b5f0a70816607a750b5db":[8,0,580,264],
-"da/dbb/class_translator_bulgarian.html#a8e5fa7168ef0ca6cf95614c637127a45":[8,0,580,174],
-"da/dbb/class_translator_bulgarian.html#a8f23f4750e281d5bdc24200644154133":[8,0,580,11],
-"da/dbb/class_translator_bulgarian.html#a8f896da960e163610c07ff17e9ae8198":[8,0,580,265],
-"da/dbb/class_translator_bulgarian.html#a8fa860061eee4d8e3d32c30f95142eda":[8,0,580,238],
-"da/dbb/class_translator_bulgarian.html#a8fce23dbf8ff26dab75c337f1275e17c":[8,0,580,76],
-"da/dbb/class_translator_bulgarian.html#a90158e7982c92c917cb04e6a208b6545":[8,0,580,180],
-"da/dbb/class_translator_bulgarian.html#a9256b1190c54e99b21e3236b37bd0a3e":[8,0,580,202],
-"da/dbb/class_translator_bulgarian.html#a938e392c6a01d1a7ba4d552389db6b0f":[8,0,580,119],
 "da/dbb/class_translator_bulgarian.html#a941ac2999f591191f0a94ab825a46458":[8,0,580,138],
 "da/dbb/class_translator_bulgarian.html#a955f730fa75ab2bf706bafbc26d20af7":[8,0,580,282],
 "da/dbb/class_translator_bulgarian.html#a9660b1de2c663d511185d695e53f884f":[8,0,580,248],
@@ -249,5 +240,14 @@ var NAVTREEINDEX82 =
 "da/de6/translator__adapter_8h.html":[9,0,2,249],
 "da/de6/translator__adapter_8h_source.html":[9,0,2,249],
 "da/df0/class_namespace_linked_ref_map.html":[8,0,410],
-"da/df0/class_namespace_linked_ref_map.html#a5d9013801184ee3d3a93868770656ba2":[8,0,410,1]
+"da/df0/class_namespace_linked_ref_map.html#a5d9013801184ee3d3a93868770656ba2":[8,0,410,1],
+"da/df0/class_namespace_linked_ref_map.html#ad8e6abc4211a4481ccd467d63d04a1eb":[8,0,410,0],
+"da/df1/conceptdef_8h.html":[9,0,2,24],
+"da/df1/conceptdef_8h.html#a04c0091865f3e596872d27767ba1061a":[9,0,2,24,13],
+"da/df1/conceptdef_8h.html#a0903a7476e802457067b008928f55225":[9,0,2,24,8],
+"da/df1/conceptdef_8h.html#a0b469bbf6bc5d209e487cc25a5de0dee":[9,0,2,24,12],
+"da/df1/conceptdef_8h.html#a51f9b1588eecedfc3073e4c24478b758":[9,0,2,24,4],
+"da/df1/conceptdef_8h.html#a5b1ec1b9e1f818d3bc0af4e94497179d":[9,0,2,24,6],
+"da/df1/conceptdef_8h.html#a6736050f29f0450c766bb42ec743fcfd":[9,0,2,24,9],
+"da/df1/conceptdef_8h.html#a7ab736ffb6d3e780d7cf0fca7c1eb9ba":[9,0,2,24,5]
 };

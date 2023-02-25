@@ -1,14 +1,5 @@
 var NAVTREEINDEX70 =
 {
-"d9/d82/class_translator_croatian.html#a37df799d71af45d282b0cb51f192eff7":[8,0,584,188],
-"d9/d82/class_translator_croatian.html#a3998c12bd734429a74b964ebcd514334":[8,0,584,20],
-"d9/d82/class_translator_croatian.html#a3a1b1d5789a54bcf391e4c68a9566b96":[8,0,584,166],
-"d9/d82/class_translator_croatian.html#a3b36b638e21764633745594e5677d4e6":[8,0,584,116],
-"d9/d82/class_translator_croatian.html#a3e091ad02e26454f11da71486683e80e":[8,0,584,187],
-"d9/d82/class_translator_croatian.html#a3ea4f0ea04154b06f71c613f4b0e1ccb":[8,0,584,125],
-"d9/d82/class_translator_croatian.html#a3f3b034d552c57bd040b3638f55b7d10":[8,0,584,85],
-"d9/d82/class_translator_croatian.html#a430c88ba1f2c79193435968896c0bd0a":[8,0,584,18],
-"d9/d82/class_translator_croatian.html#a430cdb17675e81a713a3eaa50f899505":[8,0,584,63],
 "d9/d82/class_translator_croatian.html#a43aa2ebff94504f1d138d3623363cdc8":[8,0,584,149],
 "d9/d82/class_translator_croatian.html#a442c63c810383f3dbab7f874bf6d248e":[8,0,584,201],
 "d9/d82/class_translator_croatian.html#a44c8817e5ab5c325e5d5fad24bacf312":[8,0,584,109],
@@ -247,7 +238,16 @@ var NAVTREEINDEX70 =
 "d9/da1/stlsupport_8cpp.html#a9e8cfe5b2cd5bf238c936a13169f7e76":[9,0,2,231,5],
 "d9/da1/stlsupport_8cpp.html#aa1f8941ae2c1be58caee11fa6e3ec4f9":[9,0,2,231,3],
 "d9/da1/stlsupport_8cpp_source.html":[9,0,2,231],
-"d9/da2/structvhdl_1_1parser_1_1_vhdl_parser_1_1_shared_state.html":[7,0,15,0,10,0],
 "d9/da2/structvhdl_1_1parser_1_1_vhdl_parser_1_1_shared_state.html":[8,0,8,0,10,0],
-"d9/da2/structvhdl_1_1parser_1_1_vhdl_parser_1_1_shared_state.html#a04773fa91cfdf6d65710f84b2c35417f":[7,0,15,0,10,0,9]
+"d9/da2/structvhdl_1_1parser_1_1_vhdl_parser_1_1_shared_state.html":[7,0,15,0,10,0],
+"d9/da2/structvhdl_1_1parser_1_1_vhdl_parser_1_1_shared_state.html#a04773fa91cfdf6d65710f84b2c35417f":[7,0,15,0,10,0,9],
+"d9/da2/structvhdl_1_1parser_1_1_vhdl_parser_1_1_shared_state.html#a04773fa91cfdf6d65710f84b2c35417f":[8,0,8,0,10,0,9],
+"d9/da2/structvhdl_1_1parser_1_1_vhdl_parser_1_1_shared_state.html#a0e44560c398b6897f9eb1dbe632fdd10":[7,0,15,0,10,0,11],
+"d9/da2/structvhdl_1_1parser_1_1_vhdl_parser_1_1_shared_state.html#a0e44560c398b6897f9eb1dbe632fdd10":[8,0,8,0,10,0,11],
+"d9/da2/structvhdl_1_1parser_1_1_vhdl_parser_1_1_shared_state.html#a0ea3e01a0870eed5356dae36251255bb":[7,0,15,0,10,0,5],
+"d9/da2/structvhdl_1_1parser_1_1_vhdl_parser_1_1_shared_state.html#a0ea3e01a0870eed5356dae36251255bb":[8,0,8,0,10,0,5],
+"d9/da2/structvhdl_1_1parser_1_1_vhdl_parser_1_1_shared_state.html#a1429ecf0ba26773a2dbdb521c3268644":[8,0,8,0,10,0,8],
+"d9/da2/structvhdl_1_1parser_1_1_vhdl_parser_1_1_shared_state.html#a1429ecf0ba26773a2dbdb521c3268644":[7,0,15,0,10,0,8],
+"d9/da2/structvhdl_1_1parser_1_1_vhdl_parser_1_1_shared_state.html#a1943eaf985ae6ae0a3316b65f2810ac1":[7,0,15,0,10,0,3],
+"d9/da2/structvhdl_1_1parser_1_1_vhdl_parser_1_1_shared_state.html#a1943eaf985ae6ae0a3316b65f2810ac1":[8,0,8,0,10,0,3]
 };
