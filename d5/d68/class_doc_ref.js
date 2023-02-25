@@ -5,7 +5,7 @@ var class_doc_ref =
     [ "file", "d5/d68/class_doc_ref.html#a83619a74c9fc8be97545a13521d5a126", null ],
     [ "hasLinkText", "d5/d68/class_doc_ref.html#af54b6d5c031b011dd3877d68bce47455", null ],
     [ "isSubPage", "d5/d68/class_doc_ref.html#a722c091f3305523016b5608a5bb9ccdf", null ],
-    [ "parse", "d5/d68/class_doc_ref.html#aa964ffa1fd16284cda005cbbca3894fa", null ],
+    [ "parse", "d5/d68/class_doc_ref.html#a6004b78783411b8c5752371572afa3ef", null ],
     [ "ref", "d5/d68/class_doc_ref.html#ab1f49243161d41850208e8fde53bd9a5", null ],
     [ "refToAnchor", "d5/d68/class_doc_ref.html#aac58be3cf79d893f928d00006a082d35", null ],
     [ "refToSection", "d5/d68/class_doc_ref.html#ae6fd639341aca7aa93aba2d50f0ff874", null ],

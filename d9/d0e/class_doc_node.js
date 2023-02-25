@@ -19,7 +19,11 @@ var class_doc_node =
     [ "parser", "d9/d0e/class_doc_node.html#ae49e6aa5d709a45909d6f124c229ce1a", null ],
     [ "setInsidePreformatted", "d9/d0e/class_doc_node.html#a7059408f429dc1358764e334079ca986", null ],
     [ "setParent", "d9/d0e/class_doc_node.html#a106a97b0dc20a720c502aa83a7760732", null ],
+    [ "setThisVariant", "d9/d0e/class_doc_node.html#a915e9cf9562fc2a1e808148c37edacaf", null ],
+    [ "thisVariant", "d9/d0e/class_doc_node.html#a748968b3044e70e48fad54a7cda1c57f", null ],
+    [ "thisVariant", "d9/d0e/class_doc_node.html#a528adfa587d94c4049946e577b7cf66f", null ],
     [ "m_insidePre", "d9/d0e/class_doc_node.html#a37611ce79b74868cfc7ee4a76ab1adcc", null ],
     [ "m_parent", "d9/d0e/class_doc_node.html#a780c81bebb1b1d7631396735b05b54fe", null ],
-    [ "m_parser", "d9/d0e/class_doc_node.html#aeaf1e42b13481f115dc6af5b5d1e399c", null ]
+    [ "m_parser", "d9/d0e/class_doc_node.html#aeaf1e42b13481f115dc6af5b5d1e399c", null ],
+    [ "m_thisVariant", "d9/d0e/class_doc_node.html#abedd2dfc7d6c0fcce6fc6212fc83f4fa", null ]
 ];

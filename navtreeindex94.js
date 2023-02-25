@@ -1,5 +1,9 @@
 var NAVTREEINDEX94 =
 {
+"dc/d44/class_translator_spanish.html#acd0478b340159741a71efa4c1cd31c84":[8,0,615,206],
+"dc/d44/class_translator_spanish.html#ad0a9731e7757f8a10b2cf2e435cdd85e":[8,0,615,219],
+"dc/d44/class_translator_spanish.html#ad120be41dc99a2f03f4bd41178733d72":[8,0,615,108],
+"dc/d44/class_translator_spanish.html#ad329fcb552c9b1a9e24ca1d49b0a6a78":[8,0,615,40],
 "dc/d44/class_translator_spanish.html#ad66b855c99f7c62357a5b0ff558ce941":[8,0,615,227],
 "dc/d44/class_translator_spanish.html#ad95005fd045e63eee3126f81c7d09e39":[8,0,615,9],
 "dc/d44/class_translator_spanish.html#ad97ab3a12e7e5aecb7d50b2f6e047aac":[8,0,615,251],
@@ -46,10 +50,10 @@ var NAVTREEINDEX94 =
 "dc/d44/class_translator_spanish.html#afe12ea704c8ac0900c3018ee64576f46":[8,0,615,62],
 "dc/d44/class_translator_spanish.html#afe520e8844f8e72cc724a29364cf3121":[8,0,615,80],
 "dc/d44/class_translator_spanish.html#afeff93e85b89d703be5e4ea8d5f8d458":[8,0,615,120],
-"dc/d48/struct_output_gen_intf_1_1start_member_sections.html":[8,0,5,143],
 "dc/d48/struct_output_gen_intf_1_1start_member_sections.html":[7,0,10,143],
-"dc/d48/struct_output_gen_intf_1_1start_member_sections.html#a56f9b10889daaa190eafd5412aaee256":[8,0,5,143,0],
+"dc/d48/struct_output_gen_intf_1_1start_member_sections.html":[8,0,5,143],
 "dc/d48/struct_output_gen_intf_1_1start_member_sections.html#a56f9b10889daaa190eafd5412aaee256":[7,0,10,143,0],
+"dc/d48/struct_output_gen_intf_1_1start_member_sections.html#a56f9b10889daaa190eafd5412aaee256":[8,0,5,143,0],
 "dc/d53/class_translator_lithuanian.html":[8,0,603],
 "dc/d53/class_translator_lithuanian.html#a01ad40cf1b4fe9536d01f751df868f7a":[8,0,603,136],
 "dc/d53/class_translator_lithuanian.html#a044fea0f0599de1c2817961012096142":[8,0,603,117],
@@ -244,10 +248,6 @@ var NAVTREEINDEX94 =
 "dc/d54/struct_output_gen_intf_1_1end_parameter_list.html#a511c4e81037b6f1222571fb711fb3874":[8,0,5,66,0],
 "dc/d62/struct_output_gen_intf_1_1end_member_sections.html":[7,0,10,60],
 "dc/d62/struct_output_gen_intf_1_1end_member_sections.html":[8,0,5,60],
-"dc/d62/struct_output_gen_intf_1_1end_member_sections.html#a43aaf79645e0d0a8e31752b159e09f7f":[7,0,10,60,0],
 "dc/d62/struct_output_gen_intf_1_1end_member_sections.html#a43aaf79645e0d0a8e31752b159e09f7f":[8,0,5,60,0],
-"dc/d64/class_define.html":[8,0,99],
-"dc/d64/class_define.html#a16325de589f92470990e80e0d3cb403f":[8,0,99,7],
-"dc/d64/class_define.html#a1802523098fdd274fd15cd0494ad26d1":[8,0,99,12],
-"dc/d64/class_define.html#a1ab8e5663a0acb5c7634087fb32c67b8":[8,0,99,0]
+"dc/d62/struct_output_gen_intf_1_1end_member_sections.html#a43aaf79645e0d0a8e31752b159e09f7f":[7,0,10,60,0]
 };

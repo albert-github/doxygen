@@ -139,7 +139,7 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class representing the abstract syntax tree of a documentation block. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d2b/docnode_8h_source.html#l01403">1403</a> of file <a class="el" href="../../de/d2b/docnode_8h_source.html">docnode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d2b/docnode_8h_source.html#l01409">1409</a> of file <a class="el" href="../../de/d2b/docnode_8h_source.html">docnode.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab573e4a616c8cf4677d233c90c65f79a" name="ab573e4a616c8cf4677d233c90c65f79a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab573e4a616c8cf4677d233c90c65f79a">&#9670;&#160;</a></span>DocNodeAST()</h2>
@@ -167,10 +167,15 @@ template&lt;class <a class="el" href="../../d9/d0e/class_doc_node.html">DocNode<
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d2b/docnode_8h_source.html#l01407">1407</a> of file <a class="el" href="../../de/d2b/docnode_8h_source.html">docnode.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1407</span>: <a class="code hl_variable" href="../../db/d98/class_doc_node_a_s_t.html#a77e351cc54c344eac97ef21709f44305">root</a>(std::move(r)) {}</div>
-<div class="ttc" id="aclass_doc_node_a_s_t_html_a77e351cc54c344eac97ef21709f44305"><div class="ttname"><a href="../../db/d98/class_doc_node_a_s_t.html#a77e351cc54c344eac97ef21709f44305">DocNodeAST::root</a></div><div class="ttdeci">DocNodeVariant root</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l01420">docnode.h:1420</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../de/d2b/docnode_8h_source.html#l01413">1413</a> of file <a class="el" href="../../de/d2b/docnode_8h_source.html">docnode.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1413</span>                            : <a class="code hl_variable" href="../../db/d98/class_doc_node_a_s_t.html#a77e351cc54c344eac97ef21709f44305">root</a>(std::move(r))</div>
+<div class="line"><span class="lineno"> 1414</span>    {</div>
+<div class="line"><span class="lineno"> 1415</span>      std::get_if&lt;DocNode&gt;(&amp;<a class="code hl_variable" href="../../db/d98/class_doc_node_a_s_t.html#a77e351cc54c344eac97ef21709f44305">root</a>)-&gt;setThisVariant(&amp;<a class="code hl_variable" href="../../db/d98/class_doc_node_a_s_t.html#a77e351cc54c344eac97ef21709f44305">root</a>);</div>
+<div class="line"><span class="lineno"> 1416</span>    }</div>
+<div class="ttc" id="aclass_doc_node_a_s_t_html_a77e351cc54c344eac97ef21709f44305"><div class="ttname"><a href="../../db/d98/class_doc_node_a_s_t.html#a77e351cc54c344eac97ef21709f44305">DocNodeAST::root</a></div><div class="ttdeci">DocNodeVariant root</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h_source.html#l01429">docnode.h:1429</a></div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../de/d2b/docnode_8h_source.html#l01429">root</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -199,20 +204,20 @@ template&lt;class <a class="el" href="../../d9/d0e/class_doc_node.html">DocNode<
 
 <p>Implements <a class="el" href="../../d6/de4/class_i_doc_node_a_s_t.html#a503794169201cea4f02e4281b79b7ddb">IDocNodeAST</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d2b/docnode_8h_source.html#l01408">1408</a> of file <a class="el" href="../../de/d2b/docnode_8h_source.html">docnode.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1409</span>    {</div>
-<div class="line"><span class="lineno"> 1410</span>      <span class="keywordflow">if</span> (std::holds_alternative&lt;DocRoot&gt;(<a class="code hl_variable" href="../../db/d98/class_doc_node_a_s_t.html#a77e351cc54c344eac97ef21709f44305">root</a>))</div>
-<div class="line"><span class="lineno"> 1411</span>      {</div>
-<div class="line"><span class="lineno"> 1412</span>        <span class="keywordflow">return</span> std::get&lt;DocRoot&gt;(<a class="code hl_variable" href="../../db/d98/class_doc_node_a_s_t.html#a77e351cc54c344eac97ef21709f44305">root</a>).isEmpty();</div>
-<div class="line"><span class="lineno"> 1413</span>      }</div>
-<div class="line"><span class="lineno"> 1414</span>      <span class="keywordflow">else</span> <span class="keywordflow">if</span> (std::holds_alternative&lt;DocText&gt;(<a class="code hl_variable" href="../../db/d98/class_doc_node_a_s_t.html#a77e351cc54c344eac97ef21709f44305">root</a>))</div>
-<div class="line"><span class="lineno"> 1415</span>      {</div>
-<div class="line"><span class="lineno"> 1416</span>        <span class="keywordflow">return</span> std::get&lt;DocText&gt;(<a class="code hl_variable" href="../../db/d98/class_doc_node_a_s_t.html#a77e351cc54c344eac97ef21709f44305">root</a>).isEmpty();</div>
-<div class="line"><span class="lineno"> 1417</span>      }</div>
-<div class="line"><span class="lineno"> 1418</span>      <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno"> 1419</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../de/d2b/docnode_8h_source.html#l01417">1417</a> of file <a class="el" href="../../de/d2b/docnode_8h_source.html">docnode.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1418</span>    {</div>
+<div class="line"><span class="lineno"> 1419</span>      <span class="keywordflow">if</span> (std::holds_alternative&lt;DocRoot&gt;(<a class="code hl_variable" href="../../db/d98/class_doc_node_a_s_t.html#a77e351cc54c344eac97ef21709f44305">root</a>))</div>
+<div class="line"><span class="lineno"> 1420</span>      {</div>
+<div class="line"><span class="lineno"> 1421</span>        <span class="keywordflow">return</span> std::get&lt;DocRoot&gt;(<a class="code hl_variable" href="../../db/d98/class_doc_node_a_s_t.html#a77e351cc54c344eac97ef21709f44305">root</a>).isEmpty();</div>
+<div class="line"><span class="lineno"> 1422</span>      }</div>
+<div class="line"><span class="lineno"> 1423</span>      <span class="keywordflow">else</span> <span class="keywordflow">if</span> (std::holds_alternative&lt;DocText&gt;(<a class="code hl_variable" href="../../db/d98/class_doc_node_a_s_t.html#a77e351cc54c344eac97ef21709f44305">root</a>))</div>
+<div class="line"><span class="lineno"> 1424</span>      {</div>
+<div class="line"><span class="lineno"> 1425</span>        <span class="keywordflow">return</span> std::get&lt;DocText&gt;(<a class="code hl_variable" href="../../db/d98/class_doc_node_a_s_t.html#a77e351cc54c344eac97ef21709f44305">root</a>).isEmpty();</div>
+<div class="line"><span class="lineno"> 1426</span>      }</div>
+<div class="line"><span class="lineno"> 1427</span>      <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1428</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/d2b/docnode_8h_source.html#l01420">root</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d2b/docnode_8h_source.html#l01429">root</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l01242">parseDoc()</a>.</p>
 
@@ -231,9 +236,9 @@ template&lt;class <a class="el" href="../../d9/d0e/class_doc_node.html">DocNode<
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d2b/docnode_8h_source.html#l01420">1420</a> of file <a class="el" href="../../de/d2b/docnode_8h_source.html">docnode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d2b/docnode_8h_source.html#l01429">1429</a> of file <a class="el" href="../../de/d2b/docnode_8h_source.html">docnode.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00323">generateBriefDoc()</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l01408">isEmpty()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l01242">parseDoc()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00790">ManGenerator::writeDoc()</a>, <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l02500">HtmlGenerator::writeDoc()</a>, and <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l02031">LatexGenerator::writeDoc()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d2b/docnode_8h_source.html#l01413">DocNodeAST()</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00323">generateBriefDoc()</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l01417">isEmpty()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l01242">parseDoc()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00790">ManGenerator::writeDoc()</a>, <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l02500">HtmlGenerator::writeDoc()</a>, and <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l02031">LatexGenerator::writeDoc()</a>.</p>
 
 </div>
 </div>

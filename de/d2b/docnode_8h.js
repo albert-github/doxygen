@@ -81,6 +81,7 @@ var docnode_8h =
     [ "DN_SEP", "de/d2b/docnode_8h.html#aac3b8854dead0ba7c6a9e83d49b7d945", null ],
     [ "DOC_NODES", "de/d2b/docnode_8h.html#a9a1f232ee7a2138f67140f80ce7c6628", null ],
     [ "DocNodeVariant", "de/d2b/docnode_8h.html#afad5b9fbe2e475f242fe258914b6a4a0", null ],
+    [ "createDocNode", "de/d2b/docnode_8h.html#aa42674aaf44286a4dbbf89f4da21609a", null ],
     [ "docNodeName", "de/d2b/docnode_8h.html#af27355d33faf413068bf3674df0126db", null ],
     [ "docNodeName", "de/d2b/docnode_8h.html#a6cc678f63d6ba116f503efe8d453107d", null ],
     [ "docNodeName", "de/d2b/docnode_8h.html#acc2a5b1ad9142a12d64fee4dcc586db5", null ],
