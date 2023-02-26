@@ -1,5 +1,6 @@
 var NAVTREEINDEX81 =
 {
+"da/db8/class_translator_armenian.html#a95ffcfd5fed9dd19e1f3294985d30642":[8,0,578,30],
 "da/db8/class_translator_armenian.html#a967ff470e15c72dac2b79cc42f7487c8":[8,0,578,200],
 "da/db8/class_translator_armenian.html#a97f47188715dd990060fd63c25baaf94":[8,0,578,99],
 "da/db8/class_translator_armenian.html#a98b2c53503c1e45dfd8219c9782bfb40":[8,0,578,74],
@@ -89,10 +90,10 @@ var NAVTREEINDEX81 =
 "da/db8/class_translator_armenian.html#afe63a0ee3fdf540bfd9f49dc45a8bbb5":[8,0,578,7],
 "da/db8/class_translator_armenian.html#afe693b07a06164151798e489e3063bc2":[8,0,578,61],
 "da/db8/class_translator_armenian.html#aff0bfdeb81d975433a7909c3fc3eef53":[8,0,578,39],
-"da/db8/struct_output_gen_intf_1_1start_inline_member_type.html":[7,0,10,126],
 "da/db8/struct_output_gen_intf_1_1start_inline_member_type.html":[8,0,5,126],
-"da/db8/struct_output_gen_intf_1_1start_inline_member_type.html#a86ffffca03a9af325ed380772dcf4fef":[8,0,5,126,0],
+"da/db8/struct_output_gen_intf_1_1start_inline_member_type.html":[7,0,10,126],
 "da/db8/struct_output_gen_intf_1_1start_inline_member_type.html#a86ffffca03a9af325ed380772dcf4fef":[7,0,10,126,0],
+"da/db8/struct_output_gen_intf_1_1start_inline_member_type.html#a86ffffca03a9af325ed380772dcf4fef":[8,0,5,126,0],
 "da/dba/class_globals_index_context.html":[8,0,302],
 "da/dba/class_globals_index_context.html#a815545f532a12abc582a2defebd16c9c":[8,0,302,4],
 "da/dba/class_globals_index_context.html#abad9bbb73ec5291ac82eada6db440523":[8,0,302,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX81 =
 "da/dbb/class_translator_bulgarian.html#a851bc89fd88acc07d1d63fe6a466e4aa":[8,0,580,178],
 "da/dbb/class_translator_bulgarian.html#a868ac0d35168a71455a64d619e97a2b4":[8,0,580,227],
 "da/dbb/class_translator_bulgarian.html#a881b5a993e89d301e0e626a15d8c56ee":[8,0,580,92],
-"da/dbb/class_translator_bulgarian.html#a893991e7f655e0877e4d259d57921a01":[8,0,580,98],
-"da/dbb/class_translator_bulgarian.html#a8a3b77432256ccde3d103b86ca3c6c09":[8,0,580,68]
+"da/dbb/class_translator_bulgarian.html#a893991e7f655e0877e4d259d57921a01":[8,0,580,98]
 };

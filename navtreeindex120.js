@@ -1,5 +1,8 @@
 var NAVTREEINDEX120 =
 {
+"de/d82/class_translator_polish.html#a662e8766ea79fbb038bea786067d121c":[8,0,607,214],
+"de/d82/class_translator_polish.html#a675ae7842337be7efe61808e8a079ce8":[8,0,607,108],
+"de/d82/class_translator_polish.html#a68865adf71b369f41766250b65e9fbf3":[8,0,607,50],
 "de/d82/class_translator_polish.html#a68d0a4658390b9ae8e3f393dfd8a2251":[8,0,607,136],
 "de/d82/class_translator_polish.html#a697edf12618fcb9a30351ec15ec46aa7":[8,0,607,40],
 "de/d82/class_translator_polish.html#a6b8bc70d985ec1f4bdf38a23f95707e0":[8,0,607,127],
@@ -199,8 +202,8 @@ var NAVTREEINDEX120 =
 "de/d96/struct_filter_group_by_1_1_list_elem.html#a9f238ff84b6da7c82ed7974e4a137cd1":[8,0,267,0,1],
 "de/d96/struct_output_gen_intf_1_1start_section.html":[7,0,10,156],
 "de/d96/struct_output_gen_intf_1_1start_section.html":[8,0,5,156],
-"de/d96/struct_output_gen_intf_1_1start_section.html#a1c4b2944def8ee9dca8b259b16462982":[7,0,10,156,0],
 "de/d96/struct_output_gen_intf_1_1start_section.html#a1c4b2944def8ee9dca8b259b16462982":[8,0,5,156,0],
+"de/d96/struct_output_gen_intf_1_1start_section.html#a1c4b2944def8ee9dca8b259b16462982":[7,0,10,156,0],
 "de/d99/struct_template_node_tree_1_1_tree_context.html":[8,0,540,0],
 "de/d99/struct_template_node_tree_1_1_tree_context.html#a367bad26a18577642f8a0c838d9063fb":[8,0,540,0,0],
 "de/d99/struct_template_node_tree_1_1_tree_context.html#a695f724c09696c175add24eceee42a18":[8,0,540,0,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX120 =
 "de/da5/class_man_generator.html#a0d3eea58e70d7213f199e3ed11d490dc":[8,0,370,24],
 "de/da5/class_man_generator.html#a0de8bc4d17093fbfb77c00bef2a66181":[8,0,370,120],
 "de/da5/class_man_generator.html#a0e3edd731a18f4410530e8e32bbabb4f":[8,0,370,123],
-"de/da5/class_man_generator.html#a0ee830ccc307c8123fffe69bd869ee41":[8,0,370,66],
-"de/da5/class_man_generator.html#a1166eca73e3e9513b43ad0d22d8576c1":[8,0,370,88],
-"de/da5/class_man_generator.html#a1236b151443caa09305d328e31168cb7":[8,0,370,126],
-"de/da5/class_man_generator.html#a1509325b44397877e476ae3b04180bd7":[8,0,370,190]
+"de/da5/class_man_generator.html#a0ee830ccc307c8123fffe69bd869ee41":[8,0,370,66]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX62 =
 {
+"d8/d77/class_inheritance_list_context.html#a984dfb8bbeb4f00fc3a6baa4523c9c3a":[8,0,335,7],
 "d8/d77/class_inheritance_list_context.html#a9e7eb87dbe6ed43f0b9c179a581c3c31":[8,0,335,5],
 "d8/d77/class_inheritance_list_context.html#ac4bd3566a4cd9c1d0a7a16f023a16cb5":[8,0,335,6],
 "d8/d77/class_inheritance_list_context.html#ae33ab048a20dac8441e2c5d4e869981e":[8,0,335,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX62 =
 "d8/d83/class_translator_latvian.html#a54314ce198bc4fdbbebbf159cf509cfc":[8,0,602,95],
 "d8/d83/class_translator_latvian.html#a55c496a9d7406b6f74a0d4cab7c31644":[8,0,602,106],
 "d8/d83/class_translator_latvian.html#a560343a111fb14350d9ee29851ce3de2":[8,0,602,7],
-"d8/d83/class_translator_latvian.html#a5864e4602c0632be51b804e2cb136c7b":[8,0,602,20],
-"d8/d83/class_translator_latvian.html#a58d01a1801f5919281724f6ebcf83b14":[8,0,602,72]
+"d8/d83/class_translator_latvian.html#a5864e4602c0632be51b804e2cb136c7b":[8,0,602,20]
 };

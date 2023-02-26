@@ -12,6 +12,7 @@ var utf8_8cpp =
     [ "getUTF8CharNumBytes", "d2/db5/utf8_8cpp.html#aaca02fb609a02d6006c4ae5d02a20b9b", null ],
     [ "isUTF8CharUpperCase", "d2/db5/utf8_8cpp.html#a3c47f3df6f4ebf0e04e0810d01c9b56f", null ],
     [ "isUTF8NonBreakableSpace", "d2/db5/utf8_8cpp.html#a8c217509aa52433aa63d199ef77968d5", null ],
+    [ "isUTF8PunctuationCharacter", "d2/db5/utf8_8cpp.html#a562d68eff947d2e12b2b56800825e552", null ],
     [ "lastUTF8CharIsMultibyte", "d2/db5/utf8_8cpp.html#a854871065a3ba8571af77887ebf7e8af", null ],
     [ "writeUTF8Char", "d2/db5/utf8_8cpp.html#ae9de248ba9e19731fb682352dcbc1b3c", null ]
 ];

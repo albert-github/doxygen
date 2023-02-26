@@ -151,6 +151,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a8c217509aa52433aa63d199ef77968d5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db5/utf8_8cpp.html#a8c217509aa52433aa63d199ef77968d5">isUTF8NonBreakableSpace</a> (const char *input)</td></tr>
 <tr class="memdesc:a8c217509aa52433aa63d199ef77968d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the first character pointed at by input is a non-breakable whitespace character.  <br /></td></tr>
 <tr class="separator:a8c217509aa52433aa63d199ef77968d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a562d68eff947d2e12b2b56800825e552"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db5/utf8_8cpp.html#a562d68eff947d2e12b2b56800825e552">isUTF8PunctuationCharacter</a> (uint32_t unicode)</td></tr>
+<tr class="memdesc:a562d68eff947d2e12b2b56800825e552"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the given Unicode character represents a punctuation character.  <br /></td></tr>
+<tr class="separator:a562d68eff947d2e12b2b56800825e552"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a28d834f2d420c5a850aa095413d0d4b5" name="a28d834f2d420c5a850aa095413d0d4b5"></a>
@@ -559,6 +562,8 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00069">convertUTF8CharToUnicode()</a>, and <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00127">getUTF8CharAt()</a>.</p>
 
+<p class="reference">Referenced by <a class="el" href="../../dd/dd7/anchor_8cpp_source.html#l00044">AnchorGenerator::generate()</a>.</p>
+
 </div>
 </div>
 <a id="ac0c19c2bb475bc6f27dbf06345c865a3" name="ac0c19c2bb475bc6f27dbf06345c865a3"></a>
@@ -601,7 +606,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00023">getUTF8CharNumBytes()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d14/index_8cpp_source.html#l02744">Index::addClassMemberNameToIndex()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l02856">Index::addFileMemberNameToIndex()</a>, <a class="el" href="../../d9/d2f/searchindex__js_8cpp_source.html#l00122">addMemberToSearchIndex()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l02808">Index::addNamespaceMemberNameToIndex()</a>, <a class="el" href="../../d9/d2f/searchindex__js_8cpp_source.html#l00242">createJavaScriptSearchIndex()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l01292">FilterAlphaIndex::determineSortKey()</a>, <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00135">getUnicodeForUTF8CharAt()</a>, and <a class="el" href="../../db/d14/index_8cpp_source.html#l02167">writeAlphabeticalClassList()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d14/index_8cpp_source.html#l02744">Index::addClassMemberNameToIndex()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l02856">Index::addFileMemberNameToIndex()</a>, <a class="el" href="../../d9/d2f/searchindex__js_8cpp_source.html#l00122">addMemberToSearchIndex()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l02808">Index::addNamespaceMemberNameToIndex()</a>, <a class="el" href="../../d9/d2f/searchindex__js_8cpp_source.html#l00242">createJavaScriptSearchIndex()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l01292">FilterAlphaIndex::determineSortKey()</a>, <a class="el" href="../../dd/dd7/anchor_8cpp_source.html#l00044">AnchorGenerator::generate()</a>, <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00135">getUnicodeForUTF8CharAt()</a>, and <a class="el" href="../../db/d14/index_8cpp_source.html#l02167">writeAlphabeticalClassList()</a>.</p>
 
 </div>
 </div>
@@ -653,7 +658,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">   50</span>  <span class="keywordflow">return</span> num;</div>
 <div class="line"><span class="lineno">   51</span>}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../df/d2d/util_8cpp_source.html#l07055">detab()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l03495">escapeCharsInString()</a>, <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00127">getUTF8CharAt()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05323">nextUTF8CharPosition()</a>, and <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00197">writeUTF8Char()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d2d/util_8cpp_source.html#l07055">detab()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l03495">escapeCharsInString()</a>, <a class="el" href="../../dd/dd7/anchor_8cpp_source.html#l00044">AnchorGenerator::generate()</a>, <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00127">getUTF8CharAt()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05323">nextUTF8CharPosition()</a>, and <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00197">writeUTF8Char()</a>.</p>
 
 </div>
 </div>
@@ -727,6 +732,37 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  232</span>}</div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="../../df/d2d/util_8cpp_source.html#l07055">detab()</a>.</p>
+
+</div>
+</div>
+<a id="a562d68eff947d2e12b2b56800825e552" name="a562d68eff947d2e12b2b56800825e552"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a562d68eff947d2e12b2b56800825e552">&#9670;&#160;</a></span>isUTF8PunctuationCharacter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool isUTF8PunctuationCharacter </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>unicode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if the given Unicode character represents a punctuation character. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00234">234</a> of file <a class="el" href="../../d2/db5/utf8_8cpp_source.html">utf8.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  235</span>{</div>
+<div class="line"><span class="lineno">  236</span>  <span class="keywordtype">bool</span> b = <a class="code hl_function" href="../../db/dca/caseconvert_8h.html#a13534af4c55105afe07d4590d28b3599">isPunctuationCharacter</a>(unicode);</div>
+<div class="line"><span class="lineno">  237</span>  <span class="keywordflow">return</span> b;</div>
+<div class="line"><span class="lineno">  238</span>}</div>
+<div class="ttc" id="acaseconvert_8h_html_a13534af4c55105afe07d4590d28b3599"><div class="ttname"><a href="../../db/dca/caseconvert_8h.html#a13534af4c55105afe07d4590d28b3599">isPunctuationCharacter</a></div><div class="ttdeci">bool isPunctuationCharacter(uint32_t code)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dca/caseconvert_8h_source.html#l02906">caseconvert.h:2906</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../db/dca/caseconvert_8h_source.html#l02906">isPunctuationCharacter()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dd/dd7/anchor_8cpp_source.html#l00044">AnchorGenerator::generate()</a>.</p>
 
 </div>
 </div>
