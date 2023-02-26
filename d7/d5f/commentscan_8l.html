@@ -928,13 +928,13 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno"> 3448</span>                                                         <span class="comment">// keep the warnings</span></div>
 <div class="line"><span class="lineno"> 3449</span>                                                         <span class="comment">// correctly aligned.</span></div>
 <div class="line"><span class="lineno"> 3450</span>  <span class="keywordflow">return</span> formLabel;</div>
-<div class="ttc" id="aclass_formula_manager_html_a263c84263295a94dd1593d39f2c435f5"><div class="ttname"><a href="../../d0/d6c/class_formula_manager.html#a263c84263295a94dd1593d39f2c435f5">FormulaManager::addFormula</a></div><div class="ttdeci">int addFormula(const std::string &amp;formulaText, int width=-1, int height=-1)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5b/formula_8cpp_source.html#l00684">formula.cpp:684</a></div></div>
+<div class="ttc" id="aclass_formula_manager_html_a263c84263295a94dd1593d39f2c435f5"><div class="ttname"><a href="../../d0/d6c/class_formula_manager.html#a263c84263295a94dd1593d39f2c435f5">FormulaManager::addFormula</a></div><div class="ttdeci">int addFormula(const std::string &amp;formulaText, int width=-1, int height=-1)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5b/formula_8cpp_source.html#l00676">formula.cpp:676</a></div></div>
 <div class="ttc" id="aclass_formula_manager_html_ab5c33a247a1b081414e3350552beb6ee"><div class="ttname"><a href="../../d0/d6c/class_formula_manager.html#ab5c33a247a1b081414e3350552beb6ee">FormulaManager::instance</a></div><div class="ttdeci">static FormulaManager &amp; instance()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5b/formula_8cpp_source.html#l00057">formula.cpp:57</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_aa2dccf89cb25346c3ee81d75aa5859da"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#aa2dccf89cb25346c3ee81d75aa5859da">QCString::sprintf</a></div><div class="ttdeci">QCString &amp; sprintf(const char *format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d3e/qcstring_8cpp_source.html#l00029">qcstring.cpp:29</a></div></div>
 <div class="ttc" id="acommentscan_8l_html_a71854cabe6d738f42533b051b95b9577"><div class="ttname"><a href="../../d7/d5f/commentscan_8l.html#a71854cabe6d738f42533b051b95b9577">g_formulaMutex</a></div><div class="ttdeci">static std::mutex g_formulaMutex</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5f/commentscan_8l_source.html#l00450">commentscan.l:450</a></div></div>
 <div class="line"><span class="lineno"> 3451</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5b/formula_8cpp_source.html#l00684">FormulaManager::addFormula()</a>, <a class="el" href="../../d7/d5f/commentscan_8l_source.html#l00450">g_formulaMutex</a>, <a class="el" href="../../d7/d5b/formula_8cpp_source.html#l00057">FormulaManager::instance()</a>, and <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00029">QCString::sprintf()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5b/formula_8cpp_source.html#l00676">FormulaManager::addFormula()</a>, <a class="el" href="../../d7/d5f/commentscan_8l_source.html#l00450">g_formulaMutex</a>, <a class="el" href="../../d7/d5b/formula_8cpp_source.html#l00057">FormulaManager::instance()</a>, and <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00029">QCString::sprintf()</a>.</p>
 
 </div>
 </div>
@@ -975,13 +975,12 @@ Variables</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d7/d5f/commentscan_8l_source.html#l03731">3731</a> of file <a class="el" href="../../d7/d5f/commentscan_8l_source.html">commentscan.l</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 3732</span>{</div>
 <div class="line"><span class="lineno"> 3733</span>  <span class="keywordtype">char</span> cmd[20];</div>
-<div class="line"><span class="lineno"> 3734</span>  <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#a307ffe8cbc4a4aa695900441d1df49f3">qsnprintf</a>(cmd,20,<span class="stringliteral">&quot;\\iline %d &quot;</span>,lineNr);</div>
+<div class="line"><span class="lineno"> 3734</span>  sprintf(cmd,<span class="stringliteral">&quot;\\iline %d &quot;</span>,lineNr);</div>
 <div class="line"><span class="lineno"> 3735</span>  <a class="code hl_function" href="../../d7/d5f/commentscan_8l.html#aacd050a578098847da993bc206dc7586">addOutput</a>(yyscanner, cmd);</div>
 <div class="ttc" id="acommentscan_8l_html_aacd050a578098847da993bc206dc7586"><div class="ttname"><a href="../../d7/d5f/commentscan_8l.html#aacd050a578098847da993bc206dc7586">addOutput</a></div><div class="ttdeci">static void addOutput(yyscan_t yyscanner, const char *s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5f/commentscan_8l_source.html#l03709">commentscan.l:3709</a></div></div>
-<div class="ttc" id="aqcstring_8h_html_a307ffe8cbc4a4aa695900441d1df49f3"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#a307ffe8cbc4a4aa695900441d1df49f3">qsnprintf</a></div><div class="ttdeci">#define qsnprintf</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00051">qcstring.h:51</a></div></div>
 <div class="line"><span class="lineno"> 3736</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5f/commentscan_8l_source.html#l03709">addOutput()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00051">qsnprintf</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5f/commentscan_8l_source.html#l03709">addOutput()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d7/d5f/commentscan_8l_source.html#l03745">endBrief()</a>.</p>
 
@@ -1024,11 +1023,11 @@ Variables</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d7/d5f/commentscan_8l_source.html#l03738">3738</a> of file <a class="el" href="../../d7/d5f/commentscan_8l_source.html">commentscan.l</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 3739</span>{</div>
 <div class="line"><span class="lineno"> 3740</span>  <span class="keywordtype">char</span> cmd[30];</div>
-<div class="line"><span class="lineno"> 3741</span>  <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#a307ffe8cbc4a4aa695900441d1df49f3">qsnprintf</a>(cmd,30,<span class="stringliteral">&quot;\\iline %d \\ilinebr &quot;</span>,lineNr);</div>
+<div class="line"><span class="lineno"> 3741</span>  sprintf(cmd,<span class="stringliteral">&quot;\\iline %d \\ilinebr &quot;</span>,lineNr);</div>
 <div class="line"><span class="lineno"> 3742</span>  <a class="code hl_function" href="../../d7/d5f/commentscan_8l.html#aacd050a578098847da993bc206dc7586">addOutput</a>(yyscanner, cmd);</div>
 <div class="line"><span class="lineno"> 3743</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5f/commentscan_8l_source.html#l03709">addOutput()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00051">qsnprintf</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5f/commentscan_8l_source.html#l03709">addOutput()</a>.</p>
 
 </div>
 </div>
@@ -1759,10 +1758,10 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno"> 2688</span>  }</div>
 <div class="line"><span class="lineno"> 2689</span>  BEGIN(AnchorLabel);</div>
 <div class="line"><span class="lineno"> 2690</span>  <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="ttc" id="autil_8cpp_html_a27784840caff3a70e6dfa44f5341553b"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a27784840caff3a70e6dfa44f5341553b">join</a></div><div class="ttdeci">std::string join(const StringVector &amp;sv, const std::string &amp;delimiter)</div><div class="ttdoc">create a string where the string in the vector are joined by the given delimiter</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l07004">util.cpp:7004</a></div></div>
+<div class="ttc" id="autil_8cpp_html_a27784840caff3a70e6dfa44f5341553b"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a27784840caff3a70e6dfa44f5341553b">join</a></div><div class="ttdeci">std::string join(const StringVector &amp;sv, const std::string &amp;delimiter)</div><div class="ttdoc">create a string where the string in the vector are joined by the given delimiter</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l07003">util.cpp:7003</a></div></div>
 <div class="line"><span class="lineno"> 2691</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5f/commentscan_8l_source.html#l03709">addOutput()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l07004">join()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5f/commentscan_8l_source.html#l03709">addOutput()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l07003">join()</a>.</p>
 
 </div>
 </div>
@@ -3380,7 +3379,7 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno"> 2751</span>  <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
 <div class="line"><span class="lineno"> 2752</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5f/commentscan_8l_source.html#l03709">addOutput()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l07004">join()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5f/commentscan_8l_source.html#l03709">addOutput()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l07003">join()</a>.</p>
 
 </div>
 </div>
@@ -4026,7 +4025,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="acommentscan_8l_html_a8111356e211d82aed6baea53cda91872"><div class="ttname"><a href="../../d7/d5f/commentscan_8l.html#a8111356e211d82aed6baea53cda91872">addAnchor</a></div><div class="ttdeci">static void addAnchor(yyscan_t yyscanner, const QCString &amp;anchor, const QCString &amp;title=&quot;&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5f/commentscan_8l_source.html#l03676">commentscan.l:3676</a></div></div>
 <div class="line"><span class="lineno"> 2716</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5f/commentscan_8l_source.html#l03676">addAnchor()</a>, <a class="el" href="../../d7/d5f/commentscan_8l_source.html#l03709">addOutput()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l07004">join()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00229">QCString::lower()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00221">QCString::mid()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00444">QCString::startsWith()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00240">QCString::stripWhiteSpace()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5f/commentscan_8l_source.html#l03676">addAnchor()</a>, <a class="el" href="../../d7/d5f/commentscan_8l_source.html#l03709">addOutput()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l07003">join()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00229">QCString::lower()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00221">QCString::mid()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00444">QCString::startsWith()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00240">QCString::stripWhiteSpace()</a>.</p>
 
 </div>
 </div>
