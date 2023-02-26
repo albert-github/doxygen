@@ -1,5 +1,14 @@
 var NAVTREEINDEX94 =
 {
+"dc/d44/class_translator_spanish.html#ac116063f05b51640ee76897c68690a79":[8,0,615,182],
+"dc/d44/class_translator_spanish.html#ac3b9f38982d41e0a77d7ff2aacb78c24":[8,0,615,217],
+"dc/d44/class_translator_spanish.html#ac539ed46a697d82015dce0e03af4b263":[8,0,615,264],
+"dc/d44/class_translator_spanish.html#ac5560da53a5ddcaf0e02a3a00215abea":[8,0,615,149],
+"dc/d44/class_translator_spanish.html#ac57e621e923ddae56708f5d0fbaf82a8":[8,0,615,22],
+"dc/d44/class_translator_spanish.html#ac68a672026f4329fc911dec0b41c37ef":[8,0,615,177],
+"dc/d44/class_translator_spanish.html#ac7b93c48a7778629add48283033da40c":[8,0,615,265],
+"dc/d44/class_translator_spanish.html#ac9310a5e42bd38523f3ae8ef4051c04e":[8,0,615,168],
+"dc/d44/class_translator_spanish.html#accd9ec36f5fc7e9e6e6e3a7d2ac63c17":[8,0,615,256],
 "dc/d44/class_translator_spanish.html#acd0478b340159741a71efa4c1cd31c84":[8,0,615,206],
 "dc/d44/class_translator_spanish.html#ad0a9731e7757f8a10b2cf2e435cdd85e":[8,0,615,219],
 "dc/d44/class_translator_spanish.html#ad120be41dc99a2f03f4bd41178733d72":[8,0,615,108],
@@ -240,14 +249,5 @@ var NAVTREEINDEX94 =
 "dc/d53/class_translator_lithuanian.html#afc1d35109226264fad29a911b77b5cf4":[8,0,603,160],
 "dc/d53/class_translator_lithuanian.html#afc3a6ece52d09f730c416c3dc09bf773":[8,0,603,158],
 "dc/d53/class_translator_lithuanian.html#afea93c41f9ac57d28dbc8c0e5989f482":[8,0,603,170],
-"dc/d53/class_translator_lithuanian.html#afeadb8ea2b08c0cdf5133cc27e41ec2a":[8,0,603,30],
-"dc/d53/class_translator_lithuanian.html#affba1050665c411e2911b41246e0b370":[8,0,603,40],
-"dc/d54/struct_output_gen_intf_1_1end_parameter_list.html":[7,0,10,66],
-"dc/d54/struct_output_gen_intf_1_1end_parameter_list.html":[8,0,5,66],
-"dc/d54/struct_output_gen_intf_1_1end_parameter_list.html#a511c4e81037b6f1222571fb711fb3874":[7,0,10,66,0],
-"dc/d54/struct_output_gen_intf_1_1end_parameter_list.html#a511c4e81037b6f1222571fb711fb3874":[8,0,5,66,0],
-"dc/d62/struct_output_gen_intf_1_1end_member_sections.html":[7,0,10,60],
-"dc/d62/struct_output_gen_intf_1_1end_member_sections.html":[8,0,5,60],
-"dc/d62/struct_output_gen_intf_1_1end_member_sections.html#a43aaf79645e0d0a8e31752b159e09f7f":[8,0,5,60,0],
-"dc/d62/struct_output_gen_intf_1_1end_member_sections.html#a43aaf79645e0d0a8e31752b159e09f7f":[7,0,10,60,0]
+"dc/d53/class_translator_lithuanian.html#afeadb8ea2b08c0cdf5133cc27e41ec2a":[8,0,603,30]
 };

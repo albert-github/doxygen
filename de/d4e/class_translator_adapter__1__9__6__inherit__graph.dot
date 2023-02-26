@@ -103,13 +103,9 @@ digraph "TranslatorAdapter_1_9_6"
   Node4 -> Node49 [dir="back",color="steelblue1",style="solid"];
   Node49 [label="TranslatorFrench",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$da/d1a/class_translator_french.html",tooltip=" "];
   Node1 -> Node50 [dir="back",color="steelblue1",style="solid"];
-  Node50 [label="TranslatorBrazilian",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d2/d4c/class_translator_brazilian.html",tooltip=" "];
+  Node50 [label="TranslatorCzech",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$dd/d8a/class_translator_czech.html",tooltip=" "];
   Node1 -> Node51 [dir="back",color="steelblue1",style="solid"];
-  Node51 [label="TranslatorCzech",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$dd/d8a/class_translator_czech.html",tooltip=" "];
+  Node51 [label="TranslatorSpanish",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$dc/d44/class_translator_spanish.html",tooltip=" "];
   Node1 -> Node52 [dir="back",color="steelblue1",style="solid"];
-  Node52 [label="TranslatorPortuguese",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$dc/df2/class_translator_portuguese.html",tooltip=" "];
-  Node1 -> Node53 [dir="back",color="steelblue1",style="solid"];
-  Node53 [label="TranslatorSpanish",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$dc/d44/class_translator_spanish.html",tooltip=" "];
-  Node1 -> Node54 [dir="back",color="steelblue1",style="solid"];
-  Node54 [label="TranslatorSwedish",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d5/d5c/class_translator_swedish.html",tooltip=" "];
+  Node52 [label="TranslatorSwedish",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d5/d5c/class_translator_swedish.html",tooltip=" "];
 }

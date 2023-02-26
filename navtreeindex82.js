@@ -1,5 +1,14 @@
 var NAVTREEINDEX82 =
 {
+"da/dbb/class_translator_bulgarian.html#a8ae2d392636a8818384f2560ae0a93e8":[8,0,580,259],
+"da/dbb/class_translator_bulgarian.html#a8c868adafac52a499f3ffddf9475d6b0":[8,0,580,24],
+"da/dbb/class_translator_bulgarian.html#a8ca747bc6fbe33e9e933c8a58b394e28":[8,0,580,130],
+"da/dbb/class_translator_bulgarian.html#a8cf364a6d5cb7c6cfb4564e9fc7813b8":[8,0,580,271],
+"da/dbb/class_translator_bulgarian.html#a8da83e21434b5f0a70816607a750b5db":[8,0,580,264],
+"da/dbb/class_translator_bulgarian.html#a8e5fa7168ef0ca6cf95614c637127a45":[8,0,580,174],
+"da/dbb/class_translator_bulgarian.html#a8f23f4750e281d5bdc24200644154133":[8,0,580,11],
+"da/dbb/class_translator_bulgarian.html#a8f896da960e163610c07ff17e9ae8198":[8,0,580,265],
+"da/dbb/class_translator_bulgarian.html#a8fa860061eee4d8e3d32c30f95142eda":[8,0,580,238],
 "da/dbb/class_translator_bulgarian.html#a8fce23dbf8ff26dab75c337f1275e17c":[8,0,580,76],
 "da/dbb/class_translator_bulgarian.html#a90158e7982c92c917cb04e6a208b6545":[8,0,580,180],
 "da/dbb/class_translator_bulgarian.html#a9256b1190c54e99b21e3236b37bd0a3e":[8,0,580,202],
@@ -240,14 +249,5 @@ var NAVTREEINDEX82 =
 "da/ddd/class_template_node_index_entry.html#a5b2e4856b749e60903b200713757584f":[8,0,528,4],
 "da/ddd/class_template_node_index_entry.html#a5b32695646a5bfe6db7e008f97ac0c40":[8,0,528,3],
 "da/de1/linkedmap_8h.html":[9,0,2,162],
-"da/de1/linkedmap_8h_source.html":[9,0,2,162],
-"da/de6/translator__adapter_8h.html":[9,0,2,249],
-"da/de6/translator__adapter_8h_source.html":[9,0,2,249],
-"da/df0/class_namespace_linked_ref_map.html":[8,0,410],
-"da/df0/class_namespace_linked_ref_map.html#a5d9013801184ee3d3a93868770656ba2":[8,0,410,1],
-"da/df0/class_namespace_linked_ref_map.html#ad8e6abc4211a4481ccd467d63d04a1eb":[8,0,410,0],
-"da/df1/conceptdef_8h.html":[9,0,2,24],
-"da/df1/conceptdef_8h.html#a04c0091865f3e596872d27767ba1061a":[9,0,2,24,13],
-"da/df1/conceptdef_8h.html#a0903a7476e802457067b008928f55225":[9,0,2,24,8],
-"da/df1/conceptdef_8h.html#a0b469bbf6bc5d209e487cc25a5de0dee":[9,0,2,24,12]
+"da/de1/linkedmap_8h_source.html":[9,0,2,162]
 };

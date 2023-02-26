@@ -92,6 +92,11 @@ var namespaces_dup =
       [ "unlink", "d7/d6f/namespace_portable.html#a394e935b6fd1899b26f8987f89a4cbfb", null ],
       [ "unsetenv", "d7/d6f/namespace_portable.html#ac2e29048cffc72c3bed439cff5b02cd4", null ]
     ] ],
+    [ "PortugueseTranslatorUtils", "dc/d6f/namespace_portuguese_translator_utils.html", [
+      [ "isClassMemberHighlightMasculine", "dc/d6f/namespace_portuguese_translator_utils.html#a81439ef1e5570b8ba0fc50f4819f43ba", null ],
+      [ "isFileMemberHighlightMasculine", "dc/d6f/namespace_portuguese_translator_utils.html#ab5299ba7903c9a3401dc7335f5f3ac57", null ],
+      [ "isNamespaceMemberHighlightMasculine", "dc/d6f/namespace_portuguese_translator_utils.html#a813edc55b09a4390e262ac196a2ae756", null ]
+    ] ],
     [ "reg", "db/d35/namespacereg.html", "db/d35/namespacereg" ],
     [ "SearchIndexMethods", "d1/d43/namespace_search_index_methods.html", "d1/d43/namespace_search_index_methods" ],
     [ "Trace", "d3/db9/namespace_trace.html", [

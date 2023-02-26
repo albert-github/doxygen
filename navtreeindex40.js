@@ -1,5 +1,11 @@
 var NAVTREEINDEX40 =
 {
+"d5/d54/class_class_context_1_1_private.html#a7d4a914c14d701518250a9562962205f":[8,0,37,0,85],
+"d5/d54/class_class_context_1_1_private.html#a80fd7fee4448f8928b8b428b3ec61e8d":[8,0,37,0,53],
+"d5/d54/class_class_context_1_1_private.html#a8855602cf897d7b18704e8df5384f92b":[8,0,37,0,28],
+"d5/d54/class_class_context_1_1_private.html#a88f4e67c76adf1966e5d74e6875351db":[8,0,37,0,45],
+"d5/d54/class_class_context_1_1_private.html#a8fbf87ef73447f49fa5b5dd550f2bccd":[8,0,37,0,9],
+"d5/d54/class_class_context_1_1_private.html#a9112fc443bc633d01f653709b3e8a465":[8,0,37,0,103],
 "d5/d54/class_class_context_1_1_private.html#a9554277e09e39cf2759047dae1243717":[8,0,37,0,38],
 "d5/d54/class_class_context_1_1_private.html#a9592d397f3b4fff3a365b08ee4ef5d24":[8,0,37,0,7],
 "d5/d54/class_class_context_1_1_private.html#a9784a821caa653865deac1e50e495058":[8,0,37,0,82],
@@ -61,6 +67,9 @@ var NAVTREEINDEX40 =
 "d5/d54/translator__sv_8h.html":[9,0,2,288],
 "d5/d54/translator__sv_8h_source.html":[9,0,2,288],
 "d5/d55/translator__br_8h.html":[9,0,2,253],
+"d5/d55/translator__br_8h.html#a813edc55b09a4390e262ac196a2ae756":[9,0,2,253,3],
+"d5/d55/translator__br_8h.html#a81439ef1e5570b8ba0fc50f4819f43ba":[9,0,2,253,1],
+"d5/d55/translator__br_8h.html#ab5299ba7903c9a3401dc7335f5f3ac57":[9,0,2,253,2],
 "d5/d55/translator__br_8h_source.html":[9,0,2,253],
 "d5/d56/class_template_engine_1_1_private.html":[6,0,9,0],
 "d5/d56/class_template_engine_1_1_private.html#a1efd690bc9c2be98733c4012de7dc642":[6,0,9,0,2],
@@ -240,14 +249,5 @@ var NAVTREEINDEX40 =
 "d5/d5c/class_translator_swedish.html#a8e483ac23342b0895d5f2829e0b88092":[8,0,616,98],
 "d5/d5c/class_translator_swedish.html#a8ebc2a8ea4102f972f933687f00e25b5":[8,0,616,263],
 "d5/d5c/class_translator_swedish.html#a8f51dd990310b056bc07845868068aa4":[8,0,616,49],
-"d5/d5c/class_translator_swedish.html#a91179ef7fd51430fff6b1642cc632938":[8,0,616,139],
-"d5/d5c/class_translator_swedish.html#a92528ca51cc0b45f6c3bc362e28c3066":[8,0,616,78],
-"d5/d5c/class_translator_swedish.html#a93f91cb4fb4d425035a274901d31778d":[8,0,616,233],
-"d5/d5c/class_translator_swedish.html#a949be7181e438e3cd4b4980f1f528bed":[8,0,616,36],
-"d5/d5c/class_translator_swedish.html#a95a1f622d928f04f8268806b07dc9c9b":[8,0,616,159],
-"d5/d5c/class_translator_swedish.html#a964bad6fff7eee6fbefe5336d45b9e04":[8,0,616,211],
-"d5/d5c/class_translator_swedish.html#a980b41b6c16095ee13b388dc15b25e18":[8,0,616,62],
-"d5/d5c/class_translator_swedish.html#a99b9fd67ade3307a33004e1bd2f75525":[8,0,616,164],
-"d5/d5c/class_translator_swedish.html#a9a0284ecdb2069202d7792286bf403d6":[8,0,616,27],
-"d5/d5c/class_translator_swedish.html#a9aab3ecc9998d2cecd084ec342a7ed83":[8,0,616,115]
+"d5/d5c/class_translator_swedish.html#a91179ef7fd51430fff6b1642cc632938":[8,0,616,139]
 };
