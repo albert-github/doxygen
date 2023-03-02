@@ -165,7 +165,7 @@ $(document).ready(function(){initNavTree('d7/d5b/formula_8cpp_source.html','../.
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb">msg</a>(<span class="stringliteral">&quot;Reading formula repository...\n&quot;</span>);</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    std::string readLine;</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    std::string line;</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    std::string prefix(<span class="stringliteral">&quot;\\_form#&quot;</span>);</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    std::string <a class="code hl_variable" href="../../dd/dd7/anchor_8cpp.html#a85ba602a660bdb3bbeb43cc600de3008">prefix</a>(<span class="stringliteral">&quot;\\_form#&quot;</span>);</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keywordtype">int</span> lineNr;</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="keywordtype">int</span> nextLineNr=1;</div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <span class="keywordtype">bool</span> hasNextLine = !getline(f,readLine).fail();</div>
@@ -178,7 +178,7 @@ $(document).ready(function(){initNavTree('d7/d5b/formula_8cpp_source.html','../.
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>      <span class="keywordflow">while</span> ((hasNextLine = !getline(f,readLine).fail()))</div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>      {</div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>        nextLineNr+=1;</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>        <span class="keywordflow">if</span> (!readLine.compare(0, prefix.size(), prefix)) <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>        <span class="keywordflow">if</span> (!readLine.compare(0, <a class="code hl_variable" href="../../dd/dd7/anchor_8cpp.html#a85ba602a660bdb3bbeb43cc600de3008">prefix</a>.size(), <a class="code hl_variable" href="../../dd/dd7/anchor_8cpp.html#a85ba602a660bdb3bbeb43cc600de3008">prefix</a>)) <span class="keywordflow">break</span>;</div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>        line += <span class="stringliteral">&quot;\n&quot;</span> + readLine;</div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>      }</div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
@@ -864,6 +864,7 @@ $(document).ready(function(){initNavTree('d7/d5b/formula_8cpp_source.html','../.
 <div class="line"><a id="l00768" name="l00768"></a><span class="lineno">  768</span>  }</div>
 <div class="line"><a id="l00769" name="l00769"></a><span class="lineno">  769</span>  <span class="keywordflow">return</span> inkscapeVersion;</div>
 <div class="line"><a id="l00770" name="l00770"></a><span class="lineno">  770</span>}</div>
+<div class="ttc" id="aanchor_8cpp_html_a85ba602a660bdb3bbeb43cc600de3008"><div class="ttname"><a href="../../dd/dd7/anchor_8cpp.html#a85ba602a660bdb3bbeb43cc600de3008">prefix</a></div><div class="ttdeci">constexpr auto prefix</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dd7/anchor_8cpp_source.html#l00044">anchor.cpp:44</a></div></div>
 <div class="ttc" id="aclass_dir_html"><div class="ttname"><a href="../../d2/dc2/class_dir.html">Dir</a></div><div class="ttdoc">Class representing a directory in the file system.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d9c/dir_8h_source.html#l00068">dir.h:69</a></div></div>
 <div class="ttc" id="aclass_dir_html_a0f62ab07068c5f966bca7ce280f4ed49"><div class="ttname"><a href="../../d2/dc2/class_dir.html#a0f62ab07068c5f966bca7ce280f4ed49">Dir::currentDirPath</a></div><div class="ttdeci">static std::string currentDirPath()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d48/dir_8cpp_source.html#l00283">dir.cpp:283</a></div></div>
 <div class="ttc" id="aclass_dir_html_a226b0db1117e46393bbb241e545f8609"><div class="ttname"><a href="../../d2/dc2/class_dir.html#a226b0db1117e46393bbb241e545f8609">Dir::absPath</a></div><div class="ttdeci">std::string absPath() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d48/dir_8cpp_source.html#l00306">dir.cpp:306</a></div></div>

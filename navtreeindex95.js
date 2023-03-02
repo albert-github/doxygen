@@ -1,5 +1,6 @@
 var NAVTREEINDEX95 =
 {
+"dc/d53/class_translator_lithuanian.html#afc1d35109226264fad29a911b77b5cf4":[8,0,603,160],
 "dc/d53/class_translator_lithuanian.html#afc3a6ece52d09f730c416c3dc09bf773":[8,0,603,158],
 "dc/d53/class_translator_lithuanian.html#afea93c41f9ac57d28dbc8c0e5989f482":[8,0,603,170],
 "dc/d53/class_translator_lithuanian.html#afeadb8ea2b08c0cdf5133cc27e41ec2a":[8,0,603,30],
@@ -78,8 +79,8 @@ var NAVTREEINDEX95 =
 "dc/d6f/namespace_portuguese_translator_utils.html#ab5299ba7903c9a3401dc7335f5f3ac57":[7,0,12,1],
 "dc/d75/struct_output_gen_intf_1_1end_desc_for_item.html":[8,0,5,15],
 "dc/d75/struct_output_gen_intf_1_1end_desc_for_item.html":[7,0,10,15],
-"dc/d75/struct_output_gen_intf_1_1end_desc_for_item.html#a5fb58503bf1b1549496a96f281f9c7b1":[7,0,10,15,0],
 "dc/d75/struct_output_gen_intf_1_1end_desc_for_item.html#a5fb58503bf1b1549496a96f281f9c7b1":[8,0,5,15,0],
+"dc/d75/struct_output_gen_intf_1_1end_desc_for_item.html#a5fb58503bf1b1549496a96f281f9c7b1":[7,0,10,15,0],
 "dc/d77/class_member_linked_ref_map.html":[8,0,390],
 "dc/d7c/struct_x_m_l_code_parser_1_1_private.html":[8,0,636,0],
 "dc/d7c/struct_x_m_l_code_parser_1_1_private.html#a6218feccae367303ec0adcb350a1b9bd":[8,0,636,0,1],
@@ -98,8 +99,8 @@ var NAVTREEINDEX95 =
 "dc/d85/class_include_info_list_context_1_1_private.html#ab6e6bcb2262ee6eb809a6e094bad3dc6":[8,0,330,0,0],
 "dc/d8c/struct_output_gen_intf_1_1start_desc_table_data.html":[8,0,5,102],
 "dc/d8c/struct_output_gen_intf_1_1start_desc_table_data.html":[7,0,10,102],
-"dc/d8c/struct_output_gen_intf_1_1start_desc_table_data.html#aba439546550f711f4488f616862f64c9":[8,0,5,102,0],
 "dc/d8c/struct_output_gen_intf_1_1start_desc_table_data.html#aba439546550f711f4488f616862f64c9":[7,0,10,102,0],
+"dc/d8c/struct_output_gen_intf_1_1start_desc_table_data.html#aba439546550f711f4488f616862f64c9":[8,0,5,102,0],
 "dc/d92/namespace_index_intf.html":[7,0,7],
 "dc/d97/class_html_escaper.html":[8,0,318],
 "dc/d97/class_html_escaper.html#a67c1651e9b8f580f1245a11e3f8f7129":[8,0,318,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX95 =
 "dc/d98/doxygen_8cpp.html#ab8f6cdb1a0374f49399a31bd2ea0226a":[9,0,2,105,41],
 "dc/d98/doxygen_8cpp.html#ab97b7f9be435590df65d9bb0d31fba06":[9,0,2,105,84],
 "dc/d98/doxygen_8cpp.html#abc809fca2014e90fe0aee477a1964ed7":[9,0,2,105,50],
-"dc/d98/doxygen_8cpp.html#abf6738772e1f2bf741b5fb0868847b8c":[9,0,2,105,73],
-"dc/d98/doxygen_8cpp.html#ac3000b9ef927fdbbdf460fcf5d1c712e":[9,0,2,105,60]
+"dc/d98/doxygen_8cpp.html#abf6738772e1f2bf741b5fb0868847b8c":[9,0,2,105,73]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX94 =
 {
+"dc/d44/class_translator_spanish.html#abafb4634ff2c339b19d8e3292835ef95":[8,0,615,88],
 "dc/d44/class_translator_spanish.html#abd76a481a717e09fe54df2f6cb930ffb":[8,0,615,46],
 "dc/d44/class_translator_spanish.html#abe62b8a30e6d4a28f611ead3ff5b92dd":[8,0,615,266],
 "dc/d44/class_translator_spanish.html#ac0d0fc237cca71f4d8647d9c65174575":[8,0,615,11],
@@ -62,10 +63,10 @@ var NAVTREEINDEX94 =
 "dc/d44/class_translator_spanish.html#afe12ea704c8ac0900c3018ee64576f46":[8,0,615,62],
 "dc/d44/class_translator_spanish.html#afe520e8844f8e72cc724a29364cf3121":[8,0,615,80],
 "dc/d44/class_translator_spanish.html#afeff93e85b89d703be5e4ea8d5f8d458":[8,0,615,120],
-"dc/d48/struct_output_gen_intf_1_1start_member_sections.html":[7,0,10,143],
 "dc/d48/struct_output_gen_intf_1_1start_member_sections.html":[8,0,5,143],
-"dc/d48/struct_output_gen_intf_1_1start_member_sections.html#a56f9b10889daaa190eafd5412aaee256":[8,0,5,143,0],
+"dc/d48/struct_output_gen_intf_1_1start_member_sections.html":[7,0,10,143],
 "dc/d48/struct_output_gen_intf_1_1start_member_sections.html#a56f9b10889daaa190eafd5412aaee256":[7,0,10,143,0],
+"dc/d48/struct_output_gen_intf_1_1start_member_sections.html#a56f9b10889daaa190eafd5412aaee256":[8,0,5,143,0],
 "dc/d53/class_translator_lithuanian.html":[8,0,603],
 "dc/d53/class_translator_lithuanian.html#a01ad40cf1b4fe9536d01f751df868f7a":[8,0,603,136],
 "dc/d53/class_translator_lithuanian.html#a044fea0f0599de1c2817961012096142":[8,0,603,117],
@@ -248,6 +249,5 @@ var NAVTREEINDEX94 =
 "dc/d53/class_translator_lithuanian.html#af7e43e2ea2244a04459bab3e98abbdc6":[8,0,603,106],
 "dc/d53/class_translator_lithuanian.html#af86a33c8a97714d90eb27e4db8999a0d":[8,0,603,58],
 "dc/d53/class_translator_lithuanian.html#af8c0ac0eabb17505079a80593466a4dd":[8,0,603,33],
-"dc/d53/class_translator_lithuanian.html#afaec054e27951bc49b1724285cc385f1":[8,0,603,118],
-"dc/d53/class_translator_lithuanian.html#afc1d35109226264fad29a911b77b5cf4":[8,0,603,160]
+"dc/d53/class_translator_lithuanian.html#afaec054e27951bc49b1724285cc385f1":[8,0,603,118]
 };
