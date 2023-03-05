@@ -93,6 +93,7 @@ $(document).ready(function(){initNavTree('d0/d58/class_definition_alias_impl.htm
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d5/d35/class_definition_alias_impl-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">DefinitionAliasImpl Class Reference</div></div>
@@ -118,10 +119,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac8f280c992abc7b4cc4b47cb31a5c383"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac69a03632c6a5af839e26c104329623f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d58/class_definition_alias_impl.html#ac69a03632c6a5af839e26c104329623f">deinit</a> ()</td></tr>
 <tr class="separator:ac69a03632c6a5af839e26c104329623f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a6498bd8c05f7741d91cabb408ef65f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d58/class_definition_alias_impl.html#a8a6498bd8c05f7741d91cabb408ef65f">name</a> () const</td></tr>
-<tr class="separator:a8a6498bd8c05f7741d91cabb408ef65f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f2d163cd7cb80213e25fb579d6954dd"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d58/class_definition_alias_impl.html#a6f2d163cd7cb80213e25fb579d6954dd">name</a> () const</td></tr>
+<tr class="separator:a6f2d163cd7cb80213e25fb579d6954dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7299ae69c73abb03e1c8bd2d33b89520"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d58/class_definition_alias_impl.html#a7299ae69c73abb03e1c8bd2d33b89520">qualifiedName</a> () const</td></tr>
 <tr class="separator:a7299ae69c73abb03e1c8bd2d33b89520"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:abfb57319c262c0fc3b3e8e3003e7b93d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d58/class_definition_alias_impl.html#abfb57319c262c0fc3b3e8e3003e7b93d">updateQualifiedName</a> () const</td></tr>
+<tr class="separator:abfb57319c262c0fc3b3e8e3003e7b93d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -170,13 +176,13 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01883">1883</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1884</span>      : <a class="code hl_variable" href="../../d0/d58/class_definition_alias_impl.html#ad3335938c0fb3f300036e664a9292fe5">m_def</a>(def), <a class="code hl_variable" href="../../d0/d58/class_definition_alias_impl.html#a6717eb1c9ebc5995e53161ace900a995">m_scope</a>(scope), <a class="code hl_variable" href="../../d0/d58/class_definition_alias_impl.html#a9c529b304828a58dde379c54da9d1af6">m_symbolName</a>(alias-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#adedbc8425512085879cca32d6351b0fc">_symbolName</a>())</div>
-<div class="line"><span class="lineno"> 1885</span>{</div>
-<div class="line"><span class="lineno"> 1886</span>}</div>
-<div class="ttc" id="aclass_definition_alias_impl_html_a6717eb1c9ebc5995e53161ace900a995"><div class="ttname"><a href="../../d0/d58/class_definition_alias_impl.html#a6717eb1c9ebc5995e53161ace900a995">DefinitionAliasImpl::m_scope</a></div><div class="ttdeci">const Definition * m_scope</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dab/definitionimpl_8h_source.html#l00306">definitionimpl.h:306</a></div></div>
-<div class="ttc" id="aclass_definition_alias_impl_html_a9c529b304828a58dde379c54da9d1af6"><div class="ttname"><a href="../../d0/d58/class_definition_alias_impl.html#a9c529b304828a58dde379c54da9d1af6">DefinitionAliasImpl::m_symbolName</a></div><div class="ttdeci">QCString m_symbolName</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dab/definitionimpl_8h_source.html#l00307">definitionimpl.h:307</a></div></div>
-<div class="ttc" id="aclass_definition_alias_impl_html_ad3335938c0fb3f300036e664a9292fe5"><div class="ttname"><a href="../../d0/d58/class_definition_alias_impl.html#ad3335938c0fb3f300036e664a9292fe5">DefinitionAliasImpl::m_def</a></div><div class="ttdeci">Definition * m_def</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dab/definitionimpl_8h_source.html#l00305">definitionimpl.h:305</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01887">1887</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1888</span>      : <a class="code hl_variable" href="../../d0/d58/class_definition_alias_impl.html#ad3335938c0fb3f300036e664a9292fe5">m_def</a>(def), <a class="code hl_variable" href="../../d0/d58/class_definition_alias_impl.html#a6717eb1c9ebc5995e53161ace900a995">m_scope</a>(scope), <a class="code hl_variable" href="../../d0/d58/class_definition_alias_impl.html#a9c529b304828a58dde379c54da9d1af6">m_symbolName</a>(alias-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#adedbc8425512085879cca32d6351b0fc">_symbolName</a>())</div>
+<div class="line"><span class="lineno"> 1889</span>{</div>
+<div class="line"><span class="lineno"> 1890</span>}</div>
+<div class="ttc" id="aclass_definition_alias_impl_html_a6717eb1c9ebc5995e53161ace900a995"><div class="ttname"><a href="../../d0/d58/class_definition_alias_impl.html#a6717eb1c9ebc5995e53161ace900a995">DefinitionAliasImpl::m_scope</a></div><div class="ttdeci">const Definition * m_scope</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d58/class_definition_alias_impl.html#l00307">definitionimpl.h:307</a></div></div>
+<div class="ttc" id="aclass_definition_alias_impl_html_a9c529b304828a58dde379c54da9d1af6"><div class="ttname"><a href="../../d0/d58/class_definition_alias_impl.html#a9c529b304828a58dde379c54da9d1af6">DefinitionAliasImpl::m_symbolName</a></div><div class="ttdeci">QCString m_symbolName</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d58/class_definition_alias_impl.html#l00308">definitionimpl.h:308</a></div></div>
+<div class="ttc" id="aclass_definition_alias_impl_html_ad3335938c0fb3f300036e664a9292fe5"><div class="ttname"><a href="../../d0/d58/class_definition_alias_impl.html#ad3335938c0fb3f300036e664a9292fe5">DefinitionAliasImpl::m_def</a></div><div class="ttdeci">Definition * m_def</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d58/class_definition_alias_impl.html#l00306">definitionimpl.h:306</a></div></div>
 <div class="ttc" id="aclass_definition_html_adedbc8425512085879cca32d6351b0fc"><div class="ttname"><a href="../../d5/dcc/class_definition.html#adedbc8425512085879cca32d6351b0fc">Definition::_symbolName</a></div><div class="ttdeci">virtual QCString _symbolName() const =0</div></div>
 </div><!-- fragment -->
 </div>
@@ -204,9 +210,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01888">1888</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1889</span>{</div>
-<div class="line"><span class="lineno"> 1890</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01892">1892</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1893</span>{</div>
+<div class="line"><span class="lineno"> 1894</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -226,15 +232,15 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01898">1898</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1899</span>{</div>
-<div class="line"><span class="lineno"> 1900</span>  <a class="code hl_function" href="../../d3/dea/definition_8cpp.html#a19333e44397bbe89c9c283e0b1181f86">removeFromMap</a>(<a class="code hl_variable" href="../../d0/d58/class_definition_alias_impl.html#a9c529b304828a58dde379c54da9d1af6">m_symbolName</a>,<a class="code hl_variable" href="../../d0/d58/class_definition_alias_impl.html#ad3335938c0fb3f300036e664a9292fe5">m_def</a>);</div>
-<div class="line"><span class="lineno"> 1901</span>}</div>
-<div class="ttc" id="adefinition_8cpp_html_a19333e44397bbe89c9c283e0b1181f86"><div class="ttname"><a href="../../d3/dea/definition_8cpp.html#a19333e44397bbe89c9c283e0b1181f86">removeFromMap</a></div><div class="ttdeci">static void removeFromMap(const QCString &amp;name, Definition *d)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l00235">definition.cpp:235</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01902">1902</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1903</span>{</div>
+<div class="line"><span class="lineno"> 1904</span>  <a class="code hl_function" href="../../d3/dea/definition_8cpp.html#a19333e44397bbe89c9c283e0b1181f86">removeFromMap</a>(<a class="code hl_variable" href="../../d0/d58/class_definition_alias_impl.html#a9c529b304828a58dde379c54da9d1af6">m_symbolName</a>,<a class="code hl_variable" href="../../d0/d58/class_definition_alias_impl.html#ad3335938c0fb3f300036e664a9292fe5">m_def</a>);</div>
+<div class="line"><span class="lineno"> 1905</span>}</div>
+<div class="ttc" id="adefinition_8cpp_html_a19333e44397bbe89c9c283e0b1181f86"><div class="ttname"><a href="../../d3/dea/definition_8cpp.html#a19333e44397bbe89c9c283e0b1181f86">removeFromMap</a></div><div class="ttdeci">static void removeFromMap(const QCString &amp;name, Definition *d)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp.html#l00235">definition.cpp:235</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00305">m_def</a>, <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00307">m_symbolName</a>, and <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00235">removeFromMap()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00306">m_def</a>, <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00308">m_symbolName</a>, and <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00235">removeFromMap()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00319">DefinitionAliasMixin&lt; Base &gt;::deinit()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00320">DefinitionAliasMixin&lt; Base &gt;::deinit()</a>.</p>
 
 </div>
 </div>
@@ -253,27 +259,27 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01892">1892</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1893</span>{</div>
-<div class="line"><span class="lineno"> 1894</span>  <span class="comment">//printf(&quot;%s::addToMap(%s)\n&quot;,qPrint(name()),qPrint(alias-&gt;name()));</span></div>
-<div class="line"><span class="lineno"> 1895</span>  <a class="code hl_function" href="../../d3/dea/definition_8cpp.html#a29d1f8fcda9166d21abaf8d785c378c5">addToMap</a>(<a class="code hl_variable" href="../../d0/d58/class_definition_alias_impl.html#a9c529b304828a58dde379c54da9d1af6">m_symbolName</a>,<a class="code hl_variable" href="../../d0/d58/class_definition_alias_impl.html#ad3335938c0fb3f300036e664a9292fe5">m_def</a>);</div>
-<div class="line"><span class="lineno"> 1896</span>}</div>
-<div class="ttc" id="adefinition_8cpp_html_a29d1f8fcda9166d21abaf8d785c378c5"><div class="ttname"><a href="../../d3/dea/definition_8cpp.html#a29d1f8fcda9166d21abaf8d785c378c5">addToMap</a></div><div class="ttdeci">static void addToMap(const QCString &amp;name, Definition *d)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l00220">definition.cpp:220</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01896">1896</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1897</span>{</div>
+<div class="line"><span class="lineno"> 1898</span>  <span class="comment">//printf(&quot;%s::addToMap(%s)\n&quot;,qPrint(name()),qPrint(alias-&gt;name()));</span></div>
+<div class="line"><span class="lineno"> 1899</span>  <a class="code hl_function" href="../../d3/dea/definition_8cpp.html#a29d1f8fcda9166d21abaf8d785c378c5">addToMap</a>(<a class="code hl_variable" href="../../d0/d58/class_definition_alias_impl.html#a9c529b304828a58dde379c54da9d1af6">m_symbolName</a>,<a class="code hl_variable" href="../../d0/d58/class_definition_alias_impl.html#ad3335938c0fb3f300036e664a9292fe5">m_def</a>);</div>
+<div class="line"><span class="lineno"> 1900</span>}</div>
+<div class="ttc" id="adefinition_8cpp_html_a29d1f8fcda9166d21abaf8d785c378c5"><div class="ttname"><a href="../../d3/dea/definition_8cpp.html#a29d1f8fcda9166d21abaf8d785c378c5">addToMap</a></div><div class="ttdeci">static void addToMap(const QCString &amp;name, Definition *d)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp.html#l00220">definition.cpp:220</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00220">addToMap()</a>, <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00305">m_def</a>, and <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00307">m_symbolName</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00220">addToMap()</a>, <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00306">m_def</a>, and <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00308">m_symbolName</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00318">DefinitionAliasMixin&lt; Base &gt;::init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00319">DefinitionAliasMixin&lt; Base &gt;::init()</a>.</p>
 
 </div>
 </div>
-<a id="a8a6498bd8c05f7741d91cabb408ef65f" name="a8a6498bd8c05f7741d91cabb408ef65f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a6498bd8c05f7741d91cabb408ef65f">&#9670;&#160;</a></span>name()</h2>
+<a id="a6f2d163cd7cb80213e25fb579d6954dd" name="a6f2d163cd7cb80213e25fb579d6954dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f2d163cd7cb80213e25fb579d6954dd">&#9670;&#160;</a></span>name()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> DefinitionAliasImpl::name </td>
+          <td class="memname">const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp; DefinitionAliasImpl::name </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -281,15 +287,17 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01918">1918</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1919</span>{</div>
-<div class="line"><span class="lineno"> 1920</span>  <span class="keywordflow">return</span> <a class="code hl_function" href="../../d0/d58/class_definition_alias_impl.html#a7299ae69c73abb03e1c8bd2d33b89520">qualifiedName</a>();</div>
-<div class="line"><span class="lineno"> 1921</span>}</div>
-<div class="ttc" id="aclass_definition_alias_impl_html_a7299ae69c73abb03e1c8bd2d33b89520"><div class="ttname"><a href="../../d0/d58/class_definition_alias_impl.html#a7299ae69c73abb03e1c8bd2d33b89520">DefinitionAliasImpl::qualifiedName</a></div><div class="ttdeci">QCString qualifiedName() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp_source.html#l01903">definition.cpp:1903</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01932">1932</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1933</span>{</div>
+<div class="line"><span class="lineno"> 1934</span>  <a class="code hl_function" href="../../d0/d58/class_definition_alias_impl.html#abfb57319c262c0fc3b3e8e3003e7b93d">updateQualifiedName</a>();</div>
+<div class="line"><span class="lineno"> 1935</span>  <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/d58/class_definition_alias_impl.html#a765809a9738abcab01e70b0e3d867187">m_qualifiedName</a>;</div>
+<div class="line"><span class="lineno"> 1936</span>}</div>
+<div class="ttc" id="aclass_definition_alias_impl_html_a765809a9738abcab01e70b0e3d867187"><div class="ttname"><a href="../../d0/d58/class_definition_alias_impl.html#a765809a9738abcab01e70b0e3d867187">DefinitionAliasImpl::m_qualifiedName</a></div><div class="ttdeci">QCString m_qualifiedName</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d58/class_definition_alias_impl.html#l00309">definitionimpl.h:309</a></div></div>
+<div class="ttc" id="aclass_definition_alias_impl_html_abfb57319c262c0fc3b3e8e3003e7b93d"><div class="ttname"><a href="../../d0/d58/class_definition_alias_impl.html#abfb57319c262c0fc3b3e8e3003e7b93d">DefinitionAliasImpl::updateQualifiedName</a></div><div class="ttdeci">void updateQualifiedName() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d58/class_definition_alias_impl.html#l01907">definition.cpp:1907</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01903">qualifiedName()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00309">m_qualifiedName</a>, and <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01907">updateQualifiedName()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00326">DefinitionAliasMixin&lt; Base &gt;::name()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00327">DefinitionAliasMixin&lt; Base &gt;::name()</a>.</p>
 
 </div>
 </div>
@@ -308,28 +316,69 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01903">1903</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1904</span>{</div>
-<div class="line"><span class="lineno"> 1905</span>  <span class="comment">//printf(&quot;start %s::qualifiedName() localName=%s\n&quot;,qPrint(name()),qPrint(m_impl-&gt;localName));</span></div>
-<div class="line"><span class="lineno"> 1906</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d58/class_definition_alias_impl.html#a6717eb1c9ebc5995e53161ace900a995">m_scope</a>==0)</div>
-<div class="line"><span class="lineno"> 1907</span>  {</div>
-<div class="line"><span class="lineno"> 1908</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/d58/class_definition_alias_impl.html#ad3335938c0fb3f300036e664a9292fe5">m_def</a>-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#a668807a06c8aabd306d866954335a728">localName</a>();</div>
-<div class="line"><span class="lineno"> 1909</span>  }</div>
-<div class="line"><span class="lineno"> 1910</span>  <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno"> 1911</span>  {</div>
-<div class="line"><span class="lineno"> 1912</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/d58/class_definition_alias_impl.html#a6717eb1c9ebc5995e53161ace900a995">m_scope</a>-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#ac3bc44bb9d5b4c8d1957f06222a5e0d7">qualifiedName</a>()+</div>
-<div class="line"><span class="lineno"> 1913</span>           <a class="code hl_function" href="../../df/d2d/util_8cpp.html#aab590e3dd52a9375bb3afe31dc6f8609">getLanguageSpecificSeparator</a>(<a class="code hl_variable" href="../../d0/d58/class_definition_alias_impl.html#a6717eb1c9ebc5995e53161ace900a995">m_scope</a>-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#a0dda9f50f2f9754e6341a10373eafec7">getLanguage</a>())+</div>
-<div class="line"><span class="lineno"> 1914</span>           <a class="code hl_variable" href="../../d0/d58/class_definition_alias_impl.html#ad3335938c0fb3f300036e664a9292fe5">m_def</a>-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#a668807a06c8aabd306d866954335a728">localName</a>();</div>
-<div class="line"><span class="lineno"> 1915</span>  }</div>
-<div class="line"><span class="lineno"> 1916</span>}</div>
-<div class="ttc" id="aclass_definition_html_a0dda9f50f2f9754e6341a10373eafec7"><div class="ttname"><a href="../../d5/dcc/class_definition.html#a0dda9f50f2f9754e6341a10373eafec7">Definition::getLanguage</a></div><div class="ttdeci">virtual SrcLangExt getLanguage() const =0</div><div class="ttdoc">Returns the programming language this definition was written in.</div></div>
-<div class="ttc" id="aclass_definition_html_a668807a06c8aabd306d866954335a728"><div class="ttname"><a href="../../d5/dcc/class_definition.html#a668807a06c8aabd306d866954335a728">Definition::localName</a></div><div class="ttdeci">virtual QCString localName() const =0</div></div>
-<div class="ttc" id="aclass_definition_html_ac3bc44bb9d5b4c8d1957f06222a5e0d7"><div class="ttname"><a href="../../d5/dcc/class_definition.html#ac3bc44bb9d5b4c8d1957f06222a5e0d7">Definition::qualifiedName</a></div><div class="ttdeci">virtual QCString qualifiedName() const =0</div></div>
-<div class="ttc" id="autil_8cpp_html_aab590e3dd52a9375bb3afe31dc6f8609"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#aab590e3dd52a9375bb3afe31dc6f8609">getLanguageSpecificSeparator</a></div><div class="ttdeci">QCString getLanguageSpecificSeparator(SrcLangExt lang, bool classScope)</div><div class="ttdoc">Returns the scope separator to use given the programming language lang.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l06254">util.cpp:6254</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01926">1926</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1927</span>{</div>
+<div class="line"><span class="lineno"> 1928</span>  <a class="code hl_function" href="../../d0/d58/class_definition_alias_impl.html#abfb57319c262c0fc3b3e8e3003e7b93d">updateQualifiedName</a>();</div>
+<div class="line"><span class="lineno"> 1929</span>  <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/d58/class_definition_alias_impl.html#a765809a9738abcab01e70b0e3d867187">m_qualifiedName</a>;</div>
+<div class="line"><span class="lineno"> 1930</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/dcc/class_definition.html#a0dda9f50f2f9754e6341a10373eafec7">Definition::getLanguage()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l06254">getLanguageSpecificSeparator()</a>, <a class="el" href="../../d5/dcc/class_definition.html#a668807a06c8aabd306d866954335a728">Definition::localName()</a>, <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00305">m_def</a>, <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00306">m_scope</a>, and <a class="el" href="../../d5/dcc/class_definition.html#ac3bc44bb9d5b4c8d1957f06222a5e0d7">Definition::qualifiedName()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00309">m_qualifiedName</a>, and <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01907">updateQualifiedName()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01918">name()</a>, and <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00332">DefinitionAliasMixin&lt; Base &gt;::qualifiedName()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00333">DefinitionAliasMixin&lt; Base &gt;::qualifiedName()</a>.</p>
+
+</div>
+</div>
+<a id="abfb57319c262c0fc3b3e8e3003e7b93d" name="abfb57319c262c0fc3b3e8e3003e7b93d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfb57319c262c0fc3b3e8e3003e7b93d">&#9670;&#160;</a></span>updateQualifiedName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DefinitionAliasImpl::updateQualifiedName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01907">1907</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1908</span>{</div>
+<div class="line"><span class="lineno"> 1909</span>  std::lock_guard&lt;std::recursive_mutex&gt; lock(<a class="code hl_variable" href="../../d3/dea/definition_8cpp.html#aef4f117a1f0f6eebcd68a693dce76a24">g_qualifiedNameMutex</a>);</div>
+<div class="line"><span class="lineno"> 1910</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d58/class_definition_alias_impl.html#a765809a9738abcab01e70b0e3d867187">m_qualifiedName</a>.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
+<div class="line"><span class="lineno"> 1911</span>  {</div>
+<div class="line"><span class="lineno"> 1912</span>    <span class="comment">//printf(&quot;start %s::qualifiedName() localName=%s\n&quot;,qPrint(name()),qPrint(m_impl-&gt;localName));</span></div>
+<div class="line"><span class="lineno"> 1913</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d58/class_definition_alias_impl.html#a6717eb1c9ebc5995e53161ace900a995">m_scope</a>==0)</div>
+<div class="line"><span class="lineno"> 1914</span>    {</div>
+<div class="line"><span class="lineno"> 1915</span>      <a class="code hl_variable" href="../../d0/d58/class_definition_alias_impl.html#a765809a9738abcab01e70b0e3d867187">m_qualifiedName</a> = <a class="code hl_variable" href="../../d0/d58/class_definition_alias_impl.html#ad3335938c0fb3f300036e664a9292fe5">m_def</a>-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#a089d345e288212dc9ceb08ca1d80b4db">localName</a>();</div>
+<div class="line"><span class="lineno"> 1916</span>    }</div>
+<div class="line"><span class="lineno"> 1917</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1918</span>    {</div>
+<div class="line"><span class="lineno"> 1919</span>      <a class="code hl_variable" href="../../d0/d58/class_definition_alias_impl.html#a765809a9738abcab01e70b0e3d867187">m_qualifiedName</a> = <a class="code hl_variable" href="../../d0/d58/class_definition_alias_impl.html#a6717eb1c9ebc5995e53161ace900a995">m_scope</a>-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#ac3bc44bb9d5b4c8d1957f06222a5e0d7">qualifiedName</a>()+</div>
+<div class="line"><span class="lineno"> 1920</span>        <a class="code hl_function" href="../../df/d2d/util_8cpp.html#aab590e3dd52a9375bb3afe31dc6f8609">getLanguageSpecificSeparator</a>(<a class="code hl_variable" href="../../d0/d58/class_definition_alias_impl.html#a6717eb1c9ebc5995e53161ace900a995">m_scope</a>-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#a0dda9f50f2f9754e6341a10373eafec7">getLanguage</a>())+</div>
+<div class="line"><span class="lineno"> 1921</span>        <a class="code hl_variable" href="../../d0/d58/class_definition_alias_impl.html#ad3335938c0fb3f300036e664a9292fe5">m_def</a>-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#a089d345e288212dc9ceb08ca1d80b4db">localName</a>();</div>
+<div class="line"><span class="lineno"> 1922</span>    }</div>
+<div class="line"><span class="lineno"> 1923</span>  }</div>
+<div class="line"><span class="lineno"> 1924</span>}</div>
+<div class="ttc" id="aclass_definition_html_a089d345e288212dc9ceb08ca1d80b4db"><div class="ttname"><a href="../../d5/dcc/class_definition.html#a089d345e288212dc9ceb08ca1d80b4db">Definition::localName</a></div><div class="ttdeci">virtual const QCString &amp; localName() const =0</div></div>
+<div class="ttc" id="aclass_definition_html_a0dda9f50f2f9754e6341a10373eafec7"><div class="ttname"><a href="../../d5/dcc/class_definition.html#a0dda9f50f2f9754e6341a10373eafec7">Definition::getLanguage</a></div><div class="ttdeci">virtual SrcLangExt getLanguage() const =0</div><div class="ttdoc">Returns the programming language this definition was written in.</div></div>
+<div class="ttc" id="aclass_definition_html_ac3bc44bb9d5b4c8d1957f06222a5e0d7"><div class="ttname"><a href="../../d5/dcc/class_definition.html#ac3bc44bb9d5b4c8d1957f06222a5e0d7">Definition::qualifiedName</a></div><div class="ttdeci">virtual QCString qualifiedName() const =0</div></div>
+<div class="ttc" id="aclass_q_c_string_html_a621c4090d69ad7d05ef8e5234376c3d8"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">QCString::isEmpty</a></div><div class="ttdeci">bool isEmpty() const</div><div class="ttdoc">Returns TRUE iff the string is empty.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d45/class_q_c_string.html#l00138">qcstring.h:138</a></div></div>
+<div class="ttc" id="adefinition_8cpp_html_aef4f117a1f0f6eebcd68a693dce76a24"><div class="ttname"><a href="../../d3/dea/definition_8cpp.html#aef4f117a1f0f6eebcd68a693dce76a24">g_qualifiedNameMutex</a></div><div class="ttdeci">static std::recursive_mutex g_qualifiedNameMutex</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp.html#l01290">definition.cpp:1290</a></div></div>
+<div class="ttc" id="autil_8cpp_html_aab590e3dd52a9375bb3afe31dc6f8609"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#aab590e3dd52a9375bb3afe31dc6f8609">getLanguageSpecificSeparator</a></div><div class="ttdeci">QCString getLanguageSpecificSeparator(SrcLangExt lang, bool classScope)</div><div class="ttdoc">Returns the scope separator to use given the programming language lang.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp.html#l06257">util.cpp:6257</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01290">g_qualifiedNameMutex</a>, <a class="el" href="../../d5/dcc/class_definition.html#a0dda9f50f2f9754e6341a10373eafec7">Definition::getLanguage()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l06257">getLanguageSpecificSeparator()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00138">QCString::isEmpty()</a>, <a class="el" href="../../d5/dcc/class_definition.html#a089d345e288212dc9ceb08ca1d80b4db">Definition::localName()</a>, <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00306">m_def</a>, <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00309">m_qualifiedName</a>, <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00307">m_scope</a>, and <a class="el" href="../../d5/dcc/class_definition.html#ac3bc44bb9d5b4c8d1957f06222a5e0d7">Definition::qualifiedName()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01932">name()</a>, and <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01926">qualifiedName()</a>.</p>
 
 </div>
 </div>
@@ -354,9 +403,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00305">305</a> of file <a class="el" href="../../d2/dab/definitionimpl_8h_source.html">definitionimpl.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00306">306</a> of file <a class="el" href="../../d2/dab/definitionimpl_8h_source.html">definitionimpl.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01898">deinit()</a>, <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01892">init()</a>, and <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01903">qualifiedName()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01902">deinit()</a>, <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01896">init()</a>, and <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01907">updateQualifiedName()</a>.</p>
 
 </div>
 </div>
@@ -375,12 +424,14 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00308">308</a> of file <a class="el" href="../../d2/dab/definitionimpl_8h_source.html">definitionimpl.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00309">309</a> of file <a class="el" href="../../d2/dab/definitionimpl_8h_source.html">definitionimpl.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01932">name()</a>, <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01926">qualifiedName()</a>, and <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01907">updateQualifiedName()</a>.</p>
 
 </div>
 </div>
@@ -404,9 +455,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00306">306</a> of file <a class="el" href="../../d2/dab/definitionimpl_8h_source.html">definitionimpl.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00307">307</a> of file <a class="el" href="../../d2/dab/definitionimpl_8h_source.html">definitionimpl.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01903">qualifiedName()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01907">updateQualifiedName()</a>.</p>
 
 </div>
 </div>
@@ -430,9 +481,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00307">307</a> of file <a class="el" href="../../d2/dab/definitionimpl_8h_source.html">definitionimpl.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/dab/definitionimpl_8h_source.html#l00308">308</a> of file <a class="el" href="../../d2/dab/definitionimpl_8h_source.html">definitionimpl.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01898">deinit()</a>, and <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01892">init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01902">deinit()</a>, and <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01896">init()</a>.</p>
 
 </div>
 </div>

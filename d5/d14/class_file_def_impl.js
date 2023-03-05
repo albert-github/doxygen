@@ -59,7 +59,7 @@ var class_file_def_impl =
     [ "isLinkable", "d5/d14/class_file_def_impl.html#ac0760e55738bffa34a014b774375f44d", null ],
     [ "isLinkableInProject", "d5/d14/class_file_def_impl.html#aa7e889ad1b087b9dd93b68efdafb6d51", null ],
     [ "isSource", "d5/d14/class_file_def_impl.html#a297417c032ebb4150a46147df18801e9", null ],
-    [ "name", "d5/d14/class_file_def_impl.html#af09750b8bb362bd1a5c4be32991ee20b", null ],
+    [ "name", "d5/d14/class_file_def_impl.html#a12d5dba2b438c0c3475562fb00f3b482", null ],
     [ "numDecMembers", "d5/d14/class_file_def_impl.html#aa93be33fb578dd3ac1c28a758ab49e09", null ],
     [ "numDocMembers", "d5/d14/class_file_def_impl.html#a6f16682d2ba15dcf1cbd0439aebe52ad", null ],
     [ "packageDef", "d5/d14/class_file_def_impl.html#a57542dfa8fa02e7e1de83301a6b012ab", null ],

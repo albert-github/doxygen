@@ -226,8 +226,8 @@ var NAVTREEINDEX5 =
 "d0/db2/struct_html_attrib.html#a89bb7f09a717b34af2fc9b5466adad63":[8,0,312,0],
 "d0/db4/struct_output_gen_intf_1_1write_quick_links.html":[7,0,10,180],
 "d0/db4/struct_output_gen_intf_1_1write_quick_links.html":[8,0,5,180],
-"d0/db4/struct_output_gen_intf_1_1write_quick_links.html#abd88541cffe2489d22901d95b8ac8648":[8,0,5,180,0],
 "d0/db4/struct_output_gen_intf_1_1write_quick_links.html#abd88541cffe2489d22901d95b8ac8648":[7,0,10,180,0],
+"d0/db4/struct_output_gen_intf_1_1write_quick_links.html#abd88541cffe2489d22901d95b8ac8648":[8,0,5,180,0],
 "d0/db8/group__template__api.html":[6,0],
 "d0/db8/group__template__api.html#ga721a09a9636793ccb7ae9db5aeef5751":[6,0,10],
 "d0/dbb/struct_anchor_generator_1_1_private.html":[8,0,13,0],
@@ -247,7 +247,7 @@ var NAVTREEINDEX5 =
 "d0/dc2/class_class_def_mutable.html#a1ba28a556105e009bab4a3a1321e4de9":[8,0,41,10],
 "d0/dc2/class_class_def_mutable.html#a1c90cadafedf7c5aabf13652c88929d9":[8,0,41,3],
 "d0/dc2/class_class_def_mutable.html#a2612e395bff76cdb264d5e2a2165ddd2":[8,0,41,17],
-"d0/dc2/class_class_def_mutable.html#a28f3153dca572de010e0123e2efbb7a5":[8,0,41,38],
+"d0/dc2/class_class_def_mutable.html#a28f3153dca572de010e0123e2efbb7a5":[8,0,41,37],
 "d0/dc2/class_class_def_mutable.html#a30706a65a1692c85e8791a82ab40fad4":[8,0,41,31],
 "d0/dc2/class_class_def_mutable.html#a433e1fc2bf9d074747f0e7479d1c9653":[8,0,41,27]
 };

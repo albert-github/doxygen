@@ -1,5 +1,6 @@
 var NAVTREEINDEX69 =
 {
+"d9/d49/types_8h.html#abe8ad5992f8938a28f918f51b199aa19a1483537e3b2db0fd694f83062c71ff9a":[9,0,2,294,5,30],
 "d9/d49/types_8h.html#abe8ad5992f8938a28f918f51b199aa19a148db9c1db1f39f7df74ed36c9f66c91":[9,0,2,294,5,24],
 "d9/d49/types_8h.html#abe8ad5992f8938a28f918f51b199aa19a17703ad9cbbe96912fb4270eac00f1c6":[9,0,2,294,5,25],
 "d9/d49/types_8h.html#abe8ad5992f8938a28f918f51b199aa19a1b9b145ce71dd7273122841ae5895803":[9,0,2,294,5,72],
@@ -168,15 +169,15 @@ var NAVTREEINDEX69 =
 "d9/d60/struct_output_gen_intf_1_1write_non_breakable_space.html#ab1aff117e93260a19ae4907b66e97868":[8,0,5,177,0],
 "d9/d61/struct_output_gen_intf_1_1start_member_list.html":[7,0,10,142],
 "d9/d61/struct_output_gen_intf_1_1start_member_list.html":[8,0,5,142],
-"d9/d61/struct_output_gen_intf_1_1start_member_list.html#a0c2a45151eaceea31315bfd4bf58621d":[8,0,5,142,0],
 "d9/d61/struct_output_gen_intf_1_1start_member_list.html#a0c2a45151eaceea31315bfd4bf58621d":[7,0,10,142,0],
+"d9/d61/struct_output_gen_intf_1_1start_member_list.html#a0c2a45151eaceea31315bfd4bf58621d":[8,0,5,142,0],
 "d9/d67/xmlgen_8h.html":[9,0,2,310],
 "d9/d67/xmlgen_8h.html#a0f9b3e222369b7d908441a0825b0da84":[9,0,2,310,1],
 "d9/d67/xmlgen_8h_source.html":[9,0,2,310],
-"d9/d6a/struct_output_gen_intf_1_1end_description.html":[7,0,10,17],
 "d9/d6a/struct_output_gen_intf_1_1end_description.html":[8,0,5,17],
-"d9/d6a/struct_output_gen_intf_1_1end_description.html#a1473f58391a51120974d908fe6eeabd7":[7,0,10,17,0],
+"d9/d6a/struct_output_gen_intf_1_1end_description.html":[7,0,10,17],
 "d9/d6a/struct_output_gen_intf_1_1end_description.html#a1473f58391a51120974d908fe6eeabd7":[8,0,5,17,0],
+"d9/d6a/struct_output_gen_intf_1_1end_description.html#a1473f58391a51120974d908fe6eeabd7":[7,0,10,17,0],
 "d9/d6f/class_doc_hor_ruler.html":[8,0,137],
 "d9/d6f/class_doc_hor_ruler.html#a2efd7680497405439169253a2ff54f8c":[8,0,137,0],
 "d9/d6f/class_doc_hor_ruler.html#a9e8202ce32e7909dc82993ee5807aa0c":[8,0,137,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX69 =
 "d9/d82/class_translator_croatian.html#a2e54fa1f855382254d6f5b946f1b1a12":[8,0,584,204],
 "d9/d82/class_translator_croatian.html#a2ec11b484592c745ecf94fe788547869":[8,0,584,61],
 "d9/d82/class_translator_croatian.html#a2ed67492cfd56be401198d8154de28b7":[8,0,584,224],
-"d9/d82/class_translator_croatian.html#a2ee55704cd6ed2b874fb3ae0a33a5409":[8,0,584,206],
-"d9/d82/class_translator_croatian.html#a30ab02a12a1ff7ec6f1b92b9e68ea3b2":[8,0,584,154]
+"d9/d82/class_translator_croatian.html#a2ee55704cd6ed2b874fb3ae0a33a5409":[8,0,584,206]
 };

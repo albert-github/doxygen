@@ -12,7 +12,7 @@ var util_8cpp =
     [ "REL_PATH_TO_ROOT", "df/d2d/util_8cpp.html#a3bcba7d94ad097efd01a67432ec74e17", null ],
     [ "addCodeOnlyMappings", "df/d2d/util_8cpp.html#a2a25909e621a15bb253eb0d6a7d1db13", null ],
     [ "addGroupListToTitle", "df/d2d/util_8cpp.html#a6c4285f255bbb17f7c3d308d222334cf", null ],
-    [ "addHtmlExtensionIfMissing", "df/d2d/util_8cpp.html#a36c74291c5a9adc05d5cb6c0932f6b82", null ],
+    [ "addHtmlExtensionIfMissing", "df/d2d/util_8cpp.html#afeb116177e3265cffe5a3b810461194f", null ],
     [ "addMembersToMemberGroup", "df/d2d/util_8cpp.html#a629f6fc7b319c74df28381ca2e009d0b", null ],
     [ "addRefItem", "df/d2d/util_8cpp.html#a6c177ac509924d60c71b820d39d28b9f", null ],
     [ "addRelatedPage", "df/d2d/util_8cpp.html#abf3cf996188e39e9eba3a381563cc8aa", null ],

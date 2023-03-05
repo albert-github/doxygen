@@ -8,7 +8,7 @@ var util_8h =
     [ "addCodeOnlyMappings", "d8/d3c/util_8h.html#a2a25909e621a15bb253eb0d6a7d1db13", null ],
     [ "addDirPrefix", "d8/d3c/util_8h.html#a83849c25ca67f4a8fd4f2870736a9550", null ],
     [ "addGroupListToTitle", "d8/d3c/util_8h.html#a6c4285f255bbb17f7c3d308d222334cf", null ],
-    [ "addHtmlExtensionIfMissing", "d8/d3c/util_8h.html#a36c74291c5a9adc05d5cb6c0932f6b82", null ],
+    [ "addHtmlExtensionIfMissing", "d8/d3c/util_8h.html#afeb116177e3265cffe5a3b810461194f", null ],
     [ "addMembersToMemberGroup", "d8/d3c/util_8h.html#a629f6fc7b319c74df28381ca2e009d0b", null ],
     [ "addRefItem", "d8/d3c/util_8h.html#a6c177ac509924d60c71b820d39d28b9f", null ],
     [ "addRelatedPage", "d8/d3c/util_8h.html#a46249278ab2467dfe8f11f1b90b3af99", null ],

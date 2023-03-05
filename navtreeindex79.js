@@ -1,5 +1,6 @@
 var NAVTREEINDEX79 =
 {
+"da/d36/class_search_index.html#a2d410345f7d657bb9d6a1ba014f09560":[8,0,470,12],
 "da/d36/class_search_index.html#a32913d63f72fe21010e49b4f77bc5cfd":[8,0,470,5],
 "da/d36/class_search_index.html#a3682b0b970d4422622723a8abe4d35ca":[8,0,470,4],
 "da/d36/class_search_index.html#a40461e0e23f44bd6c1ec8fd42fd3a54e":[8,0,470,10],
@@ -87,12 +88,12 @@ var NAVTREEINDEX79 =
 "da/d4e/struct_citation_manager_1_1_private.html":[8,0,32,0],
 "da/d4e/struct_citation_manager_1_1_private.html#a1b060e55fdd945e3f802942708c36c4b":[8,0,32,0,0],
 "da/d4e/struct_citation_manager_1_1_private.html#aebb64cb55fe9bfcc582ee70a1378f7d9":[8,0,32,0,1],
-"da/d52/struct_output_gen_intf_1_1end_member_doc_simple.html":[7,0,10,53],
 "da/d52/struct_output_gen_intf_1_1end_member_doc_simple.html":[8,0,5,53],
-"da/d52/struct_output_gen_intf_1_1end_member_doc_simple.html#a68ae9d3f1775f4415034fa33912c0c98":[7,0,10,53,0],
+"da/d52/struct_output_gen_intf_1_1end_member_doc_simple.html":[7,0,10,53],
 "da/d52/struct_output_gen_intf_1_1end_member_doc_simple.html#a68ae9d3f1775f4415034fa33912c0c98":[8,0,5,53,0],
-"da/d52/struct_output_gen_intf_1_1write_ruler.html":[8,0,5,181],
+"da/d52/struct_output_gen_intf_1_1end_member_doc_simple.html#a68ae9d3f1775f4415034fa33912c0c98":[7,0,10,53,0],
 "da/d52/struct_output_gen_intf_1_1write_ruler.html":[7,0,10,181],
+"da/d52/struct_output_gen_intf_1_1write_ruler.html":[8,0,5,181],
 "da/d52/struct_output_gen_intf_1_1write_ruler.html#a5518c238e181da668e4803af382b95da":[7,0,10,181,0],
 "da/d52/struct_output_gen_intf_1_1write_ruler.html#a5518c238e181da668e4803af382b95da":[8,0,5,181,0],
 "da/d55/parserintf_8h.html":[9,0,2,189],
@@ -247,7 +248,6 @@ var NAVTREEINDEX79 =
 "da/d7e/class_member_name.html#af5b01c0bc171ba35e0bc2a33d9c88563":[8,0,395,21],
 "da/d80/struct_output_gen_intf_1_1start_parameter_type.html":[8,0,5,151],
 "da/d80/struct_output_gen_intf_1_1start_parameter_type.html":[7,0,10,151],
-"da/d80/struct_output_gen_intf_1_1start_parameter_type.html#a685d7816bcd26c476a48e03edaa18835":[7,0,10,151,0],
 "da/d80/struct_output_gen_intf_1_1start_parameter_type.html#a685d7816bcd26c476a48e03edaa18835":[8,0,5,151,0],
-"da/d86/struct_output_gen_intf_1_1write_logo.html":[8,0,5,175]
+"da/d80/struct_output_gen_intf_1_1start_parameter_type.html#a685d7816bcd26c476a48e03edaa18835":[7,0,10,151,0]
 };

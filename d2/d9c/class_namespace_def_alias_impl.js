@@ -30,7 +30,7 @@ var class_namespace_def_alias_impl =
     [ "isLinkable", "d2/d9c/class_namespace_def_alias_impl.html#ad25bf550e369c84924d8c8ef97abff3d", null ],
     [ "isLinkableInProject", "d2/d9c/class_namespace_def_alias_impl.html#a89edc4dce87fb81414f7714eafd661d2", null ],
     [ "isModule", "d2/d9c/class_namespace_def_alias_impl.html#ae7f2f5964d839e0dafd06913ac947390", null ],
-    [ "localName", "d2/d9c/class_namespace_def_alias_impl.html#aaea4b1fbf2816b934a549f7fe4ee2b8a", null ],
+    [ "localName", "d2/d9c/class_namespace_def_alias_impl.html#aa5b81236b2e3f8165889108604c1b52e", null ],
     [ "numDocMembers", "d2/d9c/class_namespace_def_alias_impl.html#af41015f47f8a44f853f30b298542a9d8", null ],
     [ "subGrouping", "d2/d9c/class_namespace_def_alias_impl.html#a71572cdf4d2582a5c63967e3beda6692", null ],
     [ "title", "d2/d9c/class_namespace_def_alias_impl.html#a0ef4b017038f643abbf98fecf80574e0", null ]

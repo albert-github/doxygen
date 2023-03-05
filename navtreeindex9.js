@@ -1,7 +1,5 @@
 var NAVTREEINDEX9 =
 {
-"d1/d55/translator__ke_8h.html":[9,0,2,273],
-"d1/d55/translator__ke_8h_source.html":[9,0,2,273],
 "d1/d56/class_doc_html_cell.html":[8,0,141],
 "d1/d56/class_doc_html_cell.html#a117087bb36d345bd488208e3c49abc0b":[8,0,141,1],
 "d1/d56/class_doc_html_cell.html#a117087bb36d345bd488208e3c49abc0ba93889b70b0c73a90fcfa7424c9c7a39e":[8,0,141,1,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX9 =
 "d1/d56/class_translator_ukrainian.html#ae45ad40ae8e545339f715cb4e1419bc8":[8,0,618,62],
 "d1/d56/class_translator_ukrainian.html#ae46540cd65797122ef598f88f52d81d9":[8,0,618,204],
 "d1/d56/class_translator_ukrainian.html#ae56f626e326e4b43eb322687da1715a9":[8,0,618,157],
-"d1/d56/class_translator_ukrainian.html#ae788cf995f59ecee84832f0a4db2eb58":[8,0,618,113]
+"d1/d56/class_translator_ukrainian.html#ae788cf995f59ecee84832f0a4db2eb58":[8,0,618,113],
+"d1/d56/class_translator_ukrainian.html#ae81294133bb054f9fe4c2fcf5de8bbc8":[8,0,618,79],
+"d1/d56/class_translator_ukrainian.html#ae8e0b7f26a2e623936d13d959df5c0f3":[8,0,618,214]
 };

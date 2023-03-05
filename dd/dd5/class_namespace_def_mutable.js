@@ -18,6 +18,7 @@ var class_namespace_def_mutable =
     [ "setFileName", "dd/dd5/class_namespace_def_mutable.html#ad52feeac4bc762002bff6422b48d2379", null ],
     [ "setInline", "dd/dd5/class_namespace_def_mutable.html#ab41129b22b4eac9adde902522bcca6c2", null ],
     [ "setMetaData", "dd/dd5/class_namespace_def_mutable.html#a0ec9c65431efc5f65f307a4ec9d75380", null ],
+    [ "setName", "dd/dd5/class_namespace_def_mutable.html#af74f22706fffff76b1b1e68dc31f9421", null ],
     [ "sortMemberLists", "dd/dd5/class_namespace_def_mutable.html#aeb1143134217e3f54bcf8afc34f1ea44", null ],
     [ "writeDocumentation", "dd/dd5/class_namespace_def_mutable.html#aaf529968d452b5863dde3452652b8825", null ],
     [ "writeMemberPages", "dd/dd5/class_namespace_def_mutable.html#ae5f5d879094e2f659fb32c9a2c4822f5", null ],

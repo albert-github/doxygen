@@ -15,6 +15,7 @@ var class_output_generator =
       [ "EnumValues", "d3/d8e/class_output_generator.html#af35a0775b9534f93c6a8bf7d0e3bc3ddaef9a157bd96a2c71347a5e345018e65c", null ],
       [ "Examples", "d3/d8e/class_output_generator.html#af35a0775b9534f93c6a8bf7d0e3bc3dda6025e82586912a14ee6b8a552ec66c27", null ]
     ] ],
+    [ "OutputGenerator", "d3/d8e/class_output_generator.html#a6f6f6c92438ea4e7553e317d5bb17660", null ],
     [ "OutputGenerator", "d3/d8e/class_output_generator.html#a8716724782730065f43ea240f93917b0", null ],
     [ "OutputGenerator", "d3/d8e/class_output_generator.html#abff314405c17f451c6c93c7e68c664d9", null ],
     [ "OutputGenerator", "d3/d8e/class_output_generator.html#af3ae60fca92231b6e72e5f31e4919be7", null ],

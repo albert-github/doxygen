@@ -32,7 +32,6 @@ var class_class_def_mutable =
     [ "setIncludeFile", "d0/dc2/class_class_def_mutable.html#ab8538398ef1512b81297ba04af813924", null ],
     [ "setIsStatic", "d0/dc2/class_class_def_mutable.html#ae43d1ddb8b8a545ca6f12980c3c17034", null ],
     [ "setMetaData", "d0/dc2/class_class_def_mutable.html#a30706a65a1692c85e8791a82ab40fad4", null ],
-    [ "setName", "d0/dc2/class_class_def_mutable.html#a936af1cfff9c4995a482031ba3fe07a1", null ],
     [ "setProtection", "d0/dc2/class_class_def_mutable.html#aad450d410ef63ffbd30b47be5a70e742", null ],
     [ "setRequiresClause", "d0/dc2/class_class_def_mutable.html#a9aeaf894c5b89c28322bcaaeef220c0c", null ],
     [ "setSubGrouping", "d0/dc2/class_class_def_mutable.html#aee97719f20204be072d7de3a445296d7", null ],

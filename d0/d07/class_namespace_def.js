@@ -26,7 +26,6 @@ var class_namespace_def =
     [ "isLinkable", "d0/d07/class_namespace_def.html#a83f9eadff359cd7e2693ba8c2d9f4519", null ],
     [ "isLinkableInProject", "d0/d07/class_namespace_def.html#a3ea579572195bbcf53f2ffeec6f341a0", null ],
     [ "isModule", "d0/d07/class_namespace_def.html#a987a55277c2c4c9c1c3079eed406b46a", null ],
-    [ "localName", "d0/d07/class_namespace_def.html#a644bbee18667ad4241093e318778c507", null ],
     [ "numDocMembers", "d0/d07/class_namespace_def.html#aaab45b155dd9bed40afe75c89ca43314", null ],
     [ "subGrouping", "d0/d07/class_namespace_def.html#aa00feb50dd08718e4bb7d29b86ec3daf", null ],
     [ "title", "d0/d07/class_namespace_def.html#ac592520c3e9e8f2e633b2fae7375ccae", null ]

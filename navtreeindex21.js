@@ -1,6 +1,5 @@
 var NAVTREEINDEX21 =
 {
-"d2/d9c/class_namespace_def_alias_impl.html#af41015f47f8a44f853f30b298542a9d8":[8,0,406,31],
 "d2/da3/class_doc_section.html":[8,0,178],
 "d2/da3/class_doc_section.html#a2ec3db18d3eac81d2c6310c295be4617":[8,0,178,9],
 "d2/da3/class_doc_section.html#a455df233c8ff5617d235a6d63908ab7b":[8,0,178,2],
@@ -147,10 +146,10 @@ var NAVTREEINDEX21 =
 "d2/dbb/class_translate_context.html#aa28c1e0bd111cd7209cc29f1f8ba1be1":[8,0,561,6],
 "d2/dbb/class_translate_context.html#aa4498f8fad11c6ac400c4d17f676bd9a":[8,0,561,2],
 "d2/dbb/class_translate_context.html#ae35d2cbba7b82c4a7eab0672bb76c6f9":[8,0,561,3],
-"d2/dbf/struct_output_gen_intf_1_1exception_entry.html":[7,0,10,82],
 "d2/dbf/struct_output_gen_intf_1_1exception_entry.html":[8,0,5,82],
-"d2/dbf/struct_output_gen_intf_1_1exception_entry.html#aac5a65003ca0b2a3f82de5e473dd8ec5":[7,0,10,82,0],
+"d2/dbf/struct_output_gen_intf_1_1exception_entry.html":[7,0,10,82],
 "d2/dbf/struct_output_gen_intf_1_1exception_entry.html#aac5a65003ca0b2a3f82de5e473dd8ec5":[8,0,5,82,0],
+"d2/dbf/struct_output_gen_intf_1_1exception_entry.html#aac5a65003ca0b2a3f82de5e473dd8ec5":[7,0,10,82,0],
 "d2/dc2/class_dir.html":[8,0,111],
 "d2/dc2/class_dir.html#a0193bcfacdda8d1389685246c9b7b325":[8,0,111,2],
 "d2/dc2/class_dir.html#a0f62ab07068c5f966bca7ce280f4ed49":[8,0,111,8],
@@ -249,5 +248,6 @@ var NAVTREEINDEX21 =
 "d2/dd3/class_config_option.html#a8a744f63445f4cd0ce86d7f423bc7161":[8,0,85,6],
 "d2/dd3/class_config_option.html#aa3ef6fe13a480dad1404aee1bb0f2d11":[8,0,85,28],
 "d2/dd3/class_config_option.html#aaf0c9e86e3c98248442e907e12513dd5":[8,0,85,8],
-"d2/dd3/class_config_option.html#ab89196927c521e95680eb5efdc562187":[8,0,85,12]
+"d2/dd3/class_config_option.html#ab89196927c521e95680eb5efdc562187":[8,0,85,12],
+"d2/dd3/class_config_option.html#ac0dd72c98355eb3e455b8c4ee3f188dd":[8,0,85,4]
 };

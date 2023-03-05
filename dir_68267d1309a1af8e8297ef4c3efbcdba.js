@@ -95,7 +95,7 @@ var dir_68267d1309a1af8e8297ef4c3efbcdba =
     [ "dotgfxhierarchytable.h", "d2/de7/dotgfxhierarchytable_8h.html", "d2/de7/dotgfxhierarchytable_8h" ],
     [ "dotgraph.cpp", "de/d45/dotgraph_8cpp.html", "de/d45/dotgraph_8cpp" ],
     [ "dotgraph.h", "d0/daa/dotgraph_8h.html", "d0/daa/dotgraph_8h" ],
-    [ "dotgroupcollaboration.cpp", "d1/d86/dotgroupcollaboration_8cpp.html", null ],
+    [ "dotgroupcollaboration.cpp", "d1/d86/dotgroupcollaboration_8cpp.html", "d1/d86/dotgroupcollaboration_8cpp" ],
     [ "dotgroupcollaboration.h", "d7/d99/dotgroupcollaboration_8h.html", "d7/d99/dotgroupcollaboration_8h" ],
     [ "dotincldepgraph.cpp", "da/d57/dotincldepgraph_8cpp.html", null ],
     [ "dotincldepgraph.h", "dd/d8c/dotincldepgraph_8h.html", "dd/d8c/dotincldepgraph_8h" ],

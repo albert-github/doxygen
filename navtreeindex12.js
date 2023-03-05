@@ -1,7 +1,5 @@
 var NAVTREEINDEX12 =
 {
-"d1/d72/class_docbook_generator.html#adeba147b33df197d9e0f917d7cd6580e":[8,0,127,205],
-"d1/d72/class_docbook_generator.html#adfc62c799e4573efca9deea8a7b96c31":[8,0,127,207],
 "d1/d72/class_docbook_generator.html#ae0ffcd84340eacbe646826f7d4653f45":[8,0,127,74],
 "d1/d72/class_docbook_generator.html#ae1453894e89e42261578f657d47f9d52":[8,0,127,77],
 "d1/d72/class_docbook_generator.html#ae2ab68a75ffab07764994a3b5e628b7c":[8,0,127,15],
@@ -172,6 +170,7 @@ var NAVTREEINDEX12 =
 "d1/d85/class_tooltip_manager_1_1_private.html":[8,0,560,0],
 "d1/d85/class_tooltip_manager_1_1_private.html#abb5a0621aebad8a1b4224bcd061e941c":[8,0,560,0,0],
 "d1/d86/dotgroupcollaboration_8cpp.html":[9,0,2,95],
+"d1/d86/dotgroupcollaboration_8cpp.html#aa0dc283b279488f29402e4b9db1d1f30":[9,0,2,95,0],
 "d1/d86/dotgroupcollaboration_8cpp_source.html":[9,0,2,95],
 "d1/d86/vhdljjparser_8cpp.html":[9,0,2,303],
 "d1/d86/vhdljjparser_8cpp.html#a0e267341fc8fcfd1947c8b2d69d2ebb2":[9,0,2,303,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX12 =
 "d1/d8a/class_translator_hindi.html#a3936e6c97ec3e47d1d56e009fa287a6e":[8,0,594,253],
 "d1/d8a/class_translator_hindi.html#a3964a5835a6364f3052dabfdb25d564d":[8,0,594,101],
 "d1/d8a/class_translator_hindi.html#a3bd53593e0e45cdb2b4e27d40137abc7":[8,0,594,128],
-"d1/d8a/class_translator_hindi.html#a3c2f7a7f32b30462a372499622fc79f3":[8,0,594,277]
+"d1/d8a/class_translator_hindi.html#a3c2f7a7f32b30462a372499622fc79f3":[8,0,594,277],
+"d1/d8a/class_translator_hindi.html#a3eccb9494596040baa44746eddee0bc3":[8,0,594,199]
 };

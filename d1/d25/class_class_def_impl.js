@@ -116,7 +116,6 @@ var class_class_def_impl =
     [ "setIncludeFile", "d1/d25/class_class_def_impl.html#a497728261ae668c59ecb7f65a5c3c7b2", null ],
     [ "setIsStatic", "d1/d25/class_class_def_impl.html#aec56b60d6b212aed2925b8dc62dc870f", null ],
     [ "setMetaData", "d1/d25/class_class_def_impl.html#ac665c31ba7441b909bf63ab51f867f00", null ],
-    [ "setName", "d1/d25/class_class_def_impl.html#ad3c06a3eaedf3a9658493364a284ab16", null ],
     [ "setProtection", "d1/d25/class_class_def_impl.html#a0b7fe9ca78b11e27a309139cda32391b", null ],
     [ "setRequiresClause", "d1/d25/class_class_def_impl.html#a425f845b557b0b62defc8f830d903d61", null ],
     [ "setSubGrouping", "d1/d25/class_class_def_impl.html#a2d718d8dbf5b79f17b5d2ec4bfe27d4a", null ],
