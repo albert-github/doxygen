@@ -43,6 +43,7 @@ var struct_layout_nav_entry =
     [ "kind", "df/de7/struct_layout_nav_entry.html#abc02648d40526f9a5675f78aac5f2773", null ],
     [ "parent", "df/de7/struct_layout_nav_entry.html#a61a2adf7ec0abb42e49fa07b77eb1690", null ],
     [ "prependChild", "df/de7/struct_layout_nav_entry.html#a39a0c214375c9766d91d79ef80365ab6", null ],
+    [ "setVisible", "df/de7/struct_layout_nav_entry.html#a16b1f25afe49d1fbde290891414fc398", null ],
     [ "title", "df/de7/struct_layout_nav_entry.html#a006dfaa93d3dee670dd4ae22d28a1db7", null ],
     [ "url", "df/de7/struct_layout_nav_entry.html#a1c873f2a034fd33d3c1ddcfcd0c2ecf0", null ],
     [ "visible", "df/de7/struct_layout_nav_entry.html#a14dabfdf60d47142677768a4b0735214", null ],
