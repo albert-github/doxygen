@@ -6,6 +6,6 @@ var msc_8h =
       [ "MSC_SVG", "dc/d66/msc_8h.html#a6cf71dda84c5602c6239cca31028f656a2911e5f83d59bea3c9cbe886b93bd22c", null ]
     ] ],
     [ "getMscImageMapFromFile", "dc/d66/msc_8h.html#a67e28708c6995f956731257a78846696", null ],
-    [ "writeMscGraphFromFile", "dc/d66/msc_8h.html#a9bc09a2eafdeb16f4333068ebdf962ca", null ],
+    [ "writeMscGraphFromFile", "dc/d66/msc_8h.html#a626cc9dd28651c253adec2a944c167ff", null ],
     [ "writeMscImageMapFromFile", "dc/d66/msc_8h.html#a1a9fc7a255fa7160711dd47a9de1695b", null ]
 ];

@@ -15,7 +15,7 @@ var class_dot_class_graph =
     [ "numNodes", "df/d1c/class_dot_class_graph.html#a9c54cc089bf43d0acbdeb1e3fb7cd67a", null ],
     [ "writeDEF", "df/d1c/class_dot_class_graph.html#ac5d14ce11b024e3595c0bc9ed47c14aa", null ],
     [ "writeDocbook", "df/d1c/class_dot_class_graph.html#a1f8508dffa4eb73470c7ab609e72ccd2", null ],
-    [ "writeGraph", "df/d1c/class_dot_class_graph.html#a0273e4e9adfbbe1f601a986636ef79dc", null ],
+    [ "writeGraph", "df/d1c/class_dot_class_graph.html#acbe8c8855bea18cc6f9ac2acd36deff7", null ],
     [ "writeXML", "df/d1c/class_dot_class_graph.html#a38f13c4316472bf09660511bc8fea3fa", null ],
     [ "m_collabFileName", "df/d1c/class_dot_class_graph.html#afbec9c0d10e03e32941d97cf70f86de5", null ],
     [ "m_graphType", "df/d1c/class_dot_class_graph.html#a64b104d45788bdc4776edb26ca004023", null ],
