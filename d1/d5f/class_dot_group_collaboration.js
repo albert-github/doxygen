@@ -21,7 +21,7 @@ var class_dot_group_collaboration =
     [ "getBaseName", "d1/d5f/class_dot_group_collaboration.html#a74d64ef96e3256c6724f923cb34c48eb", null ],
     [ "getMapLabel", "d1/d5f/class_dot_group_collaboration.html#a2ca4f613e0fc5014b659f3d71c93e6ac", null ],
     [ "isTrivial", "d1/d5f/class_dot_group_collaboration.html#aff85d0009e3f7499e83ec7c346025a9e", null ],
-    [ "writeGraph", "d1/d5f/class_dot_group_collaboration.html#a2c0c05315bd533192deafd87e8779c5f", null ],
+    [ "writeGraph", "d1/d5f/class_dot_group_collaboration.html#a1e26ce5a2563ee5144ef66ff9cf88461", null ],
     [ "writeGraphHeader", "d1/d5f/class_dot_group_collaboration.html#a60113bd74bebf89e32507a8e5a303715", null ],
     [ "m_diskName", "d1/d5f/class_dot_group_collaboration.html#adb242ac701301dbd4beb2ba011af5e43", null ],
     [ "m_edges", "d1/d5f/class_dot_group_collaboration.html#a07de7ef68c8e29450010ffa684609401", null ],
