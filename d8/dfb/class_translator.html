@@ -133,7 +133,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a32d242636756c9b302e74454bfb3fa5f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfb/class_translator.html#a32d242636756c9b302e74454bfb3fa5f">trISOLang</a> ()=0</td></tr>
 <tr class="separator:a32d242636756c9b302e74454bfb3fa5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af52da90d0c6a2055ee63d18eb900f171"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfb/class_translator.html#af52da90d0c6a2055ee63d18eb900f171">getLanguageString</a> ()=0</td></tr>
-<tr class="memdesc:af52da90d0c6a2055ee63d18eb900f171"><td class="mdescLeft">&#160;</td><td class="mdescRight">language codes for Html help 0x402 Bulgarian 0x405 Czech 0x406 Danish 0x413 Dutch 0xC09 English (Australia) 0x809 English (Britain) 0x1009 English (Canada) 0x1809 English (Ireland) 0x1409 English (New Zealand) 0x1C09 English (South Africa) 0x409 English (United States) 0x40B Finnish 0x40C French 0x407 German 0x408 Greece 0x439 Hindi 0x40E Hungarian 0x410 Italian 0x814 Norwegian 0x415 Polish 0x816 Portuguese(Portugal) 0x416 Portuguese(Brazil) 0x419 Russian 0x80A Spanish(Mexico) 0xC0A Spanish(Modern Sort) 0x40A Spanish(Traditional Sort) 0x41D Swedish 0x41F Turkey 0x411 Japanese 0x412 Korean 0x804 Chinese (PRC) 0x404 Chinese (Taiwan)  <br /></td></tr>
+<tr class="memdesc:af52da90d0c6a2055ee63d18eb900f171"><td class="mdescLeft">&#160;</td><td class="mdescRight">language codes for Html help  <br /></td></tr>
 <tr class="separator:af52da90d0c6a2055ee63d18eb900f171"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab003646f994f29a35e3348eb5c007da9"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfb/class_translator.html#ab003646f994f29a35e3348eb5c007da9">needsPunctuation</a> ()</td></tr>
 <tr class="memdesc:ab003646f994f29a35e3348eb5c007da9"><td class="mdescLeft">&#160;</td><td class="mdescRight">add punctuation at the end of a brief description when needed and supported by the language  <br /></td></tr>
@@ -781,11 +781,63 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>language codes for Html help 0x402 Bulgarian 0x405 Czech 0x406 Danish 0x413 Dutch 0xC09 English (Australia) 0x809 English (Britain) 0x1009 English (Canada) 0x1809 English (Ireland) 0x1409 English (New Zealand) 0x1C09 English (South Africa) 0x409 English (United States) 0x40B Finnish 0x40C French 0x407 German 0x408 Greece 0x439 Hindi 0x40E Hungarian 0x410 Italian 0x814 Norwegian 0x415 Polish 0x816 Portuguese(Portugal) 0x416 Portuguese(Brazil) 0x419 Russian 0x80A Spanish(Mexico) 0xC0A Spanish(Modern Sort) 0x40A Spanish(Traditional Sort) 0x41D Swedish 0x41F Turkey 0x411 Japanese 0x412 Korean 0x804 Chinese (PRC) 0x404 Chinese (Taiwan) </p>
-<p>New LCIDs: 0x421 Indonesian 0x41A Croatian 0x418 Romanian 0x424 Slovenian 0x41B Slovak 0x422 Ukrainian 0x81A Serbian (Serbia, Latin) 0x403 Catalan 0x426 Latvian 0x427 Lithuanian 0x436 Afrikaans 0x42A Vietnamese 0x429 Persian (Iran) 0xC01 Arabic (Egypt) - I don't know which version of arabic is used inside <a class="el" href="../../db/d93/translator__ar_8h.html">translator_ar.h</a> , so I have chosen Egypt at random</p>
-<p>Code for Esperanto should be as shown below but the htmlhelp compiler 1.3 does not support this (and no newer version is available). 0x48f Esperanto So do a fallback to the default language 0x409 English (United States)</p>
-<p>0xC1A Serbian (Serbia, Cyrillic) </p>
-
+<p>language codes for Html help </p>
+<pre>
+ 0x402 Bulgarian
+ 0x405 Czech
+ 0x406 Danish
+ 0x413 Dutch
+ 0xC09 English (Australia)
+ 0x809 English (Britain)
+ 0x1009 English (Canada)
+ 0x1809 English (Ireland)
+ 0x1409 English (New Zealand)
+ 0x1C09 English (South Africa)
+ 0x409 English (United States)
+ 0x40B Finnish
+ 0x40C French
+ 0x407 German
+ 0x408 Greece
+ 0x439 Hindi
+ 0x40E Hungarian
+ 0x410 Italian
+ 0x814 Norwegian
+ 0x415 Polish
+ 0x816 Portuguese(Portugal)
+ 0x416 Portuguese(Brazil)
+ 0x419 Russian
+ 0x80A Spanish(Mexico)
+ 0xC0A Spanish(Modern Sort)
+ 0x40A Spanish(Traditional Sort)
+ 0x41D Swedish
+ 0x41F Turkey
+ 0x411 Japanese
+ 0x412 Korean
+ 0x804 Chinese (PRC)
+ 0x404 Chinese (Taiwan)
+ </pre><p>New LCIDs: </p><pre>
+ 0x421 Indonesian
+ 0x41A Croatian
+ 0x418 Romanian
+ 0x424 Slovenian
+ 0x41B Slovak
+ 0x422 Ukrainian
+ 0x81A Serbian (Serbia, Latin)
+ 0x403 Catalan
+ 0x426 Latvian
+ 0x427 Lithuanian
+ 0x436 Afrikaans
+ 0x42A Vietnamese
+ 0x429 Persian (Iran)
+ 0xC01 Arabic (Egypt) - I don't know which version of arabic is used inside <a class="el" href="../../db/d93/translator__ar_8h.html">translator_ar.h</a> ,
+       so I have chosen Egypt at random
+ </pre><p>Code for Esperanto should be as shown below but the htmlhelp compiler 1.3 does not support this (and no newer version is available). </p><pre>
+0x48f Esperanto
+</pre><p> So do a fallback to the default language </p><pre>
+0x409 English (United States)
+</pre><pre>
+0xC1A Serbian (Serbia, Cyrillic)
+</pre> 
 <p>Implemented in <a class="el" href="../../da/db8/class_translator_armenian.html#ae3253a251399923b8c28e75a084f29ef">TranslatorArmenian</a>, <a class="el" href="../../d3/de9/class_translator_arabic.html#af605a1d9d1d62590c29b16417824ac55">TranslatorArabic</a>, <a class="el" href="../../da/dbb/class_translator_bulgarian.html#aec272900c4cb579ea3863ac44153c6ae">TranslatorBulgarian</a>, <a class="el" href="../../d2/d4c/class_translator_brazilian.html#a242631f327ff719f0fb8693766d01b24">TranslatorBrazilian</a>, <a class="el" href="../../d9/dc1/class_translator_catalan.html#ac4e8e482b2ada5747b320e9fc2fd59b7">TranslatorCatalan</a>, <a class="el" href="../../d6/db6/class_translator_chinese.html#ad4e9a6c741b2ebaae4d003086a45b417">TranslatorChinese</a>, <a class="el" href="../../dd/d8a/class_translator_czech.html#a05fbaaf4b8a130f29f3985ef9dbb6bca">TranslatorCzech</a>, <a class="el" href="../../d6/d07/class_translator_german.html#a534bbc0c11268d5aca03185882a556b4">TranslatorGerman</a>, <a class="el" href="../../d7/d21/class_translator_danish.html#a4a1ef99f14b08d51e9841f3957dd03bd">TranslatorDanish</a>, <a class="el" href="../../d6/d78/class_translator_english.html#a76f80c0a2c2b0f3ec532c97db34dd7dd">TranslatorEnglish</a>, <a class="el" href="../../d2/d07/class_translator_esperanto.html#ae91bc1956d90025f04708bf9304b5009">TranslatorEsperanto</a>, <a class="el" href="../../dc/d44/class_translator_spanish.html#a5144d540a9cbd2b49d5de3575e6d7a87">TranslatorSpanish</a>, <a class="el" href="../../d5/d43/class_translator_persian.html#aa22fe7e389285009a1be820fda33de36">TranslatorPersian</a>, <a class="el" href="../../de/df7/class_translator_finnish.html#a8aea2e228bbabc9413814835ca6ec701">TranslatorFinnish</a>, <a class="el" href="../../da/d1a/class_translator_french.html#ae42a10cf2207db9b3957e7549250b5f9">TranslatorFrench</a>, <a class="el" href="../../df/d75/class_translator_greek.html#ac9cdc65db78dedc2e73e0017b21f46ed">TranslatorGreek</a>, <a class="el" href="../../d1/d8a/class_translator_hindi.html#ac5da9c92e7c872522a87488d9bfab017">TranslatorHindi</a>, <a class="el" href="../../d9/d82/class_translator_croatian.html#ac0f1e9ef8ef8103ab101d2d481e2e05d">TranslatorCroatian</a>, <a class="el" href="../../db/d5f/class_translator_hungarian.html#a4ec894f5596e5c67608356a16df583b6">TranslatorHungarian</a>, <a class="el" href="../../df/dc8/class_translator_indonesian.html#a89e158abc3b513c3c23140ef62eecb31">TranslatorIndonesian</a>, <a class="el" href="../../d2/df8/class_translator_italian.html#a8c2c09102595a014567abca5a4a64c68">TranslatorItalian</a>, <a class="el" href="../../d0/d16/class_translator_japanese_en.html#a2c143b05a07d8c1e663779f58edeb657">TranslatorJapaneseEn</a>, <a class="el" href="../../d1/d6a/class_translator_japanese.html#a7d90b6720a6812b9428f0413678807c1">TranslatorJapanese</a>, <a class="el" href="../../d0/d3a/class_translator_korean_en.html#a84b2891861d8b7c88013e19c280e41d3">TranslatorKoreanEn</a>, <a class="el" href="../../db/dcc/class_translator_korean.html#a0414f5ff3d33ab0cab50f1d3e2645c68">TranslatorKorean</a>, <a class="el" href="../../dc/d53/class_translator_lithuanian.html#a7da6b25443ba2419bfadf1d7afe7aafa">TranslatorLithuanian</a>, <a class="el" href="../../d8/d83/class_translator_latvian.html#ab3020e746f65798ad2ab41e4ea81f912">TranslatorLatvian</a>, <a class="el" href="../../d9/ddf/class_translator_macedonian.html#abdf21af9c51f0a7227addbbf46bfad90">TranslatorMacedonian</a>, <a class="el" href="../../d9/d1b/class_translator_dutch.html#a90f28fb42f93f6802492a40fdc141717">TranslatorDutch</a>, <a class="el" href="../../dd/d38/class_translator_norwegian.html#a0aa74dfe3be07ef17c502cb1120b22c8">TranslatorNorwegian</a>, <a class="el" href="../../de/d82/class_translator_polish.html#a828d6db22742ed86146869ff717ddaf7">TranslatorPolish</a>, <a class="el" href="../../dc/df2/class_translator_portuguese.html#a254a6ae564845353359cf4ec6e841779">TranslatorPortuguese</a>, <a class="el" href="../../da/d32/class_translator_romanian.html#a1ed265111dcec6cb063982c1dad0f2a7">TranslatorRomanian</a>, <a class="el" href="../../d0/dab/class_translator_russian.html#ac418eab4053fa3ee4f6c5889e640546d">TranslatorRussian</a>, <a class="el" href="../../dc/d03/class_translator_serbian_cyrillic.html#a62dbd3834eb8d3aa5a8603acf1fe0ea0">TranslatorSerbianCyrillic</a>, <a class="el" href="../../dd/d0b/class_translator_slovene.html#aa70f676308a49fa8a9de0170e2837a90">TranslatorSlovene</a>, <a class="el" href="../../d2/d53/class_translator_slovak.html#a6b2d3ece4d3ed0ea48de0fb3c1ed0079">TranslatorSlovak</a>, <a class="el" href="../../d5/d0a/class_translator_serbian.html#a8e2cdf799cc8cce652690061492aab5d">TranslatorSerbian</a>, <a class="el" href="../../d5/d5c/class_translator_swedish.html#aab66695d9bcf3a1503ccf4892aca39bf">TranslatorSwedish</a>, <a class="el" href="../../dd/d80/class_translator_turkish.html#a8b84444a7c855a6199548cb06018ac1f">TranslatorTurkish</a>, <a class="el" href="../../dd/df6/class_translator_chinesetraditional.html#a44266c9ed199f804c51ab5b9cfcb5b4c">TranslatorChinesetraditional</a>, <a class="el" href="../../d1/d56/class_translator_ukrainian.html#acce3281e65b312a7064964d7408212aa">TranslatorUkrainian</a>, <a class="el" href="../../df/d20/class_translator_vietnamese.html#ad898cb90aa2c9863c450fb86b20cfb4d">TranslatorVietnamese</a>, and <a class="el" href="../../d3/d65/class_translator_afrikaans.html#a3c5d97d6543c28a8ef327c7c371cef0a">TranslatorAfrikaans</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d3/d4b/htmlhelp_8cpp_source.html#l00381">HtmlHelp::Private::createProjectFile()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l01000">TranslateContext::Private::langString()</a>.</p>
@@ -1059,8 +1111,8 @@ Public Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../d6/db6/class_translator_chinese.html#a43120c3a7b95278101473c040ccb42b3">TranslatorChinese</a>, <a class="el" href="../../d1/d6a/class_translator_japanese.html#a66edd6b2fbcb767d3197e7f26c12ce80">TranslatorJapanese</a>, and <a class="el" href="../../db/dcc/class_translator_korean.html#af306b40227ca060fe1bfeee982e2ec31">TranslatorKorean</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/df1/translator_8h_source.html#l00150">150</a> of file <a class="el" href="../../d9/df1/translator_8h_source.html">translator.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  150</span>{ <span class="keywordflow">return</span> <span class="keyword">true</span>; }</div>
+<p class="definition">Definition at line <a class="el" href="../../d9/df1/translator_8h_source.html#l00159">159</a> of file <a class="el" href="../../d9/df1/translator_8h_source.html">translator.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  159</span>{ <span class="keywordflow">return</span> <span class="keyword">true</span>; }</div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00509">DefinitionImpl::_setBriefDescription()</a>.</p>
 
