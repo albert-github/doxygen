@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"d0/dc2/class_class_def_mutable.html#a30706a65a1692c85e8791a82ab40fad4":[8,0,41,31],
+"d0/dc2/class_class_def_mutable.html#a433e1fc2bf9d074747f0e7479d1c9653":[8,0,41,27],
 "d0/dc2/class_class_def_mutable.html#a495b362e77fb13df4c06880dcd36daae":[8,0,41,8],
 "d0/dc2/class_class_def_mutable.html#a584286323030eb7d8b980932db316393":[8,0,41,20],
 "d0/dc2/class_class_def_mutable.html#a587dbea5e2811999a97fcedbb5619eff":[8,0,41,28],
@@ -247,7 +249,5 @@ var NAVTREEINDEX6 =
 "d1/d06/structlexcode_y_y__state.html#acdb2a6678c1b3a2aff7f2273df440c2c":[8,0,360,14],
 "d1/d06/structlexcode_y_y__state.html#ad55e78e8d055d24052f164cb57b0594a":[8,0,360,31],
 "d1/d06/structlexcode_y_y__state.html#ad5f07a9b80a115b456f8d7834bc6e8a8":[8,0,360,16],
-"d1/d06/structlexcode_y_y__state.html#ad912d327ff34ae7c135e93703ddbb8b7":[8,0,360,4],
-"d1/d06/structlexcode_y_y__state.html#adb0d07ee01f2baf6978a0f390b6b628e":[8,0,360,10],
-"d1/d06/structlexcode_y_y__state.html#adefdf8157caee79ffaf4131dd231ee81":[8,0,360,29]
+"d1/d06/structlexcode_y_y__state.html#ad912d327ff34ae7c135e93703ddbb8b7":[8,0,360,4]
 };

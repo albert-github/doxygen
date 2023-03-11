@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"d9/d82/class_translator_croatian.html#a35efefe1960664105587cb5521828c15":[8,0,584,121],
+"d9/d82/class_translator_croatian.html#a36691e14ed05afc70ecc7b9ca8db013c":[8,0,584,86],
 "d9/d82/class_translator_croatian.html#a37df799d71af45d282b0cb51f192eff7":[8,0,584,188],
 "d9/d82/class_translator_croatian.html#a3998c12bd734429a74b964ebcd514334":[8,0,584,20],
 "d9/d82/class_translator_croatian.html#a3a1b1d5789a54bcf391e4c68a9566b96":[8,0,584,166],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "d9/da1/stlsupport_8cpp.html#a9e8cfe5b2cd5bf238c936a13169f7e76":[9,0,2,231,5],
 "d9/da1/stlsupport_8cpp.html#aa1f8941ae2c1be58caee11fa6e3ec4f9":[9,0,2,231,3],
 "d9/da1/stlsupport_8cpp_source.html":[9,0,2,231],
-"d9/da2/structvhdl_1_1parser_1_1_vhdl_parser_1_1_shared_state.html":[7,0,16,0,10,0],
-"d9/da2/structvhdl_1_1parser_1_1_vhdl_parser_1_1_shared_state.html":[8,0,8,0,10,0],
-"d9/da2/structvhdl_1_1parser_1_1_vhdl_parser_1_1_shared_state.html#a04773fa91cfdf6d65710f84b2c35417f":[7,0,16,0,10,0,9]
+"d9/da2/structvhdl_1_1parser_1_1_vhdl_parser_1_1_shared_state.html":[7,0,16,0,10,0]
 };

@@ -210,6 +210,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/dotfilepatcher.cpp"
   Node59 [label="functional",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
   Node58 -> Node60 [color="steelblue1",style="solid"];
   Node60 [label="fstream",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node58 -> Node30 [color="steelblue1",style="solid"];
   Node58 -> Node56 [color="steelblue1",style="solid"];
   Node58 -> Node44 [color="steelblue1",style="solid"];
   Node58 -> Node25 [color="steelblue1",style="solid"];

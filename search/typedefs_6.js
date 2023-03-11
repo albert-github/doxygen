@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['htmlcodegeneratordefer_0',['HtmlCodeGeneratorDefer',['../d2/db9/outputlist_8h.html#a6bfa5e817e6c7a7250c6ad815f2e192a',1,'outputlist.h']]]
+  ['getvalue_0',['GetValue',['../d0/d3b/struct_keyword_substitution.html#a352000fcf120333cc133d260f0bf27a4',1,'KeywordSubstitution']]],
+  ['getvaluewithparam_1',['GetValueWithParam',['../d0/d3b/struct_keyword_substitution.html#adbcdda1b5e616cf9f5267d7c36b508c5',1,'KeywordSubstitution']]]
 ];

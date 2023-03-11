@@ -1,5 +1,7 @@
 var NAVTREEINDEX39 =
 {
+"d5/d43/class_translator_persian.html#a3eaf3947ae6aa9a5b3e1ecbb65cada75":[8,0,606,26],
+"d5/d43/class_translator_persian.html#a3fa4796a4422eee79be76ef5a4569b57":[8,0,606,12],
 "d5/d43/class_translator_persian.html#a3ffef49639f759ede302bc316ca0bafa":[8,0,606,204],
 "d5/d43/class_translator_persian.html#a41187ae168e667bf16d5b10d23930781":[8,0,606,171],
 "d5/d43/class_translator_persian.html#a419e7d7cfc28884b44a1c9d22519f774":[8,0,606,54],
@@ -166,10 +168,10 @@ var NAVTREEINDEX39 =
 "d5/d4c/class_expr_ast_negate.html#a1cf3fec89cf143e2bf25aa8b38e3fb6e":[8,0,237,1],
 "d5/d4c/class_expr_ast_negate.html#a3f3ddac695da0939cc879a604aa2749e":[8,0,237,2],
 "d5/d4c/class_expr_ast_negate.html#ac212e245054a30a080de4b616f4f043f":[8,0,237,0],
-"d5/d4c/struct_output_gen_intf_1_1line_break.html":[7,0,10,86],
 "d5/d4c/struct_output_gen_intf_1_1line_break.html":[8,0,5,86],
-"d5/d4c/struct_output_gen_intf_1_1line_break.html#ac9119308776d74ce994d332634f50de8":[7,0,10,86,0],
+"d5/d4c/struct_output_gen_intf_1_1line_break.html":[7,0,10,86],
 "d5/d4c/struct_output_gen_intf_1_1line_break.html#ac9119308776d74ce994d332634f50de8":[8,0,5,86,0],
+"d5/d4c/struct_output_gen_intf_1_1line_break.html#ac9119308776d74ce994d332634f50de8":[7,0,10,86,0],
 "d5/d50/translator__ua_8h.html":[9,0,2,291],
 "d5/d50/translator__ua_8h_source.html":[9,0,2,291],
 "d5/d53/class_include_info_list.html":[8,0,329],
@@ -247,7 +249,5 @@ var NAVTREEINDEX39 =
 "d5/d54/class_class_context_1_1_private.html#a7ce69ad9860d8c2a1875b99ee1dd7583":[8,0,37,0,22],
 "d5/d54/class_class_context_1_1_private.html#a7d4a914c14d701518250a9562962205f":[8,0,37,0,85],
 "d5/d54/class_class_context_1_1_private.html#a80fd7fee4448f8928b8b428b3ec61e8d":[8,0,37,0,53],
-"d5/d54/class_class_context_1_1_private.html#a8855602cf897d7b18704e8df5384f92b":[8,0,37,0,28],
-"d5/d54/class_class_context_1_1_private.html#a88f4e67c76adf1966e5d74e6875351db":[8,0,37,0,45],
-"d5/d54/class_class_context_1_1_private.html#a8fbf87ef73447f49fa5b5dd550f2bccd":[8,0,37,0,9]
+"d5/d54/class_class_context_1_1_private.html#a8855602cf897d7b18704e8df5384f92b":[8,0,37,0,28]
 };

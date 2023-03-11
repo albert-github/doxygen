@@ -71,6 +71,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/template.cpp"
   Node26 -> Node5 [color="steelblue1",style="solid"];
   Node26 -> Node27 [color="steelblue1",style="solid"];
   Node27 [label="fstream",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node26 -> Node6 [color="steelblue1",style="solid"];
   Node26 -> Node28 [color="steelblue1",style="solid"];
   Node28 [label="ctype.h",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
   Node26 -> Node29 [color="steelblue1",style="solid"];
