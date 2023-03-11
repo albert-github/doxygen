@@ -1115,6 +1115,8 @@ var hierarchy =
     [ "SearchIndexIntf", "d8/d4d/class_search_index_intf.html", null ],
     [ "SectionInfo", "de/d3c/class_section_info.html", null ],
     [ "SectionRefs", "d1/df9/class_section_refs.html", null ],
+    [ "SelectionBlock", "d0/d9e/struct_selection_block.html", null ],
+    [ "SelectionMarkerInfo", "dd/df7/struct_selection_marker_info.html", null ],
     [ "SearchIndexMethods::setCurrentDoc< T >", "d0/dc1/struct_search_index_methods_1_1set_current_doc.html", null ],
     [ "vhdl::parser::VhdlParser::SharedState", "d9/da2/structvhdl_1_1parser_1_1_vhdl_parser_1_1_shared_state.html", null ],
     [ "SIData_CurrentDoc", "d0/d9d/struct_s_i_data___current_doc.html", null ],

@@ -6,5 +6,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [label="vhdl::parser::VhdlParser\l::SharedState",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/da2/structvhdl_1_1parser_1_1_vhdl_parser_1_1_shared_state.html",tooltip=" "];
+  Node0 [label="vhdl::parser::TokenMgrError",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html",tooltip=" "];
 }

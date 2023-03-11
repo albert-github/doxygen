@@ -734,6 +734,8 @@ var annotated_dup =
     [ "SectionInfo", "de/d3c/class_section_info.html", "de/d3c/class_section_info" ],
     [ "SectionManager", "df/df5/class_section_manager.html", "df/df5/class_section_manager" ],
     [ "SectionRefs", "d1/df9/class_section_refs.html", "d1/df9/class_section_refs" ],
+    [ "SelectionBlock", "d0/d9e/struct_selection_block.html", "d0/d9e/struct_selection_block" ],
+    [ "SelectionMarkerInfo", "dd/df7/struct_selection_marker_info.html", "dd/df7/struct_selection_marker_info" ],
     [ "SIData_CurrentDoc", "d0/d9d/struct_s_i_data___current_doc.html", "d0/d9d/struct_s_i_data___current_doc" ],
     [ "SIData_Word", "d7/def/struct_s_i_data___word.html", "d7/def/struct_s_i_data___word" ],
     [ "SourceLinkInfo", "dc/dc2/struct_source_link_info.html", "dc/dc2/struct_source_link_info" ],

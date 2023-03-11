@@ -10,6 +10,7 @@ var class_member_def_impl =
     [ "_countReimplementedBy", "d7/d7e/class_member_def_impl.html#a67392a851aded83380dd64a850bc3eaf", null ],
     [ "_hasVisibleCallerGraph", "d7/d7e/class_member_def_impl.html#a00514e707a17d68b52b60218ae7c1dfd", null ],
     [ "_hasVisibleCallGraph", "d7/d7e/class_member_def_impl.html#a32cd3e688d0489c3b35a362162fe7acf", null ],
+    [ "_isAnonymousBitField", "d7/d7e/class_member_def_impl.html#ac04b30f86754dceee0e3019c7dd99b9f", null ],
     [ "_isReimplements", "d7/d7e/class_member_def_impl.html#a0860f5779a240d32f68e1f86a1863a01", null ],
     [ "_writeCallerGraph", "d7/d7e/class_member_def_impl.html#a0410c3e0f3f2fd5fdb341546e40d4a7d", null ],
     [ "_writeCallGraph", "d7/d7e/class_member_def_impl.html#af8b226a288cd0a1825db1a191d10a760", null ],
