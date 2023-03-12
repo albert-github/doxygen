@@ -69,7 +69,6 @@ var util_8h =
     [ "getScopeFragment", "d8/d3c/util_8h.html#afd249e264b966d05a54b740e3d43ad6e", null ],
     [ "guessSection", "d8/d3c/util_8h.html#adfac1d990e027ce0011573d537066ee6", null ],
     [ "initDefaultExtensionMapping", "d8/d3c/util_8h.html#a87fb21e07b359f00a4e3774a6eb736e3", null ],
-    [ "inlineArgListToDoc", "d8/d3c/util_8h.html#ae53504faf9e304d72ec1f2e38f3c9013", null ],
     [ "insertTemplateSpecifierInScope", "d8/d3c/util_8h.html#a1dc6b9f0a9cc58498da6f8d4ffe120c1", null ],
     [ "integerToAlpha", "d8/d3c/util_8h.html#a89e3223c827bdd608e639021f3b8b8aa", null ],
     [ "integerToRoman", "d8/d3c/util_8h.html#a935473c61bbd971d8da7f14920918c27", null ],

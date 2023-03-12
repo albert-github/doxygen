@@ -1,7 +1,5 @@
 var NAVTREEINDEX130 =
 {
-"df/dc8/class_translator_indonesian.html#a00b4918452191519042608ab27931f0e":[8,0,598,64],
-"df/dc8/class_translator_indonesian.html#a01b4e8366fc01f5cf4b75209f245317f":[8,0,598,10],
 "df/dc8/class_translator_indonesian.html#a01beb379b3634a84e87d333ffd97070e":[8,0,598,174],
 "df/dc8/class_translator_indonesian.html#a023a5b541469941d419e993d9615c394":[8,0,598,160],
 "df/dc8/class_translator_indonesian.html#a0378f29398c3dab7b6f403453df432d5":[8,0,598,106],
@@ -234,20 +232,22 @@ var NAVTREEINDEX130 =
 "df/dc9/docparser__p_8h.html#af5482286b814ee04eea804a9a3261cf4":[9,0,2,73,7],
 "df/dc9/docparser__p_8h.html#af8c289300738a7353cb8e47d343e7998":[9,0,2,73,9],
 "df/dc9/docparser__p_8h_source.html":[9,0,2,73],
-"df/dca/structfmt_1_1formatter_3_01_src_lang_ext_01_4.html":[7,0,6,8],
 "df/dca/structfmt_1_1formatter_3_01_src_lang_ext_01_4.html":[8,0,2,8],
+"df/dca/structfmt_1_1formatter_3_01_src_lang_ext_01_4.html":[7,0,6,8],
 "df/dca/structfmt_1_1formatter_3_01_src_lang_ext_01_4.html#a0c8ba28df2596924bc3cd8fd355f5ffb":[7,0,6,8,0],
 "df/dca/structfmt_1_1formatter_3_01_src_lang_ext_01_4.html#a0c8ba28df2596924bc3cd8fd355f5ffb":[8,0,2,8,0],
 "df/dcd/classreg_1_1_ex_1_1_private.html":[7,0,13,0,0],
 "df/dcd/classreg_1_1_ex_1_1_private.html":[8,0,6,0,0],
-"df/dcd/classreg_1_1_ex_1_1_private.html#a26bba20b316615c53a77eb522602df8a":[8,0,6,0,0,2],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a26bba20b316615c53a77eb522602df8a":[7,0,13,0,0,2],
+"df/dcd/classreg_1_1_ex_1_1_private.html#a26bba20b316615c53a77eb522602df8a":[8,0,6,0,0,2],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a3d43ef3d3304bc786d75340eac860780":[7,0,13,0,0,4],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a3d43ef3d3304bc786d75340eac860780":[8,0,6,0,0,4],
-"df/dcd/classreg_1_1_ex_1_1_private.html#a51e12007f0f7866ad4117c489e90cb8e":[8,0,6,0,0,0],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a51e12007f0f7866ad4117c489e90cb8e":[7,0,13,0,0,0],
+"df/dcd/classreg_1_1_ex_1_1_private.html#a51e12007f0f7866ad4117c489e90cb8e":[8,0,6,0,0,0],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a5ae763e5ab5231eae1133e68093c49be":[8,0,6,0,0,1],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a5ae763e5ab5231eae1133e68093c49be":[7,0,13,0,0,1],
+"df/dcd/classreg_1_1_ex_1_1_private.html#a68af93bd4fbea3f82ee8e36af3a6e68b":[7,0,13,0,0,5],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a68af93bd4fbea3f82ee8e36af3a6e68b":[8,0,6,0,0,5],
-"df/dcd/classreg_1_1_ex_1_1_private.html#a68af93bd4fbea3f82ee8e36af3a6e68b":[7,0,13,0,0,5]
+"df/dcd/classreg_1_1_ex_1_1_private.html#afd98016e2bda56b81308bdc907569ead":[7,0,13,0,0,3],
+"df/dcd/classreg_1_1_ex_1_1_private.html#afd98016e2bda56b81308bdc907569ead":[8,0,6,0,0,3]
 };
