@@ -86,6 +86,7 @@ var util_8cpp =
     [ "if", "df/d2d/util_8cpp.html#aded9236417e97793455531c3c76c10d0", null ],
     [ "if", "df/d2d/util_8cpp.html#a9bd5d1d4153b093ee14042c7982b6dff", null ],
     [ "initDefaultExtensionMapping", "df/d2d/util_8cpp.html#a87fb21e07b359f00a4e3774a6eb736e3", null ],
+    [ "inlineArgListToDoc", "df/d2d/util_8cpp.html#ae53504faf9e304d72ec1f2e38f3c9013", null ],
     [ "insertTemplateSpecifierInScope", "df/d2d/util_8cpp.html#a1dc6b9f0a9cc58498da6f8d4ffe120c1", null ],
     [ "integerToAlpha", "df/d2d/util_8cpp.html#a6e984969913a70c9b67da588f68b8a14", null ],
     [ "integerToRoman", "df/d2d/util_8cpp.html#a3603e3a5f6710fd96b6c634f9e2de708", null ],
