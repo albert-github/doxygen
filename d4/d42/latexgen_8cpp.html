@@ -1260,7 +1260,7 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno">  377</span>    t &lt;&lt; <span class="stringliteral">&quot;\techo \&quot;Rerunning latex....\&quot;\n&quot;</span></div>
 <div class="line"><span class="lineno">  378</span>      &lt;&lt; <span class="stringliteral">&quot;\t$(LATEX_CMD) $(MANUAL_FILE).tex\n&quot;</span></div>
 <div class="line"><span class="lineno">  379</span>      &lt;&lt; <span class="stringliteral">&quot;\tlatex_count=$(LATEX_COUNT) ; \\\n&quot;</span></div>
-<div class="line"><span class="lineno">  380</span>      &lt;&lt; <span class="stringliteral">&quot;\twhile egrep -s &#39;Rerun (LaTeX|to get cross-references right|to get bibliographical references right)&#39; $(MANUAL_FILE).log &amp;&amp; [ $$latex_count -gt 0 ] ;\\\n&quot;</span></div>
+<div class="line"><span class="lineno">  380</span>      &lt;&lt; <span class="stringliteral">&quot;\twhile grep -E -s &#39;Rerun (LaTeX|to get cross-references right|to get bibliographical references right)&#39; $(MANUAL_FILE).log &amp;&amp; [ $$latex_count -gt 0 ] ;\\\n&quot;</span></div>
 <div class="line"><span class="lineno">  381</span>      &lt;&lt; <span class="stringliteral">&quot;\t    do \\\n&quot;</span></div>
 <div class="line"><span class="lineno">  382</span>      &lt;&lt; <span class="stringliteral">&quot;\t      echo \&quot;Rerunning latex....\&quot; ;\\\n&quot;</span></div>
 <div class="line"><span class="lineno">  383</span>      &lt;&lt; <span class="stringliteral">&quot;\t      $(LATEX_CMD) $(MANUAL_FILE).tex ; \\\n&quot;</span></div>
@@ -1288,7 +1288,7 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno">  405</span>    }</div>
 <div class="line"><span class="lineno">  406</span>    t &lt;&lt; <span class="stringliteral">&quot;\t$(LATEX_CMD) $(MANUAL_FILE)\n&quot;</span></div>
 <div class="line"><span class="lineno">  407</span>      &lt;&lt; <span class="stringliteral">&quot;\tlatex_count=$(LATEX_COUNT) ; \\\n&quot;</span></div>
-<div class="line"><span class="lineno">  408</span>      &lt;&lt; <span class="stringliteral">&quot;\twhile egrep -s &#39;Rerun (LaTeX|to get cross-references right|to get bibliographical references right)&#39; $(MANUAL_FILE).log &amp;&amp; [ $$latex_count -gt 0 ] ;\\\n&quot;</span></div>
+<div class="line"><span class="lineno">  408</span>      &lt;&lt; <span class="stringliteral">&quot;\twhile grep -E -s &#39;Rerun (LaTeX|to get cross-references right|to get bibliographical references right)&#39; $(MANUAL_FILE).log &amp;&amp; [ $$latex_count -gt 0 ] ;\\\n&quot;</span></div>
 <div class="line"><span class="lineno">  409</span>      &lt;&lt; <span class="stringliteral">&quot;\t    do \\\n&quot;</span></div>
 <div class="line"><span class="lineno">  410</span>      &lt;&lt; <span class="stringliteral">&quot;\t      echo \&quot;Rerunning latex....\&quot; ;\\\n&quot;</span></div>
 <div class="line"><span class="lineno">  411</span>      &lt;&lt; <span class="stringliteral">&quot;\t      $(LATEX_CMD) $(MANUAL_FILE) ;\\\n&quot;</span></div>

@@ -809,6 +809,7 @@ var hierarchy =
     [ "vhdl::parser::JJCalls", "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html", null ],
     [ "JJEnter< T >", "d2/d49/struct_j_j_enter.html", null ],
     [ "JJExit< T >", "d5/d16/struct_j_j_exit.html", null ],
+    [ "JSTreeFile", "d5/d08/struct_j_s_tree_file.html", null ],
     [ "KeywordHash", "d4/d10/class_keyword_hash.html", null ],
     [ "KeywordSubstitution", "d0/d3b/struct_keyword_substitution.html", null ],
     [ "Lang2ExtMap", "d8/def/struct_lang2_ext_map.html", null ],

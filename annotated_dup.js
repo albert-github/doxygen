@@ -598,6 +598,7 @@ var annotated_dup =
     [ "IterableStack", "d9/d82/class_iterable_stack.html", "d9/d82/class_iterable_stack" ],
     [ "JJEnter", "d2/d49/struct_j_j_enter.html", "d2/d49/struct_j_j_enter" ],
     [ "JJExit", "d5/d16/struct_j_j_exit.html", "d5/d16/struct_j_j_exit" ],
+    [ "JSTreeFile", "d5/d08/struct_j_s_tree_file.html", "d5/d08/struct_j_s_tree_file" ],
     [ "KeywordHash", "d4/d10/class_keyword_hash.html", "d4/d10/class_keyword_hash" ],
     [ "KeywordSubstitution", "d0/d3b/struct_keyword_substitution.html", "d0/d3b/struct_keyword_substitution" ],
     [ "Lang2ExtMap", "d8/def/struct_lang2_ext_map.html", "d8/def/struct_lang2_ext_map" ],

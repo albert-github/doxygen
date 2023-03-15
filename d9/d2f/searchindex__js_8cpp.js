@@ -26,6 +26,8 @@ var searchindex__js_8cpp =
     [ "getSearchIndices", "d9/d2f/searchindex__js_8cpp.html#aba52996aa70fad6e119fdf1f8b9b6a06", null ],
     [ "searchId", "d9/d2f/searchindex__js_8cpp.html#a22f13c2d5c28be29921316b39ddd9de3", null ],
     [ "searchName", "d9/d2f/searchindex__js_8cpp.html#a7e794d97a0a811825266445c5220d294", null ],
+    [ "writeJavascriptSearchData", "d9/d2f/searchindex__js_8cpp.html#a94d70b262f2df4e9546a9066951926fb", null ],
     [ "writeJavaScriptSearchIndex", "d9/d2f/searchindex__js_8cpp.html#ae8e105816d60cf56b75c2d13f9d85048", null ],
+    [ "writeJavasScriptSearchDataPage", "d9/d2f/searchindex__js_8cpp.html#a83984e7adf06e5e5006d61c0634d8a54", null ],
     [ "g_searchIndexInfo", "d9/d2f/searchindex__js_8cpp.html#a57a96fc8cede02982b9c649865b0172c", null ]
 ];

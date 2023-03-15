@@ -948,5 +948,6 @@ var searchData=
   ['jjmovestringliteraldfa9_5f0_945',['jjMoveStringLiteralDfa9_0',['../d4/d48/classvhdl_1_1parser_1_1_vhdl_parser_token_manager.html#af64afd5c00603df4ea645484cd9bbc58',1,'vhdl::parser::VhdlParserTokenManager']]],
   ['jjstopatpos_946',['jjStopAtPos',['../d4/d48/classvhdl_1_1parser_1_1_vhdl_parser_token_manager.html#ad355ab4302c01a5cc400d280642b693b',1,'vhdl::parser::VhdlParserTokenManager']]],
   ['join_947',['join',['../df/d2d/util_8cpp.html#a27784840caff3a70e6dfa44f5341553b',1,'join(const StringVector &amp;sv, const std::string &amp;delimiter):&#160;util.cpp'],['../d8/d3c/util_8h.html#a33625bfc78f4fef65cd474db0f2df38e',1,'join(const StringVector &amp;s, const std::string &amp;delimiter):&#160;util.cpp']]],
-  ['joinlabels_948',['joinLabels',['../d4/dcd/dotclassgraph_8cpp.html#a9b738281c92e78cd8587d510108f1556',1,'dotclassgraph.cpp']]]
+  ['joinlabels_948',['joinLabels',['../d4/dcd/dotclassgraph_8cpp.html#a9b738281c92e78cd8587d510108f1556',1,'dotclassgraph.cpp']]],
+  ['jstreefile_949',['JSTreeFile',['../d5/d08/struct_j_s_tree_file.html#aa1da168497462c899f4a464d8e6650a5',1,'JSTreeFile']]]
 ];
