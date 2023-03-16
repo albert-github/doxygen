@@ -1,5 +1,6 @@
 var NAVTREEINDEX52 =
 {
+"d6/df1/struct_output_gen_intf_1_1end_member_group_header.html":[7,0,10,56],
 "d6/df1/struct_output_gen_intf_1_1end_member_group_header.html#a63b87b115ade4de94c62ff421a9ba0c4":[7,0,10,56,0],
 "d6/df1/struct_output_gen_intf_1_1end_member_group_header.html#a63b87b115ade4de94c62ff421a9ba0c4":[8,0,5,56,0],
 "d6/df4/struct_token_info.html":[8,0,562],
@@ -248,6 +249,5 @@ var NAVTREEINDEX52 =
 "d7/d21/class_translator_danish.html#a7a7335e696d11478a7b2bb0a1fa24c54":[8,0,589,48],
 "d7/d21/class_translator_danish.html#a7aa83866089ee54ba4e32605cb33a3bd":[8,0,589,155],
 "d7/d21/class_translator_danish.html#a7acc39389eeb513a72caaf28a50f09fa":[8,0,589,178],
-"d7/d21/class_translator_danish.html#a7b5fd5b223b23d7469ca72f132feeb2a":[8,0,589,81],
-"d7/d21/class_translator_danish.html#a7fe6b6f5e8b2292302b5c66ae9f7beab":[8,0,589,171]
+"d7/d21/class_translator_danish.html#a7b5fd5b223b23d7469ca72f132feeb2a":[8,0,589,81]
 };

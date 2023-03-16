@@ -209,6 +209,7 @@ var class_latex_generator =
     [ "m_disableLinks", "d3/d77/class_latex_generator.html#ac5eb49d47235689313c3dabce6c4c169", null ],
     [ "m_firstDescItem", "d3/d77/class_latex_generator.html#ad790bdcf43dd464c13b127f412b7efe0", null ],
     [ "m_indent", "d3/d77/class_latex_generator.html#a4c38332739f538d8de4186bb2c809ec2", null ],
+    [ "m_insideTableEnv", "d3/d77/class_latex_generator.html#ae7ada616aa9bc5b5c18cb348336f0689", null ],
     [ "m_relPath", "d3/d77/class_latex_generator.html#a5c30558c76737f89920fe2394bbe851b", null ],
     [ "m_templateMemberItem", "d3/d77/class_latex_generator.html#affc02baa240d5bc988fd0c0ff7c41f7c", null ]
 ];
