@@ -1,16 +1,5 @@
 var NAVTREEINDEX29 =
 {
-"d3/ddf/class_definition_impl.html#a4fb272d2b927cc1073e7a9ac0f7c1751":[8,0,105,11],
-"d3/ddf/class_definition_impl.html#a508df5a7f2de2d0418f81d08b1fb40f7":[8,0,105,89],
-"d3/ddf/class_definition_impl.html#a50ff6801fddfe36eb35af328adac891f":[8,0,105,30],
-"d3/ddf/class_definition_impl.html#a54453287cdbf2f165e6030be1e00b64b":[8,0,105,92],
-"d3/ddf/class_definition_impl.html#a5605c0856436662d235515e302510049":[8,0,105,4],
-"d3/ddf/class_definition_impl.html#a560d9d3845b99154c286dd6e50f0f934":[8,0,105,8],
-"d3/ddf/class_definition_impl.html#a571b3f8abbb9ee5b70a3628a56c1d4ab":[8,0,105,85],
-"d3/ddf/class_definition_impl.html#a576a0058a0c30e930612c35c02f95808":[8,0,105,97],
-"d3/ddf/class_definition_impl.html#a582da177a5a0c7af1a65bca1b8894cd4":[8,0,105,41],
-"d3/ddf/class_definition_impl.html#a585319005802b1937c54f4a2e80df0a0":[8,0,105,81],
-"d3/ddf/class_definition_impl.html#a5a924b79bfc06f3d12eeab5fb35168b6":[8,0,105,86],
 "d3/ddf/class_definition_impl.html#a5b06596df82dda3df5e79ab1d9529e10":[8,0,105,50],
 "d3/ddf/class_definition_impl.html#a5d1139c74f8fa368052a5707ec292eef":[8,0,105,83],
 "d3/ddf/class_definition_impl.html#a6186d18c10f70c306f913cc9de81a441":[8,0,105,6],
@@ -249,5 +238,16 @@ var NAVTREEINDEX29 =
 "d3/de9/class_translator_arabic.html#a87c4d89643371e232eda030de5b28471":[8,0,580,15],
 "d3/de9/class_translator_arabic.html#a89ec878fbf206c84597d32e2cf3ecff2":[8,0,580,165],
 "d3/de9/class_translator_arabic.html#a8a422c7dfab161d706b556f796282391":[8,0,580,126],
-"d3/de9/class_translator_arabic.html#a8ad719e5ac01f9436a1030e353ff87ba":[8,0,580,121]
+"d3/de9/class_translator_arabic.html#a8ad719e5ac01f9436a1030e353ff87ba":[8,0,580,121],
+"d3/de9/class_translator_arabic.html#a8dcda8ec8d47583d94567a48154cdcf0":[8,0,580,182],
+"d3/de9/class_translator_arabic.html#a8deb7831ea95f7e823de06448a99aec8":[8,0,580,16],
+"d3/de9/class_translator_arabic.html#a8e0d765f0f36ce753781268166668e5e":[8,0,580,90],
+"d3/de9/class_translator_arabic.html#a8f3258f69293855e8b076b90471159e3":[8,0,580,170],
+"d3/de9/class_translator_arabic.html#a922e7e458ef188c861da3972822b7f42":[8,0,580,150],
+"d3/de9/class_translator_arabic.html#a92d2b70c24f76e57bbc85c1a319e2f9b":[8,0,580,60],
+"d3/de9/class_translator_arabic.html#a93207e94befef764a2152e7b5968bcd1":[8,0,580,138],
+"d3/de9/class_translator_arabic.html#a9447a02d8ff3f92c9836c317d16e9c8c":[8,0,580,53],
+"d3/de9/class_translator_arabic.html#a94a8e0d1f335193616003f21b5a68c20":[8,0,580,32],
+"d3/de9/class_translator_arabic.html#a9679911e97d493f2c83d0de23f623922":[8,0,580,57],
+"d3/de9/class_translator_arabic.html#a97ffd13d19b3b5d0e0dfdf8a4af2928e":[8,0,580,64]
 };

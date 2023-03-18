@@ -1,6 +1,5 @@
 var NAVTREEINDEX72 =
 {
-"d9/dc1/class_translator_catalan.html#a585ed65e5c70ebf4d024290ab4cceae8":[8,0,584,163],
 "d9/dc1/class_translator_catalan.html#a59f96610fe90562d99f00bd609522268":[8,0,584,63],
 "d9/dc1/class_translator_catalan.html#a5a5310a0acf4abad07428a7d9cba1807":[8,0,584,48],
 "d9/dc1/class_translator_catalan.html#a5cb5588922d586fc4ad07e24a8141d7e":[8,0,584,92],
@@ -229,8 +228,8 @@ var NAVTREEINDEX72 =
 "d9/dcc/structpyscanner_y_y__state.html#af8167c3e120ae742f6f3f1ffc4694921":[8,0,452,39],
 "d9/dcd/struct_output_gen_intf_1_1start_typewriter.html":[8,0,5,164],
 "d9/dcd/struct_output_gen_intf_1_1start_typewriter.html":[7,0,10,164],
-"d9/dcd/struct_output_gen_intf_1_1start_typewriter.html#af7b9b58a4aebf3e83f7e4eb7a621628c":[8,0,5,164,0],
 "d9/dcd/struct_output_gen_intf_1_1start_typewriter.html#af7b9b58a4aebf3e83f7e4eb7a621628c":[7,0,10,164,0],
+"d9/dcd/struct_output_gen_intf_1_1start_typewriter.html#af7b9b58a4aebf3e83f7e4eb7a621628c":[8,0,5,164,0],
 "d9/dd0/lexscanner_8h.html":[9,0,2,160],
 "d9/dd0/lexscanner_8h_source.html":[9,0,2,160],
 "d9/dd2/class_doc_par_block.html":[8,0,171],
@@ -249,5 +248,6 @@ var NAVTREEINDEX72 =
 "d9/dd5/class_dir_entry.html#a010b1c84f2bd5743458d8a626cece46d":[8,0,115,1],
 "d9/dd5/class_dir_entry.html#a15c9b88b84d942c6b5fe1d9a9e1ab0c5":[8,0,115,7],
 "d9/dd5/class_dir_entry.html#a195ba799a139d08af4c53c63e453c971":[8,0,115,3],
-"d9/dd5/class_dir_entry.html#a2d5d18d5054f7349ee226b28352b26b9":[8,0,115,4]
+"d9/dd5/class_dir_entry.html#a2d5d18d5054f7349ee226b28352b26b9":[8,0,115,4],
+"d9/dd5/class_dir_entry.html#a4894a6a99948ea8aa42e61583d66b62f":[8,0,115,6]
 };
