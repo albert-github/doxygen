@@ -1,5 +1,6 @@
 var NAVTREEINDEX95 =
 {
+"dc/d53/class_translator_lithuanian.html#ae3b378a15f66eca68cbdb4f6cef542ad":[8,0,606,181],
 "dc/d53/class_translator_lithuanian.html#ae519eb25a3b63efecc9581fb472e718f":[8,0,606,8],
 "dc/d53/class_translator_lithuanian.html#ae6eb6fcfc3a9c0da6e6cb63f4963a29e":[8,0,606,115],
 "dc/d53/class_translator_lithuanian.html#ae7d46ca0a4660dab81d90d01a2cdef6f":[8,0,606,155],
@@ -24,8 +25,8 @@ var NAVTREEINDEX95 =
 "dc/d54/struct_output_gen_intf_1_1end_parameter_list.html#a511c4e81037b6f1222571fb711fb3874":[8,0,5,66,0],
 "dc/d62/struct_output_gen_intf_1_1end_member_sections.html":[8,0,5,60],
 "dc/d62/struct_output_gen_intf_1_1end_member_sections.html":[7,0,10,60],
-"dc/d62/struct_output_gen_intf_1_1end_member_sections.html#a43aaf79645e0d0a8e31752b159e09f7f":[8,0,5,60,0],
 "dc/d62/struct_output_gen_intf_1_1end_member_sections.html#a43aaf79645e0d0a8e31752b159e09f7f":[7,0,10,60,0],
+"dc/d62/struct_output_gen_intf_1_1end_member_sections.html#a43aaf79645e0d0a8e31752b159e09f7f":[8,0,5,60,0],
 "dc/d64/class_define.html":[8,0,99],
 "dc/d64/class_define.html#a16325de589f92470990e80e0d3cb403f":[8,0,99,7],
 "dc/d64/class_define.html#a1802523098fdd274fd15cd0494ad26d1":[8,0,99,12],
@@ -51,8 +52,8 @@ var NAVTREEINDEX95 =
 "dc/d66/msc_8h_source.html":[9,0,2,180],
 "dc/d66/struct_output_gen_intf_1_1write_anchor.html":[8,0,5,165],
 "dc/d66/struct_output_gen_intf_1_1write_anchor.html":[7,0,10,165],
-"dc/d66/struct_output_gen_intf_1_1write_anchor.html#a4ff9c53b57096011cb7f4cbb4e422db1":[8,0,5,165,0],
 "dc/d66/struct_output_gen_intf_1_1write_anchor.html#a4ff9c53b57096011cb7f4cbb4e422db1":[7,0,10,165,0],
+"dc/d66/struct_output_gen_intf_1_1write_anchor.html#a4ff9c53b57096011cb7f4cbb4e422db1":[8,0,5,165,0],
 "dc/d67/class_cache.html":[8,0,27],
 "dc/d67/class_cache.html#a0378ae0d907403c4e9ae21da645f9331":[8,0,27,2],
 "dc/d67/class_cache.html#a16e8b2b3815ee6a0d9a025ee9b3896ee":[8,0,27,22],
@@ -92,8 +93,8 @@ var NAVTREEINDEX95 =
 "dc/d6f/namespace_portuguese_translator_utils.html#ab5299ba7903c9a3401dc7335f5f3ac57":[7,0,12,1],
 "dc/d75/struct_output_gen_intf_1_1end_desc_for_item.html":[7,0,10,15],
 "dc/d75/struct_output_gen_intf_1_1end_desc_for_item.html":[8,0,5,15],
-"dc/d75/struct_output_gen_intf_1_1end_desc_for_item.html#a5fb58503bf1b1549496a96f281f9c7b1":[7,0,10,15,0],
 "dc/d75/struct_output_gen_intf_1_1end_desc_for_item.html#a5fb58503bf1b1549496a96f281f9c7b1":[8,0,5,15,0],
+"dc/d75/struct_output_gen_intf_1_1end_desc_for_item.html#a5fb58503bf1b1549496a96f281f9c7b1":[7,0,10,15,0],
 "dc/d77/class_member_linked_ref_map.html":[8,0,391],
 "dc/d7c/struct_x_m_l_code_parser_1_1_private.html":[8,0,639,0],
 "dc/d7c/struct_x_m_l_code_parser_1_1_private.html#a6218feccae367303ec0adcb350a1b9bd":[8,0,639,0,1],
@@ -110,10 +111,10 @@ var NAVTREEINDEX95 =
 "dc/d7f/class_template_block_context.html#aa0e65aff7bd42fcdb019b4ad6ebdd170":[8,0,504,4],
 "dc/d85/class_include_info_list_context_1_1_private.html":[8,0,330,0],
 "dc/d85/class_include_info_list_context_1_1_private.html#ab6e6bcb2262ee6eb809a6e094bad3dc6":[8,0,330,0,0],
-"dc/d8c/struct_output_gen_intf_1_1start_desc_table_data.html":[8,0,5,102],
 "dc/d8c/struct_output_gen_intf_1_1start_desc_table_data.html":[7,0,10,102],
-"dc/d8c/struct_output_gen_intf_1_1start_desc_table_data.html#aba439546550f711f4488f616862f64c9":[8,0,5,102,0],
+"dc/d8c/struct_output_gen_intf_1_1start_desc_table_data.html":[8,0,5,102],
 "dc/d8c/struct_output_gen_intf_1_1start_desc_table_data.html#aba439546550f711f4488f616862f64c9":[7,0,10,102,0],
+"dc/d8c/struct_output_gen_intf_1_1start_desc_table_data.html#aba439546550f711f4488f616862f64c9":[8,0,5,102,0],
 "dc/d92/namespace_index_intf.html":[7,0,7],
 "dc/d97/class_html_escaper.html":[8,0,318],
 "dc/d97/class_html_escaper.html#a67c1651e9b8f580f1245a11e3f8f7129":[8,0,318,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX95 =
 "dc/d98/doxygen_8cpp.html#aad0c3ffb33cd6ae914d3e4013f2f142a":[9,0,2,105,32],
 "dc/d98/doxygen_8cpp.html#aad23f7d576fcba6cc66edf702842a9d3":[9,0,2,105,130],
 "dc/d98/doxygen_8cpp.html#aad3dd00ae1c58bfc06981afcc5f14a53":[9,0,2,105,109],
-"dc/d98/doxygen_8cpp.html#ab022f0e28018d318dad5e23a75a40f02":[9,0,2,105,136],
-"dc/d98/doxygen_8cpp.html#ab0fa1b0c948e78e0d0d749ff1f5740b5":[9,0,2,105,149]
+"dc/d98/doxygen_8cpp.html#ab022f0e28018d318dad5e23a75a40f02":[9,0,2,105,136]
 };

@@ -250,7 +250,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00558">558</a> of file <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html">ftvhelp.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00560">560</a> of file <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html">ftvhelp.cpp</a>.</p>
 
 </div>
 </div>
@@ -289,33 +289,33 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00560">560</a> of file <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html">ftvhelp.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  561</span>{</div>
-<div class="line"><span class="lineno">  562</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> htmlOutput = <a class="code hl_define" href="../../db/d16/config_8h.html#a737741e6991bdb5694a50075437a9d89">Config_getString</a>(HTML_OUTPUT);</div>
-<div class="line"><span class="lineno">  563</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;n : nl)</div>
-<div class="line"><span class="lineno">  564</span>  {</div>
-<div class="line"><span class="lineno">  565</span>    <span class="keywordflow">if</span> (n-&gt;separateIndex) <span class="comment">// add new file if there are children</span></div>
-<div class="line"><span class="lineno">  566</span>    {</div>
-<div class="line"><span class="lineno">  567</span>      <span class="keywordflow">if</span> (!n-&gt;children.empty())</div>
-<div class="line"><span class="lineno">  568</span>      {</div>
-<div class="line"><span class="lineno">  569</span>        <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> fileId = n-&gt;file;</div>
-<div class="line"><span class="lineno">  570</span>        files.emplace_back(fileId,n);</div>
-<div class="line"><span class="lineno">  571</span>        <a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#a75770b555330a417f9bc44cba8e7b5c5">collectJSTreeFiles</a>(n-&gt;children,files);</div>
-<div class="line"><span class="lineno">  572</span>      }</div>
-<div class="line"><span class="lineno">  573</span>    }</div>
-<div class="line"><span class="lineno">  574</span>    <span class="keywordflow">else</span> <span class="comment">// traverse without adding a new file</span></div>
-<div class="line"><span class="lineno">  575</span>    {</div>
-<div class="line"><span class="lineno">  576</span>      <a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#a75770b555330a417f9bc44cba8e7b5c5">collectJSTreeFiles</a>(n-&gt;children,files);</div>
-<div class="line"><span class="lineno">  577</span>    }</div>
-<div class="line"><span class="lineno">  578</span>  }</div>
-<div class="line"><span class="lineno">  579</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00562">562</a> of file <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html">ftvhelp.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  563</span>{</div>
+<div class="line"><span class="lineno">  564</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> htmlOutput = <a class="code hl_define" href="../../db/d16/config_8h.html#a737741e6991bdb5694a50075437a9d89">Config_getString</a>(HTML_OUTPUT);</div>
+<div class="line"><span class="lineno">  565</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;n : nl)</div>
+<div class="line"><span class="lineno">  566</span>  {</div>
+<div class="line"><span class="lineno">  567</span>    <span class="keywordflow">if</span> (n-&gt;separateIndex) <span class="comment">// add new file if there are children</span></div>
+<div class="line"><span class="lineno">  568</span>    {</div>
+<div class="line"><span class="lineno">  569</span>      <span class="keywordflow">if</span> (!n-&gt;children.empty())</div>
+<div class="line"><span class="lineno">  570</span>      {</div>
+<div class="line"><span class="lineno">  571</span>        <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> fileId = n-&gt;file;</div>
+<div class="line"><span class="lineno">  572</span>        files.emplace_back(fileId,n);</div>
+<div class="line"><span class="lineno">  573</span>        <a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#a75770b555330a417f9bc44cba8e7b5c5">collectJSTreeFiles</a>(n-&gt;children,files);</div>
+<div class="line"><span class="lineno">  574</span>      }</div>
+<div class="line"><span class="lineno">  575</span>    }</div>
+<div class="line"><span class="lineno">  576</span>    <span class="keywordflow">else</span> <span class="comment">// traverse without adding a new file</span></div>
+<div class="line"><span class="lineno">  577</span>    {</div>
+<div class="line"><span class="lineno">  578</span>      <a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#a75770b555330a417f9bc44cba8e7b5c5">collectJSTreeFiles</a>(n-&gt;children,files);</div>
+<div class="line"><span class="lineno">  579</span>    }</div>
+<div class="line"><span class="lineno">  580</span>  }</div>
+<div class="line"><span class="lineno">  581</span>}</div>
 <div class="ttc" id="aclass_q_c_string_html"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html">QCString</a></div><div class="ttdoc">This is an alternative implementation of QCString.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d45/class_q_c_string.html#l00102">qcstring.h:103</a></div></div>
 <div class="ttc" id="aconfig_8h_html_a737741e6991bdb5694a50075437a9d89"><div class="ttname"><a href="../../db/d16/config_8h.html#a737741e6991bdb5694a50075437a9d89">Config_getString</a></div><div class="ttdeci">#define Config_getString(name)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/config_8h.html#l00032">config.h:32</a></div></div>
-<div class="ttc" id="aftvhelp_8cpp_html_a75770b555330a417f9bc44cba8e7b5c5"><div class="ttname"><a href="../../db/d41/ftvhelp_8cpp.html#a75770b555330a417f9bc44cba8e7b5c5">collectJSTreeFiles</a></div><div class="ttdeci">static void collectJSTreeFiles(const FTVNodes &amp;nl, JSTreeFiles &amp;files)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d41/ftvhelp_8cpp.html#l00560">ftvhelp.cpp:560</a></div></div>
+<div class="ttc" id="aftvhelp_8cpp_html_a75770b555330a417f9bc44cba8e7b5c5"><div class="ttname"><a href="../../db/d41/ftvhelp_8cpp.html#a75770b555330a417f9bc44cba8e7b5c5">collectJSTreeFiles</a></div><div class="ttdeci">static void collectJSTreeFiles(const FTVNodes &amp;nl, JSTreeFiles &amp;files)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d41/ftvhelp_8cpp.html#l00562">ftvhelp.cpp:562</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00560">collectJSTreeFiles()</a>, and <a class="el" href="../../db/d16/config_8h_source.html#l00032">Config_getString</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00562">collectJSTreeFiles()</a>, and <a class="el" href="../../db/d16/config_8h_source.html#l00032">Config_getString</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00560">collectJSTreeFiles()</a>, and <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00664">generateJSTreeFiles()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00562">collectJSTreeFiles()</a>, and <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00666">generateJSTreeFiles()</a>.</p>
 
 </div>
 </div>
@@ -400,20 +400,20 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00542">542</a> of file <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html">ftvhelp.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  543</span>{</div>
-<div class="line"><span class="lineno">  544</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> varId = fileId;</div>
-<div class="line"><span class="lineno">  545</span>  <span class="keywordtype">int</span> i=varId.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ab47a6435c16d61d04fb448f1080b4e26">findRev</a>(<span class="charliteral">&#39;/&#39;</span>);</div>
-<div class="line"><span class="lineno">  546</span>  <span class="keywordflow">if</span> (i&gt;=0) varId = varId.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(i+1);</div>
-<div class="line"><span class="lineno">  547</span>  <span class="keywordflow">return</span> <a class="code hl_function" href="../../d5/d3e/qcstring_8cpp.html#a99187f0723aa35b7f06be3a5506b1285">substitute</a>(varId,<span class="stringliteral">&quot;-&quot;</span>,<span class="stringliteral">&quot;_&quot;</span>);</div>
-<div class="line"><span class="lineno">  548</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00544">544</a> of file <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html">ftvhelp.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  545</span>{</div>
+<div class="line"><span class="lineno">  546</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> varId = fileId;</div>
+<div class="line"><span class="lineno">  547</span>  <span class="keywordtype">int</span> i=varId.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ab47a6435c16d61d04fb448f1080b4e26">findRev</a>(<span class="charliteral">&#39;/&#39;</span>);</div>
+<div class="line"><span class="lineno">  548</span>  <span class="keywordflow">if</span> (i&gt;=0) varId = varId.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(i+1);</div>
+<div class="line"><span class="lineno">  549</span>  <span class="keywordflow">return</span> <a class="code hl_function" href="../../d5/d3e/qcstring_8cpp.html#a99187f0723aa35b7f06be3a5506b1285">substitute</a>(varId,<span class="stringliteral">&quot;-&quot;</span>,<span class="stringliteral">&quot;_&quot;</span>);</div>
+<div class="line"><span class="lineno">  550</span>}</div>
 <div class="ttc" id="aclass_q_c_string_html_a27136caf9c0bc4daca574cda6f113551"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">QCString::mid</a></div><div class="ttdeci">QCString mid(size_t index, size_t len=static_cast&lt; size_t &gt;(-1)) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d45/class_q_c_string.html#l00221">qcstring.h:221</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_ab47a6435c16d61d04fb448f1080b4e26"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#ab47a6435c16d61d04fb448f1080b4e26">QCString::findRev</a></div><div class="ttdeci">int findRev(char c, int index=-1, bool cs=TRUE) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d45/class_q_c_string.html#l00091">qcstring.cpp:91</a></div></div>
 <div class="ttc" id="aqcstring_8cpp_html_a99187f0723aa35b7f06be3a5506b1285"><div class="ttname"><a href="../../d5/d3e/qcstring_8cpp.html#a99187f0723aa35b7f06be3a5506b1285">substitute</a></div><div class="ttdeci">QCString substitute(const QCString &amp;s, const QCString &amp;src, const QCString &amp;dst)</div><div class="ttdoc">substitute all occurrences of src in s by dst</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d3e/qcstring_8cpp.html#l00473">qcstring.cpp:473</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00091">QCString::findRev()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00221">QCString::mid()</a>, and <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00473">substitute()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00664">generateJSTreeFiles()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00666">generateJSTreeFiles()</a>.</p>
 
 </div>
 </div>
@@ -454,7 +454,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l01290">parent()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00583">generateJSTree()</a>, and <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00664">generateJSTreeFiles()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00585">generateJSTree()</a>, and <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00666">generateJSTreeFiles()</a>.</p>
 
 </div>
 </div>
@@ -698,19 +698,22 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno">  532</span>  }</div>
 <div class="line"><span class="lineno">  533</span>  <span class="keywordflow">else</span> <span class="comment">// link into other page</span></div>
 <div class="line"><span class="lineno">  534</span>  {</div>
-<div class="line"><span class="lineno">  535</span>    t &lt;&lt; <span class="stringliteral">&quot;\&quot;&quot;</span> &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a8f3e481e1b1d0260a8561aa16e19e62e">convertToJSString</a>(n-&gt;name) &lt;&lt; <span class="stringliteral">&quot;\&quot;, \&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno">  536</span>    t &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a06ba0c2593b3fd5f103151bd342e206f">externalRef</a>(<span class="stringliteral">&quot;&quot;</span>,n-&gt;ref,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>);</div>
-<div class="line"><span class="lineno">  537</span>    t &lt;&lt; <a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#a4e52d619e02e6a48b41aa65affcac398">node2URL</a>(n);</div>
-<div class="line"><span class="lineno">  538</span>    t &lt;&lt; <span class="stringliteral">&quot;\&quot;, &quot;</span>;</div>
-<div class="line"><span class="lineno">  539</span>  }</div>
-<div class="line"><span class="lineno">  540</span>}</div>
+<div class="line"><span class="lineno">  535</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> result = n-&gt;name;</div>
+<div class="line"><span class="lineno">  536</span>    <span class="keywordflow">if</span> (<a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(HIDE_SCOPE_NAMES)) result=<a class="code hl_function" href="../../df/d2d/util_8cpp.html#a78d33655f54cd45e22070b58a6dce6b6">stripScope</a>(result);</div>
+<div class="line"><span class="lineno">  537</span>    t &lt;&lt; <span class="stringliteral">&quot;\&quot;&quot;</span> &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a8f3e481e1b1d0260a8561aa16e19e62e">convertToJSString</a>(result) &lt;&lt; <span class="stringliteral">&quot;\&quot;, \&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno">  538</span>    t &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a06ba0c2593b3fd5f103151bd342e206f">externalRef</a>(<span class="stringliteral">&quot;&quot;</span>,n-&gt;ref,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>);</div>
+<div class="line"><span class="lineno">  539</span>    t &lt;&lt; <a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#a4e52d619e02e6a48b41aa65affcac398">node2URL</a>(n);</div>
+<div class="line"><span class="lineno">  540</span>    t &lt;&lt; <span class="stringliteral">&quot;\&quot;, &quot;</span>;</div>
+<div class="line"><span class="lineno">  541</span>  }</div>
+<div class="line"><span class="lineno">  542</span>}</div>
 <div class="ttc" id="aftvhelp_8cpp_html_a4e52d619e02e6a48b41aa65affcac398"><div class="ttname"><a href="../../db/d41/ftvhelp_8cpp.html#a4e52d619e02e6a48b41aa65affcac398">node2URL</a></div><div class="ttdeci">static QCString node2URL(const FTVNodePtr &amp;n, bool overruleFile=FALSE, bool srcLink=FALSE)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d41/ftvhelp_8cpp.html#l00215">ftvhelp.cpp:215</a></div></div>
 <div class="ttc" id="autil_8cpp_html_a06ba0c2593b3fd5f103151bd342e206f"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a06ba0c2593b3fd5f103151bd342e206f">externalRef</a></div><div class="ttdeci">QCString externalRef(const QCString &amp;relPath, const QCString &amp;ref, bool href)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp.html#l06054">util.cpp:6054</a></div></div>
+<div class="ttc" id="autil_8cpp_html_a78d33655f54cd45e22070b58a6dce6b6"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a78d33655f54cd45e22070b58a6dce6b6">stripScope</a></div><div class="ttdeci">QCString stripScope(const QCString &amp;name)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp.html#l03916">util.cpp:3916</a></div></div>
 <div class="ttc" id="autil_8cpp_html_a8f3e481e1b1d0260a8561aa16e19e62e"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a8f3e481e1b1d0260a8561aa16e19e62e">convertToJSString</a></div><div class="ttdeci">QCString convertToJSString(const QCString &amp;s)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp.html#l04160">util.cpp:4160</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d2d/util_8cpp_source.html#l04160">convertToJSString()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l06054">externalRef()</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00215">node2URL()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04160">convertToJSString()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l06054">externalRef()</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00215">node2URL()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l03916">stripScope()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00583">generateJSTree()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00585">generateJSTree()</a>.</p>
 
 </div>
 </div>
@@ -738,113 +741,113 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00715">715</a> of file <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html">ftvhelp.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  716</span>{</div>
-<div class="line"><span class="lineno">  717</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> htmlOutput = <a class="code hl_define" href="../../db/d16/config_8h.html#a737741e6991bdb5694a50075437a9d89">Config_getString</a>(HTML_OUTPUT);</div>
-<div class="line"><span class="lineno">  718</span>  std::ofstream f = <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a230fceefc8f9abd1e8d4be71d7eef281">Portable::openOutputStream</a>(htmlOutput+<span class="stringliteral">&quot;/navtreedata.js&quot;</span>);</div>
-<div class="line"><span class="lineno">  719</span>  <a class="code hl_class" href="../../df/d10/class_nav_index_entry_list.html">NavIndexEntryList</a> navIndex;</div>
-<div class="line"><span class="lineno">  720</span>  <span class="keywordflow">if</span> (f.is_open())</div>
-<div class="line"><span class="lineno">  721</span>  {</div>
-<div class="line"><span class="lineno">  722</span>    <a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a> t(&amp;f);</div>
-<div class="line"><span class="lineno">  723</span>    <span class="comment">//TextStream tidx(&amp;fidx);</span></div>
-<div class="line"><span class="lineno">  724</span>    <span class="comment">//tidx &lt;&lt; &quot;var NAVTREEINDEX =\n&quot;;</span></div>
-<div class="line"><span class="lineno">  725</span>    <span class="comment">//tidx &lt;&lt; &quot;{\n&quot;;</span></div>
-<div class="line"><span class="lineno">  726</span>    t &lt;&lt; <a class="code hl_variable" href="../../d2/d4a/ftvhelp_8h.html#a8a39a1a82ce3ac026350d5ab014d9393">JAVASCRIPT_LICENSE_TEXT</a>;</div>
-<div class="line"><span class="lineno">  727</span>    t &lt;&lt; <span class="stringliteral">&quot;var NAVTREE =\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  728</span>    t &lt;&lt; <span class="stringliteral">&quot;[\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  729</span>    t &lt;&lt; <span class="stringliteral">&quot;  [ &quot;</span>;</div>
-<div class="line"><span class="lineno">  730</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> projName = <a class="code hl_define" href="../../db/d16/config_8h.html#a737741e6991bdb5694a50075437a9d89">Config_getString</a>(PROJECT_NAME);</div>
-<div class="line"><span class="lineno">  731</span>    <span class="keywordflow">if</span> (projName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
-<div class="line"><span class="lineno">  732</span>    {</div>
-<div class="line"><span class="lineno">  733</span>      <span class="keywordflow">if</span> (<a class="code hl_function" href="../../df/d2d/util_8cpp.html#a1d56f22de057d96035949f029dd6e4e8">mainPageHasTitle</a>()) <span class="comment">// Use title of main page as root</span></div>
-<div class="line"><span class="lineno">  734</span>      {</div>
-<div class="line"><span class="lineno">  735</span>        t &lt;&lt; <span class="stringliteral">&quot;\&quot;&quot;</span> &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a8f3e481e1b1d0260a8561aa16e19e62e">convertToJSString</a>(<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a2cc3616eca3e3c550a211d8b1eaf4661">Doxygen::mainPage</a>-&gt;title()) &lt;&lt; <span class="stringliteral">&quot;\&quot;, &quot;</span>;</div>
-<div class="line"><span class="lineno">  736</span>      }</div>
-<div class="line"><span class="lineno">  737</span>      <span class="keywordflow">else</span> <span class="comment">// Use default section title as root</span></div>
-<div class="line"><span class="lineno">  738</span>      {</div>
-<div class="line"><span class="lineno">  739</span>        <a class="code hl_struct" href="../../df/de7/struct_layout_nav_entry.html">LayoutNavEntry</a> *lne = <a class="code hl_function" href="../../dc/d1d/class_layout_doc_manager.html#a87bc2288833b8769bd03e47c58fbba6a">LayoutDocManager::instance</a>().<a class="code hl_function" href="../../dc/d1d/class_layout_doc_manager.html#ad70cfcbfc25b8f303a59cd8f76c61465">rootNavEntry</a>()-&gt;<a class="code hl_function" href="../../df/de7/struct_layout_nav_entry.html#ab983afb4157621ae3548364755a75002">find</a>(<a class="code hl_enumvalue" href="../../df/de7/struct_layout_nav_entry.html#aef36305dd829f7cde87ca203ae647c7ca53e72568b7ada7fcd9e75c1bb5052d54">LayoutNavEntry::MainPage</a>);</div>
-<div class="line"><span class="lineno">  740</span>        t &lt;&lt; <span class="stringliteral">&quot;\&quot;&quot;</span> &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a8f3e481e1b1d0260a8561aa16e19e62e">convertToJSString</a>(lne-&gt;<a class="code hl_function" href="../../df/de7/struct_layout_nav_entry.html#a006dfaa93d3dee670dd4ae22d28a1db7">title</a>()) &lt;&lt; <span class="stringliteral">&quot;\&quot;, &quot;</span>;</div>
-<div class="line"><span class="lineno">  741</span>      }</div>
-<div class="line"><span class="lineno">  742</span>    }</div>
-<div class="line"><span class="lineno">  743</span>    <span class="keywordflow">else</span> <span class="comment">// use PROJECT_NAME as root tree element</span></div>
-<div class="line"><span class="lineno">  744</span>    {</div>
-<div class="line"><span class="lineno">  745</span>      t &lt;&lt; <span class="stringliteral">&quot;\&quot;&quot;</span> &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a8f3e481e1b1d0260a8561aa16e19e62e">convertToJSString</a>(projName) &lt;&lt; <span class="stringliteral">&quot;\&quot;, &quot;</span>;</div>
-<div class="line"><span class="lineno">  746</span>    }</div>
-<div class="line"><span class="lineno">  747</span>    t &lt;&lt; <span class="stringliteral">&quot;\&quot;index&quot;</span> &lt;&lt; <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#aa98afe79970170f82848bc45b0f076ec">Doxygen::htmlFileExtension</a> &lt;&lt; <span class="stringliteral">&quot;\&quot;, &quot;</span>;</div>
-<div class="line"><span class="lineno">  748</span> </div>
-<div class="line"><span class="lineno">  749</span>    <span class="comment">// add special entry for index page</span></div>
-<div class="line"><span class="lineno">  750</span>    navIndex.emplace_back(<span class="stringliteral">&quot;index&quot;</span>+<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#aa98afe79970170f82848bc45b0f076ec">Doxygen::htmlFileExtension</a>,<span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><span class="lineno">  751</span>    <span class="comment">// related page index is written as a child of index.html, so add this as well</span></div>
-<div class="line"><span class="lineno">  752</span>    navIndex.emplace_back(<span class="stringliteral">&quot;pages&quot;</span>+<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#aa98afe79970170f82848bc45b0f076ec">Doxygen::htmlFileExtension</a>,<span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><span class="lineno">  753</span> </div>
-<div class="line"><span class="lineno">  754</span>    <span class="keywordtype">bool</span> first=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno">  755</span>    <a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#a2945edc16c199a62e84ee85d81b9c854">generateJSTree</a>(navIndex,t,nodeList,1,first);</div>
-<div class="line"><span class="lineno">  756</span>    <a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#adb4a42f193668dfef2c26197a3b3dd59">generateJSTreeFiles</a>(navIndex,t,nodeList);</div>
-<div class="line"><span class="lineno">  757</span> </div>
-<div class="line"><span class="lineno">  758</span>    <span class="keywordflow">if</span> (first)</div>
-<div class="line"><span class="lineno">  759</span>      t &lt;&lt; <span class="stringliteral">&quot;]\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  760</span>    <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  761</span>      t &lt;&lt; <span class="stringliteral">&quot;\n  ] ]\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  762</span>    t &lt;&lt; <span class="stringliteral">&quot;];\n\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  763</span> </div>
-<div class="line"><span class="lineno">  764</span>    <span class="comment">// write the navigation index (and sub-indices)</span></div>
-<div class="line"><span class="lineno">  765</span>    std::sort(navIndex.begin(),navIndex.end(),[](<span class="keyword">const</span> <span class="keyword">auto</span> &amp;n1,<span class="keyword">const</span> <span class="keyword">auto</span> &amp;n2)</div>
-<div class="line"><span class="lineno">  766</span>        { return !n1.url.isEmpty() &amp;&amp; (n2.url.isEmpty() || (n1.url&lt;n2.url)); });</div>
-<div class="line"><span class="lineno">  767</span> </div>
-<div class="line"><span class="lineno">  768</span>    <span class="keywordtype">int</span> subIndex=0;</div>
-<div class="line"><span class="lineno">  769</span>    <span class="keywordtype">int</span> elemCount=0;</div>
-<div class="line"><span class="lineno">  770</span>    <span class="keyword">const</span> <span class="keywordtype">int</span> maxElemCount=250;</div>
-<div class="line"><span class="lineno">  771</span>    std::ofstream tsidx = <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a230fceefc8f9abd1e8d4be71d7eef281">Portable::openOutputStream</a>(htmlOutput+<span class="stringliteral">&quot;/navtreeindex0.js&quot;</span>);</div>
-<div class="line"><span class="lineno">  772</span>    <span class="keywordflow">if</span> (tsidx.is_open())</div>
-<div class="line"><span class="lineno">  773</span>    {</div>
-<div class="line"><span class="lineno">  774</span>      t &lt;&lt; <span class="stringliteral">&quot;var NAVTREEINDEX =\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  775</span>      t &lt;&lt; <span class="stringliteral">&quot;[\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  776</span>      tsidx &lt;&lt; <span class="stringliteral">&quot;var NAVTREEINDEX&quot;</span> &lt;&lt; subIndex &lt;&lt; <span class="stringliteral">&quot; =\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  777</span>      tsidx &lt;&lt; <span class="stringliteral">&quot;{\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  778</span>      first=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno">  779</span>      <span class="keyword">auto</span> it = navIndex.begin();</div>
-<div class="line"><span class="lineno">  780</span>      <span class="keywordflow">while</span> (it!=navIndex.end())</div>
-<div class="line"><span class="lineno">  781</span>      {</div>
-<div class="line"><span class="lineno">  782</span>        <span class="keyword">const</span> <a class="code hl_struct" href="../../df/d5d/struct_nav_index_entry.html">NavIndexEntry</a> &amp;e = *it;</div>
-<div class="line"><span class="lineno">  783</span>        <span class="keywordflow">if</span> (elemCount==0)</div>
-<div class="line"><span class="lineno">  784</span>        {</div>
-<div class="line"><span class="lineno">  785</span>          <span class="keywordflow">if</span> (!first)</div>
-<div class="line"><span class="lineno">  786</span>          {</div>
-<div class="line"><span class="lineno">  787</span>            t &lt;&lt; <span class="stringliteral">&quot;,\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  788</span>          }</div>
-<div class="line"><span class="lineno">  789</span>          <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  790</span>          {</div>
-<div class="line"><span class="lineno">  791</span>            first=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="line"><span class="lineno">  792</span>          }</div>
-<div class="line"><span class="lineno">  793</span>          t &lt;&lt; <span class="stringliteral">&quot;\&quot;&quot;</span> &lt;&lt; e.<a class="code hl_variable" href="../../df/d5d/struct_nav_index_entry.html#a27809e7b238b92e5aafafd1a57900111">url</a> &lt;&lt; <span class="stringliteral">&quot;\&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno">  794</span>        }</div>
-<div class="line"><span class="lineno">  795</span>        tsidx &lt;&lt; <span class="stringliteral">&quot;\&quot;&quot;</span> &lt;&lt; e.<a class="code hl_variable" href="../../df/d5d/struct_nav_index_entry.html#a27809e7b238b92e5aafafd1a57900111">url</a> &lt;&lt; <span class="stringliteral">&quot;\&quot;:[&quot;</span> &lt;&lt; e.<a class="code hl_variable" href="../../df/d5d/struct_nav_index_entry.html#a684ba0c749048aa18f5e29f8ba820d7f">path</a> &lt;&lt; <span class="stringliteral">&quot;]&quot;</span>;</div>
-<div class="line"><span class="lineno">  796</span>        ++it;</div>
-<div class="line"><span class="lineno">  797</span>        <span class="keywordflow">if</span> (it!=navIndex.end() &amp;&amp; elemCount&lt;maxElemCount-1) tsidx &lt;&lt; <span class="stringliteral">&quot;,&quot;</span>; <span class="comment">// not last entry</span></div>
-<div class="line"><span class="lineno">  798</span>        tsidx &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  799</span> </div>
-<div class="line"><span class="lineno">  800</span>        elemCount++;</div>
-<div class="line"><span class="lineno">  801</span>        <span class="keywordflow">if</span> (it!=navIndex.end() &amp;&amp; elemCount&gt;=maxElemCount) <span class="comment">// switch to new sub-index</span></div>
-<div class="line"><span class="lineno">  802</span>        {</div>
-<div class="line"><span class="lineno">  803</span>          tsidx &lt;&lt; <span class="stringliteral">&quot;};\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  804</span>          elemCount=0;</div>
-<div class="line"><span class="lineno">  805</span>          tsidx.close();</div>
-<div class="line"><span class="lineno">  806</span>          subIndex++;</div>
-<div class="line"><span class="lineno">  807</span>          <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> fileName = htmlOutput+<span class="stringliteral">&quot;/navtreeindex&quot;</span>+<a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>().<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a87d2bfa3fcbf407c32fab784df368b2d">setNum</a>(subIndex)+<span class="stringliteral">&quot;.js&quot;</span>;</div>
-<div class="line"><span class="lineno">  808</span>          tsidx = <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a230fceefc8f9abd1e8d4be71d7eef281">Portable::openOutputStream</a>(fileName);</div>
-<div class="line"><span class="lineno">  809</span>          <span class="keywordflow">if</span> (!tsidx.is_open()) <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  810</span>          tsidx &lt;&lt; <span class="stringliteral">&quot;var NAVTREEINDEX&quot;</span> &lt;&lt; subIndex &lt;&lt; <span class="stringliteral">&quot; =\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  811</span>          tsidx &lt;&lt; <span class="stringliteral">&quot;{\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  812</span>        }</div>
-<div class="line"><span class="lineno">  813</span>      }</div>
-<div class="line"><span class="lineno">  814</span>      tsidx &lt;&lt; <span class="stringliteral">&quot;};\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  815</span>      t &lt;&lt; <span class="stringliteral">&quot;\n];\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  816</span>    }</div>
-<div class="line"><span class="lineno">  817</span>    t &lt;&lt; <span class="stringliteral">&quot;\nvar SYNCONMSG = &#39;&quot;</span>  &lt;&lt; <a class="code hl_variable" href="../../d2/d48/language_8cpp.html#a07b18e39f7c5156cd370829e7e6f8534">theTranslator</a>-&gt;<a class="code hl_function" href="../../d8/dfb/class_translator.html#ac02207b116aa38a252f1f192e320fafe">trPanelSynchronisationTooltip</a>(<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>) &lt;&lt; <span class="stringliteral">&quot;&#39;;&quot;</span>;</div>
-<div class="line"><span class="lineno">  818</span>    t &lt;&lt; <span class="stringliteral">&quot;\nvar SYNCOFFMSG = &#39;&quot;</span> &lt;&lt; <a class="code hl_variable" href="../../d2/d48/language_8cpp.html#a07b18e39f7c5156cd370829e7e6f8534">theTranslator</a>-&gt;<a class="code hl_function" href="../../d8/dfb/class_translator.html#ac02207b116aa38a252f1f192e320fafe">trPanelSynchronisationTooltip</a>(<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>)  &lt;&lt; <span class="stringliteral">&quot;&#39;;&quot;</span>;</div>
-<div class="line"><span class="lineno">  819</span>  }</div>
-<div class="line"><span class="lineno">  820</span>  <a class="code hl_function" href="../../d6/d12/class_resource_mgr.html#a02fb3176893696eaf659d680c8b08064">ResourceMgr::instance</a>().<a class="code hl_function" href="../../d6/d12/class_resource_mgr.html#a32b8297da656a43a255a3a1b27c210b9">copyResource</a>(<span class="stringliteral">&quot;navtree.js&quot;</span>,htmlOutput);</div>
-<div class="line"><span class="lineno">  821</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00717">717</a> of file <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html">ftvhelp.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  718</span>{</div>
+<div class="line"><span class="lineno">  719</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> htmlOutput = <a class="code hl_define" href="../../db/d16/config_8h.html#a737741e6991bdb5694a50075437a9d89">Config_getString</a>(HTML_OUTPUT);</div>
+<div class="line"><span class="lineno">  720</span>  std::ofstream f = <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a230fceefc8f9abd1e8d4be71d7eef281">Portable::openOutputStream</a>(htmlOutput+<span class="stringliteral">&quot;/navtreedata.js&quot;</span>);</div>
+<div class="line"><span class="lineno">  721</span>  <a class="code hl_class" href="../../df/d10/class_nav_index_entry_list.html">NavIndexEntryList</a> navIndex;</div>
+<div class="line"><span class="lineno">  722</span>  <span class="keywordflow">if</span> (f.is_open())</div>
+<div class="line"><span class="lineno">  723</span>  {</div>
+<div class="line"><span class="lineno">  724</span>    <a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a> t(&amp;f);</div>
+<div class="line"><span class="lineno">  725</span>    <span class="comment">//TextStream tidx(&amp;fidx);</span></div>
+<div class="line"><span class="lineno">  726</span>    <span class="comment">//tidx &lt;&lt; &quot;var NAVTREEINDEX =\n&quot;;</span></div>
+<div class="line"><span class="lineno">  727</span>    <span class="comment">//tidx &lt;&lt; &quot;{\n&quot;;</span></div>
+<div class="line"><span class="lineno">  728</span>    t &lt;&lt; <a class="code hl_variable" href="../../d2/d4a/ftvhelp_8h.html#a8a39a1a82ce3ac026350d5ab014d9393">JAVASCRIPT_LICENSE_TEXT</a>;</div>
+<div class="line"><span class="lineno">  729</span>    t &lt;&lt; <span class="stringliteral">&quot;var NAVTREE =\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  730</span>    t &lt;&lt; <span class="stringliteral">&quot;[\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  731</span>    t &lt;&lt; <span class="stringliteral">&quot;  [ &quot;</span>;</div>
+<div class="line"><span class="lineno">  732</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> projName = <a class="code hl_define" href="../../db/d16/config_8h.html#a737741e6991bdb5694a50075437a9d89">Config_getString</a>(PROJECT_NAME);</div>
+<div class="line"><span class="lineno">  733</span>    <span class="keywordflow">if</span> (projName.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
+<div class="line"><span class="lineno">  734</span>    {</div>
+<div class="line"><span class="lineno">  735</span>      <span class="keywordflow">if</span> (<a class="code hl_function" href="../../df/d2d/util_8cpp.html#a1d56f22de057d96035949f029dd6e4e8">mainPageHasTitle</a>()) <span class="comment">// Use title of main page as root</span></div>
+<div class="line"><span class="lineno">  736</span>      {</div>
+<div class="line"><span class="lineno">  737</span>        t &lt;&lt; <span class="stringliteral">&quot;\&quot;&quot;</span> &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a8f3e481e1b1d0260a8561aa16e19e62e">convertToJSString</a>(<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a2cc3616eca3e3c550a211d8b1eaf4661">Doxygen::mainPage</a>-&gt;title()) &lt;&lt; <span class="stringliteral">&quot;\&quot;, &quot;</span>;</div>
+<div class="line"><span class="lineno">  738</span>      }</div>
+<div class="line"><span class="lineno">  739</span>      <span class="keywordflow">else</span> <span class="comment">// Use default section title as root</span></div>
+<div class="line"><span class="lineno">  740</span>      {</div>
+<div class="line"><span class="lineno">  741</span>        <a class="code hl_struct" href="../../df/de7/struct_layout_nav_entry.html">LayoutNavEntry</a> *lne = <a class="code hl_function" href="../../dc/d1d/class_layout_doc_manager.html#a87bc2288833b8769bd03e47c58fbba6a">LayoutDocManager::instance</a>().<a class="code hl_function" href="../../dc/d1d/class_layout_doc_manager.html#ad70cfcbfc25b8f303a59cd8f76c61465">rootNavEntry</a>()-&gt;<a class="code hl_function" href="../../df/de7/struct_layout_nav_entry.html#ab983afb4157621ae3548364755a75002">find</a>(<a class="code hl_enumvalue" href="../../df/de7/struct_layout_nav_entry.html#aef36305dd829f7cde87ca203ae647c7ca53e72568b7ada7fcd9e75c1bb5052d54">LayoutNavEntry::MainPage</a>);</div>
+<div class="line"><span class="lineno">  742</span>        t &lt;&lt; <span class="stringliteral">&quot;\&quot;&quot;</span> &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a8f3e481e1b1d0260a8561aa16e19e62e">convertToJSString</a>(lne-&gt;<a class="code hl_function" href="../../df/de7/struct_layout_nav_entry.html#a006dfaa93d3dee670dd4ae22d28a1db7">title</a>()) &lt;&lt; <span class="stringliteral">&quot;\&quot;, &quot;</span>;</div>
+<div class="line"><span class="lineno">  743</span>      }</div>
+<div class="line"><span class="lineno">  744</span>    }</div>
+<div class="line"><span class="lineno">  745</span>    <span class="keywordflow">else</span> <span class="comment">// use PROJECT_NAME as root tree element</span></div>
+<div class="line"><span class="lineno">  746</span>    {</div>
+<div class="line"><span class="lineno">  747</span>      t &lt;&lt; <span class="stringliteral">&quot;\&quot;&quot;</span> &lt;&lt; <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a8f3e481e1b1d0260a8561aa16e19e62e">convertToJSString</a>(projName) &lt;&lt; <span class="stringliteral">&quot;\&quot;, &quot;</span>;</div>
+<div class="line"><span class="lineno">  748</span>    }</div>
+<div class="line"><span class="lineno">  749</span>    t &lt;&lt; <span class="stringliteral">&quot;\&quot;index&quot;</span> &lt;&lt; <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#aa98afe79970170f82848bc45b0f076ec">Doxygen::htmlFileExtension</a> &lt;&lt; <span class="stringliteral">&quot;\&quot;, &quot;</span>;</div>
+<div class="line"><span class="lineno">  750</span> </div>
+<div class="line"><span class="lineno">  751</span>    <span class="comment">// add special entry for index page</span></div>
+<div class="line"><span class="lineno">  752</span>    navIndex.emplace_back(<span class="stringliteral">&quot;index&quot;</span>+<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#aa98afe79970170f82848bc45b0f076ec">Doxygen::htmlFileExtension</a>,<span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><span class="lineno">  753</span>    <span class="comment">// related page index is written as a child of index.html, so add this as well</span></div>
+<div class="line"><span class="lineno">  754</span>    navIndex.emplace_back(<span class="stringliteral">&quot;pages&quot;</span>+<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#aa98afe79970170f82848bc45b0f076ec">Doxygen::htmlFileExtension</a>,<span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><span class="lineno">  755</span> </div>
+<div class="line"><span class="lineno">  756</span>    <span class="keywordtype">bool</span> first=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno">  757</span>    <a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#a2945edc16c199a62e84ee85d81b9c854">generateJSTree</a>(navIndex,t,nodeList,1,first);</div>
+<div class="line"><span class="lineno">  758</span>    <a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#adb4a42f193668dfef2c26197a3b3dd59">generateJSTreeFiles</a>(navIndex,t,nodeList);</div>
+<div class="line"><span class="lineno">  759</span> </div>
+<div class="line"><span class="lineno">  760</span>    <span class="keywordflow">if</span> (first)</div>
+<div class="line"><span class="lineno">  761</span>      t &lt;&lt; <span class="stringliteral">&quot;]\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  762</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  763</span>      t &lt;&lt; <span class="stringliteral">&quot;\n  ] ]\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  764</span>    t &lt;&lt; <span class="stringliteral">&quot;];\n\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  765</span> </div>
+<div class="line"><span class="lineno">  766</span>    <span class="comment">// write the navigation index (and sub-indices)</span></div>
+<div class="line"><span class="lineno">  767</span>    std::sort(navIndex.begin(),navIndex.end(),[](<span class="keyword">const</span> <span class="keyword">auto</span> &amp;n1,<span class="keyword">const</span> <span class="keyword">auto</span> &amp;n2)</div>
+<div class="line"><span class="lineno">  768</span>        { return !n1.url.isEmpty() &amp;&amp; (n2.url.isEmpty() || (n1.url&lt;n2.url)); });</div>
+<div class="line"><span class="lineno">  769</span> </div>
+<div class="line"><span class="lineno">  770</span>    <span class="keywordtype">int</span> subIndex=0;</div>
+<div class="line"><span class="lineno">  771</span>    <span class="keywordtype">int</span> elemCount=0;</div>
+<div class="line"><span class="lineno">  772</span>    <span class="keyword">const</span> <span class="keywordtype">int</span> maxElemCount=250;</div>
+<div class="line"><span class="lineno">  773</span>    std::ofstream tsidx = <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a230fceefc8f9abd1e8d4be71d7eef281">Portable::openOutputStream</a>(htmlOutput+<span class="stringliteral">&quot;/navtreeindex0.js&quot;</span>);</div>
+<div class="line"><span class="lineno">  774</span>    <span class="keywordflow">if</span> (tsidx.is_open())</div>
+<div class="line"><span class="lineno">  775</span>    {</div>
+<div class="line"><span class="lineno">  776</span>      t &lt;&lt; <span class="stringliteral">&quot;var NAVTREEINDEX =\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  777</span>      t &lt;&lt; <span class="stringliteral">&quot;[\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  778</span>      tsidx &lt;&lt; <span class="stringliteral">&quot;var NAVTREEINDEX&quot;</span> &lt;&lt; subIndex &lt;&lt; <span class="stringliteral">&quot; =\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  779</span>      tsidx &lt;&lt; <span class="stringliteral">&quot;{\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  780</span>      first=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno">  781</span>      <span class="keyword">auto</span> it = navIndex.begin();</div>
+<div class="line"><span class="lineno">  782</span>      <span class="keywordflow">while</span> (it!=navIndex.end())</div>
+<div class="line"><span class="lineno">  783</span>      {</div>
+<div class="line"><span class="lineno">  784</span>        <span class="keyword">const</span> <a class="code hl_struct" href="../../df/d5d/struct_nav_index_entry.html">NavIndexEntry</a> &amp;e = *it;</div>
+<div class="line"><span class="lineno">  785</span>        <span class="keywordflow">if</span> (elemCount==0)</div>
+<div class="line"><span class="lineno">  786</span>        {</div>
+<div class="line"><span class="lineno">  787</span>          <span class="keywordflow">if</span> (!first)</div>
+<div class="line"><span class="lineno">  788</span>          {</div>
+<div class="line"><span class="lineno">  789</span>            t &lt;&lt; <span class="stringliteral">&quot;,\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  790</span>          }</div>
+<div class="line"><span class="lineno">  791</span>          <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  792</span>          {</div>
+<div class="line"><span class="lineno">  793</span>            first=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
+<div class="line"><span class="lineno">  794</span>          }</div>
+<div class="line"><span class="lineno">  795</span>          t &lt;&lt; <span class="stringliteral">&quot;\&quot;&quot;</span> &lt;&lt; e.<a class="code hl_variable" href="../../df/d5d/struct_nav_index_entry.html#a27809e7b238b92e5aafafd1a57900111">url</a> &lt;&lt; <span class="stringliteral">&quot;\&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno">  796</span>        }</div>
+<div class="line"><span class="lineno">  797</span>        tsidx &lt;&lt; <span class="stringliteral">&quot;\&quot;&quot;</span> &lt;&lt; e.<a class="code hl_variable" href="../../df/d5d/struct_nav_index_entry.html#a27809e7b238b92e5aafafd1a57900111">url</a> &lt;&lt; <span class="stringliteral">&quot;\&quot;:[&quot;</span> &lt;&lt; e.<a class="code hl_variable" href="../../df/d5d/struct_nav_index_entry.html#a684ba0c749048aa18f5e29f8ba820d7f">path</a> &lt;&lt; <span class="stringliteral">&quot;]&quot;</span>;</div>
+<div class="line"><span class="lineno">  798</span>        ++it;</div>
+<div class="line"><span class="lineno">  799</span>        <span class="keywordflow">if</span> (it!=navIndex.end() &amp;&amp; elemCount&lt;maxElemCount-1) tsidx &lt;&lt; <span class="stringliteral">&quot;,&quot;</span>; <span class="comment">// not last entry</span></div>
+<div class="line"><span class="lineno">  800</span>        tsidx &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  801</span> </div>
+<div class="line"><span class="lineno">  802</span>        elemCount++;</div>
+<div class="line"><span class="lineno">  803</span>        <span class="keywordflow">if</span> (it!=navIndex.end() &amp;&amp; elemCount&gt;=maxElemCount) <span class="comment">// switch to new sub-index</span></div>
+<div class="line"><span class="lineno">  804</span>        {</div>
+<div class="line"><span class="lineno">  805</span>          tsidx &lt;&lt; <span class="stringliteral">&quot;};\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  806</span>          elemCount=0;</div>
+<div class="line"><span class="lineno">  807</span>          tsidx.close();</div>
+<div class="line"><span class="lineno">  808</span>          subIndex++;</div>
+<div class="line"><span class="lineno">  809</span>          <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> fileName = htmlOutput+<span class="stringliteral">&quot;/navtreeindex&quot;</span>+<a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>().<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a87d2bfa3fcbf407c32fab784df368b2d">setNum</a>(subIndex)+<span class="stringliteral">&quot;.js&quot;</span>;</div>
+<div class="line"><span class="lineno">  810</span>          tsidx = <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a230fceefc8f9abd1e8d4be71d7eef281">Portable::openOutputStream</a>(fileName);</div>
+<div class="line"><span class="lineno">  811</span>          <span class="keywordflow">if</span> (!tsidx.is_open()) <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  812</span>          tsidx &lt;&lt; <span class="stringliteral">&quot;var NAVTREEINDEX&quot;</span> &lt;&lt; subIndex &lt;&lt; <span class="stringliteral">&quot; =\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  813</span>          tsidx &lt;&lt; <span class="stringliteral">&quot;{\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  814</span>        }</div>
+<div class="line"><span class="lineno">  815</span>      }</div>
+<div class="line"><span class="lineno">  816</span>      tsidx &lt;&lt; <span class="stringliteral">&quot;};\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  817</span>      t &lt;&lt; <span class="stringliteral">&quot;\n];\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  818</span>    }</div>
+<div class="line"><span class="lineno">  819</span>    t &lt;&lt; <span class="stringliteral">&quot;\nvar SYNCONMSG = &#39;&quot;</span>  &lt;&lt; <a class="code hl_variable" href="../../d2/d48/language_8cpp.html#a07b18e39f7c5156cd370829e7e6f8534">theTranslator</a>-&gt;<a class="code hl_function" href="../../d8/dfb/class_translator.html#ac02207b116aa38a252f1f192e320fafe">trPanelSynchronisationTooltip</a>(<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>) &lt;&lt; <span class="stringliteral">&quot;&#39;;&quot;</span>;</div>
+<div class="line"><span class="lineno">  820</span>    t &lt;&lt; <span class="stringliteral">&quot;\nvar SYNCOFFMSG = &#39;&quot;</span> &lt;&lt; <a class="code hl_variable" href="../../d2/d48/language_8cpp.html#a07b18e39f7c5156cd370829e7e6f8534">theTranslator</a>-&gt;<a class="code hl_function" href="../../d8/dfb/class_translator.html#ac02207b116aa38a252f1f192e320fafe">trPanelSynchronisationTooltip</a>(<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>)  &lt;&lt; <span class="stringliteral">&quot;&#39;;&quot;</span>;</div>
+<div class="line"><span class="lineno">  821</span>  }</div>
+<div class="line"><span class="lineno">  822</span>  <a class="code hl_function" href="../../d6/d12/class_resource_mgr.html#a02fb3176893696eaf659d680c8b08064">ResourceMgr::instance</a>().<a class="code hl_function" href="../../d6/d12/class_resource_mgr.html#a32b8297da656a43a255a3a1b27c210b9">copyResource</a>(<span class="stringliteral">&quot;navtree.js&quot;</span>,htmlOutput);</div>
+<div class="line"><span class="lineno">  823</span>}</div>
 <div class="ttc" id="aclass_doxygen_html_a2cc3616eca3e3c550a211d8b1eaf4661"><div class="ttname"><a href="../../de/d6a/class_doxygen.html#a2cc3616eca3e3c550a211d8b1eaf4661">Doxygen::mainPage</a></div><div class="ttdeci">static std::unique_ptr&lt; PageDef &gt; mainPage</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d6a/class_doxygen.html#l00095">doxygen.h:95</a></div></div>
 <div class="ttc" id="aclass_doxygen_html_aa98afe79970170f82848bc45b0f076ec"><div class="ttname"><a href="../../de/d6a/class_doxygen.html#aa98afe79970170f82848bc45b0f076ec">Doxygen::htmlFileExtension</a></div><div class="ttdeci">static QCString htmlFileExtension</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d6a/class_doxygen.html#l00115">doxygen.h:115</a></div></div>
 <div class="ttc" id="aclass_layout_doc_manager_html_a87bc2288833b8769bd03e47c58fbba6a"><div class="ttname"><a href="../../dc/d1d/class_layout_doc_manager.html#a87bc2288833b8769bd03e47c58fbba6a">LayoutDocManager::instance</a></div><div class="ttdeci">static LayoutDocManager &amp; instance()</div><div class="ttdoc">Returns a reference to this singleton.</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d1d/class_layout_doc_manager.html#l01351">layout.cpp:1351</a></div></div>
@@ -854,8 +857,8 @@ Variables</h2></td></tr>
 <div class="ttc" id="aclass_resource_mgr_html_a32b8297da656a43a255a3a1b27c210b9"><div class="ttname"><a href="../../d6/d12/class_resource_mgr.html#a32b8297da656a43a255a3a1b27c210b9">ResourceMgr::copyResource</a></div><div class="ttdeci">bool copyResource(const QCString &amp;name, const QCString &amp;targetDir) const</div><div class="ttdoc">Copies a registered resource to a given target directory.</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d12/class_resource_mgr.html#l00179">resourcemgr.cpp:179</a></div></div>
 <div class="ttc" id="aclass_text_stream_html"><div class="ttname"><a href="../../d3/d30/class_text_stream.html">TextStream</a></div><div class="ttdoc">Text streaming class that buffers data.</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d30/class_text_stream.html#l00034">textstream.h:35</a></div></div>
 <div class="ttc" id="aclass_translator_html_ac02207b116aa38a252f1f192e320fafe"><div class="ttname"><a href="../../d8/dfb/class_translator.html#ac02207b116aa38a252f1f192e320fafe">Translator::trPanelSynchronisationTooltip</a></div><div class="ttdeci">virtual QCString trPanelSynchronisationTooltip(bool enable)=0</div></div>
-<div class="ttc" id="aftvhelp_8cpp_html_a2945edc16c199a62e84ee85d81b9c854"><div class="ttname"><a href="../../db/d41/ftvhelp_8cpp.html#a2945edc16c199a62e84ee85d81b9c854">generateJSTree</a></div><div class="ttdeci">static bool generateJSTree(NavIndexEntryList &amp;navIndex, TextStream &amp;t, const FTVNodes &amp;nl, int level, bool &amp;first)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d41/ftvhelp_8cpp.html#l00583">ftvhelp.cpp:583</a></div></div>
-<div class="ttc" id="aftvhelp_8cpp_html_adb4a42f193668dfef2c26197a3b3dd59"><div class="ttname"><a href="../../db/d41/ftvhelp_8cpp.html#adb4a42f193668dfef2c26197a3b3dd59">generateJSTreeFiles</a></div><div class="ttdeci">static void generateJSTreeFiles(NavIndexEntryList &amp;navIndex, TextStream &amp;t, const FTVNodes &amp;nodeList)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d41/ftvhelp_8cpp.html#l00664">ftvhelp.cpp:664</a></div></div>
+<div class="ttc" id="aftvhelp_8cpp_html_a2945edc16c199a62e84ee85d81b9c854"><div class="ttname"><a href="../../db/d41/ftvhelp_8cpp.html#a2945edc16c199a62e84ee85d81b9c854">generateJSTree</a></div><div class="ttdeci">static bool generateJSTree(NavIndexEntryList &amp;navIndex, TextStream &amp;t, const FTVNodes &amp;nl, int level, bool &amp;first)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d41/ftvhelp_8cpp.html#l00585">ftvhelp.cpp:585</a></div></div>
+<div class="ttc" id="aftvhelp_8cpp_html_adb4a42f193668dfef2c26197a3b3dd59"><div class="ttname"><a href="../../db/d41/ftvhelp_8cpp.html#adb4a42f193668dfef2c26197a3b3dd59">generateJSTreeFiles</a></div><div class="ttdeci">static void generateJSTreeFiles(NavIndexEntryList &amp;navIndex, TextStream &amp;t, const FTVNodes &amp;nodeList)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d41/ftvhelp_8cpp.html#l00666">ftvhelp.cpp:666</a></div></div>
 <div class="ttc" id="aftvhelp_8h_html_a8a39a1a82ce3ac026350d5ab014d9393"><div class="ttname"><a href="../../d2/d4a/ftvhelp_8h.html#a8a39a1a82ce3ac026350d5ab014d9393">JAVASCRIPT_LICENSE_TEXT</a></div><div class="ttdeci">constexpr auto JAVASCRIPT_LICENSE_TEXT</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d4a/ftvhelp_8h.html#l00069">ftvhelp.h:69</a></div></div>
 <div class="ttc" id="alanguage_8cpp_html_a07b18e39f7c5156cd370829e7e6f8534"><div class="ttname"><a href="../../d2/d48/language_8cpp.html#a07b18e39f7c5156cd370829e7e6f8534">theTranslator</a></div><div class="ttdeci">Translator * theTranslator</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d48/language_8cpp.html#l00070">language.cpp:70</a></div></div>
 <div class="ttc" id="anamespace_portable_html_a230fceefc8f9abd1e8d4be71d7eef281"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#a230fceefc8f9abd1e8d4be71d7eef281">Portable::openOutputStream</a></div><div class="ttdeci">std::ofstream openOutputStream(const QCString &amp;name, bool append=false)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d6f/namespace_portable.html#l00648">portable.cpp:648</a></div></div>
@@ -868,9 +871,9 @@ Variables</h2></td></tr>
 <div class="ttc" id="astruct_nav_index_entry_html_a684ba0c749048aa18f5e29f8ba820d7f"><div class="ttname"><a href="../../df/d5d/struct_nav_index_entry.html#a684ba0c749048aa18f5e29f8ba820d7f">NavIndexEntry::path</a></div><div class="ttdeci">QCString path</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d5d/struct_nav_index_entry.html#l00499">ftvhelp.cpp:499</a></div></div>
 <div class="ttc" id="autil_8cpp_html_a1d56f22de057d96035949f029dd6e4e8"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a1d56f22de057d96035949f029dd6e4e8">mainPageHasTitle</a></div><div class="ttdeci">bool mainPageHasTitle()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp.html#l06781">util.cpp:6781</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00032">Config_getString</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04160">convertToJSString()</a>, <a class="el" href="../../d6/dde/resourcemgr_8cpp_source.html#l00179">ResourceMgr::copyResource()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../db/d16/layout_8cpp_source.html#l00120">LayoutNavEntry::find()</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00583">generateJSTree()</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00664">generateJSTreeFiles()</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00115">Doxygen::htmlFileExtension</a>, <a class="el" href="../../db/d16/layout_8cpp_source.html#l01351">LayoutDocManager::instance()</a>, <a class="el" href="../../d6/dde/resourcemgr_8cpp_source.html#l00033">ResourceMgr::instance()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00138">QCString::isEmpty()</a>, <a class="el" href="../../d2/d4a/ftvhelp_8h_source.html#l00069">JAVASCRIPT_LICENSE_TEXT</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00095">Doxygen::mainPage</a>, <a class="el" href="../../db/d51/layout_8h_source.html#l00132">LayoutNavEntry::MainPage</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l06781">mainPageHasTitle()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00648">Portable::openOutputStream()</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00499">NavIndexEntry::path</a>, <a class="el" href="../../db/d16/layout_8cpp_source.html#l01362">LayoutDocManager::rootNavEntry()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00396">QCString::setNum()</a>, <a class="el" href="../../d2/d48/language_8cpp_source.html#l00070">theTranslator</a>, <a class="el" href="../../db/d51/layout_8h_source.html#l00174">LayoutNavEntry::title()</a>, <a class="el" href="../../d8/dfb/class_translator.html#ac02207b116aa38a252f1f192e320fafe">Translator::trPanelSynchronisationTooltip()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>, and <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00498">NavIndexEntry::url</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00032">Config_getString</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l04160">convertToJSString()</a>, <a class="el" href="../../d6/dde/resourcemgr_8cpp_source.html#l00179">ResourceMgr::copyResource()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../db/d16/layout_8cpp_source.html#l00120">LayoutNavEntry::find()</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00585">generateJSTree()</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00666">generateJSTreeFiles()</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00115">Doxygen::htmlFileExtension</a>, <a class="el" href="../../db/d16/layout_8cpp_source.html#l01351">LayoutDocManager::instance()</a>, <a class="el" href="../../d6/dde/resourcemgr_8cpp_source.html#l00033">ResourceMgr::instance()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00138">QCString::isEmpty()</a>, <a class="el" href="../../d2/d4a/ftvhelp_8h_source.html#l00069">JAVASCRIPT_LICENSE_TEXT</a>, <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00095">Doxygen::mainPage</a>, <a class="el" href="../../db/d51/layout_8h_source.html#l00132">LayoutNavEntry::MainPage</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l06781">mainPageHasTitle()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00648">Portable::openOutputStream()</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00499">NavIndexEntry::path</a>, <a class="el" href="../../db/d16/layout_8cpp_source.html#l01362">LayoutDocManager::rootNavEntry()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00396">QCString::setNum()</a>, <a class="el" href="../../d2/d48/language_8cpp_source.html#l00070">theTranslator</a>, <a class="el" href="../../db/d51/layout_8h_source.html#l00174">LayoutNavEntry::title()</a>, <a class="el" href="../../d8/dfb/class_translator.html#ac02207b116aa38a252f1f192e320fafe">Translator::trPanelSynchronisationTooltip()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>, and <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00498">NavIndexEntry::url</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00839">FTVHelp::generateTreeViewScripts()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00841">FTVHelp::generateTreeViewScripts()</a>.</p>
 
 </div>
 </div>
@@ -926,99 +929,99 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00583">583</a> of file <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html">ftvhelp.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  585</span>{</div>
-<div class="line"><span class="lineno">  586</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> htmlOutput = <a class="code hl_define" href="../../db/d16/config_8h.html#a737741e6991bdb5694a50075437a9d89">Config_getString</a>(HTML_OUTPUT);</div>
-<div class="line"><span class="lineno">  587</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> indentStr;</div>
-<div class="line"><span class="lineno">  588</span>  indentStr.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a2061c09e8d70cd279d9cc9feef33d2bb">fill</a>(<span class="charliteral">&#39; &#39;</span>,level*2);</div>
-<div class="line"><span class="lineno">  589</span> </div>
-<div class="line"><span class="lineno">  590</span>  <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="line"><span class="lineno">  591</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;n : nl)</div>
-<div class="line"><span class="lineno">  592</span>  {</div>
-<div class="line"><span class="lineno">  593</span>    <span class="comment">// terminate previous entry</span></div>
-<div class="line"><span class="lineno">  594</span>    <span class="keywordflow">if</span> (!first) t &lt;&lt; <span class="stringliteral">&quot;,\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  595</span>    first=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="line"><span class="lineno">  596</span> </div>
-<div class="line"><span class="lineno">  597</span>    <span class="comment">// start entry</span></div>
-<div class="line"><span class="lineno">  598</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>)</div>
-<div class="line"><span class="lineno">  599</span>    {</div>
-<div class="line"><span class="lineno">  600</span>      t &lt;&lt; <span class="stringliteral">&quot;[\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  601</span>    }</div>
-<div class="line"><span class="lineno">  602</span>    <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno">  603</span> </div>
-<div class="line"><span class="lineno">  604</span>    <span class="keywordflow">if</span> (n-&gt;addToNavIndex) <span class="comment">// add entry to the navigation index</span></div>
-<div class="line"><span class="lineno">  605</span>    {</div>
-<div class="line"><span class="lineno">  606</span>      std::lock_guard lock(<a class="code hl_variable" href="../../db/d41/ftvhelp_8cpp.html#a854c08e309ca4fd7db25afc86cd90e55">g_navIndexMutex</a>);</div>
-<div class="line"><span class="lineno">  607</span>      <span class="keywordflow">if</span> (n-&gt;def &amp;&amp; n-&gt;def-&gt;definitionType()==<a class="code hl_enumvalue" href="../../d5/dcc/class_definition.html#aa41b6bc53dcf93ecf745698aaf15ef8ea203462c7d34ced15beac624562c2708e">Definition::TypeFile</a>)</div>
-<div class="line"><span class="lineno">  608</span>      {</div>
-<div class="line"><span class="lineno">  609</span>        <span class="keyword">const</span> <a class="code hl_class" href="../../de/db0/class_file_def.html">FileDef</a> *fd = <a class="code hl_function" href="../../d6/ddc/filedef_8cpp.html#a4114c484f3ccea1048608b9caa9f51de">toFileDef</a>(n-&gt;def);</div>
-<div class="line"><span class="lineno">  610</span>        <span class="keywordtype">bool</span> doc,src;</div>
-<div class="line"><span class="lineno">  611</span>        doc = <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a78b0d7057156fc989474dc86bfb86187">fileVisibleInIndex</a>(fd,src);</div>
-<div class="line"><span class="lineno">  612</span>        <span class="keywordflow">if</span> (doc)</div>
-<div class="line"><span class="lineno">  613</span>        {</div>
-<div class="line"><span class="lineno">  614</span>          navIndex.emplace_back(<a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#a4e52d619e02e6a48b41aa65affcac398">node2URL</a>(n,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>),<a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#a8e90c9de4676d5baf1fb570c0c0c0495">pathToNode</a>(n,n));</div>
-<div class="line"><span class="lineno">  615</span>        }</div>
-<div class="line"><span class="lineno">  616</span>        <span class="keywordflow">if</span> (src)</div>
-<div class="line"><span class="lineno">  617</span>        {</div>
-<div class="line"><span class="lineno">  618</span>          navIndex.emplace_back(<a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#a4e52d619e02e6a48b41aa65affcac398">node2URL</a>(n,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>),<a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#a8e90c9de4676d5baf1fb570c0c0c0495">pathToNode</a>(n,n));</div>
-<div class="line"><span class="lineno">  619</span>        }</div>
-<div class="line"><span class="lineno">  620</span>      }</div>
-<div class="line"><span class="lineno">  621</span>      <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  622</span>      {</div>
-<div class="line"><span class="lineno">  623</span>        navIndex.emplace_back(<a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#a4e52d619e02e6a48b41aa65affcac398">node2URL</a>(n),<a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#a8e90c9de4676d5baf1fb570c0c0c0495">pathToNode</a>(n,n));</div>
-<div class="line"><span class="lineno">  624</span>      }</div>
-<div class="line"><span class="lineno">  625</span>    }</div>
-<div class="line"><span class="lineno">  626</span> </div>
-<div class="line"><span class="lineno">  627</span>    <span class="keywordflow">if</span> (n-&gt;separateIndex) <span class="comment">// store items in a separate file for dynamic loading</span></div>
-<div class="line"><span class="lineno">  628</span>    {</div>
-<div class="line"><span class="lineno">  629</span>      t &lt;&lt; indentStr &lt;&lt; <span class="stringliteral">&quot;  [ &quot;</span>;</div>
-<div class="line"><span class="lineno">  630</span>      <a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#a3ec1633fe7ff4f8ae5374bff88c55b81">generateJSLink</a>(t,n);</div>
-<div class="line"><span class="lineno">  631</span>      <span class="keywordflow">if</span> (!n-&gt;children.empty()) <span class="comment">// write children to separate file for dynamic loading</span></div>
-<div class="line"><span class="lineno">  632</span>      {</div>
-<div class="line"><span class="lineno">  633</span>        <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> fileId = n-&gt;file;</div>
-<div class="line"><span class="lineno">  634</span>        <span class="keywordflow">if</span> (!n-&gt;anchor.isEmpty())</div>
-<div class="line"><span class="lineno">  635</span>        {</div>
-<div class="line"><span class="lineno">  636</span>          fileId+=<span class="stringliteral">&quot;_&quot;</span>+n-&gt;anchor;</div>
-<div class="line"><span class="lineno">  637</span>        }</div>
-<div class="line"><span class="lineno">  638</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#a24d81fe9c93c2e315bd713aed99379c4">dupOfParent</a>(n))</div>
-<div class="line"><span class="lineno">  639</span>        {</div>
-<div class="line"><span class="lineno">  640</span>          fileId+=<span class="stringliteral">&quot;_dup&quot;</span>;</div>
-<div class="line"><span class="lineno">  641</span>        }</div>
-<div class="line"><span class="lineno">  642</span>        t &lt;&lt; <span class="stringliteral">&quot;\&quot;&quot;</span> &lt;&lt; fileId &lt;&lt; <span class="stringliteral">&quot;\&quot; ]&quot;</span>;</div>
-<div class="line"><span class="lineno">  643</span>      }</div>
-<div class="line"><span class="lineno">  644</span>      <span class="keywordflow">else</span> <span class="comment">// no children</span></div>
-<div class="line"><span class="lineno">  645</span>      {</div>
-<div class="line"><span class="lineno">  646</span>        t &lt;&lt; <span class="stringliteral">&quot;null ]&quot;</span>;</div>
-<div class="line"><span class="lineno">  647</span>      }</div>
-<div class="line"><span class="lineno">  648</span>    }</div>
-<div class="line"><span class="lineno">  649</span>    <span class="keywordflow">else</span> <span class="comment">// show items in this file</span></div>
-<div class="line"><span class="lineno">  650</span>    {</div>
-<div class="line"><span class="lineno">  651</span>      <span class="keywordtype">bool</span> firstChild=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno">  652</span>      t &lt;&lt; indentStr &lt;&lt; <span class="stringliteral">&quot;  [ &quot;</span>;</div>
-<div class="line"><span class="lineno">  653</span>      <a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#a3ec1633fe7ff4f8ae5374bff88c55b81">generateJSLink</a>(t,n);</div>
-<div class="line"><span class="lineno">  654</span>      <span class="keywordtype">bool</span> emptySection = !<a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#a2945edc16c199a62e84ee85d81b9c854">generateJSTree</a>(navIndex,t,n-&gt;children,level+1,firstChild);</div>
-<div class="line"><span class="lineno">  655</span>      <span class="keywordflow">if</span> (emptySection)</div>
-<div class="line"><span class="lineno">  656</span>        t &lt;&lt; <span class="stringliteral">&quot;null ]&quot;</span>;</div>
-<div class="line"><span class="lineno">  657</span>      <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  658</span>        t &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span> &lt;&lt; indentStr &lt;&lt; <span class="stringliteral">&quot;  ] ]&quot;</span>;</div>
-<div class="line"><span class="lineno">  659</span>    }</div>
-<div class="line"><span class="lineno">  660</span>  }</div>
-<div class="line"><span class="lineno">  661</span>  <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>;</div>
-<div class="line"><span class="lineno">  662</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00585">585</a> of file <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html">ftvhelp.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  587</span>{</div>
+<div class="line"><span class="lineno">  588</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> htmlOutput = <a class="code hl_define" href="../../db/d16/config_8h.html#a737741e6991bdb5694a50075437a9d89">Config_getString</a>(HTML_OUTPUT);</div>
+<div class="line"><span class="lineno">  589</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> indentStr;</div>
+<div class="line"><span class="lineno">  590</span>  indentStr.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a2061c09e8d70cd279d9cc9feef33d2bb">fill</a>(<span class="charliteral">&#39; &#39;</span>,level*2);</div>
+<div class="line"><span class="lineno">  591</span> </div>
+<div class="line"><span class="lineno">  592</span>  <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
+<div class="line"><span class="lineno">  593</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;n : nl)</div>
+<div class="line"><span class="lineno">  594</span>  {</div>
+<div class="line"><span class="lineno">  595</span>    <span class="comment">// terminate previous entry</span></div>
+<div class="line"><span class="lineno">  596</span>    <span class="keywordflow">if</span> (!first) t &lt;&lt; <span class="stringliteral">&quot;,\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  597</span>    first=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
+<div class="line"><span class="lineno">  598</span> </div>
+<div class="line"><span class="lineno">  599</span>    <span class="comment">// start entry</span></div>
+<div class="line"><span class="lineno">  600</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>)</div>
+<div class="line"><span class="lineno">  601</span>    {</div>
+<div class="line"><span class="lineno">  602</span>      t &lt;&lt; <span class="stringliteral">&quot;[\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  603</span>    }</div>
+<div class="line"><span class="lineno">  604</span>    <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno">  605</span> </div>
+<div class="line"><span class="lineno">  606</span>    <span class="keywordflow">if</span> (n-&gt;addToNavIndex) <span class="comment">// add entry to the navigation index</span></div>
+<div class="line"><span class="lineno">  607</span>    {</div>
+<div class="line"><span class="lineno">  608</span>      std::lock_guard lock(<a class="code hl_variable" href="../../db/d41/ftvhelp_8cpp.html#a854c08e309ca4fd7db25afc86cd90e55">g_navIndexMutex</a>);</div>
+<div class="line"><span class="lineno">  609</span>      <span class="keywordflow">if</span> (n-&gt;def &amp;&amp; n-&gt;def-&gt;definitionType()==<a class="code hl_enumvalue" href="../../d5/dcc/class_definition.html#aa41b6bc53dcf93ecf745698aaf15ef8ea203462c7d34ced15beac624562c2708e">Definition::TypeFile</a>)</div>
+<div class="line"><span class="lineno">  610</span>      {</div>
+<div class="line"><span class="lineno">  611</span>        <span class="keyword">const</span> <a class="code hl_class" href="../../de/db0/class_file_def.html">FileDef</a> *fd = <a class="code hl_function" href="../../d6/ddc/filedef_8cpp.html#a4114c484f3ccea1048608b9caa9f51de">toFileDef</a>(n-&gt;def);</div>
+<div class="line"><span class="lineno">  612</span>        <span class="keywordtype">bool</span> doc,src;</div>
+<div class="line"><span class="lineno">  613</span>        doc = <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a78b0d7057156fc989474dc86bfb86187">fileVisibleInIndex</a>(fd,src);</div>
+<div class="line"><span class="lineno">  614</span>        <span class="keywordflow">if</span> (doc)</div>
+<div class="line"><span class="lineno">  615</span>        {</div>
+<div class="line"><span class="lineno">  616</span>          navIndex.emplace_back(<a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#a4e52d619e02e6a48b41aa65affcac398">node2URL</a>(n,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>),<a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#a8e90c9de4676d5baf1fb570c0c0c0495">pathToNode</a>(n,n));</div>
+<div class="line"><span class="lineno">  617</span>        }</div>
+<div class="line"><span class="lineno">  618</span>        <span class="keywordflow">if</span> (src)</div>
+<div class="line"><span class="lineno">  619</span>        {</div>
+<div class="line"><span class="lineno">  620</span>          navIndex.emplace_back(<a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#a4e52d619e02e6a48b41aa65affcac398">node2URL</a>(n,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>),<a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#a8e90c9de4676d5baf1fb570c0c0c0495">pathToNode</a>(n,n));</div>
+<div class="line"><span class="lineno">  621</span>        }</div>
+<div class="line"><span class="lineno">  622</span>      }</div>
+<div class="line"><span class="lineno">  623</span>      <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  624</span>      {</div>
+<div class="line"><span class="lineno">  625</span>        navIndex.emplace_back(<a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#a4e52d619e02e6a48b41aa65affcac398">node2URL</a>(n),<a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#a8e90c9de4676d5baf1fb570c0c0c0495">pathToNode</a>(n,n));</div>
+<div class="line"><span class="lineno">  626</span>      }</div>
+<div class="line"><span class="lineno">  627</span>    }</div>
+<div class="line"><span class="lineno">  628</span> </div>
+<div class="line"><span class="lineno">  629</span>    <span class="keywordflow">if</span> (n-&gt;separateIndex) <span class="comment">// store items in a separate file for dynamic loading</span></div>
+<div class="line"><span class="lineno">  630</span>    {</div>
+<div class="line"><span class="lineno">  631</span>      t &lt;&lt; indentStr &lt;&lt; <span class="stringliteral">&quot;  [ &quot;</span>;</div>
+<div class="line"><span class="lineno">  632</span>      <a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#a3ec1633fe7ff4f8ae5374bff88c55b81">generateJSLink</a>(t,n);</div>
+<div class="line"><span class="lineno">  633</span>      <span class="keywordflow">if</span> (!n-&gt;children.empty()) <span class="comment">// write children to separate file for dynamic loading</span></div>
+<div class="line"><span class="lineno">  634</span>      {</div>
+<div class="line"><span class="lineno">  635</span>        <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> fileId = n-&gt;file;</div>
+<div class="line"><span class="lineno">  636</span>        <span class="keywordflow">if</span> (!n-&gt;anchor.isEmpty())</div>
+<div class="line"><span class="lineno">  637</span>        {</div>
+<div class="line"><span class="lineno">  638</span>          fileId+=<span class="stringliteral">&quot;_&quot;</span>+n-&gt;anchor;</div>
+<div class="line"><span class="lineno">  639</span>        }</div>
+<div class="line"><span class="lineno">  640</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#a24d81fe9c93c2e315bd713aed99379c4">dupOfParent</a>(n))</div>
+<div class="line"><span class="lineno">  641</span>        {</div>
+<div class="line"><span class="lineno">  642</span>          fileId+=<span class="stringliteral">&quot;_dup&quot;</span>;</div>
+<div class="line"><span class="lineno">  643</span>        }</div>
+<div class="line"><span class="lineno">  644</span>        t &lt;&lt; <span class="stringliteral">&quot;\&quot;&quot;</span> &lt;&lt; fileId &lt;&lt; <span class="stringliteral">&quot;\&quot; ]&quot;</span>;</div>
+<div class="line"><span class="lineno">  645</span>      }</div>
+<div class="line"><span class="lineno">  646</span>      <span class="keywordflow">else</span> <span class="comment">// no children</span></div>
+<div class="line"><span class="lineno">  647</span>      {</div>
+<div class="line"><span class="lineno">  648</span>        t &lt;&lt; <span class="stringliteral">&quot;null ]&quot;</span>;</div>
+<div class="line"><span class="lineno">  649</span>      }</div>
+<div class="line"><span class="lineno">  650</span>    }</div>
+<div class="line"><span class="lineno">  651</span>    <span class="keywordflow">else</span> <span class="comment">// show items in this file</span></div>
+<div class="line"><span class="lineno">  652</span>    {</div>
+<div class="line"><span class="lineno">  653</span>      <span class="keywordtype">bool</span> firstChild=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno">  654</span>      t &lt;&lt; indentStr &lt;&lt; <span class="stringliteral">&quot;  [ &quot;</span>;</div>
+<div class="line"><span class="lineno">  655</span>      <a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#a3ec1633fe7ff4f8ae5374bff88c55b81">generateJSLink</a>(t,n);</div>
+<div class="line"><span class="lineno">  656</span>      <span class="keywordtype">bool</span> emptySection = !<a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#a2945edc16c199a62e84ee85d81b9c854">generateJSTree</a>(navIndex,t,n-&gt;children,level+1,firstChild);</div>
+<div class="line"><span class="lineno">  657</span>      <span class="keywordflow">if</span> (emptySection)</div>
+<div class="line"><span class="lineno">  658</span>        t &lt;&lt; <span class="stringliteral">&quot;null ]&quot;</span>;</div>
+<div class="line"><span class="lineno">  659</span>      <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  660</span>        t &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span> &lt;&lt; indentStr &lt;&lt; <span class="stringliteral">&quot;  ] ]&quot;</span>;</div>
+<div class="line"><span class="lineno">  661</span>    }</div>
+<div class="line"><span class="lineno">  662</span>  }</div>
+<div class="line"><span class="lineno">  663</span>  <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>;</div>
+<div class="line"><span class="lineno">  664</span>}</div>
 <div class="ttc" id="aclass_definition_html_aa41b6bc53dcf93ecf745698aaf15ef8ea203462c7d34ced15beac624562c2708e"><div class="ttname"><a href="../../d5/dcc/class_definition.html#aa41b6bc53dcf93ecf745698aaf15ef8ea203462c7d34ced15beac624562c2708e">Definition::TypeFile</a></div><div class="ttdeci">@ TypeFile</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dcc/class_definition.html#l00081">definition.h:81</a></div></div>
 <div class="ttc" id="aclass_file_def_html"><div class="ttname"><a href="../../de/db0/class_file_def.html">FileDef</a></div><div class="ttdoc">A model of a file symbol.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/db0/class_file_def.html#l00072">filedef.h:73</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_a2061c09e8d70cd279d9cc9feef33d2bb"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a2061c09e8d70cd279d9cc9feef33d2bb">QCString::fill</a></div><div class="ttdeci">bool fill(char c, int len=-1)</div><div class="ttdoc">Fills a string with a predefined character.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d45/class_q_c_string.html#l00172">qcstring.h:172</a></div></div>
 <div class="ttc" id="afiledef_8cpp_html_a4114c484f3ccea1048608b9caa9f51de"><div class="ttname"><a href="../../d6/ddc/filedef_8cpp.html#a4114c484f3ccea1048608b9caa9f51de">toFileDef</a></div><div class="ttdeci">FileDef * toFileDef(Definition *d)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddc/filedef_8cpp.html#l01738">filedef.cpp:1738</a></div></div>
 <div class="ttc" id="aftvhelp_8cpp_html_a24d81fe9c93c2e315bd713aed99379c4"><div class="ttname"><a href="../../db/d41/ftvhelp_8cpp.html#a24d81fe9c93c2e315bd713aed99379c4">dupOfParent</a></div><div class="ttdeci">static bool dupOfParent(const FTVNodePtr &amp;n)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d41/ftvhelp_8cpp.html#l00519">ftvhelp.cpp:519</a></div></div>
 <div class="ttc" id="aftvhelp_8cpp_html_a3ec1633fe7ff4f8ae5374bff88c55b81"><div class="ttname"><a href="../../db/d41/ftvhelp_8cpp.html#a3ec1633fe7ff4f8ae5374bff88c55b81">generateJSLink</a></div><div class="ttdeci">static void generateJSLink(TextStream &amp;t, const FTVNodePtr &amp;n)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d41/ftvhelp_8cpp.html#l00527">ftvhelp.cpp:527</a></div></div>
-<div class="ttc" id="aftvhelp_8cpp_html_a854c08e309ca4fd7db25afc86cd90e55"><div class="ttname"><a href="../../db/d41/ftvhelp_8cpp.html#a854c08e309ca4fd7db25afc86cd90e55">g_navIndexMutex</a></div><div class="ttdeci">static std::mutex g_navIndexMutex</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d41/ftvhelp_8cpp.html#l00581">ftvhelp.cpp:581</a></div></div>
+<div class="ttc" id="aftvhelp_8cpp_html_a854c08e309ca4fd7db25afc86cd90e55"><div class="ttname"><a href="../../db/d41/ftvhelp_8cpp.html#a854c08e309ca4fd7db25afc86cd90e55">g_navIndexMutex</a></div><div class="ttdeci">static std::mutex g_navIndexMutex</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d41/ftvhelp_8cpp.html#l00583">ftvhelp.cpp:583</a></div></div>
 <div class="ttc" id="aftvhelp_8cpp_html_a8e90c9de4676d5baf1fb570c0c0c0495"><div class="ttname"><a href="../../db/d41/ftvhelp_8cpp.html#a8e90c9de4676d5baf1fb570c0c0c0495">pathToNode</a></div><div class="ttdeci">static QCString pathToNode(const FTVNodePtr &amp;leaf, const FTVNodePtr &amp;n)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d41/ftvhelp_8cpp.html#l00506">ftvhelp.cpp:506</a></div></div>
 <div class="ttc" id="autil_8cpp_html_a7141f237b2648c631ce5b73215683565"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a></div><div class="ttdeci">bool found</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp.html#l00962">util.cpp:962</a></div></div>
 <div class="ttc" id="autil_8cpp_html_a78b0d7057156fc989474dc86bfb86187"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a78b0d7057156fc989474dc86bfb86187">fileVisibleInIndex</a></div><div class="ttdeci">bool fileVisibleInIndex(const FileDef *fd, bool &amp;genSourceFile)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp.html#l06466">util.cpp:6466</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00032">Config_getString</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00519">dupOfParent()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l06466">fileVisibleInIndex()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00172">QCString::fill()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l00962">found</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00581">g_navIndexMutex</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00527">generateJSLink()</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00583">generateJSTree()</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00215">node2URL()</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00506">pathToNode()</a>, <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l01738">toFileDef()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>, and <a class="el" href="../../df/da1/definition_8h_source.html#l00081">Definition::TypeFile</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00032">Config_getString</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00519">dupOfParent()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l06466">fileVisibleInIndex()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00172">QCString::fill()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l00962">found</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00583">g_navIndexMutex</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00527">generateJSLink()</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00585">generateJSTree()</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00215">node2URL()</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00506">pathToNode()</a>, <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l01738">toFileDef()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>, and <a class="el" href="../../df/da1/definition_8h_source.html#l00081">Definition::TypeFile</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00715">generateJSNavTree()</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00583">generateJSTree()</a>, and <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00664">generateJSTreeFiles()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00717">generateJSNavTree()</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00585">generateJSTree()</a>, and <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00666">generateJSTreeFiles()</a>.</p>
 
 </div>
 </div>
@@ -1062,66 +1065,66 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00664">664</a> of file <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html">ftvhelp.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  665</span>{</div>
-<div class="line"><span class="lineno">  666</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> htmlOutput = <a class="code hl_define" href="../../db/d16/config_8h.html#a737741e6991bdb5694a50075437a9d89">Config_getString</a>(HTML_OUTPUT);</div>
-<div class="line"><span class="lineno">  667</span> </div>
-<div class="line"><span class="lineno">  668</span>  <span class="keyword">auto</span> getVarName = [](<span class="keyword">const</span> <a class="code hl_typedef" href="../../db/d41/ftvhelp_8cpp.html#ab82fc85e68468828bd5c16b6e542d73b">FTVNodePtr</a> n)</div>
-<div class="line"><span class="lineno">  669</span>  {</div>
-<div class="line"><span class="lineno">  670</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>                  fileId = n-&gt;file;</div>
-<div class="line"><span class="lineno">  671</span>    <span class="keywordflow">if</span> (!n-&gt;anchor.isEmpty()) fileId+=<span class="stringliteral">&quot;_&quot;</span>+n-&gt;anchor;</div>
-<div class="line"><span class="lineno">  672</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#a24d81fe9c93c2e315bd713aed99379c4">dupOfParent</a>(n))       fileId+=<span class="stringliteral">&quot;_dup&quot;</span>;</div>
-<div class="line"><span class="lineno">  673</span>    <span class="keywordflow">return</span> fileId;</div>
-<div class="line"><span class="lineno">  674</span>  };</div>
-<div class="line"><span class="lineno">  675</span> </div>
-<div class="line"><span class="lineno">  676</span>  <span class="keyword">auto</span> generateJSFile = [&amp;](<span class="keyword">const</span> <a class="code hl_struct" href="../../d5/d08/struct_j_s_tree_file.html">JSTreeFile</a> &amp;tf)</div>
-<div class="line"><span class="lineno">  677</span>  {</div>
-<div class="line"><span class="lineno">  678</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> fileId = getVarName(tf.node);</div>
-<div class="line"><span class="lineno">  679</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> fileName = htmlOutput+<span class="stringliteral">&quot;/&quot;</span>+fileId+<span class="stringliteral">&quot;.js&quot;</span>;</div>
-<div class="line"><span class="lineno">  680</span>    std::ofstream ff = <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a230fceefc8f9abd1e8d4be71d7eef281">Portable::openOutputStream</a>(fileName);</div>
-<div class="line"><span class="lineno">  681</span>    <span class="keywordflow">if</span> (ff.is_open())</div>
-<div class="line"><span class="lineno">  682</span>    {</div>
-<div class="line"><span class="lineno">  683</span>      <span class="keywordtype">bool</span> firstChild = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  684</span>      <a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a> tt(&amp;ff);</div>
-<div class="line"><span class="lineno">  685</span>      tt &lt;&lt; <span class="stringliteral">&quot;var &quot;</span> &lt;&lt; <a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#aefb94fa4d5f207d7a1aa6c7fb5ab54b5">convertFileId2Var</a>(fileId) &lt;&lt; <span class="stringliteral">&quot; =\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  686</span>      <a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#a2945edc16c199a62e84ee85d81b9c854">generateJSTree</a>(navIndex,tt,tf.node-&gt;children,1,firstChild);</div>
-<div class="line"><span class="lineno">  687</span>      tt &lt;&lt; <span class="stringliteral">&quot;\n];&quot;</span>;</div>
-<div class="line"><span class="lineno">  688</span>    }</div>
-<div class="line"><span class="lineno">  689</span>  };</div>
-<div class="line"><span class="lineno">  690</span> </div>
-<div class="line"><span class="lineno">  691</span>  <a class="code hl_typedef" href="../../db/d41/ftvhelp_8cpp.html#aea33dd0e44b243f8ddfbe015d605c922">JSTreeFiles</a> jsTreeFiles;</div>
-<div class="line"><span class="lineno">  692</span>  <a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#a75770b555330a417f9bc44cba8e7b5c5">collectJSTreeFiles</a>(nodeList,jsTreeFiles);</div>
-<div class="line"><span class="lineno">  693</span> </div>
-<div class="line"><span class="lineno">  694</span>  std::size_t numThreads = <span class="keyword">static_cast&lt;</span>std::size_t<span class="keyword">&gt;</span>(<a class="code hl_define" href="../../db/d16/config_8h.html#a06b59c3720174e9078f613095a89b295">Config_getInt</a>(NUM_PROC_THREADS));</div>
-<div class="line"><span class="lineno">  695</span>  <span class="keywordflow">if</span> (numThreads&gt;1) <span class="comment">// multi threaded version</span></div>
-<div class="line"><span class="lineno">  696</span>  {</div>
-<div class="line"><span class="lineno">  697</span>    <a class="code hl_class" href="../../d9/df5/class_thread_pool.html">ThreadPool</a> threadPool(numThreads);</div>
-<div class="line"><span class="lineno">  698</span>    std::vector&lt; std::future&lt;void&gt; &gt; results;</div>
-<div class="line"><span class="lineno">  699</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;tf : jsTreeFiles)</div>
-<div class="line"><span class="lineno">  700</span>    {</div>
-<div class="line"><span class="lineno">  701</span>      results.emplace_back(threadPool.queue([&amp;](){ generateJSFile(tf); }));</div>
-<div class="line"><span class="lineno">  702</span>    }</div>
-<div class="line"><span class="lineno">  703</span>    <span class="comment">// wait for the results</span></div>
-<div class="line"><span class="lineno">  704</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;f : results) f.get();</div>
-<div class="line"><span class="lineno">  705</span>  }</div>
-<div class="line"><span class="lineno">  706</span>  <span class="keywordflow">else</span> <span class="comment">// single threaded version</span></div>
-<div class="line"><span class="lineno">  707</span>  {</div>
-<div class="line"><span class="lineno">  708</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;tf : jsTreeFiles)</div>
-<div class="line"><span class="lineno">  709</span>    {</div>
-<div class="line"><span class="lineno">  710</span>      generateJSFile(tf);</div>
-<div class="line"><span class="lineno">  711</span>    }</div>
-<div class="line"><span class="lineno">  712</span>  }</div>
-<div class="line"><span class="lineno">  713</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00666">666</a> of file <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html">ftvhelp.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  667</span>{</div>
+<div class="line"><span class="lineno">  668</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> htmlOutput = <a class="code hl_define" href="../../db/d16/config_8h.html#a737741e6991bdb5694a50075437a9d89">Config_getString</a>(HTML_OUTPUT);</div>
+<div class="line"><span class="lineno">  669</span> </div>
+<div class="line"><span class="lineno">  670</span>  <span class="keyword">auto</span> getVarName = [](<span class="keyword">const</span> <a class="code hl_typedef" href="../../db/d41/ftvhelp_8cpp.html#ab82fc85e68468828bd5c16b6e542d73b">FTVNodePtr</a> n)</div>
+<div class="line"><span class="lineno">  671</span>  {</div>
+<div class="line"><span class="lineno">  672</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>                  fileId = n-&gt;file;</div>
+<div class="line"><span class="lineno">  673</span>    <span class="keywordflow">if</span> (!n-&gt;anchor.isEmpty()) fileId+=<span class="stringliteral">&quot;_&quot;</span>+n-&gt;anchor;</div>
+<div class="line"><span class="lineno">  674</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#a24d81fe9c93c2e315bd713aed99379c4">dupOfParent</a>(n))       fileId+=<span class="stringliteral">&quot;_dup&quot;</span>;</div>
+<div class="line"><span class="lineno">  675</span>    <span class="keywordflow">return</span> fileId;</div>
+<div class="line"><span class="lineno">  676</span>  };</div>
+<div class="line"><span class="lineno">  677</span> </div>
+<div class="line"><span class="lineno">  678</span>  <span class="keyword">auto</span> generateJSFile = [&amp;](<span class="keyword">const</span> <a class="code hl_struct" href="../../d5/d08/struct_j_s_tree_file.html">JSTreeFile</a> &amp;tf)</div>
+<div class="line"><span class="lineno">  679</span>  {</div>
+<div class="line"><span class="lineno">  680</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> fileId = getVarName(tf.node);</div>
+<div class="line"><span class="lineno">  681</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> fileName = htmlOutput+<span class="stringliteral">&quot;/&quot;</span>+fileId+<span class="stringliteral">&quot;.js&quot;</span>;</div>
+<div class="line"><span class="lineno">  682</span>    std::ofstream ff = <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a230fceefc8f9abd1e8d4be71d7eef281">Portable::openOutputStream</a>(fileName);</div>
+<div class="line"><span class="lineno">  683</span>    <span class="keywordflow">if</span> (ff.is_open())</div>
+<div class="line"><span class="lineno">  684</span>    {</div>
+<div class="line"><span class="lineno">  685</span>      <span class="keywordtype">bool</span> firstChild = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  686</span>      <a class="code hl_class" href="../../d3/d30/class_text_stream.html">TextStream</a> tt(&amp;ff);</div>
+<div class="line"><span class="lineno">  687</span>      tt &lt;&lt; <span class="stringliteral">&quot;var &quot;</span> &lt;&lt; <a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#aefb94fa4d5f207d7a1aa6c7fb5ab54b5">convertFileId2Var</a>(fileId) &lt;&lt; <span class="stringliteral">&quot; =\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  688</span>      <a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#a2945edc16c199a62e84ee85d81b9c854">generateJSTree</a>(navIndex,tt,tf.node-&gt;children,1,firstChild);</div>
+<div class="line"><span class="lineno">  689</span>      tt &lt;&lt; <span class="stringliteral">&quot;\n];&quot;</span>;</div>
+<div class="line"><span class="lineno">  690</span>    }</div>
+<div class="line"><span class="lineno">  691</span>  };</div>
+<div class="line"><span class="lineno">  692</span> </div>
+<div class="line"><span class="lineno">  693</span>  <a class="code hl_typedef" href="../../db/d41/ftvhelp_8cpp.html#aea33dd0e44b243f8ddfbe015d605c922">JSTreeFiles</a> jsTreeFiles;</div>
+<div class="line"><span class="lineno">  694</span>  <a class="code hl_function" href="../../db/d41/ftvhelp_8cpp.html#a75770b555330a417f9bc44cba8e7b5c5">collectJSTreeFiles</a>(nodeList,jsTreeFiles);</div>
+<div class="line"><span class="lineno">  695</span> </div>
+<div class="line"><span class="lineno">  696</span>  std::size_t numThreads = <span class="keyword">static_cast&lt;</span>std::size_t<span class="keyword">&gt;</span>(<a class="code hl_define" href="../../db/d16/config_8h.html#a06b59c3720174e9078f613095a89b295">Config_getInt</a>(NUM_PROC_THREADS));</div>
+<div class="line"><span class="lineno">  697</span>  <span class="keywordflow">if</span> (numThreads&gt;1) <span class="comment">// multi threaded version</span></div>
+<div class="line"><span class="lineno">  698</span>  {</div>
+<div class="line"><span class="lineno">  699</span>    <a class="code hl_class" href="../../d9/df5/class_thread_pool.html">ThreadPool</a> threadPool(numThreads);</div>
+<div class="line"><span class="lineno">  700</span>    std::vector&lt; std::future&lt;void&gt; &gt; results;</div>
+<div class="line"><span class="lineno">  701</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;tf : jsTreeFiles)</div>
+<div class="line"><span class="lineno">  702</span>    {</div>
+<div class="line"><span class="lineno">  703</span>      results.emplace_back(threadPool.queue([&amp;](){ generateJSFile(tf); }));</div>
+<div class="line"><span class="lineno">  704</span>    }</div>
+<div class="line"><span class="lineno">  705</span>    <span class="comment">// wait for the results</span></div>
+<div class="line"><span class="lineno">  706</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;f : results) f.get();</div>
+<div class="line"><span class="lineno">  707</span>  }</div>
+<div class="line"><span class="lineno">  708</span>  <span class="keywordflow">else</span> <span class="comment">// single threaded version</span></div>
+<div class="line"><span class="lineno">  709</span>  {</div>
+<div class="line"><span class="lineno">  710</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;tf : jsTreeFiles)</div>
+<div class="line"><span class="lineno">  711</span>    {</div>
+<div class="line"><span class="lineno">  712</span>      generateJSFile(tf);</div>
+<div class="line"><span class="lineno">  713</span>    }</div>
+<div class="line"><span class="lineno">  714</span>  }</div>
+<div class="line"><span class="lineno">  715</span>}</div>
 <div class="ttc" id="aclass_thread_pool_html"><div class="ttname"><a href="../../d9/df5/class_thread_pool.html">ThreadPool</a></div><div class="ttdoc">Class managing a pool of worker threads.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/df5/class_thread_pool.html#l00047">threadpool.h:48</a></div></div>
 <div class="ttc" id="aconfig_8h_html_a06b59c3720174e9078f613095a89b295"><div class="ttname"><a href="../../db/d16/config_8h.html#a06b59c3720174e9078f613095a89b295">Config_getInt</a></div><div class="ttdeci">#define Config_getInt(name)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/config_8h.html#l00034">config.h:34</a></div></div>
 <div class="ttc" id="aftvhelp_8cpp_html_ab82fc85e68468828bd5c16b6e542d73b"><div class="ttname"><a href="../../db/d41/ftvhelp_8cpp.html#ab82fc85e68468828bd5c16b6e542d73b">FTVNodePtr</a></div><div class="ttdeci">std::shared_ptr&lt; FTVNode &gt; FTVNodePtr</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d41/ftvhelp_8cpp.html#l00047">ftvhelp.cpp:47</a></div></div>
-<div class="ttc" id="aftvhelp_8cpp_html_aea33dd0e44b243f8ddfbe015d605c922"><div class="ttname"><a href="../../db/d41/ftvhelp_8cpp.html#aea33dd0e44b243f8ddfbe015d605c922">JSTreeFiles</a></div><div class="ttdeci">std::vector&lt; JSTreeFile &gt; JSTreeFiles</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d41/ftvhelp_8cpp.html#l00558">ftvhelp.cpp:558</a></div></div>
-<div class="ttc" id="aftvhelp_8cpp_html_aefb94fa4d5f207d7a1aa6c7fb5ab54b5"><div class="ttname"><a href="../../db/d41/ftvhelp_8cpp.html#aefb94fa4d5f207d7a1aa6c7fb5ab54b5">convertFileId2Var</a></div><div class="ttdeci">static QCString convertFileId2Var(const QCString &amp;fileId)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d41/ftvhelp_8cpp.html#l00542">ftvhelp.cpp:542</a></div></div>
-<div class="ttc" id="astruct_j_s_tree_file_html"><div class="ttname"><a href="../../d5/d08/struct_j_s_tree_file.html">JSTreeFile</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d08/struct_j_s_tree_file.html#l00551">ftvhelp.cpp:552</a></div></div>
+<div class="ttc" id="aftvhelp_8cpp_html_aea33dd0e44b243f8ddfbe015d605c922"><div class="ttname"><a href="../../db/d41/ftvhelp_8cpp.html#aea33dd0e44b243f8ddfbe015d605c922">JSTreeFiles</a></div><div class="ttdeci">std::vector&lt; JSTreeFile &gt; JSTreeFiles</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d41/ftvhelp_8cpp.html#l00560">ftvhelp.cpp:560</a></div></div>
+<div class="ttc" id="aftvhelp_8cpp_html_aefb94fa4d5f207d7a1aa6c7fb5ab54b5"><div class="ttname"><a href="../../db/d41/ftvhelp_8cpp.html#aefb94fa4d5f207d7a1aa6c7fb5ab54b5">convertFileId2Var</a></div><div class="ttdeci">static QCString convertFileId2Var(const QCString &amp;fileId)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d41/ftvhelp_8cpp.html#l00544">ftvhelp.cpp:544</a></div></div>
+<div class="ttc" id="astruct_j_s_tree_file_html"><div class="ttname"><a href="../../d5/d08/struct_j_s_tree_file.html">JSTreeFile</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d08/struct_j_s_tree_file.html#l00553">ftvhelp.cpp:554</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00560">collectJSTreeFiles()</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00034">Config_getInt</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00032">Config_getString</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00542">convertFileId2Var()</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00519">dupOfParent()</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00583">generateJSTree()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00648">Portable::openOutputStream()</a>, and <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00073">ThreadPool::queue()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00562">collectJSTreeFiles()</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00034">Config_getInt</a>, <a class="el" href="../../db/d16/config_8h_source.html#l00032">Config_getString</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00544">convertFileId2Var()</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00519">dupOfParent()</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00585">generateJSTree()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00648">Portable::openOutputStream()</a>, and <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00073">ThreadPool::queue()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00715">generateJSNavTree()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00717">generateJSNavTree()</a>.</p>
 
 </div>
 </div>
@@ -1203,7 +1206,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../df/d2d/util_8cpp_source.html#l04948">addHtmlExtensionIfMissing()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00513">QCString::at()</a>, <a class="el" href="../../de/db0/class_file_def.html#a9179d91d067ba32f0e51aaffb2ea2f3b">FileDef::getOutputFileBase()</a>, <a class="el" href="../../de/db0/class_file_def.html#a284baec5302b8b20fc1c08088ff4e906">FileDef::getSourceFileBase()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00138">QCString::isEmpty()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00221">QCString::mid()</a>, <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l01738">toFileDef()</a>, and <a class="el" href="../../df/da1/definition_8h_source.html#l00081">Definition::TypeFile</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00527">generateJSLink()</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00583">generateJSTree()</a>, and <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00279">FTVHelp::Private::generateLink()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00527">generateJSLink()</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00585">generateJSTree()</a>, and <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00279">FTVHelp::Private::generateLink()</a>.</p>
 
 </div>
 </div>
@@ -1256,7 +1259,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../de/d2b/docnode_8h_source.html#l01290">parent()</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00506">pathToNode()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00396">QCString::setNum()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00583">generateJSTree()</a>, and <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00506">pathToNode()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00585">generateJSTree()</a>, and <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00506">pathToNode()</a>.</p>
 
 </div>
 </div>
@@ -1307,9 +1310,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00581">581</a> of file <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html">ftvhelp.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00583">583</a> of file <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html">ftvhelp.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00583">generateJSTree()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00585">generateJSTree()</a>.</p>
 
 </div>
 </div>

@@ -141,8 +141,61 @@ Classes</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:aa9dc1225d5dff26cbdf7521f3d2d5ebe"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4b/htmlhelp_8cpp.html#aa9dc1225d5dff26cbdf7521f3d2d5ebe">field2URL</a> (const <a class="el" href="../../dd/d1b/struct_index_field.html">IndexField</a> *f, bool checkReversed)</td></tr>
 <tr class="separator:aa9dc1225d5dff26cbdf7521f3d2d5ebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a360a61caf065b5b140e9275aa2253a8b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4b/htmlhelp_8cpp.html#a360a61caf065b5b140e9275aa2253a8b">convertToHtmlAndTruncate</a> (const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;s)</td></tr>
+<tr class="separator:a360a61caf065b5b140e9275aa2253a8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a360a61caf065b5b140e9275aa2253a8b" name="a360a61caf065b5b140e9275aa2253a8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a360a61caf065b5b140e9275aa2253a8b">&#9670;&#160;</a></span>convertToHtmlAndTruncate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> convertToHtmlAndTruncate </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> &amp;&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/d4b/htmlhelp_8cpp_source.html#l00187">187</a> of file <a class="el" href="../../d3/d4b/htmlhelp_8cpp_source.html">htmlhelp.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  188</span>{</div>
+<div class="line"><span class="lineno">  189</span>  <span class="comment">/* to prevent</span></div>
+<div class="line"><span class="lineno">  190</span><span class="comment">   *  Warning: Keyword string:</span></div>
+<div class="line"><span class="lineno">  191</span><span class="comment">   *    ...</span></div>
+<div class="line"><span class="lineno">  192</span><span class="comment">   *  is too long.  The maximum size is 488 characters.</span></div>
+<div class="line"><span class="lineno">  193</span><span class="comment">   */</span></div>
+<div class="line"><span class="lineno">  194</span>  <span class="keywordtype">size_t</span> maxLen=400;</div>
+<div class="line"><span class="lineno">  195</span>  <span class="keywordflow">if</span> (s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>()&gt;maxLen)</div>
+<div class="line"><span class="lineno">  196</span>  {</div>
+<div class="line"><span class="lineno">  197</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a2a3368111f86b401c8f223cd7374b5ac">convertToHtml</a>(s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">left</a>(400),<span class="keyword">true</span>)+<span class="stringliteral">&quot;...&quot;</span>;</div>
+<div class="line"><span class="lineno">  198</span>  }</div>
+<div class="line"><span class="lineno">  199</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  200</span>  {</div>
+<div class="line"><span class="lineno">  201</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../df/d2d/util_8cpp.html#a2a3368111f86b401c8f223cd7374b5ac">convertToHtml</a>(s,<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  202</span>  }</div>
+<div class="line"><span class="lineno">  203</span>}</div>
+<div class="ttc" id="aclass_q_c_string_html_acc50f8bef7d726d5c9d42bab4d89f7c7"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">QCString::length</a></div><div class="ttdeci">uint32_t length() const</div><div class="ttdoc">Returns the length of the string, not counting the 0-terminator.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d45/class_q_c_string.html#l00141">qcstring.h:141</a></div></div>
+<div class="ttc" id="aclass_q_c_string_html_aecf8b66312c4e97333219cc344c11a4f"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">QCString::left</a></div><div class="ttdeci">QCString left(size_t len) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d45/class_q_c_string.html#l00209">qcstring.h:209</a></div></div>
+<div class="ttc" id="autil_8cpp_html_a2a3368111f86b401c8f223cd7374b5ac"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a2a3368111f86b401c8f223cd7374b5ac">convertToHtml</a></div><div class="ttdeci">QCString convertToHtml(const QCString &amp;s, bool keepEntities)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp.html#l04100">util.cpp:4100</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../df/d2d/util_8cpp_source.html#l04100">convertToHtml()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00209">QCString::left()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00141">QCString::length()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d3/d4b/htmlhelp_8cpp_source.html#l00231">HtmlHelpIndex::writeFields()</a>.</p>
+
+</div>
+</div>
 <a id="aa9dc1225d5dff26cbdf7521f3d2d5ebe" name="aa9dc1225d5dff26cbdf7521f3d2d5ebe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa9dc1225d5dff26cbdf7521f3d2d5ebe">&#9670;&#160;</a></span>field2URL()</h2>
 
@@ -198,7 +251,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../df/d2d/util_8cpp_source.html#l04948">addHtmlExtensionIfMissing()</a>, <a class="el" href="../../d3/d4b/htmlhelp_8cpp_source.html#l00106">IndexField::anchor</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00138">QCString::isEmpty()</a>, <a class="el" href="../../d3/d4b/htmlhelp_8cpp_source.html#l00108">IndexField::reversed</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00473">substitute()</a>, and <a class="el" href="../../d3/d4b/htmlhelp_8cpp_source.html#l00105">IndexField::url</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d4b/htmlhelp_8cpp_source.html#l00213">HtmlHelpIndex::writeFields()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d4b/htmlhelp_8cpp_source.html#l00231">HtmlHelpIndex::writeFields()</a>.</p>
 
 </div>
 </div>
