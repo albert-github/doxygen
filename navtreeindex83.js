@@ -1,5 +1,6 @@
 var NAVTREEINDEX83 =
 {
+"da/ddb/class_search_index_context.html#a72c264ac48a3281aae4ab20dd312d2c3":[8,0,472,4],
 "da/ddb/class_search_index_context.html#a739115d6d5443923cbc2b80bbdfad0ef":[8,0,472,6],
 "da/ddb/class_search_index_context.html#a9eeb382b0f186cddb8aaf3a601eb0137":[8,0,472,5],
 "da/ddd/class_template_node_index_entry.html":[8,0,531],
@@ -9,7 +10,6 @@ var NAVTREEINDEX83 =
 "da/ddd/class_template_node_index_entry.html#a5b32695646a5bfe6db7e008f97ac0c40":[8,0,531,3],
 "da/de1/linkedmap_8h.html":[9,0,2,162],
 "da/de1/linkedmap_8h_source.html":[9,0,2,162],
-"da/de1/pg_cmds.html":[1],
 "da/de6/translator__adapter_8h.html":[9,0,2,249],
 "da/de6/translator__adapter_8h_source.html":[9,0,2,249],
 "da/df0/class_namespace_linked_ref_map.html":[8,0,411],
