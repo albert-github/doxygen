@@ -157,7 +157,15 @@ digraph "/home/runner/work/doxygen/doxygen/src/message.cpp"
   Node47 -> Node25 [color="steelblue1",style="solid"];
   Node47 -> Node8 [color="steelblue1",style="solid"];
   Node47 -> Node45 [color="steelblue1",style="solid"];
-  Node1 -> Node23 [color="steelblue1",style="solid"];
   Node1 -> Node48 [color="steelblue1",style="solid"];
-  Node48 [label="atomic",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node48 [label="fileinfo.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d45/fileinfo_8h.html",tooltip=" "];
+  Node48 -> Node8 [color="steelblue1",style="solid"];
+  Node1 -> Node49 [color="steelblue1",style="solid"];
+  Node49 [label="dir.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d9c/dir_8h.html",tooltip=" "];
+  Node49 -> Node8 [color="steelblue1",style="solid"];
+  Node49 -> Node32 [color="steelblue1",style="solid"];
+  Node49 -> Node48 [color="steelblue1",style="solid"];
+  Node1 -> Node23 [color="steelblue1",style="solid"];
+  Node1 -> Node50 [color="steelblue1",style="solid"];
+  Node50 [label="atomic",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
 }
