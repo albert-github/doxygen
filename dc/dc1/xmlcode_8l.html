@@ -347,11 +347,11 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00223">223</a> of file <a class="el" href="../../dc/dc1/xmlcode_8l_source.html">xmlcode.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  224</span>{</div>
-<div class="line"><span class="lineno">  225</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno">  226</span>  yyextra-&gt;code-&gt;codify(text);</div>
-<div class="line"><span class="lineno">  227</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00229">229</a> of file <a class="el" href="../../dc/dc1/xmlcode_8l_source.html">xmlcode.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  230</span>{</div>
+<div class="line"><span class="lineno">  231</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno">  232</span>  yyextra-&gt;code-&gt;codify(text);</div>
+<div class="line"><span class="lineno">  233</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -389,37 +389,37 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00330">330</a> of file <a class="el" href="../../dc/dc1/xmlcode_8l_source.html">xmlcode.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  331</span>{</div>
-<div class="line"><span class="lineno">  332</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno">  333</span>  <span class="keyword">const</span> <span class="keywordtype">char</span> *p=text,*sp=p;</div>
-<div class="line"><span class="lineno">  334</span>  <span class="keywordtype">char</span> c;</div>
-<div class="line"><span class="lineno">  335</span>  <span class="keywordtype">bool</span> done=<span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  336</span>  <span class="keywordflow">while</span> (!done)</div>
-<div class="line"><span class="lineno">  337</span>  {</div>
-<div class="line"><span class="lineno">  338</span>    sp=p;</div>
-<div class="line"><span class="lineno">  339</span>    <span class="keywordflow">while</span> ((c=*p++) &amp;&amp; c!=<span class="charliteral">&#39;\n&#39;</span>) { }</div>
-<div class="line"><span class="lineno">  340</span>    <span class="keywordflow">if</span> (c==<span class="charliteral">&#39;\n&#39;</span>)</div>
-<div class="line"><span class="lineno">  341</span>    {</div>
-<div class="line"><span class="lineno">  342</span>      yyextra-&gt;yyLineNr++;</div>
-<div class="line"><span class="lineno">  343</span>      <span class="keywordtype">int</span> l = (int)(p-sp-1);</div>
-<div class="line"><span class="lineno">  344</span>      <span class="keywordtype">char</span> *tmp = (<span class="keywordtype">char</span>*)malloc(l+1);</div>
-<div class="line"><span class="lineno">  345</span>      strncpy(tmp,sp,l);</div>
-<div class="line"><span class="lineno">  346</span>      tmp[l]=<span class="charliteral">&#39;\0&#39;</span>;</div>
-<div class="line"><span class="lineno">  347</span>      yyextra-&gt;code-&gt;codify(tmp);</div>
-<div class="line"><span class="lineno">  348</span>      free(tmp);</div>
-<div class="line"><span class="lineno">  349</span>      <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#a3b060f853a2545afc385b18ecc734473">nextCodeLine</a>(yyscanner);</div>
-<div class="line"><span class="lineno">  350</span>    }</div>
-<div class="line"><span class="lineno">  351</span>    <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  352</span>    {</div>
-<div class="line"><span class="lineno">  353</span>      yyextra-&gt;code-&gt;codify(sp);</div>
-<div class="line"><span class="lineno">  354</span>      done=<span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  355</span>    }</div>
-<div class="line"><span class="lineno">  356</span>  }</div>
-<div class="ttc" id="axmlcode_8l_html_a3b060f853a2545afc385b18ecc734473"><div class="ttname"><a href="../../dc/dc1/xmlcode_8l.html#a3b060f853a2545afc385b18ecc734473">nextCodeLine</a></div><div class="ttdeci">static void nextCodeLine(yyscan_t yyscanner)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc1/xmlcode_8l.html#l00315">xmlcode.l:315</a></div></div>
-<div class="line"><span class="lineno">  357</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00336">336</a> of file <a class="el" href="../../dc/dc1/xmlcode_8l_source.html">xmlcode.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  337</span>{</div>
+<div class="line"><span class="lineno">  338</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno">  339</span>  <span class="keyword">const</span> <span class="keywordtype">char</span> *p=text,*sp=p;</div>
+<div class="line"><span class="lineno">  340</span>  <span class="keywordtype">char</span> c;</div>
+<div class="line"><span class="lineno">  341</span>  <span class="keywordtype">bool</span> done=<span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  342</span>  <span class="keywordflow">while</span> (!done)</div>
+<div class="line"><span class="lineno">  343</span>  {</div>
+<div class="line"><span class="lineno">  344</span>    sp=p;</div>
+<div class="line"><span class="lineno">  345</span>    <span class="keywordflow">while</span> ((c=*p++) &amp;&amp; c!=<span class="charliteral">&#39;\n&#39;</span>) { }</div>
+<div class="line"><span class="lineno">  346</span>    <span class="keywordflow">if</span> (c==<span class="charliteral">&#39;\n&#39;</span>)</div>
+<div class="line"><span class="lineno">  347</span>    {</div>
+<div class="line"><span class="lineno">  348</span>      yyextra-&gt;yyLineNr++;</div>
+<div class="line"><span class="lineno">  349</span>      <span class="keywordtype">int</span> l = (int)(p-sp-1);</div>
+<div class="line"><span class="lineno">  350</span>      <span class="keywordtype">char</span> *tmp = (<span class="keywordtype">char</span>*)malloc(l+1);</div>
+<div class="line"><span class="lineno">  351</span>      strncpy(tmp,sp,l);</div>
+<div class="line"><span class="lineno">  352</span>      tmp[l]=<span class="charliteral">&#39;\0&#39;</span>;</div>
+<div class="line"><span class="lineno">  353</span>      yyextra-&gt;code-&gt;codify(tmp);</div>
+<div class="line"><span class="lineno">  354</span>      free(tmp);</div>
+<div class="line"><span class="lineno">  355</span>      <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#a3b060f853a2545afc385b18ecc734473">nextCodeLine</a>(yyscanner);</div>
+<div class="line"><span class="lineno">  356</span>    }</div>
+<div class="line"><span class="lineno">  357</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  358</span>    {</div>
+<div class="line"><span class="lineno">  359</span>      yyextra-&gt;code-&gt;codify(sp);</div>
+<div class="line"><span class="lineno">  360</span>      done=<span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  361</span>    }</div>
+<div class="line"><span class="lineno">  362</span>  }</div>
+<div class="ttc" id="axmlcode_8l_html_a3b060f853a2545afc385b18ecc734473"><div class="ttname"><a href="../../dc/dc1/xmlcode_8l.html#a3b060f853a2545afc385b18ecc734473">nextCodeLine</a></div><div class="ttdeci">static void nextCodeLine(yyscan_t yyscanner)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc1/xmlcode_8l.html#l00321">xmlcode.l:321</a></div></div>
+<div class="line"><span class="lineno">  363</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00315">nextCodeLine()</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00321">nextCodeLine()</a>.</p>
 
 </div>
 </div>
@@ -448,24 +448,24 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>counts the number of lines in the input </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00368">368</a> of file <a class="el" href="../../dc/dc1/xmlcode_8l_source.html">xmlcode.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  369</span>{</div>
-<div class="line"><span class="lineno">  370</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno">  371</span>  <span class="keyword">const</span> <span class="keywordtype">char</span> *p=yyextra-&gt;inputString;</div>
-<div class="line"><span class="lineno">  372</span>  <span class="keywordtype">char</span> c;</div>
-<div class="line"><span class="lineno">  373</span>  <span class="keywordtype">int</span> count=1;</div>
-<div class="line"><span class="lineno">  374</span>  <span class="keywordflow">while</span> ((c=*p))</div>
-<div class="line"><span class="lineno">  375</span>  {</div>
-<div class="line"><span class="lineno">  376</span>    p++ ;</div>
-<div class="line"><span class="lineno">  377</span>    <span class="keywordflow">if</span> (c==<span class="charliteral">&#39;\n&#39;</span>) count++;</div>
-<div class="line"><span class="lineno">  378</span>  }</div>
-<div class="line"><span class="lineno">  379</span>  <span class="keywordflow">if</span> (p&gt;yyextra-&gt;inputString &amp;&amp; *(p-1)!=<span class="charliteral">&#39;\n&#39;</span>)</div>
-<div class="line"><span class="lineno">  380</span>  { <span class="comment">// last line does not end with a \n, so we add an extra</span></div>
-<div class="line"><span class="lineno">  381</span>    <span class="comment">// line and explicitly terminate the line after parsing.</span></div>
-<div class="line"><span class="lineno">  382</span>    count++;</div>
-<div class="line"><span class="lineno">  383</span>  }</div>
-<div class="line"><span class="lineno">  384</span>  <span class="keywordflow">return</span> count;</div>
-<div class="line"><span class="lineno">  385</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00374">374</a> of file <a class="el" href="../../dc/dc1/xmlcode_8l_source.html">xmlcode.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  375</span>{</div>
+<div class="line"><span class="lineno">  376</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno">  377</span>  <span class="keyword">const</span> <span class="keywordtype">char</span> *p=yyextra-&gt;inputString;</div>
+<div class="line"><span class="lineno">  378</span>  <span class="keywordtype">char</span> c;</div>
+<div class="line"><span class="lineno">  379</span>  <span class="keywordtype">int</span> count=1;</div>
+<div class="line"><span class="lineno">  380</span>  <span class="keywordflow">while</span> ((c=*p))</div>
+<div class="line"><span class="lineno">  381</span>  {</div>
+<div class="line"><span class="lineno">  382</span>    p++ ;</div>
+<div class="line"><span class="lineno">  383</span>    <span class="keywordflow">if</span> (c==<span class="charliteral">&#39;\n&#39;</span>) count++;</div>
+<div class="line"><span class="lineno">  384</span>  }</div>
+<div class="line"><span class="lineno">  385</span>  <span class="keywordflow">if</span> (p&gt;yyextra-&gt;inputString &amp;&amp; *(p-1)!=<span class="charliteral">&#39;\n&#39;</span>)</div>
+<div class="line"><span class="lineno">  386</span>  { <span class="comment">// last line does not end with a \n, so we add an extra</span></div>
+<div class="line"><span class="lineno">  387</span>    <span class="comment">// line and explicitly terminate the line after parsing.</span></div>
+<div class="line"><span class="lineno">  388</span>    count++;</div>
+<div class="line"><span class="lineno">  389</span>  }</div>
+<div class="line"><span class="lineno">  390</span>  <span class="keywordflow">return</span> count;</div>
+<div class="line"><span class="lineno">  391</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -493,18 +493,18 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00307">307</a> of file <a class="el" href="../../dc/dc1/xmlcode_8l_source.html">xmlcode.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  308</span>{</div>
-<div class="line"><span class="lineno">  309</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno">  310</span>  <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#af7af0722d394ed17bb2a672320b85c7c">endFontClass</a>(yyscanner);</div>
-<div class="line"><span class="lineno">  311</span>  yyextra-&gt;code-&gt;endCodeLine();</div>
-<div class="line"><span class="lineno">  312</span>  yyextra-&gt;insideCodeLine = <span class="keyword">false</span>;</div>
-<div class="ttc" id="axmlcode_8l_html_af7af0722d394ed17bb2a672320b85c7c"><div class="ttname"><a href="../../dc/dc1/xmlcode_8l.html#af7af0722d394ed17bb2a672320b85c7c">endFontClass</a></div><div class="ttdeci">static void endFontClass(yyscan_t yyscanner)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc1/xmlcode_8l.html#l00297">xmlcode.l:297</a></div></div>
-<div class="line"><span class="lineno">  313</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00313">313</a> of file <a class="el" href="../../dc/dc1/xmlcode_8l_source.html">xmlcode.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  314</span>{</div>
+<div class="line"><span class="lineno">  315</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno">  316</span>  <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#af7af0722d394ed17bb2a672320b85c7c">endFontClass</a>(yyscanner);</div>
+<div class="line"><span class="lineno">  317</span>  yyextra-&gt;code-&gt;endCodeLine();</div>
+<div class="line"><span class="lineno">  318</span>  yyextra-&gt;insideCodeLine = <span class="keyword">false</span>;</div>
+<div class="ttc" id="axmlcode_8l_html_af7af0722d394ed17bb2a672320b85c7c"><div class="ttname"><a href="../../dc/dc1/xmlcode_8l.html#af7af0722d394ed17bb2a672320b85c7c">endFontClass</a></div><div class="ttdeci">static void endFontClass(yyscan_t yyscanner)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc1/xmlcode_8l.html#l00303">xmlcode.l:303</a></div></div>
+<div class="line"><span class="lineno">  319</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00297">endFontClass()</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00303">endFontClass()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00315">nextCodeLine()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00321">nextCodeLine()</a>.</p>
 
 </div>
 </div>
@@ -532,17 +532,17 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00297">297</a> of file <a class="el" href="../../dc/dc1/xmlcode_8l_source.html">xmlcode.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  298</span>{</div>
-<div class="line"><span class="lineno">  299</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno">  300</span>  <span class="keywordflow">if</span> (yyextra-&gt;currentFontClass)</div>
-<div class="line"><span class="lineno">  301</span>  {</div>
-<div class="line"><span class="lineno">  302</span>    yyextra-&gt;code-&gt;endFontClass();</div>
-<div class="line"><span class="lineno">  303</span>    yyextra-&gt;currentFontClass=0;</div>
-<div class="line"><span class="lineno">  304</span>  }</div>
-<div class="line"><span class="lineno">  305</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00303">303</a> of file <a class="el" href="../../dc/dc1/xmlcode_8l_source.html">xmlcode.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  304</span>{</div>
+<div class="line"><span class="lineno">  305</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno">  306</span>  <span class="keywordflow">if</span> (yyextra-&gt;currentFontClass)</div>
+<div class="line"><span class="lineno">  307</span>  {</div>
+<div class="line"><span class="lineno">  308</span>    yyextra-&gt;code-&gt;endFontClass();</div>
+<div class="line"><span class="lineno">  309</span>    yyextra-&gt;currentFontClass=0;</div>
+<div class="line"><span class="lineno">  310</span>  }</div>
+<div class="line"><span class="lineno">  311</span>}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00307">endCodeLine()</a>, and <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00359">startFontClass()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00313">endCodeLine()</a>, and <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00365">startFontClass()</a>.</p>
 
 </div>
 </div>
@@ -598,26 +598,26 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00315">315</a> of file <a class="el" href="../../dc/dc1/xmlcode_8l_source.html">xmlcode.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  316</span>{</div>
-<div class="line"><span class="lineno">  317</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno">  318</span>  <span class="keyword">const</span> <span class="keywordtype">char</span> *fc = yyextra-&gt;currentFontClass;</div>
-<div class="line"><span class="lineno">  319</span>  <span class="keywordflow">if</span> (yyextra-&gt;insideCodeLine)</div>
-<div class="line"><span class="lineno">  320</span>  {</div>
-<div class="line"><span class="lineno">  321</span>    <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#a22b46d1ae6472d2565e3bd435f982d16">endCodeLine</a>(yyscanner);</div>
-<div class="line"><span class="lineno">  322</span>  }</div>
-<div class="line"><span class="lineno">  323</span>  <span class="keywordflow">if</span> (yyextra-&gt;yyLineNr&lt;yyextra-&gt;inputLines)</div>
-<div class="line"><span class="lineno">  324</span>  {</div>
-<div class="line"><span class="lineno">  325</span>    yyextra-&gt;currentFontClass = fc;</div>
-<div class="line"><span class="lineno">  326</span>    <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#a47b0cd13a509f44e1a1032cbf4ad69ed">startCodeLine</a>(yyscanner);</div>
-<div class="line"><span class="lineno">  327</span>  }</div>
-<div class="ttc" id="axmlcode_8l_html_a22b46d1ae6472d2565e3bd435f982d16"><div class="ttname"><a href="../../dc/dc1/xmlcode_8l.html#a22b46d1ae6472d2565e3bd435f982d16">endCodeLine</a></div><div class="ttdeci">static void endCodeLine(yyscan_t yyscanner)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc1/xmlcode_8l.html#l00307">xmlcode.l:307</a></div></div>
-<div class="ttc" id="axmlcode_8l_html_a47b0cd13a509f44e1a1032cbf4ad69ed"><div class="ttname"><a href="../../dc/dc1/xmlcode_8l.html#a47b0cd13a509f44e1a1032cbf4ad69ed">startCodeLine</a></div><div class="ttdeci">static void startCodeLine(yyscan_t yyscanner)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc1/xmlcode_8l.html#l00249">xmlcode.l:249</a></div></div>
-<div class="line"><span class="lineno">  328</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00321">321</a> of file <a class="el" href="../../dc/dc1/xmlcode_8l_source.html">xmlcode.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  322</span>{</div>
+<div class="line"><span class="lineno">  323</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno">  324</span>  <span class="keyword">const</span> <span class="keywordtype">char</span> *fc = yyextra-&gt;currentFontClass;</div>
+<div class="line"><span class="lineno">  325</span>  <span class="keywordflow">if</span> (yyextra-&gt;insideCodeLine)</div>
+<div class="line"><span class="lineno">  326</span>  {</div>
+<div class="line"><span class="lineno">  327</span>    <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#a22b46d1ae6472d2565e3bd435f982d16">endCodeLine</a>(yyscanner);</div>
+<div class="line"><span class="lineno">  328</span>  }</div>
+<div class="line"><span class="lineno">  329</span>  <span class="keywordflow">if</span> (yyextra-&gt;yyLineNr&lt;yyextra-&gt;inputLines)</div>
+<div class="line"><span class="lineno">  330</span>  {</div>
+<div class="line"><span class="lineno">  331</span>    yyextra-&gt;currentFontClass = fc;</div>
+<div class="line"><span class="lineno">  332</span>    <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#a47b0cd13a509f44e1a1032cbf4ad69ed">startCodeLine</a>(yyscanner);</div>
+<div class="line"><span class="lineno">  333</span>  }</div>
+<div class="ttc" id="axmlcode_8l_html_a22b46d1ae6472d2565e3bd435f982d16"><div class="ttname"><a href="../../dc/dc1/xmlcode_8l.html#a22b46d1ae6472d2565e3bd435f982d16">endCodeLine</a></div><div class="ttdeci">static void endCodeLine(yyscan_t yyscanner)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc1/xmlcode_8l.html#l00313">xmlcode.l:313</a></div></div>
+<div class="ttc" id="axmlcode_8l_html_a47b0cd13a509f44e1a1032cbf4ad69ed"><div class="ttname"><a href="../../dc/dc1/xmlcode_8l.html#a47b0cd13a509f44e1a1032cbf4ad69ed">startCodeLine</a></div><div class="ttdeci">static void startCodeLine(yyscan_t yyscanner)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc1/xmlcode_8l.html#l00255">xmlcode.l:255</a></div></div>
+<div class="line"><span class="lineno">  334</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00307">endCodeLine()</a>, and <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00249">startCodeLine()</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00313">endCodeLine()</a>, and <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00255">startCodeLine()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00330">codifyLines()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00336">codifyLines()</a>.</p>
 
 </div>
 </div>
@@ -655,27 +655,27 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00229">229</a> of file <a class="el" href="../../dc/dc1/xmlcode_8l_source.html">xmlcode.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  230</span>{</div>
-<div class="line"><span class="lineno">  231</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno">  232</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a806fe73b71f926356bf12291778769b6">Doxygen::searchIndex</a>)</div>
-<div class="line"><span class="lineno">  233</span>  {</div>
-<div class="line"><span class="lineno">  234</span>    <span class="keywordflow">if</span> (yyextra-&gt;searchCtx)</div>
-<div class="line"><span class="lineno">  235</span>    {</div>
-<div class="line"><span class="lineno">  236</span>      <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a806fe73b71f926356bf12291778769b6">Doxygen::searchIndex</a>-&gt;<a class="code hl_function" href="../../d8/d4d/class_search_index_intf.html#a5aa7df3f4440a0b3adf710fd312195e5">setCurrentDoc</a>(yyextra-&gt;searchCtx,yyextra-&gt;searchCtx-&gt;anchor(),<span class="keyword">false</span>);</div>
-<div class="line"><span class="lineno">  237</span>    }</div>
-<div class="line"><span class="lineno">  238</span>    <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  239</span>    {</div>
-<div class="line"><span class="lineno">  240</span>      <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a806fe73b71f926356bf12291778769b6">Doxygen::searchIndex</a>-&gt;<a class="code hl_function" href="../../d8/d4d/class_search_index_intf.html#a5aa7df3f4440a0b3adf710fd312195e5">setCurrentDoc</a>(yyextra-&gt;sourceFileDef,anchor,<span class="keyword">true</span>);</div>
-<div class="line"><span class="lineno">  241</span>    }</div>
-<div class="line"><span class="lineno">  242</span>  }</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00235">235</a> of file <a class="el" href="../../dc/dc1/xmlcode_8l_source.html">xmlcode.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  236</span>{</div>
+<div class="line"><span class="lineno">  237</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno">  238</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a806fe73b71f926356bf12291778769b6">Doxygen::searchIndex</a>)</div>
+<div class="line"><span class="lineno">  239</span>  {</div>
+<div class="line"><span class="lineno">  240</span>    <span class="keywordflow">if</span> (yyextra-&gt;searchCtx)</div>
+<div class="line"><span class="lineno">  241</span>    {</div>
+<div class="line"><span class="lineno">  242</span>      <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a806fe73b71f926356bf12291778769b6">Doxygen::searchIndex</a>-&gt;<a class="code hl_function" href="../../d8/d4d/class_search_index_intf.html#a5aa7df3f4440a0b3adf710fd312195e5">setCurrentDoc</a>(yyextra-&gt;searchCtx,yyextra-&gt;searchCtx-&gt;anchor(),<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  243</span>    }</div>
+<div class="line"><span class="lineno">  244</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  245</span>    {</div>
+<div class="line"><span class="lineno">  246</span>      <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a806fe73b71f926356bf12291778769b6">Doxygen::searchIndex</a>-&gt;<a class="code hl_function" href="../../d8/d4d/class_search_index_intf.html#a5aa7df3f4440a0b3adf710fd312195e5">setCurrentDoc</a>(yyextra-&gt;sourceFileDef,anchor,<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  247</span>    }</div>
+<div class="line"><span class="lineno">  248</span>  }</div>
 <div class="ttc" id="aclass_doxygen_html_a806fe73b71f926356bf12291778769b6"><div class="ttname"><a href="../../de/d6a/class_doxygen.html#a806fe73b71f926356bf12291778769b6">Doxygen::searchIndex</a></div><div class="ttdeci">static SearchIndexIntf * searchIndex</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d6a/class_doxygen.html#l00117">doxygen.h:117</a></div></div>
 <div class="ttc" id="aclass_search_index_intf_html_a5aa7df3f4440a0b3adf710fd312195e5"><div class="ttname"><a href="../../d8/d4d/class_search_index_intf.html#a5aa7df3f4440a0b3adf710fd312195e5">SearchIndexIntf::setCurrentDoc</a></div><div class="ttdeci">void setCurrentDoc(const Definition *ctx, const QCString &amp;anchor, bool isSourceFile)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d4d/class_search_index_intf.html#l00157">searchindex.h:157</a></div></div>
-<div class="line"><span class="lineno">  243</span>}</div>
+<div class="line"><span class="lineno">  249</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00117">Doxygen::searchIndex</a>, and <a class="el" href="../../de/d07/searchindex_8h_source.html#l00157">SearchIndexIntf::setCurrentDoc()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00249">startCodeLine()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00255">startCodeLine()</a>.</p>
 
 </div>
 </div>
@@ -704,65 +704,65 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>start a new line of code, inserting a line number if yyextra-&gt;sourceFileDef is true. If a definition starts at the current line, then the line number is linked to the documentation of that definition. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00249">249</a> of file <a class="el" href="../../dc/dc1/xmlcode_8l_source.html">xmlcode.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  250</span>{</div>
-<div class="line"><span class="lineno">  251</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno">  252</span>  <span class="keywordflow">if</span> (yyextra-&gt;sourceFileDef)</div>
-<div class="line"><span class="lineno">  253</span>  {</div>
-<div class="line"><span class="lineno">  254</span>    <span class="keyword">const</span> <a class="code hl_class" href="../../d5/dcc/class_definition.html">Definition</a> *d = yyextra-&gt;sourceFileDef-&gt;getSourceDefinition(yyextra-&gt;yyLineNr);</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00255">255</a> of file <a class="el" href="../../dc/dc1/xmlcode_8l_source.html">xmlcode.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  256</span>{</div>
+<div class="line"><span class="lineno">  257</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno">  258</span>  <span class="keywordflow">if</span> (yyextra-&gt;sourceFileDef)</div>
+<div class="line"><span class="lineno">  259</span>  {</div>
+<div class="line"><span class="lineno">  260</span>    <span class="keyword">const</span> <a class="code hl_class" href="../../d5/dcc/class_definition.html">Definition</a> *d = yyextra-&gt;sourceFileDef-&gt;getSourceDefinition(yyextra-&gt;yyLineNr);</div>
 <div class="ttc" id="aclass_definition_html"><div class="ttname"><a href="../../d5/dcc/class_definition.html">Definition</a></div><div class="ttdoc">The common base class of all entity definitions found in the sources.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dcc/class_definition.html#l00074">definition.h:75</a></div></div>
-<div class="line"><span class="lineno">  255</span> </div>
-<div class="line"><span class="lineno">  256</span>    <span class="keywordflow">if</span> (!yyextra-&gt;includeCodeFragment &amp;&amp; d &amp;&amp; d-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#a845891c7206d40c3664b562636cdf9fc">isLinkableInProject</a>())</div>
-<div class="line"><span class="lineno">  257</span>    {</div>
-<div class="line"><span class="lineno">  258</span>      yyextra-&gt;currentDefinition = d;</div>
-<div class="line"><span class="lineno">  259</span>      yyextra-&gt;currentMemberDef = yyextra-&gt;sourceFileDef-&gt;getSourceMember(yyextra-&gt;yyLineNr);</div>
-<div class="line"><span class="lineno">  260</span>      <span class="comment">//yyextra-&gt;insideBody = false;</span></div>
-<div class="line"><span class="lineno">  261</span>      yyextra-&gt;classScope = d-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#afc4fb51052226ea23c2f51b6516a3525">name</a>();</div>
-<div class="line"><span class="lineno">  262</span>      <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> lineAnchor;</div>
-<div class="line"><span class="lineno">  263</span>      lineAnchor.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aa2dccf89cb25346c3ee81d75aa5859da">sprintf</a>(<span class="stringliteral">&quot;l%05d&quot;</span>,yyextra-&gt;yyLineNr);</div>
-<div class="line"><span class="lineno">  264</span>      <span class="keywordflow">if</span> (yyextra-&gt;currentMemberDef)</div>
-<div class="line"><span class="lineno">  265</span>      {</div>
-<div class="line"><span class="lineno">  266</span>        yyextra-&gt;code-&gt;writeLineNumber(yyextra-&gt;currentMemberDef-&gt;getReference(),</div>
-<div class="line"><span class="lineno">  267</span>                            yyextra-&gt;currentMemberDef-&gt;getOutputFileBase(),</div>
-<div class="line"><span class="lineno">  268</span>                            yyextra-&gt;currentMemberDef-&gt;anchor(),yyextra-&gt;yyLineNr,</div>
-<div class="line"><span class="lineno">  269</span>                            !yyextra-&gt;includeCodeFragment);</div>
-<div class="line"><span class="lineno">  270</span>        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#adbfcafb48c794e6885763cd94da51375">setCurrentDoc</a>(yyscanner,lineAnchor);</div>
-<div class="line"><span class="lineno">  271</span>      }</div>
-<div class="line"><span class="lineno">  272</span>      <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  273</span>      {</div>
-<div class="line"><span class="lineno">  274</span>        yyextra-&gt;code-&gt;writeLineNumber(d-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#aab5f8631606d43a73f371833eb6425ee">getReference</a>(),</div>
-<div class="line"><span class="lineno">  275</span>                            d-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#acabecdc6bfda2015811eed5f3436322d">getOutputFileBase</a>(),</div>
-<div class="line"><span class="lineno">  276</span>                            <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>(),yyextra-&gt;yyLineNr,</div>
-<div class="line"><span class="lineno">  277</span>                            !yyextra-&gt;includeCodeFragment);</div>
-<div class="line"><span class="lineno">  278</span>        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#adbfcafb48c794e6885763cd94da51375">setCurrentDoc</a>(yyscanner,lineAnchor);</div>
-<div class="line"><span class="lineno">  279</span>      }</div>
-<div class="line"><span class="lineno">  280</span>    }</div>
-<div class="line"><span class="lineno">  281</span>    <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  282</span>    {</div>
-<div class="line"><span class="lineno">  283</span>      yyextra-&gt;code-&gt;writeLineNumber(<a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>(),<a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>(),<a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>(),yyextra-&gt;yyLineNr,</div>
-<div class="line"><span class="lineno">  284</span>                                     !yyextra-&gt;includeCodeFragment);</div>
-<div class="line"><span class="lineno">  285</span>    }</div>
-<div class="line"><span class="lineno">  286</span>  }</div>
+<div class="line"><span class="lineno">  261</span> </div>
+<div class="line"><span class="lineno">  262</span>    <span class="keywordflow">if</span> (!yyextra-&gt;includeCodeFragment &amp;&amp; d &amp;&amp; d-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#a845891c7206d40c3664b562636cdf9fc">isLinkableInProject</a>())</div>
+<div class="line"><span class="lineno">  263</span>    {</div>
+<div class="line"><span class="lineno">  264</span>      yyextra-&gt;currentDefinition = d;</div>
+<div class="line"><span class="lineno">  265</span>      yyextra-&gt;currentMemberDef = yyextra-&gt;sourceFileDef-&gt;getSourceMember(yyextra-&gt;yyLineNr);</div>
+<div class="line"><span class="lineno">  266</span>      <span class="comment">//yyextra-&gt;insideBody = false;</span></div>
+<div class="line"><span class="lineno">  267</span>      yyextra-&gt;classScope = d-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#afc4fb51052226ea23c2f51b6516a3525">name</a>();</div>
+<div class="line"><span class="lineno">  268</span>      <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> lineAnchor;</div>
+<div class="line"><span class="lineno">  269</span>      lineAnchor.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aa2dccf89cb25346c3ee81d75aa5859da">sprintf</a>(<span class="stringliteral">&quot;l%05d&quot;</span>,yyextra-&gt;yyLineNr);</div>
+<div class="line"><span class="lineno">  270</span>      <span class="keywordflow">if</span> (yyextra-&gt;currentMemberDef)</div>
+<div class="line"><span class="lineno">  271</span>      {</div>
+<div class="line"><span class="lineno">  272</span>        yyextra-&gt;code-&gt;writeLineNumber(yyextra-&gt;currentMemberDef-&gt;getReference(),</div>
+<div class="line"><span class="lineno">  273</span>                            yyextra-&gt;currentMemberDef-&gt;getOutputFileBase(),</div>
+<div class="line"><span class="lineno">  274</span>                            yyextra-&gt;currentMemberDef-&gt;anchor(),yyextra-&gt;yyLineNr,</div>
+<div class="line"><span class="lineno">  275</span>                            !yyextra-&gt;includeCodeFragment);</div>
+<div class="line"><span class="lineno">  276</span>        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#adbfcafb48c794e6885763cd94da51375">setCurrentDoc</a>(yyscanner,lineAnchor);</div>
+<div class="line"><span class="lineno">  277</span>      }</div>
+<div class="line"><span class="lineno">  278</span>      <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  279</span>      {</div>
+<div class="line"><span class="lineno">  280</span>        yyextra-&gt;code-&gt;writeLineNumber(d-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#aab5f8631606d43a73f371833eb6425ee">getReference</a>(),</div>
+<div class="line"><span class="lineno">  281</span>                            d-&gt;<a class="code hl_function" href="../../d5/dcc/class_definition.html#acabecdc6bfda2015811eed5f3436322d">getOutputFileBase</a>(),</div>
+<div class="line"><span class="lineno">  282</span>                            <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>(),yyextra-&gt;yyLineNr,</div>
+<div class="line"><span class="lineno">  283</span>                            !yyextra-&gt;includeCodeFragment);</div>
+<div class="line"><span class="lineno">  284</span>        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#adbfcafb48c794e6885763cd94da51375">setCurrentDoc</a>(yyscanner,lineAnchor);</div>
+<div class="line"><span class="lineno">  285</span>      }</div>
+<div class="line"><span class="lineno">  286</span>    }</div>
+<div class="line"><span class="lineno">  287</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  288</span>    {</div>
+<div class="line"><span class="lineno">  289</span>      yyextra-&gt;code-&gt;writeLineNumber(<a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>(),<a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>(),<a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a>(),yyextra-&gt;yyLineNr,</div>
+<div class="line"><span class="lineno">  290</span>                                     !yyextra-&gt;includeCodeFragment);</div>
+<div class="line"><span class="lineno">  291</span>    }</div>
+<div class="line"><span class="lineno">  292</span>  }</div>
 <div class="ttc" id="aclass_definition_html_a845891c7206d40c3664b562636cdf9fc"><div class="ttname"><a href="../../d5/dcc/class_definition.html#a845891c7206d40c3664b562636cdf9fc">Definition::isLinkableInProject</a></div><div class="ttdeci">virtual bool isLinkableInProject() const =0</div></div>
 <div class="ttc" id="aclass_definition_html_aab5f8631606d43a73f371833eb6425ee"><div class="ttname"><a href="../../d5/dcc/class_definition.html#aab5f8631606d43a73f371833eb6425ee">Definition::getReference</a></div><div class="ttdeci">virtual QCString getReference() const =0</div></div>
 <div class="ttc" id="aclass_definition_html_acabecdc6bfda2015811eed5f3436322d"><div class="ttname"><a href="../../d5/dcc/class_definition.html#acabecdc6bfda2015811eed5f3436322d">Definition::getOutputFileBase</a></div><div class="ttdeci">virtual QCString getOutputFileBase() const =0</div></div>
 <div class="ttc" id="aclass_definition_html_afc4fb51052226ea23c2f51b6516a3525"><div class="ttname"><a href="../../d5/dcc/class_definition.html#afc4fb51052226ea23c2f51b6516a3525">Definition::name</a></div><div class="ttdeci">virtual const QCString &amp; name() const =0</div></div>
 <div class="ttc" id="aclass_q_c_string_html"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html">QCString</a></div><div class="ttdoc">This is an alternative implementation of QCString.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d45/class_q_c_string.html#l00102">qcstring.h:103</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_aa2dccf89cb25346c3ee81d75aa5859da"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#aa2dccf89cb25346c3ee81d75aa5859da">QCString::sprintf</a></div><div class="ttdeci">QCString &amp; sprintf(const char *format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d45/class_q_c_string.html#l00029">qcstring.cpp:29</a></div></div>
-<div class="ttc" id="axmlcode_8l_html_adbfcafb48c794e6885763cd94da51375"><div class="ttname"><a href="../../dc/dc1/xmlcode_8l.html#adbfcafb48c794e6885763cd94da51375">setCurrentDoc</a></div><div class="ttdeci">static void setCurrentDoc(yyscan_t yyscanner, const QCString &amp;anchor)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc1/xmlcode_8l.html#l00229">xmlcode.l:229</a></div></div>
-<div class="line"><span class="lineno">  287</span> </div>
-<div class="line"><span class="lineno">  288</span>  yyextra-&gt;code-&gt;startCodeLine(yyextra-&gt;sourceFileDef!=0);</div>
-<div class="line"><span class="lineno">  289</span>  yyextra-&gt;insideCodeLine = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  290</span> </div>
-<div class="line"><span class="lineno">  291</span>  <span class="keywordflow">if</span> (yyextra-&gt;currentFontClass)</div>
-<div class="line"><span class="lineno">  292</span>  {</div>
-<div class="line"><span class="lineno">  293</span>    yyextra-&gt;code-&gt;startFontClass(yyextra-&gt;currentFontClass);</div>
-<div class="line"><span class="lineno">  294</span>  }</div>
-<div class="line"><span class="lineno">  295</span>}</div>
+<div class="ttc" id="axmlcode_8l_html_adbfcafb48c794e6885763cd94da51375"><div class="ttname"><a href="../../dc/dc1/xmlcode_8l.html#adbfcafb48c794e6885763cd94da51375">setCurrentDoc</a></div><div class="ttdeci">static void setCurrentDoc(yyscan_t yyscanner, const QCString &amp;anchor)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc1/xmlcode_8l.html#l00235">xmlcode.l:235</a></div></div>
+<div class="line"><span class="lineno">  293</span> </div>
+<div class="line"><span class="lineno">  294</span>  yyextra-&gt;code-&gt;startCodeLine(yyextra-&gt;sourceFileDef!=0);</div>
+<div class="line"><span class="lineno">  295</span>  yyextra-&gt;insideCodeLine = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  296</span> </div>
+<div class="line"><span class="lineno">  297</span>  <span class="keywordflow">if</span> (yyextra-&gt;currentFontClass)</div>
+<div class="line"><span class="lineno">  298</span>  {</div>
+<div class="line"><span class="lineno">  299</span>    yyextra-&gt;code-&gt;startFontClass(yyextra-&gt;currentFontClass);</div>
+<div class="line"><span class="lineno">  300</span>  }</div>
+<div class="line"><span class="lineno">  301</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/dcc/class_definition.html#acabecdc6bfda2015811eed5f3436322d">Definition::getOutputFileBase()</a>, <a class="el" href="../../d5/dcc/class_definition.html#aab5f8631606d43a73f371833eb6425ee">Definition::getReference()</a>, <a class="el" href="../../d5/dcc/class_definition.html#a845891c7206d40c3664b562636cdf9fc">Definition::isLinkableInProject()</a>, <a class="el" href="../../d5/dcc/class_definition.html#afc4fb51052226ea23c2f51b6516a3525">Definition::name()</a>, <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00229">setCurrentDoc()</a>, and <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00029">QCString::sprintf()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/dcc/class_definition.html#acabecdc6bfda2015811eed5f3436322d">Definition::getOutputFileBase()</a>, <a class="el" href="../../d5/dcc/class_definition.html#aab5f8631606d43a73f371833eb6425ee">Definition::getReference()</a>, <a class="el" href="../../d5/dcc/class_definition.html#a845891c7206d40c3664b562636cdf9fc">Definition::isLinkableInProject()</a>, <a class="el" href="../../d5/dcc/class_definition.html#afc4fb51052226ea23c2f51b6516a3525">Definition::name()</a>, <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00235">setCurrentDoc()</a>, and <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00029">QCString::sprintf()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00315">nextCodeLine()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00321">nextCodeLine()</a>.</p>
 
 </div>
 </div>
@@ -800,15 +800,15 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00359">359</a> of file <a class="el" href="../../dc/dc1/xmlcode_8l_source.html">xmlcode.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  360</span>{</div>
-<div class="line"><span class="lineno">  361</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno">  362</span>  <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#af7af0722d394ed17bb2a672320b85c7c">endFontClass</a>(yyscanner);</div>
-<div class="line"><span class="lineno">  363</span>  yyextra-&gt;code-&gt;startFontClass(s);</div>
-<div class="line"><span class="lineno">  364</span>  yyextra-&gt;currentFontClass=s;</div>
-<div class="line"><span class="lineno">  365</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00365">365</a> of file <a class="el" href="../../dc/dc1/xmlcode_8l_source.html">xmlcode.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  366</span>{</div>
+<div class="line"><span class="lineno">  367</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno">  368</span>  <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#af7af0722d394ed17bb2a672320b85c7c">endFontClass</a>(yyscanner);</div>
+<div class="line"><span class="lineno">  369</span>  yyextra-&gt;code-&gt;startFontClass(s);</div>
+<div class="line"><span class="lineno">  370</span>  yyextra-&gt;currentFontClass=s;</div>
+<div class="line"><span class="lineno">  371</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00297">endFontClass()</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00303">endFontClass()</a>.</p>
 
 </div>
 </div>
@@ -828,83 +828,88 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00130">130</a> of file <a class="el" href="../../dc/dc1/xmlcode_8l_source.html">xmlcode.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  132</span>         {ws}       {</div>
-<div class="line"><span class="lineno">  133</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#a7896fb6877ba971cf979b9cfe8f245b3">codifyLines</a>(yyscanner,yytext);</div>
-<div class="line"><span class="lineno">  134</span>                    }</div>
-<div class="ttc" id="axmlcode_8l_html_a7896fb6877ba971cf979b9cfe8f245b3"><div class="ttname"><a href="../../dc/dc1/xmlcode_8l.html#a7896fb6877ba971cf979b9cfe8f245b3">codifyLines</a></div><div class="ttdeci">static void codifyLines(yyscan_t yyscanner, const char *text)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc1/xmlcode_8l.html#l00330">xmlcode.l:330</a></div></div>
-<div class="line"><span class="lineno">  135</span>&lt;INITIAL&gt;&quot;/&quot;        {</div>
-<div class="line"><span class="lineno">  136</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#af7af0722d394ed17bb2a672320b85c7c">endFontClass</a>(yyscanner);</div>
-<div class="line"><span class="lineno">  137</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#ade93fbc82fc9b9fc904fe0e9c48c94ba">codify</a>(yyscanner,yytext);</div>
-<div class="line"><span class="lineno">  138</span>                    }</div>
-<div class="ttc" id="axmlcode_8l_html_ade93fbc82fc9b9fc904fe0e9c48c94ba"><div class="ttname"><a href="../../dc/dc1/xmlcode_8l.html#ade93fbc82fc9b9fc904fe0e9c48c94ba">codify</a></div><div class="ttdeci">static void codify(yyscan_t yyscanner, const char *text)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc1/xmlcode_8l.html#l00223">xmlcode.l:223</a></div></div>
-<div class="line"><span class="lineno">  139</span>&lt;INITIAL&gt;&quot;=&quot;        {</div>
-<div class="line"><span class="lineno">  140</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#af7af0722d394ed17bb2a672320b85c7c">endFontClass</a>(yyscanner);</div>
-<div class="line"><span class="lineno">  141</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#ade93fbc82fc9b9fc904fe0e9c48c94ba">codify</a>(yyscanner,yytext);</div>
-<div class="line"><span class="lineno">  142</span>                    }</div>
-<div class="line"><span class="lineno">  143</span>&lt;INITIAL&gt;{close}    {</div>
-<div class="line"><span class="lineno">  144</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#af7af0722d394ed17bb2a672320b85c7c">endFontClass</a>(yyscanner);</div>
-<div class="line"><span class="lineno">  145</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#ade93fbc82fc9b9fc904fe0e9c48c94ba">codify</a>(yyscanner,yytext);</div>
-<div class="line"><span class="lineno">  146</span>                    }</div>
-<div class="line"><span class="lineno">  147</span>&lt;INITIAL&gt;{name}     {</div>
-<div class="line"><span class="lineno">  148</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#a774297aa5d69086827360d6f0ab535fa">startFontClass</a>(yyscanner,<span class="stringliteral">&quot;keyword&quot;</span>);</div>
-<div class="line"><span class="lineno">  149</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#ade93fbc82fc9b9fc904fe0e9c48c94ba">codify</a>(yyscanner,yytext);</div>
-<div class="line"><span class="lineno">  150</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#af7af0722d394ed17bb2a672320b85c7c">endFontClass</a>(yyscanner);</div>
-<div class="line"><span class="lineno">  151</span>                    }</div>
-<div class="ttc" id="axmlcode_8l_html_a774297aa5d69086827360d6f0ab535fa"><div class="ttname"><a href="../../dc/dc1/xmlcode_8l.html#a774297aa5d69086827360d6f0ab535fa">startFontClass</a></div><div class="ttdeci">static void startFontClass(yyscan_t yyscanner, const char *s)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc1/xmlcode_8l.html#l00359">xmlcode.l:359</a></div></div>
-<div class="line"><span class="lineno">  152</span>&lt;INITIAL&gt;{string}   {</div>
-<div class="line"><span class="lineno">  153</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#a774297aa5d69086827360d6f0ab535fa">startFontClass</a>(yyscanner,<span class="stringliteral">&quot;stringliteral&quot;</span>);</div>
-<div class="line"><span class="lineno">  154</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#a7896fb6877ba971cf979b9cfe8f245b3">codifyLines</a>(yyscanner,yytext);</div>
-<div class="line"><span class="lineno">  155</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#af7af0722d394ed17bb2a672320b85c7c">endFontClass</a>(yyscanner);</div>
-<div class="line"><span class="lineno">  156</span>                    }</div>
-<div class="line"><span class="lineno">  157</span> </div>
-<div class="line"><span class="lineno">  158</span>{open}{ws}?{name}   {</div>
-<div class="line"><span class="lineno">  159</span>                        <span class="comment">// Write the &lt; in a different color</span></div>
-<div class="line"><span class="lineno">  160</span>                        <span class="keywordtype">char</span> openBracket[] = { yytext[0], <span class="charliteral">&#39;\0&#39;</span> };</div>
-<div class="line"><span class="lineno">  161</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#ade93fbc82fc9b9fc904fe0e9c48c94ba">codify</a>(yyscanner,openBracket);</div>
-<div class="line"><span class="lineno">  162</span> </div>
-<div class="line"><span class="lineno">  163</span>                        <span class="comment">// Then write the rest</span></div>
-<div class="line"><span class="lineno">  164</span>                        yytext++;</div>
-<div class="line"><span class="lineno">  165</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#a774297aa5d69086827360d6f0ab535fa">startFontClass</a>(yyscanner,<span class="stringliteral">&quot;keywordtype&quot;</span>);</div>
-<div class="line"><span class="lineno">  166</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#ade93fbc82fc9b9fc904fe0e9c48c94ba">codify</a>(yyscanner,yytext);</div>
-<div class="line"><span class="lineno">  167</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#af7af0722d394ed17bb2a672320b85c7c">endFontClass</a>(yyscanner);</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00131">131</a> of file <a class="el" href="../../dc/dc1/xmlcode_8l_source.html">xmlcode.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  133</span>         {ws}       {</div>
+<div class="line"><span class="lineno">  134</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#a7896fb6877ba971cf979b9cfe8f245b3">codifyLines</a>(yyscanner,yytext);</div>
+<div class="line"><span class="lineno">  135</span>                    }</div>
+<div class="ttc" id="axmlcode_8l_html_a7896fb6877ba971cf979b9cfe8f245b3"><div class="ttname"><a href="../../dc/dc1/xmlcode_8l.html#a7896fb6877ba971cf979b9cfe8f245b3">codifyLines</a></div><div class="ttdeci">static void codifyLines(yyscan_t yyscanner, const char *text)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc1/xmlcode_8l.html#l00336">xmlcode.l:336</a></div></div>
+<div class="line"><span class="lineno">  136</span>&lt;INITIAL&gt;&quot;/&quot;        {</div>
+<div class="line"><span class="lineno">  137</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#af7af0722d394ed17bb2a672320b85c7c">endFontClass</a>(yyscanner);</div>
+<div class="line"><span class="lineno">  138</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#ade93fbc82fc9b9fc904fe0e9c48c94ba">codify</a>(yyscanner,yytext);</div>
+<div class="line"><span class="lineno">  139</span>                    }</div>
+<div class="ttc" id="axmlcode_8l_html_ade93fbc82fc9b9fc904fe0e9c48c94ba"><div class="ttname"><a href="../../dc/dc1/xmlcode_8l.html#ade93fbc82fc9b9fc904fe0e9c48c94ba">codify</a></div><div class="ttdeci">static void codify(yyscan_t yyscanner, const char *text)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc1/xmlcode_8l.html#l00229">xmlcode.l:229</a></div></div>
+<div class="line"><span class="lineno">  140</span>&lt;INITIAL&gt;&quot;=&quot;        {</div>
+<div class="line"><span class="lineno">  141</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#af7af0722d394ed17bb2a672320b85c7c">endFontClass</a>(yyscanner);</div>
+<div class="line"><span class="lineno">  142</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#ade93fbc82fc9b9fc904fe0e9c48c94ba">codify</a>(yyscanner,yytext);</div>
+<div class="line"><span class="lineno">  143</span>                    }</div>
+<div class="line"><span class="lineno">  144</span>&lt;INITIAL&gt;{close}    {</div>
+<div class="line"><span class="lineno">  145</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#af7af0722d394ed17bb2a672320b85c7c">endFontClass</a>(yyscanner);</div>
+<div class="line"><span class="lineno">  146</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#ade93fbc82fc9b9fc904fe0e9c48c94ba">codify</a>(yyscanner,yytext);</div>
+<div class="line"><span class="lineno">  147</span>                    }</div>
+<div class="line"><span class="lineno">  148</span>&lt;INITIAL&gt;{name}     {</div>
+<div class="line"><span class="lineno">  149</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#a774297aa5d69086827360d6f0ab535fa">startFontClass</a>(yyscanner,<span class="stringliteral">&quot;keyword&quot;</span>);</div>
+<div class="line"><span class="lineno">  150</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#ade93fbc82fc9b9fc904fe0e9c48c94ba">codify</a>(yyscanner,yytext);</div>
+<div class="line"><span class="lineno">  151</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#af7af0722d394ed17bb2a672320b85c7c">endFontClass</a>(yyscanner);</div>
+<div class="line"><span class="lineno">  152</span>                    }</div>
+<div class="ttc" id="axmlcode_8l_html_a774297aa5d69086827360d6f0ab535fa"><div class="ttname"><a href="../../dc/dc1/xmlcode_8l.html#a774297aa5d69086827360d6f0ab535fa">startFontClass</a></div><div class="ttdeci">static void startFontClass(yyscan_t yyscanner, const char *s)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc1/xmlcode_8l.html#l00365">xmlcode.l:365</a></div></div>
+<div class="line"><span class="lineno">  153</span>&lt;INITIAL&gt;{string}   {</div>
+<div class="line"><span class="lineno">  154</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#a774297aa5d69086827360d6f0ab535fa">startFontClass</a>(yyscanner,<span class="stringliteral">&quot;stringliteral&quot;</span>);</div>
+<div class="line"><span class="lineno">  155</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#a7896fb6877ba971cf979b9cfe8f245b3">codifyLines</a>(yyscanner,yytext);</div>
+<div class="line"><span class="lineno">  156</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#af7af0722d394ed17bb2a672320b85c7c">endFontClass</a>(yyscanner);</div>
+<div class="line"><span class="lineno">  157</span>                    }</div>
+<div class="line"><span class="lineno">  158</span>{cdata}             {</div>
+<div class="line"><span class="lineno">  159</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#a774297aa5d69086827360d6f0ab535fa">startFontClass</a>(yyscanner,<span class="stringliteral">&quot;xmlcdata&quot;</span>);</div>
+<div class="line"><span class="lineno">  160</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#a7896fb6877ba971cf979b9cfe8f245b3">codifyLines</a>(yyscanner,yytext);</div>
+<div class="line"><span class="lineno">  161</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#af7af0722d394ed17bb2a672320b85c7c">endFontClass</a>(yyscanner);</div>
+<div class="line"><span class="lineno">  162</span>                    }</div>
+<div class="line"><span class="lineno">  163</span> </div>
+<div class="line"><span class="lineno">  164</span>{open}{ws}?{name}   {</div>
+<div class="line"><span class="lineno">  165</span>                        <span class="comment">// Write the &lt; in a different color</span></div>
+<div class="line"><span class="lineno">  166</span>                        <span class="keywordtype">char</span> openBracket[] = { yytext[0], <span class="charliteral">&#39;\0&#39;</span> };</div>
+<div class="line"><span class="lineno">  167</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#ade93fbc82fc9b9fc904fe0e9c48c94ba">codify</a>(yyscanner,openBracket);</div>
 <div class="line"><span class="lineno">  168</span> </div>
-<div class="line"><span class="lineno">  169</span>                        BEGIN(INITIAL);</div>
-<div class="line"><span class="lineno">  170</span>                    }</div>
-<div class="line"><span class="lineno">  171</span>{open}{ws}?&quot;/&quot;{name} {</div>
-<div class="line"><span class="lineno">  172</span>                        <span class="comment">// Write the &quot;&lt;/&quot; in a different color</span></div>
-<div class="line"><span class="lineno">  173</span>                        <span class="keywordtype">char</span> closeBracket[] = { yytext[0], yytext[1], <span class="charliteral">&#39;\0&#39;</span> };</div>
-<div class="line"><span class="lineno">  174</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#af7af0722d394ed17bb2a672320b85c7c">endFontClass</a>(yyscanner);</div>
-<div class="line"><span class="lineno">  175</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#ade93fbc82fc9b9fc904fe0e9c48c94ba">codify</a>(yyscanner,closeBracket);</div>
-<div class="line"><span class="lineno">  176</span> </div>
-<div class="line"><span class="lineno">  177</span>                        <span class="comment">// Then write the rest</span></div>
-<div class="line"><span class="lineno">  178</span>                        yytext++; <span class="comment">// skip the &#39;&lt;&#39;</span></div>
-<div class="line"><span class="lineno">  179</span>                        yytext++; <span class="comment">// skip the &#39;/&#39;</span></div>
-<div class="line"><span class="lineno">  180</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#a774297aa5d69086827360d6f0ab535fa">startFontClass</a>(yyscanner,<span class="stringliteral">&quot;keywordtype&quot;</span>);</div>
-<div class="line"><span class="lineno">  181</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#ade93fbc82fc9b9fc904fe0e9c48c94ba">codify</a>(yyscanner,yytext);</div>
-<div class="line"><span class="lineno">  182</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#af7af0722d394ed17bb2a672320b85c7c">endFontClass</a>(yyscanner);</div>
-<div class="line"><span class="lineno">  183</span> </div>
-<div class="line"><span class="lineno">  184</span>                        BEGIN(INITIAL);</div>
-<div class="line"><span class="lineno">  185</span>                    }</div>
-<div class="line"><span class="lineno">  186</span>{comment}           {</div>
-<div class="line"><span class="lineno">  187</span>                        <span class="comment">// Strip off the extra &#39;!&#39;</span></div>
-<div class="line"><span class="lineno">  188</span>                        <span class="comment">// yytext++; // &lt;</span></div>
-<div class="line"><span class="lineno">  189</span>                        <span class="comment">// *yytext = &#39;&lt;&#39;; // replace &#39;!&#39; with &#39;&lt;&#39;</span></div>
-<div class="line"><span class="lineno">  190</span> </div>
-<div class="line"><span class="lineno">  191</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#a774297aa5d69086827360d6f0ab535fa">startFontClass</a>(yyscanner,<span class="stringliteral">&quot;comment&quot;</span>);</div>
-<div class="line"><span class="lineno">  192</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#a7896fb6877ba971cf979b9cfe8f245b3">codifyLines</a>(yyscanner,yytext);</div>
-<div class="line"><span class="lineno">  193</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#af7af0722d394ed17bb2a672320b85c7c">endFontClass</a>(yyscanner);</div>
-<div class="line"><span class="lineno">  194</span>                    }</div>
-<div class="line"><span class="lineno">  195</span>{nl}                {</div>
-<div class="line"><span class="lineno">  196</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#a7896fb6877ba971cf979b9cfe8f245b3">codifyLines</a>(yyscanner,yytext);</div>
-<div class="line"><span class="lineno">  197</span>                    }</div>
-<div class="line"><span class="lineno">  198</span> </div>
-<div class="line"><span class="lineno">  199</span>.                   {</div>
-<div class="line"><span class="lineno">  200</span>                        <span class="comment">//printf(&quot;!ERROR(%c)\n&quot;, *yytext);</span></div>
-<div class="line"><span class="lineno">  201</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#a7896fb6877ba971cf979b9cfe8f245b3">codifyLines</a>(yyscanner,yytext);</div>
-<div class="line"><span class="lineno">  202</span>                    }</div>
-<div class="line"><span class="lineno">  203</span> </div>
-<div class="line"><span class="lineno">  204</span>%%</div>
+<div class="line"><span class="lineno">  169</span>                        <span class="comment">// Then write the rest</span></div>
+<div class="line"><span class="lineno">  170</span>                        yytext++;</div>
+<div class="line"><span class="lineno">  171</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#a774297aa5d69086827360d6f0ab535fa">startFontClass</a>(yyscanner,<span class="stringliteral">&quot;keywordtype&quot;</span>);</div>
+<div class="line"><span class="lineno">  172</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#ade93fbc82fc9b9fc904fe0e9c48c94ba">codify</a>(yyscanner,yytext);</div>
+<div class="line"><span class="lineno">  173</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#af7af0722d394ed17bb2a672320b85c7c">endFontClass</a>(yyscanner);</div>
+<div class="line"><span class="lineno">  174</span> </div>
+<div class="line"><span class="lineno">  175</span>                        BEGIN(INITIAL);</div>
+<div class="line"><span class="lineno">  176</span>                    }</div>
+<div class="line"><span class="lineno">  177</span>{open}{ws}?&quot;/&quot;{name} {</div>
+<div class="line"><span class="lineno">  178</span>                        <span class="comment">// Write the &quot;&lt;/&quot; in a different color</span></div>
+<div class="line"><span class="lineno">  179</span>                        <span class="keywordtype">char</span> closeBracket[] = { yytext[0], yytext[1], <span class="charliteral">&#39;\0&#39;</span> };</div>
+<div class="line"><span class="lineno">  180</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#af7af0722d394ed17bb2a672320b85c7c">endFontClass</a>(yyscanner);</div>
+<div class="line"><span class="lineno">  181</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#ade93fbc82fc9b9fc904fe0e9c48c94ba">codify</a>(yyscanner,closeBracket);</div>
+<div class="line"><span class="lineno">  182</span> </div>
+<div class="line"><span class="lineno">  183</span>                        <span class="comment">// Then write the rest</span></div>
+<div class="line"><span class="lineno">  184</span>                        yytext++; <span class="comment">// skip the &#39;&lt;&#39;</span></div>
+<div class="line"><span class="lineno">  185</span>                        yytext++; <span class="comment">// skip the &#39;/&#39;</span></div>
+<div class="line"><span class="lineno">  186</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#a774297aa5d69086827360d6f0ab535fa">startFontClass</a>(yyscanner,<span class="stringliteral">&quot;keywordtype&quot;</span>);</div>
+<div class="line"><span class="lineno">  187</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#ade93fbc82fc9b9fc904fe0e9c48c94ba">codify</a>(yyscanner,yytext);</div>
+<div class="line"><span class="lineno">  188</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#af7af0722d394ed17bb2a672320b85c7c">endFontClass</a>(yyscanner);</div>
+<div class="line"><span class="lineno">  189</span> </div>
+<div class="line"><span class="lineno">  190</span>                        BEGIN(INITIAL);</div>
+<div class="line"><span class="lineno">  191</span>                    }</div>
+<div class="line"><span class="lineno">  192</span>{comment}           {</div>
+<div class="line"><span class="lineno">  193</span>                        <span class="comment">// Strip off the extra &#39;!&#39;</span></div>
+<div class="line"><span class="lineno">  194</span>                        <span class="comment">// yytext++; // &lt;</span></div>
+<div class="line"><span class="lineno">  195</span>                        <span class="comment">// *yytext = &#39;&lt;&#39;; // replace &#39;!&#39; with &#39;&lt;&#39;</span></div>
+<div class="line"><span class="lineno">  196</span> </div>
+<div class="line"><span class="lineno">  197</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#a774297aa5d69086827360d6f0ab535fa">startFontClass</a>(yyscanner,<span class="stringliteral">&quot;comment&quot;</span>);</div>
+<div class="line"><span class="lineno">  198</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#a7896fb6877ba971cf979b9cfe8f245b3">codifyLines</a>(yyscanner,yytext);</div>
+<div class="line"><span class="lineno">  199</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#af7af0722d394ed17bb2a672320b85c7c">endFontClass</a>(yyscanner);</div>
+<div class="line"><span class="lineno">  200</span>                    }</div>
+<div class="line"><span class="lineno">  201</span>{nl}                {</div>
+<div class="line"><span class="lineno">  202</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#a7896fb6877ba971cf979b9cfe8f245b3">codifyLines</a>(yyscanner,yytext);</div>
+<div class="line"><span class="lineno">  203</span>                    }</div>
+<div class="line"><span class="lineno">  204</span> </div>
+<div class="line"><span class="lineno">  205</span>.                   {</div>
+<div class="line"><span class="lineno">  206</span>                        <span class="comment">//printf(&quot;!ERROR(%c)\n&quot;, *yytext);</span></div>
+<div class="line"><span class="lineno">  207</span>                        <a class="code hl_function" href="../../dc/dc1/xmlcode_8l.html#a7896fb6877ba971cf979b9cfe8f245b3">codifyLines</a>(yyscanner,yytext);</div>
+<div class="line"><span class="lineno">  208</span>                    }</div>
+<div class="line"><span class="lineno">  209</span> </div>
+<div class="line"><span class="lineno">  210</span>%%</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -948,20 +953,20 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00208">208</a> of file <a class="el" href="../../dc/dc1/xmlcode_8l_source.html">xmlcode.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  209</span>{</div>
-<div class="line"><span class="lineno">  210</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno">  211</span>  <span class="keywordtype">int</span> inputPosition = yyextra-&gt;inputPosition;</div>
-<div class="line"><span class="lineno">  212</span>  <span class="keyword">const</span> <span class="keywordtype">char</span> *s = yyextra-&gt;inputString + inputPosition;</div>
-<div class="line"><span class="lineno">  213</span>  <span class="keywordtype">int</span> c=0;</div>
-<div class="line"><span class="lineno">  214</span>  <span class="keywordflow">while</span>( c &lt; max_size &amp;&amp; *s)</div>
-<div class="line"><span class="lineno">  215</span>  {</div>
-<div class="line"><span class="lineno">  216</span>    *buf++ = *s++;</div>
-<div class="line"><span class="lineno">  217</span>    c++;</div>
-<div class="line"><span class="lineno">  218</span>  }</div>
-<div class="line"><span class="lineno">  219</span>  yyextra-&gt;inputPosition += c;</div>
-<div class="line"><span class="lineno">  220</span>  <span class="keywordflow">return</span> c;</div>
-<div class="line"><span class="lineno">  221</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dc1/xmlcode_8l_source.html#l00214">214</a> of file <a class="el" href="../../dc/dc1/xmlcode_8l_source.html">xmlcode.l</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  215</span>{</div>
+<div class="line"><span class="lineno">  216</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
+<div class="line"><span class="lineno">  217</span>  <span class="keywordtype">int</span> inputPosition = yyextra-&gt;inputPosition;</div>
+<div class="line"><span class="lineno">  218</span>  <span class="keyword">const</span> <span class="keywordtype">char</span> *s = yyextra-&gt;inputString + inputPosition;</div>
+<div class="line"><span class="lineno">  219</span>  <span class="keywordtype">int</span> c=0;</div>
+<div class="line"><span class="lineno">  220</span>  <span class="keywordflow">while</span>( c &lt; max_size &amp;&amp; *s)</div>
+<div class="line"><span class="lineno">  221</span>  {</div>
+<div class="line"><span class="lineno">  222</span>    *buf++ = *s++;</div>
+<div class="line"><span class="lineno">  223</span>    c++;</div>
+<div class="line"><span class="lineno">  224</span>  }</div>
+<div class="line"><span class="lineno">  225</span>  yyextra-&gt;inputPosition += c;</div>
+<div class="line"><span class="lineno">  226</span>  <span class="keywordflow">return</span> c;</div>
+<div class="line"><span class="lineno">  227</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
