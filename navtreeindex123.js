@@ -1,10 +1,9 @@
 var NAVTREEINDEX123 =
 {
-"de/dea/vhdldocgen_8cpp.html#afb52f0bd95d6390d6fc0943d1c3f638f":[9,0,2,301,6],
 "de/dea/vhdldocgen_8cpp.html#afd32ac165b45cf0bd6eb6aeb189c98fe":[9,0,2,301,11],
 "de/dea/vhdldocgen_8cpp_source.html":[9,0,2,301],
-"de/df2/struct_output_gen_intf_1_1write_doc.html":[7,0,10,167],
 "de/df2/struct_output_gen_intf_1_1write_doc.html":[8,0,5,167],
+"de/df2/struct_output_gen_intf_1_1write_doc.html":[7,0,10,167],
 "de/df2/struct_output_gen_intf_1_1write_doc.html#a24b47987f1d3de293d151bbf1eafea5f":[7,0,10,167,0],
 "de/df2/struct_output_gen_intf_1_1write_doc.html#a24b47987f1d3de293d151bbf1eafea5f":[8,0,5,167,0],
 "de/df3/defargs_8l.html":[9,0,2,46],
@@ -249,5 +248,6 @@ var NAVTREEINDEX123 =
 "de/dff/class_citation_manager.html#a4934f7fbd6a387b7cc2ea0a12a2e04b5":[8,0,32,10],
 "de/dff/class_citation_manager.html#a5064df0802f4ce881cbe5d1d9757cc86":[8,0,32,3],
 "de/dff/class_citation_manager.html#a5f5bce72519f9278f849a2c4cf936393":[8,0,32,13],
-"de/dff/class_citation_manager.html#acbc101ba2926c6324a479b572ff3c377":[8,0,32,8]
+"de/dff/class_citation_manager.html#acbc101ba2926c6324a479b572ff3c377":[8,0,32,8],
+"de/dff/class_citation_manager.html#ace9a73a9c71111d88ec3eb90eeb92b26":[8,0,32,1]
 };

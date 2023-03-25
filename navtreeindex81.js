@@ -1,8 +1,5 @@
 var NAVTREEINDEX81 =
 {
-"da/db8/class_translator_armenian.html#a86d893ed59368d691cf5b9df301e5352":[8,0,581,107],
-"da/db8/class_translator_armenian.html#a8700c36c8849f3df7edfdcd7d0c58f86":[8,0,581,130],
-"da/db8/class_translator_armenian.html#a877c409cf518298b89638c2a29215a5c":[8,0,581,194],
 "da/db8/class_translator_armenian.html#a889a88989616ed5085bc54b86e383080":[8,0,581,56],
 "da/db8/class_translator_armenian.html#a88cc5a50e83067ffd290095b4844f19a":[8,0,581,116],
 "da/db8/class_translator_armenian.html#a8c22c6db1aac1a5e7ef715909a003abf":[8,0,581,87],
@@ -101,8 +98,8 @@ var NAVTREEINDEX81 =
 "da/db8/class_translator_armenian.html#afe63a0ee3fdf540bfd9f49dc45a8bbb5":[8,0,581,7],
 "da/db8/class_translator_armenian.html#afe693b07a06164151798e489e3063bc2":[8,0,581,61],
 "da/db8/class_translator_armenian.html#aff0bfdeb81d975433a7909c3fc3eef53":[8,0,581,39],
-"da/db8/struct_output_gen_intf_1_1start_inline_member_type.html":[7,0,10,126],
 "da/db8/struct_output_gen_intf_1_1start_inline_member_type.html":[8,0,5,126],
+"da/db8/struct_output_gen_intf_1_1start_inline_member_type.html":[7,0,10,126],
 "da/db8/struct_output_gen_intf_1_1start_inline_member_type.html#a86ffffca03a9af325ed380772dcf4fef":[7,0,10,126,0],
 "da/db8/struct_output_gen_intf_1_1start_inline_member_type.html#a86ffffca03a9af325ed380772dcf4fef":[8,0,5,126,0],
 "da/dba/class_globals_index_context.html":[8,0,302],
@@ -249,5 +246,8 @@ var NAVTREEINDEX81 =
 "da/dbb/class_translator_bulgarian.html#a7fd3d64048f6f5e228a7563007b322b9":[8,0,583,272],
 "da/dbb/class_translator_bulgarian.html#a7fe208a24e668c3053c864affcd775a8":[8,0,583,203],
 "da/dbb/class_translator_bulgarian.html#a8070517e42070f189b74e6047dace508":[8,0,583,277],
-"da/dbb/class_translator_bulgarian.html#a80c98ef8cdec5f834fd248edd2fc93db":[8,0,583,135]
+"da/dbb/class_translator_bulgarian.html#a80c98ef8cdec5f834fd248edd2fc93db":[8,0,583,135],
+"da/dbb/class_translator_bulgarian.html#a81be7fdf7370a1c78231179f02bebf33":[8,0,583,175],
+"da/dbb/class_translator_bulgarian.html#a81ebe6f14451da9baa03924351c04448":[8,0,583,165],
+"da/dbb/class_translator_bulgarian.html#a8201512ce63086775f8499921fd7c9ab":[8,0,583,120]
 };
