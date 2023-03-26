@@ -13,6 +13,7 @@ var pyscanner_8l =
     [ "addEntry", "de/d2b/pyscanner_8l.html#ac41321000a4a4f6ab696d4a6a88a4fef", null ],
     [ "addFrom", "de/d2b/pyscanner_8l.html#a3b2171b8a9cdc055bd41d0181094f27a", null ],
     [ "addToString", "de/d2b/pyscanner_8l.html#af99856e2fbe8c4e1f9ddd308cc5237de", null ],
+    [ "addVariable", "de/d2b/pyscanner_8l.html#af6ecf9ac01a23dc21259b408a314f54a", null ],
     [ "computeIndent", "de/d2b/pyscanner_8l.html#a2b4acd8f05e7bebf0528ec710692f758", null ],
     [ "docVariable", "de/d2b/pyscanner_8l.html#a93a0af96a677749a376f99d5e8704847", null ],
     [ "endOfDef", "de/d2b/pyscanner_8l.html#a4bbc5085e6314777292116922282abf8", null ],
@@ -35,6 +36,7 @@ var pyscanner_8l =
     [ "parsePrototype", "de/d2b/pyscanner_8l.html#a4e7dce846ca75b58d7010c2855a84ed6", null ],
     [ "searchFoundClass", "de/d2b/pyscanner_8l.html#a601173b4a0fe4bb62a0e4749429ee062", null ],
     [ "searchFoundDef", "de/d2b/pyscanner_8l.html#ab61319bebda3e72e8fbde5a911cccc95", null ],
+    [ "setProtection", "de/d2b/pyscanner_8l.html#a3bb5a3fd461f68eff332a09e9e5b0e1e", null ],
     [ "startCommentBlock", "de/d2b/pyscanner_8l.html#ae479adb32c06d965a4f4baee921f0c5a", null ],
     [ "yylex", "de/d2b/pyscanner_8l.html#a1d80d8ed8c19744ed31163f6e7525e54", null ],
     [ "yyread", "de/d2b/pyscanner_8l.html#a5edfc25f0c460f3263fdb340f7a02b03", null ]
