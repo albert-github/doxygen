@@ -1,5 +1,8 @@
 var NAVTREEINDEX99 =
 {
+"dd/d08/struct_output_gen_intf_1_1end_subsubsection.html#a69ea17cdd08a1fe706615820c03e3a73":[7,0,10,76,0],
+"dd/d0b/class_translator_slovene.html":[8,0,617],
+"dd/d0b/class_translator_slovene.html#a024b6c46e82865f106bbbde2bcb1b818":[8,0,617,22],
 "dd/d0b/class_translator_slovene.html#a03a83cef286998d2ac169efe64ea200b":[8,0,617,3],
 "dd/d0b/class_translator_slovene.html#a0446ae7058a03da42c15650f5948aea1":[8,0,617,160],
 "dd/d0b/class_translator_slovene.html#a05b84fb4d4a609fa630792cce27a067f":[8,0,617,175],
@@ -232,10 +235,10 @@ var NAVTREEINDEX99 =
 "dd/d0d/class_config_impl.html#af583f0410601ca82409b3ed626516dd2":[8,0,80,37],
 "dd/d0d/class_config_impl.html#af661fbf44e03c43d5ae7c3e30ef33a18":[8,0,80,0],
 "dd/d0d/class_config_impl.html#afb11a49a6e7c717d0242fedf10a36309":[8,0,80,23],
-"dd/d0d/struct_output_gen_intf_1_1end_member_doc_name.html":[8,0,5,51],
 "dd/d0d/struct_output_gen_intf_1_1end_member_doc_name.html":[7,0,10,51],
-"dd/d0d/struct_output_gen_intf_1_1end_member_doc_name.html#aec41bfa541d7ddc6a5047ad9b54bb410":[8,0,5,51,0],
+"dd/d0d/struct_output_gen_intf_1_1end_member_doc_name.html":[8,0,5,51],
 "dd/d0d/struct_output_gen_intf_1_1end_member_doc_name.html#aec41bfa541d7ddc6a5047ad9b54bb410":[7,0,10,51,0],
+"dd/d0d/struct_output_gen_intf_1_1end_member_doc_name.html#aec41bfa541d7ddc6a5047ad9b54bb410":[8,0,5,51,0],
 "dd/d10/class_definition_mixin.html":[8,0,106],
 "dd/d10/class_definition_mixin.html#a02d6c291e02c6ea0fa9f36867b3d2634":[8,0,106,56],
 "dd/d10/class_definition_mixin.html#a03ee9d5777b8854f5663681f4352d6f2":[8,0,106,84],
@@ -246,8 +249,5 @@ var NAVTREEINDEX99 =
 "dd/d10/class_definition_mixin.html#a0fbdf01fda216bc5dee1d21589b6b48e":[8,0,106,27],
 "dd/d10/class_definition_mixin.html#a1899eaa3e278b3fd061814cfe1b6c83d":[8,0,106,13],
 "dd/d10/class_definition_mixin.html#a1a35f6b7d3af1ca4deefff2cebf653a3":[8,0,106,21],
-"dd/d10/class_definition_mixin.html#a1b1301ea478c381c93be8e1fc0fb7e1f":[8,0,106,82],
-"dd/d10/class_definition_mixin.html#a1bc3cf5f17e3938fad0ab633eef3a566":[8,0,106,43],
-"dd/d10/class_definition_mixin.html#a1bdb33760e3315cca793401bb3a31843":[8,0,106,23],
-"dd/d10/class_definition_mixin.html#a1c4493bef6a71e039a56d5ae28b3661b":[8,0,106,69]
+"dd/d10/class_definition_mixin.html#a1b1301ea478c381c93be8e1fc0fb7e1f":[8,0,106,82]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX106 =
 {
+"dd/de5/searchindex__js_8h_source.html":[9,0,2,225],
+"dd/de5/translator__ru_8h.html":[9,0,2,283],
+"dd/de5/translator__ru_8h_source.html":[9,0,2,283],
 "dd/de8/class_page_def_impl.html":[8,0,433],
 "dd/de8/class_page_def_impl.html#a025fe900fe12b17d756c3b1642e96c4e":[8,0,433,11],
 "dd/de8/class_page_def_impl.html#a09ad91e6e196f5bdb4feb06bae656ccf":[8,0,433,28],
@@ -41,13 +44,13 @@ var NAVTREEINDEX106 =
 "dd/de8/class_page_def_impl.html#afec090c8c58a94c7f324df753c3fa6d5":[8,0,433,19],
 "dd/deb/struct_output_gen_intf_1_1start_member_doc_name.html":[8,0,5,134],
 "dd/deb/struct_output_gen_intf_1_1start_member_doc_name.html":[7,0,10,134],
-"dd/deb/struct_output_gen_intf_1_1start_member_doc_name.html#a3bd2a57994c529bf3eb7312d89d4a916":[7,0,10,134,0],
 "dd/deb/struct_output_gen_intf_1_1start_member_doc_name.html#a3bd2a57994c529bf3eb7312d89d4a916":[8,0,5,134,0],
+"dd/deb/struct_output_gen_intf_1_1start_member_doc_name.html#a3bd2a57994c529bf3eb7312d89d4a916":[7,0,10,134,0],
 "dd/dec/vhdldocgen_8h.html":[9,0,2,302],
 "dd/dec/vhdldocgen_8h.html#a58b3784e26a172c464443fb55a30364d":[9,0,2,302,3],
 "dd/dec/vhdldocgen_8h_source.html":[9,0,2,302],
-"dd/df0/struct_output_gen_intf_1_1end_index_list_item.html":[8,0,5,37],
 "dd/df0/struct_output_gen_intf_1_1end_index_list_item.html":[7,0,10,37],
+"dd/df0/struct_output_gen_intf_1_1end_index_list_item.html":[8,0,5,37],
 "dd/df0/struct_output_gen_intf_1_1end_index_list_item.html#a0c4ffdd58a9e13c36e8cfa2a52a77cf5":[7,0,10,37,0],
 "dd/df0/struct_output_gen_intf_1_1end_index_list_item.html#a0c4ffdd58a9e13c36e8cfa2a52a77cf5":[8,0,5,37,0],
 "dd/df3/class_concept_def_alias_impl.html":[8,0,67],
@@ -246,8 +249,5 @@ var NAVTREEINDEX106 =
 "dd/df6/class_translator_chinesetraditional.html#aa67be8f3476106a7ffc1a07a66ff4189":[8,0,586,163],
 "dd/df6/class_translator_chinesetraditional.html#aa7461e7db8825b28727eb0df9dfc1095":[8,0,586,69],
 "dd/df6/class_translator_chinesetraditional.html#aa75037ae6678f4a7ed4602e3cdff7972":[8,0,586,183],
-"dd/df6/class_translator_chinesetraditional.html#aa761127e4fdb1b34969289831f7c817c":[8,0,586,67],
-"dd/df6/class_translator_chinesetraditional.html#aa90d7529e25d862c9e856607d746455b":[8,0,586,220],
-"dd/df6/class_translator_chinesetraditional.html#aaacafeecebb203594afc68e25cc8ce02":[8,0,586,13],
-"dd/df6/class_translator_chinesetraditional.html#aadf1f95dcc6f412dba64f55769148294":[8,0,586,240]
+"dd/df6/class_translator_chinesetraditional.html#aa761127e4fdb1b34969289831f7c817c":[8,0,586,67]
 };
