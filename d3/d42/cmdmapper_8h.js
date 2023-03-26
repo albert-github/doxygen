@@ -128,7 +128,8 @@ var cmdmapper_8h =
       [ "CMD_ENDICODE", "d3/d42/cmdmapper_8h.html#a21e038f5b8958e203d28bc4f18472352aa1369fcf1c15b395a7e29759925a1371", null ],
       [ "CMD_IVERBATIM", "d3/d42/cmdmapper_8h.html#a21e038f5b8958e203d28bc4f18472352a66538cbe8c4958ae3d094bf92978d12c", null ],
       [ "CMD_ENDIVERBATIM", "d3/d42/cmdmapper_8h.html#a21e038f5b8958e203d28bc4f18472352ad922a5ef69977aec7d66d17df12bb817", null ],
-      [ "CMD_IANCHOR", "d3/d42/cmdmapper_8h.html#a21e038f5b8958e203d28bc4f18472352a2156013d6a89878f0592b33a49f6049f", null ]
+      [ "CMD_IANCHOR", "d3/d42/cmdmapper_8h.html#a21e038f5b8958e203d28bc4f18472352a2156013d6a89878f0592b33a49f6049f", null ],
+      [ "CMD_DOXYCONFIG", "d3/d42/cmdmapper_8h.html#a21e038f5b8958e203d28bc4f18472352a419ea8611f2a4ca20886f46ac90f00de", null ]
     ] ],
     [ "HtmlTagType", "d3/d42/cmdmapper_8h.html#a91be16b8342aa3130a4374d78cf42273", [
       [ "HTML_UNKNOWN", "d3/d42/cmdmapper_8h.html#a91be16b8342aa3130a4374d78cf42273ac1934c403fc4e8aec69c8057dbf5eba8", null ],

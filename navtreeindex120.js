@@ -1,5 +1,8 @@
 var NAVTREEINDEX120 =
 {
+"de/d82/class_translator_polish.html#a347895b3f2a13544f01310ca7bc03a00":[8,0,610,56],
+"de/d82/class_translator_polish.html#a35d361eaaeb396e2a4f622a0c4514f80":[8,0,610,211],
+"de/d82/class_translator_polish.html#a37a023216ee9cf2bfa8d59e669ea9c09":[8,0,610,166],
 "de/d82/class_translator_polish.html#a383494e2858ddb74722dd7dc5ca074a0":[8,0,610,222],
 "de/d82/class_translator_polish.html#a38f80f778fd5f49b9a46a725b8fea137":[8,0,610,55],
 "de/d82/class_translator_polish.html#a3a8f74b8c29e0b30a9141b8c429745c3":[8,0,610,142],
@@ -231,10 +234,10 @@ var NAVTREEINDEX120 =
 "de/d96/struct_filter_group_by_1_1_list_elem.html#a33c40a33c7840dc0dbefd2f6a3ad9bf0":[8,0,267,0,2],
 "de/d96/struct_filter_group_by_1_1_list_elem.html#a6ddb11d2f97e878d4268206d5a5913a4":[8,0,267,0,0],
 "de/d96/struct_filter_group_by_1_1_list_elem.html#a9f238ff84b6da7c82ed7974e4a137cd1":[8,0,267,0,1],
-"de/d96/struct_output_gen_intf_1_1start_section.html":[8,0,5,156],
 "de/d96/struct_output_gen_intf_1_1start_section.html":[7,0,10,156],
-"de/d96/struct_output_gen_intf_1_1start_section.html#a1c4b2944def8ee9dca8b259b16462982":[8,0,5,156,0],
+"de/d96/struct_output_gen_intf_1_1start_section.html":[8,0,5,156],
 "de/d96/struct_output_gen_intf_1_1start_section.html#a1c4b2944def8ee9dca8b259b16462982":[7,0,10,156,0],
+"de/d96/struct_output_gen_intf_1_1start_section.html#a1c4b2944def8ee9dca8b259b16462982":[8,0,5,156,0],
 "de/d99/struct_template_node_tree_1_1_tree_context.html":[8,0,543,0],
 "de/d99/struct_template_node_tree_1_1_tree_context.html#a367bad26a18577642f8a0c838d9063fb":[8,0,543,0,0],
 "de/d99/struct_template_node_tree_1_1_tree_context.html#a695f724c09696c175add24eceee42a18":[8,0,543,0,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX120 =
 "de/d9a/rtfdocvisitor_8cpp.html":[9,0,2,213],
 "de/d9a/rtfdocvisitor_8cpp.html#a1c683042be29f8f10d539f4a01a03237":[9,0,2,213,1],
 "de/d9a/rtfdocvisitor_8cpp.html#a8e937453cd49cd7e753fa4e9d77d3c38":[9,0,2,213,0],
-"de/d9a/rtfdocvisitor_8cpp_source.html":[9,0,2,213],
-"de/d9c/docparser_8h.html":[9,0,2,72],
-"de/d9c/docparser_8h.html#a03066f1adfa357c8a7fa806069caa6ed":[9,0,2,72,2],
-"de/d9c/docparser_8h.html#a0fc0d3e4ca95dd0dc254d0efb1fd045a":[9,0,2,72,6]
+"de/d9a/rtfdocvisitor_8cpp_source.html":[9,0,2,213]
 };

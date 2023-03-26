@@ -1,5 +1,8 @@
 var NAVTREEINDEX94 =
 {
+"dc/d44/class_translator_spanish.html#aa828b201906d3fcc4dd3a0aa9cfda30f":[8,0,618,212],
+"dc/d44/class_translator_spanish.html#aa91d68c6f93b8ed6c3987cf89a822f5c":[8,0,618,171],
+"dc/d44/class_translator_spanish.html#aaa8d3f0e2a36d002664bd17bbeda3318":[8,0,618,110],
 "dc/d44/class_translator_spanish.html#aad1d8b8afbceb1a5de0a24977dfc50f8":[8,0,618,226],
 "dc/d44/class_translator_spanish.html#aad78c8374565e21bc377cfcf8fce8d1d":[8,0,618,129],
 "dc/d44/class_translator_spanish.html#aadf1ecaa7e3dd00325363fda155f2127":[8,0,618,72],
@@ -80,8 +83,8 @@ var NAVTREEINDEX94 =
 "dc/d44/class_translator_spanish.html#afe12ea704c8ac0900c3018ee64576f46":[8,0,618,62],
 "dc/d44/class_translator_spanish.html#afe520e8844f8e72cc724a29364cf3121":[8,0,618,80],
 "dc/d44/class_translator_spanish.html#afeff93e85b89d703be5e4ea8d5f8d458":[8,0,618,120],
-"dc/d48/struct_output_gen_intf_1_1start_member_sections.html":[8,0,5,143],
 "dc/d48/struct_output_gen_intf_1_1start_member_sections.html":[7,0,10,143],
+"dc/d48/struct_output_gen_intf_1_1start_member_sections.html":[8,0,5,143],
 "dc/d48/struct_output_gen_intf_1_1start_member_sections.html#a56f9b10889daaa190eafd5412aaee256":[8,0,5,143,0],
 "dc/d48/struct_output_gen_intf_1_1start_member_sections.html#a56f9b10889daaa190eafd5412aaee256":[7,0,10,143,0],
 "dc/d53/class_translator_lithuanian.html":[8,0,606],
@@ -246,8 +249,5 @@ var NAVTREEINDEX94 =
 "dc/d53/class_translator_lithuanian.html#ad0aa635e4932d26907e0e85031e79825":[8,0,606,107],
 "dc/d53/class_translator_lithuanian.html#ad138873083d072df0d1b7e0e96e37f55":[8,0,606,122],
 "dc/d53/class_translator_lithuanian.html#ad6c40eef321cc7020608fca6a0f92269":[8,0,606,70],
-"dc/d53/class_translator_lithuanian.html#ad8814da381f35abddeeeeab569473fa9":[8,0,606,96],
-"dc/d53/class_translator_lithuanian.html#ad8dcfb0264d15263dd44434ddf39c6a5":[8,0,606,143],
-"dc/d53/class_translator_lithuanian.html#adbc8e60d8bc0fc71bddec2769555caea":[8,0,606,169],
-"dc/d53/class_translator_lithuanian.html#adda1a1847d611ddf4523301c4170dda4":[8,0,606,44]
+"dc/d53/class_translator_lithuanian.html#ad8814da381f35abddeeeeab569473fa9":[8,0,606,96]
 };

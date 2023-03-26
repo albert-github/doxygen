@@ -4,6 +4,7 @@ var class_doc_para =
     [ "attribs", "d3/d01/class_doc_para.html#a5082d8f47c5598a29ed0298e733f489f", null ],
     [ "handleCite", "d3/d01/class_doc_para.html#a8b963b6054712a3af42e2d1db7c6e730", null ],
     [ "handleCommand", "d3/d01/class_doc_para.html#a641da9082f47d722a68cc00571758a27", null ],
+    [ "handleDoxyConfig", "d3/d01/class_doc_para.html#a251a07adb108f0c93487f68fca1e4c66", null ],
     [ "handleEmoji", "d3/d01/class_doc_para.html#a222a4324fe7e972d3d35909f810fcc6b", null ],
     [ "handleFile", "d3/d01/class_doc_para.html#a2c5971c7bbbb5bd01e02ac7d93600281", null ],
     [ "handleHtmlEndTag", "d3/d01/class_doc_para.html#aa71f61738c3992d1e6be47e944995f06", null ],

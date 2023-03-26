@@ -23,6 +23,7 @@ var class_doc_tokenizer =
     [ "setStateCode", "d1/d7f/class_doc_tokenizer.html#a34431cb2cd05302e5f119e040a769f37", null ],
     [ "setStateDbOnly", "d1/d7f/class_doc_tokenizer.html#abd6696245928c12d39088589853903f0", null ],
     [ "setStateDot", "d1/d7f/class_doc_tokenizer.html#a2726da7c2b27d07e2a8ab92a280b73f6", null ],
+    [ "setStateDoxyConfig", "d1/d7f/class_doc_tokenizer.html#add6c257f79f2b4cfebeb232710ea89b3", null ],
     [ "setStateEmoji", "d1/d7f/class_doc_tokenizer.html#a1fbe30cd437ccd6c1b1ab3273bbb13ea", null ],
     [ "setStateFile", "d1/d7f/class_doc_tokenizer.html#a800041c36835be7289de964cd48966cf", null ],
     [ "setStateHtmlOnly", "d1/d7f/class_doc_tokenizer.html#ac363da2884c9fac4485a41f4c62f30ec", null ],
