@@ -1487,7 +1487,6 @@ var hierarchy =
               ] ],
               [ "TranslatorBulgarian", "da/dbb/class_translator_bulgarian.html", null ],
               [ "TranslatorChinese", "d6/db6/class_translator_chinese.html", null ],
-              [ "TranslatorGreek", "df/d75/class_translator_greek.html", null ],
               [ "TranslatorHindi", "d1/d8a/class_translator_hindi.html", null ]
             ] ],
             [ "TranslatorFrench", "da/d1a/class_translator_french.html", null ]
@@ -1502,6 +1501,7 @@ var hierarchy =
         [ "TranslatorJapaneseEn", "d0/d16/class_translator_japanese_en.html", null ],
         [ "TranslatorKoreanEn", "d0/d3a/class_translator_korean_en.html", null ]
       ] ],
+      [ "TranslatorGreek", "df/d75/class_translator_greek.html", null ],
       [ "TranslatorPortuguese", "dc/df2/class_translator_portuguese.html", null ],
       [ "TranslatorSpanish", "dc/d44/class_translator_spanish.html", null ]
     ] ],

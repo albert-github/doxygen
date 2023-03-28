@@ -12,8 +12,8 @@
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title=" ">
-<polygon fill="#999999" stroke="#666666" points="747,-111 610,-111 610,-92 747,-92 747,-111"/>
-<text text-anchor="middle" x="678.5" y="-99" font-family="Helvetica,sans-Serif" font-size="10.00">TranslatorAdapter_1_9_4</text>
+<polygon fill="#999999" stroke="#666666" points="747,-129 610,-129 610,-110 747,-110 747,-129"/>
+<text text-anchor="middle" x="678.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">TranslatorAdapter_1_9_4</text>
 </a>
 </g>
 </g>
@@ -29,8 +29,8 @@
 <!-- Node1&#45;&gt;Node6 -->
 <g id="edge5" class="edge">
 <title>Node1&#45;&gt;Node6</title>
-<path fill="none" stroke="#63b8ff" d="M703.82,-116.34C724.35,-128.4 754.83,-145.2 783,-156.5 791.93,-160.08 801.77,-163.26 811.12,-165.95"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="705.51,-113.27 695.13,-111.17 701.93,-119.29 705.51,-113.27"/>
+<path fill="none" stroke="#63b8ff" d="M714.45,-132.67C734.42,-140.03 759.98,-149.16 783,-156.5 793.32,-159.79 804.63,-163.09 814.98,-166"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="715.45,-129.31 704.85,-129.12 713.01,-135.87 715.45,-129.31"/>
 </g>
 <!-- Node45 -->
 <g id="node45" class="node">
@@ -44,8 +44,8 @@
 <!-- Node1&#45;&gt;Node45 -->
 <g id="edge44" class="edge">
 <title>Node1&#45;&gt;Node45</title>
-<path fill="none" stroke="#63b8ff" d="M733.35,-113.15C756.84,-118.23 784.04,-124.12 806.32,-128.94"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="734.05,-109.72 723.54,-111.03 732.57,-116.56 734.05,-109.72"/>
+<path fill="none" stroke="#63b8ff" d="M757.4,-128.16C770.36,-129.6 783.54,-131.06 795.77,-132.42"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="757.41,-124.64 747.08,-127.01 756.64,-131.59 757.41,-124.64"/>
 </g>
 <!-- Node46 -->
 <g id="node46" class="node">
@@ -59,98 +59,83 @@
 <!-- Node1&#45;&gt;Node46 -->
 <g id="edge45" class="edge">
 <title>Node1&#45;&gt;Node46</title>
-<path fill="none" stroke="#63b8ff" d="M757.41,-101.5C771.69,-101.5 786.26,-101.5 799.49,-101.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="757.08,-98 747.08,-101.5 757.08,-105 757.08,-98"/>
+<path fill="none" stroke="#63b8ff" d="M757.41,-111.3C771.69,-109.8 786.26,-108.26 799.49,-106.87"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="756.66,-107.86 747.08,-112.39 757.4,-114.82 756.66,-107.86"/>
 </g>
 <!-- Node47 -->
 <g id="node47" class="node">
 <title>Node47</title>
-<g id="a_node47"><a xlink:href="../../df/d75/class_translator_greek.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="898.5,-74 804.5,-74 804.5,-55 898.5,-55 898.5,-74"/>
-<text text-anchor="middle" x="851.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">TranslatorGreek</text>
+<g id="a_node47"><a xlink:href="../../d1/d8a/class_translator_hindi.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="896.5,-74 806.5,-74 806.5,-55 896.5,-55 896.5,-74"/>
+<text text-anchor="middle" x="851.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">TranslatorHindi</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node47 -->
 <g id="edge46" class="edge">
 <title>Node1&#45;&gt;Node47</title>
-<path fill="none" stroke="#63b8ff" d="M733.35,-89.85C756.84,-84.77 784.04,-78.88 806.32,-74.06"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="732.57,-86.44 723.54,-91.97 734.05,-93.28 732.57,-86.44"/>
-</g>
-<!-- Node48 -->
-<g id="node48" class="node">
-<title>Node48</title>
-<g id="a_node48"><a xlink:href="../../d1/d8a/class_translator_hindi.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="896.5,-37 806.5,-37 806.5,-18 896.5,-18 896.5,-37"/>
-<text text-anchor="middle" x="851.5" y="-25" font-family="Helvetica,sans-Serif" font-size="10.00">TranslatorHindi</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node48 -->
-<g id="edge47" class="edge">
-<title>Node1&#45;&gt;Node48</title>
-<path fill="none" stroke="#63b8ff" d="M703.03,-86.69C723.52,-74.3 754.35,-56.89 783,-45.5 791.11,-42.27 800,-39.44 808.59,-37.03"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="701.08,-83.78 694.39,-91.99 704.74,-89.74 701.08,-83.78"/>
+<path fill="none" stroke="#63b8ff" d="M714.01,-106.35C734.02,-98.94 759.78,-89.73 783,-82.5 792.5,-79.54 802.83,-76.63 812.5,-74.04"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="712.55,-103.17 704.4,-109.94 714.99,-109.72 712.55,-103.17"/>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="../../dd/dba/class_translator_adapter__1__9__5.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="574,-111 437,-111 437,-92 574,-92 574,-111"/>
-<text text-anchor="middle" x="505.5" y="-99" font-family="Helvetica,sans-Serif" font-size="10.00">TranslatorAdapter_1_9_5</text>
+<polygon fill="white" stroke="#666666" points="574,-129 437,-129 437,-110 574,-110 574,-129"/>
+<text text-anchor="middle" x="505.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">TranslatorAdapter_1_9_5</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="#63b8ff" d="M584.1,-101.5C592.69,-101.5 601.39,-101.5 609.85,-101.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="584.08,-98 574.08,-101.5 584.08,-105 584.08,-98"/>
+<path fill="none" stroke="#63b8ff" d="M584.1,-119.5C592.69,-119.5 601.39,-119.5 609.85,-119.5"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="584.08,-116 574.08,-119.5 584.08,-123 584.08,-116"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="../../db/d71/class_translator_adapter__1__9__6.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="401,-111 264,-111 264,-92 401,-92 401,-111"/>
-<text text-anchor="middle" x="332.5" y="-99" font-family="Helvetica,sans-Serif" font-size="10.00">TranslatorAdapter_1_9_6</text>
+<polygon fill="white" stroke="#666666" points="401,-129 264,-129 264,-110 401,-110 401,-129"/>
+<text text-anchor="middle" x="332.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">TranslatorAdapter_1_9_6</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node2 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node2</title>
-<path fill="none" stroke="#63b8ff" d="M411.1,-101.5C419.69,-101.5 428.39,-101.5 436.85,-101.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="411.08,-98 401.08,-101.5 411.08,-105 411.08,-98"/>
+<path fill="none" stroke="#63b8ff" d="M411.1,-119.5C419.69,-119.5 428.39,-119.5 436.85,-119.5"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="411.08,-116 401.08,-119.5 411.08,-123 411.08,-116"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="../../db/d6c/class_translator_adapter_base.html" target="_top" xlink:title="Base of the translator adapter tree.">
-<polygon fill="white" stroke="#666666" points="228,-111 101,-111 101,-92 228,-92 228,-111"/>
-<text text-anchor="middle" x="164.5" y="-99" font-family="Helvetica,sans-Serif" font-size="10.00">TranslatorAdapterBase</text>
+<polygon fill="white" stroke="#666666" points="228,-129 101,-129 101,-110 228,-110 228,-129"/>
+<text text-anchor="middle" x="164.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">TranslatorAdapterBase</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node3 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node3</title>
-<path fill="none" stroke="#63b8ff" d="M238.49,-101.5C246.95,-101.5 255.56,-101.5 263.94,-101.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="238.26,-98 228.26,-101.5 238.26,-105 238.26,-98"/>
+<path fill="none" stroke="#63b8ff" d="M238.49,-119.5C246.95,-119.5 255.56,-119.5 263.94,-119.5"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="238.26,-116 228.26,-119.5 238.26,-123 238.26,-116"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="../../d8/dfb/class_translator.html" target="_top" xlink:title="Abstract base class for all translatable text fragments.">
-<polygon fill="white" stroke="#666666" points="65,-111 0,-111 0,-92 65,-92 65,-111"/>
-<text text-anchor="middle" x="32.5" y="-99" font-family="Helvetica,sans-Serif" font-size="10.00">Translator</text>
+<polygon fill="white" stroke="#666666" points="65,-129 0,-129 0,-110 65,-110 65,-129"/>
+<text text-anchor="middle" x="32.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">Translator</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node4 -->
 <g id="edge4" class="edge">
 <title>Node5&#45;&gt;Node4</title>
-<path fill="none" stroke="#63b8ff" d="M75.54,-101.5C83.6,-101.5 92.2,-101.5 100.75,-101.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="75.3,-98 65.3,-101.5 75.3,-105 75.3,-98"/>
+<path fill="none" stroke="#63b8ff" d="M75.54,-119.5C83.6,-119.5 92.2,-119.5 100.75,-119.5"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="75.3,-116 65.3,-119.5 75.3,-123 75.3,-116"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
@@ -674,8 +659,8 @@
 <!-- Node14&#45;&gt;Node15 -->
 <g id="edge14" class="edge">
 <title>Node14&#45;&gt;Node15</title>
-<path fill="none" stroke="#63b8ff" d="M2302.25,-669.44C2322.01,-676.35 2346.81,-684.97 2369,-692.5 2378.16,-695.61 2388.16,-698.93 2397.22,-701.92"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="2303.29,-666.1 2292.7,-666.09 2300.98,-672.7 2303.29,-666.1"/>
+<path fill="none" stroke="#63b8ff" d="M2300.94,-669.57C2320.87,-676.81 2346.25,-685.88 2369,-693.5 2377.43,-696.33 2386.6,-699.26 2395.09,-701.92"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="2301.94,-666.2 2291.35,-666.06 2299.54,-672.78 2301.94,-666.2"/>
 </g>
 <!-- Node16 -->
 <g id="node16" class="node">
