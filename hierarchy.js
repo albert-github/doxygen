@@ -1493,7 +1493,6 @@ var hierarchy =
             [ "TranslatorFrench", "da/d1a/class_translator_french.html", null ]
           ] ],
           [ "TranslatorCzech", "dd/d8a/class_translator_czech.html", null ],
-          [ "TranslatorSpanish", "dc/d44/class_translator_spanish.html", null ],
           [ "TranslatorSwedish", "d5/d5c/class_translator_swedish.html", null ]
         ] ]
       ] ],
@@ -1503,7 +1502,8 @@ var hierarchy =
         [ "TranslatorJapaneseEn", "d0/d16/class_translator_japanese_en.html", null ],
         [ "TranslatorKoreanEn", "d0/d3a/class_translator_korean_en.html", null ]
       ] ],
-      [ "TranslatorPortuguese", "dc/df2/class_translator_portuguese.html", null ]
+      [ "TranslatorPortuguese", "dc/df2/class_translator_portuguese.html", null ],
+      [ "TranslatorSpanish", "dc/d44/class_translator_spanish.html", null ]
     ] ],
     [ "TemplateNodeTree::TreeContext", "de/d99/struct_template_node_tree_1_1_tree_context.html", null ],
     [ "TreeDiagram", "d4/dc4/class_tree_diagram.html", null ],

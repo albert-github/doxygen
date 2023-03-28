@@ -1,5 +1,9 @@
 var NAVTREEINDEX86 =
 {
+"db/d5f/class_html_entity_mapper.html#a5fa49b07f0b74254ab5bd5b18474d7dfac436d3438120291f612b9ef50ba5aae4":[8,0,317,2,52],
+"db/d5f/class_html_entity_mapper.html#a5fa49b07f0b74254ab5bd5b18474d7dfac4a38c60d178277f1c1ae81bba90a54c":[8,0,317,2,24],
+"db/d5f/class_html_entity_mapper.html#a5fa49b07f0b74254ab5bd5b18474d7dfac4db254edb75fdadf767868750b5ee37":[8,0,317,2,91],
+"db/d5f/class_html_entity_mapper.html#a5fa49b07f0b74254ab5bd5b18474d7dfac68c43bd2e002a1f995272fbcacd8870":[8,0,317,2,248],
 "db/d5f/class_html_entity_mapper.html#a5fa49b07f0b74254ab5bd5b18474d7dfac69361995d9ea410cb8a952325172f79":[8,0,317,2,22],
 "db/d5f/class_html_entity_mapper.html#a5fa49b07f0b74254ab5bd5b18474d7dfac882d6b7f69cfe3b8ce25848a3e42d5b":[8,0,317,2,13],
 "db/d5f/class_html_entity_mapper.html#a5fa49b07f0b74254ab5bd5b18474d7dfac932e5465e6fecc72831de1fab948eb0":[8,0,317,2,180],
@@ -245,9 +249,5 @@ var NAVTREEINDEX86 =
 "db/d5f/class_translator_hungarian.html#aa4eba162da9c6f8a83305464ebb90ac0":[8,0,598,88],
 "db/d5f/class_translator_hungarian.html#aa60bb570c99a8e9f083834b725252630":[8,0,598,62],
 "db/d5f/class_translator_hungarian.html#aa69547adf47e7e69af508f803fd2c75c":[8,0,598,31],
-"db/d5f/class_translator_hungarian.html#aa9b8066f27b8cbec0b55e9c82da74d44":[8,0,598,114],
-"db/d5f/class_translator_hungarian.html#aaa48735eb05cccfb79612a469b8b9c4c":[8,0,598,17],
-"db/d5f/class_translator_hungarian.html#aaa9d524f31711792a388cfdbd1ae7794":[8,0,598,234],
-"db/d5f/class_translator_hungarian.html#aae23d29beacdbecbd5149e793086153d":[8,0,598,12],
-"db/d5f/class_translator_hungarian.html#ab0ee33293337d1c6bee739ab8a551d77":[8,0,598,85]
+"db/d5f/class_translator_hungarian.html#aa9b8066f27b8cbec0b55e9c82da74d44":[8,0,598,114]
 };

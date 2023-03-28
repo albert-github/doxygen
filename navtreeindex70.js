@@ -1,5 +1,9 @@
 var NAVTREEINDEX70 =
 {
+"d9/d82/class_translator_croatian.html#a17dc924e63b5b71a766b57e706b7ddac":[8,0,587,7],
+"d9/d82/class_translator_croatian.html#a1926acbe443abf154a47de6138890b03":[8,0,587,117],
+"d9/d82/class_translator_croatian.html#a1af60957390de7d12dd12d3dfca45033":[8,0,587,57],
+"d9/d82/class_translator_croatian.html#a1cffa3c7123adf9908782aa71d9db01a":[8,0,587,2],
 "d9/d82/class_translator_croatian.html#a1d7d6ab4fe3d62e5eaf1060da020cca2":[8,0,587,190],
 "d9/d82/class_translator_croatian.html#a20a42ae660190b3e05ab3f837552258c":[8,0,587,98],
 "d9/d82/class_translator_croatian.html#a231955b8ad9040b51dfdd746e9656aae":[8,0,587,77],
@@ -245,9 +249,5 @@ var NAVTREEINDEX70 =
 "d9/d92/dotfilepatcher_8cpp.html#a35bdfd96f69df806305bc5eb8d23422c":[9,0,2,89,3],
 "d9/d92/dotfilepatcher_8cpp.html#a79f47c101daa51c0e727788d0f134f7e":[9,0,2,89,1],
 "d9/d92/dotfilepatcher_8cpp.html#aae5cc1fd11ba7a2d8eb12954920ca9f2":[9,0,2,89,4],
-"d9/d92/dotfilepatcher_8cpp_source.html":[9,0,2,89],
-"d9/d98/class_template_immutable_struct_1_1_private.html":[6,0,4,0],
-"d9/d98/class_template_immutable_struct_1_1_private.html#a57ed9ff3cac897091a6ed81413eba8af":[6,0,4,0,1],
-"d9/d98/class_template_immutable_struct_1_1_private.html#ab558714e91c965646a1b85e3a785b0b1":[6,0,4,0,0],
-"d9/d9e/struct_file_state.html":[8,0,255]
+"d9/d92/dotfilepatcher_8cpp_source.html":[9,0,2,89]
 };

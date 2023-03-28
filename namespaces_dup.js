@@ -99,6 +99,11 @@ var namespaces_dup =
     ] ],
     [ "reg", "db/d35/namespacereg.html", "db/d35/namespacereg" ],
     [ "SearchIndexMethods", "d1/d43/namespace_search_index_methods.html", "d1/d43/namespace_search_index_methods" ],
+    [ "SpanishTranslatorUtils", "d4/d1f/namespace_spanish_translator_utils.html", [
+      [ "isClassMemberHighlightMasculine", "d4/d1f/namespace_spanish_translator_utils.html#a2f0a58a993242ebe35f353df83ac3dfc", null ],
+      [ "isFileMemberHighlightMasculine", "d4/d1f/namespace_spanish_translator_utils.html#a0cb2ec9f1537ce74a8bedb39541aed6f", null ],
+      [ "isNamespaceMemberHighlightMasculine", "d4/d1f/namespace_spanish_translator_utils.html#a8bcfe6cfbe005860a4966f5920567c81", null ]
+    ] ],
     [ "Trace", "d3/db9/namespace_trace.html", [
       [ "trunc", "d3/db9/namespace_trace.html#a1859b0ba7161e012fecbd71dd4ec64d6", null ]
     ] ],

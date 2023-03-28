@@ -105,7 +105,5 @@ digraph "TranslatorAdapter_1_9_6"
   Node1 -> Node50 [dir="back",color="steelblue1",style="solid"];
   Node50 [label="TranslatorCzech",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$dd/d8a/class_translator_czech.html",tooltip=" "];
   Node1 -> Node51 [dir="back",color="steelblue1",style="solid"];
-  Node51 [label="TranslatorSpanish",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$dc/d44/class_translator_spanish.html",tooltip=" "];
-  Node1 -> Node52 [dir="back",color="steelblue1",style="solid"];
-  Node52 [label="TranslatorSwedish",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d5/d5c/class_translator_swedish.html",tooltip=" "];
+  Node51 [label="TranslatorSwedish",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d5/d5c/class_translator_swedish.html",tooltip=" "];
 }
