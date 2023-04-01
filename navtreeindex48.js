@@ -1,5 +1,6 @@
 var NAVTREEINDEX48 =
 {
+"d6/d71/struct_output_gen_intf_1_1start_emphasis.html#adc3a80fba469419b00b5535faf39ddbf":[9,0,5,108,0],
 "d6/d71/struct_output_gen_intf_1_1start_emphasis.html#adc3a80fba469419b00b5535faf39ddbf":[8,0,10,108,0],
 "d6/d73/class_template_immutable_struct.html":[7,0,4],
 "d6/d73/class_template_immutable_struct.html#a17d7bad840da65d9f4e2b79b8621b9f5":[7,0,4,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX48 =
 "d6/d78/class_translator_english.html#abfddc291a8ee42dd055bad517b5b2ea7":[9,0,591,112],
 "d6/d78/class_translator_english.html#ac2bdc856383d60a10444ecd475fa00f7":[9,0,591,67],
 "d6/d78/class_translator_english.html#ac95ef3bd6ff33eacb95b5a8215a37805":[9,0,591,86],
-"d6/d78/class_translator_english.html#acb974c437237f2bfda363b62afc050cd":[9,0,591,225],
-"d6/d78/class_translator_english.html#acbc0e7617307f4cc3bf459fda93ffdfb":[9,0,591,125]
+"d6/d78/class_translator_english.html#acb974c437237f2bfda363b62afc050cd":[9,0,591,225]
 };

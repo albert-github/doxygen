@@ -1,5 +1,8 @@
 var NAVTREEINDEX94 =
 {
+"dc/d44/class_translator_spanish.html#a9d0417d1c2593bbeee1e4322e372e155":[9,0,618,182],
+"dc/d44/class_translator_spanish.html#a9d890d8bad3e699faf979943e32146ce":[9,0,618,250],
+"dc/d44/class_translator_spanish.html#a9f8d37ee4ab9476b98c3f37f9bb74a68":[9,0,618,267],
 "dc/d44/class_translator_spanish.html#aa1ce012afd2065a68a4480ff00fca86b":[9,0,618,181],
 "dc/d44/class_translator_spanish.html#aa3befa0ee217e37fba362f8ea3e6e7e2":[9,0,618,202],
 "dc/d44/class_translator_spanish.html#aa415e41084c06aae1426bc4b8b8a7997":[9,0,618,150],
@@ -95,8 +98,8 @@ var NAVTREEINDEX94 =
 "dc/d44/class_translator_spanish.html#afe12ea704c8ac0900c3018ee64576f46":[9,0,618,64],
 "dc/d44/class_translator_spanish.html#afe520e8844f8e72cc724a29364cf3121":[9,0,618,82],
 "dc/d44/class_translator_spanish.html#afeff93e85b89d703be5e4ea8d5f8d458":[9,0,618,123],
-"dc/d48/struct_output_gen_intf_1_1start_member_sections.html":[8,0,10,143],
 "dc/d48/struct_output_gen_intf_1_1start_member_sections.html":[9,0,5,143],
+"dc/d48/struct_output_gen_intf_1_1start_member_sections.html":[8,0,10,143],
 "dc/d48/struct_output_gen_intf_1_1start_member_sections.html#a56f9b10889daaa190eafd5412aaee256":[8,0,10,143,0],
 "dc/d48/struct_output_gen_intf_1_1start_member_sections.html#a56f9b10889daaa190eafd5412aaee256":[9,0,5,143,0],
 "dc/d53/class_translator_lithuanian.html":[9,0,606],
@@ -246,8 +249,5 @@ var NAVTREEINDEX94 =
 "dc/d53/class_translator_lithuanian.html#aba4cb0ed9ee42cf45debb5279ba31a5f":[9,0,606,93],
 "dc/d53/class_translator_lithuanian.html#ac0e6ffbf257eb500c574403899853e53":[9,0,606,121],
 "dc/d53/class_translator_lithuanian.html#ac38f3b32bb305be1fd4afdf3ebca9604":[9,0,606,173],
-"dc/d53/class_translator_lithuanian.html#ac53ecc80768a8a8f17bc0d15beaef70c":[9,0,606,141],
-"dc/d53/class_translator_lithuanian.html#ac5417f40e9c69b9f84c1744caa049da8":[9,0,606,159],
-"dc/d53/class_translator_lithuanian.html#ac5729a7438def6bfd8a43a6792230f74":[9,0,606,99],
-"dc/d53/class_translator_lithuanian.html#ac5c72a47dc3225f95398fc2ae1142d5c":[9,0,606,179]
+"dc/d53/class_translator_lithuanian.html#ac53ecc80768a8a8f17bc0d15beaef70c":[9,0,606,141]
 };

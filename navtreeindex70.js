@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"d9/d82/class_translator_croatian.html#a152e3ac2d8c5f9fe28436d323d15bf8f":[9,0,587,13],
+"d9/d82/class_translator_croatian.html#a17099996311c6f1e67a5f0c843426901":[9,0,587,181],
 "d9/d82/class_translator_croatian.html#a17b1fb9cbad68b211f65849d2cfe26eb":[9,0,587,203],
 "d9/d82/class_translator_croatian.html#a17dc924e63b5b71a766b57e706b7ddac":[9,0,587,7],
 "d9/d82/class_translator_croatian.html#a1926acbe443abf154a47de6138890b03":[9,0,587,117],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "d9/d92/dotfilepatcher_8cpp.html":[10,0,2,89],
 "d9/d92/dotfilepatcher_8cpp.html#a1ee465ed3ecc9e198028ac98d6536546":[10,0,2,89,0],
 "d9/d92/dotfilepatcher_8cpp.html#a244a836815fe16d7315c414105b8cfee":[10,0,2,89,2],
-"d9/d92/dotfilepatcher_8cpp.html#a35bdfd96f69df806305bc5eb8d23422c":[10,0,2,89,3],
-"d9/d92/dotfilepatcher_8cpp.html#a79f47c101daa51c0e727788d0f134f7e":[10,0,2,89,1],
-"d9/d92/dotfilepatcher_8cpp.html#aae5cc1fd11ba7a2d8eb12954920ca9f2":[10,0,2,89,4]
+"d9/d92/dotfilepatcher_8cpp.html#a35bdfd96f69df806305bc5eb8d23422c":[10,0,2,89,3]
 };

@@ -20,6 +20,7 @@ var class_member_vector =
     [ "end", "d1/d7d/class_member_vector.html#ab51414ef16b6467930e5e6ea6865177b", null ],
     [ "erase", "d1/d7d/class_member_vector.html#a19de3fc7a07a0a08ef4000971c22211e", null ],
     [ "erase", "d1/d7d/class_member_vector.html#ab5f404f074e0385b8339dd91e1a0a3ab", null ],
+    [ "find", "d1/d7d/class_member_vector.html#af97b42c8dd7d1e220bd86ec9d5a44867", null ],
     [ "front", "d1/d7d/class_member_vector.html#a602285c1987a5e4f223507c54df96443", null ],
     [ "front", "d1/d7d/class_member_vector.html#aded22301293f615d2f20a038d7554129", null ],
     [ "inSort", "d1/d7d/class_member_vector.html#ac628512e0013609863af231ece9fed50", null ],

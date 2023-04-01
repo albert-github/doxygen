@@ -17,6 +17,7 @@ var class_group_def_impl =
     [ "anchor", "db/d22/class_group_def_impl.html#a5613781ef6400989b1f1ca36bf761287", null ],
     [ "codeSymbolType", "db/d22/class_group_def_impl.html#adf0e45a11854457184496bb7ba647375", null ],
     [ "computeAnchors", "db/d22/class_group_def_impl.html#a59099587dad95541d4338cc92b3883a0", null ],
+    [ "containsFile", "db/d22/class_group_def_impl.html#a023b2423a544c51e11ece49569243911", null ],
     [ "countMembers", "db/d22/class_group_def_impl.html#a06bd559f88e1ed5e052d19a9decc3a9b", null ],
     [ "definitionType", "db/d22/class_group_def_impl.html#a5e5df9d054d33c4d0864a3b477ed7ec4", null ],
     [ "displayName", "db/d22/class_group_def_impl.html#af8f24c0c524e3b41b369519f38e52e6f", null ],

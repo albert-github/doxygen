@@ -12,6 +12,7 @@ var class_group_def =
     [ "addPage", "d8/d09/class_group_def.html#a5c5d805ca23c87783db6d27f231ba8ab", null ],
     [ "anchor", "d8/d09/class_group_def.html#a4793e7380ad34e51deabeb86fa5067f4", null ],
     [ "computeAnchors", "d8/d09/class_group_def.html#a63dbf389eb8b78455fca974006ffa73e", null ],
+    [ "containsFile", "d8/d09/class_group_def.html#a645821da41c9e9e22e0f9e4e114c2087", null ],
     [ "countMembers", "d8/d09/class_group_def.html#a12209686dee1aa61c48d34e82cd31017", null ],
     [ "definitionType", "d8/d09/class_group_def.html#a1ac8ba7e1e83fdc38aa1594eec54a7aa", null ],
     [ "displayName", "d8/d09/class_group_def.html#a18e0fe51d16e379b0de8a0c232e390b5", null ],

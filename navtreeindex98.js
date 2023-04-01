@@ -1,5 +1,12 @@
 var NAVTREEINDEX98 =
 {
+"dc/df2/class_translator_portuguese.html#a6c8986c19cc1b9f8525ba4e6ab1aa241":[9,0,611,76],
+"dc/df2/class_translator_portuguese.html#a6ce6b3b4a0170048b4aa551e6c0b9d7a":[9,0,611,252],
+"dc/df2/class_translator_portuguese.html#a6e55746ec13ec111016463fa1ea8a294":[9,0,611,265],
+"dc/df2/class_translator_portuguese.html#a7062914a03e63eb48faaa6aefe475d44":[9,0,611,254],
+"dc/df2/class_translator_portuguese.html#a7141e5f23b1f3e2e37433cb41b513dcf":[9,0,611,127],
+"dc/df2/class_translator_portuguese.html#a718424b7ed68807581bf81877ae3ab33":[9,0,611,51],
+"dc/df2/class_translator_portuguese.html#a71ae7f45d28c6673ca840d1d7c135f20":[9,0,611,33],
 "dc/df2/class_translator_portuguese.html#a71e2e46b7690a03aece2e2593dd7554f":[9,0,611,153],
 "dc/df2/class_translator_portuguese.html#a71e66ca5da70cf5d18881c709c594d94":[9,0,611,148],
 "dc/df2/class_translator_portuguese.html#a7333bd73d23a796dba9e32064a442d17":[9,0,611,80],
@@ -242,12 +249,5 @@ var NAVTREEINDEX98 =
 "dd/d00/fortranscanner_8l.html#aacfdca45fa4beb8b06172525a53c424a":[10,0,2,127,6],
 "dd/d00/fortranscanner_8l.html#ab536b3c2ec35df931a4fce0dbf2e1420":[10,0,2,127,40],
 "dd/d00/fortranscanner_8l.html#abed27cdfdbc0b2f7e850aff746420010":[10,0,2,127,17],
-"dd/d00/fortranscanner_8l.html#ac494d47958d1f5413e97e355624ca8db":[10,0,2,127,23],
-"dd/d00/fortranscanner_8l.html#ac57b965357c0cd3448f8bac617563e29":[10,0,2,127,15],
-"dd/d00/fortranscanner_8l.html#acb5f8818546103e3b804ab8606b52c4a":[10,0,2,127,28],
-"dd/d00/fortranscanner_8l.html#ae78ac56cd1f29572e967ed7636952d15":[10,0,2,127,8],
-"dd/d00/fortranscanner_8l.html#ae88a4d2b7afc5a1c3def9d800cc5863e":[10,0,2,127,19],
-"dd/d00/fortranscanner_8l.html#af1ef2c97e255bd7f21d3b7614b283d9d":[10,0,2,127,12],
-"dd/d00/fortranscanner_8l.html#af1ef2c97e255bd7f21d3b7614b283d9da46dbf2e0f925aa7b0f3f9edd25acf5e6":[10,0,2,127,12,0],
-"dd/d00/fortranscanner_8l.html#af1ef2c97e255bd7f21d3b7614b283d9da5d1432a4cae2b52cafb669c901908aa5":[10,0,2,127,12,2]
+"dd/d00/fortranscanner_8l.html#ac494d47958d1f5413e97e355624ca8db":[10,0,2,127,23]
 };
