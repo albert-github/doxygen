@@ -19600,10 +19600,10 @@ template&lt;class T &gt; </div>
 <div class="line"><span class="lineno"> 7370</span>      <a class="code hl_class" href="../../dd/d13/class_member_list.html">MemberList</a> *ml = gd-&gt;<a class="code hl_function" href="../../d8/d09/class_group_def.html#ae1e55ed1172103ac1072cde37b3fd578">getMemberList</a>(<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#abe8ad5992f8938a28f918f51b199aa19a07524e8bc859fa0a8b7b0b92f55bd321">MemberListType_decEnumMembers</a>);</div>
 <div class="line"><span class="lineno"> 7371</span>      <span class="keywordflow">if</span> (ml)</div>
 <div class="line"><span class="lineno"> 7372</span>      {</div>
-<div class="line"><span class="lineno"> 7373</span>        <a class="code hl_class" href="../../da/d09/class_member_def.html">MemberDef</a> *md = ml-&gt;<a class="code hl_function" href="../../d1/d7d/class_member_vector.html#af97b42c8dd7d1e220bd86ec9d5a44867">find</a>(name);</div>
+<div class="line"><span class="lineno"> 7373</span>        <a class="code hl_class" href="../../dd/d4b/class_member_def_mutable.html">MemberDefMutable</a> *md = <a class="code hl_function" href="../../d0/d72/memberdef_8cpp.html#a9ea80ba313803ae565f05ce1c8eb6bb5">toMemberDefMutable</a>(ml-&gt;<a class="code hl_function" href="../../d1/d7d/class_member_vector.html#af97b42c8dd7d1e220bd86ec9d5a44867">find</a>(name));</div>
 <div class="line"><span class="lineno"> 7374</span>        <span class="keywordflow">if</span> (md)</div>
 <div class="line"><span class="lineno"> 7375</span>        {</div>
-<div class="line"><span class="lineno"> 7376</span>          <a class="code hl_function" href="../../dc/d98/doxygen_8cpp.html#a84f44faa684a361d36970a435c382b0f">addEnumDocs</a>(root,<a class="code hl_function" href="../../d0/d72/memberdef_8cpp.html#a9ea80ba313803ae565f05ce1c8eb6bb5">toMemberDefMutable</a>(md));</div>
+<div class="line"><span class="lineno"> 7376</span>          <a class="code hl_function" href="../../dc/d98/doxygen_8cpp.html#a84f44faa684a361d36970a435c382b0f">addEnumDocs</a>(root,md);</div>
 <div class="line"><span class="lineno"> 7377</span>          <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
 <div class="line"><span class="lineno"> 7378</span>        }</div>
 <div class="line"><span class="lineno"> 7379</span>      }</div>

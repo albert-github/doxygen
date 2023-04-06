@@ -1,7 +1,7 @@
 var NAVTREEINDEX48 =
 {
-"d6/d71/struct_output_gen_intf_1_1start_emphasis.html#adc3a80fba469419b00b5535faf39ddbf":[9,0,5,108,0],
 "d6/d71/struct_output_gen_intf_1_1start_emphasis.html#adc3a80fba469419b00b5535faf39ddbf":[8,0,10,108,0],
+"d6/d71/struct_output_gen_intf_1_1start_emphasis.html#adc3a80fba469419b00b5535faf39ddbf":[9,0,5,108,0],
 "d6/d73/class_template_immutable_struct.html":[7,0,4],
 "d6/d73/class_template_immutable_struct.html#a17d7bad840da65d9f4e2b79b8621b9f5":[7,0,4,2],
 "d6/d73/class_template_immutable_struct.html#a5c618fb5f13c1d6c8c56cb24e3bc443b":[7,0,4,7],
