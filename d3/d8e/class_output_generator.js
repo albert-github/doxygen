@@ -7,13 +7,9 @@ var class_output_generator =
       [ "Templated", "d3/d8e/class_output_generator.html#a94f2e5794dffec4be4d53d644f5e4dcbaf756dbefd44dd9270c676f74fb8d3708", null ]
     ] ],
     [ "ParamListTypes", "d3/d8e/class_output_generator.html#a4b3d519f1325b61f2abfe2647d6f1b2b", [
-      [ "Param", "d3/d8e/class_output_generator.html#a4b3d519f1325b61f2abfe2647d6f1b2ba4ab695e1cc3641d0ad2d6a711b433fa7", null ],
-      [ "RetVal", "d3/d8e/class_output_generator.html#a4b3d519f1325b61f2abfe2647d6f1b2bab63f950d1d3a1f041911b5f3f2f64700", null ],
-      [ "Exception", "d3/d8e/class_output_generator.html#a4b3d519f1325b61f2abfe2647d6f1b2ba00afd2c47a1559837abc46ce721ab731", null ]
-    ] ],
-    [ "SectionTypes", "d3/d8e/class_output_generator.html#af35a0775b9534f93c6a8bf7d0e3bc3dd", [
-      [ "EnumValues", "d3/d8e/class_output_generator.html#af35a0775b9534f93c6a8bf7d0e3bc3ddaef9a157bd96a2c71347a5e345018e65c", null ],
-      [ "Examples", "d3/d8e/class_output_generator.html#af35a0775b9534f93c6a8bf7d0e3bc3dda6025e82586912a14ee6b8a552ec66c27", null ]
+      [ "Param", "d3/d8e/class_output_generator.html#a4b3d519f1325b61f2abfe2647d6f1b2bab7dccc7d9373cd4717256318909fcebe", null ],
+      [ "RetVal", "d3/d8e/class_output_generator.html#a4b3d519f1325b61f2abfe2647d6f1b2ba5d910d027746295d5096b5b1a0e3a401", null ],
+      [ "Exception", "d3/d8e/class_output_generator.html#a4b3d519f1325b61f2abfe2647d6f1b2bab0d4998a26f5b5742ad38c4af8817e32", null ]
     ] ],
     [ "OutputGenerator", "d3/d8e/class_output_generator.html#a6f6f6c92438ea4e7553e317d5bb17660", null ],
     [ "OutputGenerator", "d3/d8e/class_output_generator.html#a8716724782730065f43ea240f93917b0", null ],
