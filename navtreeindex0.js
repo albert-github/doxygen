@@ -2,10 +2,10 @@ var NAVTREEINDEX0 =
 {
 "annotated.html":[9,0],
 "classes.html":[9,1],
-"d0/d00/struct_output_gen_intf_1_1write_inherited_section_title.html":[9,0,5,156],
 "d0/d00/struct_output_gen_intf_1_1write_inherited_section_title.html":[8,0,10,156],
-"d0/d00/struct_output_gen_intf_1_1write_inherited_section_title.html#abc7416f60ab740c263fefe7a7fd51cc2":[9,0,5,156,0],
+"d0/d00/struct_output_gen_intf_1_1write_inherited_section_title.html":[9,0,5,156],
 "d0/d00/struct_output_gen_intf_1_1write_inherited_section_title.html#abc7416f60ab740c263fefe7a7fd51cc2":[8,0,10,156,0],
+"d0/d00/struct_output_gen_intf_1_1write_inherited_section_title.html#abc7416f60ab740c263fefe7a7fd51cc2":[9,0,5,156,0],
 "d0/d07/class_namespace_def.html":[9,0,406],
 "d0/d07/class_namespace_def.html#a11f430c8101fb0dbe309933cc04aa1aa":[9,0,406,0],
 "d0/d07/class_namespace_def.html#a27d90bb7360567e4d376198a164e05f3":[9,0,406,22],
