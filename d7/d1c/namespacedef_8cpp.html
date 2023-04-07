@@ -295,31 +295,31 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01632">1632</a> of file <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html">namespacedef.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1633</span>{</div>
-<div class="line"><span class="lineno"> 1634</span>  <span class="keywordflow">if</span> (name.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>()) <span class="keywordflow">return</span> 0;</div>
-<div class="line"><span class="lineno"> 1635</span>  <span class="keyword">auto</span> it = <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#af38512474f6a7cc0e1e4dcb6f38bda86">Doxygen::namespaceAliasMap</a>.find(name.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>());</div>
-<div class="line"><span class="lineno"> 1636</span>  <span class="keywordflow">if</span> (it!=<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#af38512474f6a7cc0e1e4dcb6f38bda86">Doxygen::namespaceAliasMap</a>.<a class="code hl_function" href="../../d3/d48/dir_8cpp.html#abb4720f72b574f81dc4f7aea0e653a64">end</a>())</div>
-<div class="line"><span class="lineno"> 1637</span>  {</div>
-<div class="line"><span class="lineno"> 1638</span>    <span class="keywordtype">int</span> count=0; <span class="comment">// recursion detection guard</span></div>
-<div class="line"><span class="lineno"> 1639</span>    StringUnorderedMap::iterator it2;</div>
-<div class="line"><span class="lineno"> 1640</span>    <span class="keywordflow">while</span> ((it2=<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#af38512474f6a7cc0e1e4dcb6f38bda86">Doxygen::namespaceAliasMap</a>.find(it-&gt;second))!=<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#af38512474f6a7cc0e1e4dcb6f38bda86">Doxygen::namespaceAliasMap</a>.end() &amp;&amp;</div>
-<div class="line"><span class="lineno"> 1641</span>           count&lt;10)</div>
-<div class="line"><span class="lineno"> 1642</span>    {</div>
-<div class="line"><span class="lineno"> 1643</span>      it=it2;</div>
-<div class="line"><span class="lineno"> 1644</span>      count++;</div>
-<div class="line"><span class="lineno"> 1645</span>    }</div>
-<div class="line"><span class="lineno"> 1646</span>    <span class="keywordflow">if</span> (count==10)</div>
-<div class="line"><span class="lineno"> 1647</span>    {</div>
-<div class="line"><span class="lineno"> 1648</span>      <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#a1fd98c6976d3826490804976e17eb83f">warn_uncond</a>(<span class="stringliteral">&quot;possible recursive namespace alias detected for %s!\n&quot;</span>,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(name));</div>
-<div class="line"><span class="lineno"> 1649</span>    }</div>
-<div class="line"><span class="lineno"> 1650</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a033b4829afda05c5eef5cd54749b19bf">Doxygen::namespaceLinkedMap</a>-&gt;<a class="code hl_function" href="../../d0/d2c/class_linked_map.html#ad7659775b7de962b4fe0921456baf4f4">find</a>(it-&gt;second);</div>
-<div class="line"><span class="lineno"> 1651</span>  }</div>
-<div class="line"><span class="lineno"> 1652</span>  <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno"> 1653</span>  {</div>
-<div class="line"><span class="lineno"> 1654</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a033b4829afda05c5eef5cd54749b19bf">Doxygen::namespaceLinkedMap</a>-&gt;<a class="code hl_function" href="../../d0/d2c/class_linked_map.html#ad7659775b7de962b4fe0921456baf4f4">find</a>(name);</div>
-<div class="line"><span class="lineno"> 1655</span>  }</div>
-<div class="line"><span class="lineno"> 1656</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01625">1625</a> of file <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html">namespacedef.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1626</span>{</div>
+<div class="line"><span class="lineno"> 1627</span>  <span class="keywordflow">if</span> (name.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>()) <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno"> 1628</span>  <span class="keyword">auto</span> it = <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#af38512474f6a7cc0e1e4dcb6f38bda86">Doxygen::namespaceAliasMap</a>.find(name.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">str</a>());</div>
+<div class="line"><span class="lineno"> 1629</span>  <span class="keywordflow">if</span> (it!=<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#af38512474f6a7cc0e1e4dcb6f38bda86">Doxygen::namespaceAliasMap</a>.<a class="code hl_function" href="../../d3/d48/dir_8cpp.html#abb4720f72b574f81dc4f7aea0e653a64">end</a>())</div>
+<div class="line"><span class="lineno"> 1630</span>  {</div>
+<div class="line"><span class="lineno"> 1631</span>    <span class="keywordtype">int</span> count=0; <span class="comment">// recursion detection guard</span></div>
+<div class="line"><span class="lineno"> 1632</span>    StringUnorderedMap::iterator it2;</div>
+<div class="line"><span class="lineno"> 1633</span>    <span class="keywordflow">while</span> ((it2=<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#af38512474f6a7cc0e1e4dcb6f38bda86">Doxygen::namespaceAliasMap</a>.find(it-&gt;second))!=<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#af38512474f6a7cc0e1e4dcb6f38bda86">Doxygen::namespaceAliasMap</a>.end() &amp;&amp;</div>
+<div class="line"><span class="lineno"> 1634</span>           count&lt;10)</div>
+<div class="line"><span class="lineno"> 1635</span>    {</div>
+<div class="line"><span class="lineno"> 1636</span>      it=it2;</div>
+<div class="line"><span class="lineno"> 1637</span>      count++;</div>
+<div class="line"><span class="lineno"> 1638</span>    }</div>
+<div class="line"><span class="lineno"> 1639</span>    <span class="keywordflow">if</span> (count==10)</div>
+<div class="line"><span class="lineno"> 1640</span>    {</div>
+<div class="line"><span class="lineno"> 1641</span>      <a class="code hl_function" href="../../d8/d6a/message_8cpp.html#a1fd98c6976d3826490804976e17eb83f">warn_uncond</a>(<span class="stringliteral">&quot;possible recursive namespace alias detected for %s!\n&quot;</span>,<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a9851ebb5ae2f65b4d2b1d08421edbfd2">qPrint</a>(name));</div>
+<div class="line"><span class="lineno"> 1642</span>    }</div>
+<div class="line"><span class="lineno"> 1643</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a033b4829afda05c5eef5cd54749b19bf">Doxygen::namespaceLinkedMap</a>-&gt;<a class="code hl_function" href="../../d0/d2c/class_linked_map.html#ad7659775b7de962b4fe0921456baf4f4">find</a>(it-&gt;second);</div>
+<div class="line"><span class="lineno"> 1644</span>  }</div>
+<div class="line"><span class="lineno"> 1645</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1646</span>  {</div>
+<div class="line"><span class="lineno"> 1647</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a033b4829afda05c5eef5cd54749b19bf">Doxygen::namespaceLinkedMap</a>-&gt;<a class="code hl_function" href="../../d0/d2c/class_linked_map.html#ad7659775b7de962b4fe0921456baf4f4">find</a>(name);</div>
+<div class="line"><span class="lineno"> 1648</span>  }</div>
+<div class="line"><span class="lineno"> 1649</span>}</div>
 <div class="ttc" id="aclass_doxygen_html_a033b4829afda05c5eef5cd54749b19bf"><div class="ttname"><a href="../../de/d6a/class_doxygen.html#a033b4829afda05c5eef5cd54749b19bf">Doxygen::namespaceLinkedMap</a></div><div class="ttdeci">static NamespaceLinkedMap * namespaceLinkedMap</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d6a/class_doxygen.html#l00109">doxygen.h:109</a></div></div>
 <div class="ttc" id="aclass_doxygen_html_af38512474f6a7cc0e1e4dcb6f38bda86"><div class="ttname"><a href="../../de/d6a/class_doxygen.html#af38512474f6a7cc0e1e4dcb6f38bda86">Doxygen::namespaceAliasMap</a></div><div class="ttdeci">static StringUnorderedMap namespaceAliasMap</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d6a/class_doxygen.html#l00107">doxygen.h:107</a></div></div>
 <div class="ttc" id="aclass_linked_map_html_ad7659775b7de962b4fe0921456baf4f4"><div class="ttname"><a href="../../d0/d2c/class_linked_map.html#ad7659775b7de962b4fe0921456baf4f4">LinkedMap::find</a></div><div class="ttdeci">const T * find(const std::string &amp;key) const</div><div class="ttdoc">Find an object given the key.</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2c/class_linked_map.html#l00047">linkedmap.h:47</a></div></div>
@@ -391,7 +391,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d5/dcc/class_definition.html#a0dda9f50f2f9754e6341a10373eafec7">Definition::getLanguage()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l06299">getLanguageSpecificSeparator()</a>, <a class="el" href="../../d5/dcc/class_definition.html#a089d345e288212dc9ceb08ca1d80b4db">Definition::localName()</a>, <a class="el" href="../../d5/dcc/class_definition.html#afc4fb51052226ea23c2f51b6516a3525">Definition::name()</a>, and <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00473">substitute()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l00199">NamespaceDefAliasImpl::displayName()</a>, and <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01256">NamespaceDefImpl::displayName()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l00199">NamespaceDefAliasImpl::displayName()</a>, and <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01249">NamespaceDefImpl::displayName()</a>.</p>
 
 </div>
 </div>
@@ -427,49 +427,49 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01696">1696</a> of file <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html">namespacedef.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1697</span>{</div>
-<div class="line"><span class="lineno"> 1698</span>  <span class="comment">//printf(&quot;&gt;namespaceHasNestedClass(%s,filterClasses=%d)\n&quot;,qPrint(nd-&gt;name()),filterClasses);</span></div>
-<div class="line"><span class="lineno"> 1699</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;cnd : nd-&gt;getNamespaces())</div>
-<div class="line"><span class="lineno"> 1700</span>  {</div>
-<div class="line"><span class="lineno"> 1701</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d7/d1c/namespacedef_8cpp.html#a3d15fcf5c959d5ce9db005cba5692094">namespaceHasNestedClass</a>(cnd,filterClasses,ct))</div>
-<div class="line"><span class="lineno"> 1702</span>    {</div>
-<div class="line"><span class="lineno"> 1703</span>      <span class="comment">//printf(&quot;&lt;namespaceHasNestedClass(%s,filterClasses=%d): case1\n&quot;,qPrint(nd-&gt;name()),filterClasses);</span></div>
-<div class="line"><span class="lineno"> 1704</span>      <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno"> 1705</span>    }</div>
-<div class="line"><span class="lineno"> 1706</span>  }</div>
-<div class="line"><span class="lineno"> 1707</span> </div>
-<div class="line"><span class="lineno"> 1708</span>  <a class="code hl_class" href="../../da/d08/class_class_linked_ref_map.html">ClassLinkedRefMap</a> list = nd-&gt;<a class="code hl_function" href="../../d0/d07/class_namespace_def.html#ad43237a69f056b45fc87beed091688d5">getClasses</a>();</div>
-<div class="line"><span class="lineno"> 1709</span>  <span class="keywordflow">if</span> (filterClasses)</div>
-<div class="line"><span class="lineno"> 1710</span>  {</div>
-<div class="line"><span class="lineno"> 1711</span>    <span class="keywordflow">switch</span> (ct)</div>
-<div class="line"><span class="lineno"> 1712</span>    {</div>
-<div class="line"><span class="lineno"> 1713</span>      <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/dcf/class_class_def.html#ae70cf86d35fe954a94c566fbcfc87939a6ff6e3b1bbf7e59a752826880e148528">ClassDef::Interface</a>:</div>
-<div class="line"><span class="lineno"> 1714</span>        list = nd-&gt;<a class="code hl_function" href="../../d0/d07/class_namespace_def.html#ae5d69194a246277c1ac27efe392a085c">getInterfaces</a>();</div>
-<div class="line"><span class="lineno"> 1715</span>        <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 1716</span>      <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/dcf/class_class_def.html#ae70cf86d35fe954a94c566fbcfc87939adbed80de6b389027e03afb5abb06f2c9">ClassDef::Struct</a>:</div>
-<div class="line"><span class="lineno"> 1717</span>        list = nd-&gt;<a class="code hl_function" href="../../d0/d07/class_namespace_def.html#a5c5e7b84cb85d95090306d81ec55a676">getStructs</a>();</div>
-<div class="line"><span class="lineno"> 1718</span>        <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 1719</span>      <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/dcf/class_class_def.html#ae70cf86d35fe954a94c566fbcfc87939ad14369c9a6f5e3977c0e02714a4beba8">ClassDef::Exception</a>:</div>
-<div class="line"><span class="lineno"> 1720</span>        list = nd-&gt;<a class="code hl_function" href="../../d0/d07/class_namespace_def.html#a7cf1f663e03f57dd359aaacf71c2e3be">getExceptions</a>();</div>
-<div class="line"><span class="lineno"> 1721</span>        <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 1722</span>      <span class="keywordflow">default</span>:</div>
-<div class="line"><span class="lineno"> 1723</span>        <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 1724</span>    }</div>
-<div class="line"><span class="lineno"> 1725</span>  }</div>
-<div class="line"><span class="lineno"> 1726</span> </div>
-<div class="line"><span class="lineno"> 1727</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;cd : list)</div>
-<div class="line"><span class="lineno"> 1728</span>  {</div>
-<div class="line"><span class="lineno"> 1729</span>    <span class="comment">//printf(&quot;candidate %s isLinkableInProject()=%d\n&quot;,qPrint(cd-&gt;name()),cd-&gt;isLinkableInProject());</span></div>
-<div class="line"><span class="lineno"> 1730</span>    <span class="keywordflow">if</span> (cd-&gt;isLinkableInProject())</div>
-<div class="line"><span class="lineno"> 1731</span>    {</div>
-<div class="line"><span class="lineno"> 1732</span>      <span class="comment">//printf(&quot;&lt;namespaceHasNestedClass(%s,filterClasses=%d): case2\n&quot;,qPrint(nd-&gt;name()),filterClasses);</span></div>
-<div class="line"><span class="lineno"> 1733</span>      <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno"> 1734</span>    }</div>
-<div class="line"><span class="lineno"> 1735</span>  }</div>
-<div class="line"><span class="lineno"> 1736</span>  <span class="comment">//printf(&quot;&lt;namespaceHasNestedClass(%s,filterClasses=%d): case3\n&quot;,qPrint(nd-&gt;name()),filterClasses);</span></div>
-<div class="line"><span class="lineno"> 1737</span>  <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno"> 1738</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01689">1689</a> of file <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html">namespacedef.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1690</span>{</div>
+<div class="line"><span class="lineno"> 1691</span>  <span class="comment">//printf(&quot;&gt;namespaceHasNestedClass(%s,filterClasses=%d)\n&quot;,qPrint(nd-&gt;name()),filterClasses);</span></div>
+<div class="line"><span class="lineno"> 1692</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;cnd : nd-&gt;getNamespaces())</div>
+<div class="line"><span class="lineno"> 1693</span>  {</div>
+<div class="line"><span class="lineno"> 1694</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d7/d1c/namespacedef_8cpp.html#a3d15fcf5c959d5ce9db005cba5692094">namespaceHasNestedClass</a>(cnd,filterClasses,ct))</div>
+<div class="line"><span class="lineno"> 1695</span>    {</div>
+<div class="line"><span class="lineno"> 1696</span>      <span class="comment">//printf(&quot;&lt;namespaceHasNestedClass(%s,filterClasses=%d): case1\n&quot;,qPrint(nd-&gt;name()),filterClasses);</span></div>
+<div class="line"><span class="lineno"> 1697</span>      <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1698</span>    }</div>
+<div class="line"><span class="lineno"> 1699</span>  }</div>
+<div class="line"><span class="lineno"> 1700</span> </div>
+<div class="line"><span class="lineno"> 1701</span>  <a class="code hl_class" href="../../da/d08/class_class_linked_ref_map.html">ClassLinkedRefMap</a> list = nd-&gt;<a class="code hl_function" href="../../d0/d07/class_namespace_def.html#ad43237a69f056b45fc87beed091688d5">getClasses</a>();</div>
+<div class="line"><span class="lineno"> 1702</span>  <span class="keywordflow">if</span> (filterClasses)</div>
+<div class="line"><span class="lineno"> 1703</span>  {</div>
+<div class="line"><span class="lineno"> 1704</span>    <span class="keywordflow">switch</span> (ct)</div>
+<div class="line"><span class="lineno"> 1705</span>    {</div>
+<div class="line"><span class="lineno"> 1706</span>      <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/dcf/class_class_def.html#ae70cf86d35fe954a94c566fbcfc87939a6ff6e3b1bbf7e59a752826880e148528">ClassDef::Interface</a>:</div>
+<div class="line"><span class="lineno"> 1707</span>        list = nd-&gt;<a class="code hl_function" href="../../d0/d07/class_namespace_def.html#ae5d69194a246277c1ac27efe392a085c">getInterfaces</a>();</div>
+<div class="line"><span class="lineno"> 1708</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1709</span>      <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/dcf/class_class_def.html#ae70cf86d35fe954a94c566fbcfc87939adbed80de6b389027e03afb5abb06f2c9">ClassDef::Struct</a>:</div>
+<div class="line"><span class="lineno"> 1710</span>        list = nd-&gt;<a class="code hl_function" href="../../d0/d07/class_namespace_def.html#a5c5e7b84cb85d95090306d81ec55a676">getStructs</a>();</div>
+<div class="line"><span class="lineno"> 1711</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1712</span>      <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/dcf/class_class_def.html#ae70cf86d35fe954a94c566fbcfc87939ad14369c9a6f5e3977c0e02714a4beba8">ClassDef::Exception</a>:</div>
+<div class="line"><span class="lineno"> 1713</span>        list = nd-&gt;<a class="code hl_function" href="../../d0/d07/class_namespace_def.html#a7cf1f663e03f57dd359aaacf71c2e3be">getExceptions</a>();</div>
+<div class="line"><span class="lineno"> 1714</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1715</span>      <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno"> 1716</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1717</span>    }</div>
+<div class="line"><span class="lineno"> 1718</span>  }</div>
+<div class="line"><span class="lineno"> 1719</span> </div>
+<div class="line"><span class="lineno"> 1720</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;cd : list)</div>
+<div class="line"><span class="lineno"> 1721</span>  {</div>
+<div class="line"><span class="lineno"> 1722</span>    <span class="comment">//printf(&quot;candidate %s isLinkableInProject()=%d\n&quot;,qPrint(cd-&gt;name()),cd-&gt;isLinkableInProject());</span></div>
+<div class="line"><span class="lineno"> 1723</span>    <span class="keywordflow">if</span> (cd-&gt;isLinkableInProject())</div>
+<div class="line"><span class="lineno"> 1724</span>    {</div>
+<div class="line"><span class="lineno"> 1725</span>      <span class="comment">//printf(&quot;&lt;namespaceHasNestedClass(%s,filterClasses=%d): case2\n&quot;,qPrint(nd-&gt;name()),filterClasses);</span></div>
+<div class="line"><span class="lineno"> 1726</span>      <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1727</span>    }</div>
+<div class="line"><span class="lineno"> 1728</span>  }</div>
+<div class="line"><span class="lineno"> 1729</span>  <span class="comment">//printf(&quot;&lt;namespaceHasNestedClass(%s,filterClasses=%d): case3\n&quot;,qPrint(nd-&gt;name()),filterClasses);</span></div>
+<div class="line"><span class="lineno"> 1730</span>  <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1731</span>}</div>
 <div class="ttc" id="aclass_class_def_html_ae70cf86d35fe954a94c566fbcfc87939a6ff6e3b1bbf7e59a752826880e148528"><div class="ttname"><a href="../../d1/dcf/class_class_def.html#ae70cf86d35fe954a94c566fbcfc87939a6ff6e3b1bbf7e59a752826880e148528">ClassDef::Interface</a></div><div class="ttdeci">@ Interface</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dcf/class_class_def.html#l00108">classdef.h:108</a></div></div>
 <div class="ttc" id="aclass_class_def_html_ae70cf86d35fe954a94c566fbcfc87939ad14369c9a6f5e3977c0e02714a4beba8"><div class="ttname"><a href="../../d1/dcf/class_class_def.html#ae70cf86d35fe954a94c566fbcfc87939ad14369c9a6f5e3977c0e02714a4beba8">ClassDef::Exception</a></div><div class="ttdeci">@ Exception</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dcf/class_class_def.html#l00111">classdef.h:111</a></div></div>
 <div class="ttc" id="aclass_class_def_html_ae70cf86d35fe954a94c566fbcfc87939adbed80de6b389027e03afb5abb06f2c9"><div class="ttname"><a href="../../d1/dcf/class_class_def.html#ae70cf86d35fe954a94c566fbcfc87939adbed80de6b389027e03afb5abb06f2c9">ClassDef::Struct</a></div><div class="ttdeci">@ Struct</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dcf/class_class_def.html#l00106">classdef.h:106</a></div></div>
@@ -478,11 +478,11 @@ Functions</h2></td></tr>
 <div class="ttc" id="aclass_namespace_def_html_a7cf1f663e03f57dd359aaacf71c2e3be"><div class="ttname"><a href="../../d0/d07/class_namespace_def.html#a7cf1f663e03f57dd359aaacf71c2e3be">NamespaceDef::getExceptions</a></div><div class="ttdeci">virtual ClassLinkedRefMap getExceptions() const =0</div></div>
 <div class="ttc" id="aclass_namespace_def_html_ad43237a69f056b45fc87beed091688d5"><div class="ttname"><a href="../../d0/d07/class_namespace_def.html#ad43237a69f056b45fc87beed091688d5">NamespaceDef::getClasses</a></div><div class="ttdeci">virtual ClassLinkedRefMap getClasses() const =0</div></div>
 <div class="ttc" id="aclass_namespace_def_html_ae5d69194a246277c1ac27efe392a085c"><div class="ttname"><a href="../../d0/d07/class_namespace_def.html#ae5d69194a246277c1ac27efe392a085c">NamespaceDef::getInterfaces</a></div><div class="ttdeci">virtual ClassLinkedRefMap getInterfaces() const =0</div></div>
-<div class="ttc" id="anamespacedef_8cpp_html_a3d15fcf5c959d5ce9db005cba5692094"><div class="ttname"><a href="../../d7/d1c/namespacedef_8cpp.html#a3d15fcf5c959d5ce9db005cba5692094">namespaceHasNestedClass</a></div><div class="ttdeci">bool namespaceHasNestedClass(const NamespaceDef *nd, bool filterClasses, ClassDef::CompoundType ct)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d1c/namespacedef_8cpp.html#l01696">namespacedef.cpp:1696</a></div></div>
+<div class="ttc" id="anamespacedef_8cpp_html_a3d15fcf5c959d5ce9db005cba5692094"><div class="ttname"><a href="../../d7/d1c/namespacedef_8cpp.html#a3d15fcf5c959d5ce9db005cba5692094">namespaceHasNestedClass</a></div><div class="ttdeci">bool namespaceHasNestedClass(const NamespaceDef *nd, bool filterClasses, ClassDef::CompoundType ct)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d1c/namespacedef_8cpp.html#l01689">namespacedef.cpp:1689</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/da6/classdef_8h_source.html#l00111">ClassDef::Exception</a>, <a class="el" href="../../d0/d07/class_namespace_def.html#ad43237a69f056b45fc87beed091688d5">NamespaceDef::getClasses()</a>, <a class="el" href="../../d0/d07/class_namespace_def.html#a7cf1f663e03f57dd359aaacf71c2e3be">NamespaceDef::getExceptions()</a>, <a class="el" href="../../d0/d07/class_namespace_def.html#ae5d69194a246277c1ac27efe392a085c">NamespaceDef::getInterfaces()</a>, <a class="el" href="../../d0/d07/class_namespace_def.html#a948889b7a35fb82ebcdf2598a63e1d8d">NamespaceDef::getNamespaces()</a>, <a class="el" href="../../d0/d07/class_namespace_def.html#a5c5e7b84cb85d95090306d81ec55a676">NamespaceDef::getStructs()</a>, <a class="el" href="../../d1/da6/classdef_8h_source.html#l00108">ClassDef::Interface</a>, <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01696">namespaceHasNestedClass()</a>, and <a class="el" href="../../d1/da6/classdef_8h_source.html#l00106">ClassDef::Struct</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/da6/classdef_8h_source.html#l00111">ClassDef::Exception</a>, <a class="el" href="../../d0/d07/class_namespace_def.html#ad43237a69f056b45fc87beed091688d5">NamespaceDef::getClasses()</a>, <a class="el" href="../../d0/d07/class_namespace_def.html#a7cf1f663e03f57dd359aaacf71c2e3be">NamespaceDef::getExceptions()</a>, <a class="el" href="../../d0/d07/class_namespace_def.html#ae5d69194a246277c1ac27efe392a085c">NamespaceDef::getInterfaces()</a>, <a class="el" href="../../d0/d07/class_namespace_def.html#a948889b7a35fb82ebcdf2598a63e1d8d">NamespaceDef::getNamespaces()</a>, <a class="el" href="../../d0/d07/class_namespace_def.html#a5c5e7b84cb85d95090306d81ec55a676">NamespaceDef::getStructs()</a>, <a class="el" href="../../d1/da6/classdef_8h_source.html#l00108">ClassDef::Interface</a>, <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01689">namespaceHasNestedClass()</a>, and <a class="el" href="../../d1/da6/classdef_8h_source.html#l00106">ClassDef::Struct</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l05733">NestingContext::Private::addNamespace()</a>, <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01696">namespaceHasNestedClass()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l01817">writeClassTreeInsideNamespaceElement()</a>, and <a class="el" href="../../db/d14/index_8cpp_source.html#l01731">writeNamespaceTreeElement()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l05733">NestingContext::Private::addNamespace()</a>, <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01689">namespaceHasNestedClass()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l01817">writeClassTreeInsideNamespaceElement()</a>, and <a class="el" href="../../db/d14/index_8cpp_source.html#l01731">writeNamespaceTreeElement()</a>.</p>
 
 </div>
 </div>
@@ -502,34 +502,34 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01672">1672</a> of file <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html">namespacedef.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1673</span>{</div>
-<div class="line"><span class="lineno"> 1674</span>  <span class="comment">//printf(&quot;&gt;namespaceHasNestedConcept(%s)\n&quot;,qPrint(nd-&gt;name()));</span></div>
-<div class="line"><span class="lineno"> 1675</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;cnd : nd-&gt;getNamespaces())</div>
-<div class="line"><span class="lineno"> 1676</span>  {</div>
-<div class="line"><span class="lineno"> 1677</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d7/d1c/namespacedef_8cpp.html#af84e6fea0b6f07072eab35b1569fd357">namespaceHasNestedConcept</a>(cnd))</div>
-<div class="line"><span class="lineno"> 1678</span>    {</div>
-<div class="line"><span class="lineno"> 1679</span>      <span class="comment">//printf(&quot;&lt;namespaceHasNestedConcept(%s): case1\n&quot;,qPrint(nd-&gt;name()));</span></div>
-<div class="line"><span class="lineno"> 1680</span>      <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno"> 1681</span>    }</div>
-<div class="line"><span class="lineno"> 1682</span>  }</div>
-<div class="line"><span class="lineno"> 1683</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;cnd : nd-&gt;getConcepts())</div>
-<div class="line"><span class="lineno"> 1684</span>  {</div>
-<div class="line"><span class="lineno"> 1685</span>    <span class="comment">//printf(&quot;candidate %s isLinkableInProject()=%d\n&quot;,qPrint(cnd-&gt;name()),cnd-&gt;isLinkableInProject());</span></div>
-<div class="line"><span class="lineno"> 1686</span>    <span class="keywordflow">if</span> (cnd-&gt;isLinkableInProject())</div>
-<div class="line"><span class="lineno"> 1687</span>    {</div>
-<div class="line"><span class="lineno"> 1688</span>      <span class="comment">//printf(&quot;&lt;namespaceHasNestedConcept(%s): case2\n&quot;,qPrint(nd-&gt;name()));</span></div>
-<div class="line"><span class="lineno"> 1689</span>      <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno"> 1690</span>    }</div>
-<div class="line"><span class="lineno"> 1691</span>  }</div>
-<div class="line"><span class="lineno"> 1692</span>  <span class="comment">//printf(&quot;&lt;namespaceHasNestedConcept(%s): case3\n&quot;,qPrint(nd-&gt;name()));</span></div>
-<div class="line"><span class="lineno"> 1693</span>  <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno"> 1694</span>}</div>
-<div class="ttc" id="anamespacedef_8cpp_html_af84e6fea0b6f07072eab35b1569fd357"><div class="ttname"><a href="../../d7/d1c/namespacedef_8cpp.html#af84e6fea0b6f07072eab35b1569fd357">namespaceHasNestedConcept</a></div><div class="ttdeci">bool namespaceHasNestedConcept(const NamespaceDef *nd)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d1c/namespacedef_8cpp.html#l01672">namespacedef.cpp:1672</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01665">1665</a> of file <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html">namespacedef.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1666</span>{</div>
+<div class="line"><span class="lineno"> 1667</span>  <span class="comment">//printf(&quot;&gt;namespaceHasNestedConcept(%s)\n&quot;,qPrint(nd-&gt;name()));</span></div>
+<div class="line"><span class="lineno"> 1668</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;cnd : nd-&gt;getNamespaces())</div>
+<div class="line"><span class="lineno"> 1669</span>  {</div>
+<div class="line"><span class="lineno"> 1670</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d7/d1c/namespacedef_8cpp.html#af84e6fea0b6f07072eab35b1569fd357">namespaceHasNestedConcept</a>(cnd))</div>
+<div class="line"><span class="lineno"> 1671</span>    {</div>
+<div class="line"><span class="lineno"> 1672</span>      <span class="comment">//printf(&quot;&lt;namespaceHasNestedConcept(%s): case1\n&quot;,qPrint(nd-&gt;name()));</span></div>
+<div class="line"><span class="lineno"> 1673</span>      <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1674</span>    }</div>
+<div class="line"><span class="lineno"> 1675</span>  }</div>
+<div class="line"><span class="lineno"> 1676</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;cnd : nd-&gt;getConcepts())</div>
+<div class="line"><span class="lineno"> 1677</span>  {</div>
+<div class="line"><span class="lineno"> 1678</span>    <span class="comment">//printf(&quot;candidate %s isLinkableInProject()=%d\n&quot;,qPrint(cnd-&gt;name()),cnd-&gt;isLinkableInProject());</span></div>
+<div class="line"><span class="lineno"> 1679</span>    <span class="keywordflow">if</span> (cnd-&gt;isLinkableInProject())</div>
+<div class="line"><span class="lineno"> 1680</span>    {</div>
+<div class="line"><span class="lineno"> 1681</span>      <span class="comment">//printf(&quot;&lt;namespaceHasNestedConcept(%s): case2\n&quot;,qPrint(nd-&gt;name()));</span></div>
+<div class="line"><span class="lineno"> 1682</span>      <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1683</span>    }</div>
+<div class="line"><span class="lineno"> 1684</span>  }</div>
+<div class="line"><span class="lineno"> 1685</span>  <span class="comment">//printf(&quot;&lt;namespaceHasNestedConcept(%s): case3\n&quot;,qPrint(nd-&gt;name()));</span></div>
+<div class="line"><span class="lineno"> 1686</span>  <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1687</span>}</div>
+<div class="ttc" id="anamespacedef_8cpp_html_af84e6fea0b6f07072eab35b1569fd357"><div class="ttname"><a href="../../d7/d1c/namespacedef_8cpp.html#af84e6fea0b6f07072eab35b1569fd357">namespaceHasNestedConcept</a></div><div class="ttdeci">bool namespaceHasNestedConcept(const NamespaceDef *nd)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d1c/namespacedef_8cpp.html#l01665">namespacedef.cpp:1665</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d07/class_namespace_def.html#a393d5ddac9a98c0f829b7866cce931dc">NamespaceDef::getConcepts()</a>, <a class="el" href="../../d0/d07/class_namespace_def.html#a948889b7a35fb82ebcdf2598a63e1d8d">NamespaceDef::getNamespaces()</a>, and <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01672">namespaceHasNestedConcept()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d07/class_namespace_def.html#a393d5ddac9a98c0f829b7866cce931dc">NamespaceDef::getConcepts()</a>, <a class="el" href="../../d0/d07/class_namespace_def.html#a948889b7a35fb82ebcdf2598a63e1d8d">NamespaceDef::getNamespaces()</a>, and <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01665">namespaceHasNestedConcept()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l05733">NestingContext::Private::addNamespace()</a>, <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01672">namespaceHasNestedConcept()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l04072">writeConceptTreeInsideNamespaceElement()</a>, and <a class="el" href="../../db/d14/index_8cpp_source.html#l01731">writeNamespaceTreeElement()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d12/context_8cpp_source.html#l05733">NestingContext::Private::addNamespace()</a>, <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01665">namespaceHasNestedConcept()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l04072">writeConceptTreeInsideNamespaceElement()</a>, and <a class="el" href="../../db/d14/index_8cpp_source.html#l01731">writeNamespaceTreeElement()</a>.</p>
 
 </div>
 </div>
@@ -549,17 +549,17 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01660">1660</a> of file <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html">namespacedef.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1661</span>{</div>
-<div class="line"><span class="lineno"> 1662</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;cnd : nd-&gt;getNamespaces())</div>
-<div class="line"><span class="lineno"> 1663</span>  {</div>
-<div class="line"><span class="lineno"> 1664</span>    <span class="keywordflow">if</span> (cnd-&gt;isLinkableInProject() &amp;&amp; !cnd-&gt;isAnonymous())</div>
-<div class="line"><span class="lineno"> 1665</span>    {</div>
-<div class="line"><span class="lineno"> 1666</span>      <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno"> 1667</span>    }</div>
-<div class="line"><span class="lineno"> 1668</span>  }</div>
-<div class="line"><span class="lineno"> 1669</span>  <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno"> 1670</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01653">1653</a> of file <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html">namespacedef.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1654</span>{</div>
+<div class="line"><span class="lineno"> 1655</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;cnd : nd-&gt;getNamespaces())</div>
+<div class="line"><span class="lineno"> 1656</span>  {</div>
+<div class="line"><span class="lineno"> 1657</span>    <span class="keywordflow">if</span> (cnd-&gt;isLinkableInProject() &amp;&amp; !cnd-&gt;isAnonymous())</div>
+<div class="line"><span class="lineno"> 1658</span>    {</div>
+<div class="line"><span class="lineno"> 1659</span>      <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1660</span>    }</div>
+<div class="line"><span class="lineno"> 1661</span>  }</div>
+<div class="line"><span class="lineno"> 1662</span>  <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1663</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d0/d07/class_namespace_def.html#a948889b7a35fb82ebcdf2598a63e1d8d">NamespaceDef::getNamespaces()</a>.</p>
 
@@ -583,17 +583,17 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01605">1605</a> of file <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html">namespacedef.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1606</span>{</div>
-<div class="line"><span class="lineno"> 1607</span>  <span class="keywordflow">if</span> (d &amp;&amp; (<span class="keyword">typeid</span>(*d)==<span class="keyword">typeid</span>(<a class="code hl_class" href="../../d5/dfa/class_namespace_def_impl.html">NamespaceDefImpl</a>) || <span class="keyword">typeid</span>(*d)==<span class="keyword">typeid</span>(<a class="code hl_class" href="../../d2/d9c/class_namespace_def_alias_impl.html">NamespaceDefAliasImpl</a>)))</div>
-<div class="line"><span class="lineno"> 1608</span>  {</div>
-<div class="line"><span class="lineno"> 1609</span>    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keyword">const </span><a class="code hl_class" href="../../d0/d07/class_namespace_def.html">NamespaceDef</a>*<span class="keyword">&gt;</span>(d);</div>
-<div class="line"><span class="lineno"> 1610</span>  }</div>
-<div class="line"><span class="lineno"> 1611</span>  <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno"> 1612</span>  {</div>
-<div class="line"><span class="lineno"> 1613</span>    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><span class="lineno"> 1614</span>  }</div>
-<div class="line"><span class="lineno"> 1615</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01598">1598</a> of file <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html">namespacedef.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1599</span>{</div>
+<div class="line"><span class="lineno"> 1600</span>  <span class="keywordflow">if</span> (d &amp;&amp; (<span class="keyword">typeid</span>(*d)==<span class="keyword">typeid</span>(<a class="code hl_class" href="../../d5/dfa/class_namespace_def_impl.html">NamespaceDefImpl</a>) || <span class="keyword">typeid</span>(*d)==<span class="keyword">typeid</span>(<a class="code hl_class" href="../../d2/d9c/class_namespace_def_alias_impl.html">NamespaceDefAliasImpl</a>)))</div>
+<div class="line"><span class="lineno"> 1601</span>  {</div>
+<div class="line"><span class="lineno"> 1602</span>    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keyword">const </span><a class="code hl_class" href="../../d0/d07/class_namespace_def.html">NamespaceDef</a>*<span class="keyword">&gt;</span>(d);</div>
+<div class="line"><span class="lineno"> 1603</span>  }</div>
+<div class="line"><span class="lineno"> 1604</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1605</span>  {</div>
+<div class="line"><span class="lineno"> 1606</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno"> 1607</span>  }</div>
+<div class="line"><span class="lineno"> 1608</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -613,17 +613,17 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01579">1579</a> of file <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html">namespacedef.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1580</span>{</div>
-<div class="line"><span class="lineno"> 1581</span>  <span class="keywordflow">if</span> (d &amp;&amp; (<span class="keyword">typeid</span>(*d)==<span class="keyword">typeid</span>(<a class="code hl_class" href="../../d5/dfa/class_namespace_def_impl.html">NamespaceDefImpl</a>) || <span class="keyword">typeid</span>(*d)==<span class="keyword">typeid</span>(<a class="code hl_class" href="../../d2/d9c/class_namespace_def_alias_impl.html">NamespaceDefAliasImpl</a>)))</div>
-<div class="line"><span class="lineno"> 1582</span>  {</div>
-<div class="line"><span class="lineno"> 1583</span>    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="../../d0/d07/class_namespace_def.html">NamespaceDef</a>*<span class="keyword">&gt;</span>(d);</div>
-<div class="line"><span class="lineno"> 1584</span>  }</div>
-<div class="line"><span class="lineno"> 1585</span>  <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno"> 1586</span>  {</div>
-<div class="line"><span class="lineno"> 1587</span>    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><span class="lineno"> 1588</span>  }</div>
-<div class="line"><span class="lineno"> 1589</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01572">1572</a> of file <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html">namespacedef.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1573</span>{</div>
+<div class="line"><span class="lineno"> 1574</span>  <span class="keywordflow">if</span> (d &amp;&amp; (<span class="keyword">typeid</span>(*d)==<span class="keyword">typeid</span>(<a class="code hl_class" href="../../d5/dfa/class_namespace_def_impl.html">NamespaceDefImpl</a>) || <span class="keyword">typeid</span>(*d)==<span class="keyword">typeid</span>(<a class="code hl_class" href="../../d2/d9c/class_namespace_def_alias_impl.html">NamespaceDefAliasImpl</a>)))</div>
+<div class="line"><span class="lineno"> 1575</span>  {</div>
+<div class="line"><span class="lineno"> 1576</span>    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="../../d0/d07/class_namespace_def.html">NamespaceDef</a>*<span class="keyword">&gt;</span>(d);</div>
+<div class="line"><span class="lineno"> 1577</span>  }</div>
+<div class="line"><span class="lineno"> 1578</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1579</span>  {</div>
+<div class="line"><span class="lineno"> 1580</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno"> 1581</span>  }</div>
+<div class="line"><span class="lineno"> 1582</span>}</div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="../../d7/d8f/docsets_8cpp_source.html#l00273">DocSets::addIndexItem()</a>, <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l00373">NamespaceDefImpl::addInnerCompound()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l05494">NestingNodeContext::Private::addMembers()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l05435">NestingNodeContext::Private::addNamespaces()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01620">buildNamespaceList()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l05591">NestingNodeContext::Private::createNamespace()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05200">findGlobalMember()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01801">findUsingDirectives()</a>, <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html#l01096">SymbolResolver::Private::followPath()</a>, <a class="el" href="../../da/d1f/code_8l_source.html#l03133">generateClassMemberLink()</a>, <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l00184">NamespaceDefAliasImpl::getNSAlias()</a>, <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html#l01258">SymbolResolver::Private::isAccessibleFrom()</a>, <a class="el" href="../../d2/d99/symbolresolver_8cpp_source.html#l00934">SymbolResolver::Private::isAccessibleFromWithExpScope()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l01442">MemberDefImpl::moveTo()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01284">resolveClassNestingRelations()</a>, and <a class="el" href="../../d9/d2f/searchindex__js_8cpp_source.html#l00454">writeJavasScriptSearchDataPage()</a>.</p>
 
@@ -645,18 +645,18 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01591">1591</a> of file <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html">namespacedef.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1592</span>{</div>
-<div class="line"><span class="lineno"> 1593</span>  <a class="code hl_class" href="../../d5/dcc/class_definition.html">Definition</a> *d = <a class="code hl_function" href="../../d3/dea/definition_8cpp.html#ab43e817b86eeee8909980167d1a140c8">toDefinition</a>(md);</div>
-<div class="line"><span class="lineno"> 1594</span>  <span class="keywordflow">if</span> (d &amp;&amp; <span class="keyword">typeid</span>(*d)==<span class="keyword">typeid</span>(<a class="code hl_class" href="../../d5/dfa/class_namespace_def_impl.html">NamespaceDefImpl</a>))</div>
-<div class="line"><span class="lineno"> 1595</span>  {</div>
-<div class="line"><span class="lineno"> 1596</span>    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="../../d0/d07/class_namespace_def.html">NamespaceDef</a>*<span class="keyword">&gt;</span>(d);</div>
-<div class="line"><span class="lineno"> 1597</span>  }</div>
-<div class="line"><span class="lineno"> 1598</span>  <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno"> 1599</span>  {</div>
-<div class="line"><span class="lineno"> 1600</span>    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><span class="lineno"> 1601</span>  }</div>
-<div class="line"><span class="lineno"> 1602</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01584">1584</a> of file <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html">namespacedef.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1585</span>{</div>
+<div class="line"><span class="lineno"> 1586</span>  <a class="code hl_class" href="../../d5/dcc/class_definition.html">Definition</a> *d = <a class="code hl_function" href="../../d3/dea/definition_8cpp.html#ab43e817b86eeee8909980167d1a140c8">toDefinition</a>(md);</div>
+<div class="line"><span class="lineno"> 1587</span>  <span class="keywordflow">if</span> (d &amp;&amp; <span class="keyword">typeid</span>(*d)==<span class="keyword">typeid</span>(<a class="code hl_class" href="../../d5/dfa/class_namespace_def_impl.html">NamespaceDefImpl</a>))</div>
+<div class="line"><span class="lineno"> 1588</span>  {</div>
+<div class="line"><span class="lineno"> 1589</span>    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="../../d0/d07/class_namespace_def.html">NamespaceDef</a>*<span class="keyword">&gt;</span>(d);</div>
+<div class="line"><span class="lineno"> 1590</span>  }</div>
+<div class="line"><span class="lineno"> 1591</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1592</span>  {</div>
+<div class="line"><span class="lineno"> 1593</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno"> 1594</span>  }</div>
+<div class="line"><span class="lineno"> 1595</span>}</div>
 <div class="ttc" id="aclass_definition_html"><div class="ttname"><a href="../../d5/dcc/class_definition.html">Definition</a></div><div class="ttdoc">The common base class of all entity definitions found in the sources.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dcc/class_definition.html#l00074">definition.h:75</a></div></div>
 <div class="ttc" id="adefinition_8cpp_html_ab43e817b86eeee8909980167d1a140c8"><div class="ttname"><a href="../../d3/dea/definition_8cpp.html#ab43e817b86eeee8909980167d1a140c8">toDefinition</a></div><div class="ttdeci">Definition * toDefinition(DefinitionMutable *dm)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/definition_8cpp.html#l01943">definition.cpp:1943</a></div></div>
 </div><!-- fragment -->
@@ -680,20 +680,20 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01617">1617</a> of file <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html">namespacedef.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1618</span>{</div>
-<div class="line"><span class="lineno"> 1619</span>  <span class="keywordflow">if</span> (d &amp;&amp; <span class="keyword">typeid</span>(*d)==<span class="keyword">typeid</span>(<a class="code hl_class" href="../../d5/dfa/class_namespace_def_impl.html">NamespaceDefImpl</a>))</div>
-<div class="line"><span class="lineno"> 1620</span>  {</div>
-<div class="line"><span class="lineno"> 1621</span>    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="../../dd/dd5/class_namespace_def_mutable.html">NamespaceDefMutable</a>*<span class="keyword">&gt;</span>(d);</div>
-<div class="line"><span class="lineno"> 1622</span>  }</div>
-<div class="line"><span class="lineno"> 1623</span>  <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno"> 1624</span>  {</div>
-<div class="line"><span class="lineno"> 1625</span>    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><span class="lineno"> 1626</span>  }</div>
-<div class="line"><span class="lineno"> 1627</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01610">1610</a> of file <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html">namespacedef.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1611</span>{</div>
+<div class="line"><span class="lineno"> 1612</span>  <span class="keywordflow">if</span> (d &amp;&amp; <span class="keyword">typeid</span>(*d)==<span class="keyword">typeid</span>(<a class="code hl_class" href="../../d5/dfa/class_namespace_def_impl.html">NamespaceDefImpl</a>))</div>
+<div class="line"><span class="lineno"> 1613</span>  {</div>
+<div class="line"><span class="lineno"> 1614</span>    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="../../dd/dd5/class_namespace_def_mutable.html">NamespaceDefMutable</a>*<span class="keyword">&gt;</span>(d);</div>
+<div class="line"><span class="lineno"> 1615</span>  }</div>
+<div class="line"><span class="lineno"> 1616</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1617</span>  {</div>
+<div class="line"><span class="lineno"> 1618</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno"> 1619</span>  }</div>
+<div class="line"><span class="lineno"> 1620</span>}</div>
 <div class="ttc" id="aclass_namespace_def_mutable_html"><div class="ttname"><a href="../../dd/dd5/class_namespace_def_mutable.html">NamespaceDefMutable</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dd5/class_namespace_def_mutable.html#l00105">namespacedef.h:106</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07089">addEnumValuesToEnums()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04929">addListReferences()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08583">addMembersToMemberGroup()</a>, <a class="el" href="../../d6/d42/groupdef_8cpp_source.html#l01360">addNamespaceToGroups()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01620">buildNamespaceList()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l00671">buildScopeFromQualifiedName()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08558">combineUsingRelations()</a>, <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l01466">FileDefImpl::combineUsingRelations()</a>, <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01261">NamespaceDefImpl::combineUsingRelations()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04895">computeMemberReferences()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08348">countMembers()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08620">distributeMemberGroupDocumentation()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06918">findEnums()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l00741">findScopeFromQualifiedName()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08657">findSectionsInDocumentation()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01801">findUsingDirectives()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l09457">generateNamespaceDocs()</a>, <a class="el" href="../../d7/d97/namespacedef_8h_source.html#l00156">getResolvedNamespaceMutable()</a>, <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l00446">NamespaceDefImpl::insertMember()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08241">sortMemberLists()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l11389">writeTagFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07089">addEnumValuesToEnums()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04929">addListReferences()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08583">addMembersToMemberGroup()</a>, <a class="el" href="../../d6/d42/groupdef_8cpp_source.html#l01359">addNamespaceToGroups()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01620">buildNamespaceList()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l00671">buildScopeFromQualifiedName()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08558">combineUsingRelations()</a>, <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l01465">FileDefImpl::combineUsingRelations()</a>, <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01254">NamespaceDefImpl::combineUsingRelations()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l04895">computeMemberReferences()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08348">countMembers()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08620">distributeMemberGroupDocumentation()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06918">findEnums()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l00741">findScopeFromQualifiedName()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08657">findSectionsInDocumentation()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01801">findUsingDirectives()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l09457">generateNamespaceDocs()</a>, <a class="el" href="../../d7/d97/namespacedef_8h_source.html#l00156">getResolvedNamespaceMutable()</a>, <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l00446">NamespaceDefImpl::insertMember()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08241">sortMemberLists()</a>, and <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l11389">writeTagFile()</a>.</p>
 
 </div>
 </div>
