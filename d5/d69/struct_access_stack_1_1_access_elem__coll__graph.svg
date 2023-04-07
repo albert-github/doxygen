@@ -29,8 +29,11 @@
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
+<g id="a_edge1"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M31.39,-114.54C31.72,-100.37 33.88,-80.95 42,-66 53.28,-45.25 75.51,-28.54 90.32,-19.06"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="27.89,-114.61 31.44,-124.59 34.89,-114.57 27.89,-114.61"/>
+</a>
+</g>
 <text text-anchor="middle" x="56.5" y="-80" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> item</text>
 <text text-anchor="middle" x="56.5" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">scope</text>
 </g>
@@ -46,14 +49,20 @@
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge4" class="edge">
 <title>Node2&#45;&gt;Node3</title>
+<g id="a_edge4"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M51.53,-118.65C64.9,-108.48 82.19,-95.34 93.43,-86.79"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="49.25,-115.99 43.41,-124.83 53.49,-121.56 49.25,-115.99"/>
+</a>
+</g>
 </g>
 <!-- Node3&#45;&gt;Node1 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node1</title>
+<g id="a_edge2"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M105,-57.18C105,-44.71 105,-28.92 105,-19.27"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="101.5,-57.44 105,-67.44 108.5,-57.44 101.5,-57.44"/>
+</a>
+</g>
 <text text-anchor="middle" x="129" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> fileScope</text>
 </g>
 <!-- Node4 -->
@@ -68,8 +77,11 @@
 <!-- Node4&#45;&gt;Node3 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node3</title>
+<g id="a_edge3"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M124.69,-115.67C119.64,-106.02 113.64,-94.53 109.6,-86.79"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="121.74,-117.59 129.47,-124.83 127.94,-114.34 121.74,-117.59"/>
+</a>
+</g>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
@@ -83,8 +95,11 @@
 <!-- Node5&#45;&gt;Node1 -->
 <g id="edge5" class="edge">
 <title>Node5&#45;&gt;Node1</title>
+<g id="a_edge5"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M170.45,-57.72C166.85,-50.61 162.01,-42.81 156,-37 148.11,-29.37 137.58,-23.41 128.14,-19.08"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="167.48,-59.66 174.81,-67.31 173.85,-56.75 167.48,-59.66"/>
+</a>
+</g>
 <text text-anchor="middle" x="189.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> expScope</text>
 </g>
 </g>

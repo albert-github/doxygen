@@ -29,8 +29,11 @@
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
+<g id="a_edge1"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M36.2,-67.86C43.79,-52.47 54.48,-30.82 60.31,-19"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="33.03,-66.38 31.74,-76.9 39.31,-69.48 33.03,-66.38"/>
+</a>
+</g>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -44,8 +47,11 @@
 <!-- Node3&#45;&gt;Node1 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node1</title>
+<g id="a_edge2"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M93.56,-67.86C85.76,-52.47 74.79,-30.82 68.81,-19"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="90.5,-69.56 98.14,-76.9 96.74,-66.39 90.5,-69.56"/>
+</a>
+</g>
 <text text-anchor="middle" x="109" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_label</text>
 <text text-anchor="middle" x="109" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_text</text>
 </g>

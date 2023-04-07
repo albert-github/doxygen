@@ -33,8 +33,11 @@
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
+<g id="a_edge1"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M497.31,-31.5C506.36,-31.5 515.35,-31.5 523.9,-31.5"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="497.08,-28 487.08,-31.5 497.08,-35 497.08,-28"/>
+</a>
+</g>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -49,8 +52,11 @@
 <!-- Node3&#45;&gt;Node2 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node2</title>
+<g id="a_edge2"><a xlink:title=" ">
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M130.34,-31.5C185.74,-31.5 263.49,-31.5 321.89,-31.5"/>
 <polygon fill="orange" stroke="orange" points="130.27,-28 120.27,-31.5 130.27,-35 130.27,-28"/>
+</a>
+</g>
 <text text-anchor="start" x="138" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; FileName, FileNameFn,</text>
 <text text-anchor="start" x="138" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> FileNameFn, std::unordered</text>
 <text text-anchor="start" x="138" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">_multimap&lt; std::string, FileName</text>

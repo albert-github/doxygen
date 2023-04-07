@@ -29,8 +29,11 @@
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
+<g id="a_edge1"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M43.77,-89.54C52.82,-68.66 67.38,-35.03 74.22,-19.23"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="40.49,-88.32 39.73,-98.89 46.91,-91.11 40.49,-88.32"/>
+</a>
+</g>
 <text text-anchor="middle" x="77" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_t</text>
 </g>
 <!-- Node3 -->
@@ -45,8 +48,11 @@
 <!-- Node3&#45;&gt;Node1 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node1</title>
+<g id="a_edge2"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M113.29,-89.02C107.92,-74.66 100,-54.34 92,-37 89.21,-30.95 85.71,-24.33 82.91,-19.21"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="110.11,-90.52 116.85,-98.69 116.68,-88.1 110.11,-90.52"/>
+</a>
+</g>
 <text text-anchor="middle" x="157" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_external</text>
 <text text-anchor="middle" x="157" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_refId</text>
 <text text-anchor="middle" x="157" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_relPath</text>

@@ -29,8 +29,11 @@
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
+<g id="a_edge1"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M26.8,-88.7C25.19,-73.87 25.01,-53.09 33,-37 36.66,-29.63 43.4,-23.57 49.76,-19.12"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="23.35,-89.28 28.2,-98.7 30.28,-88.31 23.35,-89.28"/>
+</a>
+</g>
 <text text-anchor="middle" x="56" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> args</text>
 <text text-anchor="middle" x="56" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">definition</text>
 <text text-anchor="middle" x="56" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">fileName</text>
@@ -48,8 +51,11 @@
 <!-- Node3&#45;&gt;Node1 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node1</title>
+<g id="a_edge2"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M97.57,-88.95C93.14,-74.56 86.42,-54.22 79,-37 76.36,-30.88 72.86,-24.26 70.02,-19.16"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="94.25,-90.08 100.48,-98.65 100.95,-88.07 94.25,-90.08"/>
+</a>
+</g>
 <text text-anchor="middle" x="112" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> fileDef</text>
 </g>
 <!-- Node4 -->
@@ -64,8 +70,11 @@
 <!-- Node4&#45;&gt;Node3 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node3</title>
+<g id="a_edge3"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M67.38,-147.22C76.37,-137.7 87.36,-126.06 94.74,-118.25"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="64.74,-144.91 60.42,-154.58 69.83,-149.72 64.74,-144.91"/>
+</a>
+</g>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
@@ -79,8 +88,11 @@
 <!-- Node5&#45;&gt;Node3 -->
 <g id="edge4" class="edge">
 <title>Node5&#45;&gt;Node3</title>
+<g id="a_edge4"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M138.62,-147.22C129.63,-137.7 118.64,-126.06 111.26,-118.25"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="136.17,-149.72 145.58,-154.58 141.26,-144.91 136.17,-149.72"/>
+</a>
+</g>
 </g>
 </g>
 </svg>

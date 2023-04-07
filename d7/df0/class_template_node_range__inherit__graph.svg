@@ -30,8 +30,11 @@
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
+<g id="a_edge1"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M70,-45.79C70,-36.36 70,-26.15 70,-19.16"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="66.5,-45.9 70,-55.9 73.5,-45.9 66.5,-45.9"/>
+</a>
+</g>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -45,8 +48,11 @@
 <!-- Node3&#45;&gt;Node2 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node2</title>
+<g id="a_edge2"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M66.6,-178.76C67.4,-153.48 68.82,-109.02 69.55,-86.27"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="63.1,-178.77 66.27,-188.87 70.09,-178.99 63.1,-178.77"/>
+</a>
+</g>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -60,14 +66,20 @@
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge4" class="edge">
 <title>Node3&#45;&gt;Node4</title>
+<g id="a_edge4"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M89.55,-183.68C106.48,-173.74 128.78,-160.65 143.26,-152.15"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="87.63,-180.74 80.78,-188.82 91.18,-186.78 87.63,-180.74"/>
+</a>
+</g>
 </g>
 <!-- Node4&#45;&gt;Node2 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node2</title>
+<g id="a_edge3"><a xlink:title=" ">
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M139.06,-126.54C123.9,-114.57 102.78,-97.89 87.9,-86.14"/>
 <polygon fill="orange" stroke="orange" points="137.19,-129.53 147.21,-132.98 141.53,-124.03 137.19,-129.53"/>
+</a>
+</g>
 <text text-anchor="middle" x="184.5" y="-107" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; TemplateNodeRange &gt;</text>
 </g>
 </g>

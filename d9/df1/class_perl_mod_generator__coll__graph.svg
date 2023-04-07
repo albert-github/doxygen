@@ -29,8 +29,11 @@
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
+<g id="a_edge1"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M58.38,-165.8C52.9,-136.05 46.58,-77.23 71.5,-37 76.45,-29.01 84.76,-23.18 92.96,-19.06"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="54.96,-166.56 60.37,-175.67 61.82,-165.18 54.96,-166.56"/>
+</a>
+</g>
 <text text-anchor="middle" x="96.5" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_output</text>
 </g>
 <!-- Node3 -->
@@ -45,8 +48,11 @@
 <!-- Node3&#45;&gt;Node2 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node2</title>
+<g id="a_edge2"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M62.5,-231.58C62.5,-219.63 62.5,-204.72 62.5,-195.41"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="59,-231.87 62.5,-241.87 66,-231.87 59,-231.87"/>
+</a>
+</g>
 <text text-anchor="middle" x="89" y="-216" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_stream</text>
 </g>
 <!-- Node4 -->
@@ -61,8 +67,11 @@
 <!-- Node4&#45;&gt;Node1 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node1</title>
+<g id="a_edge3"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M151.43,-165.77C146.68,-137.63 136.9,-82.86 125.5,-37 124.02,-31.03 122.02,-24.41 120.39,-19.27"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="148,-166.5 153.1,-175.79 154.91,-165.35 148,-166.5"/>
+</a>
+</g>
 <text text-anchor="middle" x="214.5" y="-150" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> pathDoxyDocsPM</text>
 <text text-anchor="middle" x="214.5" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">pathDoxyDocsTex</text>
 <text text-anchor="middle" x="214.5" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">pathDoxyFormatTex</text>

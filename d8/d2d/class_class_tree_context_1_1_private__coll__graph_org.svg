@@ -31,8 +31,11 @@
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
+<g id="a_edge1"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M519.44,-110.45C569.92,-100.01 632.01,-87.18 673.61,-78.59"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="518.6,-107.05 509.51,-112.5 520.01,-113.9 518.6,-107.05"/>
+</a>
+</g>
 <text text-anchor="middle" x="585.5" y="-108" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_maxDepth</text>
 </g>
 <!-- Node3 -->
@@ -48,8 +51,11 @@
 <!-- Node3&#45;&gt;Node2 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node2</title>
+<g id="a_edge2"><a xlink:title=" ">
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M149.11,-104.51C210.93,-109.64 296.5,-116.73 357.4,-121.78"/>
 <polygon fill="orange" stroke="orange" points="149.27,-101.02 139.02,-103.68 148.69,-107.99 149.27,-101.02"/>
+</a>
+</g>
 <text text-anchor="start" x="169" y="-144" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; int, ClassTreeContext</text>
 <text text-anchor="start" x="169" y="-133" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">::Private, &amp;Private::createMax</text>
 <text text-anchor="middle" x="242.5" y="-122" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">Depth &gt;</text>
@@ -68,8 +74,11 @@
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge4" class="edge">
 <title>Node3&#45;&gt;Node4</title>
+<g id="a_edge4"><a xlink:title=" ">
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M121.99,-79.95C133.38,-76.68 145.49,-73.76 157,-72 224.26,-61.74 301.84,-61.95 357.5,-64.17"/>
 <polygon fill="orange" stroke="orange" points="120.76,-76.66 112.19,-82.89 122.78,-83.37 120.76,-76.66"/>
+</a>
+</g>
 <text text-anchor="start" x="157" y="-97" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; int, ClassTreeContext</text>
 <text text-anchor="start" x="157" y="-86" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">::Private, &amp;Private::createPreferred</text>
 <text text-anchor="middle" x="242.5" y="-75" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">Depth &gt;</text>
@@ -77,8 +86,11 @@
 <!-- Node4&#45;&gt;Node1 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node1</title>
+<g id="a_edge3"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M519.62,-69C561.17,-69 610.56,-69 649.9,-69"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="519.51,-65.5 509.51,-69 519.51,-72.5 519.51,-65.5"/>
+</a>
+</g>
 <text text-anchor="middle" x="585.5" y="-72" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_preferredDepth</text>
 </g>
 <!-- Node5 -->
@@ -94,8 +106,11 @@
 <!-- Node5&#45;&gt;Node1 -->
 <g id="edge5" class="edge">
 <title>Node5&#45;&gt;Node1</title>
+<g id="a_edge5"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M524.12,-31.95C572.1,-41.03 629.42,-51.87 669.62,-59.47"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="524.5,-28.46 514.03,-30.04 523.2,-35.34 524.5,-28.46"/>
+</a>
+</g>
 <text text-anchor="middle" x="585.5" y="-54" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> s_inst</text>
 </g>
 <!-- Node6 -->
@@ -110,8 +125,11 @@
 <!-- Node6&#45;&gt;Node5 -->
 <g id="edge6" class="edge">
 <title>Node6&#45;&gt;Node5</title>
+<g id="a_edge6"><a xlink:title=" ">
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M133.39,-15C192.15,-15 280.4,-15 345.82,-15"/>
 <polygon fill="orange" stroke="orange" points="133.14,-11.5 123.14,-15 133.14,-18.5 133.14,-11.5"/>
+</a>
+</g>
 <text text-anchor="start" x="192.5" y="-29" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; ClassTreeContext</text>
 <text text-anchor="middle" x="242.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">::Private &gt;</text>
 </g>

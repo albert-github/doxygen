@@ -7,8 +7,8 @@ digraph "Graphical Class Hierarchy"
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
   Node0 [label="TemplateEscapeIntf",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d9c/class_template_escape_intf.html",tooltip="Interface used to escape characters in a string."];
-  Node0 -> Node1 [dir="back",color="steelblue1",style="solid"];
+  Node0 -> Node1 [dir="back",color="steelblue1",style="solid",tooltip=" "];
   Node1 [label="HtmlEscaper",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d97/class_html_escaper.html",tooltip=" "];
-  Node0 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node0 -> Node2 [dir="back",color="steelblue1",style="solid",tooltip=" "];
   Node2 [label="LatexEscaper",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/dd3/class_latex_escaper.html",tooltip=" "];
 }
