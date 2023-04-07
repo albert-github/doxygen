@@ -2,10 +2,10 @@ var NAVTREEINDEX0 =
 {
 "annotated.html":[9,0],
 "classes.html":[9,1],
-"d0/d00/struct_output_gen_intf_1_1write_inherited_section_title.html":[8,0,10,156],
-"d0/d00/struct_output_gen_intf_1_1write_inherited_section_title.html":[9,0,5,156],
-"d0/d00/struct_output_gen_intf_1_1write_inherited_section_title.html#abc7416f60ab740c263fefe7a7fd51cc2":[8,0,10,156,0],
-"d0/d00/struct_output_gen_intf_1_1write_inherited_section_title.html#abc7416f60ab740c263fefe7a7fd51cc2":[9,0,5,156,0],
+"d0/d00/struct_output_gen_intf_1_1write_inherited_section_title.html":[8,0,10,171],
+"d0/d00/struct_output_gen_intf_1_1write_inherited_section_title.html":[9,0,5,171],
+"d0/d00/struct_output_gen_intf_1_1write_inherited_section_title.html#abc7416f60ab740c263fefe7a7fd51cc2":[8,0,10,171,0],
+"d0/d00/struct_output_gen_intf_1_1write_inherited_section_title.html#abc7416f60ab740c263fefe7a7fd51cc2":[9,0,5,171,0],
 "d0/d07/class_namespace_def.html":[9,0,406],
 "d0/d07/class_namespace_def.html#a11f430c8101fb0dbe309933cc04aa1aa":[9,0,406,0],
 "d0/d07/class_namespace_def.html#a27d90bb7360567e4d376198a164e05f3":[9,0,406,22],
@@ -120,6 +120,10 @@ var NAVTREEINDEX0 =
 "d0/d16/class_translator_japanese_en.html#aff3e71dc3a1d71f056fea3299c8a427e":[9,0,602,8],
 "d0/d17/outputgen_8cpp.html":[10,0,2,183],
 "d0/d17/outputgen_8cpp_source.html":[10,0,2,183],
+"d0/d17/struct_output_gen_intf_1_1end_desc_item.html":[9,0,5,16],
+"d0/d17/struct_output_gen_intf_1_1end_desc_item.html":[8,0,10,16],
+"d0/d17/struct_output_gen_intf_1_1end_desc_item.html#aa7db15434818243415ebe6ba6c140518":[8,0,10,16,0],
+"d0/d17/struct_output_gen_intf_1_1end_desc_item.html#aa7db15434818243415ebe6ba6c140518":[9,0,5,16,0],
 "d0/d17/translator__hr_8h.html":[10,0,2,267],
 "d0/d17/translator__hr_8h_source.html":[10,0,2,267],
 "d0/d18/class_file_list.html":[9,0,247],
@@ -245,9 +249,5 @@ var NAVTREEINDEX0 =
 "d0/d2b/class_class_def_alias_impl.html#abda44e87bd2a50de2f6cae77624c3d92":[9,0,39,24],
 "d0/d2b/class_class_def_alias_impl.html#abe719e62ac5746feb633add6680e2f9d":[9,0,39,52],
 "d0/d2b/class_class_def_alias_impl.html#abfbd330ad8f681ef3706367f120393fe":[9,0,39,55],
-"d0/d2b/class_class_def_alias_impl.html#ac319aad2837839d3dc7703ef6b5f5230":[9,0,39,73],
-"d0/d2b/class_class_def_alias_impl.html#ac8339e8e4ffaec4775c382a9a195a73e":[9,0,39,87],
-"d0/d2b/class_class_def_alias_impl.html#ac95c59910940c1c07ab93c7b05cbd82c":[9,0,39,45],
-"d0/d2b/class_class_def_alias_impl.html#ad0f303124670bc70948cc3970c7d5556":[9,0,39,26],
-"d0/d2b/class_class_def_alias_impl.html#ad22f7721d130ff764fceb787c8cd284c":[9,0,39,22]
+"d0/d2b/class_class_def_alias_impl.html#ac319aad2837839d3dc7703ef6b5f5230":[9,0,39,73]
 };
