@@ -247,7 +247,7 @@ var NAVTREEINDEX68 =
 "d9/d49/types_8h_source.html":[10,0,2,294],
 "d9/d4a/structfmt_1_1formatter_3_01_member_type_01_4.html":[8,0,6,1],
 "d9/d4a/structfmt_1_1formatter_3_01_member_type_01_4.html":[9,0,2,1],
-"d9/d4a/structfmt_1_1formatter_3_01_member_type_01_4.html#af247884da292a20610ffd1b5d130235c":[8,0,6,1,0],
 "d9/d4a/structfmt_1_1formatter_3_01_member_type_01_4.html#af247884da292a20610ffd1b5d130235c":[9,0,2,1,0],
+"d9/d4a/structfmt_1_1formatter_3_01_member_type_01_4.html#af247884da292a20610ffd1b5d130235c":[8,0,6,1,0],
 "d9/d4f/struct_output_gen_intf_1_1start_member_group.html":[9,0,5,127]
 };
