@@ -247,7 +247,7 @@ var NAVTREEINDEX78 =
 "da/d4e/struct_citation_manager_1_1_private.html":[9,0,32,0],
 "da/d4e/struct_citation_manager_1_1_private.html#a1b060e55fdd945e3f802942708c36c4b":[9,0,32,0,0],
 "da/d4e/struct_citation_manager_1_1_private.html#aebb64cb55fe9bfcc582ee70a1378f7d9":[9,0,32,0,1],
-"da/d52/struct_output_gen_intf_1_1end_member_doc_simple.html":[8,0,10,50],
 "da/d52/struct_output_gen_intf_1_1end_member_doc_simple.html":[9,0,5,50],
-"da/d52/struct_output_gen_intf_1_1end_member_doc_simple.html#a68ae9d3f1775f4415034fa33912c0c98":[9,0,5,50,0]
+"da/d52/struct_output_gen_intf_1_1end_member_doc_simple.html":[8,0,10,50],
+"da/d52/struct_output_gen_intf_1_1end_member_doc_simple.html#a68ae9d3f1775f4415034fa33912c0c98":[8,0,10,50,0]
 };
