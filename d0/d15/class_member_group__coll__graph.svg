@@ -29,8 +29,11 @@
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
+<g id="a_edge1"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M32.51,-88.93C33.89,-73.3 38.19,-51.27 51,-37 58.45,-28.7 68.81,-22.98 79.2,-19.04"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="29.01,-88.79 31.94,-98.97 36,-89.19 29.01,-88.79"/>
+</a>
+</g>
 <text text-anchor="middle" x="83" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_container</text>
 </g>
 <!-- Node3 -->
@@ -45,8 +48,11 @@
 <!-- Node3&#45;&gt;Node1 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node1</title>
+<g id="a_edge2"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M119,-88.68C119,-67.74 119,-34.81 119,-19.23"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="115.5,-88.89 119,-98.89 122.5,-88.89 115.5,-88.89"/>
+</a>
+</g>
 <text text-anchor="middle" x="154" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> inDeclSection</text>
 </g>
 <!-- Node4 -->
@@ -61,8 +67,11 @@
 <!-- Node4&#45;&gt;Node3 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node3</title>
+<g id="a_edge3"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M90.63,-156.05C98.06,-143.86 107.66,-128.11 113.57,-118.41"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="87.47,-154.51 85.26,-164.87 93.45,-158.15 87.47,-154.51"/>
+</a>
+</g>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
@@ -76,8 +85,11 @@
 <!-- Node5&#45;&gt;Node3 -->
 <g id="edge4" class="edge">
 <title>Node5&#45;&gt;Node3</title>
+<g id="a_edge4"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M182.53,-158.49C166.28,-145.96 143.69,-128.54 130.28,-118.2"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="180.75,-161.53 190.81,-164.87 185.02,-155.99 180.75,-161.53"/>
+</a>
+</g>
 <text text-anchor="middle" x="226.5" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_memberGroupRefList</text>
 </g>
 <!-- Node6 -->
@@ -92,8 +104,11 @@
 <!-- Node6&#45;&gt;Node5 -->
 <g id="edge5" class="edge">
 <title>Node6&#45;&gt;Node5</title>
+<g id="a_edge5"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M202,-210.3C202,-201.41 202,-191.28 202,-184.25"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="198.5,-210.58 202,-220.58 205.5,-210.58 198.5,-210.58"/>
+</a>
+</g>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
@@ -107,8 +122,11 @@
 <!-- Node7&#45;&gt;Node1 -->
 <g id="edge6" class="edge">
 <title>Node7&#45;&gt;Node1</title>
+<g id="a_edge6"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M210.66,-88.83C208.59,-73.14 203.34,-51.09 190,-37 182.13,-28.69 171.41,-22.96 160.68,-19.03"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="207.19,-89.32 211.68,-98.93 214.16,-88.63 207.19,-89.32"/>
+</a>
+</g>
 <text text-anchor="middle" x="235" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> doc</text>
 <text text-anchor="middle" x="235" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">fileName</text>
 <text text-anchor="middle" x="235" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">grpHeader</text>

@@ -29,8 +29,11 @@
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
+<g id="a_edge1"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M26.71,-55.6C26.62,-49.36 27.49,-42.59 30.5,-37 34.62,-29.35 42.03,-23.44 49.21,-19.16"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="23.26,-56.25 27.63,-65.9 30.23,-55.63 23.26,-56.25"/>
+</a>
+</g>
 <text text-anchor="middle" x="58" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> templSpec</text>
 </g>
 <!-- Node3 -->
@@ -45,8 +48,11 @@
 <!-- Node3&#45;&gt;Node1 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node1</title>
+<g id="a_edge2"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M97.32,-56.82C93.65,-50.53 89.44,-43.42 85.5,-37 81.84,-31.04 77.59,-24.41 74.26,-19.28"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="94.49,-58.91 102.53,-65.8 100.54,-55.4 94.49,-58.91"/>
+</a>
+</g>
 <text text-anchor="middle" x="115.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> classDef</text>
 </g>
 <!-- Node4 -->
@@ -61,8 +67,11 @@
 <!-- Node4&#45;&gt;Node3 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node3</title>
+<g id="a_edge3"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M107.5,-111.3C107.5,-102.41 107.5,-92.28 107.5,-85.25"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="104,-111.58 107.5,-121.58 111,-111.58 104,-111.58"/>
+</a>
+</g>
 </g>
 </g>
 </svg>

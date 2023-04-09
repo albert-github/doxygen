@@ -1,7 +1,7 @@
 var NAVTREEINDEX66 =
 {
-"d9/d0e/struct_index_intf_1_1initialize.html":[9,0,3,8],
 "d9/d0e/struct_index_intf_1_1initialize.html":[8,0,7,8],
+"d9/d0e/struct_index_intf_1_1initialize.html":[9,0,3,8],
 "d9/d0e/struct_index_intf_1_1initialize.html#ad487ee24e16461bb7fb7b6cfe0fea75d":[9,0,3,8,0],
 "d9/d0e/struct_index_intf_1_1initialize.html#ad487ee24e16461bb7fb7b6cfe0fea75d":[8,0,7,8,0],
 "d9/d10/class_doc_h_ref.html":[9,0,138],

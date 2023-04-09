@@ -7,8 +7,8 @@ digraph "Graphical Class Hierarchy"
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
   Node0 [label="TemplateSpacelessIntf",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d80/class_template_spaceless_intf.html",tooltip="Interface used to remove redundant spaces inside a spaceless block."];
-  Node0 -> Node1 [dir="back",color="steelblue1",style="solid"];
+  Node0 -> Node1 [dir="back",color="steelblue1",style="solid",tooltip=" "];
   Node1 [label="HtmlSpaceless",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/dc2/class_html_spaceless.html",tooltip=" "];
-  Node0 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node0 -> Node2 [dir="back",color="steelblue1",style="solid",tooltip=" "];
   Node2 [label="LatexSpaceless",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/dc0/class_latex_spaceless.html",tooltip=" "];
 }

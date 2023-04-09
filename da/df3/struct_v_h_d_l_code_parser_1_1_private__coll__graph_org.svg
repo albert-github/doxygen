@@ -29,8 +29,11 @@
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
+<g id="a_edge1"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M276.5,-55.58C276.5,-43.63 276.5,-28.72 276.5,-19.41"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="273,-55.87 276.5,-65.87 280,-55.87 273,-55.87"/>
+</a>
+</g>
 <text text-anchor="middle" x="290.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> state</text>
 </g>
 <!-- Node3 -->
@@ -45,8 +48,11 @@
 <!-- Node3&#45;&gt;Node2 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node2</title>
+<g id="a_edge2"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M22.98,-200.53C15.32,-175.12 6.47,-129.52 30.5,-103 43.3,-88.87 156.61,-81.6 224.9,-78.46"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="19.76,-201.94 26.19,-210.35 26.41,-199.76 19.76,-201.94"/>
+</a>
+</g>
 <text text-anchor="middle" x="67" y="-183" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> PortMapComp</text>
 <text text-anchor="middle" x="67" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">currClass</text>
 <text text-anchor="middle" x="67" y="-161" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">exampleFile</text>
@@ -68,8 +74,11 @@
 <!-- Node4&#45;&gt;Node2 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node2</title>
+<g id="a_edge3"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M229.87,-204.36C225.29,-200.64 221.16,-196.19 218.5,-191 200.65,-156.2 197.36,-135.9 218.5,-103 223.83,-94.71 232.46,-88.98 241.46,-85.04"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="228.2,-207.45 238.41,-210.27 232.18,-201.7 228.2,-207.45"/>
+</a>
+</g>
 <text text-anchor="middle" x="266.5" y="-150" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> currentMemberDef</text>
 <text text-anchor="middle" x="266.5" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">vhdlMember</text>
 </g>
@@ -85,16 +94,22 @@
 <!-- Node5&#45;&gt;Node2 -->
 <g id="edge6" class="edge">
 <title>Node5&#45;&gt;Node2</title>
+<g id="a_edge6"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M199.42,-271.64C173.71,-266.25 142.75,-254.91 126.5,-231 121,-222.91 123.6,-218.34 126.5,-209 143.49,-154.38 153.95,-137.6 199.5,-103 210.2,-94.88 223.56,-89.13 236.13,-85.12"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="198.86,-275.09 209.33,-273.48 200.14,-268.21 198.86,-275.09"/>
+</a>
+</g>
 <text text-anchor="middle" x="169" y="-223" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> currentDefinition</text>
 <text text-anchor="middle" x="169" y="-212" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">searchCtx</text>
 </g>
 <!-- Node5&#45;&gt;Node4 -->
 <g id="edge4" class="edge">
 <title>Node5&#45;&gt;Node4</title>
+<g id="a_edge4"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M246.82,-258.06C249.56,-248.54 252.78,-237.36 254.96,-229.79"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="243.41,-257.25 244,-267.83 250.13,-259.19 243.41,-257.25"/>
+</a>
+</g>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
@@ -108,8 +123,11 @@
 <!-- Node5&#45;&gt;Node7 -->
 <g id="edge9" class="edge">
 <title>Node5&#45;&gt;Node7</title>
+<g id="a_edge9"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M265.5,-262.77C283.63,-252.39 307.97,-238.47 323.45,-229.61"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="263.6,-259.82 256.66,-267.83 267.07,-265.9 263.6,-259.82"/>
+</a>
+</g>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
@@ -123,15 +141,21 @@
 <!-- Node6&#45;&gt;Node2 -->
 <g id="edge5" class="edge">
 <title>Node6&#45;&gt;Node2</title>
+<g id="a_edge5"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M431.8,-200.01C433.75,-174.33 432.98,-128.8 407.5,-103 396.37,-91.73 359.87,-84.95 328.21,-81.07"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="428.28,-199.97 430.78,-210.27 435.25,-200.66 428.28,-199.97"/>
+</a>
+</g>
 <text text-anchor="middle" x="445" y="-144.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> code</text>
 </g>
 <!-- Node7&#45;&gt;Node2 -->
 <g id="edge7" class="edge">
 <title>Node7&#45;&gt;Node2</title>
+<g id="a_edge7"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M336.32,-200.21C332.72,-171.59 324.89,-118.76 314.5,-103 309.54,-95.48 301.65,-89.47 294.34,-85.08"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="332.85,-200.67 337.53,-210.18 339.8,-199.83 332.85,-200.67"/>
+</a>
+</g>
 <text text-anchor="middle" x="369.5" y="-144.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> sourceFileDef</text>
 </g>
 <!-- Node8 -->
@@ -146,8 +170,11 @@
 <!-- Node8&#45;&gt;Node7 -->
 <g id="edge8" class="edge">
 <title>Node8&#45;&gt;Node7</title>
+<g id="a_edge8"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M341.81,-257.75C340.96,-248.3 339.97,-237.28 339.29,-229.79"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="338.34,-258.18 342.72,-267.83 345.31,-257.55 338.34,-258.18"/>
+</a>
+</g>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node">
@@ -161,8 +188,11 @@
 <!-- Node9&#45;&gt;Node2 -->
 <g id="edge10" class="edge">
 <title>Node9&#45;&gt;Node2</title>
+<g id="a_edge10"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M533.08,-201C522.68,-174.7 499.51,-126.36 462.5,-103 440.78,-89.29 375.38,-82.42 328.27,-79.16"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="529.86,-202.37 536.65,-210.5 536.41,-199.9 529.86,-202.37"/>
+</a>
+</g>
 <text text-anchor="middle" x="567.5" y="-144.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> tooltipManager</text>
 </g>
 </g>

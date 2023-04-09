@@ -29,8 +29,11 @@
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
+<g id="a_edge1"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M47.51,-167.12C51.13,-135.15 63.23,-70.57 103,-37 115.41,-26.52 153.09,-19.64 185.19,-15.52"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="44,-167.01 46.52,-177.3 50.97,-167.68 44,-167.01"/>
+</a>
+</g>
 <text text-anchor="middle" x="116.5" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> code</text>
 </g>
 <!-- Node3 -->
@@ -45,8 +48,11 @@
 <!-- Node3&#45;&gt;Node1 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node1</title>
+<g id="a_edge2"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M136.63,-167.21C132.24,-136.37 128.35,-74.66 159,-37 165.78,-28.67 175.32,-22.95 185.39,-19.02"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="133.23,-168.09 138.27,-177.41 140.14,-166.98 133.23,-168.09"/>
+</a>
+</g>
 <text text-anchor="middle" x="195.5" y="-150" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> CurrScope</text>
 <text text-anchor="middle" x="195.5" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">args</text>
 <text text-anchor="middle" x="195.5" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">classScope</text>
@@ -71,8 +77,11 @@
 <!-- Node4&#45;&gt;Node1 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node1</title>
+<g id="a_edge3"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M357.99,-229.45C380.34,-214.81 412.22,-189.62 426,-158 447.49,-108.7 461.3,-77.57 426,-37 408.29,-16.65 336.91,-11.44 286.88,-10.36"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="355.96,-226.59 349.36,-234.88 359.69,-232.51 355.96,-226.59"/>
+</a>
+</g>
 <text text-anchor="middle" x="457.5" y="-190" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> currentDefinition</text>
 <text text-anchor="middle" x="457.5" y="-179" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">searchCtx</text>
 </g>
@@ -88,8 +97,11 @@
 <!-- Node4&#45;&gt;Node5 -->
 <g id="edge6" class="edge">
 <title>Node4&#45;&gt;Node5</title>
+<g id="a_edge6"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M309.76,-229.77C291.43,-219.39 266.84,-205.47 251.2,-196.61"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="308.26,-232.95 318.69,-234.83 311.71,-226.85 308.26,-232.95"/>
+</a>
+</g>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
@@ -103,14 +115,20 @@
 <!-- Node4&#45;&gt;Node7 -->
 <g id="edge8" class="edge">
 <title>Node4&#45;&gt;Node7</title>
+<g id="a_edge8"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M332.99,-224.75C332.48,-215.3 331.88,-204.28 331.48,-196.79"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="329.5,-225.03 333.53,-234.83 336.49,-224.65 329.5,-225.03"/>
+</a>
+</g>
 </g>
 <!-- Node5&#45;&gt;Node1 -->
 <g id="edge4" class="edge">
 <title>Node5&#45;&gt;Node1</title>
+<g id="a_edge4"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M236,-166.9C236,-129.14 236,-46.26 236,-19.22"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="232.5,-167.06 236,-177.06 239.5,-167.06 232.5,-167.06"/>
+</a>
+</g>
 <text text-anchor="middle" x="271" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> sourceFileDef</text>
 </g>
 <!-- Node6 -->
@@ -125,14 +143,20 @@
 <!-- Node6&#45;&gt;Node5 -->
 <g id="edge5" class="edge">
 <title>Node6&#45;&gt;Node5</title>
+<g id="a_edge5"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M233.35,-224.75C234.03,-215.3 234.83,-204.28 235.37,-196.79"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="229.85,-224.6 232.62,-234.83 236.83,-225.11 229.85,-224.6"/>
+</a>
+</g>
 </g>
 <!-- Node7&#45;&gt;Node1 -->
 <g id="edge7" class="edge">
 <title>Node7&#45;&gt;Node1</title>
+<g id="a_edge7"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M330.27,-167.01C328.54,-131.44 323.04,-56.57 307,-37 300.16,-28.66 290.42,-22.94 280.33,-19.02"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="326.79,-167.6 330.72,-177.43 333.79,-167.29 326.79,-167.6"/>
+</a>
+</g>
 <text text-anchor="middle" x="378" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> currentMemberDef</text>
 </g>
 </g>

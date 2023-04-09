@@ -29,8 +29,11 @@
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
+<g id="a_edge1"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M103,-55.58C103,-43.63 103,-28.72 103,-19.41"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="99.5,-55.87 103,-65.87 106.5,-55.87 99.5,-55.87"/>
+</a>
+</g>
 <text text-anchor="middle" x="121" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> fileDef</text>
 </g>
 <!-- Node3 -->
@@ -45,8 +48,11 @@
 <!-- Node3&#45;&gt;Node2 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node2</title>
+<g id="a_edge2"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M67.38,-114.22C76.37,-104.7 87.36,-93.06 94.74,-85.25"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="64.74,-111.91 60.42,-121.58 69.83,-116.72 64.74,-111.91"/>
+</a>
+</g>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -60,8 +66,11 @@
 <!-- Node4&#45;&gt;Node2 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node2</title>
+<g id="a_edge3"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M138.62,-114.22C129.63,-104.7 118.64,-93.06 111.26,-85.25"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="136.17,-116.72 145.58,-121.58 141.26,-111.91 136.17,-116.72"/>
+</a>
+</g>
 </g>
 </g>
 </svg>

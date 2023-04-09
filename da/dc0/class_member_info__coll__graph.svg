@@ -29,8 +29,11 @@
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
+<g id="a_edge1"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M36.5,-66.64C37.22,-56.7 39.77,-44.95 47,-37 59.19,-23.59 77.99,-16.89 94.91,-13.57"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="33,-66.73 36.31,-76.8 40,-66.86 33,-66.73"/>
+</a>
+</g>
 <text text-anchor="middle" x="85.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_memberDef</text>
 </g>
 <!-- Node3 -->
@@ -45,8 +48,11 @@
 <!-- Node3&#45;&gt;Node2 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node2</title>
+<g id="a_edge2"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M65.89,-124.64C58.57,-115.24 49.76,-103.9 43.81,-96.25"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="63.16,-126.84 72.06,-132.58 68.69,-122.54 63.16,-126.84"/>
+</a>
+</g>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
@@ -60,8 +66,11 @@
 <!-- Node3&#45;&gt;Node5 -->
 <g id="edge5" class="edge">
 <title>Node3&#45;&gt;Node5</title>
+<g id="a_edge5"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M93.42,-124.93C101.66,-115.47 111.65,-103.98 118.38,-96.25"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="90.69,-122.74 86.76,-132.58 95.97,-127.34 90.69,-122.74"/>
+</a>
+</g>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -75,16 +84,22 @@
 <!-- Node4&#45;&gt;Node1 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node1</title>
+<g id="a_edge3"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M227.43,-66.82C224.11,-56.77 218.64,-44.86 210,-37 199.23,-27.2 184.66,-21 171.09,-17.08"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="224.15,-68.06 230.25,-76.72 230.88,-66.14 224.15,-68.06"/>
+</a>
+</g>
 <text text-anchor="middle" x="298.5" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_ambiguityResolutionScope</text>
 <text text-anchor="middle" x="298.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_scopePath</text>
 </g>
 <!-- Node5&#45;&gt;Node1 -->
 <g id="edge4" class="edge">
 <title>Node5&#45;&gt;Node1</title>
+<g id="a_edge4"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M127.77,-66.52C129.2,-51.24 131.14,-30.48 132.21,-19"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="124.25,-66.61 126.8,-76.9 131.22,-67.27 124.25,-66.61"/>
+</a>
+</g>
 <text text-anchor="middle" x="168" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_ambigClass</text>
 </g>
 </g>

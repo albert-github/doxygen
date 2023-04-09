@@ -76,8 +76,11 @@ var sectionId = 'dynsection-0';
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
+<g id="a_edge1"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M463.76,-110.74C503.15,-104.32 565.89,-93.88 620,-84 625.73,-82.95 631.69,-81.84 637.64,-80.7"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="463.09,-107.31 453.79,-112.37 464.22,-114.22 463.09,-107.31"/>
+</a>
+</g>
 <text text-anchor="middle" x="575.5" y="-112" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_letter</text>
 <text text-anchor="middle" x="575.5" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">m_name</text>
 </g>
@@ -95,8 +98,11 @@ var sectionId = 'dynsection-0';
 <!-- Node3&#45;&gt;Node1 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node1</title>
+<g id="a_edge2"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M523.33,-69C561.74,-69 604.48,-69 637.89,-69"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="523.15,-65.5 513.15,-69 523.15,-72.5 523.15,-65.5"/>
+</a>
+</g>
 <text text-anchor="middle" x="575.5" y="-72" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_symbolGroups</text>
 </g>
 <!-- Node4 -->
@@ -111,8 +117,11 @@ var sectionId = 'dynsection-0';
 <!-- Node4&#45;&gt;Node3 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node3</title>
+<g id="a_edge3"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M128.09,-132.55C178.89,-132.37 254.37,-128.24 317,-109 325.75,-106.31 326.64,-102.71 335,-99 342.38,-95.73 350.23,-92.59 358.09,-89.65"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="127.96,-129.05 117.95,-132.54 127.95,-136.05 127.96,-129.05"/>
+</a>
+</g>
 <text text-anchor="middle" x="237" y="-134" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_item</text>
 </g>
 <!-- Node5 -->
@@ -128,8 +137,11 @@ var sectionId = 'dynsection-0';
 <!-- Node5&#45;&gt;Node3 -->
 <g id="edge4" class="edge">
 <title>Node5&#45;&gt;Node3</title>
+<g id="a_edge4"><a xlink:title=" ">
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M149.14,-63.65C197.55,-63.59 260.88,-63.83 317,-65 322.8,-65.12 328.78,-65.27 334.8,-65.45"/>
 <polygon fill="orange" stroke="orange" points="149.04,-60.15 139.04,-63.66 149.05,-67.15 149.04,-60.15"/>
+</a>
+</g>
 <text text-anchor="start" x="157" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; TemplateVariant,</text>
 <text text-anchor="start" x="157" y="-90" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> SymbolIndexContext</text>
 <text text-anchor="start" x="157" y="-79" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">::Private,&amp;Private::createSymbol</text>
@@ -148,8 +160,11 @@ var sectionId = 'dynsection-0';
 <!-- Node6&#45;&gt;Node1 -->
 <g id="edge5" class="edge">
 <title>Node6&#45;&gt;Node1</title>
+<g id="a_edge5"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M510.69,-32.04C552.01,-40.26 600.53,-49.91 637.62,-57.29"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="511.12,-28.56 500.63,-30.04 509.75,-35.43 511.12,-28.56"/>
+</a>
+</g>
 <text text-anchor="middle" x="575.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> s_inst</text>
 </g>
 <!-- Node7 -->
@@ -164,8 +179,11 @@ var sectionId = 'dynsection-0';
 <!-- Node7&#45;&gt;Node6 -->
 <g id="edge6" class="edge">
 <title>Node7&#45;&gt;Node6</title>
+<g id="a_edge6"><a xlink:title=" ">
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M133.34,-15C193.13,-15 283.19,-15 347,-15"/>
 <polygon fill="orange" stroke="orange" points="133.27,-11.5 123.27,-15 133.27,-18.5 133.27,-11.5"/>
+</a>
+</g>
 <text text-anchor="start" x="178.5" y="-29" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> &lt; SymbolIndexContext</text>
 <text text-anchor="middle" x="237" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">::Private &gt;</text>
 </g>

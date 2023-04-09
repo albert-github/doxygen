@@ -77,8 +77,11 @@ var sectionId = 'dynsection-1';
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
+<g id="a_edge1"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M203.3,-62.46C175.54,-52.25 141.03,-39.55 115.1,-30.01"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="202.22,-65.79 212.81,-65.95 204.64,-59.22 202.22,-65.79"/>
+</a>
+</g>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -93,8 +96,11 @@ var sectionId = 'dynsection-1';
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node1&#45;&gt;Node3</title>
+<g id="a_edge2"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M251,-55.54C251,-46.96 251,-37.61 251,-30.16"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="247.5,-55.8 251,-65.8 254.5,-55.8 247.5,-55.8"/>
+</a>
+</g>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -109,8 +115,11 @@ var sectionId = 'dynsection-1';
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node1&#45;&gt;Node4</title>
+<g id="a_edge3"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M298.7,-62.46C326.46,-52.25 360.97,-39.55 386.9,-30.01"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="297.36,-59.22 289.19,-65.95 299.78,-65.79 297.36,-59.22"/>
+</a>
+</g>
 </g>
 </g>
 </svg>
