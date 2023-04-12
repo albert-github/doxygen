@@ -489,7 +489,7 @@ var searchData=
   ['strippath_486',['stripPath',['../df/d2d/util_8cpp.html#a3d37ec79f266698bd836af54ba75e63e',1,'stripPath(const QCString &amp;s):&#160;util.cpp'],['../d8/d3c/util_8h.html#a3d37ec79f266698bd836af54ba75e63e',1,'stripPath(const QCString &amp;s):&#160;util.cpp']]],
   ['stripprefix_487',['stripPrefix',['../d9/d45/class_q_c_string.html#af363dfe85e56f873aa3a373c70a33b24',1,'QCString::stripPrefix(const QCString &amp;prefix)'],['../d9/d45/class_q_c_string.html#a3524dfec9219699243b6baf0f33bd0f1',1,'QCString::stripPrefix(const char *prefix)']]],
   ['stripprotectionprefix_488',['stripProtectionPrefix',['../df/d58/dotnode_8cpp.html#aad3d1cd78282b91d3a5d5c91686cb13b',1,'dotnode.cpp']]],
-  ['stripqualifiers_489',['stripQualifiers',['../d0/dc3/xmlgen_8cpp.html#a8acb7287be03115c56196dd1a1085225',1,'xmlgen.cpp']]],
+  ['stripqualifiers_489',['stripQualifiers',['../d0/dc3/xmlgen_8cpp.html#a209ed136ef9c20757ce6497950b0f2bf',1,'xmlgen.cpp']]],
   ['stripquotes_490',['stripQuotes',['../da/d11/scanner_8l.html#a4025119712ca93c25aff95e1f4c9a344',1,'stripQuotes(const char *s):&#160;scanner.l'],['../d7/d5f/commentscan_8l.html#a4025119712ca93c25aff95e1f4c9a344',1,'stripQuotes(const char *s):&#160;commentscan.l']]],
   ['stripscope_491',['stripScope',['../df/d2d/util_8cpp.html#a78d33655f54cd45e22070b58a6dce6b6',1,'stripScope(const QCString &amp;name):&#160;util.cpp'],['../d8/d3c/util_8h.html#a78d33655f54cd45e22070b58a6dce6b6',1,'stripScope(const QCString &amp;name):&#160;util.cpp']]],
   ['striptemplatespecifiers_492',['stripTemplateSpecifiers',['../dc/d98/doxygen_8cpp.html#a255ee5917ab88a261843376db88293a5',1,'doxygen.cpp']]],
