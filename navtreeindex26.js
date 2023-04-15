@@ -1,5 +1,8 @@
 var NAVTREEINDEX26 =
 {
+"d3/d65/class_translator_afrikaans.html#a0b58fb9c7ce335654efde2c3dfe94ded":[9,0,579,126],
+"d3/d65/class_translator_afrikaans.html#a0c228930291219947a1f82db08f5e824":[9,0,579,137],
+"d3/d65/class_translator_afrikaans.html#a0c885541d6d328849f1b423a5ee8ab59":[9,0,579,203],
 "d3/d65/class_translator_afrikaans.html#a0da5dd0dae10e1d3474cf0b65d41f7fe":[9,0,579,62],
 "d3/d65/class_translator_afrikaans.html#a0ec014d06b6517c521278dbf43ee9ead":[9,0,579,61],
 "d3/d65/class_translator_afrikaans.html#a0fb0df4ebfb3d4a4dd57d15067c7da70":[9,0,579,164],
@@ -246,8 +249,5 @@ var NAVTREEINDEX26 =
 "d3/d6c/class_vhdl_string.html#ae74bb84c2809baf748cf273204aabd20":[9,0,637,10],
 "d3/d6c/class_vhdl_string.html#aefd2a815dc508a12c9352da3b575ce8f":[9,0,637,12],
 "d3/d6c/class_vhdl_string.html#af805f3e01abaf627912be4a982e8b1ab":[9,0,637,24],
-"d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html":[9,0,8,0,7],
-"d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html":[8,0,17,0,7],
-"d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#a17a5265b1c68b955c03c15e142346250":[9,0,8,0,7,3],
-"d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#a17a5265b1c68b955c03c15e142346250":[8,0,17,0,7,3]
+"d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html":[9,0,8,0,7]
 };

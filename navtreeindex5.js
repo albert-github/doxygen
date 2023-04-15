@@ -1,5 +1,8 @@
 var NAVTREEINDEX5 =
 {
+"d0/dab/class_translator_russian.html#a245e20faae3a624460e7eaf99fd831fe":[9,0,613,108],
+"d0/dab/class_translator_russian.html#a24a95bede9a79dda8dfbe0c12b0d8fdc":[9,0,613,42],
+"d0/dab/class_translator_russian.html#a25a2331d5c992eb1703dfe523e8c2586":[9,0,613,67],
 "d0/dab/class_translator_russian.html#a270b94e6b3336467065df4df34b52b93":[9,0,613,9],
 "d0/dab/class_translator_russian.html#a276cc3c3a2adbb7eb183ef4e13d809b5":[9,0,613,103],
 "d0/dab/class_translator_russian.html#a27eed01b4f556ae91d03d82aaaa766d3":[9,0,613,105],
@@ -222,8 +225,8 @@ var NAVTREEINDEX5 =
 "d0/dbb/struct_anchor_generator_1_1_private.html#ab8431972654d35ee5c6727f8f0bfc7dd":[9,0,13,0,1],
 "d0/dc1/struct_search_index_methods_1_1set_current_doc.html":[9,0,7,1],
 "d0/dc1/struct_search_index_methods_1_1set_current_doc.html":[8,0,14,1],
-"d0/dc1/struct_search_index_methods_1_1set_current_doc.html#a0db75b6b850bd59fbae0933704799f6e":[8,0,14,1,0],
 "d0/dc1/struct_search_index_methods_1_1set_current_doc.html#a0db75b6b850bd59fbae0933704799f6e":[9,0,7,1,0],
+"d0/dc1/struct_search_index_methods_1_1set_current_doc.html#a0db75b6b850bd59fbae0933704799f6e":[8,0,14,1,0],
 "d0/dc2/class_class_def_mutable.html":[9,0,41],
 "d0/dc2/class_class_def_mutable.html#a003956b60072c315dd1d0b219ac8509c":[9,0,41,9],
 "d0/dc2/class_class_def_mutable.html#a02add5668fa40a4104eee73bafae1a55":[9,0,41,6],
@@ -246,8 +249,5 @@ var NAVTREEINDEX5 =
 "d0/dc2/class_class_def_mutable.html#a8ce00e76971eb9e767556f901f03970a":[9,0,41,5],
 "d0/dc2/class_class_def_mutable.html#a8e6e94e29c2e6db09e38213e1525cd64":[9,0,41,2],
 "d0/dc2/class_class_def_mutable.html#a9455d0a7225968447a4bb2b7ce6eb46c":[9,0,41,15],
-"d0/dc2/class_class_def_mutable.html#a98844b40b53f9e938671fe274771754f":[9,0,41,16],
-"d0/dc2/class_class_def_mutable.html#a9aeaf894c5b89c28322bcaaeef220c0c":[9,0,41,33],
-"d0/dc2/class_class_def_mutable.html#a9c8efa9791f60a2d93bfb735d5880f86":[9,0,41,35],
-"d0/dc2/class_class_def_mutable.html#a9ebbd33fff9657c55529319f4a355309":[9,0,41,40]
+"d0/dc2/class_class_def_mutable.html#a98844b40b53f9e938671fe274771754f":[9,0,41,16]
 };

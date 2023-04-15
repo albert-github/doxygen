@@ -169,6 +169,7 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 <li>m_contextStack&#160;:&#160;<a class="el" href="da/dbf/class_template_context_impl.html#ae460b2ed6f5aedc406cc80bd52f1a3ab">TemplateContextImpl</a></li>
 <li>m_cs&#160;:&#160;<a class="el" href="d9/d09/class_mapper.html#ac4f2be5125734fbeef19f0463923b3cc">Mapper</a></li>
 <li>m_ctx&#160;:&#160;<a class="el" href="d5/d1b/class_html_doc_visitor.html#aedf4318426ca92b2f3161c8066ba8425">HtmlDocVisitor</a></li>
+<li>m_curEdgeNumber&#160;:&#160;<a class="el" href="d0/d32/class_dot_graph.html#ae0d9f6738db218850b0e9ca4754d3f61">DotGraph</a></li>
 <li>m_curNodeNumber&#160;:&#160;<a class="el" href="d0/d32/class_dot_graph.html#a567a62b24323599155dc26c0fee5cfa1">DotGraph</a></li>
 <li>m_current&#160;:&#160;<a class="el" href="d7/dcb/class_qhp_section_tree.html#aaa1d4a6c4b74924ce2a000762d3ea7e7">QhpSectionTree</a>, <a class="el" href="d8/d83/class_search_index_external.html#a25d1310eed02a39dec1fe84bf74a89a4">SearchIndexExternal</a></li>
 <li>m_curToken&#160;:&#160;<a class="el" href="da/d46/class_expression_parser.html#a16ad2bd607b47235c005764958ddd899">ExpressionParser</a></li>
@@ -275,7 +276,7 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 <li>m_generated&#160;:&#160;<a class="el" href="de/d3c/class_section_info.html#a9a3223e7833f2fd5d2c3415fa46160fc">SectionInfo</a></li>
 <li>m_generateImageMap&#160;:&#160;<a class="el" href="d0/d32/class_dot_graph.html#af8bb6fe78b25a0d550152918628762b0">DotGraph</a></li>
 <li>m_globalScope&#160;:&#160;<a class="el" href="d4/df2/class_variable_context.html#a1d4e3ee5731c630df8133604b05b0213">VariableContext</a></li>
-<li>m_graph&#160;:&#160;<a class="el" href="db/d5e/class_inheritance_graph_context_1_1_private.html#a8229f62ca0b840cc1bb8e7f86ad84ac2">InheritanceGraphContext::Private</a></li>
+<li>m_graph&#160;:&#160;<a class="el" href="dd/d7e/class_dot_node.html#aeb54967e727ba0255965c24265cfb376">DotNode</a>, <a class="el" href="db/d5e/class_inheritance_graph_context_1_1_private.html#a8229f62ca0b840cc1bb8e7f86ad84ac2">InheritanceGraphContext::Private</a></li>
 <li>m_graphFormat&#160;:&#160;<a class="el" href="d0/d32/class_dot_graph.html#a352bf93d2d15ed13d368233c85892a9f">DotGraph</a></li>
 <li>m_graphId&#160;:&#160;<a class="el" href="d1/d1f/class_dot_gfx_hierarchy_table.html#a5b7f4e1246f73f8aaded6883e990a57b">DotGfxHierarchyTable</a>, <a class="el" href="d0/d32/class_dot_graph.html#a140cead45aed4c1a357c7edb01c90452">DotGraph</a></li>
 <li>m_graphType&#160;:&#160;<a class="el" href="df/d1c/class_dot_class_graph.html#a64b104d45788bdc4776edb26ca004023">DotClassGraph</a></li>
@@ -702,7 +703,7 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 <li>man&#160;:&#160;<a class="el" href="da/dd4/struct_html_entity_info.html#ab99dd76f45b508602f65566c4ca91465">HtmlEntityInfo</a>, <a class="el" href="db/d5f/class_html_entity_mapper.html#ae69bb690ab38e84854b912b68e71cf79">HtmlEntityMapper</a></li>
 <li>ManCodeGenerator()&#160;:&#160;<a class="el" href="db/d92/class_man_code_generator.html#a4b10801244ea44220b104a23d5a30a55">ManCodeGenerator</a></li>
 <li>ManDocVisitor()&#160;:&#160;<a class="el" href="d8/dcf/class_man_doc_visitor.html#ae196a1929c47ffea2e32ab8d321943d5">ManDocVisitor</a></li>
-<li>ManGenerator()&#160;:&#160;<a class="el" href="de/da5/class_man_generator.html#ad234c57631aa6f20632d21fbcc300a4c">ManGenerator</a></li>
+<li>ManGenerator()&#160;:&#160;<a class="el" href="de/da5/class_man_generator.html#ae5806d523fb8fe76ac12226a80b986ff">ManGenerator</a></li>
 <li>ManInclude&#160;:&#160;<a class="el" href="d6/db9/class_doc_include.html#a72aa0fd397546547aadf356348ff3eafa135c7c87665378652c597d57710d60a1">DocInclude</a></li>
 <li>ManOnly&#160;:&#160;<a class="el" href="dc/d12/class_doc_verbatim.html#ad8c770dcf2e62369b95f4e34fb11fa36a578f19d38fb29903c3f55aea4f76bccb">DocVerbatim</a></li>
 <li>Map()&#160;:&#160;<a class="el" href="dd/d6e/struct_dot_file_patcher_1_1_map.html#ab4be867f214098973a1b9053d42baac1">DotFilePatcher::Map</a></li>
@@ -780,9 +781,8 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 <li>MemberListInfoContext()&#160;:&#160;<a class="el" href="d8/df1/class_member_list_info_context.html#a472c11496c32a44011caf5aa3191f336">MemberListInfoContext</a></li>
 <li>memberLists&#160;:&#160;<a class="el" href="d6/d4a/class_class_def_impl_1_1_i_m_p_l.html#acc8d8704f386b6a8c823d6bcec9cb669">ClassDefImpl::IMPL</a></li>
 <li>MemberLists()&#160;:&#160;<a class="el" href="dd/d5a/class_member_lists.html#a2f61bea6c07780614b38af584423027d">MemberLists</a></li>
-<li>memberName()&#160;:&#160;<a class="el" href="da/d7e/class_member_name.html#a401b0dedf601ad3f36c19fd8961c7d75">MemberName</a></li>
 <li>MemberName()&#160;:&#160;<a class="el" href="da/d7e/class_member_name.html#a8427465363337f8602ec24b05d9945f2">MemberName</a></li>
-<li>memberName()&#160;:&#160;<a class="el" href="d4/d27/class_member_name_info.html#a1ebf3be7d3e910bbb11f479fe92c97c3">MemberNameInfo</a></li>
+<li>memberName()&#160;:&#160;<a class="el" href="da/d7e/class_member_name.html#a401b0dedf601ad3f36c19fd8961c7d75">MemberName</a>, <a class="el" href="d4/d27/class_member_name_info.html#a1ebf3be7d3e910bbb11f479fe92c97c3">MemberNameInfo</a></li>
 <li>MemberNameInfo()&#160;:&#160;<a class="el" href="d4/d27/class_member_name_info.html#a9f109f9b072511cb2988b9c53112d8ea">MemberNameInfo</a></li>
 <li>memberNameInfoLinkedMap()&#160;:&#160;<a class="el" href="d1/dcf/class_class_def.html#ac8f58a78e8196768f3ddd17e645cf7f9">ClassDef</a>, <a class="el" href="d0/d2b/class_class_def_alias_impl.html#a0bcabe265cae72e63addac5357670246">ClassDefAliasImpl</a>, <a class="el" href="d1/d25/class_class_def_impl.html#a937fe5ab72cd432b34f0a399805627ff">ClassDefImpl</a></li>
 <li>memberNameLinkedMap&#160;:&#160;<a class="el" href="de/d6a/class_doxygen.html#adc3a52f780a8b6a6f0653e357b09af6b">Doxygen</a></li>

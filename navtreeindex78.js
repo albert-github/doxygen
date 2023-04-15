@@ -1,5 +1,8 @@
 var NAVTREEINDEX78 =
 {
+"da/d32/class_translator_romanian.html#a5689bab36160e93a8fbfae5824608bac":[9,0,612,210],
+"da/d32/class_translator_romanian.html#a5858c6cb6e24f1edf66b667e356d5caf":[9,0,612,242],
+"da/d32/class_translator_romanian.html#a59e9fe04abf0b6ad6b53f9698c15675f":[9,0,612,162],
 "da/d32/class_translator_romanian.html#a5ab22508155fafe7e1359ce7f045c302":[9,0,612,33],
 "da/d32/class_translator_romanian.html#a5cb500f167d800e20bbb33d0baef646c":[9,0,612,174],
 "da/d32/class_translator_romanian.html#a5dff461eb8ef73e21543879e9392ed87":[9,0,612,28],
@@ -246,8 +249,5 @@ var NAVTREEINDEX78 =
 "da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca69da3a4829e3330851f4ca6d2828018f":[8,0,8,0,1],
 "da/d4e/struct_citation_manager_1_1_private.html":[9,0,32,0],
 "da/d4e/struct_citation_manager_1_1_private.html#a1b060e55fdd945e3f802942708c36c4b":[9,0,32,0,0],
-"da/d4e/struct_citation_manager_1_1_private.html#aebb64cb55fe9bfcc582ee70a1378f7d9":[9,0,32,0,1],
-"da/d52/struct_output_gen_intf_1_1end_member_doc_simple.html":[9,0,5,50],
-"da/d52/struct_output_gen_intf_1_1end_member_doc_simple.html":[8,0,10,50],
-"da/d52/struct_output_gen_intf_1_1end_member_doc_simple.html#a68ae9d3f1775f4415034fa33912c0c98":[9,0,5,50,0]
+"da/d4e/struct_citation_manager_1_1_private.html#aebb64cb55fe9bfcc582ee70a1378f7d9":[9,0,32,0,1]
 };

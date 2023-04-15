@@ -1,5 +1,8 @@
 var NAVTREEINDEX16 =
 {
+"d2/d07/class_translator_esperanto.html#a08455b98b0573a17c8866e2ef41d0c6f":[9,0,592,102],
+"d2/d07/class_translator_esperanto.html#a0884c67bbbd62a57dff458c7e0bbccdc":[9,0,592,177],
+"d2/d07/class_translator_esperanto.html#a0ae660e142d8d6f3f5cfa32603f06cdf":[9,0,592,218],
 "d2/d07/class_translator_esperanto.html#a0bf99192f759d571607e805fb7b52523":[9,0,592,139],
 "d2/d07/class_translator_esperanto.html#a0d77c837692e59480c02555d10678aad":[9,0,592,134],
 "d2/d07/class_translator_esperanto.html#a10ec6d7d10dc3bd98166c17b831f9264":[9,0,592,51],
@@ -246,8 +249,5 @@ var NAVTREEINDEX16 =
 "d2/d0d/message_8h.html#ae6153a6152e57505cfd23fbc4d8cf366":[10,0,2,178,13],
 "d2/d0d/message_8h.html#aeab6bdc80baea6fa74dda7bc65c12cc5":[10,0,2,178,2],
 "d2/d0d/message_8h_source.html":[10,0,2,178],
-"d2/d23/class_sys_time_keeper.html":[9,0,500],
-"d2/d23/class_sys_time_keeper.html#a0b589e0d9fba742f915ff3b6a6f76d57":[9,0,500,6],
-"d2/d23/class_sys_time_keeper.html#a2320903615e5e7d57ed7c3113135c8ed":[9,0,500,5],
-"d2/d23/class_sys_time_keeper.html#a46b40aa916ae6873c566c85a88dd9f96":[9,0,500,4]
+"d2/d23/class_sys_time_keeper.html":[9,0,500]
 };

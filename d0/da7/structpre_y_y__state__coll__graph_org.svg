@@ -9,27 +9,27 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 276)">
 <title>preYY_state</title>
 <!-- Node1 -->
-<g id="node1" class="node">
+<g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title=" ">
 <polygon fill="#999999" stroke="#666666" points="255.5,-19 181.5,-19 181.5,0 255.5,0 255.5,-19"/>
 <text text-anchor="middle" x="218.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">preYY_state</text>
 </a>
 </g>
 </g>
 <!-- Node2 -->
-<g id="node2" class="node">
+<g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d9/d45/class_q_c_string.html" target="_top" xlink:title="This is an alternative implementation of QCString.">
+<g id="a_Node000002"><a xlink:href="../../d9/d45/class_q_c_string.html" target="_top" xlink:title="This is an alternative implementation of QCString.">
 <polygon fill="white" stroke="#666666" points="59,-195 0,-195 0,-176 59,-176 59,-195"/>
 <text text-anchor="middle" x="29.5" y="-183" font-family="Helvetica,sans-Serif" font-size="10.00">QCString</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge">
+<g id="edge1_Node000001_Node000002" class="edge">
 <title>Node2&#45;&gt;Node1</title>
-<g id="a_edge1"><a xlink:title=" ">
+<g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M24.04,-165.85C16.21,-134.77 6.05,-72.34 38.5,-37 57.19,-16.64 134.44,-11.73 181.46,-10.67"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="20.74,-167.04 26.74,-175.77 27.49,-165.2 20.74,-167.04"/>
 </a>
@@ -47,18 +47,18 @@
 <text text-anchor="middle" x="78.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">...</text>
 </g>
 <!-- Node3 -->
-<g id="node3" class="node">
+<g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../de/db0/class_file_def.html" target="_top" xlink:title="A model of a file symbol.">
+<g id="a_Node000003"><a xlink:href="../../de/db0/class_file_def.html" target="_top" xlink:title="A model of a file symbol.">
 <polygon fill="white" stroke="#666666" points="158,-195 107,-195 107,-176 158,-176 158,-195"/>
 <text text-anchor="middle" x="132.5" y="-183" font-family="Helvetica,sans-Serif" font-size="10.00">FileDef</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node1 -->
-<g id="edge2" class="edge">
+<g id="edge2_Node000001_Node000003" class="edge">
 <title>Node3&#45;&gt;Node1</title>
-<g id="a_edge2"><a xlink:title=" ">
+<g id="a_edge2_Node000001_Node000003"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M127.94,-165.62C121.77,-135.17 114.59,-74.8 143.5,-37 152.56,-25.15 167.32,-18.58 181.37,-14.95"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="124.6,-166.72 130.18,-175.72 131.43,-165.2 124.6,-166.72"/>
 </a>
@@ -67,54 +67,54 @@
 <text text-anchor="middle" x="175" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">yyFileDef</text>
 </g>
 <!-- Node4 -->
-<g id="node4" class="node">
+<g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d0/d46/class_definition_mutable.html" target="_top" xlink:title=" ">
+<g id="a_Node000004"><a xlink:href="../../d0/d46/class_definition_mutable.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="133.5,-266.5 29.5,-266.5 29.5,-247.5 133.5,-247.5 133.5,-266.5"/>
 <text text-anchor="middle" x="81.5" y="-254.5" font-family="Helvetica,sans-Serif" font-size="10.00">DefinitionMutable</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node3 -->
-<g id="edge3" class="edge">
+<g id="edge3_Node000003_Node000004" class="edge">
 <title>Node4&#45;&gt;Node3</title>
-<g id="a_edge3"><a xlink:title=" ">
+<g id="a_edge3_Node000003_Node000004"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M93.8,-239.24C104.02,-225.31 118.14,-206.07 126.2,-195.09"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="90.85,-237.35 87.75,-247.48 96.49,-241.49 90.85,-237.35"/>
 </a>
 </g>
 </g>
 <!-- Node5 -->
-<g id="node5" class="node">
+<g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d5/dcc/class_definition.html" target="_top" xlink:title="The common base class of all entity definitions found in the sources.">
+<g id="a_Node000005"><a xlink:href="../../d5/dcc/class_definition.html" target="_top" xlink:title="The common base class of all entity definitions found in the sources.">
 <polygon fill="white" stroke="#666666" points="215.5,-266.5 151.5,-266.5 151.5,-247.5 215.5,-247.5 215.5,-266.5"/>
 <text text-anchor="middle" x="183.5" y="-254.5" font-family="Helvetica,sans-Serif" font-size="10.00">Definition</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node3 -->
-<g id="edge4" class="edge">
+<g id="edge4_Node000003_Node000005" class="edge">
 <title>Node5&#45;&gt;Node3</title>
-<g id="a_edge4"><a xlink:title=" ">
+<g id="a_edge4_Node000003_Node000005"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M171.2,-239.24C160.98,-225.31 146.86,-206.07 138.8,-195.09"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="168.51,-241.49 177.25,-247.48 174.15,-237.35 168.51,-241.49"/>
 </a>
 </g>
 </g>
 <!-- Node6 -->
-<g id="node6" class="node">
+<g id="Node000006" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="../../d5/d64/class_buf_str.html" target="_top" xlink:title="Buffer used to store strings.">
+<g id="a_Node000006"><a xlink:href="../../d5/d64/class_buf_str.html" target="_top" xlink:title="Buffer used to store strings.">
 <polygon fill="white" stroke="#666666" points="232,-195 185,-195 185,-176 232,-176 232,-195"/>
 <text text-anchor="middle" x="208.5" y="-183" font-family="Helvetica,sans-Serif" font-size="10.00">BufStr</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node1 -->
-<g id="edge5" class="edge">
+<g id="edge5_Node000001_Node000006" class="edge">
 <title>Node6&#45;&gt;Node1</title>
-<g id="a_edge5"><a xlink:title=" ">
+<g id="a_edge5_Node000001_Node000006"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M209.59,-165.56C211.74,-128.12 216.46,-45.95 218,-19.14"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="206.09,-165.45 209.01,-175.63 213.08,-165.85 206.09,-165.45"/>
 </a>
@@ -123,18 +123,18 @@
 <text text-anchor="middle" x="242" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">outputBuf</text>
 </g>
 <!-- Node7 -->
-<g id="node7" class="node">
+<g id="Node000007" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="../../db/d82/class_const_expression_parser.html" target="_top" xlink:title="constant expression parser used for the C preprocessor">
+<g id="a_Node000007"><a xlink:href="../../db/d82/class_const_expression_parser.html" target="_top" xlink:title="constant expression parser used for the C preprocessor">
 <polygon fill="white" stroke="#666666" points="378.5,-195 250.5,-195 250.5,-176 378.5,-176 378.5,-195"/>
 <text text-anchor="middle" x="314.5" y="-183" font-family="Helvetica,sans-Serif" font-size="10.00">ConstExpressionParser</text>
 </a>
 </g>
 </g>
 <!-- Node7&#45;&gt;Node1 -->
-<g id="edge6" class="edge">
+<g id="edge6_Node000001_Node000007" class="edge">
 <title>Node7&#45;&gt;Node1</title>
-<g id="a_edge6"><a xlink:title=" ">
+<g id="a_edge6_Node000001_Node000007"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M313.54,-165.68C311.06,-135.31 302.2,-75.05 270.5,-37 263.88,-29.06 254.28,-23.24 245.13,-19.11"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="310.05,-166 314.21,-175.75 317.04,-165.54 310.05,-166"/>
 </a>
@@ -142,18 +142,18 @@
 <text text-anchor="middle" x="352.5" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> constExpParser</text>
 </g>
 <!-- Node8 -->
-<g id="node8" class="node">
+<g id="Node000008" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="../../d0/d2c/class_linked_map.html" target="_top" xlink:title=" ">
+<g id="a_Node000008"><a xlink:href="../../d0/d2c/class_linked_map.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="558,-195 397,-195 397,-176 558,-176 558,-195"/>
 <text text-anchor="middle" x="477.5" y="-183" font-family="Helvetica,sans-Serif" font-size="10.00">LinkedMap&lt; PreIncludeInfo &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node8&#45;&gt;Node1 -->
-<g id="edge7" class="edge">
+<g id="edge7_Node000001_Node000008" class="edge">
 <title>Node8&#45;&gt;Node1</title>
-<g id="a_edge7"><a xlink:title=" ">
+<g id="a_edge7_Node000001_Node000008"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M472.91,-165.83C463.96,-133.73 440.95,-68.5 395.5,-37 373.47,-21.74 300.76,-15.01 255.68,-12.25"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="469.57,-166.91 475.5,-175.69 476.34,-165.13 469.57,-166.91"/>
 </a>
@@ -161,9 +161,9 @@
 <text text-anchor="middle" x="514" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> includeRelations</text>
 </g>
 <!-- Node9 -->
-<g id="node9" class="node">
+<g id="Node000009" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="../../d0/d2c/class_linked_map.html" target="_top" xlink:title="Container class representing a vector of objects with keys.">
+<g id="a_Node000009"><a xlink:href="../../d0/d2c/class_linked_map.html" target="_top" xlink:title="Container class representing a vector of objects with keys.">
 <polygon fill="white" stroke="#666666" points="537.5,-272 417.5,-272 417.5,-242 537.5,-242 537.5,-272"/>
 <text text-anchor="start" x="425.5" y="-260" font-family="Helvetica,sans-Serif" font-size="10.00">LinkedMap&lt; T, Hash,</text>
 <text text-anchor="middle" x="477.5" y="-249" font-family="Helvetica,sans-Serif" font-size="10.00"> KeyEqual, Map &gt;</text>
@@ -171,9 +171,9 @@
 </g>
 </g>
 <!-- Node9&#45;&gt;Node8 -->
-<g id="edge8" class="edge">
+<g id="edge8_Node000008_Node000009" class="edge">
 <title>Node9&#45;&gt;Node8</title>
-<g id="a_edge8"><a xlink:title=" ">
+<g id="a_edge8_Node000008_Node000009"><a xlink:title=" ">
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M477.5,-231.56C477.5,-218.95 477.5,-204.35 477.5,-195.27"/>
 <polygon fill="orange" stroke="orange" points="474,-231.94 477.5,-241.94 481,-231.94 474,-231.94"/>
 </a>

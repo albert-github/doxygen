@@ -9,18 +9,18 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 156)">
 <title>PageTreeContext::Private</title>
 <!-- Node1 -->
-<g id="node1" class="node">
+<g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title=" ">
 <polygon fill="#999999" stroke="#666666" points="786,-78.5 647,-78.5 647,-59.5 786,-59.5 786,-78.5"/>
 <text text-anchor="middle" x="716.5" y="-66.5" font-family="Helvetica,sans-Serif" font-size="10.00">PageTreeContext::Private</text>
 </a>
 </g>
 </g>
 <!-- Node2 -->
-<g id="node2" class="node">
+<g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d7/dc1/class_cached_item.html" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="../../d7/dc1/class_cached_item.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="506.5,-148.5 357.5,-148.5 357.5,-107.5 506.5,-107.5 506.5,-148.5"/>
 <text text-anchor="start" x="365.5" y="-136.5" font-family="Helvetica,sans-Serif" font-size="10.00">CachedItem&lt; int, PageTree</text>
 <text text-anchor="start" x="365.5" y="-125.5" font-family="Helvetica,sans-Serif" font-size="10.00">Context::Private, &amp;Private</text>
@@ -29,9 +29,9 @@
 </g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge">
+<g id="edge1_Node000001_Node000002" class="edge">
 <title>Node2&#45;&gt;Node1</title>
-<g id="a_edge1"><a xlink:title=" ">
+<g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M516.72,-110.52C566.84,-100.05 628.63,-87.14 669.89,-78.52"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="515.93,-107.1 506.85,-112.58 517.36,-113.96 515.93,-107.1"/>
 </a>
@@ -39,9 +39,9 @@
 <text text-anchor="middle" x="582.5" y="-108" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_maxDepth</text>
 </g>
 <!-- Node3 -->
-<g id="node3" class="node">
+<g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d7/dc1/class_cached_item.html" target="_top" xlink:title="Wrapper for data that needs to be cached.">
+<g id="a_Node000003"><a xlink:href="../../d7/dc1/class_cached_item.html" target="_top" xlink:title="Wrapper for data that needs to be cached.">
 <polygon fill="white" stroke="#666666" points="139,-113 0,-113 0,-83 139,-83 139,-113"/>
 <text text-anchor="start" x="8" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00">CachedItem&lt; T, TOwner,</text>
 <text text-anchor="middle" x="69.5" y="-90" font-family="Helvetica,sans-Serif" font-size="10.00"> creator &gt;</text>
@@ -49,9 +49,9 @@
 </g>
 </g>
 <!-- Node3&#45;&gt;Node2 -->
-<g id="edge2" class="edge">
+<g id="edge2_Node000002_Node000003" class="edge">
 <title>Node3&#45;&gt;Node2</title>
-<g id="a_edge2"><a xlink:title=" ">
+<g id="a_edge2_Node000002_Node000003"><a xlink:title=" ">
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M149.27,-104.55C211.17,-109.71 296.77,-116.83 357.33,-121.87"/>
 <polygon fill="orange" stroke="orange" points="149.41,-101.05 139.16,-103.71 148.83,-108.03 149.41,-101.05"/>
 </a>
@@ -61,9 +61,9 @@
 <text text-anchor="middle" x="242.5" y="-122" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">Depth &gt;</text>
 </g>
 <!-- Node4 -->
-<g id="node4" class="node">
+<g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d7/dc1/class_cached_item.html" target="_top" xlink:title=" ">
+<g id="a_Node000004"><a xlink:href="../../d7/dc1/class_cached_item.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="506.5,-89.5 357.5,-89.5 357.5,-48.5 506.5,-48.5 506.5,-89.5"/>
 <text text-anchor="start" x="365.5" y="-77.5" font-family="Helvetica,sans-Serif" font-size="10.00">CachedItem&lt; int, PageTree</text>
 <text text-anchor="start" x="365.5" y="-66.5" font-family="Helvetica,sans-Serif" font-size="10.00">Context::Private, &amp;Private</text>
@@ -72,9 +72,9 @@
 </g>
 </g>
 <!-- Node3&#45;&gt;Node4 -->
-<g id="edge4" class="edge">
+<g id="edge4_Node000004_Node000003" class="edge">
 <title>Node3&#45;&gt;Node4</title>
-<g id="a_edge4"><a xlink:title=" ">
+<g id="a_edge4_Node000004_Node000003"><a xlink:title=" ">
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M121.99,-79.95C133.38,-76.68 145.49,-73.76 157,-72 224.25,-61.74 301.86,-62 357.28,-64.24"/>
 <polygon fill="orange" stroke="orange" points="120.76,-76.66 112.19,-82.89 122.78,-83.37 120.76,-76.66"/>
 </a>
@@ -84,9 +84,9 @@
 <text text-anchor="middle" x="242.5" y="-75" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">Depth &gt;</text>
 </g>
 <!-- Node4&#45;&gt;Node1 -->
-<g id="edge3" class="edge">
+<g id="edge3_Node000001_Node000004" class="edge">
 <title>Node4&#45;&gt;Node1</title>
-<g id="a_edge3"><a xlink:title=" ">
+<g id="a_edge3_Node000001_Node000004"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M516.94,-69C558.39,-69 607.78,-69 646.92,-69"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="516.85,-65.5 506.85,-69 516.85,-72.5 516.85,-65.5"/>
 </a>
@@ -94,9 +94,9 @@
 <text text-anchor="middle" x="582.5" y="-72" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> m_preferredDepth</text>
 </g>
 <!-- Node5 -->
-<g id="node5" class="node">
+<g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d5/dbf/class_property_map.html" target="_top" xlink:title=" ">
+<g id="a_Node000005"><a xlink:href="../../d5/dbf/class_property_map.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="518,-30 346,-30 346,0 518,0 518,-30"/>
 <text text-anchor="start" x="354" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">PropertyMap&lt; PageTreeContext</text>
 <text text-anchor="middle" x="432" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::Private &gt;</text>
@@ -104,9 +104,9 @@
 </g>
 </g>
 <!-- Node5&#45;&gt;Node1 -->
-<g id="edge5" class="edge">
+<g id="edge5_Node000001_Node000005" class="edge">
 <title>Node5&#45;&gt;Node1</title>
-<g id="a_edge5"><a xlink:title=" ">
+<g id="a_edge5_Node000001_Node000005"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M521.67,-31.95C569.15,-41.03 625.87,-51.87 665.65,-59.47"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="522.17,-28.48 511.69,-30.04 520.86,-35.36 522.17,-28.48"/>
 </a>
@@ -114,18 +114,18 @@
 <text text-anchor="middle" x="582.5" y="-54" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> s_inst</text>
 </g>
 <!-- Node6 -->
-<g id="node6" class="node">
+<g id="Node000006" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="../../d5/dbf/class_property_map.html" target="_top" xlink:title="Class representing a mapping of properties and the corresponding getter function.">
+<g id="a_Node000006"><a xlink:href="../../d5/dbf/class_property_map.html" target="_top" xlink:title="Class representing a mapping of properties and the corresponding getter function.">
 <polygon fill="white" stroke="#666666" points="123,-24.5 16,-24.5 16,-5.5 123,-5.5 123,-24.5"/>
 <text text-anchor="middle" x="69.5" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">PropertyMap&lt; T &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node5 -->
-<g id="edge6" class="edge">
+<g id="edge6_Node000005_Node000006" class="edge">
 <title>Node6&#45;&gt;Node5</title>
-<g id="a_edge6"><a xlink:title=" ">
+<g id="a_edge6_Node000005_Node000006"><a xlink:title=" ">
 <path fill="none" stroke="orange" stroke-dasharray="5,2" d="M133.58,-15C192.47,-15 280.8,-15 345.91,-15"/>
 <polygon fill="orange" stroke="orange" points="133.31,-11.5 123.31,-15 133.31,-18.5 133.31,-11.5"/>
 </a>

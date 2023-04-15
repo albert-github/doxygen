@@ -1,5 +1,8 @@
 var NAVTREEINDEX99 =
 {
+"dd/d0b/class_translator_slovene.html#a7c3d2fd34b708cba867b25d8b34b80c7":[9,0,617,71],
+"dd/d0b/class_translator_slovene.html#a7d975ec6d1c31123233ffbe5d6c7d846":[9,0,617,40],
+"dd/d0b/class_translator_slovene.html#a7df87eea0a251268a008c2f7d941a66d":[9,0,617,107],
 "dd/d0b/class_translator_slovene.html#a7f42097716abdf4cf2799ed13ffcdf11":[9,0,617,186],
 "dd/d0b/class_translator_slovene.html#a80c864485225b2018f3c518f3f95c1f1":[9,0,617,123],
 "dd/d0b/class_translator_slovene.html#a80cc45c286add64f5a6a64bde5ef81dd":[9,0,617,18],
@@ -135,10 +138,10 @@ var NAVTREEINDEX99 =
 "dd/d0d/class_config_impl.html#af583f0410601ca82409b3ed626516dd2":[9,0,80,37],
 "dd/d0d/class_config_impl.html#af661fbf44e03c43d5ae7c3e30ef33a18":[9,0,80,0],
 "dd/d0d/class_config_impl.html#afb11a49a6e7c717d0242fedf10a36309":[9,0,80,23],
-"dd/d0d/struct_output_gen_intf_1_1end_member_doc_name.html":[8,0,10,48],
 "dd/d0d/struct_output_gen_intf_1_1end_member_doc_name.html":[9,0,5,48],
-"dd/d0d/struct_output_gen_intf_1_1end_member_doc_name.html#aec41bfa541d7ddc6a5047ad9b54bb410":[9,0,5,48,0],
+"dd/d0d/struct_output_gen_intf_1_1end_member_doc_name.html":[8,0,10,48],
 "dd/d0d/struct_output_gen_intf_1_1end_member_doc_name.html#aec41bfa541d7ddc6a5047ad9b54bb410":[8,0,10,48,0],
+"dd/d0d/struct_output_gen_intf_1_1end_member_doc_name.html#aec41bfa541d7ddc6a5047ad9b54bb410":[9,0,5,48,0],
 "dd/d10/class_definition_mixin.html":[9,0,106],
 "dd/d10/class_definition_mixin.html#a02d6c291e02c6ea0fa9f36867b3d2634":[9,0,106,56],
 "dd/d10/class_definition_mixin.html#a03ee9d5777b8854f5663681f4352d6f2":[9,0,106,84],
@@ -246,8 +249,5 @@ var NAVTREEINDEX99 =
 "dd/d13/class_member_list.html#a2a7f72b278a142254abb9e406abf83bf":[9,0,392,35],
 "dd/d13/class_member_list.html#a2b2252601d808653f9a0166fe928e52f":[9,0,392,33],
 "dd/d13/class_member_list.html#a32eb89a63cd45be662353c445232c403":[9,0,392,4],
-"dd/d13/class_member_list.html#a332043aa0d664d063e7fcc0614acbeea":[9,0,392,2],
-"dd/d13/class_member_list.html#a393ee5dda002be396f08d4d473afedd9":[9,0,392,5],
-"dd/d13/class_member_list.html#a3e36f184f58e200b6913d383d5ec1a46":[9,0,392,0],
-"dd/d13/class_member_list.html#a44322cca2b89d97eac0bbb4ac2f734ab":[9,0,392,16]
+"dd/d13/class_member_list.html#a332043aa0d664d063e7fcc0614acbeea":[9,0,392,2]
 };

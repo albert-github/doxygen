@@ -1,5 +1,8 @@
 var NAVTREEINDEX6 =
 {
+"d0/dc2/class_class_def_mutable.html#a9aeaf894c5b89c28322bcaaeef220c0c":[9,0,41,33],
+"d0/dc2/class_class_def_mutable.html#a9c8efa9791f60a2d93bfb735d5880f86":[9,0,41,35],
+"d0/dc2/class_class_def_mutable.html#a9ebbd33fff9657c55529319f4a355309":[9,0,41,40],
 "d0/dc2/class_class_def_mutable.html#aa29fd7952f1c8eb27ec028f721752ef2":[9,0,41,23],
 "d0/dc2/class_class_def_mutable.html#aa5eb04ce72bf8939bc7f1e101fb385ad":[9,0,41,42],
 "d0/dc2/class_class_def_mutable.html#aad450d410ef63ffbd30b47be5a70e742":[9,0,41,32],
@@ -246,8 +249,5 @@ var NAVTREEINDEX6 =
 "d1/d10/struct_namespace_context_1_1_private_1_1_cachable.html#a1be0e0daf42a7e4aa38906999a778290":[9,0,405,0,0,13],
 "d1/d10/struct_namespace_context_1_1_private_1_1_cachable.html#a273247d63cb86faa2ca6e8db07c0bf6e":[9,0,405,0,0,16],
 "d1/d10/struct_namespace_context_1_1_private_1_1_cachable.html#a2b374c38f30f5dfc2a845203433ac38f":[9,0,405,0,0,14],
-"d1/d10/struct_namespace_context_1_1_private_1_1_cachable.html#a38769ef7f0a930e6d684b8fa50313d31":[9,0,405,0,0,8],
-"d1/d10/struct_namespace_context_1_1_private_1_1_cachable.html#a45cfa773b654d45b87d731ade53104dd":[9,0,405,0,0,4],
-"d1/d10/struct_namespace_context_1_1_private_1_1_cachable.html#a5148ea44eddc29cb712830b8ed8caa60":[9,0,405,0,0,5],
-"d1/d10/struct_namespace_context_1_1_private_1_1_cachable.html#a65736d32d3f3164acde533d97caf1533":[9,0,405,0,0,11]
+"d1/d10/struct_namespace_context_1_1_private_1_1_cachable.html#a38769ef7f0a930e6d684b8fa50313d31":[9,0,405,0,0,8]
 };

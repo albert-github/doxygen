@@ -1,5 +1,8 @@
 var NAVTREEINDEX39 =
 {
+"d5/d43/class_translator_persian.html#a835e8ca3ed52a59c24674ba5add81c64":[9,0,609,163],
+"d5/d43/class_translator_persian.html#a846d38ea7744f8cda16e9b9caeba77f9":[9,0,609,87],
+"d5/d43/class_translator_persian.html#a849cc9bd373965760be5063531a605fa":[9,0,609,142],
 "d5/d43/class_translator_persian.html#a84f30dd24c444b4392ac46eeaf5da3d1":[9,0,609,75],
 "d5/d43/class_translator_persian.html#a854a097b43de9a54c7fdaf50c94bc4b2":[9,0,609,92],
 "d5/d43/class_translator_persian.html#a86abda5f0e1ef23e5453801b8260223f":[9,0,609,186],
@@ -108,8 +111,8 @@ var NAVTREEINDEX39 =
 "d5/d4c/class_expr_ast_negate.html#a1cf3fec89cf143e2bf25aa8b38e3fb6e":[9,0,237,1],
 "d5/d4c/class_expr_ast_negate.html#a3f3ddac695da0939cc879a604aa2749e":[9,0,237,2],
 "d5/d4c/class_expr_ast_negate.html#ac212e245054a30a080de4b616f4f043f":[9,0,237,0],
-"d5/d4c/struct_output_gen_intf_1_1line_break.html":[8,0,10,79],
 "d5/d4c/struct_output_gen_intf_1_1line_break.html":[9,0,5,79],
+"d5/d4c/struct_output_gen_intf_1_1line_break.html":[8,0,10,79],
 "d5/d4c/struct_output_gen_intf_1_1line_break.html#ac9119308776d74ce994d332634f50de8":[8,0,10,79,0],
 "d5/d4c/struct_output_gen_intf_1_1line_break.html#ac9119308776d74ce994d332634f50de8":[9,0,5,79,0],
 "d5/d50/translator__ua_8h.html":[10,0,2,291],
@@ -246,8 +249,5 @@ var NAVTREEINDEX39 =
 "d5/d54/class_class_context_1_1_private.html#aeabc724931ff75265688a30344fe6c79":[9,0,37,0,12],
 "d5/d54/class_class_context_1_1_private.html#aed2e4ca64b2fbab2564122c55325f7a0":[9,0,37,0,15],
 "d5/d54/class_class_context_1_1_private.html#af1d07ddc8dcb7343209213c45bbb29f2":[9,0,37,0,23],
-"d5/d54/class_class_context_1_1_private.html#af3c11d0f99f7b9a8c243a31bbcf5ce24":[9,0,37,0,87],
-"d5/d54/class_class_context_1_1_private.html#af4ece79fff9ee0b9a869ec6f8c13f4df":[9,0,37,0,73],
-"d5/d54/class_class_context_1_1_private.html#af5b67772403a60e78d4ecf28c9af620f":[9,0,37,0,47],
-"d5/d54/class_class_context_1_1_private.html#af8533405b9e5c27e0f85b2abaa877ef4":[9,0,37,0,61]
+"d5/d54/class_class_context_1_1_private.html#af3c11d0f99f7b9a8c243a31bbcf5ce24":[9,0,37,0,87]
 };
