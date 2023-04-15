@@ -1,5 +1,6 @@
 var NAVTREEINDEX106 =
 {
+"dd/df6/class_translator_chinesetraditional.html#a023c78624554447745aca5c07d76212f":[9,0,586,18],
 "dd/df6/class_translator_chinesetraditional.html#a028e21ebc33dffcd502982aa7fa64503":[9,0,586,54],
 "dd/df6/class_translator_chinesetraditional.html#a0470e477f7a67716fe4c4f7f232ba1d2":[9,0,586,170],
 "dd/df6/class_translator_chinesetraditional.html#a04fc172a8323473e29b8cc520501a635":[9,0,586,234],
@@ -248,6 +249,5 @@ var NAVTREEINDEX106 =
 "dd/df7/struct_selection_marker_info.html#ab4597d459ff05293cac45620c10d4f8f":[9,0,481,3],
 "dd/df7/struct_selection_marker_info.html#ab6aece6342a3ed740c018e32c8ec32da":[9,0,481,1],
 "dd/df7/struct_selection_marker_info.html#ac38beed74ab1eeb1533f56f16c87ea30":[9,0,481,2],
-"dd/df7/struct_selection_marker_info.html#aec8efc4ffd93cc05ddc714d3a4042312":[9,0,481,4],
-"dd/df7/struct_selection_marker_info.html#aed8a0e4c5a58eaa28ea76e0698be8f9b":[9,0,481,5]
+"dd/df7/struct_selection_marker_info.html#aec8efc4ffd93cc05ddc714d3a4042312":[9,0,481,4]
 };

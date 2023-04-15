@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"d1/d6a/class_translator_japanese.html#ad84cb0b3598d4fbec1959b9e664c5714":[9,0,601,20],
 "d1/d6a/class_translator_japanese.html#ad9c3549fb27b3a61b1ab51f9d424beb3":[9,0,601,108],
 "d1/d6a/class_translator_japanese.html#ada64de6ac856c538fca1420ed6e1ca46":[9,0,601,33],
 "d1/d6a/class_translator_japanese.html#adc3cf43668085ce9adb3a003c410452a":[9,0,601,174],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "d1/d72/class_docbook_generator.html#af72268bb6256cc0b2e5589073f10bb06":[9,0,127,149],
 "d1/d72/class_docbook_generator.html#af787f05779c3a1ef0320865700cd5fff":[9,0,127,42],
 "d1/d72/class_docbook_generator.html#af882cc6b2978a2eea0a83c8e59a5f0ee":[9,0,127,39],
-"d1/d72/class_docbook_generator.html#afab958dd26a75104df2c47501621beaf":[9,0,127,131],
-"d1/d72/class_docbook_generator.html#afae8cb3fd84db1e998a4f03433c1493b":[9,0,127,9]
+"d1/d72/class_docbook_generator.html#afab958dd26a75104df2c47501621beaf":[9,0,127,131]
 };

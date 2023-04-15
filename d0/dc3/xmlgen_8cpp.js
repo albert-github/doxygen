@@ -15,6 +15,7 @@ var xmlgen_8cpp =
     [ "generateXMLSection", "d0/dc3/xmlgen_8cpp.html#ae2a1082c2ac75baf234fc2af4bbf32d7", null ],
     [ "memberOutputFileBase", "d0/dc3/xmlgen_8cpp.html#a69d84fe064603dbc422d3df3190c5c0e", null ],
     [ "memberVisible", "d0/dc3/xmlgen_8cpp.html#a87820cde653197fc9c4de838999c3104", null ],
+    [ "stripAnonymousMarkers", "d0/dc3/xmlgen_8cpp.html#a3a30de88958d15c2cf424f7efc5c6ef9", null ],
     [ "stripQualifiers", "d0/dc3/xmlgen_8cpp.html#a8acb7287be03115c56196dd1a1085225", null ],
     [ "writeCombineScript", "d0/dc3/xmlgen_8cpp.html#afdcb651fa099a6b705bd08e02e24333f", null ],
     [ "writeIncludeInfo", "d0/dc3/xmlgen_8cpp.html#a8961a6e2496115a7cde0222c4ee213d6", null ],

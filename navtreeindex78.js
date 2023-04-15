@@ -1,5 +1,6 @@
 var NAVTREEINDEX78 =
 {
+"da/d32/class_translator_romanian.html#a55c461ecf1e60ca8a982bf65de0d6328":[9,0,612,130],
 "da/d32/class_translator_romanian.html#a5689bab36160e93a8fbfae5824608bac":[9,0,612,210],
 "da/d32/class_translator_romanian.html#a5858c6cb6e24f1edf66b667e356d5caf":[9,0,612,242],
 "da/d32/class_translator_romanian.html#a59e9fe04abf0b6ad6b53f9698c15675f":[9,0,612,162],
@@ -248,6 +249,5 @@ var NAVTREEINDEX78 =
 "da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca653b486e14d3775eff75c1fc3582557a":[8,0,8,0,2],
 "da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca69da3a4829e3330851f4ca6d2828018f":[8,0,8,0,1],
 "da/d4e/struct_citation_manager_1_1_private.html":[9,0,32,0],
-"da/d4e/struct_citation_manager_1_1_private.html#a1b060e55fdd945e3f802942708c36c4b":[9,0,32,0,0],
-"da/d4e/struct_citation_manager_1_1_private.html#aebb64cb55fe9bfcc582ee70a1378f7d9":[9,0,32,0,1]
+"da/d4e/struct_citation_manager_1_1_private.html#a1b060e55fdd945e3f802942708c36c4b":[9,0,32,0,0]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX15 =
 {
+"d1/dcf/class_class_def.html#a1e4c88be7cbea1cd3c46833f69843612":[9,0,38,92],
 "d1/dcf/class_class_def.html#a1fd0e2c039c6d81ffa25579184568e87":[9,0,38,32],
 "d1/dcf/class_class_def.html#a201b8f24043f9b7c7cc59d55282f6d47":[9,0,38,72],
 "d1/dcf/class_class_def.html#a21e64cf1626ca35924f114aaadac8009":[9,0,38,90],
@@ -248,6 +249,5 @@ var NAVTREEINDEX15 =
 "d2/d07/class_translator_esperanto.html#a03b4baa7a56aa31c9584647ae06a2b21":[9,0,592,45],
 "d2/d07/class_translator_esperanto.html#a0402120451d994d7d2eec8d50cd9ec7a":[9,0,592,74],
 "d2/d07/class_translator_esperanto.html#a04f4509ee8b8e8f488468e689fa2e457":[9,0,592,212],
-"d2/d07/class_translator_esperanto.html#a0539c4bfc07fc94c412513ce7a7549c2":[9,0,592,57],
-"d2/d07/class_translator_esperanto.html#a07f2ed82c85c638c9f43e084b260e050":[9,0,592,188]
+"d2/d07/class_translator_esperanto.html#a0539c4bfc07fc94c412513ce7a7549c2":[9,0,592,57]
 };

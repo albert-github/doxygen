@@ -1,5 +1,6 @@
 var NAVTREEINDEX72 =
 {
+"d9/dc1/class_translator_catalan.html#ac4e8e482b2ada5747b320e9fc2fd59b7":[9,0,584,0],
 "d9/dc1/class_translator_catalan.html#ac53980db5a49706f05c1b486cfe99acc":[9,0,584,94],
 "d9/dc1/class_translator_catalan.html#ac62e8f029d7834e381994ebb2949f124":[9,0,584,75],
 "d9/dc1/class_translator_catalan.html#ac757e8e1a95c5074db9f515b46a7bd18":[9,0,584,143],
@@ -134,8 +135,8 @@ var NAVTREEINDEX72 =
 "d9/dcc/structpyscanner_y_y__state.html#af7a4d5f5c5f8c9293d2a7e109bbf4994":[9,0,452,35],
 "d9/dcd/struct_output_gen_intf_1_1start_typewriter.html":[9,0,5,150],
 "d9/dcd/struct_output_gen_intf_1_1start_typewriter.html":[8,0,10,150],
-"d9/dcd/struct_output_gen_intf_1_1start_typewriter.html#af7b9b58a4aebf3e83f7e4eb7a621628c":[9,0,5,150,0],
 "d9/dcd/struct_output_gen_intf_1_1start_typewriter.html#af7b9b58a4aebf3e83f7e4eb7a621628c":[8,0,10,150,0],
+"d9/dcd/struct_output_gen_intf_1_1start_typewriter.html#af7b9b58a4aebf3e83f7e4eb7a621628c":[9,0,5,150,0],
 "d9/dd0/lexscanner_8h.html":[10,0,2,160],
 "d9/dd0/lexscanner_8h_source.html":[10,0,2,160],
 "d9/dd2/class_doc_par_block.html":[9,0,171],
@@ -248,6 +249,5 @@ var NAVTREEINDEX72 =
 "d9/ddf/class_translator_macedonian.html#a62eb2c35a72b064d6d921b089d5ef7f2":[9,0,607,29],
 "d9/ddf/class_translator_macedonian.html#a66c46f2430c4d38af87202df3a48726a":[9,0,607,168],
 "d9/ddf/class_translator_macedonian.html#a6952b2279a7f502790d8e7e10515b9a5":[9,0,607,207],
-"d9/ddf/class_translator_macedonian.html#a6a548bf4047b1f6779108a34b907ac5f":[9,0,607,150],
-"d9/ddf/class_translator_macedonian.html#a6a9f1e1a9b6780a447eeef787e3f2099":[9,0,607,137]
+"d9/ddf/class_translator_macedonian.html#a6a548bf4047b1f6779108a34b907ac5f":[9,0,607,150]
 };
