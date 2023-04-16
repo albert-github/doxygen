@@ -346,7 +346,6 @@ var hierarchy =
     [ "Color", "d9/d44/struct_color.html", null ],
     [ "ColoredImage", "dc/da6/class_colored_image.html", null ],
     [ "ColoredImgDataItem", "da/d06/struct_colored_img_data_item.html", null ],
-    [ "CommandMap", "dd/d16/struct_command_map.html", null ],
     [ "commentcnvYY_CondCtx", "d2/daa/structcommentcnv_y_y___cond_ctx.html", null ],
     [ "commentcnvYY_state", "d6/d8d/structcommentcnv_y_y__state.html", null ],
     [ "CommentCtx", "db/d8d/struct_comment_ctx.html", null ],
@@ -902,7 +901,6 @@ var hierarchy =
       [ "UseMap", "d2/d76/class_use_map.html", null ]
     ] ],
     [ "Mapper", "d9/d09/class_mapper.html", null ],
-    [ "Mappers", "dd/dc6/struct_mappers.html", null ],
     [ "TemplateNodeIndexEntry::Mapping", "d7/dfa/struct_template_node_index_entry_1_1_mapping.html", null ],
     [ "TemplateNodeSet::Mapping", "d8/d36/struct_template_node_set_1_1_mapping.html", null ],
     [ "TemplateNodeWith::Mapping", "d3/d05/struct_template_node_with_1_1_mapping.html", null ],
@@ -1493,6 +1491,12 @@ var hierarchy =
     ] ],
     [ "TemplateNodeTree::TreeContext", "de/d99/struct_template_node_tree_1_1_tree_context.html", null ],
     [ "TreeDiagram", "d4/dc4/class_tree_diagram.html", null ],
+    [ "std::unique_ptr", null, [
+      [ "DeepCopyUniquePtr< DocInfo >", "da/dc3/class_deep_copy_unique_ptr.html", null ],
+      [ "DeepCopyUniquePtr< BriefInfo >", "da/dc3/class_deep_copy_unique_ptr.html", null ],
+      [ "DeepCopyUniquePtr< BodyInfo >", "da/dc3/class_deep_copy_unique_ptr.html", null ],
+      [ "DeepCopyUniquePtr< T >", "da/dc3/class_deep_copy_unique_ptr.html", null ]
+    ] ],
     [ "SearchIndex::URL", "d6/dc5/struct_search_index_1_1_u_r_l.html", null ],
     [ "SearchIndex::URLInfo", "d9/d5e/struct_search_index_1_1_u_r_l_info.html", null ],
     [ "UsedDir", "df/d42/class_used_dir.html", null ],

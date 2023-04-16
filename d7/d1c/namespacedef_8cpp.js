@@ -2,8 +2,8 @@ var namespacedef_8cpp =
 [
     [ "NamespaceDefImpl", "d5/dfa/class_namespace_def_impl.html", "d5/dfa/class_namespace_def_impl" ],
     [ "NamespaceDefAliasImpl", "d2/d9c/class_namespace_def_alias_impl.html", "d2/d9c/class_namespace_def_alias_impl" ],
-    [ "createNamespaceDef", "d7/d1c/namespacedef_8cpp.html#a97d8398a7293fef2b9fd9ff490294ea7", null ],
-    [ "createNamespaceDefAlias", "d7/d1c/namespacedef_8cpp.html#ae65b26c6bacb105ce782802c1036547b", null ],
+    [ "createNamespaceDef", "d7/d1c/namespacedef_8cpp.html#ac1d161993501b3f63c91fe154559dce8", null ],
+    [ "createNamespaceDefAlias", "d7/d1c/namespacedef_8cpp.html#a6212baba497e02a45f5c5fe48aa7d4af", null ],
     [ "getResolvedNamespace", "d7/d1c/namespacedef_8cpp.html#ac29daa4ae4a11022a30d2deb6934624c", null ],
     [ "makeDisplayName", "d7/d1c/namespacedef_8cpp.html#ac849416c926bc0f8cd8bbb1f76c22833", null ],
     [ "namespaceHasNestedClass", "d7/d1c/namespacedef_8cpp.html#a3d15fcf5c959d5ce9db005cba5692094", null ],

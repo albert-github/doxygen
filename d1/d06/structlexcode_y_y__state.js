@@ -13,6 +13,7 @@ var structlexcode_y_y__state =
     [ "docBlockContext", "d1/d06/structlexcode_y_y__state.html#adb0d07ee01f2baf6978a0f390b6b628e", null ],
     [ "docBlockName", "d1/d06/structlexcode_y_y__state.html#a0192c6a74788519fee68274580821552", null ],
     [ "exampleBlock", "d1/d06/structlexcode_y_y__state.html#a262d6cfe76c8ff0042960560b14430af", null ],
+    [ "exampleFileDef", "d1/d06/structlexcode_y_y__state.html#a0c6d0bd5ed318711f8dd38844da334a9", null ],
     [ "exampleName", "d1/d06/structlexcode_y_y__state.html#a9ea9cdc2cdd35092c18f8dfaf9e3a26e", null ],
     [ "fencedSize", "d1/d06/structlexcode_y_y__state.html#acdb2a6678c1b3a2aff7f2273df440c2c", null ],
     [ "fileName", "d1/d06/structlexcode_y_y__state.html#a90760d5b5208c97d03543f28b8b93be4", null ],

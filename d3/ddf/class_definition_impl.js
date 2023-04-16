@@ -97,5 +97,5 @@ var class_definition_impl =
     [ "writeSummaryLinks", "d3/ddf/class_definition_impl.html#a22e57e00b2e5520ca75d174042c423e1", null ],
     [ "writeToc", "d3/ddf/class_definition_impl.html#acff1068065be6bd3a5526d291555c7a6", null ],
     [ "xrefListItems", "d3/ddf/class_definition_impl.html#a1c6e9e9e720e83c4d05172aa1f83a550", null ],
-    [ "m_impl", "d3/ddf/class_definition_impl.html#a576a0058a0c30e930612c35c02f95808", null ]
+    [ "m_impl", "d3/ddf/class_definition_impl.html#a4450aa1e57303c37256be081bf5664b7", null ]
 ];

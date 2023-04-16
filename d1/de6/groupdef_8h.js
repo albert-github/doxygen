@@ -11,7 +11,7 @@ var groupdef_8h =
     [ "addMemberToGroups", "d1/de6/groupdef_8h.html#affd271e102af38c14812ccc21a86401c", null ],
     [ "addNamespaceToGroups", "d1/de6/groupdef_8h.html#a035458fc750e2a32abad901b719f8392", null ],
     [ "addPageToGroups", "d1/de6/groupdef_8h.html#ab157c286347d2c7b574ac380b70bebca", null ],
-    [ "createGroupDef", "d1/de6/groupdef_8h.html#ad3362d3f357e1eec2d8c169be7c9f813", null ],
+    [ "createGroupDef", "d1/de6/groupdef_8h.html#ad6183f79a16993a6ee06e93ae0357bbe", null ],
     [ "toGroupDef", "d1/de6/groupdef_8h.html#af7300755cb300198b86b98757b2f8311", null ],
     [ "toGroupDef", "d1/de6/groupdef_8h.html#a81b6ac5e79beed572376b9aebfa96da5", null ]
 ];

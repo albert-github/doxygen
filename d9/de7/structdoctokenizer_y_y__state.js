@@ -15,6 +15,6 @@ var structdoctokenizer_y_y__state =
     [ "secTitle", "d9/de7/structdoctokenizer_y_y__state.html#a916e9da8e69affe85005a1df1ee397a8", null ],
     [ "secType", "d9/de7/structdoctokenizer_y_y__state.html#ad4bb3e4d6d0dacb57bff447281bca44f", null ],
     [ "sharpCount", "d9/de7/structdoctokenizer_y_y__state.html#aa95a5fe468b28d28550f3d35349f7996", null ],
-    [ "token", "d9/de7/structdoctokenizer_y_y__state.html#afe38ff7e66993129bae0042d64f8b994", null ],
+    [ "token", "d9/de7/structdoctokenizer_y_y__state.html#ab41286ef55a69cc03476464875f6c139", null ],
     [ "yyLineNr", "d9/de7/structdoctokenizer_y_y__state.html#a12c78a1f713b84c4aac118db54275cda", null ]
 ];

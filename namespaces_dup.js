@@ -49,6 +49,10 @@ var namespaces_dup =
     ] ],
     [ "fmt", "d4/d6d/namespacefmt.html", "d4/d6d/namespacefmt" ],
     [ "IndexIntf", "dc/d92/namespace_index_intf.html", "dc/d92/namespace_index_intf" ],
+    [ "Mappers", "dd/d6a/namespace_mappers.html", [
+      [ "cmdMapper", "dd/d6a/namespace_mappers.html#aa58cb010bfcbf014c86bd9b33fe1c4b8", null ],
+      [ "htmlTagMapper", "dd/d6a/namespace_mappers.html#a3434f1de6712f719aea15cd30b2527ce", null ]
+    ] ],
     [ "NamespaceMemberHighlight", "da/d4d/namespace_namespace_member_highlight.html", [
       [ "Enum", "da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7c", [
         [ "All", "da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca361bea90e10d43996b1baed4e51cbd62", null ],

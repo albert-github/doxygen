@@ -2,8 +2,8 @@ var conceptdef_8cpp =
 [
     [ "ConceptDefImpl", "d8/d72/class_concept_def_impl.html", "d8/d72/class_concept_def_impl" ],
     [ "ConceptDefAliasImpl", "dd/df3/class_concept_def_alias_impl.html", "dd/df3/class_concept_def_alias_impl" ],
-    [ "createConceptDef", "d8/d0a/conceptdef_8cpp.html#ae34c0c0fc8caccfb97595e92f20bccc0", null ],
-    [ "createConceptDefAlias", "d8/d0a/conceptdef_8cpp.html#a7ab736ffb6d3e780d7cf0fca7c1eb9ba", null ],
+    [ "createConceptDef", "d8/d0a/conceptdef_8cpp.html#acc6115230c47267766eb73392f9de1f9", null ],
+    [ "createConceptDefAlias", "d8/d0a/conceptdef_8cpp.html#ac3907be09ae35f7ef088faa47d2d6a06", null ],
     [ "getConcept", "d8/d0a/conceptdef_8cpp.html#abc9dcc96b75f1a299589ec14c2a97c97", null ],
     [ "getResolvedConcept", "d8/d0a/conceptdef_8cpp.html#a6bc5655b365e44b18669ff804724d11e", null ],
     [ "templateSpec", "d8/d0a/conceptdef_8cpp.html#aae9827c2942482734d1355ecddd0fa6d", null ],

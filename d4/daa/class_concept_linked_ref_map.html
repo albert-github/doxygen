@@ -198,7 +198,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../da/df1/conceptdef_8h_source.html#l00069">69</a> of file <a class="el" href="../../da/df1/conceptdef_8h_source.html">conceptdef.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/df1/conceptdef_8h_source.html#l00071">71</a> of file <a class="el" href="../../da/df1/conceptdef_8h_source.html">conceptdef.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a6e7ac01918b370ac96818557ef87bf49" name="a6e7ac01918b370ac96818557ef87bf49"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6e7ac01918b370ac96818557ef87bf49">&#9670;&#160;</a></span>declVisible()</h2>
@@ -215,19 +215,19 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d0a/conceptdef_8cpp_source.html#l00664">664</a> of file <a class="el" href="../../d8/d0a/conceptdef_8cpp_source.html">conceptdef.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  665</span>{</div>
-<div class="line"><span class="lineno">  666</span>  <span class="keywordtype">bool</span> hideUndocClasses = <a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(HIDE_UNDOC_CLASSES);</div>
-<div class="line"><span class="lineno">  667</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;cd : *this)</div>
-<div class="line"><span class="lineno">  668</span>  {</div>
-<div class="line"><span class="lineno">  669</span>    <span class="keywordtype">bool</span> isLink = cd-&gt;isLinkable();</div>
-<div class="line"><span class="lineno">  670</span>    <span class="keywordflow">if</span> (isLink || !hideUndocClasses)</div>
-<div class="line"><span class="lineno">  671</span>    {</div>
-<div class="line"><span class="lineno">  672</span>      <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  673</span>    }</div>
-<div class="line"><span class="lineno">  674</span>  }</div>
-<div class="line"><span class="lineno">  675</span>  <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  676</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d8/d0a/conceptdef_8cpp_source.html#l00663">663</a> of file <a class="el" href="../../d8/d0a/conceptdef_8cpp_source.html">conceptdef.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  664</span>{</div>
+<div class="line"><span class="lineno">  665</span>  <span class="keywordtype">bool</span> hideUndocClasses = <a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(HIDE_UNDOC_CLASSES);</div>
+<div class="line"><span class="lineno">  666</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;cd : *this)</div>
+<div class="line"><span class="lineno">  667</span>  {</div>
+<div class="line"><span class="lineno">  668</span>    <span class="keywordtype">bool</span> isLink = cd-&gt;isLinkable();</div>
+<div class="line"><span class="lineno">  669</span>    <span class="keywordflow">if</span> (isLink || !hideUndocClasses)</div>
+<div class="line"><span class="lineno">  670</span>    {</div>
+<div class="line"><span class="lineno">  671</span>      <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  672</span>    }</div>
+<div class="line"><span class="lineno">  673</span>  }</div>
+<div class="line"><span class="lineno">  674</span>  <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  675</span>}</div>
 <div class="ttc" id="aconfig_8h_html_a5373d0332a31f16ad7a42037733e8c79"><div class="ttname"><a href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a></div><div class="ttdeci">#define Config_getBool(name)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/config_8h.html#l00033">config.h:33</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>.</p>
@@ -268,15 +268,15 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d0a/conceptdef_8cpp_source.html#l00678">678</a> of file <a class="el" href="../../d8/d0a/conceptdef_8cpp_source.html">conceptdef.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  679</span>{</div>
-<div class="line"><span class="lineno">  680</span>  <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="line"><span class="lineno">  681</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;cd : *this)</div>
-<div class="line"><span class="lineno">  682</span>  {</div>
-<div class="line"><span class="lineno">  683</span>    cd-&gt;writeDeclarationLink(ol,<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>,header,localNames);</div>
-<div class="line"><span class="lineno">  684</span>  }</div>
-<div class="line"><span class="lineno">  685</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>) ol.<a class="code hl_function" href="../../df/dc8/class_output_list.html#a7c8d844390c3ab106b675144baa48fc7">endMemberList</a>();</div>
-<div class="line"><span class="lineno">  686</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d8/d0a/conceptdef_8cpp_source.html#l00677">677</a> of file <a class="el" href="../../d8/d0a/conceptdef_8cpp_source.html">conceptdef.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  678</span>{</div>
+<div class="line"><span class="lineno">  679</span>  <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
+<div class="line"><span class="lineno">  680</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;cd : *this)</div>
+<div class="line"><span class="lineno">  681</span>  {</div>
+<div class="line"><span class="lineno">  682</span>    cd-&gt;writeDeclarationLink(ol,<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>,header,localNames);</div>
+<div class="line"><span class="lineno">  683</span>  }</div>
+<div class="line"><span class="lineno">  684</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>) ol.<a class="code hl_function" href="../../df/dc8/class_output_list.html#a7c8d844390c3ab106b675144baa48fc7">endMemberList</a>();</div>
+<div class="line"><span class="lineno">  685</span>}</div>
 <div class="ttc" id="aclass_output_list_html_a7c8d844390c3ab106b675144baa48fc7"><div class="ttname"><a href="../../df/dc8/class_output_list.html#a7c8d844390c3ab106b675144baa48fc7">OutputList::endMemberList</a></div><div class="ttdeci">void endMemberList()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc8/class_output_list.html#l00612">outputlist.h:612</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_aa93f0eb578d23995850d61f7d61c55c1"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></div><div class="ttdeci">#define FALSE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h.html#l00033">qcstring.h:33</a></div></div>
 <div class="ttc" id="autil_8cpp_html_a7141f237b2648c631ce5b73215683565"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a></div><div class="ttdeci">bool found</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp.html#l00962">util.cpp:962</a></div></div>

@@ -10,6 +10,7 @@ var structxmlcode_y_y__state =
     [ "CurrScope", "d1/d7e/structxmlcode_y_y__state.html#a2bc351917877ed7121841f427dd2d6a7", null ],
     [ "exampleBlock", "d1/d7e/structxmlcode_y_y__state.html#af0afeb134554b3ccee78f2022b30e687", null ],
     [ "exampleFile", "d1/d7e/structxmlcode_y_y__state.html#a7b51741681c072453537631385e96d52", null ],
+    [ "exampleFileDef", "d1/d7e/structxmlcode_y_y__state.html#a506cb5c3947077ffca9464f3a7d39e58", null ],
     [ "exampleName", "d1/d7e/structxmlcode_y_y__state.html#a048b6d4e9766b9624e196eca234ea766", null ],
     [ "fileName", "d1/d7e/structxmlcode_y_y__state.html#a0a50a6e07d2a4b05d1ae77da81ee4d4f", null ],
     [ "includeCodeFragment", "d1/d7e/structxmlcode_y_y__state.html#acfffd02140b9a8ebb8d21ee13fd00df2", null ],

@@ -15,6 +15,7 @@ var structpycode_y_y__state =
     [ "doubleStringIsDoc", "d4/d4f/structpycode_y_y__state.html#a81a23c84bf07df92147f5fe5e54d18f5", null ],
     [ "endComment", "d4/d4f/structpycode_y_y__state.html#a0fc36b851717c36ed521b5e112b1d424", null ],
     [ "exampleBlock", "d4/d4f/structpycode_y_y__state.html#a049968be501b89eab43a364725203fa9", null ],
+    [ "exampleFileDef", "d4/d4f/structpycode_y_y__state.html#ac35ddc7b91b5934dfa344ee154d52b38", null ],
     [ "exampleName", "d4/d4f/structpycode_y_y__state.html#aa2368cd2b959cc633b1a99bd9f9648e9", null ],
     [ "fileName", "d4/d4f/structpycode_y_y__state.html#ad8824c1e8bb18d411901c560d0f2d07d", null ],
     [ "includeCodeFragment", "d4/d4f/structpycode_y_y__state.html#a39d59f6ddf73c53fbfda4a6a6329c214", null ],

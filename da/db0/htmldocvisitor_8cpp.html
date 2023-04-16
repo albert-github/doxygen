@@ -320,7 +320,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00069">hex</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00396">QCString::setNum()</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l00958">word</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00995">HtmlDocVisitor::operator()()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00992">HtmlDocVisitor::operator()()</a>.</p>
 
 </div>
 </div>
@@ -348,35 +348,35 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01266">1266</a> of file <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html">htmldocvisitor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1267</span>{</div>
-<div class="line"><span class="lineno"> 1268</span>  <span class="keywordtype">bool</span> needsTag = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="line"><span class="lineno"> 1269</span>  <span class="keywordflow">if</span> (p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>())</div>
-<div class="line"><span class="lineno"> 1270</span>  {</div>
-<div class="line"><span class="lineno"> 1271</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../de/d2b/docnode_8h.html#a1c1632e37b281677f09baa3acce082cf">holds_one_of_alternatives</a>&lt;<a class="code hl_class" href="../../d2/da3/class_doc_section.html">DocSection</a>,</div>
-<div class="line"><span class="lineno"> 1272</span>                         <a class="code hl_class" href="../../db/d6d/class_doc_internal.html">DocInternal</a>,</div>
-<div class="line"><span class="lineno"> 1273</span>                         <a class="code hl_class" href="../../df/da8/class_doc_html_list_item.html">DocHtmlListItem</a>,</div>
-<div class="line"><span class="lineno"> 1274</span>                         <a class="code hl_class" href="../../dd/d88/class_doc_html_desc_data.html">DocHtmlDescData</a>,</div>
-<div class="line"><span class="lineno"> 1275</span>                         <a class="code hl_class" href="../../d1/d56/class_doc_html_cell.html">DocHtmlCell</a>,</div>
-<div class="line"><span class="lineno"> 1276</span>                         <a class="code hl_class" href="../../d4/d1e/class_doc_simple_list_item.html">DocSimpleListItem</a>,</div>
-<div class="line"><span class="lineno"> 1277</span>                         <a class="code hl_class" href="../../d8/df9/class_doc_auto_list_item.html">DocAutoListItem</a>,</div>
-<div class="line"><span class="lineno"> 1278</span>                         <a class="code hl_class" href="../../de/d65/class_doc_simple_sect.html">DocSimpleSect</a>,</div>
-<div class="line"><span class="lineno"> 1279</span>                         <a class="code hl_class" href="../../d0/d90/class_doc_x_ref_item.html">DocXRefItem</a>,</div>
-<div class="line"><span class="lineno"> 1280</span>                         <a class="code hl_class" href="../../d9/dd3/class_doc_html_block_quote.html">DocHtmlBlockQuote</a>,</div>
-<div class="line"><span class="lineno"> 1281</span>                         <a class="code hl_class" href="../../d9/dd2/class_doc_par_block.html">DocParBlock</a>,</div>
-<div class="line"><span class="lineno"> 1282</span>                         <a class="code hl_class" href="../../dc/dcc/class_doc_html_details.html">DocHtmlDetails</a>,</div>
-<div class="line"><span class="lineno"> 1283</span>                         <a class="code hl_class" href="../../df/d20/class_doc_html_summary.html">DocHtmlSummary</a></div>
-<div class="line"><span class="lineno"> 1284</span>                         &gt;(*p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>()))</div>
-<div class="line"><span class="lineno"> 1285</span>    {</div>
-<div class="line"><span class="lineno"> 1286</span>      needsTag = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno"> 1287</span>    }</div>
-<div class="line"><span class="lineno"> 1288</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (std::get_if&lt;DocRoot&gt;(p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>()))</div>
-<div class="line"><span class="lineno"> 1289</span>    {</div>
-<div class="line"><span class="lineno"> 1290</span>      needsTag = !std::get&lt;DocRoot&gt;(*p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>()).singleLine();</div>
-<div class="line"><span class="lineno"> 1291</span>    }</div>
-<div class="line"><span class="lineno"> 1292</span>  }</div>
-<div class="line"><span class="lineno"> 1293</span>  <span class="keywordflow">return</span> needsTag;</div>
-<div class="line"><span class="lineno"> 1294</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01263">1263</a> of file <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html">htmldocvisitor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1264</span>{</div>
+<div class="line"><span class="lineno"> 1265</span>  <span class="keywordtype">bool</span> needsTag = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
+<div class="line"><span class="lineno"> 1266</span>  <span class="keywordflow">if</span> (p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>())</div>
+<div class="line"><span class="lineno"> 1267</span>  {</div>
+<div class="line"><span class="lineno"> 1268</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../de/d2b/docnode_8h.html#a1c1632e37b281677f09baa3acce082cf">holds_one_of_alternatives</a>&lt;<a class="code hl_class" href="../../d2/da3/class_doc_section.html">DocSection</a>,</div>
+<div class="line"><span class="lineno"> 1269</span>                         <a class="code hl_class" href="../../db/d6d/class_doc_internal.html">DocInternal</a>,</div>
+<div class="line"><span class="lineno"> 1270</span>                         <a class="code hl_class" href="../../df/da8/class_doc_html_list_item.html">DocHtmlListItem</a>,</div>
+<div class="line"><span class="lineno"> 1271</span>                         <a class="code hl_class" href="../../dd/d88/class_doc_html_desc_data.html">DocHtmlDescData</a>,</div>
+<div class="line"><span class="lineno"> 1272</span>                         <a class="code hl_class" href="../../d1/d56/class_doc_html_cell.html">DocHtmlCell</a>,</div>
+<div class="line"><span class="lineno"> 1273</span>                         <a class="code hl_class" href="../../d4/d1e/class_doc_simple_list_item.html">DocSimpleListItem</a>,</div>
+<div class="line"><span class="lineno"> 1274</span>                         <a class="code hl_class" href="../../d8/df9/class_doc_auto_list_item.html">DocAutoListItem</a>,</div>
+<div class="line"><span class="lineno"> 1275</span>                         <a class="code hl_class" href="../../de/d65/class_doc_simple_sect.html">DocSimpleSect</a>,</div>
+<div class="line"><span class="lineno"> 1276</span>                         <a class="code hl_class" href="../../d0/d90/class_doc_x_ref_item.html">DocXRefItem</a>,</div>
+<div class="line"><span class="lineno"> 1277</span>                         <a class="code hl_class" href="../../d9/dd3/class_doc_html_block_quote.html">DocHtmlBlockQuote</a>,</div>
+<div class="line"><span class="lineno"> 1278</span>                         <a class="code hl_class" href="../../d9/dd2/class_doc_par_block.html">DocParBlock</a>,</div>
+<div class="line"><span class="lineno"> 1279</span>                         <a class="code hl_class" href="../../dc/dcc/class_doc_html_details.html">DocHtmlDetails</a>,</div>
+<div class="line"><span class="lineno"> 1280</span>                         <a class="code hl_class" href="../../df/d20/class_doc_html_summary.html">DocHtmlSummary</a></div>
+<div class="line"><span class="lineno"> 1281</span>                         &gt;(*p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>()))</div>
+<div class="line"><span class="lineno"> 1282</span>    {</div>
+<div class="line"><span class="lineno"> 1283</span>      needsTag = <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno"> 1284</span>    }</div>
+<div class="line"><span class="lineno"> 1285</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (std::get_if&lt;DocRoot&gt;(p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>()))</div>
+<div class="line"><span class="lineno"> 1286</span>    {</div>
+<div class="line"><span class="lineno"> 1287</span>      needsTag = !std::get&lt;DocRoot&gt;(*p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>()).singleLine();</div>
+<div class="line"><span class="lineno"> 1288</span>    }</div>
+<div class="line"><span class="lineno"> 1289</span>  }</div>
+<div class="line"><span class="lineno"> 1290</span>  <span class="keywordflow">return</span> needsTag;</div>
+<div class="line"><span class="lineno"> 1291</span>}</div>
 <div class="ttc" id="aclass_doc_auto_list_item_html"><div class="ttname"><a href="../../d8/df9/class_doc_auto_list_item.html">DocAutoListItem</a></div><div class="ttdoc">Node representing an item of a auto list.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/df9/class_doc_auto_list_item.html#l00566">docnode.h:567</a></div></div>
 <div class="ttc" id="aclass_doc_html_block_quote_html"><div class="ttname"><a href="../../d9/dd3/class_doc_html_block_quote.html">DocHtmlBlockQuote</a></div><div class="ttdoc">Node representing an HTML blockquote.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dd3/class_doc_html_block_quote.html#l01251">docnode.h:1252</a></div></div>
 <div class="ttc" id="aclass_doc_html_cell_html"><div class="ttname"><a href="../../d1/d56/class_doc_html_cell.html">DocHtmlCell</a></div><div class="ttdoc">Node representing a HTML table cell.</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d56/class_doc_html_cell.html#l01153">docnode.h:1154</a></div></div>
@@ -397,7 +397,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l01327">holds_one_of_alternatives()</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00091">DocNode::parent()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01296">HtmlDocVisitor::operator()()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01293">HtmlDocVisitor::operator()()</a>.</p>
 
 </div>
 </div>
@@ -441,146 +441,146 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01134">1134</a> of file <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html">htmldocvisitor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1135</span>{</div>
-<div class="line"><span class="lineno"> 1136</span>  <span class="keywordtype">int</span> t=0;</div>
-<div class="line"><span class="lineno"> 1137</span>  isFirst=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="line"><span class="lineno"> 1138</span>  isLast=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="line"><span class="lineno"> 1139</span>  <span class="keywordflow">if</span> (p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>())</div>
-<div class="line"><span class="lineno"> 1140</span>  {</div>
-<div class="line"><span class="lineno"> 1141</span>    <span class="keyword">const</span> <span class="keyword">auto</span> parBlock = std::get_if&lt;DocParBlock&gt;(p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>());</div>
-<div class="line"><span class="lineno"> 1142</span>    <span class="keywordflow">if</span> (parBlock)</div>
-<div class="line"><span class="lineno"> 1143</span>    {</div>
-<div class="line"><span class="lineno"> 1144</span>      <span class="comment">// hierarchy: node N -&gt; para -&gt; parblock -&gt; para</span></div>
-<div class="line"><span class="lineno"> 1145</span>      <span class="comment">// adapt return value to kind of N</span></div>
-<div class="line"><span class="lineno"> 1146</span>      <span class="keyword">const</span> <a class="code hl_typedef" href="../../de/d2b/docnode_8h.html#afad5b9fbe2e475f242fe258914b6a4a0">DocNodeVariant</a> *p3 = 0;</div>
-<div class="line"><span class="lineno"> 1147</span>      <span class="keywordflow">if</span> (<a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">::parent</a>(p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>()) &amp;&amp; <a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">::parent</a>(<a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">::parent</a>(p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>())) )</div>
-<div class="line"><span class="lineno"> 1148</span>      {</div>
-<div class="line"><span class="lineno"> 1149</span>        p3 = <a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">::parent</a>(<a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">::parent</a>(p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>()));</div>
-<div class="line"><span class="lineno"> 1150</span>      }</div>
-<div class="line"><span class="lineno"> 1151</span>      isFirst=<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#a520aa4c3a57667d69b67c176e4828d14">isFirstChildNode</a>(parBlock,p);</div>
-<div class="line"><span class="lineno"> 1152</span>      isLast =<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#abe2e2b94699822e58607ee92aa93cfc1">isLastChildNode</a> (parBlock,p);</div>
-<div class="line"><span class="lineno"> 1153</span>      <span class="keywordtype">bool</span> isLI = p3!=0 &amp;&amp; holds_one_of_alternatives&lt;DocHtmlListItem,DocSecRefItem&gt;(*p3);</div>
-<div class="line"><span class="lineno"> 1154</span>      <span class="keywordtype">bool</span> isDD = p3!=0 &amp;&amp; holds_one_of_alternatives&lt;DocHtmlDescData,DocXRefItem,DocSimpleSect&gt;(*p3);</div>
-<div class="line"><span class="lineno"> 1155</span>      <span class="keywordtype">bool</span> isTD = p3!=0 &amp;&amp; holds_one_of_alternatives&lt;DocHtmlCell,DocParamList&gt;(*p3);</div>
-<div class="line"><span class="lineno"> 1156</span>      t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaac157bdf0b85a40d2619cbc8bc1ae5fe2">NONE</a>;</div>
-<div class="line"><span class="lineno"> 1157</span>      <span class="keywordflow">if</span> (isFirst)</div>
-<div class="line"><span class="lineno"> 1158</span>      {</div>
-<div class="line"><span class="lineno"> 1159</span>        <span class="keywordflow">if</span> (isLI) t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa548e17365cc6c28ebd7c8b5aa9a643e8">STARTLI</a>; <span class="keywordflow">else</span> <span class="keywordflow">if</span> (isDD) t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa6a8ac109cae56df2895ef4358cf16e96">STARTDD</a>; <span class="keywordflow">else</span> <span class="keywordflow">if</span> (isTD) t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa3a68970bb0e1d50d29454aa096cfa1ef">STARTTD</a>;</div>
-<div class="line"><span class="lineno"> 1160</span>      }</div>
-<div class="line"><span class="lineno"> 1161</span>      <span class="keywordflow">if</span> (isLast)</div>
-<div class="line"><span class="lineno"> 1162</span>      {</div>
-<div class="line"><span class="lineno"> 1163</span>        <span class="keywordflow">if</span> (isLI) t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaaa59aad91565c3b6964c2ed774e8498db">ENDLI</a>;   <span class="keywordflow">else</span> <span class="keywordflow">if</span> (isDD) t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa84a574e566d2b3e6ef6ba2c1f2b8fd41">ENDDD</a>;   <span class="keywordflow">else</span> <span class="keywordflow">if</span> (isTD) t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaae31c7779cf1f474162c4e6009ad0d226">ENDTD</a>;</div>
-<div class="line"><span class="lineno"> 1164</span>      }</div>
-<div class="line"><span class="lineno"> 1165</span>      <span class="keywordflow">if</span> (!isFirst &amp;&amp; !isLast)</div>
-<div class="line"><span class="lineno"> 1166</span>      {</div>
-<div class="line"><span class="lineno"> 1167</span>        <span class="keywordflow">if</span> (isLI) t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa5f6e7990c2bea9353455ec443df10e87">INTERLI</a>; <span class="keywordflow">else</span> <span class="keywordflow">if</span> (isDD) t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa08220bdb8a0db8262edd7f34dc04f404">INTERDD</a>; <span class="keywordflow">else</span> <span class="keywordflow">if</span> (isTD) t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaab69cf88c17ed259c26152983e64024f4">INTERTD</a>;</div>
-<div class="line"><span class="lineno"> 1168</span>      }</div>
-<div class="line"><span class="lineno"> 1169</span>      <span class="keywordflow">return</span> t;</div>
-<div class="line"><span class="lineno"> 1170</span>    }</div>
-<div class="line"><span class="lineno"> 1171</span>    <span class="keyword">const</span> <span class="keyword">auto</span> docAutoListItem = std::get_if&lt;DocAutoListItem&gt;(p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>());</div>
-<div class="line"><span class="lineno"> 1172</span>    <span class="keywordflow">if</span> (docAutoListItem)</div>
-<div class="line"><span class="lineno"> 1173</span>    {</div>
-<div class="line"><span class="lineno"> 1174</span>      isFirst=<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#a520aa4c3a57667d69b67c176e4828d14">isFirstChildNode</a>(docAutoListItem,p);</div>
-<div class="line"><span class="lineno"> 1175</span>      isLast =<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#abe2e2b94699822e58607ee92aa93cfc1">isLastChildNode</a> (docAutoListItem,p);</div>
-<div class="line"><span class="lineno"> 1176</span>      t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa548e17365cc6c28ebd7c8b5aa9a643e8">STARTLI</a>; <span class="comment">// not used</span></div>
-<div class="line"><span class="lineno"> 1177</span>      <span class="keywordflow">return</span> t;</div>
-<div class="line"><span class="lineno"> 1178</span>    }</div>
-<div class="line"><span class="lineno"> 1179</span>    <span class="keyword">const</span> <span class="keyword">auto</span> docSimpleListItem = std::get_if&lt;DocSimpleListItem&gt;(p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>());</div>
-<div class="line"><span class="lineno"> 1180</span>    <span class="keywordflow">if</span> (docSimpleListItem)</div>
-<div class="line"><span class="lineno"> 1181</span>    {</div>
-<div class="line"><span class="lineno"> 1182</span>      isFirst=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno"> 1183</span>      isLast =<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno"> 1184</span>      t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa548e17365cc6c28ebd7c8b5aa9a643e8">STARTLI</a>; <span class="comment">// not used</span></div>
-<div class="line"><span class="lineno"> 1185</span>      <span class="keywordflow">return</span> t;</div>
-<div class="line"><span class="lineno"> 1186</span>    }</div>
-<div class="line"><span class="lineno"> 1187</span>    <span class="keyword">const</span> <span class="keyword">auto</span> docParamList = std::get_if&lt;DocParamList&gt;(p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>());</div>
-<div class="line"><span class="lineno"> 1188</span>    <span class="keywordflow">if</span> (docParamList)</div>
-<div class="line"><span class="lineno"> 1189</span>    {</div>
-<div class="line"><span class="lineno"> 1190</span>      isFirst=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno"> 1191</span>      isLast =<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno"> 1192</span>      t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa548e17365cc6c28ebd7c8b5aa9a643e8">STARTLI</a>; <span class="comment">// not used</span></div>
-<div class="line"><span class="lineno"> 1193</span>      <span class="keywordflow">return</span> t;</div>
-<div class="line"><span class="lineno"> 1194</span>    }</div>
-<div class="line"><span class="lineno"> 1195</span>    <span class="keyword">const</span> <span class="keyword">auto</span> docHtmlListItem = std::get_if&lt;DocHtmlListItem&gt;(p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>());</div>
-<div class="line"><span class="lineno"> 1196</span>    <span class="keywordflow">if</span> (docHtmlListItem)</div>
-<div class="line"><span class="lineno"> 1197</span>    {</div>
-<div class="line"><span class="lineno"> 1198</span>      isFirst=<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#a520aa4c3a57667d69b67c176e4828d14">isFirstChildNode</a>(docHtmlListItem,p);</div>
-<div class="line"><span class="lineno"> 1199</span>      isLast =<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#abe2e2b94699822e58607ee92aa93cfc1">isLastChildNode</a> (docHtmlListItem,p);</div>
-<div class="line"><span class="lineno"> 1200</span>      <span class="keywordflow">if</span> (isFirst) t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa548e17365cc6c28ebd7c8b5aa9a643e8">STARTLI</a>;</div>
-<div class="line"><span class="lineno"> 1201</span>      <span class="keywordflow">if</span> (isLast)  t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaaa59aad91565c3b6964c2ed774e8498db">ENDLI</a>;</div>
-<div class="line"><span class="lineno"> 1202</span>      <span class="keywordflow">if</span> (!isFirst &amp;&amp; !isLast) t = <a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa5f6e7990c2bea9353455ec443df10e87">INTERLI</a>;</div>
-<div class="line"><span class="lineno"> 1203</span>      <span class="keywordflow">return</span> t;</div>
-<div class="line"><span class="lineno"> 1204</span>    }</div>
-<div class="line"><span class="lineno"> 1205</span>    <span class="keyword">const</span> <span class="keyword">auto</span> docSecRefItem = std::get_if&lt;DocSecRefItem&gt;(p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>());</div>
-<div class="line"><span class="lineno"> 1206</span>    <span class="keywordflow">if</span> (docSecRefItem)</div>
-<div class="line"><span class="lineno"> 1207</span>    {</div>
-<div class="line"><span class="lineno"> 1208</span>      isFirst=<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#a520aa4c3a57667d69b67c176e4828d14">isFirstChildNode</a>(docSecRefItem,p);</div>
-<div class="line"><span class="lineno"> 1209</span>      isLast =<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#abe2e2b94699822e58607ee92aa93cfc1">isLastChildNode</a> (docSecRefItem,p);</div>
-<div class="line"><span class="lineno"> 1210</span>      <span class="keywordflow">if</span> (isFirst) t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa548e17365cc6c28ebd7c8b5aa9a643e8">STARTLI</a>;</div>
-<div class="line"><span class="lineno"> 1211</span>      <span class="keywordflow">if</span> (isLast)  t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaaa59aad91565c3b6964c2ed774e8498db">ENDLI</a>;</div>
-<div class="line"><span class="lineno"> 1212</span>      <span class="keywordflow">if</span> (!isFirst &amp;&amp; !isLast) t = <a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa5f6e7990c2bea9353455ec443df10e87">INTERLI</a>;</div>
-<div class="line"><span class="lineno"> 1213</span>      <span class="keywordflow">return</span> t;</div>
-<div class="line"><span class="lineno"> 1214</span>    }</div>
-<div class="line"><span class="lineno"> 1215</span>    <span class="keyword">const</span> <span class="keyword">auto</span> docHtmlDescData = std::get_if&lt;DocHtmlDescData&gt;(p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>());</div>
-<div class="line"><span class="lineno"> 1216</span>    <span class="keywordflow">if</span> (docHtmlDescData)</div>
-<div class="line"><span class="lineno"> 1217</span>    {</div>
-<div class="line"><span class="lineno"> 1218</span>      isFirst=<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#a520aa4c3a57667d69b67c176e4828d14">isFirstChildNode</a>(docHtmlDescData,p);</div>
-<div class="line"><span class="lineno"> 1219</span>      isLast =<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#abe2e2b94699822e58607ee92aa93cfc1">isLastChildNode</a> (docHtmlDescData,p);</div>
-<div class="line"><span class="lineno"> 1220</span>      <span class="keywordflow">if</span> (isFirst) t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa6a8ac109cae56df2895ef4358cf16e96">STARTDD</a>;</div>
-<div class="line"><span class="lineno"> 1221</span>      <span class="keywordflow">if</span> (isLast)  t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa84a574e566d2b3e6ef6ba2c1f2b8fd41">ENDDD</a>;</div>
-<div class="line"><span class="lineno"> 1222</span>      <span class="keywordflow">if</span> (!isFirst &amp;&amp; !isLast) t = <a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa08220bdb8a0db8262edd7f34dc04f404">INTERDD</a>;</div>
-<div class="line"><span class="lineno"> 1223</span>      <span class="keywordflow">return</span> t;</div>
-<div class="line"><span class="lineno"> 1224</span>    }</div>
-<div class="line"><span class="lineno"> 1225</span>    <span class="keyword">const</span> <span class="keyword">auto</span> docXRefItem = std::get_if&lt;DocXRefItem&gt;(p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>());</div>
-<div class="line"><span class="lineno"> 1226</span>    <span class="keywordflow">if</span> (docXRefItem)</div>
-<div class="line"><span class="lineno"> 1227</span>    {</div>
-<div class="line"><span class="lineno"> 1228</span>      isFirst=<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#a520aa4c3a57667d69b67c176e4828d14">isFirstChildNode</a>(docXRefItem,p);</div>
-<div class="line"><span class="lineno"> 1229</span>      isLast =<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#abe2e2b94699822e58607ee92aa93cfc1">isLastChildNode</a> (docXRefItem,p);</div>
-<div class="line"><span class="lineno"> 1230</span>      <span class="keywordflow">if</span> (isFirst) t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa6a8ac109cae56df2895ef4358cf16e96">STARTDD</a>;</div>
-<div class="line"><span class="lineno"> 1231</span>      <span class="keywordflow">if</span> (isLast)  t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa84a574e566d2b3e6ef6ba2c1f2b8fd41">ENDDD</a>;</div>
-<div class="line"><span class="lineno"> 1232</span>      <span class="keywordflow">if</span> (!isFirst &amp;&amp; !isLast) t = <a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa08220bdb8a0db8262edd7f34dc04f404">INTERDD</a>;</div>
-<div class="line"><span class="lineno"> 1233</span>      <span class="keywordflow">return</span> t;</div>
-<div class="line"><span class="lineno"> 1234</span>    }</div>
-<div class="line"><span class="lineno"> 1235</span>    <span class="keyword">const</span> <span class="keyword">auto</span> docSimpleSect = std::get_if&lt;DocSimpleSect&gt;(p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>());</div>
-<div class="line"><span class="lineno"> 1236</span>    <span class="keywordflow">if</span> (docSimpleSect)</div>
-<div class="line"><span class="lineno"> 1237</span>    {</div>
-<div class="line"><span class="lineno"> 1238</span>      isFirst=<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#a520aa4c3a57667d69b67c176e4828d14">isFirstChildNode</a>(docSimpleSect,p);</div>
-<div class="line"><span class="lineno"> 1239</span>      isLast =<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#abe2e2b94699822e58607ee92aa93cfc1">isLastChildNode</a> (docSimpleSect,p);</div>
-<div class="line"><span class="lineno"> 1240</span>      <span class="keywordflow">if</span> (isFirst) t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa6a8ac109cae56df2895ef4358cf16e96">STARTDD</a>;</div>
-<div class="line"><span class="lineno"> 1241</span>      <span class="keywordflow">if</span> (isLast)  t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa84a574e566d2b3e6ef6ba2c1f2b8fd41">ENDDD</a>;</div>
-<div class="line"><span class="lineno"> 1242</span>      <span class="keywordflow">if</span> (<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#ab6b89b7570220507ecccee5aa2872f30">isSeparatedParagraph</a>(*docSimpleSect,p))</div>
-<div class="line"><span class="lineno"> 1243</span>        <span class="comment">// if the paragraph is enclosed with separators it will</span></div>
-<div class="line"><span class="lineno"> 1244</span>        <span class="comment">// be included in &lt;dd&gt;..&lt;/dd&gt; so avoid addition paragraph</span></div>
-<div class="line"><span class="lineno"> 1245</span>        <span class="comment">// markers</span></div>
-<div class="line"><span class="lineno"> 1246</span>      {</div>
-<div class="line"><span class="lineno"> 1247</span>        isFirst=isLast=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno"> 1248</span>      }</div>
-<div class="line"><span class="lineno"> 1249</span>      <span class="keywordflow">if</span> (!isFirst &amp;&amp; !isLast) t = <a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa08220bdb8a0db8262edd7f34dc04f404">INTERDD</a>;</div>
-<div class="line"><span class="lineno"> 1250</span>      <span class="keywordflow">return</span> t;</div>
-<div class="line"><span class="lineno"> 1251</span>    }</div>
-<div class="line"><span class="lineno"> 1252</span>    <span class="keyword">const</span> <span class="keyword">auto</span> docHtmlCell = std::get_if&lt;DocHtmlCell&gt;(p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>());</div>
-<div class="line"><span class="lineno"> 1253</span>    <span class="keywordflow">if</span> (docHtmlCell)</div>
-<div class="line"><span class="lineno"> 1254</span>    {</div>
-<div class="line"><span class="lineno"> 1255</span>      isFirst=<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#a520aa4c3a57667d69b67c176e4828d14">isFirstChildNode</a>(docHtmlCell,p);</div>
-<div class="line"><span class="lineno"> 1256</span>      isLast =<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#abe2e2b94699822e58607ee92aa93cfc1">isLastChildNode</a> (docHtmlCell,p);</div>
-<div class="line"><span class="lineno"> 1257</span>      <span class="keywordflow">if</span> (isFirst) t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa3a68970bb0e1d50d29454aa096cfa1ef">STARTTD</a>;</div>
-<div class="line"><span class="lineno"> 1258</span>      <span class="keywordflow">if</span> (isLast)  t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaae31c7779cf1f474162c4e6009ad0d226">ENDTD</a>;</div>
-<div class="line"><span class="lineno"> 1259</span>      <span class="keywordflow">if</span> (!isFirst &amp;&amp; !isLast) t = <a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaab69cf88c17ed259c26152983e64024f4">INTERTD</a>;</div>
-<div class="line"><span class="lineno"> 1260</span>      <span class="keywordflow">return</span> t;</div>
-<div class="line"><span class="lineno"> 1261</span>    }</div>
-<div class="line"><span class="lineno"> 1262</span>  }</div>
-<div class="line"><span class="lineno"> 1263</span>  <span class="keywordflow">return</span> t;</div>
-<div class="line"><span class="lineno"> 1264</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01131">1131</a> of file <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html">htmldocvisitor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1132</span>{</div>
+<div class="line"><span class="lineno"> 1133</span>  <span class="keywordtype">int</span> t=0;</div>
+<div class="line"><span class="lineno"> 1134</span>  isFirst=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
+<div class="line"><span class="lineno"> 1135</span>  isLast=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
+<div class="line"><span class="lineno"> 1136</span>  <span class="keywordflow">if</span> (p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>())</div>
+<div class="line"><span class="lineno"> 1137</span>  {</div>
+<div class="line"><span class="lineno"> 1138</span>    <span class="keyword">const</span> <span class="keyword">auto</span> parBlock = std::get_if&lt;DocParBlock&gt;(p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>());</div>
+<div class="line"><span class="lineno"> 1139</span>    <span class="keywordflow">if</span> (parBlock)</div>
+<div class="line"><span class="lineno"> 1140</span>    {</div>
+<div class="line"><span class="lineno"> 1141</span>      <span class="comment">// hierarchy: node N -&gt; para -&gt; parblock -&gt; para</span></div>
+<div class="line"><span class="lineno"> 1142</span>      <span class="comment">// adapt return value to kind of N</span></div>
+<div class="line"><span class="lineno"> 1143</span>      <span class="keyword">const</span> <a class="code hl_typedef" href="../../de/d2b/docnode_8h.html#afad5b9fbe2e475f242fe258914b6a4a0">DocNodeVariant</a> *p3 = 0;</div>
+<div class="line"><span class="lineno"> 1144</span>      <span class="keywordflow">if</span> (<a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">::parent</a>(p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>()) &amp;&amp; <a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">::parent</a>(<a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">::parent</a>(p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>())) )</div>
+<div class="line"><span class="lineno"> 1145</span>      {</div>
+<div class="line"><span class="lineno"> 1146</span>        p3 = <a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">::parent</a>(<a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">::parent</a>(p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>()));</div>
+<div class="line"><span class="lineno"> 1147</span>      }</div>
+<div class="line"><span class="lineno"> 1148</span>      isFirst=<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#a520aa4c3a57667d69b67c176e4828d14">isFirstChildNode</a>(parBlock,p);</div>
+<div class="line"><span class="lineno"> 1149</span>      isLast =<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#abe2e2b94699822e58607ee92aa93cfc1">isLastChildNode</a> (parBlock,p);</div>
+<div class="line"><span class="lineno"> 1150</span>      <span class="keywordtype">bool</span> isLI = p3!=0 &amp;&amp; holds_one_of_alternatives&lt;DocHtmlListItem,DocSecRefItem&gt;(*p3);</div>
+<div class="line"><span class="lineno"> 1151</span>      <span class="keywordtype">bool</span> isDD = p3!=0 &amp;&amp; holds_one_of_alternatives&lt;DocHtmlDescData,DocXRefItem,DocSimpleSect&gt;(*p3);</div>
+<div class="line"><span class="lineno"> 1152</span>      <span class="keywordtype">bool</span> isTD = p3!=0 &amp;&amp; holds_one_of_alternatives&lt;DocHtmlCell,DocParamList&gt;(*p3);</div>
+<div class="line"><span class="lineno"> 1153</span>      t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaac157bdf0b85a40d2619cbc8bc1ae5fe2">NONE</a>;</div>
+<div class="line"><span class="lineno"> 1154</span>      <span class="keywordflow">if</span> (isFirst)</div>
+<div class="line"><span class="lineno"> 1155</span>      {</div>
+<div class="line"><span class="lineno"> 1156</span>        <span class="keywordflow">if</span> (isLI) t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa548e17365cc6c28ebd7c8b5aa9a643e8">STARTLI</a>; <span class="keywordflow">else</span> <span class="keywordflow">if</span> (isDD) t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa6a8ac109cae56df2895ef4358cf16e96">STARTDD</a>; <span class="keywordflow">else</span> <span class="keywordflow">if</span> (isTD) t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa3a68970bb0e1d50d29454aa096cfa1ef">STARTTD</a>;</div>
+<div class="line"><span class="lineno"> 1157</span>      }</div>
+<div class="line"><span class="lineno"> 1158</span>      <span class="keywordflow">if</span> (isLast)</div>
+<div class="line"><span class="lineno"> 1159</span>      {</div>
+<div class="line"><span class="lineno"> 1160</span>        <span class="keywordflow">if</span> (isLI) t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaaa59aad91565c3b6964c2ed774e8498db">ENDLI</a>;   <span class="keywordflow">else</span> <span class="keywordflow">if</span> (isDD) t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa84a574e566d2b3e6ef6ba2c1f2b8fd41">ENDDD</a>;   <span class="keywordflow">else</span> <span class="keywordflow">if</span> (isTD) t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaae31c7779cf1f474162c4e6009ad0d226">ENDTD</a>;</div>
+<div class="line"><span class="lineno"> 1161</span>      }</div>
+<div class="line"><span class="lineno"> 1162</span>      <span class="keywordflow">if</span> (!isFirst &amp;&amp; !isLast)</div>
+<div class="line"><span class="lineno"> 1163</span>      {</div>
+<div class="line"><span class="lineno"> 1164</span>        <span class="keywordflow">if</span> (isLI) t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa5f6e7990c2bea9353455ec443df10e87">INTERLI</a>; <span class="keywordflow">else</span> <span class="keywordflow">if</span> (isDD) t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa08220bdb8a0db8262edd7f34dc04f404">INTERDD</a>; <span class="keywordflow">else</span> <span class="keywordflow">if</span> (isTD) t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaab69cf88c17ed259c26152983e64024f4">INTERTD</a>;</div>
+<div class="line"><span class="lineno"> 1165</span>      }</div>
+<div class="line"><span class="lineno"> 1166</span>      <span class="keywordflow">return</span> t;</div>
+<div class="line"><span class="lineno"> 1167</span>    }</div>
+<div class="line"><span class="lineno"> 1168</span>    <span class="keyword">const</span> <span class="keyword">auto</span> docAutoListItem = std::get_if&lt;DocAutoListItem&gt;(p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>());</div>
+<div class="line"><span class="lineno"> 1169</span>    <span class="keywordflow">if</span> (docAutoListItem)</div>
+<div class="line"><span class="lineno"> 1170</span>    {</div>
+<div class="line"><span class="lineno"> 1171</span>      isFirst=<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#a520aa4c3a57667d69b67c176e4828d14">isFirstChildNode</a>(docAutoListItem,p);</div>
+<div class="line"><span class="lineno"> 1172</span>      isLast =<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#abe2e2b94699822e58607ee92aa93cfc1">isLastChildNode</a> (docAutoListItem,p);</div>
+<div class="line"><span class="lineno"> 1173</span>      t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa548e17365cc6c28ebd7c8b5aa9a643e8">STARTLI</a>; <span class="comment">// not used</span></div>
+<div class="line"><span class="lineno"> 1174</span>      <span class="keywordflow">return</span> t;</div>
+<div class="line"><span class="lineno"> 1175</span>    }</div>
+<div class="line"><span class="lineno"> 1176</span>    <span class="keyword">const</span> <span class="keyword">auto</span> docSimpleListItem = std::get_if&lt;DocSimpleListItem&gt;(p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>());</div>
+<div class="line"><span class="lineno"> 1177</span>    <span class="keywordflow">if</span> (docSimpleListItem)</div>
+<div class="line"><span class="lineno"> 1178</span>    {</div>
+<div class="line"><span class="lineno"> 1179</span>      isFirst=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno"> 1180</span>      isLast =<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno"> 1181</span>      t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa548e17365cc6c28ebd7c8b5aa9a643e8">STARTLI</a>; <span class="comment">// not used</span></div>
+<div class="line"><span class="lineno"> 1182</span>      <span class="keywordflow">return</span> t;</div>
+<div class="line"><span class="lineno"> 1183</span>    }</div>
+<div class="line"><span class="lineno"> 1184</span>    <span class="keyword">const</span> <span class="keyword">auto</span> docParamList = std::get_if&lt;DocParamList&gt;(p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>());</div>
+<div class="line"><span class="lineno"> 1185</span>    <span class="keywordflow">if</span> (docParamList)</div>
+<div class="line"><span class="lineno"> 1186</span>    {</div>
+<div class="line"><span class="lineno"> 1187</span>      isFirst=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno"> 1188</span>      isLast =<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno"> 1189</span>      t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa548e17365cc6c28ebd7c8b5aa9a643e8">STARTLI</a>; <span class="comment">// not used</span></div>
+<div class="line"><span class="lineno"> 1190</span>      <span class="keywordflow">return</span> t;</div>
+<div class="line"><span class="lineno"> 1191</span>    }</div>
+<div class="line"><span class="lineno"> 1192</span>    <span class="keyword">const</span> <span class="keyword">auto</span> docHtmlListItem = std::get_if&lt;DocHtmlListItem&gt;(p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>());</div>
+<div class="line"><span class="lineno"> 1193</span>    <span class="keywordflow">if</span> (docHtmlListItem)</div>
+<div class="line"><span class="lineno"> 1194</span>    {</div>
+<div class="line"><span class="lineno"> 1195</span>      isFirst=<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#a520aa4c3a57667d69b67c176e4828d14">isFirstChildNode</a>(docHtmlListItem,p);</div>
+<div class="line"><span class="lineno"> 1196</span>      isLast =<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#abe2e2b94699822e58607ee92aa93cfc1">isLastChildNode</a> (docHtmlListItem,p);</div>
+<div class="line"><span class="lineno"> 1197</span>      <span class="keywordflow">if</span> (isFirst) t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa548e17365cc6c28ebd7c8b5aa9a643e8">STARTLI</a>;</div>
+<div class="line"><span class="lineno"> 1198</span>      <span class="keywordflow">if</span> (isLast)  t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaaa59aad91565c3b6964c2ed774e8498db">ENDLI</a>;</div>
+<div class="line"><span class="lineno"> 1199</span>      <span class="keywordflow">if</span> (!isFirst &amp;&amp; !isLast) t = <a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa5f6e7990c2bea9353455ec443df10e87">INTERLI</a>;</div>
+<div class="line"><span class="lineno"> 1200</span>      <span class="keywordflow">return</span> t;</div>
+<div class="line"><span class="lineno"> 1201</span>    }</div>
+<div class="line"><span class="lineno"> 1202</span>    <span class="keyword">const</span> <span class="keyword">auto</span> docSecRefItem = std::get_if&lt;DocSecRefItem&gt;(p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>());</div>
+<div class="line"><span class="lineno"> 1203</span>    <span class="keywordflow">if</span> (docSecRefItem)</div>
+<div class="line"><span class="lineno"> 1204</span>    {</div>
+<div class="line"><span class="lineno"> 1205</span>      isFirst=<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#a520aa4c3a57667d69b67c176e4828d14">isFirstChildNode</a>(docSecRefItem,p);</div>
+<div class="line"><span class="lineno"> 1206</span>      isLast =<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#abe2e2b94699822e58607ee92aa93cfc1">isLastChildNode</a> (docSecRefItem,p);</div>
+<div class="line"><span class="lineno"> 1207</span>      <span class="keywordflow">if</span> (isFirst) t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa548e17365cc6c28ebd7c8b5aa9a643e8">STARTLI</a>;</div>
+<div class="line"><span class="lineno"> 1208</span>      <span class="keywordflow">if</span> (isLast)  t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaaa59aad91565c3b6964c2ed774e8498db">ENDLI</a>;</div>
+<div class="line"><span class="lineno"> 1209</span>      <span class="keywordflow">if</span> (!isFirst &amp;&amp; !isLast) t = <a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa5f6e7990c2bea9353455ec443df10e87">INTERLI</a>;</div>
+<div class="line"><span class="lineno"> 1210</span>      <span class="keywordflow">return</span> t;</div>
+<div class="line"><span class="lineno"> 1211</span>    }</div>
+<div class="line"><span class="lineno"> 1212</span>    <span class="keyword">const</span> <span class="keyword">auto</span> docHtmlDescData = std::get_if&lt;DocHtmlDescData&gt;(p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>());</div>
+<div class="line"><span class="lineno"> 1213</span>    <span class="keywordflow">if</span> (docHtmlDescData)</div>
+<div class="line"><span class="lineno"> 1214</span>    {</div>
+<div class="line"><span class="lineno"> 1215</span>      isFirst=<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#a520aa4c3a57667d69b67c176e4828d14">isFirstChildNode</a>(docHtmlDescData,p);</div>
+<div class="line"><span class="lineno"> 1216</span>      isLast =<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#abe2e2b94699822e58607ee92aa93cfc1">isLastChildNode</a> (docHtmlDescData,p);</div>
+<div class="line"><span class="lineno"> 1217</span>      <span class="keywordflow">if</span> (isFirst) t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa6a8ac109cae56df2895ef4358cf16e96">STARTDD</a>;</div>
+<div class="line"><span class="lineno"> 1218</span>      <span class="keywordflow">if</span> (isLast)  t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa84a574e566d2b3e6ef6ba2c1f2b8fd41">ENDDD</a>;</div>
+<div class="line"><span class="lineno"> 1219</span>      <span class="keywordflow">if</span> (!isFirst &amp;&amp; !isLast) t = <a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa08220bdb8a0db8262edd7f34dc04f404">INTERDD</a>;</div>
+<div class="line"><span class="lineno"> 1220</span>      <span class="keywordflow">return</span> t;</div>
+<div class="line"><span class="lineno"> 1221</span>    }</div>
+<div class="line"><span class="lineno"> 1222</span>    <span class="keyword">const</span> <span class="keyword">auto</span> docXRefItem = std::get_if&lt;DocXRefItem&gt;(p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>());</div>
+<div class="line"><span class="lineno"> 1223</span>    <span class="keywordflow">if</span> (docXRefItem)</div>
+<div class="line"><span class="lineno"> 1224</span>    {</div>
+<div class="line"><span class="lineno"> 1225</span>      isFirst=<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#a520aa4c3a57667d69b67c176e4828d14">isFirstChildNode</a>(docXRefItem,p);</div>
+<div class="line"><span class="lineno"> 1226</span>      isLast =<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#abe2e2b94699822e58607ee92aa93cfc1">isLastChildNode</a> (docXRefItem,p);</div>
+<div class="line"><span class="lineno"> 1227</span>      <span class="keywordflow">if</span> (isFirst) t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa6a8ac109cae56df2895ef4358cf16e96">STARTDD</a>;</div>
+<div class="line"><span class="lineno"> 1228</span>      <span class="keywordflow">if</span> (isLast)  t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa84a574e566d2b3e6ef6ba2c1f2b8fd41">ENDDD</a>;</div>
+<div class="line"><span class="lineno"> 1229</span>      <span class="keywordflow">if</span> (!isFirst &amp;&amp; !isLast) t = <a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa08220bdb8a0db8262edd7f34dc04f404">INTERDD</a>;</div>
+<div class="line"><span class="lineno"> 1230</span>      <span class="keywordflow">return</span> t;</div>
+<div class="line"><span class="lineno"> 1231</span>    }</div>
+<div class="line"><span class="lineno"> 1232</span>    <span class="keyword">const</span> <span class="keyword">auto</span> docSimpleSect = std::get_if&lt;DocSimpleSect&gt;(p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>());</div>
+<div class="line"><span class="lineno"> 1233</span>    <span class="keywordflow">if</span> (docSimpleSect)</div>
+<div class="line"><span class="lineno"> 1234</span>    {</div>
+<div class="line"><span class="lineno"> 1235</span>      isFirst=<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#a520aa4c3a57667d69b67c176e4828d14">isFirstChildNode</a>(docSimpleSect,p);</div>
+<div class="line"><span class="lineno"> 1236</span>      isLast =<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#abe2e2b94699822e58607ee92aa93cfc1">isLastChildNode</a> (docSimpleSect,p);</div>
+<div class="line"><span class="lineno"> 1237</span>      <span class="keywordflow">if</span> (isFirst) t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa6a8ac109cae56df2895ef4358cf16e96">STARTDD</a>;</div>
+<div class="line"><span class="lineno"> 1238</span>      <span class="keywordflow">if</span> (isLast)  t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa84a574e566d2b3e6ef6ba2c1f2b8fd41">ENDDD</a>;</div>
+<div class="line"><span class="lineno"> 1239</span>      <span class="keywordflow">if</span> (<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#ab6b89b7570220507ecccee5aa2872f30">isSeparatedParagraph</a>(*docSimpleSect,p))</div>
+<div class="line"><span class="lineno"> 1240</span>        <span class="comment">// if the paragraph is enclosed with separators it will</span></div>
+<div class="line"><span class="lineno"> 1241</span>        <span class="comment">// be included in &lt;dd&gt;..&lt;/dd&gt; so avoid addition paragraph</span></div>
+<div class="line"><span class="lineno"> 1242</span>        <span class="comment">// markers</span></div>
+<div class="line"><span class="lineno"> 1243</span>      {</div>
+<div class="line"><span class="lineno"> 1244</span>        isFirst=isLast=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno"> 1245</span>      }</div>
+<div class="line"><span class="lineno"> 1246</span>      <span class="keywordflow">if</span> (!isFirst &amp;&amp; !isLast) t = <a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa08220bdb8a0db8262edd7f34dc04f404">INTERDD</a>;</div>
+<div class="line"><span class="lineno"> 1247</span>      <span class="keywordflow">return</span> t;</div>
+<div class="line"><span class="lineno"> 1248</span>    }</div>
+<div class="line"><span class="lineno"> 1249</span>    <span class="keyword">const</span> <span class="keyword">auto</span> docHtmlCell = std::get_if&lt;DocHtmlCell&gt;(p.<a class="code hl_function" href="../../d9/d0e/class_doc_node.html#a9217c40d6d74f2b78928b3d8131dd7f0">parent</a>());</div>
+<div class="line"><span class="lineno"> 1250</span>    <span class="keywordflow">if</span> (docHtmlCell)</div>
+<div class="line"><span class="lineno"> 1251</span>    {</div>
+<div class="line"><span class="lineno"> 1252</span>      isFirst=<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#a520aa4c3a57667d69b67c176e4828d14">isFirstChildNode</a>(docHtmlCell,p);</div>
+<div class="line"><span class="lineno"> 1253</span>      isLast =<a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#abe2e2b94699822e58607ee92aa93cfc1">isLastChildNode</a> (docHtmlCell,p);</div>
+<div class="line"><span class="lineno"> 1254</span>      <span class="keywordflow">if</span> (isFirst) t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa3a68970bb0e1d50d29454aa096cfa1ef">STARTTD</a>;</div>
+<div class="line"><span class="lineno"> 1255</span>      <span class="keywordflow">if</span> (isLast)  t=<a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaae31c7779cf1f474162c4e6009ad0d226">ENDTD</a>;</div>
+<div class="line"><span class="lineno"> 1256</span>      <span class="keywordflow">if</span> (!isFirst &amp;&amp; !isLast) t = <a class="code hl_enumvalue" href="../../da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaab69cf88c17ed259c26152983e64024f4">INTERTD</a>;</div>
+<div class="line"><span class="lineno"> 1257</span>      <span class="keywordflow">return</span> t;</div>
+<div class="line"><span class="lineno"> 1258</span>    }</div>
+<div class="line"><span class="lineno"> 1259</span>  }</div>
+<div class="line"><span class="lineno"> 1260</span>  <span class="keywordflow">return</span> t;</div>
+<div class="line"><span class="lineno"> 1261</span>}</div>
 <div class="ttc" id="adocnode_8h_html_aa08872da61afee56859056e5a0612633"><div class="ttname"><a href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">parent</a></div><div class="ttdeci">constexpr DocNodeVariant * parent(DocNodeVariant *n)</div><div class="ttdoc">returns the parent node of a given node n or 0 if the node has no parent.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h.html#l01291">docnode.h:1291</a></div></div>
 <div class="ttc" id="adocnode_8h_html_afad5b9fbe2e475f242fe258914b6a4a0"><div class="ttname"><a href="../../de/d2b/docnode_8h.html#afad5b9fbe2e475f242fe258914b6a4a0">DocNodeVariant</a></div><div class="ttdeci">std::variant&lt; DocWord, DocLinkedWord, DocURL, DocLineBreak, DocHorRuler, DocAnchor, DocCite, DocStyleChange, DocSymbol, DocEmoji, DocWhiteSpace, DocSeparator, DocVerbatim, DocInclude, DocIncOperator, DocFormula, DocIndexEntry, DocAutoList, DocAutoListItem, DocTitle, DocXRefItem, DocImage, DocDotFile, DocMscFile, DocDiaFile, DocVhdlFlow, DocLink, DocRef, DocInternalRef, DocHRef, DocHtmlHeader, DocHtmlDescTitle, DocHtmlDescList, DocSection, DocSecRefItem, DocSecRefList, DocInternal, DocParBlock, DocSimpleList, DocHtmlList, DocSimpleSect, DocSimpleSectSep, DocParamSect, DocPara, DocParamList, DocSimpleListItem, DocHtmlListItem, DocHtmlDescData, DocHtmlCell, DocHtmlCaption, DocHtmlRow, DocHtmlTable, DocHtmlBlockQuote, DocText, DocRoot, DocHtmlDetails, DocHtmlSummary &gt; DocNodeVariant</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/docnode_8h.html#l00063">docnode.h:65</a></div></div>
-<div class="ttc" id="ahtmldocvisitor_8cpp_html_a520aa4c3a57667d69b67c176e4828d14"><div class="ttname"><a href="../../da/db0/htmldocvisitor_8cpp.html#a520aa4c3a57667d69b67c176e4828d14">isFirstChildNode</a></div><div class="ttdeci">bool isFirstChildNode(const T *parent, const DocPara &amp;node)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/db0/htmldocvisitor_8cpp.html#l01101">htmldocvisitor.cpp:1101</a></div></div>
-<div class="ttc" id="ahtmldocvisitor_8cpp_html_ab6b89b7570220507ecccee5aa2872f30"><div class="ttname"><a href="../../da/db0/htmldocvisitor_8cpp.html#ab6b89b7570220507ecccee5aa2872f30">isSeparatedParagraph</a></div><div class="ttdeci">bool isSeparatedParagraph(const DocSimpleSect &amp;parent, const DocPara &amp;par)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/db0/htmldocvisitor_8cpp.html#l01112">htmldocvisitor.cpp:1112</a></div></div>
-<div class="ttc" id="ahtmldocvisitor_8cpp_html_abe2e2b94699822e58607ee92aa93cfc1"><div class="ttname"><a href="../../da/db0/htmldocvisitor_8cpp.html#abe2e2b94699822e58607ee92aa93cfc1">isLastChildNode</a></div><div class="ttdeci">bool isLastChildNode(const T *parent, const DocPara &amp;node)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/db0/htmldocvisitor_8cpp.html#l01107">htmldocvisitor.cpp:1107</a></div></div>
+<div class="ttc" id="ahtmldocvisitor_8cpp_html_a520aa4c3a57667d69b67c176e4828d14"><div class="ttname"><a href="../../da/db0/htmldocvisitor_8cpp.html#a520aa4c3a57667d69b67c176e4828d14">isFirstChildNode</a></div><div class="ttdeci">bool isFirstChildNode(const T *parent, const DocPara &amp;node)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/db0/htmldocvisitor_8cpp.html#l01098">htmldocvisitor.cpp:1098</a></div></div>
+<div class="ttc" id="ahtmldocvisitor_8cpp_html_ab6b89b7570220507ecccee5aa2872f30"><div class="ttname"><a href="../../da/db0/htmldocvisitor_8cpp.html#ab6b89b7570220507ecccee5aa2872f30">isSeparatedParagraph</a></div><div class="ttdeci">bool isSeparatedParagraph(const DocSimpleSect &amp;parent, const DocPara &amp;par)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/db0/htmldocvisitor_8cpp.html#l01109">htmldocvisitor.cpp:1109</a></div></div>
+<div class="ttc" id="ahtmldocvisitor_8cpp_html_abe2e2b94699822e58607ee92aa93cfc1"><div class="ttname"><a href="../../da/db0/htmldocvisitor_8cpp.html#abe2e2b94699822e58607ee92aa93cfc1">isLastChildNode</a></div><div class="ttdeci">bool isLastChildNode(const T *parent, const DocPara &amp;node)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/db0/htmldocvisitor_8cpp.html#l01104">htmldocvisitor.cpp:1104</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00050">ENDDD</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00049">ENDLI</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00052">ENDTD</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00054">INTERDD</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00053">INTERLI</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00055">INTERTD</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01101">isFirstChildNode()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01107">isLastChildNode()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01112">isSeparatedParagraph()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00046">NONE</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00091">DocNode::parent()</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l01291">parent()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00048">STARTDD</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00047">STARTLI</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00051">STARTTD</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00050">ENDDD</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00049">ENDLI</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00052">ENDTD</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00054">INTERDD</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00053">INTERLI</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00055">INTERTD</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01098">isFirstChildNode()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01104">isLastChildNode()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01109">isSeparatedParagraph()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00046">NONE</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00091">DocNode::parent()</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l01291">parent()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00048">STARTDD</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00047">STARTLI</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00051">STARTTD</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02340">HtmlDocVisitor::forceEndParagraph()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02395">HtmlDocVisitor::forceStartParagraph()</a>, and <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01296">HtmlDocVisitor::operator()()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02337">HtmlDocVisitor::forceEndParagraph()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02392">HtmlDocVisitor::forceStartParagraph()</a>, and <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01293">HtmlDocVisitor::operator()()</a>.</p>
 
 </div>
 </div>
@@ -620,18 +620,18 @@ template&lt;class Node &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01090">1090</a> of file <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html">htmldocvisitor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1091</span>{</div>
-<div class="line"><span class="lineno"> 1092</span>  <span class="keywordtype">bool</span> b = std::visit([&amp;](<span class="keyword">auto</span> &amp;&amp;x) {</div>
-<div class="line"><span class="lineno"> 1093</span>      <span class="comment">//printf(&quot;holds_value val=%s (%p) v=%s (%p)\n&quot;,</span></div>
-<div class="line"><span class="lineno"> 1094</span>      <span class="comment">//        docNodeName(*val),(void*)val,docNodeName(v),(void *)&amp;x);</span></div>
-<div class="line"><span class="lineno"> 1095</span>      <span class="keywordflow">return</span> val==<span class="keyword">static_cast&lt;</span><span class="keyword">const </span><a class="code hl_class" href="../../d9/d0e/class_doc_node.html">DocNode</a>*<span class="keyword">&gt;</span>(&amp;x);</div>
-<div class="line"><span class="lineno"> 1096</span>  }, v);</div>
-<div class="line"><span class="lineno"> 1097</span>  <span class="keywordflow">return</span> b;</div>
-<div class="line"><span class="lineno"> 1098</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01087">1087</a> of file <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html">htmldocvisitor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1088</span>{</div>
+<div class="line"><span class="lineno"> 1089</span>  <span class="keywordtype">bool</span> b = std::visit([&amp;](<span class="keyword">auto</span> &amp;&amp;x) {</div>
+<div class="line"><span class="lineno"> 1090</span>      <span class="comment">//printf(&quot;holds_value val=%s (%p) v=%s (%p)\n&quot;,</span></div>
+<div class="line"><span class="lineno"> 1091</span>      <span class="comment">//        docNodeName(*val),(void*)val,docNodeName(v),(void *)&amp;x);</span></div>
+<div class="line"><span class="lineno"> 1092</span>      <span class="keywordflow">return</span> val==<span class="keyword">static_cast&lt;</span><span class="keyword">const </span><a class="code hl_class" href="../../d9/d0e/class_doc_node.html">DocNode</a>*<span class="keyword">&gt;</span>(&amp;x);</div>
+<div class="line"><span class="lineno"> 1093</span>  }, v);</div>
+<div class="line"><span class="lineno"> 1094</span>  <span class="keywordflow">return</span> b;</div>
+<div class="line"><span class="lineno"> 1095</span>}</div>
 <div class="ttc" id="aclass_doc_node_html"><div class="ttname"><a href="../../d9/d0e/class_doc_node.html">DocNode</a></div><div class="ttdoc">Abstract node interface with type information.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d0e/class_doc_node.html#l00077">docnode.h:78</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02340">HtmlDocVisitor::forceEndParagraph()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02395">HtmlDocVisitor::forceStartParagraph()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01101">isFirstChildNode()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01107">isLastChildNode()</a>, and <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01112">isSeparatedParagraph()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02337">HtmlDocVisitor::forceEndParagraph()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02392">HtmlDocVisitor::forceStartParagraph()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01098">isFirstChildNode()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01104">isLastChildNode()</a>, and <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01109">isSeparatedParagraph()</a>.</p>
 
 </div>
 </div>
@@ -713,7 +713,7 @@ template&lt;class Node &gt; </div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../df/d2d/util_8cpp_source.html#l04049">convertToXML()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00690">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00444">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01619">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02037">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01605">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01590">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01541">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01523">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01533">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01644">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01659">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01488">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01514">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01582">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01636">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01549">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01669">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00438">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01296">HtmlDocVisitor::operator()()</a>, and <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00452">HtmlDocVisitor::operator()()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00690">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00444">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01616">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02034">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01602">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01587">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01538">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01520">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01530">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01641">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01656">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01485">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01511">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01579">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01633">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01546">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01666">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00438">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01293">HtmlDocVisitor::operator()()</a>, and <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00452">HtmlDocVisitor::operator()()</a>.</p>
 
 </div>
 </div>
@@ -754,43 +754,43 @@ template&lt;class Node &gt; </div>
 <p>Returns TRUE if the child nodes in paragraph <em>para</em> until <em>nodeIndex</em> contain a style change node that is still active and that style change is one that must be located outside of a paragraph, i.e. </p>
 <p>it is a center, div, or pre tag. See also bug746162. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02296">2296</a> of file <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html">htmldocvisitor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2298</span>{</div>
-<div class="line"><span class="lineno"> 2299</span>  <span class="comment">//printf(&quot;insideStyleChangeThatIsOutputParagraph(index=%d)\n&quot;,nodeIndex);</span></div>
-<div class="line"><span class="lineno"> 2300</span>  <span class="keywordtype">int</span> styleMask=0;</div>
-<div class="line"><span class="lineno"> 2301</span>  <span class="keywordtype">bool</span> styleOutsideParagraph=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="line"><span class="lineno"> 2302</span>  <span class="keywordflow">while</span> (!styleOutsideParagraph)</div>
-<div class="line"><span class="lineno"> 2303</span>  {</div>
-<div class="line"><span class="lineno"> 2304</span>    <span class="keyword">const</span> <a class="code hl_typedef" href="../../de/d2b/docnode_8h.html#afad5b9fbe2e475f242fe258914b6a4a0">DocNodeVariant</a> *n = &amp;(*it);</div>
-<div class="line"><span class="lineno"> 2305</span>    <span class="keyword">const</span> <a class="code hl_class" href="../../d0/d4e/class_doc_style_change.html">DocStyleChange</a> *sc = std::get_if&lt;DocStyleChange&gt;(n);</div>
-<div class="line"><span class="lineno"> 2306</span>    <span class="keywordflow">if</span> (sc)</div>
-<div class="line"><span class="lineno"> 2307</span>    {</div>
-<div class="line"><span class="lineno"> 2308</span>      <span class="keywordflow">if</span> (!sc-&gt;<a class="code hl_function" href="../../d0/d4e/class_doc_style_change.html#ac8a8c808b962cc17665ab52937b8bd78">enable</a>()) <span class="comment">// remember styles that has been closed already</span></div>
-<div class="line"><span class="lineno"> 2309</span>      {</div>
-<div class="line"><span class="lineno"> 2310</span>        styleMask|=<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(sc-&gt;<a class="code hl_function" href="../../d0/d4e/class_doc_style_change.html#a56d079390f264e34af453a015bd2e2c9">style</a>());</div>
-<div class="line"><span class="lineno"> 2311</span>      }</div>
-<div class="line"><span class="lineno"> 2312</span>      <span class="keywordtype">bool</span> paraStyle = sc-&gt;<a class="code hl_function" href="../../d0/d4e/class_doc_style_change.html#a56d079390f264e34af453a015bd2e2c9">style</a>()==<a class="code hl_enumvalue" href="../../d0/d4e/class_doc_style_change.html#a97757d2d85c39228c90693491a56d277ae4330ac7dbaf5ee725a5813109f1854a">DocStyleChange::Center</a> ||</div>
-<div class="line"><span class="lineno"> 2313</span>                       sc-&gt;<a class="code hl_function" href="../../d0/d4e/class_doc_style_change.html#a56d079390f264e34af453a015bd2e2c9">style</a>()==<a class="code hl_enumvalue" href="../../d0/d4e/class_doc_style_change.html#a97757d2d85c39228c90693491a56d277afd9182e9d7bff25af5c122b0dbc41fb1">DocStyleChange::Div</a>    ||</div>
-<div class="line"><span class="lineno"> 2314</span>                       sc-&gt;<a class="code hl_function" href="../../d0/d4e/class_doc_style_change.html#a56d079390f264e34af453a015bd2e2c9">style</a>()==<a class="code hl_enumvalue" href="../../d0/d4e/class_doc_style_change.html#a97757d2d85c39228c90693491a56d277a170e0ef8c35d36cb6d94c9210373a817">DocStyleChange::Preformatted</a>;</div>
-<div class="line"><span class="lineno"> 2315</span>      <span class="comment">//printf(&quot;Found style change %s enabled=%d\n&quot;,sc-&gt;styleString(),sc-&gt;enable());</span></div>
-<div class="line"><span class="lineno"> 2316</span>      <span class="keywordflow">if</span> (sc-&gt;<a class="code hl_function" href="../../d0/d4e/class_doc_style_change.html#ac8a8c808b962cc17665ab52937b8bd78">enable</a>() &amp;&amp; (styleMask&amp;<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(sc-&gt;<a class="code hl_function" href="../../d0/d4e/class_doc_style_change.html#a56d079390f264e34af453a015bd2e2c9">style</a>()))==0 &amp;&amp; <span class="comment">// style change that is still active</span></div>
-<div class="line"><span class="lineno"> 2317</span>          paraStyle</div>
-<div class="line"><span class="lineno"> 2318</span>         )</div>
-<div class="line"><span class="lineno"> 2319</span>      {</div>
-<div class="line"><span class="lineno"> 2320</span>        styleOutsideParagraph=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
-<div class="line"><span class="lineno"> 2321</span>      }</div>
-<div class="line"><span class="lineno"> 2322</span>    }</div>
-<div class="line"><span class="lineno"> 2323</span>    <span class="keywordflow">if</span> (it!=std::begin(para-&gt;<a class="code hl_function" href="../../da/dfc/class_doc_compound_node.html#aca6bc953ffff9a8773c2b4b0a866442c">children</a>()))</div>
-<div class="line"><span class="lineno"> 2324</span>    {</div>
-<div class="line"><span class="lineno"> 2325</span>      --it;</div>
-<div class="line"><span class="lineno"> 2326</span>    }</div>
-<div class="line"><span class="lineno"> 2327</span>    <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno"> 2328</span>    {</div>
-<div class="line"><span class="lineno"> 2329</span>      <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 2330</span>    }</div>
-<div class="line"><span class="lineno"> 2331</span>  }</div>
-<div class="line"><span class="lineno"> 2332</span>  <span class="keywordflow">return</span> styleOutsideParagraph;</div>
-<div class="line"><span class="lineno"> 2333</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02293">2293</a> of file <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html">htmldocvisitor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 2295</span>{</div>
+<div class="line"><span class="lineno"> 2296</span>  <span class="comment">//printf(&quot;insideStyleChangeThatIsOutputParagraph(index=%d)\n&quot;,nodeIndex);</span></div>
+<div class="line"><span class="lineno"> 2297</span>  <span class="keywordtype">int</span> styleMask=0;</div>
+<div class="line"><span class="lineno"> 2298</span>  <span class="keywordtype">bool</span> styleOutsideParagraph=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
+<div class="line"><span class="lineno"> 2299</span>  <span class="keywordflow">while</span> (!styleOutsideParagraph)</div>
+<div class="line"><span class="lineno"> 2300</span>  {</div>
+<div class="line"><span class="lineno"> 2301</span>    <span class="keyword">const</span> <a class="code hl_typedef" href="../../de/d2b/docnode_8h.html#afad5b9fbe2e475f242fe258914b6a4a0">DocNodeVariant</a> *n = &amp;(*it);</div>
+<div class="line"><span class="lineno"> 2302</span>    <span class="keyword">const</span> <a class="code hl_class" href="../../d0/d4e/class_doc_style_change.html">DocStyleChange</a> *sc = std::get_if&lt;DocStyleChange&gt;(n);</div>
+<div class="line"><span class="lineno"> 2303</span>    <span class="keywordflow">if</span> (sc)</div>
+<div class="line"><span class="lineno"> 2304</span>    {</div>
+<div class="line"><span class="lineno"> 2305</span>      <span class="keywordflow">if</span> (!sc-&gt;<a class="code hl_function" href="../../d0/d4e/class_doc_style_change.html#ac8a8c808b962cc17665ab52937b8bd78">enable</a>()) <span class="comment">// remember styles that has been closed already</span></div>
+<div class="line"><span class="lineno"> 2306</span>      {</div>
+<div class="line"><span class="lineno"> 2307</span>        styleMask|=<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(sc-&gt;<a class="code hl_function" href="../../d0/d4e/class_doc_style_change.html#a56d079390f264e34af453a015bd2e2c9">style</a>());</div>
+<div class="line"><span class="lineno"> 2308</span>      }</div>
+<div class="line"><span class="lineno"> 2309</span>      <span class="keywordtype">bool</span> paraStyle = sc-&gt;<a class="code hl_function" href="../../d0/d4e/class_doc_style_change.html#a56d079390f264e34af453a015bd2e2c9">style</a>()==<a class="code hl_enumvalue" href="../../d0/d4e/class_doc_style_change.html#a97757d2d85c39228c90693491a56d277ae4330ac7dbaf5ee725a5813109f1854a">DocStyleChange::Center</a> ||</div>
+<div class="line"><span class="lineno"> 2310</span>                       sc-&gt;<a class="code hl_function" href="../../d0/d4e/class_doc_style_change.html#a56d079390f264e34af453a015bd2e2c9">style</a>()==<a class="code hl_enumvalue" href="../../d0/d4e/class_doc_style_change.html#a97757d2d85c39228c90693491a56d277afd9182e9d7bff25af5c122b0dbc41fb1">DocStyleChange::Div</a>    ||</div>
+<div class="line"><span class="lineno"> 2311</span>                       sc-&gt;<a class="code hl_function" href="../../d0/d4e/class_doc_style_change.html#a56d079390f264e34af453a015bd2e2c9">style</a>()==<a class="code hl_enumvalue" href="../../d0/d4e/class_doc_style_change.html#a97757d2d85c39228c90693491a56d277a170e0ef8c35d36cb6d94c9210373a817">DocStyleChange::Preformatted</a>;</div>
+<div class="line"><span class="lineno"> 2312</span>      <span class="comment">//printf(&quot;Found style change %s enabled=%d\n&quot;,sc-&gt;styleString(),sc-&gt;enable());</span></div>
+<div class="line"><span class="lineno"> 2313</span>      <span class="keywordflow">if</span> (sc-&gt;<a class="code hl_function" href="../../d0/d4e/class_doc_style_change.html#ac8a8c808b962cc17665ab52937b8bd78">enable</a>() &amp;&amp; (styleMask&amp;<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(sc-&gt;<a class="code hl_function" href="../../d0/d4e/class_doc_style_change.html#a56d079390f264e34af453a015bd2e2c9">style</a>()))==0 &amp;&amp; <span class="comment">// style change that is still active</span></div>
+<div class="line"><span class="lineno"> 2314</span>          paraStyle</div>
+<div class="line"><span class="lineno"> 2315</span>         )</div>
+<div class="line"><span class="lineno"> 2316</span>      {</div>
+<div class="line"><span class="lineno"> 2317</span>        styleOutsideParagraph=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line"><span class="lineno"> 2318</span>      }</div>
+<div class="line"><span class="lineno"> 2319</span>    }</div>
+<div class="line"><span class="lineno"> 2320</span>    <span class="keywordflow">if</span> (it!=std::begin(para-&gt;<a class="code hl_function" href="../../da/dfc/class_doc_compound_node.html#aca6bc953ffff9a8773c2b4b0a866442c">children</a>()))</div>
+<div class="line"><span class="lineno"> 2321</span>    {</div>
+<div class="line"><span class="lineno"> 2322</span>      --it;</div>
+<div class="line"><span class="lineno"> 2323</span>    }</div>
+<div class="line"><span class="lineno"> 2324</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 2325</span>    {</div>
+<div class="line"><span class="lineno"> 2326</span>      <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2327</span>    }</div>
+<div class="line"><span class="lineno"> 2328</span>  }</div>
+<div class="line"><span class="lineno"> 2329</span>  <span class="keywordflow">return</span> styleOutsideParagraph;</div>
+<div class="line"><span class="lineno"> 2330</span>}</div>
 <div class="ttc" id="aclass_doc_compound_node_html_aca6bc953ffff9a8773c2b4b0a866442c"><div class="ttname"><a href="../../da/dfc/class_doc_compound_node.html#aca6bc953ffff9a8773c2b4b0a866442c">DocCompoundNode::children</a></div><div class="ttdeci">DocNodeList &amp; children()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dfc/class_doc_compound_node.html#l00144">docnode.h:144</a></div></div>
 <div class="ttc" id="aclass_doc_style_change_html"><div class="ttname"><a href="../../d0/d4e/class_doc_style_change.html">DocStyleChange</a></div><div class="ttdoc">Node representing a style change.</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d4e/class_doc_style_change.html#l00265">docnode.h:266</a></div></div>
 <div class="ttc" id="aclass_doc_style_change_html_a56d079390f264e34af453a015bd2e2c9"><div class="ttname"><a href="../../d0/d4e/class_doc_style_change.html#a56d079390f264e34af453a015bd2e2c9">DocStyleChange::style</a></div><div class="ttdeci">Style style() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d4e/class_doc_style_change.html#l00293">docnode.h:293</a></div></div>
@@ -801,7 +801,7 @@ template&lt;class Node &gt; </div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../de/d2b/docnode_8h_source.html#l00271">DocStyleChange::Center</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00144">DocCompoundNode::children()</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00277">DocStyleChange::Div</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00295">DocStyleChange::enable()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00275">DocStyleChange::Preformatted</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00293">DocStyleChange::style()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02340">HtmlDocVisitor::forceEndParagraph()</a>, and <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02395">HtmlDocVisitor::forceStartParagraph()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02337">HtmlDocVisitor::forceEndParagraph()</a>, and <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02392">HtmlDocVisitor::forceStartParagraph()</a>.</p>
 
 </div>
 </div>
@@ -980,15 +980,15 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01101">1101</a> of file <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html">htmldocvisitor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1102</span>{</div>
-<div class="line"><span class="lineno"> 1103</span>   <span class="keywordflow">return</span> !<a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">parent</a>-&gt;children().empty() &amp;&amp; <a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#aae7f2f75c9734a361d01219eb092830d">holds_value</a>(&amp;node,<a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">parent</a>-&gt;children().front());</div>
-<div class="line"><span class="lineno"> 1104</span>}</div>
-<div class="ttc" id="ahtmldocvisitor_8cpp_html_aae7f2f75c9734a361d01219eb092830d"><div class="ttname"><a href="../../da/db0/htmldocvisitor_8cpp.html#aae7f2f75c9734a361d01219eb092830d">holds_value</a></div><div class="ttdeci">static bool holds_value(const Node *val, const DocNodeVariant &amp;v)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/db0/htmldocvisitor_8cpp.html#l01090">htmldocvisitor.cpp:1090</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01098">1098</a> of file <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html">htmldocvisitor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1099</span>{</div>
+<div class="line"><span class="lineno"> 1100</span>   <span class="keywordflow">return</span> !<a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">parent</a>-&gt;children().empty() &amp;&amp; <a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#aae7f2f75c9734a361d01219eb092830d">holds_value</a>(&amp;node,<a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">parent</a>-&gt;children().front());</div>
+<div class="line"><span class="lineno"> 1101</span>}</div>
+<div class="ttc" id="ahtmldocvisitor_8cpp_html_aae7f2f75c9734a361d01219eb092830d"><div class="ttname"><a href="../../da/db0/htmldocvisitor_8cpp.html#aae7f2f75c9734a361d01219eb092830d">holds_value</a></div><div class="ttdeci">static bool holds_value(const Node *val, const DocNodeVariant &amp;v)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/db0/htmldocvisitor_8cpp.html#l01087">htmldocvisitor.cpp:1087</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01090">holds_value()</a>, and <a class="el" href="../../de/d2b/docnode_8h_source.html#l01291">parent()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01087">holds_value()</a>, and <a class="el" href="../../de/d2b/docnode_8h_source.html#l01291">parent()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01134">getParagraphContext()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01131">getParagraphContext()</a>.</p>
 
 </div>
 </div>
@@ -1049,7 +1049,7 @@ template&lt;class T &gt; </div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../de/d2b/docnode_8h_source.html#l00615">DocImage::Html</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00174">isDocIncludeVisible()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00190">isDocIncOperatorVisible()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00159">isDocVerbatimVisible()</a>, and <a class="el" href="../../de/d2b/docnode_8h_source.html#l00618">DocImage::type()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02340">HtmlDocVisitor::forceEndParagraph()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02395">HtmlDocVisitor::forceStartParagraph()</a>, and <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01296">HtmlDocVisitor::operator()()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02337">HtmlDocVisitor::forceEndParagraph()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02392">HtmlDocVisitor::forceStartParagraph()</a>, and <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01293">HtmlDocVisitor::operator()()</a>.</p>
 
 </div>
 </div>
@@ -1081,14 +1081,14 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01107">1107</a> of file <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html">htmldocvisitor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1108</span>{</div>
-<div class="line"><span class="lineno"> 1109</span>   <span class="keywordflow">return</span> !<a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">parent</a>-&gt;children().empty() &amp;&amp; <a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#aae7f2f75c9734a361d01219eb092830d">holds_value</a>(&amp;node,<a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">parent</a>-&gt;children().back());</div>
-<div class="line"><span class="lineno"> 1110</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01104">1104</a> of file <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html">htmldocvisitor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1105</span>{</div>
+<div class="line"><span class="lineno"> 1106</span>   <span class="keywordflow">return</span> !<a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">parent</a>-&gt;children().empty() &amp;&amp; <a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#aae7f2f75c9734a361d01219eb092830d">holds_value</a>(&amp;node,<a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">parent</a>-&gt;children().back());</div>
+<div class="line"><span class="lineno"> 1107</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01090">holds_value()</a>, and <a class="el" href="../../de/d2b/docnode_8h_source.html#l01291">parent()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01087">holds_value()</a>, and <a class="el" href="../../de/d2b/docnode_8h_source.html#l01291">parent()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01134">getParagraphContext()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01131">getParagraphContext()</a>.</p>
 
 </div>
 </div>
@@ -1118,32 +1118,32 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01112">1112</a> of file <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html">htmldocvisitor.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1113</span>{</div>
-<div class="line"><span class="lineno"> 1114</span>  <span class="keyword">const</span> <a class="code hl_struct" href="../../d9/dd3/struct_doc_node_list.html">DocNodeList</a> &amp;nodes = <a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">parent</a>.children();</div>
-<div class="line"><span class="lineno"> 1115</span>  <span class="keyword">auto</span> it = std::find_if(std::begin(nodes),std::end(nodes),[&amp;par](<span class="keyword">const</span> <span class="keyword">auto</span> &amp;n) { <span class="keywordflow">return</span> <a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#aae7f2f75c9734a361d01219eb092830d">holds_value</a>(&amp;par,n); });</div>
-<div class="line"><span class="lineno"> 1116</span>  <span class="keywordflow">if</span> (it==std::end(nodes)) <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="line"><span class="lineno"> 1117</span>  <span class="keywordtype">size_t</span> count = <a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">parent</a>.children().size();</div>
-<div class="line"><span class="lineno"> 1118</span>  <span class="keyword">auto</span> isSeparator = [](<span class="keyword">auto</span> &amp;&amp;it_) { <span class="keywordflow">return</span> std::get_if&lt;DocSimpleSectSep&gt;(&amp;(*it_))!=0; };</div>
-<div class="line"><span class="lineno"> 1119</span>  <span class="keywordflow">if</span> (count&gt;1 &amp;&amp; it==std::begin(nodes)) <span class="comment">// it points to first node</span></div>
-<div class="line"><span class="lineno"> 1120</span>  {</div>
-<div class="line"><span class="lineno"> 1121</span>    <span class="keywordflow">return</span> isSeparator(std::next(it));</div>
-<div class="line"><span class="lineno"> 1122</span>  }</div>
-<div class="line"><span class="lineno"> 1123</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (count&gt;1 &amp;&amp; it==std::prev(std::end(nodes))) <span class="comment">// it points to last node</span></div>
-<div class="line"><span class="lineno"> 1124</span>  {</div>
-<div class="line"><span class="lineno"> 1125</span>    <span class="keywordflow">return</span> isSeparator(std::prev(it));</div>
-<div class="line"><span class="lineno"> 1126</span>  }</div>
-<div class="line"><span class="lineno"> 1127</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (count&gt;2 &amp;&amp; it!=std::begin(nodes) &amp;&amp; it!=std::prev(std::end(nodes))) <span class="comment">// it points to intermediate node</span></div>
-<div class="line"><span class="lineno"> 1128</span>  {</div>
-<div class="line"><span class="lineno"> 1129</span>    <span class="keywordflow">return</span> isSeparator(std::prev(it)) &amp;&amp; isSeparator(std::next(it));</div>
-<div class="line"><span class="lineno"> 1130</span>  }</div>
-<div class="line"><span class="lineno"> 1131</span>  <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno"> 1132</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01109">1109</a> of file <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html">htmldocvisitor.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1110</span>{</div>
+<div class="line"><span class="lineno"> 1111</span>  <span class="keyword">const</span> <a class="code hl_struct" href="../../d9/dd3/struct_doc_node_list.html">DocNodeList</a> &amp;nodes = <a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">parent</a>.children();</div>
+<div class="line"><span class="lineno"> 1112</span>  <span class="keyword">auto</span> it = std::find_if(std::begin(nodes),std::end(nodes),[&amp;par](<span class="keyword">const</span> <span class="keyword">auto</span> &amp;n) { <span class="keywordflow">return</span> <a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#aae7f2f75c9734a361d01219eb092830d">holds_value</a>(&amp;par,n); });</div>
+<div class="line"><span class="lineno"> 1113</span>  <span class="keywordflow">if</span> (it==std::end(nodes)) <span class="keywordflow">return</span> <a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
+<div class="line"><span class="lineno"> 1114</span>  <span class="keywordtype">size_t</span> count = <a class="code hl_function" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">parent</a>.children().size();</div>
+<div class="line"><span class="lineno"> 1115</span>  <span class="keyword">auto</span> isSeparator = [](<span class="keyword">auto</span> &amp;&amp;it_) { <span class="keywordflow">return</span> std::get_if&lt;DocSimpleSectSep&gt;(&amp;(*it_))!=0; };</div>
+<div class="line"><span class="lineno"> 1116</span>  <span class="keywordflow">if</span> (count&gt;1 &amp;&amp; it==std::begin(nodes)) <span class="comment">// it points to first node</span></div>
+<div class="line"><span class="lineno"> 1117</span>  {</div>
+<div class="line"><span class="lineno"> 1118</span>    <span class="keywordflow">return</span> isSeparator(std::next(it));</div>
+<div class="line"><span class="lineno"> 1119</span>  }</div>
+<div class="line"><span class="lineno"> 1120</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (count&gt;1 &amp;&amp; it==std::prev(std::end(nodes))) <span class="comment">// it points to last node</span></div>
+<div class="line"><span class="lineno"> 1121</span>  {</div>
+<div class="line"><span class="lineno"> 1122</span>    <span class="keywordflow">return</span> isSeparator(std::prev(it));</div>
+<div class="line"><span class="lineno"> 1123</span>  }</div>
+<div class="line"><span class="lineno"> 1124</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (count&gt;2 &amp;&amp; it!=std::begin(nodes) &amp;&amp; it!=std::prev(std::end(nodes))) <span class="comment">// it points to intermediate node</span></div>
+<div class="line"><span class="lineno"> 1125</span>  {</div>
+<div class="line"><span class="lineno"> 1126</span>    <span class="keywordflow">return</span> isSeparator(std::prev(it)) &amp;&amp; isSeparator(std::next(it));</div>
+<div class="line"><span class="lineno"> 1127</span>  }</div>
+<div class="line"><span class="lineno"> 1128</span>  <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1129</span>}</div>
 <div class="ttc" id="astruct_doc_node_list_html"><div class="ttname"><a href="../../d9/dd3/struct_doc_node_list.html">DocNodeList</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dd3/struct_doc_node_list.html#l00119">docnode.h:120</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01090">holds_value()</a>, and <a class="el" href="../../de/d2b/docnode_8h_source.html#l01291">parent()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01087">holds_value()</a>, and <a class="el" href="../../de/d2b/docnode_8h_source.html#l01291">parent()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01134">getParagraphContext()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01131">getParagraphContext()</a>.</p>
 
 </div>
 </div>
@@ -1198,7 +1198,7 @@ template&lt;class T &gt; </div>
 <div class="line"><span class="lineno">  236</span>  }</div>
 <div class="line"><span class="lineno">  237</span>}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01669">HtmlDocVisitor::operator()()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01666">HtmlDocVisitor::operator()()</a>.</p>
 
 </div>
 </div>
@@ -1296,7 +1296,7 @@ template&lt;class T &gt; </div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../de/d2b/docnode_8h_source.html#l00271">DocStyleChange::Center</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00277">DocStyleChange::Div</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l01327">holds_one_of_alternatives()</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00360">DocVerbatim::HtmlOnly</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00371">DocVerbatim::isBlock()</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00516">DocFormula::isInline()</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00625">DocImage::isInlineImage()</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00360">DocVerbatim::JavaDocCode</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00360">DocVerbatim::JavaDocLiteral</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00275">DocStyleChange::Preformatted</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00293">DocStyleChange::style()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>, and <a class="el" href="../../de/d2b/docnode_8h_source.html#l00364">DocVerbatim::type()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02340">HtmlDocVisitor::forceEndParagraph()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02395">HtmlDocVisitor::forceStartParagraph()</a>, and <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01296">HtmlDocVisitor::operator()()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02337">HtmlDocVisitor::forceEndParagraph()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02392">HtmlDocVisitor::forceStartParagraph()</a>, and <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01293">HtmlDocVisitor::operator()()</a>.</p>
 
 </div>
 </div>
@@ -1335,7 +1335,7 @@ template&lt;class T &gt; </div>
 </div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00057">57</a> of file <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html">htmldocvisitor.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01296">HtmlDocVisitor::operator()()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01293">HtmlDocVisitor::operator()()</a>.</p>
 
 </div>
 </div>
@@ -1387,7 +1387,7 @@ template&lt;class T &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00042">42</a> of file <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html">htmldocvisitor.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01045">HtmlDocVisitor::operator()()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01042">HtmlDocVisitor::operator()()</a>.</p>
 
 </div>
 </div>
@@ -1413,7 +1413,7 @@ template&lt;class T &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00043">43</a> of file <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html">htmldocvisitor.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01045">HtmlDocVisitor::operator()()</a>, and <a class="el" href="../../d0/da7/pre_8l_source.html#l02810">removeIdsAndMarkers()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l01042">HtmlDocVisitor::operator()()</a>, and <a class="el" href="../../d0/da7/pre_8l_source.html#l02809">removeIdsAndMarkers()</a>.</p>
 
 </div>
 </div>

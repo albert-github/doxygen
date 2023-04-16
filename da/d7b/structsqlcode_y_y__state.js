@@ -6,6 +6,7 @@ var structsqlcode_y_y__state =
     [ "currentFontClass", "da/d7b/structsqlcode_y_y__state.html#a09cad7f457d87dca777352aaa7d9e872", null ],
     [ "currentMemberDef", "da/d7b/structsqlcode_y_y__state.html#a396daebc48d73dda1687dcd3703d3f38", null ],
     [ "exampleBlock", "da/d7b/structsqlcode_y_y__state.html#a2960ee55db4af9fccd2c1ab9d5b793b2", null ],
+    [ "exampleFileDef", "da/d7b/structsqlcode_y_y__state.html#abf17dde82913111c4d696e4a4dd4e93a", null ],
     [ "exampleName", "da/d7b/structsqlcode_y_y__state.html#a7d943cddbe589cc4b9ed80dad8f9c96b", null ],
     [ "fileName", "da/d7b/structsqlcode_y_y__state.html#a34a323dabcac14f004b7f3190498c27a", null ],
     [ "includeCodeFragment", "da/d7b/structsqlcode_y_y__state.html#a1e58e79a9935e2bc1bc080e4ecd18684", null ],

@@ -2,7 +2,6 @@ var class_class_def_impl =
 [
     [ "IMPL", "d6/d4a/class_class_def_impl_1_1_i_m_p_l.html", "d6/d4a/class_class_def_impl_1_1_i_m_p_l" ],
     [ "ClassDefImpl", "d1/d25/class_class_def_impl.html#a3912ae85ed2a97ca1f524ac56a4cff10", null ],
-    [ "~ClassDefImpl", "d1/d25/class_class_def_impl.html#afe3ebfc701c9477e8d31a8957f8d772d", null ],
     [ "addClassAttributes", "d1/d25/class_class_def_impl.html#a1d6990cbb875b40cb9e658b48ce74dd3", null ],
     [ "addExample", "d1/d25/class_class_def_impl.html#a330f3bd4943e0f1fcf51d43254aa690d", null ],
     [ "addGroupedInheritedMembers", "d1/d25/class_class_def_impl.html#a59346e3ed608dd9bee0add0da0736af4", null ],
@@ -174,5 +173,5 @@ var class_class_def_impl =
     [ "writeSummaryLinks", "d1/d25/class_class_def_impl.html#a003b5a2b85dc9e49450a04f346b22807", null ],
     [ "writeTagFile", "d1/d25/class_class_def_impl.html#ae47f4ee88793375da7ea7dc1b1f21cdd", null ],
     [ "writeTemplateSpec", "d1/d25/class_class_def_impl.html#a19a78cda05295880aa74873cfbad293b", null ],
-    [ "m_impl", "d1/d25/class_class_def_impl.html#a28f907f7f40d1256fc95803d48a8dbd7", null ]
+    [ "m_impl", "d1/d25/class_class_def_impl.html#a040858bef0f87dbfd06ac6f8fe4fb9c2", null ]
 ];

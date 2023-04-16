@@ -29,6 +29,7 @@ var structcode_y_y__state =
     [ "delimiter", "da/d28/structcode_y_y__state.html#a483cc811e5ac5a502cba8c04b32c03e0", null ],
     [ "exampleBlock", "da/d28/structcode_y_y__state.html#a5dcb9647f64bb73054b2400815175dff", null ],
     [ "exampleFile", "da/d28/structcode_y_y__state.html#aec0181a19ee6d9eb03ed780ba2928d1d", null ],
+    [ "exampleFileDef", "da/d28/structcode_y_y__state.html#a28f45ae0c4942cd8e6492b5a1238a260", null ],
     [ "exampleName", "da/d28/structcode_y_y__state.html#a9581e235afe3ca0a541d20098f4efb40", null ],
     [ "fileName", "da/d28/structcode_y_y__state.html#a49520070cbe01465b5482afc9de1d630", null ],
     [ "includeCodeFragment", "da/d28/structcode_y_y__state.html#a234ca637cbb223fd7f7cb7b0b1a1b0c7", null ],

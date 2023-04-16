@@ -17,6 +17,7 @@ var class_doxygen =
     [ "filterDBFileName", "de/d6a/class_doxygen.html#ab044e0b3e178d1ba542e38a9c206d57a", null ],
     [ "functionNameLinkedMap", "de/d6a/class_doxygen.html#a6c68c48d8e3dac65c86b39ab838a5f9e", null ],
     [ "generatingXmlOutput", "de/d6a/class_doxygen.html#ac07e39c40aff392de965adff59f779ff", null ],
+    [ "globalNamespaceDef", "de/d6a/class_doxygen.html#ac2452c0b69f1e303a7ee3c2f16169ddf", null ],
     [ "globalScope", "de/d6a/class_doxygen.html#a70414f815dfe6f9b6605380312f0dbc2", null ],
     [ "groupLinkedMap", "de/d6a/class_doxygen.html#afd89d49084b42d085e9d40fc2636da9c", null ],
     [ "hiddenClassLinkedMap", "de/d6a/class_doxygen.html#aa0f09f8179e2e4b6da595beaa37e17dd", null ],

@@ -108,13 +108,13 @@ $(document).ready(function(){initNavTree('d8/dc3/struct_doc_lexer_context.html',
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8e11ecac217a3a1f23bd5a079d3ce715"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc3/struct_doc_lexer_context.html#a8e11ecac217a3a1f23bd5a079d3ce715">DocLexerContext</a> (<a class="el" href="../../d6/df4/struct_token_info.html">TokenInfo</a> *tk, int r, int lvl, yy_size_t pos, const char *s, YY_BUFFER_STATE bs)</td></tr>
-<tr class="separator:a8e11ecac217a3a1f23bd5a079d3ce715"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adea932b01c5c23ea0d08df4d0220d560"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc3/struct_doc_lexer_context.html#adea932b01c5c23ea0d08df4d0220d560">DocLexerContext</a> (const <a class="el" href="../../d6/df4/struct_token_info.html">TokenInfo</a> &amp;tk, int r, int lvl, yy_size_t pos, const char *s, YY_BUFFER_STATE bs)</td></tr>
+<tr class="separator:adea932b01c5c23ea0d08df4d0220d560"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a0d0279acd580f1391253e0cb4de291d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/df4/struct_token_info.html">TokenInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc3/struct_doc_lexer_context.html#a0d0279acd580f1391253e0cb4de291d6">token</a></td></tr>
-<tr class="separator:a0d0279acd580f1391253e0cb4de291d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24d036164334e9185f473bbc24a865a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/df4/struct_token_info.html">TokenInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc3/struct_doc_lexer_context.html#a24d036164334e9185f473bbc24a865a9">token</a></td></tr>
+<tr class="separator:a24d036164334e9185f473bbc24a865a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2e9a68a5dac05327ccc406c1a8e2669"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc3/struct_doc_lexer_context.html#af2e9a68a5dac05327ccc406c1a8e2669">rule</a></td></tr>
 <tr class="separator:af2e9a68a5dac05327ccc406c1a8e2669"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af642c9d98d61a5f08c615d79a0c4fcd1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc3/struct_doc_lexer_context.html#af642c9d98d61a5f08c615d79a0c4fcd1">autoListLevel</a></td></tr>
@@ -130,8 +130,8 @@ Public Attributes</h2></td></tr>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l00060">60</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a8e11ecac217a3a1f23bd5a079d3ce715" name="a8e11ecac217a3a1f23bd5a079d3ce715"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e11ecac217a3a1f23bd5a079d3ce715">&#9670;&#160;</a></span>DocLexerContext()</h2>
+<a id="adea932b01c5c23ea0d08df4d0220d560" name="adea932b01c5c23ea0d08df4d0220d560"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adea932b01c5c23ea0d08df4d0220d560">&#9670;&#160;</a></span>DocLexerContext()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -142,7 +142,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">DocLexerContext::DocLexerContext </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d6/df4/struct_token_info.html">TokenInfo</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d6/df4/struct_token_info.html">TokenInfo</a> &amp;&#160;</td>
           <td class="paramname"><em>tk</em>, </td>
         </tr>
         <tr>
@@ -189,8 +189,8 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d39/doctokenizer_8l_source.html#l00062">62</a> of file <a class="el" href="../../d1/d39/doctokenizer_8l_source.html">doctokenizer.l</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   63</span>    : <a class="code hl_variable" href="../../d8/dc3/struct_doc_lexer_context.html#a0d0279acd580f1391253e0cb4de291d6">token</a>(tk), <a class="code hl_variable" href="../../d8/dc3/struct_doc_lexer_context.html#af2e9a68a5dac05327ccc406c1a8e2669">rule</a>(r), <a class="code hl_variable" href="../../d8/dc3/struct_doc_lexer_context.html#af642c9d98d61a5f08c615d79a0c4fcd1">autoListLevel</a>(lvl), <a class="code hl_variable" href="../../d8/dc3/struct_doc_lexer_context.html#ad213136475bcdea433cfb13e30ec5f2e">inputPos</a>(pos), <a class="code hl_variable" href="../../d8/dc3/struct_doc_lexer_context.html#a2635bb7ec48f95756b72f5ce53d19500">inputString</a>(s), <a class="code hl_variable" href="../../d8/dc3/struct_doc_lexer_context.html#aff59ac36da3634c543277ef8b5575aca">state</a>(bs) {}</div>
-<div class="ttc" id="astruct_doc_lexer_context_html_a0d0279acd580f1391253e0cb4de291d6"><div class="ttname"><a href="../../d8/dc3/struct_doc_lexer_context.html#a0d0279acd580f1391253e0cb4de291d6">DocLexerContext::token</a></div><div class="ttdeci">TokenInfo * token</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc3/struct_doc_lexer_context.html#l00064">doctokenizer.l:64</a></div></div>
+<div class="fragment"><div class="line"><span class="lineno">   63</span>    : <a class="code hl_variable" href="../../d8/dc3/struct_doc_lexer_context.html#a24d036164334e9185f473bbc24a865a9">token</a>(tk), <a class="code hl_variable" href="../../d8/dc3/struct_doc_lexer_context.html#af2e9a68a5dac05327ccc406c1a8e2669">rule</a>(r), <a class="code hl_variable" href="../../d8/dc3/struct_doc_lexer_context.html#af642c9d98d61a5f08c615d79a0c4fcd1">autoListLevel</a>(lvl), <a class="code hl_variable" href="../../d8/dc3/struct_doc_lexer_context.html#ad213136475bcdea433cfb13e30ec5f2e">inputPos</a>(pos), <a class="code hl_variable" href="../../d8/dc3/struct_doc_lexer_context.html#a2635bb7ec48f95756b72f5ce53d19500">inputString</a>(s), <a class="code hl_variable" href="../../d8/dc3/struct_doc_lexer_context.html#aff59ac36da3634c543277ef8b5575aca">state</a>(bs) {}</div>
+<div class="ttc" id="astruct_doc_lexer_context_html_a24d036164334e9185f473bbc24a865a9"><div class="ttname"><a href="../../d8/dc3/struct_doc_lexer_context.html#a24d036164334e9185f473bbc24a865a9">DocLexerContext::token</a></div><div class="ttdeci">TokenInfo token</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc3/struct_doc_lexer_context.html#l00064">doctokenizer.l:64</a></div></div>
 <div class="ttc" id="astruct_doc_lexer_context_html_a2635bb7ec48f95756b72f5ce53d19500"><div class="ttname"><a href="../../d8/dc3/struct_doc_lexer_context.html#a2635bb7ec48f95756b72f5ce53d19500">DocLexerContext::inputString</a></div><div class="ttdeci">const char * inputString</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc3/struct_doc_lexer_context.html#l00068">doctokenizer.l:68</a></div></div>
 <div class="ttc" id="astruct_doc_lexer_context_html_ad213136475bcdea433cfb13e30ec5f2e"><div class="ttname"><a href="../../d8/dc3/struct_doc_lexer_context.html#ad213136475bcdea433cfb13e30ec5f2e">DocLexerContext::inputPos</a></div><div class="ttdeci">yy_size_t inputPos</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc3/struct_doc_lexer_context.html#l00067">doctokenizer.l:67</a></div></div>
 <div class="ttc" id="astruct_doc_lexer_context_html_af2e9a68a5dac05327ccc406c1a8e2669"><div class="ttname"><a href="../../d8/dc3/struct_doc_lexer_context.html#af2e9a68a5dac05327ccc406c1a8e2669">DocLexerContext::rule</a></div><div class="ttdeci">int rule</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc3/struct_doc_lexer_context.html#l00065">doctokenizer.l:65</a></div></div>
@@ -280,14 +280,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0d0279acd580f1391253e0cb4de291d6" name="a0d0279acd580f1391253e0cb4de291d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d0279acd580f1391253e0cb4de291d6">&#9670;&#160;</a></span>token</h2>
+<a id="a24d036164334e9185f473bbc24a865a9" name="a24d036164334e9185f473bbc24a865a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24d036164334e9185f473bbc24a865a9">&#9670;&#160;</a></span>token</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d6/df4/struct_token_info.html">TokenInfo</a>* DocLexerContext::token</td>
+          <td class="memname"><a class="el" href="../../d6/df4/struct_token_info.html">TokenInfo</a> DocLexerContext::token</td>
         </tr>
       </table>
 </div><div class="memdoc">

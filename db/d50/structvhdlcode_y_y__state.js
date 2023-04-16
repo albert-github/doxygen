@@ -9,6 +9,7 @@ var structvhdlcode_y_y__state =
     [ "currentMemberDef", "db/d50/structvhdlcode_y_y__state.html#ab1abf83f57f38ab340ef88f66398e60b", null ],
     [ "exampleBlock", "db/d50/structvhdlcode_y_y__state.html#a9d7f57343be1912a967a61e383ac0d0b", null ],
     [ "exampleFile", "db/d50/structvhdlcode_y_y__state.html#a51ac636053e80138de0ab3bf8c6b6f9f", null ],
+    [ "exampleFileDef", "db/d50/structvhdlcode_y_y__state.html#a3dc05560f0698f9b25701ce0a5b5682b", null ],
     [ "exampleName", "db/d50/structvhdlcode_y_y__state.html#abe985a05913b1895875b8a4c27189467", null ],
     [ "fileName", "db/d50/structvhdlcode_y_y__state.html#a899a023dfeaed70f3ae6eef0fd543a11", null ],
     [ "funcProto", "db/d50/structvhdlcode_y_y__state.html#a500cffab105d5f7a95fcfd22a827a8b1", null ],

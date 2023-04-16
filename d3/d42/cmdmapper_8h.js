@@ -1,7 +1,7 @@
 var cmdmapper_8h =
 [
     [ "Mapper", "d9/d09/class_mapper.html", "d9/d09/class_mapper" ],
-    [ "Mappers", "dd/dc6/struct_mappers.html", "dd/dc6/struct_mappers" ],
+    [ "CommandMap", "d3/d42/cmdmapper_8h.html#aae04f067f0c7ed329bde329f6ffc03d2", null ],
     [ "CommandType", "d3/d42/cmdmapper_8h.html#a21e038f5b8958e203d28bc4f18472352", [
       [ "CMD_UNKNOWN", "d3/d42/cmdmapper_8h.html#a21e038f5b8958e203d28bc4f18472352a59c51f88aeda3ea6351f01c9c70b9ac7", null ],
       [ "CMD_ADDINDEX", "d3/d42/cmdmapper_8h.html#a21e038f5b8958e203d28bc4f18472352a46f97c0157cebb6ac65f5e6f4170b320", null ],

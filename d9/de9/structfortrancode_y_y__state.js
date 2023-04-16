@@ -12,6 +12,7 @@ var structfortrancode_y_y__state =
     [ "endComment", "d9/de9/structfortrancode_y_y__state.html#afdc1758c977a0865351ec77c7608f357", null ],
     [ "exampleBlock", "d9/de9/structfortrancode_y_y__state.html#a3ec7bb5a57201b7e295da3284d240aea", null ],
     [ "exampleFile", "d9/de9/structfortrancode_y_y__state.html#a1d15c2c76bb67712b44d7bde0cde7771", null ],
+    [ "exampleFileDef", "d9/de9/structfortrancode_y_y__state.html#a744492cd7dc52167f237ffc67bb75fb0", null ],
     [ "exampleName", "d9/de9/structfortrancode_y_y__state.html#ab3018640a72c5b4fc54813e7209d1851", null ],
     [ "fileName", "d9/de9/structfortrancode_y_y__state.html#ad63750b84a7f0270446b32ab496d97d3", null ],
     [ "fixedCommentAfter", "d9/de9/structfortrancode_y_y__state.html#a50485e8e873ac904d69eb7331ad1b106", null ],

@@ -6,7 +6,6 @@ var struct_token_info =
       [ "InOut", "d6/df4/struct_token_info.html#acc77be95dcb06cac9e3954a1ab62c443ab035bcc98eb9bf542c4ab3d20b3ad3ca", null ],
       [ "Unspecified", "d6/df4/struct_token_info.html#acc77be95dcb06cac9e3954a1ab62c443a4970bd30967b6173cb3aeb899cfc7a1a", null ]
     ] ],
-    [ "TokenInfo", "d6/df4/struct_token_info.html#a2c5574dee34a4ba209ca1b976a1b51d0", null ],
     [ "attribs", "d6/df4/struct_token_info.html#a811b08400dcdf6aa65b3fd3149b890c9", null ],
     [ "attribsStr", "d6/df4/struct_token_info.html#adc9d20fd04d516b19428a840755cf0de", null ],
     [ "chars", "d6/df4/struct_token_info.html#a7dc1ad1cf0a4e237d7be47b02092d6eb", null ],

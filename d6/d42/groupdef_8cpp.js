@@ -8,7 +8,7 @@ var groupdef_8cpp =
     [ "addGroupToGroups", "d6/d42/groupdef_8cpp.html#a0b501f4e23a2e8465946abfdfe294c4c", null ],
     [ "addMemberToGroups", "d6/d42/groupdef_8cpp.html#affd271e102af38c14812ccc21a86401c", null ],
     [ "addNamespaceToGroups", "d6/d42/groupdef_8cpp.html#a035458fc750e2a32abad901b719f8392", null ],
-    [ "createGroupDef", "d6/d42/groupdef_8cpp.html#ad9cd5fae1a1c6946fa013e9616cc350e", null ],
+    [ "createGroupDef", "d6/d42/groupdef_8cpp.html#a78b23ceba36115840bc62b449edd9a72", null ],
     [ "groupClassesWithSameScope", "d6/d42/groupdef_8cpp.html#a553cf15878cf6e6bdcecf5f8698f4349", null ],
     [ "toGroupDef", "d6/d42/groupdef_8cpp.html#af7300755cb300198b86b98757b2f8311", null ],
     [ "toGroupDef", "d6/d42/groupdef_8cpp.html#a81b6ac5e79beed572376b9aebfa96da5", null ]
