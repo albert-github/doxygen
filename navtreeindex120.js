@@ -1,5 +1,8 @@
 var NAVTREEINDEX120 =
 {
+"de/d82/class_translator_polish.html#aaa1a0b407fe4a4f1b499392e23fcde07":[9,0,610,185],
+"de/d82/class_translator_polish.html#aab45a1ee516e7e1bccfc3d583bfb4ab1":[9,0,610,112],
+"de/d82/class_translator_polish.html#aab5b62496303678a3170604c73747034":[9,0,610,187],
 "de/d82/class_translator_polish.html#aabe901b44e851e40a3fe0d7179a9cb79":[9,0,610,89],
 "de/d82/class_translator_polish.html#aabf2e141126f09588ba6eef99452ada0":[9,0,610,100],
 "de/d82/class_translator_polish.html#aaca021924f68f1994608c5f8e5efcd52":[9,0,610,164],
@@ -141,8 +144,8 @@ var NAVTREEINDEX120 =
 "de/d96/struct_filter_group_by_1_1_list_elem.html#a9f238ff84b6da7c82ed7974e4a137cd1":[9,0,267,0,1],
 "de/d96/struct_output_gen_intf_1_1start_section.html":[8,0,10,145],
 "de/d96/struct_output_gen_intf_1_1start_section.html":[9,0,5,145],
-"de/d96/struct_output_gen_intf_1_1start_section.html#a1c4b2944def8ee9dca8b259b16462982":[8,0,10,145,0],
 "de/d96/struct_output_gen_intf_1_1start_section.html#a1c4b2944def8ee9dca8b259b16462982":[9,0,5,145,0],
+"de/d96/struct_output_gen_intf_1_1start_section.html#a1c4b2944def8ee9dca8b259b16462982":[8,0,10,145,0],
 "de/d99/struct_template_node_tree_1_1_tree_context.html":[9,0,543,0],
 "de/d99/struct_template_node_tree_1_1_tree_context.html#a367bad26a18577642f8a0c838d9063fb":[9,0,543,0,0],
 "de/d99/struct_template_node_tree_1_1_tree_context.html#a695f724c09696c175add24eceee42a18":[9,0,543,0,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX120 =
 "de/da5/class_man_generator.html#a66ae1d09997555850f799cd41639939e":[9,0,371,139],
 "de/da5/class_man_generator.html#a680b0b24f66dc9038bb9d97dede6c309":[9,0,371,9],
 "de/da5/class_man_generator.html#a68a8a44e48aa4441ed8f522f4f88dc75":[9,0,371,94],
-"de/da5/class_man_generator.html#a69dbc09e1398a0f64796d28a45642bba":[9,0,371,114],
-"de/da5/class_man_generator.html#a69eb7ce0210b98f4040331fe46702935":[9,0,371,188],
-"de/da5/class_man_generator.html#a6b4472b2eefeb5376c745f25bf4f0311":[9,0,371,106],
-"de/da5/class_man_generator.html#a6be4bb76041b91204e6acc46d525ef06":[9,0,371,127]
+"de/da5/class_man_generator.html#a69dbc09e1398a0f64796d28a45642bba":[9,0,371,114]
 };
