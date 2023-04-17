@@ -1,7 +1,7 @@
 var NAVTREEINDEX97 =
 {
-"dc/de7/classvhdl_1_1parser_1_1_token.html#af4c8d87a0456cd4ce8a65662fa507bb1":[8,0,18,0,4,0],
 "dc/de7/classvhdl_1_1parser_1_1_token.html#af4c8d87a0456cd4ce8a65662fa507bb1":[9,0,8,0,4,0],
+"dc/de7/classvhdl_1_1parser_1_1_token.html#af4c8d87a0456cd4ce8a65662fa507bb1":[8,0,18,0,4,0],
 "dc/dea/class_x_m_l_handlers.html":[9,0,641],
 "dc/dea/class_x_m_l_handlers.html#a15cedeea046e36465580e5654121387e":[9,0,641,0],
 "dc/dea/class_x_m_l_handlers.html#a1defe3e13b4080a973e982a5a426967f":[9,0,641,1],
