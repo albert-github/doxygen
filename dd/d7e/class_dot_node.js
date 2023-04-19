@@ -62,5 +62,6 @@ var class_dot_node =
     [ "m_truncated", "dd/d7e/class_dot_node.html#a408a1095014b55475e7138d861597b69", null ],
     [ "m_url", "dd/d7e/class_dot_node.html#afeafe76686b1e932aacbd7e9e854ff26", null ],
     [ "m_visible", "dd/d7e/class_dot_node.html#ab092b4fec02c4420c518ad325cc4b175", null ],
-    [ "m_written", "dd/d7e/class_dot_node.html#a53c2882a93930d9fc813d4e6152aa475", null ]
+    [ "m_written", "dd/d7e/class_dot_node.html#a53c2882a93930d9fc813d4e6152aa475", null ],
+    [ "placeholderUrl", "dd/d7e/class_dot_node.html#ad1c9b1e1192faac2bf956a6a3043be0c", null ]
 ];

@@ -247,7 +247,7 @@ var NAVTREEINDEX100 =
 "dd/d38/class_translator_norwegian.html#afd59f0d6acd23335906d3083816e96ff":[9,0,607,176],
 "dd/d39/namespacedetail.html":[8,0,3],
 "dd/d39/namespacedetail.html#a813e5bcc6785357f4ca1f4b19436c5ad":[8,0,3,3],
-"dd/d3d/struct_output_gen_intf_1_1end_center.html":[9,0,5,7],
 "dd/d3d/struct_output_gen_intf_1_1end_center.html":[8,0,11,7],
+"dd/d3d/struct_output_gen_intf_1_1end_center.html":[9,0,5,7],
 "dd/d3d/struct_output_gen_intf_1_1end_center.html#a8fd14f650ddc348f0d972a11f138c6ca":[9,0,5,7,0]
 };
