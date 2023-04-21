@@ -1,5 +1,9 @@
 var NAVTREEINDEX16 =
 {
+"d2/d07/class_translator_esperanto.html#a03b4baa7a56aa31c9584647ae06a2b21":[9,0,591,45],
+"d2/d07/class_translator_esperanto.html#a0402120451d994d7d2eec8d50cd9ec7a":[9,0,591,74],
+"d2/d07/class_translator_esperanto.html#a04f4509ee8b8e8f488468e689fa2e457":[9,0,591,212],
+"d2/d07/class_translator_esperanto.html#a0539c4bfc07fc94c412513ce7a7549c2":[9,0,591,57],
 "d2/d07/class_translator_esperanto.html#a07f2ed82c85c638c9f43e084b260e050":[9,0,591,188],
 "d2/d07/class_translator_esperanto.html#a08455b98b0573a17c8866e2ef41d0c6f":[9,0,591,102],
 "d2/d07/class_translator_esperanto.html#a0884c67bbbd62a57dff458c7e0bbccdc":[9,0,591,177],
@@ -245,9 +249,5 @@ var NAVTREEINDEX16 =
 "d2/d0d/message_8h.html#a98645a9007f170571a5865b92ceda5e3":[10,0,2,178,8],
 "d2/d0d/message_8h.html#aa0b7262dc94aba9476d8669db4f3920e":[10,0,2,178,4],
 "d2/d0d/message_8h.html#aa9b2f2212c468c73d782e9fd5dc7e098":[10,0,2,178,14],
-"d2/d0d/message_8h.html#aad9799c2a434877f36bc92beb8966567":[10,0,2,178,10],
-"d2/d0d/message_8h.html#ae3d3e3fe0dd73eb3fe463e99d2bd4a73":[10,0,2,178,3],
-"d2/d0d/message_8h.html#ae6153a6152e57505cfd23fbc4d8cf366":[10,0,2,178,13],
-"d2/d0d/message_8h.html#aeab6bdc80baea6fa74dda7bc65c12cc5":[10,0,2,178,2],
-"d2/d0d/message_8h_source.html":[10,0,2,178]
+"d2/d0d/message_8h.html#aad9799c2a434877f36bc92beb8966567":[10,0,2,178,10]
 };

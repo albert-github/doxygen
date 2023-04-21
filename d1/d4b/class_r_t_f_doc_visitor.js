@@ -1,7 +1,7 @@
 var class_r_t_f_doc_visitor =
 [
     [ "RTFListItemInfo", "d9/d88/struct_r_t_f_doc_visitor_1_1_r_t_f_list_item_info.html", "d9/d88/struct_r_t_f_doc_visitor_1_1_r_t_f_list_item_info" ],
-    [ "RTFDocVisitor", "d1/d4b/class_r_t_f_doc_visitor.html#a612cde29424acbb3c7ace2473dfb39f7", null ],
+    [ "RTFDocVisitor", "d1/d4b/class_r_t_f_doc_visitor.html#a67b0a4193b8ba939843a29f3d67acaa9", null ],
     [ "decIndentLevel", "d1/d4b/class_r_t_f_doc_visitor.html#a7a1c80a721716cb64c2a82e80cbff047", null ],
     [ "endLink", "d1/d4b/class_r_t_f_doc_visitor.html#adc9cf36e3e61b81df2b0ada024366806", null ],
     [ "filter", "d1/d4b/class_r_t_f_doc_visitor.html#a02ac65b43b4122de86989aed6d356df1", null ],
@@ -77,6 +77,7 @@ var class_r_t_f_doc_visitor =
     [ "writePlantUMLFile", "d1/d4b/class_r_t_f_doc_visitor.html#a8aaf0de986f15251aaa6221d226ab55a", null ],
     [ "m_ci", "d1/d4b/class_r_t_f_doc_visitor.html#a4948ccf2a491663a91479243554243cd", null ],
     [ "m_hide", "d1/d4b/class_r_t_f_doc_visitor.html#a8adcc63dc189a8e625ff27867dedbe25", null ],
+    [ "m_hierarchyLevel", "d1/d4b/class_r_t_f_doc_visitor.html#a36079b40823fcb3c2f0473dbf124d032", null ],
     [ "m_indentLevel", "d1/d4b/class_r_t_f_doc_visitor.html#a7750d512b4ea14d7547669387849d45b", null ],
     [ "m_insidePre", "d1/d4b/class_r_t_f_doc_visitor.html#a5aa7831854cde6046dc35731447cd982", null ],
     [ "m_langExt", "d1/d4b/class_r_t_f_doc_visitor.html#a303074f18eaca30ccd8faf73917255ad", null ],

@@ -1,5 +1,9 @@
 var NAVTREEINDEX26 =
 {
+"d3/d65/class_translator_afrikaans.html#a01377a4168d5fda632b2812dd1e37e91":[9,0,578,63],
+"d3/d65/class_translator_afrikaans.html#a014a0084d1cffb123c9b9fa6eff8296e":[9,0,578,162],
+"d3/d65/class_translator_afrikaans.html#a04c234f52aef193caef01b00813248bd":[9,0,578,77],
+"d3/d65/class_translator_afrikaans.html#a063d5d3d710cefa2a3f41ef010a74c3d":[9,0,578,117],
 "d3/d65/class_translator_afrikaans.html#a07fd30b22e48b3b4f6bf4c5d2764437e":[9,0,578,90],
 "d3/d65/class_translator_afrikaans.html#a0933b64b76e83f7d651b1c702246a04d":[9,0,578,102],
 "d3/d65/class_translator_afrikaans.html#a0b58fb9c7ce335654efde2c3dfe94ded":[9,0,578,126],
@@ -245,9 +249,5 @@ var NAVTREEINDEX26 =
 "d3/d6c/class_vhdl_string.html#a9adab5bfd895699f39b84696bee7da78":[9,0,636,11],
 "d3/d6c/class_vhdl_string.html#ab0fb86df3d26cfde46f9822599a53269":[9,0,636,3],
 "d3/d6c/class_vhdl_string.html#ab19c70bd559db2d839ad189dba7d4308":[9,0,636,22],
-"d3/d6c/class_vhdl_string.html#ac1475e34a382d8691a23ac4e1d25e379":[9,0,636,2],
-"d3/d6c/class_vhdl_string.html#ad1747afcb0d13f711688ab21ae32fe9e":[9,0,636,0],
-"d3/d6c/class_vhdl_string.html#ae57f5f8bd57f7697d50d129b08e310e2":[9,0,636,7],
-"d3/d6c/class_vhdl_string.html#ae74bb84c2809baf748cf273204aabd20":[9,0,636,10],
-"d3/d6c/class_vhdl_string.html#aefd2a815dc508a12c9352da3b575ce8f":[9,0,636,12]
+"d3/d6c/class_vhdl_string.html#ac1475e34a382d8691a23ac4e1d25e379":[9,0,636,2]
 };

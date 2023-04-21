@@ -112,7 +112,7 @@ var class_docbook_generator =
     [ "startDoxyAnchor", "d1/d72/class_docbook_generator.html#aff15113bc9f052e87784191dfb8b04f9", null ],
     [ "startEmphasis", "d1/d72/class_docbook_generator.html#abe7bb46435c0917896dfb23d87aa7af1", null ],
     [ "startExamples", "d1/d72/class_docbook_generator.html#ac0c578a37afd601dce1fa3a2d90e9209", null ],
-    [ "startFile", "d1/d72/class_docbook_generator.html#a651d16f37c5478c158f483c09ba2dfea", null ],
+    [ "startFile", "d1/d72/class_docbook_generator.html#a34b48ce4fd5cc118056654d5079a523e", null ],
     [ "startGroupCollaboration", "d1/d72/class_docbook_generator.html#a1b52aa2748010155131f9ba8f9b05b73", null ],
     [ "startGroupHeader", "d1/d72/class_docbook_generator.html#a07b8ca92d5e96c8991c0076f5a89f274", null ],
     [ "startHeaderSection", "d1/d72/class_docbook_generator.html#a95adf7ec16fbeb183330ecb676a0c177", null ],
@@ -196,6 +196,7 @@ var class_docbook_generator =
     [ "m_inSimpleSect", "d1/d72/class_docbook_generator.html#a854b705e94b366fb3ccf08317bd34b95", null ],
     [ "m_levelListItem", "d1/d72/class_docbook_generator.html#a100d37eb3a12a19bf9be985657fa5fde", null ],
     [ "m_openSectionCount", "d1/d72/class_docbook_generator.html#aee5e536b056fc4c7a6cce79f9175538d", null ],
+    [ "m_pageLinks", "d1/d72/class_docbook_generator.html#aff246cfd65c7cf0982c9b6b39155fc9e", null ],
     [ "m_simpleTable", "d1/d72/class_docbook_generator.html#ad884acf9c276fdecf1912bbc594e9fc6", null ],
     [ "relPath", "d1/d72/class_docbook_generator.html#acc4b3e766937d32df7466312a4e6db40", null ]
 ];

@@ -1,9 +1,13 @@
 var NAVTREEINDEX12 =
 {
+"d1/d72/class_docbook_generator.html#af787f05779c3a1ef0320865700cd5fff":[9,0,127,42],
+"d1/d72/class_docbook_generator.html#af882cc6b2978a2eea0a83c8e59a5f0ee":[9,0,127,39],
+"d1/d72/class_docbook_generator.html#afab958dd26a75104df2c47501621beaf":[9,0,127,131],
 "d1/d72/class_docbook_generator.html#afae8cb3fd84db1e998a4f03433c1493b":[9,0,127,9],
 "d1/d72/class_docbook_generator.html#afd609de12848e1d8f68b3ff905577b12":[9,0,127,57],
 "d1/d72/class_docbook_generator.html#afe9183285aa1fa9014951541e85a26f4":[9,0,127,147],
 "d1/d72/class_docbook_generator.html#aff15113bc9f052e87784191dfb8b04f9":[9,0,127,109],
+"d1/d72/class_docbook_generator.html#aff246cfd65c7cf0982c9b6b39155fc9e":[9,0,127,196],
 "d1/d7a/struct_lex_code_parser_1_1_private.html":[9,0,360,0],
 "d1/d7a/struct_lex_code_parser_1_1_private.html#a2b8db69b4871e7ac57579961c81b7d41":[9,0,360,0,0],
 "d1/d7a/struct_lex_code_parser_1_1_private.html#a85a46e8a2f1cb66e6b67f7b204526c6f":[9,0,360,0,1],
@@ -137,8 +141,8 @@ var NAVTREEINDEX12 =
 "d1/d7f/class_doc_tokenizer.html#aff805b06ccfab10b895659c51afb5829":[9,0,189,10],
 "d1/d83/struct_output_gen_intf_1_1start_anon_type_scope.html":[9,0,5,80],
 "d1/d83/struct_output_gen_intf_1_1start_anon_type_scope.html":[8,0,11,80],
-"d1/d83/struct_output_gen_intf_1_1start_anon_type_scope.html#a2c492be760ffa2235263aa2d50b66b7d":[9,0,5,80,0],
 "d1/d83/struct_output_gen_intf_1_1start_anon_type_scope.html#a2c492be760ffa2235263aa2d50b66b7d":[8,0,11,80,0],
+"d1/d83/struct_output_gen_intf_1_1start_anon_type_scope.html#a2c492be760ffa2235263aa2d50b66b7d":[9,0,5,80,0],
 "d1/d85/class_tooltip_manager_1_1_private.html":[9,0,562,0],
 "d1/d85/class_tooltip_manager_1_1_private.html#abb5a0621aebad8a1b4224bcd061e941c":[9,0,562,0,0],
 "d1/d86/dotgroupcollaboration_8cpp.html":[10,0,2,95],
@@ -245,9 +249,5 @@ var NAVTREEINDEX12 =
 "d1/d8a/class_translator_hindi.html#a4bc0bd48021d1d1d70d1cac0a9c42959":[9,0,596,125],
 "d1/d8a/class_translator_hindi.html#a4dc4443361b74b54a1cc0845dbd8c478":[9,0,596,19],
 "d1/d8a/class_translator_hindi.html#a4dca05288a84043ff37b0efd943b4009":[9,0,596,117],
-"d1/d8a/class_translator_hindi.html#a4e1cd9b6a20e04b793ff8c5e9a115a18":[9,0,596,66],
-"d1/d8a/class_translator_hindi.html#a4eeded0f10e59f9743383f997603997b":[9,0,596,243],
-"d1/d8a/class_translator_hindi.html#a51c44e637ff46f4c928b7b93e8f53f32":[9,0,596,260],
-"d1/d8a/class_translator_hindi.html#a523d20e2e087629dc062e258a3633fbb":[9,0,596,160],
-"d1/d8a/class_translator_hindi.html#a52922167944ab4337e86941fcd2927c7":[9,0,596,172]
+"d1/d8a/class_translator_hindi.html#a4e1cd9b6a20e04b793ff8c5e9a115a18":[9,0,596,66]
 };

@@ -155,8 +155,8 @@ template&lt;class T &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00064">64</a> of file <a class="el" href="../../d3/dea/definition_8cpp_source.html">definition.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   65</span>    {</div>
-<div class="line"><span class="lineno">   66</span>      this-&gt;reset(other ? <span class="keyword">new</span> T(*other) : nullptr);</div>
+<div class="fragment"><div class="line"><span class="lineno">   65</span>       : std::unique_ptr&lt;T&gt;(other ? <span class="keyword">new</span> T(*other) : nullptr)</div>
+<div class="line"><span class="lineno">   66</span>    {</div>
 <div class="line"><span class="lineno">   67</span>    }</div>
 </div><!-- fragment -->
 </div>

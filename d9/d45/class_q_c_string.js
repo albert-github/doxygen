@@ -51,6 +51,7 @@ var class_q_c_string =
     [ "rawData", "d9/d45/class_q_c_string.html#a5f5c9dc172d638c8d7b07010d100117a", null ],
     [ "remove", "d9/d45/class_q_c_string.html#a66f15f4dde9edaf0aac741fa7d57bae8", null ],
     [ "removeWhiteSpace", "d9/d45/class_q_c_string.html#ae5612f003ab58972eb5769811876c5e3", null ],
+    [ "repeat", "d9/d45/class_q_c_string.html#a68253ebb5d12da7c53b5b9a748259b9f", null ],
     [ "replace", "d9/d45/class_q_c_string.html#ab536413a2bab9fe536e82067a3f164ed", null ],
     [ "reserve", "d9/d45/class_q_c_string.html#a973167288278eae74d1d1c25313043fe", null ],
     [ "resize", "d9/d45/class_q_c_string.html#a993474e2da59141336e6105b8e154f2b", null ],

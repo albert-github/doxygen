@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"d0/dc2/class_class_def_mutable.html#a98844b40b53f9e938671fe274771754f":[9,0,41,16],
 "d0/dc2/class_class_def_mutable.html#a9aeaf894c5b89c28322bcaaeef220c0c":[9,0,41,33],
 "d0/dc2/class_class_def_mutable.html#a9c8efa9791f60a2d93bfb735d5880f86":[9,0,41,35],
 "d0/dc2/class_class_def_mutable.html#a9ebbd33fff9657c55529319f4a355309":[9,0,41,40],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "d1/d0c/sqlite3gen_8h.html#ae5b36a2f93dadba9f8c7d762564154e1":[10,0,2,230,0],
 "d1/d0c/sqlite3gen_8h_source.html":[10,0,2,230],
 "d1/d10/struct_namespace_context_1_1_private_1_1_cachable.html":[9,0,404,0,0],
-"d1/d10/struct_namespace_context_1_1_private_1_1_cachable.html#a1be0e0daf42a7e4aa38906999a778290":[9,0,404,0,0,13],
-"d1/d10/struct_namespace_context_1_1_private_1_1_cachable.html#a273247d63cb86faa2ca6e8db07c0bf6e":[9,0,404,0,0,16]
+"d1/d10/struct_namespace_context_1_1_private_1_1_cachable.html#a1be0e0daf42a7e4aa38906999a778290":[9,0,404,0,0,13]
 };

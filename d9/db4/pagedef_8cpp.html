@@ -182,7 +182,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">   78</span>  <span class="keywordflow">return</span> std::make_unique&lt;PageDefImpl&gt;(f,l,n,d,t);</div>
 <div class="line"><span class="lineno">   79</span>}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../df/d2d/util_8cpp_source.html#l04758">addRelatedPage()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l09270">buildExampleList()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l09047">findMainPage()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l09030">generateOutputViaTemplate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d2d/util_8cpp_source.html#l04758">addRelatedPage()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l09266">buildExampleList()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l09045">findMainPage()</a>, and <a class="el" href="../../db/d12/context_8cpp_source.html#l09030">generateOutputViaTemplate()</a>.</p>
 
 </div>
 </div>
@@ -202,18 +202,18 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/db4/pagedef_8cpp_source.html#l00423">423</a> of file <a class="el" href="../../d9/db4/pagedef_8cpp_source.html">pagedef.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  424</span>{</div>
-<div class="line"><span class="lineno">  425</span>  <span class="keywordflow">if</span> (d==0) <span class="keywordflow">return</span> 0;</div>
-<div class="line"><span class="lineno">  426</span>  <span class="keywordflow">if</span> (d &amp;&amp; <span class="keyword">typeid</span>(*d)==<span class="keyword">typeid</span>(<a class="code hl_class" href="../../dd/de8/class_page_def_impl.html">PageDefImpl</a>))</div>
-<div class="line"><span class="lineno">  427</span>  {</div>
-<div class="line"><span class="lineno">  428</span>    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keyword">const </span><a class="code hl_class" href="../../dd/d41/class_page_def.html">PageDef</a>*<span class="keyword">&gt;</span>(d);</div>
-<div class="line"><span class="lineno">  429</span>  }</div>
-<div class="line"><span class="lineno">  430</span>  <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  431</span>  {</div>
-<div class="line"><span class="lineno">  432</span>    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><span class="lineno">  433</span>  }</div>
-<div class="line"><span class="lineno">  434</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d9/db4/pagedef_8cpp_source.html#l00404">404</a> of file <a class="el" href="../../d9/db4/pagedef_8cpp_source.html">pagedef.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  405</span>{</div>
+<div class="line"><span class="lineno">  406</span>  <span class="keywordflow">if</span> (d==0) <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  407</span>  <span class="keywordflow">if</span> (d &amp;&amp; <span class="keyword">typeid</span>(*d)==<span class="keyword">typeid</span>(<a class="code hl_class" href="../../dd/de8/class_page_def_impl.html">PageDefImpl</a>))</div>
+<div class="line"><span class="lineno">  408</span>  {</div>
+<div class="line"><span class="lineno">  409</span>    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keyword">const </span><a class="code hl_class" href="../../dd/d41/class_page_def.html">PageDef</a>*<span class="keyword">&gt;</span>(d);</div>
+<div class="line"><span class="lineno">  410</span>  }</div>
+<div class="line"><span class="lineno">  411</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  412</span>  {</div>
+<div class="line"><span class="lineno">  413</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  414</span>  }</div>
+<div class="line"><span class="lineno">  415</span>}</div>
 <div class="ttc" id="aclass_page_def_html"><div class="ttname"><a href="../../dd/d41/class_page_def.html">PageDef</a></div><div class="ttdoc">A model of a page symbol.</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d41/class_page_def.html#l00025">pagedef.h:26</a></div></div>
 <div class="ttc" id="aclass_page_def_impl_html"><div class="ttname"><a href="../../dd/de8/class_page_def_impl.html">PageDefImpl</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de8/class_page_def_impl.html#l00030">pagedef.cpp:31</a></div></div>
 </div><!-- fragment -->
@@ -235,18 +235,18 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/db4/pagedef_8cpp_source.html#l00410">410</a> of file <a class="el" href="../../d9/db4/pagedef_8cpp_source.html">pagedef.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  411</span>{</div>
-<div class="line"><span class="lineno">  412</span>  <span class="keywordflow">if</span> (d==0) <span class="keywordflow">return</span> 0;</div>
-<div class="line"><span class="lineno">  413</span>  <span class="keywordflow">if</span> (d &amp;&amp; <span class="keyword">typeid</span>(*d)==<span class="keyword">typeid</span>(<a class="code hl_class" href="../../dd/de8/class_page_def_impl.html">PageDefImpl</a>))</div>
-<div class="line"><span class="lineno">  414</span>  {</div>
-<div class="line"><span class="lineno">  415</span>    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="../../dd/d41/class_page_def.html">PageDef</a>*<span class="keyword">&gt;</span>(d);</div>
-<div class="line"><span class="lineno">  416</span>  }</div>
-<div class="line"><span class="lineno">  417</span>  <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  418</span>  {</div>
-<div class="line"><span class="lineno">  419</span>    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><span class="lineno">  420</span>  }</div>
-<div class="line"><span class="lineno">  421</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d9/db4/pagedef_8cpp_source.html#l00391">391</a> of file <a class="el" href="../../d9/db4/pagedef_8cpp_source.html">pagedef.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  392</span>{</div>
+<div class="line"><span class="lineno">  393</span>  <span class="keywordflow">if</span> (d==0) <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  394</span>  <span class="keywordflow">if</span> (d &amp;&amp; <span class="keyword">typeid</span>(*d)==<span class="keyword">typeid</span>(<a class="code hl_class" href="../../dd/de8/class_page_def_impl.html">PageDefImpl</a>))</div>
+<div class="line"><span class="lineno">  395</span>  {</div>
+<div class="line"><span class="lineno">  396</span>    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="../../dd/d41/class_page_def.html">PageDef</a>*<span class="keyword">&gt;</span>(d);</div>
+<div class="line"><span class="lineno">  397</span>  }</div>
+<div class="line"><span class="lineno">  398</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  399</span>  {</div>
+<div class="line"><span class="lineno">  400</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  401</span>  }</div>
+<div class="line"><span class="lineno">  402</span>}</div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="../../d9/db4/pagedef_8cpp_source.html#l00122">PageDefImpl::addInnerCompound()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l05473">NestingNodeContext::Private::addPages()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l05609">NestingNodeContext::Private::createPage()</a>, <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01439">DefinitionImpl::navigationPathAsString()</a>, <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01401">DefinitionImpl::pathFragment()</a>, <a class="el" href="../../d9/d2f/searchindex__js_8cpp_source.html#l00038">searchName()</a>, <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00074">SearchIndex::setCurrentDoc()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l07040">NavPathElemContext::Private::text()</a>, and <a class="el" href="../../da/d17/docparser_8cpp_source.html#l01888">validatingParseDoc()</a>.</p>
 

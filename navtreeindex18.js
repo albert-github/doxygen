@@ -1,5 +1,9 @@
 var NAVTREEINDEX18 =
 {
+"d2/d4c/class_translator_brazilian.html#a804d115ea2d6fc5da0998122364c0e26":[9,0,581,198],
+"d2/d4c/class_translator_brazilian.html#a811e694ccdd2bab8f10760dc2c18ae5f":[9,0,581,125],
+"d2/d4c/class_translator_brazilian.html#a82179990a6e83b682aa8a760cfeb4d3f":[9,0,581,14],
+"d2/d4c/class_translator_brazilian.html#a833f4cbad1bcdc584e53cae87e41bc66":[9,0,581,47],
 "d2/d4c/class_translator_brazilian.html#a845bb6e3a2b1dfc7008d031771e4aae8":[9,0,581,30],
 "d2/d4c/class_translator_brazilian.html#a84ac00adbff337f8a765ec25f20d12d3":[9,0,581,229],
 "d2/d4c/class_translator_brazilian.html#a85b8191fdcb666f2ce94e75da038375e":[9,0,581,127],
@@ -158,8 +162,8 @@ var NAVTREEINDEX18 =
 "d2/d4c/class_translator_brazilian.html#afe7e05ce6fac9cd006e48c9919557147":[9,0,581,287],
 "d2/d4d/struct_search_index_methods_1_1add_word.html":[9,0,7,0],
 "d2/d4d/struct_search_index_methods_1_1add_word.html":[8,0,15,0],
-"d2/d4d/struct_search_index_methods_1_1add_word.html#ae2cc802c4b0ac5beeba2c2a1d4e52114":[8,0,15,0,0],
 "d2/d4d/struct_search_index_methods_1_1add_word.html#ae2cc802c4b0ac5beeba2c2a1d4e52114":[9,0,7,0,0],
+"d2/d4d/struct_search_index_methods_1_1add_word.html#ae2cc802c4b0ac5beeba2c2a1d4e52114":[8,0,15,0,0],
 "d2/d4d/translator__sk_8h.html":[10,0,2,286],
 "d2/d4d/translator__sk_8h_source.html":[10,0,2,286],
 "d2/d53/class_translator_slovak.html":[9,0,615],
@@ -245,9 +249,5 @@ var NAVTREEINDEX18 =
 "d2/d53/class_translator_slovak.html#a47cc3565c9cff44b72a62f3b338c1dfc":[9,0,615,197],
 "d2/d53/class_translator_slovak.html#a499c21ad04401fcd3844e1eaa2eebf41":[9,0,615,149],
 "d2/d53/class_translator_slovak.html#a4c73a9bc214db1adff34ed56367bb8cb":[9,0,615,236],
-"d2/d53/class_translator_slovak.html#a4eb6b2d9bd8969f25a6b4880115c77ff":[9,0,615,60],
-"d2/d53/class_translator_slovak.html#a4fbfecb6f1c82f3203fdd2e506e46df1":[9,0,615,164],
-"d2/d53/class_translator_slovak.html#a506898cbad54130200ec994c6b41901f":[9,0,615,239],
-"d2/d53/class_translator_slovak.html#a50a31a5a786850a6e538bd097abcff27":[9,0,615,165],
-"d2/d53/class_translator_slovak.html#a512d35544146a757532fcefefc204e14":[9,0,615,16]
+"d2/d53/class_translator_slovak.html#a4eb6b2d9bd8969f25a6b4880115c77ff":[9,0,615,60]
 };
