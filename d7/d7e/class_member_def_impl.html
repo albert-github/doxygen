@@ -7800,7 +7800,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno"> 1917</span>    <span class="keyword">auto</span> &amp;info = it-&gt;second;</div>
 <div class="line"><span class="lineno"> 1918</span>    <span class="comment">//printf(&quot;name=%s m_impl-&gt;grpId=%d info=%p\n&quot;,qPrint(name()),m_impl-&gt;grpId,info);</span></div>
 <div class="line"><span class="lineno"> 1919</span>    <span class="comment">//QCString *pMemGrp = Doxygen::memberDocDict[grpId];</span></div>
-<div class="line"><span class="lineno"> 1920</span>    hasDocs = hasDocs ||</div>
+<div class="line"><span class="lineno"> 1920</span>    hasDocs = hasDocs &amp;&amp;</div>
 <div class="line"><span class="lineno"> 1921</span>                  <span class="comment">// part of a documented member group</span></div>
 <div class="line"><span class="lineno"> 1922</span>                 (<a class="code hl_variable" href="../../d7/d7e/class_member_def_impl.html#a5c5c37bcf4eca1ad44d1bb3ced43724d">m_impl</a>-&gt;<a class="code hl_variable" href="../../d0/da8/class_member_def_impl_1_1_i_m_p_l.html#a61874fc713f48e5b737203f3f12bfba2">grpId</a>!=-1 &amp;&amp; !(info-&gt;doc.isEmpty() &amp;&amp; info-&gt;header.isEmpty()));</div>
 <div class="line"><span class="lineno"> 1923</span>  }</div>
