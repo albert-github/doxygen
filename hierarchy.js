@@ -783,7 +783,6 @@ var hierarchy =
     [ "ClassDefImpl::IMPL", "d6/d4a/class_class_def_impl_1_1_i_m_p_l.html", null ],
     [ "DefinitionImpl::IMPL", "dd/d50/class_definition_impl_1_1_i_m_p_l.html", null ],
     [ "details::Impl< T, Ts >", "de/d05/structdetails_1_1_impl.html", null ],
-    [ "MemberDefImpl::IMPL", "d0/da8/class_member_def_impl_1_1_i_m_p_l.html", null ],
     [ "details::Impl< T >", "dd/db2/structdetails_1_1_impl_3_01_t_01_4.html", null ],
     [ "IndexIntf::incContentsDepth< T >", "d3/dfc/struct_index_intf_1_1inc_contents_depth.html", null ],
     [ "TemplateEngine::Private::IncludeEntry", "de/d8d/class_template_engine_1_1_private_1_1_include_entry.html", null ],

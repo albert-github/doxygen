@@ -1,7 +1,6 @@
 var class_config_impl =
 [
     [ "ConfigImpl", "dd/d0d/class_config_impl.html#af661fbf44e03c43d5ae7c3e30ef33a18", null ],
-    [ "~ConfigImpl", "dd/d0d/class_config_impl.html#ad4dcaa753a82ac3ca99038b3fa0a00ca", null ],
     [ "addBool", "dd/d0d/class_config_impl.html#aadfbf98b2e5762c07fa871bc76ebce81", null ],
     [ "addDisabled", "dd/d0d/class_config_impl.html#a376d29ff41f6772b2ccfd055af34d9bb", null ],
     [ "addEnum", "dd/d0d/class_config_impl.html#a09d7a6327e02376011d6c4a28e8b384c", null ],
@@ -15,7 +14,6 @@ var class_config_impl =
     [ "appendUserComment", "dd/d0d/class_config_impl.html#a33e3594e6a4848cd7803990e15b452de", null ],
     [ "compareDoxyfile", "dd/d0d/class_config_impl.html#a24a3e5ba9f648d261101861a8dd22f83", null ],
     [ "convertStrToVal", "dd/d0d/class_config_impl.html#a2a79d804dac59ea90af094a58e52ad1f", null ],
-    [ "create", "dd/d0d/class_config_impl.html#a0e1887e271fe89b5f3e2154e344ad4b1", null ],
     [ "deleteInstance", "dd/d0d/class_config_impl.html#a11be9a99f82898b014f311b5fd9437c1", null ],
     [ "emptyValueToDefault", "dd/d0d/class_config_impl.html#ae0072f7a4546b40a6c445e826bb6e027", null ],
     [ "get", "dd/d0d/class_config_impl.html#a6ee5f5279077a8be14ca6e22d525f104", null ],
@@ -38,8 +36,7 @@ var class_config_impl =
     [ "m_dict", "dd/d0d/class_config_impl.html#a206f323c81afa079e0d1043519343c81", null ],
     [ "m_disabled", "dd/d0d/class_config_impl.html#ad7a7bd125697fa33303c3328ffa78712", null ],
     [ "m_header", "dd/d0d/class_config_impl.html#af583f0410601ca82409b3ed626516dd2", null ],
-    [ "m_initialized", "dd/d0d/class_config_impl.html#a07266bc2ce859d7582ec2c5ddf4774d6", null ],
-    [ "m_instance", "dd/d0d/class_config_impl.html#a29d7865b28b9ce492accb5d321c312ef", null ],
+    [ "m_instance", "dd/d0d/class_config_impl.html#ac44172d91ba7a3ee9ccfec8a9c764d37", null ],
     [ "m_obsolete", "dd/d0d/class_config_impl.html#a1fae542e0daf98695b00b6a577804e14", null ],
     [ "m_options", "dd/d0d/class_config_impl.html#a0a2a4ac7bd14b923fd7e3434af27eedf", null ],
     [ "m_startComment", "dd/d0d/class_config_impl.html#ab6cfed000bafe37aec0a101b4eb058a1", null ],

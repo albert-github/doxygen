@@ -28,7 +28,6 @@ var searchData=
   ['usemembers_25',['useMembers',['../d9/de9/structfortrancode_y_y__state.html#adc252d3030c61fea1daaf2ba96c4e33c',1,'fortrancodeYY_state']]],
   ['usemodulename_26',['useModuleName',['../d6/d4a/structfortranscanner_y_y__state.html#afbeba4c076c7d620f6a586bac7d12b32',1,'fortranscannerYY_state']]],
   ['usenames_27',['useNames',['../d8/d49/class_scope.html#ae1f8159aa48746bb58e6724ff4a36619',1,'Scope']]],
-  ['userinitlines_28',['userInitLines',['../d0/da8/class_member_def_impl_1_1_i_m_p_l.html#a81574f69db604560925b6be2b09dd47a',1,'MemberDefImpl::IMPL']]],
-  ['usesimplclasslist_29',['usesImplClassList',['../d6/d4a/class_class_def_impl_1_1_i_m_p_l.html#a40e10a71746856d7c08ea6c3e8c11821',1,'ClassDefImpl::IMPL']]],
-  ['utf8_30',['UTF8',['../da/dd4/struct_html_entity_info.html#aa6d488bda4eb38613d2de033fa48efe7',1,'HtmlEntityInfo']]]
+  ['usesimplclasslist_28',['usesImplClassList',['../d6/d4a/class_class_def_impl_1_1_i_m_p_l.html#a40e10a71746856d7c08ea6c3e8c11821',1,'ClassDefImpl::IMPL']]],
+  ['utf8_29',['UTF8',['../da/dd4/struct_html_entity_info.html#aa6d488bda4eb38613d2de033fa48efe7',1,'HtmlEntityInfo']]]
 ];
