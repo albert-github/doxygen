@@ -10,6 +10,7 @@ var latexgen_8cpp =
     [ "latexFilterURL", "d4/d42/latexgen_8cpp.html#a5b4eb46ed4177d10b053426f65925171", null ],
     [ "makeIndex", "d4/d42/latexgen_8cpp.html#a539e2c5c670b530000917c0492e07850", null ],
     [ "objectLinkToString", "d4/d42/latexgen_8cpp.html#ada58cb886cb5f74b40a96749a59eb8b3", null ],
+    [ "processEntity", "d4/d42/latexgen_8cpp.html#aabea2ded9f00d6bbeb03680918e66c02", null ],
     [ "substituteLatexKeywords", "d4/d42/latexgen_8cpp.html#a73e220f6be9c815bb0c708be88e68997", null ],
     [ "writeDefaultStyleSheet", "d4/d42/latexgen_8cpp.html#ac7339dc7ff25bcb7a9fbea1d671a16da", null ],
     [ "writeExtraLatexPackages", "d4/d42/latexgen_8cpp.html#ace2411e2a91d0794515d7319a05a96e4", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX86 =
 {
+"db/d5f/class_translator_hungarian.html#a0c694ab275f638c2218514a4eef22582":[9,0,597,172],
 "db/d5f/class_translator_hungarian.html#a0e1da5bab5c81381130c769e68e0a396":[9,0,597,89],
 "db/d5f/class_translator_hungarian.html#a0eea5af017da7375b1b71b4086daf989":[9,0,597,116],
 "db/d5f/class_translator_hungarian.html#a1016eee29baa71400a332e85ba2a25e5":[9,0,597,112],
@@ -235,19 +236,18 @@ var NAVTREEINDEX86 =
 "db/d5f/class_translator_hungarian.html#afe5e0c1c0d7a8caa1f92e0a949faeb60":[9,0,597,100],
 "db/d62/scanner_8h.html":[10,0,2,219],
 "db/d62/scanner_8h_source.html":[10,0,2,219],
-"db/d68/classreg_1_1_sub_match.html":[9,0,6,4],
 "db/d68/classreg_1_1_sub_match.html":[8,0,14,4],
+"db/d68/classreg_1_1_sub_match.html":[9,0,6,4],
 "db/d68/classreg_1_1_sub_match.html#a1e137e41b04ac89a5c66929c0a549725":[9,0,6,4,1],
 "db/d68/classreg_1_1_sub_match.html#a1e137e41b04ac89a5c66929c0a549725":[8,0,14,4,1],
-"db/d68/classreg_1_1_sub_match.html#a316eb00c39899a5699732e350aae2d2b":[8,0,14,4,3],
 "db/d68/classreg_1_1_sub_match.html#a316eb00c39899a5699732e350aae2d2b":[9,0,6,4,3],
-"db/d68/classreg_1_1_sub_match.html#a3523ab0d0de8fcbbcd6e13cc9e246d1d":[9,0,6,4,5],
+"db/d68/classreg_1_1_sub_match.html#a316eb00c39899a5699732e350aae2d2b":[8,0,14,4,3],
 "db/d68/classreg_1_1_sub_match.html#a3523ab0d0de8fcbbcd6e13cc9e246d1d":[8,0,14,4,5],
+"db/d68/classreg_1_1_sub_match.html#a3523ab0d0de8fcbbcd6e13cc9e246d1d":[9,0,6,4,5],
 "db/d68/classreg_1_1_sub_match.html#a5a9307c50ec4361b8f81eccc1953d10a":[9,0,6,4,4],
 "db/d68/classreg_1_1_sub_match.html#a5a9307c50ec4361b8f81eccc1953d10a":[8,0,14,4,4],
-"db/d68/classreg_1_1_sub_match.html#a69b439fc63c5b605bbe8a3bfa26bb33d":[8,0,14,4,8],
 "db/d68/classreg_1_1_sub_match.html#a69b439fc63c5b605bbe8a3bfa26bb33d":[9,0,6,4,8],
-"db/d68/classreg_1_1_sub_match.html#a7098227bec86f649c193d17418249ed4":[8,0,14,4,9],
+"db/d68/classreg_1_1_sub_match.html#a69b439fc63c5b605bbe8a3bfa26bb33d":[8,0,14,4,8],
 "db/d68/classreg_1_1_sub_match.html#a7098227bec86f649c193d17418249ed4":[9,0,6,4,9],
-"db/d68/classreg_1_1_sub_match.html#a80bbc92cafa9d727e9c5e125a2d21585":[9,0,6,4,7]
+"db/d68/classreg_1_1_sub_match.html#a7098227bec86f649c193d17418249ed4":[8,0,14,4,9]
 };
