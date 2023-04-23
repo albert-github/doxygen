@@ -385,15 +385,14 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d6a/vhdlcode_8l_source.html#l00995">995</a> of file <a class="el" href="../../d5/d6a/vhdlcode_8l_source.html">vhdlcode.l</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  996</span>{</div>
-<div class="line"><span class="lineno">  997</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a806fe73b71f926356bf12291778769b6">Doxygen::searchIndex</a>)</div>
+<div class="line"><span class="lineno">  997</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a2bd5d01c18a72c39aca8bf7a6352aa8c">Doxygen::searchIndex</a>)</div>
 <div class="line"><span class="lineno">  998</span>  {</div>
-<div class="line"><span class="lineno">  999</span>    <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a806fe73b71f926356bf12291778769b6">Doxygen::searchIndex</a>-&gt;<a class="code hl_function" href="../../d8/d4d/class_search_index_intf.html#a40c73d699dbfbee68fb730a3246965c1">addWord</a>(text,<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  999</span>    <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a2bd5d01c18a72c39aca8bf7a6352aa8c">Doxygen::searchIndex</a>-&gt;addWord(text,<span class="keyword">false</span>);</div>
 <div class="line"><span class="lineno"> 1000</span>  }</div>
-<div class="ttc" id="aclass_doxygen_html_a806fe73b71f926356bf12291778769b6"><div class="ttname"><a href="../../de/d6a/class_doxygen.html#a806fe73b71f926356bf12291778769b6">Doxygen::searchIndex</a></div><div class="ttdeci">static SearchIndexIntf * searchIndex</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d6a/class_doxygen.html#l00117">doxygen.h:117</a></div></div>
-<div class="ttc" id="aclass_search_index_intf_html_a40c73d699dbfbee68fb730a3246965c1"><div class="ttname"><a href="../../d8/d4d/class_search_index_intf.html#a40c73d699dbfbee68fb730a3246965c1">SearchIndexIntf::addWord</a></div><div class="ttdeci">void addWord(const QCString &amp;word, bool hiPriority)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d4d/class_search_index_intf.html#l00161">searchindex.h:161</a></div></div>
+<div class="ttc" id="aclass_doxygen_html_a2bd5d01c18a72c39aca8bf7a6352aa8c"><div class="ttname"><a href="../../de/d6a/class_doxygen.html#a2bd5d01c18a72c39aca8bf7a6352aa8c">Doxygen::searchIndex</a></div><div class="ttdeci">static std::unique_ptr&lt; SearchIndexIntf &gt; searchIndex</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d6a/class_doxygen.html#l00117">doxygen.h:117</a></div></div>
 <div class="line"><span class="lineno"> 1001</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/d07/searchindex_8h_source.html#l00161">SearchIndexIntf::addWord()</a>, and <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00117">Doxygen::searchIndex</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00117">Doxygen::searchIndex</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d5/d6a/vhdlcode_8l_source.html#l01328">generateClassOrGlobalLink()</a>, <a class="el" href="../../d5/d6a/vhdlcode_8l_source.html#l01275">generateFuncLink()</a>, and <a class="el" href="../../d5/d6a/vhdlcode_8l_source.html#l01291">generateMemLink()</a>.</p>
 
@@ -1254,21 +1253,20 @@ Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d5/d6a/vhdlcode_8l_source.html#l00941">941</a> of file <a class="el" href="../../d5/d6a/vhdlcode_8l_source.html">vhdlcode.l</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  942</span>{</div>
 <div class="line"><span class="lineno">  943</span>  <span class="keyword">struct </span>yyguts_t *yyg = (<span class="keyword">struct </span>yyguts_t*)yyscanner;</div>
-<div class="line"><span class="lineno">  944</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a806fe73b71f926356bf12291778769b6">Doxygen::searchIndex</a>)</div>
+<div class="line"><span class="lineno">  944</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a2bd5d01c18a72c39aca8bf7a6352aa8c">Doxygen::searchIndex</a>)</div>
 <div class="line"><span class="lineno">  945</span>  {</div>
 <div class="line"><span class="lineno">  946</span>    <span class="keywordflow">if</span> (yyextra-&gt;searchCtx)</div>
 <div class="line"><span class="lineno">  947</span>    {</div>
-<div class="line"><span class="lineno">  948</span>      <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a806fe73b71f926356bf12291778769b6">Doxygen::searchIndex</a>-&gt;<a class="code hl_function" href="../../d8/d4d/class_search_index_intf.html#a5aa7df3f4440a0b3adf710fd312195e5">setCurrentDoc</a>(yyextra-&gt;searchCtx,yyextra-&gt;searchCtx-&gt;anchor(),<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  948</span>      <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a2bd5d01c18a72c39aca8bf7a6352aa8c">Doxygen::searchIndex</a>-&gt;setCurrentDoc(yyextra-&gt;searchCtx,yyextra-&gt;searchCtx-&gt;anchor(),<span class="keyword">false</span>);</div>
 <div class="line"><span class="lineno">  949</span>    }</div>
 <div class="line"><span class="lineno">  950</span>    <span class="keywordflow">else</span></div>
 <div class="line"><span class="lineno">  951</span>    {</div>
-<div class="line"><span class="lineno">  952</span>      <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a806fe73b71f926356bf12291778769b6">Doxygen::searchIndex</a>-&gt;<a class="code hl_function" href="../../d8/d4d/class_search_index_intf.html#a5aa7df3f4440a0b3adf710fd312195e5">setCurrentDoc</a>(yyextra-&gt;sourceFileDef,anchor,<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  952</span>      <a class="code hl_variable" href="../../de/d6a/class_doxygen.html#a2bd5d01c18a72c39aca8bf7a6352aa8c">Doxygen::searchIndex</a>-&gt;setCurrentDoc(yyextra-&gt;sourceFileDef,anchor,<span class="keyword">true</span>);</div>
 <div class="line"><span class="lineno">  953</span>    }</div>
 <div class="line"><span class="lineno">  954</span>  }</div>
-<div class="ttc" id="aclass_search_index_intf_html_a5aa7df3f4440a0b3adf710fd312195e5"><div class="ttname"><a href="../../d8/d4d/class_search_index_intf.html#a5aa7df3f4440a0b3adf710fd312195e5">SearchIndexIntf::setCurrentDoc</a></div><div class="ttdeci">void setCurrentDoc(const Definition *ctx, const QCString &amp;anchor, bool isSourceFile)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d4d/class_search_index_intf.html#l00157">searchindex.h:157</a></div></div>
 <div class="line"><span class="lineno">  955</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00117">Doxygen::searchIndex</a>, and <a class="el" href="../../de/d07/searchindex_8h_source.html#l00157">SearchIndexIntf::setCurrentDoc()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/da1/doxygen_8h_source.html#l00117">Doxygen::searchIndex</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d5/d6a/vhdlcode_8l_source.html#l01008">startCodeLine()</a>.</p>
 
@@ -2050,7 +2048,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  379</span>                                        BEGIN(ParseType);</div>
 <div class="line"><span class="lineno">  380</span>                                      }</div>
 <div class="line"><span class="lineno">  381</span>                                    }</div>
-<div class="ttc" id="autil_8cpp_html_aa148f513c64eba8bfd7f3e775c711514"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#aa148f513c64eba8bfd7f3e775c711514">findIndex</a></div><div class="ttdeci">int findIndex(const StringVector &amp;sv, const std::string &amp;s)</div><div class="ttdoc">find the index of a string in a vector of strings, returns -1 if the string could not be found</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp.html#l07075">util.cpp:7075</a></div></div>
+<div class="ttc" id="autil_8cpp_html_aa148f513c64eba8bfd7f3e775c711514"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#aa148f513c64eba8bfd7f3e775c711514">findIndex</a></div><div class="ttdeci">int findIndex(const StringVector &amp;sv, const std::string &amp;s)</div><div class="ttdoc">find the index of a string in a vector of strings, returns -1 if the string could not be found</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp.html#l07065">util.cpp:7065</a></div></div>
 <div class="line"><span class="lineno">  382</span> </div>
 <div class="line"><span class="lineno">  383</span>&lt;ParseType&gt;{END1}                   {</div>
 <div class="line"><span class="lineno">  384</span>                                      <a class="code hl_function" href="../../d5/d6a/vhdlcode_8l.html#a5a47760391ae7b0e270bd1de323be1e0">codifyLines</a>(yyscanner,yytext,yyextra-&gt;currClass);</div>

@@ -156,5 +156,6 @@ var searchData=
   ['dotworkerthread_153',['DotWorkerThread',['../d5/d99/class_dot_worker_thread.html',1,'']]],
   ['doxygen_154',['Doxygen',['../de/d6a/class_doxygen.html',1,'']]],
   ['doxygencontext_155',['DoxygenContext',['../de/d68/class_doxygen_context.html',1,'']]],
-  ['dualdiriterator_156',['DualDirIterator',['../dd/d23/class_dual_dir_iterator.html',1,'']]]
+  ['dualdiriterator_156',['DualDirIterator',['../dd/d23/class_dual_dir_iterator.html',1,'']]],
+  ['dummydef_157',['DummyDef',['../d5/dc1/struct_scoped_type_variant_1_1_dummy_def.html',1,'ScopedTypeVariant']]]
 ];

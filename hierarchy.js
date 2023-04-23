@@ -601,6 +601,7 @@ var hierarchy =
     [ "DotWorkerThread", "d5/d99/class_dot_worker_thread.html", null ],
     [ "Doxygen", "de/d6a/class_doxygen.html", null ],
     [ "DualDirIterator< C, I >", "dd/d23/class_dual_dir_iterator.html", null ],
+    [ "ScopedTypeVariant::DummyDef", "d5/dc1/struct_scoped_type_variant_1_1_dummy_def.html", null ],
     [ "EclipseHelp", "db/dd3/class_eclipse_help.html", null ],
     [ "DotGroupCollaboration::Edge", "d8/d48/struct_dot_group_collaboration_1_1_edge.html", null ],
     [ "EdgeInfo", "df/d44/class_edge_info.html", null ],

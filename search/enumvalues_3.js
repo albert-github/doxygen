@@ -19,7 +19,7 @@ var searchData=
   ['dictionaries_16',['Dictionaries',['../da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca058990972fd9b9f273438f613c9599c5',1,'NamespaceMemberHighlight::Dictionaries'],['../d4/d3e/namespace_file_member_highlight.html#a399c1e21b2b7261ec5f1a5d7ec196550a7aca50dbdbeebcccc32785478c9839b2',1,'FileMemberHighlight::Dictionaries']]],
   ['dictionary_17',['Dictionary',['../d9/d49/types_8h.html#a55cbcb91fc25e3a2e785b8a30309843ca3beb75d1563ebc22253341be4ce57f44',1,'types.h']]],
   ['digit_18',['Digit',['../d7/d49/classreg_1_1_p_token.html#a9649bb8ecf7bd3f7faf60b56c6fa72f0a83d25adab16b42ea36124318d7e6f4c1',1,'reg::PToken']]],
-  ['dir_19',['Dir',['../dd/df8/class_config_list.html#a562e3dbe5fc70f1af7ed4e748dae0ae9af9f869ef1f20f387f022bc6a95362f36',1,'ConfigList::Dir'],['../d1/dff/class_config_string.html#a6d65e61d6dcbd73f014d16ef4b7721d1a49f5b7433b27cfc3141075bb4501bcad',1,'ConfigString::Dir'],['../dd/d74/struct_qhp_section_tree_1_1_node.html#aa19c2c4bb91af14d01fabd837474f295a3c4e6dbf3e1df93a734d9959bac9ee94',1,'QhpSectionTree::Node::Dir']]],
+  ['dir_19',['Dir',['../dd/df8/class_config_list.html#a562e3dbe5fc70f1af7ed4e748dae0ae9af9f869ef1f20f387f022bc6a95362f36',1,'ConfigList::Dir'],['../dd/d74/struct_qhp_section_tree_1_1_node.html#aa19c2c4bb91af14d01fabd837474f295a3c4e6dbf3e1df93a734d9959bac9ee94',1,'QhpSectionTree::Node::Dir'],['../d1/dff/class_config_string.html#a6d65e61d6dcbd73f014d16ef4b7721d1a49f5b7433b27cfc3141075bb4501bcad',1,'ConfigString::Dir']]],
   ['dirdoc_5fsec_20',['DIRDOC_SEC',['../d4/dd7/class_entry.html#a1e615d53eb7db6d16c19fcb5788fbd9ea0f04437247b50cb9731aabc27a555c04',1,'Entry']]],
   ['directory_21',['Directory',['../dc/d1d/class_layout_doc_manager.html#aee13a925ea1f915c542ecd7f579ebc94a02b696ad1d3b28cc595a6e9fb537c85f',1,'LayoutDocManager']]],
   ['dirfiles_22',['DirFiles',['../d9/dba/struct_layout_doc_entry.html#a89dcbe762ed7e7f7790d8c034cf8ea01ae76eee5ec75efa499c40f25ffc855cd6',1,'LayoutDocEntry']]],
@@ -27,7 +27,7 @@ var searchData=
   ['dirsubdirs_24',['DirSubDirs',['../d9/dba/struct_layout_doc_entry.html#a89dcbe762ed7e7f7790d8c034cf8ea01a621e7242302b4f6b37bfb982ea5f41d1',1,'LayoutDocEntry']]],
   ['div_25',['Div',['../d0/d4e/class_doc_style_change.html#a97757d2d85c39228c90693491a56d277afd9182e9d7bff25af5c122b0dbc41fb1',1,'DocStyleChange']]],
   ['divide_26',['Divide',['../d0/d99/class_operator.html#adf562143104191264da67b4e6e1a1644aad2c43116a7b61867048ff24d130fc43',1,'Operator']]],
-  ['docbook_27',['Docbook',['../df/d06/outputgen_8h.html#a4e0517338e6c4a31a2addafc06d4f3a3a680ad2abb703e2cb60fbdddf8423315a',1,'Docbook:&#160;outputgen.h'],['../da/d1d/class_local_toc.html#a665c661f92a4de013f9c54ad52a330eca48f085768895cc1573f94085c7d1b516',1,'LocalToc::Docbook']]],
+  ['docbook_27',['Docbook',['../da/d1d/class_local_toc.html#a665c661f92a4de013f9c54ad52a330eca48f085768895cc1573f94085c7d1b516',1,'LocalToc::Docbook'],['../df/d06/outputgen_8h.html#a4e0517338e6c4a31a2addafc06d4f3a3a680ad2abb703e2cb60fbdddf8423315a',1,'Docbook:&#160;outputgen.h']]],
   ['docbook_28',['DocBook',['../db/dc8/class_doc_image.html#aaa49d1dad195745ff9d470c5335be93ea725d162f5603b60f365bad17013c5d5a',1,'DocImage']]],
   ['docbookinclude_29',['DocbookInclude',['../d6/db9/class_doc_include.html#a72aa0fd397546547aadf356348ff3eafaef9a97c613611ae895729e6f78c1fc83',1,'DocInclude']]],
   ['docbookonly_30',['DocbookOnly',['../dc/d12/class_doc_verbatim.html#ad8c770dcf2e62369b95f4e34fb11fa36a18bd2b8d2df70a8423919cf6dd4d33e1',1,'DocVerbatim']]],
@@ -35,6 +35,5 @@ var searchData=
   ['dontinclude_32',['DontInclude',['../d6/db9/class_doc_include.html#a72aa0fd397546547aadf356348ff3eafae754cf246a0a671e43c28d1b36c87d9b',1,'DocInclude']]],
   ['dontincwithlines_33',['DontIncWithLines',['../d6/db9/class_doc_include.html#a72aa0fd397546547aadf356348ff3eafa784c71fd6745f7f5a294b7855d8fea0a',1,'DocInclude']]],
   ['dot_34',['Dot',['../dc/d12/class_doc_verbatim.html#ad8c770dcf2e62369b95f4e34fb11fa36a792fd26984aba5cab5b5bc235d705bd1',1,'DocVerbatim']]],
-  ['dummy_35',['Dummy',['../de/ddb/class_scoped_type_variant.html#ac4cc26225ec9b01cb6b672a8e8458714a47e9648b6ac5be72bd5719514ffcf429',1,'ScopedTypeVariant']]],
-  ['duplicate_36',['Duplicate',['../d9/d49/types_8h.html#aa370e9ca1d3ff266cab92689bcc37d9eaed75712b0eb1913c28a3872731ffd48d',1,'types.h']]]
+  ['duplicate_35',['Duplicate',['../d9/d49/types_8h.html#aa370e9ca1d3ff266cab92689bcc37d9eaed75712b0eb1913c28a3872731ffd48d',1,'types.h']]]
 ];

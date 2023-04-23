@@ -348,17 +348,18 @@ digraph "/home/runner/work/doxygen/doxygen/src/pycode.l"
   Node87 [id="Node000087",label="scopedtypevariant.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d7a/scopedtypevariant_8h.html",tooltip=" "];
   Node87 -> Node50 [id="edge255_Node000087_Node000050",color="steelblue1",style="solid",tooltip=" "];
   Node87 -> Node3 [id="edge256_Node000087_Node000003",color="steelblue1",style="solid",tooltip=" "];
-  Node87 -> Node14 [id="edge257_Node000087_Node000014",color="steelblue1",style="solid",tooltip=" "];
-  Node87 -> Node42 [id="edge258_Node000087_Node000042",color="steelblue1",style="solid",tooltip=" "];
-  Node1 -> Node88 [id="edge259_Node000001_Node000088",color="steelblue1",style="solid",tooltip=" "];
+  Node87 -> Node54 [id="edge257_Node000087_Node000054",color="steelblue1",style="solid",tooltip=" "];
+  Node87 -> Node14 [id="edge258_Node000087_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node87 -> Node42 [id="edge259_Node000087_Node000042",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node88 [id="edge260_Node000001_Node000088",color="steelblue1",style="solid",tooltip=" "];
   Node88 [id="Node000088",label="symbolresolver.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/db2/symbolresolver_8h.html",tooltip=" "];
-  Node88 -> Node11 [id="edge260_Node000088_Node000011",color="steelblue1",style="solid",tooltip=" "];
-  Node88 -> Node14 [id="edge261_Node000088_Node000014",color="steelblue1",style="solid",tooltip=" "];
-  Node88 -> Node46 [id="edge262_Node000088_Node000046",color="steelblue1",style="solid",tooltip=" "];
-  Node1 -> Node89 [id="edge263_Node000001_Node000089",color="steelblue1",style="solid",tooltip=" "];
+  Node88 -> Node11 [id="edge261_Node000088_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node88 -> Node14 [id="edge262_Node000088_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node88 -> Node46 [id="edge263_Node000088_Node000046",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node89 [id="edge264_Node000001_Node000089",color="steelblue1",style="solid",tooltip=" "];
   Node89 [id="Node000089",label="debug.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d16/debug_8h.html",tooltip=" "];
-  Node89 -> Node20 [id="edge264_Node000089_Node000020",color="steelblue1",style="solid",tooltip=" "];
-  Node89 -> Node14 [id="edge265_Node000089_Node000014",color="steelblue1",style="solid",tooltip=" "];
-  Node1 -> Node90 [id="edge266_Node000001_Node000090",color="steelblue1",style="solid",tooltip=" "];
+  Node89 -> Node20 [id="edge265_Node000089_Node000020",color="steelblue1",style="solid",tooltip=" "];
+  Node89 -> Node14 [id="edge266_Node000089_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node90 [id="edge267_Node000001_Node000090",color="steelblue1",style="solid",tooltip=" "];
   Node90 [id="Node000090",label="doxygen_lex.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/da5/doxygen__lex_8h.html",tooltip=" "];
 }

@@ -1,7 +1,5 @@
 var class_layout_parser =
 [
-    [ "LayoutParser", "d3/de9/class_layout_parser.html#a34838c548bbff343cd508081026f383e", null ],
-    [ "~LayoutParser", "d3/de9/class_layout_parser.html#ae7e6a46d2fd8115d80dc523b2b2e15f9", null ],
     [ "endElement", "d3/de9/class_layout_parser.html#acbe58d70dfdb7b82544b3c6390a3ffa9", null ],
     [ "endMemberDecl", "d3/de9/class_layout_parser.html#a4619bdb8c07c8e0ccfc55290e0b92303", null ],
     [ "endMemberDef", "d3/de9/class_layout_parser.html#a9962ccd9bdd19597ef89c7b70d4d9b71", null ],

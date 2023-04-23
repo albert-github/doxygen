@@ -8,8 +8,4 @@ digraph "ScopedTypeVariant"
   Node1 [id="Node000001",label="ScopedTypeVariant",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
   Node2 -> Node1 [id="edge1_Node000001_Node000002",dir="back",color="darkorchid3",style="dashed",tooltip=" ",label=" m_name",fontcolor="grey" ];
   Node2 [id="Node000002",label="QCString",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d9/d45/class_q_c_string.html",tooltip="This is an alternative implementation of QCString."];
-  Node3 -> Node1 [id="edge2_Node000001_Node000003",dir="back",color="darkorchid3",style="dashed",tooltip=" ",label=" globalDef",fontcolor="grey" ];
-  Node3 [id="Node000003",label="Definition",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d5/dcc/class_definition.html",tooltip="The common base class of all entity definitions found in the sources."];
-  Node4 -> Node1 [id="edge3_Node000001_Node000004",dir="back",color="darkorchid3",style="dashed",tooltip=" ",label=" localDef",fontcolor="grey" ];
-  Node4 [id="Node000004",label="LocalDef",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$dc/db8/class_local_def.html",tooltip="Class representing a local class definition found while generating syntax highlighted code."];
 }
