@@ -1,7 +1,5 @@
 var NAVTREEINDEX83 =
 {
-"db/d14/index_8cpp.html#a2876633b98535ca5493df17c140ac705":[10,0,2,147,13],
-"db/d14/index_8cpp.html#a289057be7abaa91df92db8ac5160aa79":[10,0,2,147,25],
 "db/d14/index_8cpp.html#a29a87fdcffb28d34507b797aba5e36a4":[10,0,2,147,51],
 "db/d14/index_8cpp.html#a2e8df3451e4caa059509cd97ad102188":[10,0,2,147,58],
 "db/d14/index_8cpp.html#a2f043c11e45084b10c69bcf1953d8869":[10,0,2,147,49],
@@ -249,5 +247,7 @@ var NAVTREEINDEX83 =
 "db/d22/class_group_def_impl.html#a81c519aaa75e46cc5027416b9148a6d1":[9,0,304,56],
 "db/d22/class_group_def_impl.html#a84d938a582cda5f4c2cea3eb82368a12":[9,0,304,32],
 "db/d22/class_group_def_impl.html#a90ef909a96395e1c4fa15ef659d937e3":[9,0,304,30],
-"db/d22/class_group_def_impl.html#a91c5eed083da04cff73ea62974bba678":[9,0,304,9]
+"db/d22/class_group_def_impl.html#a91c5eed083da04cff73ea62974bba678":[9,0,304,9],
+"db/d22/class_group_def_impl.html#a91f97f1905bd631bd42b57aac4761375":[9,0,304,93],
+"db/d22/class_group_def_impl.html#a959e8df0f5e8a7cfd90cf424b1d59f12":[9,0,304,33]
 };

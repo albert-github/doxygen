@@ -55,6 +55,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/clangparser.cpp"
   Node22 [id="Node000022",label="settings.h",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
   Node1 -> Node16 [id="edge27_Node000001_Node000016",color="steelblue1",style="solid",tooltip=" "];
   Node1 -> Node18 [id="edge28_Node000001_Node000018",color="steelblue1",style="solid",tooltip=" "];
-  Node1 -> Node23 [id="edge29_Node000001_Node000023",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node4 [id="edge29_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node23 [id="edge30_Node000001_Node000023",color="steelblue1",style="solid",tooltip=" "];
   Node23 [id="Node000023",label="mutex",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
 }

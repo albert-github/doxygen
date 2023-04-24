@@ -1,7 +1,5 @@
 var NAVTREEINDEX106 =
 {
-"dd/df4/class_define_manager_1_1_defines_per_file.html#aaf26b848a690b17547d913dbb49848e6":[9,0,100,0,4],
-"dd/df4/class_define_manager_1_1_defines_per_file.html#ad0cd2f06be4aa715612884608c79c90f":[9,0,100,0,2],
 "dd/df6/class_translator_chinesetraditional.html":[9,0,585],
 "dd/df6/class_translator_chinesetraditional.html#a00053c8f20188be89234c72eda9be0b9":[9,0,585,56],
 "dd/df6/class_translator_chinesetraditional.html#a003088d221f11675243a79a94b8ac6a4":[9,0,585,202],
@@ -249,5 +247,7 @@ var NAVTREEINDEX106 =
 "dd/df6/class_translator_chinesetraditional.html#afab284f06e27847d9e7644a4fbe58d3a":[9,0,585,116],
 "dd/df6/class_translator_chinesetraditional.html#afe6478c12591ba06d7f8bc574e42e004":[9,0,585,101],
 "dd/df6/class_translator_chinesetraditional.html#aff1bc2d63df22b6b462c4ff59e23366d":[9,0,585,31],
-"dd/df7/struct_selection_marker_info.html":[9,0,480]
+"dd/df7/struct_selection_marker_info.html":[9,0,480],
+"dd/df7/struct_selection_marker_info.html#a41e0642ba5e636377c47416ebdbc8411":[9,0,480,0],
+"dd/df7/struct_selection_marker_info.html#a857a27be439564ea225780f0a1bba630":[9,0,480,6]
 };

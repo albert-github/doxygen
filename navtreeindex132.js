@@ -1,7 +1,5 @@
 var NAVTREEINDEX132 =
 {
-"globals_vars_e.html":[10,1,2,4],
-"globals_vars_f.html":[10,1,2,5],
 "globals_vars_g.html":[10,1,2,6],
 "globals_vars_h.html":[10,1,2,7],
 "globals_vars_i.html":[10,1,2,8],
@@ -22,8 +20,8 @@ var NAVTREEINDEX132 =
 "globals_x.html":[10,1,0,23],
 "globals_y.html":[10,1,0,24],
 "hierarchy.html":[9,2],
-"index.html":[],
 "index.html":[0],
+"index.html":[],
 "index.html#autotoc_md0":[0,0],
 "index.html#autotoc_md1":[0,1],
 "index.html#autotoc_md2":[0,2],

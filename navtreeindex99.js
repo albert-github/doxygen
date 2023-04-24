@@ -1,7 +1,5 @@
 var NAVTREEINDEX99 =
 {
-"dd/d0b/class_translator_slovene.html#a6fc3b643fff34f59d69254ab067e1d23":[9,0,616,147],
-"dd/d0b/class_translator_slovene.html#a7185df1754725e2aaaa0e90c7723c87d":[9,0,616,98],
 "dd/d0b/class_translator_slovene.html#a71eb29a02d3704bca5347a113ecc9672":[9,0,616,125],
 "dd/d0b/class_translator_slovene.html#a7254297c88f81c88303fb9976bd88f87":[9,0,616,119],
 "dd/d0b/class_translator_slovene.html#a735f79b25b0f80286c9a7720776460f0":[9,0,616,183],
@@ -149,10 +147,10 @@ var NAVTREEINDEX99 =
 "dd/d0d/class_config_impl.html#af583f0410601ca82409b3ed626516dd2":[9,0,79,35],
 "dd/d0d/class_config_impl.html#af661fbf44e03c43d5ae7c3e30ef33a18":[9,0,79,0],
 "dd/d0d/class_config_impl.html#afb11a49a6e7c717d0242fedf10a36309":[9,0,79,21],
-"dd/d0d/struct_output_gen_intf_1_1end_member_doc_name.html":[9,0,5,48],
 "dd/d0d/struct_output_gen_intf_1_1end_member_doc_name.html":[8,0,11,48],
-"dd/d0d/struct_output_gen_intf_1_1end_member_doc_name.html#aec41bfa541d7ddc6a5047ad9b54bb410":[8,0,11,48,0],
+"dd/d0d/struct_output_gen_intf_1_1end_member_doc_name.html":[9,0,5,48],
 "dd/d0d/struct_output_gen_intf_1_1end_member_doc_name.html#aec41bfa541d7ddc6a5047ad9b54bb410":[9,0,5,48,0],
+"dd/d0d/struct_output_gen_intf_1_1end_member_doc_name.html#aec41bfa541d7ddc6a5047ad9b54bb410":[8,0,11,48,0],
 "dd/d10/class_definition_mixin.html":[9,0,106],
 "dd/d10/class_definition_mixin.html#a02d6c291e02c6ea0fa9f36867b3d2634":[9,0,106,56],
 "dd/d10/class_definition_mixin.html#a03ee9d5777b8854f5663681f4352d6f2":[9,0,106,84],
@@ -249,5 +247,7 @@ var NAVTREEINDEX99 =
 "dd/d10/class_definition_mixin.html#af9a522b35f78badce561acb4762fc865":[9,0,106,4],
 "dd/d10/class_definition_mixin.html#afc6bd279adc5faf251fe95fe3feef2d7":[9,0,106,35],
 "dd/d10/class_definition_mixin.html#afe66913e7e1090aed0dfddeb2fd46aa3":[9,0,106,39],
-"dd/d13/class_member_list.html":[9,0,391]
+"dd/d13/class_member_list.html":[9,0,391],
+"dd/d13/class_member_list.html#a062a8658517d3c208c3400fba38e41f7":[9,0,391,14],
+"dd/d13/class_member_list.html#a0e56354cdbfba74141bac5b1fedbebbc":[9,0,391,15]
 };
