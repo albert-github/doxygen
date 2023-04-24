@@ -1,8 +1,8 @@
 var NAVTREEINDEX24 =
 {
-"d3/d2c/classvhdl_1_1parser_1_1_token_manager.html#a116b81f14babf26eccaba85331ef702b":[8,0,18,0,5,0],
-"d3/d2c/classvhdl_1_1parser_1_1_token_manager.html#a22fec50d884708a36c2e736c64c7bd29":[9,0,8,0,5,1],
+"d3/d2c/classvhdl_1_1parser_1_1_token_manager.html#a116b81f14babf26eccaba85331ef702b":[9,0,8,0,5,0],
 "d3/d2c/classvhdl_1_1parser_1_1_token_manager.html#a22fec50d884708a36c2e736c64c7bd29":[8,0,18,0,5,1],
+"d3/d2c/classvhdl_1_1parser_1_1_token_manager.html#a22fec50d884708a36c2e736c64c7bd29":[9,0,8,0,5,1],
 "d3/d2c/classvhdl_1_1parser_1_1_token_manager.html#abe30e20923be9582b26c238ce7387a8b":[9,0,8,0,5,3],
 "d3/d2c/classvhdl_1_1parser_1_1_token_manager.html#abe30e20923be9582b26c238ce7387a8b":[8,0,18,0,5,3],
 "d3/d2e/class_translator_adapter__1__9__2.html":[9,0,573],
