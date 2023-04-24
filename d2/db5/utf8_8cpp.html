@@ -294,7 +294,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  183</span>  }</div>
 <div class="line"><span class="lineno">  184</span>  <span class="keywordflow">return</span> result;</div>
 <div class="line"><span class="lineno">  185</span>}</div>
-<div class="ttc" id="autf8_8cpp_html_a62db715498978c35a035b241e6ebdafb"><div class="ttname"><a href="../../d2/db5/utf8_8cpp.html#a62db715498978c35a035b241e6ebdafb">convertUTF8CharToUnicode</a></div><div class="ttdeci">static uint32_t convertUTF8CharToUnicode(const char *s, size_t bytesLeft, int &amp;len)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db5/utf8_8cpp.html#l00069">utf8.cpp:69</a></div></div>
+<div class="ttc" id="autf8_8cpp_html_a62db715498978c35a035b241e6ebdafb"><div class="ttname"><a href="../../d2/db5/utf8_8cpp.html#a62db715498978c35a035b241e6ebdafb">convertUTF8CharToUnicode</a></div><div class="ttdeci">static uint32_t convertUTF8CharToUnicode(const char *s, size_t bytesLeft, int &amp;len)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db5/utf8_8cpp_source.html#l00069">utf8.cpp:69</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00069">convertUTF8CharToUnicode()</a>.</p>
 
@@ -399,7 +399,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  123</span>      }</div>
 <div class="line"><span class="lineno">  124</span>  }</div>
 <div class="line"><span class="lineno">  125</span>}</div>
-<div class="ttc" id="autf8_8cpp_html_a623576f190ae0899718fedadfd1342a8"><div class="ttname"><a href="../../d2/db5/utf8_8cpp.html#a623576f190ae0899718fedadfd1342a8">decode_utf8</a></div><div class="ttdeci">static uint32_t decode_utf8(const char *data, int numBytes) noexcept</div><div class="ttdoc">Decodes a given input of utf8 data to a unicode code point given the number of bytes it's made of.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db5/utf8_8cpp.html#l00055">utf8.cpp:55</a></div></div>
+<div class="ttc" id="autf8_8cpp_html_a623576f190ae0899718fedadfd1342a8"><div class="ttname"><a href="../../d2/db5/utf8_8cpp.html#a623576f190ae0899718fedadfd1342a8">decode_utf8</a></div><div class="ttdeci">static uint32_t decode_utf8(const char *data, int numBytes) noexcept</div><div class="ttdoc">Decodes a given input of utf8 data to a unicode code point given the number of bytes it's made of.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db5/utf8_8cpp_source.html#l00055">utf8.cpp:55</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00055">decode_utf8()</a>.</p>
 
@@ -429,9 +429,9 @@ Functions</h2></td></tr>
 <div class="fragment"><div class="line"><span class="lineno">  188</span>{</div>
 <div class="line"><span class="lineno">  189</span>  <span class="keywordflow">return</span> <a class="code hl_function" href="../../d2/db5/utf8_8cpp.html#a7cbb154918671e6150695e6ea1bbcf6e">caseConvert</a>(input,<a class="code hl_function" href="../../d2/db5/utf8_8cpp.html#a28d834f2d420c5a850aa095413d0d4b5">asciiToLower</a>,<a class="code hl_function" href="../../db/dca/caseconvert_8h.html#a639df87d0846c7b6b01b931a51f06df2">convertUnicodeToLower</a>);</div>
 <div class="line"><span class="lineno">  190</span>}</div>
-<div class="ttc" id="acaseconvert_8h_html_a639df87d0846c7b6b01b931a51f06df2"><div class="ttname"><a href="../../db/dca/caseconvert_8h.html#a639df87d0846c7b6b01b931a51f06df2">convertUnicodeToLower</a></div><div class="ttdeci">const char * convertUnicodeToLower(uint32_t code)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dca/caseconvert_8h.html#l01505">caseconvert.h:1505</a></div></div>
-<div class="ttc" id="autf8_8cpp_html_a28d834f2d420c5a850aa095413d0d4b5"><div class="ttname"><a href="../../d2/db5/utf8_8cpp.html#a28d834f2d420c5a850aa095413d0d4b5">asciiToLower</a></div><div class="ttdeci">static char asciiToLower(uint32_t code)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db5/utf8_8cpp.html#l00142">utf8.cpp:142</a></div></div>
-<div class="ttc" id="autf8_8cpp_html_a7cbb154918671e6150695e6ea1bbcf6e"><div class="ttname"><a href="../../d2/db5/utf8_8cpp.html#a7cbb154918671e6150695e6ea1bbcf6e">caseConvert</a></div><div class="ttdeci">static std::string caseConvert(const std::string &amp;input, char(*asciiConversionFunc)(uint32_t code), const char *(*conversionFunc)(uint32_t code))</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db5/utf8_8cpp.html#l00152">utf8.cpp:152</a></div></div>
+<div class="ttc" id="acaseconvert_8h_html_a639df87d0846c7b6b01b931a51f06df2"><div class="ttname"><a href="../../db/dca/caseconvert_8h.html#a639df87d0846c7b6b01b931a51f06df2">convertUnicodeToLower</a></div><div class="ttdeci">const char * convertUnicodeToLower(uint32_t code)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dca/caseconvert_8h_source.html#l01505">caseconvert.h:1505</a></div></div>
+<div class="ttc" id="autf8_8cpp_html_a28d834f2d420c5a850aa095413d0d4b5"><div class="ttname"><a href="../../d2/db5/utf8_8cpp.html#a28d834f2d420c5a850aa095413d0d4b5">asciiToLower</a></div><div class="ttdeci">static char asciiToLower(uint32_t code)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db5/utf8_8cpp_source.html#l00142">utf8.cpp:142</a></div></div>
+<div class="ttc" id="autf8_8cpp_html_a7cbb154918671e6150695e6ea1bbcf6e"><div class="ttname"><a href="../../d2/db5/utf8_8cpp.html#a7cbb154918671e6150695e6ea1bbcf6e">caseConvert</a></div><div class="ttdeci">static std::string caseConvert(const std::string &amp;input, char(*asciiConversionFunc)(uint32_t code), const char *(*conversionFunc)(uint32_t code))</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db5/utf8_8cpp_source.html#l00152">utf8.cpp:152</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00142">asciiToLower()</a>, <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00152">caseConvert()</a>, and <a class="el" href="../../db/dca/caseconvert_8h_source.html#l01505">convertUnicodeToLower()</a>.</p>
 
@@ -461,8 +461,8 @@ Functions</h2></td></tr>
 <div class="fragment"><div class="line"><span class="lineno">  193</span>{</div>
 <div class="line"><span class="lineno">  194</span>  <span class="keywordflow">return</span> <a class="code hl_function" href="../../d2/db5/utf8_8cpp.html#a7cbb154918671e6150695e6ea1bbcf6e">caseConvert</a>(input,<a class="code hl_function" href="../../d2/db5/utf8_8cpp.html#a6f2cbdfe21c54dae5ec48e71d7009c4d">asciiToUpper</a>,<a class="code hl_function" href="../../db/dca/caseconvert_8h.html#a45451c516f2c29857ee914a24f0d098a">convertUnicodeToUpper</a>);</div>
 <div class="line"><span class="lineno">  195</span>}</div>
-<div class="ttc" id="acaseconvert_8h_html_a45451c516f2c29857ee914a24f0d098a"><div class="ttname"><a href="../../db/dca/caseconvert_8h.html#a45451c516f2c29857ee914a24f0d098a">convertUnicodeToUpper</a></div><div class="ttdeci">const char * convertUnicodeToUpper(uint32_t code)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dca/caseconvert_8h.html#l00012">caseconvert.h:12</a></div></div>
-<div class="ttc" id="autf8_8cpp_html_a6f2cbdfe21c54dae5ec48e71d7009c4d"><div class="ttname"><a href="../../d2/db5/utf8_8cpp.html#a6f2cbdfe21c54dae5ec48e71d7009c4d">asciiToUpper</a></div><div class="ttdeci">static char asciiToUpper(uint32_t code)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db5/utf8_8cpp.html#l00147">utf8.cpp:147</a></div></div>
+<div class="ttc" id="acaseconvert_8h_html_a45451c516f2c29857ee914a24f0d098a"><div class="ttname"><a href="../../db/dca/caseconvert_8h.html#a45451c516f2c29857ee914a24f0d098a">convertUnicodeToUpper</a></div><div class="ttdeci">const char * convertUnicodeToUpper(uint32_t code)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dca/caseconvert_8h_source.html#l00012">caseconvert.h:12</a></div></div>
+<div class="ttc" id="autf8_8cpp_html_a6f2cbdfe21c54dae5ec48e71d7009c4d"><div class="ttname"><a href="../../d2/db5/utf8_8cpp.html#a6f2cbdfe21c54dae5ec48e71d7009c4d">asciiToUpper</a></div><div class="ttdeci">static char asciiToUpper(uint32_t code)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db5/utf8_8cpp_source.html#l00147">utf8.cpp:147</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00147">asciiToUpper()</a>, <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00152">caseConvert()</a>, and <a class="el" href="../../db/dca/caseconvert_8h_source.html#l00012">convertUnicodeToUpper()</a>.</p>
 
@@ -558,7 +558,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  138</span>  <span class="keywordtype">int</span> len;</div>
 <div class="line"><span class="lineno">  139</span>  <span class="keywordflow">return</span> <a class="code hl_function" href="../../d2/db5/utf8_8cpp.html#a62db715498978c35a035b241e6ebdafb">convertUTF8CharToUnicode</a>(charS.c_str(),charS.length(),len);</div>
 <div class="line"><span class="lineno">  140</span>}</div>
-<div class="ttc" id="autf8_8cpp_html_ac0c19c2bb475bc6f27dbf06345c865a3"><div class="ttname"><a href="../../d2/db5/utf8_8cpp.html#ac0c19c2bb475bc6f27dbf06345c865a3">getUTF8CharAt</a></div><div class="ttdeci">std::string getUTF8CharAt(const std::string &amp;input, size_t pos)</div><div class="ttdoc">Returns the UTF8 character found at byte position pos in the input string.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db5/utf8_8cpp.html#l00127">utf8.cpp:127</a></div></div>
+<div class="ttc" id="autf8_8cpp_html_ac0c19c2bb475bc6f27dbf06345c865a3"><div class="ttname"><a href="../../d2/db5/utf8_8cpp.html#ac0c19c2bb475bc6f27dbf06345c865a3">getUTF8CharAt</a></div><div class="ttdeci">std::string getUTF8CharAt(const std::string &amp;input, size_t pos)</div><div class="ttdoc">Returns the UTF8 character found at byte position pos in the input string.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db5/utf8_8cpp_source.html#l00127">utf8.cpp:127</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00069">convertUTF8CharToUnicode()</a>, and <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00127">getUTF8CharAt()</a>.</p>
 
@@ -602,7 +602,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  131</span>  <span class="keywordflow">if</span> (input.length()&lt;pos+numBytes) <span class="keywordflow">return</span> std::string();</div>
 <div class="line"><span class="lineno">  132</span>  <span class="keywordflow">return</span> input.substr(pos,numBytes);</div>
 <div class="line"><span class="lineno">  133</span>}</div>
-<div class="ttc" id="autf8_8cpp_html_aaca02fb609a02d6006c4ae5d02a20b9b"><div class="ttname"><a href="../../d2/db5/utf8_8cpp.html#aaca02fb609a02d6006c4ae5d02a20b9b">getUTF8CharNumBytes</a></div><div class="ttdeci">uint8_t getUTF8CharNumBytes(char c)</div><div class="ttdoc">Returns the number of bytes making up a single UTF8 character given the first byte in the sequence.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db5/utf8_8cpp.html#l00023">utf8.cpp:23</a></div></div>
+<div class="ttc" id="autf8_8cpp_html_aaca02fb609a02d6006c4ae5d02a20b9b"><div class="ttname"><a href="../../d2/db5/utf8_8cpp.html#aaca02fb609a02d6006c4ae5d02a20b9b">getUTF8CharNumBytes</a></div><div class="ttdeci">uint8_t getUTF8CharNumBytes(char c)</div><div class="ttdoc">Returns the number of bytes making up a single UTF8 character given the first byte in the sequence.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db5/utf8_8cpp_source.html#l00023">utf8.cpp:23</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00023">getUTF8CharNumBytes()</a>.</p>
 
@@ -758,7 +758,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  236</span>  <span class="keywordtype">bool</span> b = <a class="code hl_function" href="../../db/dca/caseconvert_8h.html#a13534af4c55105afe07d4590d28b3599">isPunctuationCharacter</a>(unicode);</div>
 <div class="line"><span class="lineno">  237</span>  <span class="keywordflow">return</span> b;</div>
 <div class="line"><span class="lineno">  238</span>}</div>
-<div class="ttc" id="acaseconvert_8h_html_a13534af4c55105afe07d4590d28b3599"><div class="ttname"><a href="../../db/dca/caseconvert_8h.html#a13534af4c55105afe07d4590d28b3599">isPunctuationCharacter</a></div><div class="ttdeci">bool isPunctuationCharacter(uint32_t code)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dca/caseconvert_8h.html#l02906">caseconvert.h:2906</a></div></div>
+<div class="ttc" id="acaseconvert_8h_html_a13534af4c55105afe07d4590d28b3599"><div class="ttname"><a href="../../db/dca/caseconvert_8h.html#a13534af4c55105afe07d4590d28b3599">isPunctuationCharacter</a></div><div class="ttdeci">bool isPunctuationCharacter(uint32_t code)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dca/caseconvert_8h_source.html#l02906">caseconvert.h:2906</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../db/dca/caseconvert_8h_source.html#l02906">isPunctuationCharacter()</a>.</p>
 
@@ -836,7 +836,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  208</span>  t.<a class="code hl_function" href="../../d3/d30/class_text_stream.html#aaa78941b7f04d95ca3be7d11073828f0">write</a>(s,len);</div>
 <div class="line"><span class="lineno">  209</span>  <span class="keywordflow">return</span> s+len;</div>
 <div class="line"><span class="lineno">  210</span>}</div>
-<div class="ttc" id="aclass_text_stream_html_aaa78941b7f04d95ca3be7d11073828f0"><div class="ttname"><a href="../../d3/d30/class_text_stream.html#aaa78941b7f04d95ca3be7d11073828f0">TextStream::write</a></div><div class="ttdeci">void write(const char *buf, size_t len)</div><div class="ttdoc">Adds a array of character to the stream.</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d30/class_text_stream.html#l00203">textstream.h:203</a></div></div>
+<div class="ttc" id="aclass_text_stream_html_aaa78941b7f04d95ca3be7d11073828f0"><div class="ttname"><a href="../../d3/d30/class_text_stream.html#aaa78941b7f04d95ca3be7d11073828f0">TextStream::write</a></div><div class="ttdeci">void write(const char *buf, size_t len)</div><div class="ttdoc">Adds a array of character to the stream.</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d7d/textstream_8h_source.html#l00203">textstream.h:203</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00023">getUTF8CharNumBytes()</a>, and <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00203">TextStream::write()</a>.</p>
 

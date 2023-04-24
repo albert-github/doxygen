@@ -151,7 +151,7 @@ Private Attributes</h2></td></tr>
 <div class="line">{</div>
 <div class="line">  printf(<span class="stringliteral">&quot;Result %d:\n&quot;</span>, f.get());</div>
 <div class="line">}</div>
-<div class="ttc" id="aclass_thread_pool_html"><div class="ttname"><a href="../../d9/df5/class_thread_pool.html">ThreadPool</a></div><div class="ttdoc">Class managing a pool of worker threads.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/df5/class_thread_pool.html#l00047">threadpool.h:48</a></div></div>
+<div class="ttc" id="aclass_thread_pool_html"><div class="ttname"><a href="../../d9/df5/class_thread_pool.html">ThreadPool</a></div><div class="ttdoc">Class managing a pool of worker threads.</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d40/threadpool_8h_source.html#l00047">threadpool.h:48</a></div></div>
 </div><!-- fragment --> 
 <p class="definition">Definition at line <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00047">47</a> of file <a class="el" href="../../d3/d40/threadpool_8h_source.html">threadpool.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -194,8 +194,8 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">   61</span>            );</div>
 <div class="line"><span class="lineno">   62</span>      }</div>
 <div class="line"><span class="lineno">   63</span>    }</div>
-<div class="ttc" id="aclass_thread_pool_html_a630a5230a8d6a8ba5c11b88ccc91c32b"><div class="ttname"><a href="../../d9/df5/class_thread_pool.html#a630a5230a8d6a8ba5c11b88ccc91c32b">ThreadPool::threadTask</a></div><div class="ttdeci">void threadTask()</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/df5/class_thread_pool.html#l00112">threadpool.h:112</a></div></div>
-<div class="ttc" id="aclass_thread_pool_html_aa297cb723c1d6d8ac4fad073fd9ccfa0"><div class="ttname"><a href="../../d9/df5/class_thread_pool.html#aa297cb723c1d6d8ac4fad073fd9ccfa0">ThreadPool::m_finished</a></div><div class="ttdeci">std::vector&lt; std::future&lt; void &gt; &gt; m_finished</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/df5/class_thread_pool.html#l00144">threadpool.h:144</a></div></div>
+<div class="ttc" id="aclass_thread_pool_html_a630a5230a8d6a8ba5c11b88ccc91c32b"><div class="ttname"><a href="../../d9/df5/class_thread_pool.html#a630a5230a8d6a8ba5c11b88ccc91c32b">ThreadPool::threadTask</a></div><div class="ttdeci">void threadTask()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d40/threadpool_8h_source.html#l00112">threadpool.h:112</a></div></div>
+<div class="ttc" id="aclass_thread_pool_html_aa297cb723c1d6d8ac4fad073fd9ccfa0"><div class="ttname"><a href="../../d9/df5/class_thread_pool.html#aa297cb723c1d6d8ac4fad073fd9ccfa0">ThreadPool::m_finished</a></div><div class="ttdeci">std::vector&lt; std::future&lt; void &gt; &gt; m_finished</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d40/threadpool_8h_source.html#l00144">threadpool.h:144</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00144">m_finished</a>, and <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00112">threadTask()</a>.</p>
 
@@ -230,7 +230,7 @@ Private Attributes</h2></td></tr>
 <div class="fragment"><div class="line"><span class="lineno">   66</span>    {</div>
 <div class="line"><span class="lineno">   67</span>      <a class="code hl_function" href="../../d9/df5/class_thread_pool.html#a1fc76489de6e11c259ccf8f072fe135d">finish</a>();</div>
 <div class="line"><span class="lineno">   68</span>    }</div>
-<div class="ttc" id="aclass_thread_pool_html_a1fc76489de6e11c259ccf8f072fe135d"><div class="ttname"><a href="../../d9/df5/class_thread_pool.html#a1fc76489de6e11c259ccf8f072fe135d">ThreadPool::finish</a></div><div class="ttdeci">void finish()</div><div class="ttdoc">finish enques a &quot;stop the thread&quot; message for every thread, then waits for them to finish</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/df5/class_thread_pool.html#l00096">threadpool.h:96</a></div></div>
+<div class="ttc" id="aclass_thread_pool_html_a1fc76489de6e11c259ccf8f072fe135d"><div class="ttname"><a href="../../d9/df5/class_thread_pool.html#a1fc76489de6e11c259ccf8f072fe135d">ThreadPool::finish</a></div><div class="ttdeci">void finish()</div><div class="ttdoc">finish enques a &quot;stop the thread&quot; message for every thread, then waits for them to finish</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d40/threadpool_8h_source.html#l00096">threadpool.h:96</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00096">finish()</a>.</p>
 
@@ -275,9 +275,9 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  106</span>      <a class="code hl_variable" href="../../d9/df5/class_thread_pool.html#aea3e5ca7e471639fdd30c8bde0670616">m_cond</a>.notify_all();</div>
 <div class="line"><span class="lineno">  107</span>      <a class="code hl_variable" href="../../d9/df5/class_thread_pool.html#aa297cb723c1d6d8ac4fad073fd9ccfa0">m_finished</a>.clear();</div>
 <div class="line"><span class="lineno">  108</span>    }</div>
-<div class="ttc" id="aclass_thread_pool_html_a7779e4d1698359b2057d696a7d162f57"><div class="ttname"><a href="../../d9/df5/class_thread_pool.html#a7779e4d1698359b2057d696a7d162f57">ThreadPool::m_work</a></div><div class="ttdeci">std::deque&lt; std::function&lt; void()&gt; &gt; m_work</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/df5/class_thread_pool.html#l00141">threadpool.h:141</a></div></div>
-<div class="ttc" id="aclass_thread_pool_html_a8111098c66bef75793ca4f954c46b7c2"><div class="ttname"><a href="../../d9/df5/class_thread_pool.html#a8111098c66bef75793ca4f954c46b7c2">ThreadPool::m_mutex</a></div><div class="ttdeci">std::mutex m_mutex</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/df5/class_thread_pool.html#l00137">threadpool.h:137</a></div></div>
-<div class="ttc" id="aclass_thread_pool_html_aea3e5ca7e471639fdd30c8bde0670616"><div class="ttname"><a href="../../d9/df5/class_thread_pool.html#aea3e5ca7e471639fdd30c8bde0670616">ThreadPool::m_cond</a></div><div class="ttdeci">std::condition_variable m_cond</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/df5/class_thread_pool.html#l00138">threadpool.h:138</a></div></div>
+<div class="ttc" id="aclass_thread_pool_html_a7779e4d1698359b2057d696a7d162f57"><div class="ttname"><a href="../../d9/df5/class_thread_pool.html#a7779e4d1698359b2057d696a7d162f57">ThreadPool::m_work</a></div><div class="ttdeci">std::deque&lt; std::function&lt; void()&gt; &gt; m_work</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d40/threadpool_8h_source.html#l00141">threadpool.h:141</a></div></div>
+<div class="ttc" id="aclass_thread_pool_html_a8111098c66bef75793ca4f954c46b7c2"><div class="ttname"><a href="../../d9/df5/class_thread_pool.html#a8111098c66bef75793ca4f954c46b7c2">ThreadPool::m_mutex</a></div><div class="ttdeci">std::mutex m_mutex</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d40/threadpool_8h_source.html#l00137">threadpool.h:137</a></div></div>
+<div class="ttc" id="aclass_thread_pool_html_aea3e5ca7e471639fdd30c8bde0670616"><div class="ttname"><a href="../../d9/df5/class_thread_pool.html#aea3e5ca7e471639fdd30c8bde0670616">ThreadPool::m_cond</a></div><div class="ttdeci">std::condition_variable m_cond</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d40/threadpool_8h_source.html#l00138">threadpool.h:138</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00138">m_cond</a>, <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00144">m_finished</a>, <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00137">m_mutex</a>, and <a class="el" href="../../d3/d40/threadpool_8h_source.html#l00141">m_work</a>.</p>
 
