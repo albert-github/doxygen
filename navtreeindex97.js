@@ -2,8 +2,8 @@ var NAVTREEINDEX97 =
 {
 "dc/de7/classvhdl_1_1parser_1_1_token.html#ac61778db323adf6f0b89f9eed2b672cf":[8,0,18,0,4,10],
 "dc/de7/classvhdl_1_1parser_1_1_token.html#ac61778db323adf6f0b89f9eed2b672cf":[9,0,8,0,4,10],
-"dc/de7/classvhdl_1_1parser_1_1_token.html#adf2e437f6aeef2e6d195ebfe51ae2bb0":[9,0,8,0,4,4],
 "dc/de7/classvhdl_1_1parser_1_1_token.html#adf2e437f6aeef2e6d195ebfe51ae2bb0":[8,0,18,0,4,4],
+"dc/de7/classvhdl_1_1parser_1_1_token.html#adf2e437f6aeef2e6d195ebfe51ae2bb0":[9,0,8,0,4,4],
 "dc/de7/classvhdl_1_1parser_1_1_token.html#ae891f2c047fc387a551a1ef49036a685":[8,0,18,0,4,11],
 "dc/de7/classvhdl_1_1parser_1_1_token.html#ae891f2c047fc387a551a1ef49036a685":[9,0,8,0,4,11],
 "dc/de7/classvhdl_1_1parser_1_1_token.html#af4c8d87a0456cd4ce8a65662fa507bb1":[9,0,8,0,4,0],
