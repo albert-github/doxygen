@@ -1,5 +1,6 @@
 var NAVTREEINDEX62 =
 {
+"d8/d7d/struct_doc_parser_context.html#adfc69df470290ef49cf32d0e6cd83556":[9,0,173,4],
 "d8/d7d/struct_doc_parser_context.html#ae20ce1c3e50ef1b4399b50f29f61607f":[9,0,173,5],
 "d8/d7d/struct_doc_parser_context.html#ae353d958ff093eac18151351deaebf42":[9,0,173,18],
 "d8/d7d/struct_doc_parser_context.html#afccb2cc6662271d1801776ed2ee01bfc":[9,0,173,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX62 =
 "d8/d83/class_translator_latvian.html#aaa089fd18d76d73605066a318c73c7ef":[9,0,604,190],
 "d8/d83/class_translator_latvian.html#aaa3976198fafcb7cdc4e35ad34d02f0c":[9,0,604,50],
 "d8/d83/class_translator_latvian.html#aab714d05a492c3192254d9ec46a5e378":[9,0,604,139],
-"d8/d83/class_translator_latvian.html#aab81dcf029c6395e18f9716736441d32":[9,0,604,49],
-"d8/d83/class_translator_latvian.html#aab8dd49a826bce1e1a22f2d1ef61e4ed":[9,0,604,13]
+"d8/d83/class_translator_latvian.html#aab81dcf029c6395e18f9716736441d32":[9,0,604,49]
 };

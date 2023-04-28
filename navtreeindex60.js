@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"d8/d31/class_template_node_tree.html#a9e003555c8ce1065a8446e3a26b64888":[9,0,542,3],
 "d8/d31/class_template_node_tree.html#aaf1686db480ef63a2c79ed63e27d9e25":[9,0,542,5],
 "d8/d32/class_dot_node_deque.html":[9,0,212],
 "d8/d33/class_grow_buf.html":[9,0,308],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "d8/d56/eclipsehelp_8cpp.html":[10,0,2,108],
 "d8/d56/eclipsehelp_8cpp_source.html":[10,0,2,108],
 "d8/d56/htmlgen_8h.html":[10,0,2,142],
-"d8/d56/htmlgen_8h_source.html":[10,0,2,142],
-"d8/d57/class_template_node_resource.html":[9,0,537]
+"d8/d56/htmlgen_8h_source.html":[10,0,2,142]
 };

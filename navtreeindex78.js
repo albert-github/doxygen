@@ -1,5 +1,6 @@
 var NAVTREEINDEX78 =
 {
+"da/d32/class_translator_romanian.html#a493453f1f23dd992cec8e711334f7107":[9,0,611,56],
 "da/d32/class_translator_romanian.html#a49df3ea89df9076ecc3d7eb050273fb7":[9,0,611,211],
 "da/d32/class_translator_romanian.html#a4bf9783986e9239ffaf28d4fdd494e57":[9,0,611,109],
 "da/d32/class_translator_romanian.html#a4e16e2c96e1ae733f7c6eca8eb19c2e9":[9,0,611,82],
@@ -248,6 +249,5 @@ var NAVTREEINDEX78 =
 "da/d4b/class_template_node_include.html#a7c581fbb5dd87f333ad1c716243e2d9d":[9,0,529,0],
 "da/d4b/class_template_node_include.html#af2329a6af85328db151c80545e8509b0":[9,0,529,2],
 "da/d4d/namespace_namespace_member_highlight.html":[8,0,9],
-"da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7c":[8,0,9,0],
-"da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca058990972fd9b9f273438f613c9599c5":[8,0,9,0,5]
+"da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7c":[8,0,9,0]
 };

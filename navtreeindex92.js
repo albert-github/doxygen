@@ -1,5 +1,6 @@
 var NAVTREEINDEX92 =
 {
+"dc/d21/_vhdl_parser_constants_8h.html#ad59953cd759d89715d77b3adb0ca5ec9":[10,0,3,8,224],
 "dc/d21/_vhdl_parser_constants_8h.html#ad5bf951a746cbc4688d5924140e5e5a9":[10,0,3,8,283],
 "dc/d21/_vhdl_parser_constants_8h.html#ad7fbbc15b1c4532e542dc93b858aa819":[10,0,3,8,140],
 "dc/d21/_vhdl_parser_constants_8h.html#ad8ed05c3a8f328bb862adf5cdb68b390":[10,0,3,8,359],
@@ -248,6 +249,5 @@ var NAVTREEINDEX92 =
 "dc/d44/class_translator_spanish.html#a1eb868c8a04a4f021fb51b2272a68a19":[9,0,617,246],
 "dc/d44/class_translator_spanish.html#a1f31a58fbd24ec81a7604173c0019fd7":[9,0,617,274],
 "dc/d44/class_translator_spanish.html#a1f69f84fc225b8e2e1cccb347a3d942a":[9,0,617,205],
-"dc/d44/class_translator_spanish.html#a1fa17771c70c375d47ef082b709f952d":[9,0,617,201],
-"dc/d44/class_translator_spanish.html#a2067edc97722c293b2e8601618cda6dc":[9,0,617,78]
+"dc/d44/class_translator_spanish.html#a1fa17771c70c375d47ef082b709f952d":[9,0,617,201]
 };
