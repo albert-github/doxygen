@@ -1806,7 +1806,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1382</span> </div>
 <div class="line"><span class="lineno"> 1383</span>&lt;St_SkipTitle&gt;.</div>
 <div class="line"><span class="lineno"> 1384</span>&lt;St_SkipTitle&gt;(\n|&quot;\\ilinebr&quot;) {</div>
-<div class="line"><span class="lineno"> 1385</span>                         <a class="code hl_define" href="../../d1/d39/doctokenizer_8l.html#a6256e57feb94db36e0dd7c3c83c9180a">lineCount</a>(yytext,yyleng);</div>
+<div class="line"><span class="lineno"> 1385</span>                         <span class="keywordflow">if</span> (*yytext == <span class="charliteral">&#39;\n&#39;</span>) unput(<span class="charliteral">&#39;\n&#39;</span>);</div>
 <div class="line"><span class="lineno"> 1386</span>                         <span class="keywordflow">return</span> 0;</div>
 <div class="line"><span class="lineno"> 1387</span>                         }</div>
 <div class="line"><span class="lineno"> 1388</span> </div>

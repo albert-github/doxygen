@@ -1594,7 +1594,7 @@ $(document).ready(function(){initNavTree('d1/d39/doctokenizer_8l_source.html','.
 <div class="line"><a id="l01382" name="l01382"></a><span class="lineno"> 1382</span> </div>
 <div class="line"><a id="l01383" name="l01383"></a><span class="lineno"> 1383</span><span class="stringliteral">&lt;St_SkipTitle&gt;.</span></div>
 <div class="line"><a id="l01384" name="l01384"></a><span class="lineno"> 1384</span><span class="stringliteral">&lt;St_SkipTitle&gt;(\n|&quot;\\ilinebr&quot;)</span> {</div>
-<div class="line"><a id="l01385" name="l01385"></a><span class="lineno"> 1385</span>                         <a class="code hl_define" href="../../d1/d39/doctokenizer_8l.html#a6256e57feb94db36e0dd7c3c83c9180a">lineCount</a>(yytext,yyleng);</div>
+<div class="line"><a id="l01385" name="l01385"></a><span class="lineno"> 1385</span>                         <span class="keywordflow">if</span> (*yytext == <span class="charliteral">&#39;\n&#39;</span>) unput(<span class="charliteral">&#39;\n&#39;</span>);</div>
 <div class="line"><a id="l01386" name="l01386"></a><span class="lineno"> 1386</span>                         <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a id="l01387" name="l01387"></a><span class="lineno"> 1387</span>                         }</div>
 <div class="line"><a id="l01388" name="l01388"></a><span class="lineno"> 1388</span> </div>
