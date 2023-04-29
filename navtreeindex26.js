@@ -1,6 +1,5 @@
 var NAVTREEINDEX26 =
 {
-"d3/d65/class_translator_afrikaans.html#a5cc57f69ec8e25716ba47676a3bdf2d1":[9,0,578,174],
 "d3/d65/class_translator_afrikaans.html#a5d359129a419b55babbd2efb8859da0f":[9,0,578,114],
 "d3/d65/class_translator_afrikaans.html#a60321bc5dd63cdd36d60cde0537698dd":[9,0,578,66],
 "d3/d65/class_translator_afrikaans.html#a610ed67078b571a23bbcec3f4b5c4c02":[9,0,578,43],
@@ -167,12 +166,12 @@ var NAVTREEINDEX26 =
 "d3/d6c/class_vhdl_string.html#ae74bb84c2809baf748cf273204aabd20":[9,0,636,10],
 "d3/d6c/class_vhdl_string.html#aefd2a815dc508a12c9352da3b575ce8f":[9,0,636,12],
 "d3/d6c/class_vhdl_string.html#af805f3e01abaf627912be4a982e8b1ab":[9,0,636,24],
-"d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html":[9,0,8,0,7],
 "d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html":[8,0,18,0,7],
+"d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html":[9,0,8,0,7],
 "d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#a17a5265b1c68b955c03c15e142346250":[9,0,8,0,7,3],
 "d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#a17a5265b1c68b955c03c15e142346250":[8,0,18,0,7,3],
-"d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#a4dd946e2e5c74b2c9bcf818e66dd60e0":[9,0,8,0,7,6],
 "d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#a4dd946e2e5c74b2c9bcf818e66dd60e0":[8,0,18,0,7,6],
+"d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#a4dd946e2e5c74b2c9bcf818e66dd60e0":[9,0,8,0,7,6],
 "d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#a50f498a288427b988cd7021a977378f8":[9,0,8,0,7,4],
 "d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#a50f498a288427b988cd7021a977378f8":[8,0,18,0,7,4],
 "d3/d74/classvhdl_1_1parser_1_1_token_mgr_error.html#a73f6a2866b37dc073293f43eaafafdbf":[9,0,8,0,7,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX26 =
 "d3/d77/class_latex_generator.html#a43b8d2c9eaee906a8db13b6191a774b1":[9,0,350,149],
 "d3/d77/class_latex_generator.html#a44918d04425a332e92e30465f7e05a64":[9,0,350,126],
 "d3/d77/class_latex_generator.html#a46875df306394c532e545e2d7f599e6c":[9,0,350,16],
-"d3/d77/class_latex_generator.html#a48859c667b43515483f4adb04f46cf0e":[9,0,350,91]
+"d3/d77/class_latex_generator.html#a48859c667b43515483f4adb04f46cf0e":[9,0,350,91],
+"d3/d77/class_latex_generator.html#a48ac0f04186d1d1b443fcb867eab0a70":[9,0,350,164]
 };
