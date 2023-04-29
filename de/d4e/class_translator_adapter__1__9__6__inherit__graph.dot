@@ -101,7 +101,15 @@ digraph "TranslatorAdapter_1_9_6"
   Node4 -> Node48 [id="edge47_Node000004_Node000048",dir="back",color="steelblue1",style="solid",tooltip=" "];
   Node48 [id="Node000048",label="TranslatorFrench",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$da/d1a/class_translator_french.html",tooltip=" "];
   Node1 -> Node49 [id="edge48_Node000001_Node000049",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node49 [id="Node000049",label="TranslatorCzech",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$dd/d8a/class_translator_czech.html",tooltip=" "];
+  Node49 [id="Node000049",label="TranslatorBrazilian",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d2/d4c/class_translator_brazilian.html",tooltip=" "];
   Node1 -> Node50 [id="edge49_Node000001_Node000050",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node50 [id="Node000050",label="TranslatorSwedish",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d5/d5c/class_translator_swedish.html",tooltip=" "];
+  Node50 [id="Node000050",label="TranslatorCzech",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$dd/d8a/class_translator_czech.html",tooltip=" "];
+  Node1 -> Node51 [id="edge50_Node000001_Node000051",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node51 [id="Node000051",label="TranslatorGreek",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$df/d75/class_translator_greek.html",tooltip=" "];
+  Node1 -> Node52 [id="edge51_Node000001_Node000052",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node52 [id="Node000052",label="TranslatorPortuguese",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$dc/df2/class_translator_portuguese.html",tooltip=" "];
+  Node1 -> Node53 [id="edge52_Node000001_Node000053",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node53 [id="Node000053",label="TranslatorSpanish",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$dc/d44/class_translator_spanish.html",tooltip=" "];
+  Node1 -> Node54 [id="edge53_Node000001_Node000054",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node54 [id="Node000054",label="TranslatorSwedish",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$d5/d5c/class_translator_swedish.html",tooltip=" "];
 }

@@ -121,7 +121,11 @@ Functions</h2></td></tr>
 <tr class="memitem:ad44bc2f81d70fe50067f691cbae5075b"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d3e/qcstring_8cpp.html#ad44bc2f81d70fe50067f691cbae5075b">qmemmove</a> (void *dst, const void *src, size_t len)</td></tr>
 <tr class="separator:ad44bc2f81d70fe50067f691cbae5075b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ba4946210d9b7880aaafe7b713d6865"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d3e/qcstring_8cpp.html#a0ba4946210d9b7880aaafe7b713d6865">qstrdup</a> (const char *str)</td></tr>
+<tr class="memdesc:a0ba4946210d9b7880aaafe7b713d6865"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a copy of a string <em>s</em>.  <br /></td></tr>
 <tr class="separator:a0ba4946210d9b7880aaafe7b713d6865"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abded38c05cd6d8e9d3941cbf62ee7d52"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d3e/qcstring_8cpp.html#abded38c05cd6d8e9d3941cbf62ee7d52">qstrfree</a> (const char *str)</td></tr>
+<tr class="memdesc:abded38c05cd6d8e9d3941cbf62ee7d52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frees the memory allocated using <a class="el" href="../../d7/d5c/qcstring_8h.html#aee3d51fb3748d75495209a6997f4f09d" title="Returns a copy of a string s.">qstrdup()</a>.  <br /></td></tr>
+<tr class="separator:abded38c05cd6d8e9d3941cbf62ee7d52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c79403319144d439393ae9be9488c95"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d3e/qcstring_8cpp.html#a0c79403319144d439393ae9be9488c95">qstrncpy</a> (char *dst, const char *src, size_t len)</td></tr>
 <tr class="separator:a0c79403319144d439393ae9be9488c95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a773d5813108052583cde43cc8517893d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d3e/qcstring_8cpp.html#a773d5813108052583cde43cc8517893d">qstricmp</a> (const char *s1, const char *s2)</td></tr>
@@ -248,11 +252,14 @@ Functions</h2></td></tr>
           <td class="memname">char * qstrdup </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>str</em></td><td>)</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns a copy of a string <em>s</em>. </p>
+<p>Note that memory is passed to the caller, use <a class="el" href="../../d7/d5c/qcstring_8h.html#ac05568e4f637e1bcfdddb29aaadfd944" title="Frees the memory allocated using qstrdup().">qstrfree()</a> to release. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00420">420</a> of file <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html">qcstring.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  421</span>{</div>
@@ -261,10 +268,35 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  424</span>    <span class="keywordtype">char</span> *dst = <span class="keyword">new</span> <span class="keywordtype">char</span>[<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#abbf37d4aef6d2148223fb259a360a4dc">qstrlen</a>(str)+1];</div>
 <div class="line"><span class="lineno">  425</span>    <span class="keywordflow">return</span> strcpy( dst, str );</div>
 <div class="line"><span class="lineno">  426</span>}</div>
-<div class="ttc" id="aqcstring_8h_html_abbf37d4aef6d2148223fb259a360a4dc"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#abbf37d4aef6d2148223fb259a360a4dc">qstrlen</a></div><div class="ttdeci">uint32_t qstrlen(const char *str)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h.html#l00059">qcstring.h:59</a></div></div>
+<div class="ttc" id="aqcstring_8h_html_abbf37d4aef6d2148223fb259a360a4dc"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#abbf37d4aef6d2148223fb259a360a4dc">qstrlen</a></div><div class="ttdeci">uint32_t qstrlen(const char *str)</div><div class="ttdoc">Returns the length of string str, or 0 if a null pointer is passed.</div><div class="ttdef"><b>Definition</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00061">qcstring.h:61</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00059">qstrlen()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00061">qstrlen()</a>.</p>
 
+</div>
+</div>
+<a id="abded38c05cd6d8e9d3941cbf62ee7d52" name="abded38c05cd6d8e9d3941cbf62ee7d52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abded38c05cd6d8e9d3941cbf62ee7d52">&#9670;&#160;</a></span>qstrfree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void qstrfree </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Frees the memory allocated using <a class="el" href="../../d7/d5c/qcstring_8h.html#aee3d51fb3748d75495209a6997f4f09d" title="Returns a copy of a string s.">qstrdup()</a>. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00428">428</a> of file <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html">qcstring.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  429</span>{</div>
+<div class="line"><span class="lineno">  430</span>  <span class="keyword">delete</span>[](str);</div>
+<div class="line"><span class="lineno">  431</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a773d5813108052583cde43cc8517893d" name="a773d5813108052583cde43cc8517893d"></a>
@@ -293,26 +325,26 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00438">438</a> of file <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html">qcstring.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  439</span>{</div>
-<div class="line"><span class="lineno">  440</span>    <span class="keywordflow">if</span> ( !s1 || !s2 )</div>
-<div class="line"><span class="lineno">  441</span>    {</div>
-<div class="line"><span class="lineno">  442</span>      <span class="keywordflow">return</span> s1 == s2 ? 0 : <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(s2 - s1);</div>
-<div class="line"><span class="lineno">  443</span>    }</div>
-<div class="line"><span class="lineno">  444</span>    <span class="keywordtype">int</span> res;</div>
-<div class="line"><span class="lineno">  445</span>    <span class="keywordtype">char</span> c;</div>
-<div class="line"><span class="lineno">  446</span>    <span class="keywordflow">for</span> ( ; !(res = ((c=<a class="code hl_function" href="../../d5/d3e/qcstring_8cpp.html#a4e545641f98651d4fb8299b407721f9b">toLowerChar</a>(*s1)) - <a class="code hl_function" href="../../d5/d3e/qcstring_8cpp.html#a4e545641f98651d4fb8299b407721f9b">toLowerChar</a>(*s2))); s1++, s2++ )</div>
-<div class="line"><span class="lineno">  447</span>    {</div>
-<div class="line"><span class="lineno">  448</span>      <span class="keywordflow">if</span> ( !c )                         <span class="comment">// strings are equal</span></div>
-<div class="line"><span class="lineno">  449</span>        <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  450</span>    }</div>
-<div class="line"><span class="lineno">  451</span>    <span class="keywordflow">return</span> res;</div>
-<div class="line"><span class="lineno">  452</span>}</div>
-<div class="ttc" id="aqcstring_8cpp_html_a4e545641f98651d4fb8299b407721f9b"><div class="ttname"><a href="../../d5/d3e/qcstring_8cpp.html#a4e545641f98651d4fb8299b407721f9b">toLowerChar</a></div><div class="ttdeci">char toLowerChar(char c)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d3e/qcstring_8cpp.html#l00024">qcstring.cpp:24</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00443">443</a> of file <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html">qcstring.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  444</span>{</div>
+<div class="line"><span class="lineno">  445</span>    <span class="keywordflow">if</span> ( !s1 || !s2 )</div>
+<div class="line"><span class="lineno">  446</span>    {</div>
+<div class="line"><span class="lineno">  447</span>      <span class="keywordflow">return</span> s1 == s2 ? 0 : <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(s2 - s1);</div>
+<div class="line"><span class="lineno">  448</span>    }</div>
+<div class="line"><span class="lineno">  449</span>    <span class="keywordtype">int</span> res;</div>
+<div class="line"><span class="lineno">  450</span>    <span class="keywordtype">char</span> c;</div>
+<div class="line"><span class="lineno">  451</span>    <span class="keywordflow">for</span> ( ; !(res = ((c=<a class="code hl_function" href="../../d5/d3e/qcstring_8cpp.html#a4e545641f98651d4fb8299b407721f9b">toLowerChar</a>(*s1)) - <a class="code hl_function" href="../../d5/d3e/qcstring_8cpp.html#a4e545641f98651d4fb8299b407721f9b">toLowerChar</a>(*s2))); s1++, s2++ )</div>
+<div class="line"><span class="lineno">  452</span>    {</div>
+<div class="line"><span class="lineno">  453</span>      <span class="keywordflow">if</span> ( !c )                         <span class="comment">// strings are equal</span></div>
+<div class="line"><span class="lineno">  454</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  455</span>    }</div>
+<div class="line"><span class="lineno">  456</span>    <span class="keywordflow">return</span> res;</div>
+<div class="line"><span class="lineno">  457</span>}</div>
+<div class="ttc" id="aqcstring_8cpp_html_a4e545641f98651d4fb8299b407721f9b"><div class="ttname"><a href="../../d5/d3e/qcstring_8cpp.html#a4e545641f98651d4fb8299b407721f9b">toLowerChar</a></div><div class="ttdeci">char toLowerChar(char c)</div><div class="ttdef"><b>Definition</b> <a href="../../d5/d3e/qcstring_8cpp_source.html#l00024">qcstring.cpp:24</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00024">toLowerChar()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d52/dirdef_8cpp_source.html#l01038">buildDirectories()</a>, <a class="el" href="../../d8/d52/dirdef_8cpp_source.html#l01151">compareDirDefs()</a>, <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l01730">compareFileDefs()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00154">compareString()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00906">VhdlDocGen::findAllArchitectures()</a>, <a class="el" href="../../d3/d36/docgroup_8cpp_source.html#l00090">DocGroup::findExistingGroup()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03705">FlowChart::findLabel()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02476">VhdlDocGen::findVhdlClass()</a>, <a class="el" href="../../d0/d14/memberlist_8cpp_source.html#l00047">genericCompareMembers()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l03518">mainPageHasOwnTitle()</a>, <a class="el" href="../../d8/d52/dirdef_8cpp_source.html#l00832">DirDefImpl::matchPath()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l11691">parseInput()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00646">qstricmp()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00641">qstricmp()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00651">qstricmp()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l10832">readConfiguration()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l11498">searchInputFiles()</a>, <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l01579">FileDefImpl::sortMemberLists()</a>, <a class="el" href="../../d6/d42/groupdef_8cpp_source.html#l01682">GroupDefImpl::sortMemberLists()</a>, <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01422">NamespaceDefImpl::sortMemberLists()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l00294">stripFromPath()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05807">transcodeCharacterBuffer()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l01346">transcodeCharacterStringToUTF8()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00312">writeColumn()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03795">FlowChart::writeFlowLinks()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l01766">ClassDefImpl::writeIncludeFilesForSlice()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l04285">writeIndex()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01269">VhdlDocGen::writeProcedureProto()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d52/dirdef_8cpp_source.html#l01038">buildDirectories()</a>, <a class="el" href="../../d8/d52/dirdef_8cpp_source.html#l01151">compareDirDefs()</a>, <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l01730">compareFileDefs()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00154">compareString()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00906">VhdlDocGen::findAllArchitectures()</a>, <a class="el" href="../../d3/d36/docgroup_8cpp_source.html#l00090">DocGroup::findExistingGroup()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03705">FlowChart::findLabel()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l02476">VhdlDocGen::findVhdlClass()</a>, <a class="el" href="../../d0/d14/memberlist_8cpp_source.html#l00047">genericCompareMembers()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l03518">mainPageHasOwnTitle()</a>, <a class="el" href="../../d8/d52/dirdef_8cpp_source.html#l00832">DirDefImpl::matchPath()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l11691">parseInput()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00639">qstricmp()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00634">qstricmp()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00644">qstricmp()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l10832">readConfiguration()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l11498">searchInputFiles()</a>, <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l01579">FileDefImpl::sortMemberLists()</a>, <a class="el" href="../../d6/d42/groupdef_8cpp_source.html#l01682">GroupDefImpl::sortMemberLists()</a>, <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l01422">NamespaceDefImpl::sortMemberLists()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l00294">stripFromPath()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05821">transcodeCharacterBuffer()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l01350">transcodeCharacterStringToUTF8()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00312">writeColumn()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03795">FlowChart::writeFlowLinks()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l01766">ClassDefImpl::writeIncludeFilesForSlice()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l04285">writeIndex()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01269">VhdlDocGen::writeProcedureProto()</a>.</p>
 
 </div>
 </div>
@@ -348,15 +380,15 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00428">428</a> of file <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html">qcstring.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  429</span>{</div>
-<div class="line"><span class="lineno">  430</span>    <span class="keywordflow">if</span> ( !src )</div>
-<div class="line"><span class="lineno">  431</span>        <span class="keywordflow">return</span> 0;</div>
-<div class="line"><span class="lineno">  432</span>    strncpy( dst, src, len );</div>
-<div class="line"><span class="lineno">  433</span>    <span class="keywordflow">if</span> ( len &gt; 0 )</div>
-<div class="line"><span class="lineno">  434</span>        dst[len-1] = <span class="charliteral">&#39;\0&#39;</span>;</div>
-<div class="line"><span class="lineno">  435</span>    <span class="keywordflow">return</span> dst;</div>
-<div class="line"><span class="lineno">  436</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00433">433</a> of file <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html">qcstring.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  434</span>{</div>
+<div class="line"><span class="lineno">  435</span>    <span class="keywordflow">if</span> ( !src )</div>
+<div class="line"><span class="lineno">  436</span>        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  437</span>    strncpy( dst, src, len );</div>
+<div class="line"><span class="lineno">  438</span>    <span class="keywordflow">if</span> ( len &gt; 0 )</div>
+<div class="line"><span class="lineno">  439</span>        dst[len-1] = <span class="charliteral">&#39;\0&#39;</span>;</div>
+<div class="line"><span class="lineno">  440</span>    <span class="keywordflow">return</span> dst;</div>
+<div class="line"><span class="lineno">  441</span>}</div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00169">do_warn()</a>.</p>
 
@@ -394,27 +426,27 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00454">454</a> of file <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html">qcstring.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  455</span>{</div>
-<div class="line"><span class="lineno">  456</span>    <span class="keywordflow">if</span> ( !s1 || !s2 )</div>
-<div class="line"><span class="lineno">  457</span>    {</div>
-<div class="line"><span class="lineno">  458</span>      <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(s2 - s1);</div>
-<div class="line"><span class="lineno">  459</span>    }</div>
-<div class="line"><span class="lineno">  460</span>    <span class="keywordflow">for</span> ( ; len--; s1++, s2++ )</div>
-<div class="line"><span class="lineno">  461</span>    {</div>
-<div class="line"><span class="lineno">  462</span>        <span class="keywordtype">char</span> c = <a class="code hl_function" href="../../d5/d3e/qcstring_8cpp.html#a4e545641f98651d4fb8299b407721f9b">toLowerChar</a>(*s1);</div>
-<div class="line"><span class="lineno">  463</span>        <span class="keywordtype">int</span> res = c-<a class="code hl_function" href="../../d5/d3e/qcstring_8cpp.html#a4e545641f98651d4fb8299b407721f9b">toLowerChar</a>(*s2);</div>
-<div class="line"><span class="lineno">  464</span>        <span class="keywordflow">if</span> ( res!=0 ) <span class="comment">// strings are not equal</span></div>
-<div class="line"><span class="lineno">  465</span>            <span class="keywordflow">return</span> res;</div>
-<div class="line"><span class="lineno">  466</span>        <span class="keywordflow">if</span> ( c==0 ) <span class="comment">// strings are equal</span></div>
-<div class="line"><span class="lineno">  467</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  468</span>    }</div>
-<div class="line"><span class="lineno">  469</span>    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><span class="lineno">  470</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00459">459</a> of file <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html">qcstring.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  460</span>{</div>
+<div class="line"><span class="lineno">  461</span>    <span class="keywordflow">if</span> ( !s1 || !s2 )</div>
+<div class="line"><span class="lineno">  462</span>    {</div>
+<div class="line"><span class="lineno">  463</span>      <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(s2 - s1);</div>
+<div class="line"><span class="lineno">  464</span>    }</div>
+<div class="line"><span class="lineno">  465</span>    <span class="keywordflow">for</span> ( ; len--; s1++, s2++ )</div>
+<div class="line"><span class="lineno">  466</span>    {</div>
+<div class="line"><span class="lineno">  467</span>        <span class="keywordtype">char</span> c = <a class="code hl_function" href="../../d5/d3e/qcstring_8cpp.html#a4e545641f98651d4fb8299b407721f9b">toLowerChar</a>(*s1);</div>
+<div class="line"><span class="lineno">  468</span>        <span class="keywordtype">int</span> res = c-<a class="code hl_function" href="../../d5/d3e/qcstring_8cpp.html#a4e545641f98651d4fb8299b407721f9b">toLowerChar</a>(*s2);</div>
+<div class="line"><span class="lineno">  469</span>        <span class="keywordflow">if</span> ( res!=0 ) <span class="comment">// strings are not equal</span></div>
+<div class="line"><span class="lineno">  470</span>            <span class="keywordflow">return</span> res;</div>
+<div class="line"><span class="lineno">  471</span>        <span class="keywordflow">if</span> ( c==0 ) <span class="comment">// strings are equal</span></div>
+<div class="line"><span class="lineno">  472</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  473</span>    }</div>
+<div class="line"><span class="lineno">  474</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  475</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00024">toLowerChar()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00164">QCString::contains()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00061">QCString::find()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00123">QCString::findRev()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00661">qstrnicmp()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00656">qstrnicmp()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00666">qstrnicmp()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00164">QCString::contains()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00061">QCString::find()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00123">QCString::findRev()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00654">qstrnicmp()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00649">qstrnicmp()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00659">qstrnicmp()</a>.</p>
 
 </div>
 </div>
@@ -452,50 +484,50 @@ Functions</h2></td></tr>
 
 <p>substitute all occurrences of <em>src</em> in <em>s</em> by <em>dst</em> </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00473">473</a> of file <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html">qcstring.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  474</span>{</div>
-<div class="line"><span class="lineno">  475</span>  <span class="keywordflow">if</span> (s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>() || src.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>()) <span class="keywordflow">return</span> s;</div>
-<div class="line"><span class="lineno">  476</span>  <span class="keyword">const</span> <span class="keywordtype">char</span> *p, *q;</div>
-<div class="line"><span class="lineno">  477</span>  <span class="keywordtype">int</span> srcLen = src.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>();</div>
-<div class="line"><span class="lineno">  478</span>  <span class="keywordtype">int</span> dstLen = dst.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>();</div>
-<div class="line"><span class="lineno">  479</span>  <span class="keywordtype">int</span> resLen;</div>
-<div class="line"><span class="lineno">  480</span>  <span class="keywordflow">if</span> (srcLen!=dstLen)</div>
-<div class="line"><span class="lineno">  481</span>  {</div>
-<div class="line"><span class="lineno">  482</span>    <span class="keywordtype">int</span> count;</div>
-<div class="line"><span class="lineno">  483</span>    <span class="keywordflow">for</span> (count=0, p=s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>(); (q=strstr(p,src.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>()))!=0; p=q+srcLen) count++;</div>
-<div class="line"><span class="lineno">  484</span>    resLen = s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>()+count*(dstLen-srcLen);</div>
-<div class="line"><span class="lineno">  485</span>  }</div>
-<div class="line"><span class="lineno">  486</span>  <span class="keywordflow">else</span> <span class="comment">// result has same size as s</span></div>
-<div class="line"><span class="lineno">  487</span>  {</div>
-<div class="line"><span class="lineno">  488</span>    resLen = s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>();</div>
-<div class="line"><span class="lineno">  489</span>  }</div>
-<div class="line"><span class="lineno">  490</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> result(resLen+1);</div>
-<div class="line"><span class="lineno">  491</span>  <span class="keywordtype">char</span> *r;</div>
-<div class="line"><span class="lineno">  492</span>  <span class="keywordflow">for</span> (r=result.rawData(), p=s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>(); (q=strstr(p,src.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>()))!=0; p=q+srcLen)</div>
-<div class="line"><span class="lineno">  493</span>  {</div>
-<div class="line"><span class="lineno">  494</span>    <span class="keywordtype">int</span> l = <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(q-p);</div>
-<div class="line"><span class="lineno">  495</span>    memcpy(r,p,l);</div>
-<div class="line"><span class="lineno">  496</span>    r+=l;</div>
-<div class="line"><span class="lineno">  497</span> </div>
-<div class="line"><span class="lineno">  498</span>    <span class="keywordflow">if</span> (dstLen&gt;0) memcpy(r,dst.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>(),dstLen);</div>
-<div class="line"><span class="lineno">  499</span>    r+=dstLen;</div>
-<div class="line"><span class="lineno">  500</span>  }</div>
-<div class="line"><span class="lineno">  501</span>  <span class="keywordflow">if</span> (r)</div>
-<div class="line"><span class="lineno">  502</span>  {</div>
-<div class="line"><span class="lineno">  503</span>    <a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#ac32a77e081e980d3a32c45578b7be389">qstrcpy</a>(r,p);</div>
-<div class="line"><span class="lineno">  504</span>  }</div>
-<div class="line"><span class="lineno">  505</span>  <span class="comment">//printf(&quot;substitute(%s,%s,%s)-&gt;%s\n&quot;,s,src,dst,result.data());</span></div>
-<div class="line"><span class="lineno">  506</span>  <span class="keywordflow">return</span> result;</div>
-<div class="line"><span class="lineno">  507</span>}</div>
-<div class="ttc" id="aclass_q_c_string_html"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html">QCString</a></div><div class="ttdoc">This is an alternative implementation of QCString.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d45/class_q_c_string.html#l00102">qcstring.h:103</a></div></div>
-<div class="ttc" id="aclass_q_c_string_html_a621c4090d69ad7d05ef8e5234376c3d8"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">QCString::isEmpty</a></div><div class="ttdeci">bool isEmpty() const</div><div class="ttdoc">Returns TRUE iff the string is empty.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d45/class_q_c_string.html#l00138">qcstring.h:138</a></div></div>
-<div class="ttc" id="aclass_q_c_string_html_ac3aa3ac1a1c36d3305eba22a2eb0d098"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">QCString::data</a></div><div class="ttdeci">const char * data() const</div><div class="ttdoc">Returns a pointer to the contents of the string in the form of a 0-terminated C string.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d45/class_q_c_string.html#l00147">qcstring.h:147</a></div></div>
-<div class="ttc" id="aclass_q_c_string_html_acc50f8bef7d726d5c9d42bab4d89f7c7"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">QCString::length</a></div><div class="ttdeci">uint32_t length() const</div><div class="ttdoc">Returns the length of the string, not counting the 0-terminator.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d45/class_q_c_string.html#l00141">qcstring.h:141</a></div></div>
-<div class="ttc" id="aqcstring_8h_html_ac32a77e081e980d3a32c45578b7be389"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#ac32a77e081e980d3a32c45578b7be389">qstrcpy</a></div><div class="ttdeci">char * qstrcpy(char *dst, const char *src)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h.html#l00065">qcstring.h:65</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00478">478</a> of file <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html">qcstring.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  479</span>{</div>
+<div class="line"><span class="lineno">  480</span>  <span class="keywordflow">if</span> (s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>() || src.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>()) <span class="keywordflow">return</span> s;</div>
+<div class="line"><span class="lineno">  481</span>  <span class="keyword">const</span> <span class="keywordtype">char</span> *p, *q;</div>
+<div class="line"><span class="lineno">  482</span>  <span class="keywordtype">int</span> srcLen = src.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>();</div>
+<div class="line"><span class="lineno">  483</span>  <span class="keywordtype">int</span> dstLen = dst.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>();</div>
+<div class="line"><span class="lineno">  484</span>  <span class="keywordtype">int</span> resLen;</div>
+<div class="line"><span class="lineno">  485</span>  <span class="keywordflow">if</span> (srcLen!=dstLen)</div>
+<div class="line"><span class="lineno">  486</span>  {</div>
+<div class="line"><span class="lineno">  487</span>    <span class="keywordtype">int</span> count;</div>
+<div class="line"><span class="lineno">  488</span>    <span class="keywordflow">for</span> (count=0, p=s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>(); (q=strstr(p,src.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>()))!=0; p=q+srcLen) count++;</div>
+<div class="line"><span class="lineno">  489</span>    resLen = s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>()+count*(dstLen-srcLen);</div>
+<div class="line"><span class="lineno">  490</span>  }</div>
+<div class="line"><span class="lineno">  491</span>  <span class="keywordflow">else</span> <span class="comment">// result has same size as s</span></div>
+<div class="line"><span class="lineno">  492</span>  {</div>
+<div class="line"><span class="lineno">  493</span>    resLen = s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>();</div>
+<div class="line"><span class="lineno">  494</span>  }</div>
+<div class="line"><span class="lineno">  495</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> result(resLen+1);</div>
+<div class="line"><span class="lineno">  496</span>  <span class="keywordtype">char</span> *r;</div>
+<div class="line"><span class="lineno">  497</span>  <span class="keywordflow">for</span> (r=result.rawData(), p=s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>(); (q=strstr(p,src.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>()))!=0; p=q+srcLen)</div>
+<div class="line"><span class="lineno">  498</span>  {</div>
+<div class="line"><span class="lineno">  499</span>    <span class="keywordtype">int</span> l = <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(q-p);</div>
+<div class="line"><span class="lineno">  500</span>    memcpy(r,p,l);</div>
+<div class="line"><span class="lineno">  501</span>    r+=l;</div>
+<div class="line"><span class="lineno">  502</span> </div>
+<div class="line"><span class="lineno">  503</span>    <span class="keywordflow">if</span> (dstLen&gt;0) memcpy(r,dst.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>(),dstLen);</div>
+<div class="line"><span class="lineno">  504</span>    r+=dstLen;</div>
+<div class="line"><span class="lineno">  505</span>  }</div>
+<div class="line"><span class="lineno">  506</span>  <span class="keywordflow">if</span> (r)</div>
+<div class="line"><span class="lineno">  507</span>  {</div>
+<div class="line"><span class="lineno">  508</span>    <a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#ac32a77e081e980d3a32c45578b7be389">qstrcpy</a>(r,p);</div>
+<div class="line"><span class="lineno">  509</span>  }</div>
+<div class="line"><span class="lineno">  510</span>  <span class="comment">//printf(&quot;substitute(%s,%s,%s)-&gt;%s\n&quot;,s,src,dst,result.data());</span></div>
+<div class="line"><span class="lineno">  511</span>  <span class="keywordflow">return</span> result;</div>
+<div class="line"><span class="lineno">  512</span>}</div>
+<div class="ttc" id="aclass_q_c_string_html"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html">QCString</a></div><div class="ttdoc">This is an alternative implementation of QCString.</div><div class="ttdef"><b>Definition</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00095">qcstring.h:96</a></div></div>
+<div class="ttc" id="aclass_q_c_string_html_a621c4090d69ad7d05ef8e5234376c3d8"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">QCString::isEmpty</a></div><div class="ttdeci">bool isEmpty() const</div><div class="ttdoc">Returns TRUE iff the string is empty.</div><div class="ttdef"><b>Definition</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00131">qcstring.h:131</a></div></div>
+<div class="ttc" id="aclass_q_c_string_html_ac3aa3ac1a1c36d3305eba22a2eb0d098"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">QCString::data</a></div><div class="ttdeci">const char * data() const</div><div class="ttdoc">Returns a pointer to the contents of the string in the form of a 0-terminated C string.</div><div class="ttdef"><b>Definition</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00140">qcstring.h:140</a></div></div>
+<div class="ttc" id="aclass_q_c_string_html_acc50f8bef7d726d5c9d42bab4d89f7c7"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">QCString::length</a></div><div class="ttdeci">uint32_t length() const</div><div class="ttdoc">Returns the length of the string, not counting the 0-terminator.</div><div class="ttdef"><b>Definition</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00134">qcstring.h:134</a></div></div>
+<div class="ttc" id="aqcstring_8h_html_ac32a77e081e980d3a32c45578b7be389"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#ac32a77e081e980d3a32c45578b7be389">qstrcpy</a></div><div class="ttdeci">char * qstrcpy(char *dst, const char *src)</div><div class="ttdef"><b>Definition</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00064">qcstring.h:64</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::data()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00138">QCString::isEmpty()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00141">QCString::length()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00065">qstrcpy()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00151">QCString::rawData()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00140">QCString::data()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00131">QCString::isEmpty()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00134">QCString::length()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00064">qstrcpy()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::rawData()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01562">abbreviate()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07089">addEnumValuesToEnums()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03244">FlowChart::addFlowChart()</a>, <a class="el" href="../../de/d2b/pyscanner_8l_source.html#l01736">addFrom()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05608">addMemberFunction()</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02670">addModule()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l00292">addPageToContext()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01569">Markdown::addStrEscapeUtf8Nbsp()</a>, <a class="el" href="../../da/d1f/code_8l_source.html#l02213">addVariable()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l02144">addVariableToClass()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l01392">FilterNoWrap::apply()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01938">buildListOfUsingDecls()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01618">buildNamespaceList()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00288">DocParser::checkUnOrMultipleDocumentedParams()</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00544">convertFileId2Var()</a>, <a class="el" href="../../d6/dde/resourcemgr_8cpp_source.html#l00080">ResourceMgr::copyResourceAs()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00534">Portable::correct_path()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l03084">MemberDefImpl::displayDefinition()</a>, <a class="el" href="../../d3/d4b/htmlhelp_8cpp_source.html#l00175">field2URL()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08956">findDirDocumentation()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00380">DocParser::findDocsForMemberOrCompound()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05195">findGlobalMember()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l00415">findGroupScope()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06090">findMember()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01951">findUsingDeclarations()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01797">findUsingDirectives()</a>, <a class="el" href="../../d8/d3c/util_8h_source.html#l00457">fixSpaces()</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00114">format_warn()</a>, <a class="el" href="../../d3/ded/pycode_8l_source.html#l01273">generateClassOrGlobalLink()</a>, <a class="el" href="../../da/d1f/code_8l_source.html#l02854">generateClassOrGlobalLink()</a>, <a class="el" href="../../d4/d09/reflist_8cpp_source.html#l00055">RefList::generatePage()</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00843">FTVHelp::generateTreeViewScripts()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00810">VhdlDocGen::getClassName()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l02198">getDefsOld()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03777">DocPara::handleStartCode()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l08041">InheritedMemberInfoContext::Private::id()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l03016">linkToText()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00109">makeDisplayName()</a>, <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l00038">makeDisplayName()</a>, <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00181">matchExcludedSymbols()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03276">Markdown::process()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01059">Markdown::processLink()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01514">processTagLessClasses()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05501">replaceAliasArguments()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l02829">resolveRef()</a>, <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00305">DotFilePatcher::run()</a>, <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00074">SearchIndex::setCurrentDoc()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00673">substitute()</a>, <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l00318">substituteHtmlKeywords()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00684">substituteLatexKeywords()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00106">Portable::system()</a>, <a class="el" href="../../db/db1/configimpl_8h_source.html#l00572">ConfigImpl::takeStartComment()</a>, <a class="el" href="../../db/db1/configimpl_8h_source.html#l00590">ConfigImpl::takeStoreRepl()</a>, <a class="el" href="../../db/db1/configimpl_8h_source.html#l00581">ConfigImpl::takeUserComment()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00070">unescapeCRef()</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00198">warn_line()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l02164">writeAlphabeticalClassList()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00312">writeColumn()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02064">MemberDefImpl::writeDeclaration()</a>, <a class="el" href="../../d0/d14/memberlist_8cpp_source.html#l00501">MemberList::writeDeclarations()</a>, <a class="el" href="../../db/d16/layout_8cpp_source.html#l01395">writeDefaultLayoutFile()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l03229">MemberDefImpl::writeDocumentation()</a>, <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l02877">HtmlGenerator::writeNavigationPath()</a>, <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l01246">HtmlGenerator::writeSearchData()</a>, <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l02908">HtmlGenerator::writeSearchPage()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01618">VhdlDocGen::writeVHDLTypeDocumentation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l01562">abbreviate()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l07089">addEnumValuesToEnums()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l03244">FlowChart::addFlowChart()</a>, <a class="el" href="../../de/d2b/pyscanner_8l_source.html#l01736">addFrom()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05608">addMemberFunction()</a>, <a class="el" href="../../dd/d00/fortranscanner_8l_source.html#l02670">addModule()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l00292">addPageToContext()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01569">Markdown::addStrEscapeUtf8Nbsp()</a>, <a class="el" href="../../da/d1f/code_8l_source.html#l02213">addVariable()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l02144">addVariableToClass()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l01392">FilterNoWrap::apply()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01938">buildListOfUsingDecls()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01618">buildNamespaceList()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00288">DocParser::checkUnOrMultipleDocumentedParams()</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00552">convertFileId2Var()</a>, <a class="el" href="../../d6/dde/resourcemgr_8cpp_source.html#l00080">ResourceMgr::copyResourceAs()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00534">Portable::correct_path()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l03083">MemberDefImpl::displayDefinition()</a>, <a class="el" href="../../d3/d4b/htmlhelp_8cpp_source.html#l00175">field2URL()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l08956">findDirDocumentation()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00380">DocParser::findDocsForMemberOrCompound()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l05195">findGlobalMember()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l00415">findGroupScope()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l06090">findMember()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01951">findUsingDeclarations()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01797">findUsingDirectives()</a>, <a class="el" href="../../d8/d3c/util_8h_source.html#l00457">fixSpaces()</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00114">format_warn()</a>, <a class="el" href="../../d3/ded/pycode_8l_source.html#l01273">generateClassOrGlobalLink()</a>, <a class="el" href="../../da/d1f/code_8l_source.html#l02854">generateClassOrGlobalLink()</a>, <a class="el" href="../../d4/d09/reflist_8cpp_source.html#l00055">RefList::generatePage()</a>, <a class="el" href="../../db/d41/ftvhelp_8cpp_source.html#l00851">FTVHelp::generateTreeViewScripts()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00810">VhdlDocGen::getClassName()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l02202">getDefsOld()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l03777">DocPara::handleStartCode()</a>, <a class="el" href="../../db/d12/context_8cpp_source.html#l08041">InheritedMemberInfoContext::Private::id()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l03020">linkToText()</a>, <a class="el" href="../../de/d89/classdef_8cpp_source.html#l00109">makeDisplayName()</a>, <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l00038">makeDisplayName()</a>, <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00181">matchExcludedSymbols()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03276">Markdown::process()</a>, <a class="el" href="../../de/d04/markdown_8cpp_source.html#l01059">Markdown::processLink()</a>, <a class="el" href="../../dc/d98/doxygen_8cpp_source.html#l01514">processTagLessClasses()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05515">replaceAliasArguments()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l02833">resolveRef()</a>, <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00305">DotFilePatcher::run()</a>, <a class="el" href="../../d7/d79/searchindex_8cpp_source.html#l00074">SearchIndex::setCurrentDoc()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00666">substitute()</a>, <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l00318">substituteHtmlKeywords()</a>, <a class="el" href="../../d4/d42/latexgen_8cpp_source.html#l00684">substituteLatexKeywords()</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00106">Portable::system()</a>, <a class="el" href="../../db/db1/configimpl_8h_source.html#l00572">ConfigImpl::takeStartComment()</a>, <a class="el" href="../../db/db1/configimpl_8h_source.html#l00590">ConfigImpl::takeStoreRepl()</a>, <a class="el" href="../../db/db1/configimpl_8h_source.html#l00581">ConfigImpl::takeUserComment()</a>, <a class="el" href="../../d0/d2b/docnode_8cpp_source.html#l00070">unescapeCRef()</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00198">warn_line()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l02164">writeAlphabeticalClassList()</a>, <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l00312">writeColumn()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l02064">MemberDefImpl::writeDeclaration()</a>, <a class="el" href="../../d0/d14/memberlist_8cpp_source.html#l00501">MemberList::writeDeclarations()</a>, <a class="el" href="../../db/d16/layout_8cpp_source.html#l01395">writeDefaultLayoutFile()</a>, <a class="el" href="../../d0/d72/memberdef_8cpp_source.html#l03228">MemberDefImpl::writeDocumentation()</a>, <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l02881">HtmlGenerator::writeNavigationPath()</a>, <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l01250">HtmlGenerator::writeSearchData()</a>, <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l02912">HtmlGenerator::writeSearchPage()</a>, and <a class="el" href="../../de/dea/vhdldocgen_8cpp_source.html#l01618">VhdlDocGen::writeVHDLTypeDocumentation()</a>.</p>
 
 </div>
 </div>
@@ -539,63 +571,63 @@ Functions</h2></td></tr>
 
 <p>substitute all occurrences of <em>src</em> in <em>s</em> by <em>dst</em>, but skip each consecutive sequence of <em>src</em> where the number consecutive <em>src</em> matches <em>skip_seq</em>; if <em>skip_seq</em> is negative, skip any number of consecutive <em>src</em> </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00514">514</a> of file <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html">qcstring.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  515</span>{</div>
-<div class="line"><span class="lineno">  516</span>  <span class="keywordflow">if</span> (s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>() || src.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>()) <span class="keywordflow">return</span> s;</div>
-<div class="line"><span class="lineno">  517</span>  <span class="keyword">const</span> <span class="keywordtype">char</span> *p, *q;</div>
-<div class="line"><span class="lineno">  518</span>  <span class="keywordtype">int</span> srcLen = src.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>();</div>
-<div class="line"><span class="lineno">  519</span>  <span class="keywordtype">int</span> dstLen = dst.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>();</div>
-<div class="line"><span class="lineno">  520</span>  <span class="keywordtype">int</span> resLen;</div>
-<div class="line"><span class="lineno">  521</span>  <span class="keywordflow">if</span> (srcLen!=dstLen)</div>
-<div class="line"><span class="lineno">  522</span>  {</div>
-<div class="line"><span class="lineno">  523</span>    <span class="keywordtype">int</span> count;</div>
-<div class="line"><span class="lineno">  524</span>    <span class="keywordflow">for</span> (count=0, p=s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>(); (q=strstr(p,src.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>()))!=0; p=q+srcLen) count++;</div>
-<div class="line"><span class="lineno">  525</span>    resLen = s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>()+count*(dstLen-srcLen);</div>
-<div class="line"><span class="lineno">  526</span>  }</div>
-<div class="line"><span class="lineno">  527</span>  <span class="keywordflow">else</span> <span class="comment">// result has same size as s</span></div>
-<div class="line"><span class="lineno">  528</span>  {</div>
-<div class="line"><span class="lineno">  529</span>    resLen = s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>();</div>
-<div class="line"><span class="lineno">  530</span>  }</div>
-<div class="line"><span class="lineno">  531</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> result(resLen+1);</div>
-<div class="line"><span class="lineno">  532</span>  <span class="keywordtype">char</span> *r;</div>
-<div class="line"><span class="lineno">  533</span>  <span class="keywordflow">for</span> (r=result.rawData(), p=s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>(); (q=strstr(p,src.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>()))!=0; p=q+srcLen)</div>
-<div class="line"><span class="lineno">  534</span>  {</div>
-<div class="line"><span class="lineno">  535</span>    <span class="comment">// search a consecutive sequence of src</span></div>
-<div class="line"><span class="lineno">  536</span>    <span class="keywordtype">int</span> seq = 0, skip = 0;</div>
-<div class="line"><span class="lineno">  537</span>    <span class="keywordflow">if</span> (skip_seq)</div>
-<div class="line"><span class="lineno">  538</span>    {</div>
-<div class="line"><span class="lineno">  539</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keywordtype">char</span> *n=q+srcLen; <a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a19faae287d13ccea75b1d5a0eb110d97">qstrncmp</a>(n,src.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>(),srcLen)==0; seq=1+skip, n+=srcLen)</div>
-<div class="line"><span class="lineno">  540</span>        ++skip; <span class="comment">// number of consecutive src after the current one</span></div>
-<div class="line"><span class="lineno">  541</span> </div>
-<div class="line"><span class="lineno">  542</span>      <span class="comment">// verify the allowed number of consecutive src to skip</span></div>
-<div class="line"><span class="lineno">  543</span>      <span class="keywordflow">if</span> (skip_seq &gt; 0 &amp;&amp; skip_seq != seq)</div>
-<div class="line"><span class="lineno">  544</span>        seq = skip = 0;</div>
-<div class="line"><span class="lineno">  545</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00519">519</a> of file <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html">qcstring.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  520</span>{</div>
+<div class="line"><span class="lineno">  521</span>  <span class="keywordflow">if</span> (s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>() || src.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>()) <span class="keywordflow">return</span> s;</div>
+<div class="line"><span class="lineno">  522</span>  <span class="keyword">const</span> <span class="keywordtype">char</span> *p, *q;</div>
+<div class="line"><span class="lineno">  523</span>  <span class="keywordtype">int</span> srcLen = src.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>();</div>
+<div class="line"><span class="lineno">  524</span>  <span class="keywordtype">int</span> dstLen = dst.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>();</div>
+<div class="line"><span class="lineno">  525</span>  <span class="keywordtype">int</span> resLen;</div>
+<div class="line"><span class="lineno">  526</span>  <span class="keywordflow">if</span> (srcLen!=dstLen)</div>
+<div class="line"><span class="lineno">  527</span>  {</div>
+<div class="line"><span class="lineno">  528</span>    <span class="keywordtype">int</span> count;</div>
+<div class="line"><span class="lineno">  529</span>    <span class="keywordflow">for</span> (count=0, p=s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>(); (q=strstr(p,src.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>()))!=0; p=q+srcLen) count++;</div>
+<div class="line"><span class="lineno">  530</span>    resLen = s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>()+count*(dstLen-srcLen);</div>
+<div class="line"><span class="lineno">  531</span>  }</div>
+<div class="line"><span class="lineno">  532</span>  <span class="keywordflow">else</span> <span class="comment">// result has same size as s</span></div>
+<div class="line"><span class="lineno">  533</span>  {</div>
+<div class="line"><span class="lineno">  534</span>    resLen = s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#acc50f8bef7d726d5c9d42bab4d89f7c7">length</a>();</div>
+<div class="line"><span class="lineno">  535</span>  }</div>
+<div class="line"><span class="lineno">  536</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> result(resLen+1);</div>
+<div class="line"><span class="lineno">  537</span>  <span class="keywordtype">char</span> *r;</div>
+<div class="line"><span class="lineno">  538</span>  <span class="keywordflow">for</span> (r=result.rawData(), p=s.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>(); (q=strstr(p,src.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>()))!=0; p=q+srcLen)</div>
+<div class="line"><span class="lineno">  539</span>  {</div>
+<div class="line"><span class="lineno">  540</span>    <span class="comment">// search a consecutive sequence of src</span></div>
+<div class="line"><span class="lineno">  541</span>    <span class="keywordtype">int</span> seq = 0, skip = 0;</div>
+<div class="line"><span class="lineno">  542</span>    <span class="keywordflow">if</span> (skip_seq)</div>
+<div class="line"><span class="lineno">  543</span>    {</div>
+<div class="line"><span class="lineno">  544</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keywordtype">char</span> *n=q+srcLen; <a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a19faae287d13ccea75b1d5a0eb110d97">qstrncmp</a>(n,src.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>(),srcLen)==0; seq=1+skip, n+=srcLen)</div>
+<div class="line"><span class="lineno">  545</span>        ++skip; <span class="comment">// number of consecutive src after the current one</span></div>
 <div class="line"><span class="lineno">  546</span> </div>
-<div class="line"><span class="lineno">  547</span>    <span class="comment">// skip a consecutive sequence of src when necessary</span></div>
-<div class="line"><span class="lineno">  548</span>    <span class="keywordtype">int</span> l = <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>((q + seq * srcLen)-p);</div>
-<div class="line"><span class="lineno">  549</span>    memcpy(r,p,l);</div>
-<div class="line"><span class="lineno">  550</span>    r+=l;</div>
+<div class="line"><span class="lineno">  547</span>      <span class="comment">// verify the allowed number of consecutive src to skip</span></div>
+<div class="line"><span class="lineno">  548</span>      <span class="keywordflow">if</span> (skip_seq &gt; 0 &amp;&amp; skip_seq != seq)</div>
+<div class="line"><span class="lineno">  549</span>        seq = skip = 0;</div>
+<div class="line"><span class="lineno">  550</span>    }</div>
 <div class="line"><span class="lineno">  551</span> </div>
-<div class="line"><span class="lineno">  552</span>    <span class="keywordflow">if</span> (skip)</div>
-<div class="line"><span class="lineno">  553</span>    {</div>
-<div class="line"><span class="lineno">  554</span>      <span class="comment">// skip only the consecutive src found after the current one</span></div>
-<div class="line"><span class="lineno">  555</span>      q += skip * srcLen;</div>
-<div class="line"><span class="lineno">  556</span>      <span class="comment">// the next loop will skip the current src, aka (p=q+srcLen)</span></div>
-<div class="line"><span class="lineno">  557</span>      <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">  558</span>    }</div>
-<div class="line"><span class="lineno">  559</span> </div>
-<div class="line"><span class="lineno">  560</span>    <span class="keywordflow">if</span> (dstLen&gt;0) memcpy(r,dst.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>(),dstLen);</div>
-<div class="line"><span class="lineno">  561</span>    r+=dstLen;</div>
-<div class="line"><span class="lineno">  562</span>  }</div>
-<div class="line"><span class="lineno">  563</span>  <a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#ac32a77e081e980d3a32c45578b7be389">qstrcpy</a>(r,p);</div>
-<div class="line"><span class="lineno">  564</span>  result.resize(<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(strlen(result.data())+1));</div>
-<div class="line"><span class="lineno">  565</span>  <span class="comment">//printf(&quot;substitute(%s,%s,%s)-&gt;%s\n&quot;,s,src,dst,result.data());</span></div>
-<div class="line"><span class="lineno">  566</span>  <span class="keywordflow">return</span> result;</div>
-<div class="line"><span class="lineno">  567</span>}</div>
-<div class="ttc" id="aqcstring_8h_html_a19faae287d13ccea75b1d5a0eb110d97"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#a19faae287d13ccea75b1d5a0eb110d97">qstrncmp</a></div><div class="ttdeci">int qstrncmp(const char *str1, const char *str2, size_t len)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h.html#l00085">qcstring.h:85</a></div></div>
+<div class="line"><span class="lineno">  552</span>    <span class="comment">// skip a consecutive sequence of src when necessary</span></div>
+<div class="line"><span class="lineno">  553</span>    <span class="keywordtype">int</span> l = <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>((q + seq * srcLen)-p);</div>
+<div class="line"><span class="lineno">  554</span>    memcpy(r,p,l);</div>
+<div class="line"><span class="lineno">  555</span>    r+=l;</div>
+<div class="line"><span class="lineno">  556</span> </div>
+<div class="line"><span class="lineno">  557</span>    <span class="keywordflow">if</span> (skip)</div>
+<div class="line"><span class="lineno">  558</span>    {</div>
+<div class="line"><span class="lineno">  559</span>      <span class="comment">// skip only the consecutive src found after the current one</span></div>
+<div class="line"><span class="lineno">  560</span>      q += skip * srcLen;</div>
+<div class="line"><span class="lineno">  561</span>      <span class="comment">// the next loop will skip the current src, aka (p=q+srcLen)</span></div>
+<div class="line"><span class="lineno">  562</span>      <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  563</span>    }</div>
+<div class="line"><span class="lineno">  564</span> </div>
+<div class="line"><span class="lineno">  565</span>    <span class="keywordflow">if</span> (dstLen&gt;0) memcpy(r,dst.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#ac3aa3ac1a1c36d3305eba22a2eb0d098">data</a>(),dstLen);</div>
+<div class="line"><span class="lineno">  566</span>    r+=dstLen;</div>
+<div class="line"><span class="lineno">  567</span>  }</div>
+<div class="line"><span class="lineno">  568</span>  <a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#ac32a77e081e980d3a32c45578b7be389">qstrcpy</a>(r,p);</div>
+<div class="line"><span class="lineno">  569</span>  result.resize(<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(strlen(result.data())+1));</div>
+<div class="line"><span class="lineno">  570</span>  <span class="comment">//printf(&quot;substitute(%s,%s,%s)-&gt;%s\n&quot;,s,src,dst,result.data());</span></div>
+<div class="line"><span class="lineno">  571</span>  <span class="keywordflow">return</span> result;</div>
+<div class="line"><span class="lineno">  572</span>}</div>
+<div class="ttc" id="aqcstring_8h_html_a19faae287d13ccea75b1d5a0eb110d97"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#a19faae287d13ccea75b1d5a0eb110d97">qstrncmp</a></div><div class="ttdeci">int qstrncmp(const char *str1, const char *str2, size_t len)</div><div class="ttdef"><b>Definition</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00078">qcstring.h:78</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::data()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00138">QCString::isEmpty()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00141">QCString::length()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00065">qstrcpy()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00085">qstrncmp()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00151">QCString::rawData()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00158">QCString::resize()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00140">QCString::data()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00131">QCString::isEmpty()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00134">QCString::length()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00064">qstrcpy()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00078">qstrncmp()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00144">QCString::rawData()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00151">QCString::resize()</a>.</p>
 
 </div>
 </div>
@@ -628,7 +660,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">   26</span>  <span class="keywordflow">return</span> c&gt;=<span class="charliteral">&#39;A&#39;</span> &amp;&amp; c&lt;=<span class="charliteral">&#39;Z&#39;</span> ? c|0x20 : c;</div>
 <div class="line"><span class="lineno">   27</span>}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00143">QCString::contains()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00043">QCString::find()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00091">QCString::findRev()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00438">qstricmp()</a>, and <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00454">qstrnicmp()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00143">QCString::contains()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00043">QCString::find()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00091">QCString::findRev()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00443">qstricmp()</a>, and <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00459">qstrnicmp()</a>.</p>
 
 </div>
 </div>
