@@ -1,6 +1,5 @@
 var NAVTREEINDEX79 =
 {
-"da/d4d/namespace_namespace_member_highlight.html":[8,0,9],
 "da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7c":[8,0,9,0],
 "da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca058990972fd9b9f273438f613c9599c5":[8,0,9,0,5],
 "da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca0871415d5e1675ebcdb37b458fc8b67f":[8,0,9,0,8],
@@ -14,14 +13,14 @@ var NAVTREEINDEX79 =
 "da/d4e/struct_citation_manager_1_1_private.html":[9,0,32,0],
 "da/d4e/struct_citation_manager_1_1_private.html#a1b060e55fdd945e3f802942708c36c4b":[9,0,32,0,0],
 "da/d4e/struct_citation_manager_1_1_private.html#aebb64cb55fe9bfcc582ee70a1378f7d9":[9,0,32,0,1],
-"da/d52/struct_output_gen_intf_1_1end_member_doc_simple.html":[8,0,11,50],
 "da/d52/struct_output_gen_intf_1_1end_member_doc_simple.html":[9,0,5,50],
+"da/d52/struct_output_gen_intf_1_1end_member_doc_simple.html":[8,0,11,50],
 "da/d52/struct_output_gen_intf_1_1end_member_doc_simple.html#a68ae9d3f1775f4415034fa33912c0c98":[8,0,11,50,0],
 "da/d52/struct_output_gen_intf_1_1end_member_doc_simple.html#a68ae9d3f1775f4415034fa33912c0c98":[9,0,5,50,0],
 "da/d52/struct_output_gen_intf_1_1write_ruler.html":[8,0,11,166],
 "da/d52/struct_output_gen_intf_1_1write_ruler.html":[9,0,5,166],
-"da/d52/struct_output_gen_intf_1_1write_ruler.html#a5518c238e181da668e4803af382b95da":[9,0,5,166,0],
 "da/d52/struct_output_gen_intf_1_1write_ruler.html#a5518c238e181da668e4803af382b95da":[8,0,11,166,0],
+"da/d52/struct_output_gen_intf_1_1write_ruler.html#a5518c238e181da668e4803af382b95da":[9,0,5,166,0],
 "da/d55/parserintf_8h.html":[10,0,2,189],
 "da/d55/parserintf_8h.html#ab3d33d80825a6d236fc1ca772325c12e":[10,0,2,189,4],
 "da/d55/parserintf_8h.html#afda01ba4e899f06f0fbbd2b0f79fd5cf":[10,0,2,189,5],
@@ -179,8 +178,8 @@ var NAVTREEINDEX79 =
 "da/d80/struct_output_gen_intf_1_1start_parameter_type.html#a685d7816bcd26c476a48e03edaa18835":[8,0,11,141,0],
 "da/d86/struct_output_gen_intf_1_1write_logo.html":[9,0,5,160],
 "da/d86/struct_output_gen_intf_1_1write_logo.html":[8,0,11,160],
-"da/d86/struct_output_gen_intf_1_1write_logo.html#a51eab882b80317c79fcd7bf7e5caadd1":[8,0,11,160,0],
 "da/d86/struct_output_gen_intf_1_1write_logo.html#a51eab882b80317c79fcd7bf7e5caadd1":[9,0,5,160,0],
+"da/d86/struct_output_gen_intf_1_1write_logo.html#a51eab882b80317c79fcd7bf7e5caadd1":[8,0,11,160,0],
 "da/d8d/class_class_list_context.html":[9,0,49],
 "da/d8d/class_class_list_context.html#a1cf54af51736f7d4279e3c14bcd05209":[9,0,49,7],
 "da/d8d/class_class_list_context.html#a228ba7f21a25b4074f3319e6ffced660":[9,0,49,1],
@@ -234,8 +233,8 @@ var NAVTREEINDEX79 =
 "da/da3/class_dir_iterator.html#abb4720f72b574f81dc4f7aea0e653a64":[9,0,116,16],
 "da/da3/class_dir_iterator.html#acde2fab844e4f384c5d715f06f0835f4":[9,0,116,17],
 "da/da3/class_dir_iterator.html#ad11200453a8ff0bf95cbaedb50dff510":[9,0,116,3],
-"da/daa/struct_output_gen_intf_1_1end_typewriter.html":[9,0,5,74],
 "da/daa/struct_output_gen_intf_1_1end_typewriter.html":[8,0,11,74],
+"da/daa/struct_output_gen_intf_1_1end_typewriter.html":[9,0,5,74],
 "da/daa/struct_output_gen_intf_1_1end_typewriter.html#a167d1a0fe6562b1064bf6c14915deb1d":[8,0,11,74,0],
 "da/daa/struct_output_gen_intf_1_1end_typewriter.html#a167d1a0fe6562b1064bf6c14915deb1d":[9,0,5,74,0],
 "da/db0/htmldocvisitor_8cpp.html":[10,0,2,137],
@@ -249,5 +248,6 @@ var NAVTREEINDEX79 =
 "da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa548e17365cc6c28ebd7c8b5aa9a643e8":[10,0,2,137,0,1],
 "da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa5f6e7990c2bea9353455ec443df10e87":[10,0,2,137,0,7],
 "da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa6a8ac109cae56df2895ef4358cf16e96":[10,0,2,137,0,2],
-"da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa84a574e566d2b3e6ef6ba2c1f2b8fd41":[10,0,2,137,0,4]
+"da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaa84a574e566d2b3e6ef6ba2c1f2b8fd41":[10,0,2,137,0,4],
+"da/db0/htmldocvisitor_8cpp.html#a4e6b0f73c140aef7a763d17e638acffaaa59aad91565c3b6964c2ed774e8498db":[10,0,2,137,0,3]
 };
