@@ -4,6 +4,7 @@ var latexgen_8cpp =
     [ "convertToLaTeX", "d4/d42/latexgen_8cpp.html#a5261de94ef3b325400ae7b7a0f71630a", null ],
     [ "extraLatexStyleSheet", "d4/d42/latexgen_8cpp.html#a94fbb614f459de73cf139b286f1f1ce1", null ],
     [ "filterLatexString", "d4/d42/latexgen_8cpp.html#a96afd525d79a1a43fbaabae3483b2e6b", null ],
+    [ "latex_batchmode", "d4/d42/latexgen_8cpp.html#a2c5ac0c5ff17ed2c7c433703a0c66fda", null ],
     [ "latexEscapeIndexChars", "d4/d42/latexgen_8cpp.html#ad32126ac958c2ac22491a47f6957935c", null ],
     [ "latexEscapeLabelName", "d4/d42/latexgen_8cpp.html#afd297d2d96747033593750c401bfe95e", null ],
     [ "latexEscapePDFString", "d4/d42/latexgen_8cpp.html#a37bf597b522fe84aefa564de5b8489c2", null ],
