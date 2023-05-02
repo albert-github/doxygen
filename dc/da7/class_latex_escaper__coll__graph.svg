@@ -14,7 +14,7 @@
 .edge:hover path { stroke: red; }
 .edge:hover polygon { stroke: red; fill: red; }
 ]]></style>
-<script xlink:href="../../svg.min.js"/>
+<script xlink:type="simple" xlink:href="../../svg.min.js"/>
 <svg id="graph" class="graph">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 78)">
 <title>LatexEscaper</title>
@@ -47,6 +47,7 @@
 </g>
 </g>
 </svg>
+</svg>
 
 <style type='text/css'>
 <![CDATA[
@@ -54,7 +55,7 @@
 [data-mouse-over-selected='true']  { opacity: 1.0; }
 ]]>
 </style>
-<script><![CDATA[
+<script xlink:type="simple"><![CDATA[
 document.addEventListener('DOMContentLoaded', (event) => {
   highlightEdges();
   highlightAdjacentNodes();

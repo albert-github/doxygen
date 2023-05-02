@@ -46,7 +46,6 @@ var doxygen_8cpp =
     [ "buildPageList", "dc/d98/doxygen_8cpp.html#acbba640854380aad154effc800d8b63d", null ],
     [ "buildScopeFromQualifiedName", "dc/d98/doxygen_8cpp.html#acc3d9699d44f100227430700d7c62a68", null ],
     [ "checkConfiguration", "dc/d98/doxygen_8cpp.html#a2426bb829c785229969c3052f3e37fb1", null ],
-    [ "checkMarkdownMainfile", "dc/d98/doxygen_8cpp.html#aefbbb766c678a158e56f49d59a20d8cd", null ],
     [ "checkPageRelations", "dc/d98/doxygen_8cpp.html#ab8f6cdb1a0374f49399a31bd2ea0226a", null ],
     [ "cleanUpDoxygen", "dc/d98/doxygen_8cpp.html#ae12e94f5218f3afc8df4086a2121cd4d", null ],
     [ "clearAll", "dc/d98/doxygen_8cpp.html#a798729dca95209ecdc609807a653a2bf", null ],

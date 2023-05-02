@@ -32,12 +32,12 @@
     <use xlink:href="#rim2" fill="#404040"><set attributeName="fill" to="#808080" begin="reset.mouseover" end="reset.mouseout"/></use>
  </g>
 </defs>
-<script type="text/javascript">
+<script xlink:type="simple">
 var viewWidth = 1279;
 var viewHeight = 440;
 var sectionId = 'dynsection-1';
 </script>
-<script xlink:href="../../svg.min.js"/>
+<script xlink:type="simple" xlink:href="../../svg.min.js"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>DocAnchor</title>
@@ -439,7 +439,7 @@ var sectionId = 'dynsection-1';
 [data-mouse-over-selected='true']  { opacity: 1.0; }
 ]]>
 </style>
-<script><![CDATA[
+<script xlink:type="simple"><![CDATA[
 document.addEventListener('DOMContentLoaded', (event) => {
   highlightEdges();
   highlightAdjacentNodes();
