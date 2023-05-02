@@ -14,7 +14,7 @@
 .edge:hover path { stroke: red; }
 .edge:hover polygon { stroke: red; fill: red; }
 ]]></style>
-<script xlink:type="simple" xlink:href="../../svg.min.js"/>
+<script xlink:href="../../svg.min.js"/>
 <svg id="graph" class="graph">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 156)">
 <title>DirDef::UsedDirLinkedMap</title>
@@ -67,7 +67,6 @@
 </g>
 </g>
 </svg>
-</svg>
 
 <style type='text/css'>
 <![CDATA[
@@ -75,7 +74,7 @@
 [data-mouse-over-selected='true']  { opacity: 1.0; }
 ]]>
 </style>
-<script xlink:type="simple"><![CDATA[
+<script><![CDATA[
 document.addEventListener('DOMContentLoaded', (event) => {
   highlightEdges();
   highlightAdjacentNodes();
