@@ -460,7 +460,7 @@ $(document).ready(function(){initNavTree('d1/d39/doctokenizer_8l_source.html','.
 <div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>DOXYCFG   [A-Z][A-Z_0-9]*</div>
 <div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>MAILADDR  (&quot;mailto:&quot;)?[a-z_A-Z0-9\x80-\xFF.+-]+&quot;@&quot;[a-z_A-Z0-9\x80-\xFf-]+(&quot;.&quot;[a-z_A-Z0-9\x80-\xFf\-]+)+[a-z_A-Z0-9\x80-\xFf\-]+</div>
 <div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>MAILWS    [\t a-z_A-Z0-9\x80-\xFF+-]</div>
-<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>MAILADDR2 {MAILWS}+{BLANK}+(&quot;at&quot;|&quot;AT&quot;|&quot;_at_&quot;|&quot;_AT_&quot;){BLANK}+{MAILWS}+(&quot;dot&quot;|&quot;DOT&quot;|&quot;_dot_&quot;|&quot;_DOT_&quot;){BLANK}+{MAILWS}+</div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>MAILADDR2 {MAILWS}+{BLANK}+(&quot;at&quot;|&quot;AT&quot;|&quot;_at_&quot;|&quot;_AT_&quot;){BLANK}+{MAILWS}+(&quot;dot&quot;|&quot;DOT&quot;|&quot;_dot_&quot;|&quot;_DOT_&quot;|&quot;point&quot;|&quot;POINT&quot;|&quot;_point_&quot;|&quot;_POINT_&quot;){BLANK}+{MAILWS}+</div>
 <div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>OPTSTARS  (&quot;/&quot;&quot;/&quot;{BLANK}*)?&quot;*&quot;*{BLANK}*</div>
 <div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>LISTITEM  {BLANK}*[-](&quot;#&quot;)?{WS}</div>
 <div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>MLISTITEM {BLANK}*[+*]{WS}</div>
