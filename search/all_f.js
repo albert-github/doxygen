@@ -85,7 +85,7 @@ var searchData=
   ['newline_82',['newLine',['../dd/d00/fortranscanner_8l.html#a146a464d8664e6fe5cd764e866726ac1',1,'fortranscanner.l']]],
   ['newname_83',['newName',['../df/d20/structemoji_entity_compatibility.html#ad3297d34d3f0f31c4db74475be6ce108',1,'emojiEntityCompatibility']]],
   ['newparagraph_84',['newParagraph',['../d0/da4/class_r_t_f_generator.html#a19bbf6e08804ee457c7aa9e07b833ba0',1,'RTFGenerator::newParagraph()'],['../de/da5/class_man_generator.html#a0242c97cf62889e69e74196b9567e7d0',1,'ManGenerator::newParagraph()']]],
-  ['newresolvetypedef_85',['newResolveTypedef',['../d9/dc5/struct_symbol_resolver_1_1_private.html#a0156c26365a13a5ad6c5ad5ffc2d8f47',1,'SymbolResolver::Private']]],
+  ['newresolvetypedef_85',['newResolveTypedef',['../d9/dc5/struct_symbol_resolver_1_1_private.html#a6a5ee7d0d290953e42c9fb1a31138931',1,'SymbolResolver::Private']]],
   ['newstate_86',['newState',['../d5/dd5/struct_config_file_state.html#a219e8266c897bd4c52c76e0adc04a900',1,'ConfigFileState']]],
   ['newtoken_87',['newToken',['../dc/de7/classvhdl_1_1parser_1_1_token.html#a7e0f91605566a8b2862a8fd0f8726c93',1,'vhdl::parser::Token::newToken(int ofKind)'],['../dc/de7/classvhdl_1_1parser_1_1_token.html#a6d01fa6f4dff4a18568da6b789662f94',1,'vhdl::parser::Token::newToken(int ofKind, const JJString &amp;image)']]],
   ['newvariable_88',['newVariable',['../de/d2b/pyscanner_8l.html#a851aa07f7276b7e8f4b12d2592d2eb39',1,'pyscanner.l']]],

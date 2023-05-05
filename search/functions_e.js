@@ -40,7 +40,7 @@ var searchData=
   ['newid_37',['newId',['../df/dc8/class_output_list.html#a67839ba61ba53161ae6c0ff75029e6ab',1,'OutputList']]],
   ['newline_38',['newLine',['../dd/d00/fortranscanner_8l.html#a146a464d8664e6fe5cd764e866726ac1',1,'fortranscanner.l']]],
   ['newparagraph_39',['newParagraph',['../de/da5/class_man_generator.html#a0242c97cf62889e69e74196b9567e7d0',1,'ManGenerator::newParagraph()'],['../d0/da4/class_r_t_f_generator.html#a19bbf6e08804ee457c7aa9e07b833ba0',1,'RTFGenerator::newParagraph()']]],
-  ['newresolvetypedef_40',['newResolveTypedef',['../d9/dc5/struct_symbol_resolver_1_1_private.html#a0156c26365a13a5ad6c5ad5ffc2d8f47',1,'SymbolResolver::Private']]],
+  ['newresolvetypedef_40',['newResolveTypedef',['../d9/dc5/struct_symbol_resolver_1_1_private.html#a6a5ee7d0d290953e42c9fb1a31138931',1,'SymbolResolver::Private']]],
   ['newtoken_41',['newToken',['../dc/de7/classvhdl_1_1parser_1_1_token.html#a7e0f91605566a8b2862a8fd0f8726c93',1,'vhdl::parser::Token::newToken(int ofKind)'],['../dc/de7/classvhdl_1_1parser_1_1_token.html#a6d01fa6f4dff4a18568da6b789662f94',1,'vhdl::parser::Token::newToken(int ofKind, const JJString &amp;image)']]],
   ['newvariable_42',['newVariable',['../de/d2b/pyscanner_8l.html#a851aa07f7276b7e8f4b12d2592d2eb39',1,'pyscanner.l']]],
   ['next_5fstatement_43',['next_statement',['../de/d32/classvhdl_1_1parser_1_1_vhdl_parser.html#ac3c71751708f6d62299def344269e3b1',1,'vhdl::parser::VhdlParser']]],
