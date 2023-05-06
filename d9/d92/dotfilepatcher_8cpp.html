@@ -179,31 +179,31 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00530">530</a> of file <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html">dotfilepatcher.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  531</span>{</div>
-<div class="line"><span class="lineno">  532</span>  <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="line"><span class="lineno">  533</span>  std::ifstream f = <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a0579eaf8c245a77f1e804a3cf1b0aa73">Portable::openInputStream</a>(fileName);</div>
-<div class="line"><span class="lineno">  534</span>  <span class="keywordflow">if</span> (!f.is_open())</div>
-<div class="line"><span class="lineno">  535</span>  {</div>
-<div class="line"><span class="lineno">  536</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  537</span>  }</div>
-<div class="line"><span class="lineno">  538</span>  std::string line;</div>
-<div class="line"><span class="lineno">  539</span>  <span class="keywordflow">while</span> (getline(f,line) &amp;&amp; !<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>)</div>
-<div class="line"><span class="lineno">  540</span>  {</div>
-<div class="line"><span class="lineno">  541</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a19faae287d13ccea75b1d5a0eb110d97">qstrncmp</a>(line.c_str(),<span class="stringliteral">&quot;&lt;!--zoomable &quot;</span>,13)==0)</div>
-<div class="line"><span class="lineno">  542</span>    {</div>
-<div class="line"><span class="lineno">  543</span>      *width=-1;</div>
-<div class="line"><span class="lineno">  544</span>      *height=-1;</div>
-<div class="line"><span class="lineno">  545</span>      sscanf(line.c_str(),<span class="stringliteral">&quot;&lt;!--zoomable %d&quot;</span>,height);</div>
-<div class="line"><span class="lineno">  546</span>      <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>=<span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  547</span>    }</div>
-<div class="line"><span class="lineno">  548</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (sscanf(line.c_str(),<span class="stringliteral">&quot;&lt;svg width=\&quot;%dpt\&quot; height=\&quot;%dpt\&quot;&quot;</span>,width,height)==2)</div>
+<p class="definition">Definition at line <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00537">537</a> of file <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html">dotfilepatcher.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  538</span>{</div>
+<div class="line"><span class="lineno">  539</span>  <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
+<div class="line"><span class="lineno">  540</span>  std::ifstream f = <a class="code hl_function" href="../../d7/d6f/namespace_portable.html#a0579eaf8c245a77f1e804a3cf1b0aa73">Portable::openInputStream</a>(fileName);</div>
+<div class="line"><span class="lineno">  541</span>  <span class="keywordflow">if</span> (!f.is_open())</div>
+<div class="line"><span class="lineno">  542</span>  {</div>
+<div class="line"><span class="lineno">  543</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  544</span>  }</div>
+<div class="line"><span class="lineno">  545</span>  std::string line;</div>
+<div class="line"><span class="lineno">  546</span>  <span class="keywordflow">while</span> (getline(f,line) &amp;&amp; !<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>)</div>
+<div class="line"><span class="lineno">  547</span>  {</div>
+<div class="line"><span class="lineno">  548</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d7/d5c/qcstring_8h.html#a19faae287d13ccea75b1d5a0eb110d97">qstrncmp</a>(line.c_str(),<span class="stringliteral">&quot;&lt;!--zoomable &quot;</span>,13)==0)</div>
 <div class="line"><span class="lineno">  549</span>    {</div>
-<div class="line"><span class="lineno">  550</span>      <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>=<span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  551</span>    }</div>
-<div class="line"><span class="lineno">  552</span>  }</div>
-<div class="line"><span class="lineno">  553</span>  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  554</span>}</div>
+<div class="line"><span class="lineno">  550</span>      *width=-1;</div>
+<div class="line"><span class="lineno">  551</span>      *height=-1;</div>
+<div class="line"><span class="lineno">  552</span>      sscanf(line.c_str(),<span class="stringliteral">&quot;&lt;!--zoomable %d&quot;</span>,height);</div>
+<div class="line"><span class="lineno">  553</span>      <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>=<span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  554</span>    }</div>
+<div class="line"><span class="lineno">  555</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (sscanf(line.c_str(),<span class="stringliteral">&quot;&lt;svg width=\&quot;%dpt\&quot; height=\&quot;%dpt\&quot;&quot;</span>,width,height)==2)</div>
+<div class="line"><span class="lineno">  556</span>    {</div>
+<div class="line"><span class="lineno">  557</span>      <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>=<span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  558</span>    }</div>
+<div class="line"><span class="lineno">  559</span>  }</div>
+<div class="line"><span class="lineno">  560</span>  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  561</span>}</div>
 <div class="ttc" id="anamespace_portable_html_a0579eaf8c245a77f1e804a3cf1b0aa73"><div class="ttname"><a href="../../d7/d6f/namespace_portable.html#a0579eaf8c245a77f1e804a3cf1b0aa73">Portable::openInputStream</a></div><div class="ttdeci">std::ifstream openInputStream(const QCString &amp;name, bool binary=false, bool openAtEnd=false)</div><div class="ttdef"><b>Definition</b> <a href="../../d0/d1c/portable_8cpp_source.html#l00659">portable.cpp:659</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_a19faae287d13ccea75b1d5a0eb110d97"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#a19faae287d13ccea75b1d5a0eb110d97">qstrncmp</a></div><div class="ttdeci">int qstrncmp(const char *str1, const char *str2, size_t len)</div><div class="ttdef"><b>Definition</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00078">qcstring.h:78</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_aa93f0eb578d23995850d61f7d61c55c1"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></div><div class="ttdeci">#define FALSE</div><div class="ttdef"><b>Definition</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00033">qcstring.h:33</a></div></div>
@@ -211,7 +211,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l00962">found</a>, <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00659">Portable::openInputStream()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00078">qstrncmp()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00563">DotFilePatcher::writeSVGFigureLink()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00570">DotFilePatcher::writeSVGFigureLink()</a>.</p>
 
 </div>
 </div>
@@ -267,89 +267,89 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00116">116</a> of file <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html">dotfilepatcher.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  118</span>{</div>
-<div class="line"><span class="lineno">  119</span>  <span class="comment">// search for href=&quot;...&quot;, store ... part in link</span></div>
-<div class="line"><span class="lineno">  120</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> href = <span class="stringliteral">&quot;href&quot;</span>;</div>
-<div class="line"><span class="lineno">  121</span>  <span class="comment">//bool isXLink=FALSE;</span></div>
-<div class="line"><span class="lineno">  122</span>  <span class="keywordtype">int</span> len = 6;</div>
-<div class="line"><span class="lineno">  123</span>  <span class="keywordtype">int</span> indexS = buf.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0182ece6b76dad6475dafb53e2faaf10">find</a>(<span class="stringliteral">&quot;href=\&quot;&quot;</span>), indexE;</div>
-<div class="line"><span class="lineno">  124</span>  <span class="keywordtype">bool</span> targetAlreadySet = buf.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0182ece6b76dad6475dafb53e2faaf10">find</a>(<span class="stringliteral">&quot;target=&quot;</span>)!=-1;</div>
-<div class="line"><span class="lineno">  125</span>  <span class="keywordflow">if</span> (indexS&gt;5 &amp;&amp; buf.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0182ece6b76dad6475dafb53e2faaf10">find</a>(<span class="stringliteral">&quot;xlink:href=\&quot;&quot;</span>)!=-1) <span class="comment">// XLink href (for SVG)</span></div>
-<div class="line"><span class="lineno">  126</span>  {</div>
-<div class="line"><span class="lineno">  127</span>    indexS-=6;</div>
-<div class="line"><span class="lineno">  128</span>    len+=6;</div>
-<div class="line"><span class="lineno">  129</span>    href.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0a6a8fe99e596b149ee15138fa8dcf0c">prepend</a>(<span class="stringliteral">&quot;xlink:&quot;</span>);</div>
-<div class="line"><span class="lineno">  130</span>    <span class="comment">//isXLink=TRUE;</span></div>
-<div class="line"><span class="lineno">  131</span>  }</div>
-<div class="line"><span class="lineno">  132</span>  <span class="keywordflow">if</span> (indexS&gt;=0 &amp;&amp; (indexE=buf.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0182ece6b76dad6475dafb53e2faaf10">find</a>(<span class="charliteral">&#39;&quot;&#39;</span>,indexS+len))!=-1)</div>
+<p class="definition">Definition at line <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00123">123</a> of file <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html">dotfilepatcher.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  125</span>{</div>
+<div class="line"><span class="lineno">  126</span>  <span class="comment">// search for href=&quot;...&quot;, store ... part in link</span></div>
+<div class="line"><span class="lineno">  127</span>  <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> href = <span class="stringliteral">&quot;href&quot;</span>;</div>
+<div class="line"><span class="lineno">  128</span>  <span class="comment">//bool isXLink=FALSE;</span></div>
+<div class="line"><span class="lineno">  129</span>  <span class="keywordtype">int</span> len = 6;</div>
+<div class="line"><span class="lineno">  130</span>  <span class="keywordtype">int</span> indexS = buf.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0182ece6b76dad6475dafb53e2faaf10">find</a>(<span class="stringliteral">&quot;href=\&quot;&quot;</span>), indexE;</div>
+<div class="line"><span class="lineno">  131</span>  <span class="keywordtype">bool</span> targetAlreadySet = buf.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0182ece6b76dad6475dafb53e2faaf10">find</a>(<span class="stringliteral">&quot;target=&quot;</span>)!=-1;</div>
+<div class="line"><span class="lineno">  132</span>  <span class="keywordflow">if</span> (indexS&gt;5 &amp;&amp; buf.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0182ece6b76dad6475dafb53e2faaf10">find</a>(<span class="stringliteral">&quot;xlink:href=\&quot;&quot;</span>)!=-1) <span class="comment">// XLink href (for SVG)</span></div>
 <div class="line"><span class="lineno">  133</span>  {</div>
-<div class="line"><span class="lineno">  134</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> link = buf.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(indexS+len,indexE-indexS-len);</div>
-<div class="line"><span class="lineno">  135</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> result;</div>
-<div class="line"><span class="lineno">  136</span>    <span class="keywordflow">if</span> (urlOnly) <span class="comment">// for user defined dot graphs</span></div>
-<div class="line"><span class="lineno">  137</span>    {</div>
-<div class="line"><span class="lineno">  138</span>      <span class="keywordflow">if</span> (link.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a1f43c0a4958cf17f086dc0e3a4b13a68">startsWith</a>(<span class="stringliteral">&quot;\\ref &quot;</span>) || link.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a1f43c0a4958cf17f086dc0e3a4b13a68">startsWith</a>(<span class="stringliteral">&quot;@ref &quot;</span>)) <span class="comment">// \ref url</span></div>
-<div class="line"><span class="lineno">  139</span>      {</div>
-<div class="line"><span class="lineno">  140</span>        result=href+<span class="stringliteral">&quot;=\&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno">  141</span>        <span class="comment">// fake ref node to resolve the url</span></div>
-<div class="line"><span class="lineno">  142</span>        <span class="keyword">auto</span> parser { <a class="code hl_function" href="../../da/d17/docparser_8cpp.html#a7a169cbf0edeed85c90868675799b875">createDocParser</a>() };</div>
-<div class="line"><span class="lineno">  143</span>        <span class="keyword">auto</span> dfAst  { <a class="code hl_function" href="../../da/d17/docparser_8cpp.html#ae574ca326adc7355e1e2fcba2515a35e">createRef</a>( *parser.get(), link.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(5), context ) };</div>
-<div class="line"><span class="lineno">  144</span>        <span class="keyword">auto</span> dfAstImpl = <span class="keyword">dynamic_cast&lt;</span><span class="keyword">const </span><a class="code hl_class" href="../../db/d98/class_doc_node_a_s_t.html">DocNodeAST</a>*<span class="keyword">&gt;</span>(dfAst.get());</div>
-<div class="line"><span class="lineno">  145</span>        <span class="keyword">const</span> <a class="code hl_class" href="../../d5/d68/class_doc_ref.html">DocRef</a> *df = std::get_if&lt;DocRef&gt;(&amp;dfAstImpl-&gt;root);</div>
-<div class="line"><span class="lineno">  146</span>        result+=<a class="code hl_function" href="../../df/d2d/util_8cpp.html#a06ba0c2593b3fd5f103151bd342e206f">externalRef</a>(relPath,df-&gt;<a class="code hl_function" href="../../d5/d68/class_doc_ref.html#ab1f49243161d41850208e8fde53bd9a5">ref</a>(),<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>);</div>
-<div class="line"><span class="lineno">  147</span>        <span class="keywordflow">if</span> (!df-&gt;<a class="code hl_function" href="../../d5/d68/class_doc_ref.html#a83619a74c9fc8be97545a13521d5a126">file</a>().<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
-<div class="line"><span class="lineno">  148</span>        {</div>
-<div class="line"><span class="lineno">  149</span>          <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> fn = df-&gt;<a class="code hl_function" href="../../d5/d68/class_doc_ref.html#a83619a74c9fc8be97545a13521d5a126">file</a>();</div>
-<div class="line"><span class="lineno">  150</span>          <a class="code hl_function" href="../../df/d2d/util_8cpp.html#afeb116177e3265cffe5a3b810461194f">addHtmlExtensionIfMissing</a>(fn);</div>
-<div class="line"><span class="lineno">  151</span>          result += fn;</div>
-<div class="line"><span class="lineno">  152</span>        }</div>
-<div class="line"><span class="lineno">  153</span>        <span class="keywordflow">if</span> (!df-&gt;<a class="code hl_function" href="../../d5/d68/class_doc_ref.html#a020050a7e2b6bd6438db4835b5d7130a">anchor</a>().<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
-<div class="line"><span class="lineno">  154</span>        {</div>
-<div class="line"><span class="lineno">  155</span>          result += <span class="stringliteral">&quot;#&quot;</span> + df-&gt;<a class="code hl_function" href="../../d5/d68/class_doc_ref.html#a020050a7e2b6bd6438db4835b5d7130a">anchor</a>();</div>
-<div class="line"><span class="lineno">  156</span>        }</div>
-<div class="line"><span class="lineno">  157</span>        result += <span class="stringliteral">&quot;\&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno">  158</span>      }</div>
-<div class="line"><span class="lineno">  159</span>      <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  160</span>      {</div>
-<div class="line"><span class="lineno">  161</span>        result = href+<span class="stringliteral">&quot;=\&quot;&quot;</span> + link + <span class="stringliteral">&quot;\&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno">  162</span>      }</div>
-<div class="line"><span class="lineno">  163</span>    }</div>
-<div class="line"><span class="lineno">  164</span>    <span class="keywordflow">else</span> <span class="comment">// ref$url (external ref via tag file), or $url (local ref)</span></div>
-<div class="line"><span class="lineno">  165</span>    {</div>
-<div class="line"><span class="lineno">  166</span>      <span class="keywordtype">int</span> marker = link.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0182ece6b76dad6475dafb53e2faaf10">find</a>(<span class="charliteral">&#39;$&#39;</span>);</div>
-<div class="line"><span class="lineno">  167</span>      <span class="keywordflow">if</span> (marker!=-1)</div>
-<div class="line"><span class="lineno">  168</span>      {</div>
-<div class="line"><span class="lineno">  169</span>        <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> ref = link.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">left</a>(marker);</div>
-<div class="line"><span class="lineno">  170</span>        <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> url = link.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(marker+1);</div>
-<div class="line"><span class="lineno">  171</span>        <span class="keywordflow">if</span> (!ref.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
-<div class="line"><span class="lineno">  172</span>        {</div>
-<div class="line"><span class="lineno">  173</span>          result = <a class="code hl_function" href="../../df/d2d/util_8cpp.html#ad3f3c94bc6e432d34fa1a51db3b7d5e2">externalLinkTarget</a>(<span class="keyword">true</span>);</div>
-<div class="line"><span class="lineno">  174</span>          <span class="keywordflow">if</span> (!result.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())targetAlreadySet=<span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  175</span>        }</div>
-<div class="line"><span class="lineno">  176</span>        result+= href+<span class="stringliteral">&quot;=\&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno">  177</span>        result+=<a class="code hl_function" href="../../df/d2d/util_8cpp.html#a06ba0c2593b3fd5f103151bd342e206f">externalRef</a>(relPath,ref,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>);</div>
-<div class="line"><span class="lineno">  178</span>        result+= url + <span class="stringliteral">&quot;\&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno">  179</span>      }</div>
-<div class="line"><span class="lineno">  180</span>      <span class="keywordflow">else</span> <span class="comment">// should not happen, but handle properly anyway</span></div>
-<div class="line"><span class="lineno">  181</span>      {</div>
-<div class="line"><span class="lineno">  182</span>        result = href+<span class="stringliteral">&quot;=\&quot;&quot;</span> + link + <span class="stringliteral">&quot;\&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno">  183</span>      }</div>
-<div class="line"><span class="lineno">  184</span>    }</div>
-<div class="line"><span class="lineno">  185</span>    <span class="keywordflow">if</span> (!target.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>() &amp;&amp; !targetAlreadySet)</div>
-<div class="line"><span class="lineno">  186</span>    {</div>
-<div class="line"><span class="lineno">  187</span>      result+=<span class="stringliteral">&quot; target=\&quot;&quot;</span>+target+<span class="stringliteral">&quot;\&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno">  188</span>    }</div>
-<div class="line"><span class="lineno">  189</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> leftPart = buf.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">left</a>(indexS);</div>
-<div class="line"><span class="lineno">  190</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> rightPart = buf.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(indexE+1);</div>
-<div class="line"><span class="lineno">  191</span>    <span class="comment">//printf(&quot;replaceRef(\n&#39;%s&#39;\n)-&gt;\n&#39;%s+%s+%s&#39;\n&quot;,</span></div>
-<div class="line"><span class="lineno">  192</span>    <span class="comment">//    qPrint(buf),qPrint(leftPart),qPrint(result),qPrint(rightPart));</span></div>
-<div class="line"><span class="lineno">  193</span>    <span class="keywordflow">return</span> leftPart + result + rightPart;</div>
-<div class="line"><span class="lineno">  194</span>  }</div>
-<div class="line"><span class="lineno">  195</span>  <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  196</span>  {</div>
-<div class="line"><span class="lineno">  197</span>    <span class="keywordflow">return</span> buf;</div>
-<div class="line"><span class="lineno">  198</span>  }</div>
-<div class="line"><span class="lineno">  199</span>}</div>
+<div class="line"><span class="lineno">  134</span>    indexS-=6;</div>
+<div class="line"><span class="lineno">  135</span>    len+=6;</div>
+<div class="line"><span class="lineno">  136</span>    href.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0a6a8fe99e596b149ee15138fa8dcf0c">prepend</a>(<span class="stringliteral">&quot;xlink:&quot;</span>);</div>
+<div class="line"><span class="lineno">  137</span>    <span class="comment">//isXLink=TRUE;</span></div>
+<div class="line"><span class="lineno">  138</span>  }</div>
+<div class="line"><span class="lineno">  139</span>  <span class="keywordflow">if</span> (indexS&gt;=0 &amp;&amp; (indexE=buf.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0182ece6b76dad6475dafb53e2faaf10">find</a>(<span class="charliteral">&#39;&quot;&#39;</span>,indexS+len))!=-1)</div>
+<div class="line"><span class="lineno">  140</span>  {</div>
+<div class="line"><span class="lineno">  141</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> link = buf.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(indexS+len,indexE-indexS-len);</div>
+<div class="line"><span class="lineno">  142</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> result;</div>
+<div class="line"><span class="lineno">  143</span>    <span class="keywordflow">if</span> (urlOnly) <span class="comment">// for user defined dot graphs</span></div>
+<div class="line"><span class="lineno">  144</span>    {</div>
+<div class="line"><span class="lineno">  145</span>      <span class="keywordflow">if</span> (link.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a1f43c0a4958cf17f086dc0e3a4b13a68">startsWith</a>(<span class="stringliteral">&quot;\\ref &quot;</span>) || link.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a1f43c0a4958cf17f086dc0e3a4b13a68">startsWith</a>(<span class="stringliteral">&quot;@ref &quot;</span>)) <span class="comment">// \ref url</span></div>
+<div class="line"><span class="lineno">  146</span>      {</div>
+<div class="line"><span class="lineno">  147</span>        result=href+<span class="stringliteral">&quot;=\&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno">  148</span>        <span class="comment">// fake ref node to resolve the url</span></div>
+<div class="line"><span class="lineno">  149</span>        <span class="keyword">auto</span> parser { <a class="code hl_function" href="../../da/d17/docparser_8cpp.html#a7a169cbf0edeed85c90868675799b875">createDocParser</a>() };</div>
+<div class="line"><span class="lineno">  150</span>        <span class="keyword">auto</span> dfAst  { <a class="code hl_function" href="../../da/d17/docparser_8cpp.html#ae574ca326adc7355e1e2fcba2515a35e">createRef</a>( *parser.get(), link.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(5), context ) };</div>
+<div class="line"><span class="lineno">  151</span>        <span class="keyword">auto</span> dfAstImpl = <span class="keyword">dynamic_cast&lt;</span><span class="keyword">const </span><a class="code hl_class" href="../../db/d98/class_doc_node_a_s_t.html">DocNodeAST</a>*<span class="keyword">&gt;</span>(dfAst.get());</div>
+<div class="line"><span class="lineno">  152</span>        <span class="keyword">const</span> <a class="code hl_class" href="../../d5/d68/class_doc_ref.html">DocRef</a> *df = std::get_if&lt;DocRef&gt;(&amp;dfAstImpl-&gt;root);</div>
+<div class="line"><span class="lineno">  153</span>        result+=<a class="code hl_function" href="../../df/d2d/util_8cpp.html#a06ba0c2593b3fd5f103151bd342e206f">externalRef</a>(relPath,df-&gt;<a class="code hl_function" href="../../d5/d68/class_doc_ref.html#ab1f49243161d41850208e8fde53bd9a5">ref</a>(),<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>);</div>
+<div class="line"><span class="lineno">  154</span>        <span class="keywordflow">if</span> (!df-&gt;<a class="code hl_function" href="../../d5/d68/class_doc_ref.html#a83619a74c9fc8be97545a13521d5a126">file</a>().<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
+<div class="line"><span class="lineno">  155</span>        {</div>
+<div class="line"><span class="lineno">  156</span>          <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> fn = df-&gt;<a class="code hl_function" href="../../d5/d68/class_doc_ref.html#a83619a74c9fc8be97545a13521d5a126">file</a>();</div>
+<div class="line"><span class="lineno">  157</span>          <a class="code hl_function" href="../../df/d2d/util_8cpp.html#afeb116177e3265cffe5a3b810461194f">addHtmlExtensionIfMissing</a>(fn);</div>
+<div class="line"><span class="lineno">  158</span>          result += fn;</div>
+<div class="line"><span class="lineno">  159</span>        }</div>
+<div class="line"><span class="lineno">  160</span>        <span class="keywordflow">if</span> (!df-&gt;<a class="code hl_function" href="../../d5/d68/class_doc_ref.html#a020050a7e2b6bd6438db4835b5d7130a">anchor</a>().<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
+<div class="line"><span class="lineno">  161</span>        {</div>
+<div class="line"><span class="lineno">  162</span>          result += <span class="stringliteral">&quot;#&quot;</span> + df-&gt;<a class="code hl_function" href="../../d5/d68/class_doc_ref.html#a020050a7e2b6bd6438db4835b5d7130a">anchor</a>();</div>
+<div class="line"><span class="lineno">  163</span>        }</div>
+<div class="line"><span class="lineno">  164</span>        result += <span class="stringliteral">&quot;\&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno">  165</span>      }</div>
+<div class="line"><span class="lineno">  166</span>      <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  167</span>      {</div>
+<div class="line"><span class="lineno">  168</span>        result = href+<span class="stringliteral">&quot;=\&quot;&quot;</span> + link + <span class="stringliteral">&quot;\&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno">  169</span>      }</div>
+<div class="line"><span class="lineno">  170</span>    }</div>
+<div class="line"><span class="lineno">  171</span>    <span class="keywordflow">else</span> <span class="comment">// ref$url (external ref via tag file), or $url (local ref)</span></div>
+<div class="line"><span class="lineno">  172</span>    {</div>
+<div class="line"><span class="lineno">  173</span>      <span class="keywordtype">int</span> marker = link.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a0182ece6b76dad6475dafb53e2faaf10">find</a>(<span class="charliteral">&#39;$&#39;</span>);</div>
+<div class="line"><span class="lineno">  174</span>      <span class="keywordflow">if</span> (marker!=-1)</div>
+<div class="line"><span class="lineno">  175</span>      {</div>
+<div class="line"><span class="lineno">  176</span>        <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> ref = link.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">left</a>(marker);</div>
+<div class="line"><span class="lineno">  177</span>        <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> url = link.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(marker+1);</div>
+<div class="line"><span class="lineno">  178</span>        <span class="keywordflow">if</span> (!ref.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())</div>
+<div class="line"><span class="lineno">  179</span>        {</div>
+<div class="line"><span class="lineno">  180</span>          result = <a class="code hl_function" href="../../df/d2d/util_8cpp.html#ad3f3c94bc6e432d34fa1a51db3b7d5e2">externalLinkTarget</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  181</span>          <span class="keywordflow">if</span> (!result.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>())targetAlreadySet=<span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  182</span>        }</div>
+<div class="line"><span class="lineno">  183</span>        result+= href+<span class="stringliteral">&quot;=\&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno">  184</span>        result+=<a class="code hl_function" href="../../df/d2d/util_8cpp.html#a06ba0c2593b3fd5f103151bd342e206f">externalRef</a>(relPath,ref,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>);</div>
+<div class="line"><span class="lineno">  185</span>        result+= url + <span class="stringliteral">&quot;\&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno">  186</span>      }</div>
+<div class="line"><span class="lineno">  187</span>      <span class="keywordflow">else</span> <span class="comment">// should not happen, but handle properly anyway</span></div>
+<div class="line"><span class="lineno">  188</span>      {</div>
+<div class="line"><span class="lineno">  189</span>        result = href+<span class="stringliteral">&quot;=\&quot;&quot;</span> + link + <span class="stringliteral">&quot;\&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno">  190</span>      }</div>
+<div class="line"><span class="lineno">  191</span>    }</div>
+<div class="line"><span class="lineno">  192</span>    <span class="keywordflow">if</span> (!target.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a621c4090d69ad7d05ef8e5234376c3d8">isEmpty</a>() &amp;&amp; !targetAlreadySet)</div>
+<div class="line"><span class="lineno">  193</span>    {</div>
+<div class="line"><span class="lineno">  194</span>      result+=<span class="stringliteral">&quot; target=\&quot;&quot;</span>+target+<span class="stringliteral">&quot;\&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno">  195</span>    }</div>
+<div class="line"><span class="lineno">  196</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> leftPart = buf.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#aecf8b66312c4e97333219cc344c11a4f">left</a>(indexS);</div>
+<div class="line"><span class="lineno">  197</span>    <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> rightPart = buf.<a class="code hl_function" href="../../d9/d45/class_q_c_string.html#a27136caf9c0bc4daca574cda6f113551">mid</a>(indexE+1);</div>
+<div class="line"><span class="lineno">  198</span>    <span class="comment">//printf(&quot;replaceRef(\n&#39;%s&#39;\n)-&gt;\n&#39;%s+%s+%s&#39;\n&quot;,</span></div>
+<div class="line"><span class="lineno">  199</span>    <span class="comment">//    qPrint(buf),qPrint(leftPart),qPrint(result),qPrint(rightPart));</span></div>
+<div class="line"><span class="lineno">  200</span>    <span class="keywordflow">return</span> leftPart + result + rightPart;</div>
+<div class="line"><span class="lineno">  201</span>  }</div>
+<div class="line"><span class="lineno">  202</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  203</span>  {</div>
+<div class="line"><span class="lineno">  204</span>    <span class="keywordflow">return</span> buf;</div>
+<div class="line"><span class="lineno">  205</span>  }</div>
+<div class="line"><span class="lineno">  206</span>}</div>
 <div class="ttc" id="aclass_doc_node_a_s_t_html"><div class="ttname"><a href="../../db/d98/class_doc_node_a_s_t.html">DocNodeAST</a></div><div class="ttdoc">Class representing the abstract syntax tree of a documentation block.</div><div class="ttdef"><b>Definition</b> <a href="../../de/d2b/docnode_8h_source.html#l01410">docnode.h:1411</a></div></div>
 <div class="ttc" id="aclass_doc_ref_html"><div class="ttname"><a href="../../d5/d68/class_doc_ref.html">DocRef</a></div><div class="ttdoc">Node representing a reference to some item.</div><div class="ttdef"><b>Definition</b> <a href="../../de/d2b/docnode_8h_source.html#l00739">docnode.h:740</a></div></div>
 <div class="ttc" id="aclass_doc_ref_html_a020050a7e2b6bd6438db4835b5d7130a"><div class="ttname"><a href="../../d5/d68/class_doc_ref.html#a020050a7e2b6bd6438db4835b5d7130a">DocRef::anchor</a></div><div class="ttdeci">QCString anchor() const</div><div class="ttdef"><b>Definition</b> <a href="../../de/d2b/docnode_8h_source.html#l00747">docnode.h:747</a></div></div>
@@ -371,7 +371,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../df/d2d/util_8cpp_source.html#l04957">addHtmlExtensionIfMissing()</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00747">DocRef::anchor()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l00044">createDocParser()</a>, <a class="el" href="../../da/d17/docparser_8cpp_source.html#l02066">createRef()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l06052">externalLinkTarget()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l06063">externalRef()</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00744">DocRef::file()</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00043">QCString::find()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00131">QCString::isEmpty()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00202">QCString::left()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00214">QCString::mid()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00368">QCString::prepend()</a>, <a class="el" href="../../de/d2b/docnode_8h_source.html#l00746">DocRef::ref()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00449">QCString::startsWith()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00212">DotFilePatcher::convertMapFile()</a>, and <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00298">DotFilePatcher::run()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00219">DotFilePatcher::convertMapFile()</a>, and <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00305">DotFilePatcher::run()</a>.</p>
 
 </div>
 </div>
@@ -399,12 +399,12 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00556">556</a> of file <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html">dotfilepatcher.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  557</span>{</div>
-<div class="line"><span class="lineno">  558</span>  out &lt;&lt; <span class="stringliteral">&quot;&lt;p&gt;&lt;b&gt;This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.&lt;/b&gt;&lt;/p&gt;&quot;</span>;</div>
-<div class="line"><span class="lineno">  559</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00563">563</a> of file <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html">dotfilepatcher.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  564</span>{</div>
+<div class="line"><span class="lineno">  565</span>  out &lt;&lt; <span class="stringliteral">&quot;&lt;p&gt;&lt;b&gt;This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.&lt;/b&gt;&lt;/p&gt;&quot;</span>;</div>
+<div class="line"><span class="lineno">  566</span>}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00563">DotFilePatcher::writeSVGFigureLink()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00570">DotFilePatcher::writeSVGFigureLink()</a>.</p>
 
 </div>
 </div>
@@ -428,33 +428,10 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= R<span class="stringliteral">&quot;svg(</span></div>
-<div class="line"><span class="stringliteral">&lt;g id=&quot;navigator&quot; transform=&quot;translate(0 0)&quot; fill=&quot;#404254&quot;&gt;</span></div>
-<div class="line"><span class="stringliteral">  &lt;rect fill=&quot;#f2f5e9&quot; fill-opacity=&quot;0.5&quot; stroke=&quot;#606060&quot; stroke-width=&quot;.5&quot; x=&quot;0&quot; y=&quot;0&quot; width=&quot;60&quot; height=&quot;60&quot;/&gt;</span></div>
-<div class="line"><span class="stringliteral">  &lt;use id=&quot;zoomplus&quot; xlink:href=&quot;#zoomPlus&quot; x=&quot;17&quot; y=&quot;9&quot; onmousedown=&quot;handleZoom(evt,&#39;in&#39;)&quot;/&gt;</span></div>
-<div class="line"><span class="stringliteral">  &lt;use id=&quot;zoomminus&quot; xlink:href=&quot;#zoomMin&quot; x=&quot;42&quot; y=&quot;9&quot; onmousedown=&quot;handleZoom(evt,&#39;out&#39;)&quot;/&gt;</span></div>
-<div class="line"><span class="stringliteral">  &lt;use id=&quot;reset&quot; xlink:href=&quot;#resetDef&quot; x=&quot;30&quot; y=&quot;36&quot; onmousedown=&quot;handleReset()&quot;/&gt;</span></div>
-<div class="line"><span class="stringliteral">   &lt;use id=&quot;arrowup&quot; xlink:href=&quot;#arrowUp&quot; x=&quot;0&quot; y=&quot;0&quot; onmousedown=&quot;handlePan(0,-1)&quot;/&gt;</span></div>
-<div class="line"><span class="stringliteral">  &lt;use id=&quot;arrowright&quot; xlink:href=&quot;#arrowRight&quot; x=&quot;0&quot; y=&quot;0&quot; onmousedown=&quot;handlePan(1,0)&quot;/&gt;</span></div>
-<div class="line"><span class="stringliteral">  &lt;use id=&quot;arrowdown&quot; xlink:href=&quot;#arrowDown&quot; x=&quot;0&quot; y=&quot;0&quot; onmousedown=&quot;handlePan(0,1)&quot;/&gt;</span></div>
-<div class="line"><span class="stringliteral">  &lt;use id=&quot;arrowleft&quot; xlink:href=&quot;#arrowLeft&quot; x=&quot;0&quot; y=&quot;0&quot; onmousedown=&quot;handlePan(-1,0)&quot;/&gt;</span></div>
-<div class="line"><span class="stringliteral">&lt;/g&gt;</span></div>
-<div class="line"><span class="stringliteral">&lt;svg viewBox=&quot;0 0 15 15&quot; width=&quot;100%&quot; height=&quot;30px&quot; preserveAspectRatio=&quot;xMaxYMin meet&quot;&gt;</span></div>
-<div class="line"><span class="stringliteral"> &lt;g id=&quot;arrow_out&quot; transform=&quot;scale(0.3 0.3)&quot;&gt;</span></div>
-<div class="line"><span class="stringliteral">  &lt;a xlink:href=&quot;$orgname&quot; target=&quot;_base&quot;&gt;</span></div>
-<div class="line"><span class="stringliteral">   &lt;rect id=&quot;button&quot; ry=&quot;5&quot; rx=&quot;5&quot; y=&quot;6&quot; x=&quot;6&quot; height=&quot;38&quot; width=&quot;38&quot;</span></div>
-<div class="line"><span class="stringliteral">        fill=&quot;#f2f5e9&quot; fill-opacity=&quot;0.5&quot; stroke=&quot;#606060&quot; stroke-width=&quot;1.0&quot;/&gt;</span></div>
-<div class="line"><span class="stringliteral">   &lt;path id=&quot;arrow&quot;</span></div>
-<div class="line"><span class="stringliteral">     d=&quot;M 11.500037,31.436501 C 11.940474,20.09759 22.043105,11.32322 32.158766,21.979434 L 37.068811,17.246167 C 37.068811,17.246167 37.088388,32 37.088388,32 L 22.160133,31.978069 C 22.160133,31.978069 26.997745,27.140456 26.997745,27.140456 C 18.528582,18.264221 13.291696,25.230495 11.500037,31.436501 z&quot;</span></div>
-<div class="line"><span class="stringliteral">     style=&quot;fill:#404040;&quot;/&gt;</span></div>
-<div class="line"><span class="stringliteral">  &lt;/a&gt;</span></div>
-<div class="line"><span class="stringliteral"> &lt;/g&gt;</span></div>
-<div class="line"><span class="stringliteral">&lt;/svg&gt;</span></div>
-<div class="line"><span class="stringliteral">)svg&quot;</span></div>
-</div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00075">75</a> of file <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html">dotfilepatcher.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00298">DotFilePatcher::run()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00062">62</a> of file <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html">dotfilepatcher.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00305">DotFilePatcher::run()</a>.</p>
 
 </div>
 </div>
@@ -493,9 +470,9 @@ Variables</h2></td></tr>
 <div class="line"><span class="stringliteral">&lt;/svg&gt;</span></div>
 <div class="line"><span class="stringliteral">)svg&quot;</span></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00100">100</a> of file <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html">dotfilepatcher.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00107">107</a> of file <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html">dotfilepatcher.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00298">DotFilePatcher::run()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00305">DotFilePatcher::run()</a>.</p>
 
 </div>
 </div>
@@ -530,7 +507,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00029">29</a> of file <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html">dotfilepatcher.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00298">DotFilePatcher::run()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00305">DotFilePatcher::run()</a>.</p>
 
 </div>
 </div>
@@ -553,10 +530,30 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<b>Initial value:</b><div class="fragment"><div class="line">= R<span class="stringliteral">&quot;svg(</span></div>
+<div class="line"><span class="stringliteral">&lt;defs&gt;</span></div>
+<div class="line"><span class="stringliteral">  &lt;circle id=&quot;rim&quot; cx=&quot;0&quot; cy=&quot;0&quot; r=&quot;7&quot;/&gt;</span></div>
+<div class="line"><span class="stringliteral">  &lt;circle id=&quot;rim2&quot; cx=&quot;0&quot; cy=&quot;0&quot; r=&quot;3.5&quot;/&gt;</span></div>
+<div class="line"><span class="stringliteral">  &lt;g id=&quot;zoomPlus&quot;&gt;</span></div>
+<div class="line"><span class="stringliteral">    &lt;use xlink:href=&quot;#rim&quot; fill=&quot;#404040&quot;&gt;&lt;set attributeName=&quot;fill&quot; to=&quot;#808080&quot; begin=&quot;zoomplus.mouseover&quot; end=&quot;zoomplus.mouseout&quot;/&gt;&lt;/use&gt;</span></div>
+<div class="line"><span class="stringliteral">    &lt;path d=&quot;M-4,0h8M0,-4v8&quot; fill=&quot;none&quot; stroke=&quot;white&quot; stroke-width=&quot;1.5&quot; pointer-events=&quot;none&quot;/&gt;</span></div>
+<div class="line"><span class="stringliteral">  &lt;/g&gt;</span></div>
+<div class="line"><span class="stringliteral">  &lt;g id=&quot;zoomMin&quot;&gt;</span></div>
+<div class="line"><span class="stringliteral">    &lt;use xlink:href=&quot;#rim&quot; fill=&quot;#404040&quot;&gt;&lt;set attributeName=&quot;fill&quot; to=&quot;#808080&quot; begin=&quot;zoomminus.mouseover&quot; end=&quot;zoomminus.mouseout&quot;/&gt;&lt;/use&gt;</span></div>
+<div class="line"><span class="stringliteral">    &lt;path d=&quot;M-4,0h8&quot; fill=&quot;none&quot; stroke=&quot;white&quot; stroke-width=&quot;1.5&quot; pointer-events=&quot;none&quot;/&gt;</span></div>
+<div class="line"><span class="stringliteral">  &lt;/g&gt;</span></div>
+<div class="line"><span class="stringliteral">  &lt;g id=&quot;dirArrow&quot;&gt;</span></div>
+<div class="line"><span class="stringliteral">    &lt;path fill=&quot;none&quot; stroke=&quot;white&quot; stroke-width=&quot;1.5&quot; d=&quot;M0,-3.0v7 M-2.5,-0.5L0,-3.0L2.5,-0.5&quot;/&gt;</span></div>
+<div class="line"><span class="stringliteral">  &lt;/g&gt;</span></div>
+<div class="line"><span class="stringliteral"> &lt;g id=&quot;resetDef&quot;&gt;</span></div>
+<div class="line"><span class="stringliteral">    &lt;use xlink:href=&quot;#rim2&quot; fill=&quot;#404040&quot;&gt;&lt;set attributeName=&quot;fill&quot; to=&quot;#808080&quot; begin=&quot;reset.mouseover&quot; end=&quot;reset.mouseout&quot;/&gt;&lt;/use&gt;</span></div>
+<div class="line"><span class="stringliteral"> &lt;/g&gt;</span></div>
+<div class="line"><span class="stringliteral">&lt;/defs&gt;</span></div>
+<div class="line"><span class="stringliteral">)svg&quot;</span></div>
+</div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00040">40</a> of file <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html">dotfilepatcher.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00298">DotFilePatcher::run()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/d92/dotfilepatcher_8cpp_source.html#l00305">DotFilePatcher::run()</a>.</p>
 
 </div>
 </div>

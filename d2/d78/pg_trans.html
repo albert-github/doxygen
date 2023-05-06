@@ -104,7 +104,7 @@ Lithuanian, Macedonian, Norwegian, Persian, Polish, Portuguese,
 Romanian, Russian, Serbian, SerbianCyrillic, Slovak, Slovene, Spanish,
 Swedish, Turkish, Ukrainian, and Vietnamese.
 
-Of them, 4 translators are up-to-date, 38 translators are based on
+Of them, 2 translators are up-to-date, 40 translators are based on
 some adapter class, and 2 are English based.
 
 ----------------------------------------------------------------------
@@ -113,10 +113,8 @@ alphabetically). This means that they derive from the Translator
 class, they implement all 301 of the required methods, and even minor
 problems were not spotted by the script:
 
-  TranslatorBrazilian
   TranslatorDutch
   TranslatorEnglish
-  TranslatorPortuguese
 
 ----------------------------------------------------------------------
 The following translator classes are ALMOST up-to-date (sorted
@@ -132,8 +130,10 @@ implemented to become up-to-date:
 
   TranslatorSwedish               1.9.6          9 methods to implement (2 %)
   TranslatorSpanish               1.9.6          3 methods to implement (0 %)
+  TranslatorPortuguese            1.9.6          3 methods to implement (0 %)
   TranslatorGreek                 1.9.6          3 methods to implement (0 %)
   TranslatorCzech                 1.9.6          9 methods to implement (2 %)
+  TranslatorBrazilian             1.9.6          3 methods to implement (0 %)
   TranslatorFrench                1.9.5         11 methods to implement (3 %)
   TranslatorHindi                 1.9.4         12 methods to implement (3 %)
   TranslatorChinese               1.9.4         11 methods to implement (3 %)
@@ -504,6 +504,18 @@ TranslatorArmenian   (TranslatorAdapter_1_8_0)  79 methods to implement (26 %)
     virtual QCString trStructs()
     virtual QCString trTemplateParameters()
     virtual QCString trVhdlType(uint64_t type, bool single)
+    virtual Translator()
+
+
+TranslatorBrazilian   (TranslatorAdapter_1_9_6)  3 methods to implement (0 %)
+-------------------
+
+  Implements 298 of the required methods (99 %).
+
+  Missing methods (should be implemented):
+
+    virtual QCString trDeclaration()
+    virtual QCString trDefinition()
     virtual Translator()
 
 
@@ -2146,6 +2158,18 @@ TranslatorPolish   (TranslatorAdapter_1_8_2)  71 methods to implement (23 %)
     virtual QCString trStructListDescription()
     virtual QCString trStructs()
     virtual QCString trVhdlType(uint64_t type, bool single)
+    virtual Translator()
+
+
+TranslatorPortuguese   (TranslatorAdapter_1_9_6)  3 methods to implement (0 %)
+--------------------
+
+  Implements 298 of the required methods (99 %).
+
+  Missing methods (should be implemented):
+
+    virtual QCString trDeclaration()
+    virtual QCString trDefinition()
     virtual Translator()
 
 
