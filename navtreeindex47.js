@@ -1,5 +1,7 @@
 var NAVTREEINDEX47 =
 {
+"d6/d4a/class_class_def_impl_1_1_i_m_p_l.html#acc8d8704f386b6a8c823d6bcec9cb669":[9,0,40,0,25],
+"d6/d4a/class_class_def_impl_1_1_i_m_p_l.html#ad8e5a5dbc30a9be4b0f8ee6949ea1150":[9,0,40,0,6],
 "d6/d4a/class_class_def_impl_1_1_i_m_p_l.html#adeb241130da7bfac782a62484d6e3f2c":[9,0,40,0,23],
 "d6/d4a/class_class_def_impl_1_1_i_m_p_l.html#ae49059b56ace32a91cf6c6ba91ab7dcd":[9,0,40,0,33],
 "d6/d4a/class_class_def_impl_1_1_i_m_p_l.html#ae4f1493640c8dc5c8046ddfc2fcdf73d":[9,0,40,0,29],
@@ -95,10 +97,10 @@ var NAVTREEINDEX47 =
 "d6/d6e/mandocvisitor_8h.html#a1f3a5437345b77a74c9c47e7375a863f":[10,0,2,165,2],
 "d6/d6e/mandocvisitor_8h.html#aa69b3884b5bbf1943d0aa75dde843000":[10,0,2,165,3],
 "d6/d6e/mandocvisitor_8h_source.html":[10,0,2,165],
-"d6/d71/struct_output_gen_intf_1_1start_emphasis.html":[8,0,11,99],
 "d6/d71/struct_output_gen_intf_1_1start_emphasis.html":[9,0,5,99],
-"d6/d71/struct_output_gen_intf_1_1start_emphasis.html#adc3a80fba469419b00b5535faf39ddbf":[9,0,5,99,0],
+"d6/d71/struct_output_gen_intf_1_1start_emphasis.html":[8,0,11,99],
 "d6/d71/struct_output_gen_intf_1_1start_emphasis.html#adc3a80fba469419b00b5535faf39ddbf":[8,0,11,99,0],
+"d6/d71/struct_output_gen_intf_1_1start_emphasis.html#adc3a80fba469419b00b5535faf39ddbf":[9,0,5,99,0],
 "d6/d73/class_template_immutable_struct.html":[7,0,4],
 "d6/d73/class_template_immutable_struct.html#a17d7bad840da65d9f4e2b79b8621b9f5":[7,0,4,2],
 "d6/d73/class_template_immutable_struct.html#a5c618fb5f13c1d6c8c56cb24e3bc443b":[7,0,4,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX47 =
 "d6/d78/class_translator_english.html#a6d110c1700f228c6352cf365506aa59b":[9,0,590,32],
 "d6/d78/class_translator_english.html#a6d505136d193c1a3cbff2bfca935f123":[9,0,590,94],
 "d6/d78/class_translator_english.html#a6df9102d0ae2335b438df01853e0e1c1":[9,0,590,122],
-"d6/d78/class_translator_english.html#a6eafba9f2c4cafe85405400be2dd5981":[9,0,590,272],
-"d6/d78/class_translator_english.html#a6f9a3261d1f2b39178c4f4d30df52f60":[9,0,590,137],
-"d6/d78/class_translator_english.html#a6ff1f8381cc1ea3353e98b360da9c181":[9,0,590,262]
+"d6/d78/class_translator_english.html#a6eafba9f2c4cafe85405400be2dd5981":[9,0,590,272]
 };
