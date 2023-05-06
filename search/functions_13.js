@@ -534,7 +534,7 @@ var searchData=
   ['substitutetemplatesinarglist_531',['substituteTemplatesInArgList',['../dc/d98/doxygen_8cpp.html#a3f7d02622777ba912fcf5896be16c013',1,'doxygen.cpp']]],
   ['substitutetemplatesinstring_532',['substituteTemplatesInString',['../dc/d98/doxygen_8cpp.html#a6da766398ce7fc4fd2aa252bc2f695b6',1,'doxygen.cpp']]],
   ['substr_533',['substr',['../d3/d6c/class_vhdl_string.html#ab19c70bd559db2d839ad189dba7d4308',1,'VhdlString']]],
-  ['substtypedef_534',['substTypedef',['../d9/dc5/struct_symbol_resolver_1_1_private.html#af9feb0ab3fa6f4f68ea9eddfbd6bbf6d',1,'SymbolResolver::Private']]],
+  ['substtypedef_534',['substTypedef',['../d9/dc5/struct_symbol_resolver_1_1_private.html#a7f4e3b9351519f5fc7bd31887e9eba52',1,'SymbolResolver::Private']]],
   ['subtitle_535',['subtitle',['../d8/d66/class_member_list_info_context_1_1_private.html#a3c294d17a247887e4342e7099ea90d1f',1,'MemberListInfoContext::Private::subtitle()'],['../df/df4/struct_layout_doc_entry_member_decl.html#ac0d8d0be507c58dd5c3fe02fd986369b',1,'LayoutDocEntryMemberDecl::subtitle()']]],
   ['subtype_5fdeclaration_536',['subtype_declaration',['../de/d32/classvhdl_1_1parser_1_1_vhdl_parser.html#a10094f38bc334cc969e6446fc49926ec',1,'vhdl::parser::VhdlParser']]],
   ['subtype_5findication_537',['subtype_indication',['../de/d32/classvhdl_1_1parser_1_1_vhdl_parser.html#a81ed169d9c5a3a1653edb937950e22e2',1,'vhdl::parser::VhdlParser']]],
