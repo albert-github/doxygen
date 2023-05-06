@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"d7/d7e/class_member_def_impl.html#a906aedc8907711a173132b6fa65f9d2d":[9,0,380,140],
 "d7/d7e/class_member_def_impl.html#a908b9d9c232e463e24623ff53f43eb0f":[9,0,380,77],
 "d7/d7e/class_member_def_impl.html#a91c5e94008d26ba9c95a188e25e519b7":[9,0,380,244],
 "d7/d7e/class_member_def_impl.html#a935a85197c1be9b306c89d34e1ad8cfd":[9,0,380,366],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "d7/d8f/docsets_8cpp_source.html":[10,0,2,74],
 "d7/d95/struct_char_around_space_1_1_char_elem.html":[9,0,31,0],
 "d7/d95/struct_char_around_space_1_1_char_elem.html#a2cc8bd46084123643712f05b34127f0c":[9,0,31,0,2],
-"d7/d95/struct_char_around_space_1_1_char_elem.html#a7d441df386dc9a623e1fceb6ecee09ca":[9,0,31,0,1],
-"d7/d95/struct_char_around_space_1_1_char_elem.html#ab01c6ae03f06920e324860d571aab740":[9,0,31,0,0]
+"d7/d95/struct_char_around_space_1_1_char_elem.html#a7d441df386dc9a623e1fceb6ecee09ca":[9,0,31,0,1]
 };

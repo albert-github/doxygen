@@ -1,5 +1,6 @@
 var NAVTREEINDEX120 =
 {
+"de/d82/class_translator_polish.html#a9a1e00b24df09230de3ca0ebb2cb7b1f":[9,0,609,68],
 "de/d82/class_translator_polish.html#a9d93ff45e31cb1980a348b1ca153db38":[9,0,609,151],
 "de/d82/class_translator_polish.html#a9e2e9226516e9ee52948de783b75556a":[9,0,609,96],
 "de/d82/class_translator_polish.html#a9e7ec9037ad79c76607b29fc953bc6e5":[9,0,609,109],
@@ -156,10 +157,10 @@ var NAVTREEINDEX120 =
 "de/d96/struct_filter_group_by_1_1_list_elem.html#a33c40a33c7840dc0dbefd2f6a3ad9bf0":[9,0,267,0,2],
 "de/d96/struct_filter_group_by_1_1_list_elem.html#a6ddb11d2f97e878d4268206d5a5913a4":[9,0,267,0,0],
 "de/d96/struct_filter_group_by_1_1_list_elem.html#a9f238ff84b6da7c82ed7974e4a137cd1":[9,0,267,0,1],
-"de/d96/struct_output_gen_intf_1_1start_section.html":[8,0,11,145],
 "de/d96/struct_output_gen_intf_1_1start_section.html":[9,0,5,145],
-"de/d96/struct_output_gen_intf_1_1start_section.html#a1c4b2944def8ee9dca8b259b16462982":[8,0,11,145,0],
+"de/d96/struct_output_gen_intf_1_1start_section.html":[8,0,11,145],
 "de/d96/struct_output_gen_intf_1_1start_section.html#a1c4b2944def8ee9dca8b259b16462982":[9,0,5,145,0],
+"de/d96/struct_output_gen_intf_1_1start_section.html#a1c4b2944def8ee9dca8b259b16462982":[8,0,11,145,0],
 "de/d99/struct_template_node_tree_1_1_tree_context.html":[9,0,542,0],
 "de/d99/struct_template_node_tree_1_1_tree_context.html#a367bad26a18577642f8a0c838d9063fb":[9,0,542,0,0],
 "de/d99/struct_template_node_tree_1_1_tree_context.html#a695f724c09696c175add24eceee42a18":[9,0,542,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX120 =
 "de/da5/class_man_generator.html#a5790a306ec9e67ce0a6c4598db52a9ed":[9,0,371,26],
 "de/da5/class_man_generator.html#a5831577a90e226daf7ad892dd8744d33":[9,0,371,164],
 "de/da5/class_man_generator.html#a5993316bd73c426770b1e2bb7e7c2c9c":[9,0,371,192],
-"de/da5/class_man_generator.html#a5a3d0de8665d88ae599c1d3d408356d3":[9,0,371,156],
-"de/da5/class_man_generator.html#a5ad2507f753e3c3e14b2de36aacd3593":[9,0,371,165]
+"de/da5/class_man_generator.html#a5a3d0de8665d88ae599c1d3d408356d3":[9,0,371,156]
 };
