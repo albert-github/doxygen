@@ -114,8 +114,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a28f786619e5a63c13d9f0d6233914675"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/df4/class_define_manager_1_1_defines_per_file.html#a28f786619e5a63c13d9f0d6233914675">DefinesPerFile</a> (<a class="el" href="../../d7/d10/class_define_manager.html">DefineManager</a> *<a class="el" href="../../de/d2b/docnode_8h.html#aa08872da61afee56859056e5a0612633">parent</a>)</td></tr>
 <tr class="memdesc:a28f786619e5a63c13d9f0d6233914675"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an empty container for defines.  <br /></td></tr>
 <tr class="separator:a28f786619e5a63c13d9f0d6233914675"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2028c1c6d1d07642580d35868e851def"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/df4/class_define_manager_1_1_defines_per_file.html#a2028c1c6d1d07642580d35868e851def">addInclude</a> (std::string fileName)</td></tr>
-<tr class="separator:a2028c1c6d1d07642580d35868e851def"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01d40ea9678233df1c4deaa66e8e77ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/df4/class_define_manager_1_1_defines_per_file.html#a01d40ea9678233df1c4deaa66e8e77ae">addInclude</a> (const std::string &amp;fileName)</td></tr>
+<tr class="separator:a01d40ea9678233df1c4deaa66e8e77ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf26b848a690b17547d913dbb49848e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/df4/class_define_manager_1_1_defines_per_file.html#aaf26b848a690b17547d913dbb49848e6">store</a> (const <a class="el" href="../../d0/da7/pre_8l.html#a0dd482007e6d1df4a67172cda7af1a61">DefineMap</a> &amp;fromMap)</td></tr>
 <tr class="separator:aaf26b848a690b17547d913dbb49848e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0cd2f06be4aa715612884608c79c90f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/df4/class_define_manager_1_1_defines_per_file.html#ad0cd2f06be4aa715612884608c79c90f">retrieve</a> (<a class="el" href="../../d0/da7/pre_8l.html#a0dd482007e6d1df4a67172cda7af1a61">DefineMap</a> &amp;toMap)</td></tr>
@@ -177,8 +177,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a2028c1c6d1d07642580d35868e851def" name="a2028c1c6d1d07642580d35868e851def"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2028c1c6d1d07642580d35868e851def">&#9670;&#160;</a></span>addInclude()</h2>
+<a id="a01d40ea9678233df1c4deaa66e8e77ae" name="a01d40ea9678233df1c4deaa66e8e77ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01d40ea9678233df1c4deaa66e8e77ae">&#9670;&#160;</a></span>addInclude()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -189,7 +189,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void DefineManager::DefinesPerFile::addInclude </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>fileName</em></td><td>)</td>
           <td></td>
         </tr>
@@ -286,7 +286,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  150</span>          <span class="comment">//printf(&quot;  retrieveRec #includedFiles=%zu\n&quot;,m_includedFiles.size());</span></div>
 <div class="line"><span class="lineno">  151</span>          <span class="keywordflow">for</span> (<span class="keyword">auto</span> incFile : <a class="code hl_variable" href="../../dd/df4/class_define_manager_1_1_defines_per_file.html#a77f71d39bd348ea3b3ec3ea38ae8749c">m_includedFiles</a>)</div>
 <div class="line"><span class="lineno">  152</span>          {</div>
-<div class="line"><span class="lineno">  153</span>            <a class="code hl_function" href="../../dd/df4/class_define_manager_1_1_defines_per_file.html#a28f786619e5a63c13d9f0d6233914675">DefinesPerFile</a> *dpf = <a class="code hl_variable" href="../../dd/df4/class_define_manager_1_1_defines_per_file.html#a3ce942a3afdfbec6ad3eea0096c2c012">m_parent</a>-&gt;<a class="code hl_function" href="../../d7/d10/class_define_manager.html#a8fe19b1e5e9aedeb191d8131058898aa">find</a>(incFile);</div>
+<div class="line"><span class="lineno">  153</span>            <a class="code hl_function" href="../../dd/df4/class_define_manager_1_1_defines_per_file.html#a28f786619e5a63c13d9f0d6233914675">DefinesPerFile</a> *dpf = <a class="code hl_variable" href="../../dd/df4/class_define_manager_1_1_defines_per_file.html#a3ce942a3afdfbec6ad3eea0096c2c012">m_parent</a>-&gt;<a class="code hl_function" href="../../d7/d10/class_define_manager.html#af28f29db081594e4c5adbf2894075669">find</a>(incFile);</div>
 <div class="line"><span class="lineno">  154</span>            <span class="keywordflow">if</span> (dpf &amp;&amp; includeStack.find(incFile)==includeStack.end())</div>
 <div class="line"><span class="lineno">  155</span>            {</div>
 <div class="line"><span class="lineno">  156</span>              includeStack.insert(incFile);</div>
@@ -301,7 +301,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  165</span>        }</div>
 <div class="ttc" id="aclass_define_manager_1_1_defines_per_file_html_a28f786619e5a63c13d9f0d6233914675"><div class="ttname"><a href="../../dd/df4/class_define_manager_1_1_defines_per_file.html#a28f786619e5a63c13d9f0d6233914675">DefineManager::DefinesPerFile::DefinesPerFile</a></div><div class="ttdeci">DefinesPerFile(DefineManager *parent)</div><div class="ttdoc">Creates an empty container for defines.</div><div class="ttdef"><b>Definition</b> <a href="../../d0/da7/pre_8l_source.html#l00126">pre.l:126</a></div></div>
 <div class="ttc" id="aclass_define_manager_1_1_defines_per_file_html_a62829771df09db4d985c0938a2dd17c5"><div class="ttname"><a href="../../dd/df4/class_define_manager_1_1_defines_per_file.html#a62829771df09db4d985c0938a2dd17c5">DefineManager::DefinesPerFile::m_defines</a></div><div class="ttdeci">DefineMap m_defines</div><div class="ttdef"><b>Definition</b> <a href="../../d0/da7/pre_8l_source.html#l00169">pre.l:169</a></div></div>
-<div class="ttc" id="aclass_define_manager_html_a8fe19b1e5e9aedeb191d8131058898aa"><div class="ttname"><a href="../../d7/d10/class_define_manager.html#a8fe19b1e5e9aedeb191d8131058898aa">DefineManager::find</a></div><div class="ttdeci">DefinesPerFile * find(std::string fileName) const</div><div class="ttdoc">Helper function to return the DefinesPerFile object for a given file name.</div><div class="ttdef"><b>Definition</b> <a href="../../d0/da7/pre_8l_source.html#l00223">pre.l:223</a></div></div>
+<div class="ttc" id="aclass_define_manager_html_af28f29db081594e4c5adbf2894075669"><div class="ttname"><a href="../../d7/d10/class_define_manager.html#af28f29db081594e4c5adbf2894075669">DefineManager::find</a></div><div class="ttdeci">DefinesPerFile * find(const std::string &amp;fileName) const</div><div class="ttdoc">Helper function to return the DefinesPerFile object for a given file name.</div><div class="ttdef"><b>Definition</b> <a href="../../d0/da7/pre_8l_source.html#l00223">pre.l:223</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d0/da7/pre_8l_source.html#l00223">DefineManager::find()</a>, <a class="el" href="../../d0/da7/pre_8l_source.html#l00169">m_defines</a>, <a class="el" href="../../d0/da7/pre_8l_source.html#l00170">m_includedFiles</a>, <a class="el" href="../../d0/da7/pre_8l_source.html#l00168">m_parent</a>, and <a class="el" href="../../d0/da7/pre_8l_source.html#l00148">retrieveRec()</a>.</p>
 

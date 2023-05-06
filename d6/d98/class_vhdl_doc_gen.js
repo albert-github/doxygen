@@ -42,7 +42,7 @@ var class_vhdl_doc_gen =
     [ "computeVhdlComponentRelations", "d6/d98/class_vhdl_doc_gen.html#ab8681769cd2f027fbf46a4836d3825e9", null ],
     [ "convert", "d6/d98/class_vhdl_doc_gen.html#ab1ab1504610c798f4924026a48bb4301", null ],
     [ "convertArgumentListToString", "d6/d98/class_vhdl_doc_gen.html#a1876213c101b31a44336d48b6b33e9ec", null ],
-    [ "convertFileNameToClassName", "d6/d98/class_vhdl_doc_gen.html#ac5508320d1d3754b484107c49cfec5a7", null ],
+    [ "convertFileNameToClassName", "d6/d98/class_vhdl_doc_gen.html#ad28f49b99078162fd63bd325db5c2b2b", null ],
     [ "correctMemberProperties", "d6/d98/class_vhdl_doc_gen.html#a084d328a5d3f98e4846a0b0f1499d151", null ],
     [ "createFlowChart", "d6/d98/class_vhdl_doc_gen.html#a2de08afddfa24b4a037c36ac329185ff", null ],
     [ "deleteAllChars", "d6/d98/class_vhdl_doc_gen.html#ae4bf0d0561d8ef807b56c1f29765713e", null ],

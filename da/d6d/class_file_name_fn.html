@@ -115,8 +115,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a23ccb2942b75e5ff7bc526798e42644e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6d/class_file_name_fn.html#a23ccb2942b75e5ff7bc526798e42644e">searchKey</a> (std::string input) const</td></tr>
-<tr class="separator:a23ccb2942b75e5ff7bc526798e42644e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ebf0e60c327814650a598a75ab06e4c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6d/class_file_name_fn.html#a2ebf0e60c327814650a598a75ab06e4c">searchKey</a> (const std::string &amp;input) const</td></tr>
+<tr class="separator:a2ebf0e60c327814650a598a75ab06e4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Custom combined key compare and hash functor that uses a lower case string in case CASE_SENSE_NAMES is set to NO. </p>
@@ -151,9 +151,9 @@ Private Member Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/dd6/filename_8h_source.html#l00049">49</a> of file <a class="el" href="../../dc/dd6/filename_8h_source.html">filename.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   50</span>    {</div>
-<div class="line"><span class="lineno">   51</span>      <span class="keywordflow">return</span> std::hash&lt;std::string&gt;()(<a class="code hl_function" href="../../da/d6d/class_file_name_fn.html#a23ccb2942b75e5ff7bc526798e42644e">searchKey</a>(input));</div>
+<div class="line"><span class="lineno">   51</span>      <span class="keywordflow">return</span> std::hash&lt;std::string&gt;()(<a class="code hl_function" href="../../da/d6d/class_file_name_fn.html#a2ebf0e60c327814650a598a75ab06e4c">searchKey</a>(input));</div>
 <div class="line"><span class="lineno">   52</span>    }</div>
-<div class="ttc" id="aclass_file_name_fn_html_a23ccb2942b75e5ff7bc526798e42644e"><div class="ttname"><a href="../../da/d6d/class_file_name_fn.html#a23ccb2942b75e5ff7bc526798e42644e">FileNameFn::searchKey</a></div><div class="ttdeci">std::string searchKey(std::string input) const</div><div class="ttdef"><b>Definition</b> <a href="../../dc/dd6/filename_8h_source.html#l00059">filename.h:59</a></div></div>
+<div class="ttc" id="aclass_file_name_fn_html_a2ebf0e60c327814650a598a75ab06e4c"><div class="ttname"><a href="../../da/d6d/class_file_name_fn.html#a2ebf0e60c327814650a598a75ab06e4c">FileNameFn::searchKey</a></div><div class="ttdeci">std::string searchKey(const std::string &amp;input) const</div><div class="ttdef"><b>Definition</b> <a href="../../dc/dd6/filename_8h_source.html#l00059">filename.h:59</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../dc/dd6/filename_8h_source.html#l00059">searchKey()</a>.</p>
 
@@ -197,15 +197,15 @@ Private Member Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/dd6/filename_8h_source.html#l00054">54</a> of file <a class="el" href="../../dc/dd6/filename_8h_source.html">filename.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   55</span>    {</div>
-<div class="line"><span class="lineno">   56</span>      <span class="keywordflow">return</span> <a class="code hl_function" href="../../da/d6d/class_file_name_fn.html#a23ccb2942b75e5ff7bc526798e42644e">searchKey</a>(t1) == <a class="code hl_function" href="../../da/d6d/class_file_name_fn.html#a23ccb2942b75e5ff7bc526798e42644e">searchKey</a>(t2);</div>
+<div class="line"><span class="lineno">   56</span>      <span class="keywordflow">return</span> <a class="code hl_function" href="../../da/d6d/class_file_name_fn.html#a2ebf0e60c327814650a598a75ab06e4c">searchKey</a>(t1) == <a class="code hl_function" href="../../da/d6d/class_file_name_fn.html#a2ebf0e60c327814650a598a75ab06e4c">searchKey</a>(t2);</div>
 <div class="line"><span class="lineno">   57</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../dc/dd6/filename_8h_source.html#l00059">searchKey()</a>.</p>
 
 </div>
 </div>
-<a id="a23ccb2942b75e5ff7bc526798e42644e" name="a23ccb2942b75e5ff7bc526798e42644e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23ccb2942b75e5ff7bc526798e42644e">&#9670;&#160;</a></span>searchKey()</h2>
+<a id="a2ebf0e60c327814650a598a75ab06e4c" name="a2ebf0e60c327814650a598a75ab06e4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ebf0e60c327814650a598a75ab06e4c">&#9670;&#160;</a></span>searchKey()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -216,7 +216,7 @@ Private Member Functions</h2></td></tr>
         <tr>
           <td class="memname">std::string FileNameFn::searchKey </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>input</em></td><td>)</td>
           <td> const</td>
         </tr>
