@@ -45,12 +45,12 @@
     <use xlink:href="#rim2" fill="#404040"><set attributeName="fill" to="#808080" begin="reset.mouseover" end="reset.mouseout"/></use>
   </g>
 </defs>
-<script type="text/javascript">
+<script type="application/ecmascript">
 var viewWidth = 6457;
 var viewHeight = 104;
 var sectionId = 'dynsection-1';
 </script>
-<script xlink:href="../../svg.min.js"/>
+<script type="application/ecmascript" xlink:href="../../svg.min.js"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>/home/runner/work/doxygen/doxygen/src/outputlist.h</title>
@@ -798,7 +798,7 @@ var sectionId = 'dynsection-1';
 [data-mouse-over-selected='true']  { opacity: 1.0; }
 ]]>
 </style>
-<script><![CDATA[
+<script type="application/ecmascript"><![CDATA[
 document.addEventListener('DOMContentLoaded', (event) => {
   highlightEdges();
   highlightAdjacentNodes();
